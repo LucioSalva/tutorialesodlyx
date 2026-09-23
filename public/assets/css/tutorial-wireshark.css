@@ -1,0 +1,245 @@
+/* =====================================================================
+   Tutoriales Lucio · CODLYX — estilos propios del tutorial de Wireshark
+   ---------------------------------------------------------------------
+   Se carga automáticamente porque el fichero se llama
+   tutorial-<slug>.css y existe: layouts/base.php lo detecta.
+   Aquí solo van diagramas que no tienen sentido fuera de este tutorial;
+   todo lo reutilizable vive en tutorial.css.
+
+   Contenido:
+     1. Diagramas de cabecera de protocolo (.hdr)
+     2. Mapa de bytes campo↔hexadecimal (.bytemap)
+     3. Secuencia DORA de DHCP (.dora)
+     4. Línea temporal de beaconing (.beacon)
+   ===================================================================== */
+
+/* ---------------- 1. Cabecera de protocolo ------------------------- */
+/* Cada fila es una palabra de 32 bits; el ancho de cada campo se pasa
+   con flex en línea, proporcional a sus bits, para que el dibujo sea
+   fiel al reparto real de la cabecera. */
+.hdr {
+  margin: 26px 0 28px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.hdr__row {
+  display: flex;
+  min-width: 560px;
+  border-bottom: 1px solid transparent;
+}
+.hdr__row + .hdr__row { margin-top: 4px; }
+.hdr__f {
+  min-width: 0;
+  padding: 10px 6px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  overflow: hidden;
+}
+.hdr__f + .hdr__f { margin-left: 4px; }
+.hdr__f b {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hdr__f span { display: block; font-size: 9.5px; opacity: .7; margin-top: 2px; }
+
+.hdr .l2 { color: var(--tl-l2); border-color: var(--tl-l2); background: var(--tl-l2-soft); }
+.hdr .l3 { color: var(--tl-l3); border-color: var(--tl-l3); background: var(--tl-l3-soft); }
+.hdr .l4 { color: var(--tl-l4); border-color: var(--tl-l4); background: var(--tl-l4-soft); }
+.hdr .l7 { color: var(--tl-l7); border-color: var(--tl-l7); background: var(--tl-l7-soft); }
+
+/* Campo destacado: el que el texto está explicando en ese momento. */
+.hdr .hot {
+  outline: 2px solid var(--dv-accent);
+  outline-offset: 1px;
+  font-weight: 700;
+}
+
+/* Regla de bits sobre el diagrama de IPv4. */
+.hdr__scale {
+  display: flex;
+  justify-content: space-between;
+  min-width: 560px;
+  margin-bottom: 6px;
+  padding: 0 4px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  color: var(--dv-text-muted);
+}
+
+.hdr figcaption {
+  margin-top: 12px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+  text-align: center;
+}
+
+/* -------------------- 2. Mapa de bytes ----------------------------- */
+/* Reproduce el panel inferior de Wireshark: offset a la izquierda y
+   bytes en hexadecimal, coloreados por la capa a la que pertenecen. */
+.bytemap {
+  margin: 24px 0 20px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  background: var(--tl-term-bg);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+}
+.bytemap__row {
+  display: flex;
+  gap: 16px;
+  min-width: 480px;
+  align-items: baseline;
+}
+.bytemap__row + .bytemap__row { margin-top: 6px; }
+.bytemap__off {
+  flex: none;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--tl-term-comment);
+  user-select: none;
+}
+.bytemap__hex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12.5px;
+}
+.bytemap .b { padding: 1px 4px; border-radius: 2px; white-space: nowrap; }
+.bytemap .l2 { color: var(--tl-l2); background: var(--tl-l2-soft); }
+.bytemap .l3 { color: var(--tl-l3); background: var(--tl-l3-soft); }
+.bytemap .l4 { color: var(--tl-l4); background: var(--tl-l4-soft); }
+.bytemap .l7 { color: var(--tl-l7); background: var(--tl-l7-soft); }
+.bytemap .hot {
+  outline: 2px solid var(--dv-accent);
+  outline-offset: 1px;
+  font-weight: 700;
+}
+.bytemap figcaption {
+  margin-top: 14px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--dv-text-muted);
+}
+
+/* ------------------------ 3. DORA ---------------------------------- */
+.dora { margin: 24px 0 26px; }
+.dora__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  counter-reset: dora;
+}
+@media (min-width: 820px) { .dora__list { grid-template-columns: repeat(4, 1fr); } }
+.dora__list > li {
+  position: relative;
+  padding: 16px 16px 14px;
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-top: 2px solid var(--tl-l4);
+  border-radius: var(--dv-radius-sm);
+}
+.dora__k {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px; height: 26px;
+  margin-bottom: 8px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--dv-text-inverse);
+  background: var(--tl-l4);
+  border-radius: 3px;
+}
+.dora__list b {
+  display: block;
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: 15px;
+  color: var(--dv-text-primary);
+  margin-bottom: 4px;
+}
+.dora__list span:not(.dora__k) {
+  display: block;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--dv-text-secondary);
+}
+/* Flecha entre pasos, solo cuando están en fila. */
+@media (min-width: 820px) {
+  .dora__list > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    width: 6px; height: 6px;
+    border-top: 2px solid var(--dv-border-strong);
+    border-right: 2px solid var(--dv-border-strong);
+    transform: translateY(-50%) rotate(45deg);
+  }
+}
+.dora figcaption {
+  margin-top: 12px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+  text-align: center;
+}
+
+/* -------------------- 4. Beaconing --------------------------------- */
+/* Dos líneas temporales comparadas: la regular de un latido automático
+   y la irregular de una persona navegando. */
+.beacon {
+  margin: 24px 0 26px;
+  padding: 20px 18px 16px;
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+}
+.beacon__line {
+  position: relative;
+  height: 34px;
+  margin: 0 4px;
+  border-bottom: 1px solid var(--dv-border-strong);
+}
+.beacon__t {
+  position: absolute;
+  bottom: 0;
+  width: 3px;
+  height: 26px;
+  margin-left: -1.5px;
+  border-radius: 2px 2px 0 0;
+  background: var(--tl-l7);
+}
+.beacon__line--human { margin-top: 22px; }
+.beacon__line--human .beacon__t { background: var(--tl-l3); height: 18px; }
+.beacon__lbl {
+  margin: 7px 4px 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+}
+.beacon figcaption {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--dv-border-subtle);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .hdr__f b { font-size: 10.5px; }
+  .bytemap { padding: 12px; }
+}

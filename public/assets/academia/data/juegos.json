@@ -1,0 +1,3546 @@
+{
+  "juegos": [
+    {
+      "slug": "laberinto-directorios",
+      "nombre": "Laberinto de directorios",
+      "numero": 1,
+      "motor": "phaser",
+      "archivo": "laberinto.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Muévete por un mapa de carpetas escribiendo comandos de navegación hasta encontrar el archivo perdido.",
+      "aprende": [
+        "pwd",
+        "ls",
+        "cd",
+        "rutas relativas",
+        "rutas absolutas"
+      ],
+      "mecanica": "Cada sala del mapa es un directorio de verdad. Escribes comandos en la terminal y el personaje se mueve según lo que ejecutes: cd entra, ls enciende la luz de la sala y cat lee lo que encuentres.",
+      "controles": "Teclado: escribe en la terminal (↑ ↓ recuperan comandos, Tab completa). Táctil: los botones de arriba escriben el comando por ti.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Primer pasillo",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Encuentra llave.txt en algún lugar de tu carpeta personal y léelo.",
+          "mapa": {
+            "raiz": "/home/alumno",
+            "objetivo": "/home/alumno/proyectos/web",
+            "profundidad": 3
+          },
+          "preparar": {
+            "escribir": [
+              {
+                "ruta": "/home/alumno/proyectos/web/llave.txt",
+                "contenido": "CODIGO: ABRE-LA-PUERTA\n"
+              }
+            ]
+          },
+          "meta": {
+            "tipo": "salida-incluye",
+            "texto": "ABRE-LA-PUERTA"
+          },
+          "optimo": 3,
+          "pistas": [
+            "Antes de moverte, mira qué salas hay: <code>ls</code> desde donde estás.",
+            "La sala marcada con ★ es <code>proyectos/web</code>. Puedes entrar en dos pasos o en uno solo: <code>cd proyectos/web</code>.",
+            "Una vez dentro, <code>ls</code> te enseña el archivo y <code>cat llave.txt</code> lo lee."
+          ],
+          "solucion": [
+            "cd proyectos/web",
+            "ls",
+            "cat llave.txt"
+          ],
+          "explicacion": "Has encadenado los tres comandos de orientación: ls para ver, cd para entrar y cat para leer. Con cd puedes recorrer varios niveles de una vez separándolos con /.",
+          "xp": 30
+        },
+        {
+          "id": "2",
+          "nombre": "Volver sobre tus pasos",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Empiezas dentro de documentos. La pista está en imagenes: llega y léela.",
+          "mapa": {
+            "raiz": "/home/alumno",
+            "objetivo": "/home/alumno/imagenes",
+            "profundidad": 2
+          },
+          "preparar": {
+            "cwd": "/home/alumno/documentos",
+            "escribir": [
+              {
+                "ruta": "/home/alumno/imagenes/pista-revelada.txt",
+                "contenido": "SUBE-Y-GIRA\n"
+              }
+            ]
+          },
+          "meta": {
+            "tipo": "salida-incluye",
+            "texto": "SUBE-Y-GIRA"
+          },
+          "optimo": 3,
+          "pistas": [
+            "Desde documentos no se ve imagenes: son hermanas, no una dentro de otra. Hay que subir primero.",
+            "<code>..</code> significa «el directorio de encima». Prueba <code>cd ..</code> y vuelve a mirar con <code>ls</code>.",
+            "También sirve de una vez: <code>cd ../imagenes</code>."
+          ],
+          "solucion": [
+            "cd ..",
+            "cd imagenes",
+            "cat pista-revelada.txt"
+          ],
+          "explicacion": "Para ir a una carpeta hermana hay que subir al padre común. Eso es <code>..</code>, y se puede encadenar: <code>../imagenes</code> sube uno y baja al otro lado.",
+          "xp": 30
+        },
+        {
+          "id": "3",
+          "nombre": "Fuera de casa: ruta absoluta",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "El registro del sistema está en /var/log/sistema.log, fuera de tu carpeta. Léelo y localiza el aviso del disco.",
+          "mapa": {
+            "raiz": "/",
+            "objetivo": "/var/log",
+            "profundidad": 2
+          },
+          "meta": {
+            "tipo": "salida-incluye",
+            "texto": "WARN disco al 81%"
+          },
+          "optimo": 2,
+          "pistas": [
+            "Tu carpeta personal no contiene /var: hay que salir del home. Las rutas que empiezan por <code>/</code> funcionan desde cualquier sitio.",
+            "Puedes viajar con <code>cd /var/log</code> y luego leer, o leer directamente dando la ruta entera.",
+            "<code>cat /var/log/sistema.log</code> funciona estés donde estés."
+          ],
+          "solucion": [
+            "cd /var/log",
+            "cat sistema.log"
+          ],
+          "explicacion": "Una ruta absoluta empieza en la raíz <code>/</code> y no depende de dónde estés; una relativa se interpreta desde el directorio actual. Cuando algo está lejos, la absoluta es más corta y más segura.",
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "El laberinto de Windows",
+          "dificultad": "basico",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Encuentra clave.txt en el perfil de usuario y muéstralo por pantalla.",
+          "mapa": {
+            "raiz": "C:\\Users\\Alumno",
+            "objetivo": "C:\\Users\\Alumno\\Downloads",
+            "profundidad": 2
+          },
+          "preparar": {
+            "escribir": [
+              {
+                "ruta": "C:\\Users\\Alumno\\Downloads\\clave.txt",
+                "contenido": "CLAVE-CMD-42\r\n"
+              }
+            ]
+          },
+          "meta": {
+            "tipo": "salida-incluye",
+            "texto": "CLAVE-CMD-42"
+          },
+          "optimo": 3,
+          "pistas": [
+            "En CMD se mira con <code>dir</code>, no con <code>ls</code>.",
+            "Las rutas de Windows usan la barra invertida: <code>cd Downloads</code>.",
+            "Para ver el contenido de un archivo, <code>type clave.txt</code>."
+          ],
+          "solucion": [
+            "dir",
+            "cd Downloads",
+            "type clave.txt"
+          ],
+          "explicacion": "Mismos conceptos, distintas palabras: dir en vez de ls, type en vez de cat y <code>\\</code> como separador. Además, <code>cd</code> a secas en CMD no te lleva a casa: imprime dónde estás.",
+          "xp": 30
+        },
+        {
+          "id": "5",
+          "nombre": "El laberinto con cmdlets",
+          "dificultad": "intermedio",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Llega a la carpeta Scripts y lee el contenido de hola.ps1.",
+          "mapa": {
+            "raiz": "C:\\Users\\Alumno",
+            "objetivo": "C:\\Users\\Alumno\\Scripts",
+            "profundidad": 2
+          },
+          "meta": {
+            "tipo": "salida-incluye",
+            "texto": "Hola desde un script"
+          },
+          "optimo": 3,
+          "pistas": [
+            "PowerShell nombra los cmdlets Verbo-Sustantivo: para listar, <code>Get-ChildItem</code>.",
+            "Para cambiar de carpeta, <code>Set-Location Scripts</code> (sus alias <code>cd</code> y <code>sl</code> también valen).",
+            "Para leer un archivo, <code>Get-Content hola.ps1</code>."
+          ],
+          "solucion": [
+            "Get-ChildItem",
+            "Set-Location Scripts",
+            "Get-Content hola.ps1"
+          ],
+          "explicacion": "PowerShell mantiene los alias de Linux y de CMD (ls, dir, cd) pero los cmdlets reales son Verbo-Sustantivo, y devuelven objetos en vez de texto. Por eso más adelante se pueden filtrar con Where-Object.",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "slug": "rescate-archivos",
+      "nombre": "Rescate de archivos",
+      "numero": 2,
+      "motor": "phaser",
+      "archivo": "rescate.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Hay archivos en la carpeta equivocada. Colócalos en su sitio distinguiendo cuándo hay que copiar y cuándo mover.",
+      "aprende": [
+        "mkdir",
+        "cp",
+        "mv",
+        "copy",
+        "move",
+        "Copy-Item",
+        "Move-Item"
+      ],
+      "mecanica": "Cada encargo te dice qué archivo hay que llevar y a dónde. La pantalla lee el sistema de archivos tras cada comando: cuando un archivo llega a su sitio, su ficha se pone en verde.",
+      "controles": "Teclado: escribe los comandos. Táctil: los botones proponen el comando de cada encargo pendiente.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Cada cosa en su sitio",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Dos archivos han quedado sueltos en tu carpeta personal. Muévelos a la carpeta que les corresponde.",
+          "preparar": {
+            "escribir": [
+              {
+                "ruta": "/home/alumno/foto-playa.jpg",
+                "contenido": "JPEG"
+              },
+              {
+                "ruta": "/home/alumno/apuntes.txt",
+                "contenido": "apuntes de clase\n"
+              }
+            ]
+          },
+          "objetivos": [
+            {
+              "archivo": "foto-playa.jpg",
+              "origen": "/home/alumno/foto-playa.jpg",
+              "destino": "/home/alumno/imagenes",
+              "modo": "mover"
+            },
+            {
+              "archivo": "apuntes.txt",
+              "origen": "/home/alumno/apuntes.txt",
+              "destino": "/home/alumno/documentos",
+              "modo": "mover"
+            }
+          ],
+          "meta": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/imagenes/foto-playa.jpg"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/foto-playa.jpg"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/documentos/apuntes.txt"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/apuntes.txt"
+              }
+            ]
+          },
+          "optimo": 2,
+          "pistas": [
+            "Mover es <code>mv origen destino</code>. Si el destino es una carpeta que existe, el archivo conserva su nombre.",
+            "Puedes comprobar dónde está cada cosa con <code>ls</code> y <code>ls imagenes</code>.",
+            "<code>mv foto-playa.jpg imagenes/</code> y luego lo mismo con apuntes.txt."
+          ],
+          "solucion": [
+            "mv foto-playa.jpg imagenes/",
+            "mv apuntes.txt documentos/"
+          ],
+          "explicacion": "mv cambia un archivo de sitio: desaparece del origen y aparece en el destino. Cuando el destino es una carpeta, basta con nombrarla.",
+          "xp": 25
+        },
+        {
+          "id": "2",
+          "nombre": "Copia de seguridad, no mudanza",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Guarda una copia de informe.txt en backups SIN que desaparezca de documentos.",
+          "objetivos": [
+            {
+              "archivo": "informe.txt",
+              "origen": "/home/alumno/documentos/informe.txt",
+              "destino": "/home/alumno/backups",
+              "modo": "copiar"
+            }
+          ],
+          "meta": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/backups/informe.txt"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/documentos/informe.txt"
+              }
+            ]
+          },
+          "optimo": 1,
+          "pistas": [
+            "Aquí no vale mover: el original tiene que quedarse donde está.",
+            "El comando que duplica es <code>cp</code>, y necesita origen y destino.",
+            "<code>cp documentos/informe.txt backups/</code>"
+          ],
+          "solucion": [
+            "cp documentos/informe.txt backups/"
+          ],
+          "explicacion": "cp duplica y mv traslada. Confundirlos es el error más caro del principio: con mv el original ya no está, y si era el único, se acabó.",
+          "xp": 30
+        },
+        {
+          "id": "3",
+          "nombre": "Una carpeta nueva para las hojas",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Crea documentos/hojas y lleva allí la hoja de cálculo lista.csv.",
+          "objetivos": [
+            {
+              "archivo": "lista.csv",
+              "origen": "/home/alumno/documentos/lista.csv",
+              "destino": "/home/alumno/documentos/hojas",
+              "modo": "mover"
+            }
+          ],
+          "meta": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "es-directorio",
+                "ruta": "/home/alumno/documentos/hojas"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/documentos/hojas/lista.csv"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/documentos/lista.csv"
+              }
+            ]
+          },
+          "optimo": 2,
+          "pistas": [
+            "El destino todavía no existe: hay que crearlo antes de mover nada.",
+            "<code>mkdir documentos/hojas</code> crea la carpeta.",
+            "Después, <code>mv documentos/lista.csv documentos/hojas/</code>."
+          ],
+          "solucion": [
+            "mkdir documentos/hojas",
+            "mv documentos/lista.csv documentos/hojas/"
+          ],
+          "explicacion": "mv no inventa carpetas: si el destino no existe, interpreta que quieres renombrar el archivo con ese nombre. Por eso primero se crea la carpeta con mkdir.",
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "Orden en Windows",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Mueve el instalador a Backups y guarda además una copia de notas.txt, sin perder el original.",
+          "objetivos": [
+            {
+              "archivo": "instalador.exe",
+              "origen": "C:\\Users\\Alumno\\Downloads\\instalador.exe",
+              "destino": "C:\\Users\\Alumno\\Backups",
+              "modo": "mover"
+            },
+            {
+              "archivo": "notas.txt",
+              "origen": "C:\\Users\\Alumno\\Documents\\notas.txt",
+              "destino": "C:\\Users\\Alumno\\Backups",
+              "modo": "copiar"
+            }
+          ],
+          "meta": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Backups\\instalador.exe"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "C:\\Users\\Alumno\\Downloads\\instalador.exe"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+              }
+            ]
+          },
+          "optimo": 2,
+          "pistas": [
+            "En CMD, mover es <code>move</code> y copiar es <code>copy</code>. Son dos comandos distintos, como mv y cp.",
+            "Las rutas llevan barra invertida: <code>Downloads\\instalador.exe</code>.",
+            "<code>move Downloads\\instalador.exe Backups</code> y <code>copy Documents\\notas.txt Backups</code>."
+          ],
+          "solucion": [
+            "move Downloads\\instalador.exe Backups",
+            "copy Documents\\notas.txt Backups"
+          ],
+          "explicacion": "copy duplica y move traslada, igual que cp y mv. Ojo: copy no sabe copiar carpetas enteras; para eso están xcopy /E /I y robocopy.",
+          "xp": 35
+        },
+        {
+          "id": "5",
+          "nombre": "Cmdlets que ordenan",
+          "dificultad": "intermedio",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Crea la carpeta Backups\\2026, lleva allí paquete.zip y guarda una copia de notas.txt.",
+          "objetivos": [
+            {
+              "archivo": "paquete.zip",
+              "origen": "C:\\Users\\Alumno\\Downloads\\paquete.zip",
+              "destino": "C:\\Users\\Alumno\\Backups\\2026",
+              "modo": "mover"
+            },
+            {
+              "archivo": "notas.txt",
+              "origen": "C:\\Users\\Alumno\\Documents\\notas.txt",
+              "destino": "C:\\Users\\Alumno\\Backups\\2026",
+              "modo": "copiar"
+            }
+          ],
+          "meta": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "es-directorio",
+                "ruta": "C:\\Users\\Alumno\\Backups\\2026"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Backups\\2026\\paquete.zip"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "C:\\Users\\Alumno\\Downloads\\paquete.zip"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Backups\\2026\\notas.txt"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+              }
+            ]
+          },
+          "optimo": 3,
+          "pistas": [
+            "Para crear una carpeta: <code>New-Item -ItemType Directory Backups\\2026</code>.",
+            "Mover es <code>Move-Item</code> y copiar es <code>Copy-Item</code>: el verbo lo dice todo.",
+            "<code>Move-Item Downloads\\paquete.zip Backups\\2026</code> y <code>Copy-Item Documents\\notas.txt Backups\\2026</code>."
+          ],
+          "solucion": [
+            "New-Item -ItemType Directory Backups\\2026",
+            "Move-Item Downloads\\paquete.zip Backups\\2026",
+            "Copy-Item Documents\\notas.txt Backups\\2026"
+          ],
+          "explicacion": "Los cmdlets se leen solos: Move-Item mueve, Copy-Item copia y New-Item crea. El parámetro -ItemType decide si lo nuevo es un archivo o una carpeta.",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "detective-terminal",
+      "nombre": "Detective de la terminal",
+      "numero": 3,
+      "motor": "dom",
+      "archivo": "detective.js",
+      "os": [
+        "linux",
+        "cmd"
+      ],
+      "resumen": "Investiga un sistema con los comandos que ya conoces y responde quién, qué y cuándo a partir de lo que encuentres.",
+      "aprende": [
+        "ls -a",
+        "cat",
+        "grep",
+        "ps",
+        "tasklist",
+        "leer registros"
+      ],
+      "mecanica": "Tienes una terminal real y una libreta. Las evidencias se anotan solas cuando ejecutas el comando que las descubre; al final entregas tus conclusiones.",
+      "controles": "Escribe comandos en la terminal. Rellena las conclusiones en la libreta y pulsa «Entregar conclusiones».",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "El borrador que nadie admite",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Encuentra el archivo oculto que alguien dejó en documentos y averigua quién lo firmó.",
+          "intro": "En la carpeta de documentos hay un borrador que no aparece al listar normalmente. Alguien lo dejó ahí y no lo reconoce.",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "/home/alumno/documentos/.borrador-secreto.txt",
+                "contenido": "Propuesta sin revisar.\nNo publicar todavia.\nFirmado: lucia\n",
+                "propietario": "lucia",
+                "grupo": "redaccion",
+                "modo": "640"
+              }
+            ]
+          },
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "En documentos hay un archivo oculto: .borrador-secreto.txt",
+              "oculta": "¿Hay algo que no se ve al listar?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": ".borrador-secreto"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "El borrador está firmado por lucia",
+              "oculta": "¿Qué dice el archivo por dentro?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Firmado: lucia"
+              }
+            },
+            {
+              "id": "e3",
+              "texto": "El propietario del archivo es lucia, del grupo redaccion",
+              "oculta": "¿De quién es el archivo?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "lucia"
+              }
+            }
+          ],
+          "preguntas": [
+            {
+              "id": "p1",
+              "tipo": "texto",
+              "pregunta": "¿Cómo se llama el archivo oculto?",
+              "respuesta": ".borrador-secreto.txt",
+              "acepta": [
+                "borrador-secreto.txt",
+                "borrador-secreto"
+              ],
+              "ejemplo": ".nombre.txt",
+              "explica": "Los archivos que empiezan por punto no salen con ls a secas: hace falta ls -a.",
+              "orientacion": "Prueba a listar incluyendo los ocultos."
+            },
+            {
+              "id": "p2",
+              "tipo": "texto",
+              "pregunta": "¿Quién firma el borrador?",
+              "respuesta": "lucia",
+              "explica": "El contenido lo dice en la última línea, y ls -l confirma que el archivo es suyo."
+            }
+          ],
+          "pistas": [
+            "ls normal no enseña todo lo que hay en una carpeta.",
+            "ls -la muestra los ocultos y de paso su propietario.",
+            "Para leer el contenido, cat NOMBRE."
+          ],
+          "comandosClave": [
+            "ls -la documentos",
+            "cat documentos/.borrador-secreto.txt"
+          ],
+          "explica": "Un archivo oculto solo es un archivo cuyo nombre empieza por punto: no está protegido, solo discreto.",
+          "xp": 30
+        },
+        {
+          "id": "2",
+          "nombre": "La hora del apagón",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-servidor",
+          "objetivo": "Averigua a qué hora falló el servidor web y por qué no pudo arrancar.",
+          "intro": "El sitio dejó de responder esta mañana. Tienes los registros del sistema y los del servidor web.",
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "El registro del sistema marca un ERROR a las 09:41",
+              "oculta": "¿Qué dice el registro del sistema?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "ERROR 09:41"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "nginx no pudo ocupar el puerto 80: Address already in use",
+              "oculta": "¿Qué dice el registro de nginx?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Address already in use"
+              }
+            },
+            {
+              "id": "e3",
+              "texto": "Hay un python3 escuchando en el puerto 80",
+              "oculta": "¿Quién tiene ocupado el puerto?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "python3"
+              }
+            }
+          ],
+          "preguntas": [
+            {
+              "id": "p1",
+              "tipo": "texto",
+              "pregunta": "¿A qué hora se registró el error? (formato HH:MM)",
+              "respuesta": "09:41",
+              "acepta": [
+                "9:41"
+              ],
+              "ejemplo": "09:41",
+              "explica": "Lo dice tanto sistema.log como el error.log de nginx."
+            },
+            {
+              "id": "p2",
+              "tipo": "opciones",
+              "pregunta": "¿Por qué no arrancó nginx?",
+              "opciones": [
+                "Faltaba el archivo de configuración",
+                "El puerto 80 ya estaba ocupado por otro proceso",
+                "No había espacio en disco",
+                "El servicio estaba deshabilitado"
+              ],
+              "respuesta": "El puerto 80 ya estaba ocupado por otro proceso",
+              "explica": "«bind() to 0.0.0.0:80 failed (98: Address already in use)» significa exactamente eso: alguien llegó antes al puerto."
+            }
+          ],
+          "pistas": [
+            "Los registros del sistema viven en /var/log.",
+            "cat /var/log/nginx/error.log cuenta el motivo exacto.",
+            "ss o ps te dicen quién ocupa el puerto 80."
+          ],
+          "comandosClave": [
+            "cat /var/log/sistema.log",
+            "cat /var/log/nginx/error.log",
+            "ss",
+            "ps aux"
+          ],
+          "explica": "Un servicio que no arranca casi siempre lo explica en su propio registro. El mensaje «Address already in use» señala al culpable sin rodeos.",
+          "xp": 40
+        },
+        {
+          "id": "3",
+          "nombre": "Un proceso de más",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Localiza el proceso que no debería estar corriendo y di con qué PID y qué usuario lo lanzó.",
+          "intro": "El equipo va lento desde ayer. Alguien dejó algo corriendo.",
+          "preparar": {
+            "procesos": [
+              {
+                "pid": 4711,
+                "usuario": "alumno",
+                "comando": "minero-cripto --fondo",
+                "cpu": 88.4,
+                "mem": 12.1,
+                "tty": "?"
+              }
+            ]
+          },
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "Hay un proceso llamado minero-cripto consumiendo el 88% de CPU",
+              "oculta": "¿Qué se está ejecutando?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "minero-cripto"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "El proceso ya no está: lo has parado",
+              "oculta": "¿Se puede parar?",
+              "validador": {
+                "tipo": "proceso-ausente",
+                "nombre": "minero-cripto"
+              }
+            }
+          ],
+          "preguntas": [
+            {
+              "id": "p1",
+              "tipo": "texto",
+              "pregunta": "¿Cuál es el PID del proceso sospechoso?",
+              "respuesta": "4711",
+              "ejemplo": "1234",
+              "explica": "ps aux lo muestra en la segunda columna."
+            },
+            {
+              "id": "p2",
+              "tipo": "texto",
+              "pregunta": "¿Qué usuario lo está ejecutando?",
+              "respuesta": "alumno",
+              "explica": "La primera columna de ps aux es el usuario propietario del proceso."
+            }
+          ],
+          "pistas": [
+            "ps aux enseña todos los procesos con su consumo.",
+            "top los ordena por CPU: el sospechoso sale arriba.",
+            "Para pararlo: kill PID."
+          ],
+          "comandosClave": [
+            "ps aux",
+            "top",
+            "kill 4711"
+          ],
+          "explica": "Un proceso que come CPU se ve en ps o top. Antes de matarlo conviene anotar quién lo lanzó y con qué orden exacta.",
+          "xp": 40
+        },
+        {
+          "id": "4",
+          "nombre": "Rastro en Windows",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Encuentra el archivo oculto en Descargas y el proceso que más memoria consume.",
+          "intro": "Un equipo con Windows va justo de memoria y hay un archivo que no aparece al listar Descargas.",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "C:\\Users\\Alumno\\Downloads\\.registro-oculto.txt",
+                "contenido": "descarga automatica programada\r\norigen: actualizador.lab\r\n"
+              }
+            ]
+          },
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "En Descargas hay un archivo oculto: .registro-oculto.txt",
+              "oculta": "¿Hay algo que dir no enseña?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": ".registro-oculto"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "chrome.exe es el proceso que más memoria usa",
+              "oculta": "¿Qué proceso consume más?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "chrome.exe"
+              }
+            }
+          ],
+          "preguntas": [
+            {
+              "id": "p1",
+              "tipo": "texto",
+              "pregunta": "¿Qué proceso consume más memoria?",
+              "respuesta": "chrome.exe",
+              "acepta": [
+                "chrome"
+              ],
+              "explica": "tasklist muestra el uso de memoria en la última columna."
+            },
+            {
+              "id": "p2",
+              "tipo": "texto",
+              "pregunta": "¿De qué origen dice venir la descarga oculta?",
+              "respuesta": "actualizador.lab",
+              "explica": "Lo pone dentro del archivo: se lee con type."
+            }
+          ],
+          "pistas": [
+            "En CMD, dir /A enseña también los archivos ocultos.",
+            "type ARCHIVO muestra el contenido.",
+            "tasklist lista los procesos con su memoria."
+          ],
+          "comandosClave": [
+            "dir /A Downloads",
+            "type Downloads\\.registro-oculto.txt",
+            "tasklist"
+          ],
+          "explica": "Las ideas son las mismas que en Linux, pero las herramientas cambian: dir /A en vez de ls -a, type en vez de cat y tasklist en vez de ps.",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "guardian-permisos",
+      "nombre": "Guardián de permisos",
+      "numero": 4,
+      "motor": "dom",
+      "archivo": "permisos.js",
+      "os": [
+        "linux",
+        "cmd"
+      ],
+      "resumen": "Arregla permisos rotos: llaves que lee todo el mundo, scripts que no se pueden ejecutar y directorios en los que no se puede entrar.",
+      "aprende": [
+        "chmod",
+        "chown",
+        "rwx y los números",
+        "permisos de directorio"
+      ],
+      "mecanica": "Una tabla muestra cada archivo con sus permisos actuales y los que debería tener. Los arreglas desde la terminal y la tabla se actualiza sola.",
+      "controles": "Terminal para escribir chmod y chown. El decodificador lateral traduce entre rwx y números.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Una llave demasiado pública",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Deja la llave privada con permisos 600: solo su dueño debe poder leerla.",
+          "intro": "La llave privada de SSH la puede leer cualquier usuario del sistema. Con esos permisos, el cliente de SSH se niega a usarla.",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "/home/alumno/.ssh/id_ed25519",
+                "contenido": "CLAVE PRIVADA DE LABORATORIO\n",
+                "modo": "644"
+              },
+              {
+                "ruta": "/home/alumno/.ssh/id_ed25519.pub",
+                "contenido": "ssh-ed25519 AAAA... alumno@academia\n",
+                "modo": "644"
+              }
+            ]
+          },
+          "objetivos": [
+            {
+              "ruta": "/home/alumno/.ssh/id_ed25519",
+              "modo": "600",
+              "porque": "La privada solo la lee su dueño."
+            }
+          ],
+          "pistas": [
+            "El número que buscas deja lectura y escritura solo al propietario.",
+            "r=4 y w=2, así que 4+2=6 para el dueño y 0 para los demás.",
+            "chmod 600 ~/.ssh/id_ed25519"
+          ],
+          "solucion": [
+            "chmod 600 /home/alumno/.ssh/id_ed25519"
+          ],
+          "explica": "600 significa rw------- : el dueño lee y escribe, y nadie más tiene nada. La pública puede seguir en 644 porque es pública.",
+          "xp": 25
+        },
+        {
+          "id": "2",
+          "nombre": "Un script que no arranca",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Haz que el script copia.sh se pueda ejecutar (755).",
+          "intro": "El script existe y su contenido es correcto, pero al lanzarlo el sistema dice «permiso denegado».",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "/home/alumno/proyectos/copia.sh",
+                "contenido": "#!/bin/bash\ncp -r web /home/alumno/backups/\n",
+                "modo": "644"
+              }
+            ]
+          },
+          "objetivos": [
+            {
+              "ruta": "/home/alumno/proyectos/copia.sh",
+              "modo": "755",
+              "porque": "Ejecutable para todos, escribible solo por el dueño."
+            }
+          ],
+          "pistas": [
+            "Un archivo de texto no se ejecuta aunque empiece por #!/bin/bash.",
+            "Falta el bit x, que vale 1.",
+            "chmod 755 o chmod +x."
+          ],
+          "solucion": [
+            "chmod 755 /home/alumno/proyectos/copia.sh"
+          ],
+          "explica": "755 es rwxr-xr-x: el dueño puede cambiarlo y todos pueden ejecutarlo. Con chmod +x también se consigue, partiendo de 644.",
+          "xp": 25
+        },
+        {
+          "id": "3",
+          "nombre": "Un directorio cerrado a cal y canto",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Devuelve al directorio privado sus permisos 700 y arregla el informe que hay dentro (640).",
+          "intro": "Alguien dejó un directorio con permisos raros: ni siquiera su dueño puede entrar, y el informe de dentro lo lee todo el mundo.",
+          "preparar": {
+            "directorios": [
+              {
+                "ruta": "/home/alumno/privado",
+                "modo": "600"
+              }
+            ],
+            "archivos": [
+              {
+                "ruta": "/home/alumno/privado/informe-confidencial.txt",
+                "contenido": "Cifras del trimestre\n",
+                "modo": "666"
+              }
+            ]
+          },
+          "objetivos": [
+            {
+              "ruta": "/home/alumno/privado",
+              "modo": "700",
+              "porque": "En un directorio, x significa «poder entrar»."
+            },
+            {
+              "ruta": "/home/alumno/privado/informe-confidencial.txt",
+              "modo": "640",
+              "porque": "El dueño escribe, el grupo lee, los demás nada."
+            }
+          ],
+          "pistas": [
+            "En un directorio, el bit x no significa ejecutar: significa entrar.",
+            "700 = rwx para el dueño y nada para el resto.",
+            "El informe necesita 640: 6 para el dueño, 4 para el grupo, 0 para otros."
+          ],
+          "solucion": [
+            "chmod 700 /home/alumno/privado",
+            "chmod 640 /home/alumno/privado/informe-confidencial.txt"
+          ],
+          "explica": "Un directorio sin x es una carpeta en la que no se puede entrar aunque se pueda leer su nombre. Y 666 en un archivo es una puerta abierta a escritura para cualquiera.",
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "El dueño equivocado",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Devuelve al usuario alumno la propiedad de sus notas y deja el archivo en 644.",
+          "intro": "Una copia hecha con sudo dejó el archivo a nombre de root. Su dueño ya no puede escribir en él.",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "/home/alumno/documentos/notas-recuperadas.txt",
+                "contenido": "Notas recuperadas del backup\n",
+                "modo": "600",
+                "propietario": "root",
+                "grupo": "root"
+              }
+            ]
+          },
+          "objetivos": [
+            {
+              "ruta": "/home/alumno/documentos/notas-recuperadas.txt",
+              "modo": "644",
+              "propietario": "alumno",
+              "grupo": "alumno",
+              "porque": "Debe pertenecer a alumno y ser legible."
+            }
+          ],
+          "pistas": [
+            "Los permisos no bastan: el problema es de quién es el archivo.",
+            "chown cambia propietario y grupo: usuario:grupo.",
+            "Después ajusta el modo a 644."
+          ],
+          "solucion": [
+            "chown alumno:alumno /home/alumno/documentos/notas-recuperadas.txt",
+            "chmod 644 /home/alumno/documentos/notas-recuperadas.txt"
+          ],
+          "explica": "chmod cambia QUÉ se puede hacer; chown cambia QUIÉN puede hacerlo. Cuando un archivo se queda a nombre de root, ningún chmod del usuario lo arregla.",
+          "xp": 35
+        },
+        {
+          "id": "5",
+          "nombre": "Atributos en Windows",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "decodificador": false,
+          "objetivo": "Interpreta cómo protege Windows los archivos y practica con attrib.",
+          "intro": "Windows no usa rwx: usa atributos (oculto, solo lectura, sistema) y listas de control de acceso (ACL) que se gestionan con icacls.",
+          "preparar": {
+            "archivos": [
+              {
+                "ruta": "C:\\Users\\Alumno\\Documents\\privado.txt",
+                "contenido": "documento sensible\r\n"
+              }
+            ]
+          },
+          "objetivos": [],
+          "preguntas": [
+            {
+              "id": "q1",
+              "pregunta": "En Windows, ¿qué comando marca un archivo como oculto?",
+              "opciones": [
+                "chmod +h archivo",
+                "attrib +H archivo",
+                "icacls archivo /hide",
+                "hide archivo"
+              ],
+              "respuesta": "attrib +H archivo",
+              "explica": "attrib gestiona los atributos clásicos: +H oculto, +R solo lectura, +S sistema.",
+              "orientacion": "Piensa en el comando que gestiona atributos, no permisos."
+            },
+            {
+              "id": "q2",
+              "pregunta": "¿Cuál es el equivalente más cercano a chmod/chown de Linux?",
+              "opciones": [
+                "attrib",
+                "icacls",
+                "takeown",
+                "cacls /r"
+              ],
+              "respuesta": "icacls",
+              "explica": "icacls gestiona las ACL: quién puede leer, escribir o ejecutar. attrib solo toca atributos, no permisos de usuario.",
+              "orientacion": "Los atributos no son lo mismo que los permisos por usuario."
+            },
+            {
+              "id": "q3",
+              "pregunta": "¿Por qué un archivo «oculto» en Windows no es un archivo protegido?",
+              "opciones": [
+                "Porque cualquiera puede verlo con dir /A si tiene permiso de lectura",
+                "Porque el atributo cifra el contenido",
+                "Porque solo lo ve el administrador",
+                "Porque Windows lo borra al reiniciar"
+              ],
+              "respuesta": "Porque cualquiera puede verlo con dir /A si tiene permiso de lectura",
+              "explica": "Ocultar es cosmético, igual que el punto inicial en Linux: quien tenga permiso de lectura lo lee igual.",
+              "orientacion": "¿Ocultar cambia quién puede leer el archivo?"
+            }
+          ],
+          "pistas": [
+            "attrib trabaja con atributos: +H, +R, +S.",
+            "icacls es el que maneja permisos de usuario (ACL).",
+            "Ocultar no es proteger."
+          ],
+          "solucion": [
+            "attrib +H Documents\\privado.txt",
+            "dir /A Documents"
+          ],
+          "explica": "Windows separa atributos (attrib) de permisos (icacls). Confundirlos lleva a creer que un archivo está protegido cuando solo está escondido.",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "slug": "constructor-comandos",
+      "nombre": "Constructor de comandos",
+      "numero": 5,
+      "motor": "dom",
+      "archivo": "constructor.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Ordena las piezas sueltas hasta formar un comando válido y míralo ejecutarse de verdad en el simulador.",
+      "aprende": [
+        "orden de los argumentos",
+        "opciones cortas",
+        "tuberías",
+        "redirecciones"
+      ],
+      "mecanica": "Cada pieza es una parte del comando. Colócalas en la línea, comprueba y, si la secuencia es correcta, se ejecuta en el simulador y ves su salida real.",
+      "controles": "Ratón: arrastra o pulsa las piezas. Teclado: tabulador para moverte, Intro para colocar, ← y → para reordenar, Supr para quitar.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Ver una carpeta a fondo",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Monta la orden que lista el directorio actual con detalle, incluidos los ocultos y con tamaños legibles.",
+          "piezas": [
+            "ls",
+            "-l",
+            "-a",
+            "-h",
+            "-R",
+            "documentos"
+          ],
+          "solucion": [
+            "ls",
+            "-l",
+            "-a",
+            "-h"
+          ],
+          "alternativas": [
+            [
+              "ls",
+              "-l",
+              "-a",
+              "-h"
+            ],
+            [
+              "ls",
+              "-l",
+              "-h",
+              "-a"
+            ],
+            [
+              "ls",
+              "-a",
+              "-l",
+              "-h"
+            ],
+            [
+              "ls",
+              "-a",
+              "-h",
+              "-l"
+            ],
+            [
+              "ls",
+              "-h",
+              "-l",
+              "-a"
+            ],
+            [
+              "ls",
+              "-h",
+              "-a",
+              "-l"
+            ],
+            [
+              "ls",
+              "-lah"
+            ],
+            [
+              "ls",
+              "-la",
+              "-h"
+            ]
+          ],
+          "porFalta": {
+            "-a": "Sin -a no se ven los archivos que empiezan por punto, que es justo lo que pedía el objetivo.",
+            "-h": "Sin -h los tamaños salen en bytes: el objetivo pedía unidades legibles.",
+            "-l": "Sin -l no hay permisos, propietario ni tamaño: solo nombres."
+          },
+          "porSobra": {
+            "-R": "-R baja por todos los subdirectorios; el objetivo solo pedía este.",
+            "documentos": "Al indicar una ruta dejarías de listar el directorio actual."
+          },
+          "explica": "Las opciones cortas se agrupan detrás de un guion y su orden da igual: <code>ls -lah</code>, <code>ls -alh</code> y <code>ls -l -a -h</code> son la misma orden.",
+          "pistas": [
+            "Hacen falta tres opciones a la vez.",
+            "Una enseña el detalle, otra lo oculto y otra los tamaños en K y M.",
+            "Son -l, -a y -h."
+          ],
+          "xp": 25
+        },
+        {
+          "id": "2",
+          "nombre": "Copiar una carpeta entera",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Copia la carpeta proyectos dentro de backups sin perder el original.",
+          "piezas": [
+            "cp",
+            "mv",
+            "-r",
+            "proyectos",
+            "backups/"
+          ],
+          "solucion": [
+            "cp",
+            "-r",
+            "proyectos",
+            "backups/"
+          ],
+          "alternativas": [
+            [
+              "cp",
+              "-R",
+              "proyectos",
+              "backups/"
+            ]
+          ],
+          "porFalta": {
+            "-r": "Sin -r, cp se niega a copiar un directorio: solo copia archivos sueltos."
+          },
+          "porSobra": {
+            "mv": "mv mueve: el original desaparecería. El objetivo dice «sin perder el original»."
+          },
+          "explica": "<code>cp -r</code> copia el directorio y todo lo que hay dentro. El original se queda donde estaba; si hubieras usado <code>mv</code>, no.",
+          "pistas": [
+            "Copiar y mover no son lo mismo.",
+            "Un directorio no se copia sin pedirlo explícitamente.",
+            "La opción que baja por el árbol es -r."
+          ],
+          "xp": 25
+        },
+        {
+          "id": "3",
+          "nombre": "Filtrar con una tubería",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Lista el contenido con detalle y deja solo las líneas que hablan de archivos .txt.",
+          "piezas": [
+            "ls",
+            "-la",
+            "|",
+            ">",
+            "grep",
+            "\".txt\""
+          ],
+          "solucion": [
+            "ls",
+            "-la",
+            "|",
+            "grep",
+            "\".txt\""
+          ],
+          "alternativas": [
+            [
+              "ls",
+              "-la",
+              "|",
+              "grep",
+              ".txt"
+            ]
+          ],
+          "porFalta": {
+            "|": "Sin la tubería, grep no recibe nada de ls: son dos órdenes sueltas."
+          },
+          "porSobra": {
+            ">": "> guarda la salida en un archivo; aquí queremos verla filtrada en pantalla."
+          },
+          "explica": "La tubería conecta la SALIDA de ls con la ENTRADA de grep. Ojo: grep filtra líneas de texto, así que también dejaría pasar un archivo llamado <code>notas.txt.bak</code>.",
+          "pistas": [
+            "Son dos comandos que trabajan juntos.",
+            "El primero produce texto y el segundo lo filtra.",
+            "El símbolo que los une es |."
+          ],
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "Guardar solo los errores",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Guarda en errores.txt únicamente las líneas del registro del sistema que contienen ERROR.",
+          "piezas": [
+            "grep",
+            "ERROR",
+            "/var/log/sistema.log",
+            ">",
+            ">>",
+            "errores.txt"
+          ],
+          "solucion": [
+            "grep",
+            "ERROR",
+            "/var/log/sistema.log",
+            ">",
+            "errores.txt"
+          ],
+          "porFalta": {
+            ">": "Sin redirección el resultado solo se imprime: no queda guardado en ningún archivo."
+          },
+          "porSobra": {
+            ">>": ">> añade al final de un archivo existente; aquí basta con crearlo desde cero."
+          },
+          "explica": "<code>&gt;</code> crea el archivo (o lo vacía) y escribe dentro la salida del comando. Con <code>&gt;&gt;</code> se añadiría al final sin borrar lo anterior.",
+          "pistas": [
+            "Primero filtra, después guarda.",
+            "El filtro es grep con la palabra ERROR.",
+            "Redirigir a un archivo se hace con >."
+          ],
+          "xp": 35
+        },
+        {
+          "id": "5",
+          "nombre": "Filtrar en CMD",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "En Windows CMD, lista solo los nombres de archivo y quédate con los que contienen .txt.",
+          "piezas": [
+            "dir",
+            "/B",
+            "/S",
+            "|",
+            "findstr",
+            ".txt"
+          ],
+          "solucion": [
+            "dir",
+            "/B",
+            "|",
+            "findstr",
+            ".txt"
+          ],
+          "porFalta": {
+            "/B": "Sin /B, dir imprime cabecera, fechas y totales, y findstr filtraría también esas líneas.",
+            "findstr": "findstr es el filtro de texto de CMD: el equivalente aproximado de grep."
+          },
+          "porSobra": {
+            "/S": "/S recorre también los subdirectorios; el objetivo se limitaba a esta carpeta."
+          },
+          "explica": "La tubería existe igual en CMD, pero las herramientas cambian: <code>dir /B</code> da la lista escueta y <code>findstr</code> filtra. No es <code>ls | grep</code>, aunque se le parezca.",
+          "pistas": [
+            "La tubería también existe en CMD.",
+            "dir tiene una opción para dar solo los nombres.",
+            "El filtro de texto de CMD se llama findstr."
+          ],
+          "xp": 35
+        },
+        {
+          "id": "6",
+          "nombre": "Ordenar objetos en PowerShell",
+          "dificultad": "avanzado",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Muestra los procesos ordenados por consumo de CPU, de mayor a menor.",
+          "piezas": [
+            "Get-Process",
+            "|",
+            "Sort-Object",
+            "CPU",
+            "-Descending",
+            "Where-Object"
+          ],
+          "solucion": [
+            "Get-Process",
+            "|",
+            "Sort-Object",
+            "CPU",
+            "-Descending"
+          ],
+          "porFalta": {
+            "-Descending": "Sin -Descending se ordena de menor a mayor, al revés de lo que pedía el objetivo.",
+            "Sort-Object": "Sort-Object es quien ordena; Get-Process solo entrega los objetos."
+          },
+          "porSobra": {
+            "Where-Object": "Where-Object filtra, no ordena. Aquí no hay que descartar procesos."
+          },
+          "explica": "Por la tubería de PowerShell no viaja texto: viajan OBJETOS con propiedades. Por eso <code>Sort-Object CPU</code> puede ordenar por un campo sin recortar columnas.",
+          "pistas": [
+            "Aquí no se filtra: se ordena.",
+            "El cmdlet que ordena recibe el nombre de la propiedad.",
+            "Falta indicar que sea de mayor a menor."
+          ],
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "terminal-contrarreloj",
+      "nombre": "Terminal contrarreloj",
+      "numero": 6,
+      "motor": "phaser",
+      "archivo": "contrarreloj.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Rondas de micro-retos encadenados. Con cronómetro para competir contigo mismo, o sin reloj para aprender sin prisa.",
+      "aprende": [
+        "ls",
+        "cd",
+        "cat",
+        "grep",
+        "wc",
+        "sort",
+        "uniq",
+        "dir",
+        "findstr",
+        "Where-Object"
+      ],
+      "mecanica": "Cada ronda son varios retos seguidos. Resuelve el que esté activo con los comandos que quieras: se valida el resultado, no una respuesta exacta. Puedes saltar un reto y volver a él.",
+      "controles": "Teclado: la terminal. Táctil: botones con los comandos sugeridos y el botón «Saltar reto».",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Ronda 1 · Orientarse en Linux",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Seis gestos básicos: saber dónde estás, mirar, entrar, leer, contar y crear.",
+          "segundos": 210,
+          "retos": [
+            {
+              "etiqueta": "pwd",
+              "enunciado": "Averigua en qué directorio estás y muéstralo.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "/home/alumno"
+              },
+              "sugerencias": [
+                "pwd"
+              ],
+              "pistas": [
+                "Son tres letras y significan «print working directory»."
+              ],
+              "solucion": "pwd",
+              "explicacion": "pwd imprime la ruta absoluta del directorio actual.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "ls -a",
+              "enunciado": "Muestra TODO lo que hay en tu carpeta personal, incluidos los archivos ocultos.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": ".perfil"
+              },
+              "sugerencias": [
+                "ls",
+                "ls -a"
+              ],
+              "pistas": [
+                "Los archivos ocultos empiezan por punto y ls no los enseña por defecto.",
+                "La opción que los incluye es <code>-a</code>."
+              ],
+              "solucion": "ls -a",
+              "explicacion": "En Linux «oculto» solo significa que el nombre empieza por punto; -a los muestra.",
+              "puntos": 20
+            },
+            {
+              "etiqueta": "cd",
+              "enunciado": "Entra en la carpeta documentos.",
+              "validador": {
+                "tipo": "cwd",
+                "ruta": "/home/alumno/documentos"
+              },
+              "sugerencias": [
+                "cd documentos"
+              ],
+              "pistas": [
+                "cd = change directory."
+              ],
+              "solucion": "cd documentos",
+              "explicacion": "cd cambia el directorio de trabajo; el prompt te lo confirma.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "cat",
+              "enunciado": "Muestra el contenido de notas.txt.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Comprar pan"
+              },
+              "sugerencias": [
+                "cat notas.txt"
+              ],
+              "pistas": [
+                "cat vuelca el archivo entero por pantalla."
+              ],
+              "solucion": "cat notas.txt",
+              "explicacion": "cat sirve para archivos cortos; para largos, less o head.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "wc -l",
+              "enunciado": "Cuenta cuántas líneas tiene informe.txt.",
+              "validador": {
+                "tipo": "salida-coincide",
+                "patron": "\\b4\\b"
+              },
+              "sugerencias": [
+                "wc -l informe.txt"
+              ],
+              "pistas": [
+                "wc cuenta; la opción -l cuenta líneas."
+              ],
+              "solucion": "wc -l informe.txt",
+              "explicacion": "wc -l devuelve el número de líneas y el nombre del archivo.",
+              "puntos": 25
+            },
+            {
+              "etiqueta": "mkdir",
+              "enunciado": "Crea dentro de documentos una carpeta llamada practica.",
+              "validador": {
+                "tipo": "es-directorio",
+                "ruta": "/home/alumno/documentos/practica"
+              },
+              "sugerencias": [
+                "mkdir practica"
+              ],
+              "pistas": [
+                "mkdir = make directory."
+              ],
+              "solucion": "mkdir practica",
+              "explicacion": "mkdir crea la carpeta en el directorio actual si le das un nombre relativo.",
+              "puntos": 20
+            }
+          ],
+          "xp": 40
+        },
+        {
+          "id": "2",
+          "nombre": "Ronda 2 · Filtrar un registro",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Sacar información de /var/log/sistema.log con filtros y tuberías.",
+          "segundos": 240,
+          "retos": [
+            {
+              "etiqueta": "grep",
+              "enunciado": "Muestra solo las líneas del registro /var/log/sistema.log que contienen ERROR (y ninguna más).",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "salida-incluye",
+                    "texto": "ERROR servicio web caido"
+                  },
+                  {
+                    "tipo": "ninguno",
+                    "de": [
+                      {
+                        "tipo": "salida-incluye",
+                        "texto": "INFO"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sugerencias": [
+                "grep ERROR /var/log/sistema.log"
+              ],
+              "pistas": [
+                "cat lo muestra todo; necesitas filtrar.",
+                "grep PATRÓN ARCHIVO deja solo las líneas que coinciden."
+              ],
+              "solucion": "grep ERROR /var/log/sistema.log",
+              "explicacion": "grep filtra por líneas: la unidad de trabajo de la terminal de Linux.",
+              "puntos": 25
+            },
+            {
+              "etiqueta": "grep -c",
+              "enunciado": "Cuenta cuántas líneas contienen ERROR.",
+              "validador": {
+                "tipo": "salida-coincide",
+                "patron": "\\b2\\b"
+              },
+              "sugerencias": [
+                "grep -c ERROR /var/log/sistema.log"
+              ],
+              "pistas": [
+                "Puedes contar con grep -c, o encadenando grep con wc -l."
+              ],
+              "solucion": "grep -c ERROR /var/log/sistema.log",
+              "explicacion": "grep -c cuenta coincidencias; grep ... | wc -l llega al mismo número por otro camino.",
+              "puntos": 25
+            },
+            {
+              "etiqueta": "redirección",
+              "enunciado": "Guarda esas dos líneas de ERROR en /home/alumno/backups/errores.txt.",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/backups/errores.txt",
+                    "incluye": "ERROR servicio web caido"
+                  },
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/backups/errores.txt",
+                    "lineas": 2
+                  }
+                ]
+              },
+              "sugerencias": [
+                "grep ERROR /var/log/sistema.log > /home/alumno/backups/errores.txt"
+              ],
+              "pistas": [
+                "No se trata de imprimir, sino de escribir en un archivo.",
+                "El símbolo <code>&gt;</code> redirige la salida a un archivo."
+              ],
+              "solucion": "grep ERROR /var/log/sistema.log > /home/alumno/backups/errores.txt",
+              "explicacion": "> crea o vacía el archivo y escribe la salida; >> añade al final sin borrar.",
+              "puntos": 30
+            },
+            {
+              "etiqueta": "head",
+              "enunciado": "Muestra solo las dos primeras líneas del registro.",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "salida-incluye",
+                    "texto": "WARN disco al 81%"
+                  },
+                  {
+                    "tipo": "ninguno",
+                    "de": [
+                      {
+                        "tipo": "salida-incluye",
+                        "texto": "ERROR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sugerencias": [
+                "head -n 2 /var/log/sistema.log"
+              ],
+              "pistas": [
+                "head muestra el principio de un archivo.",
+                "Con -n eliges cuántas líneas."
+              ],
+              "solucion": "head -n 2 /var/log/sistema.log",
+              "explicacion": "head mira el principio y tail el final: imprescindibles con archivos grandes.",
+              "puntos": 25
+            },
+            {
+              "etiqueta": "sort | uniq -c",
+              "enunciado": "Cuenta cuántas veces se repite cada línea del registro.",
+              "validador": {
+                "tipo": "salida-coincide",
+                "patron": "2\\s+ERROR"
+              },
+              "sugerencias": [
+                "sort /var/log/sistema.log | uniq -c"
+              ],
+              "pistas": [
+                "uniq solo colapsa repeticiones consecutivas, así que antes hay que ordenar.",
+                "Encadena los dos con una tubería: <code>sort archivo | uniq -c</code>."
+              ],
+              "solucion": "sort /var/log/sistema.log | uniq -c",
+              "explicacion": "El dúo sort | uniq -c es la forma clásica de contar repeticiones en la terminal.",
+              "puntos": 35
+            }
+          ],
+          "xp": 55
+        },
+        {
+          "id": "3",
+          "nombre": "Ronda 3 · CMD a contrarreloj",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Los mismos gestos, con los comandos de Windows.",
+          "segundos": 210,
+          "retos": [
+            {
+              "etiqueta": "dir",
+              "enunciado": "Lista el contenido de tu perfil de usuario.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Documents"
+              },
+              "sugerencias": [
+                "dir"
+              ],
+              "pistas": [
+                "En CMD no existe ls: se llama dir."
+              ],
+              "solucion": "dir",
+              "explicacion": "dir muestra la cabecera del volumen, las entradas y un pie con los totales.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "cd",
+              "enunciado": "Entra en la carpeta Documents.",
+              "validador": {
+                "tipo": "cwd",
+                "ruta": "C:\\Users\\Alumno\\Documents"
+              },
+              "sugerencias": [
+                "cd Documents"
+              ],
+              "pistas": [
+                "Igual que en Linux, pero con barra invertida en las rutas."
+              ],
+              "solucion": "cd Documents",
+              "explicacion": "cd con un nombre entra; cd a secas, en CMD, imprime dónde estás.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "type",
+              "enunciado": "Muestra el contenido de notas.txt.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Comprar pan"
+              },
+              "sugerencias": [
+                "type notas.txt"
+              ],
+              "pistas": [
+                "El equivalente de cat en CMD es type."
+              ],
+              "solucion": "type notas.txt",
+              "explicacion": "type vuelca el archivo entero, sin paginar.",
+              "puntos": 20
+            },
+            {
+              "etiqueta": "findstr",
+              "enunciado": "Muestra solo las líneas de notas.txt que contienen «Marta».",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "salida-incluye",
+                    "texto": "Marta"
+                  },
+                  {
+                    "tipo": "ninguno",
+                    "de": [
+                      {
+                        "tipo": "salida-incluye",
+                        "texto": "Comprar pan"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sugerencias": [
+                "findstr Marta notas.txt"
+              ],
+              "pistas": [
+                "El grep de Windows se llama findstr.",
+                "<code>findstr CADENA ARCHIVO</code>."
+              ],
+              "solucion": "findstr Marta notas.txt",
+              "explicacion": "findstr filtra líneas y admite expresiones regulares; find es más simple y exige comillas.",
+              "puntos": 30
+            },
+            {
+              "etiqueta": "copy",
+              "enunciado": "Copia notas.txt a la carpeta Backups del perfil.",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+                  },
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+                  }
+                ]
+              },
+              "sugerencias": [
+                "copy notas.txt ..\\Backups"
+              ],
+              "pistas": [
+                "copy duplica; move trasladaría.",
+                "Desde Documents, la carpeta hermana es <code>..\\Backups</code>."
+              ],
+              "solucion": "copy notas.txt ..\\Backups",
+              "explicacion": "copy conserva el original. Con .. se sube un nivel, igual que en Linux.",
+              "puntos": 30
+            }
+          ],
+          "xp": 50
+        },
+        {
+          "id": "4",
+          "nombre": "Ronda 4 · Objetos en PowerShell",
+          "dificultad": "avanzado",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Filtrar, ordenar y medir usando el pipeline de objetos.",
+          "segundos": 240,
+          "retos": [
+            {
+              "etiqueta": "Get-ChildItem",
+              "enunciado": "Lista lo que hay en tu carpeta de usuario.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Documents"
+              },
+              "sugerencias": [
+                "Get-ChildItem"
+              ],
+              "pistas": [
+                "Verbo-Sustantivo: obtener los elementos hijos."
+              ],
+              "solucion": "Get-ChildItem",
+              "explicacion": "Devuelve objetos con Mode, LastWriteTime, Length y Name, no texto plano.",
+              "puntos": 15
+            },
+            {
+              "etiqueta": "Get-Content",
+              "enunciado": "Muestra el contenido de Documents\\notas.txt.",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "uno"
+              },
+              "sugerencias": [
+                "Get-Content Documents\\notas.txt"
+              ],
+              "pistas": [
+                "El cat de PowerShell es Get-Content (alias gc y cat)."
+              ],
+              "solucion": "Get-Content Documents\\notas.txt",
+              "explicacion": "Get-Content entrega una línea por objeto, lo que permite contarlas o filtrarlas después.",
+              "puntos": 20
+            },
+            {
+              "etiqueta": "Where-Object",
+              "enunciado": "Muestra solo los procesos que consumen más de 10 de CPU.",
+              "validador": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "salida-incluye",
+                    "texto": "chrome"
+                  },
+                  {
+                    "tipo": "ninguno",
+                    "de": [
+                      {
+                        "tipo": "salida-incluye",
+                        "texto": "System"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sugerencias": [
+                "Get-Process | Where-Object CPU -gt 10"
+              ],
+              "pistas": [
+                "Primero consigue los procesos, luego filtra por una propiedad.",
+                "El operador «mayor que» se escribe <code>-gt</code>."
+              ],
+              "solucion": "Get-Process | Where-Object CPU -gt 10",
+              "explicacion": "Aquí no se filtra texto: se comparan propiedades de objetos. Por eso funciona -gt con números.",
+              "puntos": 35
+            },
+            {
+              "etiqueta": "Sort-Object",
+              "enunciado": "Ordena los procesos por CPU, de mayor a menor.",
+              "validador": {
+                "tipo": "comando-usado",
+                "patron": "sort-object",
+                "banderas": "i"
+              },
+              "sugerencias": [
+                "Get-Process | Sort-Object CPU -Descending"
+              ],
+              "pistas": [
+                "Sort-Object ordena por la propiedad que le digas.",
+                "Para invertir el orden, <code>-Descending</code>."
+              ],
+              "solucion": "Get-Process | Sort-Object CPU -Descending",
+              "explicacion": "Ordenar por una propiedad numérica solo es posible porque el pipeline lleva objetos.",
+              "puntos": 30
+            },
+            {
+              "etiqueta": "Measure-Object",
+              "enunciado": "Cuenta cuántos elementos hay en la carpeta Documents.",
+              "validador": {
+                "tipo": "salida-coincide",
+                "patron": "\\b3\\b"
+              },
+              "sugerencias": [
+                "Get-ChildItem Documents | Measure-Object"
+              ],
+              "pistas": [
+                "Measure-Object cuenta, suma y promedia lo que le llegue.",
+                "Sin parámetros devuelve Count."
+              ],
+              "solucion": "Get-ChildItem Documents | Measure-Object",
+              "explicacion": "Measure-Object es el wc de PowerShell, pero cuenta objetos en vez de líneas.",
+              "puntos": 30
+            }
+          ],
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "slug": "repara-servidor",
+      "nombre": "Repara el servidor",
+      "numero": 7,
+      "motor": "dom",
+      "archivo": "repara.js",
+      "os": [
+        "linux",
+        "powershell"
+      ],
+      "resumen": "Algo se ha caído y solo tienes un síntoma. Investiga registros, procesos y puertos, di cuál es la causa y arréglalo.",
+      "aprende": [
+        "systemctl",
+        "journalctl",
+        "ps",
+        "ss",
+        "leer registros",
+        "diagnóstico por evidencias"
+      ],
+      "mecanica": "Lees el aviso, investigas en la terminal, marcas tu diagnóstico entre varias causas posibles y reparas. La victoria exige que el sistema quede funcionando de verdad.",
+      "controles": "Terminal para investigar y reparar; el parte de incidencia de la derecha recoge lo que vas comprobando.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "El puerto ocupado",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-servidor",
+          "sintoma": "El sitio web no responde desde las 09:41. nginx aparece como «failed».",
+          "contexto": "Nadie ha tocado la configuración. Esta mañana se hicieron pruebas con un servidor improvisado.",
+          "estadoPendiente": "nginx sigue caído y el puerto 80 ocupado.",
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "nginx está en estado failed",
+              "oculta": "¿En qué estado está el servicio?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "failed"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "El registro dice: Address already in use",
+              "oculta": "¿Qué dice su registro?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "Address already in use"
+              }
+            },
+            {
+              "id": "e3",
+              "texto": "Un python3 está escuchando en el puerto 80",
+              "oculta": "¿Quién ocupa el puerto 80?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "python3"
+              }
+            }
+          ],
+          "diagnostico": {
+            "pregunta": "¿Cuál es la causa de que nginx no arranque?",
+            "opciones": [
+              {
+                "texto": "El archivo de configuración tiene un error de sintaxis",
+                "correcta": false,
+                "porque": "La configuración no da error: el registro habla del puerto, no de sintaxis."
+              },
+              {
+                "texto": "Otro proceso ocupa el puerto 80",
+                "correcta": true,
+                "porque": "«bind() to 0.0.0.0:80 failed (98: Address already in use)»: un python3 llegó antes al puerto."
+              },
+              {
+                "texto": "El disco está lleno",
+                "correcta": false,
+                "porque": "El aviso de disco al 91% es real, pero no es lo que impide escuchar en un puerto."
+              },
+              {
+                "texto": "El servicio está deshabilitado",
+                "correcta": false,
+                "porque": "Aparece como enabled; el problema es que al arrancar no consigue el puerto."
+              }
+            ]
+          },
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "proceso-ausente",
+                "nombre": "http.server"
+              },
+              {
+                "tipo": "servicio-activo",
+                "nombre": "nginx"
+              }
+            ]
+          },
+          "pistas": [
+            "Empieza por el estado del servicio y su registro.",
+            "ss o ps te dicen quién tiene el puerto 80.",
+            "Libera el puerto y después arranca nginx."
+          ],
+          "solucion": [
+            "systemctl status nginx",
+            "cat /var/log/nginx/error.log",
+            "ss",
+            "kill 970",
+            "systemctl start nginx"
+          ],
+          "explica": "Dos procesos no pueden escuchar en el mismo puerto. Liberarlo y arrancar el servicio cierra la incidencia; reiniciar nginx sin liberar el puerto habría fallado igual.",
+          "xp": 45
+        },
+        {
+          "id": "2",
+          "nombre": "El servicio que se quedó parado",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "sintoma": "Nadie puede entrar por SSH al equipo desde el mantenimiento de anoche.",
+          "contexto": "Tras el mantenimiento se pararon varios servicios para hacer pruebas y alguno no se volvió a arrancar.",
+          "estadoPendiente": "El servicio sshd sigue parado.",
+          "averia": {
+            "servicios": {
+              "sshd": {
+                "activo": false,
+                "habilitado": true,
+                "descripcion": "OpenSSH Daemon",
+                "pid": 0
+              }
+            }
+          },
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "sshd aparece como inactivo",
+              "oculta": "¿Está corriendo el servicio?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "inactive"
+              }
+            }
+          ],
+          "diagnostico": {
+            "pregunta": "¿Qué ocurre con el servicio SSH?",
+            "opciones": [
+              {
+                "texto": "Está parado y hay que arrancarlo",
+                "correcta": true,
+                "porque": "systemctl status lo muestra como inactive (dead): no está corriendo, simplemente."
+              },
+              {
+                "texto": "Está corriendo pero en otro puerto",
+                "correcta": false,
+                "porque": "Si estuviera corriendo, systemctl lo diría como active (running)."
+              },
+              {
+                "texto": "Se ha desinstalado",
+                "correcta": false,
+                "porque": "La unidad existe y está cargada: solo está parada."
+              }
+            ]
+          },
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "sshd"
+          },
+          "pistas": [
+            "systemctl status NOMBRE dice si un servicio está activo.",
+            "Los servicios se arrancan con systemctl start.",
+            "El servicio se llama sshd."
+          ],
+          "solucion": [
+            "systemctl status sshd",
+            "systemctl start sshd",
+            "systemctl is-active sshd"
+          ],
+          "explica": "«inactive (dead)» significa parado, no roto. Arrancarlo basta; habilitarlo (enable) es lo que lo devuelve tras un reinicio.",
+          "xp": 30
+        },
+        {
+          "id": "3",
+          "nombre": "La web que desapareció",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-servidor",
+          "sintoma": "El servidor responde, pero la página principal da error 404: no encuentra el archivo.",
+          "contexto": "Durante una limpieza se movieron archivos de /var/www. Hay una copia en /home/alumno/backups.",
+          "estadoPendiente": "Falta el index.html en /var/www.",
+          "averia": {
+            "borrar": [
+              "/var/www/index.html"
+            ],
+            "archivos": [
+              {
+                "ruta": "/home/alumno/backups/index.html",
+                "contenido": "<h1>Sitio en mantenimiento</h1>\n"
+              }
+            ]
+          },
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "En /var/www ya no está index.html",
+              "oculta": "¿Qué hay en la raíz del sitio?",
+              "validador": {
+                "tipo": "comando-usado",
+                "patron": "ls[^|]*\\/var\\/www"
+              }
+            },
+            {
+              "id": "e2",
+              "texto": "Existe una copia del index.html en backups",
+              "oculta": "¿Hay alguna copia?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "index.html"
+              }
+            }
+          ],
+          "diagnostico": {
+            "pregunta": "¿Qué ha pasado con la página?",
+            "opciones": [
+              {
+                "texto": "El archivo index.html ya no está en la raíz del sitio",
+                "correcta": true,
+                "porque": "El servidor funciona; lo que falta es el archivo que debía servir."
+              },
+              {
+                "texto": "El servicio web está parado",
+                "correcta": false,
+                "porque": "Si estuviera parado no respondería nada, ni siquiera un 404."
+              },
+              {
+                "texto": "El puerto está ocupado",
+                "correcta": false,
+                "porque": "Un puerto ocupado impide arrancar, no devuelve 404."
+              }
+            ]
+          },
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/var/www/index.html"
+              },
+              {
+                "tipo": "contenido",
+                "ruta": "/var/www/index.html",
+                "incluye": "mantenimiento"
+              }
+            ]
+          },
+          "pistas": [
+            "Un 404 significa que el servidor vive pero no encuentra el archivo.",
+            "Mira qué hay en /var/www y compáralo con la copia de backups.",
+            "cp copia sin perder el original."
+          ],
+          "solucion": [
+            "ls /var/www",
+            "ls /home/alumno/backups",
+            "cp /home/alumno/backups/index.html /var/www/"
+          ],
+          "explica": "Conviene distinguir «el servicio no arranca» de «el servicio arranca pero le falta contenido»: el primero se ve en systemctl, el segundo en la respuesta HTTP.",
+          "xp": 40
+        },
+        {
+          "id": "4",
+          "nombre": "Un servicio parado en Windows",
+          "dificultad": "intermedio",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "sintoma": "La búsqueda de Windows no devuelve resultados en este equipo.",
+          "contexto": "El usuario dice que «desde ayer no encuentra nada» al escribir en el buscador.",
+          "estadoPendiente": "El servicio WSearch sigue detenido.",
+          "evidencias": [
+            {
+              "id": "e1",
+              "texto": "WSearch aparece detenido (Stopped)",
+              "oculta": "¿Cómo está el servicio de búsqueda?",
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "WSearch"
+              }
+            }
+          ],
+          "diagnostico": {
+            "pregunta": "¿Por qué no funciona la búsqueda?",
+            "opciones": [
+              {
+                "texto": "El servicio WSearch está detenido",
+                "correcta": true,
+                "porque": "Get-Service lo muestra como Stopped: el índice no se actualiza si el servicio no corre."
+              },
+              {
+                "texto": "El disco está lleno",
+                "correcta": false,
+                "porque": "No hay ninguna evidencia de disco lleno en este equipo."
+              },
+              {
+                "texto": "Falta el cmdlet Get-Service",
+                "correcta": false,
+                "porque": "El cmdlet responde perfectamente; lo que está parado es el servicio."
+              }
+            ]
+          },
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "WSearch"
+          },
+          "pistas": [
+            "Get-Service muestra el estado de los servicios.",
+            "Se puede filtrar: Get-Service | Where-Object Status -eq Stopped.",
+            "Para arrancarlo: Start-Service WSearch."
+          ],
+          "solucion": [
+            "Get-Service",
+            "Start-Service WSearch",
+            "Get-Service WSearch"
+          ],
+          "explica": "En PowerShell los servicios también son objetos: por eso se pueden filtrar por la propiedad Status en lugar de recortar texto.",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "memoria-comandos",
+      "nombre": "Memoria de comandos",
+      "numero": 8,
+      "motor": "dom",
+      "archivo": "memoria.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Parejas de cartas: cada comando con lo que hace, con su sintaxis o con la salida que produce.",
+      "aprende": [
+        "nombres de comandos",
+        "qué hace cada uno",
+        "cómo se ve su salida"
+      ],
+      "mecanica": "Destapa dos cartas. Si forman pareja se quedan abiertas y se explica por qué; si no, se cierran y se te dice con qué iba cada una.",
+      "controles": "Ratón o dedo sobre las cartas; con teclado, tabulador para recorrerlas e Intro para destaparlas.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Fundamentos de Linux",
+          "dificultad": "basico",
+          "os": "linux",
+          "tipo": "función",
+          "objetivo": "Empareja cada comando con lo que hace.",
+          "parejas": [
+            {
+              "comando": "pwd",
+              "par": "Imprime la ruta donde estás"
+            },
+            {
+              "comando": "ls",
+              "par": "Lista el contenido de un directorio"
+            },
+            {
+              "comando": "cd",
+              "par": "Cambia de directorio"
+            },
+            {
+              "comando": "whoami",
+              "par": "Dice con qué usuario trabajas"
+            },
+            {
+              "comando": "clear",
+              "par": "Limpia la pantalla"
+            },
+            {
+              "comando": "man",
+              "par": "Abre el manual de un comando"
+            }
+          ],
+          "explica": "Estos seis son el reflejo básico al llegar a cualquier sistema: saber dónde estás, qué hay y quién eres.",
+          "xp": 20
+        },
+        {
+          "id": "2",
+          "nombre": "Archivos y texto",
+          "dificultad": "basico",
+          "os": "linux",
+          "tipo": "función",
+          "objetivo": "Empareja los comandos de archivos y de texto con su función.",
+          "parejas": [
+            {
+              "comando": "mkdir",
+              "par": "Crea un directorio"
+            },
+            {
+              "comando": "cp",
+              "par": "Copia conservando el original"
+            },
+            {
+              "comando": "mv",
+              "par": "Mueve o renombra"
+            },
+            {
+              "comando": "rm",
+              "par": "Borra (sin papelera)"
+            },
+            {
+              "comando": "grep",
+              "par": "Filtra las líneas que coinciden con un patrón"
+            },
+            {
+              "comando": "cat",
+              "par": "Muestra el contenido de un archivo"
+            }
+          ],
+          "explica": "cp y mv se confunden a menudo: uno duplica y el otro cambia de sitio. rm no tiene vuelta atrás.",
+          "xp": 20
+        },
+        {
+          "id": "3",
+          "nombre": "Windows CMD",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "tipo": "función",
+          "objetivo": "Empareja los comandos de CMD con lo que hacen.",
+          "parejas": [
+            {
+              "comando": "dir",
+              "par": "Lista el contenido de una carpeta"
+            },
+            {
+              "comando": "type",
+              "par": "Muestra el contenido de un archivo"
+            },
+            {
+              "comando": "copy",
+              "par": "Copia archivos (no carpetas)"
+            },
+            {
+              "comando": "del",
+              "par": "Borra archivos"
+            },
+            {
+              "comando": "findstr",
+              "par": "Busca texto dentro de archivos"
+            },
+            {
+              "comando": "tasklist",
+              "par": "Lista los procesos en marcha"
+            }
+          ],
+          "explica": "Los nombres cambian respecto a Linux, y el comportamiento también: copy no copia carpetas y del no borra directorios.",
+          "xp": 25
+        },
+        {
+          "id": "4",
+          "nombre": "PowerShell",
+          "dificultad": "intermedio",
+          "os": "powershell",
+          "tipo": "función",
+          "objetivo": "Empareja cada cmdlet con su función.",
+          "parejas": [
+            {
+              "comando": "Get-ChildItem",
+              "par": "Lista archivos y carpetas como objetos"
+            },
+            {
+              "comando": "Get-Content",
+              "par": "Lee el contenido de un archivo"
+            },
+            {
+              "comando": "Copy-Item",
+              "par": "Copia archivos o carpetas"
+            },
+            {
+              "comando": "Remove-Item",
+              "par": "Borra archivos o carpetas"
+            },
+            {
+              "comando": "Get-Process",
+              "par": "Devuelve los procesos como objetos"
+            },
+            {
+              "comando": "Where-Object",
+              "par": "Filtra objetos por una propiedad"
+            }
+          ],
+          "explica": "Los cmdlets siguen el patrón Verbo-Sustantivo, y por la tubería viajan objetos: por eso Where-Object filtra por propiedades y no por texto.",
+          "xp": 25
+        },
+        {
+          "id": "5",
+          "nombre": "Comando y salida",
+          "dificultad": "avanzado",
+          "os": "linux",
+          "tipo": "salida típica",
+          "objetivo": "Empareja cada comando con la salida que produce.",
+          "parejas": [
+            {
+              "comando": "pwd",
+              "par": "/home/alumno/documentos"
+            },
+            {
+              "comando": "ls -l",
+              "par": "-rw-r--r-- 1 alumno alumno 220 sep 22 10:00 notas.txt"
+            },
+            {
+              "comando": "whoami",
+              "par": "alumno"
+            },
+            {
+              "comando": "wc -l notas.txt",
+              "par": "3 notas.txt"
+            },
+            {
+              "comando": "df -h",
+              "par": "/dev/sda2  50G  14G  34G  30% /"
+            },
+            {
+              "comando": "ps",
+              "par": "    PID TTY          TIME CMD"
+            }
+          ],
+          "explica": "Reconocer la forma de la salida es media batalla: te dice qué comando la produjo y dónde mirar.",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "slug": "escape-room",
+      "nombre": "Escape room de la terminal",
+      "numero": 9,
+      "motor": "phaser",
+      "archivo": "escape.js",
+      "os": [
+        "linux"
+      ],
+      "resumen": "Cuatro salas encadenadas. Cada puzle se resuelve con comandos reales y entrega el código que abre la puerta siguiente.",
+      "aprende": [
+        "ls -a",
+        "chmod",
+        "grep",
+        "redirecciones",
+        "ps",
+        "kill",
+        "systemctl"
+      ],
+      "mecanica": "Cada sala plantea un problema. No hay botones mágicos: la puerta se abre cuando el estado del sistema cumple lo que pide el puzle, y entonces aparece el código de salida.",
+      "controles": "Teclado: la terminal de abajo. Táctil: los botones sugieren los comandos útiles de cada sala.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Sala 1 · El cuarto oscuro",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Encuentra el código escondido en tu carpeta personal y muéstralo.",
+          "historia": "La puerta está cerrada y alguien dejó el código en un archivo que no se ve a simple vista.",
+          "codigo": "LUZ-7",
+          "preparar": {
+            "escribir": [
+              {
+                "ruta": "/home/alumno/.codigo-sala1",
+                "contenido": "LUZ-7\n"
+              }
+            ]
+          },
+          "puzle": {
+            "enunciado": "En la carpeta hay un archivo que ls normal no enseña. Encuéntralo y lee su contenido.",
+            "validador": {
+              "tipo": "salida-incluye",
+              "texto": "LUZ-7"
+            },
+            "sugerencias": [
+              "ls",
+              "ls -a"
+            ],
+            "pistas": [
+              "Un <code>ls</code> normal no lo enseña todo.",
+              "En Linux, lo que empieza por punto está oculto: <code>ls -a</code>.",
+              "Una vez veas el nombre, léelo con <code>cat .codigo-sala1</code>."
+            ],
+            "solucion": [
+              "ls -a",
+              "cat .codigo-sala1"
+            ],
+            "explicacion": "Los archivos que empiezan por punto no están protegidos: solo se omiten de los listados. Cualquiera con -a los ve, así que «oculto» no significa «seguro»."
+          },
+          "optimo": 2,
+          "xp": 30
+        },
+        {
+          "id": "2",
+          "nombre": "Sala 2 · La cerradura de permisos",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "El archivo cerradura.txt está abierto a todo el mundo. Déjalo accesible solo para su dueño.",
+          "historia": "Con el código LUZ-7 has entrado en la segunda sala. Aquí la puerta pide que arregles unos permisos demasiado abiertos.",
+          "codigo": "CIERRE-600",
+          "preparar": {
+            "escribir": [
+              {
+                "ruta": "/home/alumno/cerradura.txt",
+                "contenido": "La puerta se abre cuando solo el dueño puede leer y escribir este archivo.\n"
+              }
+            ],
+            "permisos": [
+              {
+                "ruta": "/home/alumno/cerradura.txt",
+                "modo": "666"
+              }
+            ]
+          },
+          "puzle": {
+            "enunciado": "Deja cerradura.txt con permisos 600: lectura y escritura solo para el propietario, nada para el grupo ni para los demás.",
+            "validador": {
+              "tipo": "permisos",
+              "ruta": "/home/alumno/cerradura.txt",
+              "modo": "600"
+            },
+            "sugerencias": [
+              "ls -l cerradura.txt",
+              "chmod 600 cerradura.txt"
+            ],
+            "pistas": [
+              "Mira primero cómo está: <code>ls -l cerradura.txt</code> te enseña los permisos actuales.",
+              "Cada cifra es un grupo: propietario, grupo y otros. 6 = leer + escribir, 0 = nada.",
+              "<code>chmod 600 cerradura.txt</code>."
+            ],
+            "solucion": [
+              "ls -l cerradura.txt",
+              "chmod 600 cerradura.txt",
+              "ls -l cerradura.txt"
+            ],
+            "explicacion": "600 significa rw- --- ---: el dueño lee y escribe, y nadie más tiene nada. Es justo lo que exige SSH para una llave privada, por ejemplo."
+          },
+          "optimo": 2,
+          "xp": 35
+        },
+        {
+          "id": "3",
+          "nombre": "Sala 3 · El registro acusador",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Deja en backups/errores.txt solo las líneas de error del registro del sistema.",
+          "historia": "Con CIERRE-600 se abre la tercera sala. El registro del sistema tiene la pista, pero mezclada con mensajes que no importan.",
+          "codigo": "LOG-2",
+          "puzle": {
+            "enunciado": "Filtra /var/log/sistema.log y guarda SOLO las líneas que contienen ERROR en /home/alumno/backups/errores.txt.",
+            "validador": {
+              "tipo": "todos",
+              "de": [
+                {
+                  "tipo": "contenido",
+                  "ruta": "/home/alumno/backups/errores.txt",
+                  "incluye": "ERROR servicio web caido"
+                },
+                {
+                  "tipo": "contenido",
+                  "ruta": "/home/alumno/backups/errores.txt",
+                  "lineas": 2
+                }
+              ]
+            },
+            "sugerencias": [
+              "cat /var/log/sistema.log",
+              "grep ERROR /var/log/sistema.log"
+            ],
+            "pistas": [
+              "Primero mira el registro entero para saber qué hay dentro.",
+              "Filtrar líneas por una palabra es trabajo de <code>grep</code>.",
+              "Para escribir el resultado en un archivo en vez de en pantalla, redirige con <code>&gt;</code>."
+            ],
+            "solucion": [
+              "grep ERROR /var/log/sistema.log > /home/alumno/backups/errores.txt",
+              "cat /home/alumno/backups/errores.txt"
+            ],
+            "explicacion": "grep filtra y > guarda. Esa pareja es la base de cualquier informe rápido: seleccionar lo que importa y dejarlo por escrito."
+          },
+          "optimo": 2,
+          "xp": 40
+        },
+        {
+          "id": "4",
+          "nombre": "Sala 4 · Reanimar el servicio",
+          "dificultad": "avanzado",
+          "os": "linux",
+          "escenario": "linux-servidor",
+          "objetivo": "nginx no arranca porque otro proceso ocupa su puerto. Libera el puerto y déjalo activo.",
+          "historia": "Última sala. Con LOG-2 has llegado a la consola del servidor: el sitio está caído y la salida depende de que vuelva a funcionar.",
+          "codigo": "SALIDA",
+          "puzle": {
+            "enunciado": "Averigua por qué falla nginx, quita lo que está ocupando el puerto 80 y arranca el servicio.",
+            "validador": {
+              "tipo": "todos",
+              "de": [
+                {
+                  "tipo": "proceso-ausente",
+                  "nombre": "http.server"
+                },
+                {
+                  "tipo": "servicio-activo",
+                  "nombre": "nginx"
+                }
+              ]
+            },
+            "sugerencias": [
+              "systemctl status nginx",
+              "ps aux",
+              "ss"
+            ],
+            "pistas": [
+              "Empieza por preguntarle al sistema qué le pasa al servicio: <code>systemctl status nginx</code>.",
+              "El error dice que el puerto 80 ya está ocupado. Mira qué proceso lo tiene con <code>ps aux</code> o <code>ss</code>.",
+              "Cierra ese proceso con <code>kill PID</code> y después arranca el servicio con <code>systemctl start nginx</code>."
+            ],
+            "solucion": [
+              "systemctl status nginx",
+              "ps aux",
+              "kill 970",
+              "systemctl start nginx",
+              "systemctl is-active nginx"
+            ],
+            "explicacion": "El diagnóstico completo: el servicio dice por qué falló, ps y ss dicen quién ocupa el puerto, kill lo libera y systemctl vuelve a arrancar. Ese orden —leer el error, buscar la causa, actuar, comprobar— sirve para casi cualquier incidencia."
+          },
+          "resumen_final": "Has salido usando las cuatro herramientas del curso: mirar lo que no se ve (ls -a), corregir permisos (chmod), filtrar información (grep y >) y diagnosticar un servicio (systemctl, ps, kill).",
+          "optimo": 4,
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "slug": "linux-vs-windows",
+      "nombre": "Linux vs Windows",
+      "numero": 10,
+      "motor": "dom",
+      "archivo": "linux-vs-windows.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "La misma tarea en tres sistemas: elige el comando correcto para el shell que pide cada ronda y aprende dónde dejan de parecerse.",
+      "aprende": [
+        "equivalencias reales",
+        "diferencias de comportamiento",
+        "cuándo NO son equivalentes"
+      ],
+      "mecanica": "Cada ronda plantea una tarea y un sistema. Eliges (o escribes) el comando que la resuelve en ESE shell y se te explica la diferencia con los otros dos.",
+      "controles": "Pulsa la opción correcta, o escribe el comando cuando el nivel lo pida.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Lo básico en tres shells",
+          "dificultad": "basico",
+          "objetivo": "Resuelve tareas básicas en el shell que te pidan.",
+          "os": "linux",
+          "rondas": [
+            {
+              "tarea": "Listar el contenido de la carpeta actual",
+              "sistema": "linux",
+              "correcta": "ls",
+              "opciones": [
+                "ls",
+                "dir /B",
+                "Get-ChildItem",
+                "type"
+              ],
+              "explica": "ls lista el directorio actual.",
+              "diferencias": "En CMD sería dir y en PowerShell Get-ChildItem, que además devuelve objetos, no texto.",
+              "pista": "El comando clásico de Unix, dos letras."
+            },
+            {
+              "tarea": "Listar el contenido de la carpeta actual",
+              "sistema": "cmd",
+              "correcta": "dir",
+              "opciones": [
+                "dir",
+                "ls -l",
+                "Get-ChildItem",
+                "cat"
+              ],
+              "explica": "dir es el listado de CMD.",
+              "diferencias": "dir imprime cabecera de volumen y un pie con totales; ls no. Un script que recorte columnas de uno no vale para el otro."
+            },
+            {
+              "tarea": "Mostrar el contenido de un archivo de texto",
+              "sistema": "cmd",
+              "correcta": "type notas.txt",
+              "opciones": [
+                "type notas.txt",
+                "cat notas.txt",
+                "Get-Content notas.txt",
+                "more notas.txt /P"
+              ],
+              "explica": "En CMD se lee con type.",
+              "diferencias": "cat no existe en CMD; en PowerShell es Get-Content (con alias cat, que confunde bastante)."
+            },
+            {
+              "tarea": "Mostrar el contenido de un archivo de texto",
+              "sistema": "powershell",
+              "correcta": "Get-Content notas.txt",
+              "opciones": [
+                "Get-Content notas.txt",
+                "type notas.txt /A",
+                "cat -n notas.txt",
+                "Show-Content notas.txt"
+              ],
+              "explica": "Get-Content lee el archivo y devuelve sus líneas como objetos de texto.",
+              "diferencias": "Tiene alias cat y type, pero lo que entrega no es un bloque de texto: es una colección de líneas que se puede filtrar con Where-Object."
+            }
+          ],
+          "explica": "Los tres sistemas hacen lo mismo con nombres distintos… hasta que miras la salida: solo PowerShell entrega objetos.",
+          "xp": 25
+        },
+        {
+          "id": "2",
+          "nombre": "Copiar y mover",
+          "dificultad": "basico",
+          "objetivo": "Copia y mueve archivos en cada sistema.",
+          "os": "linux",
+          "rondas": [
+            {
+              "tarea": "Copiar una carpeta entera con su contenido",
+              "sistema": "linux",
+              "correcta": "cp -r proyectos backups/",
+              "opciones": [
+                "cp -r proyectos backups/",
+                "cp proyectos backups/",
+                "xcopy proyectos backups /E",
+                "copy proyectos backups"
+              ],
+              "explica": "cp necesita -r para bajar por el directorio.",
+              "diferencias": "En CMD copy NO copia carpetas: hay que usar xcopy /E /I o robocopy."
+            },
+            {
+              "tarea": "Copiar una carpeta entera con su contenido",
+              "sistema": "cmd",
+              "correcta": "xcopy Documents Backups\\Docs /E /I",
+              "opciones": [
+                "xcopy Documents Backups\\Docs /E /I",
+                "copy Documents Backups",
+                "cp -r Documents Backups",
+                "move Documents Backups"
+              ],
+              "explica": "xcopy con /E copia subcarpetas (incluidas las vacías) e /I asume que el destino es carpeta.",
+              "diferencias": "copy solo trabaja con archivos: es la diferencia que más sorprende viniendo de Linux."
+            },
+            {
+              "tarea": "Copiar una carpeta entera con su contenido",
+              "sistema": "powershell",
+              "correcta": "Copy-Item Documents Backups\\Docs -Recurse",
+              "opciones": [
+                "Copy-Item Documents Backups\\Docs -Recurse",
+                "Copy-Item Documents Backups",
+                "cp -r Documents Backups /E",
+                "xcopy Documents Backups /E"
+              ],
+              "explica": "Copy-Item admite -Recurse para incluir el contenido.",
+              "diferencias": "El parámetro es -Recurse, no -r: PowerShell usa nombres largos y admite abreviaturas solo si no son ambiguas."
+            },
+            {
+              "tarea": "Renombrar un archivo",
+              "sistema": "cmd",
+              "correcta": "ren notas.txt viejas.txt",
+              "opciones": [
+                "ren notas.txt viejas.txt",
+                "mv notas.txt viejas.txt",
+                "Rename-Item notas.txt viejas.txt",
+                "move notas.txt viejas.txt /R"
+              ],
+              "explica": "ren (o rename) cambia el nombre en CMD.",
+              "diferencias": "En Linux se usa mv, que además sirve para mover; en PowerShell, Rename-Item."
+            }
+          ],
+          "explica": "Copiar carpetas es donde más se nota que no son el mismo comando con otro nombre.",
+          "xp": 30
+        },
+        {
+          "id": "3",
+          "nombre": "Buscar y filtrar",
+          "dificultad": "intermedio",
+          "objetivo": "Filtra texto y busca archivos en cada shell.",
+          "os": "linux",
+          "rondas": [
+            {
+              "tarea": "Quedarte solo con las líneas que contienen ERROR",
+              "sistema": "linux",
+              "correcta": "grep ERROR registro.log",
+              "opciones": [
+                "grep ERROR registro.log",
+                "findstr ERROR registro.log",
+                "Select-String ERROR registro.log",
+                "find ERROR registro.log"
+              ],
+              "explica": "grep filtra líneas por patrón.",
+              "diferencias": "find en Linux busca ARCHIVOS, no texto: es un falso amigo peligroso, porque en CMD find sí busca texto."
+            },
+            {
+              "tarea": "Quedarte solo con las líneas que contienen ERROR",
+              "sistema": "cmd",
+              "correcta": "findstr ERROR registro.log",
+              "opciones": [
+                "findstr ERROR registro.log",
+                "grep ERROR registro.log",
+                "find ERROR registro.log",
+                "select-string ERROR"
+              ],
+              "explica": "findstr es el filtro de texto de CMD y admite expresiones regulares sencillas.",
+              "diferencias": "Existe también find, más limitado y que exige las comillas: find \"ERROR\" archivo."
+            },
+            {
+              "tarea": "Quedarte solo con las líneas que contienen ERROR",
+              "sistema": "powershell",
+              "correcta": "Select-String ERROR registro.log",
+              "opciones": [
+                "Select-String ERROR registro.log",
+                "grep ERROR registro.log",
+                "findstr ERROR registro.log",
+                "Get-Content registro.log -Filter ERROR"
+              ],
+              "explica": "Select-String busca en texto y devuelve objetos con Line, LineNumber y Filename.",
+              "diferencias": "Al devolver objetos puedes encadenar: Select-String ERROR *.log | Select-Object Filename,LineNumber."
+            },
+            {
+              "tarea": "Buscar todos los archivos .txt de un árbol de carpetas",
+              "sistema": "linux",
+              "correcta": "find . -name \"*.txt\"",
+              "opciones": [
+                "find . -name \"*.txt\"",
+                "grep -r .txt .",
+                "dir /S *.txt",
+                "ls -R *.txt"
+              ],
+              "explica": "find recorre el árbol y filtra por nombre.",
+              "diferencias": "En CMD el equivalente es dir /S *.txt y en PowerShell Get-ChildItem -Recurse -Filter *.txt."
+            }
+          ],
+          "explica": "Ojo con find: en Linux busca archivos y en CMD busca texto. Mismo nombre, trabajos distintos.",
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "Procesos y servicios",
+          "dificultad": "intermedio",
+          "objetivo": "Mira y para procesos en cada sistema.",
+          "os": "linux",
+          "rondas": [
+            {
+              "tarea": "Ver los procesos en marcha",
+              "sistema": "linux",
+              "correcta": "ps aux",
+              "opciones": [
+                "ps aux",
+                "tasklist",
+                "Get-Process",
+                "top -n"
+              ],
+              "explica": "ps aux lista todos los procesos con usuario y consumo.",
+              "diferencias": "tasklist (CMD) y Get-Process (PowerShell) hacen lo propio; solo el último devuelve objetos."
+            },
+            {
+              "tarea": "Ver los procesos en marcha",
+              "sistema": "cmd",
+              "correcta": "tasklist",
+              "opciones": [
+                "tasklist",
+                "ps aux",
+                "Get-Process",
+                "proclist"
+              ],
+              "explica": "tasklist es el listado de procesos de CMD.",
+              "diferencias": "Sus columnas son fijas y pensadas para leerse, no para trocearlas con un script."
+            },
+            {
+              "tarea": "Terminar un proceso por su identificador",
+              "sistema": "linux",
+              "correcta": "kill 4711",
+              "opciones": [
+                "kill 4711",
+                "taskkill /PID 4711 /F",
+                "Stop-Process -Id 4711",
+                "end 4711"
+              ],
+              "explica": "kill envía una señal de terminación al PID indicado.",
+              "diferencias": "En CMD es taskkill /PID n /F y en PowerShell Stop-Process -Id n."
+            },
+            {
+              "tarea": "Terminar un proceso por su identificador",
+              "sistema": "powershell",
+              "correcta": "Stop-Process -Id 4711",
+              "opciones": [
+                "Stop-Process -Id 4711",
+                "kill -9 4711",
+                "taskkill 4711",
+                "Remove-Process 4711"
+              ],
+              "explica": "Stop-Process acepta -Id o -Name.",
+              "diferencias": "Tiene alias kill, pero los parámetros no son los de Linux: kill -9 no significa nada aquí."
+            }
+          ],
+          "explica": "Los tres pueden parar un proceso, pero los parámetros no se traducen letra a letra.",
+          "xp": 35
+        },
+        {
+          "id": "5",
+          "nombre": "Escríbelo tú",
+          "dificultad": "avanzado",
+          "objetivo": "Sin opciones: escribe el comando correcto.",
+          "os": "linux",
+          "rondas": [
+            {
+              "tarea": "Crear la carpeta «entrega» en el directorio actual",
+              "sistema": "linux",
+              "correcta": "mkdir entrega",
+              "acepta": [
+                "mkdir ./entrega"
+              ],
+              "explica": "mkdir crea directorios; con -p crea también los padres que falten.",
+              "pista": "Tres letras y el nombre de la carpeta."
+            },
+            {
+              "tarea": "Crear la carpeta «Entrega» en el directorio actual",
+              "sistema": "cmd",
+              "correcta": "mkdir Entrega",
+              "acepta": [
+                "md Entrega"
+              ],
+              "explica": "En CMD valen mkdir y su abreviatura md, y crea toda la rama sin pedir una opción como -p.",
+              "pista": "Vale el nombre largo o su abreviatura de dos letras."
+            },
+            {
+              "tarea": "Crear la carpeta «Entrega» en el directorio actual",
+              "sistema": "powershell",
+              "correcta": "New-Item -ItemType Directory -Name Entrega",
+              "acepta": [
+                "New-Item -Name Entrega -ItemType Directory",
+                "mkdir Entrega",
+                "New-Item -ItemType Directory Entrega"
+              ],
+              "explica": "New-Item crea cualquier elemento; hay que decirle de qué tipo. mkdir existe como alias por comodidad.",
+              "pista": "El cmdlet es New-Item y necesita saber el tipo."
+            },
+            {
+              "tarea": "Mostrar en qué carpeta estás",
+              "sistema": "powershell",
+              "correcta": "Get-Location",
+              "acepta": [
+                "pwd",
+                "gl"
+              ],
+              "explica": "Get-Location devuelve un objeto con la ruta; pwd y gl son sus alias.",
+              "pista": "Verbo-Sustantivo: obtener la ubicación."
+            }
+          ],
+          "explica": "Escribirlo de memoria es lo que de verdad demuestra que lo recuerdas.",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "encuentra-error",
+      "nombre": "Encuentra el error",
+      "numero": 11,
+      "motor": "dom",
+      "archivo": "encuentra-error.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "Comandos que parecen correctos y no lo son. Señala la pieza que falla, escribe la versión buena y compruébala en el simulador.",
+      "aprende": [
+        "leer mensajes de error",
+        "opciones que faltan",
+        "comillas",
+        "variables de cada shell"
+      ],
+      "mecanica": "Se muestra la intención y el comando fallido. Pulsas la pieza equivocada y escribes la corrección; el simulador la ejecuta para confirmar que ahora sí funciona.",
+      "controles": "Pulsa una pieza para señalarla (o recórrelas con el tabulador). Escribe la corrección en el campo y pulsa «Comprobar arreglo».",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Fallos de principiante",
+          "dificultad": "basico",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Corrige tres comandos de Linux que no hacen lo que pretendían.",
+          "retos": [
+            {
+              "comando": "rm imagenes",
+              "os": "linux",
+              "erroneo": 0,
+              "intencion": "Borrar la carpeta imagenes con todo lo que tiene dentro.",
+              "porque": "A rm le falta una opción: tal cual, se niega a borrar directorios.",
+              "porPieza": {
+                "1": "La ruta está bien escrita y el directorio existe."
+              },
+              "correcto": "rm -r imagenes",
+              "acepta": [
+                "rm -rf imagenes",
+                "rm -R imagenes"
+              ],
+              "validador": {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/imagenes"
+              },
+              "pista": "Un directorio con contenido necesita que se lo pidas explícitamente.",
+              "explica": "rm -r baja por el árbol y borra el directorio entero. Sin -r, rm solo borra archivos sueltos."
+            },
+            {
+              "comando": "cp documentos backups/",
+              "os": "linux",
+              "erroneo": 0,
+              "intencion": "Copiar la carpeta documentos dentro de backups.",
+              "porque": "cp sin -r no copia directorios: se salta la carpeta y avisa.",
+              "porPieza": {
+                "1": "El origen existe.",
+                "2": "El destino existe y es una carpeta."
+              },
+              "correcto": "cp -r documentos backups/",
+              "acepta": [
+                "cp -R documentos backups/",
+                "cp -r documentos backups"
+              ],
+              "validador": {
+                "tipo": "existe",
+                "ruta": "/home/alumno/backups/documentos/notas.txt"
+              },
+              "pista": "Le falta la misma opción que a rm para trabajar con carpetas.",
+              "explica": "cp -r copia el directorio y su contenido. El original se queda donde estaba."
+            },
+            {
+              "comando": "grep ERROR sistema.log",
+              "os": "linux",
+              "erroneo": 2,
+              "intencion": "Buscar las líneas con ERROR del registro del sistema, que está en /var/log/sistema.log.",
+              "porque": "La ruta es relativa y desde el home no existe ese archivo: hay que dar la ruta correcta.",
+              "porPieza": {
+                "0": "grep es el comando adecuado para filtrar líneas.",
+                "1": "El patrón ERROR es justo lo que se busca."
+              },
+              "correcto": "grep ERROR /var/log/sistema.log",
+              "acepta": [
+                "grep \"ERROR\" /var/log/sistema.log"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "ERROR servicio web caido"
+              },
+              "pista": "¿Desde dónde estás mirando? La ruta del registro empieza por /var.",
+              "explica": "Una ruta relativa se resuelve desde el directorio actual. Si el archivo está en /var/log, hay que decirlo o moverse antes."
+            }
+          ],
+          "explica": "Los tres fallos son de los que más se repiten: opciones que faltan y rutas que no son donde crees.",
+          "xp": 30
+        },
+        {
+          "id": "2",
+          "nombre": "Comillas y comodines",
+          "dificultad": "intermedio",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Corrige comandos donde el problema está en las comillas o en el orden.",
+          "retos": [
+            {
+              "comando": "grep ERROR falla /var/log/sistema.log",
+              "os": "linux",
+              "erroneo": 2,
+              "intencion": "Buscar las líneas que contienen exactamente «ERROR servicio» en el registro.",
+              "porque": "Sin comillas, grep toma ERROR como patrón y «falla» como si fuera un archivo más.",
+              "porPieza": {
+                "0": "grep está bien elegido.",
+                "3": "La ruta del registro es correcta."
+              },
+              "correcto": "grep \"ERROR servicio\" /var/log/sistema.log",
+              "acepta": [
+                "grep 'ERROR servicio' /var/log/sistema.log"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "ERROR servicio web caido"
+              },
+              "pista": "Un patrón con espacios tiene que ir entre comillas.",
+              "explica": "Sin comillas el shell trocea por espacios: el primer trozo es el patrón y el resto, archivos."
+            },
+            {
+              "comando": "ls documentos > -la",
+              "os": "linux",
+              "erroneo": 2,
+              "intencion": "Listar el contenido de documentos con detalle y archivos ocultos.",
+              "porque": "El > redirige la salida a un archivo llamado «-la»: no es una opción, es un destino.",
+              "porPieza": {
+                "0": "ls es el comando correcto.",
+                "1": "documentos es la carpeta que se quiere listar."
+              },
+              "correcto": "ls -la documentos",
+              "acepta": [
+                "ls -al documentos",
+                "ls -la ./documentos"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "notas.txt"
+              },
+              "pista": "Las opciones van detrás del comando, no detrás de un símbolo de redirección.",
+              "explica": "> manda la salida a un archivo. Las opciones se escriben pegadas al comando, antes o después de la ruta."
+            }
+          ],
+          "explica": "Las comillas y los símbolos de redirección cambian por completo cómo el shell lee la línea.",
+          "xp": 35
+        },
+        {
+          "id": "3",
+          "nombre": "Errores en CMD",
+          "dificultad": "intermedio",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Corrige dos comandos de Windows CMD.",
+          "retos": [
+            {
+              "comando": "copy Documents Backups",
+              "os": "cmd",
+              "erroneo": 0,
+              "intencion": "Copiar la carpeta Documents entera dentro de Backups.",
+              "porque": "copy solo trabaja con archivos: no copia carpetas ni su contenido.",
+              "porPieza": {
+                "1": "Documents existe.",
+                "2": "Backups existe."
+              },
+              "correcto": "xcopy Documents Backups\\Docs /E /I",
+              "acepta": [
+                "xcopy Documents Backups\\Docs /E /I /Q",
+                "robocopy Documents Backups\\Docs /E"
+              ],
+              "validador": {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Backups\\Docs\\notas.txt"
+              },
+              "pista": "En CMD hay un comando distinto para copiar árboles de carpetas.",
+              "explica": "xcopy /E copia subcarpetas (incluidas las vacías) e /I evita la pregunta de si el destino es carpeta."
+            },
+            {
+              "comando": "ls Documents",
+              "os": "cmd",
+              "erroneo": 0,
+              "intencion": "Listar el contenido de la carpeta Documents en CMD.",
+              "porque": "ls no existe en CMD: es el comando de Linux.",
+              "porPieza": {
+                "1": "La carpeta Documents sí existe."
+              },
+              "correcto": "dir Documents",
+              "acepta": [
+                "dir Documents /B",
+                "dir .\\Documents"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "notas.txt"
+              },
+              "pista": "Cada shell tiene su propio listado.",
+              "explica": "CMD lista con dir. Que ls funcione en PowerShell (por un alias) confunde bastante al empezar."
+            }
+          ],
+          "explica": "En CMD no valen los reflejos de Linux: ni los nombres ni las opciones se comparten.",
+          "xp": 35
+        },
+        {
+          "id": "4",
+          "nombre": "Errores en PowerShell",
+          "dificultad": "avanzado",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Corrige dos comandos de PowerShell.",
+          "retos": [
+            {
+              "comando": "Get-Process | Where-Object CPU > 10",
+              "os": "powershell",
+              "erroneo": 4,
+              "intencion": "Quedarte con los procesos que consumen más de 10 de CPU.",
+              "porque": "En PowerShell > no compara: redirige la salida a un archivo llamado «10».",
+              "porPieza": {
+                "0": "Get-Process entrega los objetos.",
+                "2": "Where-Object es el filtro correcto."
+              },
+              "correcto": "Get-Process | Where-Object CPU -gt 10",
+              "acepta": [
+                "Get-Process | Where-Object { $_.CPU -gt 10 }",
+                "Get-Process | ? CPU -gt 10"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "chrome"
+              },
+              "pista": "Los operadores de comparación de PowerShell empiezan por guion.",
+              "explica": "Mayor que es -gt; también están -lt, -eq, -ne, -ge y -le. El símbolo > queda reservado para redirigir."
+            },
+            {
+              "comando": "Get-ChildItem /Documents",
+              "os": "powershell",
+              "erroneo": 1,
+              "intencion": "Listar el contenido de la carpeta Documents.",
+              "porque": "La barra inicial hace que se busque en la raíz, y además en Windows el separador es la barra invertida.",
+              "porPieza": {
+                "0": "Get-ChildItem es el cmdlet correcto."
+              },
+              "correcto": "Get-ChildItem Documents",
+              "acepta": [
+                "Get-ChildItem .\\Documents",
+                "gci Documents",
+                "Get-ChildItem -Path Documents"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "notas.txt"
+              },
+              "pista": "¿Es una ruta relativa o absoluta? Fíjate por dónde empieza.",
+              "explica": "PowerShell acepta / como separador, pero una ruta que empieza por / apunta a la raíz de la unidad, no a la carpeta actual."
+            }
+          ],
+          "explica": "En PowerShell los operadores llevan guion y las rutas siguen las reglas de Windows.",
+          "xp": 40
+        },
+        {
+          "id": "5",
+          "nombre": "Mezclando shells",
+          "dificultad": "avanzado",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Corrige comandos que mezclan sintaxis de sistemas distintos.",
+          "retos": [
+            {
+              "comando": "echo %USERPROFILE%",
+              "os": "linux",
+              "erroneo": 1,
+              "intencion": "Mostrar la ruta del directorio personal del usuario en Bash.",
+              "porque": "%VAR% es la forma de CMD. En Bash las variables se escriben con $.",
+              "porPieza": {
+                "0": "echo es correcto en los tres shells."
+              },
+              "correcto": "echo $HOME",
+              "acepta": [
+                "echo \"$HOME\"",
+                "echo ${HOME}"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "/home/alumno"
+              },
+              "pista": "Cada shell marca sus variables de una forma distinta.",
+              "explica": "Bash usa $VAR, CMD usa %VAR% y PowerShell $env:VAR. Es de los primeros tropiezos al cambiar de sistema."
+            },
+            {
+              "comando": "ls /B",
+              "os": "linux",
+              "erroneo": 1,
+              "intencion": "Listar solo los nombres de los archivos del directorio actual.",
+              "porque": "/B es una opción de dir en CMD. En Linux las opciones empiezan por guion y /B se interpreta como una ruta.",
+              "porPieza": {
+                "0": "ls es el comando correcto en Linux."
+              },
+              "correcto": "ls -1",
+              "acepta": [
+                "ls",
+                "ls -1a"
+              ],
+              "validador": {
+                "tipo": "salida-incluye",
+                "texto": "documentos"
+              },
+              "pista": "En Linux, ls a secas ya da solo los nombres.",
+              "explica": "Las opciones con barra son de Windows. En Linux se usan guiones, y ls por defecto ya lista solo nombres."
+            }
+          ],
+          "explica": "Las costumbres de un shell no se trasplantan a otro: se parecen lo justo para despistar.",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "slug": "mision-final",
+      "nombre": "Misión final",
+      "numero": 12,
+      "motor": "dom",
+      "archivo": "mision-final.js",
+      "os": [
+        "linux",
+        "cmd",
+        "powershell"
+      ],
+      "resumen": "El examen práctico: una cadena de tareas que recorre todo el temario, con terminal real y sin ayudas por defecto.",
+      "aprende": [
+        "encadenar lo aprendido",
+        "trabajar sin instrucciones paso a paso"
+      ],
+      "mecanica": "Cada tarea se marca sola cuando el sistema queda como pide. No se comprueba qué comando escribiste, sino el resultado: cualquier camino correcto vale.",
+      "controles": "Solo la terminal. La lista de tareas de la derecha se va tachando sola.",
+      "niveles": [
+        {
+          "id": "1",
+          "nombre": "Examen de Linux",
+          "dificultad": "avanzado",
+          "os": "linux",
+          "escenario": "linux-hogar",
+          "objetivo": "Prepara una entrega completa usando todo lo aprendido en Linux.",
+          "contexto": "Te piden dejar preparada una carpeta de entrega con el informe, un resumen de errores del sistema y una copia comprimida, con los permisos correctos.",
+          "tareas": [
+            {
+              "texto": "Crea el directorio ~/entrega",
+              "exito": {
+                "tipo": "es-directorio",
+                "ruta": "/home/alumno/entrega"
+              },
+              "pista": "mkdir crea directorios.",
+              "explica": "Un directorio nuevo en el home."
+            },
+            {
+              "texto": "Copia documentos/informe.txt dentro de entrega/ (sin perder el original)",
+              "exito": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "existe",
+                    "ruta": "/home/alumno/entrega/informe.txt"
+                  },
+                  {
+                    "tipo": "existe",
+                    "ruta": "/home/alumno/documentos/informe.txt"
+                  }
+                ]
+              },
+              "pista": "cp copia y deja el original donde estaba.",
+              "explica": "cp, no mv: el original sigue en documentos."
+            },
+            {
+              "texto": "Guarda en entrega/errores.txt solo las líneas con ERROR de /var/log/sistema.log",
+              "exito": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/entrega/errores.txt",
+                    "incluye": "ERROR servicio web caido"
+                  },
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/entrega/errores.txt",
+                    "lineas": 2
+                  }
+                ]
+              },
+              "pista": "grep filtra y > guarda.",
+              "explica": "grep ERROR archivo > destino."
+            },
+            {
+              "texto": "Deja entrega/informe.txt con permisos 640",
+              "exito": {
+                "tipo": "permisos",
+                "ruta": "/home/alumno/entrega/informe.txt",
+                "modo": "640"
+              },
+              "pista": "6 para el dueño, 4 para el grupo, 0 para los demás.",
+              "explica": "chmod 640."
+            },
+            {
+              "texto": "Empaqueta la carpeta documentos en entrega/documentos.tar",
+              "exito": {
+                "tipo": "existe",
+                "ruta": "/home/alumno/entrega/documentos.tar"
+              },
+              "pista": "tar -cf destino.tar carpeta.",
+              "explica": "tar -cf crea el paquete."
+            },
+            {
+              "texto": "Termina el examen situado dentro de ~/entrega",
+              "exito": {
+                "tipo": "cwd",
+                "ruta": "/home/alumno/entrega"
+              },
+              "pista": "cd entrega.",
+              "explica": "cd para terminar donde se pide."
+            }
+          ],
+          "solucion": [
+            "mkdir ~/entrega",
+            "cp documentos/informe.txt ~/entrega/",
+            "grep ERROR /var/log/sistema.log > ~/entrega/errores.txt",
+            "chmod 640 ~/entrega/informe.txt",
+            "tar -cf ~/entrega/documentos.tar documentos",
+            "cd ~/entrega"
+          ],
+          "explica": "Has encadenado navegación, copia, filtrado de texto, permisos y empaquetado: el trabajo real de una terminal.",
+          "xp": 60
+        },
+        {
+          "id": "2",
+          "nombre": "Examen de CMD",
+          "dificultad": "avanzado",
+          "os": "cmd",
+          "escenario": "cmd-hogar",
+          "objetivo": "Prepara la misma entrega, pero en Windows CMD.",
+          "contexto": "Mismo encargo, otro sistema: aquí no valen ni ls, ni cp, ni grep.",
+          "tareas": [
+            {
+              "texto": "Crea la carpeta Entrega en tu perfil",
+              "exito": {
+                "tipo": "es-directorio",
+                "ruta": "C:\\Users\\Alumno\\Entrega"
+              },
+              "pista": "mkdir o md.",
+              "explica": "md Entrega."
+            },
+            {
+              "texto": "Copia Documents\\informe.txt dentro de Entrega",
+              "exito": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Entrega\\informe.txt"
+                  },
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Documents\\informe.txt"
+                  }
+                ]
+              },
+              "pista": "copy origen destino.",
+              "explica": "copy sirve para archivos sueltos."
+            },
+            {
+              "texto": "Guarda en Entrega\\pan.txt las líneas de Documents\\lista.csv que hablan de pan",
+              "exito": {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Entrega\\pan.txt",
+                "incluye": "pan"
+              },
+              "pista": "findstr filtra y > guarda.",
+              "explica": "findstr pan archivo > destino."
+            },
+            {
+              "texto": "Copia la carpeta Documents entera en Entrega\\Docs",
+              "exito": {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Entrega\\Docs\\notas.txt"
+              },
+              "pista": "copy no copia carpetas; usa xcopy /E /I.",
+              "explica": "xcopy Documents Entrega\\Docs /E /I."
+            },
+            {
+              "texto": "Termina situado dentro de Entrega",
+              "exito": {
+                "tipo": "cwd",
+                "ruta": "C:\\Users\\Alumno\\Entrega"
+              },
+              "pista": "cd Entrega.",
+              "explica": "cd cambia de carpeta en CMD igual que en Linux."
+            }
+          ],
+          "solucion": [
+            "md Entrega",
+            "copy Documents\\informe.txt Entrega\\",
+            "findstr pan Documents\\lista.csv > Entrega\\pan.txt",
+            "xcopy Documents Entrega\\Docs /E /I",
+            "cd Entrega"
+          ],
+          "explica": "El mismo trabajo con otras herramientas: dir, copy, xcopy y findstr. Los conceptos viajan; los comandos, no.",
+          "xp": 60
+        },
+        {
+          "id": "3",
+          "nombre": "Examen de PowerShell",
+          "dificultad": "avanzado",
+          "os": "powershell",
+          "escenario": "ps-hogar",
+          "objetivo": "Resuelve el encargo con cmdlets y el pipeline de objetos.",
+          "contexto": "Mismo encargo, ahora aprovechando que por la tubería viajan objetos.",
+          "tareas": [
+            {
+              "texto": "Crea la carpeta Entrega",
+              "exito": {
+                "tipo": "es-directorio",
+                "ruta": "C:\\Users\\Alumno\\Entrega"
+              },
+              "pista": "New-Item -ItemType Directory -Name Entrega.",
+              "explica": "New-Item crea cualquier elemento indicando el tipo."
+            },
+            {
+              "texto": "Copia Documents\\informe.txt dentro de Entrega",
+              "exito": {
+                "tipo": "todos",
+                "de": [
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Entrega\\informe.txt"
+                  },
+                  {
+                    "tipo": "existe",
+                    "ruta": "C:\\Users\\Alumno\\Documents\\informe.txt"
+                  }
+                ]
+              },
+              "pista": "Copy-Item origen destino.",
+              "explica": "Copy-Item deja el original en su sitio."
+            },
+            {
+              "texto": "Guarda en Entrega\\activos.txt las líneas de Documents\\servidores.csv que contienen «activo»",
+              "exito": {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Entrega\\activos.txt",
+                "incluye": "web01"
+              },
+              "pista": "Select-String filtra; Set-Content o > guardan.",
+              "explica": "Select-String activo archivo > destino."
+            },
+            {
+              "texto": "Copia la carpeta Documents entera en Entrega\\Docs",
+              "exito": {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Entrega\\Docs\\notas.txt"
+              },
+              "pista": "Copy-Item admite -Recurse.",
+              "explica": "Copy-Item Documents Entrega\\Docs -Recurse."
+            },
+            {
+              "texto": "Termina situado dentro de Entrega",
+              "exito": {
+                "tipo": "cwd",
+                "ruta": "C:\\Users\\Alumno\\Entrega"
+              },
+              "pista": "Set-Location Entrega.",
+              "explica": "Set-Location (alias cd) cambia la ubicación."
+            }
+          ],
+          "solucion": [
+            "New-Item -ItemType Directory -Name Entrega",
+            "Copy-Item Documents\\informe.txt Entrega\\",
+            "Select-String activo Documents\\servidores.csv > Entrega\\activos.txt",
+            "Copy-Item Documents Entrega\\Docs -Recurse",
+            "Set-Location Entrega"
+          ],
+          "explica": "Mismos conceptos, cmdlets Verbo-Sustantivo y objetos por la tubería.",
+          "xp": 60
+        }
+      ]
+    }
+  ]
+}

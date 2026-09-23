@@ -1,0 +1,3828 @@
+{
+  "misiones": [
+    {
+      "id": "linux-m01",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Orientarte en una carpeta desconocida",
+      "nivel": "basico",
+      "orden": 10,
+      "objetivo": "Averigua dónde estás y qué hay a tu alrededor, y entra en documentos.",
+      "contexto": "Acabas de abrir una terminal en un equipo que no es tuyo. Antes de tocar nada, hay que mirar.",
+      "comandos_sugeridos": [
+        "pwd",
+        "ls",
+        "cd"
+      ],
+      "instrucciones": [
+        "Averigua en qué directorio estás.",
+        "Mira qué hay en él, incluidos los archivos ocultos.",
+        "Entra en el directorio documentos."
+      ],
+      "pasos": [
+        {
+          "texto": "Estás dentro de documentos",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "/home/alumno/documentos"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "cwd",
+            "ruta": "/home/alumno/documentos"
+          },
+          {
+            "tipo": "comando-usado",
+            "patron": "^\\s*ls"
+          }
+        ]
+      },
+      "pistas": [
+        "Empieza por saber dónde estás: hay un comando de tres letras que lo dice.",
+        "Para ver también lo oculto, a ls le falta una opción.",
+        "cd documentos te mete dentro; pwd te confirma que ya estás."
+      ],
+      "solucion": "pwd\nls -la\ncd documentos",
+      "explicacion": "pwd responde «dónde estoy», ls -la enseña todo el contenido (incluidos los archivos que empiezan por punto) y cd cambia de directorio. Ese trío es el reflejo básico al llegar a cualquier sistema.",
+      "recompensa": {
+        "xp": 20
+      },
+      "requisitos": [],
+      "etiquetas": [
+        "fundamentos",
+        "navegacion"
+      ]
+    },
+    {
+      "id": "linux-m02",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Una copia de seguridad, sin perder el original",
+      "nivel": "basico",
+      "orden": 20,
+      "objetivo": "Copia documentos/notas.txt dentro de backups/ sin que desaparezca el original.",
+      "contexto": "Vas a editar unas notas y quieres una copia por si acaso.",
+      "comandos_sugeridos": [
+        "cp",
+        "ls"
+      ],
+      "instrucciones": [
+        "Copia el archivo documentos/notas.txt a la carpeta backups/.",
+        "Comprueba que el original sigue en su sitio."
+      ],
+      "pasos": [
+        {
+          "texto": "La copia existe en backups/",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/notas.txt"
+          }
+        },
+        {
+          "texto": "El original sigue en documentos/",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/documentos/notas.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/notas.txt"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/documentos/notas.txt"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*mv\\s",
+          "dice": "Con <code>mv</code> el archivo se ha <strong>movido</strong>: ya no está en documentos. Reinicia el escenario y usa <code>cp</code>, que duplica y deja el original."
+        }
+      ],
+      "pistas": [
+        "Copiar y mover son comandos distintos: uno conserva el original y el otro no.",
+        "El que copia se llama cp y necesita dos rutas: origen y destino.",
+        "cp documentos/notas.txt backups/"
+      ],
+      "solucion": "cp documentos/notas.txt backups/",
+      "explicacion": "cp duplica: el original se queda donde estaba. mv, en cambio, mueve. Cuando el destino es un directorio que existe, basta con indicarlo y el archivo conserva su nombre.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "linux-m01"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "linux-m03",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Un inventario completo de la carpeta",
+      "nivel": "basico",
+      "orden": 30,
+      "objetivo": "Guarda en backups/inventario.txt el listado detallado de tu carpeta personal, incluidos los archivos ocultos.",
+      "contexto": "Antes de reorganizar nada te piden una foto de cómo está la carpeta ahora mismo.",
+      "comandos_sugeridos": [
+        "ls",
+        "pwd"
+      ],
+      "instrucciones": [
+        "Sitúate en /home/alumno.",
+        "Lista el contenido con detalle y sin dejarte los archivos ocultos.",
+        "Guarda esa salida en backups/inventario.txt en vez de imprimirla."
+      ],
+      "pasos": [
+        {
+          "texto": "El inventario existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/inventario.txt"
+          }
+        },
+        {
+          "texto": "Incluye los archivos ocultos",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/inventario.txt",
+            "incluye": ".perfil"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/inventario.txt"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/inventario.txt",
+            "incluye": ".perfil"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/inventario.txt",
+            "incluye": "drwx"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/backups/inventario.txt"
+              },
+              {
+                "tipo": "ninguno",
+                "de": [
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/backups/inventario.txt",
+                    "incluye": ".perfil"
+                  }
+                ]
+              }
+            ]
+          },
+          "dice": "El archivo se ha creado, pero dentro no aparece <code>.perfil</code>: has listado sin incluir los ocultos. Repite el listado añadiendo la opción que los muestra."
+        }
+      ],
+      "pistas": [
+        "Necesitas listar de dos formas a la vez: con detalle y con los ocultos incluidos.",
+        "Son las opciones -l y -a; se pueden juntar detrás de un solo guion.",
+        "Para guardar en un archivo en lugar de imprimir, redirige con > backups/inventario.txt"
+      ],
+      "solucion": "ls -la > backups/inventario.txt",
+      "explicacion": "-l da el formato largo (permisos, propietario, tamaño y fecha) y -a incluye las entradas que empiezan por punto. El símbolo > manda la salida a un archivo: lo crea si no existe y lo vacía si existía.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "linux-m01"
+      ],
+      "etiquetas": [
+        "fundamentos",
+        "texto"
+      ]
+    },
+    {
+      "id": "linux-m04",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "El resumen del informe",
+      "nivel": "basico",
+      "orden": 40,
+      "objetivo": "Guarda en backups/resumen.txt solo las dos primeras líneas de documentos/informe.txt.",
+      "contexto": "Te piden la cabecera del informe para pegarla en un correo, no el documento entero.",
+      "comandos_sugeridos": [
+        "head",
+        "cat"
+      ],
+      "instrucciones": [
+        "Mira el contenido de documentos/informe.txt.",
+        "Quédate solo con sus dos primeras líneas.",
+        "Guárdalas en backups/resumen.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El resumen existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/resumen.txt"
+          }
+        },
+        {
+          "texto": "Tiene exactamente dos líneas",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/resumen.txt",
+            "lineas": 2
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/resumen.txt",
+            "lineas": 2
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/resumen.txt",
+            "incluye": "INFORME TRIMESTRAL"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/resumen.txt",
+            "lineas": 4
+          },
+          "dice": "Has copiado el archivo entero. <code>head</code> con la opción <code>-n</code> corta por el número de líneas que le pidas."
+        }
+      ],
+      "pistas": [
+        "Hay un comando que enseña solo el principio de un archivo.",
+        "Se llama head y admite -n para decir cuántas líneas.",
+        "head -n 2 documentos/informe.txt y redirige el resultado con >."
+      ],
+      "solucion": "head -n 2 documentos/informe.txt > backups/resumen.txt",
+      "explicacion": "head imprime las primeras líneas de un archivo (10 por defecto) y -n 2 lo limita a dos. La redirección > guarda esa salida en backups/resumen.txt.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "linux-m03"
+      ],
+      "etiquetas": [
+        "texto"
+      ]
+    },
+    {
+      "id": "linux-m05",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Rutas relativas sin moverte de sitio",
+      "nivel": "basico",
+      "orden": 50,
+      "objetivo": "Estando dentro de documentos, crea la carpeta backups/2026 usando una ruta relativa, y quédate en documentos.",
+      "contexto": "Trabajar con rutas relativas evita pasear por todo el árbol para cada operación.",
+      "comandos_sugeridos": [
+        "cd",
+        "mkdir",
+        "pwd"
+      ],
+      "instrucciones": [
+        "Entra en documentos.",
+        "Sin salir de ahí, crea la carpeta 2026 dentro de backups.",
+        "Comprueba con pwd que sigues en documentos."
+      ],
+      "pasos": [
+        {
+          "texto": "La carpeta 2026 existe dentro de backups",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/backups/2026"
+          }
+        },
+        {
+          "texto": "Sigues dentro de documentos",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "/home/alumno/documentos"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/backups/2026"
+          },
+          {
+            "tipo": "cwd",
+            "ruta": "/home/alumno/documentos"
+          }
+        ]
+      },
+      "pistas": [
+        "Dos puntos seguidos (..) significan «el directorio de arriba».",
+        "Desde documentos, el camino hasta backups pasa por el padre: ../backups",
+        "cd documentos y después mkdir ../backups/2026"
+      ],
+      "solucion": "cd documentos\nmkdir ../backups/2026",
+      "explicacion": "Una ruta relativa se interpreta desde donde estás. Desde /home/alumno/documentos, ../backups sube a /home/alumno y entra en backups, sin necesidad de escribir la ruta absoluta entera ni de cambiar de directorio.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "linux-m04"
+      ],
+      "etiquetas": [
+        "fundamentos",
+        "navegacion"
+      ]
+    },
+    {
+      "id": "linux-m06",
+      "os": "linux",
+      "escenario": "linux-proyecto",
+      "titulo": "La estructura de la entrega",
+      "nivel": "basico",
+      "orden": 60,
+      "objetivo": "Crea dentro de entrega/ las carpetas css y js en un solo comando.",
+      "contexto": "El cliente pide la web organizada por tipo de archivo antes de subirla.",
+      "comandos_sugeridos": [
+        "mkdir",
+        "ls",
+        "tree"
+      ],
+      "instrucciones": [
+        "Crea entrega/css y entrega/js.",
+        "Comprueba el resultado con tree o ls."
+      ],
+      "pasos": [
+        {
+          "texto": "entrega/css existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/proyecto/entrega/css"
+          }
+        },
+        {
+          "texto": "entrega/js existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/proyecto/entrega/js"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/proyecto/entrega/css"
+          },
+          {
+            "tipo": "es-directorio",
+            "ruta": "/home/alumno/proyecto/entrega/js"
+          }
+        ]
+      },
+      "pistas": [
+        "mkdir acepta varios nombres en la misma línea.",
+        "Si una carpeta intermedia no existiera, haría falta la opción -p.",
+        "mkdir entrega/css entrega/js"
+      ],
+      "solucion": "mkdir entrega/css entrega/js",
+      "explicacion": "mkdir crea tantos directorios como le pases. La opción -p sirve para crear toda la rama de golpe (y no protesta si ya existe); aquí no hace falta porque entrega/ ya estaba creada.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "linux-m05"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "linux-m07",
+      "os": "linux",
+      "escenario": "linux-proyecto",
+      "titulo": "Ordenar el proyecto",
+      "nivel": "intermedio",
+      "orden": 70,
+      "objetivo": "Mueve index.html, estilo.css y app.js dentro de entrega/, y renombra borrador.txt como notas.txt.",
+      "contexto": "La raíz del proyecto está llena de archivos sueltos y hay que dejarla limpia.",
+      "comandos_sugeridos": [
+        "mv",
+        "ls"
+      ],
+      "instrucciones": [
+        "Mueve los tres archivos de la web a entrega/.",
+        "Renombra borrador.txt como notas.txt.",
+        "Comprueba que la raíz queda ordenada."
+      ],
+      "pasos": [
+        {
+          "texto": "Los tres archivos están en entrega/",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/proyecto/entrega/index.html"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/proyecto/entrega/estilo.css"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/proyecto/entrega/app.js"
+              }
+            ]
+          }
+        },
+        {
+          "texto": "borrador.txt ahora se llama notas.txt",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/proyecto/notas.txt"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/proyecto/borrador.txt"
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/entrega/index.html"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/entrega/estilo.css"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/entrega/app.js"
+          },
+          {
+            "tipo": "no-existe",
+            "ruta": "/home/alumno/proyecto/index.html"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/notas.txt"
+          },
+          {
+            "tipo": "no-existe",
+            "ruta": "/home/alumno/proyecto/borrador.txt"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*cp\\s",
+          "dice": "Con <code>cp</code> los archivos se duplican y la raíz sigue igual de llena. Aquí se pide <strong>mover</strong>: ese es el trabajo de <code>mv</code>."
+        }
+      ],
+      "pistas": [
+        "Mover y renombrar son el mismo comando en Linux.",
+        "mv admite varios orígenes si el último argumento es un directorio.",
+        "mv index.html estilo.css app.js entrega/ y después mv borrador.txt notas.txt"
+      ],
+      "solucion": "mv index.html estilo.css app.js entrega/\nmv borrador.txt notas.txt",
+      "explicacion": "mv sirve para dos cosas que en realidad son la misma: cambiar un archivo de sitio y cambiarle el nombre. Si el destino es un directorio existente, los archivos entran dentro conservando su nombre; si el destino es un nombre nuevo, se renombra.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "linux-m06"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "linux-m08",
+      "os": "linux",
+      "escenario": "linux-proyecto",
+      "titulo": "Limpiar temporales sin tocar lo del cliente",
+      "nivel": "intermedio",
+      "orden": 80,
+      "objetivo": "Borra los archivos .tmp de tmp/ y deja intacto manual-cliente.pdf.",
+      "contexto": "La carpeta tmp/ está llena de basura, pero alguien guardó ahí el manual del cliente. Borrar de más aquí cuesta caro.",
+      "comandos_sugeridos": [
+        "ls",
+        "rm"
+      ],
+      "instrucciones": [
+        "Mira primero qué hay dentro de tmp/.",
+        "Borra solo los archivos terminados en .tmp.",
+        "Comprueba que el manual del cliente sigue ahí."
+      ],
+      "pasos": [
+        {
+          "texto": "Ya no quedan archivos .tmp",
+          "exito": {
+            "tipo": "cuantos-en",
+            "ruta": "/home/alumno/proyecto/tmp",
+            "cantidad": 0,
+            "patron": "\\.tmp$"
+          }
+        },
+        {
+          "texto": "El manual del cliente sigue en su sitio",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/tmp/manual-cliente.pdf"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "cuantos-en",
+            "ruta": "/home/alumno/proyecto/tmp",
+            "cantidad": 0,
+            "patron": "\\.tmp$"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/proyecto/tmp/manual-cliente.pdf"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "no-existe",
+            "ruta": "/home/alumno/proyecto/tmp/manual-cliente.pdf"
+          },
+          "dice": "Has borrado también <code>manual-cliente.pdf</code>. En una terminal no hay papelera: lo borrado no vuelve. Reinicia el escenario y apunta solo a los <code>.tmp</code> con un comodín."
+        },
+        {
+          "si": {
+            "tipo": "no-existe",
+            "ruta": "/home/alumno/proyecto/tmp"
+          },
+          "dice": "Has borrado la carpeta entera. <code>rm -r</code> arrasa con todo lo que hay dentro; antes de usarlo conviene mirar con <code>ls</code> qué te vas a llevar por delante."
+        }
+      ],
+      "pistas": [
+        "Un comodín permite señalar «todos los que terminen en .tmp».",
+        "El asterisco sustituye a cualquier texto: *.tmp",
+        "rm tmp/*.tmp"
+      ],
+      "solucion": "ls tmp\nrm tmp/*.tmp",
+      "explicacion": "El comodín *.tmp lo expande Bash antes de ejecutar rm: el comando recibe la lista exacta de archivos que coinciden, y el PDF nunca entra en esa lista. Mirar antes con ls es lo que convierte un borrado en algo seguro.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "linux-m07"
+      ],
+      "etiquetas": [
+        "archivos",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "linux-m09",
+      "os": "linux",
+      "escenario": "linux-investigacion",
+      "titulo": "El archivo que alguien escondió",
+      "nivel": "intermedio",
+      "orden": 90,
+      "objetivo": "Encuentra config.ini y copia una copia en hallazgos/.",
+      "contexto": "Un compañero dejó la configuración escondida y se fue de vacaciones. Está en alguna carpeta que no se ve a simple vista.",
+      "comandos_sugeridos": [
+        "ls",
+        "find",
+        "cat",
+        "cp"
+      ],
+      "instrucciones": [
+        "Busca el archivo config.ini por todo tu directorio personal.",
+        "Léelo para confirmar que es el correcto.",
+        "Copia el archivo dentro de hallazgos/."
+      ],
+      "pasos": [
+        {
+          "texto": "config.ini está en hallazgos/",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/hallazgos/config.ini"
+          }
+        },
+        {
+          "texto": "Es el archivo correcto",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/hallazgos/config.ini",
+            "incluye": "ACCESO-CONCEDIDO"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/hallazgos/config.ini"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/hallazgos/config.ini",
+            "incluye": "ACCESO-CONCEDIDO"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "/home/alumno/.config/app/config.ini"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "/home/alumno/hallazgos/config.ini"
+              },
+              {
+                "tipo": "no-existe",
+                "ruta": "/home/alumno/.config/app/config.ini"
+              }
+            ]
+          },
+          "dice": "Lo has <strong>movido</strong>: el original ya no está donde lo dejó tu compañero. Reinicia el escenario y haz una copia con <code>cp</code>."
+        }
+      ],
+      "pistas": [
+        "Las carpetas y archivos que empiezan por punto no aparecen en un listado normal.",
+        "find recorre todo el árbol: find . -name \"config.ini\"",
+        "Está en .config/app/. Cópialo con cp .config/app/config.ini hallazgos/"
+      ],
+      "solucion": "find . -name \"config.ini\"\ncat .config/app/config.ini\ncp .config/app/config.ini hallazgos/",
+      "explicacion": "En Linux, un nombre que empieza por punto está oculto para ls (salvo con -a), pero no para find: find recorre el árbol entero y encuentra lo que ls esconde. Copiar en vez de mover deja el original donde estaba, que es lo correcto cuando investigas.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "linux-m08"
+      ],
+      "etiquetas": [
+        "busqueda",
+        "investigacion"
+      ]
+    },
+    {
+      "id": "linux-m10",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Cuenta los errores del registro",
+      "nivel": "intermedio",
+      "orden": 100,
+      "objetivo": "Deja en /home/alumno/backups/errores.txt solo las líneas del registro que contienen ERROR.",
+      "contexto": "Te piden un resumen de los fallos del día a partir de /var/log/sistema.log.",
+      "comandos_sugeridos": [
+        "grep",
+        "cat",
+        "wc",
+        "tee"
+      ],
+      "instrucciones": [
+        "Filtra las líneas del archivo /var/log/sistema.log que contienen ERROR.",
+        "Guarda el resultado en /home/alumno/backups/errores.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo de errores existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/errores.txt"
+          }
+        },
+        {
+          "texto": "Contiene solo las dos líneas de ERROR",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/errores.txt",
+            "lineas": 2
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/errores.txt",
+            "incluye": "ERROR servicio web caido"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/errores.txt",
+            "lineas": 2
+          }
+        ]
+      },
+      "pistas": [
+        "Necesitas filtrar líneas por una palabra y quedarte solo con esas.",
+        "grep PATRÓN ARCHIVO imprime las líneas que coinciden.",
+        "Para guardar en vez de imprimir, redirige la salida con >."
+      ],
+      "solucion": "grep ERROR /var/log/sistema.log > /home/alumno/backups/errores.txt",
+      "explicacion": "grep filtra líneas y > guarda la salida en un archivo (creándolo o vaciándolo). También vale hacerlo con cat archivo | grep ERROR > destino, pero llamar a grep directamente es más simple y evita un proceso extra.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "linux-m02"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "linux-m11",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "¿Cuántos errores hay?",
+      "nivel": "intermedio",
+      "orden": 110,
+      "objetivo": "Guarda en backups/total.txt solo el número de líneas con ERROR de /var/log/sistema.log.",
+      "contexto": "Para el parte diario no hace falta el texto de los errores: basta la cifra.",
+      "comandos_sugeridos": [
+        "grep",
+        "wc"
+      ],
+      "instrucciones": [
+        "Cuenta cuántas líneas del registro contienen ERROR.",
+        "Guarda solo ese número en backups/total.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo con el total existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/total.txt"
+          }
+        },
+        {
+          "texto": "Contiene el número correcto",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/total.txt",
+            "igual": "2"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "/home/alumno/backups/total.txt",
+        "igual": "2"
+      },
+      "pistas": [
+        "grep tiene una opción que, en lugar de imprimir las líneas, las cuenta.",
+        "También se puede lograr encadenando grep con wc -l.",
+        "grep -c ERROR /var/log/sistema.log > backups/total.txt"
+      ],
+      "solucion": "grep -c ERROR /var/log/sistema.log > backups/total.txt",
+      "explicacion": "grep -c no imprime las líneas coincidentes: imprime cuántas hay. La alternativa grep ERROR archivo | wc -l da el mismo número pasando el texto por una tubería; las dos son correctas y la primera se ahorra un proceso.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "linux-m10"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "linux-m12",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Solo la columna de productos",
+      "nivel": "intermedio",
+      "orden": 120,
+      "objetivo": "Guarda en backups/productos.txt los nombres de los tres productos de documentos/lista.csv, sin la cabecera.",
+      "contexto": "Te piden la lista de productos para pegarla en otro sistema; las cantidades y los precios sobran.",
+      "comandos_sugeridos": [
+        "cut",
+        "tail",
+        "head"
+      ],
+      "instrucciones": [
+        "Quédate solo con la primera columna del CSV.",
+        "Descarta la línea de cabecera.",
+        "Guarda el resultado en backups/productos.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/productos.txt"
+          }
+        },
+        {
+          "texto": "Tiene tres líneas y sin cabecera",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "/home/alumno/backups/productos.txt",
+                "lineas": 3
+              },
+              {
+                "tipo": "ninguno",
+                "de": [
+                  {
+                    "tipo": "contenido",
+                    "ruta": "/home/alumno/backups/productos.txt",
+                    "incluye": "producto,"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/productos.txt",
+            "lineas": 3
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/productos.txt",
+            "incluye": "pan"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "/home/alumno/backups/productos.txt",
+                "incluye": "producto"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "cut parte cada línea en campos; hay que decirle cuál es el separador.",
+        "El separador aquí es la coma: -d, y el campo que quieres es el primero: -f1",
+        "cut -d, -f1 documentos/lista.csv | tail -n 3 > backups/productos.txt"
+      ],
+      "solucion": "cut -d, -f1 documentos/lista.csv | tail -n 3 > backups/productos.txt",
+      "explicacion": "cut -d, -f1 se queda con la primera columna de cada línea, cabecera incluida. Como el archivo tiene cuatro líneas y solo interesan las tres últimas, tail -n 3 descarta la cabecera. La tubería conecta la salida de cut con la entrada de tail.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "linux-m11"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "linux-m13",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Sin repetidos y en orden",
+      "nivel": "intermedio",
+      "orden": 130,
+      "objetivo": "Guarda en backups/unicos.txt las líneas de /var/log/sistema.log ordenadas y sin repetidos.",
+      "contexto": "El registro repite el mismo error dos veces y quieres ver cuántas líneas distintas hay en realidad.",
+      "comandos_sugeridos": [
+        "sort",
+        "uniq"
+      ],
+      "instrucciones": [
+        "Ordena las líneas del registro.",
+        "Elimina las repetidas.",
+        "Guarda el resultado en backups/unicos.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/unicos.txt"
+          }
+        },
+        {
+          "texto": "Quedan cuatro líneas distintas",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/unicos.txt",
+            "lineas": 4
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "/home/alumno/backups/unicos.txt",
+        "lineas": 4
+      },
+      "pistas": [
+        "uniq solo colapsa repeticiones que están juntas: por eso casi siempre va detrás de sort.",
+        "Primero ordenar, después quitar repetidos, y al final guardar.",
+        "sort /var/log/sistema.log | uniq > backups/unicos.txt"
+      ],
+      "solucion": "sort /var/log/sistema.log | uniq > backups/unicos.txt",
+      "explicacion": "uniq compara cada línea con la anterior, así que solo elimina duplicados consecutivos: sin ordenar antes, dos líneas iguales separadas sobrevivirían las dos. El registro tiene cinco líneas y una repetida, de modo que quedan cuatro.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "linux-m12"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "linux-m14",
+      "os": "linux",
+      "escenario": "linux-hogar",
+      "titulo": "Contar archivos de texto de verdad",
+      "nivel": "intermedio",
+      "orden": 140,
+      "objetivo": "Guarda en backups/conteo.txt cuántos archivos .txt hay en documentos/, contándolos con find.",
+      "contexto": "Un inventario rápido: solo interesa el número, y tiene que ser fiable aunque algún nombre lleve espacios.",
+      "comandos_sugeridos": [
+        "find",
+        "wc",
+        "ls"
+      ],
+      "instrucciones": [
+        "Busca con find los archivos .txt que hay dentro de documentos.",
+        "Cuenta cuántos son.",
+        "Guarda el número en backups/conteo.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El conteo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/backups/conteo.txt"
+          }
+        },
+        {
+          "texto": "El número es correcto",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/backups/conteo.txt",
+            "igual": "2"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "/home/alumno/backups/conteo.txt",
+        "igual": "2"
+      },
+      "pistas": [
+        "ls sirve para mirar, pero para contar de forma fiable se usa find, que imprime un resultado por línea.",
+        "find documentos -name \"*.txt\" lista los archivos que buscas.",
+        "Encadena ese find con wc -l y redirige a backups/conteo.txt"
+      ],
+      "solucion": "find documentos -name \"*.txt\" | wc -l > backups/conteo.txt",
+      "explicacion": "find imprime un resultado por línea, así que wc -l cuenta exactamente los archivos encontrados. En documentos hay notas.txt e informe.txt: lista.csv no termina en .txt y queda fuera. El patrón va entre comillas para que lo reciba find y no lo expanda antes el shell.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "linux-m13"
+      ],
+      "etiquetas": [
+        "combinaciones",
+        "busqueda"
+      ]
+    },
+    {
+      "id": "linux-m15",
+      "os": "linux",
+      "escenario": "linux-servidor",
+      "titulo": "La línea que explica la caída",
+      "nivel": "intermedio",
+      "orden": 150,
+      "objetivo": "Guarda en /home/alumno/resumen-fallo.txt la primera línea del registro de nginx que menciona «Address already in use».",
+      "contexto": "El servidor web no arranca y hay que dejar por escrito la causa exacta antes de tocar nada.",
+      "comandos_sugeridos": [
+        "grep",
+        "head",
+        "cat"
+      ],
+      "instrucciones": [
+        "Busca en /var/log/nginx/error.log las líneas que hablan del puerto ocupado.",
+        "Quédate solo con la primera.",
+        "Guárdala en /home/alumno/resumen-fallo.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El resumen existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/resumen-fallo.txt"
+          }
+        },
+        {
+          "texto": "Contiene una sola línea con la causa",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "/home/alumno/resumen-fallo.txt",
+                "lineas": 1
+              },
+              {
+                "tipo": "contenido",
+                "ruta": "/home/alumno/resumen-fallo.txt",
+                "incluye": "Address already in use"
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/resumen-fallo.txt",
+            "lineas": 1
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/resumen-fallo.txt",
+            "incluye": "Address already in use"
+          }
+        ]
+      },
+      "pistas": [
+        "Primero filtrar por el texto, después recortar.",
+        "grep encuentra las líneas; head -n 1 se queda con la primera.",
+        "grep \"Address already in use\" /var/log/nginx/error.log | head -n 1 > /home/alumno/resumen-fallo.txt"
+      ],
+      "solucion": "grep \"Address already in use\" /var/log/nginx/error.log | head -n 1 > /home/alumno/resumen-fallo.txt",
+      "explicacion": "El patrón lleva comillas porque tiene espacios: sin ellas, grep tomaría «Address» como patrón y el resto como nombres de archivo. La tubería pasa las coincidencias a head, que corta en la primera, y > guarda el resultado.",
+      "recompensa": {
+        "xp": 45
+      },
+      "requisitos": [
+        "linux-m14"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones",
+        "diagnostico"
+      ]
+    },
+    {
+      "id": "linux-m16",
+      "os": "linux",
+      "escenario": "linux-permisos",
+      "titulo": "Permisos rotos",
+      "nivel": "avanzado",
+      "orden": 160,
+      "objetivo": "Deja arranca.sh ejecutable (755) y clave.key legible solo por su dueño (600).",
+      "contexto": "El script no se puede ejecutar y, para colmo, la clave privada la puede leer cualquiera del sistema.",
+      "comandos_sugeridos": [
+        "ls",
+        "chmod",
+        "stat"
+      ],
+      "instrucciones": [
+        "Mira los permisos actuales con ls -l.",
+        "Pon arranca.sh en 755.",
+        "Pon clave.key en 600.",
+        "Comprueba el resultado."
+      ],
+      "pasos": [
+        {
+          "texto": "arranca.sh es ejecutable (755)",
+          "exito": {
+            "tipo": "permisos",
+            "ruta": "/home/alumno/servicio/arranca.sh",
+            "modo": "755"
+          }
+        },
+        {
+          "texto": "clave.key solo la lee su dueño (600)",
+          "exito": {
+            "tipo": "permisos",
+            "ruta": "/home/alumno/servicio/clave.key",
+            "modo": "600"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "permisos",
+            "ruta": "/home/alumno/servicio/arranca.sh",
+            "modo": "755"
+          },
+          {
+            "tipo": "permisos",
+            "ruta": "/home/alumno/servicio/clave.key",
+            "modo": "600"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "permisos",
+            "ruta": "/home/alumno/servicio/clave.key",
+            "modo": "777"
+          },
+          "dice": "777 da permiso de lectura, escritura y ejecución a todo el mundo: es justo lo contrario de lo que necesita una clave privada. Para una clave, el objetivo es 600."
+        }
+      ],
+      "pistas": [
+        "Cada cifra del modo es un grupo: dueño, grupo y otros. r=4, w=2, x=1.",
+        "755 significa rwx para el dueño y r-x para los demás; 600 significa rw- solo para el dueño.",
+        "chmod 755 arranca.sh y chmod 600 clave.key"
+      ],
+      "solucion": "ls -l\nchmod 755 arranca.sh\nchmod 600 clave.key",
+      "explicacion": "Los permisos se leen en tres bloques de tres bits. 755 = rwxr-xr-x: el dueño puede ejecutar el script y los demás solo leerlo y ejecutarlo. 600 = rw-------: nadie salvo el dueño puede siquiera leer la clave, que es el mínimo exigible para material privado.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "linux-m15"
+      ],
+      "etiquetas": [
+        "permisos",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "linux-m17",
+      "os": "linux",
+      "escenario": "linux-servidor",
+      "titulo": "El proceso que ocupa el puerto 80",
+      "nivel": "avanzado",
+      "orden": 170,
+      "objetivo": "Encuentra qué proceso está escuchando en el puerto 80 y párale.",
+      "contexto": "nginx no arranca porque otro programa se adelantó y se quedó con el puerto.",
+      "comandos_sugeridos": [
+        "ss",
+        "ps",
+        "pgrep",
+        "kill"
+      ],
+      "instrucciones": [
+        "Mira qué hay escuchando en el puerto 80.",
+        "Localiza su PID en la lista de procesos.",
+        "Detén ese proceso."
+      ],
+      "pasos": [
+        {
+          "texto": "El proceso que ocupaba el puerto ya no está",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "http.server"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "proceso-ausente",
+        "nombre": "http.server"
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "proceso-ausente",
+            "nombre": "sshd"
+          },
+          "dice": "Has parado <code>sshd</code>, que es el servicio por el que se administra el servidor: en una máquina real te habrías quedado fuera. El que ocupa el puerto 80 es otro."
+        }
+      ],
+      "pistas": [
+        "Hay un comando que lista los puertos en escucha y el proceso de cada uno.",
+        "ss muestra la columna del puerto; ps aux te da el PID de ese programa.",
+        "El proceso es python3 -m http.server 80, con PID 970: kill 970"
+      ],
+      "solucion": "ss\nps aux\nkill 970",
+      "explicacion": "ss enseña quién escucha en cada puerto y ps aux relaciona ese nombre con un PID. kill envía por defecto la señal TERM, que pide al proceso que termine ordenadamente; -9 (KILL) solo se usa cuando el proceso no responde, porque no le da ocasión de cerrar limpiamente.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "linux-m16"
+      ],
+      "etiquetas": [
+        "procesos",
+        "diagnostico"
+      ]
+    },
+    {
+      "id": "linux-m18",
+      "os": "linux",
+      "escenario": "linux-servidor",
+      "titulo": "Incidente completo: el sitio no responde",
+      "nivel": "avanzado",
+      "orden": 180,
+      "objetivo": "Libera el puerto 80, arranca nginx y deja un informe en /home/alumno/informe-incidente.txt que mencione nginx.",
+      "contexto": "Estás de guardia: el sitio lleva veinte minutos caído y hay que dejar constancia de lo que pasó y de cómo se arregló.",
+      "comandos_sugeridos": [
+        "systemctl",
+        "journalctl",
+        "ss",
+        "kill",
+        "echo"
+      ],
+      "instrucciones": [
+        "Consulta el estado del servicio nginx y sus registros.",
+        "Libera el puerto que lo bloquea.",
+        "Arranca nginx y confirma que queda activo.",
+        "Escribe un informe en /home/alumno/informe-incidente.txt explicando la causa."
+      ],
+      "pasos": [
+        {
+          "texto": "El puerto 80 está libre",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "http.server"
+          }
+        },
+        {
+          "texto": "nginx está activo",
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "nginx"
+          }
+        },
+        {
+          "texto": "El informe está escrito",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "/home/alumno/informe-incidente.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "proceso-ausente",
+            "nombre": "http.server"
+          },
+          {
+            "tipo": "servicio-activo",
+            "nombre": "nginx"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "/home/alumno/informe-incidente.txt",
+            "incluye": "nginx"
+          }
+        ]
+      },
+      "pistas": [
+        "Tres cosas: liberar, arrancar y documentar.",
+        "systemctl status nginx y journalctl -u nginx explican por qué falló; ss dice quién ocupa el puerto.",
+        "kill 970, después systemctl start nginx, y por último escribe el informe con echo \"...\" > /home/alumno/informe-incidente.txt"
+      ],
+      "solucion": "systemctl status nginx\nss\nkill 970\nsystemctl start nginx\nsystemctl is-active nginx\necho \"El puerto 80 lo ocupaba python3 http.server. Se detuvo y nginx volvio a arrancar.\" > /home/alumno/informe-incidente.txt",
+      "explicacion": "El diagnóstico va de la evidencia a la causa: el estado del servicio dice que falló, el registro dice que no pudo enlazar el puerto, y ss dice quién lo tenía. Solo entonces se actúa. Dejar el informe escrito es parte del trabajo: sin él, el siguiente turno repite la investigación entera.",
+      "recompensa": {
+        "xp": 60
+      },
+      "requisitos": [
+        "linux-m17"
+      ],
+      "etiquetas": [
+        "diagnostico",
+        "servicios",
+        "incidente"
+      ]
+    },
+    {
+      "id": "cmd-m01",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Primeros pasos en el Símbolo del sistema",
+      "nivel": "basico",
+      "orden": 10,
+      "objetivo": "Entra en la carpeta Documents y lista lo que contiene.",
+      "contexto": "Primer día con una consola de Windows: lo primero es saber moverse y mirar.",
+      "comandos_sugeridos": [
+        "cd",
+        "dir"
+      ],
+      "instrucciones": [
+        "Averigua en qué carpeta estás (en CMD, cd a secas lo dice).",
+        "Entra en Documents.",
+        "Lista su contenido con dir."
+      ],
+      "pasos": [
+        {
+          "texto": "Estás dentro de Documents",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          },
+          {
+            "tipo": "comando-usado",
+            "patron": "^\\s*dir"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*ls\\b",
+          "dice": "<code>ls</code> es de Linux. En CMD el comando que lista se llama <code>dir</code>."
+        }
+      ],
+      "pistas": [
+        "En CMD, el comando para listar no es el mismo que en Linux.",
+        "cd a secas imprime dónde estás; cd CARPETA te mete dentro.",
+        "cd Documents y después dir"
+      ],
+      "solucion": "cd\ncd Documents\ndir",
+      "explicacion": "En CMD, cd sin argumentos imprime la ruta actual en lugar de llevarte al perfil (eso es una diferencia real con Linux, donde cd a secas te lleva al home). dir lista el contenido con cabecera de volumen y un pie con los totales.",
+      "recompensa": {
+        "xp": 20
+      },
+      "requisitos": [],
+      "etiquetas": [
+        "fundamentos",
+        "navegacion"
+      ]
+    },
+    {
+      "id": "cmd-m02",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Un inventario con dir",
+      "nivel": "basico",
+      "orden": 20,
+      "objetivo": "Guarda en Backups\\inventario.txt el listado de Documents, incluidos los archivos ocultos.",
+      "contexto": "Antes de reorganizar la carpeta te piden dejar constancia de cómo estaba.",
+      "comandos_sugeridos": [
+        "dir"
+      ],
+      "instrucciones": [
+        "Sitúate en C:\\Users\\Alumno.",
+        "Lista Documents incluyendo los archivos ocultos.",
+        "Redirige esa salida a Backups\\inventario.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El inventario existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt"
+          }
+        },
+        {
+          "texto": "Contiene los archivos de Documents",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt",
+            "incluye": "notas.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt",
+            "incluye": "notas.txt"
+          }
+        ]
+      },
+      "pistas": [
+        "dir admite opciones con barra: /A muestra también los ocultos.",
+        "La redirección > funciona igual que en Linux.",
+        "dir Documents /A > Backups\\inventario.txt"
+      ],
+      "solucion": "dir Documents /A > Backups\\inventario.txt",
+      "explicacion": "En CMD las opciones se escriben con barra (/A) en lugar de con guion, pero la redirección con > es idéntica a la de Bash: crea el archivo o lo vacía si ya existía.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "cmd-m01"
+      ],
+      "etiquetas": [
+        "fundamentos",
+        "texto"
+      ]
+    },
+    {
+      "id": "cmd-m03",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Copiar sin perder el original",
+      "nivel": "basico",
+      "orden": 30,
+      "objetivo": "Copia Documents\\notas.txt a Backups\\ dejando el original donde está.",
+      "contexto": "Vas a editar las notas y quieres una copia de seguridad antes.",
+      "comandos_sugeridos": [
+        "copy",
+        "type",
+        "dir"
+      ],
+      "instrucciones": [
+        "Mira el contenido de notas.txt con type.",
+        "Copia el archivo a Backups.",
+        "Comprueba que sigue estando en Documents."
+      ],
+      "pasos": [
+        {
+          "texto": "La copia existe en Backups",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+          }
+        },
+        {
+          "texto": "El original sigue en Documents",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*move\\s",
+          "dice": "<code>move</code> mueve: el original desaparece de Documents. Para duplicar conservando el original, en CMD se usa <code>copy</code>."
+        }
+      ],
+      "pistas": [
+        "Copiar y mover son comandos distintos también en Windows.",
+        "El que duplica se llama copy y necesita origen y destino.",
+        "copy Documents\\notas.txt Backups\\"
+      ],
+      "solucion": "type Documents\\notas.txt\ncopy Documents\\notas.txt Backups\\",
+      "explicacion": "copy duplica el archivo y deja el original intacto. Ojo: copy NO sabe copiar carpetas; para eso están xcopy y robocopy, que es otra diferencia real con el cp -r de Linux.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "cmd-m02"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "cmd-m04",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Rutas relativas en Windows",
+      "nivel": "basico",
+      "orden": 40,
+      "objetivo": "Desde Documents, crea la carpeta Backups\\2026 usando una ruta relativa y quédate en Documents.",
+      "contexto": "Las rutas relativas ahorran escribir la ruta completa en cada comando.",
+      "comandos_sugeridos": [
+        "cd",
+        "md"
+      ],
+      "instrucciones": [
+        "Entra en Documents.",
+        "Sin salir, crea 2026 dentro de Backups usando ..\\",
+        "Comprueba con cd que sigues en Documents."
+      ],
+      "pasos": [
+        {
+          "texto": "La carpeta 2026 existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Backups\\2026"
+          }
+        },
+        {
+          "texto": "Sigues en Documents",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Backups\\2026"
+          },
+          {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        ]
+      },
+      "pistas": [
+        "Dos puntos seguidos significan «la carpeta de arriba», igual que en Linux.",
+        "En Windows el separador es la barra invertida: ..\\Backups",
+        "cd Documents y después md ..\\Backups\\2026"
+      ],
+      "solucion": "cd Documents\nmd ..\\Backups\\2026",
+      "explicacion": "El concepto de ruta relativa es el mismo que en Linux; lo que cambia es el separador (\\ en vez de /). md crea la carpeta sin necesidad de una opción equivalente a -p, porque en CMD crea las ramas intermedias por defecto.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "cmd-m03"
+      ],
+      "etiquetas": [
+        "fundamentos",
+        "navegacion"
+      ]
+    },
+    {
+      "id": "cmd-m05",
+      "os": "cmd",
+      "escenario": "cmd-proyecto",
+      "titulo": "La estructura de la entrega",
+      "nivel": "basico",
+      "orden": 50,
+      "objetivo": "Crea dentro de Entrega las carpetas css y js.",
+      "contexto": "Hay que dejar la entrega organizada por tipo de archivo.",
+      "comandos_sugeridos": [
+        "md",
+        "dir",
+        "tree"
+      ],
+      "instrucciones": [
+        "Crea Entrega\\css.",
+        "Crea Entrega\\js.",
+        "Comprueba el resultado con tree."
+      ],
+      "pasos": [
+        {
+          "texto": "Entrega\\css existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\css"
+          }
+        },
+        {
+          "texto": "Entrega\\js existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\js"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\css"
+          },
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\js"
+          }
+        ]
+      },
+      "pistas": [
+        "md crea carpetas y admite varias en la misma línea.",
+        "Las rutas se escriben con barra invertida.",
+        "md Entrega\\css Entrega\\js"
+      ],
+      "solucion": "md Entrega\\css Entrega\\js\ntree",
+      "explicacion": "md (o mkdir, que es su sinónimo) crea los directorios indicados. A diferencia de Linux, no hace falta una opción -p para crear la rama completa: md la crea entera.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "cmd-m04"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "cmd-m06",
+      "os": "cmd",
+      "escenario": "cmd-proyecto",
+      "titulo": "Copiar la web a la entrega",
+      "nivel": "intermedio",
+      "orden": 60,
+      "objetivo": "Copia index.html y estilo.css dentro de Entrega\\ sin quitarlos de la raíz del proyecto.",
+      "contexto": "La entrega debe contener la web, pero el proyecto original tiene que seguir completo.",
+      "comandos_sugeridos": [
+        "copy",
+        "dir"
+      ],
+      "instrucciones": [
+        "Copia index.html a Entrega.",
+        "Copia estilo.css a Entrega.",
+        "Comprueba que los originales siguen en su sitio."
+      ],
+      "pasos": [
+        {
+          "texto": "Los dos archivos están en Entrega",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\index.html"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\estilo.css"
+              }
+            ]
+          }
+        },
+        {
+          "texto": "Los originales siguen en el proyecto",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Proyecto\\index.html"
+              },
+              {
+                "tipo": "existe",
+                "ruta": "C:\\Users\\Alumno\\Proyecto\\estilo.css"
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\index.html"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\estilo.css"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\index.html"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\estilo.css"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*move\\s",
+          "dice": "Con <code>move</code> los archivos dejan de estar en el proyecto. Aquí se pide una copia: <code>copy</code>."
+        }
+      ],
+      "pistas": [
+        "Un copy por archivo, o un comodín que los abarque.",
+        "copy admite comodines: copy *.html Entrega\\",
+        "copy index.html Entrega\\ y copy estilo.css Entrega\\"
+      ],
+      "solucion": "copy index.html Entrega\\\ncopy estilo.css Entrega\\",
+      "explicacion": "copy duplica archivo a archivo. También habría valido copy *.html Entrega\\ más copy *.css Entrega\\: el comodín lo resuelve el propio comando. Lo que no funciona es pasarle una carpeta, porque copy no copia directorios.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "cmd-m05"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "cmd-m07",
+      "os": "cmd",
+      "escenario": "cmd-proyecto",
+      "titulo": "Mover y renombrar",
+      "nivel": "intermedio",
+      "orden": 70,
+      "objetivo": "Mueve notas.txt dentro de Entrega y renómbralo como pendientes.txt.",
+      "contexto": "Las notas internas van con la entrega, pero con un nombre que el cliente entienda.",
+      "comandos_sugeridos": [
+        "move",
+        "ren",
+        "dir"
+      ],
+      "instrucciones": [
+        "Mueve notas.txt a Entrega.",
+        "Renómbralo como pendientes.txt.",
+        "Comprueba que ya no está en la raíz."
+      ],
+      "pasos": [
+        {
+          "texto": "pendientes.txt está en Entrega",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\pendientes.txt"
+          }
+        },
+        {
+          "texto": "notas.txt ya no está en la raíz",
+          "exito": {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\notas.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\Entrega\\pendientes.txt"
+          },
+          {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\notas.txt"
+          }
+        ]
+      },
+      "pistas": [
+        "En Windows mover y renombrar son dos comandos distintos, al contrario que en Linux.",
+        "move cambia de sitio; ren cambia el nombre.",
+        "move notas.txt Entrega\\ y después ren Entrega\\notas.txt pendientes.txt"
+      ],
+      "solucion": "move notas.txt Entrega\\\nren Entrega\\notas.txt pendientes.txt",
+      "explicacion": "Aquí hay una diferencia clara con Linux: allí mv hace las dos cosas, mientras que CMD separa move (cambiar de sitio) y ren (cambiar el nombre). Además ren solo admite un nombre nuevo, no una ruta de destino.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "cmd-m06"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "cmd-m08",
+      "os": "cmd",
+      "escenario": "cmd-proyecto",
+      "titulo": "Borrar temporales sin tocar el manual",
+      "nivel": "intermedio",
+      "orden": 80,
+      "objetivo": "Borra los .tmp de tmp\\ y deja intacto manual-cliente.pdf.",
+      "contexto": "La carpeta de temporales tiene basura, pero también el manual que envió el cliente.",
+      "comandos_sugeridos": [
+        "dir",
+        "del"
+      ],
+      "instrucciones": [
+        "Mira qué hay dentro de tmp.",
+        "Borra solo los archivos .tmp.",
+        "Comprueba que el manual sigue ahí."
+      ],
+      "pasos": [
+        {
+          "texto": "Ya no quedan .tmp",
+          "exito": {
+            "tipo": "cuantos-en",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\tmp",
+            "cantidad": 0,
+            "patron": "\\.tmp$"
+          }
+        },
+        {
+          "texto": "El manual sigue en su sitio",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\tmp\\manual-cliente.pdf"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "cuantos-en",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\tmp",
+            "cantidad": 0,
+            "patron": "\\.tmp$"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\tmp\\manual-cliente.pdf"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Proyecto\\tmp\\manual-cliente.pdf"
+          },
+          "dice": "Has borrado también el manual del cliente. En CMD tampoco hay papelera cuando se borra desde la consola: reinicia el escenario y apunta solo a los <code>.tmp</code>."
+        }
+      ],
+      "pistas": [
+        "El comodín * funciona igual que en Linux.",
+        "del borra archivos; para carpetas haría falta rd /S.",
+        "del tmp\\*.tmp"
+      ],
+      "solucion": "dir tmp\ndel tmp\\*.tmp",
+      "explicacion": "del borra archivos y no toca directorios (para eso está rd /S). El comodín *.tmp limita el borrado a los temporales, así que el PDF del cliente nunca entra en la lista.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "cmd-m07"
+      ],
+      "etiquetas": [
+        "archivos",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "cmd-m09",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Filtrar el registro del servicio",
+      "nivel": "intermedio",
+      "orden": 90,
+      "objetivo": "Guarda en Informes\\errores.txt solo las líneas de C:\\Logs\\servicio.log que contienen ERROR.",
+      "contexto": "Te toca revisar por qué falló el servicio de impresión y quieres aislar los errores.",
+      "comandos_sugeridos": [
+        "findstr",
+        "type"
+      ],
+      "instrucciones": [
+        "Filtra las líneas con ERROR del registro.",
+        "Guarda el resultado en Informes\\errores.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo de errores existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt"
+          }
+        },
+        {
+          "texto": "Contiene las dos líneas de ERROR",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "lineas": 2
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "lineas": 2
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "incluye": "Spooler"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*grep\\b",
+          "dice": "<code>grep</code> es de Linux. El equivalente en CMD es <code>findstr</code> (y su primo más simple, <code>find</code>)."
+        }
+      ],
+      "pistas": [
+        "En CMD el buscador de texto se llama findstr.",
+        "findstr PATRÓN ARCHIVO imprime las líneas que coinciden.",
+        "findstr ERROR C:\\Logs\\servicio.log > Informes\\errores.txt"
+      ],
+      "solucion": "findstr ERROR C:\\Logs\\servicio.log > Informes\\errores.txt",
+      "explicacion": "findstr es el buscador de texto de CMD: acepta patrones y opciones como /I (ignorar mayúsculas) o /S (recursivo). La redirección > guarda el resultado igual que en Bash.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "cmd-m08"
+      ],
+      "etiquetas": [
+        "texto"
+      ]
+    },
+    {
+      "id": "cmd-m10",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "¿Cuántos errores hay?",
+      "nivel": "intermedio",
+      "orden": 100,
+      "objetivo": "Guarda en Informes\\total.txt el recuento de líneas con ERROR del registro.",
+      "contexto": "Para el parte solo hace falta la cifra.",
+      "comandos_sugeridos": [
+        "find",
+        "findstr"
+      ],
+      "instrucciones": [
+        "Cuenta cuántas líneas del registro contienen ERROR.",
+        "Guarda el recuento en Informes\\total.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El recuento existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\total.txt"
+          }
+        },
+        {
+          "texto": "Dice que hay 2",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\total.txt",
+            "incluye": ": 2"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "C:\\Users\\Alumno\\Informes\\total.txt",
+        "incluye": ": 2"
+      },
+      "pistas": [
+        "find tiene una opción que cuenta en lugar de imprimir.",
+        "Es /C, y el texto va entre comillas.",
+        "find /C \"ERROR\" C:\\Logs\\servicio.log > Informes\\total.txt"
+      ],
+      "solucion": "find /C \"ERROR\" C:\\Logs\\servicio.log > Informes\\total.txt",
+      "explicacion": "find /C cuenta las líneas que contienen el texto y lo imprime junto al nombre del archivo en mayúsculas, con el formato ---------- ARCHIVO: N. Es el equivalente de grep -c en Linux, aunque la salida no tiene la misma forma.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "cmd-m09"
+      ],
+      "etiquetas": [
+        "texto"
+      ]
+    },
+    {
+      "id": "cmd-m11",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Rastrear al intruso en el registro de accesos",
+      "nivel": "intermedio",
+      "orden": 110,
+      "objetivo": "Guarda en Informes\\intruso.txt las líneas de C:\\Logs\\acceso.log que mencionan minero, sin distinguir mayúsculas.",
+      "contexto": "Sospechas que se ha lanzado un programa que no debería estar ahí.",
+      "comandos_sugeridos": [
+        "findstr"
+      ],
+      "instrucciones": [
+        "Busca «minero» en el registro de accesos sin importar mayúsculas o minúsculas.",
+        "Guarda el resultado en Informes\\intruso.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\intruso.txt"
+          }
+        },
+        {
+          "texto": "Contiene la línea del proceso",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\intruso.txt",
+            "incluye": "minero.exe"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "C:\\Users\\Alumno\\Informes\\intruso.txt",
+        "incluye": "minero.exe"
+      },
+      "pistas": [
+        "findstr distingue mayúsculas por defecto.",
+        "La opción /I hace la búsqueda insensible a mayúsculas.",
+        "findstr /I minero C:\\Logs\\acceso.log > Informes\\intruso.txt"
+      ],
+      "solucion": "findstr /I minero C:\\Logs\\acceso.log > Informes\\intruso.txt",
+      "explicacion": "Por defecto findstr distingue mayúsculas de minúsculas, así que «Minero» no coincidiría con «minero». /I desactiva esa distinción, igual que grep -i en Linux.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "cmd-m10"
+      ],
+      "etiquetas": [
+        "texto",
+        "investigacion"
+      ]
+    },
+    {
+      "id": "cmd-m12",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Ordenar una lista",
+      "nivel": "intermedio",
+      "orden": 120,
+      "objetivo": "Guarda en Backups\\ordenada.txt el contenido de Documents\\lista.csv ordenado alfabéticamente.",
+      "contexto": "La lista llegó desordenada y hay que entregarla en orden.",
+      "comandos_sugeridos": [
+        "sort",
+        "type"
+      ],
+      "instrucciones": [
+        "Ordena las líneas de lista.csv.",
+        "Guarda el resultado en Backups\\ordenada.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo ordenado existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\ordenada.txt"
+          }
+        },
+        {
+          "texto": "Conserva las tres líneas",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\ordenada.txt",
+            "lineas": 3
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\ordenada.txt",
+            "lineas": 3
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\ordenada.txt",
+            "incluye": "leche"
+          }
+        ]
+      },
+      "pistas": [
+        "CMD también trae un comando de ordenación.",
+        "Se llama sort y acepta un archivo como argumento.",
+        "sort Documents\\lista.csv > Backups\\ordenada.txt"
+      ],
+      "solucion": "sort Documents\\lista.csv > Backups\\ordenada.txt",
+      "explicacion": "sort ordena alfabéticamente las líneas. Como el CSV lleva cabecera, esta se ordena como una línea más: por eso en Windows, igual que en Linux, conviene separar la cabecera antes si molesta.",
+      "recompensa": {
+        "xp": 30
+      },
+      "requisitos": [
+        "cmd-m11"
+      ],
+      "etiquetas": [
+        "texto"
+      ]
+    },
+    {
+      "id": "cmd-m13",
+      "os": "cmd",
+      "escenario": "cmd-hogar",
+      "titulo": "Solo los .txt, encadenando comandos",
+      "nivel": "intermedio",
+      "orden": 130,
+      "objetivo": "Guarda en Backups\\solotxt.txt los nombres de los archivos .txt de Documents, usando una tubería.",
+      "contexto": "Quieres la lista limpia de nombres, sin cabeceras ni totales.",
+      "comandos_sugeridos": [
+        "dir",
+        "findstr"
+      ],
+      "instrucciones": [
+        "Lista Documents en formato simple, solo nombres.",
+        "Filtra los que terminan en .txt.",
+        "Guarda el resultado."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\solotxt.txt"
+          }
+        },
+        {
+          "texto": "Tiene los dos .txt",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\solotxt.txt",
+            "lineas": 2
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\solotxt.txt",
+            "lineas": 2
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\solotxt.txt",
+            "incluye": "notas.txt"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Backups\\solotxt.txt",
+                "incluye": "lista.csv"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "dir /B da solo los nombres, sin cabecera ni resumen.",
+        "La tubería | conecta dir con findstr igual que en Linux.",
+        "dir Documents /B | findstr .txt > Backups\\solotxt.txt"
+      ],
+      "solucion": "dir Documents /B | findstr .txt > Backups\\solotxt.txt",
+      "explicacion": "/B (bare) deja la salida de dir sin adornos, que es justo lo que un filtro necesita. La tubería funciona igual que en Bash: la salida de dir se convierte en la entrada de findstr.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "cmd-m12"
+      ],
+      "etiquetas": [
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "cmd-m14",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Errores, filtrados y ordenados",
+      "nivel": "intermedio",
+      "orden": 140,
+      "objetivo": "Guarda en Informes\\ordenados.txt las líneas de ERROR del registro, ordenadas alfabéticamente, encadenando tres comandos.",
+      "contexto": "El informe pide los errores en orden para compararlos con los del día anterior.",
+      "comandos_sugeridos": [
+        "type",
+        "findstr",
+        "sort"
+      ],
+      "instrucciones": [
+        "Vuelca el registro con type.",
+        "Filtra las líneas de ERROR.",
+        "Ordénalas y guarda el resultado."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\ordenados.txt"
+          }
+        },
+        {
+          "texto": "Tiene las dos líneas de error",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\ordenados.txt",
+            "lineas": 2
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\ordenados.txt",
+            "lineas": 2
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\ordenados.txt",
+            "incluye": "ERROR"
+          }
+        ]
+      },
+      "pistas": [
+        "Se pueden encadenar tantas tuberías como haga falta.",
+        "type vuelca el archivo, findstr filtra y sort ordena.",
+        "type C:\\Logs\\servicio.log | findstr ERROR | sort > Informes\\ordenados.txt"
+      ],
+      "solucion": "type C:\\Logs\\servicio.log | findstr ERROR | sort > Informes\\ordenados.txt",
+      "explicacion": "Cada tubería pasa el texto al siguiente comando, igual que en Bash. Podría haberse hecho en dos pasos (findstr sobre el archivo y sort después), pero encadenar deja claro el flujo: volcar, filtrar y ordenar.",
+      "recompensa": {
+        "xp": 45
+      },
+      "requisitos": [
+        "cmd-m13"
+      ],
+      "etiquetas": [
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "cmd-m15",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Aislar el proceso sospechoso",
+      "nivel": "intermedio",
+      "orden": 150,
+      "objetivo": "Guarda en Informes\\proceso.txt la línea de tasklist correspondiente a minero.exe.",
+      "contexto": "Antes de matar nada, conviene dejar por escrito qué estaba corriendo.",
+      "comandos_sugeridos": [
+        "tasklist",
+        "findstr"
+      ],
+      "instrucciones": [
+        "Lista los procesos en marcha.",
+        "Filtra la línea del proceso sospechoso.",
+        "Guárdala en Informes\\proceso.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\proceso.txt"
+          }
+        },
+        {
+          "texto": "Contiene el proceso sospechoso",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\proceso.txt",
+            "incluye": "minero.exe"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "C:\\Users\\Alumno\\Informes\\proceso.txt",
+        "incluye": "minero.exe"
+      },
+      "pistas": [
+        "tasklist es el equivalente de ps en Windows.",
+        "Su salida se puede filtrar con findstr por tubería.",
+        "tasklist | findstr minero > Informes\\proceso.txt"
+      ],
+      "solucion": "tasklist | findstr minero > Informes\\proceso.txt",
+      "explicacion": "tasklist imprime una tabla de procesos con nombre, PID y memoria. Filtrarla con findstr es la forma habitual en CMD de quedarse con un proceso concreto; el PID que aparece es el que después necesita taskkill.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "cmd-m14"
+      ],
+      "etiquetas": [
+        "combinaciones",
+        "procesos"
+      ]
+    },
+    {
+      "id": "cmd-m16",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Detener el proceso que consume la CPU",
+      "nivel": "avanzado",
+      "orden": 160,
+      "objetivo": "Detén el proceso minero.exe.",
+      "contexto": "El servidor va lento y ese proceso se está llevando el 92 % de la CPU.",
+      "comandos_sugeridos": [
+        "tasklist",
+        "taskkill"
+      ],
+      "instrucciones": [
+        "Localiza el PID de minero.exe.",
+        "Detén ese proceso de forma forzada.",
+        "Comprueba con tasklist que ya no aparece."
+      ],
+      "pasos": [
+        {
+          "texto": "minero.exe ya no está en la lista",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "minero.exe"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "proceso-ausente",
+        "nombre": "minero.exe"
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "proceso-ausente",
+            "nombre": "explorer.exe"
+          },
+          "dice": "Has cerrado <code>explorer.exe</code>, que es el escritorio de Windows: en una máquina real se quedaría sin barra de tareas. El proceso que consume CPU es otro."
+        }
+      ],
+      "pistas": [
+        "Primero hay que saber el PID; tasklist lo da.",
+        "taskkill detiene procesos por PID (/PID) o por nombre (/IM).",
+        "taskkill /PID 3300 /F"
+      ],
+      "solucion": "tasklist\ntaskkill /PID 3300 /F",
+      "explicacion": "taskkill /PID detiene por identificador y /F fuerza el cierre sin pedirle permiso al programa. El equivalente en Linux sería kill -9, y comparte el mismo riesgo: no da ocasión de guardar ni cerrar limpiamente.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "cmd-m15"
+      ],
+      "etiquetas": [
+        "procesos"
+      ]
+    },
+    {
+      "id": "cmd-m17",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Levantar el servicio caído",
+      "nivel": "avanzado",
+      "orden": 170,
+      "objetivo": "Deja el servicio Spooler en marcha.",
+      "contexto": "La cola de impresión se cayó a las 09:41 y nadie puede imprimir.",
+      "comandos_sugeridos": [
+        "sc",
+        "net"
+      ],
+      "instrucciones": [
+        "Consulta el estado del servicio Spooler.",
+        "Arráncalo.",
+        "Comprueba que queda en estado RUNNING."
+      ],
+      "pasos": [
+        {
+          "texto": "Spooler está activo",
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "Spooler"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "servicio-activo",
+        "nombre": "Spooler"
+      },
+      "pistas": [
+        "sc es la herramienta de servicios de Windows.",
+        "sc query NOMBRE consulta y sc start NOMBRE arranca.",
+        "sc start Spooler"
+      ],
+      "solucion": "sc query Spooler\nsc start Spooler\nsc query Spooler",
+      "explicacion": "sc query muestra el estado (STOPPED o RUNNING) y sc start lo arranca. Es el equivalente de systemctl status y systemctl start en Linux, con otra sintaxis y otra salida.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "cmd-m16"
+      ],
+      "etiquetas": [
+        "servicios"
+      ]
+    },
+    {
+      "id": "cmd-m18",
+      "os": "cmd",
+      "escenario": "cmd-servidor",
+      "titulo": "Incidente completo en el servidor Windows",
+      "nivel": "avanzado",
+      "orden": 180,
+      "objetivo": "Detén minero.exe, arranca el Spooler y deja un informe en Informes\\incidente.txt que mencione minero.",
+      "contexto": "Estás de guardia: CPU al límite, cola de impresión caída y un parte que entregar.",
+      "comandos_sugeridos": [
+        "tasklist",
+        "taskkill",
+        "sc",
+        "findstr",
+        "echo"
+      ],
+      "instrucciones": [
+        "Revisa el registro para entender qué pasó.",
+        "Detén el proceso que sobra.",
+        "Arranca el servicio caído.",
+        "Escribe el informe en Informes\\incidente.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El proceso sospechoso ya no corre",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "minero.exe"
+          }
+        },
+        {
+          "texto": "El Spooler está activo",
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "Spooler"
+          }
+        },
+        {
+          "texto": "El informe está escrito",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\incidente.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "proceso-ausente",
+            "nombre": "minero.exe"
+          },
+          {
+            "tipo": "servicio-activo",
+            "nombre": "Spooler"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\incidente.txt",
+            "incluye": "minero"
+          }
+        ]
+      },
+      "pistas": [
+        "Son tres tareas: parar, arrancar y documentar.",
+        "findstr sobre los registros explica la causa; taskkill y sc resuelven.",
+        "taskkill /PID 3300 /F, sc start Spooler y echo ... > Informes\\incidente.txt"
+      ],
+      "solucion": "findstr ERROR C:\\Logs\\servicio.log\ntasklist\ntaskkill /PID 3300 /F\nsc start Spooler\necho Se detuvo minero.exe y se arranco el Spooler > Informes\\incidente.txt",
+      "explicacion": "El orden importa: primero se entiende el problema con los registros, después se actúa y al final se documenta. Dejar el informe escrito es lo que permite que el siguiente turno no repita la investigación.",
+      "recompensa": {
+        "xp": 60
+      },
+      "requisitos": [
+        "cmd-m17"
+      ],
+      "etiquetas": [
+        "diagnostico",
+        "incidente",
+        "servicios"
+      ]
+    },
+    {
+      "id": "ps-m01",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Orientarse con cmdlets",
+      "nivel": "basico",
+      "orden": 10,
+      "objetivo": "Entra en Documents y comprueba dónde estás con el cmdlet correspondiente.",
+      "contexto": "PowerShell usa cmdlets con forma Verbo-Sustantivo: en cuanto se aprende el patrón, los nombres se adivinan solos.",
+      "comandos_sugeridos": [
+        "Get-Location",
+        "Set-Location",
+        "Get-ChildItem"
+      ],
+      "instrucciones": [
+        "Averigua en qué carpeta estás con Get-Location.",
+        "Entra en Documents con Set-Location.",
+        "Lista el contenido con Get-ChildItem."
+      ],
+      "pasos": [
+        {
+          "texto": "Estás dentro de Documents",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          },
+          {
+            "tipo": "comando-usado",
+            "patron": "get-childitem|^\\s*(gci|ls|dir)\\b",
+            "banderas": "i"
+          }
+        ]
+      },
+      "pistas": [
+        "Los cmdlets se llaman Verbo-Sustantivo: Get-Algo para consultar, Set-Algo para cambiar.",
+        "Get-Location dice dónde estás y Set-Location te mueve.",
+        "Set-Location Documents y después Get-ChildItem"
+      ],
+      "solucion": "Get-Location\nSet-Location Documents\nGet-ChildItem",
+      "explicacion": "Get-Location, Set-Location y Get-ChildItem son los nombres reales; pwd, cd, ls y dir existen como alias para que quien viene de otro shell no se pierda. En scripts conviene escribir el nombre completo, que se entiende sin conocer los alias.",
+      "recompensa": {
+        "xp": 20
+      },
+      "requisitos": [],
+      "etiquetas": [
+        "fundamentos",
+        "navegacion"
+      ]
+    },
+    {
+      "id": "ps-m02",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Un inventario con Get-ChildItem",
+      "nivel": "basico",
+      "orden": 20,
+      "objetivo": "Guarda en Backups\\inventario.txt el listado de tu carpeta personal incluyendo los elementos ocultos.",
+      "contexto": "Dejar constancia del estado inicial antes de tocar nada.",
+      "comandos_sugeridos": [
+        "Get-ChildItem"
+      ],
+      "instrucciones": [
+        "Lista el contenido incluyendo los ocultos.",
+        "Redirige la salida a Backups\\inventario.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El inventario existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt"
+          }
+        },
+        {
+          "texto": "Incluye las carpetas del perfil",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt",
+            "incluye": "Documents"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Backups\\inventario.txt",
+            "incluye": "Documents"
+          }
+        ]
+      },
+      "pistas": [
+        "Los parámetros de PowerShell empiezan por un guion y llevan nombre completo.",
+        "El que muestra los elementos ocultos es -Force.",
+        "Get-ChildItem -Force > Backups\\inventario.txt"
+      ],
+      "solucion": "Get-ChildItem -Force > Backups\\inventario.txt",
+      "explicacion": "-Force incluye los elementos ocultos y del sistema, que es el papel del -a de Linux o del /A de CMD. La redirección con > funciona igual, aunque en PowerShell lo idiomático sería Out-File.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "ps-m01"
+      ],
+      "etiquetas": [
+        "fundamentos"
+      ]
+    },
+    {
+      "id": "ps-m03",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Copiar conservando el original",
+      "nivel": "basico",
+      "orden": 30,
+      "objetivo": "Copia Documents\\notas.txt a Backups\\ sin quitarlo de su sitio.",
+      "contexto": "Una copia de seguridad antes de editar.",
+      "comandos_sugeridos": [
+        "Get-Content",
+        "Copy-Item",
+        "Get-ChildItem"
+      ],
+      "instrucciones": [
+        "Lee el archivo con Get-Content.",
+        "Cópialo a Backups con Copy-Item.",
+        "Comprueba que el original sigue en Documents."
+      ],
+      "pasos": [
+        {
+          "texto": "La copia existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+          }
+        },
+        {
+          "texto": "El original sigue ahí",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\notas.txt"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Documents\\notas.txt"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*([mM][oO][vV][eE]-[iI][tT][eE][mM]|[mM][vV]|[mM][oO][vV][eE])\\b",
+          "dice": "<code>Move-Item</code> mueve: el original desaparece. Para duplicar conservando el original, el cmdlet es <code>Copy-Item</code>."
+        }
+      ],
+      "pistas": [
+        "El verbo que copia es Copy.",
+        "Copy-Item necesita origen y destino.",
+        "Copy-Item Documents\\notas.txt Backups\\"
+      ],
+      "solucion": "Get-Content Documents\\notas.txt\nCopy-Item Documents\\notas.txt Backups\\",
+      "explicacion": "Copy-Item duplica y Move-Item mueve, igual que cp y mv en Linux o copy y move en CMD. La diferencia está en que aquí los nombres lo dicen en voz alta: el verbo indica lo que hace.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "ps-m02"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "ps-m04",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Rutas relativas con cmdlets",
+      "nivel": "basico",
+      "orden": 40,
+      "objetivo": "Desde Documents, crea la carpeta Backups\\2026 con una ruta relativa y quédate en Documents.",
+      "contexto": "Las rutas funcionan igual que en CMD; lo que cambia es el cmdlet.",
+      "comandos_sugeridos": [
+        "Set-Location",
+        "New-Item",
+        "Get-Location"
+      ],
+      "instrucciones": [
+        "Entra en Documents.",
+        "Crea 2026 dentro de Backups usando ..\\",
+        "Comprueba que sigues en Documents."
+      ],
+      "pasos": [
+        {
+          "texto": "La carpeta 2026 existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Backups\\2026"
+          }
+        },
+        {
+          "texto": "Sigues en Documents",
+          "exito": {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Backups\\2026"
+          },
+          {
+            "tipo": "cwd",
+            "ruta": "C:\\Users\\Alumno\\Documents"
+          }
+        ]
+      },
+      "pistas": [
+        "New-Item necesita saber qué tipo de elemento crear.",
+        "El parámetro es -ItemType Directory.",
+        "Set-Location Documents y después New-Item -ItemType Directory -Path ..\\Backups\\2026"
+      ],
+      "solucion": "Set-Location Documents\nNew-Item -ItemType Directory -Path ..\\Backups\\2026",
+      "explicacion": "New-Item sirve para crear tanto archivos como carpetas, y por eso necesita -ItemType. Es más explícito que mkdir, y el mismo cmdlet vale para crear un archivo vacío con -ItemType File.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "ps-m03"
+      ],
+      "etiquetas": [
+        "fundamentos",
+        "archivos"
+      ]
+    },
+    {
+      "id": "ps-m05",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Estructura de carpetas",
+      "nivel": "basico",
+      "orden": 50,
+      "objetivo": "Crea las carpetas Informes\\2026 e Informes\\graficos.",
+      "contexto": "Preparas el sitio donde van a ir los informes del año.",
+      "comandos_sugeridos": [
+        "New-Item",
+        "Get-ChildItem"
+      ],
+      "instrucciones": [
+        "Crea Informes\\2026.",
+        "Crea Informes\\graficos.",
+        "Comprueba el resultado."
+      ],
+      "pasos": [
+        {
+          "texto": "Informes\\2026 existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Informes\\2026"
+          }
+        },
+        {
+          "texto": "Informes\\graficos existe",
+          "exito": {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Informes\\graficos"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Informes\\2026"
+          },
+          {
+            "tipo": "es-directorio",
+            "ruta": "C:\\Users\\Alumno\\Informes\\graficos"
+          }
+        ]
+      },
+      "pistas": [
+        "New-Item crea la rama completa si hace falta.",
+        "Hay que indicar -ItemType Directory en cada llamada.",
+        "New-Item -ItemType Directory -Path Informes\\2026 y lo mismo con graficos"
+      ],
+      "solucion": "New-Item -ItemType Directory -Path Informes\\2026\nNew-Item -ItemType Directory -Path Informes\\graficos",
+      "explicacion": "Cada New-Item devuelve el objeto del elemento creado, por eso se ve una tabla con Mode, LastWriteTime y Name: en PowerShell casi todo lo que sale por pantalla es la representación de un objeto.",
+      "recompensa": {
+        "xp": 25
+      },
+      "requisitos": [
+        "ps-m04"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "ps-m06",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Guardar un archivo nuevo",
+      "nivel": "intermedio",
+      "orden": 60,
+      "objetivo": "Crea Informes\\resumen.txt con el texto «Revision de septiembre» usando Set-Content.",
+      "contexto": "El borrador del informe existe, pero hay que sustituir su contenido por el título definitivo.",
+      "comandos_sugeridos": [
+        "Set-Content",
+        "Get-Content",
+        "Test-Path"
+      ],
+      "instrucciones": [
+        "Escribe el texto en Informes\\resumen.txt con Set-Content.",
+        "Comprueba el contenido con Get-Content."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          }
+        },
+        {
+          "texto": "Contiene el texto",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt",
+            "incluye": "Revision de septiembre"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "contenido",
+        "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt",
+        "incluye": "Revision de septiembre"
+      },
+      "pistas": [
+        "Set-Content escribe (y sobrescribe); Add-Content añade al final.",
+        "Necesita -Path y -Value.",
+        "Set-Content -Path Informes\\resumen.txt -Value \"Revision de septiembre\""
+      ],
+      "solucion": "Set-Content -Path Informes\\resumen.txt -Value \"Revision de septiembre\"\nGet-Content Informes\\resumen.txt",
+      "explicacion": "Set-Content reemplaza el contenido del archivo, igual que > en Bash; Add-Content es el equivalente de >>. Tener dos cmdlets distintos evita el error clásico de escribir > cuando se quería >>.",
+      "recompensa": {
+        "xp": 30
+      },
+      "requisitos": [
+        "ps-m05"
+      ],
+      "etiquetas": [
+        "archivos",
+        "texto"
+      ]
+    },
+    {
+      "id": "ps-m07",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Mover y renombrar",
+      "nivel": "intermedio",
+      "orden": 70,
+      "objetivo": "Mueve Informes\\resumen.txt a Backups\\ y renómbralo como resumen-septiembre.txt.",
+      "contexto": "El informe ya está cerrado y se archiva con un nombre que incluya el mes.",
+      "comandos_sugeridos": [
+        "Move-Item",
+        "Rename-Item"
+      ],
+      "instrucciones": [
+        "Mueve el archivo a Backups.",
+        "Renómbralo como resumen-septiembre.txt.",
+        "Comprueba que ya no está en Informes."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo renombrado está en Backups",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\resumen-septiembre.txt"
+          }
+        },
+        {
+          "texto": "Ya no está en Informes",
+          "exito": {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Backups\\resumen-septiembre.txt"
+          },
+          {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          }
+        ]
+      },
+      "pistas": [
+        "Son dos cmdlets distintos, como en CMD.",
+        "Move-Item cambia de sitio y Rename-Item cambia el nombre.",
+        "Move-Item Informes\\resumen.txt Backups\\ y después Rename-Item Backups\\resumen.txt resumen-septiembre.txt"
+      ],
+      "solucion": "Move-Item Informes\\resumen.txt Backups\\\nRename-Item Backups\\resumen.txt resumen-septiembre.txt",
+      "explicacion": "PowerShell separa mover y renombrar en dos cmdlets con nombres explícitos. Move-Item admite también renombrar al vuelo si el destino es un nombre nuevo, pero hacerlo en dos pasos se lee mejor.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "ps-m06"
+      ],
+      "etiquetas": [
+        "archivos"
+      ]
+    },
+    {
+      "id": "ps-m08",
+      "os": "powershell",
+      "escenario": "ps-hogar",
+      "titulo": "Borrar una carpeta con contenido",
+      "nivel": "intermedio",
+      "orden": 80,
+      "objetivo": "Borra la carpeta Informes\\plantillas, que ya no hace falta.",
+      "contexto": "La carpeta de plantillas ya no se usa, pero tiene un archivo dentro y PowerShell no la borra sin que se lo confirmes.",
+      "comandos_sugeridos": [
+        "New-Item",
+        "Remove-Item",
+        "Test-Path"
+      ],
+      "instrucciones": [
+        "Mira qué hay dentro de Informes\\plantillas.",
+        "Intenta borrarla sin más y lee el mensaje.",
+        "Bórrala del modo correcto, sin tocar el resto de Informes."
+      ],
+      "pasos": [
+        {
+          "texto": "La carpeta plantillas ya no existe",
+          "exito": {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\plantillas"
+          }
+        },
+        {
+          "texto": "El resto de Informes sigue intacto",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\plantillas"
+          },
+          {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "no-existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen.txt"
+          },
+          "dice": "Has borrado también <code>Informes\\resumen.txt</code>. <code>-Recurse</code> arrastra todo lo que cuelga de la ruta indicada: comprueba la ruta antes de ejecutarlo."
+        }
+      ],
+      "pistas": [
+        "Remove-Item se niega a borrar una carpeta con contenido si no se lo pides explícitamente.",
+        "El parámetro que lo permite es -Recurse.",
+        "Get-ChildItem Informes\\plantillas y después Remove-Item Informes\\plantillas -Recurse"
+      ],
+      "solucion": "Get-ChildItem Informes\\plantillas\nRemove-Item Informes\\plantillas -Recurse",
+      "explicacion": "Esa negativa es una red de seguridad: obliga a confirmar que sabes que hay contenido dentro. Es el equivalente de rm -r en Linux y de rd /S en CMD, y comparte el mismo peligro si se apunta a la ruta equivocada.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "ps-m07"
+      ],
+      "etiquetas": [
+        "archivos",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "ps-m09",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Filtrar texto con Select-String",
+      "nivel": "intermedio",
+      "orden": 90,
+      "objetivo": "Guarda en Informes\\errores.txt las líneas de C:\\Logs\\servicio.log que contienen ERROR.",
+      "contexto": "Primer paso del diagnóstico: aislar los errores del registro.",
+      "comandos_sugeridos": [
+        "Select-String",
+        "Get-Content"
+      ],
+      "instrucciones": [
+        "Busca ERROR dentro del registro.",
+        "Guarda el resultado en Informes\\errores.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt"
+          }
+        },
+        {
+          "texto": "Contiene las líneas de error",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "incluye": "ERROR"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "incluye": "ERROR"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\errores.txt",
+            "lineas": 2
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "comando": "^\\s*([gG][rR][eE][pP]|[fF][iI][nN][dD][sS][tT][rR])\\b",
+          "dice": "<code>grep</code> es de Linux y <code>findstr</code> de CMD. En PowerShell el cmdlet que busca texto es <code>Select-String</code>."
+        }
+      ],
+      "pistas": [
+        "El cmdlet que busca texto dentro de archivos empieza por Select.",
+        "Select-String PATRÓN ARCHIVO imprime las coincidencias con su número de línea.",
+        "Select-String ERROR C:\\Logs\\servicio.log > Informes\\errores.txt"
+      ],
+      "solucion": "Select-String ERROR C:\\Logs\\servicio.log > Informes\\errores.txt",
+      "explicacion": "Select-String no devuelve texto suelto: devuelve objetos MatchInfo con Filename, LineNumber y Line, por eso la salida lleva delante el archivo y el número de línea. Esa es la diferencia real con grep y findstr.",
+      "recompensa": {
+        "xp": 35
+      },
+      "requisitos": [
+        "ps-m08"
+      ],
+      "etiquetas": [
+        "texto"
+      ]
+    },
+    {
+      "id": "ps-m10",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Sumar con Measure-Object",
+      "nivel": "intermedio",
+      "orden": 100,
+      "objetivo": "Guarda en Informes\\cpu.txt la suma de la CPU de todos los procesos.",
+      "contexto": "Quieres una cifra global de consumo para el parte.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Measure-Object"
+      ],
+      "instrucciones": [
+        "Obtén los procesos.",
+        "Suma su propiedad CPU con Measure-Object.",
+        "Guarda el resultado en Informes\\cpu.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\cpu.txt"
+          }
+        },
+        {
+          "texto": "Incluye la suma",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\cpu.txt",
+            "incluye": "Sum"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\cpu.txt",
+            "incluye": "Sum"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\cpu.txt",
+            "incluye": "Count"
+          }
+        ]
+      },
+      "pistas": [
+        "Measure-Object hace cuentas sobre una propiedad de los objetos que le llegan.",
+        "Necesita saber qué propiedad y qué operación: -Sum, -Average, -Maximum.",
+        "Get-Process | Measure-Object CPU -Sum > Informes\\cpu.txt"
+      ],
+      "solucion": "Get-Process | Measure-Object CPU -Sum > Informes\\cpu.txt",
+      "explicacion": "Esto en Bash exigiría recortar columnas con awk o cut y sumar aparte. Aquí no hace falta tocar texto: los procesos llegan como objetos con una propiedad CPU y Measure-Object la suma directamente.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "ps-m09"
+      ],
+      "etiquetas": [
+        "objetos",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "ps-m11",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Filtrar por propiedad, no por texto",
+      "nivel": "intermedio",
+      "orden": 110,
+      "objetivo": "Guarda en Informes\\altos.txt los procesos cuya CPU supera 40.",
+      "contexto": "Buscas a los que se están comiendo la máquina, sin recortar columnas a mano.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Where-Object"
+      ],
+      "instrucciones": [
+        "Obtén los procesos.",
+        "Quédate solo con los que tienen CPU mayor que 40.",
+        "Guarda el resultado en Informes\\altos.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt"
+          }
+        },
+        {
+          "texto": "Incluye los dos procesos que superan el umbral",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt",
+                "incluye": "chrome"
+              },
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt",
+                "incluye": "minero"
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt",
+            "incluye": "chrome"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt",
+            "incluye": "minero"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\altos.txt",
+                "incluye": "notepad"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "Where-Object filtra objetos comparando una propiedad.",
+        "Los operadores se escriben con guion: -gt (mayor que), -lt, -eq.",
+        "Get-Process | Where-Object CPU -gt 40 > Informes\\altos.txt"
+      ],
+      "solucion": "Get-Process | Where-Object CPU -gt 40 > Informes\\altos.txt",
+      "explicacion": "Aquí está el corazón de PowerShell: no se filtra el texto de una tabla, se filtra por el valor real de la propiedad CPU. Por eso 88.9 y 42.7 pasan el filtro y 3.2 no, sin que importe cómo esté formateada la salida.",
+      "recompensa": {
+        "xp": 45
+      },
+      "requisitos": [
+        "ps-m10"
+      ],
+      "etiquetas": [
+        "objetos",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "ps-m12",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Elegir solo las columnas que importan",
+      "nivel": "intermedio",
+      "orden": 120,
+      "objetivo": "Guarda en Informes\\resumen-procesos.txt solo el nombre y la CPU de cada proceso.",
+      "contexto": "La tabla completa tiene columnas que no aportan nada al informe.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Select-Object"
+      ],
+      "instrucciones": [
+        "Obtén los procesos.",
+        "Quédate solo con las propiedades Name y CPU.",
+        "Guarda el resultado."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt"
+          }
+        },
+        {
+          "texto": "Solo tiene las columnas pedidas",
+          "exito": {
+            "tipo": "todos",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt",
+                "incluye": "Name"
+              },
+              {
+                "tipo": "ninguno",
+                "de": [
+                  {
+                    "tipo": "contenido",
+                    "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt",
+                    "incluye": "Handles"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt",
+            "incluye": "Name"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt",
+            "incluye": "CPU"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\resumen-procesos.txt",
+                "incluye": "Handles"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "Select-Object elige propiedades de los objetos que pasan por la tubería.",
+        "Se le pasan los nombres separados por comas.",
+        "Get-Process | Select-Object Name,CPU > Informes\\resumen-procesos.txt"
+      ],
+      "solucion": "Get-Process | Select-Object Name,CPU > Informes\\resumen-procesos.txt",
+      "explicacion": "Select-Object no recorta texto: construye objetos nuevos que solo tienen las propiedades pedidas. Por eso la tabla resultante ya no muestra Handles ni Id, y lo que sigue por la tubería tampoco los tendría.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "ps-m11"
+      ],
+      "etiquetas": [
+        "objetos"
+      ]
+    },
+    {
+      "id": "ps-m13",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Filtrar, ordenar y elegir, todo seguido",
+      "nivel": "avanzado",
+      "orden": 130,
+      "objetivo": "Guarda en Informes\\top.txt los procesos con CPU mayor que 40, ordenados de mayor a menor, con solo Name y CPU.",
+      "contexto": "El parte pide los procesos más pesados en orden de impacto.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Where-Object",
+        "Sort-Object",
+        "Select-Object"
+      ],
+      "instrucciones": [
+        "Encadena: obtener, filtrar, ordenar y elegir columnas.",
+        "Guarda el resultado en Informes\\top.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\top.txt"
+          }
+        },
+        {
+          "texto": "El proceso más pesado aparece primero",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\top.txt",
+            "incluye": "minero"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\top.txt",
+            "incluye": "minero"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\top.txt",
+            "incluye": "chrome"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\top.txt",
+                "incluye": "Handles"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "Cada cmdlet recibe los objetos del anterior: el orden de la cadena importa.",
+        "Sort-Object admite -Descending para ordenar de mayor a menor.",
+        "Get-Process | Where-Object CPU -gt 40 | Sort-Object CPU -Descending | Select-Object Name,CPU > Informes\\top.txt"
+      ],
+      "solucion": "Get-Process | Where-Object CPU -gt 40 | Sort-Object CPU -Descending | Select-Object Name,CPU > Informes\\top.txt",
+      "explicacion": "La cadena se lee de izquierda a derecha como una frase: obtén procesos, quédate con los que pasan de 40, ordénalos de mayor a menor y muéstrame solo nombre y CPU. Filtrar antes de ordenar también es más eficiente, porque se ordenan menos elementos.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "ps-m12"
+      ],
+      "etiquetas": [
+        "objetos",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "ps-m14",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Inspeccionar un objeto con Get-Member",
+      "nivel": "intermedio",
+      "orden": 140,
+      "objetivo": "Guarda en Informes\\propiedades.txt la lista de miembros de los objetos que devuelve Get-Process.",
+      "contexto": "Antes de filtrar por una propiedad conviene saber qué propiedades existen.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Get-Member"
+      ],
+      "instrucciones": [
+        "Pasa la salida de Get-Process a Get-Member.",
+        "Guarda el resultado en Informes\\propiedades.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\propiedades.txt"
+          }
+        },
+        {
+          "texto": "Muestra las propiedades reales",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\propiedades.txt",
+            "incluye": "CPU"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\propiedades.txt",
+            "incluye": "CPU"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\propiedades.txt",
+            "incluye": "Property"
+          }
+        ]
+      },
+      "pistas": [
+        "Get-Member responde a «¿qué tiene dentro esto que me acaba de llegar?».",
+        "Se usa al final de la tubería, sobre los objetos que quieres inspeccionar.",
+        "Get-Process | Get-Member > Informes\\propiedades.txt"
+      ],
+      "solucion": "Get-Process | Get-Member > Informes\\propiedades.txt",
+      "explicacion": "Get-Member es la herramienta de exploración de PowerShell: dice el tipo del objeto y lista sus propiedades y métodos. Es la prueba visible de que por la tubería viajan objetos y no texto, y de ahí salen los nombres que después se usan en Where-Object o Select-Object.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "ps-m13"
+      ],
+      "etiquetas": [
+        "objetos"
+      ]
+    },
+    {
+      "id": "ps-m15",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Servidores parados en el CSV",
+      "nivel": "intermedio",
+      "orden": 150,
+      "objetivo": "Guarda en Informes\\parados.txt las líneas de Documents\\servidores.csv cuyo estado es «parado».",
+      "contexto": "El inventario de servidores está en un CSV y hay que sacar los que no responden.",
+      "comandos_sugeridos": [
+        "Get-Content",
+        "Select-String"
+      ],
+      "instrucciones": [
+        "Lee el CSV.",
+        "Filtra las líneas que contienen «parado».",
+        "Guarda el resultado en Informes\\parados.txt."
+      ],
+      "pasos": [
+        {
+          "texto": "El archivo existe",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\parados.txt"
+          }
+        },
+        {
+          "texto": "Contiene el servidor parado",
+          "exito": {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\parados.txt",
+            "incluye": "web02"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\parados.txt",
+            "incluye": "web02"
+          },
+          {
+            "tipo": "ninguno",
+            "de": [
+              {
+                "tipo": "contenido",
+                "ruta": "C:\\Users\\Alumno\\Informes\\parados.txt",
+                "incluye": "web01"
+              }
+            ]
+          }
+        ]
+      },
+      "pistas": [
+        "Get-Content lee el archivo línea a línea.",
+        "Select-String puede filtrar lo que llega por la tubería.",
+        "Get-Content Documents\\servidores.csv | Select-String parado > Informes\\parados.txt"
+      ],
+      "solucion": "Get-Content Documents\\servidores.csv | Select-String parado > Informes\\parados.txt",
+      "explicacion": "Aquí se filtra por texto porque el CSV se está tratando como texto plano. Con Import-Csv, PowerShell convertiría cada fila en un objeto con propiedades nombre, ip y estado, y entonces lo correcto sería Where-Object estado -eq parado: la misma tarea, resuelta mejor.",
+      "recompensa": {
+        "xp": 40
+      },
+      "requisitos": [
+        "ps-m14"
+      ],
+      "etiquetas": [
+        "texto",
+        "combinaciones"
+      ]
+    },
+    {
+      "id": "ps-m16",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Detener el proceso desbocado",
+      "nivel": "avanzado",
+      "orden": 160,
+      "objetivo": "Detén el proceso minero.",
+      "contexto": "Consume el 88 % de la CPU y no debería estar ahí.",
+      "comandos_sugeridos": [
+        "Get-Process",
+        "Stop-Process"
+      ],
+      "instrucciones": [
+        "Localiza el proceso y su Id.",
+        "Deténlo con Stop-Process.",
+        "Comprueba que ya no aparece."
+      ],
+      "pasos": [
+        {
+          "texto": "El proceso ya no está",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "minero"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "proceso-ausente",
+        "nombre": "minero"
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "proceso-ausente",
+            "nombre": "pwsh"
+          },
+          "dice": "Has detenido <code>pwsh</code>, que es la propia consola de PowerShell: en una máquina real se habría cerrado tu sesión. El proceso que sobra es otro."
+        }
+      ],
+      "pistas": [
+        "Get-Process da el Id de cada proceso.",
+        "Stop-Process acepta -Id o -Name.",
+        "Stop-Process -Id 3500"
+      ],
+      "solucion": "Get-Process | Where-Object CPU -gt 80\nStop-Process -Id 3500",
+      "explicacion": "Stop-Process acepta tanto -Id como -Name, y también objetos por la tubería: Get-Process minero | Stop-Process haría lo mismo. Esa capacidad de encadenar objetos es lo que hace que PowerShell necesite menos pasos intermedios.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "ps-m15"
+      ],
+      "etiquetas": [
+        "procesos"
+      ]
+    },
+    {
+      "id": "ps-m17",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Arrancar el servicio caído",
+      "nivel": "avanzado",
+      "orden": 170,
+      "objetivo": "Deja el servicio WSearch en marcha.",
+      "contexto": "Windows Search se detuvo de forma inesperada y las búsquedas no funcionan.",
+      "comandos_sugeridos": [
+        "Get-Service",
+        "Start-Service"
+      ],
+      "instrucciones": [
+        "Consulta el estado de los servicios.",
+        "Arranca WSearch.",
+        "Comprueba que queda en Running."
+      ],
+      "pasos": [
+        {
+          "texto": "WSearch está activo",
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "WSearch"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "servicio-activo",
+            "nombre": "WSearch"
+          },
+          {
+            "tipo": "servicio-activo",
+            "nombre": "Spooler"
+          }
+        ]
+      },
+      "desvios": [
+        {
+          "si": {
+            "tipo": "servicio-parado",
+            "nombre": "Spooler"
+          },
+          "dice": "Has parado el <code>Spooler</code>, que estaba funcionando bien: ahora nadie puede imprimir. El servicio que había que arrancar es <code>WSearch</code>."
+        }
+      ],
+      "pistas": [
+        "Get-Service muestra Status, Name y DisplayName de cada servicio.",
+        "El verbo para arrancar es Start.",
+        "Start-Service WSearch"
+      ],
+      "solucion": "Get-Service\nStart-Service WSearch\nGet-Service",
+      "explicacion": "Get-Service devuelve objetos con la propiedad Status, así que se pueden filtrar con Where-Object Status -eq Stopped para ver de un vistazo todo lo que está caído. Start-Service y Stop-Service son los equivalentes de systemctl start y stop.",
+      "recompensa": {
+        "xp": 50
+      },
+      "requisitos": [
+        "ps-m16"
+      ],
+      "etiquetas": [
+        "servicios"
+      ]
+    },
+    {
+      "id": "ps-m18",
+      "os": "powershell",
+      "escenario": "ps-servidor",
+      "titulo": "Incidente completo con objetos",
+      "nivel": "avanzado",
+      "orden": 180,
+      "objetivo": "Detén el proceso minero, arranca WSearch y deja un informe en Informes\\incidente.txt que mencione minero.",
+      "contexto": "Guardia nocturna: CPU al límite, un servicio caído y un parte que entregar antes del relevo.",
+      "comandos_sugeridos": [
+        "Select-String",
+        "Get-Process",
+        "Stop-Process",
+        "Start-Service",
+        "Set-Content"
+      ],
+      "instrucciones": [
+        "Revisa el registro para entender qué pasó.",
+        "Detén el proceso que sobra.",
+        "Arranca el servicio caído.",
+        "Escribe el informe con Set-Content."
+      ],
+      "pasos": [
+        {
+          "texto": "El proceso está detenido",
+          "exito": {
+            "tipo": "proceso-ausente",
+            "nombre": "minero"
+          }
+        },
+        {
+          "texto": "El servicio está activo",
+          "exito": {
+            "tipo": "servicio-activo",
+            "nombre": "WSearch"
+          }
+        },
+        {
+          "texto": "El informe está escrito",
+          "exito": {
+            "tipo": "existe",
+            "ruta": "C:\\Users\\Alumno\\Informes\\incidente.txt"
+          }
+        }
+      ],
+      "exito": {
+        "tipo": "todos",
+        "de": [
+          {
+            "tipo": "proceso-ausente",
+            "nombre": "minero"
+          },
+          {
+            "tipo": "servicio-activo",
+            "nombre": "WSearch"
+          },
+          {
+            "tipo": "contenido",
+            "ruta": "C:\\Users\\Alumno\\Informes\\incidente.txt",
+            "incluye": "minero"
+          }
+        ]
+      },
+      "pistas": [
+        "Tres tareas: parar, arrancar y documentar.",
+        "Select-String sobre el registro explica la causa; Stop-Process y Start-Service resuelven.",
+        "Stop-Process -Id 3500, Start-Service WSearch y Set-Content -Path Informes\\incidente.txt -Value \"...\""
+      ],
+      "solucion": "Select-String ERROR C:\\Logs\\servicio.log\nGet-Process | Sort-Object CPU -Descending | Select-Object Name,CPU\nStop-Process -Id 3500\nStart-Service WSearch\nSet-Content -Path Informes\\incidente.txt -Value \"Se detuvo el proceso minero y se arranco WSearch\"",
+      "explicacion": "El método es el mismo en los tres sistemas: entender antes de actuar y documentar al terminar. Lo que cambia en PowerShell es que cada paso trabaja con objetos, así que ordenar por CPU o filtrar por Status no exige recortar texto.",
+      "recompensa": {
+        "xp": 60
+      },
+      "requisitos": [
+        "ps-m17"
+      ],
+      "etiquetas": [
+        "diagnostico",
+        "incidente",
+        "objetos"
+      ]
+    }
+  ]
+}

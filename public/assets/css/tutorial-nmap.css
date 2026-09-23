@@ -1,0 +1,262 @@
+/* =====================================================================
+   Tutoriales Lucio · CODLYX — estilos propios del tutorial de Nmap
+   ---------------------------------------------------------------------
+   Se carga automáticamente porque el fichero se llama
+   tutorial-<slug>.css y existe: layouts/base.php lo detecta.
+   Solo contiene lo que no tiene sentido fuera de este tutorial; todo lo
+   reutilizable (terminal, callouts, tablas, laboratorios, capítulos,
+   buscador) ya vive en tutorial.css y se hereda tal cual.
+
+   Todo va acotado bajo .tutorial-nmap (clase que el controlador pone en
+   <body>) para que ningún selector pueda afectar a otro tutorial aunque
+   la hoja se cargara por error.
+
+   Contenido:
+     0. Tokens locales (color de «eliminado» y de nivel avanzado)
+     1. Insignia de nivel «avanzado»
+     2. Escalera del modelo mental (.nm-pipe)
+     3. Tarjetas de estados de puerto (.nm-states)
+     4. Estados coloreados dentro de la terminal (.st-*) y diff (.d-*)
+     5. Ficha didáctica por opción (.nm-ficha)
+     6. Máscara CIDR bit a bit (.nm-cidr)
+     7. Secuencias de paquetes en paralelo (.nm-seq)
+     8. Árbol de decisión (.nm-tree)
+   ===================================================================== */
+
+/* -------------------------- 0. Tokens ----------------------------- */
+.tutorial-nmap {
+  --nm-del: #F87171;
+  --nm-adv: #F472B6;
+  --nm-adv-soft: rgba(244, 114, 182, 0.10);
+}
+:root[data-theme="light"] .tutorial-nmap {
+  --nm-del: #B91C1C;
+  --nm-adv: #BE185D;
+  --nm-adv-soft: rgba(190, 24, 93, 0.08);
+}
+
+/* --------------------- 1. Nivel «avanzado» ------------------------ */
+/* Desde la v1.3.0 la escala Básico / Intermedio / Avanzado es común a
+   todo el proyecto y .level--avanzado vive en tutorial.css. Aquí ya no
+   se redefine: era CSS duplicado para un componente genérico. Los tokens
+   --nm-adv / --nm-adv-soft se conservan porque los siguen usando los
+   estados de puerto de más abajo. */
+
+/* ----------------------- 2. Escalera ------------------------------ */
+/* Lista ordenada real: un lector de pantalla la anuncia como pasos.
+   En móvil es una columna; a partir de 780 px, una fila que se envuelve. */
+.tutorial-nmap .nm-pipe {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0 26px;
+  padding: 0;
+  list-style: none;
+  counter-reset: nmpipe;
+}
+.tutorial-nmap .nm-pipe > li {
+  position: relative;
+  margin: 0;
+  padding: 12px 14px 12px 48px;
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  counter-increment: nmpipe;
+}
+.tutorial-nmap .nm-pipe > li::before {
+  content: counter(nmpipe);
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--dv-text-inverse);
+  background: var(--dv-gradient-brand);
+  border-radius: 50%;
+}
+.tutorial-nmap .nm-pipe b {
+  display: block;
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: 15.5px;
+  color: var(--dv-text-primary);
+}
+.tutorial-nmap .nm-pipe span {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--dv-text-secondary);
+}
+.tutorial-nmap .nm-pipe > li:last-child { border-color: var(--dv-accent-border); background: var(--dv-accent-soft); }
+@media (min-width: 780px) {
+  .tutorial-nmap .nm-pipe { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+}
+
+/* -------------------- 3. Estados de puerto ------------------------ */
+/* El nombre del estado va escrito: el color refuerza, no sustituye. */
+.tutorial-nmap .nm-states {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0 28px;
+}
+@media (min-width: 700px)  { .tutorial-nmap .nm-states { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1200px) { .tutorial-nmap .nm-states { grid-template-columns: repeat(3, 1fr); } }
+.tutorial-nmap .nm-state {
+  padding: 14px 16px;
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-left: 3px solid var(--nm-c, var(--dv-border-strong));
+  border-radius: 0 var(--dv-radius-sm) var(--dv-radius-sm) 0;
+}
+.tutorial-nmap .nm-state > code {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--nm-c, var(--dv-text-primary));
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.tutorial-nmap .nm-state p { margin: 0; font-size: 14px; line-height: 1.6; color: var(--dv-text-secondary); }
+.tutorial-nmap .nm-state--open   { --nm-c: var(--tl-l4); }
+.tutorial-nmap .nm-state--closed { --nm-c: var(--tl-l3); }
+.tutorial-nmap .nm-state--filt   { --nm-c: var(--tl-l7); }
+.tutorial-nmap .nm-state--unf    { --nm-c: var(--tl-l2); }
+.tutorial-nmap .nm-state--of     { --nm-c: var(--nm-adv); }
+.tutorial-nmap .nm-state--cf     { --nm-c: var(--dv-text-muted); }
+
+/* ------------- 4. Colores dentro de la terminal ------------------- */
+/* La terminal es oscura en ambos temas (tutorial.css), así que se usan
+   los tonos del tema oscuro de forma fija para mantener el contraste. */
+.tutorial-nmap .term .st-open   { color: #19E6A4; font-weight: 700; }
+.tutorial-nmap .term .st-closed { color: #38BDF8; }
+.tutorial-nmap .term .st-filt   { color: #FBBF24; }
+.tutorial-nmap .term .st-of     { color: #F472B6; }
+.tutorial-nmap .term .d-add     { color: #19E6A4; }
+.tutorial-nmap .term .d-del     { color: #F87171; }
+
+/* ---------------------- 5. Ficha didáctica ------------------------ */
+.tutorial-nmap .nm-ficha {
+  display: grid;
+  gap: 1px;
+  margin: 26px 0 30px;
+  background: var(--dv-border-subtle);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  overflow: hidden;
+}
+.tutorial-nmap .nm-ficha > div {
+  display: grid;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--dv-bg-elevated);
+}
+@media (min-width: 700px) {
+  .tutorial-nmap .nm-ficha > div { grid-template-columns: 150px minmax(0, 1fr); gap: 16px; }
+}
+.tutorial-nmap .nm-ficha dt {
+  margin: 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+  padding-top: 3px;
+}
+.tutorial-nmap .nm-ficha dd {
+  margin: 0;
+  min-width: 0;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--dv-text-secondary);
+}
+
+/* ------------------------ 6. CIDR --------------------------------- */
+/* 32 bits en una fila: se desplaza dentro de su caja, nunca la página. */
+.tutorial-nmap .nm-cidr {
+  margin: 22px 0 26px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  background: var(--tl-term-bg);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+.tutorial-nmap .nm-cidr__row {
+  display: flex;
+  gap: 8px;
+  min-width: 520px;
+  align-items: baseline;
+  font-size: 13px;
+  color: var(--tl-term-ink);
+}
+.tutorial-nmap .nm-cidr__row + .nm-cidr__row { margin-top: 8px; }
+.tutorial-nmap .nm-cidr__k { flex: 0 0 92px; color: #6C8090; font-size: 11.5px; }
+.tutorial-nmap .nm-cidr__net  { color: #38BDF8; }
+.tutorial-nmap .nm-cidr__host { color: #19E6A4; }
+.tutorial-nmap .nm-cidr figcaption {
+  margin-top: 14px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #94A3B0;
+}
+
+/* ------------------- 7. Secuencias en paralelo -------------------- */
+.tutorial-nmap .nm-seq { display: grid; gap: 14px; margin: 24px 0 28px; }
+@media (min-width: 900px) { .tutorial-nmap .nm-seq { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.tutorial-nmap .nm-seq .tut-figure {
+  margin: 0;
+  padding: 14px 12px 12px;
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+}
+.tutorial-nmap .nm-seq .tut-figure svg { max-width: 300px; }
+.tutorial-nmap .nm-seq figcaption b { color: var(--dv-text-primary); }
+
+/* ---------------------- 8. Árbol de decisión ---------------------- */
+.tutorial-nmap .nm-tree {
+  margin: 24px 0 28px;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid var(--dv-accent-border);
+}
+.tutorial-nmap .nm-tree > li {
+  position: relative;
+  display: grid;
+  gap: 4px 18px;
+  margin: 0 0 12px;
+  padding: 10px 14px 10px 22px;
+}
+.tutorial-nmap .nm-tree > li::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 21px;
+  width: 14px;
+  border-top: 2px solid var(--dv-accent-border);
+}
+@media (min-width: 700px) {
+  .tutorial-nmap .nm-tree > li { grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); align-items: baseline; }
+}
+.tutorial-nmap .nm-tree__q {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--dv-text-primary);
+}
+.tutorial-nmap .nm-tree__a {
+  font-size: 14.5px;
+  color: var(--dv-text-secondary);
+}
+.tutorial-nmap .nm-tree__a::before {
+  content: "→ ";
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}

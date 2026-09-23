@@ -1,0 +1,60 @@
+# =====================================================================
+#  Tutoriales Lucio · CODLYX
+#  Reglas de Apache para el directorio público.
+#
+#  Funciona sin cambios en dominio, subdominio y subdirectorio: no hay
+#  ninguna ruta hardcodeada. RewriteBase se deja comentado a propósito;
+#  actívalo solo si tu instalación en subdirectorio lo necesitara.
+# =====================================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Descomenta y ajusta SOLO si el subdirectorio no se detecta bien.
+    # RewriteBase /tutoriales/public/
+
+    # Los ficheros y directorios que existen se sirven tal cual
+    # (CSS, JS, imágenes, vendor).
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Todo lo demás va al front controller como ?r=<ruta>
+    RewriteRule ^(.*)$ index.php?r=$1 [QSA,L]
+</IfModule>
+
+# --------------------------- Seguridad -------------------------------
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Sin listados de directorio.
+Options -Indexes
+
+# Nada de ficheros ocultos ni copias de seguridad accesibles por web.
+<FilesMatch "^\.|\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp|example)$">
+    Require all denied
+</FilesMatch>
+
+# --------------------------- Rendimiento -----------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+        application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css                "access plus 1 month"
+    ExpiresByType application/javascript  "access plus 1 month"
+    ExpiresByType image/svg+xml           "access plus 1 month"
+    ExpiresByType image/webp              "access plus 1 month"
+    ExpiresByType image/png               "access plus 1 month"
+    ExpiresByType image/jpeg              "access plus 1 month"
+    ExpiresByType image/x-icon            "access plus 1 year"
+    ExpiresByType text/html               "access plus 0 seconds"
+</IfModule>
+
+# UTF-8 por defecto.
+AddDefaultCharset UTF-8

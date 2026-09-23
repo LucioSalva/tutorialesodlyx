@@ -1,0 +1,26 @@
+# =====================================================================
+#  Tutoriales Lucio · CODLYX — .htaccess de la raíz del proyecto
+#
+#  Solo hace falta si NO puedes apuntar el document root a /public
+#  (caso típico: subir el proyecto entero a public_html/tutoriales/).
+#  Reenvía todo a public/ manteniendo la ruta, y bloquea el acceso
+#  directo a app/, config/, database/ y docs/.
+#
+#  Si SÍ puedes apuntar el document root a /public, este fichero es
+#  inofensivo: no llegará a evaluarse.
+# =====================================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Nunca reenviar dos veces.
+    RewriteCond %{REQUEST_URI} !/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+Options -Indexes
+
+# Bloqueo defensivo del código, la configuración y la documentación interna
+# por si el document root quedara mal apuntado. La regla de reescritura de
+# arriba ya debería evitarlo.
+RedirectMatch 404 ^/(?:.*/)?(?:app|config|database|docs)/

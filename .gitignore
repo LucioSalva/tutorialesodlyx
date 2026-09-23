@@ -1,0 +1,32 @@
+# Configuración con credenciales reales — NUNCA se versiona.
+/config/config.php
+
+# Paquetes de despliegue generados
+/*.zip
+/dist/
+
+# Logs y temporales
+*.log
+*.bak
+*.orig
+*.swp
+*~
+__*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+/.idea/
+/.vscode/
+*.sublime-*
+
+# Herramientas de agentes
+/.claude/
+/.agents/
+
+# Por si algún día se añadiera Composer (hoy no hay dependencias)
+/vendor/composer/
+composer.lock

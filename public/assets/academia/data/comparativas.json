@@ -1,0 +1,20 @@
+{
+  "tareas": [
+    {
+      "id": "listar",
+      "tarea": "Listar el contenido de una carpeta",
+      "linux": { "comando": "ls -la", "nota": "Ordena alfabéticamente y oculta lo que empieza por punto salvo con -a." },
+      "cmd": { "comando": "dir /A", "nota": "Muestra cabecera de volumen y un pie con totales; /A incluye ocultos y de sistema." },
+      "powershell": { "comando": "Get-ChildItem -Force", "nota": "Devuelve OBJETOS FileInfo/DirectoryInfo, no texto: por eso se pueden filtrar con Where-Object." },
+      "diferencias": "Los tres listan, pero solo PowerShell entrega objetos con propiedades. El formato de salida de dir no es el de ls, así que un script que recorte columnas no es portable."
+    },
+    {
+      "id": "copiar",
+      "tarea": "Copiar un archivo",
+      "linux": { "comando": "cp origen destino", "nota": "Para carpetas, cp -r." },
+      "cmd": { "comando": "copy origen destino", "nota": "copy NO copia carpetas: para eso xcopy /E /I o robocopy." },
+      "powershell": { "comando": "Copy-Item origen destino", "nota": "Con -Recurse copia carpetas enteras." },
+      "diferencias": "cp -r, xcopy /E y Copy-Item -Recurse hacen un trabajo parecido, pero xcopy y robocopy tienen reglas propias sobre carpetas vacías y atributos."
+    }
+  ]
+}

@@ -1,0 +1,1447 @@
+/* =====================================================================
+   Tutoriales Lucio · CODLYX — hoja de estilo de las páginas de tutorial
+   ---------------------------------------------------------------------
+   Se carga SOLO en /tutoriales/{slug}, no en la portada.
+   Contiene el armazón de lectura (sumario, progreso, prosa) y los
+   componentes didácticos migrados del laboratorio de Wireshark:
+   tarjetas de ejercicio, bloques de terminal, chips de filtro, callouts,
+   diagrama de encapsulado y tablas de referencia.
+   ===================================================================== */
+
+/* ------------------- Cabecera del tutorial ------------------------ */
+.tut-head {
+  position: relative;
+  padding: 46px 0 34px;
+  border-bottom: 1px solid var(--dv-border-subtle);
+  background: var(--dv-bg-secondary);
+}
+
+.tut-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 0;
+  list-style: none;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+}
+.tut-breadcrumb li { display: inline-flex; align-items: center; gap: 8px; }
+.tut-breadcrumb li + li::before { content: "/"; color: var(--dv-border-strong); }
+.tut-breadcrumb a { color: var(--dv-text-muted); }
+.tut-breadcrumb a:hover { color: var(--dv-accent); }
+.tut-breadcrumb [aria-current="page"] { color: var(--dv-text-primary); }
+
+.tut-head__title { margin: 0 0 10px; }
+.tut-head__tagline {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--dv-accent);
+  margin: 0 0 16px;
+}
+.tut-head__desc { max-width: var(--tl-measure); color: var(--dv-text-secondary); margin: 0 0 22px; }
+
+/* Ficha de la máquina sobre la que están escritos los ejercicios.
+   Es dato técnico del laboratorio, no adorno: cada ejercicio usa
+   estos valores literalmente. */
+.tut-machine {
+  display: flex;
+  flex-wrap: wrap;
+  /* fit-content: en una sola línea la ficha mide lo que mide su contenido,
+     sin franja vacía a la derecha en pantallas anchas. Al envolverse, los
+     elementos crecen para llenar la fila y no queda un hueco dentado. */
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-elevated);
+  overflow: hidden;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12.5px;
+}
+.tut-machine div {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: baseline;
+  gap: 9px;
+  padding: 10px 16px;
+  border-right: 1px solid var(--dv-border-subtle);
+}
+.tut-machine div:last-child { border-right: 0; }
+.tut-machine dt, .tut-machine b {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+  margin: 0;
+}
+.tut-machine dd, .tut-machine span {
+  margin: 0;
+  color: var(--dv-text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --------------- Barra de progreso de lectura --------------------- */
+/* Solo refleja el scroll de la página actual. No guarda ni envía nada. */
+.tut-progress {
+  position: fixed;
+  top: var(--tl-nav-h);
+  left: 0; right: 0;
+  height: 2px;
+  background: transparent;
+  z-index: 999;
+  pointer-events: none;
+}
+.tut-progress__bar {
+  height: 100%;
+  width: 0;
+  background: var(--dv-gradient-brand);
+  transition: width 90ms linear;
+}
+
+/* --------------------- Armazón de dos columnas -------------------- */
+.tut-layout { display: grid; grid-template-columns: 1fr; gap: 40px; padding: 40px 0 80px; }
+
+@media (min-width: 992px) {
+  .tut-layout { grid-template-columns: 244px minmax(0, 1fr); gap: 52px; }
+}
+@media (min-width: 1400px) {
+  .tut-layout { grid-template-columns: 260px minmax(0, var(--tl-measure)) 1fr; }
+  .tut-layout > .tut-body { grid-column: 2; }
+}
+
+/* --------------------------- Sumario ------------------------------ */
+.tut-toc { min-width: 0; }
+
+@media (min-width: 992px) {
+  .tut-toc {
+    position: sticky;
+    top: calc(var(--tl-nav-h) + 26px);
+    max-height: calc(100vh - var(--tl-nav-h) - 52px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+
+.tut-toc__title {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+  margin: 0 0 12px;
+}
+.tut-toc__list { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--dv-border-subtle); }
+.tut-toc__link {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 7px 12px;
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+  font-size: 13.5px;
+  color: var(--dv-text-muted);
+  transition: color 140ms var(--tl-ease), border-color 140ms var(--tl-ease), background-color 140ms var(--tl-ease);
+}
+.tut-toc__link:hover { color: var(--dv-text-primary); background: var(--dv-bg-elevated); }
+.tut-toc__link.is-active {
+  color: var(--dv-accent);
+  border-left-color: var(--dv-accent);
+  background: var(--dv-accent-soft);
+  font-weight: 500;
+}
+.tut-toc__num {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  color: var(--dv-border-strong);
+  min-width: 1.5em;
+  font-variant-numeric: tabular-nums;
+}
+.tut-toc__link.is-active .tut-toc__num { color: var(--dv-accent); }
+
+/* Sumario plegable en móvil: <details> nativo, sin JavaScript. */
+.tut-toc__mobile {
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+  overflow: hidden;
+}
+.tut-toc__mobile > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  cursor: pointer;
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 600;
+  color: var(--dv-text-primary);
+  list-style: none;
+}
+.tut-toc__mobile > summary::-webkit-details-marker { display: none; }
+.tut-toc__mobile > summary::after {
+  content: "";
+  width: 8px; height: 8px;
+  border-right: 2px solid var(--dv-text-muted);
+  border-bottom: 2px solid var(--dv-text-muted);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms var(--tl-ease);
+}
+.tut-toc__mobile[open] > summary::after { transform: rotate(-135deg) translateY(-2px); }
+.tut-toc__mobile .tut-toc__list { border-left: 0; padding: 0 10px 12px; }
+
+@media (min-width: 992px) { .tut-toc__mobile { display: none; } }
+@media (max-width: 991.98px) { .tut-toc__desktop { display: none; } }
+
+/* ------------------------ Cuerpo / prosa -------------------------- */
+.tut-body { min-width: 0; }
+
+/* El desplazamiento del ancla lo aporta html{scroll-padding-top} en app.css. */
+
+.tut-body h2 {
+  margin: 56px 0 6px;
+  padding-top: 22px;
+  border-top: 1px solid var(--dv-border-subtle);
+}
+.tut-body > section:first-child > h2 { margin-top: 0; padding-top: 0; border-top: 0; }
+
+.tut-sub {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  color: var(--dv-text-muted);
+  margin: 0 0 24px;
+}
+
+.tut-body h3 { margin: 34px 0 12px; }
+.tut-body h4 {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+  margin: 28px 0 10px;
+}
+
+.tut-body ul, .tut-body ol { margin: 0 0 20px; padding-left: 1.35em; }
+.tut-body li { margin: 0 0 9px; }
+.tut-body li::marker { color: var(--dv-accent); }
+
+.tut-body :not(pre) > code {
+  font-size: 0.875em;
+  padding: 0.14em 0.4em;
+  border-radius: 3px;
+  background: var(--dv-bg-surface);
+  border: 1px solid var(--dv-border-subtle);
+  color: var(--dv-text-primary);
+  word-break: break-word;
+}
+
+kbd {
+  font-size: 0.82em;
+  padding: 0.16em 0.46em;
+  border-radius: 4px;
+  background: var(--dv-bg-surface);
+  border: 1px solid var(--dv-border-strong);
+  border-bottom-width: 2px;
+  color: var(--dv-text-primary);
+  white-space: nowrap;
+}
+
+/* ---------------- Tarjeta de ejercicio (laboratorio) -------------- */
+.lab {
+  position: relative;
+  margin: 28px 0 36px;
+  padding: 26px 28px 10px;
+  background: var(--dv-surface-card);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  box-shadow: var(--dv-shadow-md);
+}
+.lab__head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 6px; }
+.lab__num {
+  flex: none;
+  position: relative;
+  top: -2px;
+  padding: 4px 9px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--dv-text-inverse);
+  background: var(--dv-gradient-brand);
+  border-radius: 3px;
+}
+.lab__head h3 { margin: 0; font-size: 21px; }
+.lab__goal {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+  margin: 0 0 20px;
+}
+
+/* --------------------- Bloque de terminal ------------------------- */
+.term {
+  position: relative;
+  margin: 0 0 20px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  background: var(--tl-term-bg);
+  overflow: hidden;
+}
+.term__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 10px 7px 14px;
+  border-bottom: 1px solid var(--dv-border-subtle);
+  background: rgba(255, 255, 255, 0.02);
+}
+.term__label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+}
+.term__copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  color: var(--dv-text-muted);
+  background: transparent;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: color 140ms var(--tl-ease), border-color 140ms var(--tl-ease);
+}
+.term__copy:hover { color: var(--dv-accent); border-color: var(--dv-accent-border); }
+.term__copy.is-done { color: var(--dv-accent); border-color: var(--dv-accent-border); }
+
+.term pre {
+  margin: 0;
+  padding: 14px 16px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--tl-term-ink);
+  tab-size: 4;
+}
+.term .p { color: var(--dv-accent); user-select: none; }   /* prompt $ */
+.term .c { color: var(--tl-term-comment); }                /* comentario */
+
+/* ------------------- Chip de display filter ----------------------- */
+/* Los filtros son el elemento que más se copia del laboratorio, así que
+   tienen su propio componente con botón de copia directo. */
+.filter {
+  display: flex;
+  align-items: stretch;
+  margin: 0 0 20px;
+  border: 1px solid var(--tl-l4);
+  border-radius: var(--dv-radius-sm);
+  background: var(--tl-l4-soft);
+  overflow: hidden;
+}
+.filter__tag {
+  display: flex;
+  align-items: center;
+  flex: none;
+  padding: 9px 11px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-text-inverse);
+  background: var(--tl-l4);
+}
+.filter__val {
+  flex: 1;
+  min-width: 0;
+  padding: 9px 12px;
+  overflow-x: auto;
+  white-space: pre;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13.5px;
+  color: var(--dv-text-primary);
+}
+.filter__copy {
+  flex: none;
+  padding: 0 12px;
+  background: transparent;
+  border: 0;
+  border-left: 1px solid var(--tl-l4);
+  color: var(--tl-l4);
+  cursor: pointer;
+  transition: background-color 140ms var(--tl-ease);
+}
+.filter__copy:hover { background: var(--tl-l4-soft); }
+
+/* ---------------------- Callout / aviso --------------------------- */
+.note {
+  margin: 0 0 22px;
+  padding: 16px 20px;
+  border: 1px solid var(--tl-warn-border);
+  border-left: 3px solid var(--tl-warn);
+  border-radius: 0 var(--dv-radius-sm) var(--dv-radius-sm) 0;
+  background: var(--tl-warn-soft);
+  font-size: 15px;
+}
+.note p { margin: 0; }
+.note p + p { margin-top: 11px; }
+.note__label {
+  display: block;
+  margin-bottom: 6px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--tl-warn);
+}
+/* Variante informativa, mismo componente distinto color semántico. */
+.note--info {
+  border-color: var(--dv-accent-border);
+  border-left-color: var(--dv-accent);
+  background: var(--dv-accent-soft);
+}
+.note--info .note__label { color: var(--dv-accent); }
+
+/* ------------------ Diagrama de encapsulado ----------------------- */
+.encap { margin: 26px 0 28px; overflow-x: auto; padding-bottom: 4px; }
+.encap__row {
+  display: flex;
+  min-width: 620px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+}
+.encap__row > div {
+  padding: 12px 10px;
+  border: 1px solid;
+  border-right-width: 0;
+  text-align: center;
+}
+.encap__row > div:last-child { border-right-width: 1px; }
+.encap__k { display: block; font-size: 12.5px; font-weight: 700; margin-bottom: 3px; }
+.encap__b { display: block; font-size: 10px; opacity: 0.75; }
+
+.encap .l2 { flex: 0 0 15%; color: var(--tl-l2); border-color: var(--tl-l2); background: var(--tl-l2-soft); }
+.encap .l3 { flex: 0 0 18%; color: var(--tl-l3); border-color: var(--tl-l3); background: var(--tl-l3-soft); }
+.encap .l4 { flex: 0 0 18%; color: var(--tl-l4); border-color: var(--tl-l4); background: var(--tl-l4-soft); }
+.encap .l7 { flex: 1;       color: var(--tl-l7); border-color: var(--tl-l7); background: var(--tl-l7-soft); }
+
+.encap__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 24px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+}
+.encap__legend li { display: flex; align-items: center; gap: 8px; }
+.encap__legend i {
+  width: 9px; height: 9px;
+  border-radius: 2px;
+  flex: none;
+}
+.encap__legend .l2 { background: var(--tl-l2); }
+.encap__legend .l3 { background: var(--tl-l3); }
+.encap__legend .l4 { background: var(--tl-l4); }
+.encap__legend .l7 { background: var(--tl-l7); }
+
+/* --------------------- Los tres paneles --------------------------- */
+.panes {
+  display: grid;
+  gap: 1px;
+  margin: 24px 0 28px;
+  background: var(--dv-border-subtle);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  overflow: hidden;
+}
+@media (min-width: 780px) { .panes { grid-template-columns: repeat(3, 1fr); } }
+.panes > div { background: var(--dv-bg-elevated); padding: 18px 20px; }
+.panes dt, .panes__name {
+  margin: 0 0 8px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+}
+.panes dd, .panes__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--dv-text-secondary);
+}
+.panes b { color: var(--dv-text-primary); }
+
+/* --------------------------- Figuras ------------------------------ */
+.tut-figure { margin: 26px 0 28px; }
+.tut-figure svg { display: block; width: 100%; height: auto; max-width: 540px; margin: 0 auto; }
+.tut-figure figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-text-muted);
+}
+
+/* --------------------------- Tablas ------------------------------- */
+/* El contenedor scrollea, no la página: así una tabla ancha nunca
+   provoca scroll horizontal global en móvil. */
+.tut-table {
+  margin: 0 0 24px;
+  overflow-x: auto;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+}
+.tut-table table { width: 100%; min-width: 440px; border-collapse: collapse; font-size: 14px; }
+.tut-table th, .tut-table td {
+  padding: 10px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--dv-border-subtle);
+}
+.tut-table tbody tr:last-child td { border-bottom: 0; }
+.tut-table th {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+  background: var(--dv-bg-surface);
+  white-space: nowrap;
+}
+.tut-table td.f {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  color: var(--dv-accent);
+  white-space: nowrap;
+}
+.tut-table td.d { color: var(--dv-text-secondary); }
+.tut-table tbody tr:hover td { background: var(--dv-bg-surface); }
+
+/* ------------------------ Nota de cierre -------------------------- */
+.tut-legal {
+  margin: 40px 0 0;
+  padding: 22px 26px;
+  border: 1px solid var(--tl-warn-border);
+  border-radius: var(--dv-radius-md);
+  background: var(--tl-warn-soft);
+}
+.tut-legal h3 { margin: 0 0 10px; font-size: 18px; color: var(--tl-warn); }
+.tut-legal p { margin: 0; font-size: 15px; }
+
+/* --------------------- Pie del tutorial --------------------------- */
+.tut-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 44px;
+  padding-top: 22px;
+  border-top: 1px solid var(--dv-border-subtle);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+}
+
+/* ------------------------ Volver arriba --------------------------- */
+.tut-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 900;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: 50%;
+  background: var(--dv-bg-elevated);
+  color: var(--dv-text-secondary);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 200ms var(--tl-ease), transform 200ms var(--tl-ease),
+              visibility 200ms var(--tl-ease), border-color 160ms var(--tl-ease);
+}
+.tut-top.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
+.tut-top:hover { color: var(--dv-accent); border-color: var(--dv-accent-border); }
+
+@media (max-width: 575.98px) {
+  .lab { padding: 22px 18px 8px; }
+  .term pre { font-size: 12.5px; }
+  .tut-machine div { flex: 1 1 46%; border-right: 0; border-bottom: 1px solid var(--dv-border-subtle); }
+}
+
+/* Entradilla del tutorial: fija la promesa antes de la primera sección. */
+.tut-lead {
+  max-width: var(--tl-measure);
+  margin: 0 0 34px;
+  font-size: 17.5px;
+  line-height: 1.7;
+  color: var(--dv-text-secondary);
+}
+
+/* =====================================================================
+   v1.1.0 — componentes de tutorial extenso
+   Genéricos a propósito: capítulos, niveles, bloques plegables, pasos,
+   flujo numerado y buscador. Cualquier tutorial futuro los hereda sin
+   escribir CSS propio. Lo específico de un tutorial va en su hoja
+   tutorial-<slug>.css.
+   ===================================================================== */
+
+/* -------------------------- Buscador ------------------------------- */
+.tut-search { position: relative; margin: 0 0 34px; }
+.tut-search__input {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13.5px;
+  color: var(--dv-text-primary);
+  background: var(--dv-bg-elevated);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  transition: border-color 150ms var(--tl-ease), box-shadow 150ms var(--tl-ease);
+}
+.tut-search__input::placeholder { color: var(--dv-text-muted); }
+.tut-search__input:focus {
+  outline: none;
+  border-color: var(--dv-accent);
+  box-shadow: 0 0 0 3px var(--dv-accent-ring);
+}
+.tut-search__status {
+  margin: 8px 0 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+  min-height: 1.2em;
+}
+/* Secciones ocultas por el buscador. Atributo propio, no [hidden], para
+   no chocar con el <details> del sumario móvil. */
+.tut-body > section[data-search-hidden] { display: none; }
+mark.tut-hit {
+  background: var(--dv-accent-soft);
+  color: var(--dv-text-primary);
+  border-bottom: 1px solid var(--dv-accent);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ------------------------- Capítulo -------------------------------- */
+.chapter {
+  margin: 64px 0 40px;
+  padding: 26px 28px;
+  border: 1px solid var(--dv-border-subtle);
+  border-left: 3px solid var(--dv-accent);
+  border-radius: 0 var(--dv-radius-md) var(--dv-radius-md) 0;
+  background: linear-gradient(90deg, var(--dv-accent-soft), transparent 60%);
+}
+.tut-body > .chapter:first-of-type { margin-top: 24px; }
+.chapter__top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.chapter__num {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+}
+/* El h2 del capítulo NO debe heredar el separador superior de .tut-body h2:
+   la tarjeta del capítulo ya es el separador. */
+.tut-body .chapter__title {
+  margin: 0 0 8px;
+  padding-top: 0;
+  border-top: 0;
+  font-size: clamp(24px, 3vw, 32px);
+}
+.chapter__sub { margin: 0; color: var(--dv-text-secondary); font-size: 15.5px; }
+
+/* --------------------- Insignia de nivel --------------------------- */
+.level {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.level--fundamentos { color: var(--tl-l3); border-color: var(--tl-l3); background: var(--tl-l3-soft); }
+.level--protocolos  { color: var(--tl-l2); border-color: var(--tl-l2); background: var(--tl-l2-soft); }
+.level--intermedio  { color: var(--tl-l4); border-color: var(--tl-l4); background: var(--tl-l4-soft); }
+.level--ciber       { color: var(--tl-l7); border-color: var(--tl-l7); background: var(--tl-l7-soft); }
+.level--practica    { color: var(--dv-text-secondary); border-color: var(--dv-border-strong); background: var(--dv-bg-surface); }
+
+/* Encabezado de apartado de seguridad dentro de una sección técnica. */
+.ciber-head { display: flex; align-items: center; gap: 10px; }
+.ciber-head::before {
+  content: "";
+  width: 3px;
+  height: 1.1em;
+  border-radius: 2px;
+  background: var(--tl-l7);
+  flex: none;
+}
+
+/* ---------------------- Bloque plegable ---------------------------- */
+.reveal {
+  margin: 0 0 20px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-elevated);
+  overflow: hidden;
+}
+.reveal > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--dv-accent);
+  list-style: none;
+}
+.reveal > summary::-webkit-details-marker { display: none; }
+.reveal > summary::before {
+  content: "";
+  width: 7px; height: 7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 160ms var(--tl-ease);
+  flex: none;
+}
+.reveal[open] > summary::before { transform: rotate(45deg); }
+.reveal > summary:hover { color: var(--dv-accent-hover); }
+.reveal__body {
+  padding: 4px 20px 16px;
+  border-top: 1px solid var(--dv-border-subtle);
+  font-size: 15px;
+}
+.reveal__body > :first-child { margin-top: 14px; }
+.reveal__body > :last-child { margin-bottom: 0; }
+
+/* ------------------------ Lista de pasos --------------------------- */
+.steps { margin: 0 0 22px; padding-left: 0; list-style: none; counter-reset: paso; }
+.steps > li {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 40px;
+  counter-increment: paso;
+}
+.steps > li::before {
+  content: counter(paso, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 26px;
+  text-align: center;
+  padding: 1px 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--dv-accent);
+  background: var(--dv-accent-soft);
+  border: 1px solid var(--dv-accent-border);
+  border-radius: 3px;
+}
+
+/* ------------------- Flujo de análisis numerado -------------------- */
+.flow { margin: 0 0 24px; padding-left: 0; list-style: none; counter-reset: paso2; }
+.flow > li {
+  position: relative;
+  margin: 0 0 18px;
+  padding: 0 0 0 46px;
+  counter-increment: paso2;
+}
+.flow > li::before {
+  content: counter(paso2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px; height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--dv-text-inverse);
+  background: var(--dv-gradient-brand);
+  border-radius: 50%;
+}
+.flow > li > b {
+  display: block;
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: 17px;
+  color: var(--dv-text-primary);
+  margin-bottom: 3px;
+}
+.flow__tool {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  color: var(--dv-accent);
+}
+.flow > li > p { margin: 0; font-size: 15px; }
+
+/* ------------------------ Ajustes menores -------------------------- */
+/* Ancla heredada: mantiene vivos los enlaces #e1..#e9 de la v1.0.0 sin
+   ocupar espacio ni aparecer en el índice. */
+.legacy-anchor { display: block; height: 0; overflow: hidden; }
+
+.panes--2 { grid-template-columns: 1fr; }
+@media (min-width: 700px) { .panes--2 { grid-template-columns: repeat(2, 1fr); } }
+
+/* La cabecera de un laboratorio ahora lleva insignia de nivel. */
+.lab__head { flex-wrap: wrap; }
+.lab__head .level { margin-left: auto; }
+
+/* Índice: encabezado de capítulo dentro del sumario. */
+.tut-toc__group {
+  margin: 16px 0 5px;
+  padding: 0 12px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+}
+.tut-toc__list > .tut-toc__group:first-child { margin-top: 0; }
+
+/* Línea de objetivo de sección: conserva los «Objetivo:» de los nueve
+   ejercicios de la v1.0.0 dentro de las secciones que los sustituyen. */
+.tut-goal {
+  margin: -14px 0 22px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12.5px;
+  color: var(--dv-accent);
+}
+
+/* =====================================================================
+   Estándar de enseñanza visual — componentes compartidos (v1.3.0)
+   ---------------------------------------------------------------------
+   Todo lo de aquí abajo lo generan las funciones de blocks.php y lo usan
+   por igual Wireshark, Nmap y cualquier tutorial futuro. Ningún tutorial
+   debe volver a escribir estos estilos en su hoja propia: si un bloque
+   es genérico, vive aquí.
+
+   Orden:
+     A. Niveles de dificultad globales
+     B. Figuras (.shot) y lupa
+     C. Leyenda numerada (.callouts)
+     D. Desglose anotado (.anat)
+     E. Evidencia / interpretación / límite (.evid)
+     F. Error común (.pitfall)
+     G. Pistas y soluciones (.hints, .reveal--sol)
+     H. Quiz (.quiz)
+     I. Resumen de capítulo (.recap)
+     J. Comparación (.cmp) y antes/después (.baft)
+     K. Lightbox (.lbox)
+   ===================================================================== */
+
+/* ------------- A. Niveles de dificultad globales ------------------- */
+/* Básico / Intermedio / Avanzado son la escala del proyecto. El texto
+   lleva la información: quien no distinga los tonos lee la palabra. */
+.level--basico   { color: var(--tl-l4); border-color: var(--tl-l4); background: var(--tl-l4-soft); }
+.level--avanzado { color: var(--tl-adv); border-color: var(--tl-adv); background: var(--tl-adv-soft); }
+
+:root {
+  --tl-adv:      #F472B6;
+  --tl-adv-soft: rgba(244, 114, 182, 0.10);
+}
+:root[data-theme="light"] {
+  --tl-adv:      #BE185D;
+  --tl-adv-soft: rgba(190, 24, 93, 0.08);
+}
+
+/* ----------------------- B. Figuras (.shot) ----------------------- */
+/* Cada figura es un <figure> con procedencia declarada, imagen ampliable
+   y pie que dice qué mirar. La imagen nunca se sale: max-width 100 % y
+   height auto la hacen responsive desde 320 px. */
+.shot {
+  margin: 28px 0 30px;
+  padding: 0;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+  overflow: hidden;
+}
+
+.shot__badge {
+  display: inline-block;
+  margin: 12px 0 0 14px;
+  padding: 3px 9px;
+  border: 1px solid var(--dv-border-strong);
+  border-radius: 999px;
+  background: var(--dv-bg-surface);
+  color: var(--dv-text-muted);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Distintivo distinto para lo que salió de verdad del laboratorio: la
+   diferencia entre «esto pasó» y «esto es un dibujo» tiene que verse. */
+.shot__badge--real {
+  color: var(--dv-accent);
+  border-color: var(--dv-accent-border);
+  background: var(--dv-accent-soft);
+}
+
+.shot__zoom {
+  display: block;
+  position: relative;
+  margin: 12px 0 0;
+  line-height: 0;
+}
+
+.shot__zoom img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.shot__lens {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 5px 11px;
+  border: 1px solid var(--dv-border-strong);
+  border-radius: var(--dv-radius-sm);
+  background: rgba(10, 14, 20, 0.86);
+  color: #E8EEF4;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 11.5px;
+  line-height: 1.2;
+  opacity: 0;
+  transition: opacity 0.18s var(--tl-ease);
+  pointer-events: none;
+}
+
+.shot__zoom:hover .shot__lens,
+.shot__zoom:focus-visible .shot__lens { opacity: 1; }
+
+.shot figcaption {
+  margin: 0;
+  padding: 14px 16px 16px;
+  border-top: 1px solid var(--dv-border-subtle);
+  color: var(--dv-text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.shot figcaption b { color: var(--dv-text-primary); }
+
+/* -------------------- C. Leyenda numerada ------------------------- */
+/* Los números del dibujo no significan nada por sí solos: esta lista es
+   la mitad que falta. Se numera con contenido real, no con ::before, para
+   que un lector de pantalla anuncie «1, 2, 3». */
+.callouts {
+  margin: 0 0 26px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.callouts > li {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  gap: 4px 12px;
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-elevated);
+}
+
+.callouts__n {
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1.5px solid var(--dv-accent);
+  border-radius: 50%;
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.callouts > li > b { color: var(--dv-text-primary); font-size: 14.5px; }
+.callouts > li > span:not(.callouts__n) {
+  color: var(--dv-text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+@media (min-width: 760px) {
+  .callouts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* --------------------- D. Desglose anotado ------------------------ */
+/* «Aquí tienes un comando» no enseña nada. Esto sí: la línea, y debajo
+   qué hace cada pieza. */
+.anat {
+  position: relative;
+  margin: 26px 0 28px;
+  padding: 18px 18px 6px;
+  border: 1px solid var(--dv-border-subtle);
+  border-left: 3px solid var(--dv-accent);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+}
+
+.anat__tag {
+  position: absolute;
+  top: -9px;
+  left: 16px;
+  padding: 1px 9px;
+  border-radius: 999px;
+  background: var(--dv-bg-primary);
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.anat__line {
+  margin: 4px 0 16px;
+  overflow-x: auto;
+}
+
+.anat__line code {
+  display: block;
+  padding: 12px 14px;
+  border-radius: var(--dv-radius-sm);
+  background: var(--tl-term-bg);
+  color: var(--tl-term-ink);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  white-space: pre;
+}
+
+.anat__line code b { color: var(--dv-accent); font-weight: 700; }
+.anat__line code i { color: var(--tl-l3); font-style: normal; }
+.anat__line code u { color: var(--tl-l7); text-decoration: none; }
+
+.anat__parts { margin: 0; display: grid; gap: 0; }
+.anat__parts > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  padding: 11px 0;
+  border-top: 1px solid var(--dv-border-subtle);
+}
+
+.anat__parts dt {
+  margin: 0;
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.anat__parts dd {
+  margin: 0;
+  color: var(--dv-text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+@media (min-width: 720px) {
+  .anat__parts > div { grid-template-columns: 180px minmax(0, 1fr); gap: 18px; }
+}
+
+/* ----------- E. Evidencia / interpretación / límite --------------- */
+/* El bloque que impide presentar un indicio como prueba. Se usa en
+   Wireshark, Nmap y todo lo que venga de ciberseguridad. */
+.evid {
+  margin: 26px 0 28px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+  overflow: hidden;
+}
+
+.evid__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+  padding: 15px 16px;
+  border-left: 3px solid var(--evid-c, var(--dv-border-strong));
+}
+
+.evid__row + .evid__row { border-top: 1px solid var(--dv-border-subtle); }
+
+.evid__row--dato    { --evid-c: var(--dv-accent); }
+.evid__row--lectura { --evid-c: var(--tl-l3); }
+.evid__row--limite  { --evid-c: var(--tl-warn); }
+
+.evid__k {
+  color: var(--evid-c);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.evid__v { color: var(--dv-text-secondary); font-size: 14.5px; line-height: 1.7; }
+.evid__v > :first-child { margin-top: 0; }
+.evid__v > :last-child { margin-bottom: 0; }
+.evid__v b { color: var(--dv-text-primary); }
+
+@media (min-width: 780px) {
+  .evid__row { grid-template-columns: 168px minmax(0, 1fr); gap: 20px; align-items: start; }
+  .evid__k { padding-top: 3px; }
+}
+
+/* ------------------------ F. Error común -------------------------- */
+.pitfall {
+  margin: 24px 0 26px;
+  padding: 16px 18px;
+  border: 1px solid var(--tl-warn-border);
+  border-left: 3px solid var(--tl-warn);
+  border-radius: var(--dv-radius-md);
+  background: var(--tl-warn-soft);
+}
+
+.pitfall__label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--tl-warn);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.pitfall p { margin: 0; color: var(--dv-text-secondary); font-size: 14.5px; line-height: 1.7; }
+.pitfall p + p { margin-top: 10px; }
+.pitfall b, .pitfall strong { color: var(--dv-text-primary); }
+
+/* ------------------ G. Pistas y soluciones ------------------------ */
+/* <details> nativo: sin JavaScript, con teclado y encontrable por Ctrl+F. */
+.hints { margin: 0 0 18px; display: grid; gap: 8px; }
+
+.reveal--hint > summary { color: var(--tl-l3); font-size: 14.5px; }
+.reveal--hint > summary::before { border-color: var(--tl-l3); }
+
+.reveal--sol > summary { color: var(--dv-accent); }
+
+.sol__answer {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--dv-accent);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-accent-soft);
+  color: var(--dv-text-primary);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sol__learned {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--dv-border-subtle);
+  color: var(--dv-text-secondary);
+  font-size: 14px;
+}
+
+.sol__learned b { color: var(--dv-accent); }
+
+/* --------------------------- H. Quiz ------------------------------ */
+.quiz {
+  margin: 30px 0 28px;
+  padding: 20px 20px 8px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+}
+
+.tut-body .quiz__title {
+  margin: 0 0 16px;
+  font-size: 17px;
+  color: var(--dv-text-primary);
+}
+
+.quiz__list { margin: 0; padding: 0; list-style: none; counter-reset: preg; }
+
+.quiz__item { margin: 0 0 18px; padding-bottom: 18px; border-bottom: 1px solid var(--dv-border-subtle); }
+.quiz__list > .quiz__item:last-child { border-bottom: 0; padding-bottom: 4px; }
+
+.quiz__q {
+  margin: 0 0 10px;
+  color: var(--dv-text-primary);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.quiz__q::before {
+  counter-increment: preg;
+  content: counter(preg) ". ";
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+.quiz__opts { margin: 0 0 12px; padding: 0; list-style: none; display: grid; gap: 6px; }
+
+.quiz__opts > li {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-surface);
+  color: var(--dv-text-secondary);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.quiz__opt {
+  flex: 0 0 auto;
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-weight: 700;
+}
+
+.quiz__ok { margin: 0 0 10px; color: var(--dv-accent); font-size: 14.5px; }
+.quiz__ok b { font-family: "JetBrains Mono", ui-monospace, monospace; }
+
+/* ----------------- I. Resumen de capítulo ------------------------- */
+.recap {
+  margin: 34px 0 30px;
+  padding: 20px 20px 8px;
+  border: 1px solid var(--dv-accent-border);
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-accent-soft);
+}
+
+.recap__head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+
+.recap__tag {
+  padding: 2px 10px;
+  border: 1px solid var(--dv-accent-border);
+  border-radius: 999px;
+  color: var(--dv-accent);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.tut-body .recap__head h3 { margin: 0; font-size: 18px; }
+
+.recap__grid { display: grid; gap: 4px 32px; }
+
+.tut-body .recap__grid h4 {
+  margin: 18px 0 8px;
+  color: var(--dv-text-primary);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.recap__grid ul { margin: 0 0 14px; padding-left: 1.2em; }
+.recap__grid li { color: var(--dv-text-secondary); font-size: 14.5px; line-height: 1.65; }
+.recap__grid li::marker { color: var(--dv-accent); }
+
+.recap__mono li {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+}
+
+@media (min-width: 900px) {
+  .recap__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tut-body .recap__grid h4 { margin-top: 14px; }
+}
+
+/* -------- J. Comparación y antes/después -------------------------- */
+.cmp { display: grid; gap: 14px; margin: 26px 0 18px; }
+
+.cmp__col {
+  padding: 18px 18px 6px;
+  border: 1px solid var(--dv-border-subtle);
+  border-top: 3px solid var(--cmp-c, var(--dv-border-strong));
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+}
+
+.cmp__col--a { --cmp-c: var(--tl-warn); }
+.cmp__col--b { --cmp-c: var(--dv-accent); }
+
+.tut-body .cmp__col h4 { margin: 0 0 4px; color: var(--cmp-c); font-size: 16px; }
+.cmp__sub { margin: 0 0 12px; color: var(--dv-text-muted); font-size: 13px; }
+.cmp__body { color: var(--dv-text-secondary); font-size: 14.5px; line-height: 1.7; }
+.cmp__body > :last-child { margin-bottom: 12px; }
+.cmp__body ul { padding-left: 1.2em; }
+
+.cmp__verdict {
+  margin: 0 0 26px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--dv-accent);
+  border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-surface);
+  color: var(--dv-text-primary);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (min-width: 780px) {
+  .cmp { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.baft { margin: 26px 0 28px; display: grid; gap: 0; justify-items: stretch; }
+
+.baft__step {
+  padding: 14px 16px;
+  border: 1px solid var(--dv-border-subtle);
+  border-left: 3px solid var(--baft-c, var(--dv-border-strong));
+  border-radius: var(--dv-radius-md);
+  background: var(--dv-bg-elevated);
+  color: var(--dv-text-secondary);
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+
+.baft__step--before { --baft-c: var(--dv-text-muted); }
+.baft__step--change { --baft-c: var(--tl-l3); }
+.baft__step--after  { --baft-c: var(--dv-accent); }
+
+.baft__k {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--baft-c);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.baft__step > div > :first-child { margin-top: 0; }
+.baft__step > div > :last-child { margin-bottom: 0; }
+
+.baft__arrow {
+  padding: 6px 0;
+  color: var(--dv-border-strong);
+  font-size: 18px;
+  text-align: center;
+}
+
+/* ------------------------- K. Lightbox ---------------------------- */
+/* Vanilla, sin librería. Solo aparece si app tiene JavaScript: el enlace
+   de la figura ya funcionaba sin él. */
+.lbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(4, 7, 11, 0.94);
+}
+
+.lbox[hidden] { display: none !important; }
+
+.lbox__img {
+  max-width: 100%;
+  max-height: calc(100vh - 128px);
+  width: auto;
+  height: auto;
+  border-radius: var(--dv-radius-md);
+  box-shadow: var(--dv-shadow-lg);
+}
+
+.lbox__cap {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 20px;
+  margin: 0;
+  color: #C2CCD6;
+  font-size: 13.5px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.lbox__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #34465A;
+  border-radius: var(--dv-radius-md);
+  background: #0E141C;
+  color: #E8EEF4;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lbox__close:hover { color: var(--dv-accent); border-color: var(--dv-accent-border); }
+
+/* Con el lightbox abierto la página de detrás no debe desplazarse. */
+body.has-lbox { overflow: hidden; }
+
+@media (max-width: 575.98px) {
+  .lbox { padding: 12px; }
+  .lbox__img { max-height: calc(100vh - 150px); }
+  .shot__lens { opacity: 1; }   /* en táctil no hay hover que lo revele */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shot__lens { transition: none; }
+}

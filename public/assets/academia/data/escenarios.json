@@ -1,0 +1,887 @@
+{
+  "escenarios": [
+    {
+      "id": "linux-hogar",
+      "os": "linux",
+      "nombre": "Tu carpeta personal",
+      "descripcion": "Un home recién estrenado con documentos, imágenes y proyectos. El escenario de partida para aprender a moverte.",
+      "inicio": "/home/alumno",
+      "arbol": {
+        "home": {
+          "alumno": {
+            "documentos": {
+              "notas.txt": "Comprar pan\nLlamar a Marta\nTerminar el informe\n",
+              "informe.txt": "INFORME TRIMESTRAL\nVentas: 120\nGastos: 90\nResultado: 30\n",
+              "lista.csv": "producto,unidades,precio\npan,2,1.20\nleche,1,0.99\ncafe,3,4.50\n"
+            },
+            "imagenes": {
+              "vacaciones.jpg": "JPEG",
+              "perfil.png": "PNG"
+            },
+            "proyectos": {
+              "web": {
+                "index.html": "<h1>Hola</h1>\n",
+                "estilo.css": "body{margin:0}\n"
+              }
+            },
+            "backups": {},
+            ".perfil": "export EDITOR=nano\n"
+          }
+        },
+        "etc": {
+          "hostname": "academia\n"
+        },
+        "var": {
+          "log": {
+            "sistema.log": "INFO arranque correcto\nWARN disco al 81%\nERROR servicio web caido\nINFO reintento\nERROR servicio web caido\n"
+          }
+        }
+      },
+      "procesos": [
+        {
+          "pid": 1,
+          "usuario": "root",
+          "comando": "/sbin/init",
+          "cpu": 0.0,
+          "mem": 0.1,
+          "protegido": true
+        },
+        {
+          "pid": 842,
+          "usuario": "alumno",
+          "comando": "bash",
+          "cpu": 0.1,
+          "mem": 0.2,
+          "tty": "pts/0"
+        },
+        {
+          "pid": 1203,
+          "usuario": "alumno",
+          "comando": "nano notas.txt",
+          "cpu": 0.3,
+          "mem": 0.4,
+          "tty": "pts/1"
+        }
+      ],
+      "servicios": {
+        "sshd": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "OpenSSH Daemon",
+          "pid": 512
+        },
+        "cron": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Programador de tareas",
+          "pid": 640
+        }
+      },
+      "red": {
+        "localhost": {
+          "ip": "127.0.0.1",
+          "responde": true
+        },
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 22,
+          "proceso": "sshd"
+        }
+      ],
+      "web": {},
+      "registros": [
+        "sep 22 10:00:00 academia systemd[1]: Arranque completado."
+      ]
+    },
+    {
+      "id": "linux-servidor",
+      "os": "linux",
+      "nombre": "Servidor con un problema",
+      "descripcion": "Un servidor web que ha dejado de responder. Sirve para practicar diagnóstico: servicios, procesos, registros y espacio en disco.",
+      "inicio": "/home/alumno",
+      "arbol": {
+        "home": {
+          "alumno": {
+            "notas-guardia.txt": "El sitio no responde desde las 09:40.\n"
+          }
+        },
+        "var": {
+          "log": {
+            "nginx": {
+              "error.log": "2026/09/22 09:41:02 [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)\n2026/09/22 09:41:02 [emerg] still could not bind()\n"
+            },
+            "sistema.log": "INFO 09:30 copia de seguridad terminada\nWARN 09:38 uso de disco 91%\nERROR 09:41 nginx no pudo arrancar\n"
+          },
+          "www": {
+            "index.html": "<h1>Sitio en mantenimiento</h1>\n"
+          }
+        },
+        "etc": {
+          "nginx": {
+            "nginx.conf": "listen 80;\nroot /var/www;\n"
+          }
+        }
+      },
+      "procesos": [
+        {
+          "pid": 1,
+          "usuario": "root",
+          "comando": "/sbin/init",
+          "cpu": 0.0,
+          "mem": 0.1,
+          "protegido": true
+        },
+        {
+          "pid": 512,
+          "usuario": "root",
+          "comando": "sshd",
+          "cpu": 0.0,
+          "mem": 0.3,
+          "protegido": true
+        },
+        {
+          "pid": 970,
+          "usuario": "root",
+          "comando": "python3 -m http.server 80",
+          "cpu": 1.2,
+          "mem": 2.1
+        },
+        {
+          "pid": 1180,
+          "usuario": "alumno",
+          "comando": "bash",
+          "cpu": 0.1,
+          "mem": 0.2
+        }
+      ],
+      "servicios": {
+        "nginx": {
+          "activo": false,
+          "habilitado": true,
+          "fallado": true,
+          "descripcion": "Servidor web nginx",
+          "pid": 0,
+          "log": [
+            "bind() to 0.0.0.0:80 failed (98: Address already in use)",
+            "arranque fallido"
+          ]
+        },
+        "sshd": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "OpenSSH Daemon",
+          "pid": 512
+        }
+      },
+      "red": {
+        "localhost": {
+          "ip": "127.0.0.1",
+          "responde": true
+        },
+        "cliente.lab": {
+          "ip": "192.168.56.30",
+          "responde": true
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 22,
+          "proceso": "sshd"
+        },
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 80,
+          "proceso": "python3"
+        }
+      ],
+      "web": {
+        "localhost": "<h1>Sitio en mantenimiento</h1>"
+      },
+      "registros": [
+        "sep 22 09:41:02 academia nginx[970]: bind() to 0.0.0.0:80 failed (98: Address already in use)",
+        "sep 22 09:41:02 academia systemd[1]: nginx.service: Failed with result 'exit-code'."
+      ]
+    },
+    {
+      "id": "cmd-hogar",
+      "os": "cmd",
+      "nombre": "Carpeta de usuario en Windows",
+      "descripcion": "Un perfil de Windows con Documentos, Descargas y Escritorio para practicar CMD.",
+      "inicio": "C:\\Users\\Alumno",
+      "arbol": {
+        "Users": {
+          "Alumno": {
+            "Documents": {
+              "notas.txt": "Comprar pan\r\nLlamar a Marta\r\n",
+              "informe.txt": "INFORME TRIMESTRAL\r\nVentas: 120\r\n",
+              "lista.csv": "producto,unidades\r\npan,2\r\nleche,1\r\n"
+            },
+            "Downloads": {
+              "instalador.exe": "MZ",
+              "manual.pdf": "PDF"
+            },
+            "Desktop": {
+              "acceso.lnk": "LNK"
+            },
+            "Backups": {}
+          }
+        },
+        "Windows": {
+          "System32": {
+            "drivers": {}
+          }
+        },
+        "Temp": {}
+      },
+      "procesos": [
+        {
+          "pid": 4,
+          "usuario": "SYSTEM",
+          "comando": "System",
+          "cpu": 0.1,
+          "mem": 0.1,
+          "protegido": true,
+          "memoria": 148
+        },
+        {
+          "pid": 1820,
+          "usuario": "Alumno",
+          "comando": "notepad.exe",
+          "cpu": 0.2,
+          "mem": 1.2,
+          "memoria": 12480
+        },
+        {
+          "pid": 2244,
+          "usuario": "Alumno",
+          "comando": "chrome.exe",
+          "cpu": 12.5,
+          "mem": 8.4,
+          "memoria": 385000
+        }
+      ],
+      "servicios": {
+        "Spooler": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cola de impresión",
+          "pid": 1500
+        },
+        "WSearch": {
+          "activo": false,
+          "habilitado": true,
+          "descripcion": "Windows Search",
+          "pid": 0
+        }
+      },
+      "red": {
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        },
+        "impresora.lab": {
+          "ip": "192.168.56.40",
+          "responde": false
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 445,
+          "proceso": "System"
+        }
+      ],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "ps-hogar",
+      "os": "powershell",
+      "nombre": "Estación de trabajo con PowerShell",
+      "descripcion": "El mismo perfil de Windows, pero visto con cmdlets y objetos.",
+      "inicio": "C:\\Users\\Alumno",
+      "arbol": {
+        "Users": {
+          "Alumno": {
+            "Documents": {
+              "notas.txt": "uno\r\ndos\r\ntres\r\n",
+              "servidores.csv": "nombre,ip,estado\r\nweb01,192.168.56.20,activo\r\nweb02,192.168.56.21,parado\r\n",
+              "informe.txt": "INFORME\r\nVentas: 120\r\n"
+            },
+            "Downloads": {
+              "paquete.zip": "PK"
+            },
+            "Scripts": {
+              "hola.ps1": "Write-Output 'Hola desde un script'\r\n"
+            },
+            "Backups": {},
+            "Informes": {
+              "resumen.txt": "Borrador del informe mensual\r\n",
+              "plantillas": {
+                "modelo.txt": "Plantilla base de informe\r\n"
+              }
+            }
+          }
+        },
+        "Windows": {
+          "System32": {}
+        }
+      },
+      "procesos": [
+        {
+          "pid": 4,
+          "usuario": "SYSTEM",
+          "comando": "System",
+          "cpu": 0.5,
+          "mem": 0.1,
+          "protegido": true,
+          "memoria": 148
+        },
+        {
+          "pid": 1820,
+          "usuario": "Alumno",
+          "comando": "notepad",
+          "cpu": 15.2,
+          "mem": 1.2,
+          "memoria": 120000
+        },
+        {
+          "pid": 2100,
+          "usuario": "Alumno",
+          "comando": "chrome",
+          "cpu": 42.7,
+          "mem": 8.8,
+          "memoria": 850000
+        },
+        {
+          "pid": 3010,
+          "usuario": "Alumno",
+          "comando": "pwsh",
+          "cpu": 2.1,
+          "mem": 0.9,
+          "memoria": 68000
+        }
+      ],
+      "servicios": {
+        "Spooler": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cola de impresión",
+          "pid": 1500
+        },
+        "WSearch": {
+          "activo": false,
+          "habilitado": true,
+          "descripcion": "Windows Search",
+          "pid": 0
+        },
+        "Dnscache": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cliente DNS",
+          "pid": 1100
+        }
+      },
+      "red": {
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        },
+        "web.lab": {
+          "ip": "192.168.56.25",
+          "responde": true
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 445,
+          "proceso": "System"
+        },
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 3389,
+          "proceso": "svchost"
+        }
+      ],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "linux-proyecto",
+      "os": "linux",
+      "nombre": "Proyecto desordenado",
+      "descripcion": "Una carpeta de proyecto donde todo se ha ido dejando de cualquier manera: fuentes sueltas, temporales y una copia del cliente que no se puede borrar.",
+      "inicio": "/home/alumno/proyecto",
+      "arbol": {
+        "home": {
+          "alumno": {
+            "proyecto": {
+              "index.html": "<h1>Tienda</h1>\n",
+              "estilo.css": "body{margin:0}\n",
+              "app.js": "console.log('hola')\n",
+              "logo.png": "PNG",
+              "borrador.txt": "ideas sueltas\n",
+              "tmp": {
+                "cache1.tmp": "basura\n",
+                "cache2.tmp": "basura\n",
+                "sesion.tmp": "basura\n",
+                "manual-cliente.pdf": "PDF del cliente: NO se borra\n"
+              },
+              "entrega": {}
+            }
+          }
+        },
+        "var": {
+          "log": {}
+        }
+      },
+      "procesos": [
+        {
+          "pid": 1,
+          "usuario": "root",
+          "comando": "/sbin/init",
+          "cpu": 0.0,
+          "mem": 0.1,
+          "protegido": true
+        },
+        {
+          "pid": 860,
+          "usuario": "alumno",
+          "comando": "bash",
+          "cpu": 0.1,
+          "mem": 0.2,
+          "tty": "pts/0"
+        }
+      ],
+      "servicios": {
+        "cron": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Programador de tareas",
+          "pid": 640
+        }
+      },
+      "red": {
+        "localhost": {
+          "ip": "127.0.0.1",
+          "responde": true
+        }
+      },
+      "puertos": [],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "linux-investigacion",
+      "os": "linux",
+      "nombre": "El archivo que alguien escondió",
+      "descripcion": "Un compañero dejó una configuración escondida antes de irse de vacaciones. Hay que encontrarla sin borrar nada por el camino.",
+      "inicio": "/home/alumno",
+      "arbol": {
+        "home": {
+          "alumno": {
+            "documentos": {
+              "leeme.txt": "La configuracion no esta aqui.\nMira en los sitios que no se ven a simple vista.\n",
+              "agenda.txt": "lunes: reunion\nmartes: entrega\n"
+            },
+            "descargas": {
+              "paquete.zip": "PK",
+              ".oculto": {
+                "pista.txt": "Casi. El archivo se llama config.ini y esta en otra carpeta oculta.\n"
+              }
+            },
+            ".config": {
+              "app": {
+                "config.ini": "[servidor]\nclave=ACCESO-CONCEDIDO\npuerto=8080\n"
+              }
+            },
+            "trabajo": {
+              "informe.txt": "Sin novedad\n"
+            },
+            "hallazgos": {}
+          }
+        }
+      },
+      "procesos": [
+        {
+          "pid": 1,
+          "usuario": "root",
+          "comando": "/sbin/init",
+          "cpu": 0.0,
+          "mem": 0.1,
+          "protegido": true
+        },
+        {
+          "pid": 901,
+          "usuario": "alumno",
+          "comando": "bash",
+          "cpu": 0.1,
+          "mem": 0.2,
+          "tty": "pts/0"
+        }
+      ],
+      "servicios": {},
+      "red": {
+        "localhost": {
+          "ip": "127.0.0.1",
+          "responde": true
+        }
+      },
+      "puertos": [],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "linux-permisos",
+      "os": "linux",
+      "nombre": "Permisos rotos",
+      "descripcion": "Un script que no se puede ejecutar y una clave privada que puede leer todo el mundo. Dos problemas de permisos de libro.",
+      "inicio": "/home/alumno/servicio",
+      "arbol": {
+        "home": {
+          "alumno": {
+            "servicio": {
+              "arranca.sh": {
+                "__tipo": "file",
+                "contenido": "#!/bin/bash\necho servicio arrancado\n",
+                "modo": 420
+              },
+              "clave.key": {
+                "__tipo": "file",
+                "contenido": "CLAVE-PRIVADA-DE-LABORATORIO\n",
+                "modo": 420
+              },
+              "config.yml": {
+                "__tipo": "file",
+                "contenido": "puerto: 8080\n",
+                "modo": 420
+              },
+              "publico": {
+                "__modo": 493,
+                "aviso.txt": "Este directorio si es publico\n"
+              },
+              "privado": {
+                "__modo": 511,
+                "datos.txt": "Datos internos\n"
+              }
+            }
+          }
+        }
+      },
+      "procesos": [
+        {
+          "pid": 1,
+          "usuario": "root",
+          "comando": "/sbin/init",
+          "cpu": 0.0,
+          "mem": 0.1,
+          "protegido": true
+        },
+        {
+          "pid": 880,
+          "usuario": "alumno",
+          "comando": "bash",
+          "cpu": 0.1,
+          "mem": 0.2
+        }
+      ],
+      "servicios": {},
+      "red": {
+        "localhost": {
+          "ip": "127.0.0.1",
+          "responde": true
+        }
+      },
+      "puertos": [],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "cmd-proyecto",
+      "os": "cmd",
+      "nombre": "Carpeta de trabajo desordenada",
+      "descripcion": "Un proyecto de Windows con temporales, entregas a medias y un manual que no se puede borrar.",
+      "inicio": "C:\\Users\\Alumno\\Proyecto",
+      "arbol": {
+        "Users": {
+          "Alumno": {
+            "Proyecto": {
+              "index.html": "<h1>Tienda</h1>\r\n",
+              "estilo.css": "body{margin:0}\r\n",
+              "notas.txt": "pendiente: revisar textos\r\n",
+              "tmp": {
+                "cache1.tmp": "basura\r\n",
+                "cache2.tmp": "basura\r\n",
+                "manual-cliente.pdf": "PDF del cliente: NO se borra\r\n"
+              },
+              "Entrega": {}
+            }
+          }
+        },
+        "Windows": {
+          "System32": {}
+        }
+      },
+      "procesos": [
+        {
+          "pid": 4,
+          "usuario": "SYSTEM",
+          "comando": "System",
+          "cpu": 0.1,
+          "mem": 0.1,
+          "protegido": true,
+          "memoria": 148
+        },
+        {
+          "pid": 1500,
+          "usuario": "Alumno",
+          "comando": "explorer.exe",
+          "cpu": 0.5,
+          "mem": 2.0,
+          "memoria": 45000
+        }
+      ],
+      "servicios": {
+        "Spooler": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cola de impresión",
+          "pid": 1500
+        }
+      },
+      "red": {
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        }
+      },
+      "puertos": [],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "cmd-servidor",
+      "os": "cmd",
+      "nombre": "Servidor Windows con un intruso",
+      "descripcion": "Un servidor donde algo consume toda la CPU, un servicio se ha caído y el registro tiene la explicación.",
+      "inicio": "C:\\Users\\Alumno",
+      "arbol": {
+        "Users": {
+          "Alumno": {
+            "Informes": {},
+            "Documents": {
+              "guardia.txt": "El servidor va lento desde las 09:40.\r\n"
+            }
+          }
+        },
+        "Logs": {
+          "servicio.log": "INFO 09:30 copia terminada\r\nWARN 09:38 disco al 91%\r\nERROR 09:41 Spooler no pudo arrancar\r\nERROR 09:42 reintento fallido\r\nINFO 09:45 revision manual\r\n",
+          "acceso.log": "09:40 usuario alumno inicio sesion\r\n09:41 proceso minero.exe iniciado\r\n"
+        },
+        "Windows": {
+          "System32": {}
+        }
+      },
+      "procesos": [
+        {
+          "pid": 4,
+          "usuario": "SYSTEM",
+          "comando": "System",
+          "cpu": 0.1,
+          "mem": 0.1,
+          "protegido": true,
+          "memoria": 148
+        },
+        {
+          "pid": 1500,
+          "usuario": "Alumno",
+          "comando": "explorer.exe",
+          "cpu": 0.5,
+          "mem": 2.0,
+          "memoria": 45000
+        },
+        {
+          "pid": 3300,
+          "usuario": "Alumno",
+          "comando": "minero.exe",
+          "cpu": 92.4,
+          "mem": 12.0,
+          "memoria": 402000
+        }
+      ],
+      "servicios": {
+        "Spooler": {
+          "activo": false,
+          "habilitado": true,
+          "descripcion": "Cola de impresión",
+          "pid": 0,
+          "log": [
+            "No se pudo iniciar: el puerto ya estaba ocupado"
+          ],
+          "fallado": true
+        },
+        "WSearch": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Windows Search",
+          "pid": 2200
+        }
+      },
+      "red": {
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        },
+        "copias.lab": {
+          "ip": "192.168.56.45",
+          "responde": false
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 445,
+          "proceso": "System"
+        },
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 9999,
+          "proceso": "minero.exe"
+        }
+      ],
+      "web": {},
+      "registros": []
+    },
+    {
+      "id": "ps-servidor",
+      "os": "powershell",
+      "nombre": "Servidor con PowerShell",
+      "descripcion": "El mismo tipo de incidente, resuelto con objetos: procesos que se filtran por propiedad y servicios que se consultan con cmdlets.",
+      "inicio": "C:\\Users\\Alumno",
+      "arbol": {
+        "Users": {
+          "Alumno": {
+            "Informes": {},
+            "Documents": {
+              "servidores.csv": "nombre,ip,estado\r\nweb01,192.168.56.20,activo\r\nweb02,192.168.56.21,parado\r\nweb03,192.168.56.22,activo\r\n",
+              "guardia.txt": "Revisar consumo de CPU y el servicio de impresion.\r\n"
+            },
+            "Scripts": {
+              "revision.ps1": "Get-Process | Sort-Object CPU -Descending\r\n"
+            }
+          }
+        },
+        "Logs": {
+          "servicio.log": "INFO 09:30 copia terminada\r\nERROR 09:41 WSearch detenido\r\nERROR 09:42 reintento fallido\r\nINFO 09:50 pendiente de revision\r\n"
+        },
+        "Windows": {
+          "System32": {}
+        }
+      },
+      "procesos": [
+        {
+          "pid": 4,
+          "usuario": "SYSTEM",
+          "comando": "System",
+          "cpu": 0.5,
+          "mem": 0.1,
+          "protegido": true,
+          "memoria": 148
+        },
+        {
+          "pid": 1820,
+          "usuario": "Alumno",
+          "comando": "notepad",
+          "cpu": 3.2,
+          "mem": 1.2,
+          "memoria": 120000
+        },
+        {
+          "pid": 2100,
+          "usuario": "Alumno",
+          "comando": "chrome",
+          "cpu": 42.7,
+          "mem": 8.8,
+          "memoria": 850000
+        },
+        {
+          "pid": 3500,
+          "usuario": "Alumno",
+          "comando": "minero",
+          "cpu": 88.9,
+          "mem": 15.0,
+          "memoria": 960000
+        },
+        {
+          "pid": 3010,
+          "usuario": "Alumno",
+          "comando": "pwsh",
+          "cpu": 2.1,
+          "mem": 0.9,
+          "memoria": 68000
+        }
+      ],
+      "servicios": {
+        "Spooler": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cola de impresión",
+          "pid": 1500
+        },
+        "WSearch": {
+          "activo": false,
+          "habilitado": true,
+          "descripcion": "Windows Search",
+          "pid": 0,
+          "log": [
+            "El servicio se detuvo de forma inesperada"
+          ],
+          "fallado": true
+        },
+        "Dnscache": {
+          "activo": true,
+          "habilitado": true,
+          "descripcion": "Cliente DNS",
+          "pid": 1100
+        }
+      },
+      "red": {
+        "servidor.lab": {
+          "ip": "192.168.56.20",
+          "responde": true
+        },
+        "web.lab": {
+          "ip": "192.168.56.25",
+          "responde": true
+        }
+      },
+      "puertos": [
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 445,
+          "proceso": "System"
+        },
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 3389,
+          "proceso": "svchost"
+        },
+        {
+          "direccion": "0.0.0.0",
+          "puerto": 9999,
+          "proceso": "minero"
+        }
+      ],
+      "web": {},
+      "registros": []
+    }
+  ]
+}

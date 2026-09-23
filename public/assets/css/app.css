@@ -1,0 +1,618 @@
+/* =====================================================================
+   Tutoriales Lucio · CODLYX — estilos globales
+   ---------------------------------------------------------------------
+   Los tokens --dv-* reproducen los de web.codlyx.com.mx para que la
+   plataforma se lea como un producto de la misma familia. Los tokens
+   --tl-* son propios de Tutoriales Lucio (capas OSI, terminal, sumario).
+
+   Bootstrap se usa SOLO como rejilla (vendor/bootstrap-grid.min.css),
+   igual que en la web principal: sin Reboot ni componentes, para que
+   nada tenga aspecto de plantilla por defecto.
+
+   Orden del fichero:
+     1. Tokens
+     2. Base y tipografía
+     3. Utilidades y layout
+     4. Navbar
+     5. Hero
+     6. Cards de la biblioteca
+     7. Footer
+     8. Página de error
+     9. Accesibilidad y movimiento reducido
+   ===================================================================== */
+
+/* ------------------------------ 1. Tokens ------------------------- */
+:root {
+  /* Fondos y superficies — tomados de web.codlyx.com.mx */
+  --dv-bg-primary:   #0A0E14;
+  --dv-bg-secondary: #0E141C;
+  --dv-bg-elevated:  #121922;
+  --dv-bg-surface:   #1A222C;
+  --dv-surface-card: rgba(18, 25, 34, 0.80);
+  --dv-surface-card-hover: rgba(18, 25, 34, 0.95);
+
+  /* Texto */
+  --dv-text-primary:   #E8EEF4;
+  --dv-text-secondary: #C2CCD6;
+  --dv-text-muted:     #94A3B0;
+  --dv-text-inverse:   #07120D;
+
+  /* Bordes */
+  --dv-border-subtle: #22303C;
+  --dv-border-strong: #34465A;
+
+  /* Acento CODLYX */
+  --dv-accent:        #19E6A4;
+  --dv-accent-hover:  #46E0D6;
+  --dv-accent-soft:   rgba(25, 230, 164, 0.08);
+  --dv-accent-border: rgba(25, 230, 164, 0.22);
+  --dv-accent-ring:   rgba(25, 230, 164, 0.12);
+  --dv-trust:         #38BDF8;
+  --dv-trust-soft:    rgba(56, 189, 248, 0.10);
+
+  --dv-gradient-brand: linear-gradient(135deg, #21F0A8, #46E0D6);
+
+  --dv-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.30);
+  --dv-shadow-md: 0 1px 2px rgba(0, 0, 0, 0.30), 0 10px 28px rgba(0, 0, 0, 0.35);
+  --dv-shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.35), 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  --dv-navbar-bg: rgba(10, 14, 20, 0.92);
+  --dv-grid-line: rgba(34, 48, 60, 0.40);
+
+  --dv-radius-sm: 4px;
+  --dv-radius-md: 8px;
+  --dv-radius-lg: 12px;
+
+  /* Tokens propios de Tutoriales Lucio */
+  --tl-warn:      #FBBF24;                        /* callouts de aviso */
+  --tl-warn-soft: rgba(251, 191, 36, 0.08);
+  --tl-warn-border: rgba(251, 191, 36, 0.24);
+  --tl-term-bg:   #070B10;                        /* bloques de terminal */
+  --tl-term-ink:  #D7E2EA;
+  --tl-term-comment: #6C8090;
+
+  /* Colores por capa de red. Codifican información del laboratorio
+     (capa 2 / 3 / 4 / 7), no son decorativos: se reutilizan idénticos
+     en el diagrama de encapsulado y en su leyenda. */
+  --tl-l2: #A78BFA;  --tl-l2-soft: rgba(167, 139, 250, 0.10);
+  --tl-l3: #38BDF8;  --tl-l3-soft: rgba(56, 189, 248, 0.10);
+  --tl-l4: #19E6A4;  --tl-l4-soft: rgba(25, 230, 164, 0.10);
+  --tl-l7: #FBBF24;  --tl-l7-soft: rgba(251, 191, 36, 0.10);
+
+  --tl-nav-h: 66px;
+  --tl-measure: 72ch;
+
+  --tl-ease: cubic-bezier(0.23, 1, 0.32, 1);
+
+  color-scheme: dark;
+}
+
+/* Tema claro — tokens de [data-theme=light] de web.codlyx.com.mx */
+:root[data-theme="light"] {
+  --dv-bg-primary:   #FFFFFF;
+  --dv-bg-secondary: #F5F7F8;
+  --dv-bg-elevated:  #FFFFFF;
+  --dv-bg-surface:   #EDEFF2;
+  --dv-surface-card: #FFFFFF;
+  --dv-surface-card-hover: #F7F9FB;
+
+  --dv-text-primary:   #0F1419;
+  --dv-text-secondary: #2E3742;
+  --dv-text-muted:     #5A6370;
+  --dv-text-inverse:   #FFFFFF;
+
+  --dv-border-subtle: #E1E4E8;
+  --dv-border-strong: #C1C7CE;
+
+  --dv-accent:        #0B8F6A;
+  --dv-accent-hover:  #0A7D5E;
+  --dv-accent-soft:   rgba(11, 143, 106, 0.08);
+  --dv-accent-border: rgba(11, 143, 106, 0.28);
+  --dv-accent-ring:   rgba(11, 143, 106, 0.14);
+  --dv-trust:         #0369A1;
+  --dv-trust-soft:    rgba(3, 105, 161, 0.10);
+
+  --dv-gradient-brand: linear-gradient(135deg, #0B8F6A, #0D9488);
+
+  --dv-shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --dv-shadow-md: 0 1px 2px rgba(16, 24, 40, 0.06), 0 8px 24px rgba(16, 24, 40, 0.08);
+  --dv-shadow-lg: 0 2px 4px rgba(16, 24, 40, 0.08), 0 16px 40px rgba(16, 24, 40, 0.12);
+
+  --dv-navbar-bg: rgba(255, 255, 255, 0.95);
+  --dv-grid-line: rgba(15, 20, 25, 0.06);
+
+  --tl-warn:        #B45309;
+  --tl-warn-soft:   rgba(180, 83, 9, 0.07);
+  --tl-warn-border: rgba(180, 83, 9, 0.22);
+  --tl-term-bg:     #0E141C;   /* la terminal se mantiene oscura en ambos temas */
+  --tl-term-ink:    #D7E2EA;
+  --tl-term-comment:#7C8D9C;
+
+  --tl-l2: #7C3AED;  --tl-l2-soft: rgba(124, 58, 237, 0.08);
+  --tl-l3: #0369A1;  --tl-l3-soft: rgba(3, 105, 161, 0.08);
+  --tl-l4: #0B8F6A;  --tl-l4-soft: rgba(11, 143, 106, 0.08);
+  --tl-l7: #B45309;  --tl-l7-soft: rgba(180, 83, 9, 0.08);
+
+  color-scheme: light;
+}
+
+/* --------------------- 2. Base y tipografía ----------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* scroll-padding-top es la ÚNICA fuente del desplazamiento al saltar a un
+   ancla. No añadir además scroll-margin-top en las secciones: ambos se SUMAN
+   y el destino acaba muy por debajo de la barra, desincronizando el scrollspy. */
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--tl-nav-h) + 24px); }
+
+body {
+  margin: 0;
+  background-color: var(--dv-bg-primary);
+  color: var(--dv-text-secondary);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 700;
+  color: var(--dv-text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 20px;
+  text-wrap: balance;
+}
+
+h1 { font-size: clamp(32px, 5vw, 48px); }
+h2 { font-size: clamp(26px, 3.4vw, 36px); }
+h3 { font-size: clamp(20px, 2.4vw, 24px); }
+h4 { font-size: 18px; }
+
+p { margin: 0 0 18px; }
+
+a { color: var(--dv-accent); text-decoration: none; transition: color 150ms var(--tl-ease); }
+a:hover { color: var(--dv-accent-hover); }
+
+strong { color: var(--dv-text-primary); font-weight: 600; }
+em { font-style: italic; }
+
+code, kbd, pre, samp {
+  font-family: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+::selection { background: rgba(25, 230, 164, 0.30); color: var(--dv-text-primary); }
+
+img, svg { max-width: 100%; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--dv-border-subtle);
+  margin: 40px 0;
+}
+
+/* ------------------- 3. Utilidades y layout ----------------------- */
+.tl-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.tl-main  { flex: 1 0 auto; padding-top: var(--tl-nav-h); }
+
+.tl-eyebrow {
+  display: inline-block;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+  margin: 0 0 14px;
+}
+
+/* Etiqueta de estado. El color transmite la información, pero el texto
+   («Disponible» / «Próximamente») la lleva también, para no depender
+   únicamente del color. */
+.tl-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border-radius: 20px;
+  border: 1px solid var(--dv-border-subtle);
+  background: var(--dv-bg-surface);
+  color: var(--dv-text-muted);
+  white-space: nowrap;
+}
+.tl-badge::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+.tl-badge--ready {
+  color: var(--dv-accent);
+  border-color: var(--dv-accent-border);
+  background: var(--dv-accent-soft);
+}
+.tl-badge--soon { color: var(--dv-text-muted); }
+
+.tl-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: var(--dv-text-secondary);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: 20px;
+  background: var(--dv-bg-surface);
+}
+
+/* Botones — mismas proporciones y gradiente que web.codlyx.com.mx */
+.tl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 28px;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--dv-radius-sm);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 160ms var(--tl-ease), box-shadow 200ms var(--tl-ease), color 200ms var(--tl-ease);
+}
+.tl-btn--primary { background: var(--dv-gradient-brand); color: var(--dv-text-inverse); }
+.tl-btn--primary:hover { color: var(--dv-text-inverse); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(25, 230, 164, 0.20); }
+
+.tl-btn--ghost {
+  background: transparent;
+  color: var(--dv-accent);
+  border: 1px solid var(--dv-accent-border);
+  text-transform: none;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.tl-btn--ghost:hover { color: var(--dv-text-primary); border-color: var(--dv-border-strong); background: var(--dv-accent-soft); }
+
+.tl-arrow { transition: transform 160ms var(--tl-ease); }
+.tl-btn:hover .tl-arrow, a:hover > .tl-arrow { transform: translateX(4px); }
+
+/* ---------------------------- 4. Navbar --------------------------- */
+.tl-navbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  min-height: var(--tl-nav-h);
+  display: flex;
+  align-items: center;
+  background-color: var(--dv-navbar-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--dv-border-subtle);
+  z-index: 1000;
+  transition: background-color 240ms var(--tl-ease), box-shadow 240ms var(--tl-ease);
+}
+.tl-navbar.is-scrolled { box-shadow: var(--dv-shadow-sm); }
+
+.tl-navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+}
+
+.tl-brand { display: inline-flex; align-items: center; gap: 11px; color: var(--dv-text-primary); }
+.tl-brand:hover { color: var(--dv-text-primary); }
+.tl-brand__mark { width: 30px; height: 30px; flex: none; }
+.tl-brand__text { display: flex; flex-direction: column; line-height: 1.15; }
+.tl-brand__name {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.tl-brand__sub {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+}
+
+.tl-nav { display: flex; align-items: center; gap: 4px; }
+.tl-nav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dv-text-secondary);
+  border-radius: var(--dv-radius-sm);
+  border: 1px solid transparent;
+  transition: color 150ms var(--tl-ease), background-color 150ms var(--tl-ease), border-color 150ms var(--tl-ease);
+}
+.tl-nav__link:hover { color: var(--dv-text-primary); background: var(--dv-bg-elevated); }
+.tl-nav__link[aria-current="page"] {
+  color: var(--dv-accent);
+  background: var(--dv-accent-soft);
+  border-color: var(--dv-accent-border);
+}
+.tl-nav__link.is-disabled {
+  color: var(--dv-text-muted);
+  opacity: 0.6;
+  cursor: default;
+  pointer-events: none;
+}
+.tl-nav__dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; flex: none; }
+
+.tl-nav__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  background: transparent;
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-sm);
+  color: var(--dv-text-primary);
+  cursor: pointer;
+}
+.tl-nav__toggle:hover { border-color: var(--dv-border-strong); }
+
+@media (max-width: 860px) {
+  .tl-nav__toggle { display: inline-flex; }
+  .tl-nav {
+    position: absolute;
+    top: var(--tl-nav-h);
+    left: 0; right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 12px;
+    background: var(--dv-bg-secondary);
+    border-bottom: 1px solid var(--dv-border-subtle);
+    box-shadow: var(--dv-shadow-md);
+  }
+  .tl-nav[hidden] { display: none; }
+  .tl-nav__link { padding: 12px 14px; }
+}
+
+/* ----------------------------- 5. Hero ---------------------------- */
+.tl-hero {
+  position: relative;
+  padding: 68px 0 44px;
+  border-bottom: 1px solid var(--dv-border-subtle);
+  overflow: hidden;
+}
+/* Rejilla técnica muy tenue: una sola capa, sin glow ni gradientes
+   apilados. Se apaga con prefers-reduced-motion no; es estática. */
+.tl-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--dv-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--dv-grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 0%, transparent 75%);
+  pointer-events: none;
+}
+.tl-hero > * { position: relative; }
+
+.tl-hero__title { margin-bottom: 16px; }
+.tl-hero__title .tl-accent {
+  background: var(--dv-gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tl-hero__lead {
+  max-width: 62ch;
+  font-size: 18px;
+  color: var(--dv-text-secondary);
+  margin-bottom: 26px;
+}
+.tl-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+}
+.tl-hero__meta b { color: var(--dv-text-primary); font-weight: 500; }
+
+/* ---------------------- 6. Cards de biblioteca -------------------- */
+.tl-library { padding: 52px 0 72px; }
+
+.tl-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--dv-border-subtle);
+}
+.tl-section-head h2 { margin: 0; }
+.tl-section-head p { margin: 0; color: var(--dv-text-muted); font-size: 14px; }
+
+.tl-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 26px 26px 22px;
+  background: var(--dv-surface-card);
+  border: 1px solid var(--dv-border-subtle);
+  border-radius: var(--dv-radius-md);
+  box-shadow: var(--dv-shadow-md);
+  transition: border-color 200ms var(--tl-ease), box-shadow 200ms var(--tl-ease), transform 200ms var(--tl-ease);
+}
+.tl-card--ready:hover {
+  border-color: var(--dv-accent-border);
+  box-shadow: var(--dv-shadow-lg);
+  transform: translateY(-3px);
+}
+.tl-card--soon { opacity: 0.72; }
+
+.tl-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.tl-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;
+  flex: none;
+  border-radius: var(--dv-radius-md);
+  border: 1px solid var(--dv-accent-border);
+  background: var(--dv-accent-soft);
+  color: var(--dv-accent);
+}
+.tl-card--soon .tl-card__icon {
+  border-color: var(--dv-border-subtle);
+  background: var(--dv-bg-surface);
+  color: var(--dv-text-muted);
+}
+.tl-card__title { font-size: 21px; margin: 0 0 4px; }
+.tl-card__tagline {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--dv-text-muted);
+  margin: 0 0 14px;
+}
+.tl-card__desc { font-size: 14.5px; color: var(--dv-text-secondary); margin: 0 0 20px; }
+.tl-card__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--dv-border-subtle);
+  font-size: 13px;
+}
+.tl-card__cat {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dv-text-muted);
+}
+.tl-card__go { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; }
+/* La tarjeta entera es pulsable, pero el enlace real sigue siendo el
+   texto: así el lector de pantalla anuncia un único destino. */
+.tl-card__link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+
+/* Las tarjetas mantienen un ancho legible y se alinean a la izquierda en
+   lugar de estirarse: con dos tutoriales no queda una fila desequilibrada,
+   y a medida que la biblioteca crezca se van llenando columnas. */
+.tl-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 292px), 352px));
+  justify-content: start;
+}
+
+/* ---------------------------- 7. Footer --------------------------- */
+.tl-footer {
+  border-top: 1px solid var(--dv-border-subtle);
+  background: var(--dv-bg-secondary);
+  padding: 34px 0;
+  font-size: 13.5px;
+  color: var(--dv-text-muted);
+}
+.tl-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 28px;
+}
+.tl-footer a { color: var(--dv-text-secondary); }
+.tl-footer a:hover { color: var(--dv-accent); }
+.tl-footer__mono { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; }
+
+/* -------------------------- 8. Error 404 -------------------------- */
+.tl-error { padding: 90px 0 100px; text-align: center; }
+.tl-error__code {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--dv-accent);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+.tl-error p { max-width: 52ch; margin: 0 auto 26px; }
+
+/* Aviso de estado de datos (solo visible en desarrollo). */
+.tl-notice {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 0 0 26px;
+  padding: 12px 16px;
+  border: 1px solid var(--tl-warn-border);
+  background: var(--tl-warn-soft);
+  border-radius: var(--dv-radius-sm);
+  font-size: 13.5px;
+  color: var(--dv-text-secondary);
+}
+.tl-notice code { color: var(--dv-text-primary); }
+
+/* ------------- 9. Accesibilidad y movimiento reducido ------------- */
+.tl-skip {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  z-index: 1200;
+  padding: 10px 18px;
+  background: var(--dv-accent);
+  color: var(--dv-text-inverse);
+  border-radius: var(--dv-radius-sm);
+  font-weight: 600;
+  transform: translateY(-160%);
+  transition: transform 160ms var(--tl-ease);
+}
+.tl-skip:focus { transform: translateY(0); color: var(--dv-text-inverse); }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--dv-accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

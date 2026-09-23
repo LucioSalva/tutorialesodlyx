@@ -1,0 +1,481 @@
+/* =====================================================================
+   Academia de Comandos · hoja propia del módulo
+   ---------------------------------------------------------------------
+   Se carga SOLO en /academia/*. Usa los tokens --dv-* / --tl-* de app.css,
+   así que responde igual al tema claro y al oscuro sin definir colores
+   sueltos. Todo va bajo .page-academia para que ningún selector alcance
+   a la biblioteca ni a los tutoriales.
+
+   Contenido:
+     1. Tokens propios y utilidades
+     2. Cabecera, migas y bloques
+     3. Progreso, niveles y logros
+     4. Sistemas, categorías y comandos
+     5. Ficha de comando
+     6. Terminal simulada y árbol
+     7. Misiones
+     8. Juegos y HUD
+     9. Repaso, comparador y buscador
+    10. Responsive y accesibilidad
+   ===================================================================== */
+
+/* ---------------------- 1. Tokens y utilidades --------------------- */
+.page-academia {
+  --ac-radio: 10px;
+  --ac-linux: #19E6A4;
+  --ac-cmd: #38BDF8;
+  --ac-ps: #A78BFA;
+  --ac-ok: #19E6A4;
+  --ac-mal: #F87171;
+  --ac-aviso: #FBBF24;
+}
+:root[data-theme="light"] .page-academia {
+  --ac-linux: #0B8F6A;
+  --ac-cmd: #0369A1;
+  --ac-ps: #6D28D9;
+  --ac-ok: #0B8F6A;
+  --ac-mal: #B91C1C;
+  --ac-aviso: #B45309;
+}
+
+.page-academia .ac-contenido { padding: 28px 0 72px; display: grid; gap: 26px; }
+.page-academia .ac-nota { color: var(--dv-text-secondary); font-size: 14.5px; margin: 12px 0 0; }
+.page-academia .ac-vacio { color: var(--dv-text-muted); font-size: 14.5px; }
+.page-academia .ac-enlace { color: var(--dv-accent); text-decoration: none; border-bottom: 1px solid var(--dv-accent-border); }
+.page-academia .ac-enlace:hover { color: var(--dv-accent-hover); }
+.page-academia code { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.94em; }
+
+/* Botones */
+.page-academia .ac-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 16px; border-radius: var(--dv-radius-sm);
+  border: 1px solid var(--dv-border-strong); background: var(--dv-bg-surface);
+  color: var(--dv-text-primary); font: inherit; font-size: 14.5px; font-weight: 600;
+  cursor: pointer; text-decoration: none; transition: border-color .15s, color .15s, background .15s;
+}
+.page-academia .ac-btn:hover { border-color: var(--dv-accent); color: var(--dv-accent); }
+.page-academia .ac-btn--primario { background: var(--dv-gradient-brand); color: var(--dv-text-inverse); border-color: transparent; }
+.page-academia .ac-btn--primario:hover { color: var(--dv-text-inverse); filter: brightness(1.06); }
+.page-academia .ac-btn--fino { padding: 7px 12px; font-size: 13px; }
+.page-academia .ac-btn--peligro:hover { border-color: var(--ac-mal); color: var(--ac-mal); }
+.page-academia .ac-btn--archivo { position: relative; }
+.page-academia .ac-btn:focus-visible,
+.page-academia .ac-probar:focus-visible,
+.page-academia .ac-atajo:focus-visible,
+.page-academia .ac-input:focus-visible,
+.page-academia .ac-select:focus-visible {
+  outline: 2px solid var(--dv-accent); outline-offset: 2px;
+}
+
+.page-academia .ac-input, .page-academia .ac-select {
+  padding: 10px 12px; border-radius: var(--dv-radius-sm);
+  border: 1px solid var(--dv-border-strong); background: var(--dv-bg-elevated);
+  color: var(--dv-text-primary); font: inherit; font-size: 14.5px;
+}
+.page-academia .ac-input { font-family: "JetBrains Mono", ui-monospace, monospace; }
+.page-academia .ac-etiqueta { font-size: 12.5px; color: var(--dv-text-muted); font-weight: 600; }
+
+/* Chips */
+.page-academia .ac-chip {
+  display: inline-block; padding: 3px 9px; border-radius: 999px;
+  font-size: 11.5px; font-weight: 700; letter-spacing: .03em;
+  border: 1px solid var(--dv-border-strong); color: var(--dv-text-secondary);
+  background: var(--dv-bg-surface);
+}
+.page-academia .ac-chip--basico { color: var(--ac-ok); border-color: var(--ac-ok); }
+.page-academia .ac-chip--intermedio { color: var(--ac-cmd); border-color: var(--ac-cmd); }
+.page-academia .ac-chip--avanzado { color: var(--ac-ps); border-color: var(--ac-ps); }
+.page-academia .ac-chip--sim { color: var(--ac-ok); border-color: var(--ac-ok); }
+.page-academia .ac-chip--nosim { color: var(--dv-text-muted); }
+.page-academia .ac-chip--phaser { color: var(--ac-ps); border-color: var(--ac-ps); }
+.page-academia .ac-chip--dom { color: var(--ac-cmd); border-color: var(--ac-cmd); }
+.page-academia .ac-chip--os { text-transform: uppercase; }
+
+/* ------------------- 2. Cabecera, migas y bloques ------------------ */
+.page-academia .ac-cabecera {
+  padding: 34px 0 26px;
+  border-bottom: 1px solid var(--dv-border-subtle);
+  background:
+    radial-gradient(1100px 200px at 12% -40%, var(--dv-accent-ring), transparent 70%),
+    var(--dv-bg-secondary);
+}
+.page-academia .ac-migas { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0 0 14px; padding: 0; font-size: 13px; }
+.page-academia .ac-migas li + li::before { content: "/"; margin-right: 8px; color: var(--dv-text-muted); }
+.page-academia .ac-migas a { color: var(--dv-text-secondary); text-decoration: none; }
+.page-academia .ac-migas a:hover { color: var(--dv-accent); }
+.page-academia .ac-migas span { color: var(--dv-text-primary); }
+.page-academia .ac-cabecera__titulo { margin: 0 0 8px; font-size: clamp(28px, 5vw, 42px); font-family: "Space Grotesk", Inter, sans-serif; }
+.page-academia .ac-cabecera__bajada { margin: 0; max-width: 70ch; color: var(--dv-text-secondary); font-size: 16px; }
+.page-academia .ac-cabecera__acciones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; align-items: center; }
+
+.page-academia .ac-bloque {
+  padding: 24px; border-radius: var(--ac-radio);
+  background: var(--dv-surface-card); border: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-bloque__titulo { margin: 0 0 6px; font-size: 21px; font-family: "Space Grotesk", Inter, sans-serif; }
+.page-academia .ac-bloque__bajada { margin: 0 0 18px; color: var(--dv-text-secondary); font-size: 14.5px; }
+.page-academia .ac-subtitulo { margin: 26px 0 10px; font-size: 17px; }
+
+/* ------------------ 3. Progreso, niveles y logros ------------------ */
+.page-academia .ac-progreso {
+  padding: 22px; border-radius: var(--ac-radio);
+  background: var(--dv-bg-elevated); border: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-progreso__nivel-texto { margin: 0 0 8px; font-size: 14px; color: var(--dv-text-secondary); font-family: "JetBrains Mono", ui-monospace, monospace; }
+.page-academia .ac-barra { height: 8px; border-radius: 999px; background: var(--dv-bg-surface); overflow: hidden; }
+.page-academia .ac-barra__relleno { display: block; height: 100%; background: var(--dv-gradient-brand); transition: width .4s var(--tl-ease, ease); }
+.page-academia .ac-progreso__rejilla { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(2, 1fr); }
+.page-academia .ac-progreso__dato { padding: 12px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); text-align: center; }
+.page-academia .ac-progreso__dato b { display: block; font-size: 24px; color: var(--dv-accent); font-family: "Space Grotesk", Inter, sans-serif; }
+.page-academia .ac-progreso__dato span { display: block; font-size: 13px; font-weight: 600; }
+.page-academia .ac-progreso__dato small { display: block; font-size: 11.5px; color: var(--dv-text-muted); margin-top: 2px; }
+.page-academia .ac-progreso__acciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.page-academia .ac-progreso__nota { margin: 10px 0 0; font-size: 12.5px; color: var(--dv-text-muted); }
+
+.page-academia .ac-anuncios { position: fixed; right: 16px; bottom: 16px; z-index: 60; display: grid; gap: 8px; max-width: min(360px, calc(100vw - 32px)); }
+.page-academia .ac-anuncio {
+  padding: 12px 14px; border-radius: var(--dv-radius-sm); font-size: 14px;
+  background: var(--dv-bg-elevated); border: 1px solid var(--dv-border-strong);
+  box-shadow: var(--dv-shadow-md); transition: opacity .4s, transform .4s;
+}
+.page-academia .ac-anuncio--ok { border-color: var(--ac-ok); }
+.page-academia .ac-anuncio--mal { border-color: var(--ac-mal); }
+.page-academia .ac-anuncio--logro { border-color: var(--ac-aviso); }
+.page-academia .ac-anuncio.se-va { opacity: 0; transform: translateY(8px); }
+
+/* ---------------- 4. Sistemas, categorías y comandos --------------- */
+.page-academia .ac-sistemas, .page-academia .ac-juegos, .page-academia .ac-comandos,
+.page-academia .ac-misiones, .page-academia .ac-escenarios, .page-academia .ac-resultados,
+.page-academia .ac-atajos, .page-academia .ac-dificiles, .page-academia .ac-combinaciones,
+.page-academia .ac-errores, .page-academia .ac-cifras { list-style: none; margin: 0; padding: 0; }
+
+.page-academia .ac-sistemas { display: grid; gap: 14px; }
+.page-academia .ac-sistema a {
+  display: block; padding: 20px; border-radius: var(--ac-radio); text-decoration: none;
+  background: var(--dv-bg-elevated); border: 1px solid var(--dv-border-subtle);
+  transition: border-color .15s, transform .15s;
+}
+.page-academia .ac-sistema a:hover { border-color: var(--dv-accent); transform: translateY(-2px); }
+.page-academia .ac-sistema__prompt { margin: 0 0 6px; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12.5px; color: var(--dv-accent); }
+.page-academia .ac-sistema__nombre { margin: 0 0 6px; font-size: 19px; color: var(--dv-text-primary); }
+.page-academia .ac-sistema__resumen { margin: 0 0 10px; font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-sistema__cifras { margin: 0; font-size: 13px; color: var(--dv-text-muted); }
+
+.page-academia .ac-ciclo { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: paso; }
+.page-academia .ac-ciclo li { display: grid; gap: 2px; padding: 12px 14px 12px 46px; position: relative; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); }
+.page-academia .ac-ciclo li::before {
+  counter-increment: paso; content: counter(paso);
+  position: absolute; left: 14px; top: 12px; width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 12px; font-weight: 700;
+  background: var(--dv-accent-soft); color: var(--dv-accent); border: 1px solid var(--dv-accent-border);
+}
+.page-academia .ac-ciclo b { font-size: 15px; }
+.page-academia .ac-ciclo span { font-size: 13.5px; color: var(--dv-text-secondary); }
+
+.page-academia .ac-categoria { margin-top: 22px; }
+.page-academia .ac-categoria__titulo { margin: 0 0 2px; font-size: 17px; color: var(--dv-accent); }
+.page-academia .ac-categoria__desc { margin: 0 0 12px; font-size: 13.5px; color: var(--dv-text-muted); }
+.page-academia .ac-comandos { display: grid; gap: 10px; grid-template-columns: 1fr; }
+.page-academia .ac-comando__enlace {
+  display: grid; gap: 4px; padding: 14px; border-radius: var(--dv-radius-sm); text-decoration: none;
+  background: var(--dv-bg-surface); border: 1px solid transparent; transition: border-color .15s;
+}
+.page-academia .ac-comando__enlace:hover { border-color: var(--dv-accent); }
+.page-academia .ac-comando__nombre { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 15px; font-weight: 700; color: var(--dv-text-primary); }
+.page-academia .ac-comando__resumen { font-size: 13.5px; color: var(--dv-text-secondary); }
+.page-academia .ac-comando__pie { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+.page-academia .ac-comando.es-aprendido .ac-comando__nombre::after { content: " ✔"; color: var(--ac-ok); }
+.page-academia .ac-comando.es-visto .ac-comando__nombre::after { content: " ·"; color: var(--dv-text-muted); }
+
+.page-academia .ac-cifras { display: grid; gap: 12px; grid-template-columns: repeat(2, 1fr); }
+.page-academia .ac-cifras li { text-align: center; padding: 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); }
+.page-academia .ac-cifras b { display: block; font-size: 26px; color: var(--dv-accent); font-family: "Space Grotesk", Inter, sans-serif; }
+.page-academia .ac-cifras span { font-size: 13px; color: var(--dv-text-secondary); }
+
+/* ---------------------- 5. Ficha de comando ------------------------ */
+.page-academia .ac-ficha__sencilla { font-size: 17px; line-height: 1.7; }
+.page-academia .ac-ficha__tecnica { color: var(--dv-text-secondary); line-height: 1.75; }
+.page-academia .ac-analogia {
+  margin: 16px 0 0; padding: 14px 16px; border-left: 3px solid var(--ac-aviso);
+  background: var(--tl-warn-soft, rgba(251,191,36,.08)); border-radius: 0 var(--dv-radius-sm) var(--dv-radius-sm) 0;
+}
+.page-academia .ac-analogia__etiqueta { display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ac-aviso); margin-bottom: 4px; }
+.page-academia .ac-sintaxis code {
+  display: block; padding: 14px 16px; border-radius: var(--dv-radius-sm);
+  background: var(--tl-term-bg); color: var(--tl-term-ink); font-size: 15px; overflow-x: auto;
+}
+.page-academia .ac-anatomia, .page-academia .ac-interpretacion { display: grid; gap: 0; margin: 14px 0 0; }
+.page-academia .ac-anatomia > div, .page-academia .ac-interpretacion > div {
+  display: grid; gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-anatomia dt, .page-academia .ac-interpretacion dt {
+  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13.5px; font-weight: 700; color: var(--dv-accent);
+}
+.page-academia .ac-anatomia dd, .page-academia .ac-interpretacion dd { margin: 0; font-size: 14px; color: var(--dv-text-secondary); }
+
+.page-academia .ac-ejemplo { padding: 16px 0; border-bottom: 1px solid var(--dv-border-subtle); }
+.page-academia .ac-ejemplo:last-child { border-bottom: 0; }
+.page-academia .ac-ejemplo__titulo { margin: 0 0 8px; font-size: 16px; }
+.page-academia .ac-ejemplo__comando { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.page-academia .ac-ejemplo__comando code {
+  flex: 1 1 260px; padding: 10px 14px; border-radius: var(--dv-radius-sm);
+  background: var(--tl-term-bg); color: var(--dv-accent); font-size: 14px; overflow-x: auto;
+}
+.page-academia .ac-ejemplo__explica { margin: 10px 0 0; font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-salida { margin-top: 10px; border: 1px solid var(--dv-border-subtle); border-radius: var(--dv-radius-sm); overflow: hidden; }
+.page-academia .ac-salida__etiqueta { display: block; padding: 6px 12px; font-size: 11.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--dv-text-muted); background: var(--dv-bg-surface); }
+.page-academia .ac-salida pre { margin: 0; padding: 12px 14px; background: var(--tl-term-bg); color: var(--tl-term-ink); overflow-x: auto; font-size: 13px; line-height: 1.55; }
+.page-academia .ac-visual code { display: block; padding: 12px 14px; background: var(--tl-term-bg); color: var(--tl-term-ink); border-radius: var(--dv-radius-sm); overflow-x: auto; }
+
+.page-academia .ac-probar {
+  padding: 5px 10px; border-radius: 999px; border: 1px dashed var(--dv-border-strong);
+  background: transparent; color: var(--dv-accent); font: inherit; font-size: 12.5px;
+  font-family: "JetBrains Mono", ui-monospace, monospace; cursor: pointer;
+}
+.page-academia .ac-probar:hover { border-style: solid; border-color: var(--dv-accent); }
+
+.page-academia .ac-combinaciones li,
+.page-academia .ac-errores li {
+  display: grid; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-combinaciones li:last-child, .page-academia .ac-errores li:last-child { border-bottom: 0; }
+.page-academia .ac-combinaciones code { padding: 8px 12px; border-radius: var(--dv-radius-sm); background: var(--tl-term-bg); color: var(--dv-accent); overflow-x: auto; }
+.page-academia .ac-combinaciones span, .page-academia .ac-error-item__porque { font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-combinaciones li button, .page-academia .ac-error-item__arreglo { justify-self: start; }
+.page-academia .ac-error-item b { color: var(--ac-mal); font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 14px; }
+.page-academia .ac-error-item__arreglo { font-size: 14px; color: var(--ac-ok); }
+
+.page-academia .ac-pista, .page-academia .ac-solucion {
+  margin: 8px 0; padding: 10px 14px; border-radius: var(--dv-radius-sm);
+  background: var(--dv-bg-surface); border: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-pista summary, .page-academia .ac-solucion summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+.page-academia .ac-pista summary { color: var(--ac-cmd); }
+.page-academia .ac-solucion summary { color: var(--dv-accent); }
+.page-academia .ac-solucion pre { margin: 10px 0; padding: 12px; background: var(--tl-term-bg); color: var(--tl-term-ink); border-radius: var(--dv-radius-sm); overflow-x: auto; }
+
+.page-academia .ac-repaso-form { margin-top: 18px; display: grid; gap: 8px; }
+.page-academia .ac-repaso-form__fila { display: flex; gap: 8px; flex-wrap: wrap; }
+.page-academia .ac-repaso-form__fila .ac-input { flex: 1 1 220px; }
+.page-academia .ac-respuesta:empty { display: none; }
+.page-academia .ac-respuesta { padding: 12px 14px; border-radius: var(--dv-radius-sm); font-size: 14px; background: var(--dv-bg-surface); }
+.page-academia .ac-respuesta.es-ok { border-left: 3px solid var(--ac-ok); }
+.page-academia .ac-respuesta.es-mal { border-left: 3px solid var(--ac-mal); }
+.page-academia .ac-equivalentes ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.page-academia .ac-relacionados a { margin-right: 10px; }
+.page-academia .ac-paginacion { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.page-academia .ac-paginacion a { color: var(--dv-text-secondary); text-decoration: none; font-size: 14.5px; }
+.page-academia .ac-paginacion a:hover { color: var(--dv-accent); }
+
+/* ----------------- 6. Terminal simulada y árbol -------------------- */
+.page-academia .ac-zona-terminal { display: grid; gap: 14px; }
+.page-academia .ac-term {
+  border-radius: var(--ac-radio); overflow: hidden; border: 1px solid var(--dv-border-strong);
+  background: var(--tl-term-bg); display: flex; flex-direction: column; min-height: 320px;
+}
+.page-academia .ac-term__barra {
+  display: flex; align-items: center; gap: 12px; padding: 8px 12px;
+  background: var(--dv-bg-elevated); border-bottom: 1px solid var(--dv-border-subtle);
+}
+.page-academia .ac-term__luces { display: flex; gap: 6px; }
+.page-academia .ac-term__luces i { width: 10px; height: 10px; border-radius: 50%; background: var(--dv-border-strong); }
+.page-academia .ac-term__titulo { font-size: 12.5px; color: var(--dv-text-muted); font-weight: 600; }
+.page-academia .ac-term__accion {
+  margin-left: auto; padding: 5px 10px; font-size: 12px; font: inherit; font-size: 12px;
+  border-radius: var(--dv-radius-sm); border: 1px solid var(--dv-border-strong);
+  background: transparent; color: var(--dv-text-secondary); cursor: pointer;
+}
+.page-academia .ac-term__accion:hover { border-color: var(--dv-accent); color: var(--dv-accent); }
+.page-academia .ac-term__salida {
+  flex: 1; padding: 14px; overflow-y: auto; max-height: 52vh; min-height: 220px;
+  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13px; line-height: 1.55;
+  color: var(--tl-term-ink); white-space: pre-wrap; word-break: break-word;
+}
+.page-academia .ac-term__linea--cmd { color: var(--dv-accent); font-weight: 700; }
+.page-academia .ac-term__linea--err { color: var(--ac-mal); }
+.page-academia .ac-term__linea--dim { color: var(--tl-term-comment, #6C8090); }
+.page-academia .ac-term__linea--ok { color: var(--ac-ok); }
+.page-academia .ac-term__linea--aviso { color: var(--ac-aviso); }
+.page-academia .ac-term__fila { display: flex; align-items: baseline; gap: 8px; padding: 10px 14px; border-top: 1px solid var(--dv-border-subtle); background: var(--dv-bg-primary); }
+.page-academia .ac-term__prompt { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13px; color: var(--dv-accent); white-space: nowrap; }
+.page-academia .ac-term__entrada {
+  flex: 1; min-width: 0; background: transparent; border: 0; outline: none;
+  color: var(--tl-term-ink); font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13px;
+}
+.page-academia .ac-term__entrada:focus-visible { outline: none; }
+.page-academia .ac-term:focus-within { border-color: var(--dv-accent); }
+
+.page-academia .ac-arbol { border-radius: var(--ac-radio); border: 1px solid var(--dv-border-subtle); background: var(--dv-bg-elevated); overflow: hidden; }
+.page-academia .ac-arbol__cabecera { padding: 8px 12px; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--dv-text-muted); background: var(--dv-bg-surface); }
+.page-academia .ac-arbol__cuerpo { margin: 0; padding: 12px; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12.5px; line-height: 1.6; color: var(--dv-text-secondary); overflow-x: auto; max-height: 340px; overflow-y: auto; }
+.page-academia .ac-arbol__fila.es-dir { color: var(--ac-cmd); }
+.page-academia .ac-arbol__fila.es-nuevo { color: var(--ac-ok); font-weight: 700; }
+
+.page-academia .ac-practica__barra { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+.page-academia .ac-practica__ayuda { margin: 0 0 0 auto; font-size: 12.5px; color: var(--dv-text-muted); }
+.page-academia .ac-practica__ayuda kbd {
+  display: inline-block; padding: 1px 6px; margin: 0 2px; border-radius: 4px; font-size: 11.5px;
+  background: var(--dv-bg-surface); border: 1px solid var(--dv-border-strong);
+}
+.page-academia .ac-atajos { display: flex; flex-wrap: wrap; gap: 6px; }
+.page-academia .ac-atajo {
+  padding: 5px 10px; border-radius: 999px; border: 1px solid var(--dv-border-strong);
+  background: var(--dv-bg-surface); color: var(--dv-text-secondary); cursor: pointer;
+  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12.5px;
+}
+.page-academia .ac-atajo:hover { border-color: var(--dv-accent); color: var(--dv-accent); }
+
+.page-academia .ac-flujo { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 16px 0 0; }
+.page-academia .ac-flujo__paso { padding: 8px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); border: 1px solid var(--dv-border-strong); font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12.5px; }
+.page-academia .ac-flujo__paso--archivo { border-color: var(--ac-aviso); color: var(--ac-aviso); }
+.page-academia .ac-flujo__tubo { color: var(--dv-accent); font-weight: 700; }
+
+/* --------------------------- 7. Misiones --------------------------- */
+.page-academia .ac-misiones { display: grid; gap: 10px; }
+.page-academia .ac-mision-item__boton, .page-academia .ac-mision-item a {
+  display: grid; gap: 4px; width: 100%; text-align: left; padding: 14px;
+  border-radius: var(--dv-radius-sm); border: 1px solid transparent;
+  background: var(--dv-bg-surface); color: inherit; font: inherit; cursor: pointer; text-decoration: none;
+}
+.page-academia .ac-mision-item__boton:hover, .page-academia .ac-mision-item a:hover { border-color: var(--dv-accent); }
+.page-academia .ac-mision-item b { font-size: 15.5px; }
+.page-academia .ac-mision-item__obj { font-size: 13.5px; color: var(--dv-text-secondary); }
+.page-academia .ac-mision-item__xp { font-size: 12px; color: var(--dv-accent); font-weight: 700; }
+.page-academia .ac-mision-item.es-completada b::after { content: " ✔"; color: var(--ac-ok); }
+
+.page-academia .ac-panel-mision:empty { display: none; }
+.page-academia .ac-panel-mision {
+  padding: 22px; border-radius: var(--ac-radio);
+  background: var(--dv-bg-elevated); border: 1px solid var(--dv-accent-border);
+}
+.page-academia .ac-mision__nivel { margin: 0; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--dv-accent); font-weight: 700; }
+.page-academia .ac-mision__cabecera h3 { margin: 4px 0 8px; font-size: 22px; }
+.page-academia .ac-mision__objetivo { margin: 0 0 6px; font-size: 15px; }
+.page-academia .ac-mision__contexto { margin: 0; font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-mision__pasos { margin: 16px 0; padding-left: 1.3em; color: var(--dv-text-secondary); font-size: 14.5px; }
+.page-academia .ac-mision__pasos li { margin-bottom: 4px; }
+.page-academia .ac-mision__terminal { display: grid; gap: 14px; }
+.page-academia .ac-mision__lateral { display: grid; gap: 12px; align-content: start; }
+.page-academia .ac-mision__avance { padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); }
+.page-academia .ac-avance__titulo { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--dv-text-muted); font-weight: 700; }
+.page-academia .ac-avance__paso { margin: 0 0 4px; font-size: 13.5px; color: var(--dv-text-secondary); }
+.page-academia .ac-avance__paso.esta-hecho { color: var(--ac-ok); }
+.page-academia .ac-mision__acciones { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.page-academia .ac-mision__ayuda { display: grid; gap: 8px; margin-top: 12px; }
+.page-academia .ac-ayuda__pista { margin: 0; padding: 10px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); border-left: 3px solid var(--ac-cmd); font-size: 14px; }
+.page-academia .ac-ayuda__solucion { padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); border-left: 3px solid var(--dv-accent); font-size: 14px; }
+.page-academia .ac-ayuda__solucion pre { margin: 8px 0; padding: 10px; background: var(--tl-term-bg); color: var(--tl-term-ink); border-radius: var(--dv-radius-sm); overflow-x: auto; }
+
+/* ------------------------- 8. Juegos y HUD ------------------------- */
+.page-academia .ac-juegos { display: grid; gap: 14px; }
+.page-academia .ac-juego a {
+  display: grid; gap: 6px; padding: 18px; border-radius: var(--ac-radio); text-decoration: none;
+  background: var(--dv-bg-elevated); border: 1px solid var(--dv-border-subtle); transition: border-color .15s, transform .15s;
+}
+.page-academia .ac-juego a:hover { border-color: var(--dv-accent); transform: translateY(-2px); }
+.page-academia .ac-juego__numero { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; color: var(--dv-accent); }
+.page-academia .ac-juego__nombre { margin: 0; font-size: 18px; color: var(--dv-text-primary); }
+.page-academia .ac-juego__resumen { margin: 0; font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-juego__aprende { margin: 0; font-size: 12.5px; color: var(--dv-text-muted); }
+.page-academia .ac-juego__pie { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0 0; }
+.page-academia .ac-juego__barra { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+.page-academia .ac-juego__lienzo { min-height: 420px; border-radius: var(--ac-radio); background: var(--dv-bg-primary); border: 1px solid var(--dv-border-subtle); position: relative; overflow: hidden; }
+.page-academia .ac-juego__lienzo canvas { display: block; max-width: 100%; height: auto; }
+.page-academia .ac-cargando { padding: 40px; text-align: center; color: var(--dv-text-muted); }
+.page-academia .ac-error { padding: 24px; color: var(--ac-mal); }
+
+.page-academia .ac-hud { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 10px 14px; background: var(--dv-bg-elevated); border-bottom: 1px solid var(--dv-border-subtle); }
+.page-academia .ac-hud__datos { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--dv-text-secondary); }
+.page-academia .ac-hud__dato b { color: var(--dv-accent); font-family: "JetBrains Mono", ui-monospace, monospace; }
+.page-academia .ac-hud__acciones { display: flex; gap: 6px; flex-wrap: wrap; }
+.page-academia .ac-hud__avisos { display: grid; gap: 6px; padding: 10px 14px; }
+.page-academia .ac-aviso { padding: 10px 12px; border-radius: var(--dv-radius-sm); font-size: 13.5px; background: var(--dv-bg-surface); border-left: 3px solid var(--dv-border-strong); }
+.page-academia .ac-aviso--ok { border-left-color: var(--ac-ok); }
+.page-academia .ac-aviso--mal { border-left-color: var(--ac-mal); }
+.page-academia .ac-aviso--info { border-left-color: var(--ac-cmd); }
+
+.page-academia .ac-victoria { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(10, 14, 20, .86); padding: 20px; z-index: 5; }
+.page-academia .ac-victoria__panel { max-width: 460px; text-align: center; padding: 28px; border-radius: var(--ac-radio); background: var(--dv-bg-elevated); border: 1px solid var(--dv-accent-border); }
+.page-academia .ac-victoria__icono { font-size: 40px; margin: 0 0 8px; }
+.page-academia .ac-victoria__marcador { font-size: 16px; color: var(--dv-accent); }
+.page-academia .ac-victoria__acciones { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+
+/* ------------- 9. Repaso, comparador y buscador -------------------- */
+.page-academia .ac-repaso__cabecera { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.page-academia .ac-repaso__marcador { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13px; color: var(--dv-text-muted); }
+.page-academia .ac-repaso__tarjeta { margin-top: 14px; padding: 22px; border-radius: var(--ac-radio); background: var(--dv-bg-elevated); border: 1px solid var(--dv-border-subtle); min-height: 190px; }
+.page-academia .ac-repaso__sistema { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--dv-accent); font-weight: 700; }
+.page-academia .ac-repaso__pregunta { margin: 0 0 16px; font-size: 17px; }
+.page-academia .ac-repaso__form { display: flex; gap: 8px; flex-wrap: wrap; }
+.page-academia .ac-repaso__form .ac-input { flex: 1 1 220px; }
+.page-academia .ac-repaso__resultado:empty { display: none; }
+.page-academia .ac-repaso__resultado { margin-top: 14px; padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); font-size: 14px; display: grid; gap: 10px; justify-items: start; }
+.page-academia .ac-repaso__resultado.es-ok { border-left: 3px solid var(--ac-ok); }
+.page-academia .ac-repaso__resultado.es-mal { border-left: 3px solid var(--ac-mal); }
+.page-academia .ac-repaso__fin { font-size: 17px; }
+.page-academia .ac-dificiles { display: grid; gap: 8px; }
+.page-academia .ac-dificil { display: flex; justify-content: space-between; gap: 10px; padding: 10px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); font-size: 14px; }
+.page-academia .ac-dificil span { color: var(--dv-text-muted); font-size: 12.5px; }
+
+.page-academia .ac-comparativa__rejilla { display: grid; gap: 12px; }
+.page-academia .ac-comparativa__col { padding: 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); }
+.page-academia .ac-comparativa__col h3 { margin: 0 0 8px; font-size: 14px; color: var(--dv-accent); }
+.page-academia .ac-comparativa__col code { display: block; padding: 8px 10px; border-radius: 4px; background: var(--tl-term-bg); color: var(--tl-term-ink); margin-bottom: 8px; overflow-x: auto; }
+.page-academia .ac-comparativa__col p { margin: 0; font-size: 13.5px; color: var(--dv-text-secondary); }
+.page-academia .ac-comparativa__dif { margin: 14px 0 0; padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-accent-soft); font-size: 14px; }
+
+.page-academia .ac-buscador { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.page-academia .ac-buscador .ac-input { flex: 1 1 240px; }
+.page-academia .ac-buscador__resumen { font-size: 14px; color: var(--dv-text-secondary); }
+.page-academia .ac-resultados { display: grid; gap: 8px; }
+.page-academia .ac-resultado a { display: grid; gap: 4px; padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); text-decoration: none; border: 1px solid transparent; }
+.page-academia .ac-resultado a:hover { border-color: var(--dv-accent); }
+.page-academia .ac-resultado b { font-family: "JetBrains Mono", ui-monospace, monospace; color: var(--dv-text-primary); }
+.page-academia .ac-resultado__resumen { font-size: 13.5px; color: var(--dv-text-secondary); }
+
+.page-academia .ac-tabla { overflow-x: auto; border-radius: var(--dv-radius-sm); border: 1px solid var(--dv-border-subtle); }
+.page-academia .ac-tabla table { width: 100%; min-width: 460px; border-collapse: collapse; font-size: 14px; }
+.page-academia .ac-tabla th, .page-academia .ac-tabla td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--dv-border-subtle); vertical-align: top; }
+.page-academia .ac-tabla th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--dv-text-muted); background: var(--dv-bg-surface); }
+.page-academia .ac-tabla td.f { font-family: "JetBrains Mono", ui-monospace, monospace; color: var(--dv-text-primary); }
+.page-academia .ac-tabla tbody tr:last-child td { border-bottom: 0; }
+
+.page-academia .ac-escenarios { display: grid; gap: 8px; }
+.page-academia .ac-escenario { display: grid; gap: 2px; padding: 12px 14px; border-radius: var(--dv-radius-sm); background: var(--dv-bg-surface); }
+.page-academia .ac-escenario span { font-size: 13.5px; color: var(--dv-text-secondary); }
+
+/* Punto de la barra de navegación para la academia */
+.tl-nav__dot--academia { background: var(--tl-l2, #A78BFA) !important; }
+
+/* ------------------ 10. Responsive y accesibilidad ----------------- */
+@media (min-width: 640px) {
+  .page-academia .ac-progreso__rejilla { grid-template-columns: repeat(3, 1fr); }
+  .page-academia .ac-cifras { grid-template-columns: repeat(5, 1fr); }
+  .page-academia .ac-comandos { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .page-academia .ac-sistemas { grid-template-columns: repeat(3, 1fr); }
+  .page-academia .ac-juegos { grid-template-columns: repeat(2, 1fr); }
+  .page-academia .ac-progreso__rejilla { grid-template-columns: repeat(6, 1fr); }
+  .page-academia .ac-comandos { grid-template-columns: repeat(3, 1fr); }
+  .page-academia .ac-zona-terminal { grid-template-columns: minmax(0, 1fr) 300px; }
+  .page-academia .ac-mision__terminal { grid-template-columns: minmax(0, 1fr) 300px; }
+  .page-academia .ac-comparativa__rejilla { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1200px) {
+  .page-academia .ac-juegos--grande { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 575.98px) {
+  .page-academia .ac-bloque { padding: 18px 16px; }
+  .page-academia .ac-term__salida { font-size: 12px; max-height: 44vh; }
+  .page-academia .ac-practica__ayuda { margin-left: 0; }
+  .page-academia .ac-hud { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-academia * { transition: none !important; animation: none !important; }
+}
+
+/* Fichas que explican una técnica (tuberías, variables, scripts) y no un
+   comando suelto: se distinguen de las practicables para no prometer que
+   se pueden «ejecutar». */
+.page-academia .ac-chip--concepto { color: var(--ac-ps); border-color: var(--ac-ps); }

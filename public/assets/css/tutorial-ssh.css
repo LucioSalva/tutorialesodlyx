@@ -1,0 +1,76 @@
+/* =====================================================================
+   Tutoriales Lucio · CODLYX — estilos propios del tutorial de SSH
+   ---------------------------------------------------------------------
+   Se carga automáticamente porque el fichero se llama tutorial-<slug>.css
+   y existe: layouts/base.php lo detecta. Todo lo reutilizable (terminal,
+   figuras, laboratorios, pistas, quiz, resumen) ya vive en tutorial.css;
+   aquí solo está lo que el curso de SSH añade:
+
+     1. Bloque de lectura sin botón de copiar (.term--plain): árboles de
+        directorios y ficheros de configuración que se leen, no se pegan.
+     2. Ficha de ejercicio con el formato fijo del curso (.ssh-ej).
+
+   Acotado bajo .tutorial-ssh (clase que el controlador pone en <body>)
+   para que ningún selector alcance a otro tutorial. Solo usa tokens
+   --dv-* / --tl-*, así que responde igual al tema claro y al oscuro.
+   ===================================================================== */
+
+/* ------------------ 1. Terminal de solo lectura ------------------- */
+.tutorial-ssh .term--plain .term__bar { justify-content: flex-start; }
+.tutorial-ssh .term--plain pre { white-space: pre; }
+
+/* ------------------- 2. Ficha de ejercicio ------------------------ */
+.tutorial-ssh .ssh-ej__ficha {
+  margin: 0 0 18px;
+  display: grid;
+  gap: 10px;
+}
+.tutorial-ssh .ssh-ej__ficha > div {
+  display: grid;
+  gap: 2px 16px;
+  padding: 10px 14px;
+  background: var(--dv-bg-surface);
+  border-left: 3px solid var(--dv-accent);
+  border-radius: 0 var(--dv-radius-sm) var(--dv-radius-sm) 0;
+}
+.tutorial-ssh .ssh-ej__ficha dt,
+.tutorial-ssh .ssh-ej__k {
+  display: block;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dv-accent);
+}
+.tutorial-ssh .ssh-ej__ficha dd { margin: 0; min-width: 0; color: var(--dv-text-secondary); }
+/* Un bloque de terminal dentro de la ficha o de un paso no debe ensanchar
+   la columna: el <pre> ya tiene su propio desplazamiento horizontal. */
+.tutorial-ssh .ssh-ej__v,
+.tutorial-ssh .ssh-ej__ficha dd { overflow-wrap: anywhere; }
+.tutorial-ssh .ssh-ej .term { max-width: 100%; }
+.tutorial-ssh .ssh-ej__ficha dd > :last-child { margin-bottom: 0; }
+
+.tutorial-ssh .ssh-ej__paso { margin: 0 0 14px; }
+.tutorial-ssh .ssh-ej__k { margin: 18px 0 8px; }
+.tutorial-ssh .ssh-ej__paso > .ssh-ej__k { margin-top: 0; color: var(--tl-l3); }
+.tutorial-ssh .ssh-ej__v > :last-child { margin-bottom: 0; }
+.tutorial-ssh .ssh-ej__v > .term:last-child { margin-bottom: 0; }
+
+.tutorial-ssh .ssh-ej__preg { margin: 0 0 16px; padding-left: 1.3em; }
+.tutorial-ssh .ssh-ej__preg > li { margin-bottom: 6px; color: var(--dv-text-secondary); }
+
+.tutorial-ssh .ssh-ej__h {
+  margin: 18px 0 6px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--dv-text-primary);
+}
+
+@media (min-width: 720px) {
+  .tutorial-ssh .ssh-ej__ficha > div { grid-template-columns: 120px minmax(0, 1fr); align-items: baseline; }
+}
+@media (max-width: 575.98px) {
+  .tutorial-ssh .lab.ssh-ej { padding: 20px 16px 8px; }
+}
