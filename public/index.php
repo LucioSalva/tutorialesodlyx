@@ -105,6 +105,16 @@ try {
         } elseif ($total === 4 && AcademiaRepository::esSistema((string) $uno) && $dos === 'comando') {
             $html = $academia->comando((string) $uno, (string) $tres);
         }
+
+    } elseif ($segments[0] === 'ingles') {
+        // Academia de Inglés. El controlador valida cada segmento contra
+        // su propio catálogo; lo que no encaje devuelve null → 404.
+        $html = (new App\Controllers\InglesController())->ruta(array_slice($segments, 1));
+
+    } elseif ($segments[0] === 'redes') {
+        // Academia de Redes. Mismo criterio: el controlador valida cada
+        // segmento contra curso.json y devuelve null si no existe.
+        $html = (new App\Controllers\RedesController())->ruta(array_slice($segments, 1));
     }
 
     if ($html === null) {

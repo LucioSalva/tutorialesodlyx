@@ -9,6 +9,8 @@ require_once \App\Core\Config::basePath('app/Views/components/icons.php');
 $tutorials  = $tutorials  ?? [];
 $activeSlug = $activeSlug ?? null;
 $enAcademia = $enAcademia ?? false;
+$enIngles   = $enIngles ?? false;
+$enRedes    = $enRedes ?? false;
 ?>
 <header class="tl-navbar">
   <div class="container">
@@ -35,7 +37,7 @@ $enAcademia = $enAcademia ?? false;
 
       <nav class="tl-nav" id="tl-nav" aria-label="Tutoriales">
         <a class="tl-nav__link" href="<?= e(url('/')) ?>"
-           <?= $activeSlug === null ? 'aria-current="page"' : '' ?>>Biblioteca</a>
+           <?= $activeSlug === null && !$enIngles && !$enRedes && !$enAcademia ? 'aria-current="page"' : '' ?>>Biblioteca</a>
 
         <?php foreach ($tutorials as $t):
             $slug      = (string) ($t['slug'] ?? '');
@@ -57,6 +59,16 @@ $enAcademia = $enAcademia ?? false;
         <a class="tl-nav__link tl-nav__link--academia" href="<?= e(url('academia')) ?>"
            <?= $enAcademia ? 'aria-current="page"' : '' ?>>
           <span class="tl-nav__dot tl-nav__dot--academia" aria-hidden="true"></span>Academia
+        </a>
+
+        <a class="tl-nav__link tl-nav__link--ingles" href="<?= e(url('ingles')) ?>"
+           <?= $enIngles ? 'aria-current="page"' : '' ?>>
+          <span class="tl-nav__dot tl-nav__dot--ingles" aria-hidden="true"></span>Inglés
+        </a>
+
+        <a class="tl-nav__link tl-nav__link--redes" href="<?= e(url('redes')) ?>"
+           <?= $enRedes ? 'aria-current="page"' : '' ?>>
+          <span class="tl-nav__dot tl-nav__dot--redes" aria-hidden="true"></span>Redes
         </a>
 
         <button type="button" class="tl-nav__link" data-theme-toggle

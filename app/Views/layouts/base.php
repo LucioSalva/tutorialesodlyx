@@ -18,6 +18,10 @@ $tutorials  = $tutorials  ?? [];
 $withTutorialAssets = $withTutorialAssets ?? false;
 $withAcademiaAssets = $withAcademiaAssets ?? false;
 $enAcademia         = $enAcademia ?? false;
+$withInglesAssets   = $withInglesAssets ?? false;
+$enIngles           = $enIngles ?? false;
+$withRedesAssets    = $withRedesAssets ?? false;
+$enRedes            = $enRedes ?? false;
 $canonical  = \App\Core\Config::baseUrl() . ($_SERVER['REQUEST_URI'] ?? '/');
 $canonical  = strtok($canonical, '?');
 ?>
@@ -69,6 +73,12 @@ $canonical  = strtok($canonical, '?');
 <?php if ($withAcademiaAssets): ?>
 <link rel="stylesheet" href="<?= e(asset('assets/css/academia.css')) ?>">
 <?php endif; ?>
+<?php if ($withInglesAssets): ?>
+<link rel="stylesheet" href="<?= e(asset('assets/css/ingles.css')) ?>">
+<?php endif; ?>
+<?php if ($withRedesAssets): ?>
+<link rel="stylesheet" href="<?= e(asset('assets/css/redes.css')) ?>">
+<?php endif; ?>
 </head>
 <body class="<?= e($bodyClass) ?>" data-base="<?= e(rtrim(url('/'), '/')) ?>">
 
@@ -80,6 +90,8 @@ $canonical  = strtok($canonical, '?');
         'tutorials'  => $tutorials,
         'activeSlug' => $activeSlug,
         'enAcademia' => $enAcademia,
+        'enIngles'   => $enIngles,
+        'enRedes'    => $enRedes,
     ]) ?>
 
 <main class="tl-main" id="contenido">
@@ -103,6 +115,12 @@ $canonical  = strtok($canonical, '?');
 <?php endif; ?>
 <?php if ($withAcademiaAssets): ?>
 <script type="module" src="<?= e(asset('assets/js/academia/academia.js')) ?>"></script>
+<?php endif; ?>
+<?php if ($withInglesAssets): ?>
+<script type="module" src="<?= e(asset('assets/js/ingles/ingles.js')) ?>"></script>
+<?php endif; ?>
+<?php if ($withRedesAssets): ?>
+<script type="module" src="<?= e(asset('assets/js/redes/redes.js')) ?>"></script>
 <?php endif; ?>
 </body>
 </html>

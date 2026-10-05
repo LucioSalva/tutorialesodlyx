@@ -6,7 +6,12 @@ escribe sobre una máquina real y se puede seguir comando a comando.
 Tutoriales disponibles hoy: **Wireshark**, **Nmap** y **SSH** (desde la v1.4.0).
 Desde la **v1.5.0** el proyecto incluye además la **[Academia de Comandos](docs/ACADEMIA.md)**:
 un módulo interactivo para aprender Linux, CMD y PowerShell con terminal simulada,
-misiones, videojuegos y repaso espaciado.
+misiones, videojuegos y repaso espaciado. Desde la **v1.6.0** incluye también la
+**[Academia de Inglés](docs/INGLES.md)**: un curso original de inglés desde cero
+(orientado a A1–A2) con lecciones completas, ejercicios corregidos y razonados,
+audio, pronunciación, vocabulario, repaso espaciado, juegos y evaluaciones. Desde la
+**v1.8.0** incluye la **[Academia de Redes](docs/REDES.md)**: subneteo IPv4 y VLAN
+explicados bit a bit, con ejemplos resueltos y ejercicios ilimitados que se corrigen solos.
 
 > **Antes de escribir un tutorial nuevo, lee [`docs/TUTORIAL_STANDARD.md`](docs/TUTORIAL_STANDARD.md).**
 > Es la norma pedagógica del proyecto, obligatoria desde la v1.3.0: todo
@@ -73,7 +78,12 @@ tutoriales/
 │   └── seed.sql                Datos iniciales (idempotente)
 ├── docs/
 │   ├── TUTORIAL_STANDARD.md    Norma de enseñanza visual (LÉELA)
-│   └── ACADEMIA.md             Arquitectura del módulo Academia de Comandos
+│   ├── ACADEMIA.md             Arquitectura del módulo Academia de Comandos
+│   ├── INGLES.md               Arquitectura del módulo Academia de Inglés
+│   ├── INGLES_CONTENIDO.md     Esquema del contenido del curso de inglés (JSON)
+│   ├── INGLES_JUEGOS.md        Formato de los niveles de los juegos de inglés
+│   ├── INGLES_REFERENCIA.md    Uso del libro de referencia y originalidad
+│   └── REDES.md                Arquitectura del módulo Academia de Redes
 ├── public/                     ← RAÍZ WEB
 │   ├── index.php               Front controller
 │   ├── .htaccess               Reescritura + cabeceras + caché
@@ -81,6 +91,10 @@ tutoriales/
 │   │   ├── css/  js/
 │   │   ├── academia/data/*.json    Contenido de la Academia de Comandos
 │   │   ├── js/academia/            Simulador de terminal, misiones y juegos
+│   │   ├── ingles/data/            Contenido de la Academia de Inglés (curso, unidades, vocabulario…)
+│   │   ├── js/ingles/              Ejercicios, audio, repaso, vistas y juegos de inglés
+│   │   ├── redes/data/             Contenido de la Academia de Redes (generado)
+│   │   ├── js/redes/               Motor de subneteo y VLAN, ejercicios y regla de bits
 │   │   └── img/tutorials/<slug>/   Figuras, una carpeta por tutorial
 │   └── vendor/
 │       ├── bootstrap-grid.min.css
@@ -396,6 +410,43 @@ documentación del módulo.
 
 ---
 
+## Academia de Inglés
+
+Módulo independiente en `/ingles`, documentado en [`docs/INGLES.md`](docs/INGLES.md).
+11 bloques, 31 unidades y 98 lecciones con el ciclo explicar → mostrar → señalar →
+practicar → resolver → interpretar, más vocabulario, pronunciación, lecturas,
+escucha, conversaciones, escritura, 10 juegos, evaluaciones y exámenes.
+
+- **Contenido original en JSON** (`public/assets/ingles/data/`): una unidad por
+  archivo; la página de una lección solo lee su unidad.
+- **Un único motor de corrección** (`js/ingles/evaluador.js`) que acepta
+  contracciones y diferencias de puntuación, pero no respuestas agramaticales.
+- **Audio pregenerado** (desde la v1.7.0): MP3 con voces neuronales Kokoro-82M (Apache 2.0) en inglés
+  estadounidense y británico, generados en local y servidos como archivos estáticos. No depende de las
+  voces del equipo del estudiante. Ver [`docs/INGLES_AUDIO.md`](docs/INGLES_AUDIO.md).
+- **Progreso en `localStorage`**, con exportar e importar validado; sin cuentas.
+- **MySQL opcional** (`database/migrations/v1.6.0-ingles.sql`, generada desde los JSON).
+- **Herramientas de contenido en `tools/ingles/`** (validador, ensamblador, pruebas):
+  son de desarrollo y no se despliegan.
+
+---
+
+## Academia de Redes
+
+Módulo independiente en `/redes`, documentado en [`docs/REDES.md`](docs/REDES.md).
+Dos módulos: **Subneteo IPv4** (13 lecciones) y **VLAN** (7 lecciones), con 140
+ejemplos resueltos, 362 ejercicios guiados, práctica ilimitada en 6 niveles por
+módulo, exámenes y herramientas (calculadora visual, divisor de redes, VLSM).
+
+- **Nada se calcula a mano**: cada ejercicio es `{ tipo, parámetros }` y un único
+  motor (`js/redes/ip.js` + `motor.js`) calcula la respuesta, las pistas y la
+  solución paso a paso, tanto en el navegador como al construir las lecciones.
+- **Contenido como datos** en `tools/redes/contenido/`; `node tools/redes/construir.mjs`
+  genera `public/assets/redes/data/`. `tools/` no se despliega.
+- **Sin MySQL y sin endpoints**: el progreso vive en `localStorage`.
+
+---
+
 ## Seguridad implementada
 
 - PDO con `ATTR_EMULATE_PREPARES = false`: sentencias preparadas reales.
@@ -412,6 +463,12 @@ documentación del módulo.
 - Academia: terminal 100 % simulada en el cliente, sin ejecución real de comandos
   ni acceso al sistema de archivos del servidor; el progreso importado se valida
   campo a campo y nunca se ejecuta.
+- Academia de Inglés: ningún endpoint recibe datos del estudiante; rutas validadas
+  contra el catálogo; texto de los JSON escapado antes de aplicar su marcado mínimo;
+  la grabación de voz no sale del navegador y el reconocimiento de voz (que en
+  Chrome/Edge envía audio al fabricante) exige consentimiento explícito.
+- Academia de Redes: rutas validadas contra `curso.json`; texto escapado antes del
+  marcado; ningún dato del estudiante sale del navegador.
 
 ---
 
