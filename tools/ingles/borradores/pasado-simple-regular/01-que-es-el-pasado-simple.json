@@ -1,0 +1,919 @@
+{
+  "slug": "que-es-el-pasado-simple",
+  "titulo": "Qué es el pasado simple",
+  "minutos": 40,
+  "objetivos": [
+    "Entender cuándo se usa el pasado simple: acciones terminadas en un momento pasado.",
+    "Formar el pasado de los verbos regulares con -ed, igual para todos los sujetos.",
+    "Relacionar el pasado simple con el pretérito y con algunos usos del imperfecto del español."
+  ],
+  "situacion": {
+    "titulo": "¿Qué hiciste ayer?",
+    "texto": "Mei le escribe a su amigo Carlos por la mañana. Cada verbo que cuenta algo que Carlos hizo ayer termina en -ed, y fíjate: es la misma forma con I que con my roommate o con we.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "You were very quiet in the chat yesterday!",
+        "es": "¡Ayer estuviste muy callado en el chat!"
+      },
+      {
+        "quien": "Carlos",
+        "en": "I was busy. I worked until six and then I cleaned my apartment.",
+        "es": "Estaba ocupado. Trabajé hasta las seis y luego limpié mi departamento."
+      },
+      {
+        "quien": "Mei",
+        "en": "Wow. And in the evening?",
+        "es": "Guau. ¿Y en la noche?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "My roommate cooked pasta and we watched a movie.",
+        "es": "Mi compañero de departamento cocinó pasta y vimos una película."
+      },
+      {
+        "quien": "Mei",
+        "en": "That sounds nice!",
+        "es": "¡Suena bien!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "uso-pasado-simple",
+      "titulo": "Para qué sirve: acciones terminadas",
+      "que_es": "El pasado simple ([[past simple]]) cuenta acciones que **empezaron y terminaron en el pasado**. Normalmente sabes cuándo pasaron (yesterday, last year, in 2019), o se entiende por el contexto. Es el tiempo que usas para contar lo que hiciste, lo que pasó en una historia o datos de la vida de alguien.",
+      "para_que": [
+        "Contar lo que hiciste ayer o el fin de semana.",
+        "Narrar una historia o un viaje.",
+        "Dar datos de tu pasado: dónde viviste, dónde trabajaste, qué estudiaste.",
+        "Hablar de costumbres de una etapa terminada: «When I was a child, I played outside every day»."
+      ],
+      "como_funciona": "La clave es que la acción está **cerrada**: ocurrió en un momento (o durante un periodo) que ya terminó. En español esto se dice casi siempre con el **pretérito** (trabajé, llamaste, visitaron). Pero el pasado simple inglés también cubre algunos usos del **imperfecto**: las costumbres de una etapa pasada (Cuando era niño, jugaba futbol → When I was a child, I played soccer) y las situaciones que duraron un tiempo y ya acabaron (Mis papás vivían en Tijuana → My parents lived in Tijuana). Por eso no busques en inglés una forma distinta para «trabajé» y «trabajaba»: en estos casos es la misma (worked). Hay un uso del imperfecto que NO se traduce con pasado simple: una acción que estaba en progreso en un momento concreto («cuando llegaste, yo cocinaba»). El inglés tiene otra estructura para eso que no forma parte de este curso; aquí nos centramos en acciones terminadas.",
+      "estructuras": [
+        {
+          "etiqueta": "Acción terminada + momento",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -ed",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "cuándo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "called",
+              "rol": "verbo"
+            },
+            {
+              "t": "my mom",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Anoche llamé a mi mamá."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I cleaned the kitchen this morning.",
+          "es": "Limpié la cocina esta mañana.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cleaned",
+              "rol": "verbo"
+            },
+            {
+              "t": "the kitchen",
+              "rol": "complemento"
+            },
+            {
+              "t": "this morning",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "This morning ya terminó (lo dices en la tarde), así que la acción está cerrada: pasado simple."
+        },
+        {
+          "en": "My dad worked in a bank for twenty years.",
+          "es": "Mi papá trabajó veinte años en un banco.",
+          "partes": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "worked",
+              "rol": "verbo"
+            },
+            {
+              "t": "in a bank",
+              "rol": "complemento"
+            },
+            {
+              "t": "for twenty years",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Duró veinte años, pero ya terminó (ahora no trabaja ahí). Un periodo cerrado también va en pasado simple."
+        },
+        {
+          "en": "When I was a child, I played soccer every Saturday.",
+          "es": "Cuando era niño, jugaba futbol todos los sábados.",
+          "partes": [
+            {
+              "t": "When I was a child,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "played",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            },
+            {
+              "t": "every Saturday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "En español es imperfecto (jugaba) porque es una costumbre; en inglés, pasado simple, porque esa etapa terminó."
+        },
+        {
+          "en": "The train arrived at 8:15.",
+          "es": "El tren llegó a las 8:15.",
+          "partes": [
+            {
+              "t": "The train",
+              "rol": "sujeto"
+            },
+            {
+              "t": "arrived",
+              "rol": "verbo"
+            },
+            {
+              "t": "at 8:15",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Un momento exacto del pasado: pretérito en español, pasado simple en inglés."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Presente simple: ahora, en general",
+          "items": [
+            "I work at a hotel.",
+            "She lives in Monterrey.",
+            "We play tennis on Sundays."
+          ]
+        },
+        "b": {
+          "titulo": "Pasado simple: ya terminó",
+          "items": [
+            "I worked at a hotel in 2019.",
+            "She lived in Monterrey when she was a student.",
+            "We played tennis last Sunday."
+          ]
+        },
+        "veredicto": "El presente simple habla de lo que es verdad ahora o de lo que haces habitualmente. El pasado simple habla de algo cerrado: ya no trabajas ahí, ya no vive ahí, el domingo ya pasó."
+      },
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Una acción terminada en un punto del pasado",
+        "marcas": [
+          {
+            "pos": 0.1,
+            "texto": "2010–2015: I lived in Tijuana",
+            "tipo": "tramo",
+            "hasta": 0.3
+          },
+          {
+            "pos": 0.55,
+            "texto": "last Sunday: we played tennis",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.72,
+            "texto": "yesterday: I called my mom",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.9,
+        "pie": "Tanto el punto como el tramo terminaron antes de «ahora»: por eso van en pasado simple."
+      },
+      "pronunciacion": [
+        {
+          "texto": "called",
+          "ipa": "/kɔld/",
+          "consejo": "Una sola sílaba: «kold», no «ká-led». La -ed aquí es solo una /d/ suave pegada a la l. La vocal es una «o» abierta, con la boca más abierta que en la «o» española.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Yesterday I work until eight.",
+          "bien": "Yesterday I worked until eight.",
+          "porque": "Yesterday sitúa la acción en el pasado, así que el verbo tiene que ir en pasado. Al hablar, la -ed es corta y es fácil «comérsela»: practica decirla."
+        },
+        {
+          "mal": "I was cooked dinner last night.",
+          "bien": "I cooked dinner last night.",
+          "porque": "El pasado simple de un verbo normal no lleva was delante. Was / were + verbo en -ed forma otra estructura con otro significado (I was cooked = «me cocinaron»)."
+        }
+      ]
+    },
+    {
+      "id": "forma-pasado-regular",
+      "titulo": "Cómo se forma: verbo + -ed, igual para todos",
+      "que_es": "Los **verbos regulares** forman el pasado añadiendo **-ed** a la forma base: work → worked, call → called, visit → visited. La gran ventaja frente al presente simple: el pasado tiene **una sola forma para todos los sujetos**. No hay -s para he / she / it ni cambios según la persona.",
+      "para_que": [
+        "Construir el pasado de cientos de verbos con una sola regla.",
+        "Olvidarte de la -s de la tercera persona cuando hablas del pasado."
+      ],
+      "como_funciona": "**Sujeto + verbo-ed + resto.** La terminación es la misma con I, you, he, she, it, we y they. Si el verbo ya termina en -e, solo se añade -d (live → lived, like → liked, dance → danced). Hay otros pequeños cambios de ortografía (stop → stopped, study → studied) que verás en la próxima lección. Recuerda también que **be** es distinto: su pasado es was / were, que ya conoces. Y hay verbos muy frecuentes que no usan -ed (go → went, have → had): son los irregulares, que estudiarás en la siguiente unidad. En esta unidad solo harás oraciones afirmativas: para negar y preguntar en pasado se necesita el auxiliar did, que también llega en la siguiente unidad.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "I / you / he / she / it / we / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -ed",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "visited",
+              "rol": "verbo"
+            },
+            {
+              "t": "her grandparents",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ella visitó a sus abuelos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Presente frente a pasado",
+          "columnas": [
+            "Sujeto",
+            "Presente simple",
+            "Pasado simple"
+          ],
+          "filas": [
+            [
+              "I",
+              "I work",
+              "I worked"
+            ],
+            [
+              "you",
+              "you work",
+              "you worked"
+            ],
+            [
+              "he / she / it",
+              "she works",
+              "she worked"
+            ],
+            [
+              "we",
+              "we work",
+              "we worked"
+            ],
+            [
+              "they",
+              "they work",
+              "they worked"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I watched a documentary.",
+          "es": "Vi un documental.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "watched",
+              "rol": "verbo"
+            },
+            {
+              "t": "a documentary",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Watch + ed. «Ver» una película o la tele es watch."
+        },
+        {
+          "en": "My sister lived in Canada for two years.",
+          "es": "Mi hermana vivió dos años en Canadá.",
+          "partes": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lived",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Canada",
+              "rol": "complemento"
+            },
+            {
+              "t": "for two years",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Live ya termina en -e: solo se añade -d. Y aunque el sujeto es she, no hay -s: lived, no «liveds»."
+        },
+        {
+          "en": "We cooked, and the kids cleaned the table.",
+          "es": "Nosotros cocinamos y los niños limpiaron la mesa.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cooked,",
+              "rol": "verbo"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "the kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cleaned",
+              "rol": "verbo"
+            },
+            {
+              "t": "the table",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos sujetos distintos, la misma terminación -ed."
+        },
+        {
+          "en": "It rained all day.",
+          "es": "Llovió todo el día.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "rained",
+              "rol": "verbo"
+            },
+            {
+              "t": "all day",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Los verbos del clima (rain, snow) también son regulares y llevan it como sujeto."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Presente: cambia con he / she / it",
+          "items": [
+            "I walk to work.",
+            "He walks to work."
+          ]
+        },
+        "b": {
+          "titulo": "Pasado: nunca cambia",
+          "items": [
+            "I walked to work.",
+            "He walked to work."
+          ]
+        },
+        "veredicto": "En presente hay que pensar en la -s de la tercera persona; en pasado no: todos llevan -ed y nada más."
+      },
+      "pronunciacion": [
+        {
+          "texto": "worked",
+          "ipa": "/wɝkt/",
+          "consejo": "Una sola sílaba. La -ed no se pronuncia «ed»: aquí suena como una /t/ corta pegada a la k (verás por qué en la próxima lección). No digas «uór-ked»: redondea los labios para la /w/, recoge la lengua para la vocal con r y termina con /kt/ seco.",
+          "lento": true
+        },
+        {
+          "texto": "lived",
+          "ipa": "/lɪvd/",
+          "consejo": "También una sola sílaba. La e de lived no suena; al final se oye una /v/ (dientes de arriba sobre el labio de abajo) seguida de una /d/ suave."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She workeds at a school.",
+          "bien": "She worked at a school.",
+          "porque": "En pasado no se añade -s para she: la forma es la misma para todos los sujetos."
+        },
+        {
+          "mal": "He works there in 2015.",
+          "bien": "He worked there in 2015.",
+          "porque": "In 2015 es un momento pasado: el verbo va en pasado, no en presente."
+        },
+        {
+          "mal": "Studied English last year.",
+          "bien": "I studied English last year.",
+          "porque": "El sujeto es obligatorio en inglés, también en pasado."
+        }
+      ],
+      "nota": {
+        "titulo": "Solo afirmaciones, por ahora",
+        "texto": "Para decir «no trabajé» o preguntar «¿trabajaste?» el inglés usa el auxiliar did (I didn't work, Did you work?). Lo verás en la unidad siguiente. En esta unidad todas las oraciones con verbos en -ed son afirmativas; para negar y preguntar puedes seguir usando was / were.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Yesterday my sister ___ until nine p.m.",
+      "opciones": [
+        {
+          "texto": "worked",
+          "correcta": true,
+          "porque": "Yesterday indica una acción terminada en el pasado: verbo + -ed."
+        },
+        {
+          "texto": "works",
+          "correcta": false,
+          "porque": "Works es presente simple; no encaja con yesterday."
+        },
+        {
+          "texto": "was work",
+          "correcta": false,
+          "porque": "El pasado simple de un verbo normal no lleva was delante."
+        },
+        {
+          "texto": "workeds",
+          "correcta": false,
+          "porque": "En pasado no hay -s para she: la forma es worked para todos."
+        }
+      ],
+      "pistas": [
+        "Busca la palabra que indica cuándo ocurrió la acción.",
+        "Yesterday = ayer. ¿Qué forma del verbo necesitas?",
+        "Acción terminada en el pasado → verbo + -ed, igual para todos los sujetos."
+      ],
+      "solucion": {
+        "respuesta": "worked",
+        "explicacion": "La respuesta es worked porque yesterday sitúa la acción en el pasado y work es un verbo regular: work + -ed. No lleva -s aunque el sujeto sea my sister, ni was delante."
+      },
+      "audio": true
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con su traducción. Fíjate en cuándo el español usa pretérito y cuándo imperfecto.",
+      "pares": [
+        {
+          "a": "I cleaned the kitchen.",
+          "b": "Limpié la cocina."
+        },
+        {
+          "a": "We lived in Veracruz when I was a child.",
+          "b": "Vivíamos en Veracruz cuando yo era niño."
+        },
+        {
+          "a": "She called me last night.",
+          "b": "Me llamó anoche."
+        },
+        {
+          "a": "They watched a movie.",
+          "b": "Vieron una película."
+        },
+        {
+          "a": "My dad worked in a bank for ten years.",
+          "b": "Mi papá trabajó diez años en un banco."
+        },
+        {
+          "a": "He played soccer every Saturday when he was young.",
+          "b": "Jugaba futbol todos los sábados cuando era joven."
+        }
+      ],
+      "pistas": [
+        "Todas las oraciones inglesas usan el pasado simple.",
+        "Busca palabras clave: kitchen, Veracruz, last night, movie, bank, soccer.",
+        "El pasado simple se traduce con pretérito (limpié) y, para costumbres o situaciones de una etapa terminada, con imperfecto (vivíamos, jugaba)."
+      ],
+      "solucion": {
+        "respuesta": "cleaned → Limpié · lived → Vivíamos · called → Me llamó · watched → Vieron · worked → trabajó · played → Jugaba",
+        "explicacion": "El inglés usa la misma forma (-ed) en todas. El español elige pretérito para acciones vistas como un todo (limpié, me llamó, vieron, trabajó diez años) e imperfecto para situaciones o costumbres de una etapa pasada (vivíamos, jugaba)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el pasado de los verbos: cook, wash.",
+      "frase": "Last night I ___ dinner and my husband ___ the dishes.",
+      "traduccion": "Anoche yo hice la cena y mi esposo lavó los trastes.",
+      "respuestas": [
+        [
+          "cooked"
+        ],
+        [
+          "washed"
+        ]
+      ],
+      "errores_tipicos": {
+        "cook | wash": "Last night es pasado: los dos verbos necesitan -ed.",
+        "cooked | washeds": "En pasado no hay -s para he: washed."
+      },
+      "pistas": [
+        "Last night indica pasado.",
+        "Los dos verbos son regulares.",
+        "Verbo + -ed, igual para I que para my husband."
+      ],
+      "solucion": {
+        "respuesta": "cooked · washed",
+        "explicacion": "Last night sitúa las dos acciones en el pasado. Cook y wash son regulares: cooked, washed. La forma es la misma para I y para my husband."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de walk en los dos huecos.",
+      "frase": "My brother ___ to school, and my cousins ___ with him.",
+      "traduccion": "Mi hermano caminó a la escuela y mis primos caminaron con él.",
+      "respuestas": [
+        [
+          "walked"
+        ],
+        [
+          "walked"
+        ]
+      ],
+      "errores_tipicos": {
+        "walks | walked": "El primer hueco también es pasado: walked, sin -s.",
+        "walkeds | walked": "En pasado no se añade -s con he: walked."
+      },
+      "pistas": [
+        "Los dos sujetos son distintos: uno singular y otro plural.",
+        "¿Cambia la forma del pasado según el sujeto?",
+        "El pasado regular es verbo + -ed para todos los sujetos."
+      ],
+      "solucion": {
+        "respuesta": "walked · walked",
+        "explicacion": "Los dos huecos son walked. En pasado simple no hay diferencia entre my brother (he) y my cousins (they): la forma es la misma para todos."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al pasado y añade in 2019 al final.",
+      "origen": "Ana works at a bank.",
+      "instruccion": "Pasado + in 2019",
+      "respuestas": [
+        "Ana worked at a bank in 2019.",
+        "In 2019 Ana worked at a bank."
+      ],
+      "errores_tipicos": {
+        "Ana workeds at a bank in 2019.": "En pasado la -s desaparece: worked.",
+        "Ana was worked at a bank in 2019.": "El pasado simple no lleva was: Ana worked.",
+        "Ana works at a bank in 2019.": "In 2019 es pasado: el verbo tiene que cambiar a worked."
+      },
+      "pistas": [
+        "In 2019 exige el pasado.",
+        "El verbo es works; quita la -s del presente y pon la terminación del pasado.",
+        "Verbo regular: forma base + -ed, igual para todos los sujetos, como en Leo plays → Leo played."
+      ],
+      "solucion": {
+        "respuesta": "Ana worked at a bank in 2019.",
+        "explicacion": "La -s de works es del presente (tercera persona); en pasado desaparece y se añade -ed: worked. In 2019 puede ir al final o al principio."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "visited",
+        "We",
+        "my",
+        "grandparents",
+        "last",
+        "Sunday"
+      ],
+      "respuestas": [
+        "We visited my grandparents last Sunday",
+        "Last Sunday we visited my grandparents"
+      ],
+      "traduccion": "El domingo pasado visitamos a mis abuelos.",
+      "pistas": [
+        "El orden básico es sujeto + verbo + complemento.",
+        "Last Sunday es la expresión de tiempo.",
+        "Sujeto + verbo en pasado + objeto + expresión de tiempo (al final o al principio), como en They called their friends last Friday."
+      ],
+      "solucion": {
+        "respuesta": "We visited my grandparents last Sunday.",
+        "explicacion": "Sujeto (we) + verbo en pasado (visited) + complemento (my grandparents). La expresión de tiempo last Sunday va al final o al principio. En inglés visit no lleva preposición: visit my grandparents, no «visit to»."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Yesterday Tom watch TV all afternoon.",
+      "error": "watch",
+      "correcciones": [
+        "watched"
+      ],
+      "frase_correcta": "Yesterday Tom watched TV all afternoon.",
+      "pistas": [
+        "Mira la primera palabra de la oración.",
+        "¿El verbo está en el tiempo que pide yesterday?",
+        "Acción terminada ayer → pasado simple: forma base + -ed, como en Yesterday Ana cleaned her room."
+      ],
+      "solucion": {
+        "respuesta": "watch → watched",
+        "explicacion": "Yesterday indica pasado, así que el verbo debe ir en pasado simple: watched. Ni siquiera valdría watches (presente con he): tiene que ser pasado."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración tiene una palabra de más. Señala el error y escribe la corrección.",
+      "frase": "I was cooked pasta for dinner.",
+      "error": "was cooked",
+      "correcciones": [
+        "cooked"
+      ],
+      "frase_correcta": "I cooked pasta for dinner.",
+      "pistas": [
+        "El pasado simple de los verbos normales es una sola palabra.",
+        "Fíjate en lo que va antes de cooked.",
+        "Sujeto + verbo-ed, sin was."
+      ],
+      "solucion": {
+        "respuesta": "was cooked → cooked",
+        "explicacion": "El pasado simple de cook es cooked, sin was. Was solo es el pasado de be; si lo pones delante de otro verbo cambias el significado de la oración (I was cooked = «me cocinaron a mí»)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.09",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Worked tiene una sola sílaba.",
+      "texto": "I worked yesterday.",
+      "ipa": "/aɪ wɝkt ˈjɛstɚdeɪ/",
+      "consejo": "Worked suena «wɝkt», no «uór-ked». La /t/ final se une a la /j/ de yesterday; no hagas una pausa entre las dos palabras. El acento principal cae en YES-.",
+      "es": "Trabajé ayer."
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "She called her mom last night.",
+      "pistas": [
+        "Es una oración afirmativa en pasado.",
+        "El verbo termina en -ed aunque casi no se oiga.",
+        "Sujeto + verbo-ed + persona + expresión de tiempo, como en He visited his dad last week."
+      ],
+      "solucion": {
+        "respuesta": "She called her mom last night.",
+        "explicacion": "Called suena /kɔld/: la -ed es solo una /d/ pegada a la l, muy fácil de perder al escuchar. Last night te confirma que es pasado, así que escribe called, no call."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa parents y child.",
+      "es": "Mis papás vivían en Veracruz cuando yo era niño.",
+      "respuestas": [
+        "My parents lived in Veracruz when I was a child.",
+        "When I was a child, my parents lived in Veracruz."
+      ],
+      "errores_tipicos": {
+        "My parents live in Veracruz when I was a child.": "La situación terminó: lived, en pasado.",
+        "My parents lived in Veracruz when I was child.": "Falta el artículo: when I was a child.",
+        "My parents lived in Veracruz when I had a child.": "«Cuando era niño» se dice con be: when I was a child."
+      },
+      "pistas": [
+        "«Vivían» es imperfecto en español, pero la etapa ya terminó.",
+        "Hay dos verbos: vivir (verbo normal) y ser (be).",
+        "Sujeto + verbo regular en pasado + in + lugar + when + sujeto + pasado de be + a + sustantivo, como en My aunt worked in Toluca when she was a student."
+      ],
+      "solucion": {
+        "respuesta": "My parents lived in Veracruz when I was a child.",
+        "explicacion": "Aunque en español se dice «vivían» (imperfecto), en inglés una situación de una etapa terminada va en pasado simple: lived. «Cuando era niño» es when I was a child, con was y con el artículo a."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa the whole house.",
+      "es": "Ayer limpié toda la casa.",
+      "respuestas": [
+        "I cleaned the whole house yesterday.",
+        "Yesterday I cleaned the whole house."
+      ],
+      "errores_tipicos": {
+        "Yesterday cleaned the whole house.": "Falta el sujeto I.",
+        "I clean the whole house yesterday.": "Yesterday pide pasado: cleaned.",
+        "I was cleaned the whole house yesterday.": "El pasado simple no lleva was: I cleaned."
+      },
+      "pistas": [
+        "El sujeto no aparece en español, pero en inglés es obligatorio.",
+        "Limpiar = clean, un verbo regular.",
+        "Sujeto + verbo-ed + objeto + expresión de tiempo (al final o al principio), como en She washed all the dishes last night."
+      ],
+      "solucion": {
+        "respuesta": "I cleaned the whole house yesterday.",
+        "explicacion": "I es obligatorio. Clean es regular: cleaned. Yesterday puede ir al final (lo más común) o al principio."
+      },
+      "audio": true
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "El lunes, una compañera de trabajo te pregunta por tu sábado.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "What did you do on Saturday?",
+          "es": "¿Qué hiciste el sábado?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I stayed at home and cooked for my family.",
+          "correcta": true,
+          "porque": "Los dos verbos están en pasado (stayed, cooked): el sábado ya pasó."
+        },
+        {
+          "texto": "I stay at home and cook for my family.",
+          "correcta": false,
+          "porque": "Está en presente; parece que hablas de lo que haces normalmente, no del sábado pasado."
+        },
+        {
+          "texto": "I was stay at home and cooked for my family.",
+          "correcta": false,
+          "porque": "El pasado de stay es stayed; was no se pone delante de otro verbo."
+        },
+        {
+          "texto": "I stayed at home and cook for my family.",
+          "correcta": false,
+          "porque": "El segundo verbo se quedó en presente; los dos necesitan -ed."
+        }
+      ],
+      "pistas": [
+        "La pregunta habla del sábado pasado (What did you do…? = ¿Qué hiciste…?).",
+        "Revisa los dos verbos de cada opción.",
+        "Los dos verbos tienen que estar en pasado simple (-ed) y sin was."
+      ],
+      "solucion": {
+        "respuesta": "I stayed at home and cooked for my family.",
+        "explicacion": "El sábado ya terminó, así que las acciones van en pasado simple: stayed y cooked. Si unes dos verbos con and, los dos deben estar en pasado."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Ayer después del trabajo",
+    "contexto": "En la mañana, tu compañero Omar te cuenta qué hizo ayer y luego te pregunta a ti.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "I was so tired yesterday. I worked late, then I cooked and watched TV.",
+        "es": "Ayer estaba muy cansado. Trabajé hasta tarde, luego cociné y vi la tele."
+      },
+      {
+        "quien": "Omar",
+        "en": "And you? What did you do after work?",
+        "es": "¿Y tú? ¿Qué hiciste después del trabajo?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Cuéntale a Omar tres cosas que hiciste ayer después del trabajo o de la escuela, con verbos regulares en pasado (walk, call, cook, clean, watch, play, listen to, visit, relax…).",
+    "modelo": "I walked to the park with my dog, then I called my sister. In the evening I cooked soup and watched a series.",
+    "alternativas": [
+      "I visited my grandma and helped her in the kitchen. Then I relaxed at home.",
+      "I played basketball with some friends. After that I cleaned my room and listened to music."
+    ],
+    "claves": [
+      "Todos los verbos en pasado: verbo + -ed.",
+      "Sin was delante del verbo.",
+      "Sujeto en cada oración (I…)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "El pasado simple cuenta acciones terminadas en un momento o periodo pasado.",
+      "Verbos regulares: verbo + -ed (live → lived: si termina en -e, solo -d).",
+      "Una sola forma para todos los sujetos: I worked, she worked, they worked.",
+      "Se traduce con el pretérito (trabajé) y, para costumbres o situaciones de una etapa terminada, también con el imperfecto (trabajaba)."
+    ],
+    "recuerda": [
+      "Nada de -s en pasado: she worked.",
+      "Nada de was delante: I cooked, no «I was cooked».",
+      "Por ahora solo afirmaciones: negar y preguntar con did llega en la siguiente unidad."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.r1",
+      "frente": "Pasado de she works:",
+      "reverso": "she worked",
+      "nota": "La -s desaparece; misma forma para todos."
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.r2",
+      "frente": "¿Cómo se dice «Mis abuelos vivían en Puebla»?",
+      "reverso": "My grandparents lived in Puebla.",
+      "nota": "Etapa terminada: pasado simple."
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.r3",
+      "frente": "Corrige: I was cooked dinner.",
+      "reverso": "I cooked dinner.",
+      "nota": "Sin was."
+    },
+    {
+      "id": "pasado-simple-regular.que-es-el-pasado-simple.r4",
+      "frente": "¿Para qué sirve el pasado simple?",
+      "reverso": "Para acciones terminadas en un momento o periodo pasado.",
+      "nota": "I called her yesterday."
+    }
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "slug": "was-were-negacion-y-preguntas",
+  "titulo": "Negación y preguntas",
+  "minutos": 45,
+  "objetivos": [
+    "Negar en pasado con wasn't / weren't.",
+    "Hacer preguntas de sí o no con Was…? / Were…? y contestar con respuestas cortas.",
+    "Preguntar con where, how, who, why y how old + was / were."
+  ],
+  "situacion": {
+    "titulo": "El regreso de un viaje",
+    "texto": "Priya volvió ayer de un viaje de trabajo a Monterrey y su amigo Sam le pregunta cómo le fue. Observa que para preguntar basta con poner was o were delante del sujeto, y que para negar se añade not (wasn't, weren't). No aparece ningún otro auxiliar.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Welcome back! How was Monterrey?",
+        "es": "¡Bienvenida! ¿Qué tal Monterrey?"
+      },
+      {
+        "quien": "Priya",
+        "en": "It was OK. The hotel was nice, but the meetings weren't very interesting.",
+        "es": "Estuvo bien. El hotel estaba bonito, pero las juntas no fueron muy interesantes."
+      },
+      {
+        "quien": "Sam",
+        "en": "Was it hot?",
+        "es": "¿Hizo calor?"
+      },
+      {
+        "quien": "Priya",
+        "en": "Yes, it was! And my room wasn't very cool.",
+        "es": "¡Sí! Y mi cuarto no era muy fresco."
+      },
+      {
+        "quien": "Sam",
+        "en": "Were your coworkers with you?",
+        "es": "¿Tus compañeros de trabajo estaban contigo?"
+      },
+      {
+        "quien": "Priya",
+        "en": "No, they weren't. I was alone all week.",
+        "es": "No. Estuve sola toda la semana."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "negacion-was-were",
+      "titulo": "Negar en pasado: wasn't y weren't",
+      "que_es": "Para negar con was o were se añade **not** justo después del verbo, exactamente igual que con am, is y are en presente. En la conversación y en los mensajes casi siempre se usa la contracción: **wasn't** (was not) y **weren't** (were not).",
+      "para_que": [
+        "Decir dónde no estabas: «I wasn't at home».",
+        "Dar una opinión negativa: «The movie wasn't very good».",
+        "Corregir una información: «They weren't in Cancún, they were in Tulum»."
+      ],
+      "como_funciona": "El orden es **sujeto + was / were + not + resto**. La elección entre was y were es la misma de la lección anterior (I, he, she, it → wasn't; you, we, they → weren't). No hace falta ningún auxiliar extra: be se niega solo. Por eso son errores «I no was» (calco de «yo no estaba») y «I don't was» (mezcla con el presente simple). Una diferencia con el presente: con I no existe contracción del tipo «I'm not»; se dice I wasn't o I was not.",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was / were",
+              "rol": "verbo"
+            },
+            {
+              "t": "not (n't)",
+              "rol": "negacion"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The store",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "open",
+              "rol": "complemento"
+            }
+          ],
+          "es": "La tienda no estaba abierta."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Formas negativas",
+          "columnas": [
+            "Sujeto",
+            "Forma completa",
+            "Contracción",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "I / he / she / it",
+              "was not",
+              "wasn't",
+              "She wasn't at school."
+            ],
+            [
+              "you / we / they",
+              "were not",
+              "weren't",
+              "We weren't late."
+            ]
+          ],
+          "audio": [
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I wasn't at the party.",
+          "es": "No estuve en la fiesta.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "wasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "at the party",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El not va después del verbo, no antes como el «no» del español."
+        },
+        {
+          "en": "The exam wasn't difficult.",
+          "es": "El examen no fue difícil.",
+          "partes": [
+            {
+              "t": "The exam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "wasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "difficult",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "The exam = it → wasn't."
+        },
+        {
+          "en": "My neighbors weren't very friendly.",
+          "es": "Mis vecinos no eran muy amigables.",
+          "partes": [
+            {
+              "t": "My neighbors",
+              "rol": "sujeto"
+            },
+            {
+              "t": "weren't",
+              "rol": "negacion"
+            },
+            {
+              "t": "very friendly",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sujeto plural → weren't. Not very + adjetivo es una forma suave de decir algo negativo."
+        },
+        {
+          "en": "You weren't wrong.",
+          "es": "No estabas equivocado.",
+          "partes": [
+            {
+              "t": "You",
+              "rol": "sujeto"
+            },
+            {
+              "t": "weren't",
+              "rol": "negacion"
+            },
+            {
+              "t": "wrong",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "The museum",
+                "rol": "sujeto"
+              },
+              {
+                "t": "was",
+                "rol": "verbo"
+              },
+              {
+                "t": "open",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "The museum",
+                "rol": "sujeto"
+              },
+              {
+                "t": "was",
+                "rol": "verbo"
+              },
+              {
+                "t": "not",
+                "rol": "negacion"
+              },
+              {
+                "t": "open",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación contraída",
+            "partes": [
+              {
+                "t": "The museum",
+                "rol": "sujeto"
+              },
+              {
+                "t": "wasn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "open",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Solo se añade not después de was / were. No aparece ningún auxiliar nuevo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "wasn't",
+          "ipa": "/ˈwʌzənt/ (GB /ˈwɒznt/)",
+          "consejo": "La /z/ zumba y enseguida viene una «n» casi sin vocal; la t final apenas se suelta. No digas «guás-nt»: la /w/ se hace solo con los labios redondeados, sin tocar el paladar como la «g» española.",
+          "lento": true
+        },
+        {
+          "texto": "weren't",
+          "ipa": "/wɝnt/ (GB /wɜːnt/)",
+          "consejo": "Una sola sílaba, no «ué-rent». Labios redondeados para la /w/, lengua recogida hacia atrás para la vocal con r, y luego la /n/ y una t muy suave."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I no was at home.",
+          "bien": "I wasn't at home.",
+          "porque": "En inglés la negación no va delante del verbo como «no» en español: se pone not después de was / were."
+        },
+        {
+          "mal": "I don't was tired.",
+          "bien": "I wasn't tired.",
+          "porque": "Don't es para el presente simple de los verbos normales. Be se niega solo, añadiendo not: wasn't."
+        },
+        {
+          "mal": "They wasn't ready.",
+          "bien": "They weren't ready.",
+          "porque": "La concordancia no cambia al negar: they lleva were, así que su negación es weren't."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-si-no-was-were",
+      "titulo": "Preguntas de sí o no y respuestas cortas",
+      "que_es": "Para preguntar con was / were se **invierte el orden**: el verbo pasa delante del sujeto (Was she…? Were you…?). Para contestar, en inglés no basta con «yes» o «no» a secas: lo natural es una **respuesta corta** que repite el sujeto (como pronombre) y el verbo: Yes, I was. / No, they weren't.",
+      "para_que": [
+        "Comprobar dónde estaba alguien: «Were you at home?».",
+        "Preguntar por el clima o por cómo era algo: «Was it cold?».",
+        "Contestar con naturalidad sin repetir toda la oración."
+      ],
+      "como_funciona": "**Pregunta:** was / were + sujeto + resto + ? — el mismo cambio de orden que ya conoces con is / are (Is she…? → Was she…?). **Respuesta corta:** Yes / No + pronombre + was / were (/ wasn't / weren't). Tres detalles importantes: 1) En la respuesta usas el **pronombre** que corresponde a quien responde, no el de la pregunta: a «Were **you** at home?» contestas «Yes, **I was**», con was porque ahora el sujeto es I. 2) En la respuesta corta se usa un pronombre, no el sustantivo: «Was your mom there? — Yes, **she** was». 3) La respuesta corta afirmativa **nunca se contrae** (Yes, I was; nunca «Yes, I's»), y en ella was / were se pronuncian fuertes. En español puedes preguntar solo con la entonación («¿Estabas en casa?»); en inglés «You were at home?» solo se usa para mostrar sorpresa. La pregunta normal cambia el orden.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Was / Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "the kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at school",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Los niños estaban en la escuela?"
+        },
+        {
+          "etiqueta": "Respuestas cortas",
+          "formula": [
+            {
+              "t": "Yes / No",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was / were / wasn't / weren't",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "weren't",
+              "rol": "negacion"
+            }
+          ],
+          "es": "No, no estaban."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pregunta → respuesta corta",
+          "columnas": [
+            "Pregunta",
+            "Sí",
+            "No"
+          ],
+          "filas": [
+            [
+              "Was I wrong?",
+              "Yes, you were.",
+              "No, you weren't."
+            ],
+            [
+              "Were you at work?",
+              "Yes, I was.",
+              "No, I wasn't."
+            ],
+            [
+              "Was your dad at home?",
+              "Yes, he was.",
+              "No, he wasn't."
+            ],
+            [
+              "Was the food good?",
+              "Yes, it was.",
+              "No, it wasn't."
+            ],
+            [
+              "Were you and Tom at the game?",
+              "Yes, we were.",
+              "No, we weren't."
+            ],
+            [
+              "Were the tickets expensive?",
+              "Yes, they were.",
+              "No, they weren't."
+            ]
+          ],
+          "audio": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Were you at work yesterday?",
+          "es": "¿Estuviste en el trabajo ayer?",
+          "partes": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at work",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Were va delante de you. Respuesta: Yes, I was / No, I wasn't (con I, was)."
+        },
+        {
+          "en": "Was the bus late?",
+          "es": "¿El camión llegó tarde?",
+          "situacion": "Le preguntas a un compañero por qué llegó a las 9:30.",
+          "partes": [
+            {
+              "t": "Was",
+              "rol": "verbo"
+            },
+            {
+              "t": "the bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Be late = llegar tarde / ir retrasado. Respuesta: Yes, it was."
+        },
+        {
+          "en": "Was your grandmother a teacher?",
+          "es": "¿Tu abuela era maestra?",
+          "partes": [
+            {
+              "t": "Was",
+              "rol": "verbo"
+            },
+            {
+              "t": "your grandmother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a teacher",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Respuesta con pronombre: Yes, she was. Repetir «your grandmother» sonaría muy forzado."
+        },
+        {
+          "en": "Were they happy with the hotel?",
+          "es": "¿Quedaron contentos con el hotel?",
+          "partes": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "happy with the hotel",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a pregunta y respuesta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              },
+              {
+                "t": "were",
+                "rol": "verbo"
+              },
+              {
+                "t": "at the party",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Were",
+                "rol": "verbo"
+              },
+              {
+                "t": "they",
+                "rol": "sujeto"
+              },
+              {
+                "t": "at the party",
+                "rol": "complemento"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Respuesta corta",
+            "partes": [
+              {
+                "t": "Yes,",
+                "rol": "otro"
+              },
+              {
+                "t": "they",
+                "rol": "sujeto"
+              },
+              {
+                "t": "were",
+                "rol": "verbo"
+              }
+            ]
+          }
+        ],
+        "pie": "El verbo salta delante del sujeto. En la respuesta corta vuelve a su sitio y se corta todo lo demás."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Were you at home? — Yes, I was.",
+          "ipa": "/wɚ ju ət hoʊm ‖ jɛs aɪ wʌz/",
+          "consejo": "En la pregunta were es débil y rápido (/wɚ/) y la voz sube al final, en home. En la respuesta corta was va al final y se dice fuerte y completo (/wʌz/), con la voz bajando: es la palabra que lleva el peso.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "You were at home?",
+          "bien": "Were you at home?",
+          "porque": "La pregunta normal invierte el orden: verbo antes del sujeto. Con el orden de afirmación y entonación de pregunta solo se expresa sorpresa."
+        },
+        {
+          "mal": "Were you tired? — Yes, I were.",
+          "bien": "Were you tired? — Yes, I was.",
+          "porque": "La pregunta usa were porque el sujeto es you; la respuesta usa was porque el sujeto ahora es I."
+        },
+        {
+          "mal": "Was your sister at the party? — Yes, your sister was.",
+          "bien": "Was your sister at the party? — Yes, she was.",
+          "porque": "En la respuesta corta se usa el pronombre (she), y además quien responde diría «my sister», no «your sister»."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-wh-was-were",
+      "titulo": "Preguntas con where, how, who, why… + was / were",
+      "que_es": "Para pedir información (no solo sí o no), se pone la palabra interrogativa al principio y después la misma pregunta de sí o no: **Where** + were you? Así preguntas dónde estaba alguien, qué tal estuvo algo, quién era, por qué estabas en un sitio o cuántos años tenías.",
+      "para_que": [
+        "Preguntar qué tal estuvo algo: «How was the concert?».",
+        "Preguntar dónde estaba alguien: «Where were you at eight?».",
+        "Preguntar la edad en el pasado: «How old were you?»."
+      ],
+      "como_funciona": "La fórmula es **palabra interrogativa + was / were + sujeto + resto?**. Palabras útiles: [[where]] (dónde), [[who]] (quién), [[why]] (por qué), [[when]] (cuándo), [[what]] (qué / cuál), [[how]] (cómo / qué tal) y [[how old]] (cuántos años). Tres casos que el español dice de otra manera: «¿Qué tal estuvo…?» → **How was…?**; «¿Cuántos años tenías?» → **How old were you?** (nunca «How many years…»); «¿Cómo te fue en…?» → **How was…?** también. Y al contestar, recuerda el sujeto: «It was great», no «Was great».",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con palabra interrogativa",
+          "formula": [
+            {
+              "t": "Where / How / Who / Why…",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was / were",
+              "rol": "verbo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Why",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Por qué llegaste tarde?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How was your weekend?",
+          "es": "¿Qué tal tu fin de semana?",
+          "partes": [
+            {
+              "t": "How",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "your weekend",
+              "rol": "sujeto"
+            }
+          ],
+          "nota": "La pregunta más típica de un lunes. Respuesta: It was great / It was OK / It wasn't very good."
+        },
+        {
+          "en": "Where were you at eight o'clock?",
+          "es": "¿Dónde estabas a las ocho?",
+          "partes": [
+            {
+              "t": "Where",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at eight o'clock",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Were va entre where y you; el orden es el de la pregunta de sí o no (Were you…?)."
+        },
+        {
+          "en": "How old were you in this picture?",
+          "es": "¿Cuántos años tenías en esta foto?",
+          "partes": [
+            {
+              "t": "How old",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in this picture",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La edad se pregunta con how old + be. «How many years had you» es un calco."
+        },
+        {
+          "en": "Who was your first teacher?",
+          "es": "¿Quién fue tu primera maestra?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "your first teacher",
+              "rol": "sujeto"
+            }
+          ]
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "How was your weekend?",
+          "ipa": "/haʊ wəz jɚ ˈwikɛnd/",
+          "consejo": "Was y your se pronuncian débiles y rápidos; el acento cae en WEEK-end. En las preguntas con where, how o who la voz normalmente baja al final, no sube como en las preguntas de sí o no."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Where you were yesterday?",
+          "bien": "Where were you yesterday?",
+          "porque": "Después de la palabra interrogativa va el verbo y luego el sujeto, igual que en Were you…?"
+        },
+        {
+          "mal": "How many years had you in 2010?",
+          "bien": "How old were you in 2010?",
+          "porque": "La edad se pregunta con how old + be. Have no se usa para la edad."
+        },
+        {
+          "mal": "How was the trip? — Was great.",
+          "bien": "How was the trip? — It was great.",
+          "porque": "La respuesta necesita sujeto: it (el viaje)."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la mejor respuesta.",
+      "pregunta": "Were you at work yesterday?",
+      "opciones": [
+        {
+          "texto": "Yes, I was.",
+          "correcta": true,
+          "porque": "Quien contesta habla de sí mismo (I), y con I el pasado de be es was."
+        },
+        {
+          "texto": "Yes, I were.",
+          "correcta": false,
+          "porque": "La pregunta usa were porque el sujeto es you, pero en la respuesta el sujeto es I, que lleva was."
+        },
+        {
+          "texto": "Yes, I am.",
+          "correcta": false,
+          "porque": "Am es presente; la pregunta es sobre ayer, en pasado."
+        },
+        {
+          "texto": "Yes, you were.",
+          "correcta": false,
+          "porque": "Te preguntan a ti, así que respondes sobre ti: I was, no you were."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el sujeto y el verbo en el mismo tiempo que la pregunta.",
+        "¿Quién es el sujeto en la respuesta: tú o la otra persona?",
+        "A una pregunta con you se contesta con I, y la respuesta corta repite el pasado de be que va con ese pronombre, como en Were they at home? — Yes, they were."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I was.",
+        "explicacion": "La respuesta correcta es Yes, I was porque en la respuesta el sujeto cambia de you a I, y I lleva was. Were solo aparece en la pregunta porque ahí el sujeto es you."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma negativa contraída (wasn't o weren't).",
+      "frase": "Tom ___ at the meeting because he was sick.",
+      "traduccion": "Tom no estuvo en la junta porque estaba enfermo.",
+      "respuestas": [
+        [
+          "wasn't"
+        ]
+      ],
+      "errores_tipicos": {
+        "weren't": "Tom es una sola persona (= he): la negación es wasn't.",
+        "no was": "En inglés el not va después de was: wasn't."
+      },
+      "pistas": [
+        "La negación en pasado de be es was / were + not.",
+        "El sujeto es Tom, una sola persona.",
+        "He / she / it y sujetos singulares → wasn't."
+      ],
+      "solucion": {
+        "respuesta": "wasn't",
+        "explicacion": "La respuesta es wasn't (was not) porque Tom equivale a he, un sujeto singular. La segunda parte de la oración (he was sick) confirma que el sujeto lleva was."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.03",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "The tickets were expensive.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "The tickets weren't expensive."
+      ],
+      "errores_tipicos": {
+        "The tickets wasn't expensive.": "The tickets es plural: la negación es weren't.",
+        "The tickets no were expensive.": "El not va después de were, no «no» delante.",
+        "The tickets don't were expensive.": "Be no usa don't: se niega solo, con were not / weren't."
+      },
+      "pistas": [
+        "Para negar be solo hace falta añadir not.",
+        "¿Dónde va el not: antes o después de were?",
+        "Sujeto + verbo be + not (o su contracción) + resto, como en The room wasn't clean."
+      ],
+      "solucion": {
+        "respuesta": "The tickets weren't expensive.",
+        "explicacion": "Se añade not después de were: The tickets were not expensive, o contraído, weren't. No hace falta ningún otro auxiliar porque be se niega solo."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "Your sister was at the party.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Was your sister at the party?"
+      ],
+      "errores_tipicos": {
+        "Your sister was at the party?": "Ese orden solo sirve para expresar sorpresa. La pregunta normal pone was delante del sujeto.",
+        "Was at the party your sister?": "Después de was va el sujeto completo (your sister) y luego el lugar."
+      },
+      "pistas": [
+        "Las preguntas con be cambian el orden de las palabras.",
+        "El sujeto es your sister (dos palabras que van juntas).",
+        "Be en pasado + sujeto + resto + ?, como en Were your cousins at the wedding?"
+      ],
+      "solucion": {
+        "respuesta": "Was your sister at the party?",
+        "explicacion": "Para preguntar se invierte el orden: was pasa delante del sujeto your sister, y el resto (at the party) se queda al final. Es el mismo mecanismo que Is your sister…? en presente."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la respuesta corta.",
+      "frase": "Were your parents at home last night? — No, ___ ___.",
+      "traduccion": "¿Tus papás estaban en casa anoche? — No.",
+      "respuestas": [
+        [
+          "they"
+        ],
+        [
+          "weren't"
+        ]
+      ],
+      "errores_tipicos": {
+        "they | wasn't": "They es plural: la negación es weren't.",
+        "my parents | weren't": "En la respuesta corta se usa el pronombre: they."
+      },
+      "pistas": [
+        "La respuesta corta tiene un pronombre y el verbo.",
+        "¿Qué pronombre sustituye a your parents?",
+        "Respuesta corta negativa: No, + pronombre + be en pasado con n't, como en Was your dad at home? — No, he wasn't."
+      ],
+      "solucion": {
+        "respuesta": "they · weren't",
+        "explicacion": "Your parents se sustituye por el pronombre they, y they lleva were. Como la respuesta es negativa: No, they weren't. También sería correcto No, they were not, aunque en la conversación se usa la contracción."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "were",
+        "Where",
+        "you",
+        "last",
+        "night"
+      ],
+      "respuestas": [
+        "Where were you last night"
+      ],
+      "traduccion": "¿Dónde estabas anoche?",
+      "pistas": [
+        "Las preguntas de información empiezan por la palabra interrogativa.",
+        "Después de where, ¿va primero el verbo o el sujeto?",
+        "Palabra interrogativa + be + sujeto + expresión de tiempo, como en Where was she yesterday?"
+      ],
+      "solucion": {
+        "respuesta": "Where were you last night?",
+        "explicacion": "La palabra interrogativa (where) va primero; luego el verbo (were) y después el sujeto (you), igual que en la pregunta de sí o no Were you…? Last night va al final."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.07",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Lucía le pregunta a Omar por un restaurante nuevo al que fue el sábado.",
+      "lineas": [
+        {
+          "quien": "Lucía",
+          "en": "How was the new restaurant?",
+          "es": "¿Qué tal el restaurante nuevo?"
+        },
+        {
+          "quien": "Omar",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "It wasn't bad, but it was expensive.",
+          "correcta": true,
+          "porque": "Contesta a How was…? con una opinión en pasado y con sujeto (it = el restaurante)."
+        },
+        {
+          "texto": "Wasn't bad, but was expensive.",
+          "correcta": false,
+          "porque": "Falta el sujeto it en las dos partes; en inglés no se puede omitir."
+        },
+        {
+          "texto": "Yes, it was.",
+          "correcta": false,
+          "porque": "How was…? pide una descripción, no un sí o un no."
+        },
+        {
+          "texto": "It isn't bad, but it's expensive.",
+          "correcta": false,
+          "porque": "Está en presente, pero se habla del sábado pasado; además how was pide pasado."
+        }
+      ],
+      "pistas": [
+        "How was…? significa «¿Qué tal estuvo…?».",
+        "La respuesta necesita sujeto y debe estar en el mismo tiempo que la pregunta.",
+        "It + was / wasn't + opinión."
+      ],
+      "solucion": {
+        "respuesta": "It wasn't bad, but it was expensive.",
+        "explicacion": "How was…? pide una valoración en pasado. La respuesta correcta usa was / wasn't con el sujeto it (el restaurante). Yes, it was no responde a la pregunta, y la opción en presente no concuerda con el sábado pasado."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Was the museum open on Sunday?",
+      "pistas": [
+        "Es una pregunta de sí o no sobre un lugar.",
+        "Empieza por el verbo en pasado; el lugar es singular.",
+        "Be en pasado + sujeto + adjetivo + expresión de tiempo + ?, como en Were the stores open on Monday?"
+      ],
+      "solucion": {
+        "respuesta": "Was the museum open on Sunday?",
+        "explicacion": "Empieza por Was porque el sujeto, the museum, es singular. Open aquí es adjetivo («abierto»). On Sunday lleva on porque es un día de la semana."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.09",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la pregunta y la respuesta. Compara cómo suena was en cada una.",
+      "texto": "Was it cold? — No, it wasn't.",
+      "ipa": "/wəz ɪt koʊld ‖ noʊ ɪt ˈwʌzənt/",
+      "consejo": "En la pregunta was es débil (/wəz/) y se pega a it: «wəzit». En la respuesta, wasn't va al final y se dice fuerte: /ˈwʌzənt/. La voz sube al final de la pregunta y baja al final de la respuesta.",
+      "es": "¿Hacía frío? — No."
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.10",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la respuesta. Señálalo y corrígelo.",
+      "frase": "Was your brother at school today? — No, he weren't.",
+      "error": "weren't",
+      "correcciones": [
+        "wasn't"
+      ],
+      "frase_correcta": "Was your brother at school today? — No, he wasn't.",
+      "pistas": [
+        "La respuesta corta concuerda con su propio sujeto.",
+        "Mira el pronombre de la respuesta.",
+        "He, she, it → was / wasn't; you, we, they → were / weren't. La respuesta corta concuerda con su propio pronombre."
+      ],
+      "solucion": {
+        "respuesta": "weren't → wasn't",
+        "explicacion": "El sujeto de la respuesta es he, singular, así que la negación es wasn't. La propia pregunta (Was your brother…?) ya indica que va was."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Qué tal estuvo la fiesta?",
+      "respuestas": [
+        "How was the party?"
+      ],
+      "errores_tipicos": {
+        "How the party was?": "Después de how va el verbo y luego el sujeto: How was the party?",
+        "What was the party?": "«¿Qué tal…?» se dice con how, no con what.",
+        "How was the party like?": "How was…? ya significa «¿qué tal…?»; no lleva like."
+      },
+      "pistas": [
+        "«¿Qué tal…?» se pregunta con una palabra interrogativa concreta.",
+        "La fiesta es singular; la pregunta va en pasado.",
+        "How + be en pasado + sujeto + ?, como en How were the holidays?"
+      ],
+      "solucion": {
+        "respuesta": "How was the party?",
+        "explicacion": "«¿Qué tal…?» en pasado es How was…? Was concuerda con the party (singular) y va delante del sujeto, como en toda pregunta con be."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Pon el año al final.",
+      "es": "¿Cuántos años tenías en 2010?",
+      "respuestas": [
+        "How old were you in 2010?"
+      ],
+      "errores_tipicos": {
+        "How many years had you in 2010?": "La edad no se «tiene» en inglés: se pregunta con how old + be.",
+        "How old you were in 2010?": "Falta invertir: How old + were + you.",
+        "How old was you in 2010?": "You siempre lleva were."
+      },
+      "pistas": [
+        "La edad en inglés se expresa con be, no con have.",
+        "Busca la palabra interrogativa para la edad y el pasado de be que va con you.",
+        "How old + be en pasado + sujeto + año, como en How old was she in 1995?"
+      ],
+      "solucion": {
+        "respuesta": "How old were you in 2010?",
+        "explicacion": "La edad se pregunta con how old + be. El sujeto es you, que lleva were, y el verbo va delante del sujeto porque es una pregunta. «How many years had you» es una traducción palabra por palabra que no se usa."
+      }
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.13",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Esta pregunta tiene el orden equivocado. Señala las palabras mal colocadas y corrígelas.",
+      "frase": "Where you were yesterday afternoon?",
+      "error": "you were",
+      "correcciones": [
+        "were you"
+      ],
+      "frase_correcta": "Where were you yesterday afternoon?",
+      "pistas": [
+        "En las preguntas con be el orden no es el de la afirmación.",
+        "Mira lo que va justo después de where.",
+        "En las preguntas el verbo be va antes del sujeto: palabra interrogativa + be + sujeto, como en Where was he?"
+      ],
+      "solucion": {
+        "respuesta": "you were → were you",
+        "explicacion": "Después de la palabra interrogativa va primero el verbo y luego el sujeto: Where were you…? «Where you were» es el orden de una afirmación y solo aparece dentro de otras oraciones (I know where you were), no en una pregunta directa."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué tal tu viaje?",
+    "contexto": "Tu amiga Grace te llama porque sabe que el fin de semana pasado estuviste fuera de la ciudad.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Hi! How was your trip?",
+        "es": "¡Hola! ¿Qué tal tu viaje?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "Was the weather good?",
+        "es": "¿Hizo buen tiempo?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "Were your cousins with you?",
+        "es": "¿Tus primos estaban contigo?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Contesta las tres preguntas de Grace: una valoración del viaje, una respuesta corta con un detalle sobre el clima y una respuesta corta sobre tus primos. Al final, hazle tú una pregunta con were.",
+    "modelo": "It was great, thanks! — No, it wasn't. It was rainy and cold. — Yes, they were. They were very happy. And you? Where were you on Saturday?",
+    "alternativas": [
+      "It wasn't very good. The hotel was noisy. — Yes, it was. It was sunny. — No, they weren't. They were at work. How was your weekend?",
+      "It was OK. — Yes, it was, but it was very hot. — No, they weren't. Were you at home all weekend?"
+    ],
+    "claves": [
+      "How was…? se contesta con It was / It wasn't + adjetivo.",
+      "Respuestas cortas: Yes, it was / No, they weren't.",
+      "Tu pregunta: Where / How + was / were + sujeto?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación: sujeto + was / were + not → wasn't / weren't.",
+      "Pregunta: Was / Were + sujeto + resto?",
+      "Respuesta corta: Yes, I was. / No, they weren't. (con pronombre).",
+      "Pregunta de información: palabra interrogativa + was / were + sujeto?",
+      "«¿Qué tal estuvo…?» = How was…?; «¿Cuántos años tenías?» = How old were you?"
+    ],
+    "recuerda": [
+      "Be no necesita don't para negar ni para preguntar.",
+      "A una pregunta con you se contesta con I: Were you…? — Yes, I was.",
+      "La respuesta corta afirmativa no se contrae.",
+      "«You were at home?» solo expresa sorpresa; la pregunta normal es Were you at home?"
+    ]
+  },
+  "repaso": [
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.r1",
+      "frente": "Niega: We were at the beach.",
+      "reverso": "We weren't at the beach.",
+      "nota": "Solo se añade not."
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.r2",
+      "frente": "Were you tired? — Sí (respuesta corta).",
+      "reverso": "Yes, I was.",
+      "nota": "Con I, was."
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.r3",
+      "frente": "¿Cómo se dice «¿Qué tal estuvo la película?»?",
+      "reverso": "How was the movie?",
+      "nota": "¿Qué tal…? = How…?"
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.r4",
+      "frente": "Corrige: Where you were?",
+      "reverso": "Where were you?",
+      "nota": "Interrogativo + verbo + sujeto."
+    },
+    {
+      "id": "was-were.was-were-negacion-y-preguntas.r5",
+      "frente": "¿Cómo se pregunta «¿Cuántos años tenías?»?",
+      "reverso": "How old were you?",
+      "nota": "Nunca «How many years had you»."
+    }
+  ]
+}

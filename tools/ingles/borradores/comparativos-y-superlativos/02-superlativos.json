@@ -1,0 +1,468 @@
+{
+  "slug": "superlativos",
+  "titulo": "Superlativos: the biggest, the most expensive",
+  "minutos": 40,
+  "objetivos": [
+    "Formar el superlativo de los adjetivos cortos con the + -est, con las mismas reglas de ortografía del comparativo (the biggest, the nicest, the happiest).",
+    "Formar el superlativo de los adjetivos largos con the most (the most expensive).",
+    "Usar los irregulares the best, the worst, the farthest / the furthest.",
+    "Elegir in (lugar o grupo) u of (plural o periodo) después del superlativo, y usar one of the + superlativo + plural."
+  ],
+  "situacion": {
+    "titulo": "Récords familiares",
+    "texto": "Mei le enseña a su amigo Omar una foto de su familia. Fíjate en que ahora no compara dos personas: destaca a una por encima de todo el grupo. Por eso aparece the delante (the tallest, the most talkative) y después in my family u of the three.",
+    "dialogo": [
+      { "quien": "Omar", "en": "Is that your family? Who's the tall guy?", "es": "¿Esa es tu familia? ¿Quién es el alto?" },
+      { "quien": "Mei", "en": "That's my brother Leo. He's the tallest in my family.", "es": "Es mi hermano Leo. Es el más alto de mi familia." },
+      { "quien": "Omar", "en": "And the girl with the guitar?", "es": "¿Y la chica de la guitarra?" },
+      { "quien": "Mei", "en": "My cousin Rosa. She's the youngest of the three cousins, but she's the most talkative!", "es": "Mi prima Rosa. Es la más joven de los tres primos, ¡pero es la más platicadora!" },
+      { "quien": "Omar", "en": "Ha! And who's the best cook?", "es": "¡Ja! ¿Y quién cocina mejor?" },
+      { "quien": "Mei", "en": "My grandmother, of course. Her tamales are the best in the world.", "es": "Mi abuela, claro. Sus tamales son los mejores del mundo." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formar-superlativo",
+      "titulo": "The + -est o the most",
+      "que_es": "El **superlativo** destaca a una persona o cosa por encima de **todas las demás** de un grupo: «el más alto», «la más cara», «el mejor». En inglés sigue la misma lógica que el comparativo: los adjetivos cortos añaden **-est** y los largos llevan **most** delante. Y casi siempre va con [[the]].",
+      "para_que": [
+        "Hablar de récords y extremos: It's the biggest city in the country.",
+        "Recomendar: This is the best restaurant in town.",
+        "Describir a tu familia o tu grupo: My dad is the funniest person in my family."
+      ],
+      "como_funciona": "**Fórmula corta:** {{otro:the}} + {{complemento:adjetivo + est}} → [[the tallest]], [[the cheapest]].\n**Fórmula larga:** {{otro:the most}} + {{complemento:adjetivo}} → [[the most expensive]], [[the most interesting]].\n\n**Las reglas de ortografía son las mismas del comparativo:**\n- General: + est → [[old]] → [[the oldest]], [[cheap]] → [[the cheapest]].\n- Termina en -e: + st → [[nice]] → [[the nicest]], [[large]] → [[the largest]].\n- Vocal + consonante: se dobla → [[big]] → [[the biggest]], [[hot]] → [[the hottest]].\n- Consonante + y: -iest → [[happy]] → [[the happiest]], [[busy]] → [[the busiest]], [[dry]] → [[the driest]].\n- Dos o más sílabas (excepto las de -y): the most → [[the most modern]], [[the most beautiful]]. Los adjetivos en -ed también: [[the most tired]].\n\n**Irregulares:** [[good]] → [[better]] → [[the best]]; [[bad]] → [[worse]] → [[the worst]]; [[far]] → [[farther]] → [[the farthest]] (o [[the furthest]]).\n\n**¿Por qué the?** Porque hablas de algo único: solo hay un «más alto» en el grupo. Si hay un posesivo, este sustituye a the: [[my best friend]] (mi mejor amigo), nunca «my the best friend».\n\n**El calco más peligroso:** «el más caro» → el estudiante escribe «the more expensive». En inglés, more es para comparar dos cosas; para destacar una entre todas se usa [[the most]]: [[the most expensive]].",
+      "estructuras": [
+        {
+          "etiqueta": "Superlativo corto",
+          "formula": [ {"t": "A", "rol": "sujeto"}, {"t": "be", "rol": "verbo"}, {"t": "the + adjetivo + est", "rol": "complemento"}, {"t": "in / of…", "rol": "otro"} ],
+          "ejemplo": [ {"t": "August", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the hottest month", "rol": "complemento"}, {"t": "of the year.", "rol": "otro"} ],
+          "es": "Agosto es el mes más caluroso del año."
+        },
+        {
+          "etiqueta": "Superlativo largo",
+          "formula": [ {"t": "A", "rol": "sujeto"}, {"t": "be", "rol": "verbo"}, {"t": "the most + adjetivo", "rol": "complemento"}, {"t": "in / of…", "rol": "otro"} ],
+          "ejemplo": [ {"t": "This", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the most expensive hotel", "rol": "complemento"}, {"t": "in the city.", "rol": "otro"} ],
+          "es": "Este es el hotel más caro de la ciudad."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Adjetivo, comparativo y superlativo",
+          "columnas": ["Adjetivo", "Comparativo", "Superlativo", "Regla"],
+          "filas": [
+            ["tall", "taller", "the tallest", "+ er / + est"],
+            ["nice", "nicer", "the nicest", "-e: + r / + st"],
+            ["big", "bigger", "the biggest", "doble consonante"],
+            ["happy", "happier", "the happiest", "-y → -ier / -iest"],
+            ["expensive", "more expensive", "the most expensive", "largo: more / most"],
+            ["good", "better", "the best", "irregular"],
+            ["bad", "worse", "the worst", "irregular"],
+            ["far", "farther / further", "the farthest / the furthest", "irregular"]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "This is the cheapest phone in the store.",
+          "es": "Este es el teléfono más barato de la tienda.",
+          "partes": [ {"t": "This", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the cheapest phone", "rol": "complemento"}, {"t": "in the store", "rol": "otro"} ],
+          "nota": "Cheap tiene una sílaba: the cheapest. El sustantivo (phone) va después del superlativo."
+        },
+        {
+          "en": "My uncle is the funniest person in my family.",
+          "es": "Mi tío es la persona más divertida de mi familia.",
+          "partes": [ {"t": "My uncle", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the funniest person", "rol": "complemento"}, {"t": "in my family", "rol": "otro"} ],
+          "nota": "Funny → the funniest: la y cambia a i. «De mi familia» = in my family, no of."
+        },
+        {
+          "en": "It was the worst day of my life!",
+          "es": "¡Fue el peor día de mi vida!",
+          "partes": [ {"t": "It", "rol": "sujeto"}, {"t": "was", "rol": "verbo"}, {"t": "the worst day", "rol": "complemento"}, {"t": "of my life", "rol": "otro"} ],
+          "nota": "Bad → worse → the worst. Of my life: un periodo de tiempo va con of."
+        },
+        {
+          "en": "Ana is my best friend.",
+          "es": "Ana es mi mejor amiga.",
+          "partes": [ {"t": "Ana", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "my best friend", "rol": "complemento"} ],
+          "nota": "El posesivo my ocupa el lugar de the. Nunca «my the best friend»."
+        },
+        {
+          "en": "Which is the most beautiful beach in Mexico?",
+          "es": "¿Cuál es la playa más bonita de México?",
+          "nota": "Beautiful tiene tres sílabas: the most beautiful. Which pregunta por una opción dentro de un grupo."
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Positivo, comparativo y superlativo",
+        "objetos": [
+          { "emoji": "🧍", "x": 0.2, "y": 0.7, "etiqueta": "Tom is tall." },
+          { "emoji": "🧍‍♂️", "x": 0.5, "y": 0.55, "etiqueta": "Ben is taller than Tom." },
+          { "emoji": "🧍‍♀️", "x": 0.8, "y": 0.35, "etiqueta": "Sam is the tallest of the three." }
+        ]
+      },
+      "comparacion": {
+        "a": { "titulo": "Comparativo", "items": ["Compara dos cosas.", "-er / more + than.", "Ben is taller than Tom."] },
+        "b": { "titulo": "Superlativo", "items": ["Destaca una entre todas.", "the -est / the most + in / of.", "Sam is the tallest of the three."] },
+        "veredicto": "En español los dos usan «más» («más alto», «el más alto»); en inglés cambian la terminación y la palabra: -er / -est, more / most. La pista en español es el artículo: «el más…» → the -est / the most."
+      },
+      "pronunciacion": [
+        { "texto": "the biggest", "ipa": "/ðə ˈbɪɡɪst/", "consejo": "La terminación -est suena /ɪst/, con una «i» corta y relajada, no «est» con e clara. Termina en st: no añadas una «e» al final («biguéste»).", "lento": true },
+        { "texto": "the most expensive", "ipa": "/ðə ˈmoʊst ɪkˈspɛnsɪv/", "consejo": "Most lleva el diptongo /oʊ/ (de «o» hacia «u»). La t de most casi desaparece ante la vocal débil de expensive. Acento fuerte en PEN." }
+      ],
+      "errores": [
+        { "mal": "It's the most big city in the country.", "bien": "It's the biggest city in the country.", "porque": "Big tiene una sílaba: the biggest, no the most big." },
+        { "mal": "This is the more expensive hotel in the city.", "bien": "This is the most expensive hotel in the city.", "porque": "Calco de «el más caro»: para destacar uno entre todos se usa the most, no the more." },
+        { "mal": "He is the most tallest in the class.", "bien": "He is the tallest in the class.", "porque": "Most y -est nunca van juntos." },
+        { "mal": "It's the goodest restaurant in town.", "bien": "It's the best restaurant in town.", "porque": "Good es irregular: the best." }
+      ]
+    },
+    {
+      "id": "in-of-one-of",
+      "titulo": "In my family, of the year, one of the best",
+      "que_es": "Después de un superlativo casi siempre dices **el grupo** en el que algo destaca. En español basta con «de» («el más alto **de** la clase», «el mejor día **del** año»), pero en inglés hay que elegir entre [[in]] y [[of]]. Además aprenderás la estructura [[one of the + superlativo + plural]]: «uno de los mejores…».",
+      "para_que": [
+        "Situar el récord: the biggest city in the world, the best day of the year.",
+        "Hablar con modestia: It's one of the best restaurants in town.",
+        "Comparar tres o más opciones: the cheapest of the three."
+      ],
+      "como_funciona": "**In + un lugar o un grupo (un sustantivo singular que representa a muchos):** [[in the world]], [[in Mexico]], [[in my city]], [[in my family]], [[in the class]], [[in my school]].\n\n**Of + un plural o un periodo de tiempo:** [[of the three]], [[of all the students]], [[of my friends]], [[of the year]], [[of my life]], [[of all]].\n\nEs una tendencia muy fuerte, no una regla matemática, pero te dará la opción natural en casi todos los casos. «The tallest of my family» es un calco del español y suena poco natural: se dice [[the tallest in my family]].\n\n**One of the + superlativo + sustantivo PLURAL:** [[It's one of the biggest cities in the world]]. El sustantivo va en plural porque la ciudad es una **de muchas** grandes ciudades. «One of the biggest city» es un error muy frecuente.\n\n**Sin grupo:** si el contexto ya lo dice, no hace falta: [[Which phone is the cheapest?]]\n\n**Sin sustantivo:** el superlativo puede ir solo, igual que un adjetivo: [[Tom is the youngest]].",
+      "estructuras": [
+        {
+          "etiqueta": "Superlativo + in / of",
+          "formula": [ {"t": "A", "rol": "sujeto"}, {"t": "be", "rol": "verbo"}, {"t": "superlativo (+ sustantivo)", "rol": "complemento"}, {"t": "in + lugar / grupo · of + plural / periodo", "rol": "otro"} ],
+          "ejemplo": [ {"t": "Diego", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the best player", "rol": "complemento"}, {"t": "in our school.", "rol": "otro"} ],
+          "es": "Diego es el mejor jugador de nuestra escuela."
+        },
+        {
+          "etiqueta": "One of the…",
+          "formula": [ {"t": "A", "rol": "sujeto"}, {"t": "be", "rol": "verbo"}, {"t": "one of the + superlativo + plural", "rol": "complemento"}, {"t": "in / of…", "rol": "otro"} ],
+          "ejemplo": [ {"t": "It", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "one of the oldest buildings", "rol": "complemento"}, {"t": "in the city.", "rol": "otro"} ],
+          "es": "Es uno de los edificios más antiguos de la ciudad."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Mexico City is one of the biggest cities in the world.",
+          "es": "La Ciudad de México es una de las ciudades más grandes del mundo.",
+          "partes": [ {"t": "Mexico City", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "one of the biggest cities", "rol": "complemento"}, {"t": "in the world", "rol": "otro"} ],
+          "nota": "One of the + superlativo + plural (cities). In the world: un lugar."
+        },
+        {
+          "en": "December is the busiest month of the year for stores.",
+          "es": "Diciembre es el mes de más trabajo del año para las tiendas.",
+          "partes": [ {"t": "December", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the busiest month", "rol": "complemento"}, {"t": "of the year", "rol": "otro"}, {"t": "for stores", "rol": "otro"} ],
+          "nota": "Of the year: un periodo de tiempo va con of. Busy → the busiest."
+        },
+        {
+          "en": "Priya is the youngest of the four sisters.",
+          "es": "Priya es la menor de las cuatro hermanas.",
+          "partes": [ {"t": "Priya", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "the youngest", "rol": "complemento"}, {"t": "of the four sisters", "rol": "otro"} ],
+          "nota": "Of + un grupo en plural (the four sisters). «La menor» = the youngest."
+        },
+        {
+          "en": "Which is the cheapest of these three laptops?",
+          "es": "¿Cuál es la más barata de estas tres laptops?",
+          "nota": "Of + plural: of these three laptops."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "one of the best", "ipa": "/ˈwʌn əv ðə ˈbɛst/", "consejo": "Of se reduce a /əv/ y se pega a one: «WA-nəv». The es /ðə/ muy breve. Solo one y best llevan fuerza." },
+        { "texto": "in the world", "ipa": "/ɪn ðə ˈwɝːld/", "consejo": "World es difícil: labios redondeados para la w, luego la vocal de bird con la lengua curvada, después la l oscura y una d suave. Practícalo despacio: «w-er-l-d»." }
+      ],
+      "errores": [
+        { "mal": "She's the tallest of my family.", "bien": "She's the tallest in my family.", "porque": "Con un grupo expresado como sustantivo singular (family, class, school) se usa in." },
+        { "mal": "It's one of the best restaurant in town.", "bien": "It's one of the best restaurants in town.", "porque": "Después de one of the + superlativo, el sustantivo va en plural." },
+        { "mal": "It was the best day in my life.", "bien": "It was the best day of my life.", "porque": "Con un periodo de tiempo (my life, the year) se usa of." }
+      ],
+      "nota": { "titulo": "Truco rápido", "texto": "¿Puedes contar lo que viene detrás (three friends, all the students, the year = 12 meses)? → of. ¿Es un lugar o un grupo nombrado como una unidad (the world, my family, the class)? → in.", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comparativos-y-superlativos.superlativos.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su superlativo.",
+      "pares": [
+        { "a": "old", "b": "the oldest" },
+        { "a": "hot", "b": "the hottest" },
+        { "a": "busy", "b": "the busiest" },
+        { "a": "interesting", "b": "the most interesting" },
+        { "a": "good", "b": "the best" },
+        { "a": "bad", "b": "the worst" }
+      ],
+      "pistas": [
+        "Las reglas son las mismas del comparativo, con -est y most.",
+        "Hot dobla la consonante, busy cambia la y; interesting es largo.",
+        "Good y bad tienen superlativos irregulares que empiezan igual que sus comparativos («mejor», «peor»)."
+      ],
+      "solucion": { "respuesta": "old → the oldest; hot → the hottest; busy → the busiest; interesting → the most interesting; good → the best; bad → the worst.", "explicacion": "Old añade -est; hot dobla la t; busy cambia la y por i; interesting (cuatro sílabas) usa the most. Good y bad son irregulares: the best y the worst." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "This is ___ hotel in the city. It costs $500 a night!",
+      "opciones": [
+        { "texto": "the most expensive", "correcta": true, "porque": "Correcto: expensive es largo, y para destacar uno entre todos se usa the most." },
+        { "texto": "the more expensive", "correcta": false, "porque": "Calco de «el más caro». More es para comparar dos cosas; el superlativo es the most." },
+        { "texto": "the expensivest", "correcta": false, "porque": "Expensive tiene tres sílabas: no admite -est." },
+        { "texto": "more expensive than", "correcta": false, "porque": "Es un comparativo y le falta el segundo elemento; además, in the city indica un grupo, así que va superlativo." }
+      ],
+      "pistas": [
+        "Destaca un hotel entre todos los de la ciudad.",
+        "Expensive tiene tres sílabas.",
+        "Superlativo largo: the most + adjetivo."
+      ],
+      "solucion": { "respuesta": "the most expensive", "explicacion": "Se destaca un hotel entre todos los de la ciudad (in the city), así que se necesita el superlativo. Expensive es largo: the most expensive. «The more expensive» es un calco del español." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el superlativo del adjetivo entre paréntesis. Incluye the.",
+      "frase": "My grandfather is ___ person in my family. He's 94! (old)",
+      "respuestas": [["the oldest"]],
+      "traduccion": "Mi abuelo es la persona mayor de mi familia. ¡Tiene 94 años!",
+      "pistas": [
+        "Old tiene una sílaba.",
+        "El superlativo corto añade una terminación y lleva artículo.",
+        "the + adjetivo + est."
+      ],
+      "solucion": { "respuesta": "the oldest", "explicacion": "Old tiene una sílaba: the oldest. Lleva the porque solo hay una persona que sea la mayor de la familia." },
+      "errores_tipicos": {
+        "oldest": "Falta the: el superlativo va con the (the oldest).",
+        "the most old": "Old tiene una sílaba: the oldest.",
+        "the older": "Older es comparativo (entre dos). Para destacar uno de todo el grupo: the oldest."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite.",
+      "texto": "It's one of the best restaurants in town.",
+      "ipa": "/ɪts ˈwʌn əv ðə ˈbɛst ˈrɛstərɑnts ɪn ˈtaʊn/",
+      "consejo": "One of se une: «WA-nəv». La t de best casi se pierde antes de restaurants. Restaurant tiene el acento en RES y en EE. UU. suele sonar con tres sílabas: «RES-tə-rants».",
+      "es": "Es uno de los mejores restaurantes de la ciudad."
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con in u of.",
+      "frase": "Sunday is the best day ___ the week, and my mom is the best cook ___ the world.",
+      "respuestas": [["of"], ["in"]],
+      "banco": ["in", "of", "at", "from"],
+      "traduccion": "El domingo es el mejor día de la semana, y mi mamá es la mejor cocinera del mundo.",
+      "pistas": [
+        "Los dos huecos se traducen como «de» en español, pero en inglés no son iguales.",
+        "Uno es un periodo de tiempo; el otro, un lugar.",
+        "Periodo → of; lugar o grupo → in."
+      ],
+      "solucion": { "respuesta": "of | in", "explicacion": "The week es un periodo de tiempo: of the week. The world es un lugar: in the world. En español los dos son «de», pero en inglés se distinguen." },
+      "errores_tipicos": {
+        "of | of": "La primera está bien. The world es un lugar: in the world.",
+        "in | in": "The world va con in, pero the week es un periodo de tiempo: of the week."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Monterrey is one of the biggest city in Mexico.",
+      "error": "city",
+      "correcciones": ["cities"],
+      "frase_correcta": "Monterrey is one of the biggest cities in Mexico.",
+      "pistas": [
+        "Fíjate en la estructura one of the…",
+        "Monterrey es una ciudad entre varias ciudades grandes.",
+        "One of the + superlativo + sustantivo en plural."
+      ],
+      "solucion": { "respuesta": "city → cities", "explicacion": "Después de one of the + superlativo el sustantivo va en plural, porque es una de varias: one of the biggest cities. City termina en consonante + y: cities." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["the", "It", "was", "day", "of", "life", "best", "my"],
+      "respuestas": ["It was the best day of my life"],
+      "traduccion": "Fue el mejor día de mi vida.",
+      "pistas": [
+        "Empieza con el sujeto y el verbo en pasado.",
+        "El superlativo va delante del sustantivo day.",
+        "Sujeto + was + the + superlativo irregular de good + sustantivo + of + periodo de tiempo (posesivo + «vida»)."
+      ],
+      "solucion": { "respuesta": "It was the best day of my life.", "explicacion": "It was (pasado) + the best (superlativo irregular de good) + day + of my life. My life es un periodo de tiempo, por eso of." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte el comparativo en superlativo.",
+      "origen": "This beach is more beautiful than the other beaches.",
+      "instruccion": "Empieza con This is… y usa beach + in the area.",
+      "respuestas": ["This is the most beautiful beach in the area."],
+      "pistas": [
+        "El superlativo de more beautiful cambia more por otra palabra.",
+        "Lleva the delante y el sustantivo después.",
+        "This is + the + palabra del superlativo largo + adjetivo + sustantivo + in + lugar, como en This is the most expensive hotel in the city."
+      ],
+      "solucion": { "respuesta": "This is the most beautiful beach in the area.", "explicacion": "El comparativo largo usa more; el superlativo, the most. El grupo (the area) es un lugar, así que va con in." },
+      "errores_tipicos": {
+        "This is the more beautiful beach in the area.": "Para el superlativo se usa the most, no the more.",
+        "This is most beautiful beach in the area.": "Falta the: the most beautiful."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Diego is the funniest person in our class.",
+      "pistas": [
+        "Describe a un compañero dentro de un grupo.",
+        "Oyes el superlativo de funny y la preposición del grupo.",
+        "Sujeto + is + the + superlativo de funny (y → i) + sustantivo + in + our + grupo."
+      ],
+      "solucion": { "respuesta": "Diego is the funniest person in our class.", "explicacion": "Funny → the funniest (la y cambia a i). Our class es un grupo nombrado como una unidad: in our class." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.10",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hermana es la más joven de mi familia.",
+      "respuestas": ["My sister is the youngest in my family.", "My sister is the youngest person in my family.", "My sister is the youngest one in my family.", "My sister is the youngest member of my family.", "My sister is the youngest member in my family."],
+      "pistas": [
+        "«La más joven» es un superlativo de un adjetivo de una sílaba.",
+        "«De mi familia»: ¿in u of?",
+        "the + adjetivo de una sílaba + -est; un grupo nombrado como una unidad va con in."
+      ],
+      "solucion": { "respuesta": "My sister is the youngest in my family.", "explicacion": "Young → the youngest. My family es un grupo nombrado como una unidad: in my family (no of)." },
+      "errores_tipicos": {
+        "My sister is the youngest of my family.": "Con family se usa in: the youngest in my family.",
+        "My sister is the most young in my family.": "Young tiene una sílaba: the youngest.",
+        "My sister is the younger in my family.": "Younger es comparativo; para destacar en todo el grupo: the youngest."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Estás en una tienda de celulares con tu amigo Ben.",
+      "lineas": [
+        { "quien": "Ben", "en": "The black phone is $200, the white one is $350, and the blue one is $500. I don't have a lot of money.", "es": "El teléfono negro cuesta 200 dólares, el blanco 350 y el azul 500. No tengo mucho dinero." }
+      ],
+      "opciones": [
+        { "texto": "Then buy the black one. It's the cheapest of the three.", "correcta": true, "porque": "Correcto: cheap → the cheapest, y of the three (un grupo contado)." },
+        { "texto": "Then buy the black one. It's the cheaper in the three.", "correcta": false, "porque": "Entre tres se usa el superlativo (the cheapest), y un grupo contado va con of." },
+        { "texto": "Then buy the blue one. It's the most cheap.", "correcta": false, "porque": "El azul es el más caro, y cheap tiene una sílaba: the cheapest." },
+        { "texto": "Then buy the black one. It's the most cheapest.", "correcta": false, "porque": "Most y -est nunca van juntos." }
+      ],
+      "pistas": [
+        "¿Cuál es el más barato y cuántos teléfonos compara?",
+        "Son tres opciones: necesitas superlativo, no comparativo.",
+        "Con tres opciones se usa the + adjetivo corto + -est; un grupo contado en plural va con of."
+      ],
+      "solucion": { "respuesta": "Then buy the black one. It's the cheapest of the three.", "explicacion": "Hay tres teléfonos, así que se destaca uno con el superlativo: the cheapest (cheap tiene una sílaba). Of the three: un grupo contado en plural va con of." }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa one of the…",
+      "es": "Es uno de los museos más interesantes de la ciudad.",
+      "respuestas": ["It's one of the most interesting museums in the city.", "This is one of the most interesting museums in the city.", "It's one of the most interesting museums in town."],
+      "pistas": [
+        "«Uno de los…» → one of the…",
+        "Interesting es largo, y el sustantivo va en plural.",
+        "one of the + palabra del superlativo largo + adjetivo + sustantivo en plural + in + lugar."
+      ],
+      "solucion": { "respuesta": "It's one of the most interesting museums in the city.", "explicacion": "One of the + superlativo + plural: the most interesting (adjetivo largo) + museums (plural, porque es uno de varios). The city es un lugar: in." },
+      "errores_tipicos": {
+        "It's one of the most interesting museum in the city.": "Después de one of the… el sustantivo va en plural: museums.",
+        "It's one of the more interesting museums in the city.": "Superlativo largo: the most, no the more.",
+        "It's one of the most interesting museums of the city.": "La ciudad es un lugar: in the city."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.superlativos.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre los récords de tu familia o de tus amigos.",
+      "objetivo": "Usar superlativos cortos, largos e irregulares con in / of.",
+      "instrucciones": "Describe a cuatro o cinco personas de tu familia o de tu grupo de amigos (40–70 palabras). Usa al menos cuatro superlativos, incluyendo uno con the most, uno irregular (the best / the worst) y las preposiciones in y of al menos una vez cada una.",
+      "vocabulario_apoyo": ["tall", "young", "old", "funny", "quiet", "organized", "talkative", "generous", "good cook", "bad singer", "in my family", "of all my friends"],
+      "estructuras": ["X is the + adjetivo-est + in my family.", "X is the most + adjetivo + of all.", "X is the best / worst + sustantivo…"],
+      "ejemplo": "In my office, Ana is the most organized person. Tom is the youngest of us all, and Carlos makes the best coffee.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        { "descripcion": "Usas the most", "patron": "\\bthe most \\w+" },
+        { "descripcion": "Usas un superlativo irregular", "patron": "\\bthe (best|worst|farthest|furthest)\\b" },
+        { "descripcion": "Usas in después de un superlativo", "patron": "\\b\\w+est( \\w+)? in\\b" },
+        { "descripcion": "Usas of", "patron": "\\bof\\b" }
+      ],
+      "criterios": [
+        "¿Cada superlativo lleva the (o un posesivo)?",
+        "¿Los adjetivos cortos llevan -est y los largos the most (nunca los dos)?",
+        "¿Usaste in con lugares o grupos (my family) y of con plurales o periodos?",
+        "¿Aplicaste la ortografía (the biggest, the funniest)?"
+      ],
+      "modelo": "There are six people in my family. My dad is the tallest in my family, and my mom is the most organized person in the house. My little brother Leo is the youngest of all, but he's the funniest. My grandmother is the best cook in the world, and my uncle is the worst singer of the six!",
+      "explicacion": "El modelo usa superlativos cortos (the tallest, the youngest), con cambio de y (the funniest), largos (the most organized) e irregulares (the best, the worst). La preposición depende del grupo: in my family, in the house, in the world (lugares o grupos) y of all, of the six (plurales).",
+      "errores_comunes": [
+        "Olvidar the: «my dad is tallest in my family».",
+        "Decir «of my family» en lugar de in my family.",
+        "Mezclar most y -est: «the most funniest»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Recomienda tu ciudad",
+    "contexto": "Una turista, Grace, te pregunta qué visitar en tu ciudad.",
+    "dialogo": [
+      { "quien": "Grace", "en": "I'm here for two days. What's the best place to visit?", "es": "Estoy aquí dos días. ¿Cuál es el mejor lugar para visitar?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Grace", "en": "Great tips, thank you!", "es": "¡Muy buenos consejos, gracias!" }
+    ],
+    "tu_turno": "Recomienda dos o tres lugares usando superlativos (uno corto, uno largo y uno irregular) y one of the…",
+    "modelo": "The cathedral is one of the oldest buildings in the city, so go there first. The most interesting museum is next to the main square. And the best tacos are at a small market on Juárez Street.",
+    "alternativas": [
+      "Visit the old market. It's the busiest place in town, but it's one of the most beautiful. The best time to go is in the morning.",
+      "The main square is the prettiest part of the city. For dinner, try the restaurant on the corner: it has the best food in town."
+    ],
+    "claves": [
+      "Superlativo corto: the oldest, the busiest, the prettiest.",
+      "Largo: the most interesting, the most beautiful.",
+      "One of the + superlativo + plural; in the city / in town."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Cortos: the + -est (the tallest), con la misma ortografía que el comparativo (the nicest, the biggest, the happiest).",
+      "Largos: the most + adjetivo (the most expensive). Nunca the more ni most + -est.",
+      "Irregulares: the best, the worst, the farthest / the furthest.",
+      "In + lugar o grupo (in the world, in my family); of + plural o periodo (of the three, of the year).",
+      "One of the + superlativo + sustantivo plural: one of the best restaurants."
+    ],
+    "recuerda": [
+      "El posesivo sustituye a the: my best friend.",
+      "«El más caro» = the most expensive, no «the more expensive».",
+      "La menor / el mayor de la familia = the youngest / the oldest in the family."
+    ]
+  },
+  "repaso": [
+    { "id": "comparativos-y-superlativos.superlativos.r1", "frente": "Superlativo de big, happy y beautiful", "reverso": "the biggest · the happiest · the most beautiful" },
+    { "id": "comparativos-y-superlativos.superlativos.r2", "frente": "Superlativo de good, bad y far", "reverso": "the best · the worst · the farthest / the furthest" },
+    { "id": "comparativos-y-superlativos.superlativos.r3", "frente": "¿In u of? the tallest ___ my family / the best day ___ the year", "reverso": "in my family · of the year", "nota": "Lugar o grupo → in; plural o periodo → of." },
+    { "id": "comparativos-y-superlativos.superlativos.r4", "frente": "Corrige: It's one of the best restaurant in town.", "reverso": "It's one of the best restaurants in town.", "nota": "Plural después de one of the…" },
+    { "id": "comparativos-y-superlativos.superlativos.r5", "frente": "Di en inglés: «el hotel más caro de la ciudad»", "reverso": "the most expensive hotel in the city", "nota": "No «the more expensive»." }
+  ]
+}

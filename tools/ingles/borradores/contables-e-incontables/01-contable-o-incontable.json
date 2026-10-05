@@ -1,0 +1,1092 @@
+{
+  "slug": "contable-o-incontable",
+  "titulo": "¿Contable o incontable?",
+  "minutos": 40,
+  "objetivos": [
+    "Distinguir sustantivos contables (an apple, two apples) de incontables (water, rice, money).",
+    "Saber qué cambia con un incontable: sin a / an, sin plural y con el verbo en singular.",
+    "Reconocer los incontables que en español sí se cuentan: information, advice, news, furniture, luggage, homework, money, bread, hair.",
+    "Contar lo incontable con a piece of y a slice of."
+  ],
+  "situacion": {
+    "titulo": "Primer día en un intercambio",
+    "texto": "Carlos llega a una residencia de estudiantes en Canadá. La coordinadora, Priya, le da la bienvenida. Carlos traduce del español palabra por palabra y comete dos errores típicos; Priya contesta con la forma correcta sin corregirlo directamente. ¿Los encuentras?",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Hi! I need some informations about the residence.",
+        "es": "¡Hola! Necesito información sobre la residencia."
+      },
+      {
+        "quien": "Priya",
+        "en": "Sure. Here's some information about the rooms and the rules.",
+        "es": "Claro. Aquí tienes información sobre los cuartos y las reglas."
+      },
+      {
+        "quien": "Carlos",
+        "en": "Thanks. Where do I put my luggages?",
+        "es": "Gracias. ¿Dónde pongo mi equipaje?"
+      },
+      {
+        "quien": "Priya",
+        "en": "Your luggage goes in room 12. And a piece of advice: the kitchen closes at ten.",
+        "es": "Tu equipaje va en el cuarto 12. Y un consejo: la cocina cierra a las diez."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "contables-e-incontables",
+      "titulo": "Lo que se cuenta y lo que no",
+      "que_es": "Un sustantivo **contable** nombra cosas que se pueden separar y contar una por una: [[an apple]], [[three apples]], [[a chair]], [[ten chairs]]. Un sustantivo **incontable** nombra una sustancia, una masa o una idea que el inglés trata como un todo: [[water]], [[rice]], [[milk]], [[sugar]], [[cheese]], [[money]], [[music]], [[time]]. No es un capricho: si imaginas el arroz, no piensas en granos sueltos, sino en una cantidad.",
+      "para_que": [
+        "Elegir bien entre a / an y ninguna palabra: a banana, pero rice.",
+        "Saber si puedes poner plural y número: two eggs, pero no two milks.",
+        "Poner el verbo en la forma correcta: The water is cold, no The water are cold.",
+        "Prepararte para some / any y much / many, que dependen de esta distinción."
+      ],
+      "como_funciona": "**Contables:** en singular llevan siempre un determinante ([[a]], [[an]], [[the]], [[my]], [[this]]…): [[I have a car]], nunca [[I have car]]. En plural llevan -s y pueden ir con números: [[two cars]]. **Incontables:** no llevan [[a]] / [[an]], no tienen plural y el verbo va en singular: [[Milk is good for you]]. Para hablar de una cantidad indeterminada puedes usarlos solos ([[I drink water]]) o con [[some]] ([[I have some water]]), que verás a fondo en la próxima lección. Para contarlos necesitas una unidad: [[a glass of water]], [[a bottle of milk]], [[a piece of cheese]]. Un matiz importante: varias palabras de comida y bebida pueden ser de los dos tipos según el significado. [[Coffee]] (la bebida en general) es incontable, pero en una cafetería se dice [[Two coffees, please]] (dos tazas). [[Chicken]] es carne de pollo (incontable); [[a chicken]] es el animal entero. [[Cake]] es pastel en general o un trozo; [[a cake]] es un pastel entero.",
+      "estructuras": [
+        {
+          "etiqueta": "Contable singular",
+          "formula": [
+            {
+              "t": "a / an / the / my…",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "an",
+              "rol": "otro"
+            },
+            {
+              "t": "egg",
+              "rol": "complemento"
+            }
+          ],
+          "es": "un huevo"
+        },
+        {
+          "etiqueta": "Contable plural",
+          "formula": [
+            {
+              "t": "número / some / the…",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo + -s",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "six",
+              "rol": "otro"
+            },
+            {
+              "t": "eggs",
+              "rol": "complemento"
+            }
+          ],
+          "es": "seis huevos"
+        },
+        {
+          "etiqueta": "Incontable",
+          "formula": [
+            {
+              "t": "(some / the…)",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo sin -s",
+              "rol": "complemento"
+            },
+            {
+              "t": "verbo en singular",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The",
+              "rol": "otro"
+            },
+            {
+              "t": "rice",
+              "rol": "complemento"
+            },
+            {
+              "t": "is ready",
+              "rol": "verbo"
+            }
+          ],
+          "es": "El arroz está listo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Contables e incontables frecuentes en la cocina",
+          "columnas": [
+            "Contables",
+            "Incontables"
+          ],
+          "filas": [
+            [
+              "an apple / apples",
+              "water"
+            ],
+            [
+              "an egg / eggs",
+              "milk"
+            ],
+            [
+              "a tomato / tomatoes",
+              "rice"
+            ],
+            [
+              "a potato / potatoes",
+              "sugar"
+            ],
+            [
+              "a sandwich / sandwiches",
+              "cheese"
+            ],
+            [
+              "a cookie / cookies",
+              "butter"
+            ],
+            [
+              "a bean / beans",
+              "meat"
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There's an orange in the fridge.",
+          "es": "Hay una naranja en el refri.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "an orange",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the fridge",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Orange es contable: en singular necesita an (empieza con sonido vocálico)."
+        },
+        {
+          "en": "There's milk in the fridge.",
+          "es": "Hay leche en el refri.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "milk",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the fridge",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Milk es incontable: sin a y con there's (singular). There are milks sería incorrecto."
+        },
+        {
+          "en": "Rice is cheap here.",
+          "es": "El arroz es barato aquí.",
+          "partes": [
+            {
+              "t": "Rice",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "cheap",
+              "rol": "complemento"
+            },
+            {
+              "t": "here",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Hablando en general, el inglés no usa the: rice, no the rice. El verbo va en singular porque rice es incontable."
+        },
+        {
+          "en": "We need three potatoes and some cheese.",
+          "es": "Necesitamos tres papas y un poco de queso.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "three potatoes",
+              "rol": "complemento"
+            },
+            {
+              "t": "and some cheese",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Potatoes se cuenta (three, con plural -es). Cheese no: se usa some o una unidad (a piece of cheese)."
+        },
+        {
+          "en": "Two coffees and a tea, please.",
+          "es": "Dos cafés y un té, por favor.",
+          "situacion": "Pides en una cafetería.",
+          "partes": [
+            {
+              "t": "Two coffees",
+              "rol": "complemento"
+            },
+            {
+              "t": "and a tea,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Al pedir bebidas, coffees y a tea significan tazas. En general (I like coffee) coffee es incontable."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Contable",
+          "items": [
+            "a banana / two bananas",
+            "The banana is ripe.",
+            "The bananas are ripe."
+          ]
+        },
+        "b": {
+          "titulo": "Incontable",
+          "items": [
+            "bread (no a bread, no breads)",
+            "The bread is fresh.",
+            "Nunca: The bread are fresh."
+          ]
+        },
+        "veredicto": "Pregúntate: ¿puedo poner un número delante sin añadir una unidad (vaso, pieza, kilo)? Si sí, es contable. Si necesitas la unidad, es incontable."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Cómo se comporta cada tipo",
+        "centro": "sustantivo",
+        "ramas": [
+          {
+            "texto": "contable singular",
+            "detalle": "a / an: a cup"
+          },
+          {
+            "texto": "contable plural",
+            "detalle": "-s y números: two cups"
+          },
+          {
+            "texto": "incontable",
+            "detalle": "sin a, sin -s, verbo en singular: water is"
+          },
+          {
+            "texto": "para contar lo incontable",
+            "detalle": "a glass of water, a piece of cheese"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "water",
+          "ipa": "/ˈwɑːɾər/ (EE. UU.) · /ˈwɔːtə/ (R. U.)",
+          "consejo": "En inglés estadounidense la t entre vocales suena como una r suave del español (la de «pero»): «WA-rer». La primera sílaba empieza con labios redondeados, como una u muy breve.",
+          "lento": true
+        },
+        {
+          "texto": "rice",
+          "ipa": "/raɪs/",
+          "consejo": "La r inglesa no vibra: la punta de la lengua se curva hacia atrás sin tocar nada. La vocal es /aɪ/, como «ai» en «aire». Termina en /s/ sorda, sin vibración."
+        },
+        {
+          "texto": "cheese",
+          "ipa": "/tʃiːz/",
+          "consejo": "Empieza con ch como en «chile», la i es larga (sonríe un poco) y termina en /z/, que vibra. Rice termina en /s/; cheese, en /z/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I want a water.",
+          "bien": "I want some water. / I want a glass of water.",
+          "porque": "Water es incontable: no lleva a. Excepción: al pedir en un restaurante se oye A water, please (= una botella o un vaso)."
+        },
+        {
+          "mal": "The milk are in the fridge.",
+          "bien": "The milk is in the fridge.",
+          "porque": "Los incontables llevan el verbo en singular."
+        },
+        {
+          "mal": "I have car.",
+          "bien": "I have a car.",
+          "porque": "Un contable en singular necesita siempre un determinante (a, the, my…)."
+        },
+        {
+          "mal": "The rice is my favorite food.",
+          "bien": "Rice is my favorite food.",
+          "porque": "Cuando hablas de algo en general, el inglés no pone the (en español sí: «el arroz»)."
+        }
+      ]
+    },
+    {
+      "id": "incontables-trampa",
+      "titulo": "Las trampas: information, advice, news, furniture…",
+      "que_es": "Hay palabras que en español contamos con toda naturalidad («dos informaciones», «unos consejos», «las noticias», «los muebles», «las tareas») y que en inglés son **incontables**. Son una fuente constante de errores porque la traducción parece evidente. Para contarlas se usa una unidad, casi siempre [[a piece of]] (una pieza, un elemento de).",
+      "para_que": [
+        "Pedir datos: Can I have some information? (fórmula fija)",
+        "Dar y pedir consejos: a piece of advice.",
+        "Hablar de noticias, muebles, maletas y tareas sin poner -s.",
+        "Evitar errores que un angloparlante nota de inmediato: informations, advices, furnitures."
+      ],
+      "como_funciona": "Estas palabras siguen las reglas de todos los incontables: sin a / an, sin -s y con el verbo en singular. **[[news]]** termina en -s pero es singular e incontable: [[The news is good]]. **[[information]]**: [[some information]], nunca [[informations]]. **[[advice]]** (consejo): [[some advice]], [[a piece of advice]]. **[[furniture]]** (muebles): [[a piece of furniture]] = un mueble. **[[luggage]]** o **[[baggage]]** (equipaje): [[two pieces of luggage]] = dos maletas; si quieres contar, usa también [[bags]] o [[suitcases]], que sí son contables. **[[homework]]** (tarea escolar): [[I have a lot of homework]], nunca [[homeworks]]. **[[money]]**: se cuentan los billetes y los dólares ([[five dollars]]), no el dinero. **[[bread]]**: [[a slice of bread]] (una rebanada), [[a loaf of bread]] (una barra o un pan de caja entero; lo verás en la unidad 21); para «un pan» individual (un bolillo, un pan dulce) se usa una palabra contable, como [[a roll]] o [[a bun]]. **[[hair]]**: el pelo de la cabeza en general es incontable ([[She has long hair]]); [[a hair]] / [[hairs]] son pelos sueltos ([[There's a hair in my soup!]]).",
+      "estructuras": [
+        {
+          "etiqueta": "Incontable + verbo en singular",
+          "formula": [
+            {
+              "t": "The news / information…",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The news",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very good",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Las noticias son muy buenas."
+        },
+        {
+          "etiqueta": "Contar con una unidad",
+          "formula": [
+            {
+              "t": "a piece of / a slice of",
+              "rol": "otro"
+            },
+            {
+              "t": "incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "two pieces of",
+              "rol": "otro"
+            },
+            {
+              "t": "furniture",
+              "rol": "complemento"
+            }
+          ],
+          "es": "dos muebles"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Incontables en inglés que en español se cuentan",
+          "columnas": [
+            "Inglés (incontable)",
+            "Español",
+            "Para contar"
+          ],
+          "filas": [
+            [
+              "information",
+              "información / datos",
+              "a piece of information"
+            ],
+            [
+              "advice",
+              "consejo(s)",
+              "a piece of advice"
+            ],
+            [
+              "news",
+              "noticia(s)",
+              "a piece of news"
+            ],
+            [
+              "furniture",
+              "muebles",
+              "a piece of furniture"
+            ],
+            [
+              "luggage / baggage",
+              "equipaje, maletas",
+              "a piece of luggage / a bag / a suitcase"
+            ],
+            [
+              "homework",
+              "tarea(s) escolar(es)",
+              "a homework assignment / an exercise"
+            ],
+            [
+              "money",
+              "dinero",
+              "a dollar, a bill, a coin"
+            ],
+            [
+              "bread",
+              "pan",
+              "a slice of bread / a loaf of bread"
+            ],
+            [
+              "hair (de la cabeza)",
+              "pelo, cabello",
+              "a hair = un pelo suelto"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The news is on at nine.",
+          "es": "Las noticias son a las nueve.",
+          "partes": [
+            {
+              "t": "The news",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on",
+              "rol": "complemento"
+            },
+            {
+              "t": "at nine",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Aunque termina en -s, news es singular: is, no are. En español decimos «las noticias», en plural."
+        },
+        {
+          "en": "My grandma gives me good advice.",
+          "es": "Mi abuela me da buenos consejos.",
+          "partes": [
+            {
+              "t": "My grandma",
+              "rol": "sujeto"
+            },
+            {
+              "t": "gives",
+              "rol": "verbo"
+            },
+            {
+              "t": "me",
+              "rol": "complemento"
+            },
+            {
+              "t": "good advice",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Good advice, sin -s y sin a, aunque en español sea plural. Si quieres uno solo: a piece of advice o a good tip."
+        },
+        {
+          "en": "We don't have much furniture.",
+          "es": "No tenemos muchos muebles.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't have",
+              "rol": "verbo"
+            },
+            {
+              "t": "much furniture",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Furniture es incontable, así que va con much (para incontables), no con many. Lo verás en la lección 3."
+        },
+        {
+          "en": "The kids have homework every day.",
+          "es": "Los niños tienen tarea todos los días.",
+          "partes": [
+            {
+              "t": "The kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "homework",
+              "rol": "complemento"
+            },
+            {
+              "t": "every day",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Homework, nunca homeworks ni a homework. Housework (quehaceres de la casa) funciona igual."
+        },
+        {
+          "en": "There's a hair in my soup!",
+          "es": "¡Hay un pelo en mi sopa!",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "a hair",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in my soup!",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Un pelo suelto sí es contable (a hair). El pelo de la cabeza, en conjunto, no: She has long hair."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español (se cuenta)",
+          "items": [
+            "Necesito unas informaciones.",
+            "Mi papá me da consejos.",
+            "Necesitamos muebles nuevos.",
+            "Tengo muchas tareas."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés (incontable)",
+          "items": [
+            "I need some information.",
+            "My dad gives me advice.",
+            "We need new furniture.",
+            "I have a lot of homework."
+          ]
+        },
+        "veredicto": "La palabra española no te sirve de guía. Memoriza esta lista como una familia: information, advice, news, furniture, luggage, homework, money, bread. Ninguna lleva a ni -s, y todas llevan el verbo en singular."
+      },
+      "pronunciacion": [
+        {
+          "texto": "advice",
+          "ipa": "/ədˈvaɪs/",
+          "consejo": "Termina en /s/ sorda. No la confundas con el verbo advise /ədˈvaɪz/ (aconsejar), que termina en /z/ con vibración. El acento va en la segunda sílaba: ad-VICE.",
+          "lento": true
+        },
+        {
+          "texto": "furniture",
+          "ipa": "/ˈfɝːnɪtʃər/",
+          "consejo": "La primera sílaba lleva el acento y una vocal que no existe en español: /ɝː/, como decir «er» con la lengua curvada hacia atrás. La t suena ch: FUR-ni-cher."
+        },
+        {
+          "texto": "news",
+          "ipa": "/nuːz/ (EE. UU.) · /njuːz/ (R. U.)",
+          "consejo": "Termina en /z/ con vibración, no en /s/. En Estados Unidos suena «nuuz»; en Reino Unido aparece una i breve: «niuuz»."
+        },
+        {
+          "texto": "luggage",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "consejo": "La u es /ʌ/, una a corta y relajada. La terminación -age suena /ɪdʒ/: i corta más un sonido como la ll rioplatense sonora, con la lengua tocando el paladar."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I need some informations.",
+          "bien": "I need some information.",
+          "porque": "Information es incontable: nunca lleva -s."
+        },
+        {
+          "mal": "Can you give me an advice?",
+          "bien": "Can you give me some advice? / Can you give me a piece of advice?",
+          "porque": "Advice no lleva a. Para uno solo, a piece of advice."
+        },
+        {
+          "mal": "The news are bad.",
+          "bien": "The news is bad.",
+          "porque": "News es singular aunque termine en -s."
+        },
+        {
+          "mal": "We have new furnitures.",
+          "bien": "We have new furniture.",
+          "porque": "Furniture es incontable: sin -s. Un mueble = a piece of furniture."
+        },
+        {
+          "mal": "She has a long hair.",
+          "bien": "She has long hair.",
+          "porque": "El pelo de la cabeza en conjunto es incontable: sin a. A hair es un solo pelo."
+        }
+      ],
+      "nota": {
+        "titulo": "Sobre can y las fórmulas fijas",
+        "texto": "En esta lección aparecen Can I have…? y Can you give me…? como fórmulas fijas para pedir. Significan «¿me das…?» / «¿me puedes dar…?». El verbo can lo estudiarás en la unidad 22.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "contables-e-incontables.contable-o-incontable.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada sustantivo con su tipo y ejemplo de uso.",
+      "pares": [
+        {
+          "a": "apple",
+          "b": "contable: an apple, two apples"
+        },
+        {
+          "a": "rice",
+          "b": "incontable: some rice"
+        },
+        {
+          "a": "chair",
+          "b": "contable: a chair, four chairs"
+        },
+        {
+          "a": "furniture",
+          "b": "incontable: some furniture"
+        },
+        {
+          "a": "suitcase",
+          "b": "contable: a suitcase, two suitcases"
+        },
+        {
+          "a": "luggage",
+          "b": "incontable: some luggage"
+        }
+      ],
+      "pistas": [
+        "Contable = se puede poner un número delante sin añadir una unidad.",
+        "Fíjate en las parejas: chair / furniture y suitcase / luggage hablan de cosas parecidas.",
+        "Los objetos individuales (chair, suitcase, apple) son contables; los conjuntos o masas (furniture, luggage, rice), incontables."
+      ],
+      "solucion": {
+        "respuesta": "apple, chair, suitcase → contables · rice, furniture, luggage → incontables",
+        "explicacion": "Chair y suitcase son objetos individuales; furniture y luggage son el conjunto (los muebles, el equipaje) y en inglés son incontables. Rice es una masa, como water o sugar."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál de estas oraciones es correcta?",
+      "opciones": [
+        {
+          "texto": "The information is on the website.",
+          "correcta": true,
+          "porque": "Information es incontable: sin -s y con el verbo en singular (is)."
+        },
+        {
+          "texto": "The informations are on the website.",
+          "correcta": false,
+          "porque": "Information no tiene plural: informations no existe en inglés estándar."
+        },
+        {
+          "texto": "An information is on the website.",
+          "correcta": false,
+          "porque": "Los incontables no llevan a / an. Para uno solo: a piece of information."
+        }
+      ],
+      "pistas": [
+        "Information es una de las «trampas» de la lección.",
+        "Mira si la palabra lleva -s, a / an y qué verbo tiene.",
+        "Incontable = sin a / an, sin -s, verbo en singular."
+      ],
+      "solucion": {
+        "respuesta": "The information is on the website.",
+        "explicacion": "Information es incontable en inglés, aunque en español digamos «informaciones». Por eso va sin -s, sin a y con is."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta: fíjate en qué sustantivos llevan a / an y cuáles van sin artículo.",
+      "pregunta": "«Tengo un huevo, pan y un jitomate, pero no tengo queso.»",
+      "opciones": [
+        {
+          "texto": "I have an egg, bread and a tomato, but I don't have cheese.",
+          "correcta": true,
+          "porque": "Egg y tomato son contables en singular: an egg (sonido vocálico) y a tomato. Bread y cheese son incontables: van sin artículo."
+        },
+        {
+          "texto": "I have an egg, a bread and a tomato, but I don't have cheese.",
+          "correcta": false,
+          "porque": "Bread es incontable: no lleva a."
+        },
+        {
+          "texto": "I have an egg, bread and a tomato, but I don't have a cheese.",
+          "correcta": false,
+          "porque": "Cheese es incontable: no lleva a (salvo si hablas de un queso entero, que no es el caso)."
+        },
+        {
+          "texto": "I have a egg, bread and a tomato, but I don't have cheese.",
+          "correcta": false,
+          "porque": "Egg empieza con sonido vocálico: an egg, no a egg."
+        }
+      ],
+      "pistas": [
+        "Solo los contables en singular llevan a / an.",
+        "Egg y tomato son contables; bread y cheese, incontables. Mira también el primer sonido de cada palabra.",
+        "Contable singular → a / an (an antes de sonido vocálico); incontable → sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "I have an egg, bread and a tomato, but I don't have cheese.",
+        "explicacion": "Egg y tomato son contables en singular: an egg (sonido vocálico) y a tomato. Bread y cheese son incontables y no llevan a / an: se dejan sin artículo."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con is o are.",
+      "frase": "The news ___ great! The new chairs ___ here, and the furniture ___ beautiful.",
+      "traduccion": "¡Las noticias son buenísimas! Ya llegaron las sillas nuevas y los muebles están preciosos.",
+      "respuestas": [
+        [
+          "is"
+        ],
+        [
+          "are"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "banco": [
+        "is",
+        "are"
+      ],
+      "errores_tipicos": {
+        "are | are | are": "News y furniture son incontables: verbo en singular (is), aunque en español sean plurales.",
+        "are | are | is": "News termina en -s pero es singular: The news is great.",
+        "is | are | are": "Furniture es incontable: The furniture is beautiful."
+      },
+      "pistas": [
+        "Los incontables llevan el verbo en singular.",
+        "Hay tres sujetos: the news, the new chairs, the furniture. ¿Cuál es un plural de verdad?",
+        "Contable plural (con -s de verdad) → are; incontable, aunque parezca plural o sea un conjunto → is."
+      ],
+      "solucion": {
+        "respuesta": "is … are … is",
+        "explicacion": "News es incontable y singular aunque termine en -s: is. Chairs es un plural contable: are. Furniture es incontable: is. En español los tres serían plural."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "My teacher gives us a lot of homeworks on Fridays.",
+      "error": "homeworks",
+      "correcciones": [
+        "homework"
+      ],
+      "frase_correcta": "My teacher gives us a lot of homework on Fridays.",
+      "pistas": [
+        "Una de las palabras es un incontable «trampa».",
+        "Mira el sustantivo que va después de a lot of.",
+        "Homework es incontable: nunca lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "homework",
+        "explicacion": "Homework es incontable en inglés, aunque en español digamos «muchas tareas». Por eso es a lot of homework, sin -s."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Can I give you an advice? Take an umbrella today.",
+      "error": "an advice",
+      "correcciones": [
+        "some advice",
+        "a piece of advice",
+        "a tip"
+      ],
+      "frase_correcta": "Can I give you a piece of advice? Take an umbrella today.",
+      "pistas": [
+        "Can I give you…? es una fórmula fija para ofrecer algo. El error está en otra parte.",
+        "Revisa el artículo que va antes de advice.",
+        "Advice es incontable: no lleva a / an. Para uno solo, se añade una unidad."
+      ],
+      "solucion": {
+        "respuesta": "a piece of advice",
+        "explicacion": "Advice es incontable: an advice es incorrecto. Para un consejo se dice a piece of advice (o some advice, o a tip, que sí es contable). Can I give you…? es una fórmula fija: «¿te puedo dar…?»."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe con a piece of para hablar de UNA sola cosa.",
+      "origen": "We need some new furniture for the office.",
+      "instruccion": "Un solo mueble",
+      "respuestas": [
+        "We need a new piece of furniture for the office.",
+        "We need a piece of new furniture for the office."
+      ],
+      "errores_tipicos": {
+        "We need a new furniture for the office.": "Furniture no admite a: hace falta a piece of.",
+        "We need a new piece of furnitures for the office.": "Furniture no lleva -s nunca, ni siquiera después de a piece of."
+      },
+      "pistas": [
+        "Furniture no se puede contar directamente.",
+        "Sustituye some por la unidad que convierte un incontable en uno solo.",
+        "Some desaparece: a + (adjetivo) + piece of + incontable + resto, como en a nice piece of cake."
+      ],
+      "solucion": {
+        "respuesta": "We need a new piece of furniture for the office.",
+        "explicacion": "Para un solo mueble se usa a piece of furniture. El adjetivo new suele ir antes de piece (a new piece of furniture). Furniture sigue sin -s."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "long",
+        "has",
+        "hair",
+        "Mei",
+        "black"
+      ],
+      "respuestas": [
+        "Mei has long black hair"
+      ],
+      "traduccion": "Mei tiene el pelo largo y negro.",
+      "pistas": [
+        "Hair (el pelo de la cabeza) es incontable: sin a.",
+        "Los adjetivos van antes del sustantivo: primero el tamaño, luego el color.",
+        "Sujeto + has + adjetivo de largo + adjetivo de color + sustantivo incontable (sin a), como en Tom has short brown hair."
+      ],
+      "solucion": {
+        "respuesta": "Mei has long black hair.",
+        "explicacion": "Hair en general es incontable: sin a ni -s. Los adjetivos van delante, y el orden natural es tamaño (long) antes que color (black)."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "El equipaje está en el carro.",
+      "respuestas": [
+        "The luggage is in the car.",
+        "The baggage is in the car."
+      ],
+      "errores_tipicos": {
+        "The luggages are in the car.": "Luggage es incontable: sin -s y con is.",
+        "The luggage are in the car.": "Los incontables llevan el verbo en singular: is.",
+        "Luggage is in the car.": "Hablas de un equipaje concreto (el de ustedes): necesita the."
+      },
+      "pistas": [
+        "Equipaje es luggage (o baggage). ¿Es contable?",
+        "Fíjate en el verbo que le corresponde.",
+        "The + incontable + is + lugar."
+      ],
+      "solucion": {
+        "respuesta": "The luggage is in the car.",
+        "explicacion": "Luggage (o baggage) es incontable: no lleva -s y el verbo va en singular. Lleva the porque es un equipaje concreto."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa a slice of.",
+      "es": "Desayuno dos rebanadas de pan con mantequilla.",
+      "respuestas": [
+        "I have two slices of bread with butter for breakfast.",
+        "I eat two slices of bread with butter for breakfast.",
+        "For breakfast I have two slices of bread with butter.",
+        "For breakfast I eat two slices of bread with butter.",
+        "I have two slices of bread and butter for breakfast.",
+        "For breakfast, I have two slices of bread with butter.",
+        "I have two slices of buttered bread for breakfast.",
+        "I eat two slices of buttered bread for breakfast."
+      ],
+      "errores_tipicos": {
+        "I have two slices of breads with butter for breakfast.": "Bread nunca lleva -s: lo que va en plural es slices.",
+        "I have two breads with butter for breakfast.": "Bread no se cuenta directamente: two slices of bread.",
+        "I take two slices of bread with butter for breakfast.": "Para comer se usa have o eat, no take."
+      },
+      "pistas": [
+        "Pan y mantequilla son incontables; rebanada es contable.",
+        "«Desayunar algo» se dice have / eat + algo + for breakfast.",
+        "Sujeto + have + número + slices of + incontable + with + otro alimento + for breakfast, como en I have two cups of coffee with milk for breakfast."
+      ],
+      "solucion": {
+        "respuesta": "I have two slices of bread with butter for breakfast.",
+        "explicacion": "Bread es incontable, así que se cuenta con slices (plural de slice); bread no cambia. «Desayunar X» es have X for breakfast (o eat). Butter es incontable y va sin artículo."
+      }
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "The news is good, and the information is on the website.",
+      "pistas": [
+        "Hay dos incontables «trampa».",
+        "Los dos van con el mismo verbo en singular.",
+        "News parece plural por la -s, pero es incontable, igual que information: los dos llevan el verbo en singular."
+      ],
+      "solucion": {
+        "respuesta": "The news is good, and the information is on the website.",
+        "explicacion": "News e information son incontables: van sin -s (news ya la trae, pero es singular) y con is."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "A piece of advice and a piece of information.",
+      "ipa": "/ə ˈpiːs əv ədˈvaɪs ən ə ˈpiːs əv ˌɪnfərˈmeɪʃən/",
+      "consejo": "Piece tiene una i larga (sonríe) y termina en /s/. Of se reduce a /əv/ y se une a piece: «PIIS-av». En information el acento fuerte va en -MA-: in-for-MA-tion, y la terminación -tion suena /ʃən/, como «shan» muy breve.",
+      "es": "Un consejo y un dato."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En la oficina de turismo",
+    "contexto": "Llegas a una ciudad nueva y vas a la oficina de información turística. Te atiende Ben.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hi! How can I help you?",
+        "es": "¡Hola! ¿En qué te puedo ayudar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "Sure. Here's a map. Any other questions?",
+        "es": "Claro. Aquí tienes un mapa. ¿Alguna otra pregunta?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Pide información sobre la ciudad (sin -s). Después explica que tienes equipaje y pregunta dónde lo puedes dejar, o pide un consejo con a piece of advice.",
+    "modelo": "Hi! I need some information about the city, please. — Yes. I have a lot of luggage. Is there a place for luggage here?",
+    "alternativas": [
+      "Good morning. I'd like some information about museums. — Yes, just one. Do you have any advice about restaurants?",
+      "Hi. I need information about buses, please. — Yes. Can I have a piece of advice? Where's a good place for dinner?"
+    ],
+    "claves": [
+      "information, luggage, advice: sin a y sin -s.",
+      "Para uno solo: a piece of advice.",
+      "I'd like y Can I have son fórmulas fijas para pedir con cortesía."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Contables: a / an en singular, -s en plural, con números.",
+      "Incontables: sin a / an, sin -s, verbo en singular.",
+      "Incontables trampa: information, advice, news, furniture, luggage / baggage, homework, money, bread, hair (en general).",
+      "Para contar lo incontable: a piece of advice, a slice of bread, a glass of water."
+    ],
+    "recuerda": [
+      "The news is…, nunca The news are…",
+      "a hair = un pelo suelto; long hair = el cabello.",
+      "Coffee, tea, cake o chicken pueden ser contables o incontables según el significado.",
+      "Hablando en general no se pone the: Rice is cheap."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "contables-e-incontables.contable-o-incontable.r1",
+      "frente": "¿Informations o information?",
+      "reverso": "information (incontable, sin -s)",
+      "nota": "Un dato: a piece of information."
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.r2",
+      "frente": "The news ___ good. (is / are)",
+      "reverso": "is",
+      "nota": "News es singular aunque termine en -s."
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.r3",
+      "frente": "¿Cómo se dice «un consejo»?",
+      "reverso": "a piece of advice (o a tip)",
+      "nota": "Nunca an advice."
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.r4",
+      "frente": "¿Cómo se dice «un mueble»?",
+      "reverso": "a piece of furniture",
+      "nota": "Furniture = los muebles, incontable."
+    },
+    {
+      "id": "contables-e-incontables.contable-o-incontable.r5",
+      "frente": "She has ___ long hair. (a / nada)",
+      "reverso": "nada → She has long hair.",
+      "nota": "A hair = un pelo suelto."
+    }
+  ]
+}

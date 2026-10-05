@@ -1,0 +1,523 @@
+{
+  "slug": "negacion-to-be",
+  "titulo": "La negación con to be",
+  "minutos": 35,
+  "objetivos": [
+    "Negar con to be colocando not después de am, is o are.",
+    "Usar las dos contracciones negativas (she isn't / she's not) y saber por qué con I solo existe I'm not.",
+    "Reconocer al oído isn't, aren't y I'm not aunque la t final casi no suene.",
+    "Negar un dato y dar el dato correcto en la misma intervención."
+  ],
+  "situacion": {
+    "titulo": "Un dato equivocado",
+    "texto": "Tom presenta a su compañera Mei a su amigo Carlos, pero se equivoca de país. Mei lo corrige con amabilidad: niega el dato falso y da el verdadero. Fíjate en dónde aparece not y en que nadie usa don't.",
+    "dialogo": [
+      {"quien": "Tom", "en": "Carlos, this is Mei. She's from Japan.", "es": "Carlos, ella es Mei. Es de Japón."},
+      {"quien": "Mei", "en": "Actually, I'm not from Japan. I'm from China.", "es": "En realidad no soy de Japón. Soy de China."},
+      {"quien": "Tom", "en": "Oh, sorry, Mei!", "es": "¡Ay, perdón, Mei!"},
+      {"quien": "Carlos", "en": "Nice to meet you, Mei. Tom isn't very good with countries!", "es": "Mucho gusto, Mei. ¡Tom no es muy bueno con los países!"},
+      {"quien": "Mei", "en": "No, he's not!", "es": "¡No, no lo es!"}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "not-despues-de-be",
+      "titulo": "Not va después de am, is, are",
+      "que_es": "Para negar con to be solo necesitas una palabra: **not**, colocada justo después de am, is o are. No hace falta ningún otro verbo auxiliar: ni do, ni don't, ni no.",
+      "para_que": [
+        "Corregir un dato equivocado: [[I'm not from Spain.]]",
+        "Decir cómo NO estás: [[I'm not tired.]]",
+        "Negar una profesión, una edad o un lugar: [[She isn't a doctor.]] [[They aren't at home.]]",
+        "Hablar del tiempo: [[It isn't cold today.]]"
+      ],
+      "como_funciona": "En español la negación va ANTES del verbo: «Ella **no es** doctora». En inglés va DESPUÉS de be: {{sujeto:She}} {{verbo:is}} {{negacion:not}} {{complemento:a doctor}}. Todo lo demás se queda igual que en la afirmación: el mismo sujeto, la misma forma de be (am con I; is con he, she, it y con un sustantivo singular; are con you, we, they y con sujetos plurales) y el mismo complemento.\n\nDos avisos importantes para un hispanohablante:\n1. **No uses no para negar el verbo.** En inglés [[no]] sirve para contestar ([[No, thanks.]]) o delante de un sustantivo (lo verás más adelante), pero nunca se pone delante de is.\n2. **No uses don't con to be.** Don't y doesn't sirven para negar OTROS verbos (lo verás con el presente simple). Be se niega solo, con not.\n\nY como siempre, el sujeto es obligatorio: «No es nuevo» no puede quedarse en [[Is not new]]; necesita [[It]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negación (forma completa)",
+          "formula": [{"t": "Sujeto", "rol": "sujeto"}, {"t": "am / is / are", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "complemento", "rol": "complemento"}],
+          "ejemplo": [{"t": "She", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "a doctor", "rol": "complemento"}],
+          "es": "Ella no es doctora."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación y negación completa",
+          "columnas": ["Sujeto", "Afirmación", "Negación"],
+          "filas": [
+            ["I", "I am", "I am not"],
+            ["you", "you are", "you are not"],
+            ["he / she / it", "she is", "she is not"],
+            ["we", "we are", "we are not"],
+            ["they", "they are", "they are not"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I am not from Spain.",
+          "es": "No soy de España.",
+          "situacion": "Alguien cree que eres español por tu acento.",
+          "partes": [{"t": "I", "rol": "sujeto"}, {"t": "am", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "from Spain", "rol": "complemento"}],
+          "nota": "En español basta con «No soy…», pero en inglés el sujeto I tiene que estar. Not entra justo después de am."
+        },
+        {
+          "en": "It is not cold today.",
+          "es": "Hoy no hace frío.",
+          "situacion": "Un amigo sale con chamarra y tú le dices que no hace falta.",
+          "partes": [{"t": "It", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "cold", "rol": "complemento"}, {"t": "today", "rol": "tiempo"}],
+          "nota": "El tiempo atmosférico se expresa con it + be, no con «hacer». La negación solo añade not después de is."
+        },
+        {
+          "en": "Diego and Lucía are not at home.",
+          "es": "Diego y Lucía no están en casa.",
+          "partes": [{"t": "Diego and Lucía", "rol": "sujeto"}, {"t": "are", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "at home", "rol": "complemento"}],
+          "nota": "Dos personas forman un sujeto plural, así que va are. La negación no cambia la forma de be: si en la afirmación es are, en la negación también."
+        },
+        {
+          "en": "My phone is not new.",
+          "es": "Mi celular no es nuevo.",
+          "partes": [{"t": "My phone", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "new", "rol": "complemento"}]
+        }
+      ],
+      "comparacion": {
+        "a": {"titulo": "Español: «Ella no es doctora»", "items": ["«no» va ANTES del verbo", "se puede omitir «ella»", "no hay artículo delante de la profesión"]},
+        "b": {"titulo": "Inglés: She is not a doctor.", "items": ["not va DESPUÉS de is", "el sujeto she es obligatorio", "la profesión lleva a (a doctor), como en la afirmación"]},
+        "veredicto": "La idea es la misma, pero el orden cambia: en inglés primero va be y luego not. Si piensas «sujeto, be, not», no te equivocas."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación",
+        "pasos": [
+          {"etiqueta": "Afirmación", "partes": [{"t": "She", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "a doctor", "rol": "complemento"}]},
+          {"etiqueta": "Negación completa", "partes": [{"t": "She", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "a doctor", "rol": "complemento"}]},
+          {"etiqueta": "Negación contraída", "partes": [{"t": "She", "rol": "sujeto"}, {"t": "isn't", "rol": "negacion"}, {"t": "a doctor", "rol": "complemento"}]}
+        ],
+        "pie": "Nada se mueve de lugar: not simplemente entra detrás de is. Después, is y not pueden fundirse en isn't."
+      },
+      "pronunciacion": [
+        {"texto": "not", "ipa": "/nɑt/ (británico /nɒt/)", "consejo": "En inglés estadounidense la vocal es una «a» abierta, con la boca bien abierta y la lengua baja; no es la «o» del español «no». En británico sí se parece más a una o corta. La t final se corta casi sin soltar aire.", "lento": true},
+        {"texto": "I am not tired.", "ipa": "/aɪ æm ˈnɑt ˈtaɪərd/", "consejo": "Cuando usas la forma completa, la fuerza de la voz cae sobre not: así suena más enfático, como el español «que NO estoy cansado»."}
+      ],
+      "errores": [
+        {"mal": "She no is a doctor.", "bien": "She isn't a doctor.", "porque": "Calco del español «no es». En inglés not va después de is, y la palabra no no sirve para negar un verbo."},
+        {"mal": "I don't am tired.", "bien": "I'm not tired.", "porque": "Don't niega otros verbos, nunca a be. To be se niega solo, con not."},
+        {"mal": "Is not new.", "bien": "It isn't new.", "porque": "El sujeto no se omite en inglés. Para una cosa ya mencionada, el sujeto es it."}
+      ]
+    },
+    {
+      "id": "dos-contracciones",
+      "titulo": "Dos formas de contraer: she isn't / she's not",
+      "que_es": "En la conversación casi nadie dice she is not completo: se contrae. Hay **dos maneras** de hacerlo, y las dos son correctas: juntar be con el sujeto (**she's not**) o juntar be con not (**she isn't**). Con I solo existe una: **I'm not**.",
+      "para_que": [
+        "Hablar con naturalidad: la forma completa suena lenta o enfática.",
+        "Entender a los hablantes nativos, que usan las dos formas indistintamente.",
+        "Escribir mensajes, correos informales y chats."
+      ],
+      "como_funciona": "**Forma A — contraer el sujeto con be:** I'm not, you're not, he's not, she's not, it's not, we're not, they're not.\n**Forma B — contraer be con not:** you aren't, he isn't, she isn't, it isn't, we aren't, they aren't.\n\nCon I solo existe la forma A: **I'm not**. La forma «amn't» no existe en el inglés estándar. (Existe la pregunta [[Aren't I…?]], pero es un caso especial que verás más adelante; en afirmaciones nunca se dice «I aren't».)\n\nNo se puede contraer dos veces: «she'sn't» no existe. Eliges una de las dos formas.\n\n¿Cuál usar? Significan exactamente lo mismo. La forma A (she's not) pone un poco más de peso en not y es algo más frecuente en el habla; la forma B (she isn't) es muy común en ambos casos y es la preferida cuando el sujeto es un nombre o un sustantivo: [[Tom isn't here.]] (también oirás [[Tom's not here]] en conversación, pero por escrito es menos habitual). La forma completa (is not) queda para textos formales o para insistir.",
+      "estructuras": [
+        {
+          "etiqueta": "Forma A: sujeto + 's / 're / 'm + not",
+          "formula": [{"t": "Sujeto + 'm / 's / 're", "rol": "sujeto"}, {"t": "not", "rol": "negacion"}, {"t": "complemento", "rol": "complemento"}],
+          "ejemplo": [{"t": "She's", "rol": "sujeto"}, {"t": "not", "rol": "negacion"}, {"t": "tired", "rol": "complemento"}],
+          "es": "Ella no está cansada."
+        },
+        {
+          "etiqueta": "Forma B: sujeto + isn't / aren't",
+          "formula": [{"t": "Sujeto", "rol": "sujeto"}, {"t": "isn't / aren't", "rol": "negacion"}, {"t": "complemento", "rol": "complemento"}],
+          "ejemplo": [{"t": "She", "rol": "sujeto"}, {"t": "isn't", "rol": "negacion"}, {"t": "tired", "rol": "complemento"}],
+          "es": "Ella no está cansada."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las contracciones negativas de to be",
+          "columnas": ["Sujeto", "Forma A (sujeto + be)", "Forma B (be + not)"],
+          "filas": [
+            ["I", "I'm not", "— (no existe)"],
+            ["you", "you're not", "you aren't"],
+            ["he", "he's not", "he isn't"],
+            ["she", "she's not", "she isn't"],
+            ["it", "it's not", "it isn't"],
+            ["we", "we're not", "we aren't"],
+            ["they", "they're not", "they aren't"]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm not ready.",
+          "es": "No estoy listo.",
+          "partes": [{"t": "I'm", "rol": "sujeto"}, {"t": "not", "rol": "negacion"}, {"t": "ready", "rol": "complemento"}],
+          "nota": "Con I solo hay una contracción negativa: I'm not. No existe «I amn't» ni «I aren't»."
+        },
+        {
+          "en": "You aren't late.",
+          "es": "No llegas tarde.",
+          "situacion": "Una amiga llega corriendo y se disculpa; tú la tranquilizas.",
+          "partes": [{"t": "You", "rol": "sujeto"}, {"t": "aren't", "rol": "negacion"}, {"t": "late", "rol": "complemento"}],
+          "nota": "Igual de correcto: You're not late. En español usamos «llegar»; en inglés es un estado: estar tarde = be late."
+        },
+        {
+          "en": "It's not my bag.",
+          "es": "No es mi bolsa.",
+          "partes": [{"t": "It's", "rol": "sujeto"}, {"t": "not", "rol": "negacion"}, {"t": "my bag", "rol": "complemento"}],
+          "nota": "Cuidado: it's (it is) lleva apóstrofo. Equivale a It isn't my bag."
+        },
+        {
+          "en": "Priya isn't at work.",
+          "es": "Priya no está en el trabajo.",
+          "partes": [{"t": "Priya", "rol": "sujeto"}, {"t": "isn't", "rol": "negacion"}, {"t": "at work", "rol": "complemento"}],
+          "nota": "Con un nombre propio lo más natural por escrito es isn't."
+        },
+        {
+          "en": "We aren't from here.",
+          "es": "No somos de aquí.",
+          "partes": [{"t": "We", "rol": "sujeto"}, {"t": "aren't", "rol": "negacion"}, {"t": "from here", "rol": "complemento"}]
+        }
+      ],
+      "comparacion": {
+        "a": {"titulo": "she isn't", "items": ["be se une a not", "muy frecuente, al hablar y al escribir", "la forma habitual después de un nombre: Mei isn't here"]},
+        "b": {"titulo": "she's not", "items": ["be se une al sujeto", "not queda como palabra suelta y recibe más fuerza", "la ÚNICA posible con I: I'm not"]},
+        "veredicto": "Las dos significan lo mismo y las dos son correctas. Aprende a producir una con soltura y a reconocer las dos al escuchar."
+      },
+      "pronunciacion": [
+        {"texto": "isn't", "ipa": "/ˈɪzənt/", "consejo": "Dos sílabas, pero la segunda casi no tiene vocal: la z (que vibra, como un zumbido de abeja) pasa directo a la n. La t final muchas veces ni se suelta. Al escuchar, la pista de que es negativo es esa n pegada a «iz».", "lento": true},
+        {"texto": "aren't", "ipa": "/ɑrnt/ (británico /ɑːnt/)", "consejo": "Una sola sílaba. En inglés estadounidense la r se oye (lengua curvada hacia atrás, sin tocar el paladar) y enseguida la n. Si oyes «ar» seguido de n, es negativo; are solo termina en r.", "lento": true},
+        {"texto": "She's not here.", "ipa": "/ʃiz ˈnɑt ˈhɪr/", "consejo": "She's suena con z sonora al final, pegada a not. La fuerza cae sobre not: por eso esta forma se oye con claridad."},
+        {"texto": "I'm not", "ipa": "/aɪm ˈnɑt/", "consejo": "I'm es una sola sílaba, como «aim» en español cerrando los labios en la m; enseguida not con fuerza."}
+      ],
+      "errores": [
+        {"mal": "I amn't hungry.", "bien": "I'm not hungry.", "porque": "Amn't no existe en el inglés estándar. Con I, la única contracción negativa es I'm not."},
+        {"mal": "She'sn't here.", "bien": "She isn't here. / She's not here.", "porque": "Solo se contrae una vez: o juntas she con is, o juntas is con not."},
+        {"mal": "I aren't ready.", "bien": "I'm not ready.", "porque": "Con I la forma de be es am, también en la negación. Are es para you, we y they."}
+      ],
+      "nota": {"titulo": "Al escuchar", "texto": "La t final de isn't y aren't casi nunca se oye con claridad. Para saber si una frase es negativa, escucha si después de is o are aparece un sonido de n, o si aparece la palabra not con fuerza.", "tono": "info"}
+    },
+    {
+      "id": "negar-y-corregir",
+      "titulo": "Negar y dar el dato correcto",
+      "que_es": "En una conversación, una negación sola suena seca o deja a la otra persona esperando. Lo natural es negar y, en la oración siguiente, dar la información correcta.",
+      "para_que": [
+        "Corregir con amabilidad a quien se equivocó: [[I'm not from Japan. I'm from China.]]",
+        "Aclarar tu estado: [[I'm not sad. I'm tired.]]",
+        "Dar un dato en lugar de otro: [[It isn't hot. It's cold.]]"
+      ],
+      "como_funciona": "Son dos oraciones completas, cada una con su sujeto y su verbo: la primera con not y la segunda afirmativa. En español podemos decir «No soy maestro, soy enfermero» sin repetir el sujeto; en inglés el sujeto se repite: [[I'm not a teacher. I'm a nurse.]]\n\nAl hablar, la voz sube en las palabras que se contrastan (teacher / nurse), no en be.",
+      "estructuras": [
+        {
+          "etiqueta": "Negar + corregir",
+          "formula": [{"t": "Sujeto + be + not + dato falso", "rol": "negacion"}, {"t": "Sujeto + be + dato correcto", "rol": "complemento"}],
+          "ejemplo": [{"t": "I'm not a teacher.", "rol": "negacion"}, {"t": "I'm a nurse.", "rol": "complemento"}],
+          "es": "No soy maestro. Soy enfermero."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "He isn't sad. He's tired.",
+          "es": "No está triste. Está cansado.",
+          "partes": [{"t": "He", "rol": "sujeto"}, {"t": "isn't", "rol": "negacion"}, {"t": "sad.", "rol": "complemento"}, {"t": "He's", "rol": "sujeto"}, {"t": "tired", "rol": "complemento"}],
+          "nota": "El sujeto se repite en la segunda oración: He's tired, no «is tired»."
+        },
+        {
+          "en": "They aren't brothers. They're friends.",
+          "es": "No son hermanos. Son amigos.",
+          "partes": [{"t": "They", "rol": "sujeto"}, {"t": "aren't", "rol": "negacion"}, {"t": "brothers.", "rol": "complemento"}, {"t": "They're", "rol": "sujeto"}, {"t": "friends", "rol": "complemento"}],
+          "nota": "Brothers y friends llevan -s porque son dos personas o más."
+        },
+        {
+          "en": "You aren't 30. You're 29!",
+          "es": "¡No tienes 30, tienes 29!",
+          "partes": [{"t": "You", "rol": "sujeto"}, {"t": "aren't", "rol": "negacion"}, {"t": "30.", "rol": "complemento"}, {"t": "You're", "rol": "sujeto"}, {"t": "29", "rol": "complemento"}],
+          "nota": "La edad se dice con be, también en negativo: nunca «You don't have 30»."
+        },
+        {
+          "en": "It's not hot. It's cold.",
+          "es": "No hace calor. Hace frío.",
+          "partes": [{"t": "It's", "rol": "sujeto"}, {"t": "not", "rol": "negacion"}, {"t": "hot.", "rol": "complemento"}, {"t": "It's", "rol": "sujeto"}, {"t": "cold", "rol": "complemento"}]
+        }
+      ],
+      "pronunciacion": [
+        {"texto": "I'm not a teacher. I'm a nurse.", "ipa": "/aɪm ˈnɑt ə ˈtiːtʃər | aɪm ə ˈnɝs/", "consejo": "Sube la voz en teacher y en nurse, las palabras que contrastas. El artículo a se reduce a una vocal muy débil, /ə/, como una «e» relajada y corta."}
+      ],
+      "errores": [
+        {"mal": "I'm not tired, is hungry.", "bien": "I'm not tired. I'm hungry.", "porque": "La segunda oración también necesita sujeto y be. Además, con I la forma es am (I'm), no is."},
+        {"mal": "No tired. Hungry.", "bien": "I'm not tired. I'm hungry.", "porque": "En inglés no basta con las palabras sueltas: cada idea necesita sujeto y verbo."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«Ella no está cansada.»",
+      "opciones": [
+        {"texto": "She isn't tired.", "correcta": true, "porque": "Correcto: sujeto she + isn't (is + not) + tired. Not va después de is."},
+        {"texto": "She no is tired.", "correcta": false, "porque": "Es el calco del español «no está»: en inglés no se usa no para negar el verbo, y not va después de is."},
+        {"texto": "She don't is tired.", "correcta": false, "porque": "Don't nunca acompaña a be. To be se niega solo, con not."},
+        {"texto": "Isn't tired.", "correcta": false, "porque": "Falta el sujeto she. En inglés el sujeto no se omite."}
+      ],
+      "pistas": [
+        "Recuerda: to be se niega con una sola palabra, not.",
+        "Fíjate en si la oración tiene sujeto y en dónde está la negación.",
+        "Regla: sujeto + am/is/are + not + complemento; is + not se contrae en isn't."
+      ],
+      "solucion": {"respuesta": "She isn't tired.", "explicacion": "La respuesta correcta es She isn't tired. porque tiene sujeto (she), la forma de be correcta para ella (is) y not justo después de is, contraído en isn't. Las demás usan no o don't, o se comen el sujeto."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la negación de be (forma completa o contraída).",
+      "frase": "Carlos ___ a teacher. He's a doctor.",
+      "traduccion": "Carlos no es maestro. Es doctor.",
+      "respuestas": [["isn't", "is not"]],
+      "errores_tipicos": {
+        "no is": "No se usa no para negar el verbo, y not va después de is: isn't.",
+        "aren't": "Carlos es una sola persona (tercera del singular): va is, así que la negación es isn't.",
+        "don't": "Don't no acompaña a be. Aquí la negación de is es is not / isn't."
+      },
+      "pistas": [
+        "Carlos es una sola persona: ¿qué forma de be le corresponde?",
+        "Mira el sujeto (Carlos) y piensa en la forma afirmativa: Carlos ___ a teacher.",
+        "Regla: he/she/it o un nombre singular → is; en negación, is not o isn't."
+      ],
+      "solucion": {"respuesta": "isn't", "explicacion": "La respuesta correcta es isn't (o is not) porque Carlos es tercera persona del singular, que usa is; para negar se añade not detrás: is not, contraído isn't. La segunda oración da el dato correcto: He's a doctor."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada forma completa con su contracción.",
+      "pares": [
+        {"a": "I am not", "b": "I'm not"},
+        {"a": "she is not", "b": "she isn't"},
+        {"a": "they are not", "b": "they aren't"},
+        {"a": "it is not", "b": "it's not"},
+        {"a": "you are not", "b": "you're not"},
+        {"a": "we are not", "b": "we aren't"}
+      ],
+      "pistas": [
+        "Recuerda que hay dos formas de contraer: sujeto + be (it's not) o be + not (it isn't).",
+        "Busca primero el sujeto de cada forma completa y luego la contracción que empieza igual.",
+        "Regla: am not → solo I'm not; is not → isn't o 's not; are not → aren't o 're not."
+      ],
+      "solucion": {"respuesta": "I am not → I'm not · she is not → she isn't · they are not → they aren't · it is not → it's not · you are not → you're not · we are not → we aren't", "explicacion": "Cada forma completa se une con la contracción que tiene su mismo sujeto. Observa que aparecen las dos maneras de contraer (she isn't / it's not), y que I solo admite I'm not."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativo.",
+      "origen": "They are at school.",
+      "instruccion": "Negativa",
+      "respuestas": ["They aren't at school.", "They are not at school."],
+      "errores_tipicos": {
+        "They don't are at school": "Don't nunca acompaña a be. Basta con añadir not después de are.",
+        "They no are at school": "No no sirve para negar un verbo en inglés: are not o aren't.",
+        "They isn't at school": "They es plural: va are, y en negativo are not / aren't."
+      },
+      "pistas": [
+        "Para negar to be solo añades una palabra.",
+        "Busca el verbo are: la negación va justo detrás.",
+        "Regla: sujeto + are + not (aren't) + complemento. El resto no se mueve."
+      ],
+      "solucion": {"respuesta": "They aren't at school.", "explicacion": "La respuesta correcta es They aren't at school. (o They're not / They are not) porque basta con poner not detrás de are; they sigue siendo plural, así que be sigue siendo are."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativo usando la forma contraída.",
+      "origen": "I am cold.",
+      "instruccion": "Negativa contraída",
+      "respuestas": ["I'm not cold."],
+      "errores_tipicos": {
+        "I amn't cold": "Amn't no existe. Con I la única contracción negativa es I'm not.",
+        "I aren't cold": "Con I la forma de be es am, nunca are. La contracción es I'm not.",
+        "I'm no cold": "No no niega un verbo en inglés: la palabra es not."
+      },
+      "pistas": [
+        "Con I solo hay una forma contraída negativa.",
+        "Contrae el sujeto con be y deja not suelto.",
+        "Regla: con I, am y not no se contraen entre sí (no existe «amn't»): se contrae el sujeto con be."
+      ],
+      "solucion": {"respuesta": "I'm not cold.", "explicacion": "La respuesta correcta es I'm not cold. porque con I la única manera de contraer la negación es unir I + am (I'm) y dejar not como palabra aparte. La forma «amn't» no existe en el inglés estándar."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una oración negativa.",
+      "fichas": ["from", "isn't", "Chile", "He"],
+      "respuestas": ["He isn't from Chile"],
+      "traduccion": "Él no es de Chile.",
+      "pistas": [
+        "Toda oración empieza por el sujeto.",
+        "La negación isn't va inmediatamente después del sujeto.",
+        "Orden: sujeto + isn't + from + lugar."
+      ],
+      "solucion": {"respuesta": "He isn't from Chile.", "explicacion": "El orden correcto es He isn't from Chile.: primero el sujeto (He), luego be con la negación (isn't) y al final el complemento de origen (from Chile)."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y escribe la corrección.",
+      "frase": "My sister no is a student.",
+      "error": "no is",
+      "correcciones": ["isn't", "is not"],
+      "frase_correcta": "My sister isn't a student.",
+      "errores_tipicos": {
+        "no": "Sigue faltando algo: la negación de be es not, y va después de is (isn't).",
+        "don't is": "Don't no acompaña a be. La negación es is not / isn't."
+      },
+      "pistas": [
+        "Piensa en el calco del español «mi hermana no es…».",
+        "Mira las palabras que van justo antes del complemento a student.",
+        "Regla: en inglés, not va DESPUÉS de is; no no se usa para negar un verbo."
+      ],
+      "solucion": {"respuesta": "My sister isn't a student.", "explicacion": "El error está en no is: es el orden del español. En inglés la negación es not y se coloca después de is: My sister is not / isn't a student."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. Atención: ¿es afirmativa o negativa?",
+      "texto": "We aren't ready.",
+      "respuestas": ["We are not ready."],
+      "audio": true,
+      "pistas": [
+        "Escucha si después de we aparece un sonido de n.",
+        "El sujeto es we: ¿qué forma de be le corresponde?",
+        "Regla: are + not se contrae en aren't, una sola sílaba que suena «arnt»."
+      ],
+      "solucion": {"respuesta": "We aren't ready.", "explicacion": "La oración es We aren't ready. (No estamos listos.) La pista para saber que es negativa es la n después de are: aren't se pronuncia en una sola sílaba y la t casi no se oye."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "She's not at home.",
+      "respuestas": ["She isn't at home.", "She is not at home."],
+      "audio": true,
+      "pistas": [
+        "Esta vez la negación se oye como una palabra aparte.",
+        "Escucha la z al final de she y la palabra fuerte que viene después.",
+        "Regla: is not puede contraerse de dos maneras: uniendo el sujeto con be (he's not) o uniendo be con not (he isn't)."
+      ],
+      "solucion": {"respuesta": "She's not at home.", "explicacion": "Se dice She's not at home. (Ella no está en casa.) Aquí se contrajo el sujeto con be (she's) y not quedó suelto y con fuerza. Es equivalente a She isn't at home."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "No tengo hambre.",
+      "respuestas": ["I'm not hungry."],
+      "errores_tipicos": {
+        "I don't have hunger": "Calco del español. El hambre se expresa con be + hungry: I'm not hungry.",
+        "I not hungry": "Falta el verbo: I'm not hungry (I am not hungry).",
+        "I'm no hungry": "La negación de be es not, no no."
+      },
+      "pistas": [
+        "En inglés el hambre no se «tiene»: se «está».",
+        "Usa el adjetivo hungry y el verbo be con el sujeto I.",
+        "Regla: sujeto + be + not + adjetivo; con I solo puede contraerse el sujeto con be."
+      ],
+      "solucion": {"respuesta": "I'm not hungry.", "explicacion": "La respuesta correcta es I'm not hungry. porque en inglés el hambre es un estado que se expresa con be + hungry, no con have. Para negarlo con I se usa I'm not (I am not)."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mis padres no están en casa.",
+      "respuestas": ["My parents aren't at home.", "My parents aren't home."],
+      "errores_tipicos": {
+        "My parents isn't at home": "Parents es plural: va are, y en negación aren't.",
+        "My parents don't are at home": "Don't nunca va con be: aren't.",
+        "My parents no are at home": "No no niega verbos en inglés: are not / aren't."
+      },
+      "pistas": [
+        "El sujeto es plural: son dos personas.",
+        "Elige la forma de be para un sujeto plural y añade la negación.",
+        "Regla: sujeto plural + be negativo + lugar (como en The kids aren't at school)."
+      ],
+      "solucion": {"respuesta": "My parents aren't at home.", "explicacion": "La respuesta correcta es My parents aren't at home. porque parents es plural y lleva are; la negación es are not o aren't. «En casa» se dice at home (también es común home sin at después de be)."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.12",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa: niega el primer dato y da el correcto. Usa sujeto + be en cada hueco.",
+      "frase": "Omar ___ from Mexico. ___ from Colombia.",
+      "traduccion": "Omar no es de México. Es de Colombia.",
+      "respuestas": [["isn't", "is not"], ["He's", "He is"]],
+      "errores_tipicos": {
+        "isn't | is": "La segunda oración necesita sujeto: He's (He is) from Colombia.",
+        "no is | he's": "No no niega el verbo: isn't / is not."
+      },
+      "pistas": [
+        "Primera oración: negativa; segunda: afirmativa.",
+        "En el segundo hueco no hay sujeto escrito: tienes que ponerlo tú.",
+        "Regla: nombre singular + is not (contraído o no); en la segunda oración, el pronombre que sustituye a ese nombre + be + dato correcto."
+      ],
+      "solucion": {"respuesta": "isn't … He's", "explicacion": "Omar isn't from Mexico. He's from Colombia. El primer hueco lleva is + not porque Omar es tercera persona del singular. El segundo necesita sujeto (He), porque en inglés nunca se omite, y be afirmativo (is)."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.negacion-to-be.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Compara isn't con is.",
+      "texto": "It isn't cold. It's hot.",
+      "ipa": "/ɪt ˈɪzənt ˈkoʊld | ɪts ˈhɑt/",
+      "consejo": "En isn't la z vibra y pasa directo a la n: «ízənt», con la segunda sílaba casi sin vocal. En it's, en cambio, la s es sorda (sin vibración) porque va después de t. Marca con la voz el contraste cold / hot.",
+      "es": "No hace frío. Hace calor."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Corrige los datos equivocados",
+    "contexto": "Estás en una fiesta y Ben, un amigo de un amigo, cree que sabe cosas de ti, pero se equivoca en todo. Ben usa right? al final (expresión fija: «¿verdad?»).",
+    "dialogo": [
+      {"quien": "Ben", "en": "You're from Spain, right?", "es": "Eres de España, ¿verdad?"},
+      {"quien": "Tú", "en": "…", "es": "…"},
+      {"quien": "Ben", "en": "And you're a student, right?", "es": "Y eres estudiante, ¿verdad?"},
+      {"quien": "Tú", "en": "…", "es": "…"}
+    ],
+    "tu_turno": "Contesta a Ben: niega cada dato con be + not y da el dato verdadero en otra oración. Usa al menos una vez isn't/aren't o 'm not.",
+    "modelo": "No, I'm not from Spain. I'm from Mexico. And I'm not a student. I'm a nurse.",
+    "alternativas": [
+      "Actually, I'm not from Spain. I'm from Mexico. And no, I'm not a student. I'm a doctor.",
+      "No, I'm not. I'm from Guadalajara, in Mexico. And I'm not a student. I'm a teacher."
+    ],
+    "claves": [
+      "Con I la negación contraída siempre es I'm not.",
+      "Repite el sujeto en la oración que corrige: I'm from…, I'm a…",
+      "Sube la voz en el dato nuevo (Mexico, nurse)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación con be: sujeto + am/is/are + not + complemento.",
+      "Dos contracciones: she isn't / she's not; you aren't / you're not.",
+      "Con I solo existe I'm not («amn't» no existe).",
+      "Nunca no ni don't para negar be."
+    ],
+    "recuerda": [
+      "Al escuchar, la n de isn't / aren't es la señal de la negación; la t casi no suena.",
+      "Lo natural es negar y dar el dato correcto: I'm not tired. I'm hungry."
+    ]
+  },
+  "repaso": [
+    {"id": "to-be-negacion-y-preguntas.negacion-to-be.r1", "frente": "¿Dónde va not en una oración con be?", "reverso": "Después de am/is/are → She is not a doctor.", "nota": "En español «no» va antes del verbo; en inglés, not va después de be."},
+    {"id": "to-be-negacion-y-preguntas.negacion-to-be.r2", "frente": "Dos maneras de contraer she is not", "reverso": "she isn't / she's not", "nota": "Significan lo mismo."},
+    {"id": "to-be-negacion-y-preguntas.negacion-to-be.r3", "frente": "¿Cómo se contrae I am not?", "reverso": "I'm not (solo esa).", "nota": "«Amn't» no existe; «I aren't» es incorrecto."},
+    {"id": "to-be-negacion-y-preguntas.negacion-to-be.r4", "frente": "¿Se puede usar don't con be?", "reverso": "No. I'm not tired (no «I don't am tired»).", "nota": "Don't niega otros verbos."},
+    {"id": "to-be-negacion-y-preguntas.negacion-to-be.r5", "frente": "Traduce: «No tengo frío.»", "reverso": "I'm not cold.", "nota": "Frío, hambre, sed y edad van con be."}
+  ]
+}

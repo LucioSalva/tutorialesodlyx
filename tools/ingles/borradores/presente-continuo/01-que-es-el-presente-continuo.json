@@ -1,0 +1,652 @@
+{
+  "slug": "que-es-el-presente-continuo",
+  "titulo": "Qué es el presente continuo",
+  "minutos": 35,
+  "objetivos": [
+    "Formar el presente continuo con am / is / are + verbo en -ing.",
+    "Usarlo para acciones que están en marcha ahora mismo.",
+    "Usarlo para situaciones temporales de este periodo (this week, this month, these days).",
+    "Reconocer las señales now, right now, at the moment, Look!, Listen!, currently y these days."
+  ],
+  "situacion": {
+    "titulo": "Una llamada a la hora de la cena",
+    "texto": "Mei llama a su amigo Tom un martes por la noche. Tom está ocupado y le describe lo que pasa en su casa en ese momento. Fíjate en que casi todas sus frases tienen dos piezas: una forma de be (am, is, are) y un verbo terminado en -ing.",
+    "dialogo": [
+      { "quien": "Mei", "en": "Hi, Tom! It's Mei. What are you doing?", "es": "¡Hola, Tom! Soy Mei. ¿Qué estás haciendo?" },
+      { "quien": "Tom", "en": "Hi, Mei! I'm cooking dinner right now.", "es": "¡Hola, Mei! Estoy haciendo la cena ahorita." },
+      { "quien": "Mei", "en": "Oh, sorry! Is Grace there?", "es": "¡Ay, perdón! ¿Está Grace ahí?" },
+      { "quien": "Tom", "en": "Yes, she's in the living room. She's helping the kids with their homework.", "es": "Sí, está en la sala. Está ayudando a los niños con su tarea." },
+      { "quien": "Mei", "en": "And how is your new job?", "es": "¿Y qué tal tu nuevo trabajo?" },
+      { "quien": "Tom", "en": "It's great. I'm learning a lot this month. Listen! The baby is crying. Talk later!", "es": "Muy bien. Estoy aprendiendo mucho este mes. ¡Escucha! El bebé está llorando. ¡Hablamos luego!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "be-mas-ing",
+      "titulo": "La forma: am / is / are + verbo en -ing",
+      "que_es": "El presente continuo es el tiempo que usa el inglés para una acción **en progreso**: empezó, todavía no termina y la estás mirando «por dentro». Se construye con dos piezas: una forma de [[be]] ([[am]], [[is]] o [[are]]) y el verbo principal con la terminación [[-ing]]. Equivale a la estructura española «estar + gerundio»: [[I'm working]] = «estoy trabajando».",
+      "para_que": [
+        "Contestar a «¿qué haces?» por teléfono o por mensaje: I'm driving, I'm having lunch.",
+        "Describir lo que ves en una foto o en la calle: Two men are carrying a sofa.",
+        "Explicar por qué no puedes atender algo ahora: Sorry, I'm working.",
+        "Avisar de algo que pasa en este momento: Look! It's snowing."
+      ],
+      "como_funciona": "Las dos piezas son obligatorias y cada una tiene su trabajo. **[[be]] funciona como auxiliar**: es el que cambia según el sujeto ({{sujeto:I}} {{auxiliar:am}}, {{sujeto:he / she / it}} {{auxiliar:is}}, {{sujeto:you / we / they}} {{auxiliar:are}}), exactamente igual que cuando lo estudiaste solo. **El verbo en -ing no cambia nunca**: no lleva -s de tercera persona ni ninguna otra marca. Por eso se dice {{sujeto:She}} {{auxiliar:is}} {{verbo:working}} y no «she is works». Al hablar casi siempre se contrae be: I'm, you're, he's, she's, it's, we're, they're. Con un nombre como sujeto también se contrae is al hablar ([[Tom's working]], [[My dad's cooking]]), aunque en la escritura cuidada es más frecuente la forma completa ([[My dad is cooking]]). Y como siempre en inglés, **el sujeto no se puede omitir**: «está lloviendo» es [[It's raining]], nunca «Is raining».",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación (forma completa)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "My sister", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "reading", "rol": "verbo" },
+            { "t": "a book", "rol": "complemento" }
+          ],
+          "es": "Mi hermana está leyendo un libro."
+        },
+        {
+          "etiqueta": "Afirmación (forma contraída, la habitual al hablar)",
+          "formula": [
+            { "t": "I'm / you're / he's / she's / it's / we're / they're", "rol": "sujeto" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "waiting", "rol": "verbo" },
+            { "t": "for the bus", "rol": "complemento" }
+          ],
+          "es": "Estamos esperando el camión."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "El presente continuo de work en todas las personas",
+          "columnas": ["Sujeto", "Forma completa", "Forma contraída", "Traducción"],
+          "filas": [
+            ["I", "I am working", "I'm working", "Estoy trabajando"],
+            ["you", "you are working", "you're working", "Estás trabajando / Están trabajando"],
+            ["he", "he is working", "he's working", "Él está trabajando"],
+            ["she", "she is working", "she's working", "Ella está trabajando"],
+            ["it", "it is working", "it's working", "Está funcionando (una máquina)"],
+            ["we", "we are working", "we're working", "Estamos trabajando"],
+            ["they", "they are working", "they're working", "Están trabajando"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm cooking dinner.",
+          "es": "Estoy haciendo la cena.",
+          "situacion": "Contestas el teléfono con las manos ocupadas.",
+          "partes": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "cooking", "rol": "verbo" },
+            { "t": "dinner", "rol": "complemento" }
+          ],
+          "nota": "I'm es la contracción de I am: el sujeto y el auxiliar van pegados. cooking es cook + -ing. Fíjate en que «hacer la cena» en inglés es cook dinner, no «do dinner»."
+        },
+        {
+          "en": "The children are playing in the garden.",
+          "es": "Los niños están jugando en el jardín.",
+          "situacion": "Miras por la ventana.",
+          "partes": [
+            { "t": "The children", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "playing", "rol": "verbo" },
+            { "t": "in the garden", "rol": "complemento" }
+          ],
+          "nota": "children es plural (irregular: un solo niño es child), así que el auxiliar es are. playing no cambia aunque el sujeto sea plural: el número lo marca are."
+        },
+        {
+          "en": "My dad is washing the car.",
+          "es": "Mi papá está lavando el carro.",
+          "partes": [
+            { "t": "My dad", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "washing", "rol": "verbo" },
+            { "t": "the car", "rol": "complemento" }
+          ],
+          "nota": "Sujeto de tercera persona del singular → is. Compara con el presente simple: My dad washes the car (hábito) lleva -es en el verbo; aquí la marca de persona pasa al auxiliar y washing se queda igual."
+        },
+        {
+          "en": "It's raining.",
+          "es": "Está lloviendo.",
+          "partes": [
+            { "t": "It's", "rol": "sujeto" },
+            { "t": "raining", "rol": "verbo" }
+          ],
+          "nota": "En español «está lloviendo» no tiene sujeto visible; en inglés hace falta it. «Is raining» es un error muy típico de hispanohablantes."
+        },
+        {
+          "en": "The printer is working again.",
+          "es": "La impresora ya funciona otra vez.",
+          "situacion": "Por fin arreglaron la impresora de la oficina.",
+          "partes": [
+            { "t": "The printer", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "working", "rol": "verbo" },
+            { "t": "again", "rol": "tiempo" }
+          ],
+          "nota": "work también significa «funcionar» cuando el sujeto es una máquina. Con una cosa como sujeto el auxiliar es is (it)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Presente simple: She works.",
+          "items": [
+            "Una sola palabra de verbo: works.",
+            "La -s de tercera persona va en el verbo principal.",
+            "Habla de algo habitual: trabaja (en general)."
+          ]
+        },
+        "b": {
+          "titulo": "Presente continuo: She is working.",
+          "items": [
+            "Dos piezas: is + working.",
+            "La marca de persona la lleva is; working nunca lleva -s.",
+            "Habla de algo en progreso: está trabajando (ahora)."
+          ]
+        },
+        "veredicto": "No mezcles las dos formas: o usas el verbo solo (works) o usas be + -ing (is working). «She is works» y «She working» no existen."
+      },
+      "pronunciacion": [
+        {
+          "texto": "working",
+          "ipa": "/ˈwɝkɪŋ/",
+          "consejo": "La terminación -ing es /ɪŋ/: una i corta y relajada (a medio camino entre la i y la e del español) seguida de /ŋ/, un sonido nasal que se hace levantando la parte de atrás de la lengua contra el paladar, como la n de «tengo» o «banco». No se pronuncia una g al final: no digas «workin-gue».",
+          "lento": true
+        },
+        {
+          "texto": "they're",
+          "ipa": "/ðer/",
+          "consejo": "Una sola sílaba. Empieza con /ð/: la punta de la lengua toca suavemente los dientes de arriba y vibra, como la d suave de «nada». Suena igual que there y their.",
+          "lento": true
+        },
+        {
+          "texto": "we're",
+          "ipa": "/wɪr/",
+          "consejo": "Una sola sílaba: /w/ con los labios redondeados, una i corta y una r en la que la lengua se curva hacia atrás sin tocar nada (no es la r vibrante del español)."
+        },
+        {
+          "texto": "she's",
+          "ipa": "/ʃiz/",
+          "consejo": "La s de la contracción suena /z/, con vibración en la garganta (pon la mano en el cuello y nota el zumbido). /ʃ/ es el sonido de «shh» para pedir silencio."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I working now.",
+          "bien": "I'm working now.",
+          "porque": "Falta el auxiliar be. El -ing solo no forma un verbo conjugado: necesita am / is / are delante."
+        },
+        {
+          "mal": "She is work at the moment.",
+          "bien": "She is working at the moment.",
+          "porque": "Después de be, el verbo lleva -ing. «is work» mezcla el presente continuo con la forma base."
+        },
+        {
+          "mal": "He is works in the kitchen.",
+          "bien": "He is working in the kitchen.",
+          "porque": "La -s de tercera persona es del presente simple. En el continuo la persona la marca is y el verbo va en -ing."
+        },
+        {
+          "mal": "Is raining.",
+          "bien": "It's raining.",
+          "porque": "En inglés el sujeto es obligatorio, incluso para el clima: se usa it."
+        },
+        {
+          "mal": "My friends is waiting outside.",
+          "bien": "My friends are waiting outside.",
+          "porque": "My friends es plural (they), así que el auxiliar es are."
+        }
+      ]
+    },
+    {
+      "id": "ahora-y-este-periodo",
+      "titulo": "Dos usos: ahora mismo y este periodo",
+      "que_es": "El presente continuo tiene dos usos principales en presente. El primero es una acción que ocurre **en el momento en que hablas**. El segundo es una situación **temporal** que está en marcha durante un periodo alrededor de ahora (esta semana, este mes, estos días), aunque en este segundo exacto no la estés haciendo.",
+      "para_que": [
+        "Describir lo que pasa mientras hablas: Look! The dog is swimming.",
+        "Contar un proyecto o actividad de estos días: I'm reading a great book this month.",
+        "Explicar una situación temporal: My cousin is living with us this year."
+      ],
+      "como_funciona": "Imagina una línea del tiempo con un punto que marca **ahora**. En el primer uso, la acción es un tramo corto que rodea ese punto: empezó hace un momento y sigue. En el segundo uso, el tramo es más largo (días, semanas, meses) y también rodea el ahora, pero no hace falta que la acción ocurra en el instante exacto: si dices [[I'm reading a great book this month]] mientras comes, es verdad aunque el libro esté cerrado. Lo que importa es que la situación **está en curso y es temporal**, tiene un principio y se espera que termine.\n\nAlgunas palabras suelen acompañar al presente continuo y te ayudan a reconocerlo:\n- Para el ahora: [[now]] (ahora), [[right now]] (ahorita, en este momento), [[at the moment]] (en este momento), [[Look!]] (¡mira!), [[Listen!]] (¡escucha!).\n- Para el periodo: [[today]], [[this week]], [[this month]], [[this year]], [[these days]] (estos días, últimamente), [[currently]] (actualmente).\n\n**Cuidado con currently**: significa «actualmente, en este momento», no «corrientemente». Y recuerda que son solo señales: lo que decide el tiempo es el significado. En la siguiente unidad verás cómo elegir entre presente simple y continuo cuando dudes.",
+      "estructuras": [
+        {
+          "etiqueta": "Acción de ahora mismo",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "now / right now / at the moment", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "Priya", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "taking", "rol": "verbo" },
+            { "t": "a shower", "rol": "complemento" },
+            { "t": "right now", "rol": "tiempo" }
+          ],
+          "es": "Priya se está bañando ahorita."
+        },
+        {
+          "etiqueta": "Situación temporal de este periodo",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "this week / this month / these days", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "reading", "rol": "verbo" },
+            { "t": "a great book", "rol": "complemento" },
+            { "t": "this month", "rol": "tiempo" }
+          ],
+          "es": "Este mes estoy leyendo un libro buenísimo."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "El presente continuo rodea el «ahora»",
+        "marcas": [
+          { "pos": 0.44, "hasta": 0.56, "texto": "right now: I'm cooking dinner", "tipo": "tramo" },
+          { "pos": 0.2, "hasta": 0.8, "texto": "this month: I'm reading a great book", "tipo": "tramo" }
+        ],
+        "ahora": 0.5,
+        "pie": "Tramo corto: la acción ocurre mientras hablas. Tramo largo: la situación está en curso durante este periodo, aunque no ocurra en este segundo. En los dos casos, empezó antes de ahora y todavía no termina."
+      },
+      "ejemplos": [
+        {
+          "en": "Look! The bus is coming.",
+          "es": "¡Mira! Ya viene el camión.",
+          "situacion": "Estás en la parada con una amiga.",
+          "partes": [
+            { "t": "Look!", "rol": "otro" },
+            { "t": "The bus", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "coming", "rol": "verbo" }
+          ],
+          "nota": "Look! y Listen! llaman la atención sobre algo que está pasando en ese momento, por eso casi siempre van seguidos del presente continuo. En español decimos «ya viene»; en inglés no basta el presente simple («the bus comes» sería un hábito)."
+        },
+        {
+          "en": "Diego is working from home this week.",
+          "es": "Diego está trabajando desde casa esta semana.",
+          "situacion": "Normalmente Diego va a la oficina, pero esta semana no.",
+          "partes": [
+            { "t": "Diego", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "working", "rol": "verbo" },
+            { "t": "from home", "rol": "complemento" },
+            { "t": "this week", "rol": "tiempo" }
+          ],
+          "nota": "this week marca un periodo temporal. No quiere decir que Diego esté trabajando en este segundo: quizá ahora mismo está comiendo."
+        },
+        {
+          "en": "We're currently looking for a new apartment.",
+          "es": "Actualmente estamos buscando departamento nuevo.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "currently", "rol": "tiempo" },
+            { "t": "looking for", "rol": "verbo" },
+            { "t": "a new apartment", "rol": "complemento" }
+          ],
+          "nota": "currently suele ir entre el auxiliar y el verbo -ing (we're currently looking), aunque también puede ir al final. Significa «actualmente». look for = buscar: el for es parte del verbo."
+        },
+        {
+          "en": "Listen! Someone is singing in the street.",
+          "es": "¡Escucha! Alguien está cantando en la calle.",
+          "partes": [
+            { "t": "Listen!", "rol": "otro" },
+            { "t": "Someone", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "singing", "rol": "verbo" },
+            { "t": "in the street", "rol": "complemento" }
+          ],
+          "nota": "someone (alguien) funciona como tercera persona del singular: is."
+        },
+        {
+          "en": "My grandparents are staying with us these days.",
+          "es": "Estos días mis abuelos se están quedando con nosotros.",
+          "partes": [
+            { "t": "My grandparents", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "staying", "rol": "verbo" },
+            { "t": "with us", "rol": "complemento" },
+            { "t": "these days", "rol": "tiempo" }
+          ],
+          "nota": "these days presenta la situación como temporal: no viven siempre con nosotros, solo durante una temporada."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "right now",
+          "ipa": "/raɪt ˈnaʊ/",
+          "consejo": "La t de right casi no se suelta antes de la n: la lengua se queda un instante en posición de t y pasa directo a now. now rima con «au» de «aula», con los labios que se cierran al final."
+        },
+        {
+          "texto": "at the moment",
+          "ipa": "/æt ðə ˈmoʊmənt/",
+          "consejo": "El acento cae en MO. La o es un diptongo /oʊ/: empiezas en o y cierras los labios hacia u. the se pronuncia muy débil /ðə/, con la lengua entre los dientes."
+        },
+        {
+          "texto": "currently",
+          "ipa": "/ˈkɝəntli/",
+          "consejo": "Tres sílabas y el acento en la primera. La vocal /ɝ/ es una r vocálica: la lengua se curva hacia atrás sin tocar el paladar, sin ninguna u española. No digas «ku-rrent-li» con r vibrante."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Look! The bus comes.",
+          "bien": "Look! The bus is coming.",
+          "porque": "Look! señala algo que ocurre en este momento; el presente simple habla de hábitos o de horarios, no de lo que está pasando delante de ti."
+        },
+        {
+          "mal": "At the moment I'm live with my cousin.",
+          "bien": "At the moment I'm living with my cousin.",
+          "porque": "Aunque se trate de un periodo y no del segundo exacto, la forma sigue siendo be + -ing. live pierde la e muda: living."
+        },
+        {
+          "mal": "I work in a restaurant this summer.",
+          "bien": "I'm working in a restaurant this summer.",
+          "porque": "Para presentar un trabajo como temporal (solo este verano) lo natural es el presente continuo. El presente simple lo hace sonar permanente y choca con this summer."
+        }
+      ],
+      "nota": {
+        "titulo": "Diferencia con el español",
+        "texto": "En español podemos decir «¿Qué haces?» o «Ahorita como» con el presente simple para algo que ocurre en este momento. En inglés eso NO funciona: para lo que está pasando ahora hay que usar el presente continuo. «What do you do?» significa «¿A qué te dedicas?», y «I eat» describe un hábito, no lo que haces ahora. Si quieres decir que estás comiendo, di I'm eating.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "Ana está hablando por teléfono en este momento.",
+      "opciones": [
+        { "texto": "Ana is talking on the phone.", "correcta": true, "porque": "Correcta: Ana es tercera persona del singular → is, y el verbo lleva -ing: talking." },
+        { "texto": "Ana talking on the phone.", "correcta": false, "porque": "Falta el auxiliar is. Un verbo en -ing no puede ir solo detrás del sujeto." },
+        { "texto": "Ana is talk on the phone.", "correcta": false, "porque": "Después de is el verbo necesita -ing: talking, no talk." },
+        { "texto": "Ana are talking on the phone.", "correcta": false, "porque": "are va con you, we y they. Con un solo sujeto de tercera persona (Ana = she) se usa is." }
+      ],
+      "pistas": [
+        "El presente continuo tiene dos piezas: be + verbo con -ing.",
+        "Comprueba en cada opción que estén las dos piezas y que be concuerde con Ana.",
+        "Con he/she/it o el nombre de una persona se usa is; detrás de be va el verbo + -ing."
+      ],
+      "solucion": { "respuesta": "Ana is talking on the phone.", "explicacion": "La respuesta correcta es Ana is talking on the phone porque tiene las dos piezas del presente continuo: is (la forma de be para she) y talking (talk + -ing). Las demás olvidan una pieza o usan la forma de be equivocada." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con am, is o are.",
+      "frase": "Listen! The neighbors ___ having a party.",
+      "respuestas": [["are"]],
+      "banco": ["am", "is", "are"],
+      "traduccion": "¡Escucha! Los vecinos están haciendo una fiesta.",
+      "errores_tipicos": {
+        "is": "The neighbors es plural (they). Con un sujeto plural el auxiliar es are, aunque en español a veces pensemos en «el vecindario» como algo singular."
+      },
+      "pistas": [
+        "La forma de be depende del sujeto.",
+        "Mira el sujeto: The neighbors. ¿Es uno o son varios?",
+        "Sujetos plurales (they) → are."
+      ],
+      "solucion": { "respuesta": "are", "explicacion": "La respuesta correcta es are porque el sujeto, the neighbors, es plural y equivale a they. have a party significa «hacer una fiesta»; aquí having es have + -ing (se quita la e muda, lo verás en la siguiente lección)." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el presente continuo del verbo entre paréntesis (be + -ing).",
+      "frase": "We ___ for a test at the moment. (study)",
+      "respuestas": [["are studying"]],
+      "traduccion": "En este momento estamos estudiando para un examen.",
+      "errores_tipicos": {
+        "studying": "Falta el auxiliar: con we hay que poner are delante de studying.",
+        "are study": "Después de are el verbo lleva -ing: studying.",
+        "is studying": "is va con he, she o it. Con we se usa are.",
+        "study": "at the moment indica algo en progreso: necesitas be + -ing, no el presente simple."
+      },
+      "pistas": [
+        "Necesitas dos palabras: una forma de be y el verbo con -ing.",
+        "El sujeto es we: ¿qué forma de be le corresponde?",
+        "Con we, you y they se usa are; los verbos que terminan en y la conservan antes de -ing (como play → playing)."
+      ],
+      "solucion": { "respuesta": "are studying", "explicacion": "La respuesta correcta es are studying: are porque el sujeto es we, y studying porque en el presente continuo el verbo principal lleva -ing. study conserva la y: studying (no «studiing»). at the moment confirma que la acción está en progreso." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.04",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada oración con su traducción.",
+      "pares": [
+        { "a": "I'm waiting.", "b": "Estoy esperando." },
+        { "a": "She's waiting.", "b": "Ella está esperando." },
+        { "a": "They're waiting.", "b": "Ellos están esperando." },
+        { "a": "It's snowing.", "b": "Está nevando." },
+        { "a": "We're leaving.", "b": "Ya nos vamos." },
+        { "a": "He's sleeping.", "b": "Él está durmiendo." }
+      ],
+      "pistas": [
+        "Cada contracción esconde un sujeto y una forma de be.",
+        "Deshaz la contracción: I'm = I am, she's = she is, they're = they are…",
+        "El sujeto de la contracción te dice la persona del verbo en español; It's snowing no tiene sujeto en español."
+      ],
+      "solucion": { "respuesta": "I'm waiting = Estoy esperando; She's waiting = Ella está esperando; They're waiting = Ellos están esperando; It's snowing = Está nevando; We're leaving = Ya nos vamos; He's sleeping = Él está durmiendo.", "explicacion": "Cada contracción une el sujeto con am, is o are. It's snowing usa it como sujeto obligatorio del clima. We're leaving se traduce de forma natural como «ya nos vamos»: en español usamos el presente simple, pero en inglés la acción de irse ya está en marcha." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": ["is", "Carlos", "a", "wearing", "blue", "shirt", "today"],
+      "respuestas": ["Carlos is wearing a blue shirt today", "Today Carlos is wearing a blue shirt"],
+      "traduccion": "Hoy Carlos trae puesta una camisa azul.",
+      "pistas": [
+        "El orden es sujeto + be + verbo -ing + complemento.",
+        "Empieza por el sujeto (Carlos) y coloca is justo delante de wearing.",
+        "El adjetivo va antes del sustantivo, como en a red car; la expresión de tiempo va al final o al principio."
+      ],
+      "solucion": { "respuesta": "Carlos is wearing a blue shirt today.", "explicacion": "El orden correcto es Carlos (sujeto) + is (auxiliar) + wearing (verbo -ing) + a blue shirt (complemento) + today (tiempo). Recuerda que el adjetivo blue va antes de shirt, al revés que en español. También vale empezar por Today." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la oración al presente continuo y añade right now al final.",
+      "origen": "I work from home.",
+      "instruccion": "Presente continuo + right now",
+      "respuestas": ["I'm working from home right now"],
+      "errores_tipicos": {
+        "I'm work from home right now": "Falta el -ing: detrás de am el verbo es working.",
+        "I working from home right now": "Falta am (o la contracción I'm).",
+        "I work from home right now": "right now pide una acción en progreso: am + working."
+      },
+      "pistas": [
+        "El presente continuo añade be y cambia el verbo a -ing.",
+        "Fíjate en el sujeto I: ¿qué forma de be le toca? Y el verbo necesita -ing.",
+        "Sujeto + am ('m) + verbo -ing + resto + right now, como en I'm studying at the library right now."
+      ],
+      "solucion": { "respuesta": "I'm working from home right now.", "explicacion": "La respuesta es I'm working from home right now: añadimos am (contraído con I) y el verbo pasa a working. I work from home describe un hábito; I'm working from home right now describe lo que ocurre en este momento." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y escribe la corrección.",
+      "frase": "My parents is visiting my aunt this week.",
+      "error": "is",
+      "correcciones": ["are"],
+      "frase_correcta": "My parents are visiting my aunt this week.",
+      "pistas": [
+        "Revisa la concordancia entre el sujeto y be.",
+        "El sujeto es my parents. ¿Cuántas personas son?",
+        "Sujeto plural → are."
+      ],
+      "solucion": { "respuesta": "is → are", "explicacion": "El error es is: my parents son dos personas (they), así que el auxiliar debe ser are. El resto está bien: visiting lleva -ing y this week marca una situación temporal." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.08",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Cuida el final -ing y las contracciones.",
+      "texto": "She's reading and I'm writing.",
+      "ipa": "/ʃiz ˈridɪŋ ænd aɪm ˈraɪtɪŋ/",
+      "consejo": "Las dos palabras en -ing terminan en /ɪŋ/, sin g final audible: la parte de atrás de la lengua sube al paladar y el aire sale por la nariz. En inglés estadounidense la t de writing suena como una r suave del español (como en «pera»): «rái-ring». she's termina en /z/ sonora e I'm es una sola sílaba.",
+      "es": "Ella está leyendo y yo estoy escribiendo."
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa now al final.",
+      "es": "Está lloviendo ahora.",
+      "respuestas": ["It's raining now"],
+      "errores_tipicos": {
+        "Is raining now": "Falta el sujeto: en inglés el clima lleva it (It's raining).",
+        "It raining now": "Falta is: It is (It's) raining.",
+        "It rains now": "Para algo que ocurre en este momento se usa el presente continuo: It's raining."
+      },
+      "pistas": [
+        "Es una acción en progreso ahora mismo: presente continuo.",
+        "¿Cuál es el sujeto en inglés? En español no se ve, pero en inglés hace falta.",
+        "Para el clima el sujeto es it: It + be + verbo -ing + now, como en It's snowing now."
+      ],
+      "solucion": { "respuesta": "It's raining now.", "explicacion": "La respuesta es It's raining now. El clima necesita el sujeto it, que el español omite; is concuerda con it y raining es rain + -ing. It rains describiría el clima habitual de un lugar." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.10",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta el significado.",
+      "pregunta": "Omar dice durante la comida: «I'm reading a great book this month.» ¿Qué quiere decir?",
+      "opciones": [
+        { "texto": "Que en este preciso momento tiene el libro abierto.", "correcta": false, "porque": "No: está comiendo. El presente continuo con this month no exige que la acción ocurra en este segundo." },
+        { "texto": "Que lee un libro todos los meses, como costumbre.", "correcta": false, "porque": "Una costumbre se expresaría con presente simple (I read a book every month)." },
+        { "texto": "Que está a medio leer un libro durante este periodo y todavía no lo termina.", "correcta": true, "porque": "Correcta: es el segundo uso del presente continuo, una actividad en curso y temporal alrededor de ahora." }
+      ],
+      "pistas": [
+        "El presente continuo tiene dos usos: ahora mismo y este periodo.",
+        "Fíjate en la expresión de tiempo: this month.",
+        "Con this month / this week / these days el continuo habla de una situación temporal en curso, no del instante exacto."
+      ],
+      "solucion": { "respuesta": "Que está a medio leer un libro durante este periodo y todavía no lo termina.", "explicacion": "La respuesta es la tercera: con this month el presente continuo describe una situación temporal en marcha. Omar empezó el libro y aún no lo acaba, aunque ahora mismo esté comiendo. Para un hábito usaríamos el presente simple." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa this year al final y la palabra brothers.",
+      "es": "Mis hermanos están viviendo con mis abuelos este año.",
+      "respuestas": ["My brothers are living with my grandparents this year"],
+      "errores_tipicos": {
+        "My brothers are live with my grandparents this year": "Después de are el verbo lleva -ing: living (se quita la e de live).",
+        "My brothers is living with my grandparents this year": "My brothers es plural: are, no is.",
+        "My brothers live with my grandparents this year": "this year presenta una situación temporal: usa el presente continuo (are living)."
+      },
+      "pistas": [
+        "Es una situación temporal de este periodo.",
+        "El sujeto es plural y live termina en e muda.",
+        "Sujeto plural + are + verbo -ing (sin la e muda) + with + persona + this year, como en My cousins are staying with us this month."
+      ],
+      "solucion": { "respuesta": "My brothers are living with my grandparents this year.", "explicacion": "La respuesta es My brothers are living with my grandparents this year. Usamos presente continuo porque es una situación temporal (solo este año); are concuerda con my brothers, y live pierde la e muda al añadir -ing: living." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "Look! The kids are playing in the rain.",
+      "respuestas": ["Look the kids are playing in the rain"],
+      "pistas": [
+        "Empieza con una palabra para llamar la atención.",
+        "Después viene un sujeto plural: ¿qué forma de be escuchas?",
+        "Look! va al principio como exclamación; luego sujeto plural + are + verbo -ing + lugar."
+      ],
+      "solucion": { "respuesta": "Look! The kids are playing in the rain.", "explicacion": "La oración es Look! The kids are playing in the rain. Look! anuncia algo que está pasando ahora; the kids es plural, por eso are; y playing es play + -ing (la y se conserva). Ojo: are suena muy débil, casi /ər/, y se une a kids." }
+    },
+    {
+      "id": "presente-continuo.que-es-el-presente-continuo.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe lo que pasa ahora mismo a tu alrededor.",
+      "objetivo": "Usar el presente continuo para describir acciones en progreso y una situación temporal.",
+      "instrucciones": "Imagina que le mandas un mensaje a un amigo que vive en otra ciudad. Cuéntale qué estás haciendo tú ahora, qué hacen dos personas (o animales) cerca de ti y una cosa temporal que estás haciendo esta semana o este mes. Escribe 4–6 oraciones.",
+      "vocabulario_apoyo": ["right now", "at the moment", "this week", "this month", "sit", "watch TV", "cook", "rain", "sleep", "study", "work on"],
+      "estructuras": ["I'm … right now.", "My … is …-ing.", "The … are …-ing.", "This month I'm …-ing …"],
+      "ejemplo": "Hi, Ben! I'm on the bus right now. A woman is reading a newspaper next to me and two students are laughing. This week I'm learning to cook.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Usas I'm o I am + -ing", "patron": "\\b(i'm|i am) \\w+ing\\b" },
+        { "descripcion": "Usas is o are + -ing con otra persona", "patron": "\\b(is|are|'s|'re) (\\w+ly )?\\w+ing\\b" },
+        { "descripcion": "Usas una expresión de periodo (this week, this month, these days…)", "patron": "\\b(this week|this month|this year|these days|currently)\\b" }
+      ],
+      "criterios": [
+        "¿Cada verbo en -ing tiene delante am, is o are?",
+        "¿La forma de be concuerda con su sujeto (my sister is, my cats are)?",
+        "¿Escribiste siempre el sujeto, también con el clima (It's raining)?",
+        "¿Usaste al menos una situación temporal (this week, this month…)?"
+      ],
+      "modelo": "Hi, Lucía! I'm sitting in the kitchen right now and I'm drinking a coffee. It's raining outside. My brother is watching TV in the living room and my two cats are sleeping on the sofa. This month I'm working on a big project, so I'm very busy these days.",
+      "explicacion": "El modelo combina los dos usos. Las acciones de ahora (I'm sitting, I'm drinking, It's raining, is watching, are sleeping) están en progreso mientras se escribe. This month I'm working on a big project es una situación temporal: no está trabajando en el proyecto en ese segundo. Cada -ing lleva su forma de be, que concuerda con el sujeto (brother → is, cats → are).",
+      "errores_comunes": [
+        "Olvidar be: «My brother watching TV».",
+        "Usar el presente simple para lo que pasa ahora: «I sit in the kitchen now».",
+        "Omitir it con el clima: «Is raining»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué estás haciendo?",
+    "contexto": "Tu amiga Aisha te hace una videollamada un sábado por la tarde. Quiere saber qué pasa en tu casa.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Hi! What are you doing?", "es": "¡Hola! ¿Qué estás haciendo?" },
+      { "quien": "Tú", "en": "…", "es": "(Di qué estás haciendo tú ahora.)" },
+      { "quien": "Aisha", "en": "And your family?", "es": "¿Y tu familia?" },
+      { "quien": "Tú", "en": "…", "es": "(Di qué hacen dos personas de tu casa y algo temporal de estos días.)" }
+    ],
+    "tu_turno": "Contesta a Aisha con 3 o 4 oraciones en presente continuo: qué haces tú, qué hacen dos personas de tu casa y una cosa que estás haciendo estos días o esta semana.",
+    "modelo": "I'm relaxing on the sofa right now. My mom is cooking lunch and my sister is doing her homework. These days I'm learning English online.",
+    "alternativas": [
+      "I'm cleaning my room at the moment. My dad is washing the car and my grandma is sleeping. This week I'm working a lot.",
+      "Right now I'm eating a sandwich. My brothers are playing video games. This month I'm reading a really good book."
+    ],
+    "claves": [
+      "What are you doing? = ¿Qué estás haciendo? (expresión fija; las preguntas las estudias en la lección 3).",
+      "Sujeto + am / is / are + verbo -ing.",
+      "right now / at the moment para lo de ahora; this week / these days para lo temporal."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Presente continuo = am / is / are + verbo en -ing: I'm working, she's working, they're working.",
+      "be cambia con el sujeto; el verbo -ing no cambia nunca (nada de -s).",
+      "Uso 1: acciones en progreso ahora mismo (now, right now, at the moment, Look!, Listen!).",
+      "Uso 2: situaciones temporales de este periodo (this week, this month, these days, currently)."
+    ],
+    "recuerda": [
+      "El sujeto es obligatorio: It's raining, no «Is raining».",
+      "En español decimos «¿Qué haces?» para el ahora; en inglés es What are you doing?",
+      "currently = actualmente."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-continuo.que-es-el-presente-continuo.r1", "frente": "¿Cuáles son las dos piezas del presente continuo?", "reverso": "am / is / are + verbo en -ing → She is working.", "nota": "Si falta una de las dos, la oración está incompleta." },
+    { "id": "presente-continuo.que-es-el-presente-continuo.r2", "frente": "¿Cómo se dice «Está lloviendo»?", "reverso": "It's raining.", "nota": "El clima lleva siempre el sujeto it." },
+    { "id": "presente-continuo.que-es-el-presente-continuo.r3", "frente": "Dos usos del presente continuo", "reverso": "1) ahora mismo: I'm cooking right now. 2) periodo temporal: I'm reading a great book this month." },
+    { "id": "presente-continuo.que-es-el-presente-continuo.r4", "frente": "¿Por qué no se dice «She is works»?", "reverso": "Porque la persona la marca is; el verbo va en -ing: She is working.", "nota": "La -s es del presente simple (She works)." },
+    { "id": "presente-continuo.que-es-el-presente-continuo.r5", "frente": "¿Qué significa currently?", "reverso": "Actualmente, en este momento → I'm currently living in Puebla.", "nota": "No significa «corrientemente»." }
+  ]
+}

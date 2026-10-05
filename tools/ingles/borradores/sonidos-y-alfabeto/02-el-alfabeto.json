@@ -1,0 +1,451 @@
+{
+  "slug": "el-alfabeto",
+  "titulo": "El alfabeto y cómo deletrear",
+  "minutos": 35,
+  "objetivos": [
+    "Decir el nombre de las 26 letras con su pronunciación correcta.",
+    "No confundir las letras que más cuestan a un hispanohablante: A/E/I, G/J, H, R, W, Y y Z.",
+    "Deletrear tu nombre y tu apellido y pedir a alguien que deletree el suyo con How do you spell…?",
+    "Entender un nombre deletreado en voz alta y escribirlo sin errores."
+  ],
+  "situacion": {
+    "titulo": "En la recepción de una escuela de idiomas",
+    "texto": "Lucía llega a inscribirse. El recepcionista, Ben, necesita escribir su nombre en la computadora. Ella dice «Lucía» pero Ben no sabe cómo se escribe, así que le pide que lo deletree. Si Lucía nombra las letras como en español, Ben escribirá otra cosa: la «i» española suena como la E inglesa.",
+    "dialogo": [
+      {"quien": "Ben", "en": "What's your first name?", "es": "¿Cuál es tu nombre?"},
+      {"quien": "Lucía", "en": "Lucía.", "es": "Lucía."},
+      {"quien": "Ben", "en": "How do you spell that?", "es": "¿Cómo se escribe? (¿Cómo lo deletreas?)"},
+      {"quien": "Lucía", "en": "L-U-C-I-A.", "es": "L-U-C-I-A."},
+      {"quien": "Ben", "en": "Great, thank you.", "es": "Perfecto, gracias."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "nombres-de-las-letras",
+      "titulo": "El nombre de cada letra",
+      "que_es": "El alfabeto inglés tiene 26 letras, las mismas que el español sin la ñ (la ñ no existe en inglés). Lo que cambia es el **nombre** de cada letra: la A no se llama «a» sino /eɪ/, la E se llama /iː/ y la I se llama /aɪ/. Es lo que dices cuando deletreas, cuando lees una sigla o cuando dictas un correo electrónico.",
+      "para_que": [
+        "Para deletrear tu nombre, tu apellido o tu correo por teléfono o en una recepción.",
+        "Para entender siglas que se leen letra por letra: USA, ID, PC.",
+        "Para apuntar bien un nombre que alguien te deletrea."
+      ],
+      "como_funciona": "Aprende las letras agrupadas por la vocal que suena en su nombre: así es más fácil recordarlas y detectar las que se parecen. **Grupo /eɪ/** (como «ei»): A, H, J, K. **Grupo /iː/** (como una «i» larga): B, C, D, E, G, P, T, V y, en Estados Unidos, Z. **Grupo /e/** (como la «e» española): F, L, M, N, S, X y la Z británica (zed). **Grupo /aɪ/** (como «ai»): I, Y. **Grupo /uː/** (como «iu» o «u»): Q, U, W. **Solas**: O /oʊ/ y R /ɑːr/. Fíjate en el cruce con el español: el nombre inglés de la E suena como nuestra «i», el de la A como «ei» y el de la I como «ai».",
+      "estructuras": [
+        {
+          "etiqueta": "Letra y nombre",
+          "formula": [{"t": "letra", "rol": "otro"}, {"t": "/nombre en AFI/", "rol": "complemento"}],
+          "ejemplo": [{"t": "E", "rol": "otro"}, {"t": "/iː/", "rol": "complemento"}],
+          "es": "La E se llama /iː/: suena como una i española larga."
+        },
+        {
+          "etiqueta": "Sigla leída letra por letra",
+          "formula": [{"t": "letra", "rol": "otro"}, {"t": "letra", "rol": "otro"}, {"t": "letra", "rol": "otro"}],
+          "ejemplo": [{"t": "U /juː/", "rol": "otro"}, {"t": "S /es/", "rol": "otro"}, {"t": "A /eɪ/", "rol": "otro"}],
+          "es": "USA se lee «iu-es-ei», no «u-se-a»."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las 26 letras y su nombre (inglés estadounidense)",
+          "columnas": ["Letra", "Nombre (AFI)", "Grupo"],
+          "filas": [
+            ["A", "/eɪ/", "eɪ"], ["B", "/biː/", "iː"], ["C", "/siː/", "iː"], ["D", "/diː/", "iː"],
+            ["E", "/iː/", "iː"], ["F", "/ef/", "e"], ["G", "/dʒiː/", "iː"], ["H", "/eɪtʃ/", "eɪ"],
+            ["I", "/aɪ/", "aɪ"], ["J", "/dʒeɪ/", "eɪ"], ["K", "/keɪ/", "eɪ"], ["L", "/el/", "e"],
+            ["M", "/em/", "e"], ["N", "/en/", "e"], ["O", "/oʊ/", "oʊ"], ["P", "/piː/", "iː"],
+            ["Q", "/kjuː/", "uː"], ["R", "/ɑːr/", "ɑː"], ["S", "/es/", "e"], ["T", "/tiː/", "iː"],
+            ["U", "/juː/", "uː"], ["V", "/viː/", "iː"], ["W", "/ˈdʌbəl juː/", "uː"], ["X", "/eks/", "e"],
+            ["Y", "/waɪ/", "aɪ"], ["Z", "/ziː/ (R. U.: /zed/)", "iː / e"]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {"en": "A", "es": "la letra A", "nota": "/eɪ/, como «ei» en «rey». No se dice «a»."},
+        {"en": "E", "es": "la letra E", "nota": "/iː/, como una i española larga. Es la letra que más confunde: si dices «i», el oyente escribe E."},
+        {"en": "I", "es": "la letra I", "nota": "/aɪ/, como «ai» en «hay». Es el mismo sonido que la palabra I (yo)."},
+        {"en": "H", "es": "la letra H", "nota": "/eɪtʃ/, «eich». No tiene nada que ver con «hache»."},
+        {"en": "R", "es": "la letra R", "nota": "/ɑːr/: una a abierta y larga seguida de la r inglesa, sin vibrar."},
+        {"en": "W", "es": "la letra W", "nota": "/ˈdʌbəl juː/, literalmente «doble u». Es la única letra con tres sílabas."}
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Las letras agrupadas por el sonido de su nombre",
+        "centro": "26 letras",
+        "ramas": [
+          {"texto": "/eɪ/", "detalle": "A H J K"},
+          {"texto": "/iː/", "detalle": "B C D E G P T V (Z en EE. UU.)"},
+          {"texto": "/e/", "detalle": "F L M N S X (Z en el R. U.)"},
+          {"texto": "/aɪ/", "detalle": "I Y"},
+          {"texto": "/uː/", "detalle": "Q U W"},
+          {"texto": "/oʊ/ y /ɑːr/", "detalle": "O y R"}
+        ]
+      },
+      "pronunciacion": [
+        {"texto": "A, E, I", "ipa": "/eɪ/, /iː/, /aɪ/", "consejo": "A: empieza en e y cierra hacia i («ei»). E: una sola vocal, i larga con los labios estirados. I: abre mucho la boca en a y ciérrala hacia i («ai»).", "lento": true},
+        {"texto": "H", "ipa": "/eɪtʃ/", "consejo": "Di «ei» y termina con /tʃ/, el sonido de la ch española de «chile». Todo en una sola sílaba.", "lento": true},
+        {"texto": "W", "ipa": "/ˈdʌbəl juː/", "consejo": "Tres sílabas: DUB-bəl-iu. La primera es fuerte y con /ʌ/ (a floja); la segunda es una schwa con l; la tercera es el nombre de la U.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «a, e, i» con los nombres del español.", "bien": "/eɪ/, /iː/, /aɪ/", "porque": "Los nombres de las vocales no coinciden: la «i» española suena a E inglesa y la «e» española no es el nombre de ninguna vocal."},
+        {"mal": "Llamar a la H «ache».", "bien": "/eɪtʃ/", "porque": "En inglés la H se llama «eich»."},
+        {"mal": "Llamar a la Y «i griega».", "bien": "/waɪ/", "porque": "En inglés la Y se llama «uai», igual que la palabra why (¿por qué?)."}
+      ],
+      "nota": {"titulo": "Z: zee o zed", "texto": "En Estados Unidos la Z se llama /ziː/ (zee), que rima con B, C y D. En el Reino Unido, Canadá, Australia y otros países se llama /zed/ (zed). Las dos son correctas; usa zee si sigues el inglés estadounidense de este curso, y reconoce zed cuando lo oigas.", "tono": "info"}
+    },
+    {
+      "id": "letras-que-se-confunden",
+      "titulo": "Las letras que se confunden",
+      "que_es": "Algunos nombres de letras son trampas para un hispanohablante porque se parecen a otra letra del español o porque dos letras inglesas suenan casi igual. Son los errores que hacen que un recepcionista escriba mal tu nombre o tu correo.",
+      "para_que": [
+        "Para que tu nombre se escriba bien en reservas, formularios y citas.",
+        "Para dictar un correo electrónico o un código sin que lo copien mal.",
+        "Para entender un nombre que te deletrean por teléfono."
+      ],
+      "como_funciona": "Hay cuatro trampas principales. 1) **E /iː/ frente a I /aɪ/**: la E inglesa suena como nuestra «i»; la I suena «ai». 2) **G /dʒiː/ frente a J /dʒeɪ/**: empiezan igual (un sonido parecido a «y» fuerte o a la «ll» rioplatense); la diferencia está en la vocal: G termina en /iː/ y J en /eɪ/. Truco: G rima con E, J rima con A y K. 3) **A /eɪ/ frente a E /iː/**: si dices «ei» es A, si dices «i» es E. 4) **Letras con nombre propio**: Y /waɪ/ («uai»), W «double u», R /ɑːr/ («ar»), H /eɪtʃ/ («eich»). Y una más: **B /biː/ frente a V /viː/**: en español suenan igual, en inglés no: la V se hace con los dientes de arriba sobre el labio de abajo. Cuando haya dudas, los hablantes nativos aclaran con una palabra: «B as in boy, V as in very».",
+      "estructuras": [
+        {
+          "etiqueta": "Aclarar una letra",
+          "formula": [{"t": "letra", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "palabra que empieza por esa letra", "rol": "complemento"}],
+          "ejemplo": [{"t": "V", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "very", "rol": "complemento"}],
+          "es": "V de very («muy»)."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pares peligrosos",
+          "columnas": ["Letra", "Nombre", "Se confunde con", "Cómo distinguirlas"],
+          "filas": [
+            ["E", "/iː/", "I /aɪ/", "E = «i» larga; I = «ai»"],
+            ["G", "/dʒiː/", "J /dʒeɪ/", "G termina en «i»; J termina en «ei»"],
+            ["A", "/eɪ/", "E /iː/", "A = «ei»; E = «i»"],
+            ["Y", "/waɪ/", "I /aɪ/", "Y empieza con /w/: «uai»"],
+            ["B", "/biː/", "V /viː/", "B con los dos labios; V con dientes sobre el labio"],
+            ["R", "/ɑːr/", "A /eɪ/", "R = «ar» con a abierta"]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {"en": "G as in good", "es": "G de good (bueno)", "situacion": "Alguien deletrea por teléfono y quiere evitar confusiones.", "partes": [{"t": "G", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "good", "rol": "complemento"}], "nota": "Ojo: el NOMBRE de la G es /dʒiː/, pero en la palabra good la g suena /ɡ/, como en «gato». Nombre y sonido no son lo mismo."},
+        {"en": "J as in jam", "es": "J de jam (mermelada)", "partes": [{"t": "J", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "jam", "rol": "complemento"}], "nota": "La J inglesa suena /dʒ/, nunca como la jota española /x/."},
+        {"en": "B as in boy", "es": "B de boy (niño)", "partes": [{"t": "B", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "boy", "rol": "complemento"}], "nota": "Se usa mucho porque B y V se confunden fácilmente por teléfono."},
+        {"en": "V as in very", "es": "V de very (muy)", "partes": [{"t": "V", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "very", "rol": "complemento"}]},
+        {"en": "I as in ice", "es": "I de ice (hielo)", "partes": [{"t": "I", "rol": "otro"}, {"t": "as in", "rol": "otro"}, {"t": "ice", "rol": "complemento"}], "nota": "En ice la i suena igual que el nombre de la letra, /aɪ/: buen truco para recordarla."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Lo que dices si piensas en español", "items": ["«i» → el oyente escribe E", "«ge» → el oyente no reconoce ninguna letra", "«jota» → el oyente no reconoce ninguna letra", "«i griega» → el oyente no reconoce ninguna letra"]},
+        "b": {"titulo": "Lo que tienes que decir", "items": ["I → /aɪ/ «ai»", "G → /dʒiː/", "J → /dʒeɪ/", "Y → /waɪ/ «uai»"]},
+        "veredicto": "Antes de deletrear, piensa en el NOMBRE inglés de cada letra, no en su nombre español ni en su sonido dentro de una palabra."
+      },
+      "pronunciacion": [
+        {"texto": "G, J", "ipa": "/dʒiː/, /dʒeɪ/", "consejo": "Las dos empiezan con /dʒ/: junta la lengua al paladar como para decir «ch» y suelta con voz (como una «y» fuerte). Luego G termina en i larga y J en «ei».", "lento": true},
+        {"texto": "E, I", "ipa": "/iː/, /aɪ/", "consejo": "E: labios estirados, una sola vocal larga. I: la boca se abre en a y se cierra hacia i; se nota el movimiento de la mandíbula.", "lento": true},
+        {"texto": "B, V", "ipa": "/biː/, /viː/", "consejo": "B: junta los dos labios y suéltalos. V: apoya los dientes de arriba sobre el labio de abajo y deja vibrar el aire. Si no sientes cosquilleo en el labio, es B.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Deletrear Diego como «de-i-e-ge-o».", "bien": "/diː/ /aɪ/ /iː/ /dʒiː/ /oʊ/", "porque": "Con los nombres españoles, el oyente escribiría otra cosa: tu «i» suena a E y tu «e» no corresponde a ninguna letra."},
+        {"mal": "Decir /dʒeɪ/ para la G.", "bien": "G = /dʒiː/", "porque": "/dʒeɪ/ es la J. La G rima con B, C, D y E."},
+        {"mal": "Pronunciar V igual que B.", "bien": "V = /viː/, con dientes sobre el labio", "porque": "En inglés B y V son sonidos distintos y distinguen palabras (berry / very)."}
+      ]
+    },
+    {
+      "id": "deletrear",
+      "titulo": "Deletrear en una conversación",
+      "que_es": "Deletrear (to spell) es decir una palabra letra por letra. En inglés es una situación diaria, incluso entre nativos, porque la ortografía no se deduce del sonido: en un hotel, en un consultorio, al dar tu correo o al hablar por teléfono te van a preguntar How do you spell that?",
+      "para_que": [
+        "Para pedir a alguien que deletree su nombre y escribirlo bien.",
+        "Para deletrear tu nombre y apellido cuando te lo pidan.",
+        "Para comprobar cómo se escribe una palabra que acabas de oír en clase."
+      ],
+      "como_funciona": "Aprende estas frases como **bloques fijos**; su gramática la estudiarás más adelante. Para pedir: **How do you spell your name?** (¿Cómo se escribe tu nombre?) o, si el nombre ya se dijo, **How do you spell that?** Una versión más cortés es **Can you spell that, please?** Para responder, basta decir las letras con una pequeña pausa entre ellas: «M, E, I». Puedes empezar con **It's…**: «It's M-E-I». Cuando hay una letra doble, muchos dicen **double**: Anna = «A, double N, A»; aunque en Estados Unidos también es muy normal repetir la letra: «A, N, N, A». Los acentos del español no existen en inglés; normalmente se omiten al deletrear (Lucía se escribe Lucia en muchos formularios).",
+      "estructuras": [
+        {
+          "etiqueta": "Pedir que deletreen",
+          "formula": [{"t": "How", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "spell", "rol": "verbo"}, {"t": "your name / that", "rol": "complemento"}],
+          "ejemplo": [{"t": "How", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "spell", "rol": "verbo"}, {"t": "your name", "rol": "complemento"}],
+          "es": "¿Cómo se escribe tu nombre?"
+        },
+        {
+          "etiqueta": "Responder deletreando",
+          "formula": [{"t": "It's", "rol": "otro"}, {"t": "letra - letra - letra", "rol": "complemento"}],
+          "ejemplo": [{"t": "It's", "rol": "otro"}, {"t": "O-M-A-R", "rol": "complemento"}],
+          "es": "Es O-M-A-R."
+        }
+      ],
+      "ejemplos": [
+        {"en": "How do you spell your name?", "es": "¿Cómo se escribe tu nombre?", "situacion": "Una maestra apunta la lista de alumnos.", "partes": [{"t": "How", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "spell", "rol": "verbo"}, {"t": "your name", "rol": "complemento"}], "nota": "Por ahora apréndela entera. La palabra do no se traduce: es una pieza que el inglés necesita para hacer preguntas; la estudiarás más adelante."},
+        {"en": "How do you spell that?", "es": "¿Cómo se escribe eso?", "situacion": "Alguien acaba de decir su apellido.", "partes": [{"t": "How", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "spell", "rol": "verbo"}, {"t": "that", "rol": "complemento"}], "nota": "that (eso) se refiere a lo que la otra persona acaba de decir."},
+        {"en": "Can you spell that, please?", "es": "¿Me lo puedes deletrear, por favor?", "situacion": "Un recepcionista, de forma amable.", "nota": "Más cortés que la anterior. Please al final suaviza la petición."},
+        {"en": "It's M-E-I.", "es": "Es M-E-I.", "situacion": "Mei responde.", "partes": [{"t": "It's", "rol": "otro"}, {"t": "M-E-I", "rol": "complemento"}], "nota": "It's significa «es». Lo usamos aquí como bloque fijo."},
+        {"en": "Anna: A, double N, A.", "es": "Anna: A, doble N, A.", "nota": "double + letra evita que el oyente piense que solo hay una N."}
+      ],
+      "pronunciacion": [
+        {"texto": "How do you spell that?", "ipa": "/haʊ də jə ˈspel ðæt/", "consejo": "Las palabras pequeñas do y you se reducen a schwa (/də jə/) y se pegan: «jau-de-ye-SPEL-dat». La fuerza va en spell. Y spell empieza directamente con s: nada de «espel».", "lento": true},
+        {"texto": "spell", "ipa": "/spel/", "consejo": "Empieza con una s sostenida, sin apoyarte en una e previa. Termina con una l oscura, con la parte de atrás de la lengua levantada.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "How you spell your name?", "bien": "How do you spell your name?", "porque": "La pregunta necesita do entre how y you. Sin él no es una pregunta correcta en inglés."},
+        {"mal": "How is your name written?", "bien": "How do you spell your name?", "porque": "No es incorrecta, pero para pedir que alguien deletree lo natural es spell."},
+        {"mal": "Decir «espel».", "bien": "/spel/", "porque": "En inglés las palabras pueden empezar con s + consonante; no se añade una e delante."}
+      ],
+      "nota": {"titulo": "Spell no es escribir", "texto": "spell = deletrear (decir o escribir las letras en orden). write = escribir en general. Para preguntar por la ortografía de una palabra, usa spell.", "tono": "consejo"}
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada letra con el nombre que tiene en inglés.",
+      "pares": [
+        {"a": "A", "b": "/eɪ/"},
+        {"a": "E", "b": "/iː/"},
+        {"a": "I", "b": "/aɪ/"},
+        {"a": "G", "b": "/dʒiː/"},
+        {"a": "J", "b": "/dʒeɪ/"},
+        {"a": "H", "b": "/eɪtʃ/"}
+      ],
+      "pistas": [
+        "Recuerda que los nombres de las vocales no coinciden con el español.",
+        "Fíjate en G y J: empiezan igual; mira la vocal final de cada transcripción.",
+        "Regla: A = «ei», E = «i», I = «ai»; G rima con E y J rima con A; H es «ei» + ch."
+      ],
+      "solucion": {"respuesta": "A /eɪ/ · E /iː/ · I /aɪ/ · G /dʒiː/ · J /dʒeɪ/ · H /eɪtʃ/", "explicacion": "Las tres vocales «se corren»: la A suena «ei», la E suena como nuestra «i» y la I suena «ai». G y J comparten el sonido inicial /dʒ/; G termina en /iː/ (como E) y J en /eɪ/ (como A). H es /eɪtʃ/, «eich»."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "Un recepcionista te dice una letra que suena /iː/, como una «i» española larga. ¿Qué letra escribe?",
+      "opciones": [
+        {"texto": "E", "correcta": true, "porque": "Correcto: el nombre de la E inglesa es /iː/. Es la trampa número uno de los hispanohablantes."},
+        {"texto": "I", "correcta": false, "porque": "No: la I se llama /aɪ/, «ai», como la palabra I (yo)."},
+        {"texto": "Y", "correcta": false, "porque": "No: la Y se llama /waɪ/, «uai»."}
+      ],
+      "pistas": [
+        "Piensa en el nombre inglés de las letras, no en el español.",
+        "El sonido /iː/ es una sola vocal, sin movimiento de la boca.",
+        "Regla: los nombres de las vocales «se corren» respecto al español; la I inglesa se llama «ai» y la Y «uai»."
+      ],
+      "solucion": {"respuesta": "E", "explicacion": "En inglés la letra E se llama /iː/. Por eso, si deletreas con la «i» española, tu oyente escribe E. La I se llama /aɪ/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Cómo se llama la letra W en inglés?",
+      "opciones": [
+        {"texto": "double u /ˈdʌbəl juː/", "correcta": true, "porque": "Correcto: literalmente «doble u». Tiene tres sílabas: DUB-bəl-iu."},
+        {"texto": "double v", "correcta": false, "porque": "No: «doble ve» es uno de sus nombres en español, pero en inglés se llama double u."},
+        {"texto": "/waɪ/", "correcta": false, "porque": "No: /waɪ/ es el nombre de la Y."}
+      ],
+      "pistas": [
+        "Su nombre inglés describe su forma.",
+        "Piensa en qué letra aparece dos veces en su nombre: la U o la V.",
+        "Regla: el nombre inglés de la W no menciona la V: dice «doble» y el nombre de otra vocal."
+      ],
+      "solucion": {"respuesta": "double u /ˈdʌbəl juː/", "explicacion": "La W se llama double u, «doble u», con el acento en la primera sílaba: /ˈdʌbəl juː/. No la confundas con /waɪ/, que es la Y."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe la letra que corresponde a cada nombre.",
+      "frase": "/dʒeɪ/ = ___ · /dʒiː/ = ___",
+      "respuestas": [["J"], ["G"]],
+      "errores_tipicos": {
+        "g | j": "Están al revés, es la confusión más típica. /dʒeɪ/ termina en «ei», como A y K: es la J. /dʒiː/ termina en «i», como B, C, D, E: es la G."
+      },
+      "pistas": [
+        "Estas dos letras empiezan igual; la diferencia está en la vocal final.",
+        "Mira el final de cada transcripción: /eɪ/ o /iː/.",
+        "Regla: la letra que rima con A y K es la J; la que rima con B, C, D y E es la G."
+      ],
+      "solucion": {"respuesta": "J · G", "explicacion": "/dʒeɪ/ es la J, que pertenece al grupo de A, H, K (nombre con /eɪ/). /dʒiː/ es la G, del grupo de B, C, D, E (nombre con /iː/)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe la letra que corresponde a cada nombre.",
+      "frase": "/waɪ/ = ___ · /ɑːr/ = ___ · /eɪtʃ/ = ___",
+      "respuestas": [["Y"], ["R"], ["H"]],
+      "errores_tipicos": {
+        "w | r | h": "/waɪ/ no es la W (que se llama double u): es la Y, que suena como why.",
+        "i | r | h": "/waɪ/ empieza con /w/: no es la I (/aɪ/) sino la Y."
+      },
+      "pistas": [
+        "Son letras cuyo nombre inglés no se parece al español.",
+        "/waɪ/ suena igual que why (¿por qué?); /ɑːr/ es «ar»; /eɪtʃ/ es «eich».",
+        "Regla: son las tres letras cuyo nombre español (i griega, erre, hache) no sirve en inglés; ojo, /waɪ/ empieza por /w/ pero no es la W."
+      ],
+      "solucion": {"respuesta": "Y · R · H", "explicacion": "La Y se llama /waɪ/ (no «i griega»), la R /ɑːr/ (no «erre») y la H /eɪtʃ/ (no «hache»). Son tres letras en las que el nombre español no sirve de nada."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Qué grupo de letras tiene el mismo sonido vocálico /eɪ/ en su nombre?",
+      "opciones": [
+        {"texto": "A, H, J, K", "correcta": true, "porque": "Correcto: /eɪ/, /eɪtʃ/, /dʒeɪ/, /keɪ/. Todas riman con «rey»."},
+        {"texto": "B, C, D, E", "correcta": false, "porque": "No: estas llevan /iː/ en su nombre: /biː/, /siː/, /diː/, /iː/."},
+        {"texto": "F, L, M, N", "correcta": false, "porque": "No: estas llevan /e/ corta delante: /ef/, /el/, /em/, /en/."}
+      ],
+      "pistas": [
+        "Recuerda los grupos del mapa de la lección.",
+        "/eɪ/ es el nombre de la A: busca las letras que riman con ella.",
+        "Regla: /eɪ/ es el nombre de la A; el grupo correcto es aquel en el que todos los nombres riman con «rey»."
+      ],
+      "solucion": {"respuesta": "A, H, J, K", "explicacion": "A /eɪ/, H /eɪtʃ/, J /dʒeɪ/ y K /keɪ/ comparten la vocal /eɪ/. Aprender las letras por grupos ayuda a no confundir, por ejemplo, J con G (que está en el grupo /iː/)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.07",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Grace deletrea su nombre. Escucha y escribe el nombre.",
+      "texto": "G, R, A, C, E.",
+      "respuestas": ["Grace"],
+      "pistas": [
+        "Escucha el nombre de cada letra, no su sonido.",
+        "La primera letra termina en «i» y la última suena como una «i» larga.",
+        "Regla: /dʒiː/ es G (no J), /eɪ/ es A y /iː/ es E."
+      ],
+      "solucion": {"respuesta": "Grace", "explicacion": "Oíste /dʒiː/ /ɑːr/ /eɪ/ /siː/ /iː/: G, R, A, C, E. Si escribiste J al principio o I al final, repasa los grupos: G rima con E, y el nombre de la E suena como nuestra «i»."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.08",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Un estudiante deletrea su nombre en la recepción. Escucha y escribe el nombre.",
+      "texto": "J, A, V, I, E, R.",
+      "respuestas": ["Javier"],
+      "pistas": [
+        "Hay seis letras y varias de las trampas de la lección.",
+        "Atención a la primera (¿termina en «ei» o en «i»?), a la tercera (¿labios juntos o dientes sobre el labio?) y a las dos vocales seguidas.",
+        "Regla: /dʒeɪ/ = J, /viː/ = V, /aɪ/ = I, /iː/ = E, /ɑːr/ = R."
+      ],
+      "solucion": {"respuesta": "Javier", "explicacion": "Oíste /dʒeɪ/ /eɪ/ /viː/ /aɪ/ /iː/ /ɑːr/: J, A, V, I, E, R. Es un nombre lleno de trampas: la J termina en «ei», la A también, y en el centro «ai» es I y la «i» larga es E."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el verbo spell.",
+      "es": "¿Cómo se escribe tu nombre?",
+      "respuestas": ["How do you spell your name?", "How is your name spelled?", "How is your name spelt?"],
+      "errores_tipicos": {
+        "How you spell your name?": "Falta do después de How. En inglés la pregunta necesita esa pieza: How do you spell…?",
+        "How do you spell you name?": "you es «tú»; para decir «tu nombre» se usa your: your name.",
+        "How spell your name?": "Faltan do y you: la pregunta completa es How do you spell your name?"
+      },
+      "pistas": [
+        "Es la frase fija de la lección para pedir que alguien deletree.",
+        "Empieza por How y recuerda la pequeña palabra que va antes de you.",
+        "Estructura: palabra interrogativa + do + sujeto + verbo + lo que se deletrea?"
+      ],
+      "solucion": {"respuesta": "How do you spell your name?", "explicacion": "La frase fija es How do you spell your name? How = cómo, do = pieza obligatoria de la pregunta (no se traduce), you = tú, spell = deletrear, your name = tu nombre. También es correcta How is your name spelled?, aunque menos frecuente en conversación."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.10",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para preguntar cómo se escribe el apellido de alguien.",
+      "fichas": ["spell", "How", "last", "you", "do", "your", "name"],
+      "respuestas": ["How do you spell your last name?"],
+      "traduccion": "¿Cómo se escribe tu apellido?",
+      "pistas": [
+        "Es la misma frase fija de la lección, con last name (apellido) en lugar de name.",
+        "Empieza por la palabra interrogativa.",
+        "Estructura: palabra interrogativa + do + sujeto + verbo + lo que se deletrea?"
+      ],
+      "solucion": {"respuesta": "How do you spell your last name?", "explicacion": "How abre la pregunta, do y you van a continuación, luego el verbo spell y al final lo que se deletrea: your last name. last name es «apellido» (en el Reino Unido también surname)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.11",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Esta pregunta tiene un error. Señala la parte incorrecta y escríbela bien.",
+      "frase": "How you spell your first name?",
+      "error": "How you",
+      "correcciones": ["How do you"],
+      "frase_correcta": "How do you spell your first name?",
+      "pistas": [
+        "Compárala con la frase fija de la lección.",
+        "Mira el principio de la pregunta: falta una palabra pequeña.",
+        "Regla: la pregunta se forma How + do + you + spell…"
+      ],
+      "solucion": {"respuesta": "How do you spell your first name?", "explicacion": "Falta do entre How y you. En inglés esta pregunta no se puede formar solo con el orden de las palabras: necesita do. first name = nombre de pila."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Estás en la recepción de un consultorio. Tu apellido es Ortiz.",
+      "lineas": [
+        {"quien": "Receptionist", "en": "What's your last name?", "es": "¿Cuál es tu apellido?"},
+        {"quien": "Tú", "en": "Ortiz.", "es": "Ortiz."},
+        {"quien": "Receptionist", "en": "How do you spell that?", "es": "¿Cómo se escribe?"}
+      ],
+      "opciones": [
+        {"texto": "O, R, T, I, Z.", "correcta": true, "porque": "Correcto: te piden que deletrees, y eso es decir las letras una por una con sus nombres ingleses: /oʊ/ /ɑːr/ /tiː/ /aɪ/ /ziː/."},
+        {"texto": "Yes, Ortiz.", "correcta": false, "porque": "No responde: la recepcionista no te pregunta si es Ortiz, te pide las letras."},
+        {"texto": "Ortiz, Ortiz, Ortiz.", "correcta": false, "porque": "Repetir la palabra no sirve: el problema es que no sabe cómo se escribe, así que hay que deletrear."}
+      ],
+      "pistas": [
+        "Recuerda qué significa spell.",
+        "La pregunta How do you spell that? pide las letras de lo que acabas de decir.",
+        "Regla: a How do you spell…? se responde nombrando cada letra con su nombre inglés."
+      ],
+      "solucion": {"respuesta": "O, R, T, I, Z.", "explicacion": "How do you spell that? pide deletrear. La respuesta natural son las letras: O /oʊ/, R /ɑːr/, T /tiː/, I /aɪ/, Z /ziː/ (o /zed/ en inglés británico)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.el-alfabeto.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite las letras «difíciles». Grábate y compara.",
+      "texto": "E, I, G, J, H, R, Y, W",
+      "ipa": "/iː/, /aɪ/, /dʒiː/, /dʒeɪ/, /eɪtʃ/, /ɑːr/, /waɪ/, /ˈdʌbəl juː/",
+      "consejo": "E es una «i» larga; I es «ai». G y J empiezan con /dʒ/ (como una «y» fuerte) y se diferencian por el final: «i» y «ei». H es «eich», R es «ar» sin vibrar la lengua, Y es «uai» y W tiene tres sílabas: DUB-bəl-iu.",
+      "es": "Las letras que más confunden a un hispanohablante."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Deletrea tu nombre",
+    "contexto": "Te inscribes en un curso. La coordinadora, Priya, toma tus datos en la computadora.",
+    "dialogo": [
+      {"quien": "Priya", "en": "What's your first name?", "es": "¿Cuál es tu nombre?"},
+      {"quien": "Tú", "en": "…", "es": "(dices tu nombre)"},
+      {"quien": "Priya", "en": "How do you spell that?", "es": "¿Cómo se escribe?"}
+    ],
+    "tu_turno": "Deletrea en voz alta tu nombre y después tu apellido. Si Priya no te entiende una letra, aclárala con «… as in …».",
+    "modelo": "It's D-I-E-G-O. My last name is Ruiz: R-U-I-Z.",
+    "alternativas": ["D, I, E, G, O.", "It's D-I-E-G-O. D as in dog."],
+    "claves": ["Nombra cada letra con su nombre inglés: I = /aɪ/, E = /iː/, G = /dʒiː/.", "Haz una pequeña pausa entre letras.", "Para una letra doble puedes decir double: A, double N, A."]
+  },
+  "resumen": {
+    "esencial": [
+      "Las letras inglesas tienen nombres propios: A /eɪ/, E /iː/, I /aɪ/, O /oʊ/, U /juː/.",
+      "Grupos: /eɪ/ A H J K · /iː/ B C D E G P T V Z · /e/ F L M N S X · /aɪ/ I Y · /uː/ Q U W · O · R.",
+      "Trampas: E/I, G/J, A/E, B/V, H «eich», R «ar», Y «uai», W «double u».",
+      "Z es zee en EE. UU. y zed en el Reino Unido.",
+      "Para pedir que deletreen: How do you spell your name? / How do you spell that?"
+    ],
+    "recuerda": [
+      "El nombre de una letra no es lo mismo que su sonido dentro de una palabra: G se llama /dʒiː/ pero en good suena /ɡ/.",
+      "Aclara letras dudosas con «as in»: V as in very.",
+      "La ñ no existe en inglés y los acentos gráficos se omiten al deletrear."
+    ]
+  },
+  "repaso": [
+    {"id": "sonidos-y-alfabeto.el-alfabeto.r1", "frente": "¿Cómo se llaman A, E, I en inglés?", "reverso": "A /eɪ/ «ei», E /iː/ «i», I /aɪ/ «ai»."},
+    {"id": "sonidos-y-alfabeto.el-alfabeto.r2", "frente": "¿Cómo distingues G y J?", "reverso": "G /dʒiː/ rima con E; J /dʒeɪ/ rima con A."},
+    {"id": "sonidos-y-alfabeto.el-alfabeto.r3", "frente": "¿Cómo se llaman H, R, Y, W?", "reverso": "H /eɪtʃ/, R /ɑːr/, Y /waɪ/, W /ˈdʌbəl juː/."},
+    {"id": "sonidos-y-alfabeto.el-alfabeto.r4", "frente": "¿Cómo pides a alguien que deletree su nombre?", "reverso": "How do you spell your name?", "nota": "Si ya lo dijo: How do you spell that?"},
+    {"id": "sonidos-y-alfabeto.el-alfabeto.r5", "frente": "Z en EE. UU. y en el Reino Unido", "reverso": "zee /ziː/ (EE. UU.) · zed /zed/ (R. U.)"}
+  ]
+}

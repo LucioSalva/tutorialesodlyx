@@ -1,0 +1,696 @@
+{
+  "slug": "ortografia-ing",
+  "titulo": "La ortografía de -ing",
+  "minutos": 35,
+  "objetivos": [
+    "Añadir -ing a la mayoría de los verbos sin cambios (working, playing, studying).",
+    "Quitar la e muda final (make → making) y conocer sus excepciones (being, seeing, agreeing).",
+    "Duplicar la consonante final cuando toca (run → running, begin → beginning) y saber cuándo no (visiting, opening, fixing).",
+    "Cambiar ie por y en lie, die y tie (lying, dying, tying).",
+    "Reconocer la diferencia entre traveling (EE. UU.) y travelling (Reino Unido)."
+  ],
+  "situacion": {
+    "titulo": "Un mensaje lleno de -ing",
+    "texto": "Sam está de vacaciones en la playa con su familia y le escribe a Priya. Lee el mensaje y fíjate en las palabras en -ing: algunas son el verbo + -ing sin más, pero otras cambian una letra (making), duplican una (swimming) o cambian ie por y (lying).",
+    "dialogo": [
+      { "quien": "Priya", "en": "Hi, Sam! How's the beach?", "es": "¡Hola, Sam! ¿Qué tal la playa?" },
+      { "quien": "Sam", "en": "Amazing! I'm lying in the sun right now.", "es": "¡Increíble! Ahorita estoy acostado al sol." },
+      { "quien": "Sam", "en": "My kids are swimming and my wife is making sandwiches.", "es": "Mis hijos están nadando y mi esposa está haciendo sándwiches." },
+      { "quien": "Priya", "en": "Lucky you! I'm sitting in the office.", "es": "¡Qué suerte! Yo estoy sentada en la oficina." },
+      { "quien": "Sam", "en": "Sorry! We're having a great time. This week we're visiting a lot of small towns.", "es": "¡Perdón! La estamos pasando muy bien. Esta semana estamos visitando muchos pueblitos." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "regla-general-y-e-muda",
+      "titulo": "Regla general y la e muda",
+      "que_es": "La mayoría de los verbos simplemente añaden [[-ing]] a la forma base: [[work → working]], [[go → going]], [[play → playing]]. La primera regla especial afecta a los verbos que terminan en una **e que no se pronuncia** (la «e muda»): esa e desaparece antes de -ing: [[make → making]].",
+      "para_que": [
+        "Escribir sin faltas las formas más frecuentes: making, having, coming, writing, taking.",
+        "No confundirte con los verbos que terminan en y, que en -ing nunca cambian (studying).",
+        "Entender por qué being, seeing y agreeing conservan la e."
+      ],
+      "como_funciona": "**Paso 1 · regla general.** Forma base + -ing: [[read → reading]], [[eat → eating]], [[watch → watching]], [[do → doing]], [[go → going]].\n\n**Paso 2 · la e muda desaparece.** Si el verbo termina en consonante + e, y esa e no suena, se quita: [[make → making]], [[write → writing]], [[come → coming]], [[have → having]], [[take → taking]], [[live → living]], [[dance → dancing]], [[use → using]]. La razón es que la i de -ing ya cumple la función de esa e.\n\n**Excepciones (la e se conserva):**\n- [[be → being]]: la e de be sí se pronuncia (/bi/), no es una e muda; being tiene dos sílabas bien separadas.\n- Los verbos en **ee**: [[see → seeing]], [[agree → agreeing]], [[free → freeing]]. Aquí la e sí se pronuncia (forma parte del sonido /i/), así que no se toca.\n- Hay otros casos raros, como [[dye → dyeing]] (teñir), que conservan la e para no confundirse con otra palabra; los verás cuando aparezcan.\n\n**Atención a la y:** los verbos en y **nunca cambian** delante de -ing: [[study → studying]], [[cry → crying]], [[play → playing]], [[try → trying]]. Es justo al revés que en la tercera persona del presente simple ([[she studies]]): allí la y se convierte en ie, aquí no, porque «studiing» tendría dos íes seguidas, algo que el inglés evita.",
+      "estructuras": [
+        {
+          "etiqueta": "Verbo + -ing (regla general)",
+          "formula": [
+            { "t": "forma base", "rol": "verbo" },
+            { "t": "-ing", "rol": "otro" }
+          ],
+          "ejemplo": [
+            { "t": "She's", "rol": "sujeto" },
+            { "t": "studying", "rol": "verbo" },
+            { "t": "English", "rol": "complemento" }
+          ],
+          "es": "Está estudiando inglés."
+        },
+        {
+          "etiqueta": "Verbo en e muda: quita la e",
+          "formula": [
+            { "t": "mak(e)", "rol": "verbo" },
+            { "t": "-ing = making", "rol": "otro" }
+          ],
+          "ejemplo": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "making", "rol": "verbo" },
+            { "t": "a cake", "rol": "complemento" }
+          ],
+          "es": "Estoy haciendo un pastel."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Regla general, e muda y sus excepciones",
+          "columnas": ["Tipo", "Forma base", "Forma -ing"],
+          "filas": [
+            ["Regla general", "work", "working"],
+            ["Regla general (termina en y)", "study", "studying"],
+            ["Regla general (termina en o)", "go", "going"],
+            ["e muda", "write", "writing"],
+            ["e muda", "have", "having"],
+            ["e muda", "come", "coming"],
+            ["Excepción: be", "be", "being"],
+            ["Excepción: ee", "see", "seeing"],
+            ["Excepción: ee", "agree", "agreeing"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Grace is writing an email.",
+          "es": "Grace está escribiendo un correo.",
+          "partes": [
+            { "t": "Grace", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "writing", "rol": "verbo" },
+            { "t": "an email", "rol": "complemento" }
+          ],
+          "nota": "write termina en e muda → writing. Y con una sola t: la t no se duplica, porque la vocal de write es larga (/aɪ/). «writting» es uno de los errores más comunes."
+        },
+        {
+          "en": "We're having breakfast.",
+          "es": "Estamos desayunando.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "having", "rol": "verbo" },
+            { "t": "breakfast", "rol": "complemento" }
+          ],
+          "nota": "have → having. En español «desayunar» es un verbo; en inglés se dice have breakfast («tomar el desayuno»)."
+        },
+        {
+          "en": "Ben is being very nice today.",
+          "es": "Ben está siendo muy amable hoy.",
+          "situacion": "Ben normalmente es un poco antipático, pero hoy no.",
+          "partes": [
+            { "t": "Ben", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "being", "rol": "verbo" },
+            { "t": "very nice", "rol": "complemento" },
+            { "t": "today", "rol": "tiempo" }
+          ],
+          "nota": "be → being conserva la e. is being + adjetivo describe un comportamiento temporal: hoy se porta amable (quizá normalmente no)."
+        },
+        {
+          "en": "Lucía is seeing her cousins this week.",
+          "es": "Esta semana Lucía se está viendo con sus primos.",
+          "partes": [
+            { "t": "Lucía", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "seeing", "rol": "verbo" },
+            { "t": "her cousins", "rol": "complemento" },
+            { "t": "this week", "rol": "tiempo" }
+          ],
+          "nota": "see → seeing: los verbos en ee no pierden ninguna e. Aquí see significa «verse con alguien, visitar». Con el sentido de «ver con los ojos», see casi nunca va en continuo (se dice I see a bird); lo estudiarás en la unidad siguiente."
+        },
+        {
+          "en": "The baby is crying.",
+          "es": "El bebé está llorando.",
+          "partes": [
+            { "t": "The baby", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "crying", "rol": "verbo" }
+          ],
+          "nota": "cry → crying: la y se conserva. Compáralo con el presente simple: The baby cries a lot (ahí sí cambia a ies)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Tercera persona del presente simple",
+          "items": ["study → studies", "cry → cries", "La y cambia a ie antes de -s."]
+        },
+        "b": {
+          "titulo": "Forma -ing",
+          "items": ["study → studying", "cry → crying", "La y nunca cambia antes de -ing."]
+        },
+        "veredicto": "No traslades la regla de -ies a -ing: «studiing» y «criing» no existen."
+      },
+      "pronunciacion": [
+        {
+          "texto": "writing",
+          "ipa": "/ˈraɪtɪŋ/",
+          "consejo": "En inglés estadounidense la t entre dos vocales se suaviza y suena como la r simple del español de «pero»: «rái-ring». La i de la primera sílaba es un diptongo /aɪ/, como «ai» en «aire».",
+          "lento": true
+        },
+        {
+          "texto": "being",
+          "ipa": "/ˈbiɪŋ/",
+          "consejo": "Dos sílabas: BI-ing. La primera i es larga y tensa (sonríe un poco), la segunda es corta y relajada. No la reduzcas a una sílaba («bing»)."
+        },
+        {
+          "texto": "agreeing",
+          "ipa": "/əˈɡriɪŋ/",
+          "consejo": "Tres sílabas y el acento en la segunda: a-GREE-ing. La a inicial es una vocal débil /ə/, como una a muy corta y relajada."
+        }
+      ],
+      "errores": [
+        { "mal": "She's makeing dinner.", "bien": "She's making dinner.", "porque": "make termina en e muda: la e se quita antes de -ing." },
+        { "mal": "I'm writting a message.", "bien": "I'm writing a message.", "porque": "write pierde la e, pero la t no se duplica: la vocal de write es larga (/aɪ/)." },
+        { "mal": "He's studiing for a test.", "bien": "He's studying for a test.", "porque": "Delante de -ing la y se conserva siempre." },
+        { "mal": "Why are you bing so quiet?", "bien": "Why are you being so quiet?", "porque": "be es una excepción: conserva la e (being)." },
+        { "mal": "They're seing a movie.", "bien": "They're seeing a movie.", "porque": "Los verbos en ee no pierden ninguna e: see → seeing." }
+      ]
+    },
+    {
+      "id": "duplicar-consonante",
+      "titulo": "Cuándo se duplica la consonante final",
+      "que_es": "Algunos verbos duplican su última consonante antes de -ing: [[run → running]], [[sit → sitting]], [[begin → beginning]]. No es capricho: la consonante doble indica que la vocal anterior se pronuncia **corta**. Sin duplicar, «runing» se leería como si tuviera una u larga.",
+      "para_que": [
+        "Escribir bien verbos muy frecuentes: getting, sitting, running, swimming, putting, stopping, shopping.",
+        "Saber por qué visiting, opening o listening no duplican aunque parezcan iguales.",
+        "Reconocer la diferencia de ortografía británica (travelling) y estadounidense (traveling)."
+      ],
+      "como_funciona": "Se duplica la consonante final cuando se cumplen **las tres condiciones** a la vez:\n1. El verbo termina en **consonante + una sola vocal + consonante** (patrón CVC): r-u-n, s-i-t, g-e-t, s-t-o-p.\n2. Esa última sílaba es la **acentuada**. En los verbos de una sílaba siempre lo es (run, swim, put); en los de dos, hay que mirar dónde cae el acento: be**GIN** → beginning, for**GET** → forgetting, pre**FER** → preferring.\n3. La consonante final **no es w, x ni y**, que nunca se duplican: [[fix → fixing]], [[snow → snowing]], [[play → playing]], [[show → showing]].\n\nSi falla una sola condición, **no se duplica**:\n- Acento en otra sílaba: **VIS**it → visiting, **O**pen → opening, **LIS**ten → listening, **HAP**pen → happening, **EN**ter → entering.\n- Dos vocales antes de la consonante: eat → eating, rain → raining, wait → waiting, sleep → sleeping.\n- Dos consonantes al final: work → working, help → helping, start → starting.\n\n**Británico y estadounidense.** Con los verbos terminados en una l no acentuada, el inglés británico duplica la l de todos modos y el estadounidense no: [[travel → traveling]] (EE. UU.) / [[travelling]] (Reino Unido); [[cancel → canceling / cancelling]]. Las dos formas son correctas en su variedad; en este curso usamos la estadounidense, pero no marques como error la británica cuando la leas.",
+      "estructuras": [
+        {
+          "etiqueta": "CVC con acento al final: duplica",
+          "formula": [
+            { "t": "ru-n", "rol": "verbo" },
+            { "t": "n", "rol": "otro" },
+            { "t": "-ing = running", "rol": "otro" }
+          ],
+          "ejemplo": [
+            { "t": "Tom", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "running", "rol": "verbo" },
+            { "t": "in the park", "rol": "complemento" }
+          ],
+          "es": "Tom está corriendo en el parque."
+        },
+        {
+          "etiqueta": "Acento en otra sílaba: no duplica",
+          "formula": [
+            { "t": "VIS-it", "rol": "verbo" },
+            { "t": "-ing = visiting", "rol": "otro" }
+          ],
+          "ejemplo": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "visiting", "rol": "verbo" },
+            { "t": "my cousins", "rol": "complemento" }
+          ],
+          "es": "Estamos visitando a mis primos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Duplica o no?",
+          "columnas": ["Verbo", "Forma -ing", "Por qué"],
+          "filas": [
+            ["run", "running", "CVC, una sílaba: duplica"],
+            ["swim", "swimming", "CVC, una sílaba: duplica"],
+            ["get", "getting", "CVC, una sílaba: duplica"],
+            ["begin", "beginning", "CVC y acento en la última sílaba (beGIN)"],
+            ["forget", "forgetting", "CVC y acento en la última sílaba (forGET)"],
+            ["visit", "visiting", "Acento en la primera sílaba (VISit): no duplica"],
+            ["open", "opening", "Acento en la primera sílaba (Open): no duplica"],
+            ["eat", "eating", "Dos vocales (ea): no duplica"],
+            ["fix", "fixing", "Termina en x: nunca duplica"],
+            ["play", "playing", "Termina en y: nunca duplica"],
+            ["travel", "traveling / travelling", "EE. UU. no duplica / Reino Unido sí"]
+          ],
+          "audio": [0, 1]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Tres preguntas antes de duplicar",
+        "centro": "¿duplico la consonante?",
+        "ramas": [
+          { "texto": "¿Termina en consonante + 1 vocal + consonante?", "detalle": "No (eat, work) → no dupliques" },
+          { "texto": "¿Es la sílaba acentuada?", "detalle": "No (VISit, Open) → no dupliques" },
+          { "texto": "¿La consonante es w, x o y?", "detalle": "Sí (fix, snow, play) → no dupliques" },
+          { "texto": "Sí, sí y no", "detalle": "Duplica: running, beginning, stopping" }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "The kids are swimming in the pool.",
+          "es": "Los niños están nadando en la alberca.",
+          "partes": [
+            { "t": "The kids", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "swimming", "rol": "verbo" },
+            { "t": "in the pool", "rol": "complemento" }
+          ],
+          "nota": "swim = s-w-i-m: termina en i + m (vocal + consonante) y tiene una sílaba → se duplica la m. Las letras sw del principio no importan: solo cuentan las tres últimas."
+        },
+        {
+          "en": "The movie is beginning.",
+          "es": "Ya está empezando la película.",
+          "partes": [
+            { "t": "The movie", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "beginning", "rol": "verbo" }
+          ],
+          "nota": "begin tiene dos sílabas y el acento cae en la segunda (be-GIN), por eso se duplica la n."
+        },
+        {
+          "en": "Aisha is listening to a podcast.",
+          "es": "Aisha está escuchando un pódcast.",
+          "partes": [
+            { "t": "Aisha", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "listening to", "rol": "verbo" },
+            { "t": "a podcast", "rol": "complemento" }
+          ],
+          "nota": "listen se acentúa en la primera sílaba (LIS-ten) y la t no se pronuncia: no se duplica la n. Además listen necesita to antes de lo que se escucha."
+        },
+        {
+          "en": "My dad is fixing the sink.",
+          "es": "Mi papá está arreglando el fregadero.",
+          "partes": [
+            { "t": "My dad", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "fixing", "rol": "verbo" },
+            { "t": "the sink", "rol": "complemento" }
+          ],
+          "nota": "fix parece CVC, pero la x nunca se duplica (suena /ks/, ya son dos consonantes)."
+        },
+        {
+          "en": "We're traveling around Oaxaca this month.",
+          "es": "Este mes estamos viajando por Oaxaca.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "traveling", "rol": "verbo" },
+            { "t": "around Oaxaca", "rol": "complemento" },
+            { "t": "this month", "rol": "tiempo" }
+          ],
+          "nota": "Ortografía estadounidense: traveling con una l (el acento está en TRAV-el). En un texto británico verás travelling, igual de correcto allí."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "running",
+          "ipa": "/ˈrʌnɪŋ/",
+          "consejo": "La doble n es solo ortografía: se pronuncia una sola n. La u de run es /ʌ/, una a corta y relajada con la boca poco abierta (no una u española).",
+          "lento": true
+        },
+        {
+          "texto": "beginning",
+          "ipa": "/bɪˈɡɪnɪŋ/",
+          "consejo": "Acento en la segunda sílaba: bi-GIN-ing. Esa sílaba fuerte es justo la razón de que se duplique la n."
+        },
+        {
+          "texto": "visiting",
+          "ipa": "/ˈvɪzɪtɪŋ/",
+          "consejo": "Acento en la primera sílaba: VI-zi-ting. La s suena /z/, con vibración. Como la sílaba final no es fuerte, la t no se duplica. En EE. UU. esa t suele sonar como una r suave: «VÍ-zi-ring»."
+        }
+      ],
+      "errores": [
+        { "mal": "She's runing in the park.", "bien": "She's running in the park.", "porque": "run es CVC de una sílaba: la n se duplica." },
+        { "mal": "We're visitting the museum.", "bien": "We're visiting the museum.", "porque": "visit se acentúa en la primera sílaba (VISit): no se duplica la t." },
+        { "mal": "He's fixxing his bike.", "bien": "He's fixing his bike.", "porque": "La x nunca se duplica." },
+        { "mal": "I'm eatting a sandwich.", "bien": "I'm eating a sandwich.", "porque": "eat tiene dos vocales (ea) antes de la t: no es CVC, no se duplica." },
+        { "mal": "It's snowwing.", "bien": "It's snowing.", "porque": "La w nunca se duplica." }
+      ]
+    },
+    {
+      "id": "ie-a-y",
+      "titulo": "ie se convierte en y",
+      "que_es": "Tres verbos frecuentes terminan en **ie**: [[lie]] (acostarse, estar tumbado; también mentir), [[die]] (morir) y [[tie]] (atar). Antes de -ing, **ie cambia a y**: [[lying]], [[dying]], [[tying]].",
+      "para_que": [
+        "Decir que alguien está acostado: He's lying on the sofa.",
+        "Describir plantas o baterías que se están acabando: My phone is dying.",
+        "Contar que alguien está atándose las agujetas: She's tying her shoes."
+      ],
+      "como_funciona": "Si aplicaras la regla de la e muda, lie daría «liing», con dos íes seguidas, algo que la ortografía inglesa evita. Por eso **ie → y + ing**: [[lie → lying]], [[die → dying]], [[tie → tying]]. Hay otro verbo poco frecuente que sigue la misma regla ([[vie → vying]], competir), pero a tu nivel bastan los tres primeros.\n\nNo confundas esta regla con los verbos en y, que se quedan igual ([[cry → crying]], [[fly → flying]]): lo que cambia es **ie**, no la y.",
+      "estructuras": [
+        {
+          "etiqueta": "ie → y + ing",
+          "formula": [
+            { "t": "l(ie) → ly", "rol": "verbo" },
+            { "t": "-ing = lying", "rol": "otro" }
+          ],
+          "ejemplo": [
+            { "t": "The dog", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "lying", "rol": "verbo" },
+            { "t": "under the table", "rol": "complemento" }
+          ],
+          "es": "El perro está echado debajo de la mesa."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos is lying on the sofa.",
+          "es": "Carlos está acostado en el sillón.",
+          "partes": [
+            { "t": "Carlos", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "lying", "rol": "verbo" },
+            { "t": "on the sofa", "rol": "complemento" }
+          ],
+          "nota": "En español usamos «estar acostado» (un participio); en inglés se usa is lying, porque la posición se ve como algo en curso."
+        },
+        {
+          "en": "My phone is dying.",
+          "es": "Se me está acabando la pila del celular.",
+          "situacion": "Le avisas a alguien de que tu celular se va a apagar.",
+          "partes": [
+            { "t": "My phone", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "dying", "rol": "verbo" }
+          ],
+          "nota": "die → dying. Es una forma coloquial muy común para decir que la batería se está agotando."
+        },
+        {
+          "en": "Mei is tying her shoes.",
+          "es": "Mei se está amarrando las agujetas.",
+          "partes": [
+            { "t": "Mei", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "tying", "rol": "verbo" },
+            { "t": "her shoes", "rol": "complemento" }
+          ],
+          "nota": "tie → tying. En inglés se dice «atar los zapatos» (tie your shoes), con el posesivo her, no el artículo."
+        },
+        {
+          "en": "The plants are dying because it's very hot.",
+          "es": "Las plantas se están muriendo porque hace mucho calor.",
+          "partes": [
+            { "t": "The plants", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "dying", "rol": "verbo" },
+            { "t": "because it's very hot", "rol": "complemento" }
+          ],
+          "nota": "Sujeto plural → are. El calor se expresa con it's hot (be + adjetivo), no «it makes hot»."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "lying",
+          "ipa": "/ˈlaɪɪŋ/",
+          "consejo": "Dos sílabas: LAI-ing. La y representa el diptongo /aɪ/ de lie; después viene -ing. La l inicial se hace con la punta de la lengua detrás de los dientes, igual que en español.",
+          "lento": true
+        },
+        {
+          "texto": "tying",
+          "ipa": "/ˈtaɪɪŋ/",
+          "consejo": "TAI-ing. La t inicial en inglés lleva un soplo de aire (aspiración): pon la mano delante de la boca y nota el aire. La t española no lo tiene."
+        }
+      ],
+      "errores": [
+        { "mal": "He's lieing in bed.", "bien": "He's lying in bed.", "porque": "ie cambia a y antes de -ing." },
+        { "mal": "The flowers are diing.", "bien": "The flowers are dying.", "porque": "ie → y: dying. Nunca dos íes seguidas." },
+        { "mal": "The kids are flieing kites.", "bien": "The kids are flying kites.", "porque": "fly termina en y, no en ie: se añade -ing sin cambios." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-continuo.ortografia-ing.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma -ing correcta.",
+      "pregunta": "make + -ing",
+      "opciones": [
+        { "texto": "making", "correcta": true, "porque": "Correcta: make termina en e muda, que se quita antes de -ing." },
+        { "texto": "makeing", "correcta": false, "porque": "La e muda no se conserva: la i de -ing la sustituye." },
+        { "texto": "makking", "correcta": false, "porque": "No se duplica la k: make no termina en consonante + vocal + consonante, termina en e." }
+      ],
+      "pistas": [
+        "Mira la última letra de make.",
+        "Termina en una e que no se pronuncia.",
+        "Consonante + e muda → quita la e y añade -ing."
+      ],
+      "solucion": { "respuesta": "making", "explicacion": "La respuesta es making porque make termina en e muda y esa e desaparece antes de -ing, igual que en write → writing o come → coming." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada verbo con su forma -ing.",
+      "pares": [
+        { "a": "write", "b": "writing" },
+        { "a": "swim", "b": "swimming" },
+        { "a": "lie", "b": "lying" },
+        { "a": "see", "b": "seeing" },
+        { "a": "play", "b": "playing" },
+        { "a": "open", "b": "opening" }
+      ],
+      "pistas": [
+        "Cada verbo sigue una de las reglas: general, e muda, duplicar o ie → y.",
+        "Mira las últimas letras de cada verbo y dónde va el acento.",
+        "e muda se quita (salvo ee); CVC acentuado duplica; ie → y; w, x, y y las sílabas no acentuadas no duplican."
+      ],
+      "solucion": { "respuesta": "write–writing, swim–swimming, lie–lying, see–seeing, play–playing, open–opening", "explicacion": "write pierde la e muda; swim duplica la m (CVC de una sílaba); lie cambia ie por y; see conserva las dos e; play no cambia porque la y nunca se duplica ni se transforma; open no duplica porque el acento está en la primera sílaba (O-pen)." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma -ing del verbo entre paréntesis.",
+      "frase": "Mei is ___ a photo of the sunset. (take)",
+      "respuestas": [["taking"]],
+      "traduccion": "Mei está tomando una foto del atardecer.",
+      "errores_tipicos": {
+        "takeing": "take termina en e muda: se quita antes de -ing.",
+        "takking": "No se duplica nada: take termina en e, no en consonante + vocal + consonante.",
+        "take": "Después de is el verbo va en -ing."
+      },
+      "pistas": [
+        "Revisa la última letra de take.",
+        "Es una e que no suena.",
+        "La e muda desaparece antes de -ing, como en make → making."
+      ],
+      "solucion": { "respuesta": "taking", "explicacion": "La respuesta es taking: take termina en e muda, que se elimina antes de añadir -ing. take a photo = tomar una foto." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma -ing del verbo entre paréntesis.",
+      "frase": "Two men are ___ outside the store. (sit)",
+      "respuestas": [["sitting"]],
+      "traduccion": "Dos hombres están sentados afuera de la tienda.",
+      "errores_tipicos": {
+        "siting": "sit es consonante + vocal + consonante y tiene una sola sílaba: hay que duplicar la t.",
+        "sit": "Después de are el verbo va en -ing."
+      },
+      "pistas": [
+        "Mira las tres últimas letras de sit.",
+        "s-i-t: consonante, vocal, consonante, en una sola sílaba.",
+        "CVC acentuado → duplica la consonante final antes de -ing."
+      ],
+      "solucion": { "respuesta": "sitting", "explicacion": "La respuesta es sitting con doble t: sit termina en consonante + vocal + consonante y su única sílaba es acentuada. Fíjate en la traducción: «están sentados» se dice are sitting, en continuo." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma -ing de los verbos entre paréntesis.",
+      "frase": "I'm ___ my grandma and she's ___ me a story. (visit / tell)",
+      "respuestas": [["visiting"], ["telling"]],
+      "traduccion": "Estoy visitando a mi abuela y ella me está contando una historia.",
+      "errores_tipicos": {
+        "visitting | telling": "visit se acentúa en la primera sílaba (VIS-it): no se duplica la t.",
+        "visiting | teling": "tell ya termina en dos consonantes (ll): se añade -ing sin quitar nada."
+      },
+      "pistas": [
+        "Los dos verbos siguen la regla general, aunque uno parece que debería duplicar.",
+        "Busca dónde está el acento de visit y cuántas consonantes tiene tell al final.",
+        "Sin acento en la última sílaba no hay duplicación; con dos consonantes finales tampoco."
+      ],
+      "solucion": { "respuesta": "visiting / telling", "explicacion": "visiting: visit termina en CVC, pero el acento está en la primera sílaba (VIS-it), así que no se duplica. telling: tell termina en ll, dos consonantes, así que solo se añade -ing." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "¿Cuál de estos verbos NO duplica la consonante final en -ing?",
+      "pregunta": "Elige el verbo que forma -ing sin duplicar.",
+      "opciones": [
+        { "texto": "begin", "correcta": false, "porque": "begin se acentúa en la última sílaba (be-GIN) y termina en CVC: beginning, con doble n." },
+        { "texto": "stop", "correcta": false, "porque": "stop es CVC de una sílaba: stopping." },
+        { "texto": "happen", "correcta": true, "porque": "Correcta: happen se acentúa en la primera sílaba (HAP-pen), así que la n no se duplica: happening." },
+        { "texto": "get", "correcta": false, "porque": "get es CVC de una sílaba: getting." }
+      ],
+      "pistas": [
+        "Las tres condiciones: CVC, sílaba final acentuada y no ser w, x, y.",
+        "Todos terminan en CVC: fíjate en el acento de los que tienen dos sílabas.",
+        "Si el acento no cae en la última sílaba, no se duplica."
+      ],
+      "solucion": { "respuesta": "happen", "explicacion": "La respuesta es happen → happening. Aunque termina en e + n (vocal + consonante), la sílaba fuerte es la primera (HAP-pen), así que no se duplica. begin sí duplica porque su acento está al final." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra mal escrita. Señálala y escribe la forma correcta.",
+      "frase": "Look! That old man is lieing on the grass.",
+      "error": "lieing",
+      "correcciones": ["lying"],
+      "frase_correcta": "Look! That old man is lying on the grass.",
+      "pistas": [
+        "Revisa la ortografía del verbo en -ing.",
+        "El verbo es lie, que termina en ie.",
+        "ie → y antes de -ing."
+      ],
+      "solucion": { "respuesta": "lieing → lying", "explicacion": "lie termina en ie, que se convierte en y antes de -ing: lying. «lieing» y «liing» no existen." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra mal escrita. Señálala y escribe la forma correcta.",
+      "frase": "My sister is studiing for her exam.",
+      "error": "studiing",
+      "correcciones": ["studying"],
+      "frase_correcta": "My sister is studying for her exam.",
+      "pistas": [
+        "Piensa en la regla de los verbos terminados en y.",
+        "No confundas la regla de -ing con la de la tercera persona (studies).",
+        "Delante de -ing la y se conserva siempre."
+      ],
+      "solucion": { "respuesta": "studiing → studying", "explicacion": "La forma correcta es studying: la y no cambia antes de -ing. El cambio y → ie solo ocurre con la -s de tercera persona (she studies)." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.09",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "They're swimming, running and lying in the sun.",
+      "ipa": "/ðer ˈswɪmɪŋ ˈrʌnɪŋ ænd ˈlaɪɪŋ ɪn ðə sʌn/",
+      "consejo": "Las letras dobles (mm, nn) no se alargan: swimming suena SWI-ming y running RU-ning, con una sola m y una sola n. En lying, pronuncia dos sílabas claras: LAI-ing. Termina cada -ing con la nasal /ŋ/ (la lengua atrás, sin g final).",
+      "es": "Están nadando, corriendo y tumbados al sol."
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Cuida la ortografía de las formas -ing.",
+      "texto": "My brother is fixing the car and I'm making coffee.",
+      "pistas": [
+        "Hay dos acciones unidas por and.",
+        "Una forma -ing termina en x + ing; la otra viene de un verbo con e muda.",
+        "La x final nunca se duplica; la e muda se quita antes de -ing."
+      ],
+      "solucion": { "respuesta": "My brother is fixing the car and I'm making coffee.", "explicacion": "La oración es My brother is fixing the car and I'm making coffee. fixing no duplica la x; making pierde la e muda de make. Cada acción lleva su auxiliar: is con my brother, am (I'm) con I." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.11",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Cambia la oración al presente continuo. Mantén she en las dos partes.",
+      "origen": "She gets up and she puts on her shoes.",
+      "instruccion": "Presente continuo",
+      "respuestas": [
+        "She's getting up and she's putting on her shoes",
+        "She's getting up and she's putting her shoes on"
+      ],
+      "errores_tipicos": {
+        "She's geting up and she's puting on her shoes": "get y put son CVC de una sílaba: duplican la t (getting, putting).",
+        "She's gets up and she's puts on her shoes": "Después de is el verbo va en -ing, sin la -s del presente simple.",
+        "She getting up and she putting on her shoes": "Falta is (she's) delante de cada verbo en -ing."
+      },
+      "pistas": [
+        "Cada verbo necesita is + -ing, y la -s del presente simple desaparece.",
+        "get y put son verbos de una sílaba que terminan en consonante + vocal + consonante.",
+        "she's + verbo -ing en cada parte; los dos verbos son CVC de una sílaba y duplican la consonante final, como en run → running."
+      ],
+      "solucion": { "respuesta": "She's getting up and she's putting on her shoes.", "explicacion": "Pasamos gets y puts a is + -ing. La -s de tercera persona desaparece porque la persona ya la marca is. get y put duplican la t porque son CVC de una sílaba: getting, putting. get up = levantarse; put on = ponerse (ropa)." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa email y contracciones o formas completas, como prefieras.",
+      "es": "Estoy escribiendo un correo y mi amigo está manejando.",
+      "respuestas": [
+        "I'm writing an email and my friend is driving",
+        "I'm writing an e-mail and my friend is driving",
+        "I'm writing an email and my friend's driving"
+      ],
+      "errores_tipicos": {
+        "I'm writting an email and my friend is driving": "write no duplica la t: writing, con una sola t.",
+        "I'm writeing an email and my friend is driveing": "write y drive terminan en e muda: writing, driving.",
+        "I write an email and my friend drives": "Son acciones en progreso: usa be + -ing."
+      },
+      "pistas": [
+        "Dos acciones en progreso: presente continuo.",
+        "write y drive terminan igual: consonante + e muda.",
+        "Sujeto + be + verbo -ing en cada parte, unidas con and; los dos verbos pierden la e muda, como en make → making."
+      ],
+      "solucion": { "respuesta": "I'm writing an email and my friend is driving.", "explicacion": "Los dos verbos terminan en e muda, que se quita: writing, driving. Ninguno duplica consonante: su vocal es larga (/aɪ/). Recuerda que «manejar» (un carro) se dice drive." }
+    },
+    {
+      "id": "presente-continuo.ortografia-ing.13",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta la ortografía.",
+      "pregunta": "En una revista británica lees: «We're travelling around Scotland». ¿Qué pasa con travelling?",
+      "opciones": [
+        { "texto": "Es un error: debería ser traveling.", "correcta": false, "porque": "No es un error: en el Reino Unido se duplica la l final aunque la sílaba no sea acentuada." },
+        { "texto": "Es la ortografía británica; en EE. UU. se escribe traveling.", "correcta": true, "porque": "Correcta: con l final no acentuada, el británico duplica (travelling) y el estadounidense no (traveling)." },
+        { "texto": "travelling y traveling significan cosas distintas.", "correcta": false, "porque": "Significan exactamente lo mismo (viajando); solo cambia la convención ortográfica." }
+      ],
+      "pistas": [
+        "Hay una diferencia de ortografía entre variedades del inglés.",
+        "Afecta a los verbos que terminan en l, como travel o cancel.",
+        "El británico duplica esa l aunque la sílaba no sea acentuada; el estadounidense no."
+      ],
+      "solucion": { "respuesta": "Es la ortografía británica; en EE. UU. se escribe traveling.", "explicacion": "travel se acentúa en la primera sílaba (TRAV-el), así que según la regla general no duplica: traveling (EE. UU.). El inglés británico hace una excepción con la l y escribe travelling. Las dos formas son correctas en su variedad." }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Un mensaje de vacaciones",
+    "contexto": "Estás de paseo con tu familia o tus amigos y tu compañero de trabajo Omar te escribe para saber cómo te va.",
+    "dialogo": [
+      { "quien": "Omar", "en": "Hey! How's your vacation? What's everybody doing?", "es": "¡Hola! ¿Qué tal tus vacaciones? ¿Qué está haciendo todo el mundo?" },
+      { "quien": "Tú", "en": "…", "es": "(Contesta con tres o cuatro acciones en progreso.)" }
+    ],
+    "tu_turno": "Contesta a Omar con 3 o 4 oraciones en presente continuo. Incluye al menos un verbo con e muda (make, have, take, write…), uno que duplique consonante (swim, run, sit, get…) y lie si puedes.",
+    "modelo": "My vacation is great! I'm lying on the beach right now. My sister is swimming and my parents are having lunch at a small restaurant. My cousin is taking a lot of photos.",
+    "alternativas": [
+      "Everything is fine! I'm sitting in a café. My friends are shopping in the market and my brother is writing postcards.",
+      "Great, thanks! We're visiting a small town. My dad is driving and my mom is making a list of places."
+    ],
+    "claves": [
+      "e muda: having, taking, writing, making, driving.",
+      "Duplica: swimming, sitting, running, getting, shopping.",
+      "ie → y: lying. Sin cambios: visiting, playing, fixing."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Regla general: forma base + -ing (working, playing, studying).",
+      "e muda → se quita (making, writing), excepto be → being y verbos en ee (seeing, agreeing).",
+      "CVC con la última sílaba acentuada → duplica (running, beginning); si el acento va en otra sílaba, no (visiting, opening).",
+      "w, x, y nunca se duplican (snowing, fixing, playing).",
+      "ie → y: lying, dying, tying."
+    ],
+    "recuerda": [
+      "La y se conserva siempre: studying, crying (no como en studies).",
+      "writing con una sola t.",
+      "EE. UU. traveling / Reino Unido travelling: ambas correctas."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-continuo.ortografia-ing.r1", "frente": "make, write, come + -ing", "reverso": "making, writing, coming (se quita la e muda)." },
+    { "id": "presente-continuo.ortografia-ing.r2", "frente": "be, see, agree + -ing", "reverso": "being, seeing, agreeing (la e se conserva).", "nota": "be es especial; en ee la e se pronuncia." },
+    { "id": "presente-continuo.ortografia-ing.r3", "frente": "¿Por qué running pero visiting?", "reverso": "run es CVC de una sílaba (acentuada) → duplica. VISit lleva el acento en la primera sílaba → no duplica." },
+    { "id": "presente-continuo.ortografia-ing.r4", "frente": "lie, die, tie + -ing", "reverso": "lying, dying, tying (ie → y)." },
+    { "id": "presente-continuo.ortografia-ing.r5", "frente": "study + -ing", "reverso": "studying (la y nunca cambia antes de -ing).", "nota": "Pero she studies en presente simple." }
+  ]
+}

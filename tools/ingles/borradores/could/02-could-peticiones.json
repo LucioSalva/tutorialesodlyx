@@ -1,0 +1,456 @@
+{
+  "slug": "could-peticiones",
+  "titulo": "Could para pedir con cortesía",
+  "minutos": 35,
+  "objetivos": [
+    "Pedir favores con cortesía con Could you + verbo base…?, entendiendo que aquí could NO es pasado.",
+    "Pedir permiso o pedir cosas con Could I…? (Could I have…?).",
+    "Elegir entre Can you…? y Could you…? según la persona y la situación.",
+    "Responder en presente: Sure, Of course, No problem, Sorry, I can't… (nunca «Yes, I could»)."
+  ],
+  "situacion": {
+    "titulo": "En la recepción del hotel",
+    "texto": "Aisha llega de viaje a un hotel. Habla con el recepcionista, a quien no conoce, así que usa could para sonar cortés. Observa que todas sus peticiones son para ahora o para mañana: could no habla aquí del pasado.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Good evening. Could I have my key, please? Room 305.", "es": "Buenas noches. ¿Me podría dar mi llave, por favor? Habitación 305." },
+      { "quien": "Receptionist", "en": "Of course. Here you are.", "es": "Por supuesto. Aquí tiene." },
+      { "quien": "Aisha", "en": "Thank you. Could you tell me the Wi-Fi password?", "es": "Gracias. ¿Podría decirme la contraseña del wifi?" },
+      { "quien": "Receptionist", "en": "Sure. It's on this card.", "es": "Claro. Está en esta tarjeta." },
+      { "quien": "Aisha", "en": "Great. And could you call a taxi for me tomorrow at seven?", "es": "Perfecto. ¿Y podría pedirme un taxi mañana a las siete?" },
+      { "quien": "Receptionist", "en": "No problem, ma'am.", "es": "No hay problema, señora." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "could-you",
+      "titulo": "Could you…? Un favor con más cortesía",
+      "que_es": "[[Could you…?]] sirve para pedir a alguien que haga algo, igual que [[Can you…?]], pero con un tono más amable y respetuoso. En esta pregunta **could no es pasado**: la petición es para ahora o para el futuro. En español equivale al condicional «¿Podría…?» / «¿Podrías…?», que tampoco habla del pasado.",
+      "para_que": [
+        "Pedir ayuda a un desconocido en la calle o en un aeropuerto.",
+        "Hablar con recepcionistas, meseros, empleados o clientes.",
+        "Pedir un favor grande, incluso a un amigo, sin sonar exigente."
+      ],
+      "como_funciona": "**Fórmula:** Could you + verbo en forma base + complemento (+ please)? → {{auxiliar:Could}} {{sujeto:you}} {{verbo:help}} {{complemento:me}}?\n\n**No hay pasado.** Como could también es el pasado de can, muchos estudiantes ponen el verbo en pasado: «Could you told me…?». Es un error: el verbo va siempre en forma base, y la petición es para ahora.\n\n**Grados de cortesía:**\n- [[Help me!]] → orden directa; solo en una emergencia.\n- [[Can you help me?]] → normal con amigos, familia y compañeros.\n- [[Could you help me?]] → cortés: desconocidos, trabajo, servicios.\n- [[Could you possibly help me?]] → muy cortés, para un favor grande ([[possibly]] = «por casualidad», «de alguna manera»).\nLa entonación y [[please]] también cuentan: una petición con could dicha con voz seca puede sonar fría.\n\n**Cómo contestar (en presente):** Sí → [[Sure.]] / [[Of course.]] / [[No problem.]] / [[Certainly.]] (muy formal, típico de empleados). No → [[Sorry, I can't.]] / [[I'm afraid I can't.]] + razón.\n**Nunca** [[Yes, I could]] ni [[Sorry, I couldn't]]: esas respuestas hablarían de capacidad en el pasado y suenan extrañas ante una petición.",
+      "estructuras": [
+        {
+          "etiqueta": "Petición cortés",
+          "formula": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "ejemplo": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "call", "rol": "verbo"}, {"t": "a taxi for me,", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "es": "¿Podría pedirme un taxi, por favor?"
+        },
+        {
+          "etiqueta": "Con please en medio",
+          "formula": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "please", "rol": "otro"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "please", "rol": "otro"}, {"t": "speak", "rol": "verbo"}, {"t": "more slowly?", "rol": "complemento"} ],
+          "es": "¿Podría hablar más despacio, por favor?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "De menos a más cortés",
+          "columnas": ["Frase", "Tono", "Con quién"],
+          "filas": [
+            ["Close the door.", "Orden", "Situaciones urgentes o de mucha confianza."],
+            ["Can you close the door?", "Normal", "Amigos, familia, compañeros."],
+            ["Could you close the door, please?", "Cortés", "Desconocidos, trabajo, hoteles, tiendas."],
+            ["Could you possibly close the door?", "Muy cortés", "Favores grandes o situaciones muy formales."]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Could you speak more slowly, please?",
+          "es": "¿Podría hablar más despacio, por favor?",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"}, {"t": "more slowly,", "rol": "complemento"}, {"t": "please", "rol": "otro"} ],
+          "nota": "La petición más útil para un estudiante de inglés. More slowly = más despacio."
+        },
+        {
+          "en": "Could you take a photo of us?",
+          "es": "¿Nos podría tomar una foto?",
+          "situacion": "De viaje, frente a un monumento.",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "take", "rol": "verbo"}, {"t": "a photo of us", "rol": "complemento"} ],
+          "nota": "El español dice «nos tomas»; el inglés dice take a photo of us, con us al final."
+        },
+        {
+          "en": "Excuse me, could you tell me the way to the station?",
+          "es": "Disculpe, ¿me podría decir cómo llegar a la estación?",
+          "partes": [ {"t": "Excuse me,", "rol": "otro"}, {"t": "could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "tell", "rol": "verbo"}, {"t": "me", "rol": "complemento"}, {"t": "the way to the station", "rol": "complemento"} ],
+          "nota": "Excuse me abre la conversación con un desconocido. Tell me the way to… = decirme cómo llegar a…"
+        },
+        {
+          "en": "Could you open your bag, please?",
+          "es": "¿Podría abrir su bolsa, por favor?",
+          "situacion": "Un agente de seguridad en el aeropuerto.",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "open", "rol": "verbo"}, {"t": "your bag,", "rol": "complemento"}, {"t": "please", "rol": "otro"} ],
+          "nota": "Los empleados usan could para dar instrucciones con cortesía. En la práctica es una instrucción, no una opción."
+        },
+        {
+          "en": "Sorry, I can't. I'm working right now.",
+          "es": "Lo siento, no puedo. Estoy trabajando en este momento.",
+          "nota": "Para rechazar una petición con could se contesta en presente: I can't, no «I couldn't»."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Can you…?", "items": ["Directo y normal.", "Amigos, familia, compañeros de confianza.", "Can you pass me the salt?"] },
+        "b": { "titulo": "Could you…?", "items": ["Más suave y respetuoso.", "Desconocidos, clientes, empleados, favores grandes.", "Could you tell me the time, please?"] },
+        "veredicto": "Las dos son correctas y significan lo mismo; cambia el tono. Si dudas, usa could: nadie se ofende por un exceso de cortesía."
+      },
+      "pronunciacion": [
+        { "texto": "Could you help me, please?", "ipa": "/ˈkʊdʒə ˈhɛlp mi ˈpliːz/", "consejo": "Could you se funde en «KU-dʒə». El acento va en help y en please (con «i» larga). Termina con la voz subiendo suavemente para sonar amable.", "lento": true },
+        { "texto": "Certainly.", "ipa": "/ˈsɝːtənli/", "consejo": "La primera sílaba tiene la vocal de bird, una «e» murmurada con la lengua curvada hacia atrás (en Reino Unido, /ˈsɜːtənli/, sin r). La t se corta en la garganta antes de la n." }
+      ],
+      "errores": [
+        { "mal": "Could you told me the time?", "bien": "Could you tell me the time?", "porque": "En una petición could no es pasado, y aunque lo fuera, después de un modal el verbo va en forma base." },
+        { "mal": "Could you help me? — Yes, I could.", "bien": "Could you help me? — Sure. / Of course.", "porque": "Yes, I could suena a capacidad en el pasado. Ante una petición se acepta con Sure / Of course / No problem." },
+        { "mal": "Could you to call a taxi?", "bien": "Could you call a taxi?", "porque": "Detrás de could no va to." }
+      ]
+    },
+    {
+      "id": "could-i",
+      "titulo": "Could I…? Pedir permiso y pedir cosas",
+      "que_es": "[[Could I…?]] pide permiso con cortesía: «¿Podría…?». Con el verbo [[have]] se convierte en la forma más práctica de **pedir cosas** en un restaurante, un hotel o un avión: [[Could I have a glass of water, please?]] («¿Me podría dar un vaso de agua?»).",
+      "para_que": [
+        "Pedir algo en un restaurante o en una tienda: «¿Me da la cuenta?».",
+        "Pedir permiso a alguien que no conoces: «¿Podría sentarme aquí?».",
+        "Resolver situaciones de viaje: «¿Podría tener un asiento de ventanilla?»."
+      ],
+      "como_funciona": "**Fórmula:** Could + I (o we) + verbo en forma base…? → {{auxiliar:Could}} {{sujeto:I}} {{verbo:have}} {{complemento:a window seat}}?\n\n**Could I have…?** En español decimos «¿me da…?», «¿me trae…?», con el verbo de la otra persona. En inglés lo normal es poner el foco en ti: [[Could I have the menu?]] (literalmente, «¿podría tener el menú?»). También se dice [[Could you give me…?]], pero [[Could I have…?]] es más frecuente y suena más amable.\n\n**Could I, Can I, May I:** los tres piden permiso. [[Can I]] es el más neutro; [[Could I]] y [[May I]] son más corteses, y [[May I]] suena un poco más formal.\n\n**Respuestas:** [[Yes, of course.]] / [[Sure, here you are.]] (cuando entregas algo) / [[Sure, go ahead.]] (cuando das permiso) / [[I'm sorry, you can't…]] / [[I'm afraid not.]] Tampoco aquí se contesta con could: «Yes, you could» suena raro.",
+      "estructuras": [
+        {
+          "etiqueta": "Pedir una cosa",
+          "formula": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "have", "rol": "verbo"}, {"t": "cosa", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "ejemplo": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "have", "rol": "verbo"}, {"t": "a window seat,", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "es": "¿Me podría dar un asiento de ventanilla, por favor?"
+        },
+        {
+          "etiqueta": "Pedir permiso",
+          "formula": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I / we", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Could", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "leave", "rol": "verbo"}, {"t": "our bags here?", "rol": "complemento"} ],
+          "es": "¿Podríamos dejar nuestras maletas aquí?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Could I have the check, please?",
+          "es": "¿Me trae la cuenta, por favor?",
+          "situacion": "Al final de una comida en un restaurante.",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "have", "rol": "verbo"}, {"t": "the check,", "rol": "complemento"}, {"t": "please", "rol": "otro"} ],
+          "nota": "La cuenta = the check en EE. UU.; the bill en Reino Unido."
+        },
+        {
+          "en": "Could I see the menu, please?",
+          "es": "¿Podría ver el menú, por favor?",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "see", "rol": "verbo"}, {"t": "the menu,", "rol": "complemento"}, {"t": "please", "rol": "otro"} ],
+          "nota": "Permiso para una acción tuya, con cortesía."
+        },
+        {
+          "en": "Could we check in early?",
+          "es": "¿Podríamos registrarnos temprano?",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "check in", "rol": "verbo"}, {"t": "early", "rol": "complemento"} ],
+          "nota": "Check in = registrarse en un hotel o documentar en un aeropuerto."
+        },
+        {
+          "en": "Could I pay in cash?",
+          "es": "¿Podría pagar en efectivo?",
+          "partes": [ {"t": "Could", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "pay", "rol": "verbo"}, {"t": "in cash", "rol": "complemento"} ],
+          "nota": "In cash (en efectivo) / by card (con tarjeta)."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "Could I…?", "ipa": "/kʊd aɪ/", "consejo": "La d se une a la vocal de I: «ku-DAI». En EE. UU. esa d entre vocales puede sonar como la «r» suave de «pero»." },
+        { "texto": "window seat", "ipa": "/ˈwɪndoʊ ˌsiːt/", "consejo": "La w se hace redondeando los labios, como una «u» rápida. Seat lleva «i» larga; no la acortes o sonará como sit." }
+      ],
+      "errores": [
+        { "mal": "I could have a window seat?", "bien": "Could I have a window seat?", "porque": "La pregunta necesita inversión: could delante del sujeto." },
+        { "mal": "Could I have a coffee? — Yes, you could.", "bien": "Could I have a coffee? — Yes, of course.", "porque": "La respuesta natural es Of course / Sure; «you could» suena extraño aquí." },
+        { "mal": "Could I to see the menu?", "bien": "Could I see the menu?", "porque": "Detrás de could no va to." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "could.could-peticiones.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la petición MÁS cortés.",
+      "pregunta": "Le preguntas la hora a una persona que no conoces.",
+      "opciones": [
+        { "texto": "Could you tell me the time, please?", "correcta": true, "porque": "Correcto: could + please es la opción más cortés con un desconocido." },
+        { "texto": "Can you tell me the time?", "correcta": false, "porque": "Es correcta y aceptable, pero menos cortés que could + please. La pregunta pide la más cortés." },
+        { "texto": "Tell me the time.", "correcta": false, "porque": "Es una orden: suena brusca con un desconocido." },
+        { "texto": "Could you told me the time?", "correcta": false, "porque": "Después de could el verbo va en forma base: tell." }
+      ],
+      "pistas": [
+        "Compara el tono de cada opción.",
+        "Busca el modal más cortés y revisa la forma del verbo.",
+        "Más cortés: Could you + verbo base + please."
+      ],
+      "solucion": { "respuesta": "Could you tell me the time, please?", "explicacion": "Could you es más suave que can you, y please añade cortesía. La orden directa suena brusca, y «could you told» tiene el verbo en pasado, lo cual es incorrecto." },
+      "audio": true
+    },
+    {
+      "id": "could.could-peticiones.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el modal más cortés.",
+      "frase": "Excuse me, ___ you help me with my suitcase, please?",
+      "respuestas": [["could", "would"]],
+      "traduccion": "Disculpe, ¿me podría ayudar con mi maleta, por favor?",
+      "pistas": [
+        "Hablas con un desconocido: necesitas el tono más amable.",
+        "El hueco va delante de you: es un modal.",
+        "Petición cortés: el pasado de can + you + verbo base?"
+      ],
+      "solucion": { "respuesta": "could", "explicacion": "La respuesta es could: con Excuse me y please hablas con un desconocido, y Could you…? es la forma cortés de pedir un favor. (Would you…? también sería correcta y cortés)." },
+      "errores_tipicos": {
+        "can": "Can es correcto gramaticalmente, pero el enunciado pide la forma más cortés: could.",
+        "do": "Do no sirve para pedir favores: Could you help me…?"
+      }
+    },
+    {
+      "id": "could.could-peticiones.03",
+      "tipo": "conversacion",
+      "dificultad": 1,
+      "enunciado": "Eres recepcionista. Elige la respuesta adecuada.",
+      "contexto": "Un huésped te pide un taxi.",
+      "lineas": [
+        { "quien": "Guest", "en": "Could you call a taxi for me, please?", "es": "¿Podría pedirme un taxi, por favor?" }
+      ],
+      "opciones": [
+        { "texto": "Of course. What time?", "correcta": true, "porque": "Correcto: aceptas la petición y pides un dato útil." },
+        { "texto": "Yes, I could.", "correcta": false, "porque": "Suena a capacidad en el pasado. Ante una petición se contesta Of course / Sure." },
+        { "texto": "Sorry, I couldn't.", "correcta": false, "porque": "La petición es para ahora: para rechazarla se diría Sorry, I can't." },
+        { "texto": "No, you can't.", "correcta": false, "porque": "You can't niega un permiso; el huésped no pide permiso, pide un favor." }
+      ],
+      "pistas": [
+        "El huésped pide un favor para ahora, no pregunta por el pasado.",
+        "¿La respuesta debe usar could?",
+        "Aceptar una petición no requiere could: una expresión corta de acuerdo y, si falta un dato, una pregunta."
+      ],
+      "solucion": { "respuesta": "Of course. What time?", "explicacion": "En Could you…? could no es pasado: es una petición cortés. Se acepta con Of course / Sure / No problem; las respuestas con could suenan extrañas." }
+    },
+    {
+      "id": "could.could-peticiones.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite con entonación amable.",
+      "texto": "Could you help me, please?",
+      "ipa": "/ˈkʊdʒə ˈhɛlp mi ˈpliːz/",
+      "consejo": "Une could y you en «KU-dʒə», sin l. Acentúa help y please, y deja que la voz suba un poco al final. Si suena plano, parece una orden.",
+      "es": "¿Me podría ayudar, por favor?"
+    },
+    {
+      "id": "could.could-peticiones.05",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada situación de viaje con la petición adecuada.",
+      "pares": [
+        { "a": "En el avión quieres otra cobija.", "b": "Could I have another blanket, please?" },
+        { "a": "Quieres que alguien les tome una foto.", "b": "Could you take a photo of us?" },
+        { "a": "No entiendes al guía porque habla rápido.", "b": "Could you speak more slowly, please?" },
+        { "a": "Quieres dejar tus maletas en el hotel.", "b": "Could we leave our bags here?" },
+        { "a": "Terminas de comer en un restaurante.", "b": "Could I have the check, please?" },
+        { "a": "Estás perdido y buscas la estación.", "b": "Could you tell me the way to the station?" }
+      ],
+      "pistas": [
+        "Distingue Could I / Could we (algo para ti) de Could you (algo que hace otro).",
+        "Busca la palabra clave de cada situación: foto, despacio, maletas, cuenta, estación.",
+        "Could I have = pedir una cosa; Could you + verbo = pedir que alguien actúe."
+      ],
+      "solucion": { "respuesta": "cobija → another blanket; foto → take a photo of us; guía → speak more slowly; maletas → leave our bags here; restaurante → the check; estación → the way to the station.", "explicacion": "Could I have… pide una cosa (blanket, check). Could we… pide permiso para ustedes (dejar las maletas). Could you… pide que otra persona actúe (tomar la foto, hablar despacio, indicar el camino)." }
+    },
+    {
+      "id": "could.could-peticiones.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para pedir un asiento en el avión.",
+      "fichas": ["seat", "Could", "have", "window", "I", "a", "please"],
+      "respuestas": ["Could I have a window seat please", "Could I please have a window seat"],
+      "traduccion": "¿Me podría dar un asiento de ventanilla, por favor?",
+      "pistas": [
+        "Empieza con el modal.",
+        "Pides una cosa para ti: could + I + have.",
+        "Could + I + have + cosa + please?, como en Could I have an aisle seat, please?"
+      ],
+      "solucion": { "respuesta": "Could I have a window seat, please?", "explicacion": "Could I have…? es la forma cortés de pedir una cosa. Window seat va en ese orden (el sustantivo que describe va primero). Please al final o después de I." }
+    },
+    {
+      "id": "could.could-peticiones.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Hazla más cortés.",
+      "origen": "Can you speak more slowly?",
+      "instruccion": "Cambia can por el modal más cortés.",
+      "respuestas": ["Could you speak more slowly?", "Could you speak more slowly, please?", "Could you please speak more slowly?"],
+      "pistas": [
+        "Solo tienes que cambiar una palabra.",
+        "El verbo speak no cambia.",
+        "Solo cambia el modal por su forma más cortés (su pasado); el resto queda igual."
+      ],
+      "solucion": { "respuesta": "Could you speak more slowly?", "explicacion": "Could you…? es la versión cortés de Can you…?. El resto de la oración queda igual; puedes añadir please si quieres." },
+      "errores_tipicos": {
+        "Could you spoke more slowly?": "Could no convierte el verbo en pasado: speak, en forma base."
+      }
+    },
+    {
+      "id": "could.could-peticiones.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "Could you told me the way to the museum?",
+      "error": "told",
+      "correcciones": ["tell"],
+      "frase_correcta": "Could you tell me the way to the museum?",
+      "pistas": [
+        "Revisa el verbo que va después de you.",
+        "¿Esta petición habla del pasado?",
+        "Could + sujeto + verbo en forma base."
+      ],
+      "solucion": { "respuesta": "told → tell", "explicacion": "En una petición could no es pasado, y después de un modal el verbo siempre va en forma base: Could you tell me the way to the museum?" }
+    },
+    {
+      "id": "could.could-peticiones.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe lo que dice el cliente.",
+      "texto": "Could I have the check, please?",
+      "pistas": [
+        "Es una petición para ti.",
+        "Oyes could unido a I, y el verbo que se usa para pedir cosas.",
+        "Could + I + verbo para pedir cosas + la cuenta del restaurante + please?"
+      ],
+      "solucion": { "respuesta": "Could I have the check, please?", "explicacion": "Could I have…? pide algo con cortesía. The check es «la cuenta» en EE. UU. (en Reino Unido, the bill)." }
+    },
+    {
+      "id": "could.could-peticiones.10",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa Could I…? y please.",
+      "es": "¿Podría ver el menú, por favor?",
+      "respuestas": ["Could I see the menu, please?", "Could I please see the menu?", "Could I look at the menu, please?", "Could I please look at the menu?"],
+      "pistas": [
+        "Pides permiso para una acción tuya.",
+        "Could + I + verbo en forma base.",
+        "Could I + verbo base + objeto + please?, como en Could I check the price, please?"
+      ],
+      "solucion": { "respuesta": "Could I see the menu, please?", "explicacion": "Could I + see (forma base) + the menu pide permiso con cortesía. Please va al final o después de I. Look at the menu también es correcto." },
+      "errores_tipicos": {
+        "I could see the menu, please?": "Falta la inversión: Could I…?",
+        "Could I to see the menu, please?": "Detrás de could no va to."
+      }
+    },
+    {
+      "id": "could.could-peticiones.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa Could you…? y la palabra photo.",
+      "es": "Disculpe, ¿nos podría tomar una foto?",
+      "respuestas": ["Excuse me, could you take a photo of us?", "Excuse me, could you take our photo?", "Excuse me, could you take a photo of us, please?", "Excuse me, could you please take a photo of us?", "Excuse me, could you take our photo, please?", "Excuse me, could you please take our photo?"],
+      "pistas": [
+        "Empieza con la expresión para llamar la atención de un desconocido.",
+        "«Nos» no va delante del verbo: en inglés va al final (of us) o como posesivo (our).",
+        "Excuse me, + could you + verbo + objeto + of + pronombre objeto? El «nos» va al final, como en a drawing of them."
+      ],
+      "solucion": { "respuesta": "Excuse me, could you take a photo of us?", "explicacion": "Excuse me abre la conversación; Could you + take (forma base) + a photo of us hace la petición. El «nos» del español se convierte en of us al final (o en our photo)." },
+      "errores_tipicos": {
+        "Excuse me, could you us take a photo?": "El pronombre no va delante del verbo como en español: take a photo of us.",
+        "Excuse me, could you took a photo of us?": "Después de could el verbo va en forma base: take.",
+        "Excuse me, could you make a photo of us?": "Con photo se usa take, no make."
+      }
+    },
+    {
+      "id": "could.could-peticiones.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás documentando en el aeropuerto. La agente te habla.",
+      "lineas": [
+        { "quien": "Agent", "en": "Good morning. Could I see your passport, please?", "es": "Buenos días. ¿Me permite su pasaporte, por favor?" }
+      ],
+      "opciones": [
+        { "texto": "Sure. Here you are.", "correcta": true, "porque": "Correcto: aceptas y entregas el pasaporte. Here you are se dice al dar algo." },
+        { "texto": "Yes, you could.", "correcta": false, "porque": "Suena raro: a Could I…? se contesta Sure / Of course, no con could." },
+        { "texto": "Sure, I could.", "correcta": false, "porque": "La agente habla de lo que quiere hacer ella (ver el pasaporte), no de ti, y además could no se usa en la respuesta." },
+        { "texto": "No, you can't see.", "correcta": false, "porque": "Además de descortés, see necesita complemento y no tiene sentido negarte a mostrar el pasaporte." }
+      ],
+      "pistas": [
+        "La agente pide ver algo tuyo.",
+        "¿Qué se dice al entregar algo?",
+        "Acepta con una palabra de acuerdo y usa la frase fija para entregar algo (literalmente «aquí estás»)."
+      ],
+      "solucion": { "respuesta": "Sure. Here you are.", "explicacion": "Could I see…? es una petición cortés en presente. Se acepta con Sure / Of course, y Here you are acompaña el gesto de entregar algo." }
+    },
+    {
+      "id": "could.could-peticiones.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe un correo breve a un hotel.",
+      "objetivo": "Hacer peticiones corteses por escrito con Could you…? y Could I…?",
+      "instrucciones": "Vas a llegar a un hotel la próxima semana. Escribe un correo breve (30–50 palabras) con tres peticiones corteses: dos con Could you…? y una con Could I…? o Could we…?. Empieza con un saludo y termina con un agradecimiento.",
+      "vocabulario_apoyo": ["a quiet room", "a room with a view", "check in early", "leave our bags", "an extra bed", "call a taxi", "send me the address", "Thank you in advance."],
+      "estructuras": ["Could you …, please?", "Could I / we …?", "Thank you in advance."],
+      "ejemplo": "Dear Sir or Madam, could you send me a map of the city, please? Could I pay in cash? Thank you.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Usas Could you", "patron": "\\bcould you\\b" },
+        { "descripcion": "Usas Could I o Could we", "patron": "\\bcould (i|we)\\b" },
+        { "descripcion": "Usas please", "patron": "\\bplease\\b" }
+      ],
+      "criterios": [
+        "¿Cada petición empieza con Could + sujeto + verbo en forma base?",
+        "¿Ningún verbo está en pasado después de could?",
+        "¿Usas please al menos una vez?",
+        "¿El correo tiene saludo y despedida?"
+      ],
+      "modelo": "Dear Sir or Madam, I have a reservation for next Friday. Could you give me a quiet room, please? Could we check in early, at about ten? And could you call a taxi for us on Sunday morning? Thank you in advance. Best regards, Carlos Ruiz",
+      "explicacion": "El modelo hace tres peticiones con verbos en forma base: Could you give…, Could we check in…, could you call…. La primera lleva please, y la fórmula Thank you in advance cierra con cortesía. I have a reservation da el contexto antes de pedir.",
+      "errores_comunes": [
+        "Escribir el verbo en pasado: «Could you gave me…».",
+        "Olvidar la inversión: «We could check in early?».",
+        "Responder o pedir con can en un correo formal: suena menos cortés."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En el mostrador del aeropuerto",
+    "contexto": "Estás documentando tu vuelo. Quieres un asiento de pasillo y que te ayuden a subir tu maleta, que pesa mucho, a la báscula.",
+    "dialogo": [
+      { "quien": "Agent", "en": "Good afternoon. Where are you flying today?", "es": "Buenas tardes. ¿A dónde vuela hoy?" },
+      { "quien": "Tú", "en": "To Chicago. …", "es": "A Chicago. …" },
+      { "quien": "Agent", "en": "Of course. And sure, I can help you with that.", "es": "Por supuesto. Y claro, le ayudo con eso." }
+    ],
+    "tu_turno": "Pide un asiento de pasillo (aisle seat) con Could I have…? y pide ayuda con la maleta con Could you…?",
+    "modelo": "Could I have an aisle seat, please? And could you help me with my suitcase? It's very heavy.",
+    "alternativas": [
+      "Could I please have an aisle seat? And could you help me with this bag, please?",
+      "Could I have a seat by the aisle? Could you possibly help me with my suitcase?"
+    ],
+    "claves": [
+      "Pedir una cosa: Could I have…?",
+      "Pedir un favor: Could you + verbo base…?",
+      "Verbo siempre en forma base; please para suavizar."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Could you + verbo base…? = petición cortés; could NO es pasado aquí.",
+      "Could I / Could we + verbo base…? = permiso cortés; Could I have…? = pedir cosas.",
+      "Can you…? es normal; Could you…? es más cortés; Could you possibly…? todavía más.",
+      "Respuestas en presente: Sure / Of course / No problem / Sorry, I can't.",
+      "Nunca verbo en pasado después de could: Could you tell…, no «could you told»."
+    ],
+    "recuerda": [
+      "No contestes «Yes, I could» ni «Sorry, I couldn't» a una petición.",
+      "La cuenta: the check (EE. UU.) / the bill (Reino Unido).",
+      "Here you are se dice al entregar algo."
+    ]
+  },
+  "repaso": [
+    { "id": "could.could-peticiones.r1", "frente": "¿Could you help me? habla del pasado?", "reverso": "No. Es una petición cortés para ahora: ¿Me podría ayudar?" },
+    { "id": "could.could-peticiones.r2", "frente": "¿Cómo pides la cuenta en un restaurante?", "reverso": "Could I have the check, please?", "nota": "En Reino Unido: the bill." },
+    { "id": "could.could-peticiones.r3", "frente": "Acepta la petición: Could you close the window?", "reverso": "Sure. / Of course. / No problem.", "nota": "No «Yes, I could»." },
+    { "id": "could.could-peticiones.r4", "frente": "Ordena de menos a más cortés: Could you…? / Can you…? / Could you possibly…?", "reverso": "Can you…? → Could you…? → Could you possibly…?" },
+    { "id": "could.could-peticiones.r5", "frente": "Corrige: Could you told me the time?", "reverso": "Could you tell me the time?", "nota": "Verbo en forma base después de could." }
+  ]
+}

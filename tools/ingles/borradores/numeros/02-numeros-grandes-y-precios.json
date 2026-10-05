@@ -1,0 +1,650 @@
+{
+  "slug": "numeros-grandes-y-precios",
+  "titulo": "Números grandes, precios y teléfonos",
+  "minutos": 45,
+  "objetivos": [
+    "Decir y escribir cantidades con hundred, thousand y million sin añadirles -s.",
+    "Entender el and de a hundred and five y saber cuándo se usa en EE. UU. y en el Reino Unido.",
+    "Leer bien comas de miles y puntos decimales (1,500 frente a 1.5).",
+    "Preguntar y decir precios en dólares y centavos de dos maneras.",
+    "Dictar y entender números de teléfono dígito a dígito, con oh y double."
+  ],
+  "situacion": {
+    "titulo": "En la caja de una tienda",
+    "texto": "Lucía está de viaje y compra una mochila y una botella de agua. El cajero le dice el total muy rápido, a la manera informal: sin decir «dollars» ni «cents». Después le pide su número de celular para el recibo.",
+    "dialogo": [
+      { "quien": "Ben", "en": "OK, that's thirty-two fifty.", "es": "Bien, son treinta y dos cincuenta." },
+      { "quien": "Lucía", "en": "Sorry, thirty-two dollars and fifty cents?", "es": "Perdón, ¿treinta y dos dólares con cincuenta centavos?" },
+      { "quien": "Ben", "en": "That's right. And what's your phone number, for the receipt?", "es": "Así es. ¿Y cuál es su número de teléfono, para el recibo?" },
+      { "quien": "Lucía", "en": "It's five five five, oh one double seven.", "es": "Es cinco cinco cinco, cero uno siete siete." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "hundred-thousand-million",
+      "titulo": "Hundred, thousand, million",
+      "que_es": "Para las cantidades grandes el inglés usa tres palabras clave: [[hundred]] (cien), [[thousand]] (mil) y [[million]] (millón). Se combinan con los números que ya conoces igual que en español: primero cuántos cientos, miles o millones, y luego el resto.",
+      "para_que": [
+        "Hablar de precios de carros, rentas o sueldos.",
+        "Entender poblaciones, distancias y cantidades en noticias y documentos.",
+        "Leer cifras en recibos, cuentas y formularios."
+      ],
+      "como_funciona": "**1. Sin -s después de un número.** Cuando hay un número delante, hundred, thousand y million se quedan en singular: [[two hundred]], [[five thousand]], [[three million]]. Funcionan como un adjetivo, y en inglés los adjetivos no tienen plural (ya lo viste: [[two red cars]], nunca «reds»). Solo llevan -s cuando NO hay número y significan «cientos de, miles de»: [[hundreds of people]], [[thousands of dollars]]. Fíjate en que entonces sí va [[of]].\n\n**2. A o one.** [[A hundred]], [[a thousand]], [[a million]] son lo más natural al hablar; [[one hundred]] suena más formal o enfático. En español decimos «cien, mil» sin «un»; en inglés el a/one es obligatorio: no se dice «hundred people» solo.\n\n**3. Million sin of.** En español es «un millón **de** personas»; en inglés, con número, no hay of: [[a million people]], [[two million dollars]].\n\n**4. El and después de hundred.** En el inglés británico siempre se dice and entre las centenas y el resto: [[a hundred and five]], [[three hundred and forty-two]]. En EE. UU. es muy frecuente también al hablar, pero igual de correcto es omitirlo: [[one hundred five]], [[three hundred forty-two]] (así se escribe, por ejemplo, en los cheques). Las dos formas son correctas; tú puedes usar cualquiera. Lo que nunca lleva and es la unión decena-unidad: [[forty-two]], no «forty and two».\n\n**5. Grupos.** [[2,500]] = [[two thousand five hundred]]. [[1,500]] también se oye como [[fifteen hundred]] en precios y conversaciones informales; es correcto, pero no lo necesitas para producir.",
+      "estructuras": [
+        {
+          "etiqueta": "Número + hundred / thousand / million (sin -s)",
+          "formula": [ { "t": "número", "rol": "otro" }, { "t": "hundred / thousand / million", "rol": "otro" }, { "t": "(and) resto", "rol": "otro" }, { "t": "sustantivo plural", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "two", "rol": "otro" }, { "t": "hundred", "rol": "otro" }, { "t": "and fifty", "rol": "otro" }, { "t": "students", "rol": "complemento" } ],
+          "es": "doscientos cincuenta alumnos"
+        },
+        {
+          "etiqueta": "Sin número: cientos de / miles de",
+          "formula": [ { "t": "hundreds / thousands / millions", "rol": "otro" }, { "t": "of", "rol": "otro" }, { "t": "sustantivo plural", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "thousands", "rol": "otro" }, { "t": "of", "rol": "otro" }, { "t": "people", "rol": "complemento" } ],
+          "es": "miles de personas"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Cómo se leen las cifras grandes",
+          "columnas": ["Cifra", "Inglés", "Nota"],
+          "filas": [
+            ["100", "a hundred / one hundred", "Siempre con a o one."],
+            ["105", "a hundred and five / one hundred five", "And: siempre en R. U.; opcional en EE. UU."],
+            ["250", "two hundred and fifty / two hundred fifty", "Hundred sin -s."],
+            ["1,000", "a thousand / one thousand", "La coma separa los miles."],
+            ["2,500", "two thousand five hundred", "Thousand sin -s."],
+            ["10,000", "ten thousand", "Ten + thousand, sin -s."],
+            ["1,000,000", "a million / one million", "Sin of delante del sustantivo."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are three hundred students in the school.",
+          "es": "Hay trescientos alumnos en la escuela.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "three hundred", "rol": "otro" }, { "t": "students", "rol": "complemento" }, { "t": "in the school", "rol": "complemento" } ],
+          "nota": "Hundred sin -s porque va después de un número; students sí lleva -s porque es el sustantivo que se cuenta."
+        },
+        {
+          "en": "The rent is twelve thousand pesos.",
+          "es": "La renta es de doce mil pesos.",
+          "partes": [ { "t": "The rent", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "twelve thousand pesos", "rol": "complemento" } ],
+          "nota": "Thousand no cambia aunque sean doce. Y fíjate: en inglés no hace falta el «de» de «es de doce mil»."
+        },
+        {
+          "en": "There are hundreds of people at the concert.",
+          "es": "Hay cientos de personas en el concierto.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "hundreds of", "rol": "otro" }, { "t": "people", "rol": "complemento" }, { "t": "at the concert", "rol": "complemento" } ],
+          "nota": "Aquí no hay un número exacto, así que hundreds lleva -s y va seguido de of."
+        },
+        {
+          "en": "The population of the city is two million.",
+          "es": "La población de la ciudad es de dos millones.",
+          "partes": [ { "t": "The population of the city", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "two million", "rol": "complemento" } ],
+          "nota": "En español decimos «dos millones», con plural; en inglés, two million, sin -s, porque va después de un número."
+        },
+        {
+          "en": "My room number is a hundred and five.",
+          "es": "El número de mi habitación es el ciento cinco.",
+          "partes": [ { "t": "My room number", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a hundred and five", "rol": "complemento" } ],
+          "nota": "Con and, como en el Reino Unido y muy a menudo en EE. UU. al hablar. En un hotel también oirás one oh five, dígito a dígito."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "a hundred and five",
+          "ipa": "/ə ˈhʌndrəd ən ˈfaɪv/",
+          "consejo": "El and casi no se oye: se reduce a /ən/, una n con una vocal neutra delante. Todo va ligado: «a-HUN-dred-n-FIVE».",
+          "lento": true
+        },
+        {
+          "texto": "thousand",
+          "ipa": "/ˈθaʊzənd/",
+          "consejo": "Empieza con la lengua entre los dientes (/θ/), sigue con «au» y una z que vibra. No digas «tausan»: la th y la d final son las que le dan claridad.",
+          "lento": true
+        },
+        {
+          "texto": "million",
+          "ipa": "/ˈmɪljən/",
+          "consejo": "Dos sílabas, acento en MIL. La ll suena como la y de «yo» suave; la última vocal es una schwa, muy breve: «MIL-yen».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "two hundreds students", "bien": "two hundred students", "porque": "Con un número delante, hundred no lleva -s." },
+        { "mal": "a million of people", "bien": "a million people", "porque": "Con número exacto no se pone of. Solo va of en millions of people (millones de personas, sin número)." },
+        { "mal": "hundred people", "bien": "a hundred people / one hundred people", "porque": "En inglés hundred, thousand y million necesitan a o one delante." },
+        { "mal": "thousands people", "bien": "thousands of people", "porque": "Si usas la forma plural sin número, necesitas of." }
+      ]
+    },
+    {
+      "id": "comas-y-puntos",
+      "titulo": "Coma de miles y punto decimal",
+      "que_es": "En inglés la coma separa los miles ([[1,500]] = mil quinientos) y el punto separa los decimales ([[1.5]] = uno punto cinco). El punto se lee [[point]].",
+      "para_que": [
+        "Leer bien recibos, estados de cuenta y precios en inglés.",
+        "Entender medidas, calificaciones y estadísticas.",
+        "Evitar errores graves al leer documentos de otros países."
+      ],
+      "como_funciona": "**Buena noticia para México:** en México se usa la misma convención que en Estados Unidos: coma para los miles y punto para los decimales ([[1,500.75]]). En cambio, en España, Argentina, Colombia, Chile y gran parte de Europa es al revés ([[1.500,75]]). Si lees documentos de esos países, no des por hecho el formato.\n\n**Cómo se leen los decimales:** la parte entera se lee como número normal y, después de [[point]], cada dígito se lee por separado: [[3.25]] = [[three point two five]] (no «three point twenty-five»). Para el cero delante del punto se dice [[zero point five]] o simplemente [[point five]]; en el Reino Unido también [[nought point five]].\n\n**Excepción: el dinero.** Con precios NO se dice point: [[$3.25]] no es «three point two five dollars» sino [[three twenty-five]] o [[three dollars and twenty-five cents]]. Lo verás en el siguiente concepto.",
+      "estructuras": [
+        {
+          "etiqueta": "Decimal",
+          "formula": [ { "t": "parte entera", "rol": "otro" }, { "t": "point", "rol": "otro" }, { "t": "dígito + dígito…", "rol": "otro" } ],
+          "ejemplo": [ { "t": "two", "rol": "otro" }, { "t": "point", "rol": "otro" }, { "t": "seven five", "rol": "otro" } ],
+          "es": "2.75 (dos punto setenta y cinco)"
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "1,500 (coma)", "items": ["Separa miles.", "Se lee one thousand five hundred (o fifteen hundred).", "En México se escribe igual."] },
+        "b": { "titulo": "1.5 (punto)", "items": ["Separa decimales.", "Se lee one point five.", "En España o Argentina se escribiría 1,5."] },
+        "veredicto": "Coma = miles; punto = decimales. En México y en EE. UU. el sistema es el mismo; el cambio está en otros países hispanohablantes."
+      },
+      "ejemplos": [
+        {
+          "en": "The bottle is one point five liters.",
+          "es": "La botella es de litro y medio.",
+          "partes": [ { "t": "The bottle", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "one point five liters", "rol": "complemento" } ],
+          "nota": "1.5 se lee one point five. En español diríamos «litro y medio»; en inglés también existe one and a half liters, pero point es lo que se lee al ver 1.5."
+        },
+        {
+          "en": "The distance is three point two five kilometers.",
+          "es": "La distancia es de 3.25 kilómetros.",
+          "partes": [ { "t": "The distance", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "three point two five kilometers", "rol": "complemento" } ],
+          "nota": "Después de point, dígito por dígito: two five, no twenty-five."
+        },
+        {
+          "en": "There are two thousand five hundred people in my town.",
+          "es": "Hay 2,500 personas en mi pueblo.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "two thousand five hundred", "rol": "otro" }, { "t": "people", "rol": "complemento" }, { "t": "in my town", "rol": "complemento" } ],
+          "nota": "La coma de 2,500 no se lee: solo marca dónde empiezan los miles."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "point",
+          "ipa": "/pɔɪnt/",
+          "consejo": "Diptongo «oi», como en «hoy», seguido de n y t. En el habla rápida la t final apenas se suelta, pero la n sí se oye.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "one comma five (para 1.5)", "bien": "one point five", "porque": "En inglés el separador decimal es un punto y se lee point." },
+        { "mal": "three point twenty-five (para 3.25)", "bien": "three point two five", "porque": "Después de point los dígitos se leen uno por uno." },
+        { "mal": "Leer 1.500 de un documento español como «one point five»", "bien": "one thousand five hundred", "porque": "En España y en varios países de Latinoamérica el punto separa miles. En México y EE. UU. se escribiría 1,500." }
+      ]
+    },
+    {
+      "id": "precios",
+      "titulo": "Precios: dólares y centavos",
+      "que_es": "Un precio como [[$4.99]] se puede decir de forma completa, [[four dollars and ninety-nine cents]], o de forma corta, [[four ninety-nine]], que es la que más oirás en tiendas y cafeterías.",
+      "para_que": [
+        "Entender al cajero cuando te dice el total.",
+        "Preguntar cuánto cuesta algo y responder.",
+        "Leer y decir precios en carteles, menús y recibos."
+      ],
+      "como_funciona": "**Forma completa:** [[número + dollars + and + número + cents]]. Ojo con el singular: [[one dollar]], [[one cent]]; con cualquier otro número, plural: [[two dollars]], [[fifty cents]]. Delante de otro sustantivo, en cambio, el precio funciona como adjetivo y va en singular con guion: [[a five-dollar bill]] (un billete de cinco dólares).\n\n**Forma corta:** se dicen los dos números y se omiten dollars, cents y and: [[$4.99]] = [[four ninety-nine]]; [[$12.50]] = [[twelve fifty]]. Si los centavos van del 01 al 09, se dice oh: [[$2.05]] = [[two oh five]]. Si el precio es exacto, se dice solo dollars: [[$10]] = [[ten dollars]] (no «ten oh oh»). Menos de un dólar: [[75¢]] = [[seventy-five cents]].\n\n**Escritura:** el símbolo va delante del número ([[$20]]), pero se lee después: [[twenty dollars]]. En México el signo $ también se usa para los pesos; en inglés, si hablas de pesos, di [[pesos]]: [[two hundred pesos]].\n\n**Preguntar el precio:** [[How much is it?]] / [[How much is this?]] / [[How much are they?]] = ¿Cuánto cuesta / cuestan? Aunque en español usamos «costar», en inglés esta pregunta se hace con be; la respuesta también: [[It's five dollars.]] / [[They're twenty dollars.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Preguntar el precio",
+          "formula": [ { "t": "How much", "rol": "interrogativo" }, { "t": "is / are", "rol": "verbo" }, { "t": "this / it / they", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "How much", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "this", "rol": "sujeto" } ],
+          "es": "¿Cuánto cuesta esto?"
+        },
+        {
+          "etiqueta": "Precio completo",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "número + dollars", "rol": "complemento" }, { "t": "and", "rol": "otro" }, { "t": "número + cents", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "four dollars", "rol": "complemento" }, { "t": "and", "rol": "otro" }, { "t": "ninety-nine cents", "rol": "complemento" } ],
+          "es": "Cuesta cuatro dólares con noventa y nueve centavos."
+        },
+        {
+          "etiqueta": "Precio corto",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "dólares", "rol": "complemento" }, { "t": "centavos", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "four", "rol": "complemento" }, { "t": "ninety-nine", "rol": "complemento" } ],
+          "es": "Cuesta cuatro noventa y nueve."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Precios escritos y hablados",
+          "columnas": ["Precio", "Forma corta", "Forma completa"],
+          "filas": [
+            ["$4.99", "four ninety-nine", "four dollars and ninety-nine cents"],
+            ["$12.50", "twelve fifty", "twelve dollars and fifty cents"],
+            ["$2.05", "two oh five", "two dollars and five cents"],
+            ["$1.25", "a dollar twenty-five / one twenty-five", "one dollar and twenty-five cents"],
+            ["$10.00", "ten dollars", "ten dollars"],
+            ["$0.75", "seventy-five cents", "seventy-five cents"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How much is this notebook?",
+          "es": "¿Cuánto cuesta este cuaderno?",
+          "partes": [ { "t": "How much", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "this notebook", "rol": "sujeto" } ],
+          "nota": "Pregunta con be: el verbo is va antes del sujeto, igual que en las preguntas que ya conoces (Where is…?)."
+        },
+        {
+          "en": "It's three dollars and fifty cents.",
+          "es": "Cuesta tres dólares con cincuenta centavos.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "three dollars", "rol": "complemento" }, { "t": "and", "rol": "otro" }, { "t": "fifty cents", "rol": "complemento" } ],
+          "nota": "Forma completa: dollars y cents en plural porque el número es mayor que uno, unidos por and."
+        },
+        {
+          "en": "How much are the tickets? They're twelve fifty.",
+          "es": "¿Cuánto cuestan los boletos? Cuestan doce cincuenta.",
+          "partes": [ { "t": "How much", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "the tickets", "rol": "sujeto" }, { "t": "They're", "rol": "sujeto" }, { "t": "twelve fifty", "rol": "complemento" } ],
+          "nota": "Plural: are y they're. La forma corta omite dollars y cents; el contexto deja claro que se habla de dinero."
+        },
+        {
+          "en": "The coffee is one dollar.",
+          "es": "El café cuesta un dólar.",
+          "partes": [ { "t": "The coffee", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "one dollar", "rol": "complemento" } ],
+          "nota": "Con uno, singular: one dollar (o a dollar). Two dollars ya va en plural."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "four ninety-nine",
+          "ipa": "/ˌfɔːr ˌnaɪntiˈnaɪn/",
+          "consejo": "Una pequeña pausa entre los dólares y los centavos: «four · ninety-nine». Esa pausa sustituye a las palabras dollars y cents.",
+          "lento": true
+        },
+        {
+          "texto": "How much is it?",
+          "ipa": "/ˌhaʊ ˈmʌtʃ ɪz ɪt/",
+          "consejo": "Se liga todo: «hau-MA-chi-zit». La u de much es una a corta y relajada, no una u española. Como es una pregunta con palabra interrogativa, la entonación baja al final.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "How much costs this?", "bien": "How much is this?", "porque": "Calco de «¿Cuánto cuesta esto?». En inglés, con be. (Con cost existe How much does it cost?, que verás con el presente simple.)" },
+        { "mal": "It's five dollar.", "bien": "It's five dollars.", "porque": "Con un número mayor que uno, dollars va en plural." },
+        { "mal": "a five-dollars bill", "bien": "a five-dollar bill", "porque": "Delante de un sustantivo el precio funciona como adjetivo: sin -s y con guion." },
+        { "mal": "It's four point ninety-nine.", "bien": "It's four ninety-nine.", "porque": "Con dinero no se dice point." }
+      ]
+    },
+    {
+      "id": "telefonos",
+      "titulo": "Números de teléfono: dígito a dígito",
+      "que_es": "Los números de teléfono se dicen dígito por dígito, en grupos, con una pequeña pausa entre grupos. El cero se suele decir [[oh]] y dos dígitos iguales seguidos pueden decirse con [[double]].",
+      "para_que": [
+        "Dar tu número de celular en una tienda, un hotel o una oficina.",
+        "Apuntar sin errores un número que te dictan.",
+        "Entender números de cuenta, de pedido o de reservación."
+      ],
+      "como_funciona": "En México se agrupan los dígitos por pares y a veces se dicen como números completos («cincuenta y cinco, veintitrés…»). En inglés NO: cada dígito se dice suelto. [[555-0142]] = [[five five five, oh one four two]].\n\n- **Cero:** lo normal es [[oh]]. [[Zero]] también es correcto y se oye mucho en EE. UU.\n- **Double:** dos dígitos iguales seguidos pueden decirse [[double seven]] (77). Es muy común en el Reino Unido; en EE. UU. es frecuente decir simplemente [[seven seven]]. Las dos formas se entienden en todas partes.\n- **Grupos:** en EE. UU. los números tienen 10 dígitos en grupos de 3-3-4: [[(212) 555-0187]]. La pausa entre grupos ayuda a quien escucha.\n\nPara preguntar: [[What's your phone number?]] (o [[cell phone number]] / [[cell number]]; en el R. U., [[mobile number]]). Para responder: [[It's…]] o [[My number is…]].",
+      "estructuras": [
+        {
+          "etiqueta": "Dar tu número",
+          "formula": [ { "t": "My number is / It's", "rol": "sujeto" }, { "t": "dígitos sueltos, en grupos", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My number is", "rol": "sujeto" }, { "t": "five five five, oh one double eight", "rol": "complemento" } ],
+          "es": "Mi número es 555-0188."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What's your phone number?",
+          "es": "¿Cuál es tu número de teléfono?",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "your phone number", "rol": "sujeto" } ],
+          "nota": "Se pregunta con What, no con Which ni How: es la pregunta fija para datos personales, igual que What's your name?"
+        },
+        {
+          "en": "It's three one oh, five five five, two nine four six.",
+          "es": "Es el 310-555-2946.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "three one oh, five five five, two nine four six", "rol": "complemento" } ],
+          "nota": "Grupos de 3-3-4 con pausas. El 0 de 310 se dice oh."
+        },
+        {
+          "en": "My cell number is five five five, two oh three, double seven four one.",
+          "es": "Mi número de celular es el 555-203-7741.",
+          "partes": [ { "t": "My cell number", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "five five five, two oh three, double seven four one", "rol": "complemento" } ],
+          "nota": "Double seven = 77. También existe triple (triple five = 555), pero es menos frecuente; decir los tres dígitos siempre es correcto."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "oh",
+          "ipa": "/oʊ/",
+          "consejo": "No es una o pura del español: empieza en o y se desliza hacia u, «ou». Es exactamente el nombre de la letra O.",
+          "lento": false
+        },
+        {
+          "texto": "double",
+          "ipa": "/ˈdʌbəl/",
+          "consejo": "La ou suena como una a corta y relajada, no como «ou». Acento en DOU; la segunda sílaba es casi solo una l: «DA-bl».",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "fifty-five, fifty-five, zero one, forty-two (para 5555-0142)", "bien": "five five five five, oh one four two", "porque": "En inglés los teléfonos se dicen dígito a dígito, no agrupados en números de dos cifras." },
+        { "mal": "What is your phone?", "bien": "What's your phone number?", "porque": "Your phone es el aparato. Para el número hay que decir phone number." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "numeros.numeros-grandes-y-precios.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada cifra con su forma en inglés.",
+      "pares": [
+        { "a": "300", "b": "three hundred" },
+        { "a": "105", "b": "a hundred and five" },
+        { "a": "1,500", "b": "one thousand five hundred" },
+        { "a": "1.5", "b": "one point five" },
+        { "a": "2,000,000", "b": "two million" },
+        { "a": "$1.50", "b": "a dollar fifty" }
+      ],
+      "pistas": [
+        "Coma = miles; punto = decimales, salvo en los precios.",
+        "Distingue 1,500 y 1.5: la coma y el punto no significan lo mismo.",
+        "Con precios no se dice point: $1.50 se dice dólares y luego centavos."
+      ],
+      "solucion": {
+        "respuesta": "300 = three hundred · 105 = a hundred and five · 1,500 = one thousand five hundred · 1.5 = one point five · 2,000,000 = two million · $1.50 = a dollar fifty",
+        "explicacion": "Hundred y million no llevan -s después de un número. La coma de 1,500 separa miles; el punto de 1.5 es decimal y se lee point. En los precios el punto no se lee: $1.50 es a dollar fifty."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "The school has 300 students. → There are three ___ students in the school.",
+      "opciones": [
+        { "texto": "hundred", "correcta": true, "porque": "Correcto: después de un número, hundred no lleva -s." },
+        { "texto": "hundreds", "correcta": false, "porque": "Con un número delante (three), hundred se queda en singular." },
+        { "texto": "hundreds of", "correcta": false, "porque": "Hundreds of significa «cientos de» y solo se usa sin un número exacto delante." },
+        { "texto": "hundred of", "correcta": false, "porque": "Con número exacto no se pone of: three hundred students." }
+      ],
+      "pistas": [
+        "Hundred, thousand y million funcionan como adjetivos cuando hay un número delante.",
+        "Mira la palabra que va antes del hueco: three.",
+        "Número + hundred, en singular y sin of, + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "hundred",
+        "explicacion": "La respuesta correcta es hundred: con un número exacto (three) delante, hundred se queda en singular y va directamente antes del sustantivo, sin of."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra. La ciudad tiene 3,000,000 de habitantes.",
+      "frase": "There are three ___ people in the city.",
+      "traduccion": "Hay tres millones de personas en la ciudad.",
+      "respuestas": [["million"]],
+      "errores_tipicos": {
+        "millions": "Con número delante, million no lleva -s: three million.",
+        "millions of": "Millions of solo se usa sin número exacto. Con three: three million people."
+      },
+      "pistas": [
+        "Necesitas la palabra para «millón».",
+        "Delante hay un número exacto: three.",
+        "Después de un número, million va en singular y sin of."
+      ],
+      "solucion": {
+        "respuesta": "million",
+        "explicacion": "La respuesta correcta es million, en singular: con un número delante (three), million no lleva -s ni of. En español decimos «tres millones de personas», pero en inglés es three million people."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.04",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Interpreta la cifra.",
+      "pregunta": "En un recibo de una tienda de Estados Unidos dice: Total: 1,250. ¿Qué cantidad es?",
+      "opciones": [
+        { "texto": "Mil doscientos cincuenta", "correcta": true, "porque": "Correcto: en inglés (y en México) la coma separa los miles." },
+        { "texto": "Uno punto veinticinco", "correcta": false, "porque": "Eso sería 1.25, con punto. La coma no es decimal en inglés." },
+        { "texto": "Uno con doscientos cincuenta milésimos", "correcta": false, "porque": "Así se leería en España o Argentina, donde la coma es decimal. En inglés la coma marca los miles." }
+      ],
+      "pistas": [
+        "Recuerda qué separa la coma en inglés.",
+        "Compara con cómo se escribe en México: ¿qué significa 1,250 en un ticket mexicano?",
+        "Coma = miles; punto = decimales, igual que en México."
+      ],
+      "solucion": {
+        "respuesta": "Mil doscientos cincuenta",
+        "explicacion": "La respuesta correcta es mil doscientos cincuenta (one thousand two hundred and fifty): en inglés la coma separa los miles, exactamente como en México."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con los números en letras. El sándwich cuesta $6.75 (forma completa).",
+      "frase": "The sandwich is ___ dollars and ___ cents.",
+      "traduccion": "El sándwich cuesta seis dólares con setenta y cinco centavos.",
+      "respuestas": [["six"], ["seventy-five"]],
+      "errores_tipicos": {
+        "six | seventy and five": "Entre decena y unidad no va and: seventy-five.",
+        "six | seven five": "Los centavos se dicen como número normal (seventy-five), no dígito a dígito como los decimales."
+      },
+      "pistas": [
+        "Forma completa: dólares, and, centavos.",
+        "Los dólares van antes del punto y los centavos después.",
+        "Los centavos se leen como un número de dos cifras con guion, no dígito por dígito."
+      ],
+      "solucion": {
+        "respuesta": "six · seventy-five",
+        "explicacion": "$6.75 en forma completa es six dollars and seventy-five cents. A diferencia de los decimales con point, los centavos se dicen como número completo: seventy-five."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.06",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha el número de teléfono y escríbelo con cifras (puedes separar los grupos con guion o espacio).",
+      "texto": "My number is five five five, oh one four two.",
+      "respuestas": [
+        "My number is 555-0142.",
+        "My number is 5550142.",
+        "My number is 555 01 42."
+      ],
+      "audio": true,
+      "pistas": [
+        "Los teléfonos se dictan dígito a dígito.",
+        "Escucha la palabra que suena como la letra O.",
+        "Oh = 0. Hay siete dígitos en dos grupos: 3 + 4."
+      ],
+      "solucion": {
+        "respuesta": "My number is 555-0142.",
+        "explicacion": "Se oye five five five (555), una pausa, y luego oh one four two: oh es el cero, así que el segundo grupo es 0142."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.07",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige lo que dirías.",
+      "contexto": "Estás en una papelería y quieres saber el precio de un cuaderno que tienes en la mano.",
+      "lineas": [
+        { "quien": "Clerk", "en": "Hi there!", "es": "¡Hola!" }
+      ],
+      "opciones": [
+        { "texto": "Hi! How much is this notebook?", "correcta": true, "porque": "Correcto: How much + is + this notebook. En inglés el precio se pregunta con be." },
+        { "texto": "Hi! How much costs this notebook?", "correcta": false, "porque": "Es un calco de «¿Cuánto cuesta?». Con be es How much is this notebook?" },
+        { "texto": "Hi! How many is this notebook?", "correcta": false, "porque": "How many pregunta por la cantidad de cosas (¿cuántos?), no por el precio." },
+        { "texto": "Hi! How much this notebook?", "correcta": false, "porque": "Falta el verbo is. En inglés la pregunta necesita verbo." }
+      ],
+      "pistas": [
+        "El precio se pregunta con How much.",
+        "Después de How much necesitas un verbo que ya conoces bien.",
+        "How much + is/are + sujeto."
+      ],
+      "solucion": {
+        "respuesta": "Hi! How much is this notebook?",
+        "explicacion": "La pregunta correcta es How much is this notebook?: how much para el precio y is (be) antes del sujeto singular this notebook, como en cualquier pregunta con be."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "The tickets are twenty dollar each.",
+      "error": "dollar",
+      "correcciones": ["dollars"],
+      "frase_correcta": "The tickets are twenty dollars each.",
+      "pistas": [
+        "Revisa la concordancia entre el número y la moneda.",
+        "Mira la palabra que va justo después de twenty.",
+        "Con cualquier número distinto de uno, dollar va en plural."
+      ],
+      "solucion": {
+        "respuesta": "dollars",
+        "explicacion": "El error es dollar: con twenty (más de uno) la moneda va en plural, twenty dollars. Solo se dice dollar en singular con one o a (one dollar) o cuando funciona como adjetivo (a twenty-dollar ticket)."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Escribe el número con letras.",
+      "es": "Hay doscientas personas en el concierto.",
+      "respuestas": [
+        "There are two hundred people at the concert.",
+        "There are two hundred people in the concert."
+      ],
+      "errores_tipicos": {
+        "There are two hundreds people at the concert": "Con número delante, hundred no lleva -s.",
+        "There are two hundreds of people at the concert": "Con número exacto no se usa hundreds of: two hundred people.",
+        "There is two hundred people at the concert": "Two hundred people es plural: there are."
+      },
+      "pistas": [
+        "«Hay» con plural es there are.",
+        "Revisa la palabra hundred: ¿lleva -s?, ¿lleva of?",
+        "Número + hundred sin -s ni of + people."
+      ],
+      "solucion": {
+        "respuesta": "There are two hundred people at the concert.",
+        "explicacion": "There are porque people es plural; two hundred sin -s porque hay un número delante, y sin of porque es una cantidad exacta. Con eventos lo más natural es at the concert."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.10",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "It's two hundred and fifty dollars.",
+      "ipa": "/ɪts ˌtuː ˈhʌndrəd ən ˈfɪfti ˈdɑːlərz/",
+      "consejo": "El and se reduce a /ən/: casi solo una n. Dollars: la o suena como una a abierta (/ɑː/) en EE. UU., y la s final vibra como z.",
+      "es": "Cuesta doscientos cincuenta dólares."
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.11",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con una palabra: la calificación es 8.5.",
+      "frase": "My score is eight ___ five.",
+      "traduccion": "Mi calificación es ocho punto cinco.",
+      "respuestas": [["point"]],
+      "errores_tipicos": {
+        "comma": "En inglés el separador decimal es un punto y se lee point, no comma.",
+        "and": "And no separa decimales. 8.5 se lee eight point five."
+      },
+      "pistas": [
+        "Es un número decimal, no un precio.",
+        "Piensa en cómo se lee el signo que separa el 8 del 5.",
+        "El separador decimal en inglés es un punto, y se lee con esa misma palabra."
+      ],
+      "solucion": {
+        "respuesta": "point",
+        "explicacion": "La respuesta correcta es point: en inglés el separador decimal es el punto y se lee point. 8.5 = eight point five."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.12",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe el precio con letras, en forma completa.",
+      "origen": "The TV is $450.",
+      "instruccion": "Precio con letras (forma completa)",
+      "respuestas": [
+        "The TV is four hundred and fifty dollars.",
+        "The TV is four hundred fifty dollars."
+      ],
+      "errores_tipicos": {
+        "The TV is four hundreds and fifty dollars": "Hundred no lleva -s después de un número.",
+        "The TV is four hundred and fifty dollar": "Con 450, dollars va en plural.",
+        "The TV is four hundred and fifty": "En la forma completa hay que decir la moneda: dollars."
+      },
+      "pistas": [
+        "Primero las centenas, luego las decenas y al final la moneda.",
+        "Revisa hundred (¿singular o plural?) y dollar (¿singular o plural?).",
+        "Número + hundred sin -s + (and) + fifty + dollars en plural."
+      ],
+      "solucion": {
+        "respuesta": "The TV is four hundred and fifty dollars.",
+        "explicacion": "Cuatrocientos es four hundred (sin -s). Después, and fifty: el and es obligatorio en el Reino Unido y opcional en EE. UU., por eso también vale four hundred fifty. La moneda va al final y en plural: dollars."
+      }
+    },
+    {
+      "id": "numeros.numeros-grandes-y-precios.13",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. El precio puedes escribirlo con cifras ($65.50) o con letras.",
+      "texto": "The jacket is sixty-five dollars and fifty cents.",
+      "respuestas": ["The jacket is $65.50."],
+      "audio": true,
+      "pistas": [
+        "El precio está en forma completa: dólares y centavos.",
+        "Escucha el acento de los dos números: ¿-teen o -ty?",
+        "SIX-ty (60) + five; FIF-ty (50), con acento al principio y sin n final."
+      ],
+      "solucion": {
+        "respuesta": "The jacket is sixty-five dollars and fifty cents.",
+        "explicacion": "Los dos números llevan el acento al principio (SIX-ty-five, FIF-ty) y terminan sin n, así que son decenas: 65 dólares y 50 centavos, $65.50."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Pagar y dejar tus datos",
+    "contexto": "Estás en una tienda de ropa en Estados Unidos. Quieres comprar una camiseta. El dependiente, Omar, te dice el precio y después te pide tu teléfono para un programa de puntos.",
+    "dialogo": [
+      { "quien": "Tú", "en": "Excuse me, how much is this T-shirt?", "es": "Disculpe, ¿cuánto cuesta esta camiseta?" },
+      { "quien": "Omar", "en": "It's nineteen ninety-nine.", "es": "Cuesta diecinueve noventa y nueve." },
+      { "quien": "Tú", "en": "Nineteen dollars and ninety-nine cents? OK, thanks.", "es": "¿Diecinueve dólares con noventa y nueve centavos? Bien, gracias." },
+      { "quien": "Omar", "en": "And what's your phone number, please?", "es": "¿Y cuál es su número de teléfono, por favor?" }
+    ],
+    "tu_turno": "Da tu número de teléfono (inventa uno de 10 dígitos que tenga un cero y dos dígitos iguales seguidos), dígito a dígito y en grupos.",
+    "modelo": "It's five five five, two oh three, double four one six.",
+    "alternativas": [
+      "My number is five five five, two zero three, four four one six.",
+      "It's five five five, two oh three, four four one six."
+    ],
+    "claves": [
+      "Dígito a dígito, nunca en pares como en español.",
+      "Cero = oh (o zero).",
+      "Double para dos dígitos iguales seguidos; pausas entre grupos."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Número + hundred / thousand / million, sin -s y sin of: two hundred people, three million dollars.",
+      "Sin número: hundreds of / thousands of / millions of.",
+      "And tras hundred: siempre en R. U.; frecuente pero opcional en EE. UU. (a hundred and five / one hundred five).",
+      "Coma = miles (1,500); punto = decimales (1.5 = one point five). En México es igual que en EE. UU.",
+      "Precios: $4.99 = four ninety-nine o four dollars and ninety-nine cents. How much is it?",
+      "Teléfonos: dígito a dígito, 0 = oh, 77 = double seven."
+    ],
+    "recuerda": [
+      "Con dinero no se dice point.",
+      "One dollar, pero two dollars; a five-dollar bill (adjetivo, sin -s)."
+    ]
+  },
+  "repaso": [
+    { "id": "numeros.numeros-grandes-y-precios.r1", "frente": "¿Two hundred o two hundreds students?", "reverso": "two hundred students → con número, sin -s.", "nota": "Sin número: hundreds of students." },
+    { "id": "numeros.numeros-grandes-y-precios.r2", "frente": "¿Cómo se lee 3.25 (un decimal, no un precio)?", "reverso": "three point two five → dígito a dígito después de point." },
+    { "id": "numeros.numeros-grandes-y-precios.r3", "frente": "Di $4.99 de dos maneras.", "reverso": "four ninety-nine · four dollars and ninety-nine cents." },
+    { "id": "numeros.numeros-grandes-y-precios.r4", "frente": "¿Cómo se pregunta «¿Cuánto cuesta esto?»?", "reverso": "How much is this? (con be)", "nota": "No: How much costs this?" },
+    { "id": "numeros.numeros-grandes-y-precios.r5", "frente": "Dicta 555-0188.", "reverso": "five five five, oh one double eight (o eight eight)." }
+  ]
+}

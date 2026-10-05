@@ -1,0 +1,1096 @@
+{
+  "slug": "am-is-are",
+  "titulo": "Am, is, are: ser y estar",
+  "minutos": 35,
+  "objetivos": [
+    "Entender qué significa to be y por qué en inglés un solo verbo cubre ser y estar.",
+    "Elegir am, is o are según el sujeto, también cuando el sujeto es un nombre o varias personas.",
+    "No omitir nunca el sujeto delante de am, is o are."
+  ],
+  "situacion": {
+    "titulo": "Primer día en la escuela de idiomas",
+    "texto": "Mei llega a su primera clase de inglés y se sienta junto a Carlos. Fíjate en cuántas veces aparecen am, is y are en una conversación de diez segundos, y en que cada una acompaña a un sujeto distinto.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Hi! I am Carlos. I am from Mexico.",
+        "es": "¡Hola! Soy Carlos. Soy de México."
+      },
+      {
+        "quien": "Mei",
+        "en": "Hello, Carlos. I am Mei. I am a little nervous!",
+        "es": "Hola, Carlos. Soy Mei. ¡Estoy un poco nerviosa!"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Don't worry. The teacher is very nice.",
+        "es": "No te preocupes. La maestra es muy amable."
+      },
+      {
+        "quien": "Mei",
+        "en": "Great. And the other students are friendly too.",
+        "es": "Qué bien. Y los demás alumnos también son simpáticos."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "que-es-to-be",
+      "titulo": "Qué es to be: un verbo para ser y estar",
+      "que_es": "[[to be]] es el verbo que une a una persona o cosa con una descripción: quién es, cómo es, cómo está o dónde está. Es el equivalente de **ser** y de **estar** a la vez. El inglés no distingue entre los dos: [[She is a teacher]] («es maestra») y [[She is tired]] («está cansada») usan exactamente el mismo verbo.",
+      "para_que": [
+        "Decir quién eres o qué eres: tu nombre, tu profesión, tu nacionalidad.",
+        "Describir cómo es algo o alguien: grande, simpático, caro.",
+        "Decir cómo estás en este momento: cansado, contento, nervioso.",
+        "Decir dónde está alguien o algo: en casa, en la escuela, en la cocina."
+      ],
+      "como_funciona": "En español eliges entre ser y estar según el significado (permanente o temporal, identidad o situación). En inglés esa decisión **no existe**: siempre usas be, y es el complemento el que aporta el significado. Por eso, cuando traduces del español, no te preguntes «¿ser o estar?»; pregúntate solo «¿cuál es el sujeto?», porque lo único que cambia es la forma (am, is o are). El nombre del verbo, [[to be]], es su infinitivo, como «ser/estar» en el diccionario; en las oraciones nunca aparece como [[be]] solo con un sujeto: no se dice «I be», sino [[I am]].",
+      "estructuras": [
+        {
+          "etiqueta": "Be + identidad (ser)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "quién o qué es",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a student",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Carlos es estudiante."
+        },
+        {
+          "etiqueta": "Be + estado o lugar (estar)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "cómo o dónde está",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "at school",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Carlos está en la escuela."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Grace is a nurse.",
+          "es": "Grace es enfermera.",
+          "situacion": "Presentas a una amiga y dices a qué se dedica.",
+          "partes": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a nurse",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Identidad o profesión: en español «es». Observa el [[a]] delante de nurse: en inglés la profesión lleva artículo (lo verás a fondo en la unidad de artículos)."
+        },
+        {
+          "en": "Grace is tired.",
+          "es": "Grace está cansada.",
+          "situacion": "La misma amiga, al final de un turno largo.",
+          "partes": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "tired",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Estado temporal: en español «está», en inglés el mismo [[is]]. Solo cambió el complemento."
+        },
+        {
+          "en": "Grace is at the hospital.",
+          "es": "Grace está en el hospital.",
+          "partes": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the hospital",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ubicación: también [[is]]. Tres significados distintos en español (es, está cansada, está en), un solo verbo en inglés."
+        },
+        {
+          "en": "The coffee is hot.",
+          "es": "El café está caliente.",
+          "partes": [
+            {
+              "t": "The coffee",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "hot",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Be no es solo para personas: cualquier cosa puede ser el sujeto."
+        },
+        {
+          "en": "The house is big.",
+          "es": "La casa es grande.",
+          "partes": [
+            {
+              "t": "The house",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "big",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: dos verbos",
+          "items": [
+            "Ella **es** maestra. (identidad)",
+            "Ella **está** cansada. (estado)",
+            "Ella **está** en casa. (lugar)",
+            "Elegir mal cambia el sentido: «es aburrida» ≠ «está aburrida»."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: un verbo",
+          "items": [
+            "She **is** a teacher.",
+            "She **is** tired.",
+            "She **is** at home.",
+            "El sentido lo da el complemento (y a veces otra palabra: [[boring]] «aburrida» / [[bored]] «aburrida, que se aburre»)."
+          ]
+        },
+        "veredicto": "No traduzcas «ser» y «estar» por separado: los dos son be. Tu única decisión es am, is o are, y depende del sujeto."
+      },
+      "pronunciacion": [
+        {
+          "texto": "be",
+          "ipa": "/biː/",
+          "consejo": "Una [[b]] con los labios bien cerrados (no la [[b]] suave de «haba») y una i larga y tensa, con los labios estirados como al sonreír."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She be tired.",
+          "bien": "She is tired.",
+          "porque": "[[be]] es el nombre del verbo (infinitivo). Con un sujeto siempre se usa una forma conjugada: am, is o are."
+        },
+        {
+          "mal": "The house big.",
+          "bien": "The house is big.",
+          "porque": "En inglés la oración necesita verbo. Entre el sujeto y la descripción va be; no se puede saltar como a veces se hace en títulos o en frases muy cortas en español."
+        }
+      ]
+    },
+    {
+      "id": "formas-de-be",
+      "titulo": "Las tres formas: am, is, are",
+      "que_es": "En presente, to be tiene tres formas y cada una va con unos sujetos concretos: **am** solo con [[I]]; **is** con una sola persona o cosa que no sea yo ni tú ([[he]], [[she]], [[it]], un nombre, un objeto); **are** con [[you]] y con todo lo plural ([[we]], [[they]], dos nombres, varios objetos).",
+      "para_que": [
+        "Hablar de ti mismo: I am…",
+        "Hablar de otra persona o de una cosa: she is…, the car is…",
+        "Hablar de varias personas o cosas, o dirigirte a alguien: we are…, they are…, you are…"
+      ],
+      "como_funciona": "Mira el sujeto y hazte dos preguntas. 1) ¿Es [[I]]? → [[am]]. 2) Si no, ¿es una sola persona o cosa (y no es [[you]])? → [[is]]. En cualquier otro caso → [[are]]. Hay dos detalles que confunden a los hispanohablantes: **[[you]] siempre va con are**, tanto si hablas con una persona («tú eres») como con varias («ustedes son»), porque en inglés no existe diferencia entre tú, usted y ustedes. Y un **sujeto compuesto** ([[Ana and Tom]], [[my brother and I]]) es plural: va con [[are]], aunque cada nombre por separado sea singular.",
+      "estructuras": [
+        {
+          "etiqueta": "Singular (una persona o cosa)",
+          "formula": [
+            {
+              "t": "He / She / It / un nombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The door",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "open",
+              "rol": "complemento"
+            }
+          ],
+          "es": "La puerta está abierta."
+        },
+        {
+          "etiqueta": "Plural o you",
+          "formula": [
+            {
+              "t": "You / We / They / varios",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Ana and Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "friends",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ana y Tom son amigos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "To be en presente, forma completa",
+          "columnas": [
+            "Sujeto",
+            "Forma",
+            "Ejemplo",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "I",
+              "am",
+              "I am ready.",
+              "Estoy listo / lista."
+            ],
+            [
+              "you (una persona)",
+              "are",
+              "You are early.",
+              "Llegaste temprano. (lit. «estás temprano»)"
+            ],
+            [
+              "he",
+              "is",
+              "He is a pilot.",
+              "Es piloto."
+            ],
+            [
+              "she",
+              "is",
+              "She is at home.",
+              "Está en casa."
+            ],
+            [
+              "it",
+              "is",
+              "It is expensive.",
+              "Es caro."
+            ],
+            [
+              "we",
+              "are",
+              "We are neighbors.",
+              "Somos vecinos."
+            ],
+            [
+              "you (varias personas)",
+              "are",
+              "You are a great team.",
+              "Son un gran equipo."
+            ],
+            [
+              "they",
+              "are",
+              "They are in the car.",
+              "Están en el carro."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Qué forma de be necesita cada sujeto?",
+        "centro": "to be",
+        "ramas": [
+          {
+            "texto": "am",
+            "detalle": "solo I"
+          },
+          {
+            "texto": "is",
+            "detalle": "he, she, it, Ana, the car (una sola persona o cosa)"
+          },
+          {
+            "texto": "are",
+            "detalle": "you (una o varias personas), we, they, Ana and Tom, the cars"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "I am in the kitchen.",
+          "es": "Estoy en la cocina.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the kitchen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[am]] es exclusiva de [[I]]: ningún otro sujeto la usa."
+        },
+        {
+          "en": "You are very kind.",
+          "es": "Eres muy amable. / Es usted muy amable. / Son muy amables.",
+          "situacion": "Le das las gracias a alguien (o a un grupo).",
+          "partes": [
+            {
+              "t": "You",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "very kind",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La misma oración sirve para tú, usted y ustedes. Solo el contexto dice a cuántas personas hablas; el verbo siempre es [[are]]."
+        },
+        {
+          "en": "It is a good idea.",
+          "es": "Es una buena idea.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a good idea",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En español basta «es»; en inglés hace falta un sujeto, y para cosas e ideas ese sujeto es [[it]]."
+        },
+        {
+          "en": "My brother and I are at the park.",
+          "es": "Mi hermano y yo estamos en el parque.",
+          "partes": [
+            {
+              "t": "My brother and I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the park",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque la oración termine en [[I]], el sujeto completo son dos personas (= we), así que el verbo es [[are]], no [[am]]."
+        },
+        {
+          "en": "The keys are on the table.",
+          "es": "Las llaves están en la mesa.",
+          "partes": [
+            {
+              "t": "The keys",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the table",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Varias cosas = plural = [[are]]. La -s de keys te avisa de que el sujeto es plural."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "am",
+          "ipa": "/æm/",
+          "consejo": "La vocal /æ/ no existe en español: abre la boca como para decir «a», pero estira los labios hacia los lados como para «e». Queda una a «aplanada». En el habla rápida se reduce a /əm/ y casi desaparece.",
+          "lento": true
+        },
+        {
+          "texto": "is",
+          "ipa": "/ɪz/",
+          "consejo": "Una i corta y relajada (a medio camino entre la «i» y la «e» españolas) y una /z/ que zumba: pon la lengua como para «s» y haz vibrar la garganta, como una abeja. No la pronuncies «is» con s sorda."
+        },
+        {
+          "texto": "are",
+          "ipa": "/ɑːr/",
+          "consejo": "Una «a» abierta y larga, con la boca bien abierta, seguida de la r inglesa: la punta de la lengua se curva hacia atrás sin tocar el paladar. No vibra como la r española. En inglés británico la r final no se pronuncia: /ɑː/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "You is my friend.",
+          "bien": "You are my friend.",
+          "porque": "[[you]] va siempre con [[are]], también cuando hablas con una sola persona. No importa que en español sea «tú eres»."
+        },
+        {
+          "mal": "Tom and Ana is here.",
+          "bien": "Tom and Ana are here.",
+          "porque": "Dos personas unidas con [[and]] forman un sujeto plural. Plural = [[are]]."
+        },
+        {
+          "mal": "I is ready.",
+          "bien": "I am ready.",
+          "porque": "[[I]] tiene su propia forma, [[am]]. Nunca va con is ni con are."
+        }
+      ]
+    },
+    {
+      "id": "sujeto-obligatorio",
+      "titulo": "Sin sujeto no hay oración",
+      "que_es": "En español el verbo ya dice quién hace la acción («soy», «es», «somos»), así que el sujeto se omite todo el tiempo. En inglés [[am]], [[is]] y [[are]] no bastan: **el sujeto se dice siempre**, aunque sea obvio.",
+      "para_que": [
+        "Evitar el error más frecuente de los hispanohablantes: «Is very nice», «Are at home».",
+        "Hablar de cosas, del tiempo o de la hora, donde el español no tiene sujeto y el inglés usa [[it]]."
+      ],
+      "como_funciona": "Antes de escribir am, is o are, comprueba que hay algo delante que responda a «¿quién?» o «¿qué?». Si en español no hay sujeto porque es una persona que ya se mencionó, usa el pronombre correspondiente ([[he]], [[she]], [[they]]…). Si es una cosa, un lugar o una situación, usa [[it]] (singular) o [[they]] (plural). Recuerda que [[they]] sirve para personas y también para cosas.",
+      "estructuras": [
+        {
+          "etiqueta": "Español sin sujeto → inglés con pronombre",
+          "formula": [
+            {
+              "t": "Pronombre obligatorio",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very expensive",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Es muy caro."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "This is Sam. He is my neighbor.",
+          "es": "Este es Sam. Es mi vecino.",
+          "situacion": "Presentas a alguien y añades un dato.",
+          "nota": "En la segunda oración el español no repite el sujeto; el inglés sí: [[He is]]."
+        },
+        {
+          "en": "The shoes are nice, but they are small.",
+          "es": "Los zapatos son bonitos, pero son chicos.",
+          "nota": "Para cosas en plural el pronombre es [[they]]. «Pero son chicos» → [[but they are small]]: lo natural es repetir el sujeto con un pronombre."
+        },
+        {
+          "en": "It is late.",
+          "es": "Es tarde.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para la hora, el tiempo o una situación general, el sujeto es [[it]], aunque no se refiera a nada concreto."
+        },
+        {
+          "en": "We are ready.",
+          "es": "Estamos listos.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "ready",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "It is",
+          "ipa": "/ɪt ɪz/",
+          "consejo": "Las dos palabras se encadenan: la /t/ de it se engancha con la vocal de is y suena casi «i-tiz». Ambas vocales son la i corta y relajada /ɪ/, no la «i» tensa española."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Is very expensive.",
+          "bien": "It is very expensive.",
+          "porque": "Falta el sujeto. Para una cosa se usa [[it]]; en inglés una oración sin sujeto (salvo las órdenes) es incorrecta."
+        },
+        {
+          "mal": "My parents are teachers. Are very patient.",
+          "bien": "My parents are teachers. They are very patient.",
+          "porque": "Aunque ya sepamos de quién hablamos, hay que repetir el sujeto con un pronombre: [[they]]. Además, sin sujeto la oración parecería una pregunta (lo verás en la unidad siguiente)."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Y las órdenes?",
+        "texto": "La única oración normal sin sujeto es la orden: [[Be quiet!]] («¡Guarda silencio!»), [[Be careful!]] («¡Ten cuidado!»). Ahí sí aparece [[be]] solo, porque es un imperativo. Fuera de las órdenes, siempre sujeto + am / is / are.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "verbo-to-be.am-is-are.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta de be.",
+      "pregunta": "They ___ my classmates.",
+      "opciones": [
+        {
+          "texto": "am",
+          "correcta": false,
+          "porque": "[[am]] solo va con [[I]]. El sujeto aquí es [[they]]."
+        },
+        {
+          "texto": "is",
+          "correcta": false,
+          "porque": "[[is]] es para una sola persona o cosa (he, she, it). [[They]] son varias personas."
+        },
+        {
+          "texto": "are",
+          "correcta": true,
+          "porque": "Correcto: [[they]] es plural y el plural va con [[are]]."
+        }
+      ],
+      "pistas": [
+        "Be tiene tres formas y cada una depende del sujeto.",
+        "Mira la primera palabra: they. ¿Es una persona o varias?",
+        "am → solo I; is → una persona o cosa; are → you y cualquier plural."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "La respuesta correcta es are porque el sujeto, they, es plural (varias personas). Am es exclusiva de I e is es para un sujeto singular."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.am-is-are.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con am, is o are.",
+      "frase": "Priya ___ a doctor.",
+      "traduccion": "Priya es doctora.",
+      "banco": [
+        "am",
+        "is",
+        "are"
+      ],
+      "respuestas": [
+        [
+          "is"
+        ]
+      ],
+      "errores_tipicos": {
+        "are": "[[are]] es para you y para sujetos plurales. Priya es una sola persona.",
+        "am": "[[am]] solo acompaña a [[I]]."
+      },
+      "pistas": [
+        "Recuerda: la forma de be depende del sujeto.",
+        "El sujeto es un nombre: Priya. ¿A qué pronombre equivale: she, we o they?",
+        "Una sola persona que no es I ni you (he, she, un nombre) va con is."
+      ],
+      "solucion": {
+        "respuesta": "is",
+        "explicacion": "La respuesta correcta es is porque Priya es una sola persona y equivale a she; she, he, it y cualquier nombre en singular llevan is."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.am-is-are.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración en español con su traducción. Observa que ser y estar se traducen con el mismo verbo.",
+      "pares": [
+        {
+          "a": "Estoy cansado.",
+          "b": "I am tired."
+        },
+        {
+          "a": "Ella es enfermera.",
+          "b": "She is a nurse."
+        },
+        {
+          "a": "Estamos en casa.",
+          "b": "We are at home."
+        },
+        {
+          "a": "Son estudiantes.",
+          "b": "They are students."
+        },
+        {
+          "a": "El café está frío.",
+          "b": "The coffee is cold."
+        },
+        {
+          "a": "Eres muy amable.",
+          "b": "You are very kind."
+        }
+      ],
+      "pistas": [
+        "Ser y estar se traducen los dos con be.",
+        "Primero busca el sujeto en español (a veces está escondido en el verbo: «estamos» = nosotros).",
+        "Yo → I am; tú → you are; él/ella/una cosa → is; nosotros → we are; ellos → they are."
+      ],
+      "solucion": {
+        "respuesta": "Estoy cansado → I am tired · Ella es enfermera → She is a nurse · Estamos en casa → We are at home · Son estudiantes → They are students · El café está frío → The coffee is cold · Eres muy amable → You are very kind",
+        "explicacion": "Cada pareja se reconoce por el sujeto: «estoy» es yo (I am), «estamos» es nosotros (we are), «son» es ellos (they are), «eres» es tú (you are). Fíjate en que «es enfermera» y «está frío» usan el mismo is: el inglés no distingue ser y estar."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la presentación con am, is o are.",
+      "frase": "Hi, I ___ Diego. This ___ my friend Omar. We ___ from Monterrey.",
+      "traduccion": "Hola, soy Diego. Este es mi amigo Omar. Somos de Monterrey.",
+      "respuestas": [
+        [
+          "am"
+        ],
+        [
+          "is"
+        ],
+        [
+          "are"
+        ]
+      ],
+      "errores_tipicos": {
+        "am | is | is": "El tercer hueco lleva [[are]]: el sujeto es [[we]] (Omar y yo), que es plural."
+      },
+      "pistas": [
+        "Hay tres sujetos distintos: busca la palabra que va justo antes de cada hueco.",
+        "Los sujetos son I, this (una persona que presentas) y we.",
+        "Regla: am solo con I; is con una sola persona o cosa (también this); are con we, you y los plurales."
+      ],
+      "solucion": {
+        "respuesta": "am … is … are",
+        "explicacion": "I am porque am es exclusiva de I; this is porque this señala a una sola persona (Omar); we are porque we es plural."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.am-is-are.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "tired",
+        "are",
+        "students",
+        "The"
+      ],
+      "respuestas": [
+        "The students are tired"
+      ],
+      "traduccion": "Los estudiantes están cansados.",
+      "pistas": [
+        "Una oración afirmativa con be sigue siempre el mismo orden.",
+        "Empieza por el sujeto: ¿quién está cansado?",
+        "Estructura: sujeto + be + descripción."
+      ],
+      "solucion": {
+        "respuesta": "The students are tired.",
+        "explicacion": "El orden es sujeto + be + complemento: The students (sujeto plural) + are + tired. El adjetivo va después de be, como en español «están cansados»."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración cambiando el sujeto por el que se indica. Ajusta el verbo.",
+      "origen": "I am a student.",
+      "instruccion": "Sujeto: Carlos",
+      "respuestas": [
+        "Carlos is a student."
+      ],
+      "errores_tipicos": {
+        "Carlos am a student.": "[[am]] solo va con [[I]]. Si el sujeto cambia a Carlos (una persona, = he), el verbo cambia a [[is]].",
+        "Carlos are a student.": "[[are]] es para you y el plural. Carlos es una sola persona: [[is]]."
+      },
+      "pistas": [
+        "Al cambiar el sujeto, la forma de be también puede cambiar.",
+        "Carlos es una sola persona; piensa qué pronombre lo sustituye.",
+        "Regla: un nombre de una sola persona lleva la misma forma de be que he o she. El resto de la oración no cambia."
+      ],
+      "solucion": {
+        "respuesta": "Carlos is a student.",
+        "explicacion": "La respuesta correcta es Carlos is a student porque Carlos equivale a he, tercera persona del singular, que usa is. A student se queda igual: sigue siendo una sola persona."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la oración. Señala la palabra incorrecta y escribe la correcta.",
+      "frase": "My sister and I is at the supermarket.",
+      "error": "is",
+      "correcciones": [
+        "are"
+      ],
+      "frase_correcta": "My sister and I are at the supermarket.",
+      "pistas": [
+        "Mira bien quién es el sujeto: ¿cuántas personas hay?",
+        "El sujeto no es solo I: es My sister and I.",
+        "Dos personas unidas con and forman un sujeto plural (= we), y el plural va con are."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "La palabra incorrecta es is: el sujeto My sister and I son dos personas, equivale a we, y por eso el verbo es are. Tampoco valdría am: am solo va cuando el sujeto es I y nada más."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Lucía habla de su abuela. Falta algo en la oración: señala la palabra donde está el problema y escríbela correctamente (con lo que falta).",
+      "frase": "My grandmother is 80. Is very active.",
+      "error": "Is",
+      "correcciones": [
+        "She is",
+        "She's"
+      ],
+      "frase_correcta": "My grandmother is 80. She is very active.",
+      "pistas": [
+        "En inglés hay algo que nunca se omite en una oración.",
+        "La segunda oración empieza directamente por el verbo. ¿Quién es very active?",
+        "Todo verbo necesita sujeto; si ya sabes quién es (la abuela), usa el pronombre she delante de is."
+      ],
+      "solucion": {
+        "respuesta": "She is",
+        "explicacion": "La segunda oración no tiene sujeto. En español «Es muy activa» es correcto porque el verbo ya indica la persona, pero en inglés hay que decir el sujeto: She is very active (she porque la abuela es una mujer)."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa la forma completa o contraída, como prefieras.",
+      "es": "Estamos listos.",
+      "respuestas": [
+        "We are ready."
+      ],
+      "errores_tipicos": {
+        "Are ready.": "Falta el sujeto. «Estamos» incluye «nosotros», pero en inglés hay que decirlo: [[We are]].",
+        "We is ready.": "[[we]] es plural: va con [[are]], no con is.",
+        "We ready.": "Falta el verbo be entre el sujeto y el adjetivo: [[We are ready]]."
+      },
+      "pistas": [
+        "«Estar» se traduce con be, igual que «ser».",
+        "¿Quién está listo? El sujeto está escondido en «estamos».",
+        "Regla: «estamos» esconde el sujeto «nosotros», que lleva la forma plural de be; «listo» = ready."
+      ],
+      "solucion": {
+        "respuesta": "We are ready.",
+        "explicacion": "«Estamos» contiene el sujeto nosotros, que en inglés hay que escribir: we. We es plural, así que el verbo es are. El adjetivo ready no cambia en plural."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "Tom and Mei are at school.",
+      "pistas": [
+        "Son seis palabras. Empieza por el sujeto: dos nombres.",
+        "Escucha la palabra que une los dos nombres y el verbo que va después.",
+        "Dos personas unidas con and forman un plural, así que el verbo que oyes es are. At school = en la escuela."
+      ],
+      "solucion": {
+        "respuesta": "Tom and Mei are at school.",
+        "explicacion": "Se dice Tom and Mei are at school: «Tom y Mei están en la escuela». Aunque cada nombre es singular, juntos forman un sujeto plural, por eso el verbo es are. En el habla rápida, and suena casi /ən/ y are casi /ər/: son palabras débiles, pero están ahí."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Pon a las personas en el mismo orden que en español.",
+      "es": "Tú y Sam son buenos amigos.",
+      "respuestas": [
+        "You and Sam are good friends."
+      ],
+      "errores_tipicos": {
+        "You and Sam is good friends.": "Tú y Sam son dos personas: el sujeto es plural y va con [[are]].",
+        "You and Sam are friends good.": "En inglés el adjetivo va antes del sustantivo: [[good friends]], no «friends good».",
+        "You and Sam are goods friends.": "Los adjetivos en inglés no tienen plural: [[good friends]], nunca «goods»."
+      },
+      "pistas": [
+        "El sujeto está formado por dos personas.",
+        "Fíjate también en el orden de «buenos amigos».",
+        "Regla: sujeto plural + forma plural de be; el adjetivo va antes del sustantivo y no cambia en plural."
+      ],
+      "solucion": {
+        "respuesta": "You and Sam are good friends.",
+        "explicacion": "You and Sam son dos personas, un sujeto plural, así que el verbo es are. Buenos amigos se dice good friends: el adjetivo va delante y no lleva -s."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.am-is-are.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta que continúa bien la conversación.",
+      "contexto": "Ben te enseña una foto de su familia y te señala a dos personas.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Look! This is my sister, and this is my brother.",
+          "es": "¡Mira! Esta es mi hermana y este es mi hermano."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "They are very tall!",
+          "correcta": true,
+          "porque": "Correcto: hablas de dos personas, así que el sujeto es [[they]] y el verbo [[are]]."
+        },
+        {
+          "texto": "Are very tall!",
+          "correcta": false,
+          "porque": "Falta el sujeto. En español «¡Son muy altos!» es correcto, pero en inglés hay que decir [[They are…]]."
+        },
+        {
+          "texto": "They is very tall!",
+          "correcta": false,
+          "porque": "[[They]] es plural y va con [[are]], nunca con is."
+        },
+        {
+          "texto": "He are very tall!",
+          "correcta": false,
+          "porque": "Mezcla un sujeto singular (he) con la forma plural (are). Además hablas de dos personas."
+        }
+      ],
+      "pistas": [
+        "Comentas algo sobre las dos personas de la foto.",
+        "Revisa dos cosas en cada opción: ¿tiene sujeto? ¿el verbo coincide con él?",
+        "Dos personas = they, y they va con are."
+      ],
+      "solucion": {
+        "respuesta": "They are very tall!",
+        "explicacion": "La respuesta es They are very tall porque hablas de la hermana y el hermano: dos personas = they, plural, con are. Las otras opciones omiten el sujeto o no concuerdan."
+      }
+    },
+    {
+      "id": "verbo-to-be.am-is-are.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Fíjate en la vocal de am y en la z de is.",
+      "texto": "I am happy. She is happy. We are happy.",
+      "ipa": "/aɪ æm ˈhæpi | ʃi ɪz ˈhæpi | wi ɑːr ˈhæpi/",
+      "consejo": "La /æ/ de am y de happy es la a «aplanada»: boca abierta y labios estirados. En is, la s suena /z/, con zumbido. En are, termina con la lengua curvada hacia atrás, sin vibrar. La h de happy es un soplo suave, como si empañaras un vidrio, no la j española.",
+      "es": "Estoy feliz. Ella está feliz. Estamos felices."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Quién es quién en la clase?",
+    "contexto": "Es tu primer día en un curso. Otra estudiante, Aisha, te pregunta por ti y por dos compañeros que ya conoces.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Hi! I am Aisha. I am from Morocco.",
+        "es": "¡Hola! Soy Aisha. Soy de Marruecos."
+      },
+      {
+        "quien": "Tú",
+        "en": "Hi, Aisha! I am …",
+        "es": "¡Hola, Aisha! Soy…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "And who are they?",
+        "es": "¿Y quiénes son ellos?"
+      }
+    ],
+    "tu_turno": "Di tu nombre y de dónde eres, y después presenta a los dos compañeros (Tom y Mei): di cómo se llaman, que son estudiantes y cómo están hoy (por ejemplo, contentos o cansados).",
+    "modelo": "Hi, Aisha! I am Laura. I am from Mexico. This is Tom and this is Mei. They are students. Tom is happy today, and Mei is a little tired.",
+    "alternativas": [
+      "I am Luis. I am from Puebla. They are Tom and Mei. They are students too. They are very nice.",
+      "My name is Sofía and I am from Mexico. Tom and Mei are my classmates. They are happy today."
+    ],
+    "claves": [
+      "I am + tu nombre / from + tu ciudad o país.",
+      "This is + nombre para presentar a una persona.",
+      "They are para los dos juntos; Tom is / Mei is para cada uno.",
+      "No omitas el sujeto en ninguna oración."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "To be significa ser y estar a la vez: una sola palabra para identidad, descripción, estado y lugar.",
+      "I → am; he, she, it y una persona o cosa → is; you, we, they y cualquier plural → are.",
+      "You siempre va con are, sea una persona o varias.",
+      "Dos sujetos unidos con and forman un plural: Ana and Tom are…",
+      "El sujeto nunca se omite: It is late, She is very active."
+    ],
+    "recuerda": [
+      "No existe «I be» ni «she be» en presente: be solo aparece así en órdenes (Be careful!).",
+      "Para cosas, ideas, la hora o el tiempo, el sujeto es it."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "verbo-to-be.am-is-are.r1",
+      "frente": "¿Qué forma de be va con I?",
+      "reverso": "am → I am ready.",
+      "nota": "Es la única forma que va con un solo sujeto."
+    },
+    {
+      "id": "verbo-to-be.am-is-are.r2",
+      "frente": "¿Qué forma de be va con you (una persona)?",
+      "reverso": "are → You are very kind.",
+      "nota": "You va con are tanto en singular como en plural."
+    },
+    {
+      "id": "verbo-to-be.am-is-are.r3",
+      "frente": "«Mi hermano y yo estamos en el parque.»",
+      "reverso": "My brother and I are at the park.",
+      "nota": "Sujeto compuesto = plural = are."
+    },
+    {
+      "id": "verbo-to-be.am-is-are.r4",
+      "frente": "«Es muy caro.» (una cosa)",
+      "reverso": "It is very expensive.",
+      "nota": "El sujeto it es obligatorio aunque en español no aparezca."
+    },
+    {
+      "id": "verbo-to-be.am-is-are.r5",
+      "frente": "Ella es maestra / Ella está cansada: ¿cambia el verbo en inglés?",
+      "reverso": "No: She is a teacher. / She is tired.",
+      "nota": "Be cubre ser y estar."
+    }
+  ]
+}

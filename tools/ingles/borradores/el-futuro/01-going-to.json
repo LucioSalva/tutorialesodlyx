@@ -1,0 +1,1288 @@
+{
+  "slug": "going-to",
+  "titulo": "Going to: planes y predicciones con evidencia",
+  "minutos": 40,
+  "objetivos": [
+    "Formar be going to + verbo base en afirmativa, negativa, pregunta y respuesta corta (I'm going to…, She isn't going to…, Are you going to…? Yes, I am).",
+    "Hablar de planes e intenciones decididos antes de hablar: I'm going to study medicine.",
+    "Hacer predicciones basadas en lo que ves ahora: Look at those clouds! It's going to rain.",
+    "Reconocer la pronunciación relajada /ˈɡənə/ («gonna») y saber cuándo no escribirla."
+  ],
+  "situacion": {
+    "titulo": "Planes para el nuevo año",
+    "texto": "Es 31 de diciembre. Aisha y Ben hablan de lo que quieren hacer el año que viene. Todo lo que cuentan son decisiones que ya tomaron antes de la conversación, por eso usan going to. Al final, Ben mira por la ventana y hace una predicción basada en lo que ve.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "So, what are you going to do next year?",
+        "es": "Entonces, ¿qué vas a hacer el año que viene?"
+      },
+      {
+        "quien": "Aisha",
+        "en": "I'm going to learn to drive. I have my first lesson in January.",
+        "es": "Voy a aprender a manejar. Tengo mi primera clase en enero."
+      },
+      {
+        "quien": "Ben",
+        "en": "Cool! I'm going to look for a new job. I'm not going to stay at that office.",
+        "es": "¡Qué bien! Yo voy a buscar un trabajo nuevo. No me voy a quedar en esa oficina."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Are you going to move to another city?",
+        "es": "¿Te vas a mudar a otra ciudad?"
+      },
+      {
+        "quien": "Ben",
+        "en": "Maybe. Oh, look at the sky! It's going to rain.",
+        "es": "Tal vez. ¡Ay, mira el cielo! Va a llover."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Oh no! And the fireworks are at midnight.",
+        "es": "¡Ay, no! Y los fuegos artificiales son a medianoche."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "forma-going-to",
+      "titulo": "Am / is / are + going to + verbo base",
+      "que_es": "[[Be going to]] es la forma más parecida al español «ir a + infinitivo»: [[I'm going to travel]] = «voy a viajar». Se construye con el verbo **be** (am, is, are), que ya conoces del presente continuo, más [[going to]] y el verbo en **forma base**. La negación y la pregunta funcionan exactamente como con be: no necesitan do.",
+      "para_que": [
+        "Contar tus planes: I'm going to visit my grandmother this weekend.",
+        "Preguntar por los planes de otros: What are you going to do tonight?",
+        "Decir lo que no piensas hacer: I'm not going to buy a car."
+      ],
+      "como_funciona": "**Afirmación:** {{sujeto:sujeto}} + {{auxiliar:am / is / are}} + {{otro:going to}} + {{verbo:verbo base}} → [[She's going to call you]].\n\n**Negación:** se pone not después de be: [[I'm not going to]], [[he isn't going to]], [[they aren't going to]].\n\n**Pregunta:** be va delante del sujeto: [[Are you going to…?]], [[Is he going to…?]]. Con palabra interrogativa: [[What are you going to do?]], [[Where is she going to live?]]\n\n**Respuesta corta:** solo con be, sin going to: [[Yes, I am.]] / [[No, she isn't.]] / [[Yes, they are.]]\n\n**Tres piezas obligatorias:** be + going to + verbo base. Si falta cualquiera, la oración se rompe:\n- Sin be: «I going to study» ✗ → [[I'm going to study]].\n- Sin to: «I'm going study» ✗.\n- Con el verbo cambiado: «She's going to studies», «I'm going to studying» ✗. Después de to, el verbo siempre en forma base.\n\n**El calco de «voy a»:** como en español «voy» es el verbo ir en presente, el estudiante escribe «I go to travel». En inglés hace falta la forma continua de be + going: [[I'm going to travel]].\n\n**Going to go:** con el verbo go se puede decir [[I'm going to go to the beach]], pero muchas veces se simplifica con el presente continuo: [[I'm going to the beach]]. Las dos son correctas.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "paint",
+              "rol": "verbo"
+            },
+            {
+              "t": "the kitchen.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Vamos a pintar la cocina."
+        },
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are + not",
+              "rol": "negacion"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "come",
+              "rol": "verbo"
+            },
+            {
+              "t": "tonight.",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Él no va a venir esta noche."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "(Wh-)",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "verbo base?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "cook?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Qué vas a cocinar?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Be going to con todos los sujetos",
+          "columnas": [
+            "Sujeto",
+            "Afirmación",
+            "Negación",
+            "Pregunta"
+          ],
+          "filas": [
+            [
+              "I",
+              "I'm going to rest.",
+              "I'm not going to rest.",
+              "Am I going to rest?"
+            ],
+            [
+              "you / we / they",
+              "They're going to rest.",
+              "They aren't going to rest.",
+              "Are they going to rest?"
+            ],
+            [
+              "he / she / it",
+              "She's going to rest.",
+              "She isn't going to rest.",
+              "Is she going to rest?"
+            ]
+          ],
+          "audio": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My parents are going to sell their house.",
+          "es": "Mis papás van a vender su casa.",
+          "partes": [
+            {
+              "t": "My parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "sell",
+              "rol": "verbo"
+            },
+            {
+              "t": "their house",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sujeto plural → are. Sell va en forma base, aunque el sujeto sea plural o tercera persona."
+        },
+        {
+          "en": "Is Carlos going to study tonight? — No, he isn't.",
+          "es": "¿Carlos va a estudiar esta noche? — No.",
+          "nota": "Pregunta: is delante del sujeto. Respuesta corta solo con be: No, he isn't (sin going to)."
+        },
+        {
+          "en": "I'm not going to eat sugar this month.",
+          "es": "No voy a comer azúcar este mes.",
+          "partes": [
+            {
+              "t": "I'm not",
+              "rol": "negacion"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            },
+            {
+              "t": "sugar",
+              "rol": "complemento"
+            },
+            {
+              "t": "this month",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Not va después de am. No se usa don't con going to."
+        },
+        {
+          "en": "Where are you going to stay in Chicago?",
+          "es": "¿Dónde te vas a quedar en Chicago?",
+          "partes": [
+            {
+              "t": "Where",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "stay",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Chicago",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Palabra interrogativa + are + you + going to + verbo base. Stay = quedarse, hospedarse."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Afirmación, negación y pregunta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "is",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "going to",
+                "rol": "otro"
+              },
+              {
+                "t": "buy",
+                "rol": "verbo"
+              },
+              {
+                "t": "a car.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "isn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "going to",
+                "rol": "otro"
+              },
+              {
+                "t": "buy",
+                "rol": "verbo"
+              },
+              {
+                "t": "a car.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Is",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "going to",
+                "rol": "otro"
+              },
+              {
+                "t": "buy",
+                "rol": "verbo"
+              },
+              {
+                "t": "a car?",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Todo el trabajo lo hace be, igual que en el presente continuo: not después de be para negar, be delante del sujeto para preguntar. Going to + buy no cambian nunca."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'm going to travel.",
+          "ipa": "/aɪm ˈɡoʊɪŋ tə ˈtrævəl/",
+          "consejo": "Going tiene dos sílabas: «GOU-ing», con el diptongo /oʊ/ (de «o» hacia «u»). La ng final no suena como «n + g»: es una n hecha con la parte de atrás de la lengua, como en «tengo». To se reduce a /tə/.",
+          "lento": true
+        },
+        {
+          "texto": "Are you going to…?",
+          "ipa": "/ɑr jə ˈɡoʊɪŋ tə/",
+          "consejo": "Are y you se funden y se debilitan: «ar-yə». El peso cae en going. La voz sube al final en las preguntas de sí o no."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I going to study tomorrow.",
+          "bien": "I'm going to study tomorrow.",
+          "porque": "Falta be (am). La estructura necesita las tres piezas: be + going to + verbo."
+        },
+        {
+          "mal": "I go to travel to Canada next year.",
+          "bien": "I'm going to travel to Canada next year.",
+          "porque": "Calco de «voy a viajar». En inglés es be + going to, no el presente simple de go."
+        },
+        {
+          "mal": "She's going to studies English.",
+          "bien": "She's going to study English.",
+          "porque": "Después de to el verbo va en forma base, sin -s."
+        },
+        {
+          "mal": "Do you going to come?",
+          "bien": "Are you going to come?",
+          "porque": "Going to pregunta con be, no con do."
+        }
+      ]
+    },
+    {
+      "id": "planes-e-intenciones",
+      "titulo": "Planes e intenciones: ya lo decidí",
+      "que_es": "El uso principal de [[going to]] es hablar de **intenciones y planes que ya decidiste antes del momento en que hablas**. Cuando dices [[I'm going to paint my room]], la decisión ya está tomada: quizá aún no compraste la pintura, pero la idea existe desde antes.",
+      "para_que": [
+        "Propósitos y metas: I'm going to exercise more.",
+        "Planes para el fin de semana, las vacaciones o el año: We're going to visit Oaxaca in July.",
+        "Explicar por qué haces algo ahora: I bought flour because I'm going to make bread."
+      ],
+      "como_funciona": "**La clave es el momento de la decisión:** con going to, la decisión es **anterior** a la conversación. Por eso es la respuesta natural a preguntas como [[What are you going to do this weekend?]]\n\n**Expresiones de tiempo futuro frecuentes:** [[tomorrow]], [[tonight]], [[this weekend]], [[next week / month / year]] (sin the: «the next week» significa otra cosa), [[on Saturday]], [[in July]], [[in two years]] (dentro de dos años), [[soon]] (pronto), [[later]] (más tarde).\n\n**Intención no es lo mismo que cita:** going to expresa lo que tú piensas hacer. Si ya hay una hora acordada con otra persona (una cita, una reunión, un boleto comprado), el inglés prefiere a menudo el presente continuo que viste en la unidad «simple o continuo»: [[I'm meeting Ana at six]]. Lo verás con detalle en la última lección de esta unidad.\n\n**Intenciones en el pasado:** [[I was going to call you, but I forgot]] = «iba a llamarte, pero se me olvidó». Es el mismo esquema con was/were.",
+      "estructuras": [
+        {
+          "etiqueta": "Plan + tiempo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "expresión de futuro",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "start",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new course",
+              "rol": "complemento"
+            },
+            {
+              "t": "next month.",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Voy a empezar un curso nuevo el mes que viene."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "We're going to visit Oaxaca in July.",
+          "es": "Vamos a visitar Oaxaca en julio.",
+          "partes": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "visit",
+              "rol": "verbo"
+            },
+            {
+              "t": "Oaxaca",
+              "rol": "complemento"
+            },
+            {
+              "t": "in July",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Un plan de vacaciones ya decidido. In + mes."
+        },
+        {
+          "en": "I bought some paint because I'm going to paint my bedroom.",
+          "es": "Compré pintura porque voy a pintar mi recámara.",
+          "partes": [
+            {
+              "t": "I bought some paint",
+              "rol": "otro"
+            },
+            {
+              "t": "because",
+              "rol": "otro"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "paint",
+              "rol": "verbo"
+            },
+            {
+              "t": "my bedroom",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Compraste la pintura porque la decisión ya existía: por eso going to."
+        },
+        {
+          "en": "What are you going to do this weekend?",
+          "es": "¿Qué vas a hacer este fin de semana?",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "do",
+              "rol": "verbo"
+            },
+            {
+              "t": "this weekend",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "La pregunta más común para hablar de planes. Do aquí es el verbo «hacer», no un auxiliar."
+        },
+        {
+          "en": "I was going to call you, but I forgot.",
+          "es": "Te iba a llamar, pero se me olvidó.",
+          "nota": "Was going to = iba a: una intención del pasado que no se cumplió."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Going to: la decisión ya existe",
+        "marcas": [
+          {
+            "pos": 0.2,
+            "texto": "Decides: «voy a pintar mi cuarto»",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.5,
+            "texto": "Ahora: I'm going to paint my room.",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.8,
+            "texto": "Pintas el cuarto",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.5,
+        "pie": "Cuando hablas, la decisión ya es parte del pasado. Going to conecta esa intención con la acción futura."
+      },
+      "pronunciacion": [
+        {
+          "texto": "next weekend",
+          "ipa": "/ˈnɛkst ˈwikɛnd/",
+          "consejo": "Next termina en tres consonantes /kst/; en habla rápida la t casi desaparece antes de otra consonante: «neks WI-kend». No añadas una «e» al final."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I'm going to visit my aunt the next week.",
+          "bien": "I'm going to visit my aunt next week.",
+          "porque": "Next week, next month, next year van sin the."
+        },
+        {
+          "mal": "We're going to go to the beach in two weeks ago.",
+          "bien": "We're going to go to the beach in two weeks.",
+          "porque": "Ago es para el pasado. «Dentro de dos semanas» = in two weeks."
+        },
+        {
+          "mal": "I'm going to to visit Rome.",
+          "bien": "I'm going to visit Rome.",
+          "porque": "Solo hay un to en la estructura: going to + verbo base."
+        }
+      ]
+    },
+    {
+      "id": "prediccion-con-evidencia",
+      "titulo": "Look! It's going to rain: predicciones con evidencia",
+      "que_es": "[[Going to]] también sirve para **predecir** algo cuando **ves una señal ahora** que lo anuncia: nubes negras, un vaso al borde de la mesa, una persona corriendo hacia el autobús. No es una opinión: es lo que tus ojos te dicen que va a pasar muy pronto.",
+      "para_que": [
+        "Advertir de un peligro inmediato: Careful! You're going to fall!",
+        "Comentar lo que ves: Look at the traffic. We're going to be late.",
+        "Dar noticias con evidencia: She's going to have a baby."
+      ],
+      "como_funciona": "**Evidencia presente → resultado futuro.** La señal suele aparecer en la misma frase o justo antes: [[Look at those clouds!]], [[Look at the time!]], [[Be careful!]], [[Hurry up!]]\n- [[It's 8:55 and the class starts at nine. We're going to be late!]]\n- [[That glass is on the edge of the table. It's going to fall.]]\n\n**Con will también se predice,** pero will se basa en tu **opinión** o experiencia ([[I think it will rain tomorrow]]), mientras que going to se basa en algo que **ves** ahora. Muchas veces las dos son posibles; la diferencia es de matiz, no de corrección.\n\n**Pronunciación relajada: «gonna».** En habla rápida e informal, going to (solo cuando va seguido de un verbo) se reduce a /ˈɡənə/: [[I'm going to eat]] suena «aim GA-nə it». Lo oirás en todas partes y es importante reconocerlo. Se escribe «gonna» en mensajes informales, pero **nunca** en un texto formal, un correo de trabajo o un examen: ahí escribe siempre going to. Y no se reduce cuando going significa «ir»: [[I'm going to the park]] no se dice «I'm gonna the park».",
+      "estructuras": [
+        {
+          "etiqueta": "Señal + predicción",
+          "formula": [
+            {
+              "t": "Señal (Look! / Be careful!)",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Look at those clouds!",
+              "rol": "otro"
+            },
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "rain.",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¡Mira esas nubes! Va a llover."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Careful! You're going to drop the plates!",
+          "es": "¡Cuidado! ¡Se te van a caer los platos!",
+          "partes": [
+            {
+              "t": "Careful!",
+              "rol": "otro"
+            },
+            {
+              "t": "You're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "drop",
+              "rol": "verbo"
+            },
+            {
+              "t": "the plates",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ves a alguien con demasiados platos: la evidencia está delante. Drop = dejar caer."
+        },
+        {
+          "en": "Look at the traffic. We're going to miss the flight.",
+          "es": "Mira el tráfico. Vamos a perder el vuelo.",
+          "partes": [
+            {
+              "t": "Look at the traffic.",
+              "rol": "otro"
+            },
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "miss",
+              "rol": "verbo"
+            },
+            {
+              "t": "the flight",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Miss = perder un transporte o una cita (no lose)."
+        },
+        {
+          "en": "My sister is going to have a baby in May.",
+          "es": "Mi hermana va a tener un bebé en mayo.",
+          "partes": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a baby",
+              "rol": "complemento"
+            },
+            {
+              "t": "in May",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "El embarazo ya es una realidad presente: going to es la forma natural."
+        },
+        {
+          "en": "I'm so hungry. I'm going to eat everything!",
+          "es": "Tengo muchísima hambre. ¡Me voy a comer todo!",
+          "nota": "En la conversación real sonará «I'm gonna eat everything» /aɪm ˈɡənə/."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "It's going to rain.",
+          "ipa": "/ɪts ˈɡənə ˈreɪn/",
+          "consejo": "Versión relajada: going to se funde en /ˈɡənə/, dos sílabas cortas con una vocal débil. Es como se habla, pero al escribir con formalidad pon going to."
+        },
+        {
+          "texto": "gonna",
+          "ipa": "/ˈɡənə/",
+          "consejo": "La primera vocal es corta y neutra, casi una «a» murmurada; la segunda es aún más débil. No digas «gona» con o española. Recuerda: solo cuando va seguido de un verbo."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Dear Mr. Smith, I'm gonna send you the report tomorrow.",
+          "bien": "Dear Mr. Smith, I'm going to send you the report tomorrow.",
+          "porque": "Gonna es solo para habla y mensajes informales. En un correo formal se escribe going to."
+        },
+        {
+          "mal": "I'm gonna the supermarket.",
+          "bien": "I'm going to the supermarket.",
+          "porque": "Gonna solo sustituye a going to + verbo. Si going significa «ir» a un lugar, no se reduce."
+        },
+        {
+          "mal": "Look at the sky! It going to rain.",
+          "bien": "Look at the sky! It's going to rain.",
+          "porque": "Falta be: it is going to → it's going to."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "el-futuro.going-to.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "My brother ___ study engineering next year.",
+      "opciones": [
+        {
+          "texto": "is going to",
+          "correcta": true,
+          "porque": "Correcto: sujeto de tercera persona (my brother) + is + going to + verbo base."
+        },
+        {
+          "texto": "are going to",
+          "correcta": false,
+          "porque": "Are es para you, we y they. Con my brother (he) se usa is."
+        },
+        {
+          "texto": "going to",
+          "correcta": false,
+          "porque": "Falta be: la estructura necesita is going to."
+        },
+        {
+          "texto": "goes to",
+          "correcta": false,
+          "porque": "Calco de «va a estudiar»: el presente simple de go no expresa este futuro."
+        }
+      ],
+      "pistas": [
+        "Es un plan: be going to.",
+        "My brother = he. ¿Qué forma de be le corresponde?",
+        "he / she / it → is going to + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "is going to",
+        "explicacion": "My brother es tercera persona del singular, así que be es is: is going to study. Sin be la estructura no funciona, y goes to es un calco de «va a»."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de be (am, is, are).",
+      "frase": "We ___ going to paint the house in April.",
+      "respuestas": [
+        [
+          "are"
+        ]
+      ],
+      "traduccion": "Vamos a pintar la casa en abril.",
+      "pistas": [
+        "El sujeto es we.",
+        "Necesitas la forma de be que va con we.",
+        "Recuerda: I → am; he / she / it → is; we / you / they → la tercera forma de be."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "Con we la forma de be es are: We are (We're) going to paint the house."
+      },
+      "errores_tipicos": {
+        "is": "Is es para he, she, it. Con we: are.",
+        "am": "Am solo va con I. Con we: are."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada evidencia con su predicción.",
+      "pares": [
+        {
+          "a": "Look at those black clouds!",
+          "b": "It's going to rain."
+        },
+        {
+          "a": "It's 8:58 and class starts at 9.",
+          "b": "We're going to be late."
+        },
+        {
+          "a": "Be careful with that ladder!",
+          "b": "You're going to fall."
+        },
+        {
+          "a": "The baby is very tired.",
+          "b": "He's going to fall asleep."
+        },
+        {
+          "a": "Our team is winning 4–0 in the last minute.",
+          "b": "We're going to win the game."
+        }
+      ],
+      "pistas": [
+        "Cada oración de la izquierda es una señal que ves ahora.",
+        "Piensa qué resultado es el más lógico para cada señal.",
+        "Evidencia presente → be going to + resultado."
+      ],
+      "solucion": {
+        "respuesta": "nubes → rain; 8:58 → late; escalera → fall; bebé cansado → fall asleep; 4–0 → win.",
+        "explicacion": "En todos los casos la predicción nace de una evidencia que se ve ahora, por eso se usa going to: nubes → lluvia, la hora → tarde, la escalera → caída, el cansancio → dormirse, el marcador → ganar."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Primero la versión cuidada; después intenta la relajada.",
+      "texto": "What are you going to do this weekend?",
+      "ipa": "/ˈwʌt ɑr jə ˈɡoʊɪŋ tə ˈdu ðɪs ˈwikɛnd/ · relajada: /ˈwʌɾər jə ˈɡənə ˈdu/",
+      "consejo": "Versión cuidada: GOU-ing tə. Versión relajada: what are se une con una r suave (/ˈwʌɾər/) y going to se reduce a /ˈɡənə/. Aprende a reconocer las dos; al escribir, usa siempre going to.",
+      "es": "¿Qué vas a hacer este fin de semana?"
+    },
+    {
+      "id": "el-futuro.going-to.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa.",
+      "origen": "She's going to buy a new car.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "She isn't going to buy a new car.",
+        "She's not going to buy a new car."
+      ],
+      "pistas": [
+        "La negación va con be, no con do.",
+        "Pon not después de is.",
+        "be + not (o su contracción) + going to + verbo base, sin do."
+      ],
+      "solucion": {
+        "respuesta": "She isn't going to buy a new car.",
+        "explicacion": "Con going to la negación se hace con be: is not (isn't / 's not). No se usa doesn't, y el verbo buy no cambia."
+      },
+      "errores_tipicos": {
+        "She doesn't going to buy a new car.": "Going to se niega con be, no con does: She isn't going to…",
+        "She don't going to buy a new car.": "Going to se niega con be: She isn't going to…"
+      }
+    },
+    {
+      "id": "el-futuro.going-to.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la pregunta.",
+      "fichas": [
+        "are",
+        "What",
+        "you",
+        "to",
+        "going",
+        "cook",
+        "tonight"
+      ],
+      "respuestas": [
+        "What are you going to cook tonight"
+      ],
+      "traduccion": "¿Qué vas a cocinar esta noche?",
+      "pistas": [
+        "Empieza con la palabra interrogativa.",
+        "Después, be delante del sujeto.",
+        "Palabra interrogativa + be + sujeto + going to + verbo base + tiempo, como en Where is she going to live?"
+      ],
+      "solucion": {
+        "respuesta": "What are you going to cook tonight?",
+        "explicacion": "Pregunta con going to: palabra interrogativa + be + sujeto + going to + verbo base. Tonight al final."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Next summer I go to travel to Peru with my friends.",
+      "error": "go",
+      "correcciones": [
+        "am going"
+      ],
+      "frase_correcta": "Next summer I'm going to travel to Peru with my friends.",
+      "pistas": [
+        "Es un plan para el verano que viene.",
+        "«Voy a viajar» no se traduce con el presente simple de go.",
+        "Plan = be + going to + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "go → am going",
+        "explicacion": "«Voy a viajar» es un plan: I am (I'm) going to travel. «I go to travel» es un calco del español; el presente simple de go no expresa este futuro."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Atención: la voz dice going to de forma relajada, pero escríbelo completo.",
+      "texto": "I'm going to look for a new job.",
+      "respuestas": [
+        "I am going to look for a new job."
+      ],
+      "pistas": [
+        "Es un plan personal.",
+        "Oyes «gonna»: escríbelo como going to. Look for = buscar.",
+        "Sujeto + be contraído + going to + verbo de dos palabras («buscar») + a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "I'm going to look for a new job.",
+        "explicacion": "En habla rápida going to suena /ˈɡənə/, pero se escribe going to. Look for = buscar. Es una intención ya decidida."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa going to.",
+      "es": "No voy a salir esta noche. Estoy cansado.",
+      "respuestas": [
+        "I'm not going to go out tonight. I'm tired.",
+        "I'm not going out tonight. I'm tired."
+      ],
+      "pistas": [
+        "Es una intención negativa.",
+        "«Salir» = go out. La negación va con be.",
+        "Sujeto + be + not + going to + verbo de dos palabras («salir») + tiempo; después, sujeto + be + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "I'm not going to go out tonight. I'm tired.",
+        "explicacion": "Negación con be: I'm not going to + go out (salir). Going to go es correcto; también puedes simplificarlo con el presente continuo: I'm not going out tonight. Cansado = be tired."
+      },
+      "errores_tipicos": {
+        "I don't going to go out tonight. I'm tired.": "Going to se niega con be: I'm not going to…",
+        "I'm not going to go out tonight. I have tired.": "Cansado se expresa con be: I'm tired.",
+        "I no going to go out tonight. I'm tired.": "Falta be y la negación es not: I'm not going to…"
+      }
+    },
+    {
+      "id": "el-futuro.going-to.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Tu compañera te pregunta por tus planes.",
+      "lineas": [
+        {
+          "quien": "Mei",
+          "en": "Are you going to take the English exam in June?",
+          "es": "¿Vas a presentar el examen de inglés en junio?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, I am. I'm going to study every day.",
+          "correcta": true,
+          "porque": "Correcto: la respuesta corta usa solo be (Yes, I am) y añades otro plan con going to."
+        },
+        {
+          "texto": "Yes, I'm going.",
+          "correcta": false,
+          "porque": "La respuesta corta es solo con be: Yes, I am. «I'm going» significa «voy (a un lugar)»."
+        },
+        {
+          "texto": "Yes, I do. I'm going to study every day.",
+          "correcta": false,
+          "porque": "La pregunta se hizo con are, así que la respuesta corta es con be: Yes, I am."
+        },
+        {
+          "texto": "Yes, I'm. I'm going to study every day.",
+          "correcta": false,
+          "porque": "En una respuesta corta afirmativa no se contrae: Yes, I am."
+        }
+      ],
+      "pistas": [
+        "La pregunta empieza con are.",
+        "La respuesta corta repite el mismo auxiliar.",
+        "Respuesta corta: Yes + sujeto + el mismo auxiliar de la pregunta, sin contraer y sin going to."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I am. I'm going to study every day.",
+        "explicacion": "A una pregunta con Are you going to…? se contesta con be: Yes, I am / No, I'm not. En la respuesta corta afirmativa no se usa la contracción I'm."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Es una predicción con evidencia.",
+      "es": "¡Mira el cielo! Va a llover.",
+      "respuestas": [
+        "Look at the sky! It's going to rain."
+      ],
+      "pistas": [
+        "«Mira» es un imperativo; el verbo es look at.",
+        "Llover no tiene sujeto en español, pero en inglés sí: it.",
+        "Imperativo look at + lo que ves + ! + it + be contraído + going to + verbo del clima."
+      ],
+      "solucion": {
+        "respuesta": "Look at the sky! It's going to rain.",
+        "explicacion": "Look at + algo es el imperativo para señalar la evidencia. La predicción usa going to porque se basa en lo que ves. El sujeto it es obligatorio con el clima."
+      },
+      "errores_tipicos": {
+        "Look at the sky! Is going to rain.": "En inglés el sujeto es obligatorio: It's going to rain.",
+        "Look the sky! It's going to rain.": "Look necesita at delante de lo que miras: look at the sky.",
+        "Look at the sky! It going to rain.": "Falta be: It's (It is) going to rain."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.12",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con be going to y el verbo entre paréntesis. Usa formas contraídas o completas.",
+      "frase": "Oh no, look at the time! We ___ (miss) the train. Hurry up!",
+      "respuestas": [
+        [
+          "are going to miss",
+          "'re going to miss"
+        ]
+      ],
+      "traduccion": "¡Ay, no, mira la hora! Vamos a perder el tren. ¡Apúrate!",
+      "pistas": [
+        "La hora es la evidencia: es una predicción.",
+        "El sujeto es we.",
+        "La forma plural de be + going to + verbo base (sin -s)."
+      ],
+      "solucion": {
+        "respuesta": "are going to miss",
+        "explicacion": "Ves la hora y predices el resultado: going to. Con we, be es are: We're going to miss the train. Miss = perder un transporte."
+      },
+      "errores_tipicos": {
+        "going to miss": "Falta be: we are going to miss.",
+        "are going to lose": "Para trenes, vuelos o autobuses se usa miss, no lose.",
+        "are going to misses": "Después de to el verbo va en forma base: miss."
+      }
+    },
+    {
+      "id": "el-futuro.going-to.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe tus planes para el año que viene.",
+      "objetivo": "Hablar de planes e intenciones con be going to en afirmativa y negativa.",
+      "instrucciones": "Escribe un párrafo (40–70 palabras) sobre lo que vas a hacer el año que viene. Incluye al menos cuatro planes con going to, uno de ellos en negativa, y al menos dos expresiones de tiempo (next month, in July, this summer…).",
+      "vocabulario_apoyo": [
+        "learn to…",
+        "start a course",
+        "save money",
+        "travel to…",
+        "move to…",
+        "look for a job",
+        "visit…",
+        "next year",
+        "in March",
+        "this summer",
+        "stop eating / drinking…"
+      ],
+      "estructuras": [
+        "I'm going to…",
+        "I'm not going to…",
+        "My family and I are going to…"
+      ],
+      "ejemplo": "My sister has big plans. She's going to finish university in May, and she's going to look for a job in Monterrey. She isn't going to live with our parents anymore.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas going to",
+          "patron": "\\bgoing to \\w+"
+        },
+        {
+          "descripcion": "Usas una negación con going to",
+          "patron": "\\b(not|n't) going to\\b"
+        },
+        {
+          "descripcion": "Usas una expresión de tiempo futuro",
+          "patron": "\\b(next (week|month|year|summer)|this (summer|weekend|year)|in (january|february|march|april|may|june|july|august|september|october|november|december))\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada going to tiene be delante (I'm, we're, she's)?",
+        "¿El verbo después de to está en forma base?",
+        "¿Usaste next week / next year sin the?",
+        "¿Escribiste going to y no «gonna»?"
+      ],
+      "modelo": "Next year is going to be very busy for me. In January I'm going to start an English course, and I'm going to practice every day. I'm going to save money because in July my family and I are going to travel to Canada. I'm not going to buy a new phone; my old one is fine. And next summer I'm going to learn to swim!",
+      "explicacion": "Cada plan combina be (I'm, are, is) + going to + verbo base (start, practice, save, travel, learn). La negación usa I'm not going to, sin do. Las expresiones de tiempo (in January, in July, next summer) ordenan el texto, y la primera oración usa going to para una predicción general sobre el año.",
+      "errores_comunes": [
+        "Olvidar be: «I going to start…».",
+        "Escribir «gonna» en un texto que debe ser correcto.",
+        "Decir «the next year» en vez de next year."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué vas a hacer en vacaciones?",
+    "contexto": "Es el último día de trabajo antes de las vacaciones. Tu compañero Diego te pregunta por tus planes.",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Finally, vacation! What are you going to do?",
+        "es": "¡Por fin, vacaciones! ¿Qué vas a hacer?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Diego",
+        "en": "That sounds great! Are you going to take a lot of photos?",
+        "es": "¡Suena genial! ¿Vas a tomar muchas fotos?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Cuenta dos o tres planes con going to (uno negativo) y contesta la pregunta de Diego con una respuesta corta.",
+    "modelo": "I'm going to visit my grandparents in Mérida. We're going to go to the beach, and I'm going to rest a lot. I'm not going to check my work email! — Yes, I am. I'm going to take my new camera.",
+    "alternativas": [
+      "I'm going to stay at home and paint my bedroom. I'm not going to travel this time. — No, I'm not. It's just a house!",
+      "My friends and I are going to go camping in the mountains. We're going to cook outside. — Yes, I am, of course!"
+    ],
+    "claves": [
+      "Planes: I'm / We're going to + verbo base.",
+      "Negativo: I'm not going to…",
+      "Respuesta corta: Yes, I am. / No, I'm not."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Forma: am / is / are + going to + verbo base. Negación: be + not. Pregunta: be + sujeto + going to…?",
+      "Respuesta corta solo con be: Yes, I am. / No, she isn't.",
+      "Uso 1: planes e intenciones decididos antes de hablar (I'm going to study medicine).",
+      "Uso 2: predicciones con evidencia presente (Look at those clouds! It's going to rain).",
+      "«Voy a…» = I'm going to…, nunca «I go to…»."
+    ],
+    "recuerda": [
+      "«Gonna» /ˈɡənə/ se oye mucho; no lo escribas en textos formales.",
+      "Next week / next year, sin the.",
+      "Was going to = iba a (una intención que no se cumplió)."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "el-futuro.going-to.r1",
+      "frente": "Di en inglés: «Voy a aprender a manejar»",
+      "reverso": "I'm going to learn to drive.",
+      "nota": "No «I go to learn»."
+    },
+    {
+      "id": "el-futuro.going-to.r2",
+      "frente": "Negativa: They're going to move.",
+      "reverso": "They aren't going to move. / They're not going to move."
+    },
+    {
+      "id": "el-futuro.going-to.r3",
+      "frente": "Respuesta corta: Is she going to come? (sí)",
+      "reverso": "Yes, she is."
+    },
+    {
+      "id": "el-futuro.going-to.r4",
+      "frente": "¿Qué futuro usas con evidencia presente? «¡Mira esas nubes! Va a llover»",
+      "reverso": "Look at those clouds! It's going to rain.",
+      "nota": "Going to: lo estás viendo."
+    },
+    {
+      "id": "el-futuro.going-to.r5",
+      "frente": "¿Se puede escribir «gonna» en un correo de trabajo?",
+      "reverso": "No. Se escribe going to; gonna es habla o mensajes informales."
+    }
+  ]
+}

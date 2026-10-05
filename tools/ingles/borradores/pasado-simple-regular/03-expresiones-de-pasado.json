@@ -1,0 +1,1226 @@
+{
+  "slug": "expresiones-de-pasado",
+  "titulo": "Expresiones de pasado",
+  "minutos": 45,
+  "objetivos": [
+    "Situar acciones en el pasado con yesterday, last night, last week, the day before yesterday.",
+    "Usar … ago en el orden correcto (two days ago) sin calcar «hace dos días».",
+    "Usar in / on / at con fechas y horas pasadas y when I was… para hablar de etapas."
+  ],
+  "situacion": {
+    "titulo": "Un historial de la clínica",
+    "texto": "Carlos va al médico por un dolor de espalda. La doctora le pregunta cuándo empezó todo. Fíjate en que en inglés «hace tres días» es three days ago (con ago al final) y en que last week no lleva the.",
+    "dialogo": [
+      {
+        "quien": "Doctor",
+        "en": "When did the pain start?",
+        "es": "¿Cuándo empezó el dolor?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Three days ago. I carried a heavy box on Monday.",
+        "es": "Hace tres días. El lunes cargué una caja pesada."
+      },
+      {
+        "quien": "Doctor",
+        "en": "I see. And were you OK before that?",
+        "es": "Ya veo. ¿Y antes de eso estaba bien?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Yes. I played soccer last week and I was fine.",
+        "es": "Sí. La semana pasada jugué futbol y estaba bien."
+      },
+      {
+        "quien": "Doctor",
+        "en": "And this pain, was it worse yesterday?",
+        "es": "¿Y este dolor fue peor ayer?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Yes, and last night I needed a pill to sleep.",
+        "es": "Sí, y anoche necesité una pastilla para dormir."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "yesterday-y-last",
+      "titulo": "Yesterday, last night, last week…",
+      "que_es": "Son las expresiones más comunes para decir **cuándo** pasó algo. Casi todas se construyen con [[yesterday]] (ayer) o con [[last]] (pasado / último) + una palabra de tiempo.",
+      "para_que": [
+        "Contar qué hiciste en un momento concreto: «I called her yesterday».",
+        "Hablar de la semana, el mes o el año anterior: «We moved last year».",
+        "Organizar un relato en el tiempo."
+      ],
+      "como_funciona": "**Yesterday** = ayer. Con partes del día: [[yesterday morning]] (ayer en la mañana), [[yesterday afternoon]] (ayer en la tarde), [[yesterday evening]] (ayer al anochecer). Pero «anoche» es **last night**; «yesterday night» no se usa. [[The day before yesterday]] = anteayer (antier). **Last + tiempo** = el / la … pasado(a): [[last week]], [[last month]], [[last year]], [[last weekend]], [[last summer]], [[last Monday]]. Dos reglas importantes: 1) **sin the**: «la semana pasada» es last week, no «the last week» (the last week significa «la última semana» o «los últimos siete días»); 2) **sin preposición**: no se dice «in last year» ni «on last Monday». Lo mismo con yesterday: nunca «in yesterday». [[This morning]] también puede ir con pasado si la mañana ya terminó (I called her this morning, dicho en la tarde). La posición normal de todas estas expresiones es **al final** de la oración; también pueden ir al principio para darles énfasis.",
+      "estructuras": [
+        {
+          "etiqueta": "Last + tiempo (sin the, sin preposición)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "last week / month / year…",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "painted",
+              "rol": "verbo"
+            },
+            {
+              "t": "their house",
+              "rol": "complemento"
+            },
+            {
+              "t": "last month",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Pintaron su casa el mes pasado."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Del pasado más cercano al más lejano",
+          "columnas": [
+            "En español",
+            "En inglés"
+          ],
+          "filas": [
+            [
+              "esta mañana (ya terminó)",
+              "this morning"
+            ],
+            [
+              "anoche",
+              "last night"
+            ],
+            [
+              "ayer en la tarde",
+              "yesterday afternoon"
+            ],
+            [
+              "ayer",
+              "yesterday"
+            ],
+            [
+              "anteayer / antier",
+              "the day before yesterday"
+            ],
+            [
+              "el lunes pasado",
+              "last Monday"
+            ],
+            [
+              "la semana pasada",
+              "last week"
+            ],
+            [
+              "el mes pasado",
+              "last month"
+            ],
+            [
+              "el verano pasado",
+              "last summer"
+            ],
+            [
+              "el año pasado",
+              "last year"
+            ]
+          ],
+          "audio": [
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I cleaned the bathroom yesterday afternoon.",
+          "es": "Ayer en la tarde limpié el baño.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cleaned",
+              "rol": "verbo"
+            },
+            {
+              "t": "the bathroom",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday afternoon",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Yesterday + parte del día, sin preposición: yesterday afternoon, no «yesterday in the afternoon»."
+        },
+        {
+          "en": "We watched a horror movie last night.",
+          "es": "Anoche vimos una película de terror.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "watched",
+              "rol": "verbo"
+            },
+            {
+              "t": "a horror movie",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "«Anoche» es last night, nunca yesterday night."
+        },
+        {
+          "en": "Last year my cousin moved to Chicago.",
+          "es": "El año pasado mi primo se mudó a Chicago.",
+          "partes": [
+            {
+              "t": "Last year",
+              "rol": "tiempo"
+            },
+            {
+              "t": "my cousin",
+              "rol": "sujeto"
+            },
+            {
+              "t": "moved",
+              "rol": "verbo"
+            },
+            {
+              "t": "to Chicago",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Al principio de la oración para destacar el momento. Sin the y sin in."
+        },
+        {
+          "en": "She started her new job the day before yesterday.",
+          "es": "Empezó su nuevo trabajo antier.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "started",
+              "rol": "verbo"
+            },
+            {
+              "t": "her new job",
+              "rol": "complemento"
+            },
+            {
+              "t": "the day before yesterday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Esta sí lleva the: the day before yesterday es una expresión fija."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Expresiones de tiempo en el pasado",
+        "marcas": [
+          {
+            "pos": 0.08,
+            "texto": "last year",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.3,
+            "texto": "last month",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.5,
+            "texto": "last week",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.66,
+            "texto": "the day before yesterday",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.77,
+            "texto": "yesterday",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.86,
+            "texto": "last night",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.95,
+        "pie": "Cuanto más a la izquierda, más lejos del presente. Todas se usan con el verbo en pasado simple."
+      },
+      "pronunciacion": [
+        {
+          "texto": "the day before yesterday",
+          "ipa": "/ðə deɪ bɪˈfɔr ˈjɛstɚdeɪ/",
+          "consejo": "Se dice de corrido, con dos acentos: be-FORE y YES-ter-day. The es débil (/ðə/), con la lengua entre los dientes. Before empieza con una sílaba muy corta: «bi-FOR».",
+          "lento": true
+        },
+        {
+          "texto": "last week",
+          "ipa": "/læst wik/ (GB /lɑːst wiːk/)",
+          "consejo": "La t de last casi desaparece antes de la w: «lás-wik». La vocal de week es una «i» larga y tensa, con los labios estirados como en una sonrisa."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I visited my aunt the last week.",
+          "bien": "I visited my aunt last week.",
+          "porque": "«La semana pasada» es last week, sin the. The last week significa «la última semana» (de un periodo) o «los últimos siete días»."
+        },
+        {
+          "mal": "We traveled to Cancún in last year.",
+          "bien": "We traveled to Cancún last year.",
+          "porque": "Last year no lleva preposición."
+        },
+        {
+          "mal": "I called you yesterday night.",
+          "bien": "I called you last night.",
+          "porque": "«Anoche» se dice last night. Yesterday se combina con morning, afternoon y evening, pero no con night."
+        }
+      ]
+    },
+    {
+      "id": "ago",
+      "titulo": "… ago: «hace» tiempo",
+      "que_es": "**Ago** indica cuánto tiempo ha pasado desde que ocurrió algo, contando hacia atrás desde ahora. Equivale a «hace» en «hace dos días». La diferencia clave: en inglés **ago va detrás** de la cantidad de tiempo.",
+      "para_que": [
+        "Decir cuándo pasó algo sin dar una fecha: «I met her two years ago».",
+        "Contestar a «¿Cuándo…?» de forma rápida: «Ten minutes ago»."
+      ],
+      "como_funciona": "La fórmula es **cantidad de tiempo + ago**: [[five minutes ago]], [[an hour ago]], [[two days ago]], [[three weeks ago]], [[a month ago]], [[ten years ago]], [[a long time ago]] (hace mucho tiempo). Nunca «ago two days» (orden del español) ni «before two days» ni «it makes two days» (calcos de «hace»). Cuidado también con **two days before**: existe, pero significa otra cosa: «dos días antes» (de otro momento del pasado), no «hace dos días». Ago siempre va con un verbo en pasado (I arrived two hours ago), porque señala un momento terminado. Puede ir al final o al principio de la oración.",
+      "estructuras": [
+        {
+          "etiqueta": "Cantidad + ago",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "número + tiempo + ago",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "started",
+              "rol": "verbo"
+            },
+            {
+              "t": "this course",
+              "rol": "complemento"
+            },
+            {
+              "t": "two months ago",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Empecé este curso hace dos meses."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The bus arrived five minutes ago.",
+          "es": "El camión llegó hace cinco minutos.",
+          "partes": [
+            {
+              "t": "The bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "arrived",
+              "rol": "verbo"
+            },
+            {
+              "t": "five minutes ago",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Cantidad primero (five minutes), ago después."
+        },
+        {
+          "en": "My grandparents moved here fifty years ago.",
+          "es": "Mis abuelos se mudaron aquí hace cincuenta años.",
+          "partes": [
+            {
+              "t": "My grandparents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "moved",
+              "rol": "verbo"
+            },
+            {
+              "t": "here",
+              "rol": "complemento"
+            },
+            {
+              "t": "fifty years ago",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Move (mudarse) es regular: moved."
+        },
+        {
+          "en": "An hour ago it rained a lot.",
+          "es": "Hace una hora llovió mucho.",
+          "partes": [
+            {
+              "t": "An hour ago",
+              "rol": "tiempo"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "rained",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "An hour (la h de hour no suena, por eso an). Ago puede ir al principio."
+        },
+        {
+          "en": "We lived in that house a long time ago.",
+          "es": "Vivimos en esa casa hace mucho tiempo.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lived",
+              "rol": "verbo"
+            },
+            {
+              "t": "in that house",
+              "rol": "complemento"
+            },
+            {
+              "t": "a long time ago",
+              "rol": "tiempo"
+            }
+          ]
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: «hace» delante",
+          "items": [
+            "hace dos días",
+            "hace un año",
+            "hace mucho tiempo"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: ago detrás",
+          "items": [
+            "two days ago",
+            "a year ago",
+            "a long time ago"
+          ]
+        },
+        "veredicto": "El orden es el contrario. Piensa en ago como una etiqueta que se pega al final de la cantidad de tiempo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "two days ago",
+          "ipa": "/tu deɪz əˈɡoʊ/",
+          "consejo": "Ago tiene dos sílabas y el acento en la segunda: a-GO. La primera es una vocal débil /ə/, casi un murmullo; la segunda es «gou», con los labios redondeándose al final. La /z/ de days se enlaza con ago: «dei-zə-góu».",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I met her ago two years.",
+          "bien": "I met her two years ago.",
+          "porque": "Ago va después de la cantidad de tiempo, al revés que «hace» en español."
+        },
+        {
+          "mal": "I visited my cousins before two weeks.",
+          "bien": "I visited my cousins two weeks ago.",
+          "porque": "«Hace dos semanas» se dice con ago. Before significa «antes de»."
+        },
+        {
+          "mal": "It makes two days that I called him.",
+          "bien": "I called him two days ago.",
+          "porque": "«Hace» en expresiones de tiempo no se traduce con make; se usa ago."
+        }
+      ]
+    },
+    {
+      "id": "in-on-at-y-when",
+      "titulo": "In 2019, on Monday, at 7… y when I was a child",
+      "que_es": "Para dar una fecha, un día o una hora del pasado usas las mismas preposiciones que ya conoces para el tiempo: **in**, **on** y **at**. Y para hablar de una etapa de tu vida usas **when + was / were**: when I was a child, when I was ten, when we were in college.",
+      "para_que": [
+        "Dar datos precisos: «I moved here in 2018».",
+        "Hablar de tu infancia o de otra etapa: «When I was a child, I lived near the sea»."
+      ],
+      "como_funciona": "**In** + año, mes, estación o década: in 2019, in May, in the summer of 2020, in the nineties. **On** + día o fecha: on Monday, on May 5th, on my birthday. **At** + hora o momento del día: at 7 o'clock, at noon, at midnight. Estas preposiciones desaparecen si usas last o this (on Monday, pero last Monday). **When + sujeto + was / were** crea una expresión de etapa: [[when I was a child]] (cuando era niño), [[when I was ten]] (cuando tenía diez años), [[when my kids were small]] (cuando mis hijos eran pequeños). Puede ir al principio (seguida de coma) o al final. Recuerda los calcos: «when I had ten years» → when I was ten; «when I was child» → when I was **a** child.",
+      "estructuras": [
+        {
+          "etiqueta": "Etapa con when",
+          "formula": [
+            {
+              "t": "When + sujeto + was / were…,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "When I was ten,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "collected",
+              "rol": "verbo"
+            },
+            {
+              "t": "stickers",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Cuando tenía diez años, coleccionaba estampas."
+        },
+        {
+          "etiqueta": "Fecha u hora",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "in / on / at + momento",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The meeting",
+              "rol": "sujeto"
+            },
+            {
+              "t": "started",
+              "rol": "verbo"
+            },
+            {
+              "t": "at nine",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "La junta empezó a las nueve."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "In, on, at en el pasado",
+          "columnas": [
+            "Preposición",
+            "Con…",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "in",
+              "año, mes, estación, década",
+              "I graduated in 2015."
+            ],
+            [
+              "on",
+              "día, fecha",
+              "We arrived on Friday."
+            ],
+            [
+              "at",
+              "hora, noon, midnight",
+              "The movie ended at midnight."
+            ],
+            [
+              "—",
+              "last…, yesterday, this…, … ago",
+              "I called her last Monday."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I graduated in 2015.",
+          "es": "Me gradué en 2015.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "graduated",
+              "rol": "verbo"
+            },
+            {
+              "t": "in 2015",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Año → in. Graduated suena /ˈɡrædʒueɪtɪd/: graduate termina en /t/, así que -ed añade una sílaba."
+        },
+        {
+          "en": "We arrived on Friday at midnight.",
+          "es": "Llegamos el viernes a medianoche.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "arrived",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Friday",
+              "rol": "tiempo"
+            },
+            {
+              "t": "at midnight",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Día → on; hora → at. En español «el viernes» no lleva preposición, en inglés sí."
+        },
+        {
+          "en": "When my kids were small, we traveled a lot.",
+          "es": "Cuando mis hijos eran pequeños, viajábamos mucho.",
+          "partes": [
+            {
+              "t": "When my kids were small,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "traveled",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "When + were (sujeto plural). El verbo principal (traveled) va en pasado simple aunque en español sea imperfecto."
+        },
+        {
+          "en": "I lived in Durango when I was a child.",
+          "es": "Viví en Durango cuando era niño.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lived",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Durango",
+              "rol": "complemento"
+            },
+            {
+              "t": "when I was a child",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Al final no lleva coma. When I was a child siempre con a."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "when I was a child",
+          "ipa": "/wɛn aɪ wəz ə tʃaɪld/",
+          "consejo": "Todo se enlaza: «wen-ai-wə-zə-cháild». Was y a son débiles; el acento cae en child. La ch de child es como la «ch» española, y la d final es suave."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "When I had ten years, I lived in Toluca.",
+          "bien": "When I was ten, I lived in Toluca.",
+          "porque": "La edad va con be: when I was ten."
+        },
+        {
+          "mal": "When I was child, I played outside.",
+          "bien": "When I was a child, I played outside.",
+          "porque": "Child es un sustantivo contable singular y necesita a."
+        },
+        {
+          "mal": "We moved on 2019.",
+          "bien": "We moved in 2019.",
+          "porque": "Con un año solo se usa in."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta de decir «la semana pasada».",
+      "pregunta": "I visited my grandma ___.",
+      "opciones": [
+        {
+          "texto": "last week",
+          "correcta": true,
+          "porque": "«La semana pasada» es last week, sin artículo ni preposición."
+        },
+        {
+          "texto": "the last week",
+          "correcta": false,
+          "porque": "The last week significa «la última semana» o «los últimos siete días», no «la semana pasada»."
+        },
+        {
+          "texto": "in last week",
+          "correcta": false,
+          "porque": "Last week no lleva preposición."
+        },
+        {
+          "texto": "the week last",
+          "correcta": false,
+          "porque": "Last va antes del sustantivo: last week."
+        }
+      ],
+      "pistas": [
+        "Las expresiones con last tienen una forma fija.",
+        "¿Llevan artículo? ¿Llevan preposición?",
+        "Last + unidad de tiempo, sin artículo y sin preposición, como en last month."
+      ],
+      "solucion": {
+        "respuesta": "last week",
+        "explicacion": "«La semana pasada» es last week: last va delante y no se añade ni the ni in. The last week existe, pero significa «la última semana» de algo o «los últimos siete días»."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra.",
+      "frase": "I called my grandma two days ___.",
+      "traduccion": "Llamé a mi abuela hace dos días.",
+      "respuestas": [
+        [
+          "ago"
+        ]
+      ],
+      "errores_tipicos": {
+        "before": "Before significa «antes de». «Hace dos días» es two days ago."
+      },
+      "pistas": [
+        "Falta la palabra que equivale a «hace» en expresiones de tiempo.",
+        "En inglés esa palabra va después de la cantidad de tiempo.",
+        "Cantidad de tiempo + ago."
+      ],
+      "solucion": {
+        "respuesta": "ago",
+        "explicacion": "«Hace dos días» se dice two days ago: primero la cantidad y luego ago. Before no sirve aquí: two days before significa «dos días antes» de otro momento."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión en español con su equivalente en inglés.",
+      "pares": [
+        {
+          "a": "anoche",
+          "b": "last night"
+        },
+        {
+          "a": "antier",
+          "b": "the day before yesterday"
+        },
+        {
+          "a": "hace un mes",
+          "b": "a month ago"
+        },
+        {
+          "a": "ayer en la tarde",
+          "b": "yesterday afternoon"
+        },
+        {
+          "a": "el verano pasado",
+          "b": "last summer"
+        },
+        {
+          "a": "cuando era niño",
+          "b": "when I was a child"
+        }
+      ],
+      "pistas": [
+        "Algunas se forman con yesterday, otras con last y otra con ago.",
+        "«Anoche» no se forma con yesterday.",
+        "«Anoche» se forma con last, no con yesterday; hace + tiempo = tiempo + palabra al final; «el … pasado» = last + …"
+      ],
+      "solucion": {
+        "respuesta": "anoche → last night · antier → the day before yesterday · hace un mes → a month ago · ayer en la tarde → yesterday afternoon · el verano pasado → last summer · cuando era niño → when I was a child",
+        "explicacion": "Anoche es last night (no yesterday night). Antier es the day before yesterday. «Hace un mes» pone ago al final. Yesterday se combina con afternoon. «El … pasado» es last + sustantivo. «Cuando era niño» usa was y el artículo a."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con in, on o at.",
+      "frase": "We moved to Puebla ___ 2018, ___ a Monday, ___ six in the morning.",
+      "traduccion": "Nos mudamos a Puebla en 2018, un lunes, a las seis de la mañana.",
+      "banco": [
+        "in",
+        "on",
+        "at"
+      ],
+      "respuestas": [
+        [
+          "in"
+        ],
+        [
+          "on"
+        ],
+        [
+          "at"
+        ]
+      ],
+      "errores_tipicos": {
+        "on | on | at": "Con un año se usa in: in 2018.",
+        "in | in | at": "Con un día de la semana se usa on: on a Monday.",
+        "in | on | in": "Con una hora se usa at: at six."
+      },
+      "pistas": [
+        "Cada hueco lleva una preposición diferente.",
+        "Mira qué viene después: un año, un día y una hora.",
+        "Año → in; día → on; hora → at."
+      ],
+      "solucion": {
+        "respuesta": "in · on · at",
+        "explicacion": "In va con años (in 2018), on con días (on a Monday) y at con horas (at six). Es el mismo sistema que en presente; solo cambia el tiempo del verbo (moved)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un calco del español. Señálalo y corrígelo.",
+      "frase": "I visited my cousins before two weeks.",
+      "error": "before two weeks",
+      "correcciones": [
+        "two weeks ago"
+      ],
+      "frase_correcta": "I visited my cousins two weeks ago.",
+      "pistas": [
+        "«Hace dos semanas» tiene una palabra fija en inglés.",
+        "El problema está en la expresión de tiempo.",
+        "«Hace + tiempo» = cantidad de tiempo + ago, al final; before no sirve aquí. Por ejemplo, three days ago."
+      ],
+      "solucion": {
+        "respuesta": "before two weeks → two weeks ago",
+        "explicacion": "«Hace dos semanas» es two weeks ago, con ago detrás. Before + tiempo no significa «hace»; significa «antes de»."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "We watched a great movie yesterday night.",
+      "error": "yesterday night",
+      "correcciones": [
+        "last night"
+      ],
+      "frase_correcta": "We watched a great movie last night.",
+      "pistas": [
+        "Yesterday se combina con algunas partes del día, pero no con todas.",
+        "Fíjate en la expresión de tiempo del final.",
+        "«Anoche» no se forma con yesterday sino con last, igual que last week o last month."
+      ],
+      "solucion": {
+        "respuesta": "yesterday night → last night",
+        "explicacion": "«Anoche» se dice last night. Se dice yesterday morning, yesterday afternoon y yesterday evening, pero no yesterday night."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al pasado y cambia every Saturday por last Saturday.",
+      "origen": "I clean the car every Saturday.",
+      "instruccion": "Pasado + last Saturday",
+      "respuestas": [
+        "I cleaned the car last Saturday.",
+        "Last Saturday I cleaned the car."
+      ],
+      "errores_tipicos": {
+        "I cleaned the car the last Saturday.": "Last Saturday no lleva the.",
+        "I cleaned the car on last Saturday.": "Con last no se usa on.",
+        "I clean the car last Saturday.": "Last Saturday es pasado: cleaned."
+      },
+      "pistas": [
+        "Every Saturday es un hábito (presente); last Saturday es un momento pasado.",
+        "Cambia el verbo y la expresión de tiempo.",
+        "Verbo regular + -ed; last + día de la semana, sin artículo ni preposición, como en last Monday."
+      ],
+      "solucion": {
+        "respuesta": "I cleaned the car last Saturday.",
+        "explicacion": "Every Saturday expresa un hábito y va con presente; last Saturday es un momento terminado y exige pasado: cleaned. Con last desaparece la preposición on."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.08",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "I arrived two days ago.",
+      "ipa": "/aɪ əˈraɪvd tu deɪz əˈɡoʊ/",
+      "consejo": "Arrived tiene dos sílabas (a-RRIVED) y termina en /vd/, sin sílaba extra. Days ago se enlaza: «dei-zə-góu». Los acentos caen en -RIVED, TWO y -GO.",
+      "es": "Llegué hace dos días."
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My parents moved to Canada ten years ago.",
+      "pistas": [
+        "Es una afirmación en pasado con una expresión de «hace».",
+        "El verbo es move (mudarse).",
+        "Sujeto + verbo-ed + to + lugar + cantidad de tiempo + ago, como en My uncle lived in Chicago five years ago."
+      ],
+      "solucion": {
+        "respuesta": "My parents moved to Canada ten years ago.",
+        "explicacion": "Moved suena /muvd/, una sílaba: la -ed es solo una /d/. Ten years ago: la cantidad va antes de ago."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa at a hotel.",
+      "es": "Hace dos años trabajé en un hotel.",
+      "respuestas": [
+        "I worked at a hotel two years ago.",
+        "Two years ago I worked at a hotel."
+      ],
+      "errores_tipicos": {
+        "I worked at a hotel ago two years.": "Ago va después de la cantidad: two years ago.",
+        "I worked at a hotel before two years.": "«Hace dos años» es two years ago, no before.",
+        "Two years ago worked at a hotel.": "Falta el sujeto I."
+      },
+      "pistas": [
+        "«Hace dos años» lleva ago, pero en otra posición.",
+        "El verbo es work, regular.",
+        "Sujeto + verbo-ed + at + lugar + cantidad de tiempo + ago, como en She studied at a university three years ago."
+      ],
+      "solucion": {
+        "respuesta": "I worked at a hotel two years ago.",
+        "explicacion": "Work en pasado es worked. «Hace dos años» es two years ago, con la cantidad delante y ago detrás. La expresión puede ir al final o al principio."
+      },
+      "audio": true
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa child y town.",
+      "es": "Cuando era niña, vivía en un pueblo pequeño.",
+      "respuestas": [
+        "When I was a child, I lived in a small town.",
+        "I lived in a small town when I was a child."
+      ],
+      "errores_tipicos": {
+        "When I was child, I lived in a small town.": "Falta el artículo: a child.",
+        "When I was a child, I live in a small town.": "La etapa terminó: lived, en pasado.",
+        "When I was a child, I lived in a town small.": "En inglés el adjetivo va antes del sustantivo: a small town."
+      },
+      "pistas": [
+        "«Vivía» es imperfecto, pero en inglés una etapa terminada va en pasado simple.",
+        "«Cuando era niña» usa be; «pueblo pequeño» tiene el orden del adjetivo inglés.",
+        "When + sujeto + pasado de be + a + etapa, + sujeto + verbo-ed + lugar; el adjetivo va antes del sustantivo. Como en When he was a student, he worked in a big city."
+      ],
+      "solucion": {
+        "respuesta": "When I was a child, I lived in a small town.",
+        "explicacion": "«Cuando era niña» es when I was a child (con was y con a). «Vivía» se traduce con pasado simple, lived, porque es una situación de una etapa ya terminada. El adjetivo va delante: a small town."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "En una fiesta, un amigo de tu hermana te pregunta por tu trabajo nuevo.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "When did you start your new job?",
+          "es": "¿Cuándo empezaste tu nuevo trabajo?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I started two weeks ago.",
+          "correcta": true,
+          "porque": "Verbo en pasado (started) y ago detrás de la cantidad de tiempo."
+        },
+        {
+          "texto": "I started ago two weeks.",
+          "correcta": false,
+          "porque": "Ago va después de la cantidad: two weeks ago."
+        },
+        {
+          "texto": "I started before two weeks.",
+          "correcta": false,
+          "porque": "Before no significa «hace»; se usa ago."
+        },
+        {
+          "texto": "I start two weeks ago.",
+          "correcta": false,
+          "porque": "Two weeks ago exige el verbo en pasado: started."
+        }
+      ],
+      "pistas": [
+        "La pregunta es sobre un momento pasado (When did you…? = ¿Cuándo…?).",
+        "Revisa el verbo y la posición de ago.",
+        "Verbo-ed + cantidad de tiempo + ago."
+      ],
+      "solucion": {
+        "respuesta": "I started two weeks ago.",
+        "explicacion": "Start es regular (started, con /ɪd/ porque termina en /t/). «Hace dos semanas» es two weeks ago. Las otras opciones cambian el orden de ago, usan before o dejan el verbo en presente."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre tu semana pasada.",
+      "objetivo": "Contar varias acciones terminadas situándolas en el tiempo con expresiones de pasado.",
+      "instrucciones": "Escribe al menos 45 palabras sobre lo que hiciste en los últimos días. Usa al menos cinco verbos regulares en pasado y cuatro expresiones de tiempo distintas (yesterday, last…, … ago, on + día, at + hora, the day before yesterday…). Puedes añadir oraciones con was / were.",
+      "vocabulario_apoyo": [
+        "work",
+        "study",
+        "call",
+        "visit",
+        "clean",
+        "cook",
+        "watch",
+        "play",
+        "walk",
+        "relax",
+        "stay",
+        "help"
+      ],
+      "estructuras": [
+        "Last Monday I …",
+        "The day before yesterday I …",
+        "Yesterday afternoon I …",
+        "Two days ago I …",
+        "On Saturday at … I …",
+        "Last night I …"
+      ],
+      "ejemplo": "Last weekend my friend Aisha painted her bedroom. On Saturday morning she moved the furniture, and in the afternoon she painted the walls. Yesterday she cleaned everything.",
+      "min_palabras": 45,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas al menos una expresión con last",
+          "patron": "\\blast (night|week|weekend|month|year|monday|tuesday|wednesday|thursday|friday|saturday|sunday|summer)\\b"
+        },
+        {
+          "descripcion": "Usas ago",
+          "patron": "\\bago\\b"
+        },
+        {
+          "descripcion": "Usas yesterday",
+          "patron": "\\byesterday\\b"
+        },
+        {
+          "descripcion": "Usas verbos terminados en -ed",
+          "patron": "\\b[a-z]+ed\\b"
+        }
+      ],
+      "criterios": [
+        "¿Todos los verbos que cuentan acciones terminadas están en pasado (-ed)?",
+        "¿Escribiste bien los verbos con cambios de ortografía (studied, stopped, played)?",
+        "¿Ago va detrás de la cantidad de tiempo?",
+        "¿Last week / last night sin the ni preposición?",
+        "¿Usaste last night y no yesterday night?"
+      ],
+      "modelo": "Last week was very busy. On Monday I worked until eight, and on Tuesday I studied for an English test. The day before yesterday I visited my aunt and helped her in the garden. Yesterday afternoon I cleaned my apartment. Last night I cooked pasta and watched a movie with my roommate. Two hours ago I called my mom. Now I'm tired!",
+      "explicacion": "El modelo usa ocho verbos regulares en pasado (worked, studied, visited, helped, cleaned, cooked, watched, called) y organiza la semana con expresiones variadas: last week, on Monday, on Tuesday, the day before yesterday, yesterday afternoon, last night y two hours ago. Studied aplica la regla consonante + y. La primera oración usa was para valorar la semana y la última vuelve al presente (I'm tired) porque describe cómo estás ahora.",
+      "errores_comunes": [
+        "«the last week» o «in last week»: es last week.",
+        "«yesterday night»: es last night.",
+        "«ago two hours» o «before two hours»: es two hours ago.",
+        "Olvidar la -ed al escribir rápido: «Yesterday I clean…»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En el consultorio",
+    "contexto": "Estás en una clínica en el extranjero porque te duele el tobillo. La enfermera, Grace, necesita saber cuándo empezó todo.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "So, when did it start?",
+        "es": "Bien, ¿cuándo empezó?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "And was it very painful last night?",
+        "es": "¿Y te dolió mucho anoche?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Explica cuándo pasó (usa ago o un día concreto) y qué pasó, con un verbo regular en pasado (played, walked, jumped, slipped…). Después contesta la segunda pregunta con una respuesta corta y un detalle sobre anoche.",
+    "modelo": "Two days ago. I played basketball on Sunday and I twisted my ankle. — Yes, it was. Last night I needed ice and I stayed on the sofa.",
+    "alternativas": [
+      "Yesterday afternoon. I slipped on the stairs at work. — No, it wasn't very bad, but I called my doctor.",
+      "The day before yesterday. I jumped from a wall in the park. — Yes, it was. I needed a pill at midnight."
+    ],
+    "claves": [
+      "Momento: two days ago / yesterday afternoon / on Sunday.",
+      "Acción: verbo regular + -ed (slipped duplica la p).",
+      "Respuesta corta con was: Yes, it was / No, it wasn't."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "yesterday (morning / afternoon / evening), last night, the day before yesterday.",
+      "last + week / month / year / Monday / summer: sin the y sin preposición.",
+      "cantidad + ago: two days ago (nunca «ago two days» ni «before two days»).",
+      "in + año / mes; on + día / fecha; at + hora.",
+      "when I was a child / when I was ten para etapas de la vida."
+    ],
+    "recuerda": [
+      "«Anoche» = last night, no yesterday night.",
+      "Two days before = «dos días antes», no «hace dos días».",
+      "Las expresiones de tiempo suelen ir al final; al principio dan énfasis."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.r1",
+      "frente": "¿Cómo se dice «hace tres días»?",
+      "reverso": "three days ago",
+      "nota": "Ago detrás de la cantidad."
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.r2",
+      "frente": "¿Cómo se dice «anoche»?",
+      "reverso": "last night",
+      "nota": "No «yesterday night»."
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.r3",
+      "frente": "Corrige: I called her the last week.",
+      "reverso": "I called her last week.",
+      "nota": "Last week sin the."
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.r4",
+      "frente": "¿Cómo se dice «antier»?",
+      "reverso": "the day before yesterday",
+      "nota": "Esta sí lleva the."
+    },
+    {
+      "id": "pasado-simple-regular.expresiones-de-pasado.r5",
+      "frente": "¿Cómo se dice «Cuando tenía diez años…»?",
+      "reverso": "When I was ten…",
+      "nota": "Edad con be."
+    }
+  ]
+}

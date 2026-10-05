@@ -1,0 +1,575 @@
+{
+  "slug": "describir-personas",
+  "titulo": "Describir personas y cosas",
+  "minutos": 40,
+  "objetivos": [
+    "Distinguir What's she like? (carácter) de What does she look like? (aspecto) y responder a cada una.",
+    "Describir el aspecto físico con be + adjetivo y con with (a man with a beard).",
+    "Describir la personalidad evitando los falsos amigos (sympathetic, educated).",
+    "Ordenar dos o más adjetivos delante de un sustantivo: a nice old house."
+  ],
+  "situacion": {
+    "titulo": "Esperando a alguien en el aeropuerto",
+    "texto": "Sam va a recoger a Lucía, una amiga de Priya, pero nunca la ha visto. Llama a Priya desde el aeropuerto. Fíjate en que Sam hace dos preguntas distintas que en español serían la misma: «¿cómo es?».",
+    "dialogo": [
+      { "quien": "Sam", "en": "So, what's Lucía like?", "es": "Oye, ¿cómo es Lucía? (de carácter)" },
+      { "quien": "Priya", "en": "She's really nice. She's friendly and very funny.", "es": "Es muy buena onda. Es amigable y muy graciosa." },
+      { "quien": "Sam", "en": "Great. But what does she look like? I'm at the airport now!", "es": "Genial. Pero ¿cómo es físicamente? ¡Ya estoy en el aeropuerto!" },
+      { "quien": "Priya", "en": "She's quite tall, with long dark hair and glasses.", "es": "Es bastante alta, de pelo largo y oscuro, y usa lentes." },
+      { "quien": "Sam", "en": "A woman with a big red suitcase?", "es": "¿Una mujer con una maleta roja grande?" },
+      { "quien": "Priya", "en": "Yes, that's Lucía!", "es": "¡Sí, esa es Lucía!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "what-like",
+      "titulo": "What's she like? / What does she look like?",
+      "que_es": "El español usa una sola pregunta, «¿Cómo es?», para el carácter y para el aspecto. El inglés usa dos: [[What's she like?]] pregunta por la **personalidad** (o por cómo es algo en general) y [[What does she look like?]] pregunta por el **aspecto físico**.",
+      "para_que": [
+        "Preguntar por un nuevo compañero de trabajo, un maestro o un vecino: What's your new teacher like?",
+        "Reconocer a alguien que no conoces: What does he look like?",
+        "Preguntar por un lugar o una cosa: What's the hotel like?"
+      ],
+      "como_funciona": "En estas preguntas, [[like]] NO es el verbo «gustar»: significa «como». What's she like? es literalmente «¿Qué es ella como?» y se responde con be + adjetivos de carácter: [[She's friendly and funny]]. What does she look like? es literalmente «¿Qué parece ella como?»; lleva el auxiliar does, que estudiarás con el presente simple. De momento apréndela como un **bloque fijo**: What does + he / she / it + look like? (con I, you, we, they: What do you look like?, aunque se usa menos). Se responde con be + adjetivos de aspecto: [[She's tall, with long hair]]. Cuidado con otra pregunta que parece igual: [[How is she?]] significa «¿Cómo está?» (de salud o de ánimo), no «¿cómo es?».",
+      "estructuras": [
+        {
+          "etiqueta": "Carácter (o cómo es algo)",
+          "formula": [ { "t": "What", "rol": "interrogativo" }, { "t": "is / are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "like", "rol": "otro" } ],
+          "ejemplo": [ { "t": "What", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "your boss", "rol": "sujeto" }, { "t": "like", "rol": "otro" } ],
+          "es": "¿Cómo es tu jefe? (de carácter)"
+        },
+        {
+          "etiqueta": "Aspecto físico (bloque fijo)",
+          "formula": [ { "t": "What", "rol": "interrogativo" }, { "t": "does", "rol": "auxiliar" }, { "t": "he / she / it", "rol": "sujeto" }, { "t": "look like", "rol": "verbo" } ],
+          "ejemplo": [ { "t": "What", "rol": "interrogativo" }, { "t": "does", "rol": "auxiliar" }, { "t": "he", "rol": "sujeto" }, { "t": "look like", "rol": "verbo" } ],
+          "es": "¿Cómo es él físicamente?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Tres preguntas que el español confunde",
+          "columnas": [ "Pregunta", "Qué quiere saber", "Respuesta típica" ],
+          "filas": [
+            [ "What's she like?", "Su personalidad", "She's kind and quite shy." ],
+            [ "What does she look like?", "Su aspecto físico", "She's short, with curly hair." ],
+            [ "How is she?", "Cómo está (salud, ánimo)", "She's fine, thanks. / She's sick." ]
+          ],
+          "audio": [ 0, 2 ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What's your new teacher like?",
+          "es": "¿Cómo es tu nueva maestra?",
+          "situacion": "Una mamá pregunta a su hija por su primer día de clases.",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "your new teacher", "rol": "sujeto" }, { "t": "like", "rol": "otro" } ],
+          "nota": "Pregunta por su carácter o por la impresión general. Respuesta posible: She's very kind."
+        },
+        {
+          "en": "What does your brother look like?",
+          "es": "¿Cómo es tu hermano (físicamente)?",
+          "partes": [ { "t": "What", "rol": "interrogativo" }, { "t": "does", "rol": "auxiliar" }, { "t": "your brother", "rol": "sujeto" }, { "t": "look like", "rol": "verbo" } ],
+          "nota": "Bloque fijo: does antes del sujeto y look like al final. Look va sin -s porque ya está does."
+        },
+        {
+          "en": "What's the hotel like? It's small but very clean.",
+          "es": "¿Qué tal es el hotel? Es chico, pero muy limpio.",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "the hotel", "rol": "sujeto" }, { "t": "like", "rol": "otro" }, { "t": "It's", "rol": "sujeto" }, { "t": "small but very clean", "rol": "complemento" } ],
+          "nota": "Con cosas y lugares, What's it like? pide una descripción general."
+        },
+        {
+          "en": "How is your mother? She's fine, thanks.",
+          "es": "¿Cómo está tu mamá? Está bien, gracias.",
+          "partes": [ { "t": "How", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "your mother", "rol": "sujeto" }, { "t": "She's", "rol": "sujeto" }, { "t": "fine thanks", "rol": "complemento" } ],
+          "nota": "How is…? pregunta por el estado, no por la personalidad ni el aspecto."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "What's she like?",
+          "ipa": "/wʌts ʃi laɪk/",
+          "consejo": "What's she se encadena: «uats-shi». Para /ʃ/ adelanta y redondea los labios como para mandar callar («shh»). Like tiene el diptongo /aɪ/, como «ai» de «aire», y la k final se oye.",
+          "lento": true
+        },
+        {
+          "texto": "What does he look like?",
+          "ipa": "/wʌt dəz i lʊk laɪk/",
+          "consejo": "Does se reduce a «dəz», débil y rápido, y la h de he casi desaparece: «uat-dəz-i». Look tiene una u corta y relajada (/ʊ/), con los labios poco redondeados; no la alargues como la u de «luz»."
+        }
+      ],
+      "errores": [
+        { "mal": "How is your boss? — He's very serious.", "bien": "What's your boss like? — He's very serious.", "porque": "Para el carácter se pregunta What's… like? How is…? pregunta cómo está." },
+        { "mal": "What is she look like?", "bien": "What does she look like?", "porque": "La pregunta de aspecto es un bloque fijo con does." },
+        { "mal": "What's she like? — She likes music.", "bien": "What's she like? — She's very friendly.", "porque": "Aquí like significa «como», no «gustar». La respuesta es una descripción con be." }
+      ]
+    },
+    {
+      "id": "aspecto-fisico",
+      "titulo": "Describir el aspecto: be + adjetivo y with",
+      "que_es": "Para describir el aspecto de una persona usamos dos herramientas que ya conoces: be + adjetivo ([[He's tall]]) y la preposición [[with]] (con) para los rasgos: [[a woman with long hair]], [[a man with a beard]].",
+      "para_que": [
+        "Reconocer a alguien en un lugar lleno de gente.",
+        "Describir a una persona a la policía, a un maestro o a un amigo.",
+        "Hablar de tu familia y de tus amigos."
+      ],
+      "como_funciona": "Estatura, complexión y edad van con be: [[She's tall]], [[He's slim]], [[She's young]], [[He's about 40]]. Los rasgos (pelo, ojos, barba, lentes) se añaden con with: [[He's short, with blue eyes]]. Sobre el pelo, tres reglas: 1) [[hair]] es incontable: no lleva a ni -s (with long hair, nunca «a long hair» ni «long hairs»; hairs son pelos sueltos); 2) los adjetivos van antes de hair en este orden: longitud → forma → color ([[long straight black hair]], [[short curly red hair]]); 3) en español dices «tiene el pelo largo», pero en inglés no se usa el artículo: with long hair. También oirás [[She has long hair]] o [[She's got long hair]]: son formas del verbo have que estudiarás más adelante; por ahora puedes usarlas como fórmula fija. Beard (barba), mustache (bigote) y glasses (lentes) sí son contables: a beard, a mustache, glasses (siempre plural).",
+      "estructuras": [
+        {
+          "etiqueta": "be + adjetivo + with + rasgo",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "with + adjetivos + hair / eyes", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "She", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "tall", "rol": "complemento" }, { "t": "with long dark hair", "rol": "complemento" } ],
+          "es": "Es alta, de pelo largo y oscuro."
+        },
+        {
+          "etiqueta": "a / an + adjetivo + persona + with…",
+          "formula": [ { "t": "a / an", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "man / woman / boy / girl", "rol": "otro" }, { "t": "with + a beard / glasses…", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "a", "rol": "otro" }, { "t": "young", "rol": "complemento" }, { "t": "man", "rol": "otro" }, { "t": "with a beard", "rol": "complemento" } ],
+          "es": "un hombre joven con barba"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Vocabulario de aspecto",
+          "columnas": [ "Categoría", "Palabras", "Ejemplo" ],
+          "filas": [
+            [ "Estatura", "tall, short, medium height", "She's medium height." ],
+            [ "Complexión", "slim, thin, strong", "He's tall and strong." ],
+            [ "Edad", "young, old, about 30", "She's about 30." ],
+            [ "Pelo: largo", "long, short, medium-length", "with short hair" ],
+            [ "Pelo: forma", "straight, wavy, curly", "with curly hair" ],
+            [ "Pelo: color", "black, dark, brown, blond, red, gray", "with long blond hair" ],
+            [ "Ojos", "blue, green, brown, dark", "with brown eyes" ],
+            [ "Otros rasgos", "a beard, a mustache, glasses", "a man with glasses" ]
+          ],
+          "audio": [ 1, 2 ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos is tall and slim, with short black hair.",
+          "es": "Carlos es alto y delgado, de pelo corto y negro.",
+          "partes": [ { "t": "Carlos", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "tall and slim", "rol": "complemento" }, { "t": "with short black hair", "rol": "complemento" } ],
+          "nota": "Dos adjetivos tras be unidos con and; después, with + longitud + color + hair, sin artículo."
+        },
+        {
+          "en": "Mei is a young woman with curly brown hair.",
+          "es": "Mei es una mujer joven de pelo castaño y rizado.",
+          "partes": [ { "t": "Mei", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a young woman", "rol": "complemento" }, { "t": "with curly brown hair", "rol": "complemento" } ],
+          "nota": "Forma antes que color: curly brown hair, no brown curly hair."
+        },
+        {
+          "en": "The man with the beard is my uncle.",
+          "es": "El hombre de barba es mi tío.",
+          "partes": [ { "t": "The man with the beard", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "my uncle", "rol": "complemento" } ],
+          "nota": "With sirve para identificar a alguien dentro de un grupo. En español decimos «de barba»; en inglés, with."
+        },
+        {
+          "en": "He's about 50, with gray hair and glasses.",
+          "es": "Tiene unos 50 años, pelo canoso y lentes.",
+          "partes": [ { "t": "He's", "rol": "sujeto" }, { "t": "about 50", "rol": "complemento" }, { "t": "with gray hair and glasses", "rol": "complemento" } ],
+          "nota": "La edad va con be (unidad 4), no con have. About = aproximadamente. Glasses es siempre plural."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "hair",
+          "ipa": "/hɛr/",
+          "consejo": "La h es un soplo suave, como cuando empañas un espejo, no la j raspada del español. La vocal es una e abierta que se desliza hacia la r inglesa, con la lengua curvada hacia atrás. Suena igual que hare (liebre)."
+        },
+        {
+          "texto": "beard",
+          "ipa": "/bɪrd/",
+          "consejo": "No se pronuncia «biard»: es una i corta seguida de la r inglesa y la d. En británico, /bɪəd/, sin r. No confundas con bird /bɜrd/ (pájaro), que tiene una vocal neutra, como una e dicha con los labios relajados."
+        },
+        {
+          "texto": "curly",
+          "ipa": "/ˈkɜrli/",
+          "consejo": "La primera sílaba no es «cur» con u española: es una vocal neutra con la lengua curvada hacia atrás, como en bird o girl. Acento en la primera sílaba."
+        }
+      ],
+      "errores": [
+        { "mal": "She has the hair long.", "bien": "She has long hair. / She's a woman with long hair.", "porque": "Calco de «tiene el pelo largo». En inglés el adjetivo va antes de hair y no se usa the." },
+        { "mal": "He's a man with a short hair.", "bien": "He's a man with short hair.", "porque": "Hair (cabello) es incontable: no lleva a." },
+        { "mal": "She has 30 years.", "bien": "She's 30.", "porque": "La edad se dice con be, no con have." }
+      ],
+      "nota": { "titulo": "Con tacto", "texto": "Fat (gordo) suena ofensivo al describir a alguien. Si necesitas mencionarlo, di a bit heavy o simplemente no lo menciones. Lo mismo con old: para personas, elderly o a bit older suena más respetuoso.", "tono": "aviso" }
+    },
+    {
+      "id": "caracter-y-objetos",
+      "titulo": "Carácter, falsos amigos y varios adjetivos juntos",
+      "que_es": "Para la personalidad usas be + adjetivos de carácter ([[She's kind]], [[He's shy]]). Y cuando pones varios adjetivos delante de un sustantivo (personas u objetos), siguen un orden bastante fijo: **opinión → tamaño → edad → color → material**.",
+      "para_que": [
+        "Contestar a What's he like? con información útil.",
+        "Evitar falsos amigos que cambian el sentido de lo que dices.",
+        "Describir un objeto con precisión: a nice small black bag."
+      ],
+      "como_funciona": "Adjetivos de carácter frecuentes: friendly (amigable), nice (simpático, agradable), kind (amable, bondadoso), funny (gracioso), serious (serio), shy (tímido), quiet (callado), smart (listo; en británico también clever), lazy (flojo), hard-working (trabajador), polite (educado, de buenos modales), rude (grosero). Falsos amigos peligrosos: [[sympathetic]] no es «simpático» sino «comprensivo, compasivo»; [[educated]] no es «educado» (de modales) sino «con estudios, culto». Si quieres decir que alguien es educado, usa polite. En cuanto al orden de varios adjetivos antes de un sustantivo, el más habitual es: opinión (nice, beautiful) → tamaño (big, small) → edad (old, new, young) → color (black, red) → material (leather, wooden) → sustantivo. Ejemplos: [[a beautiful old house]], [[a small black leather bag]]. No se usa and entre ellos, salvo entre dos colores (a black and white cat). Hay más categorías (forma, origen) que verás más adelante; con estas cinco cubres la mayoría de los casos.",
+      "estructuras": [
+        {
+          "etiqueta": "Carácter",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "(very / quite)", "rol": "otro" }, { "t": "adjetivo de carácter", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Omar", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "quite", "rol": "otro" }, { "t": "shy", "rol": "complemento" } ],
+          "es": "Omar es bastante tímido."
+        },
+        {
+          "etiqueta": "Varios adjetivos antes del sustantivo",
+          "formula": [ { "t": "a / an", "rol": "otro" }, { "t": "opinión", "rol": "complemento" }, { "t": "tamaño", "rol": "complemento" }, { "t": "edad", "rol": "complemento" }, { "t": "color", "rol": "complemento" }, { "t": "sustantivo", "rol": "otro" } ],
+          "ejemplo": [ { "t": "a", "rol": "otro" }, { "t": "nice", "rol": "complemento" }, { "t": "big", "rol": "complemento" }, { "t": "old", "rol": "complemento" }, { "t": "red", "rol": "complemento" }, { "t": "car", "rol": "otro" } ],
+          "es": "un carro rojo, viejo, grande y bonito"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Grace is very kind, but she's quite shy.",
+          "es": "Grace es muy amable, pero es bastante tímida.",
+          "partes": [ { "t": "Grace", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very kind but", "rol": "complemento" }, { "t": "she's", "rol": "sujeto" }, { "t": "quite shy", "rol": "complemento" } ],
+          "nota": "Dos rasgos de carácter, cada uno graduado con very o quite."
+        },
+        {
+          "en": "Your teacher is very nice.",
+          "es": "Tu maestro es muy simpático.",
+          "partes": [ { "t": "Your teacher", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very nice", "rol": "complemento" } ],
+          "nota": "«Simpático» = nice o friendly, no sympathetic."
+        },
+        {
+          "en": "The children are very polite.",
+          "es": "Los niños son muy educados.",
+          "partes": [ { "t": "The children", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "very polite", "rol": "complemento" } ],
+          "nota": "Educado (de buenos modales) = polite. The children are very educated significaría que tienen muchos estudios, algo raro para unos niños."
+        },
+        {
+          "en": "It's a beautiful old house.",
+          "es": "Es una casa antigua preciosa.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "a beautiful old house", "rol": "complemento" } ],
+          "nota": "Opinión (beautiful) antes que edad (old). En español el orden es libre; en inglés, «an old beautiful house» suena raro."
+        },
+        {
+          "en": "This is a small black leather bag.",
+          "es": "Esta es una bolsita negra de piel.",
+          "partes": [ { "t": "This", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a small black leather bag", "rol": "complemento" } ],
+          "nota": "Tamaño → color → material. Leather (piel, cuero) va justo antes del sustantivo."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "friendly",
+          "ipa": "/ˈfrɛndli/",
+          "consejo": "Dos sílabas: FREND-li. La d casi no se suelta: la lengua la toca y pasa directamente a la l. No añadas una e de apoyo antes de la l («frendeli»)."
+        },
+        {
+          "texto": "polite",
+          "ipa": "/pəˈlaɪt/",
+          "consejo": "La primera sílaba es una schwa débil (pə), casi no se oye; la fuerza está en -LITE, con el diptongo «ai». La p inicial suelta un soplo de aire."
+        }
+      ],
+      "errores": [
+        { "mal": "My neighbor is very sympathetic.", "bien": "My neighbor is very nice.", "porque": "Sympathetic significa «comprensivo, compasivo». Simpático = nice o friendly." },
+        { "mal": "Your children are very educated!", "bien": "Your children are very polite!", "porque": "Para elogiar los buenos modales se usa polite. Educated significa «con estudios», un elogio extraño para unos niños." },
+        { "mal": "It's a black small bag.", "bien": "It's a small black bag.", "porque": "El tamaño va antes que el color." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige qué quiere saber la pregunta.",
+      "pregunta": "What's your new boss like?",
+      "opciones": [
+        { "texto": "Cómo es su carácter", "correcta": true, "porque": "Correcto: What's… like? pregunta por la personalidad o por la impresión general." },
+        { "texto": "Cómo es físicamente", "correcta": false, "porque": "Para el aspecto la pregunta es What does your boss look like?" },
+        { "texto": "Qué le gusta", "correcta": false, "porque": "Aquí like no es el verbo «gustar», sino «como». Qué le gusta sería otra estructura." },
+        { "texto": "Cómo está de salud", "correcta": false, "porque": "Eso sería How is your new boss?" }
+      ],
+      "pistas": [
+        "Recuerda que like tiene aquí un significado distinto de «gustar».",
+        "Fíjate en si la pregunta contiene look.",
+        "What's… like? = carácter o impresión; What does… look like? = aspecto; How is…? = estado."
+      ],
+      "solucion": { "respuesta": "Cómo es su carácter", "explicacion": "La respuesta correcta es «cómo es su carácter»: What's… like? (con be y sin look) pregunta por la personalidad. Si pidiera el aspecto llevaría does… look like, y si preguntara por su salud sería How is…?" }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su significado. ¡Cuidado con los falsos amigos!",
+      "pares": [
+        { "a": "nice", "b": "simpático, agradable" },
+        { "a": "polite", "b": "educado (de modales)" },
+        { "a": "sympathetic", "b": "comprensivo, compasivo" },
+        { "a": "educated", "b": "con estudios, culto" },
+        { "a": "shy", "b": "tímido" },
+        { "a": "lazy", "b": "flojo, perezoso" },
+        { "a": "hard-working", "b": "trabajador" }
+      ],
+      "pistas": [
+        "Recuerda que algunas palabras se parecen al español pero significan otra cosa.",
+        "Empieza por las que no se parecen a ninguna palabra española (shy, lazy).",
+        "Sympathetic y educated son falsos amigos: simpático = nice, educado = polite."
+      ],
+      "solucion": { "respuesta": "nice = simpático; polite = educado; sympathetic = comprensivo; educated = con estudios; shy = tímido; lazy = flojo; hard-working = trabajador", "explicacion": "Los dos falsos amigos son sympathetic (comprensivo, no simpático) y educated (con estudios, no de buenos modales). Para «simpático» se dice nice o friendly; para «educado», polite." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta por el carácter (una palabra).",
+      "frase": "What ___ your brother like? — He's very funny.",
+      "respuestas": [ [ "is" ] ],
+      "traduccion": "¿Cómo es tu hermano? — Es muy gracioso.",
+      "errores_tipicos": {
+        "does": "Con does la pregunta necesitaría look: What does your brother look like? Para el carácter se usa be: What is your brother like?",
+        "are": "El sujeto your brother es singular: is."
+      },
+      "pistas": [
+        "Recuerda que la pregunta por el carácter se hace con be.",
+        "El sujeto es your brother: ¿singular o plural?",
+        "Regla: What + be + sujeto + like?; la forma de be concuerda con el sujeto, como en What are your parents like?"
+      ],
+      "solucion": { "respuesta": "is", "explicacion": "La respuesta correcta es is: la pregunta por la personalidad se forma con be (What is… like?) y el sujeto your brother es singular. La respuesta He's very funny confirma que se habla del carácter." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta por el aspecto físico.",
+      "frase": "What ___ she ___ like? — She's tall, with short blond hair.",
+      "respuestas": [ [ "does" ], [ "look" ] ],
+      "traduccion": "¿Cómo es ella físicamente? — Es alta, de pelo corto y rubio.",
+      "errores_tipicos": {
+        "is | look": "La pregunta de aspecto es un bloque fijo con does: What does she look like?",
+        "does | looks": "Después de does, look va sin -s: la -s ya la «lleva» does.",
+        "is | like": "Así preguntarías por el carácter, y la respuesta habla del aspecto (tall, short blond hair)."
+      },
+      "pistas": [
+        "Recuerda el bloque fijo para preguntar por el aspecto.",
+        "La respuesta habla de estatura y pelo: necesitas el verbo look.",
+        "Regla: para el aspecto: What + auxiliar de presente simple + sujeto + verbo base + like?, como en What do they look like?"
+      ],
+      "solucion": { "respuesta": "does · look", "explicacion": "La respuesta es What does she look like? La respuesta describe el aspecto (tall, short blond hair), así que se usa el bloque fijo con does y look. Look va sin -s porque does ya marca la tercera persona." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la descripción correcta.",
+      "pregunta": "«Es una mujer alta de pelo largo y oscuro.»",
+      "opciones": [
+        { "texto": "She's a tall woman with long dark hair.", "correcta": true, "porque": "Correcto: tall antes de woman, with + adjetivos + hair, sin artículo ni -s." },
+        { "texto": "She's a woman tall with hair long dark.", "correcta": false, "porque": "Los adjetivos van antes del sustantivo: a tall woman, long dark hair." },
+        { "texto": "She's a tall woman with a long dark hair.", "correcta": false, "porque": "Hair (cabello) es incontable: no lleva a." },
+        { "texto": "She's a tall woman with long dark hairs.", "correcta": false, "porque": "Hairs son pelos sueltos. El cabello en general es hair, sin -s." }
+      ],
+      "pistas": [
+        "Recuerda la posición del adjetivo y cómo funciona hair.",
+        "Revisa el grupo que empieza con with en cada opción.",
+        "Regla: a + adjetivo + sustantivo; with + adjetivos + hair (sin a y sin -s)."
+      ],
+      "solucion": { "respuesta": "She's a tall woman with long dark hair.", "explicacion": "La respuesta correcta es la primera: tall va delante de woman, y long dark va delante de hair. Hair es incontable, así que no lleva a ni -s." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas.",
+      "fichas": [ "He's", "a", "young", "man", "with", "a", "beard" ],
+      "respuestas": [ "He's a young man with a beard" ],
+      "traduccion": "Es un hombre joven con barba.",
+      "pistas": [
+        "Recuerda que with añade un rasgo después de la persona.",
+        "Forma primero el grupo a + adjetivo + man.",
+        "Orden: sujeto con be + a + adjetivo + sustantivo + with + a + rasgo contable."
+      ],
+      "solucion": { "respuesta": "He's a young man with a beard.", "explicacion": "Primero la persona con su adjetivo (a young man) y después el rasgo con with (with a beard). Beard sí es contable, por eso lleva a, a diferencia de hair." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un falso amigo. Señálalo y corrígelo.",
+      "frase": "Omar is very sympathetic. He's friendly and funny.",
+      "error": "sympathetic",
+      "correcciones": [ "nice", "friendly", "likeable", "likable", "pleasant" ],
+      "frase_correcta": "Omar is very nice. He's friendly and funny.",
+      "pistas": [
+        "Recuerda los falsos amigos de la lección.",
+        "La segunda oración describe a alguien agradable y gracioso: ¿qué palabra de la primera no encaja?",
+        "Regla: sympathetic es un falso amigo: significa comprensivo; «simpático» se dice con otro adjetivo muy común."
+      ],
+      "solucion": { "respuesta": "sympathetic → nice", "explicacion": "El error es sympathetic, que significa «comprensivo, compasivo», no «simpático». Para «simpático» se usa nice (o friendly, likeable)." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la pregunta que corresponde a esta respuesta sobre Lucía. Usa she.",
+      "origen": "She's friendly and very funny.",
+      "instruccion": "Pregunta con What",
+      "respuestas": [ "What's she like?" ],
+      "errores_tipicos": {
+        "What does she look like?": "Esa pregunta pide el aspecto físico, y la respuesta habla de personalidad (friendly, funny).",
+        "How is she?": "How is she? significa «¿cómo está?». Para el carácter se usa What's she like?",
+        "What does she like?": "Eso significa «¿Qué le gusta?». Para el carácter: What's she like?"
+      },
+      "pistas": [
+        "Recuerda la pregunta que pide la personalidad.",
+        "Friendly y funny son adjetivos de carácter, no de aspecto.",
+        "Regla: para preguntar por el carácter: What + be + sujeto + like? (como en What's your boss like?)."
+      ],
+      "solucion": { "respuesta": "What's she like?", "explicacion": "La respuesta habla del carácter (friendly, funny), así que la pregunta es What's she like? (o What is she like?). What does she look like? pediría el aspecto y How is she? el estado." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.09",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Haz que does suene débil.",
+      "texto": "What does he look like?",
+      "ipa": "/wʌt dəz i lʊk laɪk/",
+      "consejo": "Los golpes fuertes caen en WHAT, LOOK y LIKE; does y he casi se pierden: «UAT-dəz-i-LUK-LAIK». Look tiene una u corta (/ʊ/); like tiene «ai». Las dos k finales se oyen, pero sin añadir vocal detrás.",
+      "es": "¿Cómo es él físicamente?"
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la descripción.",
+      "texto": "She's quite short, with long straight black hair.",
+      "audio": true,
+      "pistas": [
+        "Recuerda la estructura be + adjetivo + with + rasgo.",
+        "Hay tres adjetivos antes de hair: longitud, forma y color.",
+        "Regla: be + quite + adjetivo; luego with + adjetivos de longitud, forma y color + hair (sin a)."
+      ],
+      "solucion": { "respuesta": "She's quite short, with long straight black hair.", "explicacion": "La descripción usa be + quite short para la estatura y with para el pelo. Los tres adjetivos van en el orden longitud (long) → forma (straight) → color (black), y hair va sin a ni -s." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa with para la barba.",
+      "es": "Mi hermano es alto y delgado, con barba.",
+      "respuestas": [ "My brother is tall and thin, with a beard.", "My brother is tall and slim, with a beard." ],
+      "errores_tipicos": {
+        "My brother is tall and thin, with beard.": "Beard es contable: with a beard.",
+        "My brother is tall and thin, with a bird.": "Bird es «pájaro». Barba es beard.",
+        "My brother is tall and thin with the beard.": "Al describir se usa a: with a beard. With the beard sirve para identificar (the man with the beard)."
+      },
+      "pistas": [
+        "Recuerda: be para estatura y complexión, with para los rasgos.",
+        "Barba = beard. ¿Es contable como hair o no?",
+        "Estructura: sujeto + be + dos adjetivos unidos con and + with + a + sustantivo contable."
+      ],
+      "solucion": { "respuesta": "My brother is tall and thin, with a beard.", "explicacion": "La estatura y la complexión van con be (is tall and thin; también slim). La barba se añade con with, y como beard es contable lleva a." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa It's y pretty para «bonito».",
+      "es": "Es un vestido rojo muy bonito.",
+      "respuestas": [ "It's a very pretty red dress." ],
+      "errores_tipicos": {
+        "It's a red very pretty dress.": "La opinión (very pretty) va antes que el color (red).",
+        "It's a very pretty dress red.": "Todos los adjetivos van antes del sustantivo.",
+        "It's a red dress very pretty.": "Es el orden del español. En inglés: a very pretty red dress."
+      },
+      "pistas": [
+        "Recuerda el orden cuando hay varios adjetivos: opinión, tamaño, edad, color.",
+        "Very va pegado a su adjetivo (pretty), y el grupo entero va antes de dress.",
+        "Orden: artículo + very + adjetivo de opinión + adjetivo de color + sustantivo (como en a very nice blue car)."
+      ],
+      "solucion": { "respuesta": "It's a very pretty red dress.", "explicacion": "Los dos adjetivos van antes de dress. La opinión (very pretty) va antes que el color (red), y very se queda pegado a pretty." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Llegas a recoger a tu hijo a la escuela. El maestro que lo entrega hoy es nuevo y no lo conoce.",
+      "lineas": [
+        { "quien": "Maestro", "en": "Sorry, what does your son look like?", "es": "Perdone, ¿cómo es su hijo físicamente?" }
+      ],
+      "opciones": [
+        { "texto": "He's small, with short brown hair and glasses.", "correcta": true, "porque": "Correcto: responde al aspecto con be + adjetivo y with para los rasgos." },
+        { "texto": "He's very friendly and funny.", "correcta": false, "porque": "Eso describe su carácter (What's he like?), no su aspecto. Al maestro no le sirve para reconocerlo." },
+        { "texto": "He's fine, thanks.", "correcta": false, "porque": "Esa es la respuesta a How is he? (¿cómo está?)." },
+        { "texto": "He's small, with a short brown hair and glasses.", "correcta": false, "porque": "Hair es incontable: with short brown hair, sin a." }
+      ],
+      "pistas": [
+        "Recuerda qué pide What does… look like?",
+        "Descarta las respuestas que hablan de carácter o de salud.",
+        "Aspecto = be + adjetivo, with + adjetivos + hair (sin a)."
+      ],
+      "solucion": { "respuesta": "He's small, with short brown hair and glasses.", "explicacion": "El maestro pregunta por el aspecto (look like), así que la respuesta describe estatura, pelo y lentes. Hair no lleva a porque es incontable. Las otras opciones hablan de carácter o de estado, o tienen un error con hair." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.describir-personas.14",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe a una persona que conoces bien.",
+      "objetivo": "Describir aspecto y carácter con be, with y adjetivos bien colocados.",
+      "instrucciones": "Escribe 5–8 oraciones sobre un amigo, un familiar o un compañero. Primero di quién es; luego su aspecto (estatura, edad, pelo, ojos u otros rasgos con with) y después su carácter, graduando con very o quite. Termina con una oración que empiece por But… para un rasgo menos positivo (usa not very o too).",
+      "vocabulario_apoyo": [ "tall", "short", "slim", "young", "about 30", "long / short hair", "curly", "straight", "dark", "blond", "glasses", "a beard", "friendly", "kind", "funny", "shy", "serious", "hard-working", "polite", "lazy" ],
+      "estructuras": [ "This is my… / My friend … is …", "He's / She's + adjetivo, with + … hair.", "He's / She's very / quite + adjetivo de carácter.", "But he's / she's not very… / too…" ],
+      "ejemplo": "My neighbor Ben is about 70. He's short and thin, with gray hair and a white beard. He's very kind and quite funny. But he's too talkative in the morning!",
+      "min_palabras": 40,
+      "comprobaciones": [
+        { "descripcion": "Usas with para un rasgo físico", "patron": "\\bwith\\b" },
+        { "descripcion": "Mencionas el pelo, los ojos, la barba o los lentes", "patron": "\\b(hair|eyes|beard|mustache|glasses)\\b" },
+        { "descripcion": "Gradúas con very o quite", "patron": "\\b(very|quite)\\b" },
+        { "descripcion": "Usas he's, she's, he is o she is", "patron": "\\b(he's|she's|he is|she is)\\b" }
+      ],
+      "criterios": [
+        "¿Todos los adjetivos van antes del sustantivo o después de be?",
+        "¿Hair va sin a y sin -s?",
+        "¿La edad va con be (She's 30), no con have?",
+        "¿Usaste too solo para algo negativo?",
+        "¿Evitaste sympathetic y educated con el sentido del español?"
+      ],
+      "modelo": "This is my friend Aisha. She's about 25. She's quite tall and slim, with long curly black hair and big brown eyes. She's very friendly and funny, and she's very hard-working too. She's a nurse. But she's not very patient in the car!",
+      "explicacion": "El modelo va de lo general a lo concreto: quién es, edad (con be), aspecto con be + adjetivos y with para pelo y ojos (long curly black hair: longitud, forma, color), y después el carácter graduado con quite y very. El too de «very hard-working too» es el «también» del final de la oración. Cierra con un rasgo menos positivo suavizado con not very.",
+      "errores_comunes": [
+        "She has 25 years (la edad va con be).",
+        "with a long hair / with long hairs.",
+        "She's very sympathetic (quieres decir nice).",
+        "Usar too para elogiar: She's too pretty."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Recoger a un desconocido",
+    "contexto": "Un compañero de trabajo, Tom, va a recoger a tu primo Diego a la estación de autobuses, pero no lo conoce. Tom te llama.",
+    "dialogo": [
+      { "quien": "Tom", "en": "Hi! I'm at the bus station. What does your cousin look like?", "es": "¡Hola! Estoy en la estación. ¿Cómo es tu primo físicamente?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Tom", "en": "OK. And what's he like? Is he talkative?", "es": "Bien. ¿Y cómo es de carácter? ¿Es platicador?" },
+      { "quien": "Tú", "en": "…", "es": "…" }
+    ],
+    "tu_turno": "Contesta las dos preguntas: primero el aspecto (estatura, edad, pelo, algún rasgo con with) y después el carácter, con very o quite.",
+    "modelo": "He's about 20. He's tall and thin, with short curly hair and glasses. … He's very friendly, but he's quite shy with new people.",
+    "alternativas": [ "He's medium height, with a beard and long straight hair. … No, he's quite quiet, but he's very nice.", "He's short and strong, with dark hair. … Yes, he's very talkative and funny." ],
+    "claves": [ "Aspecto: be + adjetivo, with + rasgos.", "Carácter: be + very/quite + adjetivo.", "Hair sin a ni -s." ]
+  },
+  "resumen": {
+    "esencial": [
+      "What's she like? = carácter. What does she look like? = aspecto. How is she? = cómo está.",
+      "Aspecto: She's tall, with long dark hair. He's a man with a beard.",
+      "Hair es incontable: with long hair (sin a, sin -s).",
+      "Varios adjetivos: opinión → tamaño → edad → color → material → sustantivo."
+    ],
+    "recuerda": [
+      "En What's she like?, like no es «gustar».",
+      "Sympathetic = comprensivo; educated = con estudios. Simpático = nice; educado = polite.",
+      "La edad con be: She's 30.",
+      "Mejor evitar fat y old al describir personas."
+    ]
+  },
+  "repaso": [
+    { "id": "adjetivos-y-descripciones.describir-personas.r1", "frente": "¿Cómo preguntas por el carácter de Tom? ¿Y por su aspecto?", "reverso": "What's Tom like? / What does Tom look like?" },
+    { "id": "adjetivos-y-descripciones.describir-personas.r2", "frente": "«Es alta, de pelo largo y rizado.»", "reverso": "She's tall, with long curly hair.", "nota": "Hair sin a ni -s; longitud antes que forma." },
+    { "id": "adjetivos-y-descripciones.describir-personas.r3", "frente": "¿Cómo se dice «simpático»? ¿Y «educado»?", "reverso": "nice / friendly · polite", "nota": "No sympathetic ni educated." },
+    { "id": "adjetivos-y-descripciones.describir-personas.r4", "frente": "Ordena: bag / black / small / a", "reverso": "a small black bag (tamaño → color)." },
+    { "id": "adjetivos-y-descripciones.describir-personas.r5", "frente": "¿Qué pregunta How is she?", "reverso": "Cómo está (salud, ánimo), no cómo es." }
+  ]
+}

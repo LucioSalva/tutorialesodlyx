@@ -1,0 +1,1115 @@
+{
+  "slug": "was-were-afirmativo",
+  "titulo": "Was y were",
+  "minutos": 40,
+  "objetivos": [
+    "Elegir was o were según el sujeto de la oración.",
+    "Usar was / were para decir dónde estabas, cómo era algo, qué edad tenías y qué tiempo hacía.",
+    "Traducir era, fue, estaba y estuvo con una sola palabra inglesa, sin calcar el español."
+  ],
+  "situacion": {
+    "titulo": "Lunes por la mañana en la oficina",
+    "texto": "Ana y Tom trabajan juntos. Es lunes y se cuentan qué tal estuvo el fin de semana. Fíjate en que todo lo que dicen sobre el sábado y el domingo usa was o were: nunca is ni are, porque ya pasó.",
+    "dialogo": [
+      {
+        "quien": "Ana",
+        "en": "Hi, Tom! How was your weekend?",
+        "es": "¡Hola, Tom! ¿Qué tal tu fin de semana?"
+      },
+      {
+        "quien": "Tom",
+        "en": "It was great! I was in Oaxaca with my sister.",
+        "es": "¡Estuvo genial! Estuve en Oaxaca con mi hermana."
+      },
+      {
+        "quien": "Ana",
+        "en": "Oh, nice! My parents were there last year.",
+        "es": "¡Qué padre! Mis papás estuvieron ahí el año pasado."
+      },
+      {
+        "quien": "Tom",
+        "en": "The food was amazing, and the people were very friendly.",
+        "es": "La comida estuvo increíble y la gente fue muy amable."
+      },
+      {
+        "quien": "Ana",
+        "en": "I was at home all weekend. I was sick.",
+        "es": "Yo estuve en casa todo el fin de semana. Estaba enferma."
+      },
+      {
+        "quien": "Tom",
+        "en": "Oh no! I'm sorry.",
+        "es": "¡Ay, no! Lo siento."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formas-was-were",
+      "titulo": "Dos formas para el pasado de be: was y were",
+      "que_es": "[[Was]] y [[were]] son el pasado del verbo [[be]] (ser / estar). En presente be tiene tres formas (am, is, are); en pasado solo tiene dos. Son las únicas formas del pasado inglés que cambian según el sujeto: todos los demás verbos en pasado tienen una sola forma para todas las personas.",
+      "para_que": [
+        "Decir dónde estabas: «I was at the gym».",
+        "Describir cómo era algo o alguien: «The house was very old».",
+        "Contar qué tal estuvo algo: «The party was fun».",
+        "Decir tu edad o tu estado en un momento pasado: «I was ten», «We were tired»."
+      ],
+      "como_funciona": "La regla depende solo del sujeto. Con **I, he, she, it** (y cualquier sujeto singular: my mom, the car, Ana) se usa **was**. Con **you, we, they** (y cualquier sujeto plural: my parents, the kids, Tom and I) se usa **were**. Un truco seguro: lo que en presente lleva **am** o **is** pasa a **was**; lo que lleva **are** pasa a **were**. Ojo con **you**: aunque hables con una sola persona, siempre es [[you were]], igual que siempre es [[you are]]. Otra diferencia con el presente: en afirmativo was y were **no se contraen** (no existe «I's» ni «we're» con sentido de pasado); se escriben siempre completos.",
+      "estructuras": [
+        {
+          "etiqueta": "Sujeto singular (I, he, she, it)",
+          "formula": [
+            {
+              "t": "I / he / she / it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the hospital",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi hermana estaba en el hospital."
+        },
+        {
+          "etiqueta": "Sujeto plural y you (you, we, they)",
+          "formula": [
+            {
+              "t": "you / we / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Carlos and I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "very nervous",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Carlos y yo estábamos muy nerviosos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Del presente al pasado",
+          "columnas": [
+            "Sujeto",
+            "Presente",
+            "Pasado",
+            "Ejemplo en pasado"
+          ],
+          "filas": [
+            [
+              "I",
+              "am",
+              "was",
+              "I was at work."
+            ],
+            [
+              "you",
+              "are",
+              "were",
+              "You were right."
+            ],
+            [
+              "he / she / it",
+              "is",
+              "was",
+              "She was happy."
+            ],
+            [
+              "we",
+              "are",
+              "were",
+              "We were late."
+            ],
+            [
+              "they",
+              "are",
+              "were",
+              "They were at school."
+            ]
+          ],
+          "audio": [
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I was at the supermarket.",
+          "es": "Estaba en el súper. / Estuve en el súper.",
+          "situacion": "Alguien te pregunta por qué no contestaste el celular.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the supermarket",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "I lleva was. En español puede ser «estaba» o «estuve»; en inglés no hay que elegir: es was en los dos casos."
+        },
+        {
+          "en": "You were very kind to my son.",
+          "es": "Fuiste muy amable con mi hijo.",
+          "situacion": "Una madre le da las gracias a una vecina.",
+          "partes": [
+            {
+              "t": "You",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "very kind",
+              "rol": "complemento"
+            },
+            {
+              "t": "to my son",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque se habla con UNA persona, you siempre lleva were. «You was» es un error."
+        },
+        {
+          "en": "The hotel was clean and quiet.",
+          "es": "El hotel estaba limpio y era tranquilo.",
+          "partes": [
+            {
+              "t": "The hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "clean and quiet",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "The hotel equivale a it: singular, por eso was. Un solo was cubre «estaba» y «era» a la vez."
+        },
+        {
+          "en": "My brother and I were in the same class.",
+          "es": "Mi hermano y yo estábamos en el mismo salón.",
+          "partes": [
+            {
+              "t": "My brother and I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the same class",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque la última palabra del sujeto es I, el sujeto completo son dos personas (= we), así que va were."
+        },
+        {
+          "en": "The tacos were delicious.",
+          "es": "Los tacos estaban deliciosos.",
+          "partes": [
+            {
+              "t": "The tacos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "delicious",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sujeto plural (= they), por eso were."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Presente: am / is / are",
+          "items": [
+            "I am at home.",
+            "She is tired.",
+            "They are here."
+          ]
+        },
+        "b": {
+          "titulo": "Pasado: was / were",
+          "items": [
+            "I was at home.",
+            "She was tired.",
+            "They were here."
+          ]
+        },
+        "veredicto": "El resto de la oración no cambia: solo cambia el verbo. am e is se convierten en was; are se convierte en were."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Quién lleva was y quién lleva were",
+        "centro": "be en pasado",
+        "ramas": [
+          {
+            "texto": "I was",
+            "detalle": "igual que I am"
+          },
+          {
+            "texto": "he / she / it was",
+            "detalle": "y todo sujeto singular: Ana, the car"
+          },
+          {
+            "texto": "you were",
+            "detalle": "una persona o varias"
+          },
+          {
+            "texto": "we / they were",
+            "detalle": "y todo sujeto plural: my parents, Tom and I"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "was",
+          "ipa": "/wʌz/ · débil /wəz/",
+          "consejo": "La vocal no es una «a» clara: es un sonido corto y relajado, con la boca a medio abrir, como una «a» dicha sin ganas. Dentro de la frase casi desaparece (/wəz/): «I was at home» suena «ai-wəz-at-hóum». Termina en /z/, que zumba como una abeja; no la pronuncies como una «s» seca. En Reino Unido la forma fuerte es /wɒz/, con una «o» breve.",
+          "lento": true
+        },
+        {
+          "texto": "were",
+          "ipa": "/wɝ/ · débil /wɚ/ (GB /wɜː/)",
+          "consejo": "Es una sola sílaba: no digas «ué-re». Redondea los labios para la /w/ y pasa directamente a una vocal neutra con la lengua recogida hacia atrás, como si fueras a decir la «r» inglesa de her. En inglés británico no se oye la r: /wɜː/.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "They was at the park.",
+          "bien": "They were at the park.",
+          "porque": "They es plural: siempre lleva were. Was es solo para I, he, she, it y sujetos singulares."
+        },
+        {
+          "mal": "You was great!",
+          "bien": "You were great!",
+          "porque": "You lleva were aunque hables con una sola persona, igual que en presente dices you are y no «you is»."
+        },
+        {
+          "mal": "I were very happy.",
+          "bien": "I was very happy.",
+          "porque": "Con I el pasado es was (porque en presente es I am). Hay una construcción especial, «If I were you», que verás más adelante; en oraciones normales, I was."
+        },
+        {
+          "mal": "Was very cold.",
+          "bien": "It was very cold.",
+          "porque": "En inglés toda oración necesita sujeto. En español «Hacía mucho frío» no lo tiene, pero en inglés hace falta un it que no se traduce."
+        }
+      ],
+      "nota": {
+        "titulo": "Sin contracción en afirmativo",
+        "texto": "En presente dices I'm o they're, pero en pasado afirmativo no hay contracción: I was, they were, siempre completos. Las contracciones de was y were solo aparecen en negativo (wasn't, weren't), que verás en la próxima lección.",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "usos-was-were",
+      "titulo": "Una palabra inglesa para era, fue, estaba y estuvo",
+      "que_es": "En español el pasado de «ser» y «estar» tiene cuatro formas muy usadas: era, fue, estaba, estuvo. En inglés todas se dicen con **was** o **were**. Además, varias ideas que en español se dicen con «tener» o «hacer» (tener diez años, tener hambre, hacer frío) en inglés se dicen con be, y por tanto en pasado con was / were.",
+      "para_que": [
+        "Hablar de tu infancia: «I was a quiet child».",
+        "Decir qué tiempo hizo: «It was sunny».",
+        "Contar cómo te sentías: «We were hungry».",
+        "Dar tu opinión sobre algo que ya pasó: «The movie was boring»."
+      ],
+      "como_funciona": "No busques en inglés la diferencia entre era y fue o entre estaba y estuvo: no existe con este verbo. Piensa solo en dos cosas: **¿el sujeto es singular o plural?** (was / were) y **¿qué viene después?** Después de was / were puede ir un sustantivo (a teacher), un adjetivo (tired, cold), un lugar (at home, in Mérida) o una edad (ten, 25). Casos que el español dice con otro verbo: la **edad** (tenía 10 años → I was ten), las **sensaciones** (tenía hambre / frío / miedo → I was hungry / cold / scared) y el **clima** (hacía calor → it was hot). Para situar la oración en el tiempo puedes usar estas expresiones, que verás a fondo más adelante: [[yesterday]] (ayer), [[last night]] (anoche), [[last week]] (la semana pasada), [[last year]] (el año pasado), [[in 2015]] (en 2015). Normalmente van al final de la oración.",
+      "estructuras": [
+        {
+          "etiqueta": "Estado o lugar + momento",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was / were",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo / lugar",
+              "rol": "complemento"
+            },
+            {
+              "t": "cuándo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the stadium",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Anoche estuvimos en el estadio."
+        },
+        {
+          "etiqueta": "Clima (con it)",
+          "formula": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "hot / cold / sunny…",
+              "rol": "complemento"
+            },
+            {
+              "t": "cuándo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "very windy",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Ayer hizo mucho viento."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Lo que en español se dice con otros verbos",
+          "columnas": [
+            "En español",
+            "En inglés",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "era / fue (identidad, profesión)",
+              "was / were + sustantivo",
+              "My grandfather was a baker."
+            ],
+            [
+              "estaba / estuvo (lugar)",
+              "was / were + lugar",
+              "The keys were in my bag."
+            ],
+            [
+              "tenía … años",
+              "was / were + número",
+              "I was ten in that photo."
+            ],
+            [
+              "tenía hambre / frío / miedo",
+              "was / were + hungry / cold / scared",
+              "The kids were hungry."
+            ],
+            [
+              "hacía calor / frío / sol",
+              "it was + hot / cold / sunny",
+              "It was sunny last weekend."
+            ],
+            [
+              "estuvo bien / fue aburrido",
+              "was / were + opinión",
+              "The class was boring."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My grandmother was a nurse.",
+          "es": "Mi abuela era enfermera.",
+          "situacion": "Hablas de tu familia.",
+          "partes": [
+            {
+              "t": "My grandmother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a nurse",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Profesión en el pasado: se mantiene el artículo a / an, igual que en presente (She is a nurse)."
+        },
+        {
+          "en": "I was twelve in that photo.",
+          "es": "En esa foto yo tenía doce años.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "twelve",
+              "rol": "complemento"
+            },
+            {
+              "t": "in that photo",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La edad va con be: «tenía doce años» es I was twelve (o I was twelve years old), nunca «I had twelve years»."
+        },
+        {
+          "en": "We were very hungry after the game.",
+          "es": "Teníamos mucha hambre después del partido.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "very hungry",
+              "rol": "complemento"
+            },
+            {
+              "t": "after the game",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Hungry es un adjetivo («hambriento»), por eso va con be: we were hungry. Lo mismo con cold, thirsty, scared, sleepy."
+        },
+        {
+          "en": "It was hot yesterday.",
+          "es": "Ayer hizo calor.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "hot",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "El clima usa it + be + adjetivo. Ni «made hot» (calco de «hizo») ni «was hot» sin sujeto."
+        },
+        {
+          "en": "The concert was amazing.",
+          "es": "El concierto estuvo increíble.",
+          "partes": [
+            {
+              "t": "The concert",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "amazing",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para opinar sobre algo que ya pasó: «estuvo increíble», «fue aburrido», «estuvo padre» → was + adjetivo."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Was y were sitúan estados en el pasado",
+        "marcas": [
+          {
+            "pos": 0.12,
+            "texto": "in 2015: I was ten",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.45,
+            "texto": "last week: we were in Oaxaca",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.7,
+            "texto": "yesterday: it was hot",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.9,
+        "pie": "Todo lo que queda a la izquierda de «ahora» ya pasó: ahí am / is / are se convierten en was / were."
+      },
+      "pronunciacion": [
+        {
+          "texto": "yesterday",
+          "ipa": "/ˈjɛstɚdeɪ/",
+          "consejo": "El acento va en la primera sílaba: YES-ter-day. La «y» inicial es como la «y» de «yeso», suave y sin vibrar; la sílaba del medio es muy débil y con la lengua recogida para la r; el final /deɪ/ suena como «dei».",
+          "lento": true
+        },
+        {
+          "texto": "last night",
+          "ipa": "/læst naɪt/ (GB /lɑːst naɪt/)",
+          "consejo": "En la conversación la t de last casi no se oye porque la siguiente palabra empieza por consonante: «lás-nait». La vocal de last en EE. UU. es /æ/: abre mucho la boca, entre una «a» y una «e». La t final de night se corta sin soltar aire."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I had ten years in 2015.",
+          "bien": "I was ten in 2015.",
+          "porque": "La edad se dice con be, no con have. En pasado: I was ten o I was ten years old."
+        },
+        {
+          "mal": "I had cold last night.",
+          "bien": "I was cold last night.",
+          "porque": "«Tener frío» es be cold: cold es un adjetivo y se une al sujeto con be. «I had a cold» significa otra cosa: «tenía un resfriado»."
+        },
+        {
+          "mal": "Made a lot of cold yesterday.",
+          "bien": "It was very cold yesterday.",
+          "porque": "El clima no usa make («hacer»): se dice it + be + adjetivo. Y el it es obligatorio."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "was-were.was-were-afirmativo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Mei ___ at the library all afternoon yesterday.",
+      "opciones": [
+        {
+          "texto": "was",
+          "correcta": true,
+          "porque": "Mei es una sola persona (= she) y la oración habla de ayer: pasado con sujeto singular → was."
+        },
+        {
+          "texto": "were",
+          "correcta": false,
+          "porque": "Were es para you, we, they y sujetos plurales. Mei es singular."
+        },
+        {
+          "texto": "is",
+          "correcta": false,
+          "porque": "Is es presente, pero yesterday sitúa la oración en el pasado."
+        }
+      ],
+      "pistas": [
+        "El pasado de be tiene dos formas: was y were.",
+        "Mira el sujeto: ¿Mei es una persona o varias? Y mira la palabra del final.",
+        "Con sujetos singulares (I, he, she, it) el pasado de be es was; yesterday obliga a usar pasado."
+      ],
+      "solucion": {
+        "respuesta": "was",
+        "explicacion": "La respuesta correcta es was porque Mei equivale a she, un sujeto singular, y yesterday indica pasado. En presente sería is; en pasado, was."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.was-were-afirmativo.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con su traducción natural.",
+      "pares": [
+        {
+          "a": "The movie was very long.",
+          "b": "La película estuvo muy larga."
+        },
+        {
+          "a": "My grandfather was a teacher.",
+          "b": "Mi abuelo era maestro."
+        },
+        {
+          "a": "The kids were hungry.",
+          "b": "Los niños tenían hambre."
+        },
+        {
+          "a": "I was nine in that photo.",
+          "b": "En esa foto yo tenía nueve años."
+        },
+        {
+          "a": "It was cold last night.",
+          "b": "Anoche hizo frío."
+        },
+        {
+          "a": "We were at home.",
+          "b": "Estábamos en casa."
+        }
+      ],
+      "pistas": [
+        "Was y were pueden traducirse como era, fue, estaba, estuvo… y también con tener o hacer.",
+        "Busca primero las oraciones con una palabra clave fácil: hungry, cold, nine, teacher.",
+        "Edad y sensaciones (hungry, cold) se dicen con be en inglés y con «tener» en español; el clima, con «hacer»."
+      ],
+      "solucion": {
+        "respuesta": "long → estuvo larga · teacher → era maestro · hungry → tenían hambre · nine → tenía nueve años · cold last night → anoche hizo frío · at home → estábamos en casa",
+        "explicacion": "Todas usan was o were, pero el español necesita verbos distintos: «estuvo» para una opinión sobre algo terminado, «era» para una profesión, «tenían hambre» y «tenía nueve años» porque en español esas ideas van con tener, «hizo frío» porque el clima va con hacer, y «estábamos» para un lugar."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con was o were.",
+      "frase": "I ___ very tired, but my friends ___ full of energy.",
+      "traduccion": "Yo estaba muy cansado, pero mis amigos estaban llenos de energía.",
+      "banco": [
+        "was",
+        "were"
+      ],
+      "respuestas": [
+        [
+          "was"
+        ],
+        [
+          "were"
+        ]
+      ],
+      "errores_tipicos": {
+        "were | were": "El primer hueco tiene como sujeto I: con I el pasado de be es was (como I am en presente).",
+        "was | was": "El segundo sujeto es my friends, plural (= they): lleva were."
+      },
+      "pistas": [
+        "Hay dos sujetos distintos: cada uno decide su propia forma.",
+        "El primer sujeto es I; el segundo es my friends.",
+        "I, he, she, it → was; you, we, they y sujetos plurales → were."
+      ],
+      "solucion": {
+        "respuesta": "was · were",
+        "explicacion": "El primer hueco es was porque el sujeto es I (en presente sería I am → pasado was). El segundo es were porque my friends es plural, equivale a they (they are → they were)."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa el mensaje con was o were.",
+      "frase": "My brother and I ___ at the concert. The music ___ great and the people ___ really friendly. You ___ there too, right?",
+      "traduccion": "Mi hermano y yo estuvimos en el concierto. La música estuvo genial y la gente fue muy amable. Tú también estuviste ahí, ¿verdad?",
+      "respuestas": [
+        [
+          "were"
+        ],
+        [
+          "was"
+        ],
+        [
+          "were"
+        ],
+        [
+          "were"
+        ]
+      ],
+      "errores_tipicos": {
+        "was | was | were | were": "El primer sujeto es my brother and I: son dos personas (= we), así que va were, aunque la última palabra sea I.",
+        "were | was | was | were": "The people es plural en inglés (people = personas): lleva were. En español «la gente» es singular, pero en inglés no.",
+        "were | was | were | was": "You siempre lleva were, aunque hables con una sola persona."
+      },
+      "pistas": [
+        "Cada hueco tiene su propio sujeto; localízalos antes de escribir.",
+        "Cuidado con tres sujetos engañosos: my brother and I, the people y you.",
+        "Sujeto singular (I, he, she, it) → was; plural (we, you, they) → were. Ojo: dos personas unidas con and cuentan como plural, people es plural en inglés y you usa siempre la forma plural, aunque sea una sola persona."
+      ],
+      "solucion": {
+        "respuesta": "were · was · were · were",
+        "explicacion": "My brother and I son dos personas (we) → were. The music es singular (it) → was. The people es plural en inglés, aunque «la gente» sea singular en español → were. You siempre lleva were, sea una persona o varias."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al pasado. Cambia solo el verbo.",
+      "origen": "The streets are very quiet.",
+      "instruccion": "Pasado",
+      "respuestas": [
+        "The streets were very quiet."
+      ],
+      "errores_tipicos": {
+        "The streets was very quiet.": "The streets es plural (= they): el pasado de are es were, no was."
+      },
+      "pistas": [
+        "En pasado am / is se convierten en una forma y are en otra.",
+        "El verbo de la oración es are, y el sujeto, the streets, es plural.",
+        "En pasado, am e is pasan a la forma singular y are a la forma plural, como en The kids are tired → The kids were tired. El resto de la oración no cambia."
+      ],
+      "solucion": {
+        "respuesta": "The streets were very quiet.",
+        "explicacion": "La respuesta es were porque en presente el verbo es are (sujeto plural, the streets = they), y el pasado de are es were. Lo demás se queda igual."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.was-were-afirmativo.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "was",
+        "My",
+        "grandfather",
+        "a",
+        "taxi",
+        "driver",
+        "in",
+        "1990"
+      ],
+      "respuestas": [
+        "My grandfather was a taxi driver in 1990",
+        "In 1990 my grandfather was a taxi driver"
+      ],
+      "traduccion": "En 1990 mi abuelo era taxista.",
+      "pistas": [
+        "Una oración afirmativa sigue el orden sujeto + verbo + complemento.",
+        "El sujeto tiene dos palabras (My grandfather) y la profesión lleva artículo.",
+        "Sujeto + verbo + artículo + profesión; la expresión de tiempo va al final o al principio, como en My aunt was a nurse in 2005."
+      ],
+      "solucion": {
+        "respuesta": "My grandfather was a taxi driver in 1990.",
+        "explicacion": "Primero el sujeto (my grandfather), luego el verbo (was, porque el sujeto es singular) y después la profesión con su artículo (a taxi driver). In 1990 puede ir al final o al principio: In 1990 my grandfather was a taxi driver también es correcta."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y escribe la corrección.",
+      "frase": "My parents was in Guadalajara last week.",
+      "error": "was",
+      "correcciones": [
+        "were"
+      ],
+      "frase_correcta": "My parents were in Guadalajara last week.",
+      "pistas": [
+        "El verbo en pasado debe concordar con el sujeto.",
+        "¿My parents es una persona o dos?",
+        "Sujeto plural (= they) → were."
+      ],
+      "solucion": {
+        "respuesta": "was → were",
+        "explicacion": "My parents son dos personas, un sujeto plural que equivale a they. En pasado, they lleva were: My parents were in Guadalajara last week."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.08",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate si quieres. Fíjate en que were es una sola sílaba.",
+      "texto": "We were at home.",
+      "ipa": "/wi wɚ ət hoʊm/",
+      "consejo": "Las tres primeras palabras se pegan: «wi-wɚ-ət». Were en medio de la frase es débil y corto; lo que se acentúa es home. No digas «ué-re»: redondea los labios para la /w/ y pasa directo a la vocal con la lengua recogida hacia atrás.",
+      "es": "Estábamos en casa."
+    },
+    {
+      "id": "was-were.was-were-afirmativo.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "It was cold, but the people were very kind.",
+      "pistas": [
+        "Hay dos partes unidas por but y cada una tiene su forma del pasado de be.",
+        "La primera parte habla del clima; la segunda, de la gente.",
+        "Cada parte tiene su propio sujeto: el clima se dice con it y people cuenta como plural en inglés. Elige la forma de be que corresponde a cada uno."
+      ],
+      "solucion": {
+        "respuesta": "It was cold, but the people were very kind.",
+        "explicacion": "La primera parte usa was porque el sujeto es it (el clima). La segunda usa were porque people es plural en inglés. Si escuchaste «was» en la segunda parte, recuerda que were en medio de la frase suena muy débil: /wɚ/."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Esta oración tiene un calco del español. Señala la parte incorrecta y corrígela.",
+      "frase": "In 2010 I had ten years.",
+      "error": "had ten years",
+      "correcciones": [
+        "was ten",
+        "was ten years old"
+      ],
+      "frase_correcta": "In 2010 I was ten.",
+      "pistas": [
+        "En inglés la edad no se «tiene».",
+        "El problema está en el verbo y en lo que lo sigue.",
+        "Edad = be + número (+ years old), como en She was twelve in that photo. Ajusta la forma de be al sujeto de esta oración."
+      ],
+      "solucion": {
+        "respuesta": "had ten years → was ten",
+        "explicacion": "La edad se expresa con be, no con have: I am ten → I was ten (o I was ten years old). «I had ten years» es una traducción literal de «tenía diez años» y un hablante nativo no la usa."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa very.",
+      "es": "Anoche hizo mucho frío.",
+      "respuestas": [
+        "It was very cold last night.",
+        "Last night it was very cold.",
+        "Last night was very cold."
+      ],
+      "errores_tipicos": {
+        "Was very cold last night.": "Falta el sujeto. El clima necesita it: It was very cold last night.",
+        "It made very cold last night.": "El clima no usa make («hacer»): se dice it + was + adjetivo.",
+        "It was very cold yesterday night.": "«Anoche» es last night; yesterday night no es natural en inglés."
+      },
+      "pistas": [
+        "El clima en inglés se describe con be + adjetivo, no con «hacer».",
+        "Necesitas un sujeto que en español no aparece, y la palabra para «anoche».",
+        "Sujeto impersonal del clima + pasado de be + very + adjetivo + expresión de tiempo (al final o al principio), como en It was really windy yesterday."
+      ],
+      "solucion": {
+        "respuesta": "It was very cold last night.",
+        "explicacion": "El clima se dice con it + be + adjetivo: it was very cold. El it es obligatorio aunque en español no haya sujeto. «Anoche» es last night, al final o al principio. También vale Last night was very cold, donde el sujeto es la propia noche."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.was-were-afirmativo.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa very y repite el sujeto solo si quieres.",
+      "es": "Tenía hambre y estaba muy cansada.",
+      "respuestas": [
+        "I was hungry and very tired.",
+        "I was hungry and I was very tired."
+      ],
+      "errores_tipicos": {
+        "I had hunger and I was very tired.": "«Tener hambre» es be hungry: I was hungry.",
+        "I had hungry and very tired.": "Hungry es un adjetivo y va con be, no con have: I was hungry.",
+        "Was hungry and very tired.": "Falta el sujeto I: en inglés no se puede omitir."
+      },
+      "pistas": [
+        "Las dos ideas («tener hambre» y «estar cansada») se dicen con el mismo verbo en inglés.",
+        "El sujeto no aparece en español, pero es I. Busca el adjetivo para «hambre».",
+        "Sujeto + pasado de be + adjetivo + and + segundo adjetivo; no hace falta repetir sujeto y verbo, como en She was cold and very sleepy."
+      ],
+      "solucion": {
+        "respuesta": "I was hungry and very tired.",
+        "explicacion": "«Tener hambre» en inglés es be hungry (hungry es adjetivo), y «estar cansada» es be tired. Las dos van con was porque el sujeto es I, que hay que escribir aunque el español lo omita. Puedes repetir I was antes de very tired o no; las dos formas son correctas."
+      }
+    },
+    {
+      "id": "was-were.was-were-afirmativo.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe un lugar donde estuviste en el pasado.",
+      "objetivo": "Describir un lugar, el clima y a las personas de un momento pasado usando was y were.",
+      "instrucciones": "Piensa en un lugar donde estuviste (una fiesta, un viaje, la casa de un familiar, tu primera escuela). Escribe al menos 5 oraciones: dónde estabas, con quién, cómo era el lugar, qué tiempo hacía y cómo estaba la gente. Usa was y were; no necesitas otros verbos en pasado.",
+      "vocabulario_apoyo": [
+        "small / big",
+        "old / new",
+        "quiet / noisy",
+        "hot / cold / sunny",
+        "friendly",
+        "happy / tired",
+        "beautiful",
+        "delicious"
+      ],
+      "estructuras": [
+        "I was at / in …",
+        "It was + clima",
+        "The house / The city was …",
+        "The people were …",
+        "My friends and I were …"
+      ],
+      "ejemplo": "Last year I was at my cousin's wedding in Puebla. The church was very old and beautiful. It was sunny and hot. The music was loud and the guests were very happy.",
+      "min_palabras": 35,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas was al menos una vez",
+          "patron": "\\bwas\\b"
+        },
+        {
+          "descripcion": "Usas were al menos una vez",
+          "patron": "\\bwere\\b"
+        },
+        {
+          "descripcion": "Describes el clima con It was",
+          "patron": "\\bit was\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto (I, it, the people…)?",
+        "¿Usaste was con I, he, she, it y sujetos singulares, y were con you, we, they y plurales?",
+        "¿Escribiste people con were?",
+        "¿El clima va con It was, sin «made»?"
+      ],
+      "modelo": "When I was a child, I was often at my grandparents' house in Veracruz. The house was small but very comfortable. It was always hot and sunny there. My grandparents were very kind, and the neighbors were friendly too. The food was delicious and the beach was near the house. I was very happy there.",
+      "explicacion": "El modelo usa was con I, the house, it, the food y the beach (todos singulares), y were con my grandparents y the neighbors (plurales). El clima va con It was. When I was a child sitúa todo en el pasado desde la primera oración. Cada oración tiene sujeto, incluso las que en español no lo tendrían (It was always hot).",
+      "errores_comunes": [
+        "Escribir «The people was»: people es plural → were.",
+        "Omitir it en el clima: «Was hot» → It was hot.",
+        "Mezclar presente y pasado: «The house is small» cuando hablas de algo pasado → The house was small."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Dónde estabas ayer?",
+    "contexto": "Un compañero de clase, Diego, te escribe porque ayer no fuiste a la clase de inglés.",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Hey! Where were you yesterday? You were on the list, but your chair was empty!",
+        "es": "¡Oye! ¿Dónde estabas ayer? Estabas en la lista, ¡pero tu silla estaba vacía!"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Diego",
+        "en": "Oh, OK. The class was fun. We were in groups all afternoon.",
+        "es": "Ah, ok. La clase estuvo divertida. Estuvimos en grupos toda la tarde."
+      }
+    ],
+    "tu_turno": "Contesta a Diego con dos o tres oraciones: dónde estabas, con quién y cómo estabas o cómo fue (usa was / were).",
+    "modelo": "I was at the dentist with my mom. It was a long appointment, and I was very tired after that.",
+    "alternativas": [
+      "I was sick. I was at home all day.",
+      "I was at work. My boss and I were very busy.",
+      "My sister and I were at the airport. Our cousins were back from Canada."
+    ],
+    "claves": [
+      "I was + lugar (at home, at work, at the dentist).",
+      "Sujetos dobles (my mom and I) → were.",
+      "Estados: I was tired / sick / busy."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Was y were son el pasado de be (ser / estar).",
+      "I, he, she, it y sujetos singulares → was. You, we, they y sujetos plurales → were.",
+      "Am / is → was; are → were. El resto de la oración no cambia.",
+      "Una sola palabra inglesa cubre era, fue, estaba y estuvo.",
+      "Edad, sensaciones y clima también van con be: I was ten, we were hungry, it was cold."
+    ],
+    "recuerda": [
+      "You siempre lleva were, aunque sea una sola persona.",
+      "People es plural: the people were.",
+      "En afirmativo was y were no se contraen.",
+      "El sujeto es obligatorio: It was hot, nunca «Was hot»."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "was-were.was-were-afirmativo.r1",
+      "frente": "¿Was o were con you?",
+      "reverso": "were → You were right.",
+      "nota": "Aunque sea una sola persona."
+    },
+    {
+      "id": "was-were.was-were-afirmativo.r2",
+      "frente": "¿Cómo se dice «Tenía doce años»?",
+      "reverso": "I was twelve (years old).",
+      "nota": "La edad va con be, no con have."
+    },
+    {
+      "id": "was-were.was-were-afirmativo.r3",
+      "frente": "Pasa a pasado: My friends are at the park.",
+      "reverso": "My friends were at the park.",
+      "nota": "Are → were."
+    },
+    {
+      "id": "was-were.was-were-afirmativo.r4",
+      "frente": "¿Cómo se dice «Ayer hizo calor»?",
+      "reverso": "It was hot yesterday.",
+      "nota": "Clima = it + be + adjetivo."
+    },
+    {
+      "id": "was-were.was-were-afirmativo.r5",
+      "frente": "¿Was o were con the people?",
+      "reverso": "were → The people were friendly.",
+      "nota": "People es plural en inglés."
+    }
+  ]
+}

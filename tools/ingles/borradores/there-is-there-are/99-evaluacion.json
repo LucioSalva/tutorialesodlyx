@@ -1,0 +1,571 @@
+{
+  "titulo": "Evaluación: there is / there are y lugares",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "there-is-there-are.eval.01",
+      "leccion": "there-is-there-are-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "___ some bread on the table.",
+      "opciones": [
+        {
+          "texto": "There's",
+          "correcta": true,
+          "porque": "Correcto: bread es incontable, así que va con is (there's) y some."
+        },
+        {
+          "texto": "There are",
+          "correcta": false,
+          "porque": "Bread es incontable: no tiene plural y el verbo va en singular."
+        },
+        {
+          "texto": "It's",
+          "correcta": false,
+          "porque": "It's describe algo ya conocido; para decir que algo existe en un lugar se usa there's."
+        },
+        {
+          "texto": "Have",
+          "correcta": false,
+          "porque": "Have es «tener», no «hay»."
+        }
+      ],
+      "pistas": [
+        "¿Bread se cuenta o no se cuenta?",
+        "Los incontables van con el verbo en singular.",
+        "Incontable → there is / there's + some."
+      ],
+      "solucion": {
+        "respuesta": "There's",
+        "explicacion": "Bread (pan) es incontable en inglés: no se dice «two breads». Por eso el «hay» es there is (there's), con some delante."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.02",
+      "leccion": "there-is-there-are-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con is o are.",
+      "frase": "There ___ three students and a teacher in the classroom.",
+      "respuestas": [
+        [
+          "are"
+        ]
+      ],
+      "errores_tipicos": {
+        "is": "El primer elemento de la lista es three students (plural): there are."
+      },
+      "pistas": [
+        "En una lista, ¿con qué elemento concuerda el verbo?",
+        "Mira lo primero que aparece después del hueco.",
+        "Regla: be concuerda con el primer elemento de la lista."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "La respuesta es are porque el primer elemento de la lista, three students, es plural. Si la lista empezara con a teacher, lo natural sería there's."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.03",
+      "leccion": "there-is-there-are-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Their is a new café on my street.",
+      "error": "Their",
+      "correcciones": [
+        "There"
+      ],
+      "frase_correcta": "There is a new café on my street.",
+      "pistas": [
+        "Hay palabras que suenan igual y se escriben distinto.",
+        "La frase quiere decir «hay un café nuevo».",
+        "Regla: their es un posesivo; para «hay» se usa la palabra que suena igual y va seguida de is/are."
+      ],
+      "solucion": {
+        "respuesta": "Their → There",
+        "explicacion": "La corrección es There: la oración significa «hay un café nuevo». Their (su, de ellos) suena igual pero es un posesivo y necesita un sustantivo detrás."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.04",
+      "leccion": "there-is-there-are-afirmativo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Mantén el orden de la frase española.",
+      "es": "Hay una mesa y cuatro sillas en el comedor.",
+      "respuestas": [
+        "There is a table and four chairs in the dining room."
+      ],
+      "errores_tipicos": {
+        "There are a table and four chairs in the dining room": "La lista empieza con a table (singular): there's.",
+        "Have a table and four chairs in the dining room": "Have es «tener»; «hay» = there is."
+      },
+      "pistas": [
+        "«Hay» + lista.",
+        "¿El primer elemento es singular o plural?",
+        "Regla: con una lista, be concuerda con el primer elemento; el lugar va al final."
+      ],
+      "solucion": {
+        "respuesta": "There's a table and four chairs in the dining room.",
+        "explicacion": "El verbo concuerda con el primer elemento, a table, que es singular: there's (there is). El comedor es the dining room."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.05",
+      "leccion": "there-is-there-are-afirmativo",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "There are some flowers in the garden. They're beautiful.",
+      "pistas": [
+        "Dos oraciones: la primera presenta algo, la segunda lo describe.",
+        "La segunda empieza con una palabra que suena igual que there.",
+        "Regla: la primera oración indica existencia; la segunda empieza con pronombre + be contraído (con apóstrofo)."
+      ],
+      "solucion": {
+        "respuesta": "There are some flowers in the garden. They're beautiful.",
+        "explicacion": "There are presenta las flores (plural). En la segunda oración ya se describen, por eso es they're (they are), que suena igual que there pero se escribe distinto."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.06",
+      "leccion": "there-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "There's a TV in the bedroom.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "There isn't a TV in the bedroom.",
+        "There's no TV in the bedroom."
+      ],
+      "errores_tipicos": {
+        "There isn't no TV in the bedroom": "Doble negación: usa isn't a o 's no, no las dos.",
+        "There aren't a TV in the bedroom": "A TV es singular: isn't."
+      },
+      "pistas": [
+        "Niega el verbo is.",
+        "A TV es singular: se mantiene a.",
+        "Regla: en negativa, be + not; con un singular contable se mantiene el artículo."
+      ],
+      "solucion": {
+        "respuesta": "There isn't a TV in the bedroom.",
+        "explicacion": "Se niega is → isn't y se mantiene a porque TV es singular contable. También vale There's no TV in the bedroom, pero nunca las dos negaciones juntas."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.07",
+      "leccion": "there-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta y la respuesta corta.",
+      "frase": "Is there ___ milk in the fridge? — No, there ___.",
+      "respuestas": [
+        [
+          "any"
+        ],
+        [
+          "isn't",
+          "is not"
+        ]
+      ],
+      "errores_tipicos": {
+        "some | isn't": "En preguntas normales se usa any, no some.",
+        "a | isn't": "Milk es incontable: no lleva a.",
+        "any | aren't": "Milk es incontable y la pregunta es con is: la respuesta es there isn't."
+      },
+      "pistas": [
+        "Milk no se cuenta.",
+        "Pregunta con incontable → any; la respuesta corta repite el verbo de la pregunta.",
+        "Regla: en preguntas con incontable se usa el cuantificador de preguntas y negaciones; la respuesta corta negativa repite there + be negativo."
+      ],
+      "solucion": {
+        "respuesta": "any · isn't",
+        "explicacion": "Milk es incontable, así que en la pregunta va any (no a). La respuesta corta repite there + el verbo de la pregunta en negativa: No, there isn't."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.08",
+      "leccion": "there-negacion-y-preguntas",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Tu maestra, Grace, quiere saber cuántos alumnos tiene tu grupo. Son quince.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "How many students are there in your group?",
+          "es": "¿Cuántos alumnos hay en tu grupo?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "There are fifteen.",
+          "correcta": true,
+          "porque": "Correcto: a How many… are there? se responde con there are + número."
+        },
+        {
+          "texto": "We are fifteen.",
+          "correcta": false,
+          "porque": "Calco de «somos quince». En inglés se dice there are fifteen (of us)."
+        },
+        {
+          "texto": "There is fifteen.",
+          "correcta": false,
+          "porque": "Fifteen es plural: there are."
+        },
+        {
+          "texto": "They are fifteen students there.",
+          "correcta": false,
+          "porque": "They are significa «ellos son»; para «hay» se necesita there are."
+        }
+      ],
+      "pistas": [
+        "Contesta con la misma estructura de la pregunta.",
+        "La pregunta termina en are there.",
+        "Regla: responde con there + el mismo verbo de la pregunta + número."
+      ],
+      "solucion": {
+        "respuesta": "There are fifteen.",
+        "explicacion": "La pregunta How many… are there? se contesta con there are + número (o solo el número). «We are fifteen» es un calco del español «somos quince»."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.09",
+      "leccion": "there-negacion-y-preguntas",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "any",
+        "there",
+        "the",
+        "buses",
+        "Are",
+        "airport",
+        "to"
+      ],
+      "respuestas": [
+        "Are there any buses to the airport"
+      ],
+      "traduccion": "¿Hay autobuses al aeropuerto?",
+      "pistas": [
+        "Es una pregunta de sí o no con plural.",
+        "El verbo va primero, luego there.",
+        "Orden: be + there + cuantificador + sustantivo plural + to + lugar + ?"
+      ],
+      "solucion": {
+        "respuesta": "Are there any buses to the airport?",
+        "explicacion": "La pregunta invierte el orden (Are there), usa any con el plural buses, y termina con el destino: to the airport."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.10",
+      "leccion": "there-negacion-y-preguntas",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee el letrero y elige lo que significa.",
+      "pregunta": "En la puerta de un hotel: «Sorry, there's no hot water today.»",
+      "opciones": [
+        {
+          "texto": "Hoy no hay agua caliente.",
+          "correcta": true,
+          "porque": "Correcto: there's no = no hay. Con no, el verbo queda en afirmativo pero el significado es negativo."
+        },
+        {
+          "texto": "Hoy hay poca agua caliente.",
+          "correcta": false,
+          "porque": "No significa «nada de», no «poca»."
+        },
+        {
+          "texto": "Hoy hay agua caliente.",
+          "correcta": false,
+          "porque": "There's está en afirmativo, pero la palabra no niega el sustantivo: no hay nada de agua caliente."
+        },
+        {
+          "texto": "¿Hay agua caliente hoy?",
+          "correcta": false,
+          "porque": "No es una pregunta: una pregunta empezaría con Is there."
+        }
+      ],
+      "pistas": [
+        "Fíjate en la palabra no.",
+        "There's no niega aunque el verbo sea afirmativo.",
+        "There's no + sustantivo = no hay ningún / nada de…"
+      ],
+      "solucion": {
+        "respuesta": "Hoy no hay agua caliente.",
+        "explicacion": "There's no hot water = there isn't any hot water: no hay agua caliente. Es la forma enfática de la negación, típica de avisos y letreros."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.11",
+      "leccion": "preposiciones-de-lugar",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con su traducción.",
+      "pares": [
+        {
+          "a": "The cat is on the sofa.",
+          "b": "El gato está encima del sillón."
+        },
+        {
+          "a": "The cat is under the sofa.",
+          "b": "El gato está debajo del sillón."
+        },
+        {
+          "a": "The cat is behind the sofa.",
+          "b": "El gato está detrás del sillón."
+        },
+        {
+          "a": "The cat is next to the sofa.",
+          "b": "El gato está junto al sillón."
+        },
+        {
+          "a": "The cat is in front of the sofa.",
+          "b": "El gato está delante del sillón."
+        }
+      ],
+      "pistas": [
+        "Solo cambia la preposición.",
+        "on/under son arriba y abajo; behind/in front of, atrás y adelante.",
+        "Regla: son pares opuestos (arriba/abajo, atrás/adelante); la que sobra indica «al lado»."
+      ],
+      "solucion": {
+        "respuesta": "on-encima · under-debajo · behind-detrás · next to-junto a · in front of-delante",
+        "explicacion": "Cada preposición indica una posición distinta respecto al sillón. In front of es «delante de», en el mismo lado; no confundir con opposite."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.12",
+      "leccion": "preposiciones-de-lugar",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con in u on.",
+      "frase": "The keys are ___ the drawer, and the calendar is ___ the wall.",
+      "respuestas": [
+        [
+          "in"
+        ],
+        [
+          "on"
+        ]
+      ],
+      "errores_tipicos": {
+        "in | in": "La pared es una superficie: on the wall.",
+        "on | on": "El cajón es un espacio cerrado: in the drawer."
+      },
+      "pistas": [
+        "in = dentro; on = en una superficie.",
+        "¿Un cajón es un espacio cerrado? ¿Una pared es una superficie?",
+        "Regla: espacio cerrado → in; superficie (aunque sea vertical) → on."
+      ],
+      "solucion": {
+        "respuesta": "in · on",
+        "explicacion": "Las llaves están dentro del cajón (in the drawer) y el calendario está colgado en la superficie de la pared (on the wall). El español dice «en» en los dos casos."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.13",
+      "leccion": "preposiciones-de-lugar",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee y elige la interpretación correcta.",
+      "pregunta": "«The taxi is in front of the bank, and the bus stop is opposite the bank.» ¿Qué es cierto?",
+      "opciones": [
+        {
+          "texto": "El taxi está delante del banco, en su misma acera; la parada está al otro lado de la calle.",
+          "correcta": true,
+          "porque": "Correcto: in front of = delante (mismo lado); opposite = enfrente, al otro lado."
+        },
+        {
+          "texto": "El taxi y la parada están en el mismo lugar.",
+          "correcta": false,
+          "porque": "In front of y opposite indican posiciones distintas."
+        },
+        {
+          "texto": "La parada está detrás del banco.",
+          "correcta": false,
+          "porque": "Detrás sería behind."
+        },
+        {
+          "texto": "El taxi está al otro lado de la calle.",
+          "correcta": false,
+          "porque": "Eso sería opposite; in front of es delante, en el mismo lado."
+        }
+      ],
+      "pistas": [
+        "Dos preposiciones que en español se confunden.",
+        "¿Cuál indica que hay una calle en medio?",
+        "in front of = delante de; opposite = enfrente, al otro lado."
+      ],
+      "solucion": {
+        "respuesta": "El taxi está delante del banco, en su misma acera; la parada está al otro lado de la calle.",
+        "explicacion": "In front of sitúa el taxi justo delante del banco, en su lado. Opposite sitúa la parada cara a cara con el banco pero al otro lado de la calle."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.14",
+      "leccion": "preposiciones-de-lugar",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "The school is between the park or the church.",
+      "error": "or",
+      "correcciones": [
+        "and"
+      ],
+      "frase_correcta": "The school is between the park and the church.",
+      "pistas": [
+        "Revisa cómo se unen los dos lugares.",
+        "Between necesita una conjunción fija.",
+        "Regla: between une los dos elementos con la conjunción de «y», nunca con la de «o»."
+      ],
+      "solucion": {
+        "respuesta": "or → and",
+        "explicacion": "La corrección es and: between A and B. Con or la oración diría que la escuela está entre el parque «o» la iglesia, lo cual no tiene sentido."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.15",
+      "leccion": "preposiciones-de-lugar",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi celular está debajo de la cama.",
+      "respuestas": [
+        "My phone is under the bed.",
+        "My cell phone is under the bed.",
+        "My cellphone is under the bed.",
+        "My mobile is under the bed.",
+        "My mobile phone is under the bed."
+      ],
+      "errores_tipicos": {
+        "My phone is under of the bed": "Under ya significa «debajo de»: no lleva of.",
+        "There is my phone under the bed": "Tu celular ya es conocido (my): se dice dónde está con is, sin there."
+      },
+      "pistas": [
+        "Algo conocido + estar + lugar → sujeto + is + preposición.",
+        "«Debajo de» es una sola palabra en inglés.",
+        "Estructura: posesivo + sustantivo + be + preposición + lugar."
+      ],
+      "solucion": {
+        "respuesta": "My phone is under the bed.",
+        "explicacion": "Como hablamos de un objeto concreto (my phone), se usa be: is. «Debajo de» es under, sin of. Celular puede ser phone, cell phone o, en británico, mobile."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.16",
+      "leccion": "describir-casa-y-ciudad",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el lugar.",
+      "pregunta": "Quieres pedir libros prestados sin pagar. ¿A dónde vas?",
+      "opciones": [
+        {
+          "texto": "library",
+          "correcta": true,
+          "porque": "Correcto: library es la biblioteca."
+        },
+        {
+          "texto": "bookstore",
+          "correcta": false,
+          "porque": "Bookstore es la librería: ahí se compran libros."
+        },
+        {
+          "texto": "post office",
+          "correcta": false,
+          "porque": "Post office es la oficina de correos."
+        },
+        {
+          "texto": "pharmacy",
+          "correcta": false,
+          "porque": "Pharmacy es la farmacia."
+        }
+      ],
+      "pistas": [
+        "Cuidado con los falsos amigos.",
+        "La palabra que se parece a «librería» no significa librería.",
+        "Regla: la tienda donde compras libros es bookstore; el lugar que los presta es otro."
+      ],
+      "solucion": {
+        "respuesta": "library",
+        "explicacion": "Library es biblioteca, el lugar donde se piden libros prestados. Es un falso amigo: la librería (donde se compran) es bookstore."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.17",
+      "leccion": "describir-casa-y-ciudad",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa there aren't any.",
+      "es": "Mi barrio es tranquilo, pero no hay parques.",
+      "respuestas": [
+        "My neighborhood is quiet, but there aren't any parks.",
+        "My neighbourhood is quiet, but there aren't any parks."
+      ],
+      "errores_tipicos": {
+        "My neighborhood is quiet, but there isn't any parks": "Parks es plural: aren't.",
+        "My neighborhood is quiet, but aren't any parks": "Falta there: en inglés el «hay» necesita there."
+      },
+      "pistas": [
+        "Dos partes: cómo es el barrio (be + adjetivo) y qué no hay.",
+        "Después de but empieza una oración nueva con su sujeto.",
+        "Regla: dos oraciones unidas con but; la segunda es negativa: there + be + any + sustantivo plural."
+      ],
+      "solucion": {
+        "respuesta": "My neighborhood is quiet, but there aren't any parks.",
+        "explicacion": "La primera parte describe con be + adjetivo (is quiet). La segunda dice lo que no hay: there aren't any + plural. There es obligatorio también después de but."
+      }
+    },
+    {
+      "id": "there-is-there-are.eval.18",
+      "leccion": "describir-casa-y-ciudad",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "station",
+        "big",
+        "There's",
+        "supermarket",
+        "the",
+        "a",
+        "opposite"
+      ],
+      "respuestas": [
+        "There's a big supermarket opposite the station"
+      ],
+      "traduccion": "Hay un supermercado grande enfrente de la estación.",
+      "pistas": [
+        "Empieza por el «hay».",
+        "El adjetivo va antes del sustantivo.",
+        "Orden: There's + a + adjetivo + sustantivo + preposición + lugar."
+      ],
+      "solucion": {
+        "respuesta": "There's a big supermarket opposite the station.",
+        "explicacion": "There's presenta el supermercado; big va delante de supermarket; y el lugar va al final con opposite, que no lleva of."
+      }
+    }
+  ]
+}

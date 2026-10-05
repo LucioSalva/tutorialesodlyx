@@ -1,0 +1,423 @@
+{
+  "slug": "saludar-y-despedirse",
+  "titulo": "Saludar y despedirse",
+  "minutos": 30,
+  "objetivos": [
+    "Elegir el saludo adecuado según la hora (good morning, good afternoon, good evening) y la confianza (hello, hi, hey).",
+    "Preguntar How are you? y contestar con naturalidad, devolviendo la pregunta.",
+    "Despedirte con goodbye, bye, see you…, have a nice day o take care.",
+    "No usar good night para saludar: en inglés solo sirve para despedirse."
+  ],
+  "situacion": {
+    "titulo": "Un día en la oficina",
+    "texto": "Carlos trabaja en una empresa con compañeros de varios países. A las 9 de la mañana saluda a su jefa, Ms. Grace; a mediodía se encuentra con su amigo Sam en el pasillo; y a las 7 de la noche se despide de todos. En cada momento usa una expresión distinta.",
+    "dialogo": [
+      {"quien": "Carlos", "en": "Good morning, Ms. Grace.", "es": "Buenos días, señora Grace."},
+      {"quien": "Ms. Grace", "en": "Good morning, Carlos. How are you?", "es": "Buenos días, Carlos. ¿Cómo estás?"},
+      {"quien": "Carlos", "en": "I'm fine, thank you. And you?", "es": "Bien, gracias. ¿Y usted?"},
+      {"quien": "Ms. Grace", "en": "Very well, thanks.", "es": "Muy bien, gracias."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "saludos",
+      "titulo": "Saludos según la hora y la confianza",
+      "que_es": "Los saludos son expresiones fijas: no se analizan, se usan tal cual. En inglés hay saludos neutros que sirven a cualquier hora (hello), informales para gente de confianza (hi, hey) y saludos ligados a la parte del día (good morning, good afternoon, good evening), que suenan más formales o corteses.",
+      "para_que": [
+        "Para empezar cualquier conversación con el tono adecuado: con tu jefa, con un cliente o con un amigo.",
+        "Para no cometer el error clásico de saludar con good night."
+      ],
+      "como_funciona": "**Hello** /həˈloʊ/ es el comodín: vale con cualquiera y a cualquier hora (y también al contestar el teléfono). **Hi** /haɪ/ es más informal y es el saludo más frecuente entre compañeros y amigos. **Hey** /heɪ/ es muy informal, entre amigos. Según la hora: **Good morning** (desde que te levantas hasta el mediodía), **Good afternoon** (del mediodía hasta las 5 o 6 de la tarde, aproximadamente) y **Good evening** (a partir de entonces, al LLEGAR). En español «buenas noches» sirve para llegar y para irse; en inglés no: **Good night** es solo una despedida (al irte de noche o al ir a dormir). Si llegas a una cena a las 9 de la noche, di Good evening o, simplemente, Hello o Hi. Entre amigos es común acortar: Morning! (sin good).",
+      "estructuras": [
+        {
+          "etiqueta": "Saludo por la hora",
+          "formula": [{"t": "Good", "rol": "otro"}, {"t": "morning / afternoon / evening", "rol": "tiempo"}],
+          "ejemplo": [{"t": "Good", "rol": "otro"}, {"t": "afternoon", "rol": "tiempo"}],
+          "es": "Buenas tardes."
+        },
+        {
+          "etiqueta": "Saludo + nombre",
+          "formula": [{"t": "Hello / Hi", "rol": "otro"}, {"t": "nombre", "rol": "complemento"}],
+          "ejemplo": [{"t": "Hi", "rol": "otro"}, {"t": "Sam", "rol": "complemento"}],
+          "es": "Hola, Sam."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Qué saludo uso?",
+          "columnas": ["Saludo", "Cuándo", "Registro", "Equivale a"],
+          "filas": [
+            ["Hello", "a cualquier hora", "neutro", "Hola"],
+            ["Hi", "a cualquier hora", "informal", "Hola"],
+            ["Hey", "a cualquier hora", "muy informal", "¡Hey!, ¡Qué onda!"],
+            ["Good morning", "hasta el mediodía", "cortés, formal", "Buenos días"],
+            ["Good afternoon", "del mediodía a la tarde", "cortés, formal", "Buenas tardes"],
+            ["Good evening", "por la noche, al llegar", "cortés, formal", "Buenas noches (al llegar)"],
+            ["Good night", "por la noche, al IRSE o a dormir", "cualquiera", "Buenas noches (al irse), que descanses"]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {"en": "Good morning, Ms. Grace.", "es": "Buenos días, señora Grace.", "situacion": "Carlos llega a la oficina a las 9 a. m.", "partes": [{"t": "Good morning", "rol": "otro"}, {"t": "Ms. Grace", "rol": "complemento"}], "nota": "Ms. /mɪz/ es el tratamiento de cortesía para una mujer sin indicar si está casada. Para un hombre: Mr. /ˈmɪstər/."},
+        {"en": "Hi, Sam!", "es": "¡Hola, Sam!", "situacion": "Dos compañeros se cruzan en el pasillo.", "partes": [{"t": "Hi", "rol": "otro"}, {"t": "Sam", "rol": "complemento"}], "nota": "Entre compañeros, hi es lo más natural. Good morning con un amigo no es incorrecto, pero suena más formal."},
+        {"en": "Good evening, everyone.", "es": "Buenas noches a todos.", "situacion": "Una presentadora abre un evento a las 8 p. m.", "partes": [{"t": "Good evening", "rol": "otro"}, {"t": "everyone", "rol": "complemento"}], "nota": "Al llegar por la noche se dice good evening, nunca good night."},
+        {"en": "Good night, Mom.", "es": "Buenas noches, mamá.", "situacion": "Un niño se va a dormir.", "partes": [{"t": "Good night", "rol": "otro"}, {"t": "Mom", "rol": "complemento"}], "nota": "Good night cierra el día: se dice al irse a dormir o al despedirse de noche."},
+        {"en": "Hello?", "es": "¿Bueno? / ¿Diga?", "situacion": "Contestas el teléfono.", "nota": "Al contestar el teléfono se usa hello, con entonación de pregunta."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Español: «buenas noches»", "items": ["Al llegar a una cena: «Buenas noches».", "Al irte de la cena: «Buenas noches».", "Una expresión para dos momentos."]},
+        "b": {"titulo": "Inglés: dos expresiones", "items": ["Al llegar: Good evening (o Hello / Hi).", "Al irte o a dormir: Good night.", "Good night NUNCA abre una conversación."]},
+        "veredicto": "Si acabas de llegar, no digas good night: suena como si ya te estuvieras despidiendo."
+      },
+      "pronunciacion": [
+        {"texto": "Hello", "ipa": "/həˈloʊ/", "consejo": "La h es un soplo suave, nada de j. La primera sílaba es débil (schwa) y la fuerza va en LO, que termina deslizándose hacia u: «jə-LOU».", "lento": true},
+        {"texto": "Good morning", "ipa": "/ɡʊd ˈmɔːrnɪŋ/", "consejo": "good tiene una u corta y relajada /ʊ/, no una u española larga. En morning la r no vibra y la -ing final se hace con la parte de atrás de la lengua, sin pronunciar una g fuerte.", "lento": true},
+        {"texto": "Good evening", "ipa": "/ɡʊd ˈiːvnɪŋ/", "consejo": "evening tiene solo dos sílabas: EEV-ning. La primera e es una i larga /iː/ y la v se hace con los dientes sobre el labio.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Good night! (al llegar a una fiesta)", "bien": "Good evening! / Hi!", "porque": "Good night solo se usa para despedirse o al ir a dormir."},
+        {"mal": "Good days.", "bien": "Good morning.", "porque": "Buenos días no se traduce palabra por palabra: la expresión fija es good morning."},
+        {"mal": "Good afternoons.", "bien": "Good afternoon.", "porque": "Los saludos van en singular, aunque en español digamos «buenas tardes»."}
+      ]
+    },
+    {
+      "id": "how-are-you",
+      "titulo": "How are you? y sus respuestas",
+      "que_es": "Después del saludo casi siempre viene una pregunta por el estado de la otra persona. La más común es **How are you?** (¿Cómo estás? / ¿Cómo está usted?). Muchas veces es un ritual, no una pregunta real: se espera una respuesta breve y positiva y que devuelvas la pregunta.",
+      "para_que": [
+        "Para mantener una conversación corta y educada con cualquiera: un vecino, un cajero, un compañero.",
+        "Para reconocer las variantes informales (How's it going?, What's up?) y responder bien."
+      ],
+      "como_funciona": "Aprende estas frases como bloques; la gramática de are, is y I'm la estudiarás en las unidades 4 y 5. **Pregunta**: How are you? (neutra), How are you doing? y How's it going? (más informales), What's up? (muy informal; significa «¿qué hay de nuevo?», no «¿cómo estás?»). **Respuesta**: I'm fine, thanks. / I'm good, thanks. / I'm great! / Not bad. / So-so. (Más o menos). Añade siempre **And you?** o **How about you?** para devolver la pregunta; no hacerlo suena seco. A What's up? se responde con Not much. o Nothing much. Si te preguntan How are you? no respondas «Yes» ni te pongas a contar un problema largo: la respuesta breve es lo esperado, incluso si tu día no va perfecto.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta fija",
+          "formula": [{"t": "How", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}],
+          "ejemplo": [{"t": "How", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}],
+          "es": "¿Cómo estás? / ¿Cómo está usted? / ¿Cómo están?"
+        },
+        {
+          "etiqueta": "Respuesta + devolver la pregunta",
+          "formula": [{"t": "I'm", "rol": "sujeto"}, {"t": "fine / good / great", "rol": "complemento"}, {"t": "thanks", "rol": "otro"}, {"t": "And you?", "rol": "otro"}],
+          "ejemplo": [{"t": "I'm", "rol": "sujeto"}, {"t": "good", "rol": "complemento"}, {"t": "thanks", "rol": "otro"}, {"t": "And you?", "rol": "otro"}],
+          "es": "Bien, gracias. ¿Y tú?"
+        }
+      ],
+      "ejemplos": [
+        {"en": "How are you?", "es": "¿Cómo estás?", "partes": [{"t": "How", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}], "nota": "Sirve para tú, usted y ustedes: el inglés no distingue."},
+        {"en": "I'm fine, thank you. And you?", "es": "Bien, gracias. ¿Y tú?", "partes": [{"t": "I'm", "rol": "sujeto"}, {"t": "fine", "rol": "complemento"}, {"t": "thank you", "rol": "otro"}, {"t": "And you", "rol": "otro"}], "nota": "I'm significa «estoy»: en la respuesta completa va el sujeto, aunque en español digas solo «bien». En la conversación rápida también se oye solo Fine, thanks."},
+        {"en": "Not bad. How about you?", "es": "Nada mal. ¿Y tú?", "partes": [{"t": "Not bad", "rol": "complemento"}, {"t": "How about you", "rol": "otro"}], "nota": "How about you? es otra forma de devolver la pregunta, igual de natural que And you?"},
+        {"en": "How's it going?", "es": "¿Qué tal? / ¿Cómo te va?", "situacion": "Entre amigos o compañeros.", "nota": "Informal. Se responde igual que How are you?: Good, thanks. And you?"},
+        {"en": "What's up? — Not much.", "es": "¿Qué onda? — Nada, aquí nomás.", "situacion": "Entre amigos jóvenes.", "nota": "What's up? pregunta qué pasa, no cómo estás; por eso la respuesta típica es Not much (no mucho)."}
+      ],
+      "pronunciacion": [
+        {"texto": "How are you?", "ipa": "/haʊ ər juː/", "consejo": "are se reduce a /ər/ y se pega a how: «jau-er-IU». La voz sube un poco y luego baja en you. La h es un soplo suave.", "lento": true},
+        {"texto": "I'm fine, thanks.", "ipa": "/aɪm faɪn θæŋks/", "consejo": "Cierra los labios en la m de I'm. En thanks, la punta de la lengua sale entre los dientes para /θ/: no digas «tenks».", "lento": true}
+      ],
+      "errores": [
+        {"mal": "How are you? — Yes.", "bien": "I'm fine, thanks. And you?", "porque": "How are you? no se contesta con sí o no; pregunta cómo estás."},
+        {"mal": "How you are?", "bien": "How are you?", "porque": "En la pregunta el orden es How + are + you. How you are no es una pregunta."},
+        {"mal": "I'm fine, thanks you.", "bien": "I'm fine, thank you. / I'm fine, thanks.", "porque": "O thank you (dos palabras) o thanks (una). «thanks you» mezcla las dos."}
+      ]
+    },
+    {
+      "id": "despedidas",
+      "titulo": "Despedidas",
+      "que_es": "Como los saludos, las despedidas son expresiones fijas que cambian según la confianza y según si vas a ver pronto a la otra persona.",
+      "para_que": [
+        "Para cerrar una conversación con naturalidad en el trabajo, en una tienda o con amigos.",
+        "Para decir cuándo volverás a ver a alguien: mañana, luego, el lunes."
+      ],
+      "como_funciona": "**Goodbye** es neutra y algo formal, o suena definitiva; en el día a día se oye mucho más **Bye** o **Bye-bye** (esta última, muy informal o con niños). **See you** (nos vemos) se completa con cuándo: See you **later** (luego), See you **tomorrow** (mañana), See you **soon** (pronto), See you **on Monday** (el lunes). **Have a nice day!** o **Have a good day!** se dice mucho en tiendas y oficinas; se contesta **Thanks, you too!** **Take care** (cuídate) es cálida, entre conocidos. **Good night** se usa al despedirte de noche o antes de dormir. Ojo con «mañana»: tomorrow es el día siguiente; morning es la parte del día (la mañana).",
+      "estructuras": [
+        {
+          "etiqueta": "See you + cuándo",
+          "formula": [{"t": "See you", "rol": "verbo"}, {"t": "later / tomorrow / soon / on + día", "rol": "tiempo"}],
+          "ejemplo": [{"t": "See you", "rol": "verbo"}, {"t": "tomorrow", "rol": "tiempo"}],
+          "es": "Nos vemos mañana."
+        },
+        {
+          "etiqueta": "Deseo + respuesta",
+          "formula": [{"t": "Have a nice day!", "rol": "otro"}, {"t": "Thanks, you too!", "rol": "complemento"}],
+          "ejemplo": [{"t": "Have a good day!", "rol": "otro"}, {"t": "Thanks, you too!", "rol": "complemento"}],
+          "es": "¡Que tengas un buen día! — ¡Gracias, igualmente!"
+        }
+      ],
+      "ejemplos": [
+        {"en": "Bye, Mei! See you tomorrow.", "es": "¡Adiós, Mei! Nos vemos mañana.", "partes": [{"t": "Bye", "rol": "otro"}, {"t": "Mei", "rol": "complemento"}, {"t": "See you", "rol": "verbo"}, {"t": "tomorrow", "rol": "tiempo"}], "nota": "tomorrow = mañana (el día siguiente). No digas See you morning."},
+        {"en": "See you later!", "es": "¡Nos vemos luego!", "partes": [{"t": "See you", "rol": "verbo"}, {"t": "later", "rol": "tiempo"}], "nota": "En inglés estadounidense se usa aunque no vayas a ver a la persona ese mismo día: es una despedida amable."},
+        {"en": "Have a nice day! — Thanks, you too!", "es": "¡Que tengas un buen día! — ¡Gracias, igualmente!", "situacion": "En la caja de una tienda.", "nota": "you too = «igualmente». No se traduce como «equally»."},
+        {"en": "Take care!", "es": "¡Cuídate!", "partes": [{"t": "Take care", "rol": "verbo"}], "nota": "Cálida y breve. Muy común al despedirse por teléfono o de alguien que no verás pronto."},
+        {"en": "Good night! See you on Monday.", "es": "¡Buenas noches! Nos vemos el lunes.", "situacion": "Te vas de la oficina el viernes a las 7 p. m.", "nota": "Los días de la semana van con on y con mayúscula en inglés: on Monday."}
+      ],
+      "pronunciacion": [
+        {"texto": "See you tomorrow.", "ipa": "/ˈsiː jə təˈmɑːroʊ/", "consejo": "you se reduce a /jə/ y se pega a see: «SII-yə». En tomorrow la fuerza va en MA y la primera sílaba es una schwa: tə-MA-rou.", "lento": true},
+        {"texto": "Take care!", "ipa": "/teɪk ˈker/", "consejo": "take suena «teik». care termina con la r inglesa: la lengua se curva sin tocar nada.", "lento": false}
+      ],
+      "errores": [
+        {"mal": "See you morning.", "bien": "See you tomorrow. / See you in the morning.", "porque": "morning es la mañana (parte del día); tomorrow es mañana (el día siguiente)."},
+        {"mal": "Have a nice day! — Equally!", "bien": "Thanks, you too!", "porque": "«Igualmente» se dice you too. Equally es un calque que no se usa así."},
+        {"mal": "Good night! (al saludar a las 8 p. m.)", "bien": "Good evening! / Hi!", "porque": "Good night es despedida; para saludar de noche se usa good evening."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el saludo adecuado.",
+      "pregunta": "Son las 9 de la mañana. Llegas a una reunión con un cliente nuevo. ¿Qué dices?",
+      "opciones": [
+        {"texto": "Good morning.", "correcta": true, "porque": "Correcto: es antes del mediodía y la situación es formal."},
+        {"texto": "Hey!", "correcta": false, "porque": "Demasiado informal para un cliente nuevo; hey es para amigos."},
+        {"texto": "Good night.", "correcta": false, "porque": "Good night es una despedida nocturna; no sirve para saludar y menos por la mañana."}
+      ],
+      "pistas": [
+        "Piensa en la hora y en la confianza.",
+        "Es por la mañana y es una relación profesional.",
+        "Regla: good morning hasta el mediodía; hey solo con amigos; good night solo para despedirse."
+      ],
+      "solucion": {"respuesta": "Good morning.", "explicacion": "A las 9 a. m. y con alguien que no conoces, lo adecuado es good morning, cortés y ligado a la hora. Hello también sería aceptable; hey sería demasiado informal."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión con su equivalente en español.",
+      "pares": [
+        {"a": "Good afternoon", "b": "Buenas tardes"},
+        {"a": "Good evening", "b": "Buenas noches (al llegar)"},
+        {"a": "Good night", "b": "Buenas noches (al irte)"},
+        {"a": "See you tomorrow", "b": "Nos vemos mañana"},
+        {"a": "Take care", "b": "Cuídate"},
+        {"a": "You too", "b": "Igualmente"}
+      ],
+      "pistas": [
+        "Dos de las expresiones se traducen «buenas noches»: fíjate en el paréntesis.",
+        "Una sirve para llegar y otra para irse.",
+        "Regla: good evening = saludo nocturno; good night = despedida nocturna."
+      ],
+      "solucion": {"respuesta": "Good afternoon–Buenas tardes · Good evening–Buenas noches (al llegar) · Good night–Buenas noches (al irte) · See you tomorrow–Nos vemos mañana · Take care–Cuídate · You too–Igualmente", "explicacion": "La clave es separar good evening (saludo) de good night (despedida). You too es la forma natural de decir «igualmente»."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la despedida.",
+      "frase": "Bye, Omar! See you ___! (¡Nos vemos mañana!)",
+      "respuestas": [["tomorrow"]],
+      "errores_tipicos": {
+        "morning": "morning es «la mañana» (parte del día). Para «mañana» como día siguiente se dice tomorrow.",
+        "tomorrow morning": "Eso significa «mañana por la mañana». La frase solo dice «mañana»: tomorrow."
+      },
+      "pistas": [
+        "En español «mañana» tiene dos significados; en inglés son dos palabras.",
+        "Aquí «mañana» es el día siguiente, no la parte del día.",
+        "Regla: el día siguiente = tomorrow; la parte del día = morning."
+      ],
+      "solucion": {"respuesta": "tomorrow", "explicacion": "See you tomorrow = nos vemos mañana (el día siguiente). morning significa «la mañana» como parte del día, como en good morning."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la respuesta a How are you? Usa una sola palabra en cada hueco.",
+      "frase": "I'm fine, ___. And ___?",
+      "respuestas": [["thanks"], ["you"]],
+      "errores_tipicos": {
+        "thank | you": "thank solo necesita you detrás: thank you. Con una sola palabra, di thanks.",
+        "thanks | your": "your significa «tu»; para devolver la pregunta se dice And you? (¿Y tú?)."
+      },
+      "pistas": [
+        "Es la respuesta más típica: estado + agradecimiento + devolver la pregunta.",
+        "El primer hueco es «gracias» en una sola palabra; el segundo es «tú».",
+        "Regla: «gracias» en una sola palabra es la forma corta de thank you; para devolver la pregunta se usa And + el pronombre «tú»."
+      ],
+      "solucion": {"respuesta": "I'm fine, thanks. And you?", "explicacion": "thanks es «gracias» en una palabra (thank you en dos). And you? devuelve la pregunta: es la parte que hace que la respuesta suene amable."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "Son las 9 de la noche y llegas a la casa de tu amiga Lucía para una cena. ¿Qué dices al entrar?",
+      "opciones": [
+        {"texto": "Hi, Lucía! Good evening.", "correcta": true, "porque": "Correcto: al llegar de noche se saluda con good evening (o simplemente hi)."},
+        {"texto": "Good night, Lucía!", "correcta": false, "porque": "No: good night es para despedirse. Al llegar sonaría como si te fueras."},
+        {"texto": "Good afternoon, Lucía!", "correcta": false, "porque": "No: a las 9 de la noche ya no es la tarde."}
+      ],
+      "pistas": [
+        "¿Llegas o te vas?",
+        "En español dirías «buenas noches», pero en inglés depende de si llegas o te vas.",
+        "Regla: al llegar de noche, good evening; al irte, good night."
+      ],
+      "solucion": {"respuesta": "Hi, Lucía! Good evening.", "explicacion": "Estás llegando, así que el saludo nocturno es good evening. Good night se reserva para el final de la cena, cuando te vayas."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.06",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Te encuentras a tu vecino Ben en el elevador.",
+      "lineas": [
+        {"quien": "Ben", "en": "Hi! How are you?", "es": "¡Hola! ¿Cómo estás?"}
+      ],
+      "opciones": [
+        {"texto": "Hi, Ben! I'm good, thanks. And you?", "correcta": true, "porque": "Correcto: saludas, respondes brevemente y devuelves la pregunta."},
+        {"texto": "Yes, I am.", "correcta": false, "porque": "How are you? pregunta cómo estás; no se contesta con sí."},
+        {"texto": "Good night, Ben.", "correcta": false, "porque": "Es una despedida y no responde a la pregunta."}
+      ],
+      "pistas": [
+        "Ben te pregunta cómo estás.",
+        "La respuesta natural tiene tres partes.",
+        "Regla: estado (I'm good) + gracias (thanks) + devolver la pregunta (And you?)."
+      ],
+      "solucion": {"respuesta": "Hi, Ben! I'm good, thanks. And you?", "explicacion": "Ante How are you? se espera una respuesta breve y positiva y que devuelvas la pregunta. Yes no responde a how (cómo) y good night es una despedida."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para responder a How are you?",
+      "fichas": ["thanks", "I'm", "you", "fine", "and"],
+      "respuestas": ["I'm fine, thanks, and you?", "Thanks, I'm fine, and you?"],
+      "traduccion": "Bien, gracias, ¿y tú?",
+      "pistas": [
+        "Empieza por cómo estás.",
+        "I'm va antes de fine; and you va al final.",
+        "Estructura: cómo estás + agradecimiento + devolver la pregunta."
+      ],
+      "solucion": {"respuesta": "I'm fine, thanks, and you?", "explicacion": "Primero dices cómo estás (I'm fine), luego agradeces (thanks) y terminas devolviendo la pregunta (and you?). Thanks, I'm fine, and you? también es correcto."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el saludo ligado a la hora.",
+      "es": "Buenos días. ¿Cómo estás?",
+      "respuestas": ["Good morning. How are you?", "Good morning, how are you?"],
+      "errores_tipicos": {
+        "Good days. How are you?": "«Buenos días» no se traduce palabra por palabra: se dice good morning.",
+        "Good morning. How you are?": "En la pregunta el orden es How are you?, con are antes de you."
+      },
+      "pistas": [
+        "Son dos expresiones fijas de la lección.",
+        "La primera es el saludo de la mañana; la segunda, la pregunta más común por el estado.",
+        "Estructura: saludo de la mañana (en singular) + How + are + sujeto?"
+      ],
+      "solucion": {"respuesta": "Good morning. How are you?", "explicacion": "Buenos días = good morning (en singular y sin days). ¿Cómo estás? = How are you?, con are delante de you."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Llegas a una cena a las 8 p. m. y saludas así. Señala el error y corrígelo.",
+      "frase": "Good night, Tom! How are you?",
+      "error": "Good night",
+      "correcciones": ["Good evening", "Hi", "Hello"],
+      "frase_correcta": "Good evening, Tom! How are you?",
+      "pistas": [
+        "Estás llegando, no yéndote.",
+        "Mira el saludo del principio.",
+        "Regla: good night solo sirve para despedirse; al llegar de noche se dice good evening."
+      ],
+      "solucion": {"respuesta": "Good evening, Tom! How are you?", "explicacion": "Good night es una despedida. Para saludar al llegar de noche se usa good evening (o hi / hello si hay confianza)."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I'm fine, thanks you. And you?",
+      "error": "thanks you",
+      "correcciones": ["thank you", "thanks"],
+      "frase_correcta": "I'm fine, thank you. And you?",
+      "pistas": [
+        "El error está en la forma de dar las gracias.",
+        "Hay dos formas correctas: una de una palabra y otra de dos.",
+        "Regla: thank you (dos palabras) o thanks (una); nunca thanks you."
+      ],
+      "solucion": {"respuesta": "I'm fine, thank you. And you?", "explicacion": "Se dice thank you o thanks. thanks you mezcla las dos formas. Thanks es algo más informal; las dos son muy frecuentes."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe lo que dice la vecina.",
+      "texto": "Good afternoon! How are you?",
+      "pistas": [
+        "Son dos partes: un saludo y una pregunta.",
+        "El saludo corresponde a la tarde.",
+        "Regla: good afternoon = buenas tardes; How are you? = ¿cómo estás?"
+      ],
+      "solucion": {"respuesta": "Good afternoon! How are you?", "explicacion": "La vecina dice «¡Buenas tardes! ¿Cómo estás?». Fíjate en que are casi no se oye: se reduce a /ər/."}
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Intenta que suene como una sola unidad.",
+      "texto": "Hi! How are you?",
+      "ipa": "/haɪ haʊ ər juː/",
+      "consejo": "Dos h aspiradas, suaves como un soplo (nada de j fuerte). are se reduce a /ər/ y se une a how: «jai! jau-er-IU?». La fuerza principal va en you.",
+      "es": "¡Hola! ¿Cómo estás?"
+    },
+    {
+      "id": "saludos-y-presentaciones.saludar-y-despedirse.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Pagas en una tienda. La cajera, Aisha, te da el cambio.",
+      "lineas": [
+        {"quien": "Aisha", "en": "Here you go. Have a nice day!", "es": "Aquí tiene. ¡Que tenga un buen día!"}
+      ],
+      "opciones": [
+        {"texto": "Thanks, you too!", "correcta": true, "porque": "Correcto: you too es «igualmente», la respuesta natural a Have a nice day!"},
+        {"texto": "Thanks, equally!", "correcta": false, "porque": "Es un calque de «igualmente» que no se usa en inglés."},
+        {"texto": "Good morning!", "correcta": false, "porque": "Es un saludo, no una despedida; y no responde al deseo de la cajera."}
+      ],
+      "pistas": [
+        "Aisha te desea algo bueno. ¿Qué respondes en español?",
+        "En español dirías «gracias, igualmente».",
+        "Regla: «igualmente» = you too."
+      ],
+      "solucion": {"respuesta": "Thanks, you too!", "explicacion": "Have a nice day! se contesta con Thanks, you too! (gracias, igualmente). Equally no se usa así en inglés."}
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Saludo en el trabajo",
+    "contexto": "Son las 3 de la tarde. Te encuentras en la entrada de la oficina con Mr. Tom, un compañero de otro departamento con quien tienes poca confianza.",
+    "dialogo": [
+      {"quien": "Mr. Tom", "en": "Good afternoon! How are you?", "es": "¡Buenas tardes! ¿Cómo está?"},
+      {"quien": "Tú", "en": "…", "es": "(respondes y devuelves la pregunta)"},
+      {"quien": "Mr. Tom", "en": "Very well, thank you. Have a nice day!", "es": "Muy bien, gracias. ¡Que tenga un buen día!"}
+    ],
+    "tu_turno": "Responde al saludo de Mr. Tom, contesta cómo estás, devuelve la pregunta y, al final, despídete respondiendo a Have a nice day!",
+    "modelo": "Good afternoon! I'm fine, thank you. And you? … Thanks, you too!",
+    "alternativas": ["Good afternoon! I'm good, thanks. How about you? … Thank you, you too!", "Hello! Very well, thanks. And you? … Thanks! You too."],
+    "claves": ["Devuelve el mismo saludo de la hora (good afternoon).", "No omitas I'm: I'm fine.", "Devuelve la pregunta con And you? o How about you?", "Contesta a Have a nice day! con You too."]
+  },
+  "resumen": {
+    "esencial": [
+      "Hello (neutro), hi (informal), hey (muy informal).",
+      "Good morning / good afternoon / good evening para saludar según la hora; good night solo para despedirse.",
+      "How are you? → I'm fine / good, thanks. And you?",
+      "Despedidas: goodbye, bye, see you (later / tomorrow / soon), have a nice day, take care.",
+      "«Igualmente» = you too."
+    ],
+    "recuerda": [
+      "tomorrow = mañana (día siguiente); morning = la mañana.",
+      "thank you o thanks, nunca thanks you.",
+      "What's up? se responde con Not much."
+    ]
+  },
+  "repaso": [
+    {"id": "saludos-y-presentaciones.saludar-y-despedirse.r1", "frente": "¿Good evening o good night al llegar a una cena?", "reverso": "Good evening. Good night es solo para despedirse."},
+    {"id": "saludos-y-presentaciones.saludar-y-despedirse.r2", "frente": "Responde a How are you?", "reverso": "I'm fine, thanks. And you?", "nota": "También: I'm good / Not bad / Great."},
+    {"id": "saludos-y-presentaciones.saludar-y-despedirse.r3", "frente": "Nos vemos mañana", "reverso": "See you tomorrow."},
+    {"id": "saludos-y-presentaciones.saludar-y-despedirse.r4", "frente": "¿Cómo dices «igualmente» a Have a nice day?", "reverso": "Thanks, you too!"},
+    {"id": "saludos-y-presentaciones.saludar-y-despedirse.r5", "frente": "¿Qué se responde a What's up?", "reverso": "Not much. / Nothing much."}
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "slug": "can-permiso-y-peticiones",
+  "titulo": "Permisos y peticiones",
+  "minutos": 35,
+  "objetivos": [
+    "Pedir permiso con Can I…? y reconocer May I…? como variante más formal.",
+    "Dar o negar permiso y explicar reglas con You can / You can't.",
+    "Pedir a alguien que haga algo con Can you…? y colocar bien me y please.",
+    "Responder con naturalidad: Sure, Of course, No problem, Go ahead, Sorry, I can't, I'm afraid not."
+  ],
+  "situacion": {
+    "titulo": "Una cena en casa de Grace",
+    "texto": "Carlos cena en casa de su amiga Grace. Hace calor, necesita la sal y el hijo de Grace quiere jugar videojuegos. Observa que las mismas palabras (Can I…? / Can you…?) sirven para pedir permiso y para pedir favores, y fíjate en cómo se contesta.",
+    "dialogo": [
+      { "quien": "Carlos", "en": "It's very hot in here. Can I open the window?", "es": "Hace mucho calor aquí. ¿Puedo abrir la ventana?" },
+      { "quien": "Grace", "en": "Sure, go ahead.", "es": "Claro, adelante." },
+      { "quien": "Carlos", "en": "Thanks. And can you pass me the salt, please?", "es": "Gracias. ¿Y me pasas la sal, por favor?" },
+      { "quien": "Grace", "en": "Of course. Here you are.", "es": "Por supuesto. Aquí tienes." },
+      { "quien": "Leo", "en": "Mom, can I play video games after dinner?", "es": "Mamá, ¿puedo jugar videojuegos después de cenar?" },
+      { "quien": "Grace", "en": "Sorry, you can't. You have homework!", "es": "Lo siento, no puedes. ¡Tienes tarea!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "can-i-permiso",
+      "titulo": "Can I…? para pedir permiso (y May I…?, más formal)",
+      "que_es": "[[Can I…?]] es la forma más común de pedir permiso: «¿Puedo…?». Para darlo o negarlo se usa [[you can]] / [[you can't]], que también sirve para explicar reglas («aquí no se puede fumar»). [[May I…?]] significa lo mismo, pero suena más formal.",
+      "para_que": [
+        "Pedir permiso en casa, en clase o en el trabajo: «¿Puedo abrir la ventana?».",
+        "Preguntar si algo está permitido en una tienda: «¿Puedo pagar con tarjeta?».",
+        "Explicar reglas: «Aquí no puedes estacionarte».",
+        "Pedir permiso con más formalidad a un cliente o a un desconocido: «¿Puedo pasar?»."
+      ],
+      "como_funciona": "**Pedir permiso:** Can + I (o we) + verbo en forma base…? → {{auxiliar:Can}} {{sujeto:I}} {{verbo:open}} {{complemento:the window}}? Es la misma pregunta con inversión que ya conoces; solo cambia el sujeto (I / we).\n\n**Dar permiso:** [[Sure.]] / [[Of course.]] / [[Yes, go ahead.]] (adelante) / [[Yes, you can.]]\n**Negarlo con amabilidad:** [[Sorry, you can't.]] / [[I'm afraid not.]] ([[I'm afraid]] es una expresión fija: «me temo que…», suaviza el no) / [[Sorry, not now.]]\n\n**Reglas y prohibiciones:** [[You can…]] / [[You can't…]] con un «you» general: [[You can't take photos in the museum]] (En el museo no se pueden tomar fotos).\n\n**May I…?** Es más formal y cortés: se usa con desconocidos, clientes, en una oficina o en una entrevista: [[May I come in?]] Para pedir permiso solo se usa con I o we: **nunca «May you…?»** (para pedir a otro que haga algo se usa [[Can you…?]], lo verás en el siguiente concepto). En la respuesta, «Yes, you may» es muy formal; lo normal es contestar [[Of course]] o [[Sure]].\n\n**Calco que evitar:** en español la pregunta no cambia el orden («¿Puedo abrir la ventana?»), y sale «I can open the window?». Con entonación de pregunta a veces se entiende, pero la forma correcta y normal es con inversión: [[Can I open the window?]]",
+      "estructuras": [
+        {
+          "etiqueta": "Pedir permiso",
+          "formula": [ {"t": "Can / May", "rol": "auxiliar"}, {"t": "I / we", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Can", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "open", "rol": "verbo"}, {"t": "the window?", "rol": "complemento"} ],
+          "es": "¿Puedo abrir la ventana?"
+        },
+        {
+          "etiqueta": "Explicar una regla",
+          "formula": [ {"t": "You", "rol": "sujeto"}, {"t": "can / can't", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "You", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "park", "rol": "verbo"}, {"t": "here", "rol": "complemento"} ],
+          "es": "Aquí no te puedes estacionar."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pedir permiso y responder",
+          "columnas": ["Situación", "Frase", "Traducción"],
+          "filas": [
+            ["Pedir (normal)", "Can I use your pen?", "¿Puedo usar tu pluma?"],
+            ["Pedir (formal)", "May I use your pen?", "¿Me permite usar su pluma?"],
+            ["Decir que sí", "Sure. / Of course. / Go ahead.", "Claro. / Por supuesto. / Adelante."],
+            ["Decir que no", "Sorry, you can't. / I'm afraid not.", "Lo siento, no puedes. / Me temo que no."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Can I sit here?",
+          "es": "¿Me puedo sentar aquí?",
+          "situacion": "En un autobús o una cafetería llena.",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "sit", "rol": "verbo"}, {"t": "here", "rol": "complemento"} ],
+          "nota": "Respuesta típica: Sure! / Of course."
+        },
+        {
+          "en": "Can I pay by card?",
+          "es": "¿Puedo pagar con tarjeta?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "pay", "rol": "verbo"}, {"t": "by card", "rol": "complemento"} ],
+          "nota": "Con tarjeta = by card (no «with card»). En efectivo = in cash."
+        },
+        {
+          "en": "Can we go to the park, Dad?",
+          "es": "¿Podemos ir al parque, papá?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "go", "rol": "verbo"}, {"t": "to the park, Dad", "rol": "complemento"} ],
+          "nota": "Con we también se pide permiso. El vocativo (Dad) puede ir al final."
+        },
+        {
+          "en": "You can't take photos in the museum.",
+          "es": "En el museo no se pueden tomar fotos.",
+          "partes": [ {"t": "You", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "take", "rol": "verbo"}, {"t": "photos", "rol": "complemento"}, {"t": "in the museum", "rol": "complemento"} ],
+          "nota": "You aquí es general: «la gente», «uno». El español lo dice con «se»."
+        },
+        {
+          "en": "May I come in?",
+          "es": "¿Puedo pasar?",
+          "situacion": "Tocas la puerta de la oficina de una directora.",
+          "partes": [ {"t": "May", "rol": "auxiliar"}, {"t": "I", "rol": "sujeto"}, {"t": "come", "rol": "verbo"}, {"t": "in", "rol": "complemento"} ],
+          "nota": "May I es más formal que Can I. Come in = entrar, pasar."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "Can I…?", "ipa": "/kən aɪ/", "consejo": "Las dos palabras se unen: la n de can pasa a la vocal de I y suena casi como «kə-NAI». Can va débil." },
+        { "texto": "Go ahead.", "ipa": "/ɡoʊ əˈhɛd/", "consejo": "El acento va en -head. La h se pronuncia como un soplo suave, no como la «j» española." },
+        { "texto": "I'm afraid not.", "ipa": "/aɪm əˈfreɪd ˈnɑːt/", "consejo": "Afraid lleva el acento en la segunda sílaba: «ə-FREID». Not en EE. UU. tiene una «a» abierta; en Reino Unido, /nɒt/, con una «o» corta." }
+      ],
+      "errores": [
+        { "mal": "I can open the window?", "bien": "Can I open the window?", "porque": "En inglés la pregunta se forma con inversión: can delante del sujeto." },
+        { "mal": "Can I to use your phone?", "bien": "Can I use your phone?", "porque": "Después de can no va to, tampoco en preguntas." },
+        { "mal": "May you help me?", "bien": "Can you help me?", "porque": "May para pedir permiso va con I o we. Para pedir que otra persona haga algo se usa Can you…?" }
+      ]
+    },
+    {
+      "id": "can-you-peticiones",
+      "titulo": "Can you…? para pedir favores",
+      "que_es": "Cuando quieres que **otra persona** haga algo, preguntas [[Can you…?]]: «¿Puedes…?», «¿Me…?». Es una petición, no una pregunta sobre su habilidad: quien pregunta [[Can you pass me the salt?]] no quiere saber si la otra persona es capaz, quiere la sal.",
+      "para_que": [
+        "Pedir ayuda: «¿Me ayudas con mis maletas?».",
+        "Pedir algo en la mesa o en el trabajo: «¿Me pasas la sal?», «¿Me mandas el archivo?».",
+        "Pedir que alguien hable más despacio o repita algo cuando no entiendes."
+      ],
+      "como_funciona": "**Fórmula:** Can you + verbo en forma base + complemento (+ please)? → {{auxiliar:Can}} {{sujeto:you}} {{verbo:help}} {{complemento:me}}?\n\n**¿Dónde va «me»?** En español el pronombre va antes del verbo («¿**me** ayudas?», «¿**me** pasas la sal?»). En inglés el pronombre objeto va **después** del verbo: [[Can you help me?]], [[Can you pass me the salt?]] Nunca «Can you me help?».\n\n**¿Dónde va please?** Al final ([[Can you help me, please?]]) o justo después de you ([[Can you please help me?]]). No al principio con la oración sin invertir («Please you can help me?» no es correcto).\n\n**Cómo contestar:**\n- Sí: [[Sure.]] / [[Of course.]] / [[No problem.]]\n- No, con amabilidad: [[Sorry, I can't.]] + una razón breve ([[I'm busy.]], [[I'm driving.]]) / [[I'm afraid I can't.]]\n\n[[Yes, I can]] no es incorrecto, pero suena a que te preguntaron por tu capacidad; ante una petición lo natural es [[Sure]] o [[No problem]].\n\n**Tono:** una petición sin please y con voz seca puede sonar brusca. Con amigos y familia, [[Can you…?]] es perfecto; con desconocidos o en situaciones formales, en la siguiente unidad aprenderás [[Could you…?]], que es más cortés.",
+      "estructuras": [
+        {
+          "etiqueta": "Pedir un favor",
+          "formula": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "me / complemento", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "ejemplo": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "help", "rol": "verbo"}, {"t": "me,", "rol": "complemento"}, {"t": "please?", "rol": "otro"} ],
+          "es": "¿Me ayudas, por favor?"
+        },
+        {
+          "etiqueta": "Rechazar con amabilidad",
+          "formula": [ {"t": "Sorry,", "rol": "otro"}, {"t": "I", "rol": "sujeto"}, {"t": "can't.", "rol": "negacion"}, {"t": "razón", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Sorry,", "rol": "otro"}, {"t": "I", "rol": "sujeto"}, {"t": "can't.", "rol": "negacion"}, {"t": "I'm busy.", "rol": "complemento"} ],
+          "es": "Lo siento, no puedo. Estoy ocupado."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Can you pass me the salt?",
+          "es": "¿Me pasas la sal?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "pass", "rol": "verbo"}, {"t": "me", "rol": "complemento"}, {"t": "the salt", "rol": "complemento"} ],
+          "nota": "El español dice «¿me pasas?» en presente; el inglés usa can you. Me va después del verbo."
+        },
+        {
+          "en": "Can you help me with my bags?",
+          "es": "¿Me ayudas con mis maletas?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "help", "rol": "verbo"}, {"t": "me", "rol": "complemento"}, {"t": "with my bags", "rol": "complemento"} ],
+          "nota": "Help + persona + with + cosa: help me with my bags."
+        },
+        {
+          "en": "Can you speak more slowly, please?",
+          "es": "¿Puedes hablar más despacio, por favor?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"}, {"t": "more slowly,", "rol": "complemento"}, {"t": "please", "rol": "otro"} ],
+          "nota": "More slowly (más despacio) es una expresión muy útil cuando estás aprendiendo. Apréndela como bloque."
+        },
+        {
+          "en": "Sorry, I can't. I'm driving.",
+          "es": "Perdón, no puedo. Estoy manejando.",
+          "nota": "Respuesta negativa amable: disculpa + I can't + la razón en presente continuo."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Can I…? (permiso)", "items": ["Quien actúa soy yo.", "Can I open the window? = ¿Puedo abrir la ventana?", "Respuesta: Sure, go ahead. / Sorry, you can't."] },
+        "b": { "titulo": "Can you…? (petición)", "items": ["Quien actúa es la otra persona.", "Can you open the window? = ¿Puedes abrir la ventana?", "Respuesta: Sure, no problem. / Sorry, I can't."] },
+        "veredicto": "Fíjate en el sujeto: con I pides permiso para hacer algo tú; con you pides que lo haga otro. Por eso las respuestas se invierten: al permiso se contesta con you can / you can't; a la petición, con I can't o con Sure."
+      },
+      "pronunciacion": [
+        { "texto": "Can you help me?", "ipa": "/kən jə ˈhɛlp mi/", "consejo": "Can y you se reducen y se unen: «kən-yə». El acento cae en help. La voz sube al final." },
+        { "texto": "No problem.", "ipa": "/ˌnoʊ ˈprɑːbləm/", "consejo": "El acento principal va en PROB-. La segunda sílaba es débil, «bləm», sin «e» clara. En Reino Unido: /ˈprɒbləm/, con una «o» corta." }
+      ],
+      "errores": [
+        { "mal": "Can you me help?", "bien": "Can you help me?", "porque": "El pronombre objeto va después del verbo en inglés, no antes como en español («me ayudas»)." },
+        { "mal": "Please you can close the door?", "bien": "Can you close the door, please?", "porque": "La pregunta necesita inversión (can you) y please va al final o después de you." },
+        { "mal": "Can you to call me later?", "bien": "Can you call me later?", "porque": "Después de can no va to." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "can.can-permiso-y-peticiones.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la frase adecuada.",
+      "pregunta": "Estás en casa de un amigo y quieres cargar tu celular con su cargador. ¿Qué le dices?",
+      "opciones": [
+        { "texto": "Can I use your charger?", "correcta": true, "porque": "Correcto: pides permiso para hacer algo tú, así que usas Can I + verbo base, con inversión." },
+        { "texto": "Can you use my charger?", "correcta": false, "porque": "Aquí preguntas si tu amigo puede usar TU cargador: el sujeto y el posesivo están al revés." },
+        { "texto": "I can use your charger?", "correcta": false, "porque": "Falta la inversión. La pregunta correcta es Can I…?" },
+        { "texto": "Do I can use your charger?", "correcta": false, "porque": "Can no se combina con do." }
+      ],
+      "pistas": [
+        "Quieres permiso para hacer algo tú.",
+        "Fíjate en el sujeto (I o you) y en el orden de las palabras.",
+        "Permiso: Can + I + verbo base…?"
+      ],
+      "solucion": { "respuesta": "Can I use your charger?", "explicacion": "Pides permiso para una acción tuya: Can I + use (forma base) + your charger. Can va delante del sujeto y no se usa do." },
+      "audio": true
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada situación con la frase adecuada.",
+      "pares": [
+        { "a": "Quieres sentarte junto a alguien en el autobús.", "b": "Can I sit here?" },
+        { "a": "Quieres que alguien cierre la puerta.", "b": "Can you close the door, please?" },
+        { "a": "Das permiso a alguien.", "b": "Sure, go ahead." },
+        { "a": "Rechazas un favor con amabilidad.", "b": "Sorry, I can't. I'm busy." },
+        { "a": "Pides permiso para entrar a una oficina, con formalidad.", "b": "May I come in?" },
+        { "a": "Explicas una regla del estacionamiento.", "b": "You can't park here." }
+      ],
+      "pistas": [
+        "Distingue permiso (Can I / May I), petición (Can you), respuesta y regla (You can't).",
+        "Mira quién hace la acción en cada situación: tú o la otra persona.",
+        "Can I = permiso para ti; Can you = favor de otro; May I = permiso formal; You can't = prohibición."
+      ],
+      "solucion": { "respuesta": "Sentarte → Can I sit here?; cerrar la puerta → Can you close the door, please?; dar permiso → Sure, go ahead.; rechazar → Sorry, I can't. I'm busy.; oficina → May I come in?; regla → You can't park here.", "explicacion": "Can I / May I piden permiso para una acción propia (May I es más formal); Can you pide que otra persona actúe; Sure, go ahead concede; Sorry, I can't rechaza una petición; You can't expresa una prohibición." }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta para pedir permiso en una tienda.",
+      "frase": "___ I pay by card?",
+      "respuestas": [["Can", "May", "Could"]],
+      "traduccion": "¿Puedo pagar con tarjeta?",
+      "pistas": [
+        "Estás pidiendo permiso para hacer algo tú.",
+        "La palabra que falta va antes del sujeto I: es un auxiliar modal.",
+        "Para pedir permiso para ti se usa un modal + I + verbo base; el más común es el mismo de las habilidades, y hay otro más formal."
+      ],
+      "solucion": { "respuesta": "Can (o May)", "explicacion": "Para pedir permiso se usa Can I…? con inversión. May I…? también es correcto y un poco más formal (y Could I…?, que verás en la próxima unidad, también se acepta). Do no vale: no se dice «Do I pay by card?» para pedir permiso." },
+      "errores_tipicos": {
+        "Do": "Do I pay by card? pregunta cómo se paga normalmente, no pide permiso. Usa Can (o May)."
+      }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la petición de permiso.",
+      "texto": "Can I open the window?",
+      "ipa": "/kən aɪ ˈoʊpən ðə ˈwɪndoʊ/",
+      "consejo": "Une can y I: «kə-NAI». Open empieza con el diptongo /oʊ/ (una «o» que se cierra hacia «u»). La th de the es sonora: punta de la lengua entre los dientes. Sube la voz al final.",
+      "es": "¿Puedo abrir la ventana?"
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.05",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Aisha, una compañera de trabajo, carga una caja pesada.",
+      "lineas": [
+        { "quien": "Aisha", "en": "Can you help me with this box? It's very heavy.", "es": "¿Me ayudas con esta caja? Está muy pesada." }
+      ],
+      "opciones": [
+        { "texto": "Sure, no problem.", "correcta": true, "porque": "Correcto: es la forma natural de aceptar una petición." },
+        { "texto": "Yes, I do.", "correcta": false, "porque": "La pregunta se hizo con can, no con do. Además, a una petición se contesta con Sure / No problem." },
+        { "texto": "Sure, you can.", "correcta": false, "porque": "You can es para dar permiso. Aisha no pide permiso: pide que TÚ la ayudes." },
+        { "texto": "No, you can't.", "correcta": false, "porque": "Además de ser brusco, habla de lo que puede hacer Aisha, no de lo que harás tú." }
+      ],
+      "pistas": [
+        "¿Aisha pide permiso o pide un favor?",
+        "Fíjate en el sujeto de su pregunta: you. Quien va a actuar eres tú.",
+        "Quien acepta un favor no repite can: contesta con una expresión corta de acuerdo."
+      ],
+      "solucion": { "respuesta": "Sure, no problem.", "explicacion": "Can you help me…? es una petición: Aisha quiere que la ayudes. Se acepta con Sure / No problem; you can sería dar permiso, que no es lo que pide." }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.06",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Trabajas en un museo. Elige la respuesta adecuada.",
+      "contexto": "Un visitante te pregunta si puede tomar fotos. En esa sala no está permitido.",
+      "lineas": [
+        { "quien": "Visitor", "en": "Excuse me, can I take photos here?", "es": "Disculpe, ¿puedo tomar fotos aquí?" }
+      ],
+      "opciones": [
+        { "texto": "I'm afraid not. Sorry.", "correcta": true, "porque": "Correcto: niega el permiso con amabilidad. I'm afraid not = me temo que no." },
+        { "texto": "Sorry, I can't.", "correcta": false, "porque": "I can't habla de ti. El visitante preguntó por él: el permiso se niega con you can't o I'm afraid not." },
+        { "texto": "No, you don't.", "correcta": false, "porque": "La pregunta se hizo con can: la respuesta no puede usar don't." },
+        { "texto": "Yes, I can.", "correcta": false, "porque": "Contesta sobre ti y además dice que sí, cuando está prohibido." }
+      ],
+      "pistas": [
+        "El visitante pide permiso para él.",
+        "Tienes que negar el permiso con amabilidad.",
+        "Para negar permiso con amabilidad se usa una expresión con «me temo» o una disculpa + you can't."
+      ],
+      "solucion": { "respuesta": "I'm afraid not. Sorry.", "explicacion": "Ante Can I…? se da o se niega permiso a la otra persona. I'm afraid not es una negativa amable y habitual; Sorry, you can't también sería correcta." }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la parte incorrecta y corrígela.",
+      "frase": "Can you me help with my homework?",
+      "error": "me help",
+      "correcciones": ["help me"],
+      "frase_correcta": "Can you help me with my homework?",
+      "pistas": [
+        "Revisa el orden de las palabras después de you.",
+        "En español decimos «¿me ayudas?». ¿Dónde va me en inglés?",
+        "El pronombre objeto (me) va después del verbo."
+      ],
+      "solucion": { "respuesta": "me help → help me", "explicacion": "En inglés el pronombre objeto va detrás del verbo: help me. El orden «me help» es un calco del español «me ayudas». Correcto: Can you help me with my homework?" }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una petición amable.",
+      "fichas": ["window", "you", "Can", "please", "close", "the"],
+      "respuestas": ["Can you close the window please", "Can you please close the window"],
+      "traduccion": "¿Puedes cerrar la ventana, por favor?",
+      "pistas": [
+        "Es una pregunta con can.",
+        "Después de can va el sujeto; please puede ir al final o después de you.",
+        "Can + you + verbo + complemento + please?, como en Can you turn off the TV, please?"
+      ],
+      "solucion": { "respuesta": "Can you close the window, please?", "explicacion": "Petición: Can + you + verbo base (close) + complemento (the window). Please va al final (con coma) o justo después de you: Can you please close the window?" }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la orden en una petición amable.",
+      "origen": "Open the door.",
+      "instruccion": "Usa Can you…? y añade please al final.",
+      "respuestas": ["Can you open the door, please?", "Can you please open the door?"],
+      "pistas": [
+        "Una orden directa puede sonar brusca; una pregunta con can la suaviza.",
+        "Añade can y el sujeto you delante del verbo.",
+        "Can you + la orden tal cual + please, como en Can you turn off the light, please?"
+      ],
+      "solucion": { "respuesta": "Can you open the door, please?", "explicacion": "Se añade Can you delante del verbo (que queda en forma base) y please al final. Así la orden se convierte en una petición amable." },
+      "errores_tipicos": {
+        "Can you to open the door, please?": "Después de can no va to.",
+        "Please you can open the door?": "Falta la inversión: Can you…? Please va al final o después de you."
+      }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la regla.",
+      "texto": "Sorry, you can't use your phone in class.",
+      "pistas": [
+        "Es una prohibición amable.",
+        "El sujeto es you y oirás can't acentuado.",
+        "Disculpa + sujeto + negación acentuada + verbo + objeto + lugar."
+      ],
+      "solucion": { "respuesta": "Sorry, you can't use your phone in class.", "explicacion": "You can't + verbo base expresa una regla o prohibición. Can't va acentuado y con vocal plena, por eso se distingue de can." }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.11",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Pide permiso con Can I…?",
+      "es": "¿Puedo usar tu baño?",
+      "respuestas": ["Can I use your bathroom?", "Can I use your restroom?", "Can I use your toilet?"],
+      "pistas": [
+        "Pides permiso para hacer algo tú.",
+        "Tu = your. Baño en casa, en inglés estadounidense, es bathroom.",
+        "Can + I + verbo base + posesivo + lugar o cosa?, como en Can I borrow your pen?"
+      ],
+      "solucion": { "respuesta": "Can I use your bathroom?", "explicacion": "Permiso para una acción propia: Can I + use (forma base) + your bathroom. En EE. UU. se dice bathroom (en casa) o restroom (en lugares públicos); toilet es más británico." },
+      "errores_tipicos": {
+        "I can use your bathroom?": "Falta la inversión: Can I use…?",
+        "Can I to use your bathroom?": "Después de can no va to.",
+        "Can you use my bathroom?": "Así preguntas si la otra persona puede usar TU baño. Tú pides permiso: Can I use your bathroom?"
+      }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa Can you…? y please.",
+      "es": "¿Me ayudas con la tarea, por favor?",
+      "respuestas": ["Can you help me with my homework, please?", "Can you please help me with my homework?", "Can you help me with the homework, please?", "Can you please help me with the homework?"],
+      "pistas": [
+        "Es una petición: quien actúa es la otra persona.",
+        "Cuidado con el lugar de «me»: en inglés no va delante del verbo.",
+        "Can you + verbo + pronombre objeto + with + posesivo + sustantivo + please?, como en Can you help us with our project, please?"
+      ],
+      "solucion": { "respuesta": "Can you help me with my homework, please?", "explicacion": "Petición: Can you + help (forma base) + me (después del verbo) + with my homework. Homework es incontable: nunca «homeworks». Please va al final o después de you." },
+      "errores_tipicos": {
+        "Can you me help with my homework, please?": "Me va después del verbo: help me.",
+        "Can you help me with my homeworks, please?": "Homework es incontable: no lleva -s.",
+        "Can you to help me with my homework, please?": "Después de can no va to."
+      }
+    },
+    {
+      "id": "can.can-permiso-y-peticiones.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe un mensaje a tu compañero de casa.",
+      "objetivo": "Pedir permiso y pedir favores por escrito con can.",
+      "instrucciones": "Vas a estar fuera el fin de semana. Escribe un mensaje a tu compañero de casa: pide dos favores con Can you…? y pide un permiso con Can I…? (por ejemplo, usar algo suyo). Usa please al menos una vez y termina con un agradecimiento.",
+      "vocabulario_apoyo": ["water the plants", "feed the cat", "take out the trash", "borrow your suitcase", "use your car", "check the mail", "Thanks a lot!"],
+      "estructuras": ["Can you … , please?", "Can you please …?", "Can I … ?", "Thanks a lot!"],
+      "ejemplo": "Hi Tom! Can you close the windows tonight, please? Can I use your umbrella tomorrow? Thanks!",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Pides un favor con Can you", "patron": "\\bcan you\\b" },
+        { "descripcion": "Pides permiso con Can I", "patron": "\\bcan i\\b" },
+        { "descripcion": "Usas please", "patron": "\\bplease\\b" }
+      ],
+      "criterios": [
+        "¿Tus peticiones empiezan con Can you + verbo en forma base?",
+        "¿Tu permiso empieza con Can I + verbo en forma base?",
+        "¿Los pronombres (me, it, them) van después del verbo?",
+        "¿Hay algún to después de can? (no debería)"
+      ],
+      "modelo": "Hi Ana! I'm away this weekend. Can you water the plants on Saturday, please? And can you feed the cat in the morning? She eats at eight. Oh, and can I borrow your suitcase? Mine is very small. Thanks a lot!",
+      "explicacion": "El modelo pide dos favores con Can you + verbo base (water, feed) y un permiso con Can I + borrow. Please aparece en la primera petición, que basta para dar un tono amable. Cada petición va acompañada de un detalle útil (cuándo, por qué) y el mensaje termina agradeciendo. Mine = el mío (pronombre posesivo).",
+      "errores_comunes": [
+        "Escribir «Can you to water the plants?».",
+        "Poner el pronombre antes del verbo: «Can you me help?».",
+        "Confundir Can I (permiso para ti) con Can you (favor de otro)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Primer día en la oficina",
+    "contexto": "Es tu primer día en un trabajo nuevo. Tu compañero Ben te enseña la oficina. Necesitas usar una computadora y que alguien te explique la impresora.",
+    "dialogo": [
+      { "quien": "Ben", "en": "This is your desk. Any questions?", "es": "Este es tu escritorio. ¿Alguna pregunta?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Ben", "en": "Sure, go ahead. And yes, no problem. It's easy.", "es": "Claro, adelante. Y sí, no hay problema. Es fácil." }
+    ],
+    "tu_turno": "Pide permiso para usar la computadora de la sala de juntas y pide a Ben que te explique cómo funciona la impresora.",
+    "modelo": "Yes! Can I use the computer in the meeting room? And can you show me the printer, please?",
+    "alternativas": [
+      "Can I use that computer? And can you please help me with the printer?",
+      "Just two. Can I use the computer in the meeting room? Can you explain the printer to me, please?"
+    ],
+    "claves": [
+      "Permiso para ti: Can I + verbo base…?",
+      "Favor de otro: Can you + verbo base + me…?",
+      "Please al final o después de you."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Permiso: Can I / Can we + verbo base…? (May I…? es más formal).",
+      "Dar permiso: Sure. / Of course. / Go ahead. Negarlo: Sorry, you can't. / I'm afraid not.",
+      "Reglas: You can / You can't + verbo base.",
+      "Petición: Can you + verbo base + me…? Respuesta: Sure / No problem / Sorry, I can't.",
+      "El pronombre objeto va después del verbo: help me, pass me the salt."
+    ],
+    "recuerda": [
+      "No existe «May you…?» para pedir favores: usa Can you…?",
+      "Please al final o después de you.",
+      "Con desconocidos, Could you…? (próxima unidad) suena todavía más cortés."
+    ]
+  },
+  "repaso": [
+    { "id": "can.can-permiso-y-peticiones.r1", "frente": "¿Cómo pides permiso para abrir la ventana?", "reverso": "Can I open the window?", "nota": "Más formal: May I open the window?" },
+    { "id": "can.can-permiso-y-peticiones.r2", "frente": "¿Cómo se dice «¿Me ayudas?»?", "reverso": "Can you help me?", "nota": "Me va después del verbo." },
+    { "id": "can.can-permiso-y-peticiones.r3", "frente": "Tres formas de aceptar una petición.", "reverso": "Sure. / Of course. / No problem." },
+    { "id": "can.can-permiso-y-peticiones.r4", "frente": "¿Cómo niegas un permiso con amabilidad?", "reverso": "Sorry, you can't. / I'm afraid not." },
+    { "id": "can.can-permiso-y-peticiones.r5", "frente": "¿Con qué sujetos se usa May para pedir permiso?", "reverso": "Con I y we: May I come in?", "nota": "Nunca «May you help me?»." }
+  ]
+}

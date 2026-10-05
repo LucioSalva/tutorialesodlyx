@@ -1,0 +1,1148 @@
+{
+  "slug": "demostrativos",
+  "titulo": "This, that, these, those",
+  "minutos": 35,
+  "objetivos": [
+    "Elegir this, that, these o those según la distancia (cerca / lejos) y el número (singular / plural).",
+    "Usar los demostrativos delante de un sustantivo (this book) y solos (This is new).",
+    "Preguntar What's this? / What are these? y responder con It's… / They're…",
+    "Pronunciar y distinguir al oído this /ðɪs/ y these /ðiːz/."
+  ],
+  "situacion": {
+    "titulo": "En el mercado",
+    "texto": "Carlos acompaña a su amiga Grace, que visita México por primera vez, a un mercado. Ella señala cosas cerca y lejos y pregunta qué son. Fíjate en que la palabra cambia según la distancia y según si es una cosa o varias.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "What's this?",
+        "es": "¿Qué es esto?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "It's a mango. And these are guavas.",
+        "es": "Es un mango. Y estas son guayabas."
+      },
+      {
+        "quien": "Grace",
+        "en": "And what are those, over there?",
+        "es": "¿Y qué son esas de allá?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "They're prickly pears. That woman is the seller.",
+        "es": "Son tunas. Aquella señora es la vendedora."
+      },
+      {
+        "quien": "Grace",
+        "en": "That's great! This market is amazing.",
+        "es": "¡Qué padre! Este mercado es increíble."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "cerca-y-lejos",
+      "titulo": "Cerca o lejos, uno o varios",
+      "que_es": "Los demostrativos señalan algo y dicen si está **cerca** o **lejos** de quien habla. En inglés son cuatro: [[this]] (este, esta, esto), [[that]] (ese, esa, eso, aquel, aquella, aquello), [[these]] (estos, estas) y [[those]] (esos, esas, aquellos, aquellas).",
+      "para_que": [
+        "Señalar objetos en una tienda, un mercado o una casa.",
+        "Distinguir entre algo que tienes en la mano y algo al otro lado del cuarto.",
+        "Hablar de varias cosas a la vez: these shoes, those cars."
+      ],
+      "como_funciona": "Hazte dos preguntas. 1) **¿Cerca o lejos?** Cerca de ti (lo tocas o lo tienes al lado) → [[this]] / [[these]]. Lejos (al otro lado, allá) → [[that]] / [[those]]. 2) **¿Uno o varios?** Uno → [[this]] / [[that]]. Varios → [[these]] / [[those]]. El español tiene **tres** grados de distancia (este, ese, aquel) y el inglés solo **dos**: [[that]] cubre tanto «ese» como «aquel». A diferencia del artículo a / an, **los demostrativos sí tienen plural**, y deben concordar con el sustantivo: [[this shoe]], [[these shoes]]; nunca «this shoes». No tienen género: [[this book]] (este libro) y [[this table]] (esta mesa).",
+      "estructuras": [
+        {
+          "etiqueta": "Cerca",
+          "formula": [
+            {
+              "t": "this + singular / these + plural",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "These shoes",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "comfortable",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Estos zapatos son cómodos."
+        },
+        {
+          "etiqueta": "Lejos",
+          "formula": [
+            {
+              "t": "that + singular / those + plural",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "That car",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very old",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ese / Aquel carro es muy viejo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los cuatro demostrativos",
+          "columnas": [
+            "",
+            "Singular",
+            "Plural",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "Cerca",
+              "this (este, esta, esto)",
+              "these (estos, estas)",
+              "this key / these keys"
+            ],
+            [
+              "Lejos",
+              "that (ese, aquel…)",
+              "those (esos, aquellos…)",
+              "that bird / those birds"
+            ]
+          ],
+          "audio": [
+            3
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Lo que está cerca y lo que está lejos de quien habla",
+        "objetos": [
+          {
+            "emoji": "🧍",
+            "x": 0.12,
+            "y": 0.72,
+            "etiqueta": "yo (quien habla)"
+          },
+          {
+            "emoji": "📕",
+            "x": 0.26,
+            "y": 0.8,
+            "etiqueta": "this book"
+          },
+          {
+            "emoji": "🔑🔑",
+            "x": 0.3,
+            "y": 0.6,
+            "etiqueta": "these keys"
+          },
+          {
+            "emoji": "🚗",
+            "x": 0.82,
+            "y": 0.78,
+            "etiqueta": "that car"
+          },
+          {
+            "emoji": "🐦🐦🐦",
+            "x": 0.8,
+            "y": 0.2,
+            "etiqueta": "those birds"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "This coffee is delicious.",
+          "es": "Este café está delicioso.",
+          "partes": [
+            {
+              "t": "This coffee",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "delicious",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Tienes el café en la mano: cerca y singular → [[this]]."
+        },
+        {
+          "en": "That house is very big.",
+          "es": "Esa / Aquella casa es muy grande.",
+          "nota": "La casa está al otro lado de la calle: lejos y singular → [[that]]. Traduce tanto «esa» como «aquella».",
+          "partes": [
+            {
+              "t": "That house",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very big",
+              "rol": "complemento"
+            }
+          ]
+        },
+        {
+          "en": "These apples are green.",
+          "es": "Estas manzanas son verdes.",
+          "partes": [
+            {
+              "t": "These apples",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "green",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Cerca y plural → [[these]]. El sustantivo también va en plural y el verbo es are."
+        },
+        {
+          "en": "Those mountains are beautiful.",
+          "es": "Esas / Aquellas montañas son preciosas.",
+          "partes": [
+            {
+              "t": "Those mountains",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "beautiful",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Lejos y plural → [[those]]."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: tres distancias",
+          "items": [
+            "este libro (aquí)",
+            "ese libro (ahí)",
+            "aquel libro (allá)"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: dos distancias",
+          "items": [
+            "this book (aquí)",
+            "that book (ahí)",
+            "that book (allá)"
+          ]
+        },
+        "veredicto": "No busques una tercera palabra para «aquel»: todo lo que no está cerca de ti es that / those."
+      },
+      "pronunciacion": [
+        {
+          "texto": "this / these",
+          "ipa": "/ðɪs/ /ðiːz/",
+          "consejo": "Las dos empiezan con /ð/: punta de la lengua entre los dientes y vibración, como una d muy suave. La diferencia está en el resto: this tiene una i corta y relajada y termina en /s/ sorda; these tiene una i LARGA y tensa (sonríe) y termina en /z/ que zumba. Si las dices igual, no se sabe si hablas de uno o de varios.",
+          "lento": true
+        },
+        {
+          "texto": "that / those",
+          "ipa": "/ðæt/ /ðoʊz/",
+          "consejo": "that: la /æ/ es una a con la boca bien abierta y los labios estirados. those: el diptongo /oʊ/, de «o» que se cierra hacia «u», y final en /z/ con zumbido."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "this shoes",
+          "bien": "these shoes",
+          "porque": "Los demostrativos concuerdan en número: con un plural, these o those."
+        },
+        {
+          "mal": "those car",
+          "bien": "that car / those cars",
+          "porque": "Si el sustantivo es singular, that; si quieres hablar de varios, cambia los dos: those cars."
+        },
+        {
+          "mal": "Dis is my friend.",
+          "bien": "This is my friend.",
+          "porque": "El sonido /ð/ no es una d dura: la lengua debe salir un poco entre los dientes."
+        }
+      ]
+    },
+    {
+      "id": "demostrativo-solo-o-con-sustantivo",
+      "titulo": "Con sustantivo o solo: this book / This is…",
+      "que_es": "Los demostrativos pueden ir **delante de un sustantivo** ([[this book]], «este libro») o **solos**, ocupando el lugar del sustantivo ([[This is new]], «esto es nuevo»). Solos, sirven también para presentar personas y para reaccionar a lo que alguien dice.",
+      "para_que": [
+        "Presentar a alguien: This is Tom.",
+        "Referirte a algo sin nombrarlo: This is expensive!",
+        "Reaccionar: That's great! That's right. That's OK."
+      ],
+      "como_funciona": "Cuando el demostrativo va solo, él es el sujeto y concuerda con be: [[this is]], [[that is]] (contraído [[that's]]), [[these are]], [[those are]]. Para **presentar** a una persona se usa [[this is]], aunque esté un poco lejos, porque la estás mostrando: [[This is my friend Omar]]. Para presentar a dos: [[These are my parents]]. Para **reaccionar** a algo que alguien acaba de decir se usa [[that]], porque lo dicho ya «quedó atrás»: [[That's great!]] («¡Qué bien!»), [[That's right]] («Así es», «Correcto»), [[That's OK]] («No pasa nada»). Ojo: [[this]] y [[these]] no se contraen con be por escrito («this's» no existe); [[that's]] sí.",
+      "estructuras": [
+        {
+          "etiqueta": "Demostrativo como sujeto",
+          "formula": [
+            {
+              "t": "This / That",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "This",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "my brother Diego",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Este es mi hermano Diego."
+        },
+        {
+          "etiqueta": "Plural como sujeto",
+          "formula": [
+            {
+              "t": "These / Those",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "These",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "my cousins",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Estos son mis primos."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "This is Priya. She's from India.",
+          "es": "Ella es Priya. Es de la India.",
+          "situacion": "Presentas a una amiga.",
+          "nota": "En español decimos «ella es» o «te presento a»; en inglés, [[This is]] + nombre. Después, para seguir hablando de ella, [[she]]."
+        },
+        {
+          "en": "That's great!",
+          "es": "¡Qué bien! / ¡Qué padre!",
+          "situacion": "Un amigo te cuenta una buena noticia.",
+          "partes": [
+            {
+              "t": "That's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "great",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[That]] se refiere a lo que te acaban de contar."
+        },
+        {
+          "en": "Those are expensive.",
+          "es": "Esos son caros.",
+          "partes": [
+            {
+              "t": "Those",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "expensive",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Señalas unos zapatos en el aparador: [[those]] funciona solo, sin repetir shoes."
+        },
+        {
+          "en": "This is my phone, and that is your phone.",
+          "es": "Este es mi celular y ese es tu celular.",
+          "nota": "Contraste en la misma oración: el tuyo en tu mano (this), el de la otra persona en la mesa (that)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "That's right.",
+          "ipa": "/ðæts raɪt/",
+          "consejo": "that's termina en /ts/, como la «tz» de «quetzal», sin vocal después. La r de right no vibra: curva la punta de la lengua hacia atrás sin tocar el paladar. La t final casi no se suelta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "This are my parents.",
+          "bien": "These are my parents.",
+          "porque": "Si presentas a dos personas, el demostrativo va en plural: these are."
+        },
+        {
+          "mal": "This's my car.",
+          "bien": "This is my car.",
+          "porque": "this is no se contrae por escrito. La única contracción con demostrativo es that's."
+        }
+      ]
+    },
+    {
+      "id": "what-is-this",
+      "titulo": "What's this? What are these?",
+      "que_es": "Para preguntar qué es algo, se usa [[What]] + be + demostrativo: [[What's this?]], [[What's that?]], [[What are these?]], [[What are those?]]. En la respuesta **no se repite el demostrativo**: se usa [[it]] para una cosa y [[they]] para varias.",
+      "para_que": [
+        "Aprender vocabulario nuevo preguntando.",
+        "Comprar en un mercado o pedir en un restaurante con platillos desconocidos.",
+        "Entender lo que te señalan otras personas."
+      ],
+      "como_funciona": "La pregunta sigue el orden de las preguntas con be: What + is / are + this / that / these / those. Con this y that, is (What's this?); con these y those, are (What are those?). En la respuesta, el objeto ya se identificó, así que pasas al pronombre: singular → [[It's a…]] / [[It's an…]]; plural → [[They're…]] sin artículo. Responder [[These are guavas]] no es incorrecto, pero con it / they suena más natural. Para preguntar si algo es lo que crees: [[Is this your bag?]] → [[Yes, it is.]] / [[No, it isn't.]]; [[Are those your keys?]] → [[Yes, they are.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta (singular)",
+          "formula": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is ('s)",
+              "rol": "verbo"
+            },
+            {
+              "t": "this / that",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "that",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "¿Qué es eso?"
+        },
+        {
+          "etiqueta": "Pregunta (plural) y respuesta",
+          "formula": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "these / those? → They're …",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "these",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "¿Qué son estos? → They're cookies. (Son galletas.)"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la afirmación a la pregunta y a la respuesta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "These",
+                "rol": "sujeto"
+              },
+              {
+                "t": "are",
+                "rol": "verbo"
+              },
+              {
+                "t": "limes",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "What",
+                "rol": "interrogativo"
+              },
+              {
+                "t": "are",
+                "rol": "verbo"
+              },
+              {
+                "t": "these",
+                "rol": "sujeto"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Respuesta",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              },
+              {
+                "t": "are",
+                "rol": "verbo"
+              },
+              {
+                "t": "limes",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "En la pregunta, be va antes del demostrativo. En la respuesta, el demostrativo se cambia por they (o it en singular)."
+      },
+      "ejemplos": [
+        {
+          "en": "What's this? It's a lime.",
+          "es": "¿Qué es esto? Es un limón.",
+          "nota": "Respuesta con [[it]] y artículo [[a]]: una sola cosa. (lime es el limón verde que conoces en México.)"
+        },
+        {
+          "en": "What are those? They're owls.",
+          "es": "¿Qué son esos? Son búhos.",
+          "nota": "Plural: [[they]] y sin artículo."
+        },
+        {
+          "en": "Is that your jacket? Yes, it is.",
+          "es": "¿Esa es tu chamarra? Sí.",
+          "nota": "Pregunta de sí o no con be al principio. Respuesta corta con [[it]], no con that."
+        },
+        {
+          "en": "Are these your glasses?",
+          "es": "¿Estos son tus anteojos?",
+          "partes": [
+            {
+              "t": "Are",
+              "rol": "verbo"
+            },
+            {
+              "t": "these",
+              "rol": "sujeto"
+            },
+            {
+              "t": "your glasses",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[glasses]] (anteojos) es siempre plural, por eso [[these]] y [[are]]."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "What are those?",
+          "ipa": "/wʌt ər ðoʊz/",
+          "consejo": "La t de what queda entre vocales y suena como un toque rápido, parecido a la r de «pero»; are se reduce a /ər/: «wʌ-rər». Baja la entonación al final, como en toda pregunta con what."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "What is these?",
+          "bien": "What are these?",
+          "porque": "these es plural: el verbo es are."
+        },
+        {
+          "mal": "What's this? — Is a lime.",
+          "bien": "What's this? — It's a lime.",
+          "porque": "La respuesta necesita sujeto: it para una cosa."
+        },
+        {
+          "mal": "What are those? — They're a limes.",
+          "bien": "What are those? — They're limes.",
+          "porque": "En plural no se usa a / an."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sustantivos-y-articulos.demostrativos.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Tienes una taza en la mano. Elige la palabra correcta.",
+      "pregunta": "___ cup is very hot.",
+      "opciones": [
+        {
+          "texto": "This",
+          "correcta": true,
+          "porque": "Correcto: la taza está cerca (en tu mano) y es una sola."
+        },
+        {
+          "texto": "That",
+          "correcta": false,
+          "porque": "that es para algo lejano. La taza está en tu mano."
+        },
+        {
+          "texto": "These",
+          "correcta": false,
+          "porque": "these es plural; cup es singular."
+        },
+        {
+          "texto": "Those",
+          "correcta": false,
+          "porque": "those es plural y lejano."
+        }
+      ],
+      "pistas": [
+        "Dos preguntas: ¿cerca o lejos? ¿uno o varios?",
+        "La taza está en tu mano y cup no lleva -s.",
+        "Cerca + singular → this."
+      ],
+      "solucion": {
+        "respuesta": "This",
+        "explicacion": "La taza está cerca y es una sola, así que el demostrativo es this: This cup is very hot (Esta taza está muy caliente)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con this, that, these o those. Los pájaros están en el cielo, lejos de ti.",
+      "frase": "Look at ___ birds!",
+      "traduccion": "¡Mira esos pájaros!",
+      "banco": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "respuestas": [
+        [
+          "those"
+        ]
+      ],
+      "errores_tipicos": {
+        "that": "that es singular; birds es plural: [[those]].",
+        "these": "these es para cosas cercanas; los pájaros están lejos: [[those]]."
+      },
+      "pistas": [
+        "¿Cerca o lejos? ¿Uno o varios?",
+        "Están en el cielo y birds lleva -s.",
+        "Lejos + plural → those."
+      ],
+      "solucion": {
+        "respuesta": "those",
+        "explicacion": "Los pájaros están lejos y son varios (birds), así que se usa those."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión en español con su traducción.",
+      "pares": [
+        {
+          "a": "este libro",
+          "b": "this book"
+        },
+        {
+          "a": "estas llaves",
+          "b": "these keys"
+        },
+        {
+          "a": "ese perro",
+          "b": "that dog"
+        },
+        {
+          "a": "aquellas montañas",
+          "b": "those mountains"
+        },
+        {
+          "a": "aquel edificio",
+          "b": "that building"
+        },
+        {
+          "a": "esos zapatos",
+          "b": "those shoes"
+        }
+      ],
+      "pistas": [
+        "El inglés solo tiene dos distancias.",
+        "«ese» y «aquel» se traducen con la misma palabra.",
+        "este → this; estos → these; ese / aquel → that; esos / aquellos → those."
+      ],
+      "solucion": {
+        "respuesta": "este libro → this book · estas llaves → these keys · ese perro → that dog · aquellas montañas → those mountains · aquel edificio → that building · esos zapatos → those shoes",
+        "explicacion": "Lo cercano (este, estas) es this / these; todo lo que no está cerca, sea «ese» o «aquel», es that en singular y those en plural."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el demostrativo adecuado. Te estás probando unos zapatos.",
+      "frase": "___ shoes are very comfortable.",
+      "traduccion": "Estos zapatos son muy cómodos.",
+      "respuestas": [
+        [
+          "These"
+        ]
+      ],
+      "errores_tipicos": {
+        "This": "shoes es plural: el demostrativo cercano en plural es [[these]].",
+        "Those": "Los zapatos los llevas puestos: están cerca. [[These]]."
+      },
+      "pistas": [
+        "Los zapatos están en tus pies.",
+        "shoes es plural y el verbo es are.",
+        "Cerca + plural → these."
+      ],
+      "solucion": {
+        "respuesta": "These",
+        "explicacion": "Los zapatos están cerca (los llevas puestos) y son plural (shoes, are), así que se usa these."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "This glasses are new.",
+      "error": "This",
+      "correcciones": [
+        "These"
+      ],
+      "frase_correcta": "These glasses are new.",
+      "pistas": [
+        "Revisa la concordancia de número.",
+        "glasses (anteojos) es plural y el verbo es are.",
+        "Con un sustantivo plural cercano, these."
+      ],
+      "solucion": {
+        "respuesta": "These",
+        "explicacion": "Glasses es plural (y el verbo es are), así que el demostrativo también debe ser plural: These glasses are new (Estos anteojos son nuevos)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pon la oración en plural.",
+      "origen": "That car is expensive.",
+      "instruccion": "Plural",
+      "respuestas": [
+        "Those cars are expensive."
+      ],
+      "errores_tipicos": {
+        "Those car are expensive.": "Si el demostrativo es plural, el sustantivo también: [[cars]].",
+        "That cars are expensive.": "Con un sustantivo plural lejano, el demostrativo es [[those]].",
+        "Those cars are expensives.": "Los adjetivos no tienen plural: [[expensive]]."
+      },
+      "pistas": [
+        "Cambian tres palabras.",
+        "El demostrativo, el sustantivo y el verbo pasan a plural; el adjetivo no.",
+        "Regla: en plural, el demostrativo pasa a su forma plural, el sustantivo toma -s y be pasa a plural (como This book is old → These books are old)."
+      ],
+      "solucion": {
+        "respuesta": "Those cars are expensive.",
+        "explicacion": "That (lejos, singular) pasa a those (lejos, plural); car a cars; is a are. Expensive no cambia porque es un adjetivo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pon la oración en plural (presentas a dos personas).",
+      "origen": "This is my cousin.",
+      "instruccion": "Plural",
+      "respuestas": [
+        "These are my cousins."
+      ],
+      "errores_tipicos": {
+        "This are my cousins.": "El demostrativo también va en plural: [[These are]].",
+        "These is my cousins.": "Con these, el verbo es [[are]].",
+        "These are my cousin.": "Si son dos personas, el sustantivo va en plural: [[cousins]]."
+      },
+      "pistas": [
+        "Ahora presentas a dos personas.",
+        "Cambian el demostrativo, el verbo y el sustantivo.",
+        "Regla: en plural cambian el demostrativo y be, y el sustantivo toma -s (como That is my friend → Those are my friends)."
+      ],
+      "solucion": {
+        "respuesta": "These are my cousins.",
+        "explicacion": "Para presentar a dos personas: these (plural de this) + are + cousins. My no cambia en plural."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. La cosa está lejos de ti.",
+      "es": "¿Qué es eso?",
+      "respuestas": [
+        "What's that?",
+        "What is that?"
+      ],
+      "errores_tipicos": {
+        "What's this?": "this es para algo cercano. «Eso», lejos de ti → [[that]].",
+        "What are those?": "«Eso» es singular: [[What's that?]]",
+        "What that is?": "En la pregunta, be va antes del demostrativo: [[What is that?]]"
+      },
+      "pistas": [
+        "Es una pregunta con what y be.",
+        "¿Cerca o lejos? ¿Uno o varios?",
+        "Estructura: palabra interrogativa + be contraído + demostrativo; para algo lejano y singular no se usa this."
+      ],
+      "solucion": {
+        "respuesta": "What's that?",
+        "explicacion": "Algo lejano y singular es that. La pregunta sigue el orden What + is + that: What's that?"
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": [
+        "birds",
+        "What",
+        "those",
+        "are"
+      ],
+      "respuestas": [
+        "What are those birds",
+        "What birds are those"
+      ],
+      "traduccion": "¿Qué son esos pájaros?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "Después de what va el verbo.",
+        "Orden: What + be + demostrativo + sustantivo + ? (como en What is this song?)."
+      ],
+      "solucion": {
+        "respuesta": "What are those birds?",
+        "explicacion": "Pregunta con be: What + are + sujeto (those birds). Es are porque those birds es plural. También es correcta What birds are those? («¿Qué pájaros son esos?»)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Estás en tu cocina. Tu amigo Sam señala un plato con galletas que hiciste.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "Mmm! What are these?",
+          "es": "¡Mmm! ¿Qué son estas?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "They're cookies.",
+          "correcta": true,
+          "porque": "Correcto y natural: en la respuesta se pasa al pronombre they, sin artículo porque es plural."
+        },
+        {
+          "texto": "It's cookies.",
+          "correcta": false,
+          "porque": "it es singular; cookies es plural: they're."
+        },
+        {
+          "texto": "They're a cookies.",
+          "correcta": false,
+          "porque": "a / an no va con plurales."
+        },
+        {
+          "texto": "Are cookies.",
+          "correcta": false,
+          "porque": "Falta el sujeto: they."
+        }
+      ],
+      "pistas": [
+        "La pregunta es en plural.",
+        "En la respuesta se usa un pronombre, no el demostrativo.",
+        "Plural → They're + sustantivo en plural, sin a."
+      ],
+      "solucion": {
+        "respuesta": "They're cookies.",
+        "explicacion": "A What are these? se responde con they (plural) y sin artículo: They're cookies. «These are cookies» también sería correcto, pero con they suena más natural."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.11",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa la pregunta y la respuesta. Una amiga señala unos anteojos que llevas puestos. En la respuesta usa un pronombre personal (no un demostrativo).",
+      "frase": "What ___ those? — ___ my new glasses.",
+      "traduccion": "¿Qué es eso? — Son mis anteojos nuevos.",
+      "respuestas": [
+        [
+          "are"
+        ],
+        [
+          "They're"
+        ]
+      ],
+      "errores_tipicos": {
+        "is | it's": "glasses es plural (anteojos): la pregunta lleva [[are]] y la respuesta [[They're]].",
+        "are | it's": "La respuesta habla de glasses, que es plural: [[They're]].",
+        "are | these are": "Correcto en gramática, pero el ejercicio pide la respuesta con pronombre: [[They're]]."
+      },
+      "pistas": [
+        "glasses (anteojos) siempre es plural en inglés.",
+        "El primer hueco es el verbo de la pregunta; el segundo, sujeto + verbo de la respuesta con un pronombre.",
+        "Regla: con un demostrativo plural, be va en plural; en la respuesta, el demostrativo se cambia por el pronombre plural contraído con be."
+      ],
+      "solucion": {
+        "respuesta": "are … They're",
+        "explicacion": "Those es plural, así que la pregunta es What are those? La respuesta usa they para varias cosas: They're my new glasses. Glasses siempre es plural, aunque en español a veces digamos «eso»."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.12",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la reacción correcta.",
+      "pregunta": "Tu amigo te cuenta: «My exam results are great: 100%!». ¿Qué respondes?",
+      "opciones": [
+        {
+          "texto": "That's great!",
+          "correcta": true,
+          "porque": "Correcto: that se refiere a la noticia que te acaban de dar. «¡Qué bien!»"
+        },
+        {
+          "texto": "Those are great!",
+          "correcta": false,
+          "porque": "those es plural: señalaría varias cosas, no una noticia."
+        },
+        {
+          "texto": "That great!",
+          "correcta": false,
+          "porque": "Falta el verbo: That's (that is) great."
+        },
+        {
+          "texto": "That's a great!",
+          "correcta": false,
+          "porque": "great es un adjetivo: no lleva a."
+        }
+      ],
+      "pistas": [
+        "Reaccionas a una noticia.",
+        "Para referirte a lo que alguien acaba de decir, se usa un demostrativo singular.",
+        "That's + adjetivo, sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "That's great!",
+        "explicacion": "Para reaccionar a lo que alguien dice se usa that (la noticia) + is + adjetivo: That's great! Sin artículo, porque great es un adjetivo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.13",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Atención: ¿oyes this o these?",
+      "texto": "These bags are heavy.",
+      "pistas": [
+        "Escucha la vocal y el final del demostrativo: ¿i corta y s, o i larga y z?",
+        "El verbo que oyes es are.",
+        "Regla: i larga + /z/ final = demostrativo plural cercano; con él, el sustantivo también va en plural."
+      ],
+      "solucion": {
+        "respuesta": "These bags are heavy.",
+        "explicacion": "«Estas bolsas están pesadas.» Se oye /ðiːz/, con i larga y z, y el verbo are: todo indica plural, así que es These bags."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.14",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe.",
+      "texto": "This is my sister, and those are my friends.",
+      "pistas": [
+        "Hay dos demostrativos: uno cercano singular y otro lejano plural.",
+        "El primero tiene i corta; el segundo tiene el diptongo /oʊ/.",
+        "Regla: i corta = demostrativo singular cercano; /oʊ/ = demostrativo plural lejano. Son dos oraciones unidas por and."
+      ],
+      "solucion": {
+        "respuesta": "This is my sister, and those are my friends.",
+        "explicacion": "«Esta es mi hermana, y esos son mis amigos.» This (cerca, singular) presenta a la hermana; those (lejos, plural) señala a los amigos, y por eso va con are."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.15",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Exagera la diferencia entre this y these.",
+      "texto": "this book, these books, that car, those cars",
+      "ipa": "/ðɪs bʊk | ðiːz bʊks | ðæt kɑːr | ðoʊz kɑːrz/",
+      "consejo": "Todas empiezan con la lengua entre los dientes (/ð/). this: i corta, s sorda. these: i larga, sonríe, y z que zumba. that: a abierta. those: o que se cierra hacia u, y z. Pronuncia también la -s de books y la /z/ de cars.",
+      "es": "este libro, estos libros, ese carro, esos carros"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Visita guiada por tu casa",
+    "contexto": "Una compañera de trabajo, Aisha, viene a tu casa por primera vez. Le enseñas algunas cosas y le presentas a alguien.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "What a nice house! What's that?",
+        "es": "¡Qué bonita casa! ¿Qué es eso?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "And who is that?",
+        "es": "¿Y quién es él / ella?"
+      }
+    ],
+    "tu_turno": "Responde qué es lo que señala Aisha (algo lejos), enséñale algo que tengas cerca (singular o plural) y presenta a la persona que ve.",
+    "modelo": "It's a painting from Oaxaca. And these are my plants. That's my brother, Diego. Diego, this is Aisha.",
+    "alternativas": [
+      "That's an old radio. It's from the 1970s. These are photos of my family. And that's my roommate, Ben.",
+      "It's a guitar. And this is my cat, Luna. Those are my parents in the garden."
+    ],
+    "claves": [
+      "Respuesta con it / they: It's a…, They're…",
+      "this / these para lo que tienes cerca; that / those para lo lejano.",
+      "Presentar: This is + nombre. Hablar de alguien que está lejos: That's + nombre."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "this (este) / these (estos): cerca. that (ese, aquel) / those (esos, aquellos): lejos.",
+      "Concuerdan en número: this book, these books; nunca this books.",
+      "that cubre «ese» y «aquel».",
+      "Solos: This is Tom. These are my parents. That's great!",
+      "What's this? → It's a… / What are these? → They're… (sin a en plural)."
+    ],
+    "recuerda": [
+      "this /ðɪs/ (i corta, s) ≠ these /ðiːz/ (i larga, z).",
+      "that's se contrae; this is no.",
+      "glasses (anteojos) es plural: these glasses."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "sustantivos-y-articulos.demostrativos.r1",
+      "frente": "Cerca y plural",
+      "reverso": "these → these keys",
+      "nota": "Singular cercano: this."
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.r2",
+      "frente": "«aquellas montañas»",
+      "reverso": "those mountains",
+      "nota": "that / those cubren ese y aquel."
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.r3",
+      "frente": "What are these? (galletas)",
+      "reverso": "They're cookies.",
+      "nota": "En la respuesta, they y sin a."
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.r4",
+      "frente": "Presentar a tus dos primos",
+      "reverso": "These are my cousins.",
+      "nota": "Plural: these are."
+    },
+    {
+      "id": "sustantivos-y-articulos.demostrativos.r5",
+      "frente": "Reaccionar a una buena noticia",
+      "reverso": "That's great!",
+      "nota": "that = lo que te acaban de decir."
+    }
+  ]
+}

@@ -1,0 +1,1233 @@
+{
+  "slug": "there-negacion-y-preguntas",
+  "titulo": "Negación y preguntas con there",
+  "minutos": 40,
+  "objetivos": [
+    "Negar con there isn't a…, there aren't any… y there's no / there are no.",
+    "Preguntar con Is there a…? y Are there any…? y contestar con respuestas cortas.",
+    "Preguntar cantidades con How many + plural + are there?",
+    "Elegir some, any o a según la oración sea afirmativa, negativa o pregunta."
+  ],
+  "situacion": {
+    "titulo": "En la recepción de un hotel",
+    "texto": "Carlos acaba de llegar a un hotel pequeño y le hace preguntas a la recepcionista, Grace. Observa cómo se invierte el orden en las preguntas y cómo contesta ella.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Excuse me, is there a restaurant in the hotel?",
+        "es": "Disculpe, ¿hay restaurante en el hotel?"
+      },
+      {
+        "quien": "Grace",
+        "en": "No, there isn't, but there's a good one across the street.",
+        "es": "No, no hay, pero hay uno bueno cruzando la calle."
+      },
+      {
+        "quien": "Carlos",
+        "en": "Are there any towels in the room?",
+        "es": "¿Hay toallas en la habitación?"
+      },
+      {
+        "quien": "Grace",
+        "en": "Yes, there are. They're in the bathroom.",
+        "es": "Sí, sí hay. Están en el baño."
+      },
+      {
+        "quien": "Carlos",
+        "en": "And how many floors are there?",
+        "es": "¿Y cuántos pisos hay?"
+      },
+      {
+        "quien": "Grace",
+        "en": "There are four, but there's no elevator. Sorry!",
+        "es": "Hay cuatro, pero no hay elevador. ¡Lo siento!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "negacion-there",
+      "titulo": "No hay: there isn't / there aren't",
+      "que_es": "Para decir que algo **no existe** en un lugar, añades [[not]] a [[is]] o [[are]], igual que con cualquier oración con be: [[there isn't]] (singular e incontable) y [[there aren't]] (plural).",
+      "para_que": [
+        "Avisar de lo que falta: [[There isn't any milk.]]",
+        "Describir un lugar con sus defectos: [[There aren't any windows in the bathroom.]]",
+        "Contestar que no a alguien que pregunta por un servicio."
+      ],
+      "como_funciona": "Con un contable singular: {{sujeto:There}} {{verbo:is}}{{negacion:n't}} {{complemento:a / an + sustantivo}} → [[There isn't a gym.]] Con plural o incontable se usa [[any]] («ningún», o sin traducción): {{sujeto:There}} {{verbo:are}}{{negacion:n't}} {{complemento:any + plural}} → [[There aren't any buses.]] · [[There isn't any water.]] Hay una segunda forma, más enfática, con [[no]]: [[There's no elevator.]] · [[There are no buses.]] Con [[no]] el verbo es **afirmativo** y no se pone [[a]] ni [[any]]. Nunca mezcles las dos: [[There isn't no…]] es una doble negación y en inglés estándar es incorrecta.",
+      "estructuras": [
+        {
+          "etiqueta": "Negación · singular",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "a / an + sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "a garage",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No hay cochera."
+        },
+        {
+          "etiqueta": "Negación · plural o incontable",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "aren't / isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "any + plural / incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "aren't",
+              "rol": "negacion"
+            },
+            {
+              "t": "any chairs",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No hay sillas."
+        },
+        {
+          "etiqueta": "Negación enfática con no",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "no",
+              "rol": "negacion"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "no",
+              "rol": "negacion"
+            },
+            {
+              "t": "taxis",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No hay (ni un) taxi."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmativa y negativa",
+          "columnas": [
+            "Tipo de sustantivo",
+            "Afirmativa",
+            "Negativa"
+          ],
+          "filas": [
+            [
+              "singular contable",
+              "There's a bank.",
+              "There isn't a bank. / There's no bank."
+            ],
+            [
+              "plural",
+              "There are some banks.",
+              "There aren't any banks. / There are no banks."
+            ],
+            [
+              "incontable",
+              "There's some coffee.",
+              "There isn't any coffee. / There's no coffee."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There isn't a hospital in this town.",
+          "es": "No hay hospital en este pueblo.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "a hospital",
+              "rol": "complemento"
+            },
+            {
+              "t": "in this town",
+              "rol": "otro"
+            }
+          ],
+          "nota": "En español se omite el artículo («no hay hospital»); en inglés el contable singular sigue necesitando a."
+        },
+        {
+          "en": "There aren't any shops on this street.",
+          "es": "No hay tiendas en esta calle.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "aren't",
+              "rol": "negacion"
+            },
+            {
+              "t": "any shops",
+              "rol": "complemento"
+            },
+            {
+              "t": "on this street",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Plural en negativa → any. Any no se traduce aquí; solo acompaña a la negación."
+        },
+        {
+          "en": "There isn't any hot water.",
+          "es": "No hay agua caliente.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "any hot water",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Water es incontable: verbo en singular (isn't) y any, nunca a."
+        },
+        {
+          "en": "There's no parking here.",
+          "es": "Aquí no hay estacionamiento.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "no parking",
+              "rol": "negacion"
+            },
+            {
+              "t": "here",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Con no el verbo queda en afirmativo (there's). Suena más rotundo, típico de letreros y quejas."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "isn't / aren't + a / any",
+          "items": [
+            "There isn't a pool.",
+            "There aren't any trees.",
+            "Neutral, la más frecuente al conversar."
+          ]
+        },
+        "b": {
+          "titulo": "is / are + no",
+          "items": [
+            "There's no pool.",
+            "There are no trees.",
+            "Más enfática: «no hay ni uno»."
+          ]
+        },
+        "veredicto": "Las dos son correctas. Elige una: o niegas el verbo (isn't) o niegas el sustantivo (no). Si niegas las dos cosas, cometes una doble negación."
+      },
+      "pronunciacion": [
+        {
+          "texto": "There isn't",
+          "ipa": "/ðɛr ˈɪzənt/",
+          "consejo": "Une las dos palabras: la r de there se engancha con la i: «deríznt». La t final casi no se suelta; la lengua toca detrás de los dientes y se queda ahí.",
+          "lento": true
+        },
+        {
+          "texto": "There aren't",
+          "ipa": "/ðɛr ˈɑrnt/ (británico /ðeər ˈɑːnt/)",
+          "consejo": "Aren't es una sola sílaba con «a» abierta y larga, como en «ajo» pero con la boca más abierta. En negativa aren't se pronuncia fuerte, a diferencia de are en afirmativa."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There isn't no bread.",
+          "bien": "There isn't any bread. / There's no bread.",
+          "porque": "Doble negación. En español «no hay nada» es normal; en inglés estándar solo se niega una vez."
+        },
+        {
+          "mal": "There aren't some chairs.",
+          "bien": "There aren't any chairs.",
+          "porque": "En negativa se usa any, no some."
+        },
+        {
+          "mal": "No there is a bank.",
+          "bien": "There isn't a bank.",
+          "porque": "El not va después de is, como en cualquier oración con be. No se pone no al principio como en español."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-there",
+      "titulo": "¿Hay…? Is there…? Are there any…?",
+      "que_es": "Para preguntar si algo existe, se cambia el orden: el verbo va **antes** de there. [[There is a bank.]] → [[Is there a bank?]] Es la misma inversión que ya conoces con be ([[She is…]] → [[Is she…?]]).",
+      "para_que": [
+        "Preguntar por servicios: [[Is there a pharmacy near here?]]",
+        "Informarte antes de rentar o reservar: [[Are there any closets?]]",
+        "Contestar con respuestas cortas: [[Yes, there is.]] / [[No, there aren't.]]"
+      ],
+      "como_funciona": "Singular: {{verbo:Is}} {{sujeto:there}} {{complemento:a / an + sustantivo}}? Plural o incontable: {{verbo:Are / Is}} {{sujeto:there}} {{complemento:any + sustantivo}}? En preguntas, igual que en negativas, se usa [[any]] con plurales e incontables: [[Are there any trees?]] · [[Is there any milk?]] (verás en la unidad de contables que en los ofrecimientos se usa some; por ahora quédate con any). La respuesta corta repite there + el verbo: [[Yes, there is.]] · [[No, there isn't.]] · [[Yes, there are.]] · [[No, there aren't.]] En la respuesta corta afirmativa **no se contrae**: [[Yes, there is]], nunca [[Yes, there's]], porque la contracción no puede ir al final de la oración. La entonación de las preguntas de sí o no **sube** al final.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta · singular",
+          "formula": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a / an + sustantivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "lugar?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a bus stop",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Hay una parada de autobús por aquí?"
+        },
+        {
+          "etiqueta": "Pregunta · plural",
+          "formula": [
+            {
+              "t": "Are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any + plural",
+              "rol": "complemento"
+            },
+            {
+              "t": "lugar?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any restaurants",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the area?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Hay restaurantes en la zona?"
+        },
+        {
+          "etiqueta": "Respuestas cortas",
+          "formula": [
+            {
+              "t": "Yes, / No,",
+              "rol": "otro"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / isn't · are / aren't",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "aren't",
+              "rol": "verbo"
+            }
+          ],
+          "es": "No, no hay."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Is there an ATM in the station?",
+          "es": "¿Hay un cajero en la estación?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "an ATM",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the station",
+              "rol": "otro"
+            }
+          ],
+          "nota": "An porque ATM se deletrea y empieza con el sonido /eɪ/. La respuesta sería Yes, there is o No, there isn't."
+        },
+        {
+          "en": "Are there any good cafés near here?",
+          "es": "¿Hay buenas cafeterías por aquí?",
+          "partes": [
+            {
+              "t": "Are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any good cafés",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Any va delante del adjetivo y del sustantivo: any good cafés."
+        },
+        {
+          "en": "Yes, there are. There are two on Park Avenue.",
+          "es": "Sí, hay. Hay dos en Park Avenue.",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are.",
+              "rol": "verbo"
+            },
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "two",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Park Avenue",
+              "rol": "otro"
+            }
+          ],
+          "nota": "La respuesta corta va sin contraer y luego se amplía con información."
+        },
+        {
+          "en": "Is there any sugar?",
+          "es": "¿Hay azúcar?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any sugar",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación y pregunta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "There",
+                "rol": "sujeto"
+              },
+              {
+                "t": "are",
+                "rol": "verbo"
+              },
+              {
+                "t": "some parks",
+                "rol": "complemento"
+              },
+              {
+                "t": "near here.",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "There",
+                "rol": "sujeto"
+              },
+              {
+                "t": "aren't",
+                "rol": "negacion"
+              },
+              {
+                "t": "any parks",
+                "rol": "complemento"
+              },
+              {
+                "t": "near here.",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Are",
+                "rol": "verbo"
+              },
+              {
+                "t": "there",
+                "rol": "sujeto"
+              },
+              {
+                "t": "any parks",
+                "rol": "complemento"
+              },
+              {
+                "t": "near here?",
+                "rol": "otro"
+              }
+            ]
+          }
+        ],
+        "pie": "Fíjate en dos cambios: el verbo salta delante de there en la pregunta, y some se convierte en any en la negación y en la pregunta."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Is there a bank near here?",
+          "ipa": "/ɪz ðɛr ə bæŋk nɪr hɪr/",
+          "consejo": "Is there se une: «izder», con la /z/ zumbada que pasa directo a la th con la lengua entre los dientes. La voz sube al final, en here.",
+          "lento": true
+        },
+        {
+          "texto": "any",
+          "ipa": "/ˈɛni/",
+          "consejo": "Se dice «éni», con e; no «ani». Es uno de los errores de lectura más comunes porque se escribe con a."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There is a bank near here?",
+          "bien": "Is there a bank near here?",
+          "porque": "En español basta con la entonación; en inglés la pregunta invierte el orden: is va antes de there."
+        },
+        {
+          "mal": "Yes, there's.",
+          "bien": "Yes, there is.",
+          "porque": "En la respuesta corta afirmativa no se contrae: la contracción no puede quedar al final."
+        },
+        {
+          "mal": "Are there some towels?",
+          "bien": "Are there any towels?",
+          "porque": "En preguntas normales de información se usa any (some aparece en ofrecimientos, que verás más adelante)."
+        }
+      ]
+    },
+    {
+      "id": "how-many",
+      "titulo": "¿Cuántos hay? How many… are there?",
+      "que_es": "[[How many]] significa «cuántos / cuántas» y siempre va con un sustantivo **en plural**. Para preguntar cuántas cosas hay: [[How many + plural + are there?]]",
+      "para_que": [
+        "Preguntar el tamaño de una casa: [[How many bedrooms are there?]]",
+        "Preguntar por personas o cosas en un lugar: [[How many students are there in your class?]]"
+      ],
+      "como_funciona": "El orden es fijo: {{interrogativo:How many}} {{complemento:+ sustantivo plural}} {{verbo:are}} {{sujeto:there}} ({{otro:+ lugar}})? El sustantivo va **pegado** a how many, antes del verbo, a diferencia del español, donde puede ir después («¿Cuántas recámaras hay?»). El verbo es siempre [[are]] porque el sustantivo es plural. Se contesta con [[There are + número]], [[There's one]] si solo hay uno, o solo con el número. Para cosas incontables (agua, dinero) se usa [[How much…?]], que estudiarás en la unidad de contables e incontables.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de cantidad",
+          "formula": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "sustantivo plural",
+              "rol": "complemento"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lugar?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "floors",
+              "rol": "complemento"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the building?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Cuántos pisos tiene el edificio?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How many people are there in your family?",
+          "es": "¿Cuántas personas hay en tu familia? / ¿Cuántos son en tu familia?",
+          "partes": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "people",
+              "rol": "complemento"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in your family",
+              "rol": "otro"
+            }
+          ],
+          "nota": "People es plural irregular (sin -s), por eso encaja con how many y are."
+        },
+        {
+          "en": "There are five: my parents, my two sisters and me.",
+          "es": "Somos cinco: mis papás, mis dos hermanas y yo.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "five:",
+              "rol": "complemento"
+            },
+            {
+              "t": "my parents, my two sisters and me",
+              "rol": "otro"
+            }
+          ],
+          "nota": "En inglés se responde con there are; el español prefiere «somos cinco»."
+        },
+        {
+          "en": "How many bathrooms are there? — There's only one.",
+          "es": "¿Cuántos baños hay? — Solo hay uno.",
+          "partes": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "bathrooms",
+              "rol": "complemento"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there? —",
+              "rol": "sujeto"
+            },
+            {
+              "t": "There's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "only one",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque la pregunta va en plural, si la respuesta es uno, pasa a singular: there's one."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "How many",
+          "ipa": "/haʊ ˈmɛni/",
+          "consejo": "How empieza con h aspirada: aire suave desde la garganta, como cuando empañas un vidrio, no como la j española. Many se dice «méni», con e.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "How many bedrooms there are?",
+          "bien": "How many bedrooms are there?",
+          "porque": "En la pregunta el verbo va antes de there."
+        },
+        {
+          "mal": "How many bedroom are there?",
+          "bien": "How many bedrooms are there?",
+          "porque": "How many siempre va con plural."
+        },
+        {
+          "mal": "How many are there bedrooms?",
+          "bien": "How many bedrooms are there?",
+          "porque": "El sustantivo va pegado a how many, antes del verbo."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la negación correcta de: There are some trees in the yard.",
+      "pregunta": "Negativa:",
+      "opciones": [
+        {
+          "texto": "There aren't any trees in the yard.",
+          "correcta": true,
+          "porque": "Correcto: are + not (aren't) y some cambia a any en la negación."
+        },
+        {
+          "texto": "There aren't some trees in the yard.",
+          "correcta": false,
+          "porque": "En la negativa some se convierte en any."
+        },
+        {
+          "texto": "There isn't any trees in the yard.",
+          "correcta": false,
+          "porque": "Trees es plural: el verbo debe ser aren't, no isn't."
+        },
+        {
+          "texto": "There aren't no trees in the yard.",
+          "correcta": false,
+          "porque": "Doble negación: aren't y no juntos no son inglés estándar."
+        }
+      ],
+      "pistas": [
+        "La negación de there are es there aren't.",
+        "Fíjate también en la palabra some: ¿se queda igual?",
+        "En negativa, plural → aren't + any."
+      ],
+      "solucion": {
+        "respuesta": "There aren't any trees in the yard.",
+        "explicacion": "La respuesta correcta es There aren't any trees in the yard. Hay que negar el verbo (are → aren't) porque trees es plural, y cambiar some por any, que es la palabra que acompaña a los plurales en las negaciones. Con no delante habría doble negación."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con isn't o aren't.",
+      "frase": "There ___ a microwave in the kitchen, and there ___ any plates.",
+      "respuestas": [
+        [
+          "isn't",
+          "is not"
+        ],
+        [
+          "aren't",
+          "are not"
+        ]
+      ],
+      "errores_tipicos": {
+        "aren't | aren't": "A microwave es singular: there isn't.",
+        "isn't | isn't": "Plates es plural: there aren't any plates."
+      },
+      "pistas": [
+        "Igual que en afirmativa: el verbo concuerda con lo que viene detrás.",
+        "Hueco 1: a microwave. Hueco 2: any plates.",
+        "Singular → isn't; plural → aren't."
+      ],
+      "solucion": {
+        "respuesta": "isn't · aren't",
+        "explicacion": "A microwave es una sola cosa (singular) → there isn't. Plates es plural → there aren't. La negación sigue la misma regla de concordancia que la afirmación."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a, an, some o any.",
+      "frase": "There's ___ sofa, but there aren't ___ chairs. Is there ___ elevator? There are ___ stairs.",
+      "respuestas": [
+        [
+          "a"
+        ],
+        [
+          "any"
+        ],
+        [
+          "an"
+        ],
+        [
+          "some"
+        ]
+      ],
+      "banco": [
+        "a",
+        "an",
+        "some",
+        "any"
+      ],
+      "traduccion": "Hay un sofá, pero no hay sillas. ¿Hay elevador? Hay escaleras.",
+      "errores_tipicos": {
+        "a | some | an | some": "El segundo hueco está en una negación (aren't): se usa any, no some.",
+        "a | any | a | some": "Elevator empieza con sonido vocálico: an elevator.",
+        "a | any | an | any": "La última oración es afirmativa: con plural se usa some."
+      },
+      "pistas": [
+        "a / an con singular; some en afirmativa y any en negativa o pregunta con plurales e incontables.",
+        "Mira el tipo de oración de cada hueco: afirmativa, negativa o pregunta.",
+        "Regla: singular contable → a o an según el sonido inicial; negación o pregunta + plural → any; afirmativa + plural → some."
+      ],
+      "solucion": {
+        "respuesta": "a · any · an · some",
+        "explicacion": "A sofa: singular contable. Any chairs: plural en una negación (aren't). An elevator: singular que empieza con sonido de vocal. Some stairs: plural en afirmativa. La elección depende de dos cosas a la vez: si el sustantivo es singular o plural y si la oración es afirmativa, negativa o pregunta."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta.",
+      "origen": "There's a bus stop near the school.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Is there a bus stop near the school?"
+      ],
+      "errores_tipicos": {
+        "There is a bus stop near the school?": "Solo cambiaste la entonación. En inglés hay que invertir: Is there…?",
+        "Is there any bus stop near the school?": "Bus stop es singular contable: se pregunta con a, no con any."
+      },
+      "pistas": [
+        "Las preguntas con be invierten el orden.",
+        "Mueve is delante de there.",
+        "Regla: en la pregunta be va antes de there y el resto se queda igual (como en Is there a bank near here?)."
+      ],
+      "solucion": {
+        "respuesta": "Is there a bus stop near the school?",
+        "explicacion": "Para preguntar se invierte el orden: is pasa delante de there. Como bus stop es singular, se mantiene a. En inglés la entonación sola no basta para hacer una pregunta escrita."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta.",
+      "origen": "There are some good schools in this area.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Are there any good schools in this area?"
+      ],
+      "errores_tipicos": {
+        "Are there some good schools in this area?": "En preguntas normales some cambia a any.",
+        "There are any good schools in this area?": "Falta invertir el orden: Are there…?",
+        "Is there any good schools in this area?": "Schools es plural: la pregunta empieza con are."
+      },
+      "pistas": [
+        "Dos cambios: el orden y una palabra.",
+        "El verbo va primero; ¿qué pasa con some?",
+        "Regla: be va antes de there, y en preguntas some cambia por any."
+      ],
+      "solucion": {
+        "respuesta": "Are there any good schools in this area?",
+        "explicacion": "Se invierte el orden (are delante de there) y some pasa a any, porque en las preguntas de información se usa any con plurales. Are porque schools es plural."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.06",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás en la calle y una turista, Aisha, te pregunta algo. Tú sabes que en esa colonia hay dos farmacias.",
+      "lineas": [
+        {
+          "quien": "Aisha",
+          "en": "Excuse me, are there any pharmacies near here?",
+          "es": "Disculpa, ¿hay farmacias por aquí?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, there are. There's one on the next street.",
+          "correcta": true,
+          "porque": "Correcto: la pregunta es en plural (are there), así que la respuesta corta es Yes, there are; luego das un dato útil con there's."
+        },
+        {
+          "texto": "Yes, there's.",
+          "correcta": false,
+          "porque": "La respuesta corta afirmativa no se contrae, y además la pregunta era en plural: Yes, there are."
+        },
+        {
+          "texto": "Yes, they are.",
+          "correcta": false,
+          "porque": "They are significa «ellos/ellas son/están»; para «hay» se contesta con there."
+        },
+        {
+          "texto": "Yes, there is two.",
+          "correcta": false,
+          "porque": "Two es plural: sería there are two. Y la respuesta corta ya es Yes, there are."
+        }
+      ],
+      "pistas": [
+        "Las respuestas cortas repiten there + el mismo verbo de la pregunta.",
+        "La pregunta empieza con are there: ¿qué verbo repites?",
+        "Regla: la respuesta corta repite there + el verbo de la pregunta, sin contraer; luego puedes añadir un dato."
+      ],
+      "solucion": {
+        "respuesta": "Yes, there are. There's one on the next street.",
+        "explicacion": "La respuesta corta repite there y el verbo de la pregunta (are), sin contraer. Después se añade información concreta; there's one es correcto porque ahí hablas de una sola farmacia."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "there",
+        "students",
+        "How",
+        "are",
+        "many",
+        "class",
+        "in",
+        "your"
+      ],
+      "respuestas": [
+        "How many students are there in your class"
+      ],
+      "traduccion": "¿Cuántos estudiantes hay en tu clase?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "How many va pegado al sustantivo plural.",
+        "Orden: How many + sustantivo plural + be + there + lugar?"
+      ],
+      "solucion": {
+        "respuesta": "How many students are there in your class?",
+        "explicacion": "La pregunta empieza con How many y justo después va el sustantivo plural (students). Luego viene el verbo antes de there (are there), como en toda pregunta con be, y el lugar al final."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo sin cambiar isn't.",
+      "frase": "There isn't no milk in the fridge.",
+      "error": "no",
+      "correcciones": [
+        "any"
+      ],
+      "frase_correcta": "There isn't any milk in the fridge.",
+      "pistas": [
+        "¿Cuántas veces se niega la oración?",
+        "Ya hay una negación en el verbo (isn't).",
+        "Con isn't se usa any; con no el verbo es afirmativo. Nunca las dos juntas."
+      ],
+      "solucion": {
+        "respuesta": "no → any",
+        "explicacion": "La corrección es any: There isn't any milk. La oración tenía doble negación (isn't + no), que en español es normal pero en inglés estándar no. Otra opción correcta sería There's no milk (quitando la negación del verbo)."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa there aren't any.",
+      "es": "No hay taxis en la estación.",
+      "respuestas": [
+        "There aren't any taxis at the station.",
+        "There aren't any taxis in the station.",
+        "There aren't any cabs at the station.",
+        "There aren't any cabs in the station."
+      ],
+      "errores_tipicos": {
+        "There isn't any taxis at the station": "Taxis es plural: aren't.",
+        "No there are taxis at the station": "El not va después del verbo: there aren't."
+      },
+      "pistas": [
+        "Negación de there are.",
+        "Taxis es plural; necesitas el verbo negativo y una palabra antes del sustantivo.",
+        "Regla: there + be negativo en plural + any + sustantivo + lugar (como en There aren't any cars in the street)."
+      ],
+      "solucion": {
+        "respuesta": "There aren't any taxis at the station.",
+        "explicacion": "Taxis es plural, así que el verbo es aren't, y en negativa el plural va con any. Para una estación como punto de referencia lo más natural es at the station (in the station si piensas en el interior del edificio)."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Cuántas recámaras hay en la casa?",
+      "respuestas": [
+        "How many bedrooms are there in the house?"
+      ],
+      "errores_tipicos": {
+        "How many bedrooms there are in the house?": "En la pregunta el verbo va antes de there: are there.",
+        "How many bedroom are there in the house?": "How many exige plural: bedrooms.",
+        "How many are there bedrooms in the house?": "El sustantivo va justo después de how many."
+      },
+      "pistas": [
+        "«Cuántos/as» + cosa contable = how many.",
+        "El sustantivo va pegado a how many y en plural.",
+        "Orden: How many + sustantivo plural + be + there + lugar?"
+      ],
+      "solucion": {
+        "respuesta": "How many bedrooms are there in the house?",
+        "explicacion": "How many va con sustantivo plural (bedrooms) y ese sustantivo va inmediatamente después, no al final como a veces en español. Luego se invierte are there, porque es una pregunta."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta y su respuesta.",
+      "texto": "Is there a gym in the hotel? No, there isn't.",
+      "respuestas": [
+        "Is there a gym in the hotel? No there is not."
+      ],
+      "pistas": [
+        "Primero escucharás una pregunta de sí o no, y luego una respuesta corta.",
+        "La pregunta empieza con el verbo; la respuesta es negativa.",
+        "Regla: pregunta = be + there + a + sustantivo + lugar; respuesta corta negativa = No, + there + be negativo."
+      ],
+      "solucion": {
+        "respuesta": "Is there a gym in the hotel? No, there isn't.",
+        "explicacion": "La pregunta invierte el orden (Is there) y usa a porque gym es singular. La respuesta corta negativa repite there + isn't."
+      }
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Haz que la voz suba al final de la pregunta.",
+      "texto": "Are there any shops near here?",
+      "ipa": "/ɑr ðɛr ˈɛni ʃɑps nɪr hɪr/",
+      "consejo": "Are there se une y suena débil. Any es «éni», con e. En shops la sh es como pedir silencio («shhh»), con los labios redondeados hacia afuera. La voz sube en here.",
+      "es": "¿Hay tiendas por aquí?"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Preguntar antes de rentar",
+    "contexto": "Llamas por teléfono a Ben, dueño de un departamento en renta. Quieres saber cómo es antes de ir a verlo.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hello, this is Ben. How can I help you?",
+        "es": "Hola, habla Ben. ¿En qué te puedo ayudar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "Good questions! There are two bedrooms, and there's a small balcony.",
+        "es": "¡Buenas preguntas! Hay dos recámaras y hay un balcón pequeño."
+      }
+    ],
+    "tu_turno": "Preséntate y haz tres preguntas sobre el departamento: una con How many… are there?, una con Is there a…? y otra con Are there any…?",
+    "modelo": "Hi, Ben. My name is Lucía. How many bedrooms are there? Is there a parking space? Are there any stores near the building?",
+    "alternativas": [
+      "Hello! My name is Omar. Is there an elevator in the building? How many bathrooms are there? Are there any buses near here?",
+      "Hi. Are there any closets in the bedrooms? Is there a washing machine? How many floors are there in the building?"
+    ],
+    "claves": [
+      "Is there a/an + singular? · Are there any + plural?",
+      "How many + plural + are there?",
+      "Respuestas cortas sin contraer en afirmativa: Yes, there is / Yes, there are."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negativa: there isn't a… · there aren't any… · there isn't any + incontable.",
+      "Alternativa enfática: there's no… / there are no… (verbo afirmativo).",
+      "Pregunta: Is there a…? · Are there any…? · Is there any + incontable?",
+      "Respuestas cortas: Yes, there is / No, there isn't · Yes, there are / No, there aren't.",
+      "How many + plural + are there?"
+    ],
+    "recuerda": [
+      "Nada de doble negación: there isn't no ✗.",
+      "Yes, there's ✗ → Yes, there is ✓.",
+      "El orden de la pregunta: How many rooms ARE THERE?, no «there are»."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.r1",
+      "frente": "Niega: There are some cars.",
+      "reverso": "There aren't any cars. / There are no cars.",
+      "nota": "some → any, o no con verbo afirmativo."
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.r2",
+      "frente": "Pregunta: There's a pool.",
+      "reverso": "Is there a pool?",
+      "nota": "Is delante de there."
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.r3",
+      "frente": "Respuesta corta afirmativa a «Are there any buses?»",
+      "reverso": "Yes, there are.",
+      "nota": "Sin contracción."
+    },
+    {
+      "id": "there-is-there-are.there-negacion-y-preguntas.r4",
+      "frente": "¿Cómo preguntas «¿Cuántas ventanas hay?»?",
+      "reverso": "How many windows are there?",
+      "nota": "Sustantivo plural pegado a how many."
+    }
+  ]
+}

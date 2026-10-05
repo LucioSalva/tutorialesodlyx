@@ -1,0 +1,1044 @@
+{
+  "slug": "the-y-sin-articulo",
+  "titulo": "The y la ausencia de artículo",
+  "minutos": 40,
+  "objetivos": [
+    "Usar the para algo ya mencionado, para lo único y para lo que los dos hablantes identifican.",
+    "Hablar en general SIN artículo (Dogs are loyal. Music is important.), al contrario que en español.",
+    "Evitar el artículo con nombres de personas, la mayoría de países, idiomas y expresiones como at home."
+  ],
+  "situacion": {
+    "titulo": "Fotos de vacaciones",
+    "texto": "Mei le enseña a Tom fotos de un viaje. Observa cuándo dice a, cuándo the y cuándo no dice nada. En español habríamos puesto artículo en casi todas las oraciones.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "Look, this is a photo of a beach in Oaxaca.",
+        "es": "Mira, esta es una foto de una playa en Oaxaca."
+      },
+      {
+        "quien": "Tom",
+        "en": "Wow, the beach is beautiful! And the sky is so blue.",
+        "es": "¡Guau, la playa está hermosa! Y el cielo está tan azul."
+      },
+      {
+        "quien": "Mei",
+        "en": "Yes! And the food is amazing there. I love Mexican food.",
+        "es": "¡Sí! Y la comida allá es increíble. Me encanta la comida mexicana."
+      },
+      {
+        "quien": "Tom",
+        "en": "Me too. Food is my favorite part of any trip!",
+        "es": "A mí también. ¡La comida es mi parte favorita de cualquier viaje!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "usos-de-the",
+      "titulo": "The: lo que ya sabemos cuál es",
+      "que_es": "[[the]] es el **artículo determinado**: equivale a «el, la, los, las». Una sola palabra para masculino, femenino, singular y plural. Se usa cuando quien habla y quien escucha saben **exactamente de qué cosa concreta** se trata.",
+      "para_que": [
+        "Volver a hablar de algo que ya mencionaste: a photo… the photo.",
+        "Hablar de cosas únicas: the sun, the moon, the sky, the internet.",
+        "Hablar de algo que el contexto identifica: the door (la de este cuarto), the teacher (el de nuestra clase)."
+      ],
+      "como_funciona": "Hay tres situaciones típicas. 1) **Segunda mención**: la primera vez presentas algo con [[a]]/[[an]] (es uno cualquiera, nuevo para quien escucha); a partir de ahí ya es conocido y pasa a [[the]]. 2) **Único**: solo hay uno en el mundo o en ese lugar: [[the sun]], [[the moon]], [[the world]], [[the kitchen]] (de tu casa). 3) **Identificable por el contexto**: si estás en un salón y dices [[Close the door]], todos saben qué puerta. La pregunta clave es: **¿sabe mi interlocutor cuál es?** Sí → the. No, es uno cualquiera → a / an. El artículo the funciona igual con singular y plural: [[the book]], [[the books]].",
+      "estructuras": [
+        {
+          "etiqueta": "Segunda mención",
+          "formula": [
+            {
+              "t": "1.ª vez: a / an + sustantivo",
+              "rol": "otro"
+            },
+            {
+              "t": "→",
+              "rol": "otro"
+            },
+            {
+              "t": "después: the + sustantivo",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The photo",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "old",
+              "rol": "complemento"
+            }
+          ],
+          "es": "La foto es vieja. (ya se habló de ella)"
+        },
+        {
+          "etiqueta": "Algo único",
+          "formula": [
+            {
+              "t": "the + cosa única",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The moon",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "full tonight",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Hoy hay luna llena. (lit. «La luna está llena esta noche»)"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De «uno cualquiera» a «ese que ya conoces»",
+        "pasos": [
+          {
+            "etiqueta": "Primera mención: a",
+            "partes": [
+              {
+                "t": "It's",
+                "rol": "sujeto"
+              },
+              {
+                "t": "a",
+                "rol": "otro"
+              },
+              {
+                "t": "photo of",
+                "rol": "complemento"
+              },
+              {
+                "t": "a",
+                "rol": "otro"
+              },
+              {
+                "t": "beach",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Segunda mención: the",
+            "partes": [
+              {
+                "t": "The",
+                "rol": "otro"
+              },
+              {
+                "t": "beach",
+                "rol": "sujeto"
+              },
+              {
+                "t": "is",
+                "rol": "verbo"
+              },
+              {
+                "t": "in Oaxaca",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "La playa pasa de a a the porque ahora quien escucha ya sabe cuál es: la de la foto."
+      },
+      "ejemplos": [
+        {
+          "en": "It's a new phone. The phone is very fast.",
+          "es": "Es un celular nuevo. El celular es muy rápido.",
+          "nota": "Primero [[a]] (lo presentas); después [[the]] (ya sabemos cuál)."
+        },
+        {
+          "en": "The sun is very strong today.",
+          "es": "Hoy el sol está muy fuerte.",
+          "partes": [
+            {
+              "t": "The sun",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very strong today",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Solo hay un sol: siempre [[the sun]]."
+        },
+        {
+          "en": "The teacher is in the classroom.",
+          "es": "El maestro está en el salón.",
+          "situacion": "Entre compañeros de la misma clase.",
+          "partes": [
+            {
+              "t": "The teacher",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the classroom",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "No se mencionó antes, pero todos saben qué maestro y qué salón: el contexto los identifica."
+        },
+        {
+          "en": "The keys are on the table.",
+          "es": "Las llaves están en la mesa.",
+          "partes": [
+            {
+              "t": "The keys",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the table",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Las llaves de casa, la mesa de la sala: los dos saben cuáles. Y the sirve igual para singular (the table) y plural (the keys)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "the book / the apple",
+          "ipa": "/ðə bʊk/ /ði ˈæpəl/",
+          "consejo": "La /ð/ se hace con la punta de la lengua asomando entre los dientes y vibrando (no es una d ni una t). Delante de consonante, the suele sonar /ðə/, con vocal débil. Delante de sonido de vocal, tradicionalmente suena /ði/ para enlazar: «thi-apple». Hoy muchos estadounidenses dicen /ðə/ en ambos casos, así que oirás las dos.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Sun is hot.",
+          "bien": "The sun is hot.",
+          "porque": "El sol es único: lleva the."
+        },
+        {
+          "mal": "It's a photo of a dog. A dog is very big.",
+          "bien": "It's a photo of a dog. The dog is very big.",
+          "porque": "En la segunda oración ya sabemos de qué perro hablas (el de la foto): the."
+        }
+      ]
+    },
+    {
+      "id": "generalizaciones-sin-articulo",
+      "titulo": "Hablar en general: sin artículo",
+      "que_es": "Cuando hablas de algo **en general** (todos los perros, la música como concepto, la vida), el inglés **no usa artículo**: [[Dogs are loyal]], [[Music is important]], [[Life is beautiful]]. El español, en cambio, sí lo pone: «**Los** perros son leales», «**La** música es importante». Traducir ese artículo es uno de los errores más típicos.",
+      "para_que": [
+        "Dar opiniones generales: Coffee is delicious. Cats are independent.",
+        "Hablar de gustos con la expresión fija I like… / I love… («me gusta…», «me encanta…»).",
+        "Distinguir lo general (Dogs are…) de lo concreto (The dogs are… = esos perros)."
+      ],
+      "como_funciona": "Pregúntate: ¿hablo de **todos / la idea en general** o de **unos concretos**? En general: **plural sin artículo** para cosas que se cuentan ([[Dogs]], [[Children]], [[Books]]) y **singular sin artículo** para cosas que no se cuentan o ideas ([[Music]], [[Coffee]], [[Water]], [[Love]], [[Life]]). Concreto: [[the]]. Compara [[Coffee is expensive]] («el café es caro», en general) con [[The coffee is cold]] («el café está frío», este café que tengo delante). Con los gustos pasa lo mismo: [[I like music]] («me gusta la música»), no «I like the music», salvo que hables de una música concreta ([[I like the music in this café]]). En la unidad de contables e incontables verás más a fondo qué sustantivos se cuentan.",
+      "estructuras": [
+        {
+          "etiqueta": "Generalización con plural",
+          "formula": [
+            {
+              "t": "Sustantivo en plural (sin the)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Cats",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "independent",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Los gatos son independientes."
+        },
+        {
+          "etiqueta": "Generalización con incontable o idea",
+          "formula": [
+            {
+              "t": "Sustantivo (sin the)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Water",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "essential",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El agua es esencial."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Dogs are loyal.",
+          "es": "Los perros son leales.",
+          "partes": [
+            {
+              "t": "Dogs",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "loyal",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Todos los perros, en general: plural sin the. «The dogs are loyal» hablaría de unos perros concretos."
+        },
+        {
+          "en": "The dogs are hungry.",
+          "es": "Los perros tienen hambre.",
+          "situacion": "Hablas de tus perros, que están en el patio.",
+          "partes": [
+            {
+              "t": "The dogs",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "hungry",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aquí sí the: son unos perros concretos que los dos conocen."
+        },
+        {
+          "en": "Life is short.",
+          "es": "La vida es corta.",
+          "partes": [
+            {
+              "t": "Life",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "short",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Una idea general: sin artículo. «The life is short» es un calco del español."
+        },
+        {
+          "en": "I like music.",
+          "es": "Me gusta la música.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "like",
+              "rol": "verbo"
+            },
+            {
+              "t": "music",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[I like]] es presente simple (lo estudiarás más adelante); úsalo como expresión fija. La música en general, sin the."
+        },
+        {
+          "en": "Coffee is expensive, but the coffee here is cheap.",
+          "es": "El café es caro, pero el café de aquí es barato.",
+          "nota": "Las dos ideas en una oración: primero el café en general (sin artículo), luego un café concreto (the coffee here)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "En general (sin artículo)",
+          "items": [
+            "Books are expensive.",
+            "Chocolate is delicious.",
+            "I like movies."
+          ]
+        },
+        "b": {
+          "titulo": "Algo concreto (the)",
+          "items": [
+            "The books on the table are expensive.",
+            "The chocolate in the box is delicious.",
+            "I like the movies by this director."
+          ]
+        },
+        "veredicto": "Si en español dices «los / la» pero hablas de todos o de la idea en general, en inglés quita el artículo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Dogs are loyal.",
+          "ipa": "/dɔːɡz ər ˈlɔɪəl/",
+          "consejo": "Empieza directamente con Dogs, sin ninguna vocal antes. La s final suena /z/ (vibra) porque la g es sonora. [[are]] queda débil, casi /ər/. En loyal, el diptongo /ɔɪ/ es como «oi» en «hoy»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The life is beautiful.",
+          "bien": "Life is beautiful.",
+          "porque": "Hablas de la vida en general: sin artículo. The life solo con algo concreto: the life of a farmer."
+        },
+        {
+          "mal": "The children are curious by nature.",
+          "bien": "Children are curious by nature.",
+          "porque": "Hablas de todos los niños (por naturaleza): plural sin the."
+        },
+        {
+          "mal": "I like the music. (en general)",
+          "bien": "I like music.",
+          "porque": "Con gustos generales no se pone artículo, aunque el español diga «la música»."
+        }
+      ]
+    },
+    {
+      "id": "nombres-sin-articulo",
+      "titulo": "Nombres, países, idiomas y expresiones fijas",
+      "que_es": "Además de las generalizaciones, hay grupos de palabras que en inglés van normalmente **sin artículo**, aunque en español a veces lo lleven: nombres de personas con título ([[Doctor Ruiz]]), la mayoría de países y ciudades, los idiomas y algunas expresiones de lugar como [[at home]] o [[at work]].",
+      "para_que": [
+        "Hablar de personas con su título: Mr. Lee, Doctor Ruiz, Professor Díaz.",
+        "Decir de dónde eres o dónde está alguien: in Mexico, in Canada.",
+        "Hablar de idiomas: English is fun."
+      ],
+      "como_funciona": "**Personas**: el nombre, con o sin título, va sin artículo: [[Doctor Ruiz is here]] («**El** doctor Ruiz está aquí»). **Países y ciudades**: sin artículo ([[Mexico]], [[Peru]], [[Tokyo]]), **excepto** cuando el nombre contiene una palabra como States, Kingdom o Republic, o es plural: [[the United States]], [[the United Kingdom]], [[the Dominican Republic]], [[the Philippines]]. **Idiomas**: sin artículo ([[English is useful]], «**El** inglés es útil»). **Expresiones fijas de lugar**: [[at home]], [[at work]], [[at school]], [[in bed]]: sin artículo cuando se usan con su función habitual.",
+      "estructuras": [
+        {
+          "etiqueta": "Título + nombre",
+          "formula": [
+            {
+              "t": "Título + apellido (sin the)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Professor Díaz",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very funny",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El profesor Díaz es muy divertido."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Con artículo o sin artículo",
+          "columnas": [
+            "Sin artículo",
+            "Con the"
+          ],
+          "filas": [
+            [
+              "Mexico, Canada, Peru, Japan",
+              "the United States, the United Kingdom, the Philippines"
+            ],
+            [
+              "English, Spanish, Chinese",
+              "the English teacher (el maestro de inglés)"
+            ],
+            [
+              "Doctor Ruiz, Mr. Lee",
+              "the doctor (sin nombre)"
+            ],
+            [
+              "at home, at work, at school",
+              "at the office, at the park"
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Doctor Ruiz is in her office.",
+          "es": "La doctora Ruiz está en su consultorio.",
+          "nota": "Con el nombre, sin artículo. Sin el nombre, sí: [[The doctor is in her office]]."
+        },
+        {
+          "en": "English is easy, but the spelling is hard.",
+          "es": "El inglés es fácil, pero la ortografía es difícil.",
+          "nota": "El idioma, sin artículo. La ortografía (del inglés, algo concreto) con the."
+        },
+        {
+          "en": "Priya is from the United States.",
+          "es": "Priya es de Estados Unidos.",
+          "partes": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "from the United States",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Excepción: el nombre contiene States (una unión de estados), así que lleva the."
+        },
+        {
+          "en": "Diego is from Peru.",
+          "es": "Diego es de Perú.",
+          "partes": [
+            {
+              "t": "Diego",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "from Peru",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque en español a veces se diga «el Perú», en inglés va sin artículo."
+        },
+        {
+          "en": "The kids are at school.",
+          "es": "Los niños están en la escuela.",
+          "partes": [
+            {
+              "t": "The kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "at school",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[at school]] (en clases) no lleva artículo. Los niños sí: son unos niños concretos (los de la familia)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "the United States",
+          "ipa": "/ðə juˈnaɪtɪd steɪts/",
+          "consejo": "the va débil /ðə/, porque United empieza con la consonante /j/ («yu»), igual que en a university. En States, no añadas una e al principio: empieza directamente con /st/, no «estates»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The English is a useful language.",
+          "bien": "English is a useful language.",
+          "porque": "Los nombres de idiomas van sin artículo."
+        },
+        {
+          "mal": "The Doctor Ruiz is here.",
+          "bien": "Doctor Ruiz is here.",
+          "porque": "Con título + nombre no se usa artículo, aunque en español se diga «el doctor Ruiz»."
+        },
+        {
+          "mal": "She's from United States.",
+          "bien": "She's from the United States.",
+          "porque": "Los países cuyo nombre incluye States, Kingdom o Republic llevan the."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el artículo correcto.",
+      "pregunta": "Look at ___ moon! It's beautiful tonight.",
+      "opciones": [
+        {
+          "texto": "the",
+          "correcta": true,
+          "porque": "Correcto: solo hay una luna; las cosas únicas llevan the."
+        },
+        {
+          "texto": "a",
+          "correcta": false,
+          "porque": "a presenta una cosa cualquiera entre varias. Solo hay una luna."
+        },
+        {
+          "texto": "(sin artículo)",
+          "correcta": false,
+          "porque": "moon es un sustantivo contable en singular y además único: necesita the."
+        }
+      ],
+      "pistas": [
+        "¿Hay muchas lunas o solo una?",
+        "Las cosas únicas en el mundo tienen un artículo fijo.",
+        "Algo único (sun, moon, sky) → the."
+      ],
+      "solucion": {
+        "respuesta": "the",
+        "explicacion": "La luna es única, así que va con the: Look at the moon! (Look at = mira, expresión útil)."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con a, an o the.",
+      "frase": "It's ___ photo of ___ cat. ___ cat is my sister's.",
+      "traduccion": "Es una foto de un gato. El gato es de mi hermana.",
+      "respuestas": [
+        [
+          "a"
+        ],
+        [
+          "a"
+        ],
+        [
+          "The"
+        ]
+      ],
+      "errores_tipicos": {
+        "a | a | a": "En la tercera oración ya sabemos qué gato es (el de la foto): segunda mención → [[the]].",
+        "the | the | the": "La primera vez que presentas algo, quien escucha todavía no sabe cuál es: [[a]] photo, [[a]] cat."
+      },
+      "pistas": [
+        "Hay dos primeras menciones y una segunda mención.",
+        "¿Cuándo ya sabe quien escucha de qué gato hablas?",
+        "Primera mención → a; segunda mención → the."
+      ],
+      "solucion": {
+        "respuesta": "a … a … The",
+        "explicacion": "A photo y a cat presentan algo nuevo. En la tercera oración el gato ya es conocido (el de la foto): The cat. (My sister's = de mi hermana; lo verás en posesivos.)"
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.03",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada oración con la razón de su artículo (o de su falta de artículo).",
+      "pares": [
+        {
+          "a": "The sun is hot.",
+          "b": "Es algo único."
+        },
+        {
+          "a": "Cats are independent.",
+          "b": "Hablamos en general."
+        },
+        {
+          "a": "It's a small house.",
+          "b": "Se presenta por primera vez."
+        },
+        {
+          "a": "The house is in Mérida.",
+          "b": "Ya se mencionó antes."
+        },
+        {
+          "a": "Spanish is easy for me.",
+          "b": "Es el nombre de un idioma."
+        }
+      ],
+      "pistas": [
+        "Hay tres casos de the o a, y dos sin artículo.",
+        "Distingue lo único, lo general, lo nuevo, lo ya conocido y el idioma.",
+        "Único o ya mencionado → the; nuevo → a; general o idioma → sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "The sun → único · Cats → general · a small house → primera vez · The house → ya mencionada · Spanish → idioma",
+        "explicacion": "The sun porque solo hay uno. Cats sin artículo porque son todos los gatos. A small house la presenta; The house vuelve a ella. Los idiomas van sin artículo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.04",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Hablas de tus gustos en general. Elige la oración correcta.",
+      "pregunta": "«Me gusta la música.»",
+      "opciones": [
+        {
+          "texto": "I like music.",
+          "correcta": true,
+          "porque": "Correcto: la música en general, sin artículo."
+        },
+        {
+          "texto": "I like the music.",
+          "correcta": false,
+          "porque": "Con the hablarías de una música concreta (la que suena ahora, la de una película). En general, sin artículo."
+        },
+        {
+          "texto": "I like a music.",
+          "correcta": false,
+          "porque": "music no se cuenta: no puede llevar a."
+        }
+      ],
+      "pistas": [
+        "El español dice «la música», pero ¿de qué música hablas?",
+        "Es un gusto general, no una canción concreta.",
+        "Generalización → sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "I like music.",
+        "explicacion": "Hablas de la música en general, así que no lleva artículo: I like music. The music sería una música concreta, y a music no existe porque music no es contable."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un calco del español. Señala las palabras incorrectas y corrígelas.",
+      "frase": "The life is beautiful.",
+      "error": "The life",
+      "correcciones": [
+        "Life"
+      ],
+      "frase_correcta": "Life is beautiful.",
+      "pistas": [
+        "La oración habla de algo en general.",
+        "El problema está en el sujeto.",
+        "Las ideas generales van sin artículo en inglés."
+      ],
+      "solucion": {
+        "respuesta": "Life",
+        "explicacion": "Hablas de la vida en general, así que no lleva artículo: Life is beautiful. El español dice «la vida», pero el inglés no traduce ese artículo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.06",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Hablas de los gatos en general.",
+      "es": "Los gatos son independientes.",
+      "respuestas": [
+        "Cats are independent."
+      ],
+      "errores_tipicos": {
+        "The cats are independent.": "Con the hablarías de unos gatos concretos. En general, plural sin artículo: [[Cats are independent]].",
+        "Cats is independent.": "Cats es plural: [[are]]."
+      },
+      "pistas": [
+        "Es una generalización.",
+        "¿Traduces el artículo «los»?",
+        "General → plural sin artículo + are."
+      ],
+      "solucion": {
+        "respuesta": "Cats are independent.",
+        "explicacion": "Hablas de todos los gatos: plural sin artículo (Cats) y are porque es plural. The cats serían unos gatos concretos."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "El inglés es muy útil.",
+      "respuestas": [
+        "English is very useful."
+      ],
+      "errores_tipicos": {
+        "The English is very useful.": "Los idiomas van sin artículo: [[English is very useful]]."
+      },
+      "pistas": [
+        "Hablas de un idioma.",
+        "¿Llevan artículo los nombres de idiomas en inglés?",
+        "Idioma → sin artículo y con mayúscula."
+      ],
+      "solucion": {
+        "respuesta": "English is very useful.",
+        "explicacion": "Los nombres de idiomas no llevan artículo en inglés y se escriben con mayúscula: English is very useful."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en una generalización: habla de TODOS los niños, no de unos concretos.",
+      "origen": "The children are very curious.",
+      "instruccion": "Generalización",
+      "respuestas": [
+        "Children are very curious."
+      ],
+      "errores_tipicos": {
+        "The children are very curious.": "Esa es la oración original: habla de unos niños concretos. Para generalizar, quita the."
+      },
+      "pistas": [
+        "Una generalización no habla de un grupo concreto.",
+        "¿Qué palabra hace que los niños sean unos concretos?",
+        "General = plural sin the."
+      ],
+      "solucion": {
+        "respuesta": "Children are very curious.",
+        "explicacion": "Al quitar the, children pasa a significar «los niños en general»: Children are very curious (Los niños son muy curiosos). Children ya es plural (de child), así que va con are."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala las palabras incorrectas y corrígelas.",
+      "frase": "The Professor Díaz is in the classroom.",
+      "error": "The Professor",
+      "correcciones": [
+        "Professor"
+      ],
+      "frase_correcta": "Professor Díaz is in the classroom.",
+      "pistas": [
+        "En español diríamos «el profesor Díaz».",
+        "Mira el sujeto: un título seguido de un apellido.",
+        "Título + nombre → sin artículo en inglés."
+      ],
+      "solucion": {
+        "respuesta": "Professor",
+        "explicacion": "Con título + nombre (Professor Díaz, Doctor Ruiz, Mr. Lee) el inglés no usa artículo. The classroom sí lo lleva: es el salón que todos identifican."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.10",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para decir «La música es muy importante» (en general).",
+      "fichas": [
+        "important",
+        "is",
+        "Music",
+        "very"
+      ],
+      "respuestas": [
+        "Music is very important"
+      ],
+      "traduccion": "La música es muy importante.",
+      "pistas": [
+        "La oración no tiene artículo.",
+        "El sujeto va primero y después be.",
+        "Orden: sujeto + be + intensificador + adjetivo (como en Time is very valuable)."
+      ],
+      "solucion": {
+        "respuesta": "Music is very important.",
+        "explicacion": "Music, en general, va sin artículo y funciona como singular (is). Very va delante del adjetivo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.11",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Presta atención a dónde hay the y dónde no.",
+      "texto": "Coffee is expensive, but the coffee here is cheap.",
+      "pistas": [
+        "La palabra coffee aparece dos veces.",
+        "La primera vez es el café en general; la segunda, un café concreto.",
+        "General → sin artículo; concreto (here) → the."
+      ],
+      "solucion": {
+        "respuesta": "Coffee is expensive, but the coffee here is cheap.",
+        "explicacion": "«El café es caro, pero el café de aquí es barato.» En la primera parte, coffee en general: sin artículo. En la segunda, el café de este lugar: the coffee here."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Tu amigo Sam te pregunta qué animales te gustan. Quieres decir que los perros, en general, son fantásticos.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "Do you like cats or dogs?",
+          "es": "¿Te gustan los gatos o los perros?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Dogs! Dogs are great.",
+          "correcta": true,
+          "porque": "Correcto: hablas de los perros en general, así que va en plural sin artículo."
+        },
+        {
+          "texto": "Dogs! The dogs are great.",
+          "correcta": false,
+          "porque": "The dogs serían unos perros concretos (los del vecino, por ejemplo). Tú hablas de todos."
+        },
+        {
+          "texto": "Dogs! A dog are great.",
+          "correcta": false,
+          "porque": "a solo va con singular, y además no concuerda con are."
+        },
+        {
+          "texto": "Dogs! Dogs is great.",
+          "correcta": false,
+          "porque": "Dogs es plural: are, no is."
+        }
+      ],
+      "pistas": [
+        "Hablas de los perros en general.",
+        "Fíjate en el artículo y en el verbo de cada opción.",
+        "General → plural sin artículo + are."
+      ],
+      "solucion": {
+        "respuesta": "Dogs! Dogs are great.",
+        "explicacion": "Para generalizar se usa el plural sin artículo: Dogs are great. The dogs sería un grupo concreto; a dog are y dogs is no concuerdan."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Fíjate en cómo cambia la vocal de the.",
+      "texto": "the sun, the moon, the end, the apple",
+      "ipa": "/ðə sʌn | ðə muːn | ði end | ði ˈæpəl/",
+      "consejo": "Pon la punta de la lengua entre los dientes y haz vibrar la voz: esa es la /ð/. Delante de sun y moon (consonantes), the es débil: /ðə/. Delante de end y apple (vocales), se pronuncia tradicionalmente /ði/, para unir las palabras sin corte. Muchos hablantes dicen /ðə/ siempre; las dos formas son normales.",
+      "es": "el sol, la luna, el final, la manzana"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Opiniones y cosas concretas",
+    "contexto": "En un café con tu amiga Grace. Ella comenta cosas en general y cosas del lugar donde están.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "I love this place. The music is great!",
+        "es": "Me encanta este lugar. ¡La música está genial!"
+      },
+      {
+        "quien": "Grace",
+        "en": "And for me, coffee is the best drink in the world. What about you?",
+        "es": "Y para mí, el café es la mejor bebida del mundo. ¿Y tú?"
+      }
+    ],
+    "tu_turno": "Da una opinión general (sin artículo) sobre algo que te gusta, y después comenta algo concreto del café (con the).",
+    "modelo": "For me, tea is the best drink. But the coffee here is very good!",
+    "alternativas": [
+      "I like coffee, but chocolate is my favorite. The chocolate here is delicious.",
+      "Books are my favorite thing. And the books on that shelf are very interesting!"
+    ],
+    "claves": [
+      "Opinión general: sustantivo sin artículo (tea, coffee, books).",
+      "Algo concreto del lugar: the + sustantivo (the coffee here, the music).",
+      "the best, the world: superlativos y cosas únicas llevan the."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "the = el, la, los, las: una sola forma.",
+      "the para lo ya mencionado (a photo… the photo), lo único (the sun) y lo que el contexto identifica (the door).",
+      "Generalizaciones SIN artículo: Dogs are loyal. Music is important. Life is short.",
+      "Sin artículo: título + nombre (Doctor Ruiz), la mayoría de países (Mexico) e idiomas (English).",
+      "Con the: the United States, the United Kingdom, the Philippines."
+    ],
+    "recuerda": [
+      "I like music (general) ≠ I like the music (esta música).",
+      "at home, at work, at school: sin artículo.",
+      "the suena /ðə/ ante consonante y a menudo /ði/ ante vocal."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.r1",
+      "frente": "«Los perros son leales.» (en general)",
+      "reverso": "Dogs are loyal.",
+      "nota": "Generalización: plural sin the."
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.r2",
+      "frente": "It's a photo of a house. ___ house is old.",
+      "reverso": "The house is old.",
+      "nota": "Segunda mención → the."
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.r3",
+      "frente": "«El inglés es fácil.»",
+      "reverso": "English is easy.",
+      "nota": "Idiomas sin artículo."
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.r4",
+      "frente": "«La doctora Ruiz está aquí.»",
+      "reverso": "Doctor Ruiz is here.",
+      "nota": "Título + nombre sin artículo."
+    },
+    {
+      "id": "sustantivos-y-articulos.the-y-sin-articulo.r5",
+      "frente": "¿Mexico o the Mexico? ¿United States o the United States?",
+      "reverso": "Mexico / the United States",
+      "nota": "Llevan the los países con States, Kingdom, Republic o en plural."
+    }
+  ]
+}

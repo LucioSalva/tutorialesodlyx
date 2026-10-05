@@ -1,0 +1,1370 @@
+{
+  "slug": "elegir-el-tiempo",
+  "titulo": "Elegir el tiempo correcto",
+  "minutos": 40,
+  "objetivos": [
+    "Reconocer las señales de tiempo que suelen acompañar al presente simple, al presente continuo y al pasado simple.",
+    "Elegir el tiempo por el significado cuando no hay señal: hábito, algo en curso o algo terminado.",
+    "Evitar el continuo con los verbos de estado (know, like, want, need, understand…).",
+    "Combinar varios tiempos en un mismo texto sin mezclarlos por error."
+  ],
+  "situacion": {
+    "titulo": "Una llamada desde la playa",
+    "texto": "Lucía está de vacaciones y llama a su amigo Sam. En pocos segundos habla de tres momentos distintos: lo que hace siempre, lo que está haciendo ahora y lo que hizo ayer. Cada momento pide un tiempo diferente.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Hi, Lucía! Where are you?",
+        "es": "¡Hola, Lucía! ¿Dónde estás?"
+      },
+      {
+        "quien": "Lucía",
+        "en": "I'm at the beach! I'm sitting under a big umbrella right now.",
+        "es": "¡Estoy en la playa! Estoy sentada bajo una sombrilla enorme ahora mismo."
+      },
+      {
+        "quien": "Sam",
+        "en": "Lucky you! You usually work on Mondays.",
+        "es": "¡Qué suerte! Normalmente trabajas los lunes."
+      },
+      {
+        "quien": "Lucía",
+        "en": "I know! Yesterday I swam in the ocean and I ate fresh fish. It was perfect.",
+        "es": "¡Ya sé! Ayer nadé en el mar y comí pescado fresco. Fue perfecto."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "senales-de-tiempo",
+      "titulo": "Las señales del contexto",
+      "que_es": "Muchas oraciones traen una **señal de tiempo**: una palabra o expresión que dice cuándo pasa la acción. Estas señales funcionan como letreros en la carretera: [[every day]] apunta al presente simple, [[right now]] al presente continuo, [[yesterday]] al pasado simple. Aprender a verlas es la forma más rápida de elegir bien.",
+      "para_que": [
+        "Completar oraciones y formularios sin dudar del tiempo.",
+        "Entender cuándo pasó algo en lo que oyes o lees.",
+        "Hablar de tu rutina, de lo que haces hoy y de lo que hiciste ayer en la misma conversación."
+      ],
+      "como_funciona": "Agrupa las señales en tres familias. **Repetición o hábito** → presente simple: [[every day]], [[every Monday]], [[on Sundays]], [[once a week]] y los adverbios de frecuencia [[always]], [[usually]], [[often]], [[sometimes]], [[never]]. **Algo que ocurre ahora o en este periodo** → presente continuo: [[now]], [[right now]], [[at the moment]], [[this week]], [[these days]], y las exclamaciones [[Look!]] y [[Listen!]]. **Un momento terminado** → pasado simple (o [[was/were]]): [[yesterday]], [[last night]], [[last week]], [[last year]], [[two days ago]], [[in 2019]], [[when I was a child]]. Hay además una cuarta señal que ya conoces: [[tomorrow]], [[on Friday]], [[next week]] con un **plan ya acordado** → presente continuo ([[I'm meeting Ana on Friday]]). Cuidado con [[today]]: no es una señal fiable, porque vale para varios tiempos ([[I work today]], [[I'm working today]], [[I worked a lot today]]); ahí manda el significado. Y recuerda que [[ago]] va **después** de la cantidad de tiempo: [[three years ago]] (hace tres años).",
+      "estructuras": [
+        {
+          "etiqueta": "Hábito → presente simple",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo (-s con he/she/it)",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "every… / usually…",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "swims",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the morning",
+              "rol": "complemento"
+            },
+            {
+              "t": "every day",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Grace nada en la mañana todos los días."
+        },
+        {
+          "etiqueta": "Ahora → presente continuo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo-ing",
+              "rol": "verbo"
+            },
+            {
+              "t": "now / at the moment",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "swimming",
+              "rol": "verbo"
+            },
+            {
+              "t": "right now",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Grace está nadando ahora mismo."
+        },
+        {
+          "etiqueta": "Terminado → pasado simple",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday / last… / …ago",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "swam",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the ocean",
+              "rol": "complemento"
+            },
+            {
+              "t": "last summer",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Grace nadó en el mar el verano pasado."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Señal → tiempo → ejemplo",
+          "columnas": [
+            "Señales",
+            "Tiempo",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "every day, on Mondays, usually, never",
+              "presente simple",
+              "I usually take the bus."
+            ],
+            [
+              "now, right now, at the moment, Look!",
+              "presente continuo",
+              "Look! The bus is coming."
+            ],
+            [
+              "this week, these days (temporal)",
+              "presente continuo",
+              "I'm taking the bus this week."
+            ],
+            [
+              "yesterday, last night, two days ago",
+              "pasado simple",
+              "I took the bus yesterday."
+            ],
+            [
+              "when I was a child, in 2010",
+              "pasado simple / could / was",
+              "I was shy when I was a child."
+            ],
+            [
+              "tomorrow, on Friday (plan acordado)",
+              "presente continuo",
+              "I'm taking the early bus tomorrow."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Listen! The baby is crying.",
+          "es": "¡Escucha! El bebé está llorando.",
+          "partes": [
+            {
+              "t": "Listen!",
+              "rol": "otro"
+            },
+            {
+              "t": "The baby",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "crying",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Listen! te avisa de que la acción ocurre en este momento: presente continuo."
+        },
+        {
+          "en": "We don't eat meat on Fridays.",
+          "es": "No comemos carne los viernes.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            },
+            {
+              "t": "meat",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Fridays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "On Fridays (en plural) significa «todos los viernes»: es un hábito, presente simple."
+        },
+        {
+          "en": "My grandparents moved to Puebla forty years ago.",
+          "es": "Mis abuelos se mudaron a Puebla hace cuarenta años.",
+          "partes": [
+            {
+              "t": "My grandparents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "moved",
+              "rol": "verbo"
+            },
+            {
+              "t": "to Puebla",
+              "rol": "complemento"
+            },
+            {
+              "t": "forty years ago",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Ago marca un momento terminado del pasado y va después de la cantidad: forty years ago, nunca «ago forty years»."
+        },
+        {
+          "en": "I couldn't swim when I was a child.",
+          "es": "No sabía nadar cuando era niño.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "couldn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "swim",
+              "rol": "verbo"
+            },
+            {
+              "t": "when I was a child",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "When I was a child sitúa la oración en el pasado: la habilidad pasa de can a could."
+        },
+        {
+          "en": "I'm meeting my cousin on Saturday.",
+          "es": "Voy a ver a mi primo el sábado.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "meeting",
+              "rol": "verbo"
+            },
+            {
+              "t": "my cousin",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Saturday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "On Saturday (singular) es un sábado concreto. Con un plan ya acordado, el presente continuo habla del futuro."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Cada señal apunta a un lugar de la línea",
+        "marcas": [
+          {
+            "pos": 0.12,
+            "texto": "last year → lived",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.3,
+            "texto": "yesterday → worked",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.4,
+            "texto": "every day → work",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.46,
+            "hasta": 0.58,
+            "texto": "now → am working",
+            "tipo": "tramo"
+          },
+          {
+            "pos": 0.85,
+            "texto": "on Friday (plan) → am meeting",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.52,
+        "pie": "El pasado simple marca puntos terminados a la izquierda de ahora; el presente simple, algo que se repite a lo largo de la línea; el continuo, un tramo que está ocurriendo alrededor de ahora (o un plan fijado a la derecha)."
+      },
+      "pronunciacion": [
+        {
+          "texto": "usually",
+          "ipa": "/ˈjuːʒuəli/",
+          "consejo": "El sonido del centro, /ʒ/, es como la «ll» o «y» que se oye en Argentina («yo» → «sho» sonoro): los labios un poco hacia afuera y la lengua sin tocar el paladar, con vibración en la garganta. No es /s/ ni «ch». El acento cae en la primera sílaba: YU-zhu-a-li."
+        },
+        {
+          "texto": "yesterday",
+          "ipa": "/ˈjɛstərdeɪ/",
+          "consejo": "El acento va en la primera sílaba, YES. La última sílaba es el diptongo /eɪ/, como el «ei» de «rey», no una «i» sola."
+        },
+        {
+          "texto": "ago",
+          "ipa": "/əˈɡoʊ/",
+          "consejo": "La primera sílaba es la vocal neutra /ə/, muy débil (casi no se oye); la fuerza va en «go», que termina cerrando los labios hacia «u»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Yesterday I go to the dentist.",
+          "bien": "Yesterday I went to the dentist.",
+          "porque": "Yesterday señala un momento terminado: el verbo va en pasado simple. En español a veces se usa el presente para contar el pasado («ayer voy y…»), pero en inglés eso no funciona a este nivel."
+        },
+        {
+          "mal": "I'm going to the gym every day.",
+          "bien": "I go to the gym every day.",
+          "porque": "Every day señala un hábito: presente simple. El continuo diría que es algo temporal o que ocurre ahora."
+        },
+        {
+          "mal": "I went there ago two years.",
+          "bien": "I went there two years ago.",
+          "porque": "Calco de «hace dos años»: en inglés ago va detrás de la cantidad de tiempo."
+        }
+      ]
+    },
+    {
+      "id": "significado-y-verbos-de-estado",
+      "titulo": "Sin señal: decide el significado",
+      "que_es": "No todas las oraciones traen una señal de tiempo. Entonces hay que preguntarse **qué quieres decir**: ¿es algo habitual o siempre verdadero?, ¿algo que está pasando o que es temporal?, ¿algo que ya terminó? Además, hay un grupo de verbos, los **verbos de estado**, que casi nunca van en continuo aunque hablen de «ahora».",
+      "para_que": [
+        "Distinguir What do you do? (¿a qué te dedicas?) de What are you doing? (¿qué estás haciendo?).",
+        "Hablar de gustos, deseos, necesidades y conocimientos sin decir «I'm wanting».",
+        "Elegir bien aunque la oración no tenga ninguna pista de tiempo."
+      ],
+      "como_funciona": "Tres preguntas guían la elección. 1) ¿Es un hábito, una rutina, un trabajo o un hecho permanente? → presente simple ([[She speaks three languages]], [[Water boils at 100 degrees]]). 2) ¿Está ocurriendo en este momento o es temporal? → presente continuo ([[She's speaking on the phone]]). 3) ¿Terminó en el pasado? → pasado simple ([[She spoke to the manager]]). Los **verbos de estado** describen lo que piensas, sientes o tienes, no una acción: [[know]], [[understand]], [[believe]], [[like]], [[love]], [[hate]], [[want]], [[need]], [[prefer]] y [[have]] cuando significa «poseer». Con ellos se usa el presente simple aunque hables de ahora mismo: [[I need help now]], no «I'm needing». Ojo: [[have]] como acción sí admite continuo ([[I'm having lunch]] = estoy comiendo), porque ahí no significa poseer. Y en español «¿Qué haces?» puede ser las dos preguntas; en inglés tienes que elegir: [[What do you do?]] (profesión) o [[What are you doing?]] (ahora).",
+      "estructuras": [
+        {
+          "etiqueta": "Verbo de estado (siempre simple)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "know / like / want / need…",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "understand",
+              "rol": "verbo"
+            },
+            {
+              "t": "the problem now",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ahora entiendo el problema."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What do you do? I'm a nurse.",
+          "es": "¿A qué te dedicas? Soy enfermera.",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "do?",
+              "rol": "verbo"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a nurse",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Presente simple: pregunta por algo permanente, el trabajo. El primer do es el auxiliar; el segundo, el verbo «hacer»."
+        },
+        {
+          "en": "What are you doing? I'm looking for my keys.",
+          "es": "¿Qué estás haciendo? Estoy buscando mis llaves.",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doing?",
+              "rol": "verbo"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "looking for",
+              "rol": "verbo"
+            },
+            {
+              "t": "my keys",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Presente continuo: pregunta por lo que ocurre ahora mismo."
+        },
+        {
+          "en": "Ben wants a new phone.",
+          "es": "Ben quiere un celular nuevo.",
+          "partes": [
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "wants",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new phone",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Want es un verbo de estado: presente simple aunque el deseo sea de este momento."
+        },
+        {
+          "en": "We're having dinner. Can I call you later?",
+          "es": "Estamos cenando. ¿Te puedo llamar más tarde?",
+          "partes": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "dinner",
+              "rol": "complemento"
+            },
+            {
+              "t": "Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "you later",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have dinner es una acción (cenar), no posesión: por eso sí puede ir en continuo."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Acción (admite continuo)",
+          "items": [
+            "I'm eating an apple.",
+            "She's having a shower.",
+            "They're thinking about the trip. (considerar)"
+          ]
+        },
+        "b": {
+          "titulo": "Estado (presente simple)",
+          "items": [
+            "I like apples.",
+            "She has a big house.",
+            "I think it's a good idea. (opinar)"
+          ]
+        },
+        "veredicto": "Si el verbo describe algo que haces y que empieza y termina, admite continuo. Si describe lo que sabes, sientes, opinas o posees, usa el simple. Think cambia de significado: think about (pensar en algo, acción) admite continuo; I think (opino) no."
+      },
+      "pronunciacion": [
+        {
+          "texto": "What do you do?",
+          "ipa": "/wʌt də jə duː/",
+          "consejo": "Los dos primeros do no suenan igual: el auxiliar es débil (/də/, casi «da» muy corta) y el verbo final es fuerte y largo (/duː/, con los labios redondeados hacia adelante). Ese contraste ayuda a entender que son palabras con funciones distintas."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I'm knowing the answer.",
+          "bien": "I know the answer.",
+          "porque": "Know es verbo de estado: no se usa en continuo."
+        },
+        {
+          "mal": "What do you do now? (para preguntar qué está haciendo)",
+          "bien": "What are you doing now?",
+          "porque": "What do you do? pregunta por la profesión. Para una acción en curso se usa el presente continuo."
+        },
+        {
+          "mal": "I am having two brothers.",
+          "bien": "I have two brothers. / I've got two brothers.",
+          "porque": "Have con el significado de «tener» (familia, posesión) es de estado: no va en continuo."
+        }
+      ]
+    },
+    {
+      "id": "mezclar-tiempos",
+      "titulo": "Varios tiempos en el mismo texto",
+      "que_es": "En la vida real casi nunca se habla en un solo tiempo. Un mensaje, una conversación o una historia saltan del hábito al presente y al pasado. Cada verbo elige su tiempo **por su cuenta**, según su propia señal o su propio significado.",
+      "para_que": [
+        "Escribir mensajes y postales con naturalidad.",
+        "Contar un cambio: lo que haces normalmente frente a lo que haces esta semana.",
+        "Explicar por qué pasa algo ahora a partir de algo que pasó antes."
+      ],
+      "como_funciona": "Lee el texto verbo por verbo y pregúntate, para cada uno, «¿cuándo?». Conectores como [[but]], [[because]] y [[so]] suelen unir dos tiempos distintos: [[I usually drive to work, but this week I'm taking the bus because my car broke down on Monday]] («Normalmente voy en carro al trabajo, pero esta semana tomo el camión porque mi carro se descompuso el lunes»; [[broke down]] es el pasado de [[break down]], descomponerse). Aquí hay tres tiempos en una sola oración, y cada uno tiene su motivo: hábito (drive), situación temporal (am taking), hecho terminado (broke down). El error típico es «arrastrar» el tiempo del primer verbo a todos los demás. También conviven las demás formas: [[can]]/[[could]] para habilidades presentes o pasadas y [[there is]]/[[there was]] para lo que existe ahora o existía antes.",
+      "estructuras": [
+        {
+          "etiqueta": "Contraste hábito / ahora",
+          "formula": [
+            {
+              "t": "presente simple",
+              "rol": "verbo"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "presente continuo",
+              "rol": "verbo"
+            },
+            {
+              "t": "señal",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I usually walk",
+              "rol": "verbo"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "I'm driving",
+              "rol": "verbo"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Normalmente camino, pero hoy voy en carro."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Omar lives in Chicago, but he's visiting his parents in Mexico this month.",
+          "es": "Omar vive en Chicago, pero este mes está visitando a sus papás en México.",
+          "partes": [
+            {
+              "t": "Omar",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lives",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Chicago",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "he's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "visiting",
+              "rol": "verbo"
+            },
+            {
+              "t": "his parents in Mexico",
+              "rol": "complemento"
+            },
+            {
+              "t": "this month",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Lives: situación permanente. He's visiting: situación temporal, marcada por this month."
+        },
+        {
+          "en": "I'm tired because I didn't sleep well last night.",
+          "es": "Estoy cansado porque anoche no dormí bien.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "tired",
+              "rol": "complemento"
+            },
+            {
+              "t": "because",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sleep",
+              "rol": "verbo"
+            },
+            {
+              "t": "well",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Un estado presente (I'm tired) explicado por un hecho pasado (didn't sleep). Because une los dos tiempos."
+        },
+        {
+          "en": "There was a small store here, but now there's a big bank.",
+          "es": "Aquí había una tiendita, pero ahora hay un banco grande.",
+          "partes": [
+            {
+              "t": "There was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a small store here",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "now",
+              "rol": "tiempo"
+            },
+            {
+              "t": "there's",
+              "rol": "verbo"
+            },
+            {
+              "t": "a big bank",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "There was para lo que existía antes; there's (there is) para lo que existe ahora."
+        },
+        {
+          "en": "I couldn't read music before, but now I can play three songs.",
+          "es": "Antes no sabía leer música, pero ahora puedo tocar tres canciones.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "couldn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "read",
+              "rol": "verbo"
+            },
+            {
+              "t": "music",
+              "rol": "complemento"
+            },
+            {
+              "t": "before",
+              "rol": "tiempo"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "now",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "play",
+              "rol": "verbo"
+            },
+            {
+              "t": "three songs",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "walked",
+          "ipa": "/wɔːkt/",
+          "consejo": "La l no se pronuncia, y la terminación -ed no forma sílaba: suena /t/ pegada a la k. Es una sola sílaba. Muchos estadounidenses dicen /wɑːkt/, con una «a» abierta y larga; las dos formas son normales."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I usually drive to work, but today I walk because it's sunny.",
+          "bien": "I usually drive to work, but today I'm walking because it's sunny.",
+          "porque": "Today, frente a usually, marca una excepción temporal: presente continuo."
+        },
+        {
+          "mal": "Last year I live in Tijuana and I work in a hotel.",
+          "bien": "Last year I lived in Tijuana and I worked in a hotel.",
+          "porque": "Last year afecta a los dos verbos: los dos van en pasado. No se arrastra el presente."
+        }
+      ],
+      "nota": {
+        "titulo": "Truco para revisar",
+        "texto": "Cuando termines un texto, subraya cada verbo y escribe encima «siempre», «ahora» o «antes». Si la etiqueta no coincide con el tiempo que usaste, ahí hay un error.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración incompleta con la forma verbal que le corresponde.",
+      "pares": [
+        {
+          "a": "Look! It ___ .",
+          "b": "is raining"
+        },
+        {
+          "a": "It ___ a lot here in July.",
+          "b": "rains"
+        },
+        {
+          "a": "It ___ all day yesterday.",
+          "b": "rained"
+        },
+        {
+          "a": "When I was five, I ___ ride a bike.",
+          "b": "could"
+        },
+        {
+          "a": "I ___ at home last night.",
+          "b": "was"
+        },
+        {
+          "a": "Right now I ___ a shower.",
+          "b": "am having"
+        }
+      ],
+      "pistas": [
+        "Busca en cada oración la señal de tiempo.",
+        "Look! y Right now señalan ahora; in July (todos los años) señala costumbre; yesterday, last night y when I was five señalan pasado.",
+        "Ahora → am/is + -ing; costumbre → presente simple; pasado → -ed, was o could."
+      ],
+      "solucion": {
+        "respuesta": "is raining · rains · rained · could · was · am having",
+        "explicacion": "Look! pide presente continuo (is raining). In July, dicho de un lugar, es algo que ocurre cada año: rains. Yesterday pide pasado: rained. When I was five es una habilidad pasada: could. Last night con at home pide to be en pasado: was. Right now con have como acción (bañarse) va en continuo: am having."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Listen! Somebody ___ at the door.",
+      "opciones": [
+        {
+          "texto": "is knocking",
+          "correcta": true,
+          "porque": "Correcta: Listen! avisa de algo que se oye en este momento, así que se usa el presente continuo."
+        },
+        {
+          "texto": "knocks",
+          "correcta": false,
+          "porque": "El presente simple describe un hábito; aquí la acción está ocurriendo mientras hablas."
+        },
+        {
+          "texto": "knocked",
+          "correcta": false,
+          "porque": "Listen! se refiere a ahora; el pasado indicaría que ya terminó."
+        }
+      ],
+      "pistas": [
+        "La primera palabra es una señal.",
+        "Listen! pide atención a algo que se oye ahora mismo.",
+        "Acción en curso → am/is/are + verbo-ing."
+      ],
+      "solucion": {
+        "respuesta": "is knocking",
+        "explicacion": "La respuesta es is knocking porque Listen! señala una acción que está ocurriendo en este momento: presente continuo, con is porque somebody es singular."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta que corresponde a la respuesta.",
+      "pregunta": "¿Qué pregunta hizo Tom? Respuesta: «I'm a dentist.»",
+      "opciones": [
+        {
+          "texto": "What do you do?",
+          "correcta": true,
+          "porque": "Correcta: en presente simple pregunta por la ocupación habitual, la profesión."
+        },
+        {
+          "texto": "What are you doing?",
+          "correcta": false,
+          "porque": "Pregunta por lo que haces en este momento; la respuesta lógica sería algo como I'm reading."
+        },
+        {
+          "texto": "What did you do?",
+          "correcta": false,
+          "porque": "Pregunta por algo que hiciste en el pasado; no encaja con I'm a dentist."
+        }
+      ],
+      "pistas": [
+        "La respuesta habla de una profesión.",
+        "¿Una profesión es algo de este momento, permanente o del pasado?",
+        "Lo permanente, como la profesión, se pregunta en presente simple, no en continuo ni en pasado."
+      ],
+      "solucion": {
+        "respuesta": "What do you do?",
+        "explicacion": "What do you do? es la forma estándar de preguntar a qué se dedica alguien: el presente simple expresa algo habitual o permanente. What are you doing? preguntaría por la acción de ahora."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el verbo entre paréntesis en el tiempo correcto.",
+      "frase": "My dad usually ___ (cook) on Sundays, but today my mom ___ (cook).",
+      "respuestas": [
+        [
+          "cooks"
+        ],
+        [
+          "is cooking"
+        ]
+      ],
+      "traduccion": "Normalmente mi papá cocina los domingos, pero hoy está cocinando mi mamá.",
+      "errores_tipicos": {
+        "cooks | cooks": "El segundo verbo tiene la señal today frente a usually: marca una excepción que ocurre ahora, así que va en presente continuo.",
+        "is cooking | is cooking": "Usually marca un hábito: el primer verbo va en presente simple.",
+        "cook | is cooking": "My dad es tercera persona del singular: en presente simple lleva -s."
+      },
+      "pistas": [
+        "Hay dos señales distintas: usually y today (en contraste con usually).",
+        "La primera parte es una costumbre; la segunda, una excepción de hoy.",
+        "Costumbre → presente simple con -s (he). Excepción temporal → is + -ing."
+      ],
+      "solucion": {
+        "respuesta": "cooks · is cooking",
+        "explicacion": "Usually indica hábito, así que el primer verbo va en presente simple, con -s porque my dad es tercera persona: cooks. But today presenta algo distinto y temporal: presente continuo, is cooking."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el verbo entre paréntesis en el tiempo correcto.",
+      "frase": "We ___ (not / go) out last night because we ___ (be) very tired.",
+      "respuestas": [
+        [
+          "didn't go"
+        ],
+        [
+          "were"
+        ]
+      ],
+      "traduccion": "Anoche no salimos porque estábamos muy cansados.",
+      "errores_tipicos": {
+        "didn't went | were": "Después de didn't el verbo vuelve a la forma base: go.",
+        "don't go | are": "Last night sitúa las dos acciones en el pasado.",
+        "didn't go | was": "Con we, el pasado de be es were, no was."
+      },
+      "pistas": [
+        "La señal last night afecta a toda la oración.",
+        "El primer verbo es normal y negativo; el segundo es to be.",
+        "Pasado negativo de un verbo normal: auxiliar + n't + forma base. To be en pasado: was con I/he/she/it, were con you/we/they."
+      ],
+      "solucion": {
+        "respuesta": "didn't go · were",
+        "explicacion": "Last night pide pasado en los dos verbos. Go es un verbo normal: su negativa es didn't go (forma base tras did). Be con we en pasado es were; to be no usa did."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Wait, I ___ the answer to this question!",
+      "opciones": [
+        {
+          "texto": "know",
+          "correcta": true,
+          "porque": "Correcta: know es un verbo de estado y se usa en presente simple aunque hables de este momento."
+        },
+        {
+          "texto": "am knowing",
+          "correcta": false,
+          "porque": "Know describe un conocimiento, no una acción: no se usa en continuo."
+        },
+        {
+          "texto": "knew",
+          "correcta": false,
+          "porque": "Wait… indica que es ahora; el pasado diría que antes lo sabías."
+        }
+      ],
+      "pistas": [
+        "Parece una situación de «ahora mismo», pero fíjate en el verbo.",
+        "¿Know es una acción o un estado?",
+        "Los verbos de estado (know, like, want, need, understand) van en presente simple incluso ahora."
+      ],
+      "solucion": {
+        "respuesta": "know",
+        "explicacion": "Aunque la situación ocurre ahora, know es un verbo de estado: expresa lo que sabes, no algo que haces. Por eso se usa el presente simple: I know."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.07",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el verbo entre paréntesis (get up) en el tiempo correcto.",
+      "frase": "Diego ___ at six every day, but yesterday he ___ at nine.",
+      "respuestas": [
+        [
+          "gets up"
+        ],
+        [
+          "got up"
+        ]
+      ],
+      "traduccion": "Diego se levanta a las seis todos los días, pero ayer se levantó a las nueve.",
+      "errores_tipicos": {
+        "get up | got up": "Diego es tercera persona: en presente simple el verbo lleva -s (gets up).",
+        "gets up | getted up": "Get es irregular: su pasado es got.",
+        "gets up | gets up": "Yesterday pide pasado simple: got up."
+      },
+      "pistas": [
+        "Hay dos señales: every day y yesterday.",
+        "Get up es un verbo de dos palabras; solo cambia get. Get es irregular.",
+        "Hábito con he → presente simple con -s en get; pasado → forma irregular de get, como forget → forgot. Up no cambia."
+      ],
+      "solucion": {
+        "respuesta": "gets up · got up",
+        "explicacion": "Every day marca un hábito: presente simple con -s porque Diego es tercera persona (gets up). Yesterday marca pasado; get es irregular y su pasado es got (got up)."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración cambiando every evening por last night. Ajusta el verbo.",
+      "origen": "I watch TV every evening.",
+      "instruccion": "Con last night",
+      "respuestas": [
+        "I watched TV last night.",
+        "Last night I watched TV."
+      ],
+      "errores_tipicos": {
+        "I watch TV last night.": "Last night pide pasado simple: watched.",
+        "I was watch TV last night.": "No se mezcla was con un verbo normal: el pasado simple es solo watched."
+      },
+      "pistas": [
+        "Cambia la señal y piensa en qué tiempo pide la nueva.",
+        "Last night es un momento terminado.",
+        "Watch es regular: pasado con -ed."
+      ],
+      "solucion": {
+        "respuesta": "I watched TV last night.",
+        "explicacion": "Every evening pedía presente simple (hábito). Last night es un momento terminado, así que el verbo pasa a pasado simple: watch + -ed = watched."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración cambiando every Saturday por right now. Ajusta el verbo.",
+      "origen": "They play soccer every Saturday.",
+      "instruccion": "Con right now",
+      "respuestas": [
+        "They are playing soccer right now.",
+        "Right now they are playing soccer."
+      ],
+      "errores_tipicos": {
+        "They play soccer right now.": "Right now indica una acción en curso: presente continuo (are playing).",
+        "They playing soccer right now.": "Falta el auxiliar are: el presente continuo necesita be + -ing."
+      },
+      "pistas": [
+        "La nueva señal habla de este momento.",
+        "El presente continuo tiene dos piezas.",
+        "Sujeto + am/is/are según el sujeto + verbo-ing, como en We are cooking right now."
+      ],
+      "solucion": {
+        "respuesta": "They are playing soccer right now.",
+        "explicacion": "Right now indica algo que ocurre en este momento, así que el verbo pasa al presente continuo: are (con they) + playing. También es correcto They're playing."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Tu amiga Priya te llama por teléfono a las ocho de la noche.",
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "Hi! What are you doing? Are you busy?",
+          "es": "¡Hola! ¿Qué estás haciendo? ¿Estás ocupado?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I'm cooking dinner, but I can talk.",
+          "correcta": true,
+          "porque": "Correcta: responde con presente continuo a una pregunta sobre este momento y añade que puede hablar."
+        },
+        {
+          "texto": "I cook dinner, but I can talk.",
+          "correcta": false,
+          "porque": "I cook dinner describe un hábito, no lo que haces ahora mismo."
+        },
+        {
+          "texto": "I'm a cook.",
+          "correcta": false,
+          "porque": "Contesta a What do you do? (la profesión), no a What are you doing?"
+        },
+        {
+          "texto": "I cooked dinner, but I can talk.",
+          "correcta": false,
+          "porque": "El pasado dice que ya terminaste de cocinar; no responde a qué estás haciendo."
+        }
+      ],
+      "pistas": [
+        "Priya pregunta en presente continuo.",
+        "Quiere saber qué ocurre en este momento.",
+        "Responde en el mismo tiempo: I'm + verbo-ing."
+      ],
+      "solucion": {
+        "respuesta": "I'm cooking dinner, but I can talk.",
+        "explicacion": "What are you doing? pregunta por la acción en curso, así que se contesta con el presente continuo: I'm cooking. La segunda parte usa can para decir que es posible hablar."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.11",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "I am having two brothers and a sister.",
+      "error": "am having",
+      "correcciones": [
+        "have",
+        "have got"
+      ],
+      "frase_correcta": "I have two brothers and a sister.",
+      "pistas": [
+        "El problema está en el verbo.",
+        "Aquí have significa «tener» (familia).",
+        "Have con significado de posesión es de estado: no va en continuo."
+      ],
+      "solucion": {
+        "respuesta": "am having → have (o have got)",
+        "explicacion": "Have, cuando significa tener o poseer, es un verbo de estado y no se usa en continuo. Lo correcto es I have two brothers (o I've got two brothers). Am having solo vale para acciones: I'm having lunch."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.12",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "I went to Oaxaca ago three years.",
+      "error": "ago three years",
+      "correcciones": [
+        "three years ago"
+      ],
+      "frase_correcta": "I went to Oaxaca three years ago.",
+      "pistas": [
+        "El verbo está bien; mira la expresión de tiempo.",
+        "Piensa en el orden de las palabras de «hace tres años».",
+        "Ago va detrás de la cantidad de tiempo."
+      ],
+      "solucion": {
+        "respuesta": "ago three years → three years ago",
+        "explicacion": "Ago se coloca después de la cantidad de tiempo: three years ago. Poner ago delante es un calco de «hace tres años»."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.13",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa el mensaje de Lucía con los verbos entre paréntesis en el tiempo correcto.",
+      "frase": "Hi Tom! I ___ (be) in Mérida this week. Yesterday I ___ (visit) a museum, and now I ___ (sit) in a café. I ___ (not / speak) Mayan, but the people here are very friendly.",
+      "respuestas": [
+        [
+          "am"
+        ],
+        [
+          "visited"
+        ],
+        [
+          "am sitting"
+        ],
+        [
+          "don't speak"
+        ]
+      ],
+      "traduccion": "¡Hola, Tom! Esta semana estoy en Mérida. Ayer visité un museo y ahora estoy sentada en un café. No hablo maya, pero la gente aquí es muy amable.",
+      "errores_tipicos": {
+        "am | visit | am sitting | don't speak": "Yesterday pide pasado: visited.",
+        "am | visited | sit | don't speak": "Now indica una acción en curso: am sitting.",
+        "am | visited | am sitting | didn't speak": "No hablar maya es un hecho general del presente, no algo terminado: don't speak."
+      },
+      "pistas": [
+        "Cada verbo tiene su propia señal: this week, yesterday, now… y el último no tiene señal.",
+        "El último verbo expresa un hecho general sobre Lucía (una habilidad que no tiene).",
+        "Situación de esta semana con be → presente de be con I; yesterday → pasado simple; now → presente continuo; hecho general → presente simple negativo."
+      ],
+      "solucion": {
+        "respuesta": "am · visited · am sitting · don't speak",
+        "explicacion": "I am in Mérida this week: estar en un lugar se expresa con to be. Yesterday pide pasado simple: visited. Now pide presente continuo: am sitting (sit dobla la t). I don't speak Mayan es un hecho general, presente simple negativo con don't porque el sujeto es I."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite. Fíjate en la diferencia entre walk y walked.",
+      "texto": "I usually walk to work, but yesterday I walked to the beach.",
+      "ipa": "/aɪ ˈjuːʒuəli wɔːk tə wɝːk ‖ bət ˈjɛstərdeɪ aɪ wɔːkt tə ðə biːtʃ/",
+      "consejo": "En walk la l es muda. En walked la -ed suena /t/ y se pega a la k sin añadir sílaba: «wokt», nunca «wol-ked». Work y walk no suenan igual: en work la lengua se recoge hacia atrás como para una r (/ɝ/), en walk la boca se abre en una «o» larga y abierta (/ɔː/).",
+      "es": "Normalmente camino al trabajo, pero ayer caminé a la playa.",
+      "pistas": [
+        "Escucha las dos formas del verbo walk.",
+        "En walked hay un sonido /t/ al final, sin vocal extra.",
+        "Una sola sílaba: /wɔːkt/."
+      ]
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.15",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "Every morning she drinks coffee, but today she's drinking tea.",
+      "pistas": [
+        "Hay dos partes: un hábito y una excepción.",
+        "La primera parte lleva un verbo con -s; la segunda, un auxiliar contraído y -ing.",
+        "Rutina → presente simple con -s; excepción de hoy → presente continuo con el auxiliar contraído."
+      ],
+      "solucion": {
+        "respuesta": "Every morning she drinks coffee, but today she's drinking tea.",
+        "explicacion": "Drinks: presente simple con -s para un hábito de she. She's drinking: presente continuo (she is + drinking) para lo que ocurre hoy, distinto de lo habitual."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Mi semana no es normal",
+    "contexto": "Tu compañero de trabajo Ben nota que llegas en bicicleta y te pregunta por qué. Explícale tu rutina normal, lo que haces esta semana y qué pasó.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hey, you have a bike today! Do you usually ride to work?",
+        "es": "¡Oye, hoy traes bici! ¿Normalmente vienes en bici al trabajo?"
+      },
+      {
+        "quien": "Tú",
+        "en": "No, I don't. I usually drive.",
+        "es": "No. Normalmente vengo en carro."
+      },
+      {
+        "quien": "Ben",
+        "en": "So why are you riding a bike this week?",
+        "es": "¿Y por qué vienes en bici esta semana?"
+      }
+    ],
+    "tu_turno": "Contesta a Ben con tres tiempos: qué estás haciendo esta semana (presente continuo), qué pasó (pasado simple) y algo que haces normalmente o que puedes o no puedes hacer (presente simple o can).",
+    "modelo": "I'm riding my bike this week because my car had a problem on Monday. The mechanic can't fix it until Friday. I don't like it, but it's good exercise!",
+    "alternativas": [
+      "My car is at the mechanic's this week. It didn't start on Saturday. I usually hate riding a bike, but it's not so bad!",
+      "I'm trying to do more exercise this week. Last month the doctor said I need to move more. I can ride to work in twenty minutes."
+    ],
+    "claves": [
+      "Esta semana (temporal): am/is/are + -ing.",
+      "Lo que pasó: pasado simple (had, didn't start, said).",
+      "Lo habitual o las habilidades: presente simple, can / can't."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "every day, usually, on Mondays → presente simple.",
+      "now, right now, at the moment, this week, Look!, Listen! → presente continuo.",
+      "yesterday, last…, …ago, in 2019, when I was… → pasado simple (was/were, could).",
+      "Plan acordado (tomorrow, on Friday) → presente continuo.",
+      "Sin señal, decide el significado: hábito, en curso o terminado.",
+      "Verbos de estado (know, like, want, need, understand, have = poseer) → presente simple, no continuo."
+    ],
+    "recuerda": [
+      "Today no es una señal fiable: puede ir con varios tiempos.",
+      "Ago va después de la cantidad: two days ago.",
+      "What do you do? = profesión. What are you doing? = ahora."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.r1",
+      "frente": "¿Qué tiempo piden every day, usually y on Mondays?",
+      "reverso": "Presente simple → She usually walks to school.",
+      "nota": "Son señales de hábito."
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.r2",
+      "frente": "¿Qué tiempo piden now, at the moment y Look!?",
+      "reverso": "Presente continuo → Look! It's snowing.",
+      "nota": "Algo que ocurre en este momento."
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.r3",
+      "frente": "¿Cómo se dice «hace dos años»?",
+      "reverso": "two years ago",
+      "nota": "Ago siempre detrás."
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.r4",
+      "frente": "¿«I'm needing help» o «I need help»?",
+      "reverso": "I need help.",
+      "nota": "Need es verbo de estado: no va en continuo."
+    },
+    {
+      "id": "todos-los-tiempos.elegir-el-tiempo.r5",
+      "frente": "¿Qué diferencia hay entre What do you do? y What are you doing?",
+      "reverso": "What do you do? = ¿A qué te dedicas? / What are you doing? = ¿Qué estás haciendo?",
+      "nota": "Simple = permanente; continuo = ahora."
+    }
+  ]
+}

@@ -1,0 +1,1147 @@
+{
+  "slug": "rutina-diaria",
+  "titulo": "La rutina diaria",
+  "minutos": 45,
+  "objetivos": [
+    "Usar las expresiones de rutina más frecuentes: get up, take a shower, have breakfast, go to work, get home, go to bed…",
+    "Colocar bien las expresiones de tiempo (at seven, in the morning, at night, on Mondays).",
+    "Ordenar una rutina con first, then, after that y finally, y con before / after + sustantivo.",
+    "Contar tu rutina (I) y la de otra persona (he/she), con la -s en el lugar correcto: he gets up, no «he get ups»."
+  ],
+  "situacion": {
+    "titulo": "Un día normal de Carlos",
+    "texto": "Carlos es panadero y su horario es muy distinto al de su amiga Lucía, que trabaja en una oficina. Comparan sus días.",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "Tell me about your day, Carlos.",
+        "es": "Cuéntame cómo es tu día, Carlos."
+      },
+      {
+        "quien": "Carlos",
+        "en": "Well, I get up at four o'clock. First, I take a shower. Then I have a coffee and I go to the bakery.",
+        "es": "Pues me levanto a las cuatro. Primero, me baño. Luego me tomo un café y me voy a la panadería."
+      },
+      {
+        "quien": "Lucía",
+        "en": "At four? Wow! I get up at seven.",
+        "es": "¿A las cuatro? ¡Guau! Yo me levanto a las siete."
+      },
+      {
+        "quien": "Carlos",
+        "en": "I finish work at noon. After that, I have lunch and I sleep for two hours.",
+        "es": "Termino de trabajar a mediodía. Después, como y duermo dos horas."
+      },
+      {
+        "quien": "Lucía",
+        "en": "And you go to bed early, right?",
+        "es": "Y te acuestas temprano, ¿verdad?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Yes, at nine. My wife goes to bed at eleven!",
+        "es": "Sí, a las nueve. ¡Mi esposa se acuesta a las once!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "expresiones-de-rutina",
+      "titulo": "Las expresiones de la rutina",
+      "que_es": "Muchas acciones de la rutina no se dicen en inglés con un solo verbo, sino con **expresiones fijas** de dos o tres palabras: [[get up]] (levantarse), [[have breakfast]] (desayunar), [[go to bed]] (acostarse). Se aprenden como bloque, y en tercera persona **la -s va en el verbo, no al final de la expresión**: [[he gets up]], [[she has breakfast]], [[he goes to bed]].",
+      "para_que": [
+        "Contar qué haces en un día normal y a qué hora.",
+        "Describir la rutina de otra persona (tu pareja, tus hijos, un compañero).",
+        "Entender horarios y costumbres en conversaciones cotidianas."
+      ],
+      "como_funciona": "Tres cosas que el español no te prepara para decir:\n\n1. **Muchos verbos reflexivos del español no son reflexivos en inglés.** «Me levanto» es [[I get up]], no «I get me up»; «me baño» es [[I take a shower]]; «me visto» es [[I get dressed]]; «me acuesto» es [[I go to bed]].\n2. **Las comidas van con have y sin artículo**: [[have breakfast]], [[have lunch]], [[have dinner]]. No «take the breakfast». (Para bebidas también: [[have a coffee]]).\n3. **Algunas expresiones de lugar no llevan artículo ni preposición**: [[go to work]], [[go to school]], [[go to bed]] (sin the), y [[go home]], [[get home]] (sin to).\n\nY la diferencia entre [[wake up]] y [[get up]]: wake up es despertarte (abrir los ojos); get up es levantarte de la cama. Puedes despertarte a las 6 y levantarte a las 6:20.\n\nPara decir cuándo, usa lo que ya sabes: **at** + hora ([[at seven]], [[at 7:30]]), **in** + parte del día ([[in the morning]], [[in the afternoon]], [[in the evening]]), pero **at night**; **on** + día ([[on Mondays]], con -s si es cada lunes). La expresión de tiempo va normalmente **al final**.",
+      "estructuras": [
+        {
+          "etiqueta": "Rutina con hora",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "expresión de rutina",
+              "rol": "verbo"
+            },
+            {
+              "t": "at + hora / in the + parte del día",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get up",
+              "rol": "verbo"
+            },
+            {
+              "t": "at six thirty",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Me levanto a las seis y media."
+        },
+        {
+          "etiqueta": "Tercera persona: la -s en el verbo",
+          "formula": [
+            {
+              "t": "He / She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -s",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto de la expresión",
+              "rol": "complemento"
+            },
+            {
+              "t": "tiempo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "goes",
+              "rol": "verbo"
+            },
+            {
+              "t": "to bed",
+              "rol": "complemento"
+            },
+            {
+              "t": "at eleven",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Ella se acuesta a las once."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Un día, paso a paso",
+          "columnas": [
+            "Español",
+            "I / you / we / they",
+            "he / she"
+          ],
+          "filas": [
+            [
+              "despertarse",
+              "wake up",
+              "wakes up"
+            ],
+            [
+              "levantarse",
+              "get up",
+              "gets up"
+            ],
+            [
+              "bañarse (en regadera)",
+              "take a shower",
+              "takes a shower"
+            ],
+            [
+              "vestirse",
+              "get dressed",
+              "gets dressed"
+            ],
+            [
+              "desayunar",
+              "have breakfast",
+              "has breakfast"
+            ],
+            [
+              "ir al trabajo",
+              "go to work",
+              "goes to work"
+            ],
+            [
+              "empezar a trabajar",
+              "start work",
+              "starts work"
+            ],
+            [
+              "comer (a mediodía)",
+              "have lunch",
+              "has lunch"
+            ],
+            [
+              "terminar de trabajar",
+              "finish work",
+              "finishes work"
+            ],
+            [
+              "llegar a casa",
+              "get home",
+              "gets home"
+            ],
+            [
+              "cenar",
+              "have dinner",
+              "has dinner"
+            ],
+            [
+              "ver la tele",
+              "watch TV",
+              "watches TV"
+            ],
+            [
+              "acostarse",
+              "go to bed",
+              "goes to bed"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I get up at six thirty.",
+          "es": "Me levanto a las seis y media.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get up",
+              "rol": "verbo"
+            },
+            {
+              "t": "at six thirty",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "No hay pronombre reflexivo: «me levanto» es simplemente get up. Six thirty también puede decirse half past six (más británico)."
+        },
+        {
+          "en": "He gets up at five o'clock.",
+          "es": "Él se levanta a las cinco.",
+          "partes": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "gets up",
+              "rol": "verbo"
+            },
+            {
+              "t": "at five o'clock",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "La -s va en get, el verbo: gets up. Up no cambia nunca («get ups» no existe)."
+        },
+        {
+          "en": "We have breakfast in the kitchen.",
+          "es": "Desayunamos en la cocina.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have breakfast",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the kitchen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have + comida, sin artículo. Breakfast se pronuncia /ˈbrekfəst/: «brek-fest», no «breik-fast»."
+        },
+        {
+          "en": "My daughter goes to school by bus.",
+          "es": "Mi hija va a la escuela en autobús.",
+          "partes": [
+            {
+              "t": "My daughter",
+              "rol": "sujeto"
+            },
+            {
+              "t": "goes to school",
+              "rol": "verbo"
+            },
+            {
+              "t": "by bus",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Go to school, sin the: hablas de ir a estudiar, no de un edificio concreto. By + transporte, sin artículo: by bus, by car."
+        },
+        {
+          "en": "She gets home at six and has dinner at eight.",
+          "es": "Llega a casa a las seis y cena a las ocho.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "gets home",
+              "rol": "verbo"
+            },
+            {
+              "t": "at six",
+              "rol": "tiempo"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "has dinner",
+              "rol": "verbo"
+            },
+            {
+              "t": "at eight",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Get home, sin to. Cuando dos verbos comparten sujeto y se unen con and, puedes no repetir she, pero los dos llevan -s."
+        },
+        {
+          "en": "They watch TV at night.",
+          "es": "Ven la tele en la noche.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "watch TV",
+              "rol": "verbo"
+            },
+            {
+              "t": "at night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "In the morning, in the afternoon, in the evening… pero at night. Es una excepción fija."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "El día de Carlos",
+        "marcas": [
+          {
+            "pos": 0.05,
+            "texto": "4:00 get up",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.12,
+            "texto": "take a shower",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.2,
+            "texto": "go to the bakery",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.2,
+            "texto": "work",
+            "tipo": "tramo",
+            "hasta": 0.5
+          },
+          {
+            "pos": 0.55,
+            "texto": "have lunch",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.7,
+            "texto": "sleep",
+            "tipo": "tramo",
+            "hasta": 0.8
+          },
+          {
+            "pos": 0.95,
+            "texto": "9:00 go to bed",
+            "tipo": "punto"
+          }
+        ],
+        "pie": "Una rutina es una secuencia que se repite todos los días: por eso se cuenta en presente simple, paso a paso, en el orden en que ocurre."
+      },
+      "pronunciacion": [
+        {
+          "texto": "breakfast",
+          "ipa": "/ˈbrekfəst/",
+          "consejo": "Dos sílabas: BREK-fəst. Aunque se escribe con break, suena con una e corta, como en «mes». La segunda sílaba es débil, con la vocal neutra /ə/: no digas «fast».",
+          "lento": true
+        },
+        {
+          "texto": "gets up",
+          "ipa": "/ɡets ˈʌp/",
+          "consejo": "Se pronuncian unidas: la s de gets se pega a up, «ge-tsʌp». La u de up es /ʌ/, una a corta y relajada, no una u española.",
+          "lento": true
+        },
+        {
+          "texto": "shower",
+          "ipa": "/ˈʃaʊər/",
+          "consejo": "Empieza con /ʃ/, el sonido de «shh» para pedir silencio (no «ch»). Luego el diptongo «au» como en «auto», y una r final suave, sin vibrar la lengua. En británico la r final no se pronuncia: /ˈʃaʊə/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I take breakfast at seven.",
+          "bien": "I have breakfast at seven.",
+          "porque": "Calco de «tomar el desayuno». Con las comidas se usa have, y sin artículo."
+        },
+        {
+          "mal": "He get ups at five.",
+          "bien": "He gets up at five.",
+          "porque": "La -s de tercera persona va en el verbo (get), no en la partícula (up)."
+        },
+        {
+          "mal": "I go to the bed at eleven.",
+          "bien": "I go to bed at eleven.",
+          "porque": "Go to bed es una expresión fija sin artículo, igual que go to work y go to school."
+        },
+        {
+          "mal": "I go to home at six.",
+          "bien": "I go home at six.",
+          "porque": "Home, en go home y get home, no lleva to."
+        },
+        {
+          "mal": "I watch TV in the night.",
+          "bien": "I watch TV at night.",
+          "porque": "Es la excepción: in the morning / in the afternoon / in the evening, pero at night."
+        }
+      ]
+    },
+    {
+      "id": "conectores-de-secuencia",
+      "titulo": "Contar en orden: first, then, after that, finally",
+      "que_es": "Los **conectores de secuencia** son palabras que ordenan las acciones: [[first]] (primero), [[then]] (luego), [[after that]] (después de eso), [[finally]] (por último). También puedes usar [[before]] (antes de) y [[after]] (después de) seguidos de un sustantivo: [[before work]], [[after lunch]].",
+      "para_que": [
+        "Contar tu rutina de forma clara, sin repetir «and… and… and…».",
+        "Entender instrucciones y relatos en orden.",
+        "Escribir un párrafo organizado sobre tu día."
+      ],
+      "como_funciona": "**First**, **then**, **after that** y **finally** van normalmente **al principio de la oración**. Con first, after that y finally se suele poner coma; con then la coma es opcional.\n\n**Before** y **after** son preposiciones: necesitan algo detrás. Por eso se dice [[after lunch]], [[after work]], [[before dinner]]. Aquí está la trampa del español: «Después, voy al trabajo» **no** se traduce como «After, I go to work». After solo, como adverbio al principio, suena incompleto. Usa **after that** (o then, o afterwards).\n\nNo abuses de then: si todas tus oraciones empiezan con then, el texto suena repetitivo. Alterna los conectores y combina con and.",
+      "estructuras": [
+        {
+          "etiqueta": "Conector al principio",
+          "formula": [
+            {
+              "t": "First, / Then / After that, / Finally,",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "After that,",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "goes",
+              "rol": "verbo"
+            },
+            {
+              "t": "to work",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Después de eso, se va a trabajar."
+        },
+        {
+          "etiqueta": "Before / after + sustantivo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "before / after + sustantivo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "take",
+              "rol": "verbo"
+            },
+            {
+              "t": "a shower",
+              "rol": "complemento"
+            },
+            {
+              "t": "after work",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Me baño después del trabajo."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "First, I have a coffee.",
+          "es": "Primero, me tomo un café.",
+          "partes": [
+            {
+              "t": "First,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a coffee",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "First abre la secuencia. A coffee = una taza de café."
+        },
+        {
+          "en": "Then I get dressed.",
+          "es": "Luego me visto.",
+          "partes": [
+            {
+              "t": "Then",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get dressed",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Then no suele llevar coma. Get dressed no es reflexivo: «me visto», sin «me» en inglés."
+        },
+        {
+          "en": "After that, Sam walks the dog.",
+          "es": "Después de eso, Sam saca a pasear al perro.",
+          "partes": [
+            {
+              "t": "After that,",
+              "rol": "otro"
+            },
+            {
+              "t": "Sam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "walks",
+              "rol": "verbo"
+            },
+            {
+              "t": "the dog",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "After that = después de eso. After solo no funciona aquí. Walk the dog: pasear al perro."
+        },
+        {
+          "en": "Finally, he goes to bed at eleven.",
+          "es": "Por último, se acuesta a las once.",
+          "partes": [
+            {
+              "t": "Finally,",
+              "rol": "otro"
+            },
+            {
+              "t": "he",
+              "rol": "sujeto"
+            },
+            {
+              "t": "goes",
+              "rol": "verbo"
+            },
+            {
+              "t": "to bed",
+              "rol": "complemento"
+            },
+            {
+              "t": "at eleven",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Finally cierra la secuencia: «por último». Fuera de una secuencia también significa «por fin» (Finally! You're here! = ¡Por fin llegas!), pero en una rutina solo marca el último paso."
+        },
+        {
+          "en": "My wife reads before dinner.",
+          "es": "Mi esposa lee antes de cenar.",
+          "partes": [
+            {
+              "t": "My wife",
+              "rol": "sujeto"
+            },
+            {
+              "t": "reads",
+              "rol": "verbo"
+            },
+            {
+              "t": "before dinner",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Before + sustantivo: before dinner (antes de la cena). En español dices «antes de cenar» con verbo; en inglés, con el sustantivo es lo más sencillo."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Sin conectores",
+          "items": [
+            "I get up and I take a shower and I have breakfast and I go to work.",
+            "Correcto, pero monótono y difícil de seguir."
+          ]
+        },
+        "b": {
+          "titulo": "Con conectores",
+          "items": [
+            "First, I get up and take a shower. Then I have breakfast. After that, I go to work.",
+            "Las acciones quedan agrupadas y el orden se entiende a la primera."
+          ]
+        },
+        "veredicto": "Los conectores no cambian la gramática de cada oración (sigue siendo sujeto + verbo), pero organizan el texto. Úsalos para que tu rutina se lea como una historia ordenada."
+      },
+      "pronunciacion": [
+        {
+          "texto": "after that",
+          "ipa": "/ˈæftər ðæt/",
+          "consejo": "En estadounidense la a de after es /æ/, entre a y e, con los labios estirados. En británico es una a larga y abierta: /ˈɑːftə/. En that, la lengua va entre los dientes para /ð/, como una d muy suave."
+        },
+        {
+          "texto": "then",
+          "ipa": "/ðen/",
+          "consejo": "Empieza con /ð/ (lengua entre los dientes, con vibración), no con una d dura. Cuidado de no confundirla con than /ðæn/ ni con den /den/."
+        },
+        {
+          "texto": "first",
+          "ipa": "/fɝst/",
+          "consejo": "La vocal es la misma /ɝ/ de work: lengua recogida, sin i clara. No digas «first» con i española. Termina en /st/: pronuncia la t."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "After, I go to work.",
+          "bien": "After that, I go to work.",
+          "porque": "Calco de «Después, …». After necesita un complemento (after that, after lunch). Solo, al principio, suena incompleto."
+        },
+        {
+          "mal": "Before of dinner, I read.",
+          "bien": "Before dinner, I read.",
+          "porque": "Calco de «antes de». En inglés before va directamente con el sustantivo, sin of."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple.rutina-diaria.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada expresión con su significado.",
+      "pares": [
+        {
+          "a": "get up",
+          "b": "levantarse"
+        },
+        {
+          "a": "wake up",
+          "b": "despertarse"
+        },
+        {
+          "a": "have breakfast",
+          "b": "desayunar"
+        },
+        {
+          "a": "take a shower",
+          "b": "bañarse en regadera"
+        },
+        {
+          "a": "get dressed",
+          "b": "vestirse"
+        },
+        {
+          "a": "go to bed",
+          "b": "acostarse"
+        },
+        {
+          "a": "get home",
+          "b": "llegar a casa"
+        }
+      ],
+      "pistas": [
+        "Muchos reflexivos del español («me levanto») son expresiones de dos o tres palabras en inglés.",
+        "Separa las parecidas: wake up y get up; get dressed y get home.",
+        "Wake up = abrir los ojos; get up = salir de la cama; get dressed = ponerse la ropa; get home = llegar a casa."
+      ],
+      "solucion": {
+        "respuesta": "get up → levantarse · wake up → despertarse · have breakfast → desayunar · take a shower → bañarse en regadera · get dressed → vestirse · go to bed → acostarse · get home → llegar a casa",
+        "explicacion": "Get aparece en tres expresiones con significados distintos: get up (levantarse), get dressed (vestirse) y get home (llegar a casa). Wake up es despertarse, que no es lo mismo que levantarse. Have breakfast es desayunar: comidas con have."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma natural en inglés.",
+      "pregunta": "¿Cómo se dice «Desayuno a las siete»?",
+      "opciones": [
+        {
+          "texto": "I have breakfast at seven.",
+          "correcta": true,
+          "porque": "Correcta: con las comidas se usa have, sin artículo, y la hora va con at."
+        },
+        {
+          "texto": "I take breakfast at seven.",
+          "correcta": false,
+          "porque": "Es un calco de «tomar el desayuno». En inglés las comidas se dicen con have."
+        },
+        {
+          "texto": "I have the breakfast at seven.",
+          "correcta": false,
+          "porque": "Sobra the: have breakfast, have lunch y have dinner van sin artículo."
+        },
+        {
+          "texto": "I have breakfast in seven.",
+          "correcta": false,
+          "porque": "Para una hora concreta la preposición es at (at seven), no in."
+        }
+      ],
+      "pistas": [
+        "Recuerda qué verbo va con las comidas en inglés.",
+        "Revisa tres cosas: el verbo, el artículo y la preposición de la hora.",
+        "Have + comida sin artículo; at + hora."
+      ],
+      "solucion": {
+        "respuesta": "I have breakfast at seven.",
+        "explicacion": "La respuesta es I have breakfast at seven: con las comidas se usa have (no take), sin artículo (no the breakfast), y las horas concretas van con at."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.03",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, lee y repite.",
+      "texto": "I have breakfast at seven.",
+      "ipa": "/aɪ hæv ˈbrekfəst ət ˈsevən/",
+      "consejo": "Breakfast tiene dos sílabas: BREK-fəst, con e corta. Have termina en /v/: los dientes de arriba tocan el labio de abajo y vibra (no es b). En seven también hay /v/ en medio.",
+      "es": "Desayuno a las siete.",
+      "pistas": [
+        "Las palabras fuertes son have, breakfast y seven.",
+        "Breakfast no se pronuncia como se escribe: la primera vocal es una e corta.",
+        "BREK-fəst: la segunda sílaba casi no tiene vocal."
+      ]
+    },
+    {
+      "id": "presente-simple.rutina-diaria.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la rutina de Carlos con la forma correcta de los verbos entre paréntesis.",
+      "frase": "Carlos ___ (get) up at four, ___ (take) a shower and ___ (go) to the bakery.",
+      "traduccion": "Carlos se levanta a las cuatro, se baña y se va a la panadería.",
+      "respuestas": [
+        [
+          "gets"
+        ],
+        [
+          "takes"
+        ],
+        [
+          "goes"
+        ]
+      ],
+      "errores_tipicos": {
+        "get | take | go": "Carlos = he: los tres verbos necesitan la marca de tercera persona (gets, takes, goes).",
+        "gets | takes | gos": "Go termina en -o: se añade -es → goes.",
+        "gets | take | go": "Aunque Carlos no se repita, sigue siendo el sujeto de take y go: también llevan la marca de tercera persona."
+      },
+      "pistas": [
+        "El sujeto de los tres verbos es el mismo: Carlos.",
+        "Carlos = he. Revisa además cómo termina go.",
+        "Todos llevan -s de tercera persona; tras -o, se escribe -es."
+      ],
+      "solucion": {
+        "respuesta": "gets … takes … goes",
+        "explicacion": "Carlos (= he) es el sujeto de los tres verbos, aunque solo aparezca una vez, así que los tres llevan la marca de tercera persona: gets, takes y goes (go + es porque termina en -o)."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "work",
+        "she",
+        "after",
+        "to",
+        "goes",
+        "that"
+      ],
+      "respuestas": [
+        "After that she goes to work",
+        "She goes to work after that"
+      ],
+      "traduccion": "Después de eso, se va a trabajar.",
+      "pistas": [
+        "Hay un conector de dos palabras que va junto.",
+        "After that suele ir al principio; después, sujeto + verbo.",
+        "Conector de dos palabras + sujeto + verbo con -es + to + work (sin the)."
+      ],
+      "solucion": {
+        "respuesta": "After that, she goes to work.",
+        "explicacion": "El conector after that va al principio, seguido de sujeto (she) + verbo con -es (goes) + to work. También es correcto ponerlo al final: She goes to work after that."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Grace get ups at five every day.",
+      "error": "get ups",
+      "correcciones": [
+        "gets up"
+      ],
+      "frase_correcta": "Grace gets up at five every day.",
+      "pistas": [
+        "Grace es tercera persona del singular: el verbo lleva -s. Pero ¿dónde?",
+        "Mira la expresión get up: ¿cuál de las dos palabras es el verbo?",
+        "La -s va en el verbo (get), nunca en la partícula (up)."
+      ],
+      "solucion": {
+        "respuesta": "gets up",
+        "explicacion": "El error es get ups. Grace (= she) necesita la marca de tercera persona, pero se añade al verbo, get, no a up: Grace gets up at five every day."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "My son goes to the bed at nine.",
+      "error": "to the bed",
+      "correcciones": [
+        "to bed"
+      ],
+      "frase_correcta": "My son goes to bed at nine.",
+      "pistas": [
+        "El verbo está bien conjugado. Revisa la expresión de rutina.",
+        "Fíjate en el artículo dentro de la expresión que significa «acostarse».",
+        "Go to bed es una expresión fija sin artículo, como go to work y go to school."
+      ],
+      "solucion": {
+        "respuesta": "to bed",
+        "explicacion": "El error es to the bed. «Acostarse» se dice go to bed, sin artículo. Goes está bien: my son = he, y go termina en -o → goes."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Then he watches TV and goes to bed.",
+      "pistas": [
+        "Empieza con un conector de secuencia.",
+        "Hay dos verbos en tercera persona y los dos terminan en /ɪz/ o /z/.",
+        "Conector (then) + he + watch con -es + TV + and + go con -es + to bed."
+      ],
+      "solucion": {
+        "respuesta": "Then he watches TV and goes to bed.",
+        "explicacion": "La oración es Then he watches TV and goes to bed (Luego ve la tele y se acuesta). Los dos verbos llevan -es porque el sujeto es he y terminan en -ch y -o. Go to bed va sin artículo."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.09",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Cuenta la rutina de Omar. Cambia I por Omar y my por his.",
+      "origen": "I get home at six and I have dinner with my family.",
+      "instruccion": "Sujeto nuevo: Omar (usa he en la segunda parte o no repitas el sujeto)",
+      "respuestas": [
+        "Omar gets home at six and he has dinner with his family",
+        "Omar gets home at six and has dinner with his family"
+      ],
+      "errores_tipicos": {
+        "Omar gets home at six and he have dinner with his family": "He también es tercera persona: have → has.",
+        "Omar get home at six and he has dinner with his family": "Omar = he: get necesita -s → gets home.",
+        "Omar gets home at six and he has dinner with my family": "Si es la rutina de Omar, la familia es la suya: his family."
+      },
+      "pistas": [
+        "Omar es tercera persona del singular: todos los verbos cambian.",
+        "Hay dos verbos (get, have) y un posesivo (my).",
+        "get → gets, have → has (irregular), my → his."
+      ],
+      "solucion": {
+        "respuesta": "Omar gets home at six and he has dinner with his family.",
+        "explicacion": "Con Omar (= he) los dos verbos llevan marca de tercera persona: gets y has (have es irregular). El posesivo también cambia: la familia de Omar es his family. Puedes repetir he o no repetir el sujeto: ambas son correctas."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Un compañero de trabajo nuevo te pregunta por tus mañanas.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "You're always here so early! Tell me about your mornings.",
+          "es": "¡Siempre llegas tempranísimo! Cuéntame cómo son tus mañanas."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I get up at six. First, I take a shower. After that, I have breakfast and I come here.",
+          "correcta": true,
+          "porque": "Correcta: sujeto I + forma base, expresiones de rutina correctas y conectores bien usados."
+        },
+        {
+          "texto": "I get up at six. First, I take a shower. After, I take the breakfast and I come here.",
+          "correcta": false,
+          "porque": "Dos calcos: After solo no funciona como «después» (after that), y el desayuno es have breakfast, sin the."
+        },
+        {
+          "texto": "Get up at six. First, take a shower. After that, have breakfast and come here.",
+          "correcta": false,
+          "porque": "Falta el sujeto I. Sin sujeto, estas oraciones parecen instrucciones (imperativos): «Levántate a las seis…»."
+        },
+        {
+          "texto": "I gets up at six. First, I takes a shower. After that, I has breakfast and I comes here.",
+          "correcta": false,
+          "porque": "Con I el verbo va en forma base. La -s es solo para he, she, it o sujetos singulares."
+        }
+      ],
+      "pistas": [
+        "Revisa sujeto, forma del verbo, expresiones de rutina y conectores.",
+        "Busca calcos del español: «después» y «tomar el desayuno».",
+        "I + forma base; have breakfast sin artículo; after that, no after solo."
+      ],
+      "solucion": {
+        "respuesta": "I get up at six. First, I take a shower. After that, I have breakfast and I come here.",
+        "explicacion": "Es la única opción con sujeto en todas las oraciones, verbos en forma base con I, have breakfast sin artículo y after that como conector. Nota que Ben dice You're always here: ese always lo estudiarás en la unidad de frecuencia."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa take a shower y escribe la hora en palabras (six thirty).",
+      "es": "Mi hermana se levanta a las seis y media y se baña.",
+      "respuestas": [
+        "My sister gets up at six thirty and takes a shower",
+        "My sister gets up at six thirty and she takes a shower"
+      ],
+      "errores_tipicos": {
+        "My sister gets up at six thirty and take a shower": "My sister sigue siendo el sujeto de take: takes, con -s.",
+        "My sister get up at six thirty and takes a shower": "My sister = she: gets up.",
+        "My sister get ups at six thirty and takes a shower": "La -s va en el verbo, no en up: gets up."
+      },
+      "pistas": [
+        "«Se levanta» y «se baña» son expresiones de rutina; en inglés no llevan pronombre reflexivo.",
+        "El sujeto de los dos verbos es my sister (= she).",
+        "gets up (la -s en get) + at six thirty + and + takes a shower."
+      ],
+      "solucion": {
+        "respuesta": "My sister gets up at six thirty and takes a shower.",
+        "explicacion": "My sister (= she) es el sujeto de los dos verbos, así que los dos llevan -s: gets up (en get, no en up) y takes a shower. El «se» de «se levanta» y «se baña» no se traduce: esas expresiones ya lo incluyen."
+      }
+    },
+    {
+      "id": "presente-simple.rutina-diaria.12",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre tu rutina diaria.",
+      "objetivo": "Describir tu día normal en orden y comparar un momento con la rutina de otra persona de tu casa.",
+      "instrucciones": "Escribe un párrafo de al menos 50 palabras sobre un día normal entre semana: a qué hora te levantas, qué haces por la mañana, a qué hora empiezas y terminas de trabajar o estudiar, y qué haces en la noche. Usa al menos tres conectores (first, then, after that, finally) y añade al menos una oración sobre otra persona (my wife, my dad, my roommate…) con el verbo en tercera persona.",
+      "vocabulario_apoyo": [
+        "get up",
+        "take a shower",
+        "get dressed",
+        "have breakfast",
+        "go to work / school",
+        "start work",
+        "have lunch",
+        "finish work",
+        "get home",
+        "have dinner",
+        "watch TV",
+        "go to bed",
+        "at night",
+        "in the morning"
+      ],
+      "estructuras": [
+        "I get up at…",
+        "First, I…",
+        "Then I…",
+        "After that, I…",
+        "Finally, I go to bed at…",
+        "My … gets up at…"
+      ],
+      "ejemplo": "Mi fin de semana (otro tema): On Saturdays I get up at nine. First, I have breakfast with my kids. Then we go to the park…",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas al menos un conector de secuencia (first, then, after that, finally)",
+          "patron": "\\b(first|then|after that|finally)\\b"
+        },
+        {
+          "descripcion": "Incluyes una hora con at",
+          "patron": "\\bat (one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|noon|midnight|\\d)"
+        },
+        {
+          "descripcion": "Hablas de ti con I + verbo",
+          "patron": "\\bi (get|have|go|take|start|finish|watch|work|study|wake)\\b"
+        },
+        {
+          "descripcion": "Incluyes un verbo de rutina en tercera persona (gets, has, goes, takes, watches…)",
+          "patron": "\\b(gets|has|goes|takes|watches|starts|finishes|works|studies|wakes)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto?",
+        "¿Usas la forma base con I y la -s con he/she (gets up, has, goes, watches)?",
+        "¿La -s de las expresiones está en el verbo y no en la partícula (gets up, no get ups)?",
+        "¿Dices have breakfast/lunch/dinner sin artículo, go to bed y go home sin the ni to?",
+        "¿Usas at + hora, in the morning, at night?",
+        "¿Alternas conectores en lugar de repetir and?"
+      ],
+      "modelo": "I get up at six thirty on weekdays. First, I take a shower and get dressed. Then I have breakfast with my wife. After that, I go to work by bus. I start work at eight and I finish at four. I get home at five. My wife gets home at seven, so I cook dinner. We have dinner at eight. Finally, I read a little and go to bed at eleven.",
+      "explicacion": "El modelo sigue el orden del día y usa cuatro conectores distintos (first, then, after that, finally). Todas las oraciones sobre mí usan I + forma base (get up, take, have, go). La oración sobre otra persona usa tercera persona: my wife gets home. Las comidas van con have y sin artículo, go to bed sin the, y las horas con at. So (así que) une una causa y su consecuencia.",
+      "errores_comunes": [
+        "Olvidar el sujeto después de un conector: «Then have breakfast» en vez de Then I have breakfast.",
+        "Escribir «After, I go to work» en lugar de After that, I go to work.",
+        "Poner la -s en la partícula: «she get ups» en vez de she gets up.",
+        "Traducir «me levanto» con un pronombre: «I get me up»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Compara tu día con el de otra persona",
+    "contexto": "Aisha y tú están conociéndose en una clase de inglés. La profesora les pide que comparen sus mañanas.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "I get up at seven. Then I take my kids to school and I go to work at nine.",
+        "es": "Me levanto a las siete. Luego llevo a mis hijos a la escuela y me voy a trabajar a las nueve."
+      },
+      {
+        "quien": "Aisha",
+        "en": "My husband gets up at five. He starts work at six!",
+        "es": "Mi esposo se levanta a las cinco. ¡Empieza a trabajar a las seis!"
+      },
+      {
+        "quien": "Aisha",
+        "en": "What about you?",
+        "es": "¿Y tú?"
+      }
+    ],
+    "tu_turno": "Cuenta tu mañana en tres o cuatro oraciones con conectores, y añade una oración sobre alguien de tu casa en tercera persona.",
+    "modelo": "I get up at six. First, I take a shower. Then I have breakfast and I go to work at seven thirty. My brother gets up at nine: he works at night.",
+    "alternativas": [
+      "I wake up at six thirty, but I get up at seven. After that, I have a coffee and I go to school. My mom has breakfast at eight.",
+      "I get up at five thirty. First, I walk the dog. Then I take a shower and get dressed. My roommate goes to bed at five thirty!"
+    ],
+    "claves": [
+      "Tu rutina: I + forma base (I get up, I have breakfast).",
+      "La de otra persona: he/she + -s en el verbo (he gets up, she has breakfast).",
+      "Conectores al principio: First, … Then … After that, …",
+      "Horas con at: at six, at seven thirty."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "La rutina se cuenta en presente simple porque se repite cada día.",
+      "Expresiones fijas: get up, take a shower, get dressed, have breakfast/lunch/dinner, go to work, get home, go to bed.",
+      "En tercera persona la -s va en el verbo: he gets up, she has lunch, he goes to bed.",
+      "Conectores: first, then, after that, finally; before / after + sustantivo (after lunch)."
+    ],
+    "recuerda": [
+      "Sin reflexivos: «me levanto» = I get up.",
+      "Have breakfast (no take the breakfast); go to bed (sin the); go home (sin to).",
+      "At + hora, in the morning/afternoon/evening, pero at night.",
+      "«Después, …» = After that, …, no «After, …»."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "presente-simple.rutina-diaria.r1",
+      "frente": "¿Cómo se dice «desayuno a las siete»?",
+      "reverso": "I have breakfast at seven.",
+      "nota": "Have + comida, sin artículo."
+    },
+    {
+      "id": "presente-simple.rutina-diaria.r2",
+      "frente": "Tercera persona de get up.",
+      "reverso": "gets up → She gets up at six.",
+      "nota": "La -s va en el verbo, no en up."
+    },
+    {
+      "id": "presente-simple.rutina-diaria.r3",
+      "frente": "¿go to bed o go to the bed? ¿go home o go to home?",
+      "reverso": "go to bed · go home",
+      "nota": "Expresiones fijas: sin the y sin to."
+    },
+    {
+      "id": "presente-simple.rutina-diaria.r4",
+      "frente": "Traduce: «Después, voy al trabajo».",
+      "reverso": "After that, I go to work.",
+      "nota": "After solo no sirve como «después»."
+    },
+    {
+      "id": "presente-simple.rutina-diaria.r5",
+      "frente": "¿Diferencia entre wake up y get up?",
+      "reverso": "wake up = despertarse; get up = levantarse de la cama.",
+      "nota": "I wake up at six, but I get up at six twenty."
+    }
+  ]
+}

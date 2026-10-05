@@ -1,0 +1,536 @@
+{
+  "slug": "opuestos-y-grados",
+  "titulo": "Opuestos y grados",
+  "minutos": 35,
+  "objetivos": [
+    "Usar los pares de opuestos más frecuentes y elegir bien cuando un adjetivo tiene dos opuestos (old → new / young; short → long / tall).",
+    "Graduar un adjetivo con very (muy) y quite (bastante), y suavizar con not very.",
+    "Usar too (demasiado) para señalar un problema, sin confundirlo con very."
+  ],
+  "situacion": {
+    "titulo": "Buscando una chamarra",
+    "texto": "Lucía y Diego están en una tienda de ropa. Diego necesita una chamarra para el invierno. Fíjate en cuándo usan very, quite y too.",
+    "dialogo": [
+      { "quien": "Lucía", "en": "Look at this jacket. It's very nice!", "es": "¡Mira esta chamarra! Está muy bonita." },
+      { "quien": "Diego", "en": "Yes, but it's too expensive.", "es": "Sí, pero está demasiado cara." },
+      { "quien": "Lucía", "en": "And the gray jacket? It's quite cheap.", "es": "¿Y la chamarra gris? Está bastante barata." },
+      { "quien": "Diego", "en": "Hmm… it's too small for me.", "es": "Mmm… me queda demasiado chica." },
+      { "quien": "Lucía", "en": "OK. The black jacket is big, warm and cheap.", "es": "Bueno. La chamarra negra es grande, calientita y barata." },
+      { "quien": "Diego", "en": "It isn't very nice, but it's perfect for winter!", "es": "No está muy bonita, ¡pero es perfecta para el invierno!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "pares-de-opuestos",
+      "titulo": "Pares de opuestos",
+      "que_es": "Muchos adjetivos se aprenden mejor en pareja con su contrario: [[big]] / [[small]], [[cheap]] / [[expensive]]. Así duplicas tu vocabulario con el mismo esfuerzo y aprendes a matizar.",
+      "para_que": [
+        "Comparar dos objetos o lugares: The old house is big, the new house is small.",
+        "Contestar una pregunta cerrada: Is it hot? No, it's cold.",
+        "Quejarte o elogiar algo en una tienda, un hotel o un restaurante."
+      ],
+      "como_funciona": "La mayoría de los pares son sencillos, pero hay adjetivos con **dos opuestos** según a qué se refieran. [[old]] es lo contrario de [[young]] cuando hablas de personas o animales (an old man / a young man) y de [[new]] cuando hablas de cosas (an old car / a new car). [[short]] es lo contrario de [[tall]] para la estatura (a short woman / a tall woman) y de [[long]] para la longitud (short hair / long hair, a short movie / a long movie). [[light]] es lo contrario de [[heavy]] cuando hablas de peso, y de [[dark]] cuando hablas de colores (light blue / dark blue). Todos se usan igual que cualquier adjetivo: antes del sustantivo o después de be, y sin plural.",
+      "estructuras": [
+        {
+          "etiqueta": "Contraste con be",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "not", "rol": "negacion" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "— sujeto + be + opuesto", "rol": "otro" } ],
+          "ejemplo": [ { "t": "It", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "not", "rol": "negacion" }, { "t": "cheap", "rol": "complemento" }, { "t": "— it's expensive", "rol": "otro" } ],
+          "es": "No es barato: es caro."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Opuestos frecuentes",
+          "columnas": [ "Adjetivo", "Opuesto", "Ejemplo", "Traducción" ],
+          "filas": [
+            [ "big", "small", "a big city / a small town", "una ciudad grande / un pueblo pequeño" ],
+            [ "cheap", "expensive", "a cheap phone / an expensive phone", "un celular barato / uno caro" ],
+            [ "hot", "cold", "hot coffee / cold water", "café caliente / agua fría" ],
+            [ "easy", "difficult", "an easy test / a difficult test", "un examen fácil / uno difícil" ],
+            [ "fast", "slow", "a fast car / a slow bus", "un carro rápido / un camión lento" ],
+            [ "clean", "dirty", "clean hands / dirty hands", "manos limpias / manos sucias" ],
+            [ "full", "empty", "a full bottle / an empty bottle", "una botella llena / una vacía" ],
+            [ "happy", "sad", "a happy boy / a sad boy", "un niño feliz / un niño triste" ],
+            [ "good", "bad", "a good idea / a bad idea", "una buena idea / una mala idea" ],
+            [ "old", "new (cosas) / young (personas)", "an old car / a new car; an old man / a young man", "un carro viejo / nuevo; un hombre mayor / joven" ],
+            [ "short", "long (longitud) / tall (estatura)", "short hair / long hair; a short man / a tall man", "pelo corto / largo; un hombre bajo / alto" ],
+            [ "light", "heavy (peso) / dark (color)", "a light bag / a heavy bag; light blue / dark blue", "una bolsa ligera / pesada; azul claro / oscuro" ]
+          ],
+          "audio": [ 0, 1, 2 ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My grandfather is old, but my sister is young.",
+          "es": "Mi abuelo es mayor, pero mi hermana es joven.",
+          "partes": [ { "t": "My grandfather", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "old but", "rol": "complemento" }, { "t": "my sister", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "young", "rol": "complemento" } ],
+          "nota": "Con personas, lo contrario de old es young. «My sister is new» significaría que acaba de llegar a algún sitio, no que sea joven."
+        },
+        {
+          "en": "The phone is old, but the laptop is new.",
+          "es": "El celular es viejo, pero la laptop es nueva.",
+          "partes": [ { "t": "The phone", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "old but", "rol": "complemento" }, { "t": "the laptop", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "new", "rol": "complemento" } ],
+          "nota": "Con objetos, lo contrario de old es new."
+        },
+        {
+          "en": "Aisha is short and Ben is tall.",
+          "es": "Aisha es bajita y Ben es alto.",
+          "partes": [ { "t": "Aisha", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "short and", "rol": "complemento" }, { "t": "Ben", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "tall", "rol": "complemento" } ],
+          "nota": "Para la estatura: short / tall. Ojo con el falso amigo: «largo» no es large (grande), sino long."
+        },
+        {
+          "en": "It isn't a difficult test. It's easy.",
+          "es": "No es un examen difícil. Es fácil.",
+          "partes": [ { "t": "It", "rol": "sujeto" }, { "t": "isn't", "rol": "negacion" }, { "t": "a difficult test", "rol": "complemento" }, { "t": "It's", "rol": "sujeto" }, { "t": "easy", "rol": "complemento" } ],
+          "nota": "Negar un adjetivo y dar después el opuesto es una forma muy natural de corregir a alguien."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "expensive",
+          "ipa": "/ɪkˈspɛnsɪv/",
+          "consejo": "Tres sílabas con fuerza en la segunda: ex-PEN-sive. La primera sílaba es corta y débil. Termina en v: dientes de arriba sobre el labio inferior, con vibración; no la cambies por f ni por b."
+        },
+        {
+          "texto": "difficult",
+          "ipa": "/ˈdɪfɪkəlt/",
+          "consejo": "El acento va en la PRIMERA sílaba: DIF-fi-cult, al revés que «difícil». La última vocal es una schwa muy débil, casi desaparece: «DÍ-fi-klt»."
+        },
+        {
+          "texto": "young",
+          "ipa": "/jʌŋ/",
+          "consejo": "La y inicial es como la «i» de «hielo» dicha rápido. Al final no hay g: la parte de atrás de la lengua sube al paladar como en la n de «tengo», y el sonido sale por la nariz."
+        }
+      ],
+      "errores": [
+        { "mal": "My grandmother is very new.", "bien": "My grandmother is very young.", "porque": "Con personas, lo contrario de old es young. New es para cosas." },
+        { "mal": "The road is very large.", "bien": "The road is very long.", "porque": "Large es un falso amigo: significa «grande». «Largo» es long." },
+        { "mal": "He is a man short.", "bien": "He is a short man.", "porque": "El adjetivo va antes del sustantivo, también con los opuestos." }
+      ],
+      "nota": { "titulo": "Falsos amigos", "texto": "Large = grande (a large pizza), no «largo». Long = largo. Y ten en cuenta que «bajo» (de estatura) es short, no low: low se usa para cosas como una mesa o un precio bajo.", "tono": "aviso" }
+    },
+    {
+      "id": "very-quite",
+      "titulo": "Very y quite: graduar un adjetivo",
+      "que_es": "[[very]] significa «muy» y refuerza el adjetivo. [[quite]] significa «bastante»: más que normal, menos que very. Con [[not very]] suavizas una opinión negativa.",
+      "para_que": [
+        "Matizar una descripción: quite big, very big.",
+        "Criticar con educación: It isn't very good (en lugar de It's bad).",
+        "Elogiar con más fuerza: It's a very good idea."
+      ],
+      "como_funciona": "Very y quite van justo **antes del adjetivo**, tanto después de be ([[It's very big]]) como delante de un sustantivo. Con sustantivo, very va entre el artículo y el adjetivo: [[a very big house]]. Quite, en cambio, suele ir delante del artículo: [[quite a big house]]. Very no puede quedarse solo al final («It's very.» no existe) y no se combina con much delante de un adjetivo («very much big» es incorrecto). Not very es una forma amable de decir lo contrario: [[It isn't very cheap]] = es más bien caro. Un matiz: en inglés británico quite suele sonar a «bastante, pero no mucho»; en inglés estadounidense a veces se acerca a «muy». La entonación ayuda: si quite se dice con fuerza y el adjetivo con poca, suena menos entusiasta.",
+      "estructuras": [
+        {
+          "etiqueta": "Después de be",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "very / quite", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "The hotel", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very", "rol": "otro" }, { "t": "clean", "rol": "complemento" } ],
+          "es": "El hotel está muy limpio."
+        },
+        {
+          "etiqueta": "Con sustantivo",
+          "formula": [ { "t": "a / an", "rol": "otro" }, { "t": "very", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "sustantivo", "rol": "otro" } ],
+          "ejemplo": [ { "t": "a", "rol": "otro" }, { "t": "very", "rol": "otro" }, { "t": "good", "rol": "complemento" }, { "t": "idea", "rol": "otro" } ],
+          "es": "una muy buena idea"
+        },
+        {
+          "etiqueta": "Quite con sustantivo",
+          "formula": [ { "t": "quite", "rol": "otro" }, { "t": "a / an", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "sustantivo", "rol": "otro" } ],
+          "ejemplo": [ { "t": "quite", "rol": "otro" }, { "t": "a", "rol": "otro" }, { "t": "big", "rol": "complemento" }, { "t": "house", "rol": "otro" } ],
+          "es": "una casa bastante grande"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The hotel is very clean.",
+          "es": "El hotel está muy limpio.",
+          "partes": [ { "t": "The hotel", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very clean", "rol": "complemento" } ],
+          "nota": "Very = muy. Va inmediatamente antes de clean."
+        },
+        {
+          "en": "It's a very good idea.",
+          "es": "Es muy buena idea.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "a very good idea", "rol": "complemento" } ],
+          "nota": "El artículo a va delante de very, y a (no an) porque la palabra siguiente es very, que empieza con consonante."
+        },
+        {
+          "en": "The apartment is quite small.",
+          "es": "El departamento es bastante chico.",
+          "partes": [ { "t": "The apartment", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "quite small", "rol": "complemento" } ],
+          "nota": "Quite = bastante. Es menos intenso que very."
+        },
+        {
+          "en": "The restaurant isn't very good.",
+          "es": "El restaurante no es muy bueno.",
+          "partes": [ { "t": "The restaurant", "rol": "sujeto" }, { "t": "isn't", "rol": "negacion" }, { "t": "very good", "rol": "complemento" } ],
+          "nota": "Not very suaviza la crítica. Suena más amable que The restaurant is bad."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Qué tan caliente está el café?",
+        "centro": "The coffee is… hot",
+        "ramas": [
+          { "texto": "not very hot", "detalle": "poco caliente: casi tibio" },
+          { "texto": "quite hot", "detalle": "bastante caliente" },
+          { "texto": "very hot", "detalle": "muy caliente (solo describe)" },
+          { "texto": "too hot", "detalle": "demasiado: no me lo puedo tomar" }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "very",
+          "ipa": "/ˈvɛri/",
+          "consejo": "La v inicial se hace apoyando los dientes de arriba en el labio de abajo y dejando vibrar el aire. Si juntas los dos labios, suena «beri», que un nativo puede confundir. La r no vibra: la lengua se curva hacia atrás."
+        },
+        {
+          "texto": "quite / quiet",
+          "ipa": "/kwaɪt/ · /ˈkwaɪət/",
+          "consejo": "Quite (bastante) tiene una sola sílaba, como «cuait». Quiet (silencioso) tiene dos: «CUAI-et», con una schwa débil antes de la t. No los confundas al escribir: quite termina en -ite, quiet en -iet.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "It's a house very big.", "bien": "It's a very big house.", "porque": "Very va pegado al adjetivo y el grupo entero va antes del sustantivo." },
+        { "mal": "The movie is very much good.", "bien": "The movie is very good.", "porque": "Delante de un adjetivo se usa very solo. Very much acompaña a verbos, no a adjetivos." },
+        { "mal": "Is it big? — Yes, it's very.", "bien": "Is it big? — Yes, it's very big.", "porque": "Very no puede quedarse sin su adjetivo." }
+      ]
+    },
+    {
+      "id": "too-demasiado",
+      "titulo": "Too: demasiado (y hay un problema)",
+      "que_es": "[[too]] delante de un adjetivo significa «demasiado»: más de lo que quieres, necesitas o aceptas. Siempre implica un **problema**: [[The coffee is too hot]] quiere decir que no te lo puedes tomar.",
+      "para_que": [
+        "Explicar por qué no compras algo: It's too expensive.",
+        "Quejarte en un hotel o restaurante: The room is too small.",
+        "Rechazar algo con educación: It's too late."
+      ],
+      "como_funciona": "Too va justo antes del adjetivo, casi siempre después de be: [[The shoes are too big]]. Compara: [[The coffee is very hot]] describe (muy caliente, quizá te gusta así); [[The coffee is too hot]] señala un problema (tienes que esperar). Por eso too **no** sirve para elogiar: para «¡está muy bonito!» se dice [[It's very nice!]]. Atención: en el español de México a veces se dice «está demasiado bonito» con el sentido de «muy bonito»; en inglés eso sería very, nunca too. Tampoco se dice «too much expensive»: delante de un adjetivo va too solo (o much too, que refuerza: much too expensive). Y no confundas too delante de un adjetivo con too al final de la oración, que significa «también»: [[I'm tired too]] = yo también estoy cansado.",
+      "estructuras": [
+        {
+          "etiqueta": "Too + adjetivo",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "too", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "The shoes", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "too", "rol": "otro" }, { "t": "big", "rol": "complemento" } ],
+          "es": "Los zapatos me quedan demasiado grandes."
+        },
+        {
+          "etiqueta": "Too + adjetivo + for + persona",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "too", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "for me / for you…", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "too", "rol": "otro" }, { "t": "small", "rol": "complemento" }, { "t": "for me", "rol": "complemento" } ],
+          "es": "Me queda demasiado chico."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The soup is too cold.",
+          "es": "La sopa está demasiado fría.",
+          "situacion": "En un restaurante, Grace llama al mesero.",
+          "partes": [ { "t": "The soup", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "too cold", "rol": "complemento" } ],
+          "nota": "Too indica que hay un problema: Grace quiere que se la calienten."
+        },
+        {
+          "en": "The coffee is very hot, but it's delicious.",
+          "es": "El café está muy caliente, pero está delicioso.",
+          "partes": [ { "t": "The coffee", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very hot but", "rol": "complemento" }, { "t": "it's", "rol": "sujeto" }, { "t": "delicious", "rol": "complemento" } ],
+          "nota": "Aquí very, no too: la temperatura no es un problema, solo una descripción."
+        },
+        {
+          "en": "This bag is too heavy for me.",
+          "es": "Esta bolsa es demasiado pesada para mí.",
+          "partes": [ { "t": "This bag", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "too heavy", "rol": "complemento" }, { "t": "for me", "rol": "complemento" } ],
+          "nota": "Con for me / for you precisas para quién es un problema."
+        },
+        {
+          "en": "Your house is very beautiful!",
+          "es": "¡Tu casa está demasiado bonita! (= muy bonita)",
+          "partes": [ { "t": "Your house", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very beautiful", "rol": "complemento" } ],
+          "nota": "Un elogio siempre va con very. «Your house is too beautiful» sonaría a que la belleza de la casa es un problema."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "very = muy (describe)", "items": [ "The test is very difficult. (pero lo puedo intentar)", "The shoes are very big. (así me gustan)", "It's very nice! (elogio)" ] },
+        "b": { "titulo": "too = demasiado (problema)", "items": [ "The test is too difficult. (no lo puedo aprobar)", "The shoes are too big. (no me sirven)", "It's too expensive. (no lo compro)" ] },
+        "veredicto": "Pregúntate: ¿hay un problema? Si la respuesta es sí, too. Si solo describes o elogias, very."
+      },
+      "pronunciacion": [
+        {
+          "texto": "too",
+          "ipa": "/tu/",
+          "consejo": "Suena igual que two y que to cuando se pronuncia con fuerza. La u es larga, con los labios redondeados y adelantados. La t sale con un pequeño golpe de aire, más fuerte que la t española. En la frase, too se acentúa: It's TOO big."
+        }
+      ],
+      "errores": [
+        { "mal": "Your dress is too pretty!", "bien": "Your dress is very pretty!", "porque": "Too implica un problema. Para elogiar se usa very, aunque en español coloquial digas «demasiado bonito»." },
+        { "mal": "It's too much expensive.", "bien": "It's too expensive.", "porque": "Delante de un adjetivo va too, sin much. (Much too expensive sí existe, como refuerzo.)" },
+        { "mal": "It's a too big car.", "bien": "The car is too big.", "porque": "Too no se coloca normalmente entre a y el sustantivo; la forma natural es sujeto + be + too + adjetivo." }
+      ],
+      "nota": { "titulo": "Too al final = también", "texto": "Ana is tired. I'm tired too. → Ana está cansada. Yo también estoy cansado. Cuando too va al final de la oración, no significa «demasiado».", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su opuesto.",
+      "pares": [
+        { "a": "big", "b": "small" },
+        { "a": "cheap", "b": "expensive" },
+        { "a": "hot", "b": "cold" },
+        { "a": "easy", "b": "difficult" },
+        { "a": "fast", "b": "slow" },
+        { "a": "clean", "b": "dirty" },
+        { "a": "full", "b": "empty" }
+      ],
+      "pistas": [
+        "Recuerda los pares de la tabla de opuestos.",
+        "Empieza por los que conoces seguro (big, hot) y deja los dudosos para el final.",
+        "Tamaño, precio, temperatura, dificultad, velocidad, limpieza y contenido: cada adjetivo tiene su contrario en la misma categoría."
+      ],
+      "solucion": { "respuesta": "big–small, cheap–expensive, hot–cold, easy–difficult, fast–slow, clean–dirty, full–empty", "explicacion": "Cada par mide la misma cualidad en sentido contrario: tamaño (big/small), precio (cheap/expensive), temperatura (hot/cold), dificultad (easy/difficult), velocidad (fast/slow), limpieza (clean/dirty) y contenido (full/empty)." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el opuesto adecuado.",
+      "pregunta": "Mr. Brown is 90 years old. Tom is 18. Tom is…",
+      "opciones": [
+        { "texto": "young", "correcta": true, "porque": "Correcto: con personas, lo contrario de old es young." },
+        { "texto": "new", "correcta": false, "porque": "New es lo contrario de old solo con cosas (a new car). Una persona joven no es «nueva»." },
+        { "texto": "short", "correcta": false, "porque": "Short habla de estatura o de longitud, no de edad." },
+        { "texto": "small", "correcta": false, "porque": "Small habla de tamaño. Un joven de 18 años no es necesariamente pequeño." }
+      ],
+      "pistas": [
+        "Recuerda que old tiene dos opuestos.",
+        "Fíjate en si se habla de una persona o de una cosa.",
+        "Para personas: old ↔ young; para cosas: old ↔ new."
+      ],
+      "solucion": { "respuesta": "young", "explicacion": "La respuesta correcta es young porque se habla de una persona. Old tiene dos opuestos: young para personas y animales, new para cosas." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el opuesto de short (una palabra).",
+      "frase": "The movie isn't short. It's ___.",
+      "respuestas": [ [ "long" ] ],
+      "traduccion": "La película no es corta. Es larga.",
+      "errores_tipicos": {
+        "tall": "Tall es lo contrario de short para la estatura. Para la duración o la longitud es long.",
+        "large": "Large es un falso amigo: significa «grande». «Largo» es long."
+      },
+      "pistas": [
+        "Recuerda que short tiene dos opuestos distintos.",
+        "¿Se habla de la estatura de una persona o de la duración o longitud de algo?",
+        "Longitud: short ↔ long. Estatura: short ↔ tall."
+      ],
+      "solucion": { "respuesta": "long", "explicacion": "La respuesta correcta es long porque se habla de la duración de una película, que se trata como longitud. Tall sería el opuesto de short solo si habláramos de la estatura de una persona." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.04",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«Es demasiado caro, no lo compro.» ¿Cómo dices la primera parte?",
+      "opciones": [
+        { "texto": "It's too expensive.", "correcta": true, "porque": "Correcto: too = demasiado, y aquí hay un problema (no lo compras)." },
+        { "texto": "It's very expensive.", "correcta": false, "porque": "Very significa «muy»: describe, pero no dice que el precio sea un problema." },
+        { "texto": "It's too much expensive.", "correcta": false, "porque": "Delante de un adjetivo no se pone much después de too." },
+        { "texto": "It's quite expensive.", "correcta": false, "porque": "Quite significa «bastante», no «demasiado»." }
+      ],
+      "pistas": [
+        "Recuerda la diferencia entre very, quite y too.",
+        "La frase dice que no lo compras: ¿hay un problema?",
+        "Problema = too + adjetivo, sin much."
+      ],
+      "solucion": { "respuesta": "It's too expensive.", "explicacion": "La respuesta correcta es It's too expensive porque too expresa exceso con un problema (el precio te impide comprarlo). Very y quite solo gradúan; too much no va delante de un adjetivo." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Diego se prueba una camisa y no le cierra. Completa con una palabra del banco.",
+      "frase": "The shirt is ___ small for me.",
+      "banco": [ "very", "too", "quite" ],
+      "respuestas": [ [ "too" ] ],
+      "traduccion": "La camisa me queda demasiado chica.",
+      "errores_tipicos": {
+        "very": "Very solo describe. Diego no puede usar la camisa: eso es un problema, así que se usa too.",
+        "quite": "Quite significa «bastante» y no expresa un problema. Aquí la camisa no le sirve: too."
+      },
+      "pistas": [
+        "Recuerda qué palabra indica que algo es un problema.",
+        "Lee el contexto: ¿le sirve la camisa a Diego?",
+        "Si el exceso impide algo, se usa too + adjetivo."
+      ],
+      "solucion": { "respuesta": "too", "explicacion": "La respuesta correcta es too: la camisa es más chica de lo que Diego necesita y por eso no le sirve. Very y quite describirían el tamaño sin decir que sea un problema." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Di lo contrario usando el adjetivo opuesto (no uses not).",
+      "origen": "The test is easy.",
+      "instruccion": "Cambia easy por su opuesto",
+      "respuestas": [ "The test is difficult.", "The test is hard." ],
+      "errores_tipicos": {
+        "The test isn't easy.": "Eso es la negación, y el enunciado pide el adjetivo opuesto sin not.",
+        "The test is dificult.": "Difficult se escribe con dos efes: d-i-f-f-i-c-u-l-t."
+      },
+      "pistas": [
+        "Recuerda el par de opuestos de la dificultad.",
+        "Solo tienes que cambiar la última palabra.",
+        "Regla: cambia el adjetivo por el que significa «difícil»; el resto de la oración no cambia."
+      ],
+      "solucion": { "respuesta": "The test is difficult.", "explicacion": "La respuesta es The test is difficult (también vale hard). Solo cambia el adjetivo: el sujeto y el verbo is se quedan igual." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas.",
+      "fichas": [ "It's", "a", "very", "big", "house" ],
+      "respuestas": [ "It's a very big house" ],
+      "traduccion": "Es una casa muy grande.",
+      "pistas": [
+        "Recuerda dónde va very: pegado al adjetivo.",
+        "El artículo a va al principio del grupo del sustantivo.",
+        "Orden: sujeto + be + artículo + intensificador + adjetivo + sustantivo."
+      ],
+      "solucion": { "respuesta": "It's a very big house.", "explicacion": "Después de It's va el grupo a very big house: el artículo a primero, luego very pegado al adjetivo big, y al final el sustantivo house." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una parte incorrecta. Señálala y corrígela.",
+      "frase": "The hotel is nice, but it's too much expensive.",
+      "error": "too much",
+      "correcciones": [ "too", "much too" ],
+      "frase_correcta": "The hotel is nice, but it's too expensive.",
+      "pistas": [
+        "Recuerda cómo se dice «demasiado» delante de un adjetivo.",
+        "Revisa lo que va justo antes de expensive.",
+        "Delante de un adjetivo va too solo; «too much + adjetivo» no existe."
+      ],
+      "solucion": { "respuesta": "too much → too", "explicacion": "El error es too much. Delante de un adjetivo se usa too solo: too expensive. Si quieres reforzarlo, el orden es much too expensive, nunca too much expensive." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.09",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Distingue quite (una sílaba) de quiet (dos sílabas).",
+      "texto": "The room is quite quiet.",
+      "ipa": "/ðə rum ɪz kwaɪt ˈkwaɪət/",
+      "consejo": "Quite: una sola sílaba, «cuait». Quiet: dos sílabas, «CUAI-et», con la segunda muy débil. Para the, saca un poquito la punta de la lengua entre los dientes (/ð/), con vibración; no la cambies por «d».",
+      "es": "El cuarto es bastante silencioso."
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "The car is quite old, but it's very fast.",
+      "audio": true,
+      "pistas": [
+        "Recuerda las palabras que gradúan: quite y very.",
+        "Hay dos partes unidas por but. Cada una tiene su adjetivo.",
+        "Primera parte: sujeto + is + quite + adjetivo; segunda: it's + very + adjetivo."
+      ],
+      "solucion": { "respuesta": "The car is quite old, but it's very fast.", "explicacion": "La oración contrasta dos características: quite old (bastante viejo) y very fast (muy rápido). Quite y very van justo antes de su adjetivo." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa this.",
+      "es": "Esta maleta es demasiado pesada.",
+      "respuestas": [ "This suitcase is too heavy.", "This bag is too heavy." ],
+      "errores_tipicos": {
+        "This suitcase is very heavy.": "Very es «muy», no «demasiado». «Demasiado» con sentido de problema es too.",
+        "This suitcase is too much heavy.": "Sobra much: delante de un adjetivo va too solo.",
+        "This suitcase is too heavies.": "El adjetivo no lleva -s, y aquí además el sujeto es singular."
+      },
+      "pistas": [
+        "Recuerda cómo se dice «demasiado» delante de un adjetivo.",
+        "Pesado = heavy. Revisa qué palabra va justo antes.",
+        "Estructura: demostrativo + sustantivo + be + intensificador de exceso + adjetivo (como en That box is too big)."
+      ],
+      "solucion": { "respuesta": "This suitcase is too heavy.", "explicacion": "La respuesta es This suitcase is too heavy. «Demasiado» indica un problema (no la puedes cargar), así que se usa too, sin much, justo antes de heavy." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más natural de Sam.",
+      "contexto": "Priya pregunta a Sam por un restaurante nuevo. A Sam le gustó y le pareció barato.",
+      "lineas": [
+        { "quien": "Priya", "en": "Is the new restaurant expensive?", "es": "¿El restaurante nuevo es caro?" }
+      ],
+      "opciones": [
+        { "texto": "No, it isn't very expensive. It's quite cheap.", "correcta": true, "porque": "Correcto: not very suaviza y quite cheap da la información positiva sin exagerar." },
+        { "texto": "No, it's too cheap.", "correcta": false, "porque": "Too cheap indicaría que el precio bajo es un problema (por ejemplo, que desconfías de la calidad). Sam está contento." },
+        { "texto": "No, it's very.", "correcta": false, "porque": "Very no puede quedarse sin adjetivo, y además contradice el No." },
+        { "texto": "No, it's very much cheap.", "correcta": false, "porque": "Delante de un adjetivo se usa very solo, nunca very much." }
+      ],
+      "pistas": [
+        "Recuerda qué significa too y qué hace not very.",
+        "Sam está contento con el precio: ¿hay algún problema?",
+        "Sin problema no se usa too; very y quite van solos y siempre con su adjetivo."
+      ],
+      "solucion": { "respuesta": "No, it isn't very expensive. It's quite cheap.", "explicacion": "La respuesta correcta es la primera: not very expensive responde a la pregunta con suavidad y quite cheap añade que el precio es bajo. Too cheap sonaría a queja, y very no puede ir sin adjetivo ni con much." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.opuestos-y-grados.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa it como sujeto.",
+      "es": "No es un carro muy grande.",
+      "respuestas": [ "It isn't a very big car." ],
+      "errores_tipicos": {
+        "It isn't a car very big.": "El grupo very big va antes del sustantivo car.",
+        "It isn't a very big.": "Falta el sustantivo car.",
+        "It isn't an very big car.": "El artículo va delante de very, que empieza con consonante: a very big car."
+      },
+      "pistas": [
+        "Recuerda la negación con be y el orden del grupo del sustantivo.",
+        "Construye primero «un carro muy grande» y luego añade It isn't.",
+        "Estructura: sujeto + be negativo + artículo + very + adjetivo + sustantivo (como en She isn't a very good cook)."
+      ],
+      "solucion": { "respuesta": "It isn't a very big car.", "explicacion": "La respuesta es It isn't a very big car (también It's not a very big car). La negación va en be; después, el grupo a very big car mantiene el orden artículo + very + adjetivo + sustantivo, y el artículo es a porque very empieza con consonante." }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Buscando departamento",
+    "contexto": "Visitas un departamento en renta con un agente inmobiliario. No te convence: tiene cosas buenas y cosas malas.",
+    "dialogo": [
+      { "quien": "Agente", "en": "So, what do you think? It's a very nice apartment!", "es": "¿Y bien, qué le parece? ¡Es un departamento muy bonito!" },
+      { "quien": "Tú", "en": "…", "es": "…" }
+    ],
+    "tu_turno": "Responde con tres ideas: algo positivo con very o quite, algo negativo con not very, y un problema con too.",
+    "modelo": "Yes, the kitchen is very clean and the bedroom is quite big. But the living room isn't very bright, and the rent is too expensive for me.",
+    "alternativas": [ "The apartment is quite nice, but it isn't very big. And the street is too noisy.", "It's very modern, but it's too small for my family, and it isn't very cheap." ],
+    "claves": [ "very / quite + adjetivo para lo bueno.", "not very + adjetivo para criticar con suavidad.", "too + adjetivo para el problema que te hace decir que no." ]
+  },
+  "resumen": {
+    "esencial": [
+      "Aprende los adjetivos en pares: big/small, cheap/expensive, hot/cold…",
+      "old → young (personas) / new (cosas); short → tall (estatura) / long (longitud).",
+      "very = muy; quite = bastante; not very = poco (suave).",
+      "too = demasiado, con un problema: The coffee is too hot."
+    ],
+    "recuerda": [
+      "Para elogiar, very, nunca too: It's very nice!",
+      "Nada de «too much expensive» ni «very much good».",
+      "a very big house, pero quite a big house.",
+      "large = grande; «largo» = long."
+    ]
+  },
+  "repaso": [
+    { "id": "adjetivos-y-descripciones.opuestos-y-grados.r1", "frente": "¿Opuesto de old en «an old man»? ¿Y en «an old car»?", "reverso": "a young man / a new car." },
+    { "id": "adjetivos-y-descripciones.opuestos-y-grados.r2", "frente": "¿Opuesto de short para el pelo? ¿Y para una persona?", "reverso": "long hair / a tall person." },
+    { "id": "adjetivos-y-descripciones.opuestos-y-grados.r3", "frente": "¿Diferencia entre very hot y too hot?", "reverso": "very hot = muy caliente (descripción); too hot = demasiado caliente (problema)." },
+    { "id": "adjetivos-y-descripciones.opuestos-y-grados.r4", "frente": "Corrige: «It's too much expensive.»", "reverso": "It's too expensive." },
+    { "id": "adjetivos-y-descripciones.opuestos-y-grados.r5", "frente": "¿Cómo criticas con suavidad «es malo»?", "reverso": "It isn't very good.", "nota": "Not very suena más amable que el adjetivo negativo." }
+  ]
+}

@@ -1,0 +1,3781 @@
+{
+  "audios": [
+    {
+      "slug": "en-una-fiesta",
+      "titulo": "¿Eres de aquí?",
+      "nivel": "A1",
+      "unidad": "to-be-negacion-y-preguntas",
+      "contexto": "Escucha a Sam y a Aisha. Presta atención a las preguntas que se hacen y a sus respuestas.",
+      "hablantes": [
+        {
+          "nombre": "Sam",
+          "voz": "a"
+        },
+        {
+          "nombre": "Aisha",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "Hi! This party is great! I'm Sam.",
+          "es": "¡Hola! ¡Esta fiesta está genial! Soy Sam."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Hi, Sam. I'm Aisha. Nice to meet you.",
+          "es": "Hola, Sam. Soy Aisha. Mucho gusto."
+        },
+        {
+          "quien": "Sam",
+          "en": "Nice to meet you, too. Are you from here, Aisha?",
+          "es": "Igualmente. ¿Eres de aquí, Aisha?"
+        },
+        {
+          "quien": "Aisha",
+          "en": "No, I'm not. I'm from Egypt. And you? Where are you from?",
+          "es": "No. Soy de Egipto. ¿Y tú? ¿De dónde eres?"
+        },
+        {
+          "quien": "Sam",
+          "en": "I'm from Australia, from Sydney.",
+          "es": "Soy de Australia, de Sídney."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Oh, cool! Are you a student?",
+          "es": "¡Qué padre! ¿Eres estudiante?"
+        },
+        {
+          "quien": "Sam",
+          "en": "No, I'm not. I'm a teacher at the language school.",
+          "es": "No. Soy maestro en la escuela de idiomas."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Really? I'm a student at the language school! Are you the new English teacher?",
+          "es": "¿En serio? ¡Yo soy estudiante en la escuela de idiomas! ¿Eres el nuevo maestro de inglés?"
+        },
+        {
+          "quien": "Sam",
+          "en": "Yes, I am!",
+          "es": "¡Sí, soy yo!"
+        },
+        {
+          "quien": "Aisha",
+          "en": "Then you're my teacher! See you on Monday!",
+          "es": "¡Entonces eres mi maestro! ¡Nos vemos el lunes!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "party",
+          "es": "fiesta"
+        },
+        {
+          "en": "Nice to meet you, too.",
+          "es": "Igualmente / Mucho gusto también."
+        },
+        {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?"
+        },
+        {
+          "en": "cool",
+          "es": "padre, genial (informal)"
+        },
+        {
+          "en": "language school",
+          "es": "escuela de idiomas"
+        },
+        {
+          "en": "Really?",
+          "es": "¿En serio?, ¿de verdad?"
+        },
+        {
+          "en": "then",
+          "es": "entonces"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.en-una-fiesta.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la primera frase de Sam.",
+            "Busca un lugar: This … is great!",
+            "Great describe el lugar donde están ahora; la escuela es donde se verán el lunes."
+          ],
+          "solucion": {
+            "respuesta": "En una fiesta.",
+            "explicacion": "Están en una fiesta: Sam empieza diciendo This party is great! Mencionan la escuela de idiomas, pero como lugar de trabajo y de estudio."
+          },
+          "pregunta": "¿Dónde están Sam y Aisha?",
+          "opciones": [
+            {
+              "texto": "En una fiesta.",
+              "correcta": true,
+              "porque": "Correcto: Sam lo dice en la primera línea: This party is great!"
+            },
+            {
+              "texto": "En un salón de clases.",
+              "correcta": false,
+              "porque": "Hablan de la escuela de idiomas, pero no están en ella: se verán allí el lunes."
+            },
+            {
+              "texto": "En un aeropuerto.",
+              "correcta": false,
+              "porque": "Hablan de sus países, pero nada indica que estén viajando."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-una-fiesta.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué frase se dice solo la primera vez que ves a alguien?",
+            "Escucha el intercambio del principio.",
+            "Nice to meet you = mucho gusto."
+          ],
+          "solucion": {
+            "respuesta": "Dos personas que se acaban de conocer.",
+            "explicacion": "Son dos desconocidos: se presentan con su nombre y se dicen Nice to meet you, una frase que solo se usa al conocer a alguien."
+          },
+          "pregunta": "¿Quiénes hablan?",
+          "opciones": [
+            {
+              "texto": "Dos personas que se acaban de conocer.",
+              "correcta": true,
+              "porque": "Correcto: se presentan (I'm Sam, I'm Aisha) y dicen Nice to meet you."
+            },
+            {
+              "texto": "Dos viejos amigos.",
+              "correcta": false,
+              "porque": "Los amigos no se dicen Nice to meet you: eso se dice al conocer a alguien."
+            },
+            {
+              "texto": "Un maestro y su alumna en clase.",
+              "correcta": false,
+              "porque": "Al final descubren que él será su maestro, pero al principio no se conocen y no están en clase."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-una-fiesta.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta a Are you from here?",
+            "Primero dice que no; luego da su país.",
+            "From + país."
+          ],
+          "solucion": {
+            "respuesta": "De Egipto.",
+            "explicacion": "Aisha es de Egipto: responde No, I'm not. I'm from Egypt. Australia es el país de Sam."
+          },
+          "pregunta": "¿De dónde es Aisha?",
+          "opciones": [
+            {
+              "texto": "De Egipto.",
+              "correcta": true,
+              "porque": "Correcto: I'm from Egypt."
+            },
+            {
+              "texto": "De Australia.",
+              "correcta": false,
+              "porque": "Australia es el país de Sam."
+            },
+            {
+              "texto": "Es de ahí, de la ciudad de la fiesta.",
+              "correcta": false,
+              "porque": "Cuando Sam pregunta Are you from here?, ella responde No, I'm not."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-una-fiesta.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Escucha las últimas tres líneas.",
+            "Are you the new English teacher? Yes, I am!",
+            "¿Qué dice Aisha después: Then you're my…?"
+          ],
+          "solucion": {
+            "respuesta": "Que Sam va a ser el maestro de Aisha.",
+            "explicacion": "Descubren que Sam será el maestro de Aisha: ella pregunta Are you the new English teacher?, él responde Yes, I am! y ella concluye Then you're my teacher!"
+          },
+          "pregunta": "¿Qué descubren al final de la conversación?",
+          "opciones": [
+            {
+              "texto": "Que Sam va a ser el maestro de Aisha.",
+              "correcta": true,
+              "porque": "Correcto: Aisha estudia en la escuela donde Sam es el nuevo maestro de inglés: Then you're my teacher!"
+            },
+            {
+              "texto": "Que los dos son de Australia.",
+              "correcta": false,
+              "porque": "Aisha es de Egipto y Sam de Australia."
+            },
+            {
+              "texto": "Que los dos son estudiantes.",
+              "correcta": false,
+              "porque": "Sam dice No, I'm not. I'm a teacher."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-una-fiesta.05",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa la respuesta de Sam.",
+          "pistas": [
+            "Es una respuesta corta negativa.",
+            "Después de I'm solo falta la negación.",
+            "Respuesta corta negativa con I: No, I'm not."
+          ],
+          "solucion": {
+            "respuesta": "not",
+            "explicacion": "La respuesta es not: la respuesta corta negativa con I es No, I'm not. Con I no existe la forma «I amn't»."
+          },
+          "frase": "Are you a student? No, I'm ___.",
+          "respuestas": [
+            [
+              "not"
+            ]
+          ],
+          "traduccion": "¿Eres estudiante? No.",
+          "errores_tipicos": {
+            "no": "No va al principio (No,…). La negación del verbo es not: I'm not."
+          }
+        },
+        {
+          "id": "escucha.en-una-fiesta.06",
+          "tipo": "dictado",
+          "dificultad": 1,
+          "enunciado": "Escucha y escribe la pregunta de Aisha.",
+          "pistas": [
+            "Es una pregunta sobre el origen.",
+            "Empieza con una palabra interrogativa de lugar.",
+            "Where + are + you + from, con from al final."
+          ],
+          "solucion": {
+            "respuesta": "Where are you from?",
+            "explicacion": "La frase es Where are you from?: where pregunta por el lugar, are va antes del sujeto you, y from se queda al final de la pregunta."
+          },
+          "texto": "Where are you from?"
+        }
+      ]
+    },
+    {
+      "slug": "inscripcion-en-la-escuela",
+      "titulo": "En el mostrador",
+      "nivel": "A1",
+      "unidad": "numeros",
+      "contexto": "Un hombre llega a un mostrador para dar sus datos. Escucha con atención los números y las letras.",
+      "hablantes": [
+        {
+          "nombre": "Priya",
+          "voz": "a"
+        },
+        {
+          "nombre": "Omar",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "Good morning. Welcome to the Sunrise Language School.",
+          "es": "Buenos días. Bienvenido a la Escuela de Idiomas Sunrise."
+        },
+        {
+          "quien": "Omar",
+          "en": "Good morning. I'm here for the English course.",
+          "es": "Buenos días. Vengo por el curso de inglés."
+        },
+        {
+          "quien": "Priya",
+          "en": "Great. What's your name, please?",
+          "es": "Muy bien. ¿Cómo se llama, por favor?"
+        },
+        {
+          "quien": "Omar",
+          "en": "Omar Haddad.",
+          "es": "Omar Haddad."
+        },
+        {
+          "quien": "Priya",
+          "en": "How do you spell your last name?",
+          "es": "¿Cómo se escribe su apellido?"
+        },
+        {
+          "quien": "Omar",
+          "en": "H, A, double D, A, D.",
+          "es": "H, A, doble D, A, D."
+        },
+        {
+          "quien": "Priya",
+          "en": "Thank you. And what's your phone number?",
+          "es": "Gracias. ¿Y cuál es su número de teléfono?"
+        },
+        {
+          "quien": "Omar",
+          "en": "It's five five five, three two eight, nine oh four seven.",
+          "es": "Es el 555 328 9047."
+        },
+        {
+          "quien": "Priya",
+          "en": "Five five five, three two eight, nine oh four seven. And your email address?",
+          "es": "555 328 9047. ¿Y su correo electrónico?"
+        },
+        {
+          "quien": "Omar",
+          "en": "It's omar twenty-one at quickmail dot com. That's O, M, A, R, the number twenty-one, at quickmail, all one word, dot com.",
+          "es": "Es omar21 arroba quickmail punto com. O, M, A, R, el número veintiuno, arroba quickmail, todo junto, punto com."
+        },
+        {
+          "quien": "Priya",
+          "en": "Perfect. The course is two hundred and fifty dollars, and your first class is in room twelve, on the third floor.",
+          "es": "Perfecto. El curso cuesta doscientos cincuenta dólares y su primera clase es en el salón doce, en el tercer piso."
+        },
+        {
+          "quien": "Omar",
+          "en": "Room twelve, third floor. Thank you very much!",
+          "es": "Salón doce, tercer piso. ¡Muchas gracias!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "course",
+          "es": "curso"
+        },
+        {
+          "en": "last name",
+          "es": "apellido",
+          "nota": "En Reino Unido también surname."
+        },
+        {
+          "en": "How do you spell…?",
+          "es": "¿Cómo se escribe…?"
+        },
+        {
+          "en": "double D",
+          "es": "doble D (dos D seguidas)"
+        },
+        {
+          "en": "oh",
+          "es": "cero (al dictar números)",
+          "nota": "En teléfonos el 0 se dice casi siempre oh."
+        },
+        {
+          "en": "at / dot",
+          "es": "arroba / punto (en un correo)"
+        },
+        {
+          "en": "floor",
+          "es": "piso (de un edificio)"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.inscripcion-en-la-escuela.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la bienvenida del principio.",
+            "Welcome to the…",
+            "Course, room twelve…: ¿en qué lugar se toman cursos en salones?"
+          ],
+          "solucion": {
+            "respuesta": "En una escuela de idiomas.",
+            "explicacion": "Están en una escuela de idiomas: Priya dice Welcome to the Sunrise Language School y Omar viene for the English course."
+          },
+          "pregunta": "¿Dónde están?",
+          "opciones": [
+            {
+              "texto": "En una escuela de idiomas.",
+              "correcta": true,
+              "porque": "Correcto: Welcome to the Sunrise Language School."
+            },
+            {
+              "texto": "En un banco.",
+              "correcta": false,
+              "porque": "Dan datos personales, pero hablan de un curso de inglés y de un salón de clases."
+            },
+            {
+              "texto": "En un hotel.",
+              "correcta": false,
+              "porque": "No se habla de habitaciones sino de un curso y un salón (room twelve)."
+            }
+          ]
+        },
+        {
+          "id": "escucha.inscripcion-en-la-escuela.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la segunda línea.",
+            "I'm here for the…",
+            "Nombre, teléfono, correo y precio: son datos de una inscripción."
+          ],
+          "solucion": {
+            "respuesta": "Se inscribe en un curso de inglés.",
+            "explicacion": "Omar se inscribe en un curso: dice I'm here for the English course y la recepcionista le pide sus datos y le da el precio y el salón."
+          },
+          "pregunta": "¿Qué hace Omar?",
+          "opciones": [
+            {
+              "texto": "Se inscribe en un curso de inglés.",
+              "correcta": true,
+              "porque": "Correcto: I'm here for the English course, y da su nombre, teléfono y correo."
+            },
+            {
+              "texto": "Pide trabajo como maestro.",
+              "correcta": false,
+              "porque": "Viene por el curso, como alumno."
+            },
+            {
+              "texto": "Se queja de su clase.",
+              "correcta": false,
+              "porque": "Todavía no ha tenido ninguna clase: le dicen dónde será la primera."
+            }
+          ]
+        },
+        {
+          "id": "escucha.inscripcion-en-la-escuela.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha cuando Omar deletrea.",
+            "Double D significa dos letras D juntas.",
+            "Escribe cada letra en el orden en que la dice; la doble D va después de la segunda letra."
+          ],
+          "solucion": {
+            "respuesta": "Haddad",
+            "explicacion": "Se escribe Haddad: Omar deletrea H, A, double D, A, D. Double + letra significa esa letra dos veces."
+          },
+          "pregunta": "¿Cómo se escribe el apellido de Omar?",
+          "opciones": [
+            {
+              "texto": "Haddad",
+              "correcta": true,
+              "porque": "Correcto: H, A, double D, A, D."
+            },
+            {
+              "texto": "Hadad",
+              "correcta": false,
+              "porque": "Omar dice double D: hay dos D seguidas."
+            },
+            {
+              "texto": "Hadded",
+              "correcta": false,
+              "porque": "Después de la doble D viene una A, no una E."
+            }
+          ]
+        },
+        {
+          "id": "escucha.inscripcion-en-la-escuela.04",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Escribe los números que faltan del teléfono de Omar (en cifras).",
+          "pistas": [
+            "Es el último grupo de cuatro números.",
+            "Oh, en un teléfono, es el número cero.",
+            "Oh = 0. Escribe las cuatro cifras en el orden en que las dice."
+          ],
+          "solucion": {
+            "respuesta": "9047",
+            "explicacion": "La respuesta es 9047: Omar dice nine oh four seven, y en los números de teléfono oh significa cero."
+          },
+          "frase": "555 328 ___",
+          "respuestas": [
+            [
+              "9047"
+            ]
+          ],
+          "errores_tipicos": {
+            "9447": "El segundo número es oh, que significa cero: 9047.",
+            "947": "Faltó un número: oh es el cero. Son cuatro cifras: 9047."
+          }
+        },
+        {
+          "id": "escucha.inscripcion-en-la-escuela.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la penúltima línea.",
+            "Busca dollars.",
+            "Hundred = cien. Fifty (50) y fifteen (15) se confunden: en fifteen el acento cae al final."
+          ],
+          "solucion": {
+            "respuesta": "250 dólares.",
+            "explicacion": "Cuesta 250 dólares: two hundred and fifty dollars. En inglés británico y a menudo en el estadounidense se pone and entre las centenas y las decenas."
+          },
+          "pregunta": "¿Cuánto cuesta el curso?",
+          "opciones": [
+            {
+              "texto": "250 dólares.",
+              "correcta": true,
+              "porque": "Correcto: two hundred and fifty dollars."
+            },
+            {
+              "texto": "215 dólares.",
+              "correcta": false,
+              "porque": "Fifteen sería 15; Priya dice fifty (50)."
+            },
+            {
+              "texto": "25 dólares.",
+              "correcta": false,
+              "porque": "Falta el two hundred: son doscientos cincuenta."
+            }
+          ]
+        },
+        {
+          "id": "escucha.inscripcion-en-la-escuela.06",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe dónde es la primera clase.",
+          "pistas": [
+            "Hay un número cardinal y uno ordinal.",
+            "Room + número; on the + ordinal + floor.",
+            "Twelve = 12; third = tercero."
+          ],
+          "solucion": {
+            "respuesta": "Your first class is in room twelve, on the third floor.",
+            "explicacion": "La frase es Your first class is in room twelve, on the third floor: in room con número cardinal (twelve) y on the con número ordinal (third floor)."
+          },
+          "texto": "Your first class is in room twelve, on the third floor.",
+          "respuestas": [
+            "Your first class is in room 12, on the 3rd floor.",
+            "Your first class is in room 12, on the third floor."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "quedar-para-el-concierto",
+      "titulo": "¿Qué hora es? ¿A qué hora nos vemos?",
+      "nivel": "A1",
+      "unidad": "fechas-y-horas",
+      "contexto": "Tom y Lucía se encuentran por casualidad. Tom tiene prisa, pero quiere proponerle algo a Lucía.",
+      "hablantes": [
+        {
+          "nombre": "Tom",
+          "voz": "a"
+        },
+        {
+          "nombre": "Lucía",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Lucía",
+          "en": "Tom! Hi!",
+          "es": "¡Tom! ¡Hola!"
+        },
+        {
+          "quien": "Tom",
+          "en": "Hi, Lucía. Sorry, what time is it? My phone is dead.",
+          "es": "Hola, Lucía. Perdón, ¿qué hora es? Mi celular no tiene batería."
+        },
+        {
+          "quien": "Lucía",
+          "en": "It's a quarter to four.",
+          "es": "Son cuarto para las cuatro."
+        },
+        {
+          "quien": "Tom",
+          "en": "Oh no, my class is at four! Quick question: are you free on Saturday?",
+          "es": "¡Ay, no, mi clase es a las cuatro! Pregunta rápida: ¿estás libre el sábado?"
+        },
+        {
+          "quien": "Lucía",
+          "en": "Saturday the twelfth? Yes, I am. Why?",
+          "es": "¿El sábado doce? Sí. ¿Por qué?"
+        },
+        {
+          "quien": "Tom",
+          "en": "There's a concert in the park, and it's free!",
+          "es": "Hay un concierto en el parque, ¡y es gratis!"
+        },
+        {
+          "quien": "Lucía",
+          "en": "Great! What time is the concert?",
+          "es": "¡Genial! ¿A qué hora es el concierto?"
+        },
+        {
+          "quien": "Tom",
+          "en": "It's at eight o'clock in the evening. Is seven thirty OK, at the main gate?",
+          "es": "Es a las ocho de la noche. ¿Te parece a las siete y media, en la entrada principal?"
+        },
+        {
+          "quien": "Lucía",
+          "en": "Seven thirty is a bit early for me. Is a quarter to eight OK?",
+          "es": "Las siete y media es un poco temprano para mí. ¿Te parece a cuarto para las ocho?"
+        },
+        {
+          "quien": "Tom",
+          "en": "Sure. A quarter to eight, at the main gate.",
+          "es": "Claro. A cuarto para las ocho, en la entrada principal."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Perfect. See you on Saturday!",
+          "es": "Perfecto. ¡Nos vemos el sábado!"
+        },
+        {
+          "quien": "Tom",
+          "en": "See you! Bye!",
+          "es": "¡Nos vemos! ¡Adiós!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "What time is it?",
+          "es": "¿Qué hora es?"
+        },
+        {
+          "en": "My phone is dead.",
+          "es": "Mi celular se quedó sin batería.",
+          "nota": "Dead aquí es coloquial: sin batería."
+        },
+        {
+          "en": "a quarter to four",
+          "es": "cuarto para las cuatro (3:45)"
+        },
+        {
+          "en": "free",
+          "es": "libre / gratis",
+          "nota": "En este diálogo aparecen los dos significados."
+        },
+        {
+          "en": "a bit early",
+          "es": "un poco temprano"
+        },
+        {
+          "en": "main gate",
+          "es": "entrada principal, puerta principal"
+        },
+        {
+          "en": "Sure.",
+          "es": "Claro."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.quedar-para-el-concierto.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué propone Tom?",
+            "Escucha la segunda mitad del diálogo.",
+            "Concert, what time, main gate: están haciendo un plan."
+          ],
+          "solucion": {
+            "respuesta": "De quedar para ir juntos a un concierto.",
+            "explicacion": "Hablan de quedar para un concierto: Tom pregunta si Lucía está libre el sábado, le cuenta del concierto gratis y acuerdan hora y lugar de encuentro."
+          },
+          "pregunta": "¿De qué hablan principalmente?",
+          "opciones": [
+            {
+              "texto": "De quedar para ir juntos a un concierto.",
+              "correcta": true,
+              "porque": "Correcto: Tom la invita a un concierto y acuerdan hora y lugar."
+            },
+            {
+              "texto": "De la clase de Tom.",
+              "correcta": false,
+              "porque": "Tom menciona su clase, pero solo para explicar que tiene prisa."
+            },
+            {
+              "texto": "De un celular descompuesto.",
+              "correcta": false,
+              "porque": "El celular de Tom no tiene batería, pero es solo el motivo para preguntar la hora."
+            }
+          ]
+        },
+        {
+          "id": "escucha.quedar-para-el-concierto.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta de Lucía.",
+            "Fíjate si dice past o to.",
+            "A quarter to + hora = cuarto para esa hora."
+          ],
+          "solucion": {
+            "respuesta": "Las 3:45.",
+            "explicacion": "Son las 3:45: It's a quarter to four. To significa que faltan quince minutos para las cuatro; past significaría que ya pasaron."
+          },
+          "pregunta": "¿Qué hora es cuando hablan?",
+          "opciones": [
+            {
+              "texto": "Las 3:45.",
+              "correcta": true,
+              "porque": "Correcto: It's a quarter to four = faltan quince minutos para las cuatro."
+            },
+            {
+              "texto": "Las 4:15.",
+              "correcta": false,
+              "porque": "Eso sería a quarter past four. To indica que faltan minutos."
+            },
+            {
+              "texto": "Las 4:00.",
+              "correcta": false,
+              "porque": "A las cuatro es la clase de Tom; todavía faltan quince minutos."
+            }
+          ]
+        },
+        {
+          "id": "escucha.quedar-para-el-concierto.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta de Lucía a are you free on Saturday?",
+            "Ella repite el día con una fecha.",
+            "En las fechas se usan ordinales; compara twelfth (de twelve) con second (de two)."
+          ],
+          "solucion": {
+            "respuesta": "El sábado 12.",
+            "explicacion": "Es el sábado 12: Lucía confirma Saturday the twelfth? En las fechas se usan los ordinales: twelfth."
+          },
+          "pregunta": "¿Qué día es el concierto?",
+          "opciones": [
+            {
+              "texto": "El sábado 12.",
+              "correcta": true,
+              "porque": "Correcto: Saturday the twelfth."
+            },
+            {
+              "texto": "El sábado 2.",
+              "correcta": false,
+              "porque": "Lucía dice twelfth (12), no second (2)."
+            },
+            {
+              "texto": "El domingo 12.",
+              "correcta": false,
+              "porque": "El día es Saturday, sábado."
+            }
+          ]
+        },
+        {
+          "id": "escucha.quedar-para-el-concierto.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Hay tres horas en el diálogo. ¿Cuál aceptan los dos?",
+            "Tom propone una hora; Lucía propone otra.",
+            "Escucha la respuesta de Tom a la segunda propuesta."
+          ],
+          "solucion": {
+            "respuesta": "A las 7:45.",
+            "explicacion": "Se ven a las 7:45: Tom propone seven thirty, Lucía dice que es a bit early y propone a quarter to eight, y Tom acepta (Sure). Las ocho es la hora del concierto."
+          },
+          "pregunta": "¿A qué hora se van a ver?",
+          "opciones": [
+            {
+              "texto": "A las 7:45.",
+              "correcta": true,
+              "porque": "Correcto: Lucía propone a quarter to eight y Tom acepta: Sure."
+            },
+            {
+              "texto": "A las 7:30.",
+              "correcta": false,
+              "porque": "Es la propuesta de Tom, pero a Lucía le parece temprano."
+            },
+            {
+              "texto": "A las 8:00.",
+              "correcta": false,
+              "porque": "A las ocho empieza el concierto, no es la hora del encuentro."
+            }
+          ]
+        },
+        {
+          "id": "escucha.quedar-para-el-concierto.05",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con la preposición que se oye.",
+          "pistas": [
+            "Una preposición va con la hora y otra con la parte del día.",
+            "Hora exacta en el primer hueco; the evening en el segundo.",
+            "At + hora; in + the morning / the afternoon / the evening."
+          ],
+          "solucion": {
+            "respuesta": "at / in",
+            "explicacion": "Las respuestas son at e in: at con una hora exacta (at eight o'clock) e in con partes del día (in the evening)."
+          },
+          "frase": "The concert is ___ eight o'clock ___ the evening.",
+          "respuestas": [
+            [
+              "at"
+            ],
+            [
+              "in"
+            ]
+          ],
+          "traduccion": "El concierto es a las ocho de la noche.",
+          "errores_tipicos": {
+            "in | at": "Están al revés: at eight o'clock, in the evening.",
+            "at | at": "Con partes del día se usa in: in the evening (pero at night)."
+          }
+        },
+        {
+          "id": "escucha.quedar-para-el-concierto.06",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe la propuesta de Lucía.",
+          "pistas": [
+            "Es una pregunta con is.",
+            "La hora es cuarto para las ocho.",
+            "Is + a quarter to eight + OK?"
+          ],
+          "solucion": {
+            "respuesta": "Is a quarter to eight OK?",
+            "explicacion": "La frase es Is a quarter to eight OK?: una pregunta con is para proponer una hora; a quarter to eight son las 7:45."
+          },
+          "texto": "Is a quarter to eight OK?",
+          "respuestas": [
+            "Is a quarter to eight okay?",
+            "Is quarter to eight OK?",
+            "Is quarter to eight okay?"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "en-la-recepcion-del-hotel",
+      "titulo": "Una llegada por la noche",
+      "nivel": "A1",
+      "unidad": "presente-simple-do-does",
+      "contexto": "Un hombre llega con su maleta y habla con una mujer que está detrás de un mostrador. Él tiene varias preguntas.",
+      "hablantes": [
+        {
+          "nombre": "Grace",
+          "voz": "a"
+        },
+        {
+          "nombre": "Carlos",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "Good evening. Welcome to the Blue Bay Hotel.",
+          "es": "Buenas noches. Bienvenido al Hotel Blue Bay."
+        },
+        {
+          "quien": "Carlos",
+          "en": "Good evening. I have a reservation. My name is Carlos Mendoza.",
+          "es": "Buenas noches. Tengo una reservación. Me llamo Carlos Mendoza."
+        },
+        {
+          "quien": "Grace",
+          "en": "One moment, please. Yes, Mr. Mendoza. A single room for three nights.",
+          "es": "Un momento, por favor. Sí, señor Mendoza. Una habitación sencilla para tres noches."
+        },
+        {
+          "quien": "Carlos",
+          "en": "That's right. What time do you serve breakfast?",
+          "es": "Así es. ¿A qué hora sirven el desayuno?"
+        },
+        {
+          "quien": "Grace",
+          "en": "Breakfast starts at seven and finishes at ten, in the restaurant on the ground floor.",
+          "es": "El desayuno empieza a las siete y termina a las diez, en el restaurante de la planta baja."
+        },
+        {
+          "quien": "Carlos",
+          "en": "Does the room have Wi-Fi?",
+          "es": "¿La habitación tiene wifi?"
+        },
+        {
+          "quien": "Grace",
+          "en": "Yes, it does. The password is on the card, with your key.",
+          "es": "Sí. La contraseña está en la tarjeta, con su llave."
+        },
+        {
+          "quien": "Carlos",
+          "en": "Great. And does the hotel have a gym?",
+          "es": "Muy bien. ¿Y el hotel tiene gimnasio?"
+        },
+        {
+          "quien": "Grace",
+          "en": "No, it doesn't, sorry. But there's a pool on the roof. It opens at eight in the morning and closes at nine at night.",
+          "es": "No, lo siento. Pero hay una alberca en la azotea. Abre a las ocho de la mañana y cierra a las nueve de la noche."
+        },
+        {
+          "quien": "Carlos",
+          "en": "Perfect. Do you book taxis for guests? I need a taxi to the airport on Friday.",
+          "es": "Perfecto. ¿Ustedes piden taxis para los huéspedes? Necesito un taxi al aeropuerto el viernes."
+        },
+        {
+          "quien": "Grace",
+          "en": "Yes, we do. What time do you need it?",
+          "es": "Sí. ¿A qué hora lo necesita?"
+        },
+        {
+          "quien": "Carlos",
+          "en": "At six in the morning.",
+          "es": "A las seis de la mañana."
+        },
+        {
+          "quien": "Grace",
+          "en": "No problem. Your room is four oh two, on the fourth floor. The elevator is on the left.",
+          "es": "No hay problema. Su habitación es la 402, en el cuarto piso. El elevador está a la izquierda."
+        },
+        {
+          "quien": "Carlos",
+          "en": "Thank you very much.",
+          "es": "Muchas gracias."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "reservation",
+          "es": "reservación"
+        },
+        {
+          "en": "single room",
+          "es": "habitación sencilla (para una persona)"
+        },
+        {
+          "en": "serve",
+          "es": "servir"
+        },
+        {
+          "en": "ground floor",
+          "es": "planta baja"
+        },
+        {
+          "en": "password",
+          "es": "contraseña"
+        },
+        {
+          "en": "roof",
+          "es": "azotea, techo"
+        },
+        {
+          "en": "book",
+          "es": "reservar, pedir (un servicio)",
+          "nota": "Como verbo, book no tiene nada que ver con «libro»."
+        },
+        {
+          "en": "guest",
+          "es": "huésped, invitado"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la primera línea.",
+            "Welcome to the…",
+            "Reservation, single room, key: palabras de hotel."
+          ],
+          "solucion": {
+            "respuesta": "En la recepción de un hotel.",
+            "explicacion": "Están en la recepción de un hotel: Grace le da la bienvenida al Blue Bay Hotel y Carlos hace el registro con su reservación."
+          },
+          "pregunta": "¿Dónde están?",
+          "opciones": [
+            {
+              "texto": "En la recepción de un hotel.",
+              "correcta": true,
+              "porque": "Correcto: Welcome to the Blue Bay Hotel, y hablan de la reservación, la habitación y la llave."
+            },
+            {
+              "texto": "En un aeropuerto.",
+              "correcta": false,
+              "porque": "Carlos necesita ir al aeropuerto el viernes, pero ahora no está allí."
+            },
+            {
+              "texto": "En un restaurante.",
+              "correcta": false,
+              "porque": "Mencionan el restaurante del hotel, pero solo para el desayuno."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Quién pregunta y quién responde?",
+            "Grace dice Yes, we do: habla en nombre del hotel.",
+            "Quien tiene una reservación es el huésped."
+          ],
+          "solucion": {
+            "respuesta": "Una recepcionista y un huésped.",
+            "explicacion": "Son una recepcionista (Grace) y un huésped (Carlos): él tiene una reservación y hace preguntas; ella responde en nombre del hotel (we)."
+          },
+          "pregunta": "¿Quiénes hablan?",
+          "opciones": [
+            {
+              "texto": "Una recepcionista y un huésped.",
+              "correcta": true,
+              "porque": "Correcto: ella confirma la reservación y le da la llave; él hace preguntas sobre el hotel."
+            },
+            {
+              "texto": "Dos turistas.",
+              "correcta": false,
+              "porque": "Grace no es turista: trabaja ahí y responde con we (Yes, we do)."
+            },
+            {
+              "texto": "Un taxista y un pasajero.",
+              "correcta": false,
+              "porque": "Carlos pide un taxi para el viernes, pero ahora habla con alguien del hotel."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta sobre el desayuno.",
+            "Hay dos verbos: starts y finishes.",
+            "Finish = terminar."
+          ],
+          "solucion": {
+            "respuesta": "A las diez.",
+            "explicacion": "Termina a las diez: Breakfast starts at seven and finishes at ten. Los verbos llevan -s porque el sujeto (breakfast) es tercera persona."
+          },
+          "pregunta": "¿A qué hora termina el desayuno?",
+          "opciones": [
+            {
+              "texto": "A las diez.",
+              "correcta": true,
+              "porque": "Correcto: Breakfast starts at seven and finishes at ten."
+            },
+            {
+              "texto": "A las siete.",
+              "correcta": false,
+              "porque": "A las siete empieza, no termina."
+            },
+            {
+              "texto": "A las nueve.",
+              "correcta": false,
+              "porque": "A las nueve cierra la alberca, en la noche."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Escucha la pregunta does the hotel have a gym?",
+            "La respuesta corta empieza con No.",
+            "No, it doesn't = no (no tiene)."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: a Does the hotel have a gym? Grace responde No, it doesn't, sorry. Lo que sí hay es una alberca en la azotea."
+          },
+          "pregunta": "The hotel has a gym.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: Grace responde No, it doesn't."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: No, it doesn't, sorry. Hay alberca, pero no gimnasio."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: Carlos lo pregunta directamente."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.05",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa la pregunta de Carlos.",
+          "pistas": [
+            "Es una pregunta en presente simple.",
+            "El sujeto es the room: tercera persona.",
+            "Does + he/she/it + verbo base."
+          ],
+          "solucion": {
+            "respuesta": "Does",
+            "explicacion": "La respuesta es Does: el sujeto the room equivale a it, y las preguntas en presente simple con he, she o it usan does. Por eso have no cambia a has."
+          },
+          "frase": "___ the room have Wi-Fi?",
+          "respuestas": [
+            [
+              "Does"
+            ]
+          ],
+          "traduccion": "¿La habitación tiene wifi?",
+          "errores_tipicos": {
+            "Do": "The room es tercera persona del singular (it): se usa does.",
+            "Has": "En preguntas se usa el auxiliar does, y el verbo have se queda en forma base."
+          }
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.06",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la penúltima línea de Grace.",
+            "Oh, en un número de habitación, es cero.",
+            "Oh = 0, también en números de habitación; fourth es el ordinal de four."
+          ],
+          "solucion": {
+            "respuesta": "La 402, en el cuarto piso.",
+            "explicacion": "Es la 402, en el cuarto piso: four oh two, on the fourth floor. Oh representa el cero, como en los teléfonos."
+          },
+          "pregunta": "¿Cuál es la habitación de Carlos?",
+          "opciones": [
+            {
+              "texto": "La 402, en el cuarto piso.",
+              "correcta": true,
+              "porque": "Correcto: four oh two, on the fourth floor."
+            },
+            {
+              "texto": "La 42, en el cuarto piso.",
+              "correcta": false,
+              "porque": "Grace dice four oh two: oh es un cero en medio."
+            },
+            {
+              "texto": "La 402, en la planta baja.",
+              "correcta": false,
+              "porque": "En la planta baja (ground floor) está el restaurante."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-recepcion-del-hotel.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Grace sobre el desayuno.",
+          "pistas": [
+            "Hay dos verbos en presente simple.",
+            "Los dos llevan la terminación de tercera persona.",
+            "El segundo verbo termina en -sh, así que en tercera persona añade -es."
+          ],
+          "solucion": {
+            "respuesta": "Breakfast starts at seven and finishes at ten.",
+            "explicacion": "La frase es Breakfast starts at seven and finishes at ten: starts y finishes llevan -s/-es porque el sujeto (breakfast) es tercera persona del singular."
+          },
+          "texto": "Breakfast starts at seven and finishes at ten.",
+          "respuestas": [
+            "Breakfast starts at 7 and finishes at 10."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "la-rutina-de-priya-y-ben",
+      "titulo": "¿Por qué estás tan cansada?",
+      "nivel": "A1",
+      "unidad": "frecuencia-y-tiempo-libre",
+      "contexto": "Dos personas conversan en un descanso. Uno de ellos nota algo en la otra y empiezan a comparar sus costumbres.",
+      "hablantes": [
+        {
+          "nombre": "Ben",
+          "voz": "a"
+        },
+        {
+          "nombre": "Priya",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Good morning, Priya. You look tired.",
+          "es": "Buenos días, Priya. Te ves cansada."
+        },
+        {
+          "quien": "Priya",
+          "en": "I am! I get up at five o'clock every day.",
+          "es": "¡Lo estoy! Me levanto a las cinco todos los días."
+        },
+        {
+          "quien": "Ben",
+          "en": "Five? Why?",
+          "es": "¿A las cinco? ¿Por qué?"
+        },
+        {
+          "quien": "Priya",
+          "en": "I go swimming before work. I swim three times a week, on Mondays, Wednesdays and Fridays. On the other days, I go running.",
+          "es": "Voy a nadar antes del trabajo. Nado tres veces por semana: los lunes, miércoles y viernes. Los otros días salgo a correr."
+        },
+        {
+          "quien": "Ben",
+          "en": "Wow. I never exercise in the morning. I usually get up at half past seven, and I always have a big breakfast.",
+          "es": "Guau. Yo nunca hago ejercicio en la mañana. Normalmente me levanto a las siete y media y siempre desayuno mucho."
+        },
+        {
+          "quien": "Priya",
+          "en": "Do you play any sports?",
+          "es": "¿Practicas algún deporte?"
+        },
+        {
+          "quien": "Ben",
+          "en": "Yes, I play tennis with my brother once a week, on Saturdays. But I don't like running. I hate it!",
+          "es": "Sí, juego tenis con mi hermano una vez por semana, los sábados. Pero no me gusta correr. ¡Lo odio!"
+        },
+        {
+          "quien": "Priya",
+          "en": "And what do you do after work?",
+          "es": "¿Y qué haces después del trabajo?"
+        },
+        {
+          "quien": "Ben",
+          "en": "I often cook dinner and watch TV. What about you?",
+          "es": "Muchas veces preparo la cena y veo la tele. ¿Y tú?"
+        },
+        {
+          "quien": "Priya",
+          "en": "I rarely watch TV. I usually read, and I go to bed at half past nine.",
+          "es": "Casi nunca veo la tele. Normalmente leo, y me acuesto a las nueve y media."
+        },
+        {
+          "quien": "Ben",
+          "en": "Half past nine? That's early!",
+          "es": "¿A las nueve y media? ¡Qué temprano!"
+        },
+        {
+          "quien": "Priya",
+          "en": "Well, I get up at five!",
+          "es": "¡Bueno, me levanto a las cinco!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "You look tired.",
+          "es": "Te ves cansado/a."
+        },
+        {
+          "en": "go swimming / go running",
+          "es": "ir a nadar / salir a correr"
+        },
+        {
+          "en": "three times a week",
+          "es": "tres veces por semana"
+        },
+        {
+          "en": "exercise",
+          "es": "hacer ejercicio (verbo)"
+        },
+        {
+          "en": "sport",
+          "es": "deporte"
+        },
+        {
+          "en": "after work",
+          "es": "después del trabajo"
+        },
+        {
+          "en": "early",
+          "es": "temprano"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué tiempo verbal se oye todo el tiempo?",
+            "Always, usually, never, once a week…",
+            "Esas palabras describen hábitos y rutinas."
+          ],
+          "solucion": {
+            "respuesta": "De sus costumbres diarias y de su tiempo libre.",
+            "explicacion": "Hablan de sus rutinas y su tiempo libre: todo el diálogo está en presente simple con expresiones de frecuencia (every day, three times a week, usually, never)."
+          },
+          "pregunta": "¿De qué hablan Ben y Priya?",
+          "opciones": [
+            {
+              "texto": "De sus costumbres diarias y de su tiempo libre.",
+              "correcta": true,
+              "porque": "Correcto: comparan a qué hora se levantan, qué deporte hacen y qué hacen después del trabajo."
+            },
+            {
+              "texto": "De un problema en el trabajo.",
+              "correcta": false,
+              "porque": "Mencionan el trabajo solo como referencia (before work, after work)."
+            },
+            {
+              "texto": "De un viaje del fin de semana.",
+              "correcta": false,
+              "porque": "Hablan de lo que hacen normalmente, no de un viaje."
+            }
+          ]
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta a You look tired.",
+            "Ella da una hora.",
+            "Después de la hora, Priya explica qué hace antes del trabajo."
+          ],
+          "solucion": {
+            "respuesta": "Porque se levanta a las cinco para hacer ejercicio.",
+            "explicacion": "Está cansada porque se levanta a las cinco (I get up at five o'clock every day) para nadar o correr antes del trabajo."
+          },
+          "pregunta": "¿Por qué está cansada Priya?",
+          "opciones": [
+            {
+              "texto": "Porque se levanta a las cinco para hacer ejercicio.",
+              "correcta": true,
+              "porque": "Correcto: I get up at five… I go swimming before work."
+            },
+            {
+              "texto": "Porque se acuesta muy tarde.",
+              "correcta": false,
+              "porque": "Al contrario: se acuesta a las nueve y media, y Ben dice que es temprano."
+            },
+            {
+              "texto": "Porque trabaja de noche.",
+              "correcta": false,
+              "porque": "No se dice nada de trabajar de noche: hace ejercicio before work."
+            }
+          ]
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Busca swim.",
+            "Escucha la expresión con times.",
+            "Times = veces. Cuenta los días que nombra para nadar."
+          ],
+          "solucion": {
+            "respuesta": "Tres veces por semana.",
+            "explicacion": "Nada tres veces por semana: I swim three times a week, on Mondays, Wednesdays and Fridays. Los demás días sale a correr."
+          },
+          "pregunta": "¿Con qué frecuencia nada Priya?",
+          "opciones": [
+            {
+              "texto": "Tres veces por semana.",
+              "correcta": true,
+              "porque": "Correcto: three times a week, on Mondays, Wednesdays and Fridays."
+            },
+            {
+              "texto": "Una vez por semana.",
+              "correcta": false,
+              "porque": "Once a week es la frecuencia con la que Ben juega tenis."
+            },
+            {
+              "texto": "Todos los días.",
+              "correcta": false,
+              "porque": "Todos los días se levanta a las cinco, pero nada solo tres días; los otros, corre."
+            }
+          ]
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Escucha lo que dice Ben después del tenis.",
+            "Hay un don't y un hate.",
+            "Hate = odiar."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: Ben dice But I don't like running. I hate it! La que corre es Priya."
+          },
+          "pregunta": "Ben likes running.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: Ben dice I don't like running. I hate it!"
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: I don't like running. I hate it!"
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, cuando habla del tenis."
+            }
+          ]
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.05",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el adverbio de frecuencia que usa Priya.",
+          "pistas": [
+            "Priya contrasta la tele con la lectura.",
+            "El adverbio significa «casi nunca».",
+            "Va entre el sujeto y el verbo: I ___ watch."
+          ],
+          "solucion": {
+            "respuesta": "rarely",
+            "explicacion": "La respuesta es rarely (casi nunca): Priya contrasta I rarely watch TV con I usually read. Como todos los adverbios de frecuencia, va entre el sujeto y el verbo."
+          },
+          "frase": "I ___ watch TV. I usually read.",
+          "respuestas": [
+            [
+              "rarely"
+            ]
+          ],
+          "traduccion": "Casi nunca veo la tele. Normalmente leo.",
+          "errores_tipicos": {
+            "often": "Often es la palabra de Ben (I often cook dinner). Priya dice lo contrario: casi nunca.",
+            "never": "Priya no dice never sino rarely: casi nunca, no nunca."
+          }
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.06",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "¿Qué acaba de decir Ben?",
+            "That's early! se refiere a la hora de acostarse.",
+            "Relaciona la hora de acostarse con la de levantarse."
+          ],
+          "solucion": {
+            "respuesta": "Para explicar por qué se acuesta tan temprano.",
+            "explicacion": "Lo dice para justificar que se acuesta a las 9:30: Ben comenta That's early! y ella le recuerda que se levanta a las cinco."
+          },
+          "pregunta": "¿Por qué Priya dice al final Well, I get up at five!?",
+          "opciones": [
+            {
+              "texto": "Para explicar por qué se acuesta tan temprano.",
+              "correcta": true,
+              "porque": "Correcto: responde a That's early! Si se levanta a las cinco, necesita dormir temprano."
+            },
+            {
+              "texto": "Para quejarse de su trabajo.",
+              "correcta": false,
+              "porque": "No habla de su trabajo en ese momento."
+            },
+            {
+              "texto": "Para invitar a Ben a nadar.",
+              "correcta": false,
+              "porque": "No hay ninguna invitación en el diálogo."
+            }
+          ]
+        },
+        {
+          "id": "escucha.la-rutina-de-priya-y-ben.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Ben sobre el tenis.",
+          "pistas": [
+            "La expresión de frecuencia va al final.",
+            "Once = una vez.",
+            "Orden: sujeto + verbo + deporte + con quién + expresión de frecuencia."
+          ],
+          "solucion": {
+            "respuesta": "I play tennis with my brother once a week.",
+            "explicacion": "La frase es I play tennis with my brother once a week: once a week es una expresión de frecuencia y va al final de la oración, no entre el sujeto y el verbo."
+          },
+          "texto": "I play tennis with my brother once a week."
+        }
+      ]
+    },
+    {
+      "slug": "que-estas-haciendo",
+      "titulo": "Una llamada: ¿qué estás haciendo?",
+      "nivel": "A1",
+      "unidad": "presente-continuo",
+      "contexto": "Ana llama por teléfono a su amigo Diego. Ella está en la calle y tiene un pequeño problema.",
+      "hablantes": [
+        {
+          "nombre": "Ana",
+          "voz": "a"
+        },
+        {
+          "nombre": "Diego",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Ana",
+          "en": "Hi, Diego! It's Ana. Are you busy?",
+          "es": "¡Hola, Diego! Soy Ana. ¿Estás ocupado?"
+        },
+        {
+          "quien": "Diego",
+          "en": "Hi, Ana! A little. I'm cooking dinner.",
+          "es": "¡Hola, Ana! Un poco. Estoy haciendo la cena."
+        },
+        {
+          "quien": "Ana",
+          "en": "Oh, what are you making?",
+          "es": "Ah, ¿qué estás preparando?"
+        },
+        {
+          "quien": "Diego",
+          "en": "I'm making vegetable soup. And you? What are you doing?",
+          "es": "Estoy haciendo sopa de verduras. ¿Y tú? ¿Qué estás haciendo?"
+        },
+        {
+          "quien": "Ana",
+          "en": "I'm standing outside the cinema. I'm waiting for Carlos, but he isn't answering his phone.",
+          "es": "Estoy parada afuera del cine. Estoy esperando a Carlos, pero no contesta el teléfono."
+        },
+        {
+          "quien": "Diego",
+          "en": "Maybe he's driving.",
+          "es": "A lo mejor está manejando."
+        },
+        {
+          "quien": "Ana",
+          "en": "Maybe. The film starts in ten minutes! And it's raining, and I'm not wearing a coat.",
+          "es": "Puede ser. ¡La película empieza en diez minutos! Y está lloviendo, y no traigo abrigo."
+        },
+        {
+          "quien": "Diego",
+          "en": "Oh no! Wait, I'm getting a message. It's from Carlos.",
+          "es": "¡Ay, no! Espera, me está llegando un mensaje. Es de Carlos."
+        },
+        {
+          "quien": "Ana",
+          "en": "What does it say?",
+          "es": "¿Qué dice?"
+        },
+        {
+          "quien": "Diego",
+          "en": "It says: I'm parking the car right now. Tell Ana I'm coming!",
+          "es": "Dice: «Estoy estacionando el carro ahorita. ¡Dile a Ana que ya voy!»."
+        },
+        {
+          "quien": "Ana",
+          "en": "Finally! Thanks, Diego. Enjoy your soup!",
+          "es": "¡Por fin! Gracias, Diego. ¡Que disfrutes tu sopa!"
+        },
+        {
+          "quien": "Diego",
+          "en": "Enjoy the film!",
+          "es": "¡Disfruten la película!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "busy",
+          "es": "ocupado"
+        },
+        {
+          "en": "vegetable soup",
+          "es": "sopa de verduras"
+        },
+        {
+          "en": "outside",
+          "es": "afuera de"
+        },
+        {
+          "en": "wait for",
+          "es": "esperar a",
+          "nota": "Siempre con for: I'm waiting for Carlos."
+        },
+        {
+          "en": "maybe",
+          "es": "a lo mejor, tal vez"
+        },
+        {
+          "en": "wear a coat",
+          "es": "llevar puesto un abrigo"
+        },
+        {
+          "en": "park",
+          "es": "estacionar",
+          "nota": "Como sustantivo, park es «parque»."
+        },
+        {
+          "en": "I'm coming!",
+          "es": "¡Ya voy!"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.que-estas-haciendo.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha lo que Ana cuenta después de What are you doing?",
+            "Hay un but en su respuesta.",
+            "El but une lo que hace Ana con lo que no hace otra persona."
+          ],
+          "solucion": {
+            "respuesta": "Está esperando a Carlos y él no contesta.",
+            "explicacion": "El problema es que espera a Carlos y él no contesta: I'm waiting for Carlos, but he isn't answering his phone. Por eso llama a Diego."
+          },
+          "pregunta": "¿Cuál es el problema de Ana al principio de la llamada?",
+          "opciones": [
+            {
+              "texto": "Está esperando a Carlos y él no contesta.",
+              "correcta": true,
+              "porque": "Correcto: I'm waiting for Carlos, but he isn't answering his phone."
+            },
+            {
+              "texto": "No tiene boleto para el cine.",
+              "correcta": false,
+              "porque": "No se habla de boletos."
+            },
+            {
+              "texto": "Diego no quiere ir al cine con ella.",
+              "correcta": false,
+              "porque": "Diego está en su casa cocinando; no estaba invitado."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-estas-haciendo.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la primera respuesta de Diego.",
+            "I'm cooking… I'm making…",
+            "Cooking y making describen lo mismo: la cena de Diego."
+          ],
+          "solucion": {
+            "respuesta": "Está preparando sopa de verduras.",
+            "explicacion": "Diego está haciendo la cena, una sopa de verduras: I'm cooking dinner… I'm making vegetable soup."
+          },
+          "pregunta": "¿Qué está haciendo Diego?",
+          "opciones": [
+            {
+              "texto": "Está preparando sopa de verduras.",
+              "correcta": true,
+              "porque": "Correcto: I'm cooking dinner… I'm making vegetable soup."
+            },
+            {
+              "texto": "Está manejando.",
+              "correcta": false,
+              "porque": "Diego sugiere que Carlos está manejando, no él."
+            },
+            {
+              "texto": "Está en el cine.",
+              "correcta": false,
+              "porque": "En el cine está Ana."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-estas-haciendo.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha el mensaje que lee Diego.",
+            "I'm … the car right now.",
+            "Como sustantivo, park es «parque»; aquí es un verbo que se hace con el carro."
+          ],
+          "solucion": {
+            "respuesta": "Porque estaba estacionando el carro.",
+            "explicacion": "Carlos estaba estacionando el carro: I'm parking the car right now. Tell Ana I'm coming!"
+          },
+          "pregunta": "¿Por qué no contestaba Carlos?",
+          "opciones": [
+            {
+              "texto": "Porque estaba estacionando el carro.",
+              "correcta": true,
+              "porque": "Correcto: su mensaje dice I'm parking the car right now."
+            },
+            {
+              "texto": "Porque estaba en el cine.",
+              "correcta": false,
+              "porque": "Todavía no había llegado: Ana lo esperaba afuera."
+            },
+            {
+              "texto": "Porque no tenía batería.",
+              "correcta": false,
+              "porque": "Pudo mandar un mensaje, así que su teléfono funcionaba."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-estas-haciendo.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Escucha la frase donde Ana habla de su abrigo.",
+            "¿Qué verbo en -ing describe el clima?",
+            "It's + verbo en -ing describe el clima en este momento."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: Ana dice And it's raining, and I'm not wearing a coat. Está lloviendo."
+          },
+          "pregunta": "It's sunny outside the cinema.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: Ana dice it's raining."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: it's raining, and I'm not wearing a coat."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: Ana describe el clima."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-estas-haciendo.05",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el verbo en presente continuo.",
+          "pistas": [
+            "La acción ocurre en este momento.",
+            "Ya está el verbo be en negativa (isn't).",
+            "Isn't + verbo con -ing."
+          ],
+          "solucion": {
+            "respuesta": "answering",
+            "explicacion": "La respuesta es answering: el presente continuo negativo es isn't + verbo con -ing, porque Ana habla de lo que pasa en este momento."
+          },
+          "frase": "Carlos isn't ___ his phone.",
+          "respuestas": [
+            [
+              "answering"
+            ]
+          ],
+          "traduccion": "Carlos no está contestando su teléfono.",
+          "errores_tipicos": {
+            "answer": "Después de isn't, en presente continuo, el verbo lleva -ing: answering.",
+            "answers": "Después de isn't no va el presente simple: isn't answering."
+          }
+        },
+        {
+          "id": "escucha.que-estas-haciendo.06",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa el presente continuo y wait for.",
+          "pistas": [
+            "Es una acción en curso: be + -ing.",
+            "Esperar a alguien = wait for someone.",
+            "Sujeto + am + verbo en -ing + for + persona."
+          ],
+          "solucion": {
+            "respuesta": "I'm waiting for Carlos.",
+            "explicacion": "La respuesta es I'm waiting for Carlos: presente continuo (I'm waiting) porque ocurre ahora, y wait siempre va con for delante de la persona."
+          },
+          "es": "Estoy esperando a Carlos.",
+          "respuestas": [
+            "I'm waiting for Carlos."
+          ],
+          "errores_tipicos": {
+            "I'm waiting Carlos.": "Wait necesita for antes de la persona: waiting for Carlos.",
+            "I wait for Carlos.": "El presente simple indica un hábito. Ahora mismo: I'm waiting.",
+            "I'm waiting to Carlos.": "La preposición de wait es for, no to."
+          }
+        },
+        {
+          "id": "escucha.que-estas-haciendo.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Ana.",
+          "pistas": [
+            "Hay dos verbos en presente continuo.",
+            "El segundo está en negativa.",
+            "Los dos verbos llevan -ing; entre las dos partes va but."
+          ],
+          "solucion": {
+            "respuesta": "I'm waiting for Carlos, but he isn't answering his phone.",
+            "explicacion": "La frase es I'm waiting for Carlos, but he isn't answering his phone: dos acciones en curso en presente continuo, una afirmativa y otra negativa, unidas por but."
+          },
+          "texto": "I'm waiting for Carlos, but he isn't answering his phone."
+        }
+      ]
+    },
+    {
+      "slug": "en-la-cafeteria",
+      "titulo": "¿Hay limón?",
+      "nivel": "A1",
+      "unidad": "contables-e-incontables",
+      "contexto": "Dos amigos, Mei y Omar, se acercan a un mostrador. Una empleada los atiende.",
+      "hablantes": [
+        {
+          "nombre": "Grace",
+          "voz": "a"
+        },
+        {
+          "nombre": "Mei",
+          "voz": "b"
+        },
+        {
+          "nombre": "Omar",
+          "voz": "c"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "Hi there! What can I get you?",
+          "es": "¡Hola! ¿Qué les sirvo?"
+        },
+        {
+          "quien": "Mei",
+          "en": "Hi. A large coffee with some milk, please.",
+          "es": "Hola. Un café grande con un poco de leche, por favor."
+        },
+        {
+          "quien": "Grace",
+          "en": "Sure. Do you want any sugar?",
+          "es": "Claro. ¿Quiere azúcar?"
+        },
+        {
+          "quien": "Mei",
+          "en": "No, thanks. I don't take sugar.",
+          "es": "No, gracias. No le pongo azúcar."
+        },
+        {
+          "quien": "Omar",
+          "en": "And a tea for me, please. Do you have any lemon?",
+          "es": "Y un té para mí, por favor. ¿Tienen limón?"
+        },
+        {
+          "quien": "Grace",
+          "en": "Sorry, we don't have any lemon today. But we have some honey.",
+          "es": "Lo siento, hoy no tenemos limón. Pero tenemos miel."
+        },
+        {
+          "quien": "Omar",
+          "en": "OK, a little honey, then. How much are the cookies?",
+          "es": "Bueno, un poco de miel, entonces. ¿Cuánto cuestan las galletas?"
+        },
+        {
+          "quien": "Grace",
+          "en": "They're a dollar fifty each. But there are only a few left. Just three.",
+          "es": "Cuestan un dólar cincuenta cada una. Pero quedan pocas. Solo tres."
+        },
+        {
+          "quien": "Omar",
+          "en": "Two cookies, please.",
+          "es": "Dos galletas, por favor."
+        },
+        {
+          "quien": "Mei",
+          "en": "Do you have any sandwiches?",
+          "es": "¿Tienen sándwiches?"
+        },
+        {
+          "quien": "Grace",
+          "en": "Yes, but not many. There's a cheese sandwich and a chicken sandwich.",
+          "es": "Sí, pero no muchos. Hay uno de queso y uno de pollo."
+        },
+        {
+          "quien": "Mei",
+          "en": "The cheese sandwich, please.",
+          "es": "El de queso, por favor."
+        },
+        {
+          "quien": "Grace",
+          "en": "So that's a large coffee with milk, a tea with honey, two cookies and a cheese sandwich. That's thirteen dollars and fifty cents.",
+          "es": "Entonces son un café grande con leche, un té con miel, dos galletas y un sándwich de queso. Son trece dólares con cincuenta centavos."
+        },
+        {
+          "quien": "Omar",
+          "en": "It's my turn today. I'm paying!",
+          "es": "Hoy me toca a mí. ¡Yo pago!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "What can I get you?",
+          "es": "¿Qué te/les sirvo?",
+          "nota": "Frase fija de quien atiende en una cafetería."
+        },
+        {
+          "en": "I don't take sugar.",
+          "es": "No le pongo azúcar (al café)."
+        },
+        {
+          "en": "cookie",
+          "es": "galleta",
+          "nota": "En Reino Unido se dice biscuit."
+        },
+        {
+          "en": "each",
+          "es": "cada uno / cada una"
+        },
+        {
+          "en": "only a few left",
+          "es": "quedan pocos / pocas"
+        },
+        {
+          "en": "It's my turn.",
+          "es": "Me toca (a mí)."
+        },
+        {
+          "en": "honey",
+          "es": "miel"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.en-la-cafeteria.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la primera frase de Grace.",
+            "¿Qué piden y qué hacen al final?",
+            "Coffee, tea, cookies, pagar: una cafetería."
+          ],
+          "solucion": {
+            "respuesta": "En una cafetería.",
+            "explicacion": "Están en una cafetería: Grace pregunta What can I get you?, ellos piden bebidas y comida y al final pagan."
+          },
+          "pregunta": "¿Dónde están?",
+          "opciones": [
+            {
+              "texto": "En una cafetería.",
+              "correcta": true,
+              "porque": "Correcto: piden café, té, galletas y un sándwich, y pagan en el mostrador."
+            },
+            {
+              "texto": "En un supermercado.",
+              "correcta": false,
+              "porque": "No eligen productos de estantes: piden bebidas preparadas a una empleada."
+            },
+            {
+              "texto": "En casa de Mei.",
+              "correcta": false,
+              "porque": "Hay una empleada que les cobra: What can I get you? y That's thirteen dollars…"
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-cafeteria.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la pregunta de Omar: Do you have any lemon?",
+            "¿Qué responde Grace?",
+            "Don't have any = no tener nada de."
+          ],
+          "solucion": {
+            "respuesta": "Porque no hay limón.",
+            "explicacion": "Porque no hay limón: Grace responde we don't have any lemon today. But we have some honey. Any aparece en la pregunta y en la negación; some, en la afirmación."
+          },
+          "pregunta": "¿Por qué Omar toma el té con miel?",
+          "opciones": [
+            {
+              "texto": "Porque no hay limón.",
+              "correcta": true,
+              "porque": "Correcto: we don't have any lemon today. But we have some honey."
+            },
+            {
+              "texto": "Porque no le gusta el limón.",
+              "correcta": false,
+              "porque": "Omar pidió limón primero; no hay."
+            },
+            {
+              "texto": "Porque la miel es gratis.",
+              "correcta": false,
+              "porque": "No se habla del precio de la miel."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-cafeteria.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "¿Cuántas había?",
+            "Just three. ¿Cuántas pide Omar?",
+            "Resta."
+          ],
+          "solucion": {
+            "respuesta": "Una.",
+            "explicacion": "Queda una: Grace dice there are only a few left. Just three, y Omar pide Two cookies. 3 − 2 = 1."
+          },
+          "pregunta": "¿Cuántas galletas quedan después de la compra de Omar?",
+          "opciones": [
+            {
+              "texto": "Una.",
+              "correcta": true,
+              "porque": "Correcto: quedaban tres (Just three) y Omar pide dos."
+            },
+            {
+              "texto": "Tres.",
+              "correcta": false,
+              "porque": "Tres había antes de que Omar pidiera."
+            },
+            {
+              "texto": "Ninguna.",
+              "correcta": false,
+              "porque": "Omar pide dos de las tres; queda una."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-cafeteria.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la última línea de Grace.",
+            "Thirteen o thirty: fíjate en el acento.",
+            "ThirTEEN (13) lleva el acento al final; THIRty (30), al principio."
+          ],
+          "solucion": {
+            "respuesta": "13.50 dólares.",
+            "explicacion": "Pagan 13.50: thirteen dollars and fifty cents. Thirteen tiene el acento en la última sílaba, y así se distingue de thirty."
+          },
+          "pregunta": "¿Cuánto pagan en total?",
+          "opciones": [
+            {
+              "texto": "13.50 dólares.",
+              "correcta": true,
+              "porque": "Correcto: thirteen dollars and fifty cents."
+            },
+            {
+              "texto": "30.50 dólares.",
+              "correcta": false,
+              "porque": "Thirty sería 30; Grace dice thirteen (13), con el acento al final."
+            },
+            {
+              "texto": "1.50 dólares.",
+              "correcta": false,
+              "porque": "Un dólar cincuenta es el precio de cada galleta."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-cafeteria.05",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con some o any.",
+          "pistas": [
+            "Una oración es negativa y la otra afirmativa.",
+            "We don't have (negativa) / we have (afirmativa).",
+            "Any en negativas y preguntas; some en afirmativas."
+          ],
+          "solucion": {
+            "respuesta": "any / some",
+            "explicacion": "Las respuestas son any y some: any en la negativa (we don't have any lemon) y some en la afirmativa (we have some honey)."
+          },
+          "frase": "Sorry, we don't have ___ lemon today. But we have ___ honey.",
+          "respuestas": [
+            [
+              "any"
+            ],
+            [
+              "some"
+            ]
+          ],
+          "traduccion": "Lo siento, hoy no tenemos limón. Pero tenemos miel.",
+          "banco": [
+            "some",
+            "any"
+          ],
+          "errores_tipicos": {
+            "some | any": "Están al revés: any con la negación (don't have) y some con la afirmación (we have)."
+          }
+        },
+        {
+          "id": "escucha.en-la-cafeteria.06",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la pregunta de Omar.",
+          "pistas": [
+            "Es una pregunta por un precio.",
+            "How much va al principio; después el verbo be.",
+            "How much + are + the cookies (plural)."
+          ],
+          "solucion": {
+            "respuesta": "How much are the cookies?",
+            "explicacion": "El orden es How much are the cookies?: how much pregunta el precio, y el verbo es are porque the cookies es plural."
+          },
+          "fichas": [
+            "are",
+            "much",
+            "How",
+            "the",
+            "cookies"
+          ],
+          "respuestas": [
+            "How much are the cookies?"
+          ],
+          "traduccion": "¿Cuánto cuestan las galletas?"
+        },
+        {
+          "id": "escucha.en-la-cafeteria.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Grace sobre las galletas.",
+          "pistas": [
+            "Es una oración con there are.",
+            "A few = unos pocos (contables).",
+            "Son seis palabras; a few va justo antes de la última."
+          ],
+          "solucion": {
+            "respuesta": "There are only a few left.",
+            "explicacion": "La frase es There are only a few left: there are porque se refiere a las galletas (plural), y a few porque son contables."
+          },
+          "texto": "There are only a few left."
+        }
+      ]
+    },
+    {
+      "slug": "en-la-tienda-de-ropa",
+      "titulo": "¿Le puedo ayudar?",
+      "nivel": "A2",
+      "unidad": "compras-y-comida",
+      "contexto": "Lucía entra a una tienda. Al principio solo quiere mirar, pero luego encuentra algo que le interesa.",
+      "hablantes": [
+        {
+          "nombre": "Ben",
+          "voz": "a"
+        },
+        {
+          "nombre": "Lucía",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Hello! Can I help you?",
+          "es": "¡Hola! ¿Le puedo ayudar?"
+        },
+        {
+          "quien": "Lucía",
+          "en": "No, thanks. I'm just looking.",
+          "es": "No, gracias. Solo estoy viendo."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Excuse me, how much is this jacket?",
+          "es": "Disculpe, ¿cuánto cuesta esta chamarra?"
+        },
+        {
+          "quien": "Ben",
+          "en": "The blue one? It's seventy-nine ninety-nine.",
+          "es": "¿La azul? Cuesta setenta y nueve con noventa y nueve."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Hmm, that's a bit expensive. Do you have it in black?",
+          "es": "Mmm, es un poco cara. ¿La tienen en negro?"
+        },
+        {
+          "quien": "Ben",
+          "en": "Yes, we do. What size are you?",
+          "es": "Sí. ¿Qué talla es usted?"
+        },
+        {
+          "quien": "Lucía",
+          "en": "Medium, I think.",
+          "es": "Mediana, creo."
+        },
+        {
+          "quien": "Ben",
+          "en": "Here you are. The fitting rooms are over there, on the right.",
+          "es": "Aquí tiene. Los probadores están por allá, a la derecha."
+        },
+        {
+          "quien": "Lucía",
+          "en": "It's a little small. Do you have a large?",
+          "es": "Me queda un poco chica. ¿Tiene una grande?"
+        },
+        {
+          "quien": "Ben",
+          "en": "Sorry, we don't have any large ones in black. But this grey jacket is on sale today. It's only forty-five dollars.",
+          "es": "Lo siento, no tenemos grandes en negro. Pero esta chamarra gris está en oferta hoy. Cuesta solo cuarenta y cinco dólares."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Forty-five? Great! Can I try it on?",
+          "es": "¿Cuarenta y cinco? ¡Genial! ¿Me la puedo probar?"
+        },
+        {
+          "quien": "Ben",
+          "en": "Of course.",
+          "es": "Claro."
+        },
+        {
+          "quien": "Lucía",
+          "en": "It's perfect. I'll take it. Can I pay by card?",
+          "es": "Me queda perfecta. Me la llevo. ¿Puedo pagar con tarjeta?"
+        },
+        {
+          "quien": "Ben",
+          "en": "Sure. That's forty-five dollars, please.",
+          "es": "Claro. Son cuarenta y cinco dólares, por favor."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "I'm just looking.",
+          "es": "Solo estoy viendo."
+        },
+        {
+          "en": "jacket",
+          "es": "chamarra, chaqueta"
+        },
+        {
+          "en": "size",
+          "es": "talla"
+        },
+        {
+          "en": "fitting room",
+          "es": "probador"
+        },
+        {
+          "en": "on sale",
+          "es": "en oferta, rebajado",
+          "nota": "No significa «a la venta» en general: indica un precio rebajado."
+        },
+        {
+          "en": "try on",
+          "es": "probarse (ropa)"
+        },
+        {
+          "en": "I'll take it.",
+          "es": "Me lo llevo.",
+          "nota": "Expresión fija para decir que compras algo."
+        },
+        {
+          "en": "pay by card",
+          "es": "pagar con tarjeta"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.en-la-tienda-de-ropa.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué palabras relacionadas con ropa oyes?",
+            "Jacket, size, fitting rooms…",
+            "Fitting room = probador."
+          ],
+          "solucion": {
+            "respuesta": "En una tienda de ropa.",
+            "explicacion": "Están en una tienda de ropa: hablan de una chamarra (jacket), la talla (size) y los probadores (fitting rooms)."
+          },
+          "pregunta": "¿Dónde están?",
+          "opciones": [
+            {
+              "texto": "En una tienda de ropa.",
+              "correcta": true,
+              "porque": "Correcto: hablan de chamarras, tallas y probadores."
+            },
+            {
+              "texto": "En un mercado de comida.",
+              "correcta": false,
+              "porque": "No se menciona comida: solo ropa, tallas y precios."
+            },
+            {
+              "texto": "En un banco.",
+              "correcta": false,
+              "porque": "Hablan de pagar con tarjeta, pero para comprar una chamarra."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta a how much is this jacket?",
+            "Los precios se dicen a menudo sin «dollars» ni «cents».",
+            "Primero se dicen los dólares y después los centavos."
+          ],
+          "solucion": {
+            "respuesta": "79.99 dólares.",
+            "explicacion": "Cuesta 79.99: seventy-nine ninety-nine. Al hablar, muchas veces se omite dollars y cents: primero los dólares, luego los centavos."
+          },
+          "pregunta": "¿Cuánto cuesta la chamarra azul?",
+          "opciones": [
+            {
+              "texto": "79.99 dólares.",
+              "correcta": true,
+              "porque": "Correcto: seventy-nine ninety-nine."
+            },
+            {
+              "texto": "45 dólares.",
+              "correcta": false,
+              "porque": "Cuarenta y cinco cuesta la chamarra gris en oferta."
+            },
+            {
+              "texto": "99.79 dólares.",
+              "correcta": false,
+              "porque": "El orden es seventy-nine (dólares) ninety-nine (centavos)."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha lo que dice Lucía al salir del probador.",
+            "It's a little small. Do you have a large?",
+            "¿Qué responde Ben?"
+          ],
+          "solucion": {
+            "respuesta": "Porque la mediana le queda chica y no hay grande en negro.",
+            "explicacion": "No la compra porque la talla mediana le queda chica y no hay grande en negro: we don't have any large ones in black."
+          },
+          "pregunta": "¿Por qué Lucía no compra la chamarra negra?",
+          "opciones": [
+            {
+              "texto": "Porque la mediana le queda chica y no hay grande en negro.",
+              "correcta": true,
+              "porque": "Correcto: It's a little small… we don't have any large ones in black."
+            },
+            {
+              "texto": "Porque no le gusta el color negro.",
+              "correcta": false,
+              "porque": "Ella misma pidió el negro: Do you have it in black?"
+            },
+            {
+              "texto": "Porque no se puede pagar con tarjeta.",
+              "correcta": false,
+              "porque": "Sí se puede: Ben responde Sure."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "¿Qué ofrece Ben después de decir que no hay talla grande?",
+            "This grey jacket is on sale today.",
+            "I'll take it = me la llevo."
+          ],
+          "solucion": {
+            "respuesta": "La chamarra gris, por 45 dólares.",
+            "explicacion": "Compra la chamarra gris por 45 dólares: Ben le ofrece this grey jacket… on sale… only forty-five dollars, se la prueba y dice I'll take it."
+          },
+          "pregunta": "¿Qué compra Lucía al final y por cuánto?",
+          "opciones": [
+            {
+              "texto": "La chamarra gris, por 45 dólares.",
+              "correcta": true,
+              "porque": "Correcto: la gris está on sale a forty-five dollars y dice I'll take it."
+            },
+            {
+              "texto": "La chamarra azul, por 79.99 dólares.",
+              "correcta": false,
+              "porque": "Le pareció cara (a bit expensive) y no se la llevó."
+            },
+            {
+              "texto": "La chamarra negra, por 45 dólares.",
+              "correcta": false,
+              "porque": "No había negra en su talla."
+            }
+          ]
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.05",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa la pregunta de Lucía.",
+          "pistas": [
+            "Es la preposición para la forma de pago.",
+            "Con tarjeta se usa una preposición distinta de «con».",
+            "No es with ni in: es la preposición de los medios, la misma de travel ___ bus."
+          ],
+          "solucion": {
+            "respuesta": "by",
+            "explicacion": "La respuesta es by: se dice pay by card (con tarjeta) y pay in cash (en efectivo). No se usa with."
+          },
+          "frase": "Can I pay ___ card?",
+          "respuestas": [
+            [
+              "by"
+            ]
+          ],
+          "traduccion": "¿Puedo pagar con tarjeta?",
+          "errores_tipicos": {
+            "with": "Es un calco del español «con tarjeta». En inglés: pay by card.",
+            "in": "In se usa con cash (pay in cash). Con tarjeta: by card."
+          }
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.06",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa jacket y la estructura how much.",
+          "pistas": [
+            "Para preguntar el precio se usa how much.",
+            "Lo más común es how much + is + la cosa.",
+            "How much + be + la cosa; con this, el verbo va en singular."
+          ],
+          "solucion": {
+            "respuesta": "How much is this jacket?",
+            "explicacion": "La respuesta es How much is this jacket?: how much pregunta por el precio y el verbo más común es is. También es correcto How much does this jacket cost?"
+          },
+          "es": "¿Cuánto cuesta esta chamarra?",
+          "respuestas": [
+            "How much is this jacket?",
+            "How much does this jacket cost?"
+          ],
+          "errores_tipicos": {
+            "How much costs this jacket?": "Con cost se necesita does: How much does this jacket cost? Lo más natural: How much is this jacket?",
+            "How many is this jacket?": "El precio se pregunta con how much, no how many."
+          }
+        },
+        {
+          "id": "escucha.en-la-tienda-de-ropa.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Ben sobre la chamarra gris.",
+          "pistas": [
+            "Es una oración con is.",
+            "On sale = en oferta.",
+            "Orden: this + color + sustantivo + is + on sale + expresión de tiempo."
+          ],
+          "solucion": {
+            "respuesta": "This grey jacket is on sale today.",
+            "explicacion": "La frase es This grey jacket is on sale today: el adjetivo grey va antes del sustantivo jacket, y on sale significa «rebajado». En EE. UU. también se escribe gray."
+          },
+          "texto": "This grey jacket is on sale today.",
+          "respuestas": [
+            "This gray jacket is on sale today."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "un-favor-y-un-permiso",
+      "titulo": "Un favor y un permiso",
+      "nivel": "A2",
+      "unidad": "could",
+      "contexto": "Aisha tiene un problema y un compromiso por la tarde. Primero habla con Ben y después con Ms. Park.",
+      "hablantes": [
+        {
+          "nombre": "Aisha",
+          "voz": "a"
+        },
+        {
+          "nombre": "Ben",
+          "voz": "b"
+        },
+        {
+          "nombre": "Ms. Park",
+          "voz": "c"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Aisha",
+          "en": "Ben, can you help me? The printer isn't working again.",
+          "es": "Ben, ¿me ayudas? La impresora no funciona otra vez."
+        },
+        {
+          "quien": "Ben",
+          "en": "Sure. Let me see. Oh, it's out of paper. There you go.",
+          "es": "Claro. A ver. Ah, no tiene papel. Listo."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Thanks! And could you do me a favor? Could you give the sales report to Ms. Park this afternoon? I have a doctor's appointment at three.",
+          "es": "¡Gracias! ¿Y me podrías hacer un favor? ¿Le podrías dar el informe de ventas a la señora Park esta tarde? Tengo cita con el médico a las tres."
+        },
+        {
+          "quien": "Ben",
+          "en": "Sorry, I can't. I'm in a meeting from two to four. But you could send it by email.",
+          "es": "Lo siento, no puedo. Estoy en una junta de dos a cuatro. Pero podrías mandarlo por correo."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Good idea. I could ask Ms. Park about that, too.",
+          "es": "Buena idea. También se lo podría preguntar a la señora Park."
+        },
+        {
+          "quien": "Aisha",
+          "en": "Excuse me, Ms. Park. Could I leave early today? I have a doctor's appointment at three.",
+          "es": "Disculpe, señora Park. ¿Podría salir temprano hoy? Tengo cita con el médico a las tres."
+        },
+        {
+          "quien": "Ms. Park",
+          "en": "Of course. What time do you need to go?",
+          "es": "Por supuesto. ¿A qué hora necesitas irte?"
+        },
+        {
+          "quien": "Aisha",
+          "en": "At half past two. Is that OK?",
+          "es": "A las dos y media. ¿Está bien?"
+        },
+        {
+          "quien": "Ms. Park",
+          "en": "That's fine. Could you finish the sales report before you go?",
+          "es": "Está bien. ¿Podrías terminar el informe de ventas antes de irte?"
+        },
+        {
+          "quien": "Aisha",
+          "en": "Yes, I can. It's almost ready. Could I send it to you by email?",
+          "es": "Sí, puedo. Ya casi está. ¿Se lo podría mandar por correo?"
+        },
+        {
+          "quien": "Ms. Park",
+          "en": "Yes, you can. Thanks, Aisha, and good luck at the doctor's.",
+          "es": "Sí, claro. Gracias, Aisha, y que te vaya bien en el médico."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "printer",
+          "es": "impresora"
+        },
+        {
+          "en": "out of paper",
+          "es": "sin papel"
+        },
+        {
+          "en": "Could you do me a favor?",
+          "es": "¿Me podrías hacer un favor?"
+        },
+        {
+          "en": "sales report",
+          "es": "informe de ventas"
+        },
+        {
+          "en": "doctor's appointment",
+          "es": "cita con el médico"
+        },
+        {
+          "en": "meeting",
+          "es": "junta, reunión"
+        },
+        {
+          "en": "leave early",
+          "es": "salir temprano, irse antes"
+        },
+        {
+          "en": "almost ready",
+          "es": "casi listo"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.un-favor-y-un-permiso.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué objetos y actividades se mencionan?",
+            "Printer, sales report, meeting.",
+            "Esas palabras son del mundo del trabajo de oficina."
+          ],
+          "solucion": {
+            "respuesta": "En una oficina.",
+            "explicacion": "Están en una oficina: se habla de una impresora, un informe de ventas (sales report) y una junta (meeting), y Aisha pide permiso a su jefa."
+          },
+          "pregunta": "¿Dónde están?",
+          "opciones": [
+            {
+              "texto": "En una oficina.",
+              "correcta": true,
+              "porque": "Correcto: hay una impresora, un informe de ventas, una junta y una jefa."
+            },
+            {
+              "texto": "En un consultorio médico.",
+              "correcta": false,
+              "porque": "Aisha tiene cita con el médico más tarde; ahora está en el trabajo."
+            },
+            {
+              "texto": "En una escuela.",
+              "correcta": false,
+              "porque": "No hay clases ni maestros: hay informes, juntas y una jefa."
+            }
+          ]
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "¿Qué le pide Aisha a Ms. Park?",
+            "Could I leave early today?",
+            "¿A quién se le pide permiso para salir antes del trabajo?"
+          ],
+          "solucion": {
+            "respuesta": "Ms. Park es su jefa.",
+            "explicacion": "Ms. Park es su jefa: Aisha le pide permiso para salir temprano (Could I leave early today?) y ella le pide terminar el informe antes de irse."
+          },
+          "pregunta": "¿Qué relación tiene Aisha con Ms. Park?",
+          "opciones": [
+            {
+              "texto": "Ms. Park es su jefa.",
+              "correcta": true,
+              "porque": "Correcto: Aisha le pide permiso para salir temprano y le entrega el informe."
+            },
+            {
+              "texto": "Ms. Park es su doctora.",
+              "correcta": false,
+              "porque": "La cita con el médico es en otro lugar, a las tres."
+            },
+            {
+              "texto": "Ms. Park es una clienta.",
+              "correcta": false,
+              "porque": "Una clienta no da permiso para salir temprano."
+            }
+          ]
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta de Ben.",
+            "It's out of…",
+            "Out of + sustantivo = se acabó eso. ¿Qué sustantivo dice Ben?"
+          ],
+          "solucion": {
+            "respuesta": "No tenía papel.",
+            "explicacion": "No tenía papel: Ben mira y dice it's out of paper. Out of + sustantivo significa que se acabó."
+          },
+          "pregunta": "¿Qué problema tenía la impresora?",
+          "opciones": [
+            {
+              "texto": "No tenía papel.",
+              "correcta": true,
+              "porque": "Correcto: it's out of paper."
+            },
+            {
+              "texto": "Estaba rota.",
+              "correcta": false,
+              "porque": "Ben la arregla al momento: solo le faltaba papel."
+            },
+            {
+              "texto": "No tenía tinta.",
+              "correcta": false,
+              "porque": "Ben dice out of paper, no out of ink."
+            }
+          ]
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta de Ben al favor.",
+            "Sorry, I can't. Después da una razón.",
+            "From… to… indica un horario en el que Ben está ocupado."
+          ],
+          "solucion": {
+            "respuesta": "Porque está en una junta de dos a cuatro.",
+            "explicacion": "No puede porque tiene una junta: Sorry, I can't. I'm in a meeting from two to four. A cambio, sugiere que lo mande por correo."
+          },
+          "pregunta": "¿Por qué Ben no puede hacerle el favor a Aisha?",
+          "opciones": [
+            {
+              "texto": "Porque está en una junta de dos a cuatro.",
+              "correcta": true,
+              "porque": "Correcto: I'm in a meeting from two to four."
+            },
+            {
+              "texto": "Porque no conoce a Ms. Park.",
+              "correcta": false,
+              "porque": "Nada lo indica; solo explica que estará ocupado."
+            },
+            {
+              "texto": "Porque él también va al médico.",
+              "correcta": false,
+              "porque": "Quien va al médico es Aisha."
+            }
+          ]
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Compara Can you help me? con Could I leave early?",
+            "¿Con quién tiene más confianza Aisha?",
+            "Could para peticiones = más formal y cortés que can."
+          ],
+          "solucion": {
+            "respuesta": "Porque could es más cortés, y Ms. Park es su jefa.",
+            "explicacion": "Could es más cortés que can: Aisha lo usa para pedir permiso a su jefa (Could I leave early today?), mientras que con Ben, un compañero, usa el más directo can (Can you help me?). Aquí could no indica pasado."
+          },
+          "pregunta": "¿Por qué Aisha usa could con Ms. Park y can con Ben?",
+          "opciones": [
+            {
+              "texto": "Porque could es más cortés, y Ms. Park es su jefa.",
+              "correcta": true,
+              "porque": "Correcto: could suaviza la petición; con un compañero de confianza can es suficiente."
+            },
+            {
+              "texto": "Porque could es el pasado y habla de ayer.",
+              "correcta": false,
+              "porque": "Aquí could no es pasado: pide permiso para hoy (today)."
+            },
+            {
+              "texto": "Porque can solo se usa con hombres.",
+              "correcta": false,
+              "porque": "Can y could no cambian según el género."
+            }
+          ]
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa la petición de Aisha a Ms. Park.",
+          "pistas": [
+            "Es una petición de permiso.",
+            "La palabra va antes del sujeto I.",
+            "Could I…? (más cortés) o Can I…?"
+          ],
+          "solucion": {
+            "respuesta": "Could",
+            "explicacion": "La respuesta que se oye es Could: Could I leave early today? es una forma cortés de pedir permiso. Can también sería gramaticalmente correcto, aunque menos formal."
+          },
+          "frase": "___ I leave early today?",
+          "respuestas": [
+            [
+              "Could",
+              "Can"
+            ]
+          ],
+          "traduccion": "¿Podría salir temprano hoy?",
+          "errores_tipicos": {
+            "Do": "Para pedir permiso se usa can o could: Could I leave early?"
+          }
+        },
+        {
+          "id": "escucha.un-favor-y-un-permiso.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe la pregunta de Ms. Park.",
+          "pistas": [
+            "Es una petición con could.",
+            "Could + you + verbo base.",
+            "Could + you + verbo base + objeto + before + sujeto + verbo."
+          ],
+          "solucion": {
+            "respuesta": "Could you finish the sales report before you go?",
+            "explicacion": "La frase es Could you finish the sales report before you go?: could para pedir algo con cortesía, seguido del sujeto y del verbo en forma base (finish)."
+          },
+          "texto": "Could you finish the sales report before you go?"
+        }
+      ]
+    },
+    {
+      "slug": "que-tal-tu-fin-de-semana",
+      "titulo": "¿Qué tal tu fin de semana?",
+      "nivel": "A2",
+      "unidad": "pasado-simple-regular",
+      "contexto": "Es lunes. Mei y Tom se encuentran y se cuentan cómo les fue.",
+      "hablantes": [
+        {
+          "nombre": "Mei",
+          "voz": "a"
+        },
+        {
+          "nombre": "Tom",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Mei",
+          "en": "Hi, Tom! How was your weekend?",
+          "es": "¡Hola, Tom! ¿Qué tal tu fin de semana?"
+        },
+        {
+          "quien": "Tom",
+          "en": "It was great, thanks! On Saturday, I visited my grandparents in the country.",
+          "es": "¡Estuvo genial, gracias! El sábado visité a mis abuelos en el campo."
+        },
+        {
+          "quien": "Mei",
+          "en": "Oh, nice! Were they happy to see you?",
+          "es": "¡Qué bien! ¿Estaban contentos de verte?"
+        },
+        {
+          "quien": "Tom",
+          "en": "Very happy! My grandmother cooked a huge lunch, and after lunch we played cards all afternoon. Then my grandfather showed me his garden. It's beautiful.",
+          "es": "¡Muy contentos! Mi abuela cocinó una comida enorme, y después de comer jugamos cartas toda la tarde. Luego mi abuelo me enseñó su jardín. Es precioso."
+        },
+        {
+          "quien": "Mei",
+          "en": "That sounds lovely.",
+          "es": "Suena muy bonito."
+        },
+        {
+          "quien": "Tom",
+          "en": "What about you? Were you busy?",
+          "es": "¿Y tú? ¿Estuviste ocupada?"
+        },
+        {
+          "quien": "Mei",
+          "en": "Oh, yes! On Saturday morning, I cleaned my whole apartment, and then I washed my car. In the evening, I stayed at home and watched two movies.",
+          "es": "¡Ay, sí! El sábado en la mañana limpié todo mi departamento y luego lavé mi carro. En la noche me quedé en casa y vi dos películas."
+        },
+        {
+          "quien": "Tom",
+          "en": "Two movies! Were they good?",
+          "es": "¡Dos películas! ¿Estuvieron buenas?"
+        },
+        {
+          "quien": "Mei",
+          "en": "The first one was really funny. The second one was terrible. I stopped it after twenty minutes!",
+          "es": "La primera estuvo muy chistosa. La segunda, malísima. ¡La quité a los veinte minutos!"
+        },
+        {
+          "quien": "Tom",
+          "en": "And on Sunday?",
+          "es": "¿Y el domingo?"
+        },
+        {
+          "quien": "Mei",
+          "en": "On Sunday it rained all day, so I studied for my English exam. I practiced my listening for three hours.",
+          "es": "El domingo llovió todo el día, así que estudié para mi examen de inglés. Practiqué la comprensión auditiva durante tres horas."
+        },
+        {
+          "quien": "Tom",
+          "en": "Three hours? Wow, well done!",
+          "es": "¿Tres horas? ¡Guau, muy bien!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "How was your weekend?",
+          "es": "¿Qué tal tu fin de semana?"
+        },
+        {
+          "en": "grandparents",
+          "es": "abuelos"
+        },
+        {
+          "en": "in the country",
+          "es": "en el campo"
+        },
+        {
+          "en": "huge",
+          "es": "enorme"
+        },
+        {
+          "en": "That sounds lovely.",
+          "es": "Suena muy bonito."
+        },
+        {
+          "en": "whole",
+          "es": "todo, entero"
+        },
+        {
+          "en": "Well done!",
+          "es": "¡Muy bien!, ¡bien hecho!"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la primera pregunta de Mei.",
+            "¿Los verbos están en presente o en pasado?",
+            "Visited, cooked, played, cleaned: pasado simple."
+          ],
+          "solucion": {
+            "respuesta": "De lo que hicieron el fin de semana pasado.",
+            "explicacion": "Hablan del fin de semana pasado: Mei pregunta How was your weekend? y ambos cuentan lo que hicieron con verbos en pasado (visited, cooked, cleaned, studied)."
+          },
+          "pregunta": "¿De qué hablan Mei y Tom?",
+          "opciones": [
+            {
+              "texto": "De lo que hicieron el fin de semana pasado.",
+              "correcta": true,
+              "porque": "Correcto: How was your weekend? y todo el diálogo está en pasado."
+            },
+            {
+              "texto": "De sus planes para el próximo fin de semana.",
+              "correcta": false,
+              "porque": "Los verbos están en pasado (visited, cleaned, rained): ya ocurrió."
+            },
+            {
+              "texto": "De su examen de inglés.",
+              "correcta": false,
+              "porque": "Mei menciona que estudió para el examen, pero es solo una parte de su fin de semana."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la primera respuesta de Tom.",
+            "On Saturday, I…",
+            "Limpiar y estudiar son cosas que hizo Mei, no Tom."
+          ],
+          "solucion": {
+            "respuesta": "Visitó a sus abuelos en el campo.",
+            "explicacion": "Tom visitó a sus abuelos: On Saturday, I visited my grandparents in the country."
+          },
+          "pregunta": "¿Qué hizo Tom el sábado?",
+          "opciones": [
+            {
+              "texto": "Visitó a sus abuelos en el campo.",
+              "correcta": true,
+              "porque": "Correcto: I visited my grandparents in the country."
+            },
+            {
+              "texto": "Limpió su departamento.",
+              "correcta": false,
+              "porque": "Eso lo hizo Mei."
+            },
+            {
+              "texto": "Estudió para un examen.",
+              "correcta": false,
+              "porque": "Eso lo hizo Mei el domingo."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Busca after lunch.",
+            "Escucha el verbo que sigue a we.",
+            "Las películas y el jardín son de otra persona o de otro momento."
+          ],
+          "solucion": {
+            "respuesta": "Jugaron cartas toda la tarde.",
+            "explicacion": "Jugaron cartas: after lunch we played cards all afternoon. Después, el abuelo le enseñó su jardín."
+          },
+          "pregunta": "¿Qué hicieron Tom y sus abuelos después de comer?",
+          "opciones": [
+            {
+              "texto": "Jugaron cartas toda la tarde.",
+              "correcta": true,
+              "porque": "Correcto: after lunch we played cards all afternoon."
+            },
+            {
+              "texto": "Vieron dos películas.",
+              "correcta": false,
+              "porque": "Las películas las vio Mei."
+            },
+            {
+              "texto": "Trabajaron en el jardín.",
+              "correcta": false,
+              "porque": "El abuelo le enseñó el jardín, pero no dice que trabajaran en él."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca On Sunday.",
+            "Escucha la palabra so: une causa y consecuencia.",
+            "Rained → so → studied."
+          ],
+          "solucion": {
+            "respuesta": "Porque llovió todo el día y tiene un examen de inglés.",
+            "explicacion": "Estudió porque llovió y tiene examen: On Sunday it rained all day, so I studied for my English exam. So une la causa (la lluvia) con la consecuencia."
+          },
+          "pregunta": "¿Por qué Mei estudió el domingo?",
+          "opciones": [
+            {
+              "texto": "Porque llovió todo el día y tiene un examen de inglés.",
+              "correcta": true,
+              "porque": "Correcto: it rained all day, so I studied for my English exam. So introduce la consecuencia."
+            },
+            {
+              "texto": "Porque no le gustó la segunda película.",
+              "correcta": false,
+              "porque": "Eso fue el sábado en la noche y no tiene relación con el estudio."
+            },
+            {
+              "texto": "Porque Tom se lo pidió.",
+              "correcta": false,
+              "porque": "Tom no le pide nada."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.05",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el pasado de study.",
+          "pistas": [
+            "Study es regular, pero cambia la ortografía.",
+            "Termina en consonante + y.",
+            "Consonante + y → -ied."
+          ],
+          "solucion": {
+            "respuesta": "studied",
+            "explicacion": "La respuesta es studied: study termina en consonante + y, así que la y cambia a i y se añade -ed."
+          },
+          "frase": "On Sunday it rained all day, so I ___ for my English exam.",
+          "respuestas": [
+            [
+              "studied"
+            ]
+          ],
+          "traduccion": "El domingo llovió todo el día, así que estudié para mi examen de inglés.",
+          "errores_tipicos": {
+            "studyed": "Consonante + y cambia la y por i: studied.",
+            "study": "La historia es en pasado: studied."
+          }
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.06",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Escucha la respuesta a Were they good?",
+            "La primera fue… la segunda fue…",
+            "Terrible = malísima."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: la primera was really funny, pero la segunda was terrible, tanto que la quitó a los veinte minutos."
+          },
+          "pregunta": "Mei liked both movies.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: la segunda le pareció terrible y la quitó."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: The second one was terrible. I stopped it after twenty minutes!"
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: Mei opina sobre las dos películas."
+            }
+          ]
+        },
+        {
+          "id": "escucha.que-tal-tu-fin-de-semana.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que hizo Mei el sábado en la noche.",
+          "pistas": [
+            "Hay dos verbos regulares en pasado.",
+            "Los dos terminan en -ed.",
+            "Stay termina en vocal + y: solo añade -ed, sin cambiar la y."
+          ],
+          "solucion": {
+            "respuesta": "In the evening, I stayed at home and watched two movies.",
+            "explicacion": "La frase es In the evening, I stayed at home and watched two movies: dos verbos regulares en pasado (stayed, watched). Stay termina en vocal + y, así que no cambia la y."
+          },
+          "texto": "In the evening, I stayed at home and watched two movies.",
+          "respuestas": [
+            "In the evening, I stayed at home and watched 2 movies."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "el-telefono-perdido",
+      "titulo": "Una historia con final feliz",
+      "nivel": "A2",
+      "unidad": "pasado-simple-irregular",
+      "contexto": "Omar llega muy contento y Lucía le pregunta por qué. Él le cuenta lo que le pasó entre ayer y hoy.",
+      "hablantes": [
+        {
+          "nombre": "Lucía",
+          "voz": "a"
+        },
+        {
+          "nombre": "Omar",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Lucía",
+          "en": "Omar, you look happy! What happened?",
+          "es": "¡Omar, te ves contento! ¿Qué pasó?"
+        },
+        {
+          "quien": "Omar",
+          "en": "It's a crazy story. Yesterday I lost my phone.",
+          "es": "Es una historia loca. Ayer perdí mi celular."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Oh no! Where did you lose it?",
+          "es": "¡Ay, no! ¿Dónde lo perdiste?"
+        },
+        {
+          "quien": "Omar",
+          "en": "On the bus. I got off at my stop, and I left it on the seat. I didn't notice at first. Then I got home, and I put my hand in my pocket. Nothing!",
+          "es": "En el autobús. Me bajé en mi parada y lo dejé en el asiento. Al principio no me di cuenta. Luego llegué a casa, metí la mano en el bolsillo… ¡y nada!"
+        },
+        {
+          "quien": "Lucía",
+          "en": "What did you do?",
+          "es": "¿Y qué hiciste?"
+        },
+        {
+          "quien": "Omar",
+          "en": "First, I ran back to the bus stop, but of course the bus wasn't there. Then I called my number from my sister's phone. Nobody answered.",
+          "es": "Primero regresé corriendo a la parada, pero claro, el autobús ya no estaba. Luego llamé a mi número desde el celular de mi hermana. Nadie contestó."
+        },
+        {
+          "quien": "Lucía",
+          "en": "Did you call the bus company?",
+          "es": "¿Llamaste a la compañía de autobuses?"
+        },
+        {
+          "quien": "Omar",
+          "en": "Yes, I did. A woman said, \"Sorry, nobody has it.\" I felt terrible, and I went to bed very sad.",
+          "es": "Sí. Una señora me dijo: «Lo siento, nadie lo tiene». Me sentí fatal y me fui a dormir muy triste."
+        },
+        {
+          "quien": "Lucía",
+          "en": "And then?",
+          "es": "¿Y luego?"
+        },
+        {
+          "quien": "Omar",
+          "en": "This morning, someone knocked on my door. It was a little boy with his mother. The boy had my phone in his hand! They found it on the bus yesterday, and they saw my address on a card in the phone case.",
+          "es": "Esta mañana alguien tocó a mi puerta. Era un niño con su mamá. ¡El niño tenía mi celular en la mano! Lo encontraron ayer en el autobús y vieron mi dirección en una tarjeta dentro de la funda."
+        },
+        {
+          "quien": "Lucía",
+          "en": "That's amazing! Did you give him anything?",
+          "es": "¡Qué increíble! ¿Le diste algo?"
+        },
+        {
+          "quien": "Omar",
+          "en": "Yes, I gave him ten dollars and a big bag of chocolates. He was very happy, and so was I!",
+          "es": "Sí, le di diez dólares y una bolsa grande de chocolates. Él quedó muy contento, ¡y yo también!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "What happened?",
+          "es": "¿Qué pasó?"
+        },
+        {
+          "en": "get off (the bus)",
+          "es": "bajarse (del autobús)",
+          "nota": "Pasado: got off."
+        },
+        {
+          "en": "leave",
+          "es": "dejar (olvidar en un lugar)",
+          "nota": "Pasado irregular: left."
+        },
+        {
+          "en": "notice",
+          "es": "darse cuenta, notar"
+        },
+        {
+          "en": "pocket",
+          "es": "bolsillo"
+        },
+        {
+          "en": "knock on the door",
+          "es": "tocar la puerta"
+        },
+        {
+          "en": "phone case",
+          "es": "funda del celular"
+        },
+        {
+          "en": "so was I",
+          "es": "yo también (lo estaba)"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.el-telefono-perdido.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha el principio y el final de la historia.",
+            "Yesterday I lost my phone… The boy had my phone in his hand!",
+            "Lost = perdí; had = tenía."
+          ],
+          "solucion": {
+            "respuesta": "Que perdió su celular y alguien se lo devolvió.",
+            "explicacion": "Omar cuenta que perdió su celular (Yesterday I lost my phone) y que esta mañana un niño se lo devolvió: The boy had my phone in his hand!"
+          },
+          "pregunta": "¿Qué cuenta Omar?",
+          "opciones": [
+            {
+              "texto": "Que perdió su celular y alguien se lo devolvió.",
+              "correcta": true,
+              "porque": "Correcto: lo perdió ayer en el autobús y hoy un niño se lo llevó a su casa."
+            },
+            {
+              "texto": "Que le robaron el celular en el autobús.",
+              "correcta": false,
+              "porque": "Nadie se lo robó: él lo dejó en el asiento (I left it on the seat)."
+            },
+            {
+              "texto": "Que compró un celular nuevo.",
+              "correcta": false,
+              "porque": "Recuperó el suyo; no compró otro."
+            }
+          ]
+        },
+        {
+          "id": "escucha.el-telefono-perdido.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta a Where did you lose it?",
+            "I left it on the…",
+            "On the bus y on the seat: el segundo lugar es más preciso que el primero."
+          ],
+          "solucion": {
+            "respuesta": "En el asiento del autobús.",
+            "explicacion": "Lo dejó en el asiento del autobús: On the bus… I left it on the seat. Left es el pasado irregular de leave."
+          },
+          "pregunta": "¿Dónde dejó Omar su celular?",
+          "opciones": [
+            {
+              "texto": "En el asiento del autobús.",
+              "correcta": true,
+              "porque": "Correcto: I left it on the seat."
+            },
+            {
+              "texto": "En la parada del autobús.",
+              "correcta": false,
+              "porque": "Regresó corriendo a la parada, pero lo había dejado dentro del autobús."
+            },
+            {
+              "texto": "En el celular de su hermana.",
+              "correcta": false,
+              "porque": "Usó el celular de su hermana para llamar a su número."
+            }
+          ]
+        },
+        {
+          "id": "escucha.el-telefono-perdido.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la respuesta a What did you do?",
+            "Busca la palabra first.",
+            "Las otras acciones (llamar a la compañía, irse a dormir) llegan después, con then o más tarde."
+          ],
+          "solucion": {
+            "respuesta": "Regresó corriendo a la parada.",
+            "explicacion": "Lo primero fue regresar corriendo a la parada: First, I ran back to the bus stop. First, then y after that ordenan las acciones de la historia."
+          },
+          "pregunta": "¿Qué fue lo primero que hizo Omar al notar que no tenía el celular?",
+          "opciones": [
+            {
+              "texto": "Regresó corriendo a la parada.",
+              "correcta": true,
+              "porque": "Correcto: First, I ran back to the bus stop."
+            },
+            {
+              "texto": "Llamó a la compañía de autobuses.",
+              "correcta": false,
+              "porque": "Eso lo hizo después; first marca la primera acción."
+            },
+            {
+              "texto": "Se fue a dormir.",
+              "correcta": false,
+              "porque": "Eso fue lo último que hizo ese día."
+            }
+          ]
+        },
+        {
+          "id": "escucha.el-telefono-perdido.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Escucha la parte de This morning…",
+            "Busca la palabra address.",
+            "They saw my address on…: escucha dónde estaba escrita."
+          ],
+          "solucion": {
+            "respuesta": "Vieron su dirección en una tarjeta dentro de la funda.",
+            "explicacion": "La vieron en una tarjeta de la funda: they saw my address on a card in the phone case. Por eso pudieron tocar a su puerta."
+          },
+          "pregunta": "¿Cómo supieron el niño y su mamá dónde vivía Omar?",
+          "opciones": [
+            {
+              "texto": "Vieron su dirección en una tarjeta dentro de la funda.",
+              "correcta": true,
+              "porque": "Correcto: they saw my address on a card in the phone case."
+            },
+            {
+              "texto": "La compañía de autobuses les dio la dirección.",
+              "correcta": false,
+              "porque": "La compañía dijo que nadie tenía el celular."
+            },
+            {
+              "texto": "Llamaron a la hermana de Omar.",
+              "correcta": false,
+              "porque": "No se dice que hablaran con su hermana."
+            }
+          ]
+        },
+        {
+          "id": "escucha.el-telefono-perdido.05",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el pasado de leave.",
+          "pistas": [
+            "Leave es un verbo irregular.",
+            "Toda la historia está en pasado; mira got off.",
+            "Leave es irregular: no añade -ed, y cambia la vocal y el final (como feel → felt)."
+          ],
+          "solucion": {
+            "respuesta": "left",
+            "explicacion": "La respuesta es left: leave (dejar) es irregular y su pasado es left, no leaved."
+          },
+          "frase": "I got off at my stop, and I ___ it on the seat.",
+          "respuestas": [
+            [
+              "left"
+            ]
+          ],
+          "traduccion": "Me bajé en mi parada y lo dejé en el asiento.",
+          "errores_tipicos": {
+            "leaved": "Leave es irregular: su pasado es left.",
+            "leave": "La historia está en pasado: left."
+          }
+        },
+        {
+          "id": "escucha.el-telefono-perdido.06",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la pregunta de Lucía.",
+          "pistas": [
+            "Es una pregunta en pasado con palabra interrogativa.",
+            "Where + did + sujeto.",
+            "Palabra interrogativa + did + sujeto + verbo base + objeto."
+          ],
+          "solucion": {
+            "respuesta": "Where did you lose it?",
+            "explicacion": "El orden es Where did you lose it?: where al principio, did como auxiliar del pasado, el sujeto you y el verbo lose en forma base, porque did ya indica el pasado."
+          },
+          "fichas": [
+            "you",
+            "did",
+            "Where",
+            "it",
+            "lose"
+          ],
+          "respuestas": [
+            "Where did you lose it?"
+          ],
+          "traduccion": "¿Dónde lo perdiste?"
+        },
+        {
+          "id": "escucha.el-telefono-perdido.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Omar.",
+          "pistas": [
+            "Hay dos verbos irregulares en pasado.",
+            "Get off y leave son verbos irregulares.",
+            "Dos oraciones unidas por and, cada una con su sujeto I."
+          ],
+          "solucion": {
+            "respuesta": "I got off at my stop, and I left it on the seat.",
+            "explicacion": "La frase es I got off at my stop, and I left it on the seat: dos pasados irregulares (got off, left) unidos por and."
+          },
+          "texto": "I got off at my stop, and I left it on the seat."
+        }
+      ]
+    },
+    {
+      "slug": "planear-un-viaje",
+      "titulo": "Cuatro días libres",
+      "nivel": "A2",
+      "unidad": "todos-los-tiempos",
+      "contexto": "Priya y Sam son amigos y tienen unos días libres en mayo.",
+      "hablantes": [
+        {
+          "nombre": "Priya",
+          "voz": "a"
+        },
+        {
+          "nombre": "Sam",
+          "voz": "b"
+        }
+      ],
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "So, Sam, we have four days off in May. Where do you want to go?",
+          "es": "Bueno, Sam, tenemos cuatro días libres en mayo. ¿Adónde quieres ir?"
+        },
+        {
+          "quien": "Sam",
+          "en": "What about the mountains? Last year I went to Pine Valley, and I loved it.",
+          "es": "¿Qué tal las montañas? El año pasado fui a Pine Valley y me encantó."
+        },
+        {
+          "quien": "Priya",
+          "en": "The mountains? It's usually cold there in May, and I don't have any warm clothes.",
+          "es": "¿Las montañas? Allá normalmente hace frío en mayo y no tengo ropa abrigadora."
+        },
+        {
+          "quien": "Sam",
+          "en": "Well, we could go to the beach. My cousin has a small house in Puerto Azul. We can stay there for free.",
+          "es": "Bueno, podríamos ir a la playa. Mi primo tiene una casita en Puerto Azul. Podemos quedarnos ahí gratis."
+        },
+        {
+          "quien": "Priya",
+          "en": "For free? Perfect! How do we get there?",
+          "es": "¿Gratis? ¡Perfecto! ¿Cómo llegamos?"
+        },
+        {
+          "quien": "Sam",
+          "en": "There's a bus from the city center. It leaves at nine in the morning, and the trip takes five hours. It costs twenty-five dollars. Or we could take the train. The train takes three hours, but it costs sixty dollars.",
+          "es": "Hay un autobús desde el centro. Sale a las nueve de la mañana y el viaje dura cinco horas. Cuesta veinticinco dólares. O podríamos tomar el tren. El tren tarda tres horas, pero cuesta sesenta dólares."
+        },
+        {
+          "quien": "Priya",
+          "en": "The bus, then. I'm saving money for a new laptop.",
+          "es": "El autobús, entonces. Estoy ahorrando para una computadora portátil nueva."
+        },
+        {
+          "quien": "Sam",
+          "en": "OK. I'm calling my cousin tonight. Is Thursday the fifteenth good for you?",
+          "es": "Está bien. Hoy en la noche le llamo a mi primo. ¿Te queda bien el jueves quince?"
+        },
+        {
+          "quien": "Priya",
+          "en": "Hmm, I'm working on Thursday morning. Is there a bus in the afternoon?",
+          "es": "Mmm, el jueves en la mañana trabajo. ¿Hay algún autobús en la tarde?"
+        },
+        {
+          "quien": "Sam",
+          "en": "Yes, there's another one at three.",
+          "es": "Sí, hay otro a las tres."
+        },
+        {
+          "quien": "Priya",
+          "en": "Great. Oh, and one thing: I can't swim, so I'm not going on any boats!",
+          "es": "Genial. Ah, y una cosa: no sé nadar, ¡así que no me voy a subir a ningún barco!"
+        },
+        {
+          "quien": "Sam",
+          "en": "No problem. We can walk on the beach and eat fresh fish every day.",
+          "es": "No hay problema. Podemos caminar por la playa y comer pescado fresco todos los días."
+        },
+        {
+          "quien": "Priya",
+          "en": "That sounds perfect. I'm buying the bus tickets now!",
+          "es": "Suena perfecto. ¡Ahorita compro los boletos del autobús!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "days off",
+          "es": "días libres (sin trabajar)"
+        },
+        {
+          "en": "What about…?",
+          "es": "¿Qué tal…?, ¿y si…?"
+        },
+        {
+          "en": "warm clothes",
+          "es": "ropa abrigadora"
+        },
+        {
+          "en": "for free",
+          "es": "gratis"
+        },
+        {
+          "en": "city center",
+          "es": "centro de la ciudad"
+        },
+        {
+          "en": "take (time)",
+          "es": "tardar, durar",
+          "nota": "The trip takes five hours = el viaje dura cinco horas."
+        },
+        {
+          "en": "save money",
+          "es": "ahorrar dinero"
+        },
+        {
+          "en": "laptop",
+          "es": "computadora portátil, laptop"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "escucha.planear-un-viaje.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Pregunta global.",
+          "pistas": [
+            "Escucha la primera pregunta de Priya.",
+            "Where do you want to go?",
+            "Destino, transporte, fecha: están planeando."
+          ],
+          "solucion": {
+            "respuesta": "Planean un viaje corto juntos.",
+            "explicacion": "Planean un viaje: Priya pregunta Where do you want to go? y deciden destino (la playa), transporte (el autobús) y fecha."
+          },
+          "pregunta": "¿De qué hablan Priya y Sam?",
+          "opciones": [
+            {
+              "texto": "Planean un viaje corto juntos.",
+              "correcta": true,
+              "porque": "Correcto: eligen destino, transporte, fecha y hasta actividades."
+            },
+            {
+              "texto": "Recuerdan un viaje que hicieron juntos.",
+              "correcta": false,
+              "porque": "Solo Sam recuerda un viaje suyo del año pasado; el resto es un plan futuro."
+            },
+            {
+              "texto": "Discuten porque no quieren viajar.",
+              "correcta": false,
+              "porque": "Los dos quieren viajar: solo negocian adónde y cómo."
+            }
+          ]
+        },
+        {
+          "id": "escucha.planear-un-viaje.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Detalle.",
+          "pistas": [
+            "Escucha la reacción de Priya a the mountains.",
+            "Hay dos razones unidas por and.",
+            "Una razón habla del clima y la otra de lo que Priya no tiene."
+          ],
+          "solucion": {
+            "respuesta": "Porque hace frío en mayo y no tiene ropa abrigadora.",
+            "explicacion": "No quiere porque hace frío: It's usually cold there in May, and I don't have any warm clothes."
+          },
+          "pregunta": "¿Por qué Priya no quiere ir a las montañas?",
+          "opciones": [
+            {
+              "texto": "Porque hace frío en mayo y no tiene ropa abrigadora.",
+              "correcta": true,
+              "porque": "Correcto: It's usually cold there in May, and I don't have any warm clothes."
+            },
+            {
+              "texto": "Porque ya fue el año pasado.",
+              "correcta": false,
+              "porque": "Quien fue el año pasado es Sam."
+            },
+            {
+              "texto": "Porque es muy caro.",
+              "correcta": false,
+              "porque": "El precio se discute para el transporte, no para las montañas."
+            }
+          ]
+        },
+        {
+          "id": "escucha.planear-un-viaje.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Compara el tiempo y el precio de cada opción.",
+            "Bus: 5 horas, 25 dólares. Tren: 3 horas, 60 dólares.",
+            "Escucha lo que dice Priya justo después: I'm saving money…"
+          ],
+          "solucion": {
+            "respuesta": "Porque es más barato y Priya está ahorrando.",
+            "explicacion": "Eligen el autobús porque es más barato (twenty-five dollars frente a sixty) y Priya está ahorrando para una laptop, aunque tarde más."
+          },
+          "pregunta": "¿Por qué eligen el autobús y no el tren?",
+          "opciones": [
+            {
+              "texto": "Porque es más barato y Priya está ahorrando.",
+              "correcta": true,
+              "porque": "Correcto: el autobús cuesta 25 dólares y el tren 60, y Priya dice I'm saving money."
+            },
+            {
+              "texto": "Porque el autobús es más rápido.",
+              "correcta": false,
+              "porque": "Al contrario: el autobús tarda cinco horas y el tren tres."
+            },
+            {
+              "texto": "Porque no hay tren a Puerto Azul.",
+              "correcta": false,
+              "porque": "Sí hay tren: Sam lo propone como opción."
+            }
+          ]
+        },
+        {
+          "id": "escucha.planear-un-viaje.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "¿Qué hace Priya el jueves en la mañana?",
+            "I'm working on Thursday morning.",
+            "Escucha la respuesta de Sam sobre la tarde."
+          ],
+          "solucion": {
+            "respuesta": "A las tres de la tarde.",
+            "explicacion": "Salen a las tres: el autobús de las nueve no le sirve a Priya porque I'm working on Thursday morning, y Sam dice there's another one at three."
+          },
+          "pregunta": "¿A qué hora salen el jueves?",
+          "opciones": [
+            {
+              "texto": "A las tres de la tarde.",
+              "correcta": true,
+              "porque": "Correcto: Priya trabaja en la mañana y hay otro autobús at three."
+            },
+            {
+              "texto": "A las nueve de la mañana.",
+              "correcta": false,
+              "porque": "Ese autobús sale mientras Priya trabaja (I'm working on Thursday morning)."
+            },
+            {
+              "texto": "No salen el jueves.",
+              "correcta": false,
+              "porque": "Sí salen el jueves, pero en la tarde."
+            }
+          ]
+        },
+        {
+          "id": "escucha.planear-un-viaje.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Gramática en contexto.",
+          "pistas": [
+            "Fíjate en la expresión de tiempo.",
+            "Tonight = esta noche (todavía no ha pasado).",
+            "Continuo + expresión de futuro = plan."
+          ],
+          "solucion": {
+            "respuesta": "Un plan ya decidido para esta noche.",
+            "explicacion": "Expresa un plan: aunque la forma es presente continuo, tonight lo sitúa en el futuro. Es el mismo uso que I'm working on Thursday morning."
+          },
+          "pregunta": "En «I'm calling my cousin tonight», ¿qué expresa el presente continuo?",
+          "opciones": [
+            {
+              "texto": "Un plan ya decidido para esta noche.",
+              "correcta": true,
+              "porque": "Correcto: tonight indica futuro; el continuo expresa un plan organizado."
+            },
+            {
+              "texto": "Una acción que está ocurriendo en este momento.",
+              "correcta": false,
+              "porque": "Sam no está llamando ahora: está hablando con Priya. Tonight señala el futuro."
+            },
+            {
+              "texto": "Un hábito de todas las noches.",
+              "correcta": false,
+              "porque": "Para un hábito se usaría el presente simple (I call my cousin every night)."
+            }
+          ]
+        },
+        {
+          "id": "escucha.planear-un-viaje.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con la palabra exacta que usa Sam para proponer.",
+          "pistas": [
+            "Sam hace una sugerencia.",
+            "Es un modal que sirve para proponer.",
+            "We could + verbo base = podríamos…"
+          ],
+          "solucion": {
+            "respuesta": "could",
+            "explicacion": "La respuesta es could: we could + verbo base sirve para sugerir una posibilidad («podríamos ir a la playa»)."
+          },
+          "frase": "Well, we ___ go to the beach.",
+          "respuestas": [
+            [
+              "could"
+            ]
+          ],
+          "traduccion": "Bueno, podríamos ir a la playa.",
+          "errores_tipicos": {
+            "can to": "Después de un modal no va to. Y para sugerir, Sam usa could.",
+            "could to": "Después de could no va to: could go.",
+            "can": "Can también es posible para sugerir, pero Sam dice could, más suave. Escucha otra vez."
+          }
+        },
+        {
+          "id": "escucha.planear-un-viaje.07",
+          "tipo": "dictado",
+          "dificultad": 2,
+          "enunciado": "Escucha y escribe lo que dice Priya sobre nadar.",
+          "pistas": [
+            "Hay un modal en negativa y un presente continuo en negativa.",
+            "So une causa y consecuencia.",
+            "Primero la habilidad en negativa, luego so y una decisión en negativa con be + -ing."
+          ],
+          "solucion": {
+            "respuesta": "I can't swim, so I'm not going on any boats!",
+            "explicacion": "La frase es I can't swim, so I'm not going on any boats!: can't para una habilidad que no tiene, y el presente continuo negativo para una decisión sobre el viaje."
+          },
+          "texto": "I can't swim, so I'm not going on any boats!"
+        }
+      ]
+    }
+  ]
+}

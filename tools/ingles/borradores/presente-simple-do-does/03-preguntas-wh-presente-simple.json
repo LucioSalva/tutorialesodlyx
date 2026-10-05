@@ -1,0 +1,541 @@
+{
+  "slug": "preguntas-wh-presente-simple",
+  "titulo": "Preguntas con palabras interrogativas",
+  "minutos": 45,
+  "objetivos": [
+    "Formar preguntas con palabra interrogativa + do / does + sujeto + verbo base (Where do you live?).",
+    "Preguntar por horarios con What time does…? y por profesiones con What do you do?",
+    "Elegir entre be y do en preguntas wh (Where are you from? / Where do you live?).",
+    "Pronunciar las preguntas wh con entonación descendente."
+  ],
+  "situacion": {
+    "titulo": "Primer día en el grupo de conversación",
+    "texto": "Sam llega a un grupo de conversación en inglés. La coordinadora, Priya, le hace preguntas para conocerlo. Fíjate en cuáles usan are y cuáles usan do.",
+    "dialogo": [
+      { "quien": "Priya", "en": "Welcome, Sam! Where are you from?", "es": "¡Bienvenido, Sam! ¿De dónde eres?" },
+      { "quien": "Sam", "en": "I'm from Monterrey.", "es": "Soy de Monterrey." },
+      { "quien": "Priya", "en": "And where do you live now?", "es": "¿Y dónde vives ahora?" },
+      { "quien": "Sam", "en": "I live here, in Querétaro.", "es": "Vivo aquí, en Querétaro." },
+      { "quien": "Priya", "en": "What do you do?", "es": "¿A qué te dedicas?" },
+      { "quien": "Sam", "en": "I'm an engineer. I work at a car factory.", "es": "Soy ingeniero. Trabajo en una fábrica de autos." },
+      { "quien": "Priya", "en": "Great. What time do you finish work? Our group starts at seven.", "es": "Muy bien. ¿A qué hora sales del trabajo? Nuestro grupo empieza a las siete." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "wh-do-does",
+      "titulo": "Palabra interrogativa + do / does + sujeto + verbo",
+      "que_es": "Ya conoces las palabras interrogativas ([[where]], [[what]], [[what time]], [[who]], [[when]], [[why]], [[how]]) y ya sabes hacer preguntas de sí o no con [[Do]] / [[Does]]. Una pregunta wh es simplemente las dos cosas juntas: la palabra interrogativa va **delante** de una pregunta de sí o no.",
+      "para_que": [
+        "Conocer a alguien: dónde vive, a qué se dedica, qué estudia.",
+        "Informarte de horarios: a qué hora abre el banco, a qué hora sale tu camión.",
+        "Pedir detalles: con quién vives, qué idiomas hablas, cómo vas al trabajo."
+      ],
+      "como_funciona": "Piensa en la pregunta en dos pasos:\n\n1. Pregunta de sí o no: [[Do you live in Querétaro?]]\n2. Cambia la información que no sabes por la palabra interrogativa y ponla al principio: [[Where do you live?]]\n\nFórmula: **Palabra wh + do / does + sujeto + verbo en forma base (+ resto)?**\n\n- [[Where do you live?]] (you → do)\n- [[What time does the shop open?]] (the shop → it → does)\n- [[What does your brother do?]] (your brother → he → does)\n\nLa regla de la -s es la misma de siempre: si hay [[does]], el verbo principal va en forma base. Por eso es [[What time does the shop open?]] y no [[…open**s**?]].\n\n**What do you do?** Esta pregunta tiene dos veces do: el primero es el auxiliar y el segundo es el verbo «hacer». Significa «¿A qué te dedicas?». En tercera persona: [[What does she do?]] — el auxiliar lleva la -s ([[does]]) y el verbo principal queda [[do]]. Se contesta normalmente con be + profesión: [[She's a dentist.]]\n\n**How often…?** («¿Con qué frecuencia…?») funciona igual: [[How often do you go to the gym?]] — [[Every day.]] Las respuestas con frecuencia las estudiarás a fondo en la próxima unidad.\n\n**Entonación:** a diferencia de las preguntas de sí o no, las preguntas wh suelen **bajar** al final (↘).\n\n**Una excepción que existe:** cuando [[who]] o [[what]] son el **sujeto** de la pregunta (la persona que hace la acción), no se usa do: [[Who lives here?]] («¿Quién vive aquí?»). Compáralo con [[Who do you live with?]] («¿Con quién vives?»), donde el sujeto es you. Por ahora basta con que la reconozcas; la practicarás más adelante.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta wh con I / you / we / they",
+          "formula": [ {"t": "Palabra wh", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "(resto) ?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Where", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "live?", "rol": "verbo"} ],
+          "es": "¿Dónde vives?"
+        },
+        {
+          "etiqueta": "Pregunta wh con he / she / it y sujetos singulares",
+          "formula": [ {"t": "Palabra wh", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "sujeto singular", "rol": "sujeto"}, {"t": "verbo base (sin -s)", "rol": "verbo"}, {"t": "(resto) ?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "What time", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "the shop", "rol": "sujeto"}, {"t": "open?", "rol": "verbo"} ],
+          "es": "¿A qué hora abre la tienda?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Preguntas wh frecuentes en presente simple",
+          "columnas": ["Pregunta", "Significado", "Respuesta posible"],
+          "filas": [
+            ["Where do you live?", "¿Dónde vives?", "I live in Puebla."],
+            ["What do you do?", "¿A qué te dedicas?", "I'm a nurse."],
+            ["What does your sister study?", "¿Qué estudia tu hermana?", "She studies law."],
+            ["What time does the bank open?", "¿A qué hora abre el banco?", "It opens at nine."],
+            ["Who do you live with?", "¿Con quién vives?", "I live with my parents."],
+            ["How often do you go to the gym?", "¿Con qué frecuencia vas al gimnasio?", "Every day."],
+            ["Why do you study English?", "¿Por qué estudias inglés?", "Because I need it for work."]
+          ],
+          "audio": [0, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Where does your brother work?",
+          "es": "¿Dónde trabaja tu hermano?",
+          "situacion": "Ya sabes que trabaja, pero no sabes dónde.",
+          "partes": [ {"t": "Where", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work", "rol": "verbo"} ],
+          "nota": "Viene de Does your brother work at a hospital? — se quita at a hospital y se pone Where delante. Work sigue sin -s."
+        },
+        {
+          "en": "What time does the shop open?",
+          "es": "¿A qué hora abre la tienda?",
+          "partes": [ {"t": "What time", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "the shop", "rol": "sujeto"}, {"t": "open", "rol": "verbo"} ],
+          "nota": "The shop = it → does. La respuesta vuelve a la afirmación con -s: It opens at 10 o'clock."
+        },
+        {
+          "en": "What does your mother do?",
+          "es": "¿A qué se dedica tu mamá?",
+          "partes": [ {"t": "What", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "your mother", "rol": "sujeto"}, {"t": "do", "rol": "verbo"} ],
+          "nota": "Does es el auxiliar (con la -s); do es el verbo «hacer» en forma base. Respuesta típica: She's an accountant."
+        },
+        {
+          "en": "Who do you live with?",
+          "es": "¿Con quién vives?",
+          "partes": [ {"t": "Who", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "live with", "rol": "verbo"} ],
+          "nota": "En inglés la preposición with se queda al final, pegada al verbo. «With who do you live?» es un calco del español y suena muy raro."
+        },
+        {
+          "en": "What languages do your parents speak?",
+          "es": "¿Qué idiomas hablan tus papás?",
+          "partes": [ {"t": "What languages", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "your parents", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"} ],
+          "nota": "What puede ir con un sustantivo (what languages, what time). Your parents = they → do."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a pregunta wh, paso a paso",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ {"t": "My brother", "rol": "sujeto"}, {"t": "works", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ] },
+          { "etiqueta": "Pregunta de sí o no", "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital?", "rol": "complemento"} ] },
+          { "etiqueta": "Pregunta wh", "partes": [ {"t": "Where", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work?", "rol": "verbo"} ] }
+        ],
+        "pie": "La palabra interrogativa sustituye la información que no sabes (at a hospital) y va delante del auxiliar."
+      },
+      "pronunciacion": [
+        { "texto": "Where do you live?", "ipa": "/ˈwɛr də jə ˈlɪv/", "consejo": "Where empieza con labios redondeados (w), como una «u» muy breve que se abre; no digas «güer» con g. Do you se reduce a «d'ya». La voz BAJA al final (↘): es una pregunta wh, no de sí o no.", "lento": true },
+        { "texto": "What does she do?", "ipa": "/ˈwʌt dəz ʃi ˈduː/", "consejo": "What y does se pegan: la t de what casi no se suelta. Does es débil (/dəz/); el do final es fuerte y largo (/duː/), porque es el verbo con significado." },
+        { "texto": "What time does the bank open?", "ipa": "/wʌt ˈtaɪm dəz ðə ˈbæŋk ˈoʊpən/", "consejo": "Las dos t de what time se funden en una sola. En bank la a es /æ/: abre la boca como para «a» pero estira los labios hacia «e». Open empieza con /oʊ/, una «o» que se cierra hacia «u»." }
+      ],
+      "errores": [
+        { "mal": "Where you live?", "bien": "Where do you live?", "porque": "Calco de «¿Dónde vives?». En inglés, con verbos que no son be, la pregunta wh necesita el auxiliar do / does entre la palabra interrogativa y el sujeto." },
+        { "mal": "What time the shop opens?", "bien": "What time does the shop open?", "porque": "Falta el auxiliar does, y con él la -s pasa del verbo al auxiliar: open." },
+        { "mal": "What does your brother does?", "bien": "What does your brother do?", "porque": "El auxiliar ya lleva la -s. El segundo do es el verbo principal y va en forma base." },
+        { "mal": "Where works your sister?", "bien": "Where does your sister work?", "porque": "En español se puede decir «¿Dónde trabaja tu hermana?» con el verbo antes del sujeto. En inglés el verbo principal no se adelanta: va el auxiliar." }
+      ]
+    },
+    {
+      "id": "be-o-do-en-preguntas",
+      "titulo": "¿Where are you…? o Where do you…? Be frente a do",
+      "que_es": "Las preguntas wh pueden construirse con [[be]] o con [[do]], y la elección depende del **verbo** de la oración, no de la palabra interrogativa. [[Where are you from?]] y [[Where do you live?]] empiezan igual, pero la primera tiene el verbo be y la segunda el verbo live.",
+      "para_que": [
+        "Hacer bien las preguntas más comunes al conocer a alguien: de dónde eres, dónde vives, cuál es tu trabajo, a qué te dedicas.",
+        "Evitar dos errores muy frecuentes: «Where are you live?» y «Where do you from?»."
+      ],
+      "como_funciona": "Pregúntate qué verbo hay en la respuesta:\n\n- Si la respuesta lleva **be** ([[I'm from Chile]], [[She's 30]], [[It's on Main Street]]), la pregunta es **wh + be + sujeto**: [[Where are you from?]], [[How old is she?]], [[Where is the bank?]]\n- Si la respuesta lleva **otro verbo** ([[I live in Chile]], [[She works at a bank]], [[It opens at 9]]), la pregunta es **wh + do / does + sujeto + verbo base**: [[Where do you live?]], [[Where does she work?]], [[What time does it open?]]\n\nNunca van juntos be y do en la misma pregunta, ni be delante de otro verbo en presente simple.\n\nParejas que conviene aprender juntas:\n- [[What's your job?]] (be) / [[What do you do?]] (do) — las dos preguntan por la profesión.\n- [[Where are you from?]] (origen, be) / [[Where do you come from?]] (también origen, con el verbo come) — ambas son correctas; la primera es más frecuente.\n- [[Where is the bank?]] (ubicación, be) / [[What time does the bank open?]] (horario, open).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta wh con be",
+          "formula": [ {"t": "Palabra wh", "rol": "interrogativo"}, {"t": "am / is / are", "rol": "verbo"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "(resto) ?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Where", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "from?", "rol": "complemento"} ],
+          "es": "¿De dónde eres?"
+        },
+        {
+          "etiqueta": "Pregunta wh con otro verbo",
+          "formula": [ {"t": "Palabra wh", "rol": "interrogativo"}, {"t": "do / does", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "verbo base ?", "rol": "verbo"} ],
+          "ejemplo": [ {"t": "Where", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "live?", "rol": "verbo"} ],
+          "es": "¿Dónde vives?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Where is your office?",
+          "es": "¿Dónde está tu oficina?",
+          "partes": [ {"t": "Where", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your office", "rol": "sujeto"} ],
+          "nota": "Ubicación de algo → be. Respuesta: It's downtown."
+        },
+        {
+          "en": "Where does your sister work?",
+          "es": "¿Dónde trabaja tu hermana?",
+          "partes": [ {"t": "Where", "rol": "interrogativo"}, {"t": "does", "rol": "auxiliar"}, {"t": "your sister", "rol": "sujeto"}, {"t": "work", "rol": "verbo"} ],
+          "nota": "El verbo es work → does + work. Respuesta: She works at a hotel."
+        },
+        {
+          "en": "What's your job?",
+          "es": "¿Cuál es tu trabajo?",
+          "nota": "What's = What is. Verbo be. Es una alternativa a What do you do?"
+        },
+        {
+          "en": "How old is your son?",
+          "es": "¿Cuántos años tiene tu hijo?",
+          "partes": [ {"t": "How old", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your son", "rol": "sujeto"} ],
+          "nota": "La edad va con be, aunque en español se use «tener». Nunca How many years does your son have?"
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Con be", "items": ["Where are you from? — I'm from Peru.", "Where is the station? — It's near here.", "What's your job? — I'm a cook."] },
+        "b": { "titulo": "Con do / does", "items": ["Where do you live? — I live in Lima.", "What time does the train leave? — It leaves at six.", "What do you do? — I'm a cook."] },
+        "veredicto": "La palabra interrogativa no decide nada: decide el verbo. Si la respuesta tiene be, la pregunta usa be; si tiene otro verbo, la pregunta usa do / does."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Qué verbo tiene la respuesta?",
+        "centro": "Pregunta wh",
+        "ramas": [
+          { "texto": "be → Where are you from?", "detalle": "origen, edad, ubicación, profesión con a / an, estados" },
+          { "texto": "do → Where do you live?", "detalle": "live, work, study, speak, have, open, start…" },
+          { "texto": "does → Where does she work?", "detalle": "he / she / it o sujeto singular + verbo base" }
+        ]
+      },
+      "pronunciacion": [
+        { "texto": "Where are you from? / Where do you live?", "ipa": "/wɛr ər jə ˈfrʌm/ · /wɛr də jə ˈlɪv/", "consejo": "En las dos, el verbo del medio es débil: are suena casi como una r sola, do como «d'». La fuerza cae en la última palabra: FROM (con /ʌ/, una «a» breve) y LIVE. Las dos bajan al final.", "lento": true }
+      ],
+      "errores": [
+        { "mal": "Where are you live?", "bien": "Where do you live?", "porque": "Live no es be. Con otros verbos la pregunta usa do; are no puede ir delante de live." },
+        { "mal": "Where do you from?", "bien": "Where are you from?", "porque": "From no es un verbo: la oración no tiene otro verbo más que be (I'm from…). Por eso se pregunta con are. (También vale Where do you come from?, porque ahí sí hay un verbo: come.)" },
+        { "mal": "How many years do you have?", "bien": "How old are you?", "porque": "Calco de «¿Cuántos años tienes?». En inglés la edad se pregunta con how old + be." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra que completa la pregunta.",
+      "pregunta": "Where ___ you live?",
+      "opciones": [
+        { "texto": "do", "correcta": true, "porque": "Correcto: live no es be y el sujeto es you, así que el auxiliar es do." },
+        { "texto": "are", "correcta": false, "porque": "Are es be. Con el verbo live necesitas el auxiliar do: Where are you live? mezcla dos sistemas." },
+        { "texto": "does", "correcta": false, "porque": "Does es para he / she / it y sujetos singulares. El sujeto aquí es you." },
+        { "texto": "is", "correcta": false, "porque": "Is es be y además no concuerda con you." }
+      ],
+      "pistas": [
+        "Busca el verbo principal de la pregunta.",
+        "El verbo es live y el sujeto es you.",
+        "Wh + do + you + verbo base."
+      ],
+      "solucion": { "respuesta": "do", "explicacion": "La respuesta correcta es do porque el verbo principal es live (no be) y el sujeto es you. La fórmula es palabra wh + do + sujeto + verbo base: Where do you live?" },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra que completa la pregunta.",
+      "pregunta": "Where ___ you from?",
+      "opciones": [
+        { "texto": "are", "correcta": true, "porque": "Correcto: la respuesta sería I'm from…, con be. From no es un verbo, así que la pregunta se forma con are." },
+        { "texto": "do", "correcta": false, "porque": "Do necesita un verbo principal detrás del sujeto (Where do you come from?). Aquí solo hay from, que es una preposición." },
+        { "texto": "does", "correcta": false, "porque": "Does no sirve: no hay verbo principal y además el sujeto es you." },
+        { "texto": "is", "correcta": false, "porque": "Es be, pero con you la forma es are, no is." }
+      ],
+      "pistas": [
+        "¿Hay algún verbo en la pregunta además del hueco?",
+        "Piensa en la respuesta: I'm from Mexico. ¿Qué verbo lleva?",
+        "Si la respuesta usa be, la pregunta también: wh + am / is / are + sujeto."
+      ],
+      "solucion": { "respuesta": "are", "explicacion": "La respuesta correcta es are porque el origen se expresa con be (I'm from Mexico) y from no es un verbo. Con you, be es are: Where are you from?" }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta.",
+      "pares": [
+        { "a": "Where do you live?", "b": "In a small town near Toluca." },
+        { "a": "What time does the bank open?", "b": "At nine o'clock." },
+        { "a": "What does your sister do?", "b": "She's a dentist." },
+        { "a": "Where are you from?", "b": "I'm from Chile." },
+        { "a": "Who do you live with?", "b": "With my parents and my brother." },
+        { "a": "What do you study?", "b": "Engineering." }
+      ],
+      "pistas": [
+        "Cada palabra interrogativa pide un tipo de información: lugar, hora, persona, profesión…",
+        "Where → lugar; What time → hora; Who … with → personas; What … do → profesión.",
+        "Distingue Where are you from (origen) de Where do you live (lugar donde vives ahora)."
+      ],
+      "solucion": { "respuesta": "live → town near Toluca; bank → At nine; sister do → dentist; from → Chile; live with → my parents; study → Engineering", "explicacion": "Where do you live? pide un lugar; What time…? una hora; What does your sister do? una profesión; Where are you from? el origen; Who do you live with? personas; What do you study? una materia o carrera." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Haz que la voz baje al final.",
+      "texto": "What does your brother do?",
+      "ipa": "/ˈwʌt dəz jər ˈbrʌðər ˈduː/",
+      "consejo": "What does your se dice rápido y unido («wʌt-dəz-yər»). Las sílabas fuertes son WHAT, BRO- y DO. El do final es largo, con los labios redondeados. La voz baja al final (↘): es una pregunta wh. Si subes la voz, suena a sorpresa.",
+      "es": "¿A qué se dedica tu hermano?"
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta con el auxiliar y el verbo.",
+      "frase": "Where ___ your parents ___? — They work at a school.",
+      "respuestas": [["do"], ["work"]],
+      "traduccion": "¿Dónde trabajan tus papás? — Trabajan en una escuela.",
+      "pistas": [
+        "La respuesta te dice cuál es el verbo principal.",
+        "Your parents es plural.",
+        "Wh + do + sujeto plural + verbo base."
+      ],
+      "solucion": { "respuesta": "do … work", "explicacion": "Your parents equivale a they, así que el auxiliar es do. El verbo principal, sacado de la respuesta, es work, en forma base: Where do your parents work?" },
+      "errores_tipicos": {
+        "does | work": "Your parents es plural: do, no does.",
+        "are | work": "Work no es be: la pregunta necesita do.",
+        "do | works": "Después del auxiliar el verbo va en forma base, y además parents es plural: work."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la pregunta con Where que corresponde a esta respuesta (pregunta por el lugar).",
+      "origen": "She lives in Oaxaca.",
+      "instruccion": "Pregunta con Where",
+      "respuestas": ["Where does she live?"],
+      "pistas": [
+        "Quita in Oaxaca y pon Where al principio.",
+        "El sujeto es she. Después de la palabra interrogativa va el auxiliar.",
+        "Where + does + she + verbo base."
+      ],
+      "solucion": { "respuesta": "Where does she live?", "explicacion": "La información que se pregunta (in Oaxaca) se sustituye por Where. Como el sujeto es she y el verbo no es be, se usa does, y live vuelve a su forma base." },
+      "errores_tipicos": {
+        "Where does she lives?": "La -s ya está en does: live, sin -s.",
+        "Where she lives?": "Falta el auxiliar does entre Where y el sujeto.",
+        "Where is she live?": "Live no es be: la pregunta se forma con does."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la pregunta con What time que corresponde a esta respuesta.",
+      "origen": "The store closes at eight o'clock.",
+      "instruccion": "Pregunta con What time",
+      "respuestas": ["What time does the store close?"],
+      "pistas": [
+        "Quita at eight o'clock y pon What time al principio.",
+        "The store es singular (it). ¿Qué pasa con closes?",
+        "What time + does + the store + verbo base."
+      ],
+      "solucion": { "respuesta": "What time does the store close?", "explicacion": "What time sustituye a at eight o'clock. The store equivale a it, así que el auxiliar es does, y closes vuelve a la forma base close." },
+      "errores_tipicos": {
+        "What time the store closes?": "Falta el auxiliar does, y con él close pierde la -s: What time does the store close?",
+        "What time does the store closes?": "La -s ya está en does: close.",
+        "What time closes the store?": "El verbo principal no se adelanta al sujeto. Usa does."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Falta una palabra. Señala el grupo donde debería ir y escríbelo corregido.",
+      "frase": "Where you live?",
+      "error": "Where you",
+      "correcciones": ["Where do you"],
+      "frase_correcta": "Where do you live?",
+      "pistas": [
+        "Live no es be. ¿Qué necesita una pregunta con un verbo así?",
+        "Mira el hueco entre la palabra interrogativa y el sujeto.",
+        "Wh + do / does + sujeto + verbo base."
+      ],
+      "solucion": { "respuesta": "Where do you live?", "explicacion": "Falta el auxiliar do. En español basta con «¿Dónde vives?», pero en inglés una pregunta wh con un verbo que no es be necesita do / does entre la palabra interrogativa y el sujeto." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Where are you work?",
+      "error": "are",
+      "correcciones": ["do"],
+      "frase_correcta": "Where do you work?",
+      "pistas": [
+        "¿Cuál es el verbo principal de la pregunta?",
+        "Work no es be. ¿Qué auxiliar necesita con you?",
+        "Con verbos que no son be: wh + do + you + verbo base."
+      ],
+      "solucion": { "respuesta": "Where do you work?", "explicacion": "El error es are: el verbo principal es work, no be, así que la pregunta necesita el auxiliar do. Be y otro verbo en presente simple no pueden ir juntos." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.10",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señala el grupo de palabras incorrecto y corrígelo.",
+      "frase": "What does your brother does?",
+      "error": "brother does",
+      "correcciones": ["brother do"],
+      "frase_correcta": "What does your brother do?",
+      "pistas": [
+        "Esta pregunta tiene dos veces el verbo do: uno es el auxiliar y otro es el verbo principal.",
+        "¿Cuál de los dos debe llevar la marca de tercera persona?",
+        "La -s va solo en el auxiliar; el verbo principal va en forma base."
+      ],
+      "solucion": { "respuesta": "What does your brother do?", "explicacion": "El primer does es el auxiliar y ya lleva la marca de tercera persona. El segundo es el verbo principal «hacer» y debe ir en forma base: do." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "What time does your class start?",
+      "pistas": [
+        "Es una pregunta sobre un horario.",
+        "Empieza con dos palabras interrogativas; luego el auxiliar de tercera persona y el sujeto.",
+        "What time + does + your class + verbo base."
+      ],
+      "solucion": { "respuesta": "What time does your class start?", "explicacion": "What time pregunta por la hora. Your class es singular (it), por eso does, y start va sin -s." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.12",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la pregunta que hace falta en el diálogo.",
+      "contexto": "Estás conociendo a Grace en una fiesta.",
+      "lineas": [
+        { "quien": "Grace", "en": "I'm a teacher.", "es": "Soy maestra." },
+        { "quien": "Tú", "en": "Oh, nice! ...", "es": "¡Ah, qué bien! ..." },
+        { "quien": "Grace", "en": "At an elementary school near the park.", "es": "En una primaria cerca del parque." }
+      ],
+      "opciones": [
+        { "texto": "Where do you work?", "correcta": true, "porque": "Correcto: Grace responde con un lugar de trabajo, y la pregunta usa do porque el verbo es work." },
+        { "texto": "Where are you work?", "correcta": false, "porque": "Mezcla be y work. Con work la pregunta necesita do." },
+        { "texto": "Where you work?", "correcta": false, "porque": "Falta el auxiliar do entre Where y you." },
+        { "texto": "What do you do?", "correcta": false, "porque": "La pregunta es correcta, pero Grace ya dijo que es maestra, y su respuesta es un lugar, no una profesión." }
+      ],
+      "pistas": [
+        "Mira la respuesta de Grace: ¿qué información da?",
+        "Da un lugar. ¿Qué palabra interrogativa pide un lugar y qué verbo encaja?",
+        "Where + do + you + work."
+      ],
+      "solucion": { "respuesta": "Where do you work?", "explicacion": "Grace contesta con un lugar (At an elementary school…), así que la pregunta usa Where. Como el verbo es work y el sujeto you, se necesita do: Where do you work?" }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.13",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": ["with", "does", "Who", "live", "Diego"],
+      "respuestas": ["Who does Diego live with"],
+      "traduccion": "¿Con quién vive Diego?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "Después van el auxiliar y el sujeto; la preposición no va al principio.",
+        "Who + auxiliar + sujeto + verbo en forma base + preposición al final."
+      ],
+      "solucion": { "respuesta": "Who does Diego live with?", "explicacion": "Who va al principio, luego el auxiliar does (Diego es singular), el sujeto, el verbo en forma base live, y la preposición with al final, pegada al verbo." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.14",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿A qué hora abre el banco?",
+      "respuestas": ["What time does the bank open?", "When does the bank open?"],
+      "pistas": [
+        "«¿A qué hora…?» en inglés es What time…?",
+        "El banco es singular. ¿Qué auxiliar necesitas y qué le pasa a opens?",
+        "What time + auxiliar de tercera persona + sujeto + verbo en forma base?"
+      ],
+      "solucion": { "respuesta": "What time does the bank open?", "explicacion": "What time pregunta por la hora; the bank equivale a it, así que se usa does y open va en forma base. When does the bank open? también es correcta, aunque es menos precisa (puede responderse con un día)." },
+      "errores_tipicos": {
+        "What time opens the bank?": "El verbo principal no se adelanta al sujeto. Usa does: What time does the bank open?",
+        "What time the bank opens?": "Falta el auxiliar does, y con él open pierde la -s.",
+        "What time does the bank opens?": "La -s ya está en does: open."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.15",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿De dónde eres y dónde vives?",
+      "respuestas": ["Where are you from and where do you live?", "Where do you come from and where do you live?"],
+      "pistas": [
+        "Son dos preguntas unidas con and, con dos verbos distintos.",
+        "«Eres» es be; «vives» es live. ¿Cuál necesita do?",
+        "Where + are + you + from…; where + do + you + live."
+      ],
+      "solucion": { "respuesta": "Where are you from and where do you live?", "explicacion": "La primera pregunta es de origen, con be: Where are you from? La segunda tiene el verbo live, así que necesita do: where do you live? También es válido Where do you come from…, porque ahí el verbo es come." },
+      "errores_tipicos": {
+        "Where are you from and where you live?": "En la segunda pregunta falta el auxiliar: where do you live?",
+        "Where do you from and where do you live?": "From no es un verbo: el origen se pregunta con be, Where are you from?",
+        "Where are you from and where are you live?": "Live no es be: where do you live?"
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-wh-presente-simple.16",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Prepara una entrevista.",
+      "objetivo": "Escribir preguntas wh correctas con be y con do / does para conocer a alguien.",
+      "instrucciones": "Vas a entrevistar a un compañero nuevo de trabajo o de clase. Escribe 6 preguntas: al menos 2 con be (Where are you from?…), al menos 3 con do / does y una sobre alguien de su familia (What does your…?). Después escribe las respuestas que tú darías a tres de ellas.",
+      "vocabulario_apoyo": ["where", "what", "what time", "who … with", "how old", "why", "live", "work", "study", "start", "finish", "speak"],
+      "estructuras": ["Where are you from?", "Where do you live?", "What time do you start work?", "What does your … do?", "Who do you live with?"],
+      "ejemplo": "Questions for a new neighbor: Where are you from? How old are your kids? What time do they go to school? Where does your husband work?",
+      "min_palabras": 40,
+      "comprobaciones": [
+        { "descripcion": "Usas al menos una pregunta con do + you", "patron": "\\bdo you\\b" },
+        { "descripcion": "Usas al menos una pregunta con does", "patron": "\\bdoes\\b" },
+        { "descripcion": "Usas al menos una pregunta con be (are / is)", "patron": "\\b(are you|is your|is he|is she)\\b" }
+      ],
+      "criterios": [
+        "¿Cada pregunta con un verbo que no es be lleva do / does entre la palabra wh y el sujeto?",
+        "¿Después de does el verbo está en forma base (sin -s)?",
+        "¿Usas be (y no do) para origen, edad y ubicación?",
+        "¿La preposición de who … with va al final?",
+        "¿Tus respuestas usan la -s en tercera persona (She works…)?"
+      ],
+      "modelo": "Where are you from? Where do you live now? Who do you live with? What do you do? What time do you finish work? What does your sister do? My answers: I'm from Toluca. I live with my wife and my son. I'm an accountant and I finish work at six o'clock.",
+      "explicacion": "Where are you from? usa be porque pregunta por el origen. Las demás preguntas tienen verbos que no son be (live, do, finish), así que llevan do / does + sujeto + verbo base. What does your sister do? usa does porque your sister es singular, y el segundo do es el verbo principal. Who do you live with? deja with al final. En las respuestas se usa be para la profesión (I'm an accountant) y el presente simple afirmativo para lo demás.",
+      "errores_comunes": [
+        "Where you live? (falta do).",
+        "Where are you live? (mezcla be y do).",
+        "What does your sister does? (doble marca de tercera persona).",
+        "With who do you live? (calco del español; la preposición va al final)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Conoce a tu nuevo vecino",
+    "contexto": "Tom acaba de mudarse al departamento de al lado. Te lo encuentras en el elevador y platican. Él te hace preguntas y tú también tienes que preguntarle.",
+    "dialogo": [
+      { "quien": "Tom", "en": "Hi! I'm Tom. I live in 4B.", "es": "¡Hola! Soy Tom. Vivo en el 4B." },
+      { "quien": "Tú", "en": "Nice to meet you! Where are you from, Tom?", "es": "¡Mucho gusto! ¿De dónde eres, Tom?" },
+      { "quien": "Tom", "en": "I'm from Canada. And what do you do?", "es": "Soy de Canadá. ¿Y tú a qué te dedicas?" },
+      { "quien": "Tú", "en": "I'm a graphic designer. I work from home.", "es": "Soy diseñador gráfico. Trabajo desde casa." },
+      { "quien": "Tom", "en": "Cool! Hey, what time does the gym in the building open?", "es": "¡Qué bien! Oye, ¿a qué hora abre el gimnasio del edificio?" },
+      { "quien": "Tú", "en": "It opens at six o'clock.", "es": "Abre a las seis." }
+    ],
+    "tu_turno": "Ahora pregúntale tú a Tom dos cosas: dónde trabaja y con quién vive. Ojo: le hablas a él directamente, así que el sujeto es you y el auxiliar es do, no does.",
+    "modelo": "Where do you work, Tom? And who do you live with?",
+    "alternativas": [
+      "What do you do, Tom? Do you live alone?",
+      "Where do you work? Who do you live with in 4B?",
+      "And you? Where do you work? Do you live with your family?"
+    ],
+    "claves": [
+      "Hablas con Tom: sujeto you → do (no does).",
+      "Where do you work? — con do porque work no es be.",
+      "Who do you live with? — with al final."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pregunta wh: palabra wh + do / does + sujeto + verbo en forma base (Where do you live? What time does the shop open?).",
+      "Con does, el verbo principal no lleva -s (What does she do?, nunca does… does).",
+      "La elección entre be y do depende del verbo, no de la palabra interrogativa: Where are you from? / Where do you live?",
+      "What do you do? = ¿A qué te dedicas? Se responde normalmente con be: I'm a nurse.",
+      "Las preguntas wh suelen bajar la voz al final (↘)."
+    ],
+    "recuerda": [
+      "Where you live? es un calco del español: falta do.",
+      "Nunca be + otro verbo: Where are you live? es incorrecto.",
+      "La preposición va al final: Who do you live with?",
+      "Cuando who es el sujeto no se usa do (Who lives here?); lo verás más adelante."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-simple-do-does.preguntas-wh-presente-simple.r1", "frente": "Pregunta por el lugar: My brother works at a hospital.", "reverso": "Where does your brother work?", "nota": "Where + does + sujeto + work (sin -s)." },
+    { "id": "presente-simple-do-does.preguntas-wh-presente-simple.r2", "frente": "¿A qué hora abre la tienda? (en inglés)", "reverso": "What time does the shop (store) open?", "nota": "Does lleva la -s; open queda en forma base." },
+    { "id": "presente-simple-do-does.preguntas-wh-presente-simple.r3", "frente": "¿Where are you from? o Where do you from?", "reverso": "Where are you from?", "nota": "From no es verbo: se usa be. (O Where do you come from?)" },
+    { "id": "presente-simple-do-does.preguntas-wh-presente-simple.r4", "frente": "¿Cómo preguntas a qué se dedica tu hermana?", "reverso": "What does your sister do?", "nota": "Does = auxiliar; do = verbo «hacer»." },
+    { "id": "presente-simple-do-does.preguntas-wh-presente-simple.r5", "frente": "Corrige: Where you live?", "reverso": "Where do you live?", "nota": "Con verbos que no son be, la pregunta wh necesita do / does." }
+  ]
+}

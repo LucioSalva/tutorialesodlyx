@@ -1,0 +1,570 @@
+{
+  "slug": "habito-o-ahora",
+  "titulo": "Hábito o ahora",
+  "minutos": 40,
+  "objetivos": [
+    "Elegir el presente simple para hábitos, verdades generales y situaciones permanentes.",
+    "Elegir el presente continuo para lo que pasa ahora y para situaciones temporales.",
+    "Usar las expresiones de tiempo como señales (every day, usually / now, this week, these days).",
+    "Distinguir What do you do? de What are you doing?"
+  ],
+  "situacion": {
+    "titulo": "Un ingeniero de visita",
+    "texto": "Ana trabaja en una oficina de Querétaro. Esta semana llega un ingeniero de otra sede y ella le pregunta por su trabajo. Fíjate en cómo él cambia de tiempo verbal según hable de su vida normal o de esta semana.",
+    "dialogo": [
+      { "quien": "Ana", "en": "Hi! Are you new here?", "es": "¡Hola! ¿Eres nuevo aquí?" },
+      { "quien": "Omar", "en": "Not really. I work in Monterrey, but this week I'm working in Querétaro.", "es": "No exactamente. Trabajo en Monterrey, pero esta semana estoy trabajando en Querétaro." },
+      { "quien": "Ana", "en": "Oh, nice! Where are you staying?", "es": "¡Ah, qué bien! ¿Dónde te estás quedando?" },
+      { "quien": "Omar", "en": "I'm staying at a small hotel downtown. I usually drive to work, but here I'm walking every day.", "es": "Me estoy quedando en un hotelito del centro. Normalmente voy al trabajo en carro, pero aquí estoy caminando todos los días." },
+      { "quien": "Ana", "en": "That's great. And what do you do exactly?", "es": "Qué bien. ¿Y a qué te dedicas exactamente?" },
+      { "quien": "Omar", "en": "I design bridges. And right now I'm checking a new one near the river.", "es": "Diseño puentes. Y ahora mismo estoy revisando uno nuevo cerca del río." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "permanente-o-temporal",
+      "titulo": "Hábito y permanente frente a ahora y temporal",
+      "que_es": "El inglés reparte el presente en dos tiempos según **cómo ves la acción**. Con el **presente simple** la ves como algo general: se repite (hábito), es siempre verdad o es estable en tu vida. Con el **presente continuo** la ves en marcha: está pasando ahora mismo o es una situación temporal que tiene principio y final.",
+      "para_que": [
+        "Explicar tu vida normal y, a la vez, lo que es distinto esta semana: I work in Monterrey, but this week I'm working in Querétaro.",
+        "Distinguir lo que alguien es capaz de hacer o hace habitualmente de lo que hace ahora: She speaks French / She's speaking French now.",
+        "No confundir «¿a qué te dedicas?» con «¿qué estás haciendo?»."
+      ],
+      "como_funciona": "**Presente simple** ({{verbo:I work}}, {{verbo:she works}}):\n- Hábitos y rutinas: I get up at seven.\n- Verdades generales o científicas: Water boils at 100 °C.\n- Situaciones permanentes o estables: My parents live in Toluca.\n\n**Presente continuo** ({{auxiliar:I'm}} {{verbo:working}}, {{auxiliar:she's}} {{verbo:working}}):\n- Acciones en progreso ahora: Look! The water is boiling.\n- Situaciones temporales: My parents are living with me this month (normalmente viven en otra casa).\n- Cambios que se están produciendo: Prices are going up. (Los precios están subiendo.)\n\nMuchas veces el mismo verbo admite los dos tiempos y **lo que cambia es el significado**: [[I live in León]] presenta León como tu casa; [[I'm living in León]] sugiere que es por una temporada. Ninguna de las dos es «más correcta»: dicen cosas distintas.\n\n**Diferencia con el español.** En español el presente simple sirve para las dos cosas («¿Qué haces?», «Ahorita trabajo en casa»). En inglés no: si algo está pasando ahora o es temporal, hay que usar el continuo. Por eso [[What do you do?]] no significa «¿qué haces (ahora)?», sino «¿a qué te dedicas?»; para lo de ahora se dice [[What are you doing?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Hábito o situación permanente (presente simple)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "verbo (+ -s)", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" },
+            { "t": "every day / usually…", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "work", "rol": "verbo" },
+            { "t": "in Monterrey", "rol": "complemento" }
+          ],
+          "es": "Trabajo en Monterrey."
+        },
+        {
+          "etiqueta": "Ahora o temporal (presente continuo)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" },
+            { "t": "now / this week…", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "working", "rol": "verbo" },
+            { "t": "in Querétaro", "rol": "complemento" },
+            { "t": "this week", "rol": "tiempo" }
+          ],
+          "es": "Esta semana estoy trabajando en Querétaro."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Lo habitual se repite; lo temporal rodea el ahora",
+        "marcas": [
+          { "pos": 0.1, "texto": "I drive to work", "tipo": "repeticion" },
+          { "pos": 0.25, "texto": "I drive to work", "tipo": "repeticion" },
+          { "pos": 0.4, "hasta": 0.62, "texto": "this week: I'm walking to work", "tipo": "tramo" },
+          { "pos": 0.75, "texto": "I drive to work", "tipo": "repeticion" },
+          { "pos": 0.9, "texto": "I drive to work", "tipo": "repeticion" }
+        ],
+        "ahora": 0.5,
+        "pie": "Las marcas repetidas son el hábito (presente simple: I usually drive to work). El tramo que rodea el ahora es la excepción temporal (presente continuo: this week I'm walking)."
+      },
+      "ejemplos": [
+        {
+          "en": "I work in Monterrey, but this week I'm working in Querétaro.",
+          "es": "Trabajo en Monterrey, pero esta semana estoy trabajando en Querétaro.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "work", "rol": "verbo" },
+            { "t": "in Monterrey,", "rol": "complemento" },
+            { "t": "but", "rol": "otro" },
+            { "t": "this week", "rol": "tiempo" },
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "working", "rol": "verbo" },
+            { "t": "in Querétaro", "rol": "complemento" }
+          ],
+          "nota": "El mismo verbo en dos tiempos: I work describe su situación estable; I'm working, la excepción temporal de esta semana."
+        },
+        {
+          "en": "Water boils at 100 degrees Celsius.",
+          "es": "El agua hierve a 100 grados centígrados.",
+          "partes": [
+            { "t": "Water", "rol": "sujeto" },
+            { "t": "boils", "rol": "verbo" },
+            { "t": "at 100 degrees Celsius", "rol": "complemento" }
+          ],
+          "nota": "Verdad general: presente simple. Si miras la olla y el agua ya hace burbujas, dirías The water is boiling. Fíjate también en que las verdades generales van sin the (Water), y el caso concreto con the (The water)."
+        },
+        {
+          "en": "Priya speaks three languages.",
+          "es": "Priya habla tres idiomas.",
+          "partes": [
+            { "t": "Priya", "rol": "sujeto" },
+            { "t": "speaks", "rol": "verbo" },
+            { "t": "three languages", "rol": "complemento" }
+          ],
+          "nota": "Presente simple: es una capacidad estable, no algo que hace en este momento. Para decir que ahora mismo está hablando en uno de ellos: Priya is speaking Hindi on the phone."
+        },
+        {
+          "en": "My parents are living with me this month.",
+          "es": "Este mes mis papás están viviendo conmigo.",
+          "partes": [
+            { "t": "My parents", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "living", "rol": "verbo" },
+            { "t": "with me", "rol": "complemento" },
+            { "t": "this month", "rol": "tiempo" }
+          ],
+          "nota": "Con live, el continuo convierte el lugar en algo temporal (quizá están arreglando su casa). My parents live with me indicaría que es lo normal."
+        },
+        {
+          "en": "Prices are going up.",
+          "es": "Los precios están subiendo.",
+          "partes": [
+            { "t": "Prices", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "going up", "rol": "verbo" }
+          ],
+          "nota": "El continuo también describe cambios que se están produciendo poco a poco. go up = subir (precios, temperatura)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "What do you do?",
+          "items": ["Presente simple.", "Pregunta por tu trabajo o profesión.", "Respuesta: I'm a nurse. / I work in a bank."]
+        },
+        "b": {
+          "titulo": "What are you doing?",
+          "items": ["Presente continuo.", "Pregunta qué haces en este momento.", "Respuesta: I'm cooking. / I'm waiting for the bus."]
+        },
+        "veredicto": "Si alguien te pregunta What do you do? en una fiesta, no contestes I'm dancing: quiere saber a qué te dedicas."
+      },
+      "pronunciacion": [
+        {
+          "texto": "What do you do?",
+          "ipa": "/ˈwʌt də jə ˈdu/",
+          "consejo": "El primer do es auxiliar y se reduce mucho (/də/, casi «da»); el segundo es el verbo y se dice fuerte y largo: /du/, con los labios redondeados como para silbar. La melodía baja al final.",
+          "lento": true
+        },
+        {
+          "texto": "boils",
+          "ipa": "/bɔɪlz/",
+          "consejo": "Una sola sílaba con el diptongo /ɔɪ/, parecido a «oi» de «boina». La s final suena /z/ porque la l es sonora."
+        }
+      ],
+      "errores": [
+        { "mal": "What do you do now? — I cook.", "bien": "What are you doing now? — I'm cooking.", "porque": "Para lo que pasa en este momento se usa el continuo. What do you do? pregunta por la profesión." },
+        { "mal": "Usually I'm getting up at seven.", "bien": "I usually get up at seven.", "porque": "Un hábito se expresa con presente simple. Además, usually va delante del verbo principal." },
+        { "mal": "Water is boiling at 100 degrees.", "bien": "Water boils at 100 degrees.", "porque": "Una verdad general va en presente simple." },
+        { "mal": "I live with my aunt this month.", "bien": "I'm living with my aunt this month.", "porque": "this month presenta la situación como temporal; con live, lo natural es el continuo." }
+      ]
+    },
+    {
+      "id": "senales-de-tiempo",
+      "titulo": "Las expresiones de tiempo que te orientan",
+      "que_es": "Algunas expresiones de tiempo suelen ir con uno de los dos presentes y te ayudan a decidir. Son **señales**, no reglas automáticas: lo que manda siempre es el significado.",
+      "para_que": [
+        "Decidir rápido qué tiempo usar al escribir o hablar.",
+        "Contrastar lo normal con la excepción: I usually…, but today I'm…",
+        "Entender el matiz de frases que mezclan los dos tiempos."
+      ],
+      "como_funciona": "**Suelen ir con presente simple** (repetición, frecuencia):\n[[always]], [[usually]], [[often]], [[sometimes]], [[rarely]], [[never]], [[every day / week / year]], [[on Mondays]], [[once a week]], [[twice a month]], [[in the morning]] (en general).\n\n**Suelen ir con presente continuo** (ahora, periodo temporal):\n[[now]], [[right now]], [[at the moment]], [[today]], [[tonight]], [[this week / month / year]], [[these days]], [[currently]], y las llamadas de atención [[Look!]] y [[Listen!]].\n\nEl patrón más útil combina los dos tiempos con **but**: [[I usually take the bus, but today I'm walking.]]\n\n**Por qué son solo señales:**\n- [[today]] también puede ir con presente simple cuando hablas de un horario o una rutina de ese día: [[I work until nine today]] (hoy me toca trabajar hasta las nueve).\n- [[always]] con continuo existe, pero con otro matiz: expresa queja o sorpresa ante algo que se repite demasiado: [[My brother is always losing his keys!]] (¡Mi hermano siempre anda perdiendo las llaves!). Para un hábito neutro usa el presente simple: He always loses his keys.\n- [[now]] puede ir con presente simple cuando describe una situación nueva y estable: [[She lives in Canada now]] (ahora vive en Canadá, se mudó).",
+      "estructuras": [
+        {
+          "etiqueta": "Lo normal + but + la excepción de hoy",
+          "formula": [
+            { "t": "Sujeto + usually + verbo", "rol": "verbo" },
+            { "t": "but", "rol": "otro" },
+            { "t": "today / this week", "rol": "tiempo" },
+            { "t": "sujeto + be + -ing", "rol": "auxiliar" }
+          ],
+          "ejemplo": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "usually", "rol": "tiempo" },
+            { "t": "take", "rol": "verbo" },
+            { "t": "the bus,", "rol": "complemento" },
+            { "t": "but", "rol": "otro" },
+            { "t": "today", "rol": "tiempo" },
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "walking", "rol": "verbo" }
+          ],
+          "es": "Normalmente tomo el camión, pero hoy voy caminando."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Señales de tiempo",
+          "columnas": ["Presente simple", "Ejemplo", "Presente continuo", "Ejemplo"],
+          "filas": [
+            ["every day", "She cooks every day.", "right now", "She's cooking right now."],
+            ["usually", "I usually walk.", "today", "Today I'm taking a taxi."],
+            ["on Saturdays", "We play soccer on Saturdays.", "at the moment", "We're playing soccer at the moment."],
+            ["never", "He never watches TV.", "this week", "He's watching a series this week."],
+            ["once a month", "They visit us once a month.", "these days", "They're visiting a lot of museums these days."]
+          ],
+          "audio": [1, 3]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos usually wears jeans, but today he's wearing a suit.",
+          "es": "Carlos normalmente usa jeans, pero hoy trae traje.",
+          "situacion": "Carlos tiene una entrevista de trabajo.",
+          "partes": [
+            { "t": "Carlos", "rol": "sujeto" },
+            { "t": "usually", "rol": "tiempo" },
+            { "t": "wears", "rol": "verbo" },
+            { "t": "jeans,", "rol": "complemento" },
+            { "t": "but", "rol": "otro" },
+            { "t": "today", "rol": "tiempo" },
+            { "t": "he's", "rol": "sujeto" },
+            { "t": "wearing", "rol": "verbo" },
+            { "t": "a suit", "rol": "complemento" }
+          ],
+          "nota": "usually + wears (hábito, con -s de tercera persona) frente a today + is wearing (excepción de hoy). El «trae puesto» del español se dice con wear en continuo."
+        },
+        {
+          "en": "We have English class on Tuesdays.",
+          "es": "Tenemos clase de inglés los martes.",
+          "partes": [
+            { "t": "We", "rol": "sujeto" },
+            { "t": "have", "rol": "verbo" },
+            { "t": "English class", "rol": "complemento" },
+            { "t": "on Tuesdays", "rol": "tiempo" }
+          ],
+          "nota": "on Tuesdays (con -s) significa «todos los martes»: es una repetición, así que va en presente simple."
+        },
+        {
+          "en": "Listen! Somebody is knocking at the door.",
+          "es": "¡Escucha! Alguien está tocando la puerta.",
+          "partes": [
+            { "t": "Listen!", "rol": "otro" },
+            { "t": "Somebody", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "knocking", "rol": "verbo" },
+            { "t": "at the door", "rol": "complemento" }
+          ],
+          "nota": "Listen! anuncia algo que ocurre en este instante: continuo. En knock, la k inicial no se pronuncia: /ˈnɑkɪŋ/."
+        },
+        {
+          "en": "My brother is always losing his keys!",
+          "es": "¡Mi hermano siempre anda perdiendo las llaves!",
+          "partes": [
+            { "t": "My brother", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "always", "rol": "tiempo" },
+            { "t": "losing", "rol": "verbo" },
+            { "t": "his keys", "rol": "complemento" }
+          ],
+          "nota": "always + continuo no es un hábito neutro: expresa fastidio. Es un uso expresivo; para describir un hábito sin emoción, di He always loses his keys."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "usually",
+          "ipa": "/ˈjuʒuəli/",
+          "consejo": "El sonido central /ʒ/ no existe en español de México: es como la sh de «shh» pero con vibración en la garganta (como la ll/y del español rioplatense en «yo»). Acento en la primera sílaba: YU-zhu-a-li. Al hablar rápido se reduce a tres sílabas: «YU-zhu-li»."
+        },
+        {
+          "texto": "these days",
+          "ipa": "/ðiz ˈdeɪz/",
+          "consejo": "these empieza con /ð/ (lengua entre los dientes, con vibración) y tiene una i larga. Las dos palabras terminan en /z/ sonora. days tiene el diptongo /eɪ/, como «ei» en «rey»."
+        }
+      ],
+      "errores": [
+        { "mal": "I'm playing tennis every Saturday.", "bien": "I play tennis every Saturday.", "porque": "every Saturday indica repetición: presente simple." },
+        { "mal": "Look! It rains.", "bien": "Look! It's raining.", "porque": "Look! señala algo que pasa en este momento: continuo." },
+        { "mal": "I'm usually having lunch at two.", "bien": "I usually have lunch at two.", "porque": "usually describe una rutina: presente simple, con el adverbio delante del verbo." }
+      ],
+      "nota": {
+        "titulo": "Si dudas, pregúntate",
+        "texto": "¿Se repite o es estable? → presente simple. ¿Está en marcha ahora o es solo por una temporada? → presente continuo. Las expresiones de tiempo te dan una pista, pero la respuesta a esta pregunta es la que decide.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "simple-o-continuo.habito-o-ahora.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "I ___ to work every day.",
+      "opciones": [
+        { "texto": "walk", "correcta": true, "porque": "Correcta: every day indica un hábito, que va en presente simple." },
+        { "texto": "am walking", "correcta": false, "porque": "El continuo describe algo que pasa ahora o temporalmente; every day indica repetición." },
+        { "texto": "walking", "correcta": false, "porque": "Un verbo en -ing no puede ir solo tras el sujeto; además, aquí toca presente simple." }
+      ],
+      "pistas": [
+        "Busca la expresión de tiempo.",
+        "every day habla de algo que se repite.",
+        "Hábito → presente simple, como en I eat at home every day."
+      ],
+      "solucion": { "respuesta": "walk", "explicacion": "La respuesta es walk porque every day indica una rutina y las rutinas se expresan con presente simple. Con I el verbo va en forma base." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Elige la forma adecuada del banco.",
+      "frase": "Please be quiet! The baby ___.",
+      "respuestas": [["is sleeping"]],
+      "banco": ["sleeps", "is sleeping"],
+      "traduccion": "¡Guarden silencio, por favor! El bebé está dormido.",
+      "errores_tipicos": {
+        "sleeps": "sleeps describe un hábito (el bebé duerme mucho, por ejemplo). Aquí pides silencio porque el bebé está durmiendo en este momento."
+      },
+      "pistas": [
+        "¿Por qué pides silencio?",
+        "La razón es algo que ocurre en este preciso momento.",
+        "Acción en progreso → be + -ing."
+      ],
+      "solucion": { "respuesta": "is sleeping", "explicacion": "La respuesta es is sleeping: pides silencio porque el bebé está durmiendo ahora mismo, una acción en progreso. The baby sleeps describiría una costumbre." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada oración con su significado.",
+      "pares": [
+        { "a": "What do you do?", "b": "¿A qué te dedicas?" },
+        { "a": "What are you doing?", "b": "¿Qué estás haciendo?" },
+        { "a": "I live in León.", "b": "Vivo en León (es mi lugar de residencia)." },
+        { "a": "I'm living in León.", "b": "Estoy viviendo en León (por una temporada)." },
+        { "a": "She speaks French.", "b": "Sabe hablar francés." },
+        { "a": "She's speaking French.", "b": "En este momento está hablando en francés." }
+      ],
+      "pistas": [
+        "Cada par tiene una versión en simple y otra en continuo.",
+        "El simple es lo general o estable; el continuo, lo de ahora o lo temporal.",
+        "Busca en la traducción las palabras «ahora», «estás», «temporada» para las formas continuas."
+      ],
+      "solucion": { "respuesta": "do/dedicas; are doing/estás haciendo; live/residencia; 'm living/temporada; speaks/sabe hablar; 's speaking/en este momento", "explicacion": "El presente simple presenta la acción como general o estable (profesión, residencia, capacidad). El continuo la presenta en marcha (ahora) o temporal (por una temporada)." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el presente simple o el continuo de wear.",
+      "frase": "Carlos usually ___ jeans, but today he ___ a suit.",
+      "respuestas": [["wears"], ["is wearing"]],
+      "traduccion": "Carlos normalmente usa jeans, pero hoy trae traje.",
+      "errores_tipicos": {
+        "wears | wears": "El segundo hueco habla de hoy, una excepción temporal: is wearing.",
+        "is wearing | is wearing": "usually indica hábito: presente simple (wears).",
+        "wear | is wearing": "Con he (Carlos), el presente simple lleva -s: wears."
+      },
+      "pistas": [
+        "Una parte habla de lo normal y la otra de hoy.",
+        "usually → hábito; today + but → excepción.",
+        "Hábito: presente simple con -s de tercera persona; lo de hoy: be + verbo -ing."
+      ],
+      "solucion": { "respuesta": "wears / is wearing", "explicacion": "usually indica el hábito (presente simple, con -s porque Carlos es tercera persona). but today presenta la excepción temporal (presente continuo: is wearing)." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma correcta de boil.",
+      "frase": "Water ___ at 100 degrees Celsius.",
+      "respuestas": [["boils"]],
+      "traduccion": "El agua hierve a 100 grados centígrados.",
+      "errores_tipicos": {
+        "is boiling": "Es una verdad general, no algo que pasa ahora: presente simple.",
+        "boil": "water es incontable y funciona como it: boils, con -s."
+      },
+      "pistas": [
+        "¿Es algo que está pasando ahora o una verdad general?",
+        "Es un dato científico, siempre verdadero.",
+        "Verdad general → presente simple; con un sujeto singular (it) el verbo lleva -s."
+      ],
+      "solucion": { "respuesta": "boils", "explicacion": "La respuesta es boils: las verdades generales van en presente simple, y water (incontable, como it) lleva la -s de tercera persona." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la diferencia.",
+      "pregunta": "Sam dice: «I'm living with my parents.» ¿Qué sugiere, comparado con «I live with my parents»?",
+      "opciones": [
+        { "texto": "Que vive con sus papás desde siempre y no piensa cambiar.", "correcta": false, "porque": "Eso lo sugiere más bien el presente simple (I live), que presenta la situación como estable." },
+        { "texto": "Que es una situación temporal, por una temporada.", "correcta": true, "porque": "Correcta: el continuo presenta la situación como temporal, con un final esperado." },
+        { "texto": "Que está en casa de sus papás en este instante, de visita.", "correcta": false, "porque": "live habla de dónde reside, no de dónde está de visita. Estar de visita sería I'm at my parents' house." }
+      ],
+      "pistas": [
+        "Los dos tiempos son correctos, pero dicen cosas distintas.",
+        "Piensa en el matiz del continuo con verbos como live o work.",
+        "Continuo = temporal; simple = estable."
+      ],
+      "solucion": { "respuesta": "Que es una situación temporal, por una temporada.", "explicacion": "Con live y work el continuo añade la idea de temporalidad: Sam vive con sus papás por ahora (quizá busca departamento). I live with my parents lo presentaría como su situación normal." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un verbo en el tiempo equivocado. Señálalo y escribe la corrección.",
+      "frase": "Listen! Somebody plays the piano next door.",
+      "error": "plays",
+      "correcciones": ["is playing"],
+      "frase_correcta": "Listen! Somebody is playing the piano next door.",
+      "pistas": [
+        "Fíjate en la palabra que abre la oración.",
+        "Listen! llama la atención sobre algo que suena ahora.",
+        "Acción en progreso → is + -ing."
+      ],
+      "solucion": { "respuesta": "plays → is playing", "explicacion": "Listen! indica que la acción está ocurriendo en este momento, así que se necesita el continuo: is playing. Somebody plays the piano describiría un hábito." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de tiempo verbal. Señala las palabras incorrectas y escribe la corrección.",
+      "frase": "My sister is usually taking the bus to school.",
+      "error": "is usually taking",
+      "correcciones": ["usually takes"],
+      "frase_correcta": "My sister usually takes the bus to school.",
+      "pistas": [
+        "usually es una señal de frecuencia.",
+        "La oración describe una costumbre.",
+        "Hábito → presente simple, con usually delante del verbo y -s de tercera persona."
+      ],
+      "solucion": { "respuesta": "is usually taking → usually takes", "explicacion": "usually indica un hábito, que se expresa con presente simple: My sister usually takes the bus. El adverbio va delante del verbo principal y takes lleva -s porque el sujeto es she." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la oración para hablar de este momento: sustituye on Saturdays por right now.",
+      "origen": "Diego plays tennis on Saturdays.",
+      "instruccion": "Ahora mismo (right now)",
+      "respuestas": ["Diego is playing tennis right now", "Right now Diego is playing tennis"],
+      "errores_tipicos": {
+        "Diego plays tennis right now": "right now pide una acción en progreso: is playing.",
+        "Diego is plays tennis right now": "Después de is el verbo va en -ing, sin -s."
+      },
+      "pistas": [
+        "Pasa de hábito a acción en progreso.",
+        "Necesitas is + -ing y desaparece la -s de plays.",
+        "Sujeto + is + verbo -ing (sin la -s) + complemento + right now, como en Ana is reading a book right now."
+      ],
+      "solucion": { "respuesta": "Diego is playing tennis right now.", "explicacion": "on Saturdays expresa un hábito (presente simple); right now una acción en progreso (presente continuo). plays pasa a is playing: la persona la marca is." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Pon this week después de but.",
+      "es": "Trabajo en Monterrey, pero esta semana estoy trabajando en Querétaro.",
+      "respuestas": [
+        "I work in Monterrey, but this week I'm working in Querétaro",
+        "I work in Monterrey, but this week I'm working in Queretaro"
+      ],
+      "errores_tipicos": {
+        "I work in Monterrey, but this week I work in Querétaro": "this week marca una excepción temporal: I'm working.",
+        "I'm working in Monterrey, but this week I'm working in Querétaro": "Monterrey es su lugar de trabajo habitual: presente simple (I work)."
+      },
+      "pistas": [
+        "La oración contrasta lo habitual con lo temporal.",
+        "La primera parte es su situación normal; la segunda, la excepción de esta semana.",
+        "Situación normal: sujeto + verbo en presente simple + lugar; but this week + sujeto + be + verbo -ing + lugar."
+      ],
+      "solucion": { "respuesta": "I work in Monterrey, but this week I'm working in Querétaro.", "explicacion": "La primera parte describe su situación estable (presente simple: I work). La segunda, una situación temporal de esta semana (presente continuo: I'm working). Es el patrón clásico «lo normal, but la excepción»." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "She usually cooks, but tonight her husband is cooking.",
+      "pistas": [
+        "La oración tiene dos partes unidas por but.",
+        "La primera parte es un hábito; la segunda, algo de esta noche.",
+        "Hábito: usually + verbo con -s; lo de esta noche: sujeto + is + verbo -ing."
+      ],
+      "solucion": { "respuesta": "She usually cooks, but tonight her husband is cooking.", "explicacion": "usually cooks (hábito, presente simple con -s) frente a tonight … is cooking (excepción de esta noche, continuo)." }
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Marca el contraste entre los dos verbos.",
+      "texto": "I usually work at the office, but today I'm working from home.",
+      "ipa": "/aɪ ˈjuʒuəli ˈwɝk æt ði ˈɔfɪs bət təˈdeɪ aɪm ˈwɝkɪŋ frəm ˈhoʊm/",
+      "consejo": "Pon un poco más de fuerza en today, que es la palabra del contraste. but y from se dicen débiles (/bət/, /frəm/). En work y working la vocal /ɝ/ es una r vocálica: la lengua se curva hacia atrás, sin o ni u españolas.",
+      "es": "Normalmente trabajo en la oficina, pero hoy estoy trabajando desde casa."
+    },
+    {
+      "id": "simple-o-continuo.habito-o-ahora.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Estás en una fiesta y alguien que acabas de conocer te pregunta:",
+      "lineas": [
+        { "quien": "Grace", "en": "Nice to meet you! So, what do you do?", "es": "¡Mucho gusto! Y dime, ¿a qué te dedicas?" }
+      ],
+      "opciones": [
+        { "texto": "I'm a nurse. I work at a hospital.", "correcta": true, "porque": "Correcta: What do you do? pregunta por la profesión, y se contesta en presente simple." },
+        { "texto": "I'm dancing.", "correcta": false, "porque": "Contesta a What are you doing?, no a What do you do?" },
+        { "texto": "Yes, I do.", "correcta": false, "porque": "What…? pide información; no se contesta con sí o no." },
+        { "texto": "I'm drinking a soda.", "correcta": false, "porque": "Describe lo que haces ahora; la pregunta es sobre tu trabajo." }
+      ],
+      "pistas": [
+        "Mira el tiempo verbal de la pregunta.",
+        "What do you do? está en presente simple.",
+        "Presente simple en esta pregunta = profesión."
+      ],
+      "solucion": { "respuesta": "I'm a nurse. I work at a hospital.", "explicacion": "What do you do? es la forma habitual de preguntar por la profesión. Se responde con be + profesión o con el presente simple (I work at…)." }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Una semana diferente",
+    "contexto": "Tu amigo Ben te escribe para ponerse al día. Quiere saber cómo es tu vida normalmente y qué es diferente esta semana.",
+    "dialogo": [
+      { "quien": "Ben", "en": "Hey! How's everything? What do you usually do on weekdays?", "es": "¡Hola! ¿Cómo va todo? ¿Qué haces normalmente entre semana?" },
+      { "quien": "Tú", "en": "…", "es": "(Describe tu rutina normal.)" },
+      { "quien": "Ben", "en": "And this week? Is it a normal week?", "es": "¿Y esta semana? ¿Es una semana normal?" },
+      { "quien": "Tú", "en": "…", "es": "(Cuenta qué es diferente esta semana.)" }
+    ],
+    "tu_turno": "Escribe 2 o 3 oraciones sobre tu rutina (presente simple con usually, every day…) y 2 o 3 sobre lo que es distinto esta semana (presente continuo con this week, today, these days). Usa but al menos una vez.",
+    "modelo": "I usually work at the office from nine to six, and I go to the gym on Mondays and Wednesdays. But this week is different: I'm working from home because my car is in the shop, and I'm not going to the gym. These days I'm also studying for an English exam.",
+    "alternativas": [
+      "I usually take the bus to school and I have lunch with my friends. This week I'm walking to school because the buses aren't running, and today I'm eating at home.",
+      "Normally I get up at six and I go to work by car. But this week my sister is staying with me, so I'm driving her to the airport today."
+    ],
+    "claves": [
+      "Rutina: sujeto + verbo (+ -s) + usually / every day / on Mondays.",
+      "Excepción: sujeto + am / is / are + -ing + this week / today / these days.",
+      "Une las dos ideas con but."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Presente simple: hábitos, verdades generales, situaciones permanentes (I work in Monterrey).",
+      "Presente continuo: lo que pasa ahora y lo temporal (this week I'm working in Querétaro).",
+      "Señales del simple: always, usually, never, every day, on Mondays, once a week.",
+      "Señales del continuo: now, right now, at the moment, today, this week, these days, Look!, Listen!.",
+      "What do you do? = ¿a qué te dedicas? / What are you doing? = ¿qué estás haciendo?"
+    ],
+    "recuerda": [
+      "Las señales orientan, pero decide el significado.",
+      "always + continuo expresa queja: He's always losing his keys!",
+      "En español «¿qué haces?» sirve para el ahora; en inglés no."
+    ]
+  },
+  "repaso": [
+    { "id": "simple-o-continuo.habito-o-ahora.r1", "frente": "I live in León / I'm living in León: ¿qué diferencia hay?", "reverso": "live = residencia estable; 'm living = por una temporada." },
+    { "id": "simple-o-continuo.habito-o-ahora.r2", "frente": "What do you do?", "reverso": "¿A qué te dedicas? (profesión)", "nota": "Lo de ahora: What are you doing?" },
+    { "id": "simple-o-continuo.habito-o-ahora.r3", "frente": "Completa: I usually ___ (walk), but today I ___ (take) a taxi.", "reverso": "walk / 'm taking" },
+    { "id": "simple-o-continuo.habito-o-ahora.r4", "frente": "¿Water boils o Water is boiling para un dato científico?", "reverso": "Water boils at 100 °C (verdad general → presente simple)." },
+    { "id": "simple-o-continuo.habito-o-ahora.r5", "frente": "¿Qué expresa «She's always losing her keys!»?", "reverso": "Queja o fastidio por algo que se repite demasiado.", "nota": "Hábito neutro: She always loses her keys." }
+  ]
+}

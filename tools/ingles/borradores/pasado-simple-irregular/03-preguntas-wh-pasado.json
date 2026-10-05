@@ -1,0 +1,1081 @@
+{
+  "slug": "preguntas-wh-pasado",
+  "titulo": "Preguntas con palabras interrogativas",
+  "minutos": 50,
+  "objetivos": [
+    "Hacer preguntas de información en pasado: palabra interrogativa + did + sujeto + forma base.",
+    "Combinar estas preguntas con was / were (Where were you? How was it?).",
+    "Distinguir las preguntas de sujeto (Who called you? What happened?), que no llevan did."
+  ],
+  "situacion": {
+    "titulo": "Una llamada perdida",
+    "texto": "Sam vuelve de vacaciones y su compañera Grace le hace preguntas. Casi todas siguen el mismo molde: palabra interrogativa + did + sujeto + verbo base. Pero fíjate en la última pregunta de Sam: Who called? no lleva did. Al final de la lección sabrás por qué.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Welcome back! Where did you go?",
+        "es": "¡Bienvenido! ¿A dónde fuiste?"
+      },
+      {
+        "quien": "Sam",
+        "en": "To Chiapas. We visited San Cristóbal and the waterfalls.",
+        "es": "A Chiapas. Visitamos San Cristóbal y las cascadas."
+      },
+      {
+        "quien": "Grace",
+        "en": "How did you get there?",
+        "es": "¿Cómo llegaron?"
+      },
+      {
+        "quien": "Sam",
+        "en": "We flew to Tuxtla and took a bus.",
+        "es": "Volamos a Tuxtla y tomamos un camión."
+      },
+      {
+        "quien": "Grace",
+        "en": "Nice! Oh, somebody called for you on Monday.",
+        "es": "¡Qué bien! Ah, alguien te llamó el lunes."
+      },
+      {
+        "quien": "Sam",
+        "en": "Really? Who called?",
+        "es": "¿En serio? ¿Quién llamó?"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "wh-did",
+      "titulo": "Palabra interrogativa + did + sujeto + verbo base",
+      "que_es": "Para pedir información sobre el pasado (dónde, cuándo, qué, por qué, cómo…) se pone la **palabra interrogativa** delante de la pregunta con did que ya conoces: **Did you go?** → **Where did you go?**. El verbo sigue en forma base.",
+      "para_que": [
+        "Preguntar por un viaje: «Where did you stay?».",
+        "Pedir detalles: «What did she say?», «Why did he leave?».",
+        "Preguntar horas y precios: «What time did you arrive?», «How much did it cost?»."
+      ],
+      "como_funciona": "**Palabra interrogativa + did + sujeto + verbo en forma base + resto?** Las más útiles: [[where]] (dónde / a dónde), [[when]] (cuándo), [[what]] (qué), [[what time]] (a qué hora), [[why]] (por qué), [[how]] (cómo), [[how much]] (cuánto), [[how long]] (cuánto tiempo, como expresión fija), [[who]] (a quién, cuando es el objeto: Who did you see?) y [[which]] (cuál). El orden es fijo: nunca «Where you went?» ni «Where went you?». Y recuerda que si el verbo es **be**, no hay did: Where **were** you? How **was** the trip? Una curiosidad útil: cost no cambia en pasado, así que en «How much did it cost?» no notarás la diferencia; lo que marca el pasado es did.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de información",
+          "formula": [
+            {
+              "t": "Where / When / What / Why / How…",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What time",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the plane",
+              "rol": "sujeto"
+            },
+            {
+              "t": "land",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿A qué hora aterrizó el avión?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Preguntas típicas de un viaje",
+          "columnas": [
+            "Pregunta",
+            "Significado",
+            "Respuesta posible"
+          ],
+          "filas": [
+            [
+              "Where did you go?",
+              "¿A dónde fuiste?",
+              "To Mérida."
+            ],
+            [
+              "When did you leave?",
+              "¿Cuándo te fuiste?",
+              "On Friday."
+            ],
+            [
+              "How did you get there?",
+              "¿Cómo llegaste?",
+              "By plane."
+            ],
+            [
+              "Where did you stay?",
+              "¿Dónde te quedaste?",
+              "At a small hotel."
+            ],
+            [
+              "What did you eat?",
+              "¿Qué comiste?",
+              "A lot of seafood."
+            ],
+            [
+              "How much did it cost?",
+              "¿Cuánto costó?",
+              "About 300 dollars."
+            ],
+            [
+              "Who did you go with?",
+              "¿Con quién fuiste?",
+              "With my brother."
+            ],
+            [
+              "How was it?",
+              "¿Qué tal estuvo?",
+              "It was great!"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What did she say?",
+          "es": "¿Qué dijo?",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "say",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Say en base, no said. El pasado está en did."
+        },
+        {
+          "en": "Why did they leave early?",
+          "es": "¿Por qué se fueron temprano?",
+          "partes": [
+            {
+              "t": "Why",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "leave",
+              "rol": "verbo"
+            },
+            {
+              "t": "early",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "La respuesta suele empezar con because: Because they were tired."
+        },
+        {
+          "en": "Who did you travel with?",
+          "es": "¿Con quién viajaste?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "travel",
+              "rol": "verbo"
+            },
+            {
+              "t": "with",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En inglés la preposición (with) suele ir al final de la pregunta, no delante de who."
+        },
+        {
+          "en": "Where were you on Saturday night?",
+          "es": "¿Dónde estabas el sábado en la noche?",
+          "partes": [
+            {
+              "t": "Where",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "on Saturday night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Con be no hay did: where + were + you."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la afirmación a la pregunta con where",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "You",
+                "rol": "sujeto"
+              },
+              {
+                "t": "went",
+                "rol": "verbo"
+              },
+              {
+                "t": "to Mérida",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta de sí o no",
+            "partes": [
+              {
+                "t": "Did",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "you",
+                "rol": "sujeto"
+              },
+              {
+                "t": "go",
+                "rol": "verbo"
+              },
+              {
+                "t": "to Mérida",
+                "rol": "complemento"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta de información",
+            "partes": [
+              {
+                "t": "Where",
+                "rol": "interrogativo"
+              },
+              {
+                "t": "did",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "you",
+                "rol": "sujeto"
+              },
+              {
+                "t": "go",
+                "rol": "verbo"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          }
+        ],
+        "pie": "Where sustituye a la información que buscas (to Mérida) y se coloca al principio. El resto es la pregunta con did."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Where did you go?",
+          "ipa": "/wɛr ˈdɪdʒə ɡoʊ/",
+          "consejo": "Did you se funde en «dí-dʒə». El acento cae en where y en go. En las preguntas con palabra interrogativa la voz normalmente baja al final, no sube.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Where you went last weekend?",
+          "bien": "Where did you go last weekend?",
+          "porque": "Falta did, y el verbo debe ir en base: where + did + you + go."
+        },
+        {
+          "mal": "What did she said?",
+          "bien": "What did she say?",
+          "porque": "Después de did, forma base."
+        },
+        {
+          "mal": "Where did you were?",
+          "bien": "Where were you?",
+          "porque": "Be no usa did."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-de-sujeto",
+      "titulo": "Preguntas de sujeto: Who called you? What happened?",
+      "que_es": "A veces lo que no sabes es **quién hizo la acción** (el sujeto). Entonces la palabra interrogativa (who o what) ocupa el lugar del sujeto, y la pregunta **no lleva did**: el verbo va en pasado normal, como en una afirmación. «¿Quién te llamó?» = **Who called you?**",
+      "para_que": [
+        "Preguntar quién hizo algo: «Who ate my sandwich?».",
+        "Preguntar qué ocurrió: «What happened?».",
+        "Reaccionar a una noticia: «Who told you?»."
+      ],
+      "como_funciona": "Compara dos preguntas con who. **1. Who called you?** Alguien te llamó; no sabes quién. Who es el **sujeto** (el que llama). Sustituye al sujeto y la oración conserva el orden de la afirmación: Somebody called you → **Who called you?** Sin did, verbo en pasado. **2. Who did you call?** Tú llamaste a alguien; no sé a quién. Aquí el sujeto es you, y who es el **objeto** (a quien llamaste). Es una pregunta normal: who + did + you + call. Truco con el español: si en español dirías «¿**A** quién…?», casi siempre es la pregunta con did (¿A quién llamaste? → Who did you call?). Si dirías «¿Quién…?» sin «a», y quien hace la acción es la persona por la que preguntas, es pregunta de sujeto (¿Quién te llamó? → Who called you?). Con **what** pasa lo mismo: **What happened?** (¿Qué pasó?) no lleva did porque what es el sujeto: algo pasó. «What did happen?» solo existe como forma enfática para contradecir («Well, what DID happen, then?»); no es la pregunta normal. En las preguntas de sujeto el verbo va en pasado (called, happened, ate), porque no hay did que se lleve el pasado.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de sujeto (sin did)",
+          "formula": [
+            {
+              "t": "Who / What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "broke",
+              "rol": "verbo"
+            },
+            {
+              "t": "the window",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Quién rompió la ventana?"
+        },
+        {
+          "etiqueta": "Pregunta de objeto (con did)",
+          "formula": [
+            {
+              "t": "Who / What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿A quién llamaste?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Who told you?",
+          "es": "¿Quién te dijo?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "told",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Alguien te lo dijo: who es el sujeto. Sin did y con told en pasado."
+        },
+        {
+          "en": "What happened to your car?",
+          "es": "¿Qué le pasó a tu carro?",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "happened",
+              "rol": "verbo"
+            },
+            {
+              "t": "to your car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Happen lleva to delante de lo afectado: What happened to you? Nunca «What happened you?»."
+        },
+        {
+          "en": "Who won the game?",
+          "es": "¿Quién ganó el partido?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "won",
+              "rol": "verbo"
+            },
+            {
+              "t": "the game",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Win → won /wʌn/ (suena igual que one). Who es quien gana: sujeto."
+        },
+        {
+          "en": "Who did you meet at the party?",
+          "es": "¿A quién conociste en la fiesta?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "meet",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the party",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Tú conociste a alguien: you es el sujeto y who el objeto. Por eso lleva did."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Who = sujeto (sin did)",
+          "items": [
+            "Who called you? — Ana called me.",
+            "Who saw the accident? — My neighbor saw it.",
+            "What happened? — The bus broke down."
+          ]
+        },
+        "b": {
+          "titulo": "Who = objeto (con did)",
+          "items": [
+            "Who did you call? — I called Ana.",
+            "Who did you see? — I saw my neighbor.",
+            "What did you do? — I called the police."
+          ]
+        },
+        "veredicto": "Mira la respuesta: si la persona por la que preguntas aparece al principio, haciendo la acción (Ana called me), la pregunta es de sujeto y no lleva did. Si aparece después del verbo (I called Ana), la pregunta lleva did."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Who ocupa el lugar del sujeto",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "Somebody",
+                "rol": "sujeto"
+              },
+              {
+                "t": "called",
+                "rol": "verbo"
+              },
+              {
+                "t": "you",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta de sujeto",
+            "partes": [
+              {
+                "t": "Who",
+                "rol": "interrogativo"
+              },
+              {
+                "t": "called",
+                "rol": "verbo"
+              },
+              {
+                "t": "you",
+                "rol": "complemento"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          }
+        ],
+        "pie": "Somebody se sustituye por who. El orden no cambia y no aparece did; called sigue en pasado."
+      },
+      "pronunciacion": [
+        {
+          "texto": "What happened?",
+          "ipa": "/wʌt ˈhæpənd/",
+          "consejo": "La t de what se une a la h: «wə-tá-pənd» en habla rápida (la h se suaviza mucho). Happened tiene dos sílabas, HAP-pend: la -ed suena /d/ y no añade sílaba. La h es un soplo suave, no una «j» española."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Who did call you?",
+          "bien": "Who called you?",
+          "porque": "Si who es quien llama (el sujeto), no se usa did y el verbo va en pasado."
+        },
+        {
+          "mal": "What did happen?",
+          "bien": "What happened?",
+          "porque": "What es el sujeto (algo pasó). «What did happen?» solo se usa para dar énfasis."
+        },
+        {
+          "mal": "What happened you?",
+          "bien": "What happened to you?",
+          "porque": "Happen necesita to delante de la persona o cosa afectada."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "Where ___ you go last summer?",
+      "opciones": [
+        {
+          "texto": "did",
+          "correcta": true,
+          "porque": "Go es un verbo normal: en pasado la pregunta necesita did."
+        },
+        {
+          "texto": "were",
+          "correcta": false,
+          "porque": "Were es para be; aquí el verbo principal es go."
+        },
+        {
+          "texto": "do",
+          "correcta": false,
+          "porque": "Do es presente; last summer pide pasado."
+        },
+        {
+          "texto": "went",
+          "correcta": false,
+          "porque": "Went es el pasado de go; no puede ir antes del sujeto ni junto a otro verbo."
+        }
+      ],
+      "pistas": [
+        "Ya hay un verbo principal en la pregunta: go.",
+        "¿Qué auxiliar usan los verbos normales en pasado?",
+        "Palabra interrogativa + auxiliar del pasado + sujeto + forma base: como go no está en pasado, el auxiliar es quien marca el pasado."
+      ],
+      "solucion": {
+        "respuesta": "did",
+        "explicacion": "El verbo principal es go (forma base), así que falta el auxiliar del pasado: did. Were solo sirve si el verbo es be (Where were you?)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta.",
+      "pares": [
+        {
+          "a": "Where did you go?",
+          "b": "To Tulum."
+        },
+        {
+          "a": "When did you arrive?",
+          "b": "On Friday night."
+        },
+        {
+          "a": "Who did you travel with?",
+          "b": "With my sister."
+        },
+        {
+          "a": "How did you get there?",
+          "b": "By bus."
+        },
+        {
+          "a": "What did you eat?",
+          "b": "Fish tacos."
+        },
+        {
+          "a": "How much did the hotel cost?",
+          "b": "About ninety dollars a night."
+        }
+      ],
+      "pistas": [
+        "Cada palabra interrogativa pide un tipo de información.",
+        "Where → lugar; when → momento; who → persona; how → manera; what → cosa; how much → precio.",
+        "Busca en cada respuesta la clase de dato que encaja."
+      ],
+      "solucion": {
+        "respuesta": "Tulum · Friday night · my sister · bus · fish tacos · ninety dollars",
+        "explicacion": "Where pide un lugar (To Tulum), when un momento (On Friday night), who… with una persona (With my sister), how un medio (By bus), what una cosa (Fish tacos) y how much un precio."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de say.",
+      "frase": "What did your boss ___?",
+      "traduccion": "¿Qué dijo tu jefe?",
+      "respuestas": [
+        [
+          "say"
+        ]
+      ],
+      "errores_tipicos": {
+        "said": "Después de did va la forma base: say.",
+        "says": "Después de did nunca hay -s: say."
+      },
+      "pistas": [
+        "La pregunta ya tiene did.",
+        "¿Qué forma del verbo va después de did?",
+        "did + forma base."
+      ],
+      "solucion": {
+        "respuesta": "say",
+        "explicacion": "Did ya marca el pasado, así que say va en forma base. Said solo se usa en afirmaciones (He said…)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.04",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "did",
+        "What",
+        "time",
+        "you",
+        "get",
+        "up"
+      ],
+      "respuestas": [
+        "What time did you get up"
+      ],
+      "traduccion": "¿A qué hora te levantaste?",
+      "pistas": [
+        "La palabra interrogativa tiene dos palabras.",
+        "Después va el auxiliar y luego el sujeto.",
+        "Expresión interrogativa + auxiliar + sujeto + forma base, como en What time did she go to bed?"
+      ],
+      "solucion": {
+        "respuesta": "What time did you get up?",
+        "explicacion": "What time (a qué hora) va primero, luego did, el sujeto you y el verbo en base, get up (levantarse)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la pregunta con where cuya respuesta sea la parte resaltada: They stayed [[at a hostel]].",
+      "origen": "They stayed at a hostel.",
+      "instruccion": "Pregunta con where",
+      "respuestas": [
+        "Where did they stay?"
+      ],
+      "errores_tipicos": {
+        "Where they stayed?": "Falta did: where + did + they + stay.",
+        "Where did they stayed?": "Después de did, forma base: stay.",
+        "Where did they stay at a hostel?": "Where sustituye a at a hostel; no se repite."
+      },
+      "pistas": [
+        "Where sustituye al lugar.",
+        "Necesitas did y el verbo en base.",
+        "Palabra interrogativa + auxiliar del pasado + sujeto + forma base + ?, como en Where did she sleep?"
+      ],
+      "solucion": {
+        "respuesta": "Where did they stay?",
+        "explicacion": "Where sustituye a at a hostel y va al principio. Después viene la pregunta con did: did they stay (stay en base, sin -ed)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "¿Quién te llamó?",
+      "opciones": [
+        {
+          "texto": "Who called you?",
+          "correcta": true,
+          "porque": "Who es quien llama (el sujeto): no lleva did y el verbo va en pasado."
+        },
+        {
+          "texto": "Who did you call?",
+          "correcta": false,
+          "porque": "Significa «¿A quién llamaste?»: ahí tú eres quien llama."
+        },
+        {
+          "texto": "Who did call you?",
+          "correcta": false,
+          "porque": "Si who es el sujeto no se usa did (salvo para dar énfasis)."
+        },
+        {
+          "texto": "Who you called?",
+          "correcta": false,
+          "porque": "Tiene el orden de una afirmación con you como sujeto; no es una pregunta correcta."
+        }
+      ],
+      "pistas": [
+        "¿Quién hace la acción de llamar: tú o la persona desconocida?",
+        "Si la persona por la que preguntas hace la acción, who es el sujeto.",
+        "Who sujeto → sin did, verbo en pasado."
+      ],
+      "solucion": {
+        "respuesta": "Who called you?",
+        "explicacion": "En «¿Quién te llamó?» la persona desconocida es la que llama: who es el sujeto. Por eso no hay did y called va en pasado. Who did you call? significa lo contrario: «¿A quién llamaste?»."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.07",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "¿A quién viste en la fiesta?",
+      "opciones": [
+        {
+          "texto": "Who did you see at the party?",
+          "correcta": true,
+          "porque": "Tú viste a alguien: you es el sujeto y who el objeto. Pregunta normal con did."
+        },
+        {
+          "texto": "Who saw you at the party?",
+          "correcta": false,
+          "porque": "Significa «¿Quién te vio en la fiesta?»: la otra persona es la que ve."
+        },
+        {
+          "texto": "Who did you saw at the party?",
+          "correcta": false,
+          "porque": "Después de did va la base: see."
+        },
+        {
+          "texto": "Who you saw at the party?",
+          "correcta": false,
+          "porque": "Falta did; con who como objeto la pregunta necesita el auxiliar."
+        }
+      ],
+      "pistas": [
+        "Fíjate en la «a» de «¿A quién…?».",
+        "¿Quién ve: tú o la otra persona?",
+        "Who objeto → who + auxiliar + sujeto + forma base, como en Who did she call?"
+      ],
+      "solucion": {
+        "respuesta": "Who did you see at the party?",
+        "explicacion": "La «a» de «¿A quién…?» indica que who es el objeto: tú viste a alguien. Entonces la pregunta es normal: who + did + you + see (base)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "What did happen at the meeting?",
+      "error": "did happen",
+      "correcciones": [
+        "happened"
+      ],
+      "frase_correcta": "What happened at the meeting?",
+      "pistas": [
+        "¿Qué es what aquí: el sujeto o el objeto?",
+        "Algo pasó: what es lo que pasa.",
+        "Pregunta de sujeto → sin did, verbo en pasado."
+      ],
+      "solucion": {
+        "respuesta": "did happen → happened",
+        "explicacion": "What es el sujeto de happen (algo pasó), así que la pregunta no lleva did: What happened…? «What did happen?» solo se usa para dar énfasis."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señálalo y corrígelo.",
+      "frase": "Where you went last weekend?",
+      "error": "you went",
+      "correcciones": [
+        "did you go"
+      ],
+      "frase_correcta": "Where did you go last weekend?",
+      "pistas": [
+        "A esta pregunta le falta el auxiliar.",
+        "El sujeto es you: no es una pregunta de sujeto.",
+        "Palabra interrogativa + auxiliar + sujeto + forma base, como en When did they arrive?"
+      ],
+      "solucion": {
+        "respuesta": "you went → did you go",
+        "explicacion": "You es el sujeto, así que es una pregunta normal: necesita did delante del sujeto y el verbo en base (go)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Why did you leave so early?",
+      "pistas": [
+        "Empieza por la palabra que significa «por qué».",
+        "Did you se funden: «dí-dʒu».",
+        "Why + auxiliar + sujeto + forma base + so + adverbio, como en Why did she call so late?"
+      ],
+      "solucion": {
+        "respuesta": "Why did you leave so early?",
+        "explicacion": "Why (por qué) + did + you + leave (base de left). So early = tan temprano."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.11",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "Where did you go? What did you do?",
+      "ipa": "/wɛr ˈdɪdʒə ɡoʊ ‖ wʌt ˈdɪdʒə du/",
+      "consejo": "En las dos preguntas did you suena «dí-dʒə». Los acentos caen en la palabra interrogativa y en el verbo final (GO, DO). La voz baja al final: son preguntas de información.",
+      "es": "¿A dónde fuiste? ¿Qué hiciste?"
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Qué pasó anoche?",
+      "respuestas": [
+        "What happened last night?"
+      ],
+      "errores_tipicos": {
+        "What did happen last night?": "What es el sujeto: la pregunta no lleva did.",
+        "What passed last night?": "«Pasar» con el sentido de «ocurrir» es happen, no pass.",
+        "What did pass last night?": "«Pasar» (ocurrir) es happen, y what como sujeto no lleva did."
+      },
+      "pistas": [
+        "«Pasar» con el sentido de «ocurrir» es happen.",
+        "What es lo que pasa: es el sujeto.",
+        "What es el sujeto: what + verbo en pasado + expresión de tiempo, sin did, como en Who called this morning?"
+      ],
+      "solucion": {
+        "respuesta": "What happened last night?",
+        "explicacion": "«Pasar» (ocurrir) es happen, un verbo regular. What es el sujeto, así que no se usa did y el verbo va en pasado: happened."
+      },
+      "audio": true
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa ticket.",
+      "es": "¿Cuánto costó tu boleto?",
+      "respuestas": [
+        "How much did your ticket cost?",
+        "How much was your ticket?",
+        "How much did you pay for your ticket?"
+      ],
+      "errores_tipicos": {
+        "How much did your ticket costed?": "Cost es irregular y no cambia; además, tras did va la base: cost.",
+        "How much cost your ticket?": "Your ticket es el sujeto: la pregunta necesita did.",
+        "How much your ticket cost?": "Falta did: How much did your ticket cost?"
+      },
+      "pistas": [
+        "«¿Cuánto…?» con dinero es how much.",
+        "El sujeto es your ticket; necesitas did.",
+        "How much + auxiliar + sujeto + forma base de «costar», como en How much did the shoes cost?"
+      ],
+      "solucion": {
+        "respuesta": "How much did your ticket cost?",
+        "explicacion": "How much + did + sujeto (your ticket) + cost en forma base. También es muy natural How much was your ticket?, con be y sin did, o How much did you pay for your ticket? (pay = pagar)."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Entrevista a un viajero",
+    "contexto": "Tu amigo Carlos acaba de volver de un viaje por Perú. Tú le haces preguntas para saberlo todo.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "I'm back! The trip was amazing.",
+        "es": "¡Ya volví! El viaje estuvo increíble."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Two weeks. I visited Lima, Cusco and Machu Picchu.",
+        "es": "Dos semanas. Visité Lima, Cusco y Machu Picchu."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Haz al menos cuatro preguntas en pasado: una con how long, otras con where / what / who / how, una con was / were y una pregunta de sujeto (Who…? / What happened…?).",
+    "modelo": "Welcome back! How long did you stay? — Wow! Where did you sleep in Cusco? What did you eat? Who did you travel with? How was the weather? Did anything bad happen? What happened?",
+    "alternativas": [
+      "How long were you there? What was your favorite place? How did you get to Machu Picchu? Who took all these photos?",
+      "When did you arrive? Where did you stay? What did you buy? Was it expensive? Who went with you?"
+    ],
+    "claves": [
+      "Palabra interrogativa + did + sujeto + base: Where did you sleep?",
+      "Con be: How was…? Where were…?",
+      "Pregunta de sujeto sin did: Who went with you? What happened?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Palabra interrogativa + did + sujeto + verbo base: Where did you go?",
+      "Con be no hay did: Where were you? How was it?",
+      "Pregunta de sujeto (who / what hacen la acción): sin did, verbo en pasado: Who called you? What happened?",
+      "Pregunta de objeto: Who did you call? (¿A quién llamaste?)."
+    ],
+    "recuerda": [
+      "«¿A quién…?» → normalmente who + did.",
+      "What happened?, no «What did happen?».",
+      "What happened to you?, con to."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.r1",
+      "frente": "¿Cómo se dice «¿Qué dijo?»?",
+      "reverso": "What did he / she say?",
+      "nota": "say en base."
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.r2",
+      "frente": "«¿Quién te llamó?» / «¿A quién llamaste?»",
+      "reverso": "Who called you? / Who did you call?",
+      "nota": "Sujeto sin did; objeto con did."
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.r3",
+      "frente": "¿Cómo se dice «¿Qué pasó?»?",
+      "reverso": "What happened?",
+      "nota": "Sin did."
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.r4",
+      "frente": "Corrige: Where you went?",
+      "reverso": "Where did you go?",
+      "nota": "did + base."
+    },
+    {
+      "id": "pasado-simple-irregular.preguntas-wh-pasado.r5",
+      "frente": "¿Cómo se pregunta «¿A qué hora llegaste?»?",
+      "reverso": "What time did you arrive?",
+      "nota": "What time + did + sujeto + base."
+    }
+  ]
+}

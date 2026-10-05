@@ -1,0 +1,1043 @@
+{
+  "slug": "envases-y-medidas",
+  "titulo": "Envases y medidas",
+  "minutos": 40,
+  "objetivos": [
+    "Contar lo incontable con envases: a bottle of, a can of, a carton of, a jar of, a bar of, a loaf of, a box of, a bag of.",
+    "Usar medidas y porciones: a kilo of, half a kilo of, a liter of, a pound of, a slice of, a piece of, a cup of, a glass of.",
+    "Poner el plural en el lugar correcto: two bottles of water (no two bottle of waters).",
+    "Hacer una lista del súper y pedir en el mostrador."
+  ],
+  "situacion": {
+    "titulo": "La lista del súper",
+    "texto": "Mei y su compañero de cuarto, Omar, escriben la lista del súper por mensaje. Fíjate en que ninguno dice «a water» ni «two breads»: cada cosa incontable va con su envase o su medida.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "What do we need?",
+        "es": "¿Qué necesitamos?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Two cartons of milk, a loaf of bread and a jar of peanut butter.",
+        "es": "Dos cartones de leche, un pan de caja y un frasco de crema de cacahuate."
+      },
+      {
+        "quien": "Mei",
+        "en": "Do we need any water?",
+        "es": "¿Necesitamos agua?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Yes, a big bottle of water. And half a kilo of cheese.",
+        "es": "Sí, una botella grande de agua. Y medio kilo de queso."
+      },
+      {
+        "quien": "Mei",
+        "en": "OK. And I want a bar of chocolate!",
+        "es": "Va. ¡Y yo quiero una barra de chocolate!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "envases",
+      "titulo": "A bottle of, a can of, a loaf of…: los envases",
+      "que_es": "Como viste en la unidad anterior, los incontables no se cuentan directamente: no hay [[two waters]] ni [[a bread]]. Para contarlos se nombra el **envase** o la **forma** en que vienen: [[a bottle of water]] (una botella de agua), [[a loaf of bread]] (un pan de caja o una pieza de pan). El envase sí es contable, así que puede ir en plural y con números.",
+      "para_que": [
+        "Hacer la lista del súper: two cans of beans, a box of cereal.",
+        "Pedir con precisión en una tienda: a carton of eggs, a jar of honey.",
+        "Entender etiquetas y recetas."
+      ],
+      "como_funciona": "{{otro:a / número}} + {{complemento:envase (singular o plural)}} + {{otro:of}} + {{complemento:producto}}. El plural lo lleva **solo el envase**: [[three bottles of water]], nunca [[three bottle of waters]]. El producto no cambia: si es incontable, sigue sin -s ([[two loaves of bread]]); si es contable, va en plural porque dentro hay varios ([[a bag of apples]], [[a box of cookies]]). **of** es obligatorio: [[a bottle water]] es incorrecto. Los envases más útiles: **bottle** (botella: water, juice, wine, oil), **can** (lata: soda, beans, tuna; en Reino Unido, para comida también **tin**), **carton** (cartón / envase de cartón: milk, juice, eggs), **jar** (frasco de vidrio: jam, honey, peanut butter, salsa), **bar** (barra: chocolate, soap), **loaf** (pieza de pan; plural irregular **loaves**), **box** (caja: cereal, cookies), **bag** (bolsa: rice, chips, apples), **package** (paquete, EE. UU.; **packet** en Reino Unido). Fíjate en que a veces el español dice algo distinto: «un pan de caja» es [[a loaf of bread]]; «una barra de jabón» es [[a bar of soap]].",
+      "estructuras": [
+        {
+          "etiqueta": "Uno",
+          "formula": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "envase",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "producto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "jar",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "honey",
+              "rol": "complemento"
+            }
+          ],
+          "es": "un frasco de miel"
+        },
+        {
+          "etiqueta": "Varios",
+          "formula": [
+            {
+              "t": "número",
+              "rol": "otro"
+            },
+            {
+              "t": "envase + -s",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "producto (sin cambio)",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "two",
+              "rol": "otro"
+            },
+            {
+              "t": "loaves",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "bread",
+              "rol": "complemento"
+            }
+          ],
+          "es": "dos panes (de caja)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Envases y productos típicos",
+          "columnas": [
+            "Envase",
+            "Español",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "a bottle of",
+              "una botella de",
+              "water, juice, olive oil"
+            ],
+            [
+              "a can of",
+              "una lata de",
+              "soda, beans, tuna"
+            ],
+            [
+              "a carton of",
+              "un cartón / envase de",
+              "milk, juice, eggs"
+            ],
+            [
+              "a jar of",
+              "un frasco de",
+              "jam, honey, salsa"
+            ],
+            [
+              "a bar of",
+              "una barra de / una tableta de",
+              "chocolate, soap"
+            ],
+            [
+              "a loaf of",
+              "un pan (de caja) / una pieza de",
+              "bread"
+            ],
+            [
+              "a box of",
+              "una caja de",
+              "cereal, cookies"
+            ],
+            [
+              "a bag of",
+              "una bolsa de",
+              "rice, chips, apples"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I need two bottles of water.",
+          "es": "Necesito dos botellas de agua.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "two bottles of water",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El plural va en bottles; water, incontable, no cambia."
+        },
+        {
+          "en": "There's a can of tuna in the cupboard.",
+          "es": "Hay una lata de atún en la alacena.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "a can of tuna",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the cupboard",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "There's porque el sujeto real es a can (singular). En Reino Unido: a tin of tuna."
+        },
+        {
+          "en": "Can I have a loaf of bread, please?",
+          "es": "¿Me da un pan de caja, por favor?",
+          "partes": [
+            {
+              "t": "Can I have",
+              "rol": "otro"
+            },
+            {
+              "t": "a loaf of bread,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Loaf es una pieza entera de pan (de caja, baguette, hogaza). Su plural es irregular: loaves."
+        },
+        {
+          "en": "We buy a bag of apples every week.",
+          "es": "Compramos una bolsa de manzanas cada semana.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "buy",
+              "rol": "verbo"
+            },
+            {
+              "t": "a bag of apples",
+              "rol": "complemento"
+            },
+            {
+              "t": "every week",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Con un producto contable, este va en plural (apples) porque dentro de la bolsa hay varias."
+        },
+        {
+          "en": "Two bars of soap and a box of cereal.",
+          "es": "Dos barras de jabón y una caja de cereal.",
+          "partes": [
+            {
+              "t": "Two bars of soap",
+              "rol": "complemento"
+            },
+            {
+              "t": "and a box of cereal",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Soap y cereal son incontables: no llevan -s. El plural va en bars."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿En qué viene?",
+        "centro": "a … of",
+        "ramas": [
+          {
+            "texto": "bottle",
+            "detalle": "water, juice, oil"
+          },
+          {
+            "texto": "can",
+            "detalle": "soda, beans, tuna"
+          },
+          {
+            "texto": "carton",
+            "detalle": "milk, juice, eggs"
+          },
+          {
+            "texto": "jar",
+            "detalle": "jam, honey, salsa"
+          },
+          {
+            "texto": "bar",
+            "detalle": "chocolate, soap"
+          },
+          {
+            "texto": "loaf (loaves)",
+            "detalle": "bread"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "a bottle of water",
+          "ipa": "/ə ˈbɑːɾəl əv ˈwɑːɾər/",
+          "consejo": "En inglés estadounidense las dos t (bottle, water) suenan como la r suave de «pero»: «a BA-rel-av WA-rer». Of se reduce a /əv/ y se pega a la palabra anterior.",
+          "lento": true
+        },
+        {
+          "texto": "loaf / loaves",
+          "ipa": "/loʊf/ · /loʊvz/",
+          "consejo": "La o es un diptongo: empieza en o y termina cerrándose hacia u, «lóuf». En el plural la f cambia a v y la s suena /z/: «lóuvz»."
+        },
+        {
+          "texto": "a jar of jam",
+          "ipa": "/ə ˈdʒɑːr əv ˈdʒæm/",
+          "consejo": "La j inglesa, /dʒ/, no es la j española: se parece a la «y» enfática de «¡Yo!» o de «cónyuge», una «ch» sonora con la lengua tocando el paladar. Jam tiene la /æ/ abierta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "a bottle water",
+          "bien": "a bottle of water",
+          "porque": "Of es obligatorio entre el envase y el producto."
+        },
+        {
+          "mal": "three bottle of waters",
+          "bien": "three bottles of water",
+          "porque": "El plural lo lleva el envase; el incontable no cambia."
+        },
+        {
+          "mal": "two breads",
+          "bien": "two loaves of bread",
+          "porque": "Bread es incontable. Se cuenta con loaf (pieza) o slice (rebanada)."
+        },
+        {
+          "mal": "two loafs of bread",
+          "bien": "two loaves of bread",
+          "porque": "Loaf tiene plural irregular: loaves (como leaf → leaves, knife → knives)."
+        }
+      ]
+    },
+    {
+      "id": "medidas-y-porciones",
+      "titulo": "Kilos, litros, rebanadas y tazas",
+      "que_es": "Además del envase, puedes contar lo incontable con una **medida** (peso o volumen) o una **porción**: [[a kilo of rice]], [[a liter of milk]], [[a slice of cheese]], [[a cup of coffee]]. La estructura es la misma: medida + of + producto.",
+      "para_que": [
+        "Comprar en el mercado o en la salchichonería: half a kilo of ham.",
+        "Seguir o escribir una receta: two cups of flour.",
+        "Pedir bebidas y porciones: a glass of water, a piece of cake."
+      ],
+      "como_funciona": "**Peso:** [[a kilo of]] (plural [[kilos]]), [[a gram of]]. En Estados Unidos se usa sobre todo la libra: [[a pound of]] (aprox. 450 g; abreviatura [[lb]]). **Volumen:** [[a liter of]] (EE. UU.) / [[a litre of]] (R. U.); en EE. UU. también [[a gallon of milk]]. **Mitad:** en inglés el orden es **half a**: [[half a kilo of cheese]], [[half a liter]], no [[a half of kilo]] (en EE. UU. también se oye [[a half kilo]], pero [[half a kilo]] es la forma más segura). **Porciones:** [[a slice of]] (rebanada: bread, cheese, ham, pizza), [[a piece of]] (trozo: cake, cheese, chicken; también para las trampas de la unidad anterior: a piece of advice), [[a cup of]] (taza: coffee, tea; también medida de receta), [[a glass of]] (vaso: water, milk, juice). **Excepción importante:** [[a dozen]] (una docena) va **sin of** delante de un sustantivo: [[a dozen eggs]], [[two dozen roses]]. Y los números van con la medida en plural: [[two kilos of]], [[three liters of]].",
+      "estructuras": [
+        {
+          "etiqueta": "Medida",
+          "formula": [
+            {
+              "t": "a / número / half a",
+              "rol": "otro"
+            },
+            {
+              "t": "kilo / liter / pound…",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "producto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "half a",
+              "rol": "otro"
+            },
+            {
+              "t": "kilo",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "tomatoes",
+              "rol": "complemento"
+            }
+          ],
+          "es": "medio kilo de jitomates"
+        },
+        {
+          "etiqueta": "Porción",
+          "formula": [
+            {
+              "t": "a / número",
+              "rol": "otro"
+            },
+            {
+              "t": "slice / piece / cup / glass",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "producto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "two",
+              "rol": "otro"
+            },
+            {
+              "t": "slices",
+              "rol": "complemento"
+            },
+            {
+              "t": "of",
+              "rol": "otro"
+            },
+            {
+              "t": "pizza",
+              "rol": "complemento"
+            }
+          ],
+          "es": "dos rebanadas de pizza"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Can I have half a kilo of ham, please?",
+          "es": "¿Me da medio kilo de jamón, por favor?",
+          "situacion": "En el mostrador de carnes frías.",
+          "partes": [
+            {
+              "t": "Can I have",
+              "rol": "otro"
+            },
+            {
+              "t": "half a kilo of ham,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Half a kilo: primero half, luego a. Ham es incontable y no cambia."
+        },
+        {
+          "en": "We need two liters of milk.",
+          "es": "Necesitamos dos litros de leche.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "two liters of milk",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Liters en plural porque son dos. En Reino Unido se escribe litres."
+        },
+        {
+          "en": "Would you like a piece of cake?",
+          "es": "¿Quieres un pedazo de pastel?",
+          "partes": [
+            {
+              "t": "Would you like",
+              "rol": "otro"
+            },
+            {
+              "t": "a piece of cake?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Cake como porción es incontable: a piece of cake. A cake sería un pastel entero."
+        },
+        {
+          "en": "I buy a dozen eggs every week.",
+          "es": "Compro una docena de huevos cada semana.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "buy",
+              "rol": "verbo"
+            },
+            {
+              "t": "a dozen eggs",
+              "rol": "complemento"
+            },
+            {
+              "t": "every week",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Dozen no lleva of delante del sustantivo: a dozen eggs, no a dozen of eggs."
+        },
+        {
+          "en": "A pound of ground beef is about five dollars.",
+          "es": "Una libra de carne molida cuesta unos cinco dólares.",
+          "partes": [
+            {
+              "t": "A pound of ground beef",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "about five dollars",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En EE. UU. la carne, el queso y la fruta se venden por libra (pound, lb). Un kilo son unas 2.2 libras."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español",
+          "items": [
+            "medio kilo de queso",
+            "una docena de huevos",
+            "dos kilos de jitomate"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés",
+          "items": [
+            "half a kilo of cheese",
+            "a dozen eggs (sin of)",
+            "two kilos of tomatoes"
+          ]
+        },
+        "veredicto": "Tres diferencias: half va antes de a; dozen no lleva of; y los productos contables van en plural (tomatoes), aunque en español a veces digamos «kilo de jitomate» en singular."
+      },
+      "pronunciacion": [
+        {
+          "texto": "half a kilo",
+          "ipa": "/ˈhæf ə ˈkiːloʊ/",
+          "consejo": "La l de half no se pronuncia: «jaf», con h suave y la /æ/ abierta (en R. U. /hɑːf/, con a larga). Kilo termina en el diptongo /oʊ/: «KII-lou».",
+          "lento": true
+        },
+        {
+          "texto": "a slice of pizza",
+          "ipa": "/ə ˈslaɪs əv ˈpiːtsə/",
+          "consejo": "Slice empieza con sl sin vocal antes: no digas «eslais». Pizza se dice «PIIT-sa», con ts."
+        },
+        {
+          "texto": "a dozen eggs",
+          "ipa": "/ə ˈdʌzən ˈɛɡz/",
+          "consejo": "Dozen tiene la /ʌ/ de cup en la primera sílaba y una /z/ sonora: «DA-zen». La n se une a eggs: «dazeneggz»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "a half kilo of cheese",
+          "bien": "half a kilo of cheese",
+          "porque": "El orden estándar es half a. (En EE. UU. se oye a half kilo, pero half a kilo es siempre correcto.)"
+        },
+        {
+          "mal": "a dozen of eggs",
+          "bien": "a dozen eggs",
+          "porque": "Dozen va directamente delante del sustantivo, sin of."
+        },
+        {
+          "mal": "two kilo of rice",
+          "bien": "two kilos of rice",
+          "porque": "Con dos o más, la medida va en plural."
+        },
+        {
+          "mal": "a glass of juices",
+          "bien": "a glass of juice",
+          "porque": "El producto incontable no se pone en plural."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "compras-y-comida.envases-y-medidas.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada envase o porción con el producto más típico.",
+      "pares": [
+        {
+          "a": "a loaf of",
+          "b": "bread"
+        },
+        {
+          "a": "a bar of",
+          "b": "soap"
+        },
+        {
+          "a": "a jar of",
+          "b": "jam"
+        },
+        {
+          "a": "a can of",
+          "b": "soda"
+        },
+        {
+          "a": "a carton of",
+          "b": "milk"
+        },
+        {
+          "a": "a slice of",
+          "b": "pizza"
+        }
+      ],
+      "pistas": [
+        "Piensa en cómo viene cada producto en el súper.",
+        "Jar es un frasco de vidrio; bar, una barra; loaf, una pieza de pan.",
+        "Cada envase va con el producto que normalmente viene así: piensa qué se vende en vidrio, qué es sólido en barra, qué líquido va en lata o en cartón, qué se hornea en pieza y qué se corta en rebanadas."
+      ],
+      "solucion": {
+        "respuesta": "loaf → bread · bar → soap · jar → jam · can → soda · carton → milk · slice → pizza",
+        "explicacion": "Cada producto incontable se cuenta con el envase o la porción en que normalmente viene: el pan en piezas (loaf), el jabón en barras (bar), la mermelada en frascos (jar), el refresco en latas (can), la leche en cartones (carton) y la pizza en rebanadas (slice)."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Can I have ___, please?",
+      "opciones": [
+        {
+          "texto": "a bottle of water",
+          "correcta": true,
+          "porque": "Envase + of + incontable: a bottle of water."
+        },
+        {
+          "texto": "a bottle water",
+          "correcta": false,
+          "porque": "Falta of entre el envase y el producto."
+        },
+        {
+          "texto": "a bottle of waters",
+          "correcta": false,
+          "porque": "Water es incontable: no lleva -s."
+        },
+        {
+          "texto": "a water bottle",
+          "correcta": false,
+          "porque": "A water bottle existe, pero es una botella para agua (el recipiente, por ejemplo uno reutilizable), no una botella llena de agua para beber."
+        }
+      ],
+      "pistas": [
+        "Estás contando un incontable con su envase.",
+        "Revisa si está of y si el producto lleva -s.",
+        "a + envase + of + producto sin -s."
+      ],
+      "solucion": {
+        "respuesta": "a bottle of water",
+        "explicacion": "La estructura es envase + of + producto. Water es incontable y no lleva -s. A water bottle (sustantivo + sustantivo) nombra el recipiente, no el contenido."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el plural del envase.",
+      "frase": "We need three ___ of milk and two ___ of bread.",
+      "traduccion": "Necesitamos tres cartones de leche y dos panes de caja.",
+      "respuestas": [
+        [
+          "cartons"
+        ],
+        [
+          "loaves"
+        ]
+      ],
+      "errores_tipicos": {
+        "carton | loaf": "Con tres y dos, los envases van en plural: cartons, loaves.",
+        "cartons | loafs": "Loaf tiene plural irregular: loaves."
+      },
+      "pistas": [
+        "El plural lo lleva el envase, no el producto.",
+        "Carton es regular; loaf tiene un plural irregular, como leaf → leaves.",
+        "Los regulares solo añaden -s; los que terminan en -f cambian f por v y añaden -es, como half → halves."
+      ],
+      "solucion": {
+        "respuesta": "cartons … loaves",
+        "explicacion": "Como hay varios, los envases van en plural: cartons (regular) y loaves (irregular: la f cambia a v + -es). Milk y bread no cambian porque son incontables."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.04",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige qué va en los tres huecos, en orden: of o nada. (Quisiera medio kilo de queso, una docena de huevos y un frasco de miel).",
+      "pregunta": "I'd like half a kilo ___ cheese, a dozen ___ eggs and a jar ___ honey.",
+      "opciones": [
+        {
+          "texto": "of · (nada) · of",
+          "correcta": true,
+          "porque": "Half a kilo of cheese y a jar of honey llevan of; a dozen va directamente delante del sustantivo: a dozen eggs."
+        },
+        {
+          "texto": "of · of · of",
+          "correcta": false,
+          "porque": "Dozen no lleva of delante del sustantivo: a dozen eggs, no a dozen of eggs."
+        },
+        {
+          "texto": "(nada) · (nada) · of",
+          "correcta": false,
+          "porque": "Half a kilo necesita of antes del producto: half a kilo of cheese."
+        },
+        {
+          "texto": "of · (nada) · (nada)",
+          "correcta": false,
+          "porque": "Un envase siempre lleva of antes del producto: a jar of honey."
+        }
+      ],
+      "pistas": [
+        "Casi todas las medidas y envases llevan of, pero hay una excepción.",
+        "Mira la palabra dozen.",
+        "a kilo of…, a jar of…, pero a dozen + sustantivo directamente."
+      ],
+      "solucion": {
+        "respuesta": "of · (nada) · of",
+        "explicacion": "Half a kilo of cheese y a jar of honey llevan of. A dozen es la excepción: va directamente delante del sustantivo (a dozen eggs). I'd like es una fórmula fija para pedir: «quisiera»."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia a cuatro unidades.",
+      "origen": "a can of beans",
+      "instruccion": "Cuatro (four)",
+      "respuestas": [
+        "four cans of beans"
+      ],
+      "errores_tipicos": {
+        "four can of beans": "Con four, el envase va en plural: cans.",
+        "four cans of bean": "Beans (frijoles) es contable y aquí siempre va en plural: dentro de la lata hay muchos."
+      },
+      "pistas": [
+        "Solo cambian el número y el envase.",
+        "Can es contable: ¿cómo es su plural?",
+        "Número + envase en plural + of + producto, como en three bottles of water."
+      ],
+      "solucion": {
+        "respuesta": "four cans of beans",
+        "explicacion": "El número cambia (a → four) y el envase pasa a plural (can → cans). Beans ya estaba en plural porque en una lata hay muchos frijoles."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Can I have two bottle of orange juice, please?",
+      "error": "bottle",
+      "correcciones": [
+        "bottles"
+      ],
+      "frase_correcta": "Can I have two bottles of orange juice, please?",
+      "pistas": [
+        "Hay un número delante del envase.",
+        "Mira el sustantivo que va después de two.",
+        "Con dos o más, el envase va en plural."
+      ],
+      "solucion": {
+        "respuesta": "bottles",
+        "explicacion": "Two bottles: el envase es contable y va en plural con two. Orange juice, incontable, no cambia."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "of",
+        "a",
+        "kilo",
+        "half",
+        "tomatoes"
+      ],
+      "respuestas": [
+        "half a kilo of tomatoes"
+      ],
+      "traduccion": "medio kilo de jitomates",
+      "pistas": [
+        "En inglés el orden de «medio» es distinto al del español.",
+        "Half va primero, antes del artículo.",
+        "Half + a + medida + of + producto en plural, como en half a liter of juice o half a pound of grapes."
+      ],
+      "solucion": {
+        "respuesta": "half a kilo of tomatoes",
+        "explicacion": "El orden es half a kilo (half antes del artículo). Después of y el producto. Tomatoes va en plural porque es contable y hay varios."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "una docena de huevos y dos litros de leche",
+      "respuestas": [
+        "a dozen eggs and two liters of milk",
+        "a dozen eggs and two litres of milk"
+      ],
+      "errores_tipicos": {
+        "a dozen of eggs and two liters of milk": "Dozen no lleva of: a dozen eggs.",
+        "a dozen eggs and two liter of milk": "Con two, liters en plural.",
+        "a dozen eggs and two liters of milks": "Milk es incontable: sin -s."
+      },
+      "pistas": [
+        "Una medida lleva of y la otra no.",
+        "Dozen es la excepción. Liter va en plural con two.",
+        "A dozen + producto (sin of) and + número + medida en plural + of + producto, como en a dozen apples and three kilos of rice."
+      ],
+      "solucion": {
+        "respuesta": "a dozen eggs and two liters of milk",
+        "explicacion": "A dozen va sin of. Two liters of milk: la medida en plural y milk sin cambio. En Reino Unido se escribe litres."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Empieza con Can I have.",
+      "es": "¿Me da dos rebanadas de pizza y un vaso de agua, por favor?",
+      "respuestas": [
+        "Can I have two slices of pizza and a glass of water, please?",
+        "Can I have two pieces of pizza and a glass of water, please?",
+        "Can I have two slices of pizza and a glass of water?",
+        "Can I have two pieces of pizza and a glass of water?"
+      ],
+      "errores_tipicos": {
+        "Can I have two slice of pizza and a glass of water, please?": "Con two, slices en plural.",
+        "Can I have two pizzas and a glass of water, please?": "Two pizzas son dos pizzas enteras, no dos rebanadas.",
+        "Can I have two slices of pizza and a glass water, please?": "Falta of: a glass of water."
+      },
+      "pistas": [
+        "Dos porciones de un producto y un vaso de otro.",
+        "Rebanada = slice (plural slices); vaso = glass. Los dos con of.",
+        "Can I have + número + unidad en plural + of + comida + and + a + recipiente + of + bebida, please?, como en Can I have three pieces of cake and a cup of tea, please?"
+      ],
+      "solucion": {
+        "respuesta": "Can I have two slices of pizza and a glass of water, please?",
+        "explicacion": "Rebanada es slice; con two va en plural. Pizza como porción no cambia. A glass of water lleva of. Can I have… please? es la fórmula cortés para pedir."
+      }
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Estás en el mostrador de quesos de un súper.",
+      "lineas": [
+        {
+          "quien": "Empleado",
+          "en": "Next! What can I get you?",
+          "es": "¡El que sigue! ¿Qué le doy?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Can I have half a pound of cheddar, please?",
+          "correcta": true,
+          "porque": "Half a pound of + producto: orden correcto y of presente. En EE. UU. el queso se pide por libra."
+        },
+        {
+          "texto": "Can I have a half of pound of cheddar, please?",
+          "correcta": false,
+          "porque": "El orden es half a pound, no a half of pound."
+        },
+        {
+          "texto": "Can I have half a pound cheddar, please?",
+          "correcta": false,
+          "porque": "Falta of entre la medida y el producto."
+        },
+        {
+          "texto": "Can I have half a pound of cheddars, please?",
+          "correcta": false,
+          "porque": "El queso aquí es incontable: sin -s."
+        }
+      ],
+      "pistas": [
+        "Pides media libra de un queso.",
+        "Revisa el orden de half, el of y el plural.",
+        "half a + medida + of + producto sin -s."
+      ],
+      "solucion": {
+        "respuesta": "Can I have half a pound of cheddar, please?",
+        "explicacion": "Media libra es half a pound (half antes de a), seguida de of y el queso, que es incontable. What can I get you? es la pregunta típica del empleado: «¿qué le doy?»."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la lista del súper y escríbela.",
+      "texto": "A carton of eggs, two cans of tuna and a bar of chocolate.",
+      "pistas": [
+        "Tres productos, cada uno con su envase.",
+        "El segundo envase va en plural.",
+        "Todos siguen envase + of + producto; solo el envase que va con un número mayor que uno lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "A carton of eggs, two cans of tuna and a bar of chocolate.",
+        "explicacion": "Cada producto va con su envase y of. Cans va en plural por el two; tuna y chocolate, incontables, no cambian; eggs ya es plural."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "Two loaves of bread and half a kilo of cheese.",
+      "ipa": "/tuː ˈloʊvz əv ˈbrɛd ən ˈhæf ə ˈkiːloʊ əv ˈtʃiːz/",
+      "consejo": "Loaves termina en /vz/, las dos sonoras. En half la l no suena. Of se reduce a /əv/ las dos veces y and a /ən/. Cheese termina en /z/, que vibra.",
+      "es": "Dos panes de caja y medio kilo de queso."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En la tiendita de la esquina",
+    "contexto": "Vas a una tienda pequeña en Toronto con una lista. La dueña, Grace, te atiende.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Good morning! What would you like?",
+        "es": "¡Buenos días! ¿Qué va a llevar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "Here you are. Anything else?",
+        "es": "Aquí tiene. ¿Algo más?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Pide al menos tres cosas con envases o medidas distintas (una en plural). Luego pide algo más y pregunta el precio total con How much is that?",
+    "modelo": "Can I have two bottles of water, a loaf of bread and half a kilo of ham, please? — Yes, a bar of chocolate, please. How much is that?",
+    "alternativas": [
+      "I'd like a carton of milk, a dozen eggs and two cans of soda, please. — No, thanks. How much is that?",
+      "A jar of peanut butter and three bags of chips, please. — Yes, a box of cookies. How much is that altogether?"
+    ],
+    "claves": [
+      "envase / medida + of + producto; plural solo en el envase.",
+      "a dozen eggs sin of; half a kilo con half primero.",
+      "How much is that? pregunta el total (that = todo lo que compras)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Envase o medida + of + producto: a bottle of water, a kilo of rice.",
+      "El plural va en el envase: two bottles of water; el incontable no cambia.",
+      "Envases: bottle, can, carton, jar, bar, loaf (loaves), box, bag.",
+      "Medidas y porciones: kilo, pound, liter, slice, piece, cup, glass; half a kilo; a dozen eggs (sin of)."
+    ],
+    "recuerda": [
+      "a loaf of bread = un pan (de caja o una pieza); nunca a bread.",
+      "En EE. UU. la carne y el queso se piden por pound (lb).",
+      "Can (EE. UU.) / tin (R. U.) para latas de comida; liter / litre.",
+      "a water bottle = el recipiente; a bottle of water = la botella con agua."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "compras-y-comida.envases-y-medidas.r1",
+      "frente": "Plural: a loaf of bread → two…",
+      "reverso": "two loaves of bread",
+      "nota": "Loaf → loaves (irregular)."
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.r2",
+      "frente": "«medio kilo de queso»",
+      "reverso": "half a kilo of cheese",
+      "nota": "Half va antes de a."
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.r3",
+      "frente": "¿A dozen of eggs o a dozen eggs?",
+      "reverso": "a dozen eggs",
+      "nota": "Dozen no lleva of."
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.r4",
+      "frente": "¿En qué viene la mermelada?",
+      "reverso": "a jar of jam",
+      "nota": "Jar = frasco de vidrio."
+    },
+    {
+      "id": "compras-y-comida.envases-y-medidas.r5",
+      "frente": "Corrige: three bottle of waters",
+      "reverso": "three bottles of water",
+      "nota": "Plural en el envase, no en el incontable."
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "slug": "palabras-interrogativas",
+  "titulo": "Las palabras interrogativas",
+  "minutos": 45,
+  "objetivos": [
+    "Conocer el mapa completo de palabras interrogativas: who, what, where, when, why, how, which, whose, how many, how much, how old y what time.",
+    "Construir preguntas con be en el orden correcto: palabra interrogativa + be + sujeto (Where is the bank?).",
+    "Distinguir what de which, how de how old, how many de how much y whose de who's.",
+    "Preguntar por una razón con Why y responder con Because, sin confundirlos."
+  ],
+  "situacion": {
+    "titulo": "El primer día en una oficina nueva",
+    "texto": "Carlos empieza a trabajar en una oficina en Chicago y tiene mil preguntas. Su compañera Mei le ayuda. Fíjate en que cada pregunta empieza con una palabra distinta según la información que Carlos necesita.",
+    "dialogo": [
+      { "quien": "Carlos", "en": "Where is the meeting room?", "es": "¿Dónde está la sala de juntas?" },
+      { "quien": "Mei", "en": "It's next to the kitchen.", "es": "Está junto a la cocina." },
+      { "quien": "Carlos", "en": "And what time is the meeting?", "es": "¿Y a qué hora es la junta?" },
+      { "quien": "Mei", "en": "At ten. Why? Are you nervous?", "es": "A las diez. ¿Por qué? ¿Estás nervioso?" },
+      { "quien": "Carlos", "en": "A little! Who is the manager?", "es": "¡Un poco! ¿Quién es el gerente?" },
+      { "quien": "Mei", "en": "Her name is Grace. Don't worry, she's very nice.", "es": "Se llama Grace. No te preocupes, es muy amable." },
+      { "quien": "Carlos", "en": "Great. Oh, and whose coffee is this?", "es": "Qué bien. Ah, ¿y de quién es este café?" },
+      { "quien": "Mei", "en": "It's mine!", "es": "¡Es mío!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "mapa-interrogativas",
+      "titulo": "El mapa completo de las palabras interrogativas",
+      "que_es": "Las palabras interrogativas (también llamadas [[wh- words]], porque casi todas empiezan por wh-) abren las preguntas que piden INFORMACIÓN, no un simple sí o no. Cada una pregunta por un tipo de dato: una persona, un lugar, un momento, una cantidad… Ya conoces algunas ([[What's your name?]], [[Where are you from?]], [[How old are you?]], [[whose]]); aquí las verás todas juntas, como un sistema.",
+      "para_que": [
+        "Pedir cualquier información: direcciones, horarios, precios, nombres, razones.",
+        "Entender las preguntas que te hacen, identificando la primera palabra.",
+        "Mantener una conversación: hacer preguntas es la mitad de conversar."
+      ],
+      "como_funciona": "**El orden con be** es siempre el mismo: palabra interrogativa + be + sujeto (+ resto)?\n• [[Where is the bank?]] · [[Who are those people?]] · [[What time is the class?]]\nEs el orden de las preguntas de sí o no ([[Is the bank…?]]) con la palabra interrogativa delante.\n\n**Contracciones:** con is se contrae mucho: [[What's]], [[Where's]], [[Who's]], [[How's]], [[When's]]. Con are, en la escritura normal no se contrae (What are…?).\n\n**Palabras simples:**\n• [[who]] — ¿quién? (persona)\n• [[what]] — ¿qué? / ¿cuál? (cosa, información)\n• [[where]] — ¿dónde? (lugar)\n• [[when]] — ¿cuándo? (momento, fecha)\n• [[why]] — ¿por qué? (razón)\n• [[how]] — ¿cómo? (manera, estado)\n• [[which]] — ¿cuál? / ¿qué? (elección entre opciones concretas)\n• [[whose]] — ¿de quién? (dueño)\n\n**Combinaciones** (dos palabras que funcionan como una):\n• [[how many]] — ¿cuántos/as? + sustantivo plural que se cuenta: [[How many students are there?]]\n• [[how much]] — ¿cuánto cuesta? / ¿cuánto? + sustantivo que no se cuenta: [[How much is this?]] [[How much water is there?]] (los incontables los estudiarás más adelante)\n• [[how old]] — ¿qué edad? / ¿cuántos años? [[How old is your son?]]\n• [[what time]] — ¿a qué hora? / ¿qué hora? [[What time is it?]]\n\n**La pronunciación de wh-:** en what, where, when, why y which se oye /w/. En who y whose se oye /h/ y la w es muda.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con be",
+          "formula": [ { "t": "Palabra interrogativa", "rol": "interrogativo" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "(resto)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Where", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "the bank", "rol": "sujeto" } ],
+          "es": "¿Dónde está el banco?"
+        },
+        {
+          "etiqueta": "Combinación + sustantivo",
+          "formula": [ { "t": "How many / Which / Whose / What + sustantivo", "rol": "interrogativo" }, { "t": "be", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "Whose phone", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "this", "rol": "sujeto" } ],
+          "es": "¿De quién es este celular?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Cada palabra, su dato y un ejemplo",
+          "columnas": ["Palabra", "Pregunta por…", "Ejemplo", "Respuesta posible"],
+          "filas": [
+            ["Who", "una persona", "Who is your teacher?", "Ms. Lee."],
+            ["What", "una cosa o información", "What is your address?", "It's 15 Oak Street."],
+            ["Where", "un lugar", "Where are my keys?", "They're on the table."],
+            ["When", "un momento o fecha", "When is your birthday?", "It's on May 3rd."],
+            ["Why", "una razón", "Why are you tired?", "Because it's very late."],
+            ["How", "la manera o el estado", "How is your mother?", "She's fine, thanks."],
+            ["Which", "una opción concreta", "Which bag is yours?", "The black bag."],
+            ["Whose", "el dueño", "Whose car is this?", "It's Omar's."],
+            ["How many", "cantidad (se cuenta)", "How many rooms are there?", "There are three."],
+            ["How much", "precio / cantidad (no se cuenta)", "How much is the ticket?", "It's twenty dollars."],
+            ["How old", "la edad", "How old is your daughter?", "She's seven."],
+            ["What time", "la hora", "What time is the movie?", "At 8:30."]
+          ],
+          "audio": [2, 3]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Una palabra para cada tipo de información",
+        "centro": "Question words",
+        "ramas": [
+          { "texto": "who", "detalle": "persona" },
+          { "texto": "what", "detalle": "cosa / información" },
+          { "texto": "where", "detalle": "lugar" },
+          { "texto": "when", "detalle": "momento" },
+          { "texto": "why", "detalle": "razón → because" },
+          { "texto": "how", "detalle": "manera / estado" },
+          { "texto": "which", "detalle": "opción concreta" },
+          { "texto": "whose", "detalle": "dueño" },
+          { "texto": "how many", "detalle": "cantidad contable" },
+          { "texto": "how much", "detalle": "precio / incontable" },
+          { "texto": "how old", "detalle": "edad" },
+          { "texto": "what time", "detalle": "hora" }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "Who is that man?",
+          "es": "¿Quién es ese hombre?",
+          "partes": [ { "t": "Who", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "that man", "rol": "sujeto" } ],
+          "nota": "Who pregunta por una persona. Who's = Who is."
+        },
+        {
+          "en": "When is the English exam?",
+          "es": "¿Cuándo es el examen de inglés?",
+          "partes": [ { "t": "When", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "the English exam", "rol": "sujeto" } ],
+          "nota": "When pide un momento: la respuesta puede ser un día, una fecha o una hora (It's on Friday)."
+        },
+        {
+          "en": "How many bedrooms are there in your house?",
+          "es": "¿Cuántas recámaras hay en tu casa?",
+          "partes": [ { "t": "How many bedrooms", "rol": "interrogativo" }, { "t": "are there", "rol": "verbo" }, { "t": "in your house", "rol": "complemento" } ],
+          "nota": "How many + plural + are there…? Es la pregunta de there are que ya conoces."
+        },
+        {
+          "en": "How much are these shoes?",
+          "es": "¿Cuánto cuestan estos zapatos?",
+          "partes": [ { "t": "How much", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "these shoes", "rol": "sujeto" } ],
+          "nota": "Para precios, how much + be. El verbo concuerda con lo que se compra: are porque shoes es plural."
+        },
+        {
+          "en": "Whose keys are these?",
+          "es": "¿De quién son estas llaves?",
+          "nota": "Whose + sustantivo. No lo confundas con who's (who is): suenan igual."
+        },
+        {
+          "en": "What time is it? It's a quarter past nine.",
+          "es": "¿Qué hora es? Son las nueve y cuarto.",
+          "nota": "What time pregunta por la hora; la respuesta empieza con It's."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "who · whose",
+          "ipa": "/huː/ · /huːz/",
+          "consejo": "La w no suena: se oye una h, que en inglés es solo aire suave (como cuando empañas un vidrio), nunca la j fuerte del español. Después, una u larga con los labios redondeados.",
+          "lento": true
+        },
+        {
+          "texto": "what · where · when · why · which",
+          "ipa": "/wʌt/ · /wɛr/ · /wɛn/ · /waɪ/ · /wɪtʃ/",
+          "consejo": "Aquí wh- suena /w/, como la «u» rápida de «huevo». Where y when se distinguen por el final: where termina con r (la lengua se curva atrás) y when con n. Which suena igual que witch (bruja) para la mayoría de los hablantes."
+        },
+        {
+          "texto": "Where's the bank?",
+          "ipa": "/wɛrz ðə ˈbæŋk/",
+          "consejo": "Pregunta con palabra interrogativa: la entonación BAJA al final, al contrario que en las preguntas de sí o no. Bank tiene /æ/ y la n suena como en «banco»."
+        }
+      ],
+      "errores": [
+        { "mal": "Where the bank is?", "bien": "Where is the bank?", "porque": "Después de la palabra interrogativa va be y luego el sujeto." },
+        { "mal": "Who's phone is this?", "bien": "Whose phone is this?", "porque": "Who's = who is. Para preguntar por el dueño se usa whose." },
+        { "mal": "How many is this shirt?", "bien": "How much is this shirt?", "porque": "Para precios se usa how much." },
+        { "mal": "What time it is?", "bien": "What time is it?", "porque": "También aquí hay inversión: is antes de it." }
+      ]
+    },
+    {
+      "id": "what-which-how",
+      "titulo": "What o which; how, how old, how many y how much",
+      "que_es": "Algunas palabras interrogativas se parecen o tienen una sola traducción en español («¿cuál?», «¿cómo?», «¿cuánto?»). El inglés las distingue según el tipo de respuesta que se espera.",
+      "para_que": [
+        "Elegir entre opciones concretas en una tienda o un restaurante.",
+        "Preguntar por la edad y el estado de alguien sin confundir las dos preguntas.",
+        "Preguntar cantidades y precios con la combinación correcta."
+      ],
+      "como_funciona": "**What o which (¿qué? / ¿cuál?)**\n• [[What]] cuando las posibles respuestas están abiertas: [[What's your favorite food?]] (puede ser cualquier comida).\n• [[Which]] cuando se elige entre un grupo concreto y limitado: [[Which bag is yours, the black bag or the brown bag?]]\n• En muchos casos las dos son posibles; which marca más la idea de elegir de una lista. Delante de un sustantivo, what y which funcionan igual: [[What color is your car?]] / [[Which color is better, red or blue?]]\n• Ojo: «¿Cuál es tu nombre / tu dirección / tu número?» se dice con **what**: [[What's your phone number?]] (las respuestas posibles son infinitas).\n\n**How (¿cómo?) frente a how old (¿qué edad?)**\n• [[How are you?]] — ¿Cómo estás? → [[I'm fine, thanks.]]\n• [[How old are you?]] — ¿Cuántos años tienes? → [[I'm thirty.]] (nunca «How many years do you have?»)\n• [[How is your mother?]] — ¿Cómo está tu mamá? (salud, estado)\n• [[What is your mother like?]] — ¿Cómo es tu mamá? (carácter), la estructura que viste con los adjetivos.\n\n**How many frente a how much (¿cuántos? / ¿cuánto?)**\n• [[How many]] + sustantivo PLURAL que se cuenta: [[How many cousins…?]], [[How many people are there?]]\n• [[How much]] + sustantivo que NO se cuenta (water, money, time): [[How much money is there?]]\n• [[How much]] solo = precio: [[How much is it?]] (¿Cuánto cuesta?) [[How much are they?]]\n\n**Cuidado con los calcos de «¿cómo…?»:**\n• «¿Cómo te llamas?» → [[What's your name?]] (no «How are you called?»)\n• «¿Cómo se dice…?» → [[How do you say… in English?]] (expresión fija)",
+      "estructuras": [
+        {
+          "etiqueta": "Which + sustantivo + opciones",
+          "formula": [ { "t": "Which + sustantivo", "rol": "interrogativo" }, { "t": "be", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": ", A or B?", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Which room", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "yours", "rol": "sujeto" }, { "t": ", the big room or the small room", "rol": "complemento" } ],
+          "es": "¿Cuál cuarto es el tuyo, el grande o el chico?"
+        },
+        {
+          "etiqueta": "Edad",
+          "formula": [ { "t": "How old", "rol": "interrogativo" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "How old", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "your grandmother", "rol": "sujeto" } ],
+          "es": "¿Cuántos años tiene tu abuela?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What's your email address?",
+          "es": "¿Cuál es tu correo electrónico?",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "your email address", "rol": "sujeto" } ],
+          "nota": "«¿Cuál es…?» con respuesta abierta = What is…? Which aquí sonaría raro."
+        },
+        {
+          "en": "Which bus is ours, the number 5 or the number 12?",
+          "es": "¿Cuál camión es el nuestro, el 5 o el 12?",
+          "nota": "Dos opciones concretas: which."
+        },
+        {
+          "en": "How old are your children?",
+          "es": "¿Cuántos años tienen tus hijos?",
+          "partes": [ { "t": "How old", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "your children", "rol": "sujeto" } ],
+          "nota": "Edad = how old + be. El verbo concuerda con children (plural): are."
+        },
+        {
+          "en": "How is your father? He's much better, thanks.",
+          "es": "¿Cómo está tu papá? Mucho mejor, gracias.",
+          "nota": "How + be pregunta por el estado (salud, ánimo)."
+        },
+        {
+          "en": "How many cousins are there at the party?",
+          "es": "¿Cuántos primos hay en la fiesta?",
+          "nota": "Cousins se cuenta (uno, dos, tres…): how many + plural."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "What", "items": ["respuesta abierta", "What's your name?", "What's your favorite movie?"] },
+        "b": { "titulo": "Which", "items": ["elegir entre opciones concretas", "Which car is yours, the red car or the gray car?", "Which day is better, Monday or Tuesday?"] },
+        "veredicto": "Si puedes enumerar las opciones (o las acabas de mencionar), which. Si la respuesta puede ser cualquier cosa, what."
+      },
+      "pronunciacion": [
+        {
+          "texto": "How old are you?",
+          "ipa": "/haʊ ˈoʊld ər jə/",
+          "consejo": "How y old se unen con una /w/ suave: «hau-WOULD». El acento cae en old. Are you se reduce a «er-ya». La entonación baja al final.",
+          "lento": true
+        },
+        {
+          "texto": "How much is it?",
+          "ipa": "/haʊ ˈmʌtʃ ɪz ɪt/",
+          "consejo": "Much tiene /ʌ/, una a corta y relajada, y termina en ch (/tʃ/). Is it se liga: «i-zit»."
+        }
+      ],
+      "errores": [
+        { "mal": "How many years do you have?", "bien": "How old are you?", "porque": "Calco de «¿cuántos años tienes?». En inglés la edad se pregunta con how old + be." },
+        { "mal": "How are you called?", "bien": "What's your name?", "porque": "Calco de «¿cómo te llamas?». La pregunta natural usa what + name." },
+        { "mal": "Which is your name?", "bien": "What is your name?", "porque": "Con respuestas abiertas (un nombre cualquiera) se usa what." },
+        { "mal": "How much brothers are there?", "bien": "How many brothers are there?", "porque": "Brothers se cuenta: how many + plural." }
+      ]
+    },
+    {
+      "id": "why-because-y-orden",
+      "titulo": "Why y because; el orden con be y las preposiciones al final",
+      "que_es": "En español «por qué» (pregunta) y «porque» (respuesta) se parecen mucho; en inglés son palabras completamente distintas: [[why]] para preguntar y [[because]] para responder. Además repasaremos el orden de las preguntas con be y un rasgo muy inglés: la preposición que se queda al final ([[Where are you from?]]).",
+      "para_que": [
+        "Pedir y dar explicaciones: Why are you late? Because the traffic is terrible.",
+        "Construir cualquier pregunta con be sin dudar del orden.",
+        "Entender y hacer preguntas con preposición final: Who is this gift for?"
+      ],
+      "como_funciona": "**Why ↔ because.**\n• [[Why are you happy?]] — ¿Por qué estás feliz?\n• [[Because it's my birthday.]] — Porque es mi cumpleaños.\nBecause introduce una oración completa, con sujeto y verbo (because it's…, because I'm…). En la conversación la respuesta puede empezar directamente con Because; en un texto formal, lo normal es unirla a la oración principal: [[I'm happy because it's my birthday.]]\n• [[Why not?]] — ¿Por qué no?\n• No confundas: la pregunta nunca empieza con because, ni la respuesta con why.\n\n**El orden con be, resumido:**\n1) Palabra interrogativa (o combinación: how many + sustantivo, whose + sustantivo…)\n2) be (am / is / are)\n3) sujeto\n4) resto (lugar, preposición…)\n• [[Why is the store closed?]] · [[How many people are there?]] · [[Which room is yours?]]\n\n**Cuando la palabra interrogativa ES el sujeto** (sobre todo con who y what + be + complemento), el orden parece el mismo: [[Who is your best friend?]] — la estructura sigue siendo palabra + be + resto.\n\n**Preposición al final.** Si la pregunta necesita una preposición, en inglés suele quedarse al FINAL, pegada a su verbo o a su idea:\n• [[Where are you from?]] (no «From where…?»)\n• [[Who is this gift for?]] — ¿Para quién es este regalo?\n• [[What is this tool for?]] — ¿Para qué es esta herramienta?\nEn español la preposición siempre va delante («¿**Para** quién…?»); en inglés formal también es posible delante (For whom…?), pero suena muy rebuscado.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con Why",
+          "formula": [ { "t": "Why", "rol": "interrogativo" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "adjetivo / resto", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Why", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "you", "rol": "sujeto" }, { "t": "late", "rol": "complemento" } ],
+          "es": "¿Por qué llegas tarde?"
+        },
+        {
+          "etiqueta": "Respuesta con Because",
+          "formula": [ { "t": "Because", "rol": "otro" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "verbo", "rol": "verbo" }, { "t": "resto", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Because", "rol": "otro" }, { "t": "the bus", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "late", "rol": "complemento" } ],
+          "es": "Porque el camión viene tarde."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la afirmación a la pregunta con Why",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ { "t": "Ana", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "tired", "rol": "complemento" } ] },
+          { "etiqueta": "Pregunta de sí o no", "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "Ana", "rol": "sujeto" }, { "t": "tired", "rol": "complemento" }, { "t": "?", "rol": "otro" } ] },
+          { "etiqueta": "Pregunta con Why", "partes": [ { "t": "Why", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "Ana", "rol": "sujeto" }, { "t": "tired", "rol": "complemento" }, { "t": "?", "rol": "otro" } ] }
+        ],
+        "pie": "Why se coloca delante de la pregunta de sí o no; nada más cambia. La respuesta: Because she's very busy at work."
+      },
+      "ejemplos": [
+        {
+          "en": "Why are you so happy today?",
+          "es": "¿Por qué estás tan feliz hoy?",
+          "partes": [ { "t": "Why", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "you", "rol": "sujeto" }, { "t": "so happy", "rol": "complemento" }, { "t": "today", "rol": "tiempo" } ],
+          "nota": "Why + pregunta de sí o no (are you so happy)."
+        },
+        {
+          "en": "Because it's my birthday!",
+          "es": "¡Porque es mi cumpleaños!",
+          "partes": [ { "t": "Because", "rol": "otro" }, { "t": "it's", "rol": "sujeto" }, { "t": "my birthday", "rol": "complemento" } ],
+          "nota": "Because + sujeto + verbo. No se puede omitir it: «Because is my birthday» es incorrecto."
+        },
+        {
+          "en": "Who is this gift for?",
+          "es": "¿Para quién es este regalo?",
+          "partes": [ { "t": "Who", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "this gift", "rol": "sujeto" }, { "t": "for", "rol": "otro" } ],
+          "nota": "La preposición for se queda al final."
+        },
+        {
+          "en": "Why is the store closed? Because it's a holiday.",
+          "es": "¿Por qué está cerrada la tienda? Porque es día festivo.",
+          "nota": "En la respuesta, it es obligatorio: en inglés toda oración necesita sujeto."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Why? Because…",
+          "ipa": "/waɪ/ · /bɪˈkɔːz/ (EE. UU. también /bɪˈkʌz/)",
+          "consejo": "Why suena «uai», con /w/ inicial. Because lleva el acento en la segunda sílaba (bi-CAUZ) y termina en /z/, un zumbido, no en /s/. En la conversación rápida se oye incluso «'cause» /kəz/.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "Because are you late?", "bien": "Why are you late?", "porque": "Because responde; why pregunta." },
+        { "mal": "Because is my birthday.", "bien": "Because it's my birthday.", "porque": "Después de because va una oración completa con sujeto: it." },
+        { "mal": "For who is this gift?", "bien": "Who is this gift for?", "porque": "En el inglés cotidiano la preposición se queda al final de la pregunta." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada palabra interrogativa con su significado.",
+      "pares": [
+        { "a": "who", "b": "¿quién?" },
+        { "a": "where", "b": "¿dónde?" },
+        { "a": "when", "b": "¿cuándo?" },
+        { "a": "why", "b": "¿por qué?" },
+        { "a": "which", "b": "¿cuál? (entre opciones)" },
+        { "a": "whose", "b": "¿de quién?" },
+        { "a": "how many", "b": "¿cuántos?" },
+        { "a": "how old", "b": "¿qué edad?" }
+      ],
+      "pistas": [
+        "Cada palabra pregunta por un tipo de información distinta.",
+        "Whose y who se parecen, pero una pregunta por el dueño.",
+        "who = persona, where = lugar, when = momento, why = razón, whose = dueño."
+      ],
+      "solucion": { "respuesta": "who–¿quién?, where–¿dónde?, when–¿cuándo?, why–¿por qué?, which–¿cuál? (entre opciones), whose–¿de quién?, how many–¿cuántos?, how old–¿qué edad?", "explicacion": "Cada palabra corresponde a un tipo de dato: persona (who), lugar (where), momento (when), razón (why), elección (which), dueño (whose), cantidad contable (how many) y edad (how old)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra interrogativa adecuada. Fíjate en la respuesta.",
+      "frase": "___ is the party? — At Ana's house.",
+      "traduccion": "¿Dónde es la fiesta? — En casa de Ana.",
+      "respuestas": [["Where"]],
+      "errores_tipicos": {
+        "When": "When pregunta por un momento. La respuesta (At Ana's house) es un lugar.",
+        "What": "What pregunta por una cosa o información. La respuesta es un lugar."
+      },
+      "pistas": [
+        "Mira qué tipo de información da la respuesta.",
+        "At Ana's house es un lugar.",
+        "La palabra para preguntar por un lugar."
+      ],
+      "solucion": { "respuesta": "Where", "explicacion": "La respuesta es un lugar (At Ana's house), así que la pregunta usa where: Where is the party?" },
+      "audio": true
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«¿Cuántos años tienes?»",
+      "opciones": [
+        { "texto": "How old are you?", "correcta": true, "porque": "Correcto: la edad se pregunta con how old + be." },
+        { "texto": "How many years do you have?", "correcta": false, "porque": "Calco palabra por palabra del español. En inglés la edad no se «tiene»." },
+        { "texto": "How many years are you?", "correcta": false, "porque": "No existe en inglés: la combinación para la edad es how old." },
+        { "texto": "What old are you?", "correcta": false, "porque": "Old se combina con how, no con what." }
+      ],
+      "pistas": [
+        "En inglés la edad se expresa con be, no con have.",
+        "Busca la combinación de how + un adjetivo.",
+        "¿Qué edad? = How old + be + sujeto."
+      ],
+      "solucion": { "respuesta": "How old are you?", "explicacion": "El inglés pregunta la edad con how old (literalmente «¿qué tan viejo?») + be. Las versiones con years y have son calcos del español." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta.",
+      "frase": "___ phone is this? — It's Tom's.",
+      "traduccion": "¿De quién es este celular? — Es de Tom.",
+      "respuestas": [["Whose"]],
+      "errores_tipicos": {
+        "Who's": "Suena igual, pero who's significa who is. Para preguntar por el dueño se escribe whose.",
+        "Who": "Who pregunta por una persona, no por el dueño de algo. Delante de phone necesitas whose."
+      },
+      "pistas": [
+        "La respuesta dice de quién es el celular.",
+        "Necesitas la palabra que pregunta por el dueño.",
+        "Suena como who's, pero se escribe distinto: w-h-o-s-e."
+      ],
+      "solucion": { "respuesta": "Whose", "explicacion": "La respuesta (It's Tom's) indica el dueño, así que la pregunta usa whose + sustantivo: Whose phone is this? No se escribe who's, que es la contracción de who is." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Distingue /h/ de /w/.",
+      "texto": "Who? Whose? What? Where? When? Why?",
+      "ipa": "/huː/ · /huːz/ · /wʌt/ · /wɛr/ · /wɛn/ · /waɪ/",
+      "consejo": "Las dos primeras empiezan con /h/ (solo aire, la w no suena). Las otras cuatro empiezan con /w/: redondea los labios como para decir «u» y ábrelos rápido. Where termina con r; when, con n.",
+      "es": "¿Quién? ¿De quién? ¿Qué? ¿Dónde? ¿Cuándo? ¿Por qué?"
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con many o much.",
+      "frase": "How ___ students are there in your class?",
+      "traduccion": "¿Cuántos estudiantes hay en tu clase?",
+      "respuestas": [["many"]],
+      "banco": ["many", "much"],
+      "errores_tipicos": { "much": "Students se cuenta (uno, dos, tres…) y está en plural: how many." },
+      "pistas": [
+        "Piensa si el sustantivo se puede contar.",
+        "Mira la palabra students: ¿singular o plural?",
+        "How many + sustantivo plural contable; how much, para precios o lo que no se cuenta."
+      ],
+      "solucion": { "respuesta": "many", "explicacion": "Students es un sustantivo contable en plural, así que la pregunta es how many. How much se usa para precios y para sustantivos que no se cuentan, como water o money." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.07",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la palabra más adecuada.",
+      "pregunta": "En el aeropuerto hay dos maletas iguales, una negra y una café. «___ suitcase is yours, the black suitcase or the brown suitcase?»",
+      "opciones": [
+        { "texto": "Which", "correcta": true, "porque": "Correcto: se elige entre dos opciones concretas que ya se mencionan." },
+        { "texto": "What", "correcta": false, "porque": "What se usa cuando la respuesta es abierta. Con dos opciones concretas en la misma pregunta, lo natural es which." },
+        { "texto": "Whose", "correcta": false, "porque": "Whose pregunta de quién es algo; aquí ya se dice que una es tuya (yours) y se pregunta cuál." },
+        { "texto": "Who", "correcta": false, "porque": "Who pregunta por personas, y no puede ir delante de un sustantivo como suitcase." }
+      ],
+      "pistas": [
+        "La pregunta ofrece opciones.",
+        "Fíjate en «the black suitcase or the brown suitcase».",
+        "Para elegir entre opciones concretas y limitadas se usa which."
+      ],
+      "solucion": { "respuesta": "Which", "explicacion": "La pregunta presenta dos opciones concretas (the black suitcase or the brown suitcase), y para elegir entre opciones limitadas se usa which." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": ["What", "time", "is", "the", "English", "class"],
+      "respuestas": ["What time is the English class?"],
+      "traduccion": "¿A qué hora es la clase de inglés?",
+      "errores_tipicos": {
+        "What time the English class is": "Falta la inversión: is va antes del sujeto (the English class)."
+      },
+      "pistas": [
+        "Empieza con la combinación que pregunta por la hora.",
+        "Después va be y luego el sujeto.",
+        "Combinación interrogativa + be + sujeto; nada más."
+      ],
+      "solucion": { "respuesta": "What time is the English class?", "explicacion": "What time funciona como un bloque (¿a qué hora?). Después va is y luego el sujeto, the English class. English lleva mayúscula también cuando nombra la asignatura." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señala el grupo de palabras incorrecto y escribe la corrección.",
+      "frase": "Excuse me, where the bathroom is?",
+      "error": "the bathroom is",
+      "correcciones": ["is the bathroom"],
+      "frase_correcta": "Excuse me, where is the bathroom?",
+      "pistas": [
+        "Es una pregunta con be.",
+        "Revisa el orden entre is y el sujeto.",
+        "Palabra interrogativa + be + sujeto."
+      ],
+      "solucion": { "respuesta": "the bathroom is → is the bathroom", "explicacion": "En las preguntas con be el verbo va antes del sujeto: where + is + the bathroom. El orden «the bathroom is» es el de una afirmación." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Te encuentras a tu vecino Tom en el elevador.",
+      "lineas": [
+        { "quien": "Tom", "en": "Hi! How are you?", "es": "¡Hola! ¿Cómo estás?" }
+      ],
+      "opciones": [
+        { "texto": "I'm fine, thanks. And you?", "correcta": true, "porque": "Correcto: How are you? pregunta por tu estado." },
+        { "texto": "I'm thirty-two.", "correcta": false, "porque": "Esa sería la respuesta a How old are you? (la edad)." },
+        { "texto": "I'm an accountant.", "correcta": false, "porque": "Esa respuesta corresponde a What do you do? (la profesión)." },
+        { "texto": "Because I'm happy.", "correcta": false, "porque": "Because responde a una pregunta con why, no con how." }
+      ],
+      "pistas": [
+        "Identifica la palabra interrogativa de la pregunta.",
+        "How + be + persona pregunta por el estado, no por la edad.",
+        "How are you? → cómo te sientes: I'm fine / I'm OK / I'm tired…"
+      ],
+      "solucion": { "respuesta": "I'm fine, thanks. And you?", "explicacion": "How are you? pregunta por tu estado. La edad se pregunta con How old…?, la profesión con What do you do? y las razones con Why…?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.11",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Haz la pregunta para averiguar la razón.",
+      "origen": "Ana is happy because it's her birthday.",
+      "instruccion": "Pregunta con Why (sin la razón)",
+      "respuestas": ["Why is Ana happy?"],
+      "errores_tipicos": {
+        "Why Ana is happy": "Falta la inversión: is va antes de Ana.",
+        "Because is Ana happy": "Because responde; para preguntar se usa why.",
+        "Why is Ana happy because it's her birthday": "La razón es justo lo que preguntas: desaparece de la pregunta."
+      },
+      "pistas": [
+        "La parte con because es lo que no sabes: desaparece.",
+        "Convierte Ana is happy en pregunta de sí o no y pon Why delante.",
+        "Why + be + sujeto + adjetivo."
+      ],
+      "solucion": { "respuesta": "Why is Ana happy?", "explicacion": "Se elimina la razón (because it's her birthday), se invierte is y Ana, y Why se coloca delante: Why is Ana happy?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "How much is this jacket?",
+      "pistas": [
+        "Es una pregunta por un precio.",
+        "Empieza con una combinación de dos palabras.",
+        "How much + is + this + prenda."
+      ],
+      "solucion": { "respuesta": "How much is this jacket?", "explicacion": "How much + be pregunta por el precio. Is porque jacket es singular; con un plural sería How much are these…?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés con la pregunta natural (usa name).",
+      "es": "¿Cómo se llama tu hermano?",
+      "respuestas": ["What's your brother's name?"],
+      "errores_tipicos": {
+        "How is your brother called": "Calco de «¿cómo se llama?». En inglés se pregunta por el nombre con what.",
+        "How is called your brother": "Calco del español; la pregunta natural es What's your brother's name?",
+        "What is your brother name": "Falta 's: el nombre de tu hermano = your brother's name."
+      },
+      "pistas": [
+        "En inglés no se pregunta «cómo», sino «cuál es el nombre».",
+        "El nombre de tu hermano se expresa con el genitivo.",
+        "What + be + posesivo + persona con 's + name."
+      ],
+      "solucion": { "respuesta": "What's your brother's name?", "explicacion": "«¿Cómo se llama…?» se traduce preguntando por el nombre: What's (What is) + your brother's name, con genitivo para «el nombre de tu hermano»." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.palabras-interrogativas.14",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Cuántas personas hay en tu familia?",
+      "respuestas": ["How many people are there in your family?", "How many people are in your family?"],
+      "errores_tipicos": {
+        "How much people are there in your family": "People se cuenta: how many.",
+        "How many people there are in your family": "En la pregunta, are va antes de there.",
+        "How many people is there in your family": "People es plural (personas): are there."
+      },
+      "pistas": [
+        "«¿Cuántos/as…?» con algo que se cuenta.",
+        "«Hay» en pregunta plural es are there.",
+        "How many + sustantivo plural + are there + lugar."
+      ],
+      "solucion": { "respuesta": "How many people are there in your family?", "explicacion": "People es plural y contable, así que se usa how many. «Hay» en plural es there are, y en la pregunta se invierte: are there. People ya es plural: nunca «peoples» en este sentido." }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Conociendo a un compañero nuevo",
+    "contexto": "Un estudiante nuevo, Ben, llega a tu clase de inglés. La maestra te pide que lo entrevistes para presentarlo al grupo.",
+    "dialogo": [
+      { "quien": "Ben", "en": "Hi! I'm Ben. Nice to meet you.", "es": "¡Hola! Soy Ben. Mucho gusto." },
+      { "quien": "Ben", "en": "OK, ask me anything!", "es": "Bueno, ¡pregúntame lo que quieras!" }
+    ],
+    "tu_turno": "Hazle a Ben al menos cinco preguntas con palabras interrogativas distintas (origen, edad, profesión, familia, algo con why…).",
+    "modelo": "Where are you from, Ben? How old are you? What do you do? How many people are there in your family? Why are you in this class?",
+    "alternativas": [
+      "What's your last name? Where in the UK are you from? What's your job? Who's your favorite teacher? When is your birthday?",
+      "How are you today? Which city is your favorite? How many languages do you speak? Why is English important for you?"
+    ],
+    "claves": [
+      "Palabra interrogativa + be + sujeto.",
+      "How old para la edad; How many + plural para cantidades.",
+      "Why pregunta; because responde."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "who (persona), what (cosa), where (lugar), when (momento), why (razón), how (manera/estado), which (opción concreta), whose (dueño).",
+      "how many + plural contable; how much = precio o incontable; how old = edad; what time = hora.",
+      "Orden con be: palabra interrogativa + be + sujeto: Where is the bank?",
+      "What (respuesta abierta) / Which (elegir entre opciones concretas).",
+      "Why pregunta; because responde con una oración completa (because it's…).",
+      "La preposición se queda al final: Where are you from? Who is this for?"
+    ],
+    "recuerda": [
+      "¿Cuántos años tienes? = How old are you?",
+      "¿Cómo te llamas? = What's your name?",
+      "whose (de quién) ≠ who's (who is)."
+    ]
+  },
+  "repaso": [
+    { "id": "familia-profesiones-y-preguntas.palabras-interrogativas.r1", "frente": "¿Con qué palabra preguntas por el dueño? ¿Y por una opción entre varias concretas?", "reverso": "whose / which", "nota": "Whose car is this? Which car is yours, the red car or the blue car?" },
+    { "id": "familia-profesiones-y-preguntas.palabras-interrogativas.r2", "frente": "How many o how much: … brothers / … is it?", "reverso": "How many brothers…? / How much is it?", "nota": "Many con plurales contables; much para precios e incontables." },
+    { "id": "familia-profesiones-y-preguntas.palabras-interrogativas.r3", "frente": "Ordena: the / is / where / station", "reverso": "Where is the station?", "nota": "Palabra interrogativa + be + sujeto." },
+    { "id": "familia-profesiones-y-preguntas.palabras-interrogativas.r4", "frente": "¿Por qué estás cansado? — Porque es lunes.", "reverso": "Why are you tired? — Because it's Monday.", "nota": "Because + sujeto + verbo." },
+    { "id": "familia-profesiones-y-preguntas.palabras-interrogativas.r5", "frente": "¿Cuál es la diferencia entre How are you? y How old are you?", "reverso": "How are you? = ¿cómo estás? / How old are you? = ¿cuántos años tienes?", "nota": "La edad con how old + be." }
+  ]
+}

@@ -1,0 +1,1136 @@
+{
+  "slug": "pronombres-personales",
+  "titulo": "Los pronombres personales",
+  "minutos": 35,
+  "objetivos": [
+    "Conocer los siete pronombres de sujeto: I, you, he, she, it, we, they.",
+    "Entender por qué en inglés el sujeto nunca se omite y ponerlo siempre.",
+    "Usar it para cosas y animales, y they para cualquier grupo, sin fijarte en el género.",
+    "Saber que you sirve para tú, usted y ustedes."
+  ],
+  "situacion": {
+    "titulo": "¿Quién habla español?",
+    "texto": "Mei, una estudiante de intercambio, le pregunta a Diego por sus compañeros de clase. Diego quiere decir «Habla español» y dice solo «Speak Spanish». Mei no sabe si habla de él, de ella, de ellos… o si le está dando una orden. En inglés el verbo casi no cambia, así que sin sujeto no se sabe quién hace la acción.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "And Ana?",
+        "es": "¿Y Ana?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Speak Spanish.",
+        "es": "(quiere decir) Habla español."
+      },
+      {
+        "quien": "Mei",
+        "en": "Who? You? Ana?",
+        "es": "¿Quién? ¿Tú? ¿Ana?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Sorry! She speaks Spanish.",
+        "es": "¡Perdón! Ella habla español."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "los-siete-pronombres",
+      "titulo": "I, you, he, she, it, we, they",
+      "que_es": "Los pronombres personales de sujeto son las palabras que sustituyen a la persona o cosa que realiza la acción: «yo», «tú», «él»… En inglés son siete. Son de las palabras más frecuentes del idioma y aparecen en casi todas las oraciones.",
+      "para_que": [
+        "Para hablar de ti (I), de la persona con quien hablas (you) y de otras personas o cosas (he, she, it, they).",
+        "Para no repetir un nombre: Ana… she; my phone… it; Tom and Mei… they."
+      ],
+      "como_funciona": "**I** /aɪ/ = yo. Se escribe SIEMPRE con mayúscula, aunque vaya en medio de la oración. **you** /juː/ = tú, usted, ustedes y vosotros: una sola palabra para todos; el contexto aclara a quién hablas. En inglés estadounidense informal, para dejar claro el plural se oye you guys (ustedes). **he** /hiː/ = él (un hombre o un niño). **she** /ʃiː/ = ella (una mujer o una niña). **it** /ɪt/ = cosas, animales, lugares e ideas (no tiene traducción directa en español). **we** /wiː/ = nosotros, nosotras. **they** /ðeɪ/ = ellos, ellas, y también cosas en plural: sirve para cualquier grupo, sin género.",
+      "estructuras": [
+        {
+          "etiqueta": "Pronombre sujeto + verbo",
+          "formula": [
+            {
+              "t": "Pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            },
+            {
+              "t": "Spanish",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Hablamos español."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los pronombres de sujeto",
+          "columnas": [
+            "Pronombre",
+            "AFI",
+            "Español",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "I",
+              "/aɪ/",
+              "yo",
+              "I speak Spanish."
+            ],
+            [
+              "you",
+              "/juː/",
+              "tú, usted, ustedes",
+              "You speak English."
+            ],
+            [
+              "he",
+              "/hiː/",
+              "él",
+              "He's my brother."
+            ],
+            [
+              "she",
+              "/ʃiː/",
+              "ella",
+              "She's my sister."
+            ],
+            [
+              "it",
+              "/ɪt/",
+              "(cosa, animal)",
+              "It's my phone."
+            ],
+            [
+              "we",
+              "/wiː/",
+              "nosotros, nosotras",
+              "We live in Puebla."
+            ],
+            [
+              "they",
+              "/ðeɪ/",
+              "ellos, ellas",
+              "They play soccer."
+            ]
+          ],
+          "audio": [
+            0,
+            3
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Los pronombres de sujeto",
+        "centro": "¿Quién?",
+        "ramas": [
+          {
+            "texto": "I",
+            "detalle": "yo (siempre mayúscula)"
+          },
+          {
+            "texto": "you",
+            "detalle": "tú / usted / ustedes"
+          },
+          {
+            "texto": "he",
+            "detalle": "él"
+          },
+          {
+            "texto": "she",
+            "detalle": "ella"
+          },
+          {
+            "texto": "it",
+            "detalle": "cosa, animal, lugar"
+          },
+          {
+            "texto": "we",
+            "detalle": "nosotros, nosotras"
+          },
+          {
+            "texto": "they",
+            "detalle": "ellos, ellas, cosas en plural"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "I speak Spanish.",
+          "es": "Hablo español.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            },
+            {
+              "t": "Spanish",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "I con mayúscula siempre. Los idiomas también se escriben con mayúscula en inglés: Spanish, English."
+        },
+        {
+          "en": "You speak English.",
+          "es": "Hablas inglés. / Usted habla inglés. / Ustedes hablan inglés.",
+          "partes": [
+            {
+              "t": "You",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            },
+            {
+              "t": "English",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Una sola oración inglesa equivale a tres españolas: you no distingue número ni formalidad."
+        },
+        {
+          "en": "He's my brother.",
+          "es": "Él es mi hermano.",
+          "partes": [
+            {
+              "t": "He's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "my brother",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "He's = he is (él es). Apréndelo como bloque; en la unidad 4 verás is con detalle."
+        },
+        {
+          "en": "She's from Peru.",
+          "es": "Ella es de Perú.",
+          "partes": [
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "from Peru",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "She's = she is. En español puedes decir «Es de Perú»; en inglés she es obligatorio."
+        },
+        {
+          "en": "We live in Puebla.",
+          "es": "Vivimos en Puebla.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "live",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Puebla",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«Vivimos» ya dice «nosotros» por su terminación; live no, por eso hace falta we."
+        },
+        {
+          "en": "They play soccer.",
+          "es": "Juegan fútbol.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "play",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "They puede ser ellos, ellas o un grupo mixto. soccer es «fútbol» en EE. UU.; en el Reino Unido se dice football."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "he, she",
+          "ipa": "/hiː/, /ʃiː/",
+          "consejo": "Las dos terminan en una i larga. he empieza con un soplo suave (/h/); she con el «shhh» de pedir silencio (/ʃ/). No digas «ji» con j fuerte ni «si» con s.",
+          "lento": true
+        },
+        {
+          "texto": "they",
+          "ipa": "/ðeɪ/",
+          "consejo": "La punta de la lengua entre los dientes y la garganta vibrando (/ð/), luego «ei». Si golpeas como una d, dices day (día).",
+          "lento": true
+        },
+        {
+          "texto": "we",
+          "ipa": "/wiː/",
+          "consejo": "Redondea los labios como para una u y pásalos enseguida a una i larga: «uii». Nunca «güi».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        {
+          "mal": "i speak Spanish.",
+          "bien": "I speak Spanish.",
+          "porque": "El pronombre I se escribe siempre con mayúscula."
+        },
+        {
+          "mal": "Confundir he y she.",
+          "bien": "he = él; she = ella",
+          "porque": "Es un error frecuente al hablar rápido. she lleva el sonido /ʃ/ de «shhh»."
+        },
+        {
+          "mal": "Yous speak English.",
+          "bien": "You speak English.",
+          "porque": "you no tiene plural con -s: la misma palabra sirve para tú y para ustedes. En conversación informal de EE. UU. se oye you guys para marcar el plural."
+        }
+      ]
+    },
+    {
+      "id": "sujeto-obligatorio",
+      "titulo": "En inglés el sujeto nunca se omite",
+      "que_es": "En español puedes decir «Hablo inglés» sin «yo», porque la terminación del verbo (-o) ya dice quién habla. En inglés el verbo casi no cambia: speak sirve para I, you, we y they. Por eso **el sujeto es obligatorio** en toda oración, salvo en las órdenes (Sit down, please).",
+      "para_que": [
+        "Para que tus oraciones sean correctas y se entienda quién hace la acción.",
+        "Para evitar el error número uno de los hispanohablantes: «Is my brother», «Speak Spanish», «Is cold»."
+      ],
+      "como_funciona": "Compara: hablo, hablas, hablamos, hablan → I speak, you speak, we speak, they speak. El español lleva la información de la persona en el verbo; el inglés la lleva en el pronombre. Si quitas el pronombre, la oración queda sin dueño: «Speak Spanish» parece una orden («¡Habla español!»). Esto incluye oraciones en las que el español no tiene ningún sujeto posible, como las del tiempo o la hora: «Hace frío», «Es tarde». El inglés rellena ese hueco con **it**: It's cold. It's late. Ese it no significa nada; solo ocupa el lugar del sujeto. Excepción: las órdenes e instrucciones no llevan sujeto (Listen. Open your book.).",
+      "estructuras": [
+        {
+          "etiqueta": "Sujeto obligatorio",
+          "formula": [
+            {
+              "t": "Sujeto (nunca vacío)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new car",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Necesitan un carro nuevo."
+        },
+        {
+          "etiqueta": "It de relleno (tiempo, hora)",
+          "formula": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "'s",
+              "rol": "verbo"
+            },
+            {
+              "t": "cold / late / hot",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "'s",
+              "rol": "verbo"
+            },
+            {
+              "t": "cold",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Hace frío."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I live in Monterrey.",
+          "es": "Vivo en Monterrey.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "live",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Monterrey",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En español «yo» sobra; en inglés I es imprescindible."
+        },
+        {
+          "en": "It's cold.",
+          "es": "Hace frío.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cold",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "It's = it is. It no se refiere a nada concreto: el inglés necesita un sujeto aunque sea «vacío»."
+        },
+        {
+          "en": "It's late.",
+          "es": "Es tarde.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Mismo caso: para la hora y el tiempo, el sujeto es it."
+        },
+        {
+          "en": "We need help.",
+          "es": "Necesitamos ayuda.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "help",
+              "rol": "complemento"
+            }
+          ]
+        },
+        {
+          "en": "Listen, please.",
+          "es": "Escucha, por favor.",
+          "partes": [
+            {
+              "t": "Listen",
+              "rol": "verbo"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "nota": "La excepción: en una orden no hay sujeto, igual que en español."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: el verbo dice quién",
+          "items": [
+            "hablo → yo",
+            "hablas → tú",
+            "hablamos → nosotros",
+            "hablan → ellos / ustedes"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: el pronombre dice quién",
+          "items": [
+            "I speak",
+            "you speak",
+            "we speak",
+            "they speak"
+          ]
+        },
+        "veredicto": "Como speak no cambia, el único que indica la persona es el pronombre. Por eso nunca puede faltar."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Del español al inglés: el sujeto aparece",
+        "pasos": [
+          {
+            "etiqueta": "Español (sujeto implícito)",
+            "partes": [
+              {
+                "t": "Vivimos",
+                "rol": "verbo"
+              },
+              {
+                "t": "en Puebla",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Inglés sin sujeto (incorrecto)",
+            "partes": [
+              {
+                "t": "Live",
+                "rol": "verbo"
+              },
+              {
+                "t": "in Puebla",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Inglés correcto",
+            "partes": [
+              {
+                "t": "We",
+                "rol": "sujeto"
+              },
+              {
+                "t": "live",
+                "rol": "verbo"
+              },
+              {
+                "t": "in Puebla",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Sin we, «Live in Puebla» parece una orden: «¡Vive en Puebla!»."
+      },
+      "pronunciacion": [
+        {
+          "texto": "It's cold.",
+          "ipa": "/ɪts koʊld/",
+          "consejo": "It's es una sola sílaba corta: i breve y relajada + ts, como el principio de «tsunami» pero sin la u. En cold, pronuncia la l y la d finales.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Is cold.",
+          "bien": "It's cold.",
+          "porque": "Aunque en español no haya sujeto, en inglés hace falta it."
+        },
+        {
+          "mal": "Speak Spanish. (queriendo decir «hablo español»)",
+          "bien": "I speak Spanish.",
+          "porque": "Sin sujeto, la oración se entiende como una orden."
+        },
+        {
+          "mal": "Is my brother.",
+          "bien": "He's my brother.",
+          "porque": "Hay que decir quién es: he (él)."
+        }
+      ]
+    },
+    {
+      "id": "it-y-they",
+      "titulo": "It para cosas y animales; they sin género",
+      "que_es": "En español las cosas tienen género gramatical («la mesa» es femenina, «el libro» masculino) y usamos «él» o «ella» para ellas cuando hace falta. En inglés las cosas no tienen género: todas son **it**. Y en plural no hay distinción entre «ellos» y «ellas»: todo es **they**.",
+      "para_que": [
+        "Para hablar de objetos (my phone → it), animales (the dog → it) y lugares (Mexico → it).",
+        "Para referirte a cualquier grupo sin preocuparte por el género: my sisters → they; the books → they."
+      ],
+      "como_funciona": "**he / she** solo para personas (y, si quieres, para mascotas y animales que conoces: tu perro puede ser he). **it** para todo lo demás en singular: objetos, animales en general, lugares, ideas. Nunca uses she para «la computadora» ni he para «el carro»: el género del español no pasa al inglés. **they** para cualquier plural: personas (hombres, mujeres o mezcla), animales o cosas. Además, they también se usa para UNA persona cuando no sabes o no quieres indicar su género («Someone is at the door. What do they want?»); lo verás más adelante.",
+      "estructuras": [
+        {
+          "etiqueta": "Cosa en singular",
+          "formula": [
+            {
+              "t": "sustantivo (cosa)",
+              "rol": "complemento"
+            },
+            {
+              "t": "→ it",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "my computer",
+              "rol": "complemento"
+            },
+            {
+              "t": "→ it",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "mi computadora → it (no she)"
+        },
+        {
+          "etiqueta": "Cualquier plural",
+          "formula": [
+            {
+              "t": "grupo de personas o cosas",
+              "rol": "complemento"
+            },
+            {
+              "t": "→ they",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Ana and Mei",
+              "rol": "complemento"
+            },
+            {
+              "t": "→ they",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "Ana y Mei → they (ellas)"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My phone? It's new.",
+          "es": "¿Mi celular? Es nuevo.",
+          "partes": [
+            {
+              "t": "My phone",
+              "rol": "complemento"
+            },
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "new",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "phone es una cosa: it. En español no dirías «él es nuevo», pero en inglés el pronombre es obligatorio."
+        },
+        {
+          "en": "The table is big. It's from Mexico.",
+          "es": "La mesa es grande. Es de México.",
+          "nota": "«la mesa» es femenina en español, pero en inglés es it, nunca she."
+        },
+        {
+          "en": "Ana and Mei are my friends. They're from Mexico.",
+          "es": "Ana y Mei son mis amigas. Son de México.",
+          "nota": "they sirve igual para «ellas». They're = they are (bloque)."
+        },
+        {
+          "en": "Tom and Lucía play tennis. They play on Sundays.",
+          "es": "Tom y Lucía juegan tenis. Juegan los domingos.",
+          "nota": "Grupo mixto: they. No existe una forma masculina o femenina."
+        },
+        {
+          "en": "My dog? He's very friendly.",
+          "es": "¿Mi perro? Es muy amigable.",
+          "nota": "Con una mascota que conoces puedes usar he o she. Para un animal cualquiera se usa it."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "it",
+          "ipa": "/ɪt/",
+          "consejo": "Una i muy corta y relajada (/ɪ/), casi hacia e, y una t clara al final. No la alargues: /iːt/ sería eat (comer).",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My computer is new. She is fast.",
+          "bien": "My computer is new. It is fast.",
+          "porque": "Las cosas no tienen género en inglés: siempre it."
+        },
+        {
+          "mal": "The car? He is red.",
+          "bien": "The car? It's red.",
+          "porque": "«El carro» es masculino en español, pero en inglés es it."
+        },
+        {
+          "mal": "My sisters… She are…",
+          "bien": "My sisters… They are…",
+          "porque": "Para cualquier plural, también femenino, se usa they."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pronombre con su equivalente en español.",
+      "pares": [
+        {
+          "a": "I",
+          "b": "yo"
+        },
+        {
+          "a": "you",
+          "b": "tú / usted / ustedes"
+        },
+        {
+          "a": "he",
+          "b": "él"
+        },
+        {
+          "a": "she",
+          "b": "ella"
+        },
+        {
+          "a": "it",
+          "b": "(una cosa o un animal)"
+        },
+        {
+          "a": "we",
+          "b": "nosotros / nosotras"
+        },
+        {
+          "a": "they",
+          "b": "ellos / ellas"
+        }
+      ],
+      "pistas": [
+        "Son los siete pronombres de sujeto.",
+        "Uno de ellos no tiene traducción directa; otro sirve para tres formas del español.",
+        "Regla: it = cosas y animales; you = tú, usted y ustedes."
+      ],
+      "solucion": {
+        "respuesta": "I–yo · you–tú/usted/ustedes · he–él · she–ella · it–cosa o animal · we–nosotros · they–ellos/ellas",
+        "explicacion": "Recuerda los dos casos especiales: you no distingue singular, plural ni formalidad; it se usa para cosas y animales y no tiene equivalente directo en español."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el pronombre correcto.",
+      "pregunta": "¿Qué pronombre sustituye a «the table» (la mesa)?",
+      "opciones": [
+        {
+          "texto": "it",
+          "correcta": true,
+          "porque": "Correcto: la mesa es una cosa, y en inglés las cosas son it."
+        },
+        {
+          "texto": "she",
+          "correcta": false,
+          "porque": "No: «mesa» es femenina en español, pero en inglés las cosas no tienen género."
+        },
+        {
+          "texto": "they",
+          "correcta": false,
+          "porque": "No: they es plural, y the table es una sola mesa."
+        }
+      ],
+      "pistas": [
+        "¿Es una persona o una cosa?",
+        "Olvida el género que tiene la palabra en español.",
+        "Regla: cualquier cosa en singular → it."
+      ],
+      "solucion": {
+        "respuesta": "it",
+        "explicacion": "the table es una cosa en singular, así que su pronombre es it. El género femenino de «mesa» es del español y no pasa al inglés."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el pronombre que sustituye a cada sujeto.",
+      "frase": "Ana → ___ · Tom → ___ · Ana and Tom → ___",
+      "respuestas": [
+        [
+          "she"
+        ],
+        [
+          "he"
+        ],
+        [
+          "they"
+        ]
+      ],
+      "errores_tipicos": {
+        "she | he | we": "we incluye a quien habla (nosotros). Ana and Tom son otras personas: they.",
+        "he | she | they": "Están cambiados: Ana es she (ella) y Tom es he (él)."
+      },
+      "pistas": [
+        "Piensa si es una mujer, un hombre o un grupo.",
+        "El tercero es un grupo mixto: ¿hay forma masculina o femenina en inglés?",
+        "Regla: mujer → she; hombre → he; cualquier grupo → they."
+      ],
+      "solucion": {
+        "respuesta": "she · he · they",
+        "explicacion": "Ana es una mujer (she), Tom un hombre (he) y Ana and Tom un grupo de dos personas en el que no está quien habla (they). they sirve para cualquier grupo, sin género."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe el pronombre que sustituye a cada sujeto.",
+      "frase": "my phone → ___ · Omar and I → ___ · you and Mei → ___",
+      "respuestas": [
+        [
+          "it"
+        ],
+        [
+          "we"
+        ],
+        [
+          "you"
+        ]
+      ],
+      "errores_tipicos": {
+        "it | they | you": "Omar and I incluye a quien habla (I): es we, nosotros.",
+        "it | we | they": "you and Mei incluye a la persona con quien hablas: es you (ustedes), no they."
+      },
+      "pistas": [
+        "Fíjate en si el grupo incluye a quien habla (I) o a quien escucha (you).",
+        "Omar and I = Omar y yo; you and Mei = tú y Mei.",
+        "Regla: cosa → it; grupo con I → we; grupo con you (sin I) → you."
+      ],
+      "solucion": {
+        "respuesta": "it · we · you",
+        "explicacion": "my phone es una cosa: it. Omar and I incluye al hablante: we. you and Mei incluye a la persona con quien hablas, así que es you en plural (ustedes)."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "Una maestra dice a sus alumnos: «You speak English very well». ¿A quién se dirige?",
+      "opciones": [
+        {
+          "texto": "Puede ser a un alumno o a todo el grupo: you sirve para los dos casos; el contexto lo aclara.",
+          "correcta": true,
+          "porque": "Correcto: you es tú, usted y ustedes. Aquí, si habla a la clase, significa «ustedes»."
+        },
+        {
+          "texto": "Solo a un alumno, porque you es singular.",
+          "correcta": false,
+          "porque": "No: you también es plural. No hay otra palabra estándar para «ustedes»."
+        },
+        {
+          "texto": "A los alumnos que no están presentes.",
+          "correcta": false,
+          "porque": "No: para personas ausentes se usaría they."
+        }
+      ],
+      "pistas": [
+        "Recuerda cuántos significados tiene you.",
+        "En inglés no hay una palabra distinta para «ustedes».",
+        "Regla: you = tú / usted / ustedes."
+      ],
+      "solucion": {
+        "respuesta": "Puede ser a un alumno o a todo el grupo: you sirve para los dos casos; el contexto lo aclara.",
+        "explicacion": "you no distingue número: la misma oración vale para un alumno o para toda la clase. En conversación informal estadounidense, para dejar claro el plural, se dice you guys."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.06",
+      "tipo": "ordenar",
+      "dificultad": 1,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "English",
+        "They",
+        "speak"
+      ],
+      "respuestas": [
+        "They speak English."
+      ],
+      "traduccion": "Hablan inglés.",
+      "pistas": [
+        "Empieza por quién realiza la acción.",
+        "El verbo va justo después del sujeto.",
+        "Estructura: sujeto + verbo + complemento."
+      ],
+      "solucion": {
+        "respuesta": "They speak English.",
+        "explicacion": "En inglés el orden es fijo: primero el sujeto They, después el verbo speak y al final el complemento English. En español basta «Hablan inglés»; en inglés they es obligatorio."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el verbo speak.",
+      "es": "Hablamos español.",
+      "respuestas": [
+        "We speak Spanish."
+      ],
+      "errores_tipicos": {
+        "Speak Spanish.": "Falta el sujeto. En inglés speak no indica quién habla: hay que poner we.",
+        "I speak Spanish.": "I es «yo». «Hablamos» es nosotros: we."
+      },
+      "pistas": [
+        "¿Quién habla? La terminación -mos te lo dice en español.",
+        "En inglés esa información tiene que ir en un pronombre al principio.",
+        "Estructura: pronombre de «nosotros» + verbo + idioma (con mayúscula)."
+      ],
+      "solucion": {
+        "respuesta": "We speak Spanish.",
+        "explicacion": "«Hablamos» lleva el sujeto escondido en -mos; speak no cambia, así que hay que decir we. Spanish, como todos los idiomas, va con mayúscula."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa la forma contraída.",
+      "es": "Hace frío.",
+      "respuestas": [
+        "It's cold."
+      ],
+      "errores_tipicos": {
+        "Is cold.": "Falta el sujeto. Para el tiempo, el inglés usa it: It's cold.",
+        "It makes cold.": "Es un calque de «hace». En inglés el frío se expresa con be: It's cold."
+      },
+      "pistas": [
+        "En español esta oración no tiene sujeto. ¿Y en inglés?",
+        "Para el tiempo atmosférico, el inglés usa un sujeto de relleno.",
+        "Estructura: sujeto de relleno + 's + adjetivo del tiempo atmosférico."
+      ],
+      "solucion": {
+        "respuesta": "It's cold.",
+        "explicacion": "El inglés necesita un sujeto incluso cuando no hay nadie que haga la acción: usa it. Y no se dice «make» (hacer), sino it's (it is): It's cold."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "My computer is new. She is very fast.",
+      "error": "She",
+      "correcciones": [
+        "It"
+      ],
+      "frase_correcta": "My computer is new. It is very fast.",
+      "pistas": [
+        "¿Una computadora es una persona?",
+        "Mira el pronombre de la segunda oración.",
+        "Regla: las cosas en singular son it, sin importar su género en español."
+      ],
+      "solucion": {
+        "respuesta": "My computer is new. It is very fast.",
+        "explicacion": "computer es una cosa, así que el pronombre es it. En español «la computadora» es femenina, pero ese género no pasa al inglés."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Esta frase tiene un error típico de hispanohablante. Señálalo y corrígelo.",
+      "frase": "This is Ana. Is from Mexico.",
+      "error": "Is from",
+      "correcciones": [
+        "She's from",
+        "She is from"
+      ],
+      "frase_correcta": "This is Ana. She's from Mexico.",
+      "pistas": [
+        "La segunda oración empieza por el verbo.",
+        "¿Quién es de México? Hay que decirlo.",
+        "Regla: en inglés el sujeto es obligatorio: She's from…"
+      ],
+      "solucion": {
+        "respuesta": "This is Ana. She's from Mexico.",
+        "explicacion": "En español «Es de México» es correcto porque el verbo indica la persona. En inglés falta el sujeto: She's from Mexico (she is = ella es)."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.11",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Sustituye el sujeto por un pronombre.",
+      "origen": "Ana and Tom speak Spanish.",
+      "instruccion": "Cambia «Ana and Tom» por el pronombre adecuado.",
+      "respuestas": [
+        "They speak Spanish."
+      ],
+      "errores_tipicos": {
+        "We speak Spanish.": "we incluye a quien habla. Ana and Tom son otras personas: they.",
+        "He speak Spanish.": "Ana and Tom son dos personas: el pronombre es plural, they."
+      },
+      "pistas": [
+        "¿Cuántas personas son? ¿Está incluido quien habla?",
+        "Son dos personas y no incluyen al hablante.",
+        "Regla: cualquier grupo sin I ni you → they."
+      ],
+      "solucion": {
+        "respuesta": "They speak Spanish.",
+        "explicacion": "Ana and Tom es un grupo mixto de dos personas que no incluye al hablante ni al oyente: they. El resto de la oración no cambia."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.12",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Sustituye el sujeto por un pronombre.",
+      "origen": "Carlos and I live in Puebla.",
+      "instruccion": "Cambia «Carlos and I» por el pronombre adecuado.",
+      "respuestas": [
+        "We live in Puebla."
+      ],
+      "errores_tipicos": {
+        "They live in Puebla.": "they excluye a quien habla. Carlos and I te incluye a ti: we.",
+        "I live in Puebla.": "I es solo yo; Carlos and I son dos personas: we."
+      },
+      "pistas": [
+        "El grupo incluye a quien habla.",
+        "Carlos and I = Carlos y yo.",
+        "Regla: grupo que incluye I → we."
+      ],
+      "solucion": {
+        "respuesta": "We live in Puebla.",
+        "explicacion": "Carlos and I = Carlos y yo = nosotros: we. Si usaras they, estarías hablando de otras personas y no de ti."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.13",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "She speaks English and they speak Spanish.",
+      "pistas": [
+        "Hay dos pronombres: uno singular femenino y uno plural.",
+        "El primero empieza con /ʃ/; el segundo con /ð/.",
+        "Regla: she = ella; they = ellos/ellas. Fíjate también en la -s de speaks tras she."
+      ],
+      "solucion": {
+        "respuesta": "She speaks English and they speak Spanish.",
+        "explicacion": "«Ella habla inglés y ellos hablan español». Notarás que tras she el verbo lleva -s (speaks) y tras they no: lo estudiarás con el presente simple. Por ahora, fíjate en los pronombres."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite los pronombres. Grábate y compara.",
+      "texto": "I, you, he, she, it, we, they",
+      "ipa": "/aɪ/, /juː/, /hiː/, /ʃiː/, /ɪt/, /wiː/, /ðeɪ/",
+      "consejo": "I es «ai». you empieza con una y suave. he con soplo suave; she con «shhh». it es corta y relajada (no «iit»). we empieza con labios redondeados. they con la lengua entre los dientes y vibración.",
+      "es": "yo, tú, él, ella, (cosa), nosotros, ellos"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Habla de tu familia sin omitir el sujeto",
+    "contexto": "Tu compañera Priya te enseña una foto de su familia y después te pide que hables de la tuya.",
+    "dialogo": [
+      {
+        "quien": "Priya",
+        "en": "This is my brother. He lives in Toronto. And these are my parents. They speak three languages!",
+        "es": "Este es mi hermano. Vive en Toronto. Y estos son mis papás. ¡Hablan tres idiomas!"
+      },
+      {
+        "quien": "Priya",
+        "en": "And your family?",
+        "es": "¿Y tu familia?"
+      }
+    ],
+    "tu_turno": "Di dos o tres oraciones sobre tu familia o tus amigos usando pronombres: I, we, they, he's, she's. No omitas el sujeto en ninguna.",
+    "modelo": "I live in Querétaro. We speak Spanish. My sister? She's a nurse. My parents? They live in Oaxaca.",
+    "alternativas": [
+      "I live in León. My brother? He's a student. We play soccer on Sundays.",
+      "We live in Mexico City. My friends Ana and Omar? They speak English."
+    ],
+    "claves": [
+      "Cada oración empieza con un sujeto.",
+      "He's / she's como bloque para «él es / ella es».",
+      "they para cualquier grupo, sea masculino, femenino o mixto."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pronombres de sujeto: I, you, he, she, it, we, they.",
+      "I siempre con mayúscula.",
+      "you = tú, usted, ustedes.",
+      "it = cosas, animales, lugares; y sujeto de relleno para el tiempo y la hora (It's cold).",
+      "they = cualquier plural, sin género.",
+      "El sujeto nunca se omite (salvo en órdenes)."
+    ],
+    "recuerda": [
+      "El género de las cosas en español no pasa al inglés: the table → it.",
+      "Omar and I → we; you and Mei → you; Ana and Tom → they.",
+      "Con mascotas conocidas puedes usar he o she."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.r1",
+      "frente": "¿Por qué no se puede decir «Speak Spanish» para «Hablo español»?",
+      "reverso": "Porque el verbo inglés no indica la persona: el sujeto (I) es obligatorio. I speak Spanish."
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.r2",
+      "frente": "Hace frío",
+      "reverso": "It's cold.",
+      "nota": "it de relleno para el tiempo."
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.r3",
+      "frente": "Pronombre para «la computadora»",
+      "reverso": "it (las cosas no tienen género)."
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.r4",
+      "frente": "Pronombre para «Ana y Mei»",
+      "reverso": "they (ellas); they no tiene género."
+    },
+    {
+      "id": "saludos-y-presentaciones.pronombres-personales.r5",
+      "frente": "¿Qué significa you?",
+      "reverso": "tú, usted o ustedes, según el contexto."
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "titulo": "Evaluación: adjetivos y descripciones",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "adjetivos-y-descripciones.eval.01",
+      "leccion": "posicion-del-adjetivo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«Estas son dos casas blancas.»",
+      "opciones": [
+        {
+          "texto": "These are two white houses.",
+          "correcta": true,
+          "porque": "Correcto: white antes de houses y sin -s; solo houses marca el plural."
+        },
+        {
+          "texto": "These are two whites houses.",
+          "correcta": false,
+          "porque": "El adjetivo white no tiene plural."
+        },
+        {
+          "texto": "These are two houses white.",
+          "correcta": false,
+          "porque": "El adjetivo va antes del sustantivo."
+        },
+        {
+          "texto": "These are two white house.",
+          "correcta": false,
+          "porque": "Con two, el sustantivo va en plural: houses."
+        }
+      ],
+      "pistas": [
+        "Recuerda qué palabra lleva el plural.",
+        "Revisa el orden y las -s de cada opción.",
+        "número + adjetivo sin -s + sustantivo con -s."
+      ],
+      "solucion": {
+        "respuesta": "These are two white houses.",
+        "explicacion": "La respuesta correcta es These are two white houses: el adjetivo white va antes del sustantivo y no cambia; el plural lo lleva solo houses."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.02",
+      "leccion": "posicion-del-adjetivo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a o an. Ojo: fíjate en la palabra que va justo después.",
+      "frase": "It's ___ big apple.",
+      "banco": [
+        "a",
+        "an"
+      ],
+      "respuestas": [
+        [
+          "a"
+        ]
+      ],
+      "traduccion": "Es una manzana grande.",
+      "errores_tipicos": {
+        "an": "Apple sola lleva an, pero aquí la palabra que va detrás del artículo es big, que empieza con consonante: a big apple."
+      },
+      "pistas": [
+        "Recuerda que a/an depende de un sonido concreto.",
+        "¿Qué palabra está pegada al artículo: apple o big?",
+        "El artículo se elige por el sonido de la palabra inmediatamente siguiente."
+      ],
+      "solucion": {
+        "respuesta": "a",
+        "explicacion": "La respuesta es a porque la palabra que sigue al artículo es big, que empieza con sonido consonante. Sin adjetivo sería an apple."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.03",
+      "leccion": "posicion-del-adjetivo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Las ventanas están sucias.",
+      "respuestas": [
+        "The windows are dirty."
+      ],
+      "errores_tipicos": {
+        "The windows are dirties.": "El adjetivo no lleva plural: dirty.",
+        "The windows is dirty.": "Windows es plural: are.",
+        "Are dirty the windows.": "En una afirmación el sujeto va primero: The windows are dirty."
+      },
+      "pistas": [
+        "Recuerda: sujeto + be + adjetivo.",
+        "El sujeto es plural: revisa el verbo y el adjetivo.",
+        "Regla: sujeto plural + are + adjetivo; el adjetivo no lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "The windows are dirty.",
+        "explicacion": "El sujeto the windows es plural, así que el verbo es are. El adjetivo dirty va después de be y no cambia aunque el sujeto sea plural."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.04",
+      "leccion": "posicion-del-adjetivo",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y corrígela.",
+      "frase": "Look at this pizza! Is very big.",
+      "error": "Is",
+      "correcciones": [
+        "It's",
+        "It is"
+      ],
+      "frase_correcta": "Look at this pizza! It's very big.",
+      "pistas": [
+        "Recuerda qué parte de la oración nunca se omite en inglés.",
+        "Mira la segunda oración: ¿quién o qué es very big?",
+        "Regla: toda oración necesita sujeto; para una cosa el sujeto es it, que se puede contraer con be."
+      ],
+      "solucion": {
+        "respuesta": "Is → It's",
+        "explicacion": "El error es Is: falta el sujeto. En español «Es muy grande» no necesita sujeto, pero en inglés sí: It's very big (it = la pizza)."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.05",
+      "leccion": "posicion-del-adjetivo",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y elige.",
+      "pregunta": "¿Qué oración habla de MÁS DE UNA mochila?",
+      "opciones": [
+        {
+          "texto": "They're black bags.",
+          "correcta": true,
+          "porque": "Correcto: they're y bags indican plural. Black no cambia, así que el plural se ve en el sustantivo y el verbo."
+        },
+        {
+          "texto": "It's a black bag.",
+          "correcta": false,
+          "porque": "It's y a bag indican una sola mochila."
+        },
+        {
+          "texto": "It's black.",
+          "correcta": false,
+          "porque": "It se refiere a una sola cosa."
+        },
+        {
+          "texto": "It's a big black bag.",
+          "correcta": false,
+          "porque": "Dos adjetivos no significan dos mochilas: sigue habiendo a y bag en singular."
+        }
+      ],
+      "pistas": [
+        "Recuerda dónde se marca el plural en inglés.",
+        "Mira el sujeto, el verbo y el sustantivo; los adjetivos no te dan pistas.",
+        "El plural aparece en el sustantivo (-s) y en they / are, nunca en el adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "They're black bags.",
+        "explicacion": "La única oración en plural es They're black bags: they, are y bags lo indican. Los adjetivos no te dicen nada sobre el número porque no cambian nunca."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.06",
+      "leccion": "opuestos-y-grados",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su opuesto.",
+      "pares": [
+        {
+          "a": "dirty",
+          "b": "clean"
+        },
+        {
+          "a": "sad",
+          "b": "happy"
+        },
+        {
+          "a": "heavy",
+          "b": "light"
+        },
+        {
+          "a": "young",
+          "b": "old"
+        },
+        {
+          "a": "long",
+          "b": "short"
+        },
+        {
+          "a": "bad",
+          "b": "good"
+        }
+      ],
+      "pistas": [
+        "Recuerda los pares de opuestos de la lección.",
+        "Light y short tienen más de un opuesto: busca el que falta aquí.",
+        "Regla: agrupa por categoría (limpieza, ánimo, peso, edad, longitud, calidad) y une los dos adjetivos de cada una."
+      ],
+      "solucion": {
+        "respuesta": "dirty–clean, sad–happy, heavy–light, young–old, long–short, bad–good",
+        "explicacion": "Cada par mide una misma cualidad en sentidos opuestos. Light es lo contrario de heavy cuando se habla de peso, y short es lo contrario de long cuando se habla de longitud."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.07",
+      "leccion": "opuestos-y-grados",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y elige la interpretación correcta.",
+      "pregunta": "Ana escribe una reseña: «The hotel is nice, but the room is too small.» ¿Qué piensa Ana del cuarto?",
+      "opciones": [
+        {
+          "texto": "Que su tamaño es un problema.",
+          "correcta": true,
+          "porque": "Correcto: too + adjetivo indica exceso con un problema."
+        },
+        {
+          "texto": "Que es muy chico y le encanta.",
+          "correcta": false,
+          "porque": "Eso sería very small, y el but indica una crítica."
+        },
+        {
+          "texto": "Que el cuarto también es chico.",
+          "correcta": false,
+          "porque": "Too significa «también» solo al final de la oración; aquí va delante del adjetivo."
+        },
+        {
+          "texto": "Que es bastante chico, pero está bien.",
+          "correcta": false,
+          "porque": "Eso sería quite small. Too es más fuerte y negativo."
+        }
+      ],
+      "pistas": [
+        "Recuerda qué implica too delante de un adjetivo.",
+        "Fíjate en el but: ¿introduce algo positivo o negativo?",
+        "too + adjetivo = demasiado, con un problema."
+      ],
+      "solucion": {
+        "respuesta": "Que su tamaño es un problema.",
+        "explicacion": "Too delante de small significa «demasiado» e implica un problema: a Ana el cuarto le pareció incómodo. El but que contrasta con nice lo confirma."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.08",
+      "leccion": "opuestos-y-grados",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con una palabra del banco.",
+      "frase": "The exam is ___ difficult, but it's OK.",
+      "banco": [
+        "too",
+        "very",
+        "much"
+      ],
+      "respuestas": [
+        [
+          "very"
+        ]
+      ],
+      "traduccion": "El examen es muy difícil, pero está bien.",
+      "errores_tipicos": {
+        "too": "Too indicaría que la dificultad es un problema, y la frase termina con but it's OK.",
+        "much": "Much no se usa solo delante de un adjetivo: very difficult."
+      },
+      "pistas": [
+        "Recuerda la diferencia entre very y too.",
+        "La segunda parte dice que todo está bien: ¿hay un problema?",
+        "Sin problema, very + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "very",
+        "explicacion": "La respuesta es very: el examen es muy difícil, pero no es un problema (but it's OK). Too implicaría que no se puede hacer, y much no va solo delante de un adjetivo."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.09",
+      "leccion": "opuestos-y-grados",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la oración para que la temperatura sea un problema (no puedes tomártelo).",
+      "origen": "The coffee is very hot.",
+      "instruccion": "Expresa exceso con problema",
+      "respuestas": [
+        "The coffee is too hot.",
+        "The coffee is much too hot."
+      ],
+      "errores_tipicos": {
+        "The coffee is too much hot.": "Delante de un adjetivo no se dice too much: too hot (o much too hot).",
+        "The coffee is very very hot.": "Repetir very intensifica, pero no expresa un problema. Para eso, too."
+      },
+      "pistas": [
+        "Recuerda qué palabra convierte una descripción en un problema.",
+        "Solo cambia la palabra que va antes de hot.",
+        "Regla: para decir que el exceso es un problema, cambia el intensificador por el que significa «demasiado»."
+      ],
+      "solucion": {
+        "respuesta": "The coffee is too hot.",
+        "explicacion": "Al cambiar very por too, la oración deja de ser una simple descripción y pasa a expresar un problema: está demasiado caliente para tomárselo."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.10",
+      "leccion": "opuestos-y-grados",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "It isn't very cheap, but it's quite good.",
+      "audio": true,
+      "pistas": [
+        "Recuerda not very y quite.",
+        "Hay dos partes unidas por but.",
+        "It isn't + very + adjetivo, but it's + quite + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "It isn't very cheap, but it's quite good.",
+        "explicacion": "La primera parte suaviza una crítica con not very (no es muy barato = es algo caro); la segunda gradúa lo positivo con quite (bastante bueno)."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.11",
+      "leccion": "describir-personas",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Una amiga te pregunta por tu nueva compañera de cuarto.",
+      "lineas": [
+        {
+          "quien": "Mei",
+          "en": "What's your new roommate like?",
+          "es": "¿Cómo es tu nueva compañera de cuarto?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "She's very quiet and quite serious, but she's nice.",
+          "correcta": true,
+          "porque": "Correcto: What's… like? pide el carácter, y la respuesta lo describe con be + adjetivos."
+        },
+        {
+          "texto": "She's tall, with short hair.",
+          "correcta": false,
+          "porque": "Eso describe el aspecto; respondería a What does she look like?"
+        },
+        {
+          "texto": "She's fine, thanks.",
+          "correcta": false,
+          "porque": "Esa es la respuesta a How is she? (¿cómo está?)."
+        },
+        {
+          "texto": "She likes pizza.",
+          "correcta": false,
+          "porque": "Like en la pregunta no es «gustar»: no te preguntan qué le gusta."
+        }
+      ],
+      "pistas": [
+        "Recuerda qué pregunta What's… like?",
+        "La pregunta no lleva look ni how.",
+        "What's… like? = carácter o impresión general."
+      ],
+      "solucion": {
+        "respuesta": "She's very quiet and quite serious, but she's nice.",
+        "explicacion": "What's… like? pregunta por la personalidad, así que la respuesta adecuada usa adjetivos de carácter (quiet, serious, nice). Las otras opciones responden a otras preguntas."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.12",
+      "leccion": "describir-personas",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la pregunta por el aspecto.",
+      "fichas": [
+        "look",
+        "What",
+        "your",
+        "does",
+        "sister",
+        "like"
+      ],
+      "respuestas": [
+        "What does your sister look like"
+      ],
+      "traduccion": "¿Cómo es tu hermana físicamente?",
+      "pistas": [
+        "Recuerda el bloque fijo de la pregunta de aspecto.",
+        "Empieza con la palabra interrogativa y el auxiliar.",
+        "Orden: palabra interrogativa + auxiliar + sujeto + verbo + like?"
+      ],
+      "solucion": {
+        "respuesta": "What does your sister look like?",
+        "explicacion": "La pregunta por el aspecto es un bloque fijo: What + does + sujeto (your sister) + look like. Look va sin -s porque does ya marca la tercera persona."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.13",
+      "leccion": "describir-personas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa he's, old y with.",
+      "es": "Es un señor mayor de pelo blanco.",
+      "respuestas": [
+        "He's an old man with white hair."
+      ],
+      "errores_tipicos": {
+        "He's an old man with a white hair.": "Hair (cabello) es incontable: no lleva a.",
+        "He's a old man with white hair.": "Old empieza con sonido vocal: an old man.",
+        "He's an old man with white hairs.": "Hairs son pelos sueltos; el cabello es hair, sin -s."
+      },
+      "pistas": [
+        "Recuerda cómo se añaden los rasgos con with y cómo funciona hair.",
+        "Revisa el artículo delante de old y lo que va delante de hair.",
+        "Estructura: sujeto con be + artículo (según el sonido del adjetivo) + adjetivo + sustantivo + with + color + hair (sin a)."
+      ],
+      "solucion": {
+        "respuesta": "He's an old man with white hair.",
+        "explicacion": "An porque old empieza con sonido vocal; with para el rasgo; y hair sin a ni -s porque es incontable. (Para sonar más respetuoso también existe an elderly man.)"
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.14",
+      "leccion": "describir-personas",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige el significado.",
+      "pregunta": "Priya dice: «My boss is very educated.» ¿Qué quiere decir?",
+      "opciones": [
+        {
+          "texto": "Que su jefe tiene muchos estudios.",
+          "correcta": true,
+          "porque": "Correcto: educated significa «con estudios, culto»."
+        },
+        {
+          "texto": "Que su jefe tiene muy buenos modales.",
+          "correcta": false,
+          "porque": "Para eso se diría polite. Educated es un falso amigo."
+        },
+        {
+          "texto": "Que su jefe es muy simpático.",
+          "correcta": false,
+          "porque": "Simpático es nice o friendly."
+        },
+        {
+          "texto": "Que su jefe es muy comprensivo.",
+          "correcta": false,
+          "porque": "Comprensivo es sympathetic o understanding."
+        }
+      ],
+      "pistas": [
+        "Recuerda los falsos amigos de la lección.",
+        "Educated se parece a «educado», pero ¿significa lo mismo?",
+        "educated = con estudios; polite = educado (de modales)."
+      ],
+      "solucion": {
+        "respuesta": "Que su jefe tiene muchos estudios.",
+        "explicacion": "Educated es un falso amigo: significa «con estudios, culto». Si Priya quisiera hablar de sus buenos modales diría polite."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.15",
+      "leccion": "describir-personas",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "El orden de los adjetivos no es natural. Señala el grupo y escríbelo bien.",
+      "frase": "It's a red beautiful dress.",
+      "error": "red beautiful",
+      "correcciones": [
+        "beautiful red"
+      ],
+      "frase_correcta": "It's a beautiful red dress.",
+      "pistas": [
+        "Recuerda el orden de varios adjetivos.",
+        "¿Cuál de los dos adjetivos es una opinión y cuál un color?",
+        "Opinión antes que color: opinión → tamaño → edad → color."
+      ],
+      "solucion": {
+        "respuesta": "red beautiful → beautiful red",
+        "explicacion": "La opinión (beautiful) va antes que el color (red): a beautiful red dress. En español el orden es libre («un vestido rojo precioso»), pero en inglés «a red beautiful dress» suena raro."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.16",
+      "leccion": "describir-personas",
+      "habilidad": "produccion",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra.",
+      "frase": "She's tall, ___ long curly hair.",
+      "respuestas": [
+        [
+          "with"
+        ]
+      ],
+      "traduccion": "Es alta, de pelo largo y rizado.",
+      "errores_tipicos": {
+        "has": "She's tall, has… no es una oración correcta. Para añadir un rasgo después de be se usa with.",
+        "and": "And uniría dos adjetivos (tall and slim); para añadir el pelo se usa with.",
+        "of": "Calco de «de pelo largo». En inglés se dice with long hair."
+      },
+      "pistas": [
+        "Recuerda cómo se añade un rasgo físico en una descripción.",
+        "Después de la coma viene el pelo: ¿qué preposición lo introduce?",
+        "Regla: después de describir con be + adjetivo, el pelo se introduce con la preposición que significa «con»."
+      ],
+      "solucion": {
+        "respuesta": "with",
+        "explicacion": "La respuesta es with: después de describir la estatura con be, los rasgos (pelo, ojos, barba, lentes) se añaden con with. «De pelo largo» no se traduce con of."
+      }
+    },
+    {
+      "id": "adjetivos-y-descripciones.eval.17",
+      "leccion": "describir-personas",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee la descripción y elige a la persona.",
+      "pregunta": "«He's quite short and strong, with a beard and short straight hair. He's very funny.» ¿Quién es?",
+      "opciones": [
+        {
+          "texto": "Un hombre bajo y fuerte, con barba y pelo corto y lacio; muy gracioso.",
+          "correcta": true,
+          "porque": "Correcto: coincide cada dato: short, strong, beard, short straight hair, funny."
+        },
+        {
+          "texto": "Un hombre alto, con barba y pelo largo; muy serio.",
+          "correcta": false,
+          "porque": "Short es bajo (estatura) y short hair es pelo corto; funny es gracioso, no serio."
+        },
+        {
+          "texto": "Un hombre bajo, sin barba y con pelo rizado; muy gracioso.",
+          "correcta": false,
+          "porque": "Dice with a beard (con barba) y straight hair (pelo lacio), no rizado."
+        },
+        {
+          "texto": "Un hombre bastante bajo y fuerte, con barba; muy divertido de ver, pero serio.",
+          "correcta": false,
+          "porque": "Funny describe su carácter: es gracioso. No dice que sea serio."
+        }
+      ],
+      "pistas": [
+        "Recuerda que short aparece dos veces con dos sentidos.",
+        "Revisa dato por dato: estatura, complexión, barba, pelo y carácter.",
+        "short (persona) = bajo; short hair = pelo corto; straight = lacio; funny = gracioso."
+      ],
+      "solucion": {
+        "respuesta": "Un hombre bajo y fuerte, con barba y pelo corto y lacio; muy gracioso.",
+        "explicacion": "Short se usa dos veces: para la estatura (bajo) y para el pelo (corto). Straight es lacio, with a beard es con barba y funny es gracioso. Solo la primera opción recoge todos los datos."
+      }
+    }
+  ]
+}

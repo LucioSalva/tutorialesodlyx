@@ -1,0 +1,25 @@
+# =====================================================================
+#  Academia de Inglés · audio pregenerado
+#  Los clips (<acento>/<voz>/<h0h1>/<hash>.mp3) se nombran por el contenido:
+#  si el texto cambia, cambia el nombre. Pueden cachearse un año.
+#  Las pistas completas (lecturas/, escucha/) y los .json conservan su
+#  nombre al regenerarse: el navegador los revalida cada día.
+# =====================================================================
+Options -Indexes
+
+<IfModule mod_mime.c>
+    AddType audio/mpeg .mp3
+    AddType application/json .json
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType audio/mpeg       "access plus 1 year"
+    ExpiresByType application/json "access plus 1 day"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.mp3$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>

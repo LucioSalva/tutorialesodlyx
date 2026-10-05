@@ -1,0 +1,445 @@
+{
+  "slug": "genitivo-sajon",
+  "titulo": "El genitivo 's",
+  "minutos": 35,
+  "objetivos": [
+    "Expresar «de + persona» con el genitivo: Anna's phone, my brother's car.",
+    "Colocar el apóstrofo correctamente con plurales regulares (my parents') e irregulares (the children's).",
+    "Distinguir el 's de posesión del 's que significa is.",
+    "Pronunciar el 's con sus tres sonidos: /s/, /z/ e /ɪz/."
+  ],
+  "situacion": {
+    "titulo": "Después de la fiesta",
+    "texto": "La fiesta en casa de Grace terminó y Mei y Tom recogen las cosas que la gente olvidó. Observa cómo dicen «la chamarra de Omar» o «los juguetes de los niños» sin usar «of».",
+    "dialogo": [
+      { "quien": "Mei", "en": "Is this Omar's jacket?", "es": "¿Esta es la chamarra de Omar?" },
+      { "quien": "Tom", "en": "No, it's Ben's. Omar's jacket is black.", "es": "No, es de Ben. La chamarra de Omar es negra." },
+      { "quien": "Mei", "en": "And these toys?", "es": "¿Y estos juguetes?" },
+      { "quien": "Tom", "en": "They're the children's. And that's my parents' umbrella.", "es": "Son de los niños. Y ese es el paraguas de mis papás." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "genitivo-singular",
+      "titulo": "Poseedor + 's + cosa",
+      "que_es": "El genitivo sajón es la forma normal de decir «de + persona» en inglés: se pone primero al dueño, se le añade [[’s]] y después la cosa. «El teléfono de Anna» es [[Anna's phone]].",
+      "para_que": [
+        "Hablar de las cosas de otras personas: [[Diego's car]], [[the teacher's desk]].",
+        "Explicar relaciones familiares: [[Mei is Leo's sister.]]",
+        "Responder de quién es algo: [[It's Ben's.]]"
+      ],
+      "como_funciona": "El orden es el contrario del español. Español: cosa + de + dueño («el carro de Tom»). Inglés: dueño + 's + cosa ([[Tom's car]]). Al hacerlo, el artículo de la cosa desaparece: no digas «the Tom's car». Si el dueño ya lleva su propio artículo o posesivo, ese se queda porque pertenece al dueño: [[the teacher's desk]] (el escritorio del maestro), [[my sister's room]] (el cuarto de mi hermana). Se usa sobre todo con personas y animales; para cosas lo normal es otra construcción ([[the name of the street]]), que verás más adelante. Cuidado: [[Tom's]] también puede ser [[Tom is]] ([[Tom's here]] = Tom está aquí); el contexto lo aclara: si después viene un sustantivo que Tom posee, es genitivo.",
+      "estructuras": [
+        {
+          "etiqueta": "Genitivo en el sujeto",
+          "formula": [ { "t": "Poseedor + 's", "rol": "otro" }, { "t": "cosa", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "complemento", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Anna's", "rol": "otro" }, { "t": "phone", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on the table", "rol": "complemento" } ],
+          "es": "El teléfono de Anna está en la mesa."
+        },
+        {
+          "etiqueta": "Genitivo después de be",
+          "formula": [ { "t": "This", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "(artículo/posesivo) + poseedor + 's + cosa", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "This", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "my brother's car", "rol": "complemento" } ],
+          "es": "Este es el carro de mi hermano."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Del orden español al orden inglés",
+        "pasos": [
+          { "etiqueta": "Calco del español (incorrecto)", "partes": [ { "t": "the car", "rol": "sujeto" }, { "t": "of", "rol": "otro" }, { "t": "Tom", "rol": "complemento" } ] },
+          { "etiqueta": "Inglés natural", "partes": [ { "t": "Tom's", "rol": "complemento" }, { "t": "car", "rol": "sujeto" } ] }
+        ],
+        "pie": "El dueño pasa al principio y recibe 's; «of» y el artículo the desaparecen."
+      },
+      "ejemplos": [
+        {
+          "en": "Diego's sister is a nurse.",
+          "es": "La hermana de Diego es enfermera.",
+          "partes": [ { "t": "Diego's sister", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a nurse", "rol": "complemento" } ],
+          "nota": "Sin artículo delante de Diego's: el genitivo ya determina de qué hermana hablamos. Y recuerda el [[a]] delante de la profesión, que el español omite."
+        },
+        {
+          "en": "Is this the teacher's pen?",
+          "es": "¿Esta es la pluma del maestro?",
+          "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "this", "rol": "sujeto" }, { "t": "the teacher's pen", "rol": "complemento" } ],
+          "nota": "Aquí sí hay [[the]], pero es el artículo de teacher (el maestro), no el de pen."
+        },
+        {
+          "en": "My brother's car is blue.",
+          "es": "El carro de mi hermano es azul.",
+          "partes": [ { "t": "My brother's car", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "blue", "rol": "complemento" } ],
+          "nota": "[[my]] va con brother: «mi hermano». Todo el bloque [[my brother's]] funciona como un posesivo delante de car."
+        },
+        {
+          "en": "The dog's bed is small.",
+          "es": "La cama del perro es pequeña.",
+          "partes": [ { "t": "The dog's bed", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "small", "rol": "complemento" } ],
+          "nota": "El genitivo funciona también con animales."
+        },
+        {
+          "en": "Sam's at work, but Ana's bike is here.",
+          "es": "Sam está en el trabajo, pero la bici de Ana está aquí.",
+          "nota": "Dos 's distintos: Sam's = Sam is (después viene un lugar); Ana's bike = la bici de Ana (después viene la cosa poseída).",
+          "partes": [ { "t": "Sam's", "rol": "sujeto" }, { "t": "at work,", "rol": "complemento" }, { "t": "but", "rol": "otro" }, { "t": "Ana's bike", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "here", "rol": "complemento" } ]
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "Pat's", "ipa": "/pæts/", "consejo": "Tras un sonido sordo (t, p, k, f) el 's suena /s/, como una s española. Pat's rima con cats.", "lento": true },
+        { "texto": "Tom's", "ipa": "/tɑmz/", "consejo": "Tras vocal o consonante sonora (m, n, l, d, b…) suena /z/: una s con vibración en la garganta, como el zumbido de una abeja. Pon la mano en el cuello y siente la vibración.", "lento": true },
+        { "texto": "Rose's", "ipa": "/ˈroʊzɪz/", "consejo": "Tras s, z, sh, ch o j se añade una sílaba entera, /ɪz/: Rose's tiene dos sílabas. Es la misma regla que en los plurales (buses, boxes).", "lento": true }
+      ],
+      "errores": [
+        { "mal": "This is the car of Tom.", "bien": "This is Tom's car.", "porque": "Con personas, el inglés usa el genitivo, no «of». El calco del orden español suena extraño." },
+        { "mal": "The Anna's phone is new.", "bien": "Anna's phone is new.", "porque": "El artículo de phone desaparece: el genitivo ya hace ese trabajo. Delante de un nombre propio no va the." },
+        { "mal": "This is Tom car.", "bien": "This is Tom's car.", "porque": "Sin 's no hay posesión: falta la marca que dice que el carro es de Tom." }
+      ]
+    },
+    {
+      "id": "genitivo-plural",
+      "titulo": "Plurales: parents', children's",
+      "que_es": "Cuando el dueño está en plural, el apóstrofo cambia de sitio. Si el plural termina en -s (la mayoría), solo se añade el apóstrofo: [[my parents' house]]. Si el plural es irregular y no termina en -s, se añade 's normal: [[the children's toys]].",
+      "para_que": [
+        "Hablar de las cosas de tus padres, abuelos o hermanos: [[my grandparents' house]].",
+        "Leer letreros: [[Women's]], [[Men's]], [[Children's]].",
+        "Distinguir por escrito una hermana de varias: [[my sister's friends]] / [[my sisters' friends]]."
+      ],
+      "como_funciona": "Primero escribe el dueño exactamente como es (singular o plural). Después: si termina en -s por ser plural, añade solo [[’]] (parents → parents'); si no termina en -s, añade [[’s]] (children → children's, men → men's, women → women's, people → people's). Al oído, [[sister's]], [[sisters]] y [[sisters']] suenan igual: solo la escritura y el contexto dicen si hay una o varias. Con nombres propios que terminan en -s se aceptan las dos formas: [[James's bike]] y [[James' bike]]; al hablar, casi siempre se oye una sílaba extra: /ˈdʒeɪmzɪz/. Si dos personas comparten una cosa, el 's va solo al final: [[Tom and Ana's house]] (la casa de los dos).",
+      "estructuras": [
+        {
+          "etiqueta": "Plural en -s → solo apóstrofo",
+          "formula": [ { "t": "plural en -s + '", "rol": "otro" }, { "t": "cosa", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "complemento", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My parents'", "rol": "otro" }, { "t": "house", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "big", "rol": "complemento" } ],
+          "es": "La casa de mis papás es grande."
+        },
+        {
+          "etiqueta": "Plural irregular → 's",
+          "formula": [ { "t": "plural irregular + 's", "rol": "otro" }, { "t": "cosa", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "complemento", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "The children's", "rol": "otro" }, { "t": "toys", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "here", "rol": "complemento" } ],
+          "es": "Los juguetes de los niños están aquí."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Dónde va el apóstrofo?",
+          "columnas": [ "Dueño", "Regla", "Ejemplo", "Significado" ],
+          "filas": [
+            [ "my sister (una)", "+ 's", "my sister's room", "el cuarto de mi hermana" ],
+            [ "my sisters (varias)", "+ '", "my sisters' room", "el cuarto de mis hermanas" ],
+            [ "the children", "+ 's", "the children's toys", "los juguetes de los niños" ],
+            [ "the men", "+ 's", "the men's restroom", "el baño de hombres" ],
+            [ "the people", "+ 's", "the people's opinion", "la opinión de la gente" ],
+            [ "James", "+ 's o + '", "James's bike / James' bike", "la bici de James" ]
+          ],
+          "audio": [ 2 ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My parents' house is in Puebla.",
+          "es": "La casa de mis papás está en Puebla.",
+          "partes": [ { "t": "My parents' house", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "in Puebla", "rol": "complemento" } ],
+          "nota": "parents ya termina en -s de plural: solo se añade el apóstrofo. «parents's» es incorrecto."
+        },
+        {
+          "en": "The students' books are on the desk.",
+          "es": "Los libros de los estudiantes están en el escritorio.",
+          "partes": [ { "t": "The students' books", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "on the desk", "rol": "complemento" } ],
+          "nota": "Con [[students']] entendemos que los libros son de varios estudiantes. Con [[the student's books]] serían de uno solo."
+        },
+        {
+          "en": "The children's room is blue.",
+          "es": "El cuarto de los niños es azul.",
+          "partes": [ { "t": "The children's room", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "blue", "rol": "complemento" } ],
+          "nota": "children es plural irregular (no termina en -s), así que lleva 's normal. Nunca «childrens'»."
+        },
+        {
+          "en": "Excuse me, where is the men's restroom?",
+          "es": "Disculpe, ¿dónde está el baño de hombres?",
+          "partes": [ { "t": "Excuse me,", "rol": "otro" }, { "t": "where", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "the men's restroom", "rol": "sujeto" } ],
+          "nota": "men y women son irregulares: [[men's]], [[women's]]. En Estados Unidos, restroom es el baño en un lugar público; en Reino Unido se dice toilets."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "parents'", "ipa": "/ˈpɛrənts/", "consejo": "El apóstrofo no se oye: parents, parent's y parents' suenan idénticos. El acento va en la primera sílaba y la segunda se reduce a una schwa /ə/.", "lento": true },
+        { "texto": "children's", "ipa": "/ˈtʃɪldrənz/", "consejo": "ch como en «chico», i corta, y termina en /z/ sonora porque la n es sonora. Dos sílabas: CHIL-drənz." },
+        { "texto": "women's", "ipa": "/ˈwɪmɪnz/", "consejo": "Trampa ortográfica: la o de women suena como una i corta /ɪ/. Compara woman /ˈwʊmən/ con women /ˈwɪmɪn/: el singular y el plural se distinguen por la primera vocal." }
+      ],
+      "errores": [
+        { "mal": "My parent's house is big. (hablando de mamá y papá)", "bien": "My parents' house is big.", "porque": "Son dos dueños: el plural parents ya termina en -s, así que el apóstrofo va después: parents'." },
+        { "mal": "The childrens' toys are here.", "bien": "The children's toys are here.", "porque": "children ya es plural (sin -s). Se escribe la palabra tal cual y se añade 's." },
+        { "mal": "The students's books are new.", "bien": "The students' books are new.", "porque": "Con plurales en -s no se añade otra s: solo el apóstrofo." }
+      ],
+      "nota": { "titulo": "Tu oído no te ayudará aquí", "texto": "sister's, sisters y sisters' suenan igual. Cuando escuches «my sisters friends», el contexto (o una pregunta) te dirá cuántas hermanas hay. Cuando escribas, tú decides dónde va el apóstrofo.", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "posesivos.genitivo-sajon.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma natural en inglés.",
+      "pregunta": "¿Cómo se dice «el teléfono de Anna»?",
+      "opciones": [
+        { "texto": "Anna's phone", "correcta": true, "porque": "Correcto: dueño + 's + cosa. Es la forma natural para personas." },
+        { "texto": "the phone of Anna", "correcta": false, "porque": "Es un calco del orden español. Con personas, el inglés usa el genitivo 's." },
+        { "texto": "the Anna's phone", "correcta": false, "porque": "Sobra the: el genitivo ya determina la cosa, y un nombre propio no lleva artículo." },
+        { "texto": "Annas phone", "correcta": false, "porque": "Sin apóstrofo, Annas parece un plural. La marca de posesión es 's." }
+      ],
+      "pistas": [
+        "En inglés el dueño va primero.",
+        "Fíjate en qué opciones ponen a Anna al principio.",
+        "Dueño + 's + cosa, sin artículo delante del nombre."
+      ],
+      "solucion": { "respuesta": "Anna's phone", "explicacion": "La respuesta correcta es Anna's phone: en inglés el dueño va primero con 's y después la cosa. «The phone of Anna» copia el orden español, y el artículo sobra porque el genitivo ya dice de qué teléfono hablamos." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el genitivo de Omar (la bici de Omar).",
+      "frase": "This is ___ bike.",
+      "traduccion": "Esta es la bici de Omar.",
+      "respuestas": [ [ "Omar's" ] ],
+      "errores_tipicos": {
+        "Omars": "Falta el apóstrofo: sin él, Omars parece un plural. La posesión se marca con 's.",
+        "Omar": "Sin 's no hay posesión. Añade la marca del genitivo."
+      },
+      "pistas": [
+        "La posesión con personas se marca en el dueño.",
+        "El dueño es Omar: ¿qué le añades?",
+        "Nombre + apóstrofo + s."
+      ],
+      "solucion": { "respuesta": "Omar's", "explicacion": "La respuesta correcta es Omar's: para decir «de Omar» se añade 's al nombre del dueño, que va delante de la cosa (bike)." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión con su significado. Fíjate en el lugar del apóstrofo.",
+      "pares": [
+        { "a": "my sister's room", "b": "el cuarto de mi hermana" },
+        { "a": "my sisters' room", "b": "el cuarto de mis hermanas" },
+        { "a": "the children's toys", "b": "los juguetes de los niños" },
+        { "a": "my parents' car", "b": "el carro de mis papás" },
+        { "a": "the teacher's desk", "b": "el escritorio del maestro" },
+        { "a": "the men's shoes", "b": "los zapatos de los hombres" }
+      ],
+      "pistas": [
+        "El apóstrofo va justo después del dueño, tal como está escrito.",
+        "Si antes del apóstrofo hay una palabra en plural, los dueños son varios.",
+        "Regla: 's tras una palabra singular = un dueño; ' tras un plural en -s = varios; 's tras un plural irregular = varios."
+      ],
+      "solucion": { "respuesta": "sister's = una hermana; sisters' = varias; children's = los niños; parents' = mis papás; teacher's = el maestro; men's = los hombres", "explicacion": "Lo que va antes del apóstrofo es el dueño. sister's: una hermana; sisters': varias hermanas (plural en -s + apóstrofo); children's y men's: plurales irregulares + 's; parents': plural en -s + apóstrofo." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma posesiva de children.",
+      "frase": "The ___ toys are in the box.",
+      "traduccion": "Los juguetes de los niños están en la caja.",
+      "respuestas": [ [ "children's" ] ],
+      "errores_tipicos": {
+        "childrens'": "children ya es plural y no termina en -s: se escribe tal cual y se añade 's → children's.",
+        "childrens": "No existe «childrens»: children ya es plural. Además falta el apóstrofo.",
+        "children": "Falta la marca de posesión 's."
+      },
+      "pistas": [
+        "children es un plural irregular.",
+        "¿Termina children en -s?",
+        "Si el plural no termina en -s, se añade 's como en singular."
+      ],
+      "solucion": { "respuesta": "children's", "explicacion": "La respuesta correcta es children's. Children es plural irregular (no termina en -s), así que funciona como un nombre en singular: se añade 's. «childrens'» no existe." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma posesiva de parents (la casa de mis papás: de los dos).",
+      "frase": "My ___ house is very big.",
+      "traduccion": "La casa de mis papás es muy grande.",
+      "respuestas": [ [ "parents'" ] ],
+      "errores_tipicos": {
+        "parent's": "parent's sería de un solo padre o madre. Son los dos: plural parents + apóstrofo.",
+        "parents's": "Con los plurales en -s no se añade otra s: solo el apóstrofo.",
+        "parents": "Falta el apóstrofo que marca la posesión."
+      },
+      "pistas": [
+        "Primero escribe el dueño en plural.",
+        "parents ya termina en -s.",
+        "Plural en -s → solo se añade el apóstrofo al final."
+      ],
+      "solucion": { "respuesta": "parents'", "explicacion": "La respuesta correcta es parents'. Los dueños son dos (mamá y papá), así que escribes el plural parents; como ya termina en -s, solo se añade el apóstrofo." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": [ "is", "brother's", "My", "car", "red" ],
+      "respuestas": [ "My brother's car is red." ],
+      "traduccion": "El carro de mi hermano es rojo.",
+      "pistas": [
+        "El sujeto es «el carro de mi hermano».",
+        "En inglés el dueño (my brother's) va antes de la cosa (car).",
+        "Orden: posesivo + dueño con 's + cosa + be + adjetivo."
+      ],
+      "solucion": { "respuesta": "My brother's car is red.", "explicacion": "El sujeto completo es My brother's car: el dueño con 's va delante de la cosa. Después el verbo is y el adjetivo red." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración es un calco del español. Señala la parte incorrecta y corrígela.",
+      "frase": "The car of my father is black.",
+      "error": "The car of my father",
+      "correcciones": [ "My father's car" ],
+      "frase_correcta": "My father's car is black.",
+      "pistas": [
+        "Con personas, el inglés no usa «of» para la posesión.",
+        "Mira el sujeto: «el carro de mi papá».",
+        "Dueño + 's + cosa, y el artículo de la cosa desaparece."
+      ],
+      "solucion": { "respuesta": "The car of my father → My father's car", "explicacion": "Con personas se usa el genitivo: my father's car. El dueño va primero con 's, el artículo the de car desaparece y my se queda porque acompaña a father." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "La casa de Grace es azul.",
+      "respuestas": [ "Grace's house is blue." ],
+      "errores_tipicos": {
+        "The house of Grace is blue.": "Es el orden español. Con personas se usa el genitivo: Grace's house.",
+        "The Grace's house is blue.": "Sobra the: delante del genitivo con nombre propio no va artículo.",
+        "Grace house is blue.": "Falta el 's que marca la posesión."
+      },
+      "pistas": [
+        "«de + persona» se expresa con el genitivo.",
+        "¿Qué palabra va primero: house o Grace?",
+        "Nombre + 's + cosa, sin artículo."
+      ],
+      "solucion": { "respuesta": "Grace's house is blue.", "explicacion": "La respuesta correcta es Grace's house is blue. El dueño (Grace) va primero con 's; el artículo «la» de casa desaparece. Después, is + el adjetivo." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.09",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee e interpreta.",
+      "pregunta": "Lees en un mensaje: «My sisters' friends are here.» ¿Cuántas hermanas tiene la persona que habla, por lo menos?",
+      "opciones": [
+        { "texto": "Dos o más", "correcta": true, "porque": "Correcto: el apóstrofo va después de sisters (plural en -s), así que los amigos son de varias hermanas." },
+        { "texto": "Una", "correcta": false, "porque": "Con una hermana se escribiría sister's (apóstrofo antes de la s)." },
+        { "texto": "No se puede saber", "correcta": false, "porque": "Al oído no se sabe, pero por escrito sí: la posición del apóstrofo lo dice." }
+      ],
+      "pistas": [
+        "Mira dónde está el apóstrofo.",
+        "¿Qué palabra hay justo antes del apóstrofo: sister o sisters?",
+        "Lo que va antes del apóstrofo es el dueño tal como es: singular o plural."
+      ],
+      "solucion": { "respuesta": "Dos o más", "explicacion": "La respuesta es dos o más: antes del apóstrofo está sisters, un plural. Con una sola hermana sería my sister's friends. Al oído suenan igual; por escrito, el apóstrofo lo aclara." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Omar's sister is a nurse, and her husband is a doctor.",
+      "pistas": [
+        "La primera palabra es un nombre con genitivo.",
+        "Después aparece un posesivo: el esposo es de la hermana.",
+        "Regla: nombre + 's para el dueño; después, el posesivo se elige según quién es la dueña del esposo."
+      ],
+      "solucion": { "respuesta": "Omar's sister is a nurse, and her husband is a doctor.", "explicacion": "Omar's se oye /ˈoʊmɑrz/, con /z/ final porque la r es sonora. Her husband: el esposo es de la hermana, una mujer. Las dos profesiones llevan a/an." },
+      "audio": true
+    },
+    {
+      "id": "posesivos.genitivo-sajon.11",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe con el genitivo. Los libros son de varios estudiantes.",
+      "origen": "The books of the students are new.",
+      "instruccion": "Usa el genitivo (apóstrofo).",
+      "respuestas": [ "The students' books are new." ],
+      "errores_tipicos": {
+        "The student's books are new.": "student's sería de un solo estudiante. Son varios: students'.",
+        "The students's books are new.": "Con plural en -s no se añade otra s: solo el apóstrofo.",
+        "The students books are new.": "Falta el apóstrofo que marca la posesión."
+      },
+      "pistas": [
+        "El dueño va primero: the students.",
+        "El dueño es plural y termina en -s.",
+        "Plural en -s + apóstrofo + cosa."
+      ],
+      "solucion": { "respuesta": "The students' books are new.", "explicacion": "Los dueños son varios estudiantes: the students. Como el plural termina en -s, solo se añade el apóstrofo: the students' books. Aquí the se queda porque es el artículo de students." }
+    },
+    {
+      "id": "posesivos.genitivo-sajon.12",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre tu familia usando el genitivo.",
+      "objetivo": "Describir a varias personas de tu familia y sus cosas usando 's, s' y los posesivos.",
+      "instrucciones": "Escribe entre 5 y 7 oraciones. Di cómo se llaman algunos familiares usando el genitivo (My mom's name is…), menciona algo de ellos (la casa de tus abuelos, el carro de tu hermano) y usa al menos un posesivo (his, her, their).",
+      "vocabulario_apoyo": [ "mom / dad", "grandparents", "brother / sister", "cousin", "uncle / aunt", "house", "car", "dog" ],
+      "estructuras": [ "My mom's name is…", "My brother's car is…", "My grandparents' house is in…", "His / Her name is…" ],
+      "ejemplo": "This is my best friend Sam. Sam's mom is a teacher. His dad's name is Ben. Their dog's name is Rocky.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Usas al menos un genitivo singular ('s)", "patron": "[a-z]['’]s\\b" },
+        { "descripcion": "Usas al menos un posesivo (my, his, her, our, their)", "patron": "\\b(my|his|her|our|their)\\b" }
+      ],
+      "criterios": [
+        "¿El dueño va antes de la cosa (my brother's car y no the car of my brother)?",
+        "¿Con dueños en plural usas s' (my grandparents' house)?",
+        "¿Elegiste his o her según el dueño?",
+        "¿Cada oración tiene sujeto y verbo?"
+      ],
+      "modelo": "This is my family. My mom's name is Rosa, and my dad's name is Luis. My brother's name is Pablo. He is twenty. Pablo's girlfriend is from Oaxaca. Her name is Elena. My grandparents' house is in Veracruz. It is very big and old.",
+      "explicacion": "El modelo usa el genitivo singular con personas (mom's, dad's, brother's, Pablo's) y el plural en -s con apóstrofo final (grandparents'). Cuando la dueña es la novia de Pablo, el posesivo es her. Todas las oraciones usan be, que ya dominas.",
+      "errores_comunes": [
+        "Escribir «the name of my mom» en lugar de my mom's name.",
+        "Poner «my grandparent's house» hablando de los dos abuelos.",
+        "Usar his para la novia de un hombre («his name is Elena»)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Objetos perdidos en la oficina",
+    "contexto": "Al final del día quedan cosas en la sala de juntas. Aisha te pregunta de quién es cada una y tú lo sabes.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Is this Carlos's umbrella?", "es": "¿Este es el paraguas de Carlos?" },
+      { "quien": "Tú", "en": "No, it's Mei's. Carlos's umbrella is green.", "es": "No, es de Mei. El paraguas de Carlos es verde." },
+      { "quien": "Aisha", "en": "And these notebooks?", "es": "¿Y estos cuadernos?" }
+    ],
+    "tu_turno": "Responde de quién son los cuadernos (de los practicantes: the interns) y di de quién es una chamarra que también está ahí.",
+    "modelo": "They're the interns' notebooks. And that jacket is Priya's.",
+    "alternativas": [
+      "They're the interns'. And that's Priya's jacket.",
+      "They're the interns' notebooks, and this is Omar's jacket."
+    ],
+    "claves": [
+      "Plural en -s: the interns' (solo apóstrofo).",
+      "Singular: Priya's, Omar's.",
+      "El genitivo puede ir solo cuando ya se sabe de qué cosa hablas: It's Mei's."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Dueño + 's + cosa: Anna's phone. Es el orden contrario al español y el artículo de la cosa desaparece.",
+      "Plural en -s → solo apóstrofo: my parents' house. Plural irregular → 's: the children's toys.",
+      "Si el dueño lleva artículo o posesivo, se queda: the teacher's desk, my sister's room."
+    ],
+    "recuerda": [
+      "'s también puede ser is: Sam's here = Sam is here.",
+      "sister's, sisters y sisters' suenan igual; solo la escritura los distingue.",
+      "El 's suena /s/, /z/ o /ɪz/, igual que la -s del plural."
+    ]
+  },
+  "repaso": [
+    { "id": "posesivos.genitivo-sajon.r1", "frente": "¿Cómo se dice «el carro de Tom»?", "reverso": "Tom's car", "nota": "Nunca «the car of Tom» ni «the Tom's car»." },
+    { "id": "posesivos.genitivo-sajon.r2", "frente": "«La casa de mis papás»", "reverso": "my parents' house", "nota": "Plural en -s → solo apóstrofo." },
+    { "id": "posesivos.genitivo-sajon.r3", "frente": "«Los juguetes de los niños»", "reverso": "the children's toys", "nota": "Plural irregular → 's." },
+    { "id": "posesivos.genitivo-sajon.r4", "frente": "¿Qué significa 's en «Ana's at home»?", "reverso": "is → Ana is at home.", "nota": "Si no le sigue algo que Ana posee, 's es el verbo." }
+  ]
+}

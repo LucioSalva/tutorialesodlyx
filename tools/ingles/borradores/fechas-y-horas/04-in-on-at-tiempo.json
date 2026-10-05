@@ -1,0 +1,549 @@
+{
+  "slug": "in-on-at-tiempo",
+  "titulo": "In, on, at con el tiempo",
+  "minutos": 45,
+  "objetivos": [
+    "Usar in con meses, años, estaciones, siglos y partes del día (in May, in 2020, in the morning).",
+    "Usar on con días y fechas (on Monday, on May 5th, on my birthday).",
+    "Usar at con horas y momentos puntuales (at 7:30, at noon, at night).",
+    "Omitir la preposición con next, last, this, every, today, tomorrow y tonight.",
+    "Conocer la diferencia at the weekend (R. U.) / on the weekend (EE. UU.)."
+  ],
+  "situacion": {
+    "titulo": "Organizar una fiesta",
+    "texto": "Ana y Ben quieren organizar una fiesta sorpresa para su amiga Mei. En español todo sería «el», «en» o «a las»; en inglés cada expresión de tiempo pide su propia preposición… o ninguna.",
+    "dialogo": [
+      { "quien": "Ana", "en": "Mei's birthday is in June, right?", "es": "El cumpleaños de Mei es en junio, ¿verdad?" },
+      { "quien": "Ben", "en": "Yes, it's on June twelfth. That's a Saturday.", "es": "Sí, es el 12 de junio. Cae en sábado." },
+      { "quien": "Ana", "en": "Perfect. Is the party at eight?", "es": "Perfecto. ¿La fiesta es a las ocho?" },
+      { "quien": "Ben", "en": "Yes, at eight in the evening. And the planning meeting is next Monday.", "es": "Sí, a las ocho de la noche. Y la reunión para organizarla es el próximo lunes." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "la-piramide-in-on-at",
+      "titulo": "De lo general a lo exacto: in → on → at",
+      "que_es": "Con expresiones de tiempo, el inglés usa tres preposiciones donde el español usa «en», «el» o «a»: [[in]] para periodos largos, [[on]] para días concretos y [[at]] para momentos exactos.",
+      "para_que": [
+        "Decir cuándo es algo: una cita, un cumpleaños, una clase.",
+        "Entender horarios, invitaciones y avisos.",
+        "Evitar el error más frecuente con el tiempo: elegir la preposición por el español."
+      ],
+      "como_funciona": "Piensa en una pirámide invertida, de lo más amplio a lo más preciso:\n\n**IN — periodos largos:** meses ([[in May]]), años ([[in 2020]]), estaciones ([[in summer]] / [[in the summer]]), siglos y décadas ([[in the 1990s]]) y partes del día ([[in the morning]], [[in the afternoon]], [[in the evening]]).\n\n**ON — días:** días de la semana ([[on Monday]]), fechas ([[on May 5th]]), días especiales ([[on my birthday]], [[on New Year's Day]]) y un día + parte del día ([[on Friday night]], [[on Monday morning]]).\n\n**AT — momentos puntuales:** horas ([[at 7:30]], [[at three o'clock]]), [[at noon]], [[at midnight]], [[at night]], y algunos periodos festivos vistos como un momento ([[at Christmas]], sobre todo en el R. U.).\n\n**Las excepciones que hay que memorizar:**\n- [[in the morning]], pero [[at night]] (no «in the night» para decir «de noche»).\n- [[in the morning]], pero [[on Monday morning]]: cuando el día aparece, manda on.\n- **Fin de semana:** [[on the weekend]] en EE. UU. y [[at the weekend]] en el R. U. Las dos son correctas en su variedad.\n\n**Nota de EE. UU. informal:** a veces se omite on antes de los días ([[See you Monday]]). Es correcto en la conversación, pero con on nunca te equivocas.",
+      "estructuras": [
+        {
+          "etiqueta": "Decir cuándo es algo",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "in / on / at", "rol": "otro" }, { "t": "expresión de tiempo", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "The exam", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on", "rol": "otro" }, { "t": "Friday", "rol": "tiempo" } ],
+          "es": "El examen es el viernes."
+        },
+        {
+          "etiqueta": "Día + hora (on antes que at, o al revés)",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on + día", "rol": "tiempo" }, { "t": "at + hora", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "The party", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on Saturday", "rol": "tiempo" }, { "t": "at eight", "rol": "tiempo" } ],
+          "es": "La fiesta es el sábado a las ocho."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "In, on, at con el tiempo",
+          "columnas": ["Preposición", "Se usa con", "Ejemplos"],
+          "filas": [
+            ["in", "meses, años, estaciones, siglos, partes del día", "in May · in 2020 · in winter · in the morning"],
+            ["on", "días, fechas, días especiales, día + parte del día", "on Monday · on May 5th · on my birthday · on Friday night"],
+            ["at", "horas y momentos exactos", "at 7:30 · at noon · at midnight · at night"],
+            ["on / at", "el fin de semana", "on the weekend (EE. UU.) · at the weekend (R. U.)"]
+          ],
+          "audio": [2]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Qué preposición?",
+        "centro": "¿cuándo?",
+        "ramas": [
+          { "texto": "in", "detalle": "periodos: in May, in 2020, in summer, in the morning" },
+          { "texto": "on", "detalle": "días: on Monday, on May 5th, on my birthday, on Friday night" },
+          { "texto": "at", "detalle": "momentos: at 7:30, at noon, at midnight, at night" },
+          { "texto": "sin preposición", "detalle": "next / last / this / every… · today, tomorrow, tonight" }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "My birthday is in April.",
+          "es": "Mi cumpleaños es en abril.",
+          "partes": [ { "t": "My birthday", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "in April", "rol": "tiempo" } ],
+          "nota": "Un mes es un periodo largo: in. Aquí coincide con el español «en»."
+        },
+        {
+          "en": "My birthday is on April ninth.",
+          "es": "Mi cumpleaños es el nueve de abril.",
+          "partes": [ { "t": "My birthday", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on April ninth", "rol": "tiempo" } ],
+          "nota": "En cuanto hay un día concreto, la preposición pasa a on. El español «el» no se traduce como the."
+        },
+        {
+          "en": "The class is at 7:30 in the evening.",
+          "es": "La clase es a las 7:30 de la noche.",
+          "partes": [ { "t": "The class", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "at 7:30", "rol": "tiempo" }, { "t": "in the evening", "rol": "tiempo" } ],
+          "nota": "Hora exacta: at. Parte del día: in the evening. Van juntas sin problema, de lo exacto a lo general."
+        },
+        {
+          "en": "The stores are closed on Sunday morning.",
+          "es": "Las tiendas están cerradas el domingo en la mañana.",
+          "partes": [ { "t": "The stores", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "closed", "rol": "complemento" }, { "t": "on Sunday morning", "rol": "tiempo" } ],
+          "nota": "Día + parte del día: on, no in. Compara: in the morning / on Sunday morning."
+        },
+        {
+          "en": "The city is very quiet at night.",
+          "es": "La ciudad está muy tranquila en la noche.",
+          "partes": [ { "t": "The city", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very quiet", "rol": "complemento" }, { "t": "at night", "rol": "tiempo" } ],
+          "nota": "Night es la excepción: at night, sin the. (Pero in the evening, con in y the.)"
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "at seven, at night",
+          "ipa": "/ət ˈsevən/ · /ət ˈnaɪt/",
+          "consejo": "At casi nunca suena «at»: se reduce a /ət/, una vocal neutra y una t muy suave, pegada a la palabra siguiente: «et-SEV-en».",
+          "lento": true
+        },
+        {
+          "texto": "on Monday, in May",
+          "ipa": "/ɑːn ˈmʌndeɪ/ · /ɪn ˈmeɪ/",
+          "consejo": "On en EE. UU. suena con una a abierta, «aan»; in, con una i corta y relajada. Se ligan con la palabra siguiente: «a-NMAN-dei», «i-NMEI».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "The meeting is in Monday.", "bien": "The meeting is on Monday.", "porque": "Con días se usa on." },
+        { "mal": "My birthday is the April ninth.", "bien": "My birthday is on April ninth. / My birthday is April ninth.", "porque": "El «el» de «el nueve de abril» no se traduce como the; con fechas va on (o nada)." },
+        { "mal": "The class is in 7:30.", "bien": "The class is at 7:30.", "porque": "Con horas exactas se usa at." },
+        { "mal": "The city is quiet in the night.", "bien": "The city is quiet at night.", "porque": "Para decir «de noche» / «en la noche», at night." }
+      ]
+    },
+    {
+      "id": "sin-preposicion",
+      "titulo": "Sin preposición: next, last, this, every, today…",
+      "que_es": "Algunas expresiones de tiempo **nunca** llevan in, on ni at: las que empiezan con [[next]], [[last]], [[this]], [[every]] (y [[that]]), y las palabras [[today]], [[tomorrow]], [[yesterday]] y [[tonight]].",
+      "para_que": [
+        "Hablar de planes: next week, this weekend.",
+        "Hablar de rutinas: every day, every Monday.",
+        "Evitar un error muy frecuente: «on next Monday», «in this morning»."
+      ],
+      "como_funciona": "Estas palabras ya indican cuándo, así que la preposición sobra:\n- [[next Monday]] (el próximo lunes), [[next week]], [[next year]]\n- [[last Friday]] (el viernes pasado), [[last month]]\n- [[this morning]] (esta mañana), [[this weekend]], [[this year]]\n- [[every day]], [[every Monday]], [[every summer]]\n- [[today]], [[tomorrow]], [[yesterday]], [[tonight]]; también [[tomorrow morning]], [[yesterday afternoon]].\n\nCompara: [[on Monday]] pero [[next Monday]]; [[in the morning]] pero [[this morning]] y [[tomorrow morning]].\n\n**Cuidado con el español:** decimos «**el** próximo lunes» y «**en** la mañana de hoy», pero en inglés no hay ni artículo ni preposición: [[The party is next Saturday]].\n\n**Y cuidado con every day:** así, separado, significa «todos los días». Junto, [[everyday]], es un adjetivo: «cotidiano» ([[everyday English]]).",
+      "estructuras": [
+        {
+          "etiqueta": "Sin preposición",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "next / last / this / every + tiempo", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "The concert", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "next Friday", "rol": "tiempo" } ],
+          "es": "El concierto es el próximo viernes."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Con preposición", "items": ["on Monday", "in the morning", "in May", "at night"] },
+        "b": { "titulo": "Sin preposición", "items": ["next Monday / every Monday", "this morning / tomorrow morning", "last May / next May", "tonight"] },
+        "veredicto": "Si delante hay next, last, this o every (o es today, tomorrow, yesterday, tonight), quita la preposición."
+      },
+      "ejemplos": [
+        {
+          "en": "The party is next Saturday.",
+          "es": "La fiesta es el próximo sábado.",
+          "partes": [ { "t": "The party", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "next Saturday", "rol": "tiempo" } ],
+          "nota": "Ni on ni the: next ya dice cuándo."
+        },
+        {
+          "en": "I'm very busy this week.",
+          "es": "Estoy muy ocupado esta semana.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "very busy", "rol": "complemento" }, { "t": "this week", "rol": "tiempo" } ],
+          "nota": "This week, no «in this week»."
+        },
+        {
+          "en": "The store is open every day.",
+          "es": "La tienda abre todos los días.",
+          "partes": [ { "t": "The store", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "open", "rol": "complemento" }, { "t": "every day", "rol": "tiempo" } ],
+          "nota": "Every day en dos palabras = todos los días. Open aquí es un adjetivo (abierto), por eso va con be."
+        },
+        {
+          "en": "My exam is tomorrow morning.",
+          "es": "Mi examen es mañana en la mañana.",
+          "partes": [ { "t": "My exam", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "tomorrow morning", "rol": "tiempo" } ],
+          "nota": "Tomorrow morning sin preposición. En español repetimos «mañana en la mañana»; en inglés, dos palabras."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "tonight, tomorrow",
+          "ipa": "/təˈnaɪt/ · /təˈmɑːroʊ/",
+          "consejo": "Las dos empiezan con una to muy débil (/tə/) y llevan el acento en la segunda sílaba: te-NAIT, te-MA-rou.",
+          "lento": false
+        },
+        {
+          "texto": "next week",
+          "ipa": "/ˌneks ˈwiːk/",
+          "consejo": "En el habla natural la t de next desaparece antes de otra consonante: «neks-WIIK». La ee de week es una i larga.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "The party is on next Saturday.", "bien": "The party is next Saturday.", "porque": "Con next no se usa preposición." },
+        { "mal": "I'm tired in this morning.", "bien": "I'm tired this morning.", "porque": "Con this no se usa preposición." },
+        { "mal": "The meeting is the next Monday.", "bien": "The meeting is next Monday.", "porque": "Calco de «el próximo lunes». En inglés no va the." },
+        { "mal": "The store is open everyday.", "bien": "The store is open every day.", "porque": "Everyday junto es un adjetivo (cotidiano). «Todos los días» se escribe separado." }
+      ],
+      "nota": { "titulo": "Una regla rápida", "texto": "Antes de elegir in, on o at, mira la palabra de delante: si es next, last, this, every, today, tomorrow, yesterday o tonight, no pongas nada.", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión con su traducción.",
+      "pares": [
+        { "a": "en mayo", "b": "in May" },
+        { "a": "el lunes", "b": "on Monday" },
+        { "a": "a las siete", "b": "at seven" },
+        { "a": "en la mañana", "b": "in the morning" },
+        { "a": "en la noche", "b": "at night" },
+        { "a": "el próximo lunes", "b": "next Monday" },
+        { "a": "el 5 de mayo", "b": "on May 5th" },
+        { "a": "en 2020", "b": "in 2020" }
+      ],
+      "pistas": [
+        "in = periodos; on = días; at = momentos exactos.",
+        "Fíjate en las excepciones: la noche y el próximo lunes.",
+        "at night (sin the); next Monday sin preposición."
+      ],
+      "solucion": {
+        "respuesta": "en mayo = in May · el lunes = on Monday · a las siete = at seven · en la mañana = in the morning · en la noche = at night · el próximo lunes = next Monday · el 5 de mayo = on May 5th · en 2020 = in 2020",
+        "explicacion": "Meses, años y partes del día llevan in; días y fechas, on; horas, at. At night es la excepción de las partes del día, y next Monday no lleva preposición porque next ya indica cuándo."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la preposición correcta.",
+      "pregunta": "The meeting is ___ Friday.",
+      "opciones": [
+        { "texto": "on", "correcta": true, "porque": "Correcto: con los días de la semana se usa on." },
+        { "texto": "in", "correcta": false, "porque": "In es para periodos más largos: meses, años, estaciones." },
+        { "texto": "at", "correcta": false, "porque": "At es para horas y momentos exactos." },
+        { "texto": "the", "correcta": false, "porque": "Calco de «el viernes». En inglés no se usa artículo, sino la preposición on." }
+      ],
+      "pistas": [
+        "Friday es un día de la semana.",
+        "¿Qué preposición va con los días?",
+        "Días y fechas: on."
+      ],
+      "solucion": {
+        "respuesta": "on",
+        "explicacion": "La respuesta es on: con días de la semana siempre se usa on (on Friday). El «el» de «el viernes» no se traduce como the."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con in, on o at.",
+      "frase": "My birthday is ___ June, ___ June fourteenth.",
+      "traduccion": "Mi cumpleaños es en junio, el catorce de junio.",
+      "respuestas": [["in"], ["on"]],
+      "banco": ["in", "on", "at"],
+      "errores_tipicos": {
+        "in | in": "Con un mes solo, in; pero con una fecha concreta (un día), on.",
+        "on | on": "Un mes sin día es un periodo: in June."
+      },
+      "pistas": [
+        "El primer hueco va con un mes; el segundo, con una fecha.",
+        "¿El mes es un periodo o un día concreto? ¿Y la fecha?",
+        "Mes → in; fecha (día concreto) → on."
+      ],
+      "solucion": {
+        "respuesta": "in · on",
+        "explicacion": "In June porque un mes es un periodo; on June fourteenth porque una fecha es un día concreto, y con los días se usa on."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con in, on o at.",
+      "frase": "The class is ___ 7:30 ___ the evening.",
+      "traduccion": "La clase es a las 7:30 de la noche.",
+      "respuestas": [["at"], ["in"]],
+      "banco": ["in", "on", "at"],
+      "errores_tipicos": {
+        "at | at": "At night, pero in the evening.",
+        "in | in": "Con horas exactas se usa at: at 7:30."
+      },
+      "pistas": [
+        "Un hueco va con una hora exacta y el otro con una parte del día.",
+        "Las partes del día llevan in, excepto una.",
+        "Hora → at; the morning / the afternoon / the evening → in."
+      ],
+      "solucion": {
+        "respuesta": "at · in",
+        "explicacion": "At 7:30 porque es una hora exacta; in the evening porque las partes del día llevan in (la excepción es at night)."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con una preposición. Vale el uso estadounidense o el británico.",
+      "frase": "The market is open ___ the weekend.",
+      "traduccion": "El mercado abre el fin de semana.",
+      "respuestas": [["on", "at"]],
+      "errores_tipicos": {
+        "in": "Con the weekend se usa on (EE. UU.) o at (R. U.), no in.",
+        "the": "The ya está en la frase; falta la preposición: on the weekend o at the weekend."
+      },
+      "pistas": [
+        "Esta expresión cambia según la variedad del inglés.",
+        "Una es la de EE. UU. y otra la del R. U.; in no es ninguna de las dos.",
+        "Con weekend, EE. UU. usa la misma preposición que con los días, y el R. U., la misma que con las horas."
+      ],
+      "solucion": {
+        "respuesta": "on (EE. UU.) / at (R. U.)",
+        "explicacion": "En EE. UU. se dice on the weekend y en el R. U. at the weekend; las dos son correctas en su variedad. In the weekend no se usa."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "The concert is on next Saturday.",
+      "error": "on next",
+      "correcciones": ["next"],
+      "frase_correcta": "The concert is next Saturday.",
+      "pistas": [
+        "Algunas expresiones de tiempo no llevan preposición.",
+        "Mira la palabra que va antes de Saturday.",
+        "Con next, last, this y every no se usa preposición."
+      ],
+      "solucion": {
+        "respuesta": "next",
+        "explicacion": "Sobra on: con next no se usa preposición. On Saturday, pero next Saturday."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "The bakery is closed at the morning.",
+      "error": "at",
+      "correcciones": ["in"],
+      "frase_correcta": "The bakery is closed in the morning.",
+      "pistas": [
+        "Revisa la preposición con la parte del día.",
+        "Morning, afternoon y evening llevan la misma preposición.",
+        "in the morning / in the afternoon / in the evening; solo night va con at."
+      ],
+      "solucion": {
+        "respuesta": "in",
+        "explicacion": "El error es at: las partes del día llevan in (in the morning). La única excepción es at night."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés con el estilo estadounidense de fecha y usa una preposición.",
+      "es": "Mi cumpleaños es el 3 de marzo.",
+      "respuestas": [
+        "My birthday is on March third.",
+        "My birthday is on March 3rd.",
+        "My birthday is on March 3.",
+        "My birthday is on March the third."
+      ],
+      "errores_tipicos": {
+        "My birthday is in March third": "Con fechas (un día concreto) se usa on.",
+        "My birthday is the March third": "El «el» no se traduce como the; con fechas va on.",
+        "My birthday is on March three": "El día de una fecha se dice con ordinal: third."
+      },
+      "pistas": [
+        "Es una fecha concreta, un día.",
+        "El «el» de «el 3 de marzo» no se traduce como artículo.",
+        "on + mes + ordinal."
+      ],
+      "solucion": {
+        "respuesta": "My birthday is on March third.",
+        "explicacion": "Con fechas se usa on, y el día va en ordinal: on March third. El «el» del español no se traduce como the."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.09",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. La hora puedes escribirla con cifras.",
+      "texto": "The exam is on Monday at nine in the morning.",
+      "respuestas": [
+        "The exam is on Monday at 9 in the morning.",
+        "The exam is on Monday at 9:00 in the morning."
+      ],
+      "audio": true,
+      "pistas": [
+        "Hay tres expresiones de tiempo: un día, una hora y una parte del día.",
+        "Cada una lleva una preposición distinta.",
+        "on + día · at + hora · in + the morning."
+      ],
+      "solucion": {
+        "respuesta": "The exam is on Monday at nine in the morning.",
+        "explicacion": "On Monday (día), at nine (hora exacta), in the morning (parte del día): las tres preposiciones en una sola oración."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.10",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "The party is on Saturday at eight.",
+      "ipa": "/ðə ˈpɑːrti ɪz ɑːn ˈsætərdeɪ ət ˈeɪt/",
+      "consejo": "Las preposiciones se dicen débiles y pegadas: «on-SA-rer-dei», «e-TEIT». El peso de la oración está en party, Saturday y eight.",
+      "es": "La fiesta es el sábado a las ocho."
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.11",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia on Saturday por «el próximo sábado».",
+      "origen": "The party is on Saturday.",
+      "instruccion": "Usa next",
+      "respuestas": ["The party is next Saturday."],
+      "errores_tipicos": {
+        "The party is on next Saturday": "Con next no se usa preposición: quita on.",
+        "The party is the next Saturday": "Calco de «el próximo sábado». Sin the: next Saturday."
+      },
+      "pistas": [
+        "Next cambia la regla de la preposición.",
+        "¿Qué pasa con on cuando aparece next?",
+        "next + día, sin preposición ni artículo."
+      ],
+      "solucion": {
+        "respuesta": "The party is next Saturday.",
+        "explicacion": "Al añadir next, on desaparece: next ya indica cuándo. Tampoco se pone the, aunque en español digamos «el próximo sábado»."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.12",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": ["The", "concert", "is", "on", "Friday", "at", "eight"],
+      "respuestas": [
+        "The concert is on Friday at eight.",
+        "The concert is at eight on Friday."
+      ],
+      "traduccion": "El concierto es el viernes a las ocho.",
+      "pistas": [
+        "Sujeto + is + expresiones de tiempo.",
+        "Cada expresión de tiempo lleva su preposición pegada: día con on, hora con at.",
+        "Sujeto + is + preposición + día + preposición + hora (o las dos expresiones al revés), como en The class is on Monday at ten."
+      ],
+      "solucion": {
+        "respuesta": "The concert is on Friday at eight.",
+        "explicacion": "On va con el día (on Friday) y at con la hora (at eight). Las dos expresiones pueden ir en cualquier orden, pero cada preposición debe ir pegada a su palabra."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Un amigo te pregunta cuándo es la fiesta. Es el viernes a las ocho de la noche.",
+      "lineas": [
+        { "quien": "Omar", "en": "When is the party?", "es": "¿Cuándo es la fiesta?" }
+      ],
+      "opciones": [
+        { "texto": "It's on Friday at eight in the evening.", "correcta": true, "porque": "Correcto: on + día, at + hora, in + the evening." },
+        { "texto": "It's in Friday at eight in the evening.", "correcta": false, "porque": "Con días se usa on, no in." },
+        { "texto": "It's on Friday on eight in the evening.", "correcta": false, "porque": "Con horas se usa at: at eight." },
+        { "texto": "It's the Friday at eight at the evening.", "correcta": false, "porque": "Sobra the delante de Friday (va on), y las partes del día llevan in: in the evening." }
+      ],
+      "pistas": [
+        "Hay un día, una hora y una parte del día.",
+        "Revisa las tres preposiciones una por una.",
+        "Día → on; hora → at; the morning / the afternoon / the evening → in. Revisa cada una en las opciones."
+      ],
+      "solucion": {
+        "respuesta": "It's on Friday at eight in the evening.",
+        "explicacion": "On con el día, at con la hora exacta e in con la parte del día (in the evening). Solo la primera opción usa las tres correctamente."
+      }
+    },
+    {
+      "id": "fechas-y-horas.in-on-at-tiempo.14",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe tu semana y tus fechas importantes.",
+      "objetivo": "Usar in, on, at y las expresiones sin preposición en un texto sobre tu calendario.",
+      "instrucciones": "Escribe 5 o 6 oraciones con be sobre tus horarios y fechas: cuándo es tu clase de inglés (día y hora), cuándo es tu cumpleaños (mes y fecha), en qué estación es tu época favorita, y algo que pasa next week o this weekend. Usa in, on y at al menos una vez cada una y al menos una expresión sin preposición.",
+      "vocabulario_apoyo": ["my English class", "my birthday", "the meeting", "the party", "busy", "free", "next week", "this weekend", "every day"],
+      "estructuras": ["My English class is on … at …", "My birthday is in … — on …", "I'm busy / free …", "The party is next …"],
+      "ejemplo": "Carlos's yoga class is on Tuesday at six in the evening. His birthday is in October, on October second. He is free this weekend.",
+      "min_palabras": 35,
+      "comprobaciones": [
+        { "descripcion": "Usas on con un día o una fecha", "patron": "\\bon (monday|tuesday|wednesday|thursday|friday|saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|december|the weekend|my birthday)\\b" },
+        { "descripcion": "Usas at con una hora o con night", "patron": "\\bat (\\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|noon|midnight|night)" },
+        { "descripcion": "Usas in con un mes, una estación o una parte del día", "patron": "\\bin (the morning|the afternoon|the evening|january|february|march|april|may|june|july|august|september|october|november|december|spring|summer|fall|autumn|winter|the (spring|summer|fall|winter))\\b" },
+        { "descripcion": "Usas una expresión sin preposición", "patron": "\\b(next|last|this|every) (day|week|weekend|month|year|morning|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\\b|\\b(today|tomorrow|tonight)\\b" }
+      ],
+      "criterios": [
+        "¿Usas on con días y fechas, at con horas e in con meses y partes del día?",
+        "¿Escribiste at night (y no in the night)?",
+        "¿Quitaste la preposición con next, this, every, today, tomorrow?",
+        "¿Las fechas llevan ordinal (October second)?"
+      ],
+      "modelo": "My English class is on Monday and Wednesday at seven in the evening. My birthday is in March, on March twenty-third. My favorite season is spring, and the weather is great in April. I'm very busy this week, but I'm free on the weekend. My sister's wedding is next month.",
+      "explicacion": "El modelo usa on con días (on Monday and Wednesday) y fechas (on March twenty-third), at con la hora (at seven), in con el mes (in March, in April) y la parte del día (in the evening), on the weekend (uso de EE. UU.), y quita la preposición con this week y next month.",
+      "errores_comunes": [
+        "in Monday → on Monday.",
+        "in the night → at night.",
+        "on next month → next month.",
+        "My birthday is the March twenty-third → on March twenty-third."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Agendar una cita",
+    "contexto": "Llamas a un consultorio dental para confirmar tu cita. La recepcionista, Grace, te pregunta si te conviene la fecha que te ofrece.",
+    "dialogo": [
+      { "quien": "Grace", "en": "Your appointment is on Thursday, at ten in the morning. Is that OK?", "es": "Su cita es el jueves a las diez de la mañana. ¿Le parece bien?" },
+      { "quien": "Tú", "en": "Sorry, I'm at work in the morning. Is there anything in the afternoon?", "es": "Perdón, en la mañana estoy en el trabajo. ¿Hay algo en la tarde?" },
+      { "quien": "Grace", "en": "Yes, there's an opening on Thursday at four, or next Monday at noon.", "es": "Sí, hay un espacio el jueves a las cuatro, o el próximo lunes al mediodía." }
+    ],
+    "tu_turno": "Elige una de las dos opciones y confírmala repitiendo el día y la hora con la preposición correcta.",
+    "modelo": "Next Monday at noon is perfect, thank you.",
+    "alternativas": [
+      "Thursday at four is great. Thanks!",
+      "OK, so my appointment is on Thursday at four in the afternoon."
+    ],
+    "claves": [
+      "Next Monday sin on; at noon con at.",
+      "On Thursday con on; at four con at.",
+      "In the afternoon para la parte del día."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "IN: meses, años, estaciones, siglos, partes del día (in May, in 2020, in summer, in the morning).",
+      "ON: días, fechas, días especiales, día + parte del día (on Monday, on May 5th, on my birthday, on Friday night).",
+      "AT: horas y momentos exactos (at 7:30, at noon, at midnight, at night).",
+      "Fin de semana: on the weekend (EE. UU.) / at the weekend (R. U.).",
+      "Sin preposición: next, last, this, every + tiempo; today, tomorrow, yesterday, tonight."
+    ],
+    "recuerda": [
+      "in the morning, pero at night y on Monday morning.",
+      "El «el» de «el lunes» o «el 5 de mayo» no es the: es on."
+    ]
+  },
+  "repaso": [
+    { "id": "fechas-y-horas.in-on-at-tiempo.r1", "frente": "¿In, on o at? ___ May · ___ Monday · ___ 7:30", "reverso": "in May · on Monday · at 7:30" },
+    { "id": "fechas-y-horas.in-on-at-tiempo.r2", "frente": "¿In the night o at night?", "reverso": "at night (pero in the morning / afternoon / evening)." },
+    { "id": "fechas-y-horas.in-on-at-tiempo.r3", "frente": "Corrige: The party is on next Friday.", "reverso": "The party is next Friday. (sin preposición con next)" },
+    { "id": "fechas-y-horas.in-on-at-tiempo.r4", "frente": "El fin de semana: ¿on o at?", "reverso": "on the weekend (EE. UU.) · at the weekend (R. U.)" },
+    { "id": "fechas-y-horas.in-on-at-tiempo.r5", "frente": "¿Por qué on Sunday morning y no in Sunday morning?", "reverso": "Cuando aparece el día, manda on: on + día + parte del día." }
+  ]
+}

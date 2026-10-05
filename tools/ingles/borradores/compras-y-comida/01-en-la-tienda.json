@@ -1,0 +1,1011 @@
+{
+  "slug": "en-la-tienda",
+  "titulo": "En la tienda",
+  "minutos": 40,
+  "objetivos": [
+    "Preguntar precios con How much is it / this…? y How much are they / these…? según el singular o el plural.",
+    "Entender y decir precios: It's $12.99. They're $5 each.",
+    "Usar las frases fijas de una compra: I'm just looking, Do you have this in…?, Can I try it on?, I'll take it, Can I pay by card?",
+    "Evitar calcos como How much costs? o I take it."
+  ],
+  "situacion": {
+    "titulo": "En una tienda de ropa",
+    "texto": "Priya entra a una tienda en San Diego. El vendedor, Sam, se acerca a ayudarla. Fíjate en cómo cambia la pregunta del precio entre la chamarra (singular) y los jeans (plural en inglés).",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Hi there! Can I help you?",
+        "es": "¡Hola! ¿Te puedo ayudar?"
+      },
+      {
+        "quien": "Priya",
+        "en": "I'm just looking, thanks.",
+        "es": "Solo estoy viendo, gracias."
+      },
+      {
+        "quien": "Priya",
+        "en": "Excuse me. How much is this jacket?",
+        "es": "Disculpa. ¿Cuánto cuesta esta chamarra?"
+      },
+      {
+        "quien": "Sam",
+        "en": "It's forty-five dollars.",
+        "es": "Cuesta cuarenta y cinco dólares."
+      },
+      {
+        "quien": "Priya",
+        "en": "And how much are these jeans?",
+        "es": "¿Y cuánto cuestan estos jeans?"
+      },
+      {
+        "quien": "Sam",
+        "en": "They're thirty dollars. They're on sale today.",
+        "es": "Cuestan treinta dólares. Hoy están en oferta."
+      },
+      {
+        "quien": "Priya",
+        "en": "Great. I'll take them. Can I pay by card?",
+        "es": "Perfecto. Me los llevo. ¿Puedo pagar con tarjeta?"
+      },
+      {
+        "quien": "Sam",
+        "en": "Sure. Here's your receipt.",
+        "es": "Claro. Aquí tienes tu recibo."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "preguntar-precios",
+      "titulo": "How much is it? / How much are they?",
+      "que_es": "Para preguntar un precio se usa [[How much]] (el dinero es incontable, como viste en la unidad anterior) + el verbo be. La clave es que be concuerda con **la cosa que cuesta**: si es una, [[is]]; si son varias, [[are]]. En español «¿Cuánto cuesta?» / «¿Cuánto cuestan?» hacen la misma distinción, pero con otro verbo.",
+      "para_que": [
+        "Preguntar el precio de un objeto: How much is this mug?",
+        "Preguntar el precio de varios objetos o de algo que es plural en inglés: How much are these shoes? How much are the jeans?",
+        "Entender la respuesta: It's $8. They're $3 each."
+      ],
+      "como_funciona": "{{interrogativo:How much}} + {{verbo:is}} + {{sujeto:it / this / that / the + singular}}? y {{interrogativo:How much}} + {{verbo:are}} + {{sujeto:they / these / those / the + plural}}? La respuesta repite el mismo número: [[It's…]] / [[They're…]]. Ojo con las palabras que en inglés **siempre son plurales**, aunque nombren un solo objeto: [[jeans]], [[pants]] (pantalones; en Reino Unido [[trousers]]), [[shorts]], [[glasses]] (lentes), [[sunglasses]], [[scissors]]. Por eso se dice [[How much are these jeans?]] aunque sean unos solos. Si quieres contar, usa [[a pair of]]: [[a pair of jeans]] (singular: [[How much is this pair of jeans?]]). También existe [[How much does it cost?]] / [[How much do they cost?]] (con el verbo cost y el auxiliar do), un poco más formal; en tienda, [[How much is it?]] es lo más común. Para decir precios: [[$12.99]] se lee [[twelve ninety-nine]] (o [[twelve dollars and ninety-nine cents]]); [[each]] significa «cada uno»: [[They're five dollars each]].",
+      "estructuras": [
+        {
+          "etiqueta": "Un objeto",
+          "formula": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "it / this / that + singular?",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "this backpack?",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "¿Cuánto cuesta esta mochila?"
+        },
+        {
+          "etiqueta": "Varios objetos (o un plural del inglés)",
+          "formula": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "they / these / those + plural?",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "those sunglasses?",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "¿Cuánto cuestan esos lentes de sol?"
+        },
+        {
+          "etiqueta": "Con el verbo cost",
+          "formula": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does / do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "it / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cost?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the tour",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cost?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Cuánto cuesta el tour?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pregunta y respuesta",
+          "columnas": [
+            "Pregunta",
+            "Respuesta"
+          ],
+          "filas": [
+            [
+              "How much is this hat?",
+              "It's $15."
+            ],
+            [
+              "How much is that T-shirt?",
+              "It's $9.99."
+            ],
+            [
+              "How much are these socks?",
+              "They're $4 a pair."
+            ],
+            [
+              "How much are those pants?",
+              "They're $38."
+            ],
+            [
+              "How much are the apples?",
+              "They're 50 cents each."
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How much is this bag?",
+          "es": "¿Cuánto cuesta esta bolsa?",
+          "partes": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "this bag?",
+              "rol": "sujeto"
+            }
+          ],
+          "nota": "This bag es singular: is. La respuesta será It's…"
+        },
+        {
+          "en": "How much are these jeans?",
+          "es": "¿Cuánto cuestan estos jeans?",
+          "partes": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "these jeans?",
+              "rol": "sujeto"
+            }
+          ],
+          "nota": "Jeans es siempre plural en inglés: these (no this) y are. La respuesta será They're…"
+        },
+        {
+          "en": "They're three dollars each.",
+          "es": "Cuestan tres dólares cada uno.",
+          "partes": [
+            {
+              "t": "They're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "three dollars",
+              "rol": "complemento"
+            },
+            {
+              "t": "each",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Each va después del precio: «cada uno». Dollars lleva -s porque son tres."
+        },
+        {
+          "en": "It's twenty-four ninety-nine.",
+          "es": "Cuesta 24.99 dólares.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "twenty-four ninety-nine",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Así se dicen los precios en la vida real: dólares y centavos como dos números, sin decir dollars ni cents."
+        },
+        {
+          "en": "How much does the ticket cost?",
+          "es": "¿Cuánto cuesta el boleto?",
+          "partes": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the ticket",
+              "rol": "sujeto"
+            },
+            {
+              "t": "cost?",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Con el verbo cost se usa el auxiliar does (the ticket = it) y cost en forma base, como en cualquier pregunta de presente simple."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "How much is it?",
+          "ipa": "/haʊ ˈmʌtʃ ɪz ɪt/",
+          "consejo": "Las cuatro palabras se encadenan: «hau-MA-chi-zit». La ch de much se une a is, y la z de is a it. La t final casi no se suelta.",
+          "lento": true
+        },
+        {
+          "texto": "How much are they?",
+          "ipa": "/haʊ ˈmʌtʃ ər ðeɪ/",
+          "consejo": "Are se reduce a /ər/, casi solo una r. They empieza con th sonora: punta de la lengua entre los dientes y vibrando."
+        },
+        {
+          "texto": "ninety-nine",
+          "ipa": "/ˌnaɪnti ˈnaɪn/",
+          "consejo": "En ninety la t puede sonar como una r suave en EE. UU. («NAIN-ri»). El acento fuerte va en el último nine."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "How much costs this?",
+          "bien": "How much is this? / How much does this cost?",
+          "porque": "En presente simple, la pregunta con cost necesita does y el verbo en forma base. Lo más natural es How much is this?"
+        },
+        {
+          "mal": "How much is these shoes?",
+          "bien": "How much are these shoes?",
+          "porque": "Shoes es plural: are."
+        },
+        {
+          "mal": "How much is this jeans?",
+          "bien": "How much are these jeans?",
+          "porque": "Jeans es plural en inglés: these y are."
+        },
+        {
+          "mal": "How much is?",
+          "bien": "How much is it?",
+          "porque": "En inglés hace falta el sujeto: it, this o that."
+        },
+        {
+          "mal": "It costs 25 dollar.",
+          "bien": "It costs 25 dollars.",
+          "porque": "Con más de un dólar, dollars va en plural."
+        }
+      ]
+    },
+    {
+      "id": "frases-de-tienda",
+      "titulo": "Las frases fijas de una compra",
+      "que_es": "Una compra sigue casi siempre el mismo guion, y cada paso tiene una frase fija que los hablantes nativos usan sin pensar. Algunas llevan verbos que estudiarás más adelante (can en la unidad 22, will en unidades posteriores), pero aquí las aprenderás como bloques completos, igual que aprendiste [[Nice to meet you]] antes de estudiar el infinitivo.",
+      "para_que": [
+        "Decir que solo estás viendo: I'm just looking, thanks.",
+        "Pedir otra talla o color: Do you have this in a medium? Do you have it in black?",
+        "Probarte algo: Can I try it on?",
+        "Decidir y pagar: I'll take it. Can I pay by card? / in cash?"
+      ],
+      "como_funciona": "**Vendedor:** [[Can I help you?]] / [[Are you looking for anything in particular?]] (¿Buscas algo en particular?). **Tú:** [[I'm just looking, thanks.]] (presente continuo: lo que haces ahora). Para tallas y colores, presente simple con do: [[Do you have this in a small / medium / large?]], [[Do you have it in blue?]]. Para probarte algo: [[Can I try it on?]] / [[Can I try them on?]] (con jeans, shoes…). Para decidir: **[[I'll take it]]** (me lo llevo) o **[[I'll take them]]** (me los llevo). Es una expresión fija con will contraído: el presente simple [[I take it]] no funciona aquí, porque describe una costumbre, no una decisión en ese momento. Para pagar: [[Can I pay by card?]] / [[Can I pay in cash?]]. Fíjate en las preposiciones: **by** card (también se oye [[with a card]], con artículo) e **in** cash. Al final: [[Here's your receipt]] (el recibo o ticket; la p no suena) y [[Here's your change]] (tu cambio).",
+      "estructuras": [
+        {
+          "etiqueta": "Preguntar por otra talla o color",
+          "formula": [
+            {
+              "t": "Do you have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "this / it / these / them",
+              "rol": "complemento"
+            },
+            {
+              "t": "in + talla / color?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Do you have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "these",
+              "rol": "complemento"
+            },
+            {
+              "t": "in black?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Los tienes en negro?"
+        },
+        {
+          "etiqueta": "Decidir la compra",
+          "formula": [
+            {
+              "t": "I'll take",
+              "rol": "verbo"
+            },
+            {
+              "t": "it / them / this one",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I'll take",
+              "rol": "verbo"
+            },
+            {
+              "t": "the blue one",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Me llevo el azul."
+        },
+        {
+          "etiqueta": "Pagar",
+          "formula": [
+            {
+              "t": "Can I pay",
+              "rol": "verbo"
+            },
+            {
+              "t": "by card / in cash?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Can I pay",
+              "rol": "verbo"
+            },
+            {
+              "t": "in cash?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Puedo pagar en efectivo?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm just looking, thanks.",
+          "es": "Solo estoy viendo, gracias.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "just",
+              "rol": "otro"
+            },
+            {
+              "t": "looking,",
+              "rol": "verbo"
+            },
+            {
+              "t": "thanks",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Just (solo) va entre am y looking. No digas I only see ni I'm just seeing: look es mirar con atención; see es ver sin intención."
+        },
+        {
+          "en": "Do you have this shirt in a large?",
+          "es": "¿Tienes esta camisa en grande?",
+          "partes": [
+            {
+              "t": "Do you have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "this shirt",
+              "rol": "complemento"
+            },
+            {
+              "t": "in a large?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Las tallas se dicen in a small / a medium / a large. En tienda, you se refiere a la tienda: ¿tienen…?"
+        },
+        {
+          "en": "Can I try them on?",
+          "es": "¿Me los puedo probar?",
+          "partes": [
+            {
+              "t": "Can I",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "try them on?",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Them porque hablas de algo plural (shoes, jeans). El pronombre va entre try y on: try them on, no try on them."
+        },
+        {
+          "en": "I'll take it.",
+          "es": "Me lo llevo.",
+          "partes": [
+            {
+              "t": "I'll",
+              "rol": "sujeto"
+            },
+            {
+              "t": "take",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Fórmula fija para decidir en el momento. I take it describiría una costumbre y aquí no tiene sentido."
+        },
+        {
+          "en": "Can I pay by card?",
+          "es": "¿Puedo pagar con tarjeta?",
+          "partes": [
+            {
+              "t": "Can I",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "pay",
+              "rol": "verbo"
+            },
+            {
+              "t": "by card?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "By card, sin artículo. Con with se necesita artículo: with a card. En efectivo: in cash."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Calco del español",
+          "items": [
+            "Solo estoy viendo. → I only see.",
+            "Me lo llevo. → I take it.",
+            "Con tarjeta. → With card."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés natural",
+          "items": [
+            "I'm just looking.",
+            "I'll take it.",
+            "By card. / With a card."
+          ]
+        },
+        "veredicto": "Estas frases no se construyen palabra por palabra: se aprenden enteras. Traducir desde el español produce frases que se entienden, pero suenan claramente extranjeras."
+      },
+      "pronunciacion": [
+        {
+          "texto": "receipt",
+          "ipa": "/rɪˈsiːt/",
+          "consejo": "La p no se pronuncia: «ri-SIIT». El acento va en la segunda sílaba, con una i larga.",
+          "lento": true
+        },
+        {
+          "texto": "I'll take it.",
+          "ipa": "/aɪl ˈteɪk ɪt/",
+          "consejo": "I'll es una sola sílaba: /aɪl/, con una l oscura al final (la parte de atrás de la lengua sube). Take it se une: «TEI-kit»."
+        },
+        {
+          "texto": "I'm just looking.",
+          "ipa": "/aɪm ˌdʒʌst ˈlʊkɪŋ/",
+          "consejo": "Just empieza con /dʒ/, parecido a la «y» enfática de «¡Yo!» o de «cónyuge»: la lengua toca el paladar y se despega con vibración, como una «ch» sonora. La u es /ʌ/. Looking tiene una u corta y relajada, /ʊ/, no la u larga de «luna»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I only see, thanks.",
+          "bien": "I'm just looking, thanks.",
+          "porque": "Es una frase fija. See es ver sin intención; look es mirar. Y va en continuo porque describe lo que haces ahora."
+        },
+        {
+          "mal": "I take it.",
+          "bien": "I'll take it.",
+          "porque": "Para una decisión en el momento se usa la fórmula con 'll (will). El presente simple describe hábitos."
+        },
+        {
+          "mal": "Can I pay with card?",
+          "bien": "Can I pay by card? / Can I pay with a card?",
+          "porque": "Card es contable: con with necesita artículo. By card es una expresión fija sin artículo."
+        },
+        {
+          "mal": "Can I try on them?",
+          "bien": "Can I try them on?",
+          "porque": "Con pronombres (it, them), el pronombre va entre try y on."
+        }
+      ],
+      "nota": {
+        "titulo": "Fórmulas con can y will",
+        "texto": "Can I help you?, Can I try it on?, Can I pay by card? e I'll take it son fórmulas fijas. Can lo estudiarás en la unidad 22 y will más adelante. Por ahora, apréndelas enteras: son exactamente las que vas a oír y necesitar en una tienda.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "compras-y-comida.en-la-tienda.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "How much ___ these shoes?",
+      "opciones": [
+        {
+          "texto": "are",
+          "correcta": true,
+          "porque": "These shoes es plural: are."
+        },
+        {
+          "texto": "is",
+          "correcta": false,
+          "porque": "Is es para una sola cosa; these shoes son varios."
+        },
+        {
+          "texto": "cost",
+          "correcta": false,
+          "porque": "Con cost haría falta el auxiliar do: How much do these shoes cost?"
+        }
+      ],
+      "pistas": [
+        "El verbo be concuerda con la cosa cuyo precio preguntas.",
+        "Mira these y shoes: ¿singular o plural?",
+        "Plural → How much are…?"
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "These shoes es plural, así que How much are these shoes? La respuesta será They're…"
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con is o are.",
+      "frase": "How much ___ this cap? And how much ___ those sunglasses?",
+      "traduccion": "¿Cuánto cuesta esta gorra? ¿Y cuánto cuestan esos lentes de sol?",
+      "respuestas": [
+        [
+          "is"
+        ],
+        [
+          "are"
+        ]
+      ],
+      "banco": [
+        "is",
+        "are"
+      ],
+      "errores_tipicos": {
+        "is | is": "Sunglasses es siempre plural en inglés: How much are those sunglasses?",
+        "are | are": "This cap es un solo objeto: is."
+      },
+      "pistas": [
+        "Singular → is; plural → are.",
+        "Mira this / those y los sustantivos cap y sunglasses.",
+        "Sunglasses, como jeans y pants, es siempre plural en inglés."
+      ],
+      "solucion": {
+        "respuesta": "is … are",
+        "explicacion": "This cap es singular: is. Those sunglasses es plural (those y la -s): are. Aunque en español «lentes» también es plural, recuerda que en inglés glasses y sunglasses nunca van en singular."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona lo que dice el vendedor con la respuesta del cliente.",
+      "pares": [
+        {
+          "a": "Can I help you?",
+          "b": "I'm just looking, thanks."
+        },
+        {
+          "a": "It's thirty-five dollars.",
+          "b": "OK, I'll take it."
+        },
+        {
+          "a": "Cash or card?",
+          "b": "Card, please."
+        },
+        {
+          "a": "Here's your receipt.",
+          "b": "Thank you!"
+        },
+        {
+          "a": "The fitting rooms are over there.",
+          "b": "Great. Can I try these on?"
+        }
+      ],
+      "pistas": [
+        "Cada respuesta encaja con un momento de la compra.",
+        "Fitting rooms son los probadores; receipt es el recibo.",
+        "Empareja por función: a una oferta de ayuda se responde declinando con amabilidad; al precio, con una decisión; a la forma de pago, eligiendo una; al recibo, agradeciendo; a los probadores, con algo que te quieres probar."
+      ],
+      "solucion": {
+        "respuesta": "help → just looking · precio → I'll take it · cash or card → Card · receipt → Thank you · fitting rooms → try these on",
+        "explicacion": "Cada frase del vendedor tiene una respuesta natural en el guion de una compra: rechazar la ayuda, decidir la compra tras el precio, elegir forma de pago, agradecer el recibo y pedir probarse algo al saber dónde están los probadores."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la pregunta al plural: pregunta por estas camisetas.",
+      "origen": "How much is this T-shirt?",
+      "instruccion": "Plural (these)",
+      "respuestas": [
+        "How much are these T-shirts?",
+        "How much are these t shirts?",
+        "How much are these tshirts?"
+      ],
+      "errores_tipicos": {
+        "How much is these T-shirts?": "Con plural, el verbo cambia a are.",
+        "How much are these T-shirt?": "El sustantivo también pasa a plural: T-shirts.",
+        "How much are this T-shirts?": "This es singular; su plural es these."
+      },
+      "pistas": [
+        "Tres palabras cambian al pasar al plural.",
+        "El verbo, el demostrativo y el sustantivo.",
+        "En plural cambian las tres: el verbo be, el demostrativo cercano y el sustantivo (con -s), como en How much are these hats?"
+      ],
+      "solucion": {
+        "respuesta": "How much are these T-shirts?",
+        "explicacion": "Al pasar al plural cambian el verbo (is → are), el demostrativo (this → these) y el sustantivo (T-shirt → T-shirts)."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Excuse me, how much costs this lamp?",
+      "error": "costs",
+      "correcciones": [
+        "is"
+      ],
+      "frase_correcta": "Excuse me, how much is this lamp?",
+      "pistas": [
+        "Es un calco directo de «¿cuánto cuesta esta lámpara?».",
+        "Mira el verbo: en una pregunta de presente simple con cost haría falta un auxiliar.",
+        "Con el precio, lo más sencillo es How much + verbo be + objeto; si quieres usar cost, necesitas el auxiliar does."
+      ],
+      "solucion": {
+        "respuesta": "is",
+        "explicacion": "How much costs this lamp? copia el orden del español. Lo natural es How much is this lamp? Con el verbo cost habría que usar el auxiliar: How much does this lamp cost?"
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "this",
+        "have",
+        "Do",
+        "in",
+        "you",
+        "a",
+        "medium"
+      ],
+      "respuestas": [
+        "Do you have this in a medium"
+      ],
+      "traduccion": "¿Lo tienes en mediana?",
+      "pistas": [
+        "Es una pregunta de presente simple.",
+        "Do + sujeto + have + objeto + talla.",
+        "La talla va al final con in + a, como en Do you have that in a small?"
+      ],
+      "solucion": {
+        "respuesta": "Do you have this in a medium?",
+        "explicacion": "Pregunta de presente simple con do. Después del objeto (this) va la talla con in a: in a medium."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Solo estoy viendo, gracias.",
+      "respuestas": [
+        "I'm just looking, thanks.",
+        "I'm just looking, thank you.",
+        "Just looking, thanks.",
+        "Just looking, thank you.",
+        "I'm only looking, thanks.",
+        "I'm only looking, thank you."
+      ],
+      "errores_tipicos": {
+        "I only see, thanks.": "Es un calco. La frase fija es I'm just looking.",
+        "I'm just seeing, thanks.": "See es ver sin intención. Para mirar en una tienda se usa look: I'm just looking.",
+        "I just look, thanks.": "Describe lo que haces ahora: presente continuo, I'm just looking."
+      },
+      "pistas": [
+        "Es una frase fija que describe lo que haces en este momento.",
+        "Usa presente continuo y el verbo look (mirar), no see.",
+        "Frase fija en presente continuo: I'm + adverbio «solo» + look con -ing + agradecimiento."
+      ],
+      "solucion": {
+        "respuesta": "I'm just looking, thanks.",
+        "explicacion": "La frase fija es I'm just looking: presente continuo porque describe lo que haces ahora, just para «solo» y look (mirar con atención), no see."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.08",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa How much y el verbo be.",
+      "es": "¿Cuánto cuestan estos pantalones?",
+      "respuestas": [
+        "How much are these pants?",
+        "How much are these trousers?"
+      ],
+      "errores_tipicos": {
+        "How much is these pants?": "Pants es siempre plural: are.",
+        "How much is this pant?": "Pants no tiene singular con ese significado: these pants y are.",
+        "How much costs these pants?": "Calco del español. Con be: How much are these pants?"
+      },
+      "pistas": [
+        "«Pantalones» en inglés estadounidense es pants (británico: trousers).",
+        "Pants es siempre plural, aunque sea una sola prenda.",
+        "How much + be en plural + demostrativo cercano plural + prenda?, como en How much are those shoes?"
+      ],
+      "solucion": {
+        "respuesta": "How much are these pants?",
+        "explicacion": "Pants (EE. UU.) o trousers (R. U.) es siempre plural, así que these y are. Ojo: en Reino Unido pants significa ropa interior."
+      }
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.09",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "En una tienda de regalos. Ya decidiste comprar una taza.",
+      "lineas": [
+        {
+          "quien": "Vendedora",
+          "en": "So, what do you think?",
+          "es": "¿Y bien? ¿Qué te parece?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I love it. I'll take it. Can I pay in cash?",
+          "correcta": true,
+          "porque": "I'll take it es la fórmula para decidir; in cash, la preposición correcta para efectivo."
+        },
+        {
+          "texto": "I love it. I take it. Can I pay in cash?",
+          "correcta": false,
+          "porque": "I take it describe un hábito; para decidir en el momento se dice I'll take it."
+        },
+        {
+          "texto": "I love it. I'll take it. Can I pay by cash?",
+          "correcta": false,
+          "porque": "Con efectivo se usa in cash; by va con card."
+        },
+        {
+          "texto": "I love it. I'll take them. Can I pay in cash?",
+          "correcta": false,
+          "porque": "Es una sola taza: it, no them."
+        }
+      ],
+      "pistas": [
+        "Una fórmula fija para decidir y otra para pagar.",
+        "Revisa el pronombre (una taza), la forma de take y la preposición con cash.",
+        "Una sola cosa → it; decisión en el momento → I'll; el efectivo va con in."
+      ],
+      "solucion": {
+        "respuesta": "I love it. I'll take it. Can I pay in cash?",
+        "explicacion": "Para decidir la compra en el momento se usa I'll take it (it porque es una taza). En efectivo es in cash; by se usa con card."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe el precio con palabras o con números.",
+      "texto": "They're twelve ninety-nine each.",
+      "respuestas": [
+        "They're $12.99 each.",
+        "They're 12.99 each.",
+        "They are twelve ninety nine each.",
+        "They're 12 99 each.",
+        "They're $12 99 each."
+      ],
+      "pistas": [
+        "Es la respuesta a How much are they?",
+        "El precio se dice en dos números: dólares y centavos. Al final hay una palabra que significa «cada uno».",
+        "They're + dólares + centavos + each."
+      ],
+      "solucion": {
+        "respuesta": "They're twelve ninety-nine each.",
+        "explicacion": "They're porque el precio se refiere a varias cosas. Twelve ninety-nine es $12.99, dicho como dos números sin dollars ni cents. Each = cada uno."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.11",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "How much is it? Can I pay by card?",
+      "ipa": "/haʊ ˈmʌtʃ ɪz ɪt ‖ kən aɪ ˈpeɪ baɪ ˈkɑːrd/",
+      "consejo": "How much is it se encadena: «hau-MA-chi-zit». En la segunda pregunta, can es débil (/kən/) y los golpes van en pay y card. La r de card no vibra: la lengua se curva hacia atrás.",
+      "es": "¿Cuánto cuesta? ¿Puedo pagar con tarjeta?"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Compra completa",
+    "contexto": "Estás en una zapatería en Houston. Te atiende Ben.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hi! Can I help you?",
+        "es": "¡Hola! ¿Te puedo ayudar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "They're sixty dollars. Do you want to try them on?",
+        "es": "Cuestan sesenta dólares. ¿Te los quieres probar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Primero pregunta el precio de unos tenis (sneakers) que ves. Después pide otra talla o color, decide comprarlos y pregunta si puedes pagar con tarjeta.",
+    "modelo": "Yes, thanks. How much are these sneakers? — Yes, please. Do you have them in a size nine? … They're perfect. I'll take them. Can I pay by card?",
+    "alternativas": [
+      "Hi. How much are those white sneakers? — Sure. Do you have them in black? … Great, I'll take them. Can I pay in cash?",
+      "Yes, please. How much are these? — No, thanks. I'll take them. Can I pay with a card?"
+    ],
+    "claves": [
+      "Sneakers es plural: How much are…? / them.",
+      "I'll take them para decidir.",
+      "by card / with a card / in cash."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "How much is it / this / that + singular? → It's…",
+      "How much are they / these / those + plural? → They're…",
+      "jeans, pants, shorts, glasses, sunglasses son siempre plurales.",
+      "Fórmulas: I'm just looking. Do you have this in…? Can I try it on? I'll take it. Can I pay by card / in cash?"
+    ],
+    "recuerda": [
+      "Nunca How much costs…? → How much is…? / How much does… cost?",
+      "Precios: $12.99 = twelve ninety-nine.",
+      "receipt: la p no suena.",
+      "Try it on / try them on: el pronombre va en medio."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "compras-y-comida.en-la-tienda.r1",
+      "frente": "How much ___ these jeans?",
+      "reverso": "are",
+      "nota": "Jeans siempre es plural."
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.r2",
+      "frente": "«Solo estoy viendo, gracias.»",
+      "reverso": "I'm just looking, thanks.",
+      "nota": "Frase fija en continuo."
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.r3",
+      "frente": "«Me lo llevo.»",
+      "reverso": "I'll take it.",
+      "nota": "Nunca I take it."
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.r4",
+      "frente": "¿By o in? Pagar con tarjeta / en efectivo",
+      "reverso": "by card / in cash",
+      "nota": "O with a card, con artículo."
+    },
+    {
+      "id": "compras-y-comida.en-la-tienda.r5",
+      "frente": "Corrige: How much costs this?",
+      "reverso": "How much is this? / How much does this cost?"
+    }
+  ]
+}

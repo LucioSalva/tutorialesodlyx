@@ -1,0 +1,570 @@
+{
+  "slug": "continuo-para-planes",
+  "titulo": "El continuo para planes",
+  "minutos": 40,
+  "objetivos": [
+    "Hablar de planes ya acordados con el presente continuo y una expresión de tiempo futuro (I'm meeting Ana on Friday).",
+    "Preguntar por planes: What are you doing this weekend? Are you doing anything on Saturday?",
+    "Usar el presente simple para horarios y programas fijos (The train leaves at 6).",
+    "Distinguir un plan personal de un horario oficial."
+  ],
+  "situacion": {
+    "titulo": "Organizando el fin de semana",
+    "texto": "Es jueves. Aisha y Ben hablan por teléfono y tratan de encontrar un momento para verse. Todo lo que dicen se refiere al futuro, pero casi no hay ninguna palabra de futuro: usan el presente continuo para sus planes y el presente simple para los horarios.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Are you doing anything on Saturday?", "es": "¿Vas a hacer algo el sábado?" },
+      { "quien": "Ben", "en": "Yes, I'm helping my brother with his move in the morning. Why?", "es": "Sí, en la mañana voy a ayudar a mi hermano con su mudanza. ¿Por qué?" },
+      { "quien": "Aisha", "en": "There's a concert in the park. It starts at seven.", "es": "Hay un concierto en el parque. Empieza a las siete." },
+      { "quien": "Ben", "en": "Great! I'm not doing anything in the evening.", "es": "¡Genial! En la noche no tengo nada que hacer." },
+      { "quien": "Aisha", "en": "Perfect. I'm meeting Mei at the park entrance at half past six. Come with us!", "es": "Perfecto. Quedé de verme con Mei en la entrada del parque a las seis y media. ¡Vente con nosotras!" },
+      { "quien": "Ben", "en": "OK! The last bus leaves at eleven, right?", "es": "¡Va! El último camión sale a las once, ¿no?" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "planes-acordados",
+      "titulo": "Presente continuo para planes ya acordados",
+      "que_es": "El presente continuo también sirve para hablar del **futuro**, cuando se trata de un **plan ya organizado**: algo que acordaste con otra persona, reservaste o pusiste en tu agenda. [[I'm meeting Ana on Friday]] = «El viernes me veo con Ana» (ya quedamos). La acción no está en progreso ahora, pero la **decisión y los preparativos** sí.",
+      "para_que": [
+        "Contar tu agenda: I'm having lunch with my boss tomorrow.",
+        "Proponer o rechazar planes: Sorry, I'm working on Saturday.",
+        "Preguntar a alguien por sus planes: What are you doing this weekend?"
+      ],
+      "como_funciona": "Fórmula: {{sujeto:sujeto}} + {{auxiliar:am / is / are}} + {{verbo:verbo -ing}} + {{tiempo:expresión de tiempo futuro}}.\n\n**La expresión de tiempo es clave.** Sin ella, la oración se entiende como algo que pasa ahora: [[I'm meeting Ana]] = «ahora mismo me estoy viendo con Ana». Con ella, es un plan: [[I'm meeting Ana on Friday]]. Expresiones típicas: [[tonight]], [[tomorrow]], [[tomorrow morning]], [[this weekend]], [[on Friday]], [[next week]], [[at eight o'clock]], [[the day after tomorrow]]. Si el contexto ya deja claro que hablas del futuro (por ejemplo, alguien te preguntó por el sábado), puedes omitirla.\n\n**Tiene que ser un plan acordado**, con algo ya hecho para que ocurra: una cita, un boleto, una reservación, otra persona que lo sabe. Para una simple idea o intención («a lo mejor pinto la casa algún día») el inglés usa otras formas de futuro, como going to o will, que no son el tema de esta unidad.\n\nNegación y preguntas funcionan igual que siempre en continuo: [[I'm not working tomorrow]], [[Are you doing anything tonight?]], [[What time are you leaving?]].\n\n**Diferencia con el español.** En español usamos el presente simple («Mañana veo a Ana», «El sábado trabajo») o «ir a». En inglés, «Tomorrow I see Ana» es un calco que no funciona para un plan personal: di [[I'm seeing Ana tomorrow]].\n\nRecuerda que los verbos de estado tampoco se usan así: para planes necesitas verbos de acción (meet, have dinner, fly, play, visit, see = verse con…).",
+      "estructuras": [
+        {
+          "etiqueta": "Plan acordado",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" },
+            { "t": "tomorrow / on Friday / next week", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "meeting", "rol": "verbo" },
+            { "t": "Ana", "rol": "complemento" },
+            { "t": "on Friday", "rol": "tiempo" }
+          ],
+          "es": "El viernes me veo con Ana."
+        },
+        {
+          "etiqueta": "Preguntar por planes",
+          "formula": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "doing", "rol": "verbo" },
+            { "t": "this weekend?", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "doing", "rol": "verbo" },
+            { "t": "tonight?", "rol": "tiempo" }
+          ],
+          "es": "¿Qué vas a hacer esta noche?"
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Un plan: decidido antes, ocurre después",
+        "marcas": [
+          { "pos": 0.15, "texto": "Monday: Ana and I arrange it", "tipo": "punto" },
+          { "pos": 0.15, "hasta": 0.8, "texto": "the plan exists (it's in my calendar)", "tipo": "tramo" },
+          { "pos": 0.8, "texto": "Friday: I'm meeting Ana", "tipo": "punto" }
+        ],
+        "ahora": 0.4,
+        "pie": "El encuentro es futuro (viernes), pero el plan ya existe ahora: lo acordamos el lunes y está en la agenda. Por eso el inglés usa un tiempo presente, con una expresión de tiempo que lo sitúa en el futuro."
+      },
+      "ejemplos": [
+        {
+          "en": "I'm meeting Ana on Friday.",
+          "es": "El viernes me veo con Ana.",
+          "situacion": "Ana y tú ya quedaron en verse.",
+          "partes": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "meeting", "rol": "verbo" },
+            { "t": "Ana", "rol": "complemento" },
+            { "t": "on Friday", "rol": "tiempo" }
+          ],
+          "nota": "on Friday sitúa la acción en el futuro. meet = verse, quedar con alguien (sin preposición: meet Ana, no «meet with Ana» en este sentido)."
+        },
+        {
+          "en": "We're flying to Mérida next week.",
+          "es": "La próxima semana volamos a Mérida.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "flying", "rol": "verbo" },
+            { "t": "to Mérida", "rol": "complemento" },
+            { "t": "next week", "rol": "tiempo" }
+          ],
+          "nota": "Ya tienen los boletos: es un plan acordado. next week va sin the ni preposición («la próxima semana»)."
+        },
+        {
+          "en": "Diego isn't working tomorrow.",
+          "es": "Diego no trabaja mañana.",
+          "partes": [
+            { "t": "Diego", "rol": "sujeto" },
+            { "t": "isn't", "rol": "negacion" },
+            { "t": "working", "rol": "verbo" },
+            { "t": "tomorrow", "rol": "tiempo" }
+          ],
+          "nota": "Negación de un plan: tiene el día libre, ya está organizado. En español usamos el presente simple («no trabaja»)."
+        },
+        {
+          "en": "Are you doing anything on Saturday?",
+          "es": "¿Vas a hacer algo el sábado?",
+          "partes": [
+            { "t": "Are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "doing", "rol": "verbo" },
+            { "t": "anything", "rol": "complemento" },
+            { "t": "on Saturday", "rol": "tiempo" }
+          ],
+          "nota": "Pregunta muy frecuente para proponer un plan. En preguntas generales lo normal es anything (algo)."
+        },
+        {
+          "en": "My cousins are coming for dinner tonight.",
+          "es": "Mis primos vienen a cenar esta noche.",
+          "partes": [
+            { "t": "My cousins", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "coming", "rol": "verbo" },
+            { "t": "for dinner", "rol": "complemento" },
+            { "t": "tonight", "rol": "tiempo" }
+          ],
+          "nota": "Los invitaste y aceptaron: plan acordado. come for dinner = venir a cenar."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "I'm meeting Ana on Friday.",
+          "ipa": "/aɪm ˈmitɪŋ ˈænə ɑn ˈfraɪdeɪ/",
+          "consejo": "En inglés estadounidense la t de meeting suena como una r suave entre vocales: «MI-ring». Friday tiene el acento en FRI y el diptongo /aɪ/ («frai»). on se une a Ana: «Ana-on».",
+          "lento": true
+        },
+        {
+          "texto": "tomorrow",
+          "ipa": "/təˈmɑroʊ/",
+          "consejo": "Acento en la segunda sílaba: tə-MA-rou. La primera sílaba es una vocal débil /ə/, casi no suena. Una sola r inglesa, sin vibrar."
+        },
+        {
+          "texto": "What are you doing this weekend?",
+          "ipa": "/ˈwʌt ər jə ˈduɪŋ ðɪs ˈwikɛnd/",
+          "consejo": "La pregunta suena igual que la del presente: lo que la convierte en pregunta por planes es this weekend. En EE. UU. weekend lleva el acento en la primera sílaba: WEEK-end."
+        }
+      ],
+      "errores": [
+        { "mal": "Tomorrow I see the dentist at ten.", "bien": "I'm seeing the dentist at ten tomorrow.", "porque": "Calco del español («mañana veo al dentista»). Una cita personal ya acordada se expresa con el presente continuo." },
+        { "mal": "I'm meeting Ana. (queriendo decir: el viernes)", "bien": "I'm meeting Ana on Friday.", "porque": "Sin expresión de tiempo (y sin contexto), se entiende que la acción es ahora." },
+        { "mal": "Do you do anything tonight?", "bien": "Are you doing anything tonight?", "porque": "Para preguntar por un plan de esta noche se usa el presente continuo, con be: Are you doing…? Do you do…? pregunta por costumbres." },
+        { "mal": "What do you do this weekend?", "bien": "What are you doing this weekend?", "porque": "Para preguntar por planes se usa el continuo. What do you do on weekends? preguntaría por tu costumbre." }
+      ]
+    },
+    {
+      "id": "horarios-presente-simple",
+      "titulo": "Presente simple para horarios y programas",
+      "que_es": "Cuando hablas de algo futuro que depende de un **horario fijo u oficial** (transporte, clases, películas, tiendas, eventos programados), el inglés usa el **presente simple**: [[The train leaves at 6]] (El tren sale a las 6). No es un plan tuyo: es el horario de la estación.",
+      "para_que": [
+        "Hablar de transporte: The bus leaves at 7:15.",
+        "Hablar de clases, cursos y eventos: The course starts on Monday.",
+        "Preguntar horarios: What time does the store open?"
+      ],
+      "como_funciona": "Compara:\n- **Horario** (presente simple): lo decide una institución y se repite o está publicado. [[The movie starts at 8:30]], [[The store opens at 10 on Sundays]], [[My flight arrives at 9 p.m.]]\n- **Plan personal** (presente continuo): lo decidiste tú con otras personas. [[We're seeing a movie tonight]], [[I'm taking the 6 o'clock train]].\n\nMuchas veces aparecen juntos, y es la combinación más natural: [[I'm taking the train tomorrow. It leaves at six.]] (plan personal + horario).\n\nVerbos típicos de los horarios: [[leave]] (salir), [[arrive]] (llegar), [[start / begin]] (empezar), [[finish / end]] (terminar), [[open]], [[close]].\n\nComo es presente simple, las preguntas y negaciones llevan **do / does**: [[What time does the bus leave?]], [[The class doesn't start until ten]].\n\n**Cuidado con go:** [[I'm going to the dentist tomorrow]] es presente continuo de go (voy al dentista, plan acordado). No lo confundas con la estructura going to + verbo, que es otra forma de futuro.",
+      "estructuras": [
+        {
+          "etiqueta": "Horario (presente simple)",
+          "formula": [
+            { "t": "Evento / transporte", "rol": "sujeto" },
+            { "t": "verbo (+ -s)", "rol": "verbo" },
+            { "t": "at / on + hora o día", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "The train", "rol": "sujeto" },
+            { "t": "leaves", "rol": "verbo" },
+            { "t": "at 6", "rol": "tiempo" }
+          ],
+          "es": "El tren sale a las 6."
+        },
+        {
+          "etiqueta": "Pregunta por un horario",
+          "formula": [
+            { "t": "What time / When", "rol": "interrogativo" },
+            { "t": "does / do", "rol": "auxiliar" },
+            { "t": "evento", "rol": "sujeto" },
+            { "t": "verbo base?", "rol": "verbo" }
+          ],
+          "ejemplo": [
+            { "t": "What time", "rol": "interrogativo" },
+            { "t": "does", "rol": "auxiliar" },
+            { "t": "the store", "rol": "sujeto" },
+            { "t": "open?", "rol": "verbo" }
+          ],
+          "es": "¿A qué hora abre la tienda?"
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "The train leaves at 6.",
+          "items": ["Presente simple.", "Horario oficial de la estación.", "Es igual para todos los pasajeros."]
+        },
+        "b": {
+          "titulo": "I'm taking the 6 o'clock train.",
+          "items": ["Presente continuo.", "Plan personal ya decidido.", "Habla de lo que harás tú."]
+        },
+        "veredicto": "Pregúntate: ¿esto lo marca un horario o lo organicé yo? Horario → presente simple. Mi plan → presente continuo."
+      },
+      "ejemplos": [
+        {
+          "en": "The train leaves at six.",
+          "es": "El tren sale a las seis.",
+          "partes": [
+            { "t": "The train", "rol": "sujeto" },
+            { "t": "leaves", "rol": "verbo" },
+            { "t": "at six", "rol": "tiempo" }
+          ],
+          "nota": "Horario oficial → presente simple con -s (the train = it). Aunque el viaje sea mañana, no se usa el continuo."
+        },
+        {
+          "en": "The course starts on Monday.",
+          "es": "El curso empieza el lunes.",
+          "partes": [
+            { "t": "The course", "rol": "sujeto" },
+            { "t": "starts", "rol": "verbo" },
+            { "t": "on Monday", "rol": "tiempo" }
+          ],
+          "nota": "Un curso tiene un calendario fijo, decidido por la escuela. on Monday (sin -s) = este lunes que viene."
+        },
+        {
+          "en": "What time does the museum open?",
+          "es": "¿A qué hora abre el museo?",
+          "partes": [
+            { "t": "What time", "rol": "interrogativo" },
+            { "t": "does", "rol": "auxiliar" },
+            { "t": "the museum", "rol": "sujeto" },
+            { "t": "open", "rol": "verbo" }
+          ],
+          "nota": "Pregunta de presente simple: does + verbo base (open, sin -s)."
+        },
+        {
+          "en": "I'm taking the bus tomorrow. It leaves at 7:15.",
+          "es": "Mañana voy a tomar el camión. Sale a las 7:15.",
+          "partes": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "taking", "rol": "verbo" },
+            { "t": "the bus", "rol": "complemento" },
+            { "t": "tomorrow.", "rol": "tiempo" },
+            { "t": "It", "rol": "sujeto" },
+            { "t": "leaves", "rol": "verbo" },
+            { "t": "at 7:15", "rol": "tiempo" }
+          ],
+          "nota": "Los dos usos juntos: mi plan (I'm taking, continuo) y el horario del camión (It leaves, simple)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "leaves",
+          "ipa": "/livz/",
+          "consejo": "i larga y tensa (sonríe), y termina en /vz/: los dientes de arriba tocan el labio de abajo para la v, y luego un zumbido de z. Si dices una i corta, suena como lives (vive)."
+        },
+        {
+          "texto": "What time does it start?",
+          "ipa": "/ˈwʌt ˈtaɪm dəz ɪt ˈstɑrt/",
+          "consejo": "does se reduce a /dəz/ y se une a it: «dazit». La t de what casi no se suelta delante de time. La voz baja al final."
+        }
+      ],
+      "errores": [
+        { "mal": "The train is leaving at six every morning.", "bien": "The train leaves at six every morning.", "porque": "Un horario que se repite (every morning) va en presente simple." },
+        { "mal": "What time does the movie starts?", "bien": "What time does the movie start?", "porque": "Con does, el verbo va en forma base, sin -s." },
+        { "mal": "The store open at nine.", "bien": "The store opens at nine.", "porque": "the store = it: el presente simple lleva -s." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "simple-o-continuo.continuo-para-planes.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "¿Qué oración expresa un plan acordado para el futuro?",
+      "pregunta": "Quedaste con Tom en verlo el viernes.",
+      "opciones": [
+        { "texto": "I'm meeting Tom on Friday.", "correcta": true, "porque": "Correcta: presente continuo + expresión de tiempo futuro (on Friday) = plan acordado." },
+        { "texto": "I meet Tom on Fridays.", "correcta": false, "porque": "on Fridays (con -s) y el presente simple describen una costumbre: todos los viernes." },
+        { "texto": "I'm meeting Tom.", "correcta": false, "porque": "Sin expresión de tiempo ni contexto se entiende como algo que pasa ahora mismo." }
+      ],
+      "pistas": [
+        "El presente continuo puede hablar de planes futuros.",
+        "Pero necesita una expresión de tiempo futuro.",
+        "be + -ing + on Friday."
+      ],
+      "solucion": { "respuesta": "I'm meeting Tom on Friday.", "explicacion": "Un plan ya acordado se expresa con el presente continuo y una expresión de tiempo futuro. On Friday (singular) es este viernes; on Fridays sería todos los viernes." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el presente continuo de have (plan acordado).",
+      "frase": "We ___ dinner with my parents tonight.",
+      "respuestas": [["are having"]],
+      "traduccion": "Esta noche cenamos con mis papás.",
+      "errores_tipicos": {
+        "have": "Es un plan acordado para esta noche: presente continuo (are having).",
+        "are haveing": "have pierde la e muda: having.",
+        "is having": "Con we se usa are."
+      },
+      "pistas": [
+        "tonight + plan ya organizado.",
+        "Plan acordado → presente continuo.",
+        "Plan acordado: sujeto + be + verbo -ing; con we, la forma plural de be."
+      ],
+      "solucion": { "respuesta": "are having", "explicacion": "Cenar con los papás esta noche es un plan acordado: presente continuo (are having) + tonight. have dinner es una acción, así que admite continuo." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada expresión de tiempo futuro con su traducción.",
+      "pares": [
+        { "a": "tonight", "b": "esta noche" },
+        { "a": "tomorrow morning", "b": "mañana en la mañana" },
+        { "a": "this weekend", "b": "este fin de semana" },
+        { "a": "next week", "b": "la próxima semana" },
+        { "a": "on Friday", "b": "el viernes" },
+        { "a": "the day after tomorrow", "b": "pasado mañana" }
+      ],
+      "pistas": [
+        "Son las expresiones que convierten el continuo en un plan.",
+        "tomorrow = mañana (el día); morning = la mañana (la parte del día).",
+        "the day after tomorrow = «el día después de mañana»."
+      ],
+      "solucion": { "respuesta": "tonight = esta noche; tomorrow morning = mañana en la mañana; this weekend = este fin de semana; next week = la próxima semana; on Friday = el viernes; the day after tomorrow = pasado mañana", "explicacion": "Estas expresiones sitúan la acción en el futuro. Sin ellas, I'm meeting Ana se entendería como algo que ocurre ahora." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Es el horario de la terminal. Completa con la forma correcta de leave.",
+      "frase": "The bus to Puebla ___ at 7:15 every morning.",
+      "respuestas": [["leaves"]],
+      "traduccion": "El camión a Puebla sale a las 7:15 todas las mañanas.",
+      "errores_tipicos": {
+        "is leaving": "Es un horario fijo que se repite (every morning): presente simple.",
+        "leave": "the bus = it: presente simple con -s (leaves)."
+      },
+      "pistas": [
+        "¿Es un plan personal o un horario?",
+        "Horario fijo y repetido (every morning).",
+        "Presente simple + -s para the bus."
+      ],
+      "solucion": { "respuesta": "leaves", "explicacion": "Es el horario oficial del camión, que además se repite cada mañana: presente simple, con -s porque the bus es tercera persona del singular." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa: el primer hueco es un horario (start) y el segundo, un plan acordado (meet).",
+      "frase": "Tomorrow my English class ___ at six, and after class I ___ Ben for coffee.",
+      "respuestas": [["starts"], ["am meeting"]],
+      "traduccion": "Mañana mi clase de inglés empieza a las seis y después de clase me veo con Ben para tomar un café.",
+      "errores_tipicos": {
+        "start | am meeting": "my English class = it: starts, con -s.",
+        "starts | meeting": "Falta am delante de meeting.",
+        "starts | am meet": "Después de am el verbo va en -ing: meeting."
+      },
+      "pistas": [
+        "Un hueco es un horario de la escuela; el otro, algo que quedaste con Ben.",
+        "Horario → presente simple; plan → presente continuo.",
+        "Horario: presente simple con -s de tercera persona; plan: be en la forma de I + verbo -ing."
+      ],
+      "solucion": { "respuesta": "starts / am meeting", "explicacion": "La hora de la clase la fija la escuela: presente simple (starts). Quedar con Ben es un plan personal acordado: presente continuo (am meeting)." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte el plan en pregunta de sí o no.",
+      "origen": "Priya is flying to Mérida on Monday.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Is Priya flying to Mérida on Monday", "Is Priya flying to Merida on Monday"],
+      "errores_tipicos": {
+        "Does Priya fly to Mérida on Monday": "Es un plan en presente continuo: la pregunta se hace con Is.",
+        "Priya is flying to Mérida on Monday?": "Falta la inversión: Is va delante de Priya."
+      },
+      "pistas": [
+        "La oración está en presente continuo.",
+        "Mueve is delante del sujeto.",
+        "Be + sujeto + verbo -ing + destino + día?, como en Is Tom driving to Puebla on Friday?"
+      ],
+      "solucion": { "respuesta": "Is Priya flying to Mérida on Monday?", "explicacion": "Las preguntas sobre planes siguen la regla del presente continuo: be delante del sujeto. El verbo sigue en -ing y la expresión on Monday mantiene el sentido futuro." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y escribe la corrección.",
+      "frase": "Tomorrow I see the dentist at ten.",
+      "error": "I see",
+      "correcciones": ["I'm seeing"],
+      "frase_correcta": "Tomorrow I'm seeing the dentist at ten.",
+      "pistas": [
+        "Es una cita personal ya acordada.",
+        "En español se dice con presente simple, pero en inglés no.",
+        "Plan acordado → sujeto + am + -ing."
+      ],
+      "solucion": { "respuesta": "I see → I'm seeing", "explicacion": "Una cita personal (con el dentista, a las diez) es un plan acordado: presente continuo. «Tomorrow I see…» es un calco de «mañana veo al dentista». Aquí see = ver a alguien, visitar, y con ese sentido sí admite continuo." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.08",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Señala el error y escribe la corrección.",
+      "frase": "The museum is opening at ten every day.",
+      "error": "is opening",
+      "correcciones": ["opens"],
+      "frase_correcta": "The museum opens at ten every day.",
+      "pistas": [
+        "¿Quién decide la hora: tú o el museo?",
+        "Es un horario fijo que se repite (every day).",
+        "Horario → presente simple con -s."
+      ],
+      "solucion": { "respuesta": "is opening → opens", "explicacion": "La hora de apertura es un horario oficial que se repite: presente simple, opens (con -s para the museum = it)." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.09",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Una compañera de trabajo quiere invitarte a algo.",
+      "lineas": [
+        { "quien": "Grace", "en": "Are you doing anything on Saturday?", "es": "¿Vas a hacer algo el sábado?" }
+      ],
+      "opciones": [
+        { "texto": "Yes, I'm visiting my grandparents.", "correcta": true, "porque": "Correcta: responde con un plan acordado en presente continuo." },
+        { "texto": "Yes, I do.", "correcta": false, "porque": "La pregunta usa Are, así que la respuesta corta sería Yes, I am; además conviene decir cuál es el plan." },
+        { "texto": "Yes, I visit my grandparents.", "correcta": false, "porque": "El presente simple suena a costumbre; para un plan de este sábado usa el continuo." },
+        { "texto": "No, I'm not doing nothing.", "correcta": false, "porque": "En inglés estándar no se usan dos negaciones: I'm not doing anything." }
+      ],
+      "pistas": [
+        "La pregunta es sobre un plan del sábado.",
+        "Se contesta con el mismo tiempo: presente continuo.",
+        "Yes, I'm + verbo -ing…"
+      ],
+      "solucion": { "respuesta": "Yes, I'm visiting my grandparents.", "explicacion": "Are you doing anything…? pregunta por planes; la respuesta natural usa el presente continuo para contar el plan: I'm visiting my grandparents." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés usando el presente continuo de have dinner. Pon tomorrow night al final.",
+      "es": "Mañana en la noche ceno con Ana.",
+      "respuestas": ["I'm having dinner with Ana tomorrow night"],
+      "errores_tipicos": {
+        "I have dinner with Ana tomorrow night": "Calco del español: un plan acordado se expresa con el presente continuo (I'm having).",
+        "I'm having dinner with Ana tomorrow in the night": "«Mañana en la noche» se dice tomorrow night."
+      },
+      "pistas": [
+        "En español usas el presente simple, pero es un plan acordado.",
+        "Plan → be + -ing + expresión futura.",
+        "Sujeto + be + having + comida + with + persona + expresión futura, como en We're having lunch with Tom on Sunday."
+      ],
+      "solucion": { "respuesta": "I'm having dinner with Ana tomorrow night.", "explicacion": "El español usa el presente («ceno») para planes; el inglés, el presente continuo: I'm having dinner. tomorrow night = mañana en la noche." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe las dos oraciones.",
+      "texto": "The train leaves at six, so we're getting up at five.",
+      "pistas": [
+        "La primera parte es un horario; la segunda, lo que ustedes han decidido.",
+        "Horario → presente simple; plan → presente continuo.",
+        "Horario: presente simple con -s; plan: we're + verbo -ing (get es CVC y duplica la t)."
+      ],
+      "solucion": { "respuesta": "The train leaves at six, so we're getting up at five.", "explicacion": "leaves (horario del tren) está en presente simple; we're getting up (plan decidido por ellos) en presente continuo. getting duplica la t." }
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "What are you doing this weekend? I'm meeting Ana on Friday.",
+      "ipa": "/ˈwʌt ər jə ˈduɪŋ ðɪs ˈwikɛnd ‖ aɪm ˈmitɪŋ ˈænə ɑn ˈfraɪdeɪ/",
+      "consejo": "En la pregunta, are you se reduce («er-ya») y la voz baja al final. En la respuesta, acentúa meeting y Friday. Recuerda: this con /ð/ (lengua entre los dientes, con vibración) y weekend con el acento en WEEK.",
+      "es": "¿Qué vas a hacer este fin de semana? El viernes me veo con Ana."
+    },
+    {
+      "id": "simple-o-continuo.continuo-para-planes.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe tu agenda para la próxima semana.",
+      "objetivo": "Usar el presente continuo para planes acordados y el presente simple para horarios.",
+      "instrucciones": "Un amigo quiere verte la próxima semana. Escríbele un mensaje con tu agenda: al menos 4 planes acordados (con día o momento: on Monday, on Tuesday evening, on Friday…) y al menos un horario fijo (una clase, un vuelo, un camión, una película). Termina proponiendo un día libre.",
+      "vocabulario_apoyo": ["on Monday", "on Tuesday evening", "tomorrow", "next week", "meet", "have lunch / dinner", "visit", "fly", "start", "leave", "free"],
+      "estructuras": ["On Monday I'm …-ing …", "I'm not …-ing on …", "My class starts at …", "The bus leaves at …", "Are you free on …?"],
+      "ejemplo": "Hi, Sam! This week is busy. On Monday I'm working late. On Wednesday I'm visiting my aunt. The movie starts at eight on Thursday, so I'm meeting Ana at seven.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        { "descripcion": "Usas el presente continuo (I'm / we're … -ing)", "patron": "\\b(i'm|i am|we're|we are) (not )?\\w+ing\\b" },
+        { "descripcion": "Usas un día de la semana con on", "patron": "\\bon (monday|tuesday|wednesday|thursday|friday|saturday|sunday)\\b" },
+        { "descripcion": "Usas un horario en presente simple (starts, leaves, opens, arrives…)", "patron": "\\b(starts|leaves|opens|arrives|begins|finishes|closes|ends)\\b" }
+      ],
+      "criterios": [
+        "¿Cada plan tiene una expresión de tiempo futuro?",
+        "¿Usaste el presente continuo para tus planes y el simple para los horarios?",
+        "¿Los horarios llevan -s cuando el sujeto es it (the class starts)?",
+        "¿Evitaste verbos de estado en continuo (nada de I'm wanting, I'm needing)?"
+      ],
+      "modelo": "Hi, Carlos! Next week is very busy. On Monday I'm having lunch with my boss. On Tuesday evening I'm playing soccer with my cousins. My English course starts on Wednesday at seven, and after class I'm meeting Mei. On Thursday I'm flying to Guadalajara for work. My flight leaves at 6 a.m.! I'm not doing anything on Friday evening. Are you free?",
+      "explicacion": "Cada plan personal usa el presente continuo con una expresión de tiempo: On Monday I'm having lunch, On Tuesday evening I'm playing, I'm meeting Mei, On Thursday I'm flying. Los horarios fijos van en presente simple: My English course starts, My flight leaves. La negación I'm not doing anything on Friday evening sirve para ofrecer un día libre. Are you free? es be + adjetivo, no un verbo en -ing.",
+      "errores_comunes": [
+        "Olvidar la expresión de tiempo: «I'm meeting Mei» (se entiende ahora).",
+        "Usar el continuo para horarios: «My flight is leaving at 6 every day».",
+        "Calcar el español: «On Monday I have lunch with my boss» para un plan concreto."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Nos vemos el fin de semana?",
+    "contexto": "Tu amigo Omar quiere organizar algo para el fin de semana y te llama.",
+    "dialogo": [
+      { "quien": "Omar", "en": "Hi! What are you doing this weekend?", "es": "¡Hola! ¿Qué vas a hacer este fin de semana?" },
+      { "quien": "Tú", "en": "…", "es": "(Cuenta dos planes ya acordados.)" },
+      { "quien": "Omar", "en": "Are you doing anything on Sunday afternoon? There's a soccer game. It starts at four.", "es": "¿Vas a hacer algo el domingo en la tarde? Hay un partido de futbol. Empieza a las cuatro." },
+      { "quien": "Tú", "en": "…", "es": "(Acepta o rechaza, y di a qué hora sale tu camión o termina algo.)" }
+    ],
+    "tu_turno": "Contesta a Omar: cuenta al menos dos planes acordados con presente continuo y una expresión de tiempo, responde a su invitación y menciona un horario en presente simple.",
+    "modelo": "On Saturday morning I'm helping my dad in his store, and in the evening I'm having dinner with my cousins. On Sunday afternoon I'm not doing anything, so I'd love to go! My bus arrives at three, so it's perfect.",
+    "alternativas": [
+      "I'm visiting my grandma on Saturday, and on Sunday morning I'm playing tennis with Ben. Sorry, on Sunday afternoon I'm working. My shift finishes at eight.",
+      "This weekend I'm going to a wedding on Saturday. On Sunday I'm free. What time does the game finish?"
+    ],
+    "claves": [
+      "Plan acordado: I'm + -ing + on Saturday / this weekend / tomorrow.",
+      "No tengo planes: I'm not doing anything on…",
+      "Horario: The game starts at four. My bus arrives at three. (I'd love to = me encantaría, expresión fija)"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Presente continuo + expresión de tiempo futuro = plan ya acordado (I'm meeting Ana on Friday).",
+      "Preguntas por planes: What are you doing this weekend? Are you doing anything on Saturday?",
+      "Presente simple para horarios y programas oficiales (The train leaves at 6. The course starts on Monday).",
+      "Plan personal → continuo; horario de una institución → simple."
+    ],
+    "recuerda": [
+      "Sin expresión de tiempo (ni contexto), el continuo se entiende como «ahora».",
+      "«Mañana veo a Ana» = I'm seeing Ana tomorrow, no «Tomorrow I see Ana».",
+      "What time does the bus leave? (does + verbo base)."
+    ]
+  },
+  "repaso": [
+    { "id": "simple-o-continuo.continuo-para-planes.r1", "frente": "«El viernes me veo con Ana» (ya quedamos)", "reverso": "I'm meeting Ana on Friday." },
+    { "id": "simple-o-continuo.continuo-para-planes.r2", "frente": "¿Por qué The train leaves at 6 y no is leaving?", "reverso": "Porque es un horario oficial: presente simple." },
+    { "id": "simple-o-continuo.continuo-para-planes.r3", "frente": "¿Qué vas a hacer este fin de semana? (en inglés)", "reverso": "What are you doing this weekend?", "nota": "What do you do on weekends? = costumbre." },
+    { "id": "simple-o-continuo.continuo-para-planes.r4", "frente": "I'm meeting Ana / I'm meeting Ana on Friday", "reverso": "Sin tiempo = ahora mismo; con on Friday = plan futuro." },
+    { "id": "simple-o-continuo.continuo-para-planes.r5", "frente": "¿A qué hora abre la tienda? (en inglés)", "reverso": "What time does the store open?" }
+  ]
+}

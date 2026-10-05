@@ -1,0 +1,1079 @@
+{
+  "slug": "how-often",
+  "titulo": "How often? Expresiones de frecuencia",
+  "minutos": 35,
+  "objetivos": [
+    "Preguntar con How often + do / does + sujeto + verbo base.",
+    "Responder con once, twice, three times + a day / a week / a month / a year.",
+    "Usar every day, every Monday, every morning y on weekends al final de la oración.",
+    "Evitar los calcos «one time for week» y «all the days»."
+  ],
+  "situacion": {
+    "titulo": "En la consulta de la nutrióloga",
+    "texto": "Diego va a la nutrióloga. Ella necesita saber con qué frecuencia hace ciertas cosas, y ya no le basta con «a veces» o «seguido»: quiere números. Fíjate en cómo pregunta y dónde van las respuestas.",
+    "dialogo": [
+      {
+        "quien": "Nutrióloga",
+        "en": "How often do you eat fruit, Diego?",
+        "es": "¿Con qué frecuencia comes fruta, Diego?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Every day. I have a banana every morning.",
+        "es": "Todos los días. Me como un plátano todas las mañanas."
+      },
+      {
+        "quien": "Nutrióloga",
+        "en": "Good. And how often do you exercise?",
+        "es": "Bien. ¿Y cada cuánto haces ejercicio?"
+      },
+      {
+        "quien": "Diego",
+        "en": "I play basketball twice a week, on Tuesdays and Thursdays.",
+        "es": "Juego basquetbol dos veces por semana, los martes y los jueves."
+      },
+      {
+        "quien": "Nutrióloga",
+        "en": "And fast food?",
+        "es": "¿Y comida rápida?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Hmm… three or four times a week.",
+        "es": "Mmm… tres o cuatro veces a la semana."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "pregunta-how-often",
+      "titulo": "La pregunta How often…?",
+      "que_es": "[[How often]] significa «¿con qué frecuencia?» o «¿cada cuánto?». Es una palabra interrogativa de dos piezas que abre una pregunta normal de presente simple con [[do]] / [[does]].",
+      "para_que": [
+        "Averiguar hábitos concretos: [[How often do you go to the dentist?]]",
+        "Preguntar por horarios de transporte o servicios: [[How often does the bus come?]]",
+        "Mantener una conversación sobre la rutina de otra persona sin conformarte con «a veces»."
+      ],
+      "como_funciona": "La pregunta tiene la misma estructura que cualquier pregunta con palabra interrogativa en presente simple, solo que la palabra interrogativa ocupa dos fichas: **How often + do / does + sujeto + verbo en forma base**.\n\n• Con I, you, we, they y sujetos plurales → [[do]]: [[How often do your parents call you?]]\n• Con he, she, it y cualquier sujeto singular → [[does]], y el verbo pierde la -s: [[How often does Tom cook?]] (no «does Tom cooks»).\n• Con be no hay do / does: [[How often are you late?]] (be + sujeto).\n\nSe puede responder con un adverbio ([[Always.]] / [[Never.]]) o con una expresión de frecuencia ([[Twice a week.]]), que verás en el siguiente concepto. Una respuesta corta sin oración completa es totalmente natural.",
+      "estructuras": [
+        {
+          "etiqueta": "Con un verbo normal",
+          "formula": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do / does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "visit",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Cada cuánto te visita tu hermana?"
+        },
+        {
+          "etiqueta": "Con be",
+          "formula": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "complemento?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Qué tan seguido llegas tarde?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How often do you go to the dentist?",
+          "es": "¿Cada cuánto vas al dentista?",
+          "partes": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "go",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the dentist",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "you → do. El verbo go va en forma base, como en cualquier pregunta con do."
+        },
+        {
+          "en": "How often does the bus come?",
+          "es": "¿Cada cuánto pasa el autobús?",
+          "partes": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "come",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "the bus = it → does. La -s está en does, por eso come queda sin -s. En inglés el autobús «viene» (come), no «pasa»."
+        },
+        {
+          "en": "How often do your parents call you?",
+          "es": "¿Cada cuánto te llaman tus papás?",
+          "partes": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "your parents es plural (they) → do."
+        },
+        {
+          "en": "How often is your brother late for work?",
+          "es": "¿Qué tan seguido llega tarde al trabajo tu hermano?",
+          "partes": [
+            {
+              "t": "How often",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "your brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late for work",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con be no hay do / does: is se pone delante del sujeto, como en cualquier pregunta con be."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "How often do you…?",
+          "ipa": "/haʊ ˈɔːfən də jə/",
+          "consejo": "How suena como el diptongo «au» de «aula». often lleva el acento y normalmente sin t. do you se reduce muchísimo en habla normal: /də jə/, casi «diyu» o «dya»; no pronuncies cada palabra con fuerza.",
+          "lento": true
+        },
+        {
+          "texto": "How often does she…?",
+          "ipa": "/haʊ ˈɔːfən dəz ʃi/",
+          "consejo": "does también se reduce a /dəz/, con una vocal muy débil. La z de does se une a la sh de she."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "How often you go to the gym?",
+          "bien": "How often do you go to the gym?",
+          "porque": "En presente simple la pregunta necesita el auxiliar do / does después de la palabra interrogativa."
+        },
+        {
+          "mal": "How often does Tom cooks?",
+          "bien": "How often does Tom cook?",
+          "porque": "does ya se lleva la -s de tercera persona; el verbo principal va en forma base."
+        },
+        {
+          "mal": "How much do you go to the gym?",
+          "bien": "How often do you go to the gym?",
+          "porque": "how much pregunta por cantidad o precio. Para frecuencia (cuántas veces), how often."
+        }
+      ],
+      "nota": {
+        "titulo": "Otra forma de preguntar",
+        "texto": "También oirás [[How many times a week do you…?]] (¿cuántas veces a la semana…?), útil cuando quieres un número exacto. [[How often]] es más general y admite cualquier tipo de respuesta.",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "expresiones-de-frecuencia",
+      "titulo": "once, twice, every…: las respuestas exactas",
+      "que_es": "Las **expresiones de frecuencia** dicen exactamente cuántas veces pasa algo en un periodo: [[once a week]] (una vez a la semana), [[twice a month]] (dos veces al mes), [[every day]] (todos los días). A diferencia de always o never, son grupos de varias palabras y **van al final** de la oración.",
+      "para_que": [
+        "Dar datos concretos: [[I go to the gym three times a week.]]",
+        "Hablar de rutinas fijas: [[She calls her mom every Sunday.]]",
+        "Entender horarios: [[The bus comes every twenty minutes.]]"
+      ],
+      "como_funciona": "**1. Número de veces + a + periodo.**\n• 1 vez → [[once]] /wʌns/\n• 2 veces → [[twice]] /twaɪs/\n• 3 veces o más → número + [[times]]: three times, four times, ten times.\nDespués va [[a]] + periodo en singular: a day, a week, a month, a year. Es el mismo a de «un/una»: once a week = una vez (en) una semana. Por eso NO es «for week» ni «in the week». También existe [[per]] (three times per week), más formal o técnico. [[Two times]] se oye en EE. UU. en conversación, pero [[twice]] es lo normal y lo que debes usar.\n\n**2. every + sustantivo en singular.**\n[[every day]], [[every week]], [[every morning]], [[every Monday]], [[every summer]]. Ojo: every va con singular (every day, no «every days»). La excepción lógica es cuando pones un número: [[every two hours]], [[every twenty minutes]] (cada dos horas).\n\n**3. on + día en plural** para una costumbre semanal: [[on Mondays]], [[on weekends]] (en británico: at the weekend / at weekends).\n\n**Posición:** al final de la oración (o, para dar énfasis, al principio). Nunca entre el sujeto y el verbo como los adverbios de una palabra: [[I every day walk]] es incorrecto.",
+      "estructuras": [
+        {
+          "etiqueta": "Número de veces + a + periodo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "once / twice / three times + a + day / week…",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "go",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the gym",
+              "rol": "complemento"
+            },
+            {
+              "t": "three times a week",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Voy al gimnasio tres veces a la semana."
+        },
+        {
+          "etiqueta": "every + singular",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "every + day / Sunday / morning…",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "calls",
+              "rol": "verbo"
+            },
+            {
+              "t": "her mom",
+              "rol": "complemento"
+            },
+            {
+              "t": "every Sunday",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Le llama a su mamá cada domingo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Cómo se dice «x veces por…»",
+          "columnas": [
+            "Español",
+            "Inglés",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "una vez al día",
+              "once a day",
+              "I check my email once a day."
+            ],
+            [
+              "dos veces a la semana",
+              "twice a week",
+              "We play soccer twice a week."
+            ],
+            [
+              "tres veces al mes",
+              "three times a month",
+              "They eat out three times a month."
+            ],
+            [
+              "una vez al año",
+              "once a year",
+              "I see my cousins once a year."
+            ],
+            [
+              "todos los días",
+              "every day",
+              "Mei studies English every day."
+            ],
+            [
+              "cada dos horas",
+              "every two hours",
+              "The baby eats every two hours."
+            ],
+            [
+              "los fines de semana",
+              "on weekends",
+              "Sam works on weekends."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Mei studies English every day.",
+          "es": "Mei estudia inglés todos los días.",
+          "partes": [
+            {
+              "t": "Mei",
+              "rol": "sujeto"
+            },
+            {
+              "t": "studies",
+              "rol": "verbo"
+            },
+            {
+              "t": "English",
+              "rol": "complemento"
+            },
+            {
+              "t": "every day",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "every day (dos palabras) va al final. Escrito junto, everyday es un adjetivo (everyday clothes = ropa de diario): no lo confundas."
+        },
+        {
+          "en": "I check my email once a day.",
+          "es": "Reviso mi correo una vez al día.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "check",
+              "rol": "verbo"
+            },
+            {
+              "t": "my email",
+              "rol": "complemento"
+            },
+            {
+              "t": "once a day",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "once = una vez. En español decimos «al día»; en inglés es a day, no «to the day» ni «for day»."
+        },
+        {
+          "en": "We play soccer twice a week.",
+          "es": "Jugamos futbol dos veces a la semana.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "play",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            },
+            {
+              "t": "twice a week",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "twice = dos veces. Es una sola palabra y es la forma normal."
+        },
+        {
+          "en": "They eat out three times a month.",
+          "es": "Comen fuera tres veces al mes.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "eat out",
+              "rol": "verbo"
+            },
+            {
+              "t": "three times a month",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "A partir de tres: número + times (plural, porque son varias veces)."
+        },
+        {
+          "en": "The bus comes every twenty minutes.",
+          "es": "El autobús pasa cada veinte minutos.",
+          "partes": [
+            {
+              "t": "The bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "comes",
+              "rol": "verbo"
+            },
+            {
+              "t": "every twenty minutes",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "every + número + plural = «cada x minutos / horas / días». Sin número, every va con singular."
+        },
+        {
+          "en": "Every summer we visit my grandparents.",
+          "es": "Cada verano visitamos a mis abuelos.",
+          "nota": "La expresión también puede abrir la oración para darle énfasis. Lo que no puede es ir entre el sujeto y el verbo."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Adverbio de una palabra: en medio",
+          "items": [
+            "I always walk to work.",
+            "She often calls me.",
+            "We never eat out."
+          ]
+        },
+        "b": {
+          "titulo": "Expresión de varias palabras: al final",
+          "items": [
+            "I walk to work every day.",
+            "She calls me twice a week.",
+            "We eat out once a month."
+          ]
+        },
+        "veredicto": "always, usually, often, sometimes, rarely y never van entre el sujeto y el verbo. once a week, every day, on Mondays y compañía van al final (o al principio para dar énfasis). Si es un grupo de palabras con número o con every, mándalo al final."
+      },
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "twice a week: dos veces, cada semana",
+        "marcas": [
+          {
+            "pos": 0.08,
+            "texto": "Tue",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.3,
+            "texto": "Thu",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.58,
+            "texto": "Tue",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.8,
+            "texto": "Thu",
+            "tipo": "repeticion"
+          }
+        ],
+        "ahora": 0.5,
+        "pie": "I play basketball twice a week: dos veces en cada semana, antes y después de hoy. Es un hábito que se repite, por eso va con presente simple."
+      },
+      "pronunciacion": [
+        {
+          "texto": "once a week",
+          "ipa": "/wʌns ə ˈwiːk/",
+          "consejo": "once empieza con el sonido /w/ (como la u de «huevo»), NO con o: la o escrita engaña. Luego /ʌ/, una a corta, y /ns/. Se une a la a: «wansa». week con i larga.",
+          "lento": true
+        },
+        {
+          "texto": "twice a month",
+          "ipa": "/twaɪs ə ˈmʌnθ/",
+          "consejo": "twice: t + u rápida + «ais», termina en /s/ sorda. En month, el final /nθ/ lleva la lengua entre los dientes, como la z de España; no la cambies por t ni por s."
+        },
+        {
+          "texto": "three times a year",
+          "ipa": "/θriː ˈtaɪmz ə ˈjɪr/",
+          "consejo": "three empieza con /θ/: lengua entre los dientes, sopla sin voz; no es «tri». times termina en /z/ sonora. year empieza con /j/, como la y de «yo» pero suave."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I go to the gym three times for week.",
+          "bien": "I go to the gym three times a week.",
+          "porque": "Calco de «por semana». En inglés el periodo se introduce con a (o per, más formal), nunca con for."
+        },
+        {
+          "mal": "I go to the gym one time a week.",
+          "bien": "I go to the gym once a week.",
+          "porque": "Para una vez se usa once. One time existe en habla muy informal, pero once es la forma normal."
+        },
+        {
+          "mal": "We work all the days.",
+          "bien": "We work every day.",
+          "porque": "«Todos los días» se dice every day (singular). All the days es un calco que no se usa con este sentido."
+        },
+        {
+          "mal": "I every day walk to school.",
+          "bien": "I walk to school every day.",
+          "porque": "Las expresiones de varias palabras van al final, no entre el sujeto y el verbo."
+        },
+        {
+          "mal": "She visits us every weeks.",
+          "bien": "She visits us every week.",
+          "porque": "every va con sustantivo en singular."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión con su traducción.",
+      "pares": [
+        {
+          "a": "once a week",
+          "b": "una vez a la semana"
+        },
+        {
+          "a": "twice a month",
+          "b": "dos veces al mes"
+        },
+        {
+          "a": "three times a year",
+          "b": "tres veces al año"
+        },
+        {
+          "a": "every day",
+          "b": "todos los días"
+        },
+        {
+          "a": "every morning",
+          "b": "todas las mañanas"
+        },
+        {
+          "a": "on weekends",
+          "b": "los fines de semana"
+        }
+      ],
+      "pistas": [
+        "Recuerda: once = 1 vez, twice = 2 veces, y desde 3 se usa número + times.",
+        "Mira la última palabra de cada expresión: day, week, month, year, morning, weekends.",
+        "every + singular = «todos los / todas las…»; on + día en plural = una costumbre semanal."
+      ],
+      "solucion": {
+        "respuesta": "once a week = una vez a la semana; twice a month = dos veces al mes; three times a year = tres veces al año; every day = todos los días; every morning = todas las mañanas; on weekends = los fines de semana",
+        "explicacion": "once y twice son palabras propias para una y dos veces; a partir de tres se dice three times. El periodo va con a (a week, a month, a year). every + singular equivale a «todos los / todas las», y on weekends indica algo que pasa cada fin de semana."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la mejor respuesta a la pregunta.",
+      "pregunta": "How often do you visit your grandparents?",
+      "opciones": [
+        {
+          "texto": "Twice a month.",
+          "correcta": true,
+          "porque": "Correcta: How often pide una frecuencia y twice a month lo es."
+        },
+        {
+          "texto": "Two times for month.",
+          "correcta": false,
+          "porque": "for no introduce el periodo: se dice a month (o per month). Además, lo normal es twice."
+        },
+        {
+          "texto": "Yes, I do.",
+          "correcta": false,
+          "porque": "How often no es una pregunta de sí o no: pide cuántas veces."
+        },
+        {
+          "texto": "In Puebla.",
+          "correcta": false,
+          "porque": "Eso responde a Where…? (dónde), no a How often…? (cada cuánto)."
+        }
+      ],
+      "pistas": [
+        "Piensa qué información pide How often.",
+        "Descarta las opciones que responden a otra pregunta (sí/no, dónde).",
+        "La respuesta debe ser una frecuencia con once / twice / … + a + periodo."
+      ],
+      "solucion": {
+        "respuesta": "Twice a month.",
+        "explicacion": "How often pregunta con qué frecuencia. Twice a month (dos veces al mes) es una expresión de frecuencia bien formada: twice + a + periodo."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe una sola palabra en cada hueco.",
+      "frase": "I go swimming ___ a week and I call my mom ___ day.",
+      "traduccion": "Voy a nadar una vez a la semana y le llamo a mi mamá todos los días.",
+      "respuestas": [
+        [
+          "once"
+        ],
+        [
+          "every"
+        ]
+      ],
+      "errores_tipicos": {
+        "one | every": "Una vez se dice once, en una sola palabra.",
+        "once | all": "«Todos los días» es every day; all day significa «todo el día»."
+      },
+      "pistas": [
+        "Primero «una vez», luego «todos los…».",
+        "El primer hueco es una sola palabra que significa una vez; el segundo va delante de day en singular.",
+        "«Una vez» tiene su propia palabra (no es one); «todos los días» usa la palabra que va con un sustantivo en singular."
+      ],
+      "solucion": {
+        "respuesta": "once … every",
+        "explicacion": "Las respuestas son once (una vez) y every (every day = todos los días). Ojo: all day existe, pero significa «todo el día, el día entero», no «todos los días»."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta.",
+      "frase": "___ often ___ your brother play video games?",
+      "traduccion": "¿Cada cuánto juega videojuegos tu hermano?",
+      "respuestas": [
+        [
+          "How"
+        ],
+        [
+          "does"
+        ]
+      ],
+      "errores_tipicos": {
+        "how | do": "your brother es tercera persona del singular (he): el auxiliar es does.",
+        "what | does": "¿Con qué frecuencia? se dice How often, no What often."
+      },
+      "pistas": [
+        "Es una pregunta sobre la frecuencia de un hábito.",
+        "Mira el sujeto: your brother. ¿Qué auxiliar le corresponde?",
+        "La palabra que acompaña a often es la misma de How old; con he / she / it el auxiliar lleva -es."
+      ],
+      "solucion": {
+        "respuesta": "How … does",
+        "explicacion": "La pregunta es How often does your brother play video games? How often pide la frecuencia, y does es el auxiliar porque your brother es tercera persona del singular. Por eso play va sin -s."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la pregunta.",
+      "fichas": [
+        "do",
+        "cook",
+        "how",
+        "you",
+        "dinner",
+        "often"
+      ],
+      "respuestas": [
+        "how often do you cook dinner"
+      ],
+      "traduccion": "¿Cada cuánto preparas la cena?",
+      "pistas": [
+        "Es una pregunta con palabra interrogativa.",
+        "La palabra interrogativa tiene dos piezas y va primero.",
+        "How often + do + you + verbo + complemento."
+      ],
+      "solucion": {
+        "respuesta": "How often do you cook dinner?",
+        "explicacion": "El orden es How often do you cook dinner?: palabra interrogativa (How often), auxiliar (do), sujeto (you), verbo en forma base (cook) y complemento (dinner)."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la oración.",
+      "fichas": [
+        "calls",
+        "every",
+        "mom",
+        "she",
+        "day",
+        "her"
+      ],
+      "respuestas": [
+        "she calls her mom every day",
+        "every day she calls her mom"
+      ],
+      "traduccion": "Le llama a su mamá todos los días.",
+      "pistas": [
+        "Hay una expresión de frecuencia de dos palabras.",
+        "Primero arma sujeto + verbo + complemento; luego decide dónde va every day.",
+        "Las expresiones de varias palabras van al final (o al principio, con énfasis), nunca entre el sujeto y el verbo."
+      ],
+      "solucion": {
+        "respuesta": "She calls her mom every day.",
+        "explicacion": "La respuesta natural es She calls her mom every day: sujeto + verbo + complemento y la expresión de frecuencia al final. Every day she calls her mom también es correcta (énfasis en «todos los días»)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "We go to the gym three times for week.",
+      "error": "for",
+      "correcciones": [
+        "a",
+        "per"
+      ],
+      "frase_correcta": "We go to the gym three times a week.",
+      "pistas": [
+        "El error está en la expresión de frecuencia.",
+        "Fíjate en la palabra que une three times con week.",
+        "El periodo se introduce con a (o per, más formal), no con una traducción de «por»."
+      ],
+      "solucion": {
+        "respuesta": "We go to the gym three times a week.",
+        "explicacion": "El error es for, un calco de «por semana». En inglés se dice three times a week; per week también es correcto, aunque suena más formal."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.08",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Escribe la pregunta con How often cuya respuesta sea la parte subrayada: on Saturdays.",
+      "origen": "Diego plays tennis on Saturdays.",
+      "instruccion": "Pregunta con How often",
+      "respuestas": [
+        "How often does Diego play tennis"
+      ],
+      "errores_tipicos": {
+        "How often Diego plays tennis": "Falta el auxiliar: en presente simple la pregunta necesita does después de How often.",
+        "How often does Diego plays tennis": "does ya se lleva la -s: el verbo principal va en forma base (play).",
+        "How often do Diego play tennis": "Diego es tercera persona del singular: el auxiliar es does."
+      },
+      "pistas": [
+        "Vas a preguntar por la frecuencia, así que on Saturdays desaparece.",
+        "El sujeto es Diego (he): elige el auxiliar correcto.",
+        "How often + does + Diego + verbo en forma base + tennis?"
+      ],
+      "solucion": {
+        "respuesta": "How often does Diego play tennis?",
+        "explicacion": "La pregunta es How often does Diego play tennis? Como Diego es tercera persona del singular, el auxiliar es does, y la -s de plays pasa a does: el verbo queda en forma base (play). La frecuencia (on Saturdays) es lo que se pregunta, así que no aparece."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa parents, go to the movies y twice.",
+      "es": "Mis papás van al cine dos veces al mes.",
+      "respuestas": [
+        "My parents go to the movies twice a month",
+        "Twice a month my parents go to the movies",
+        "My parents go to the movies twice per month"
+      ],
+      "errores_tipicos": {
+        "My parents go to the movies twice for month": "El periodo va con a: twice a month.",
+        "My parents goes to the movies twice a month": "My parents es plural (they): el verbo no lleva -s.",
+        "My parents twice a month go to the movies": "La expresión de frecuencia no va entre el sujeto y el verbo: al final (o al principio)."
+      },
+      "pistas": [
+        "Dos veces = twice; «al mes» = a + month.",
+        "El sujeto es plural: ¿lleva -s el verbo?",
+        "Sujeto plural + go + to the movies + twice a month (la expresión al final)."
+      ],
+      "solucion": {
+        "respuesta": "My parents go to the movies twice a month.",
+        "explicacion": "La traducción es My parents go to the movies twice a month. My parents es plural, así que go no lleva -s; twice a month es la expresión de frecuencia y va al final. «Mis papás» en el sentido de padre y madre es my parents."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la pregunta y la respuesta, y escríbelas.",
+      "texto": "How often does the bus come? Every twenty minutes.",
+      "respuestas": [
+        "How often does the bus come? Every 20 minutes."
+      ],
+      "pistas": [
+        "Son dos partes: una pregunta y una respuesta corta.",
+        "La pregunta usa does; la respuesta empieza por every.",
+        "every + número + minutes (plural) = cada x minutos."
+      ],
+      "solucion": {
+        "respuesta": "How often does the bus come? Every twenty minutes.",
+        "explicacion": "La pregunta es How often does the bus come? (the bus = it → does, y come en forma base). La respuesta es Every twenty minutes: con un número, every va seguido de plural (minutes). Puedes escribir el número con letra o con cifras."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.11",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "I go running once a week, and I swim twice a week.",
+      "ipa": "/aɪ ɡoʊ ˈrʌnɪŋ wʌns ə wiːk ən aɪ swɪm twaɪs ə wiːk/",
+      "consejo": "once empieza con /w/, no con o. twice termina en /s/ sorda y se une a la a siguiente: «twaisa». En week la i es larga y tensa, con los labios estirados. and se reduce a /ən/ en habla normal.",
+      "es": "Salgo a correr una vez a la semana y nado dos veces a la semana."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "En una entrevista para un trabajo de medio tiempo en una cafetería.",
+      "lineas": [
+        {
+          "quien": "Gerente",
+          "en": "We need someone on weekends. Do you have another job?",
+          "es": "Necesitamos a alguien los fines de semana. ¿Tienes otro empleo?"
+        },
+        {
+          "quien": "Tú",
+          "en": "Yes, I work at a bookstore.",
+          "es": "Sí, trabajo en una librería."
+        },
+        {
+          "quien": "Gerente",
+          "en": "I see. How often do you work there?",
+          "es": "Ya veo. ¿Cada cuánto trabajas ahí?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Three days a week, from Monday to Wednesday.",
+          "correcta": true,
+          "porque": "Correcta: da una frecuencia exacta con número + days + a week, y la expresión está bien formada."
+        },
+        {
+          "texto": "I every week work three days.",
+          "correcta": false,
+          "porque": "every week no va entre el sujeto y el verbo; además, la respuesta queda confusa. Mejor: I work three days a week."
+        },
+        {
+          "texto": "Three days for week.",
+          "correcta": false,
+          "porque": "Calco de «por semana»: el periodo va con a (a week)."
+        },
+        {
+          "texto": "Yes, I work.",
+          "correcta": false,
+          "porque": "How often no se responde con sí o no: pide una frecuencia."
+        }
+      ],
+      "pistas": [
+        "La última pregunta es How often…?: pide una frecuencia.",
+        "Descarta las respuestas con calcos del español o con un orden imposible.",
+        "Número + days / times + a + periodo; y si es una oración completa, la expresión va al final."
+      ],
+      "solucion": {
+        "respuesta": "Three days a week, from Monday to Wednesday.",
+        "explicacion": "La mejor respuesta es Three days a week, from Monday to Wednesday: contesta How often con una frecuencia bien construida (número + days + a week) y añade un detalle útil. Fíjate en que también puedes contar días, no solo veces: three days a week."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Tu semana en números",
+    "contexto": "Una amiga, Grace, está haciendo una encuesta para su clase sobre los hábitos de la gente. Te hace estas preguntas.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "How often do you exercise?",
+        "es": "¿Cada cuánto haces ejercicio?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "How often do you eat out?",
+        "es": "¿Cada cuánto comes fuera?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "And how often does your family get together?",
+        "es": "¿Y cada cuánto se reúne tu familia?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Responde las tres preguntas con oraciones completas. Usa al menos una expresión con once o twice, una con every y una con número + times.",
+    "modelo": "I go running twice a week, on Tuesdays and Fridays. I eat out three times a month, usually with friends. My family gets together every Sunday at my grandma's house.",
+    "alternativas": [
+      "I exercise every morning. I eat out once a week. My family gets together twice a year, at Christmas and in the summer.",
+      "I go to the gym three times a week. I rarely eat out, maybe once a month. My family gets together every weekend."
+    ],
+    "claves": [
+      "once / twice / three times + a + day / week / month / year.",
+      "every + singular: every Sunday, every morning.",
+      "La expresión va al final de la oración.",
+      "your family = it → gets (con -s)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "How often + do / does + sujeto + verbo base? → How often does she cook?",
+      "1 vez = once; 2 veces = twice; 3 o más = número + times.",
+      "El periodo va con a: once a week, twice a month, three times a year.",
+      "every + singular: every day, every Monday; con número, plural: every two hours.",
+      "Las expresiones de frecuencia van al final (o al principio para dar énfasis)."
+    ],
+    "recuerda": [
+      "No «for week»: a week (o per week, formal).",
+      "No «all the days»: every day.",
+      "every day (dos palabras) = todos los días; everyday (junto) = de diario.",
+      "Los adverbios de una palabra van en medio; las expresiones de varias palabras, al final."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.r1",
+      "frente": "¿Cómo se dice «dos veces a la semana»?",
+      "reverso": "twice a week",
+      "nota": "No «two times for week»."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.r2",
+      "frente": "Pregunta con How often: Tom / cook",
+      "reverso": "How often does Tom cook?",
+      "nota": "does se lleva la -s."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.r3",
+      "frente": "¿Dónde va every day en la oración?",
+      "reverso": "Al final → I walk to school every day.",
+      "nota": "Nunca «I every day walk»."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.how-often.r4",
+      "frente": "Traduce: todos los días / cada dos horas",
+      "reverso": "every day / every two hours",
+      "nota": "every + singular; con número, plural."
+    }
+  ]
+}

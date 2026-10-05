@@ -1,0 +1,467 @@
+{
+  "slug": "there-is-there-are-afirmativo",
+  "titulo": "There is y there are",
+  "minutos": 35,
+  "objetivos": [
+    "Decir que algo existe o está en un lugar con there is (singular e incontable) y there are (plural).",
+    "Usar la contracción there's y saber por qué there are no se contrae por escrito.",
+    "Presentar algo nuevo con there is y seguir hablando de ello con it o they.",
+    "Distinguir there, their y they're, que suenan igual."
+  ],
+  "situacion": {
+    "titulo": "Un departamento en renta",
+    "texto": "Mei busca departamento y llama a Tom, que acaba de visitar uno. Fíjate en cómo Tom dice lo que «hay» y en qué cambia cuando habla de una cosa o de varias.",
+    "dialogo": [
+      { "quien": "Mei", "en": "So, is the apartment nice?", "es": "Entonces, ¿está bonito el departamento?" },
+      { "quien": "Tom", "en": "Yes, it's great. There's a big kitchen and there are two bedrooms.", "es": "Sí, está genial. Hay una cocina grande y hay dos recámaras." },
+      { "quien": "Mei", "en": "And a bathroom?", "es": "¿Y baño?" },
+      { "quien": "Tom", "en": "There's one bathroom. It's small, but it's new.", "es": "Hay un baño. Es chico, pero es nuevo." },
+      { "quien": "Mei", "en": "Is there furniture?", "es": "¿Tiene muebles?" },
+      { "quien": "Tom", "en": "Yes, there's some furniture: there are two beds and there's a sofa.", "es": "Sí, hay algunos muebles: hay dos camas y hay un sillón." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "hay-singular-plural",
+      "titulo": "El «hay» del inglés: there is / there are",
+      "que_es": "[[There is]] y [[there are]] equivalen al «hay» del español. Sirven para decir que algo **existe** o **se encuentra** en un lugar. La diferencia con el español es que en inglés el verbo cambia según lo que viene detrás: [[is]] si es una sola cosa o algo que no se cuenta, [[are]] si son varias.",
+      "para_que": [
+        "Describir una habitación, una casa o una calle: [[There's a bed and there are two chairs.]]",
+        "Decir qué servicios hay cerca: [[There's a pharmacy near here.]]",
+        "Hablar de cantidades: [[There are twelve students in the class.]]"
+      ],
+      "como_funciona": "La palabra [[there]] ocupa el lugar del sujeto, pero el verdadero protagonista es lo que va **después** del verbo, y con eso concuerda: {{sujeto:There}} {{verbo:is}} {{complemento:a bank}} (un banco → singular) frente a {{sujeto:There}} {{verbo:are}} {{complemento:three banks}} (tres bancos → plural). Con un sustantivo contable en singular siempre va [[a]] o [[an]] (o [[one]]): [[There's a park]], nunca [[There's park]]. Con un incontable (agua, dinero, muebles, tráfico…) se usa [[is]] y no va [[a]]: [[There's water in the bottle.]] Con plurales puedes poner un número o [[some]] («algunos», «unos»): [[There are some books on the desk.]] En la conversación se contrae casi siempre [[there is]] → [[there's]]. [[There are]] **no** se contrae por escrito: al hablar suena rápido, casi «dérar», pero se escribe completo. Cuando enumeras varias cosas, el verbo concuerda con la **primera**: [[There's a table and four chairs.]] (primero viene «a table», singular) frente a [[There are four chairs and a table.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Singular o incontable",
+          "formula": [ { "t": "There", "rol": "sujeto" }, { "t": "is / 's", "rol": "verbo" }, { "t": "a / an + sustantivo · incontable", "rol": "complemento" }, { "t": "lugar", "rol": "otro" } ],
+          "ejemplo": [ { "t": "There", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a lamp", "rol": "complemento" }, { "t": "in my room", "rol": "otro" } ],
+          "es": "Hay una lámpara en mi cuarto."
+        },
+        {
+          "etiqueta": "Plural",
+          "formula": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "número / some + plural", "rol": "complemento" }, { "t": "lugar", "rol": "otro" } ],
+          "ejemplo": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "two windows", "rol": "complemento" }, { "t": "in the kitchen", "rol": "otro" } ],
+          "es": "Hay dos ventanas en la cocina."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Is o are? Depende de lo que viene detrás",
+          "columnas": ["Lo que hay", "Verbo", "Ejemplo"],
+          "filas": [
+            ["una cosa contable (a / an / one)", "is · 's", "There's an elevator in the building."],
+            ["algo incontable (sin a)", "is · 's", "There's some milk in the fridge."],
+            ["varias cosas (número o some)", "are", "There are three banks on this street."],
+            ["una lista que empieza en singular", "is · 's", "There's a desk and two chairs."],
+            ["una lista que empieza en plural", "are", "There are two chairs and a desk."]
+          ],
+          "audio": [2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There's a supermarket on my street.",
+          "es": "Hay un supermercado en mi calle.",
+          "situacion": "Le explicas a un vecino nuevo qué hay cerca.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a supermarket", "rol": "complemento" }, { "t": "on my street", "rol": "otro" } ],
+          "nota": "There's = there is. Singular con a, porque es un solo supermercado."
+        },
+        {
+          "en": "There are two bathrooms in the house.",
+          "es": "Hay dos baños en la casa.",
+          "partes": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "two bathrooms", "rol": "complemento" }, { "t": "in the house", "rol": "otro" } ],
+          "nota": "Are porque «two bathrooms» es plural. En español sería el mismo «hay» que en el ejemplo anterior; en inglés, no."
+        },
+        {
+          "en": "There's some water in the glass.",
+          "es": "Hay agua en el vaso.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "some water", "rol": "complemento" }, { "t": "in the glass", "rol": "otro" } ],
+          "nota": "Water es incontable: no lleva a y el verbo es is. Some aquí significa «un poco de» y en español normalmente no se traduce."
+        },
+        {
+          "en": "There are some students in the classroom.",
+          "es": "Hay unos estudiantes en el salón.",
+          "partes": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "some students", "rol": "complemento" }, { "t": "in the classroom", "rol": "otro" } ],
+          "nota": "Con plural sin número exacto, some equivale a «unos» o «algunos»."
+        },
+        {
+          "en": "There's a sofa and two armchairs in the living room.",
+          "es": "Hay un sofá y dos sillones en la sala.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a sofa and two armchairs", "rol": "complemento" }, { "t": "in the living room", "rol": "otro" } ],
+          "nota": "Aunque en total son tres muebles, el verbo concuerda con lo primero de la lista («a sofa»). Es lo habitual en inglés hablado y escrito."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Español: un solo «hay»", "items": ["Hay un banco.", "Hay dos bancos.", "Hay agua."] },
+        "b": { "titulo": "Inglés: is o are", "items": ["There's a bank.", "There are two banks.", "There's some water."] },
+        "veredicto": "En español «hay» no cambia nunca. En inglés tienes que mirar lo que viene detrás antes de decidir el verbo: una cosa o algo incontable → is; varias → are."
+      },
+      "pronunciacion": [
+        { "texto": "there", "ipa": "/ðɛr/ (británico /ðeə/)", "consejo": "Empieza con la punta de la lengua asomada entre los dientes y deja vibrar la voz: es la th sonora, como la «d» suave de «nada», pero con la lengua más adelante. La vocal es una «e» abierta y la r final se hace doblando la lengua hacia atrás sin tocar el paladar; en británico la r no suena.", "lento": true },
+        { "texto": "there's", "ipa": "/ðɛrz/", "consejo": "Una sola sílaba. La s final suena como zumbido de abeja /z/, no como la s del español: deja que vibren las cuerdas vocales.", "lento": true },
+        { "texto": "There are two beds.", "ipa": "/ðɛr ər tu bɛdz/", "consejo": "En la conversación are se reduce a una vocal débil /ər/ y se pega a there: casi «dérer tu beds». Por eso mucha gente no la oye; pero al escribir no se contrae: there are."}
+      ],
+      "errores": [
+        { "mal": "Have a bank near here.", "bien": "There's a bank near here.", "porque": "Calco del «hay» o del «tiene» del español. Have significa «tener» (poseer); para decir que algo existe en un lugar se usa there is / there are." },
+        { "mal": "Is a park in my neighborhood.", "bien": "There's a park in my neighborhood.", "porque": "En inglés toda oración necesita sujeto. Aquí el sujeto es there; sin él, is a park suena a pregunta mal hecha." },
+        { "mal": "There are a book on the table.", "bien": "There's a book on the table.", "porque": "A book es singular: el verbo tiene que ser is." },
+        { "mal": "There is two chairs.", "bien": "There are two chairs.", "porque": "Two chairs es plural. En inglés informal a veces se oye there's con plurales, pero es incorrecto en un examen y en la escritura." },
+        { "mal": "There's park near my house.", "bien": "There's a park near my house.", "porque": "Park es contable y singular: necesita a delante, igual que en español «hay un parque»." }
+      ],
+      "nota": { "titulo": "¿Y there're?", "texto": "Al hablar rápido sí se oye algo parecido a there're, pero no se considera forma escrita estándar. Escribe siempre there are.", "tono": "info" }
+    },
+    {
+      "id": "there-e-it",
+      "titulo": "Presentar con there, seguir con it o they",
+      "que_es": "[[There is]] presenta algo **nuevo** para quien escucha. Una vez presentado, ya no vuelves a usar there: hablas de esa cosa con [[it]] (singular) o [[they]] (plural), igual que en español pasas de «hay un parque» a «es muy grande».",
+      "para_que": [
+        "Describir algo con más detalle después de mencionarlo: [[There's a park. It's big.]]",
+        "Evitar el error de usar there is para describir algo que ya conoces."
+      ],
+      "como_funciona": "Primera mención → {{sujeto:There}} {{verbo:is/are}}. Segunda mención → {{sujeto:It}} {{verbo:is}} / {{sujeto:They}} {{verbo:are}} + adjetivo o lugar. Además, en la primera mención suele ir [[a/an]] o un número; en la segunda, si repites el sustantivo, va [[the]], porque ya es conocido: [[There's a café on the corner. The café is new.]] Para decir **dónde está** algo que ya conocemos, no usamos there: [[The bank is on Main Street.]] (el banco que ya sabemos que existe), no [[There is the bank on Main Street.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Presentar y describir",
+          "formula": [ { "t": "There is a …", "rol": "sujeto" }, { "t": "→", "rol": "otro" }, { "t": "It", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "adjetivo / lugar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "There's a market.", "rol": "sujeto" }, { "t": "→", "rol": "otro" }, { "t": "It", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very old", "rol": "complemento" } ],
+          "es": "Hay un mercado. Es muy antiguo."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There's a garden behind the house. It's small.",
+          "es": "Hay un jardín detrás de la casa. Es chico.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a garden", "rol": "complemento" }, { "t": "behind the house.", "rol": "otro" }, { "t": "It's", "rol": "sujeto" }, { "t": "small", "rol": "complemento" } ],
+          "nota": "Primero se presenta el jardín con there's; luego se describe con it's."
+        },
+        {
+          "en": "There are two cats in my building. They're black.",
+          "es": "Hay dos gatos en mi edificio. Son negros.",
+          "partes": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "two cats", "rol": "complemento" }, { "t": "in my building.", "rol": "otro" }, { "t": "They're", "rol": "sujeto" }, { "t": "black", "rol": "complemento" } ],
+          "nota": "Con plural la segunda mención es they. Ojo: black no lleva -s aunque los gatos sean dos; los adjetivos no tienen plural."
+        },
+        {
+          "en": "The station is next to the park.",
+          "es": "La estación está junto al parque.",
+          "partes": [ { "t": "The station", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "next to the park", "rol": "complemento" } ],
+          "nota": "Aquí no se usa there porque no presentamos la estación como algo nuevo: ya sabemos cuál es (the) y solo decimos dónde está."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "It's small.", "ipa": "/ɪts smɔl/", "consejo": "La i de it es corta y relajada, entre la «i» y la «e» del español. Une it's con la palabra siguiente sin pausa: «itsmól»." }
+      ],
+      "errores": [
+        { "mal": "There's a park near here. There is very big.", "bien": "There's a park near here. It's very big.", "porque": "There no describe: solo presenta. Para describir algo ya mencionado usa it (o they)." },
+        { "mal": "There is the bank on Main Street.", "bien": "The bank is on Main Street.", "porque": "Si ya se sabe de qué banco hablas (the), solo dices dónde está con be: The bank is…" }
+      ]
+    },
+    {
+      "id": "there-their-theyre",
+      "titulo": "There, their, they're: suenan igual",
+      "que_es": "Tres palabras distintas con la misma pronunciación /ðɛr/. [[There]] es «ahí / allá» y también la palabra de [[there is]]; [[their]] es el posesivo «su / sus» (de ellos); [[they're]] es la contracción de [[they are]] («ellos son / están»). Hasta los nativos las confunden al escribir.",
+      "para_que": [
+        "Escribir sin errores cuando describes lugares y personas.",
+        "Entender un dictado: el oído no las distingue, el contexto sí."
+      ],
+      "como_funciona": "Hazte una pregunta: ¿puedo cambiarla por [[they are]]? → escribe [[they're]]. ¿Va antes de un sustantivo y dice de quién es? → [[their]]. ¿Significa «hay» o «ahí»? → [[there]]. Además, no confundas [[There are]] (hay) con [[They are]] (ellos son / están): [[There are two teachers.]] = «Hay dos maestros»; [[They are teachers.]] = «Son maestros».",
+      "estructuras": [
+        {
+          "etiqueta": "Las tres en una oración",
+          "formula": [ { "t": "There are", "rol": "sujeto" }, { "t": "…", "rol": "complemento" }, { "t": "They're", "rol": "sujeto" }, { "t": "…", "rol": "complemento" }, { "t": "Their + sustantivo", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "There are two boys.", "rol": "sujeto" }, { "t": "They're", "rol": "sujeto" }, { "t": "brothers.", "rol": "complemento" }, { "t": "Their mom", "rol": "sujeto" }, { "t": "is a doctor", "rol": "complemento" } ],
+          "es": "Hay dos niños. Son hermanos. Su mamá es doctora."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are three people at the door.",
+          "es": "Hay tres personas en la puerta.",
+          "partes": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "three people", "rol": "complemento" }, { "t": "at the door", "rol": "otro" } ],
+          "nota": "People ya es plural (una persona = a person), por eso are."
+        },
+        {
+          "en": "They're my neighbors.",
+          "es": "Son mis vecinos.",
+          "partes": [ { "t": "They're", "rol": "sujeto" }, { "t": "my neighbors", "rol": "complemento" } ],
+          "nota": "They're = they are. Aquí no se dice que existan: se identifica a las personas."
+        },
+        {
+          "en": "Their house is very old.",
+          "es": "Su casa (de ellos) es muy vieja.",
+          "partes": [ { "t": "Their house", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "very old", "rol": "complemento" } ],
+          "nota": "Their = de ellos, siempre delante de un sustantivo."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Un sonido /ðɛr/, tres palabras",
+        "centro": "/ðɛr/",
+        "ramas": [
+          { "texto": "there", "detalle": "hay · ahí: There's a bank." },
+          { "texto": "their", "detalle": "su/sus de ellos: their car" },
+          { "texto": "they're", "detalle": "they are: They're tired." }
+        ]
+      },
+      "pronunciacion": [
+        { "texto": "there / their / they're", "ipa": "/ðɛr/", "consejo": "Las tres se dicen exactamente igual en inglés estadounidense. No intentes pronunciarlas distinto: la diferencia está solo en la escritura." }
+      ],
+      "errores": [
+        { "mal": "Their is a problem.", "bien": "There is a problem.", "porque": "Para «hay» se usa there. Their es un posesivo y necesita un sustantivo detrás." },
+        { "mal": "They are two banks on this street.", "bien": "There are two banks on this street.", "porque": "They are significa «ellos son/están». Para «hay» necesitas there are." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "___ a cat in the garden.",
+      "opciones": [
+        { "texto": "There's", "correcta": true, "porque": "Correcto: a cat es una sola cosa contable, así que va there is, que se contrae there's." },
+        { "texto": "There are", "correcta": false, "porque": "There are es para plurales (two cats, some cats). A cat es singular." },
+        { "texto": "Is", "correcta": false, "porque": "Falta el sujeto. En inglés «hay» necesita there delante del verbo." },
+        { "texto": "Have", "correcta": false, "porque": "Have significa «tener». No sirve para decir que algo existe en un lugar." }
+      ],
+      "pistas": [
+        "Recuerda: there is para una cosa, there are para varias.",
+        "Mira lo que viene detrás del hueco: ¿a cat es uno o varios?",
+        "Con a + sustantivo singular, el «hay» es there is (contraído, there's)."
+      ],
+      "solucion": { "respuesta": "There's", "explicacion": "La respuesta correcta es There's (there is) porque a cat es un sustantivo contable en singular. There are exigiría un plural; Is sin there no tiene sujeto; y have significa «tener», no «hay»." },
+      "audio": true
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con is o are.",
+      "frase": "In my bedroom there ___ a bed, and there ___ two windows.",
+      "respuestas": [["is"], ["are"]],
+      "banco": ["is", "are"],
+      "traduccion": "En mi recámara hay una cama y hay dos ventanas.",
+      "errores_tipicos": {
+        "are | are": "El primer hueco va con a bed, que es singular: there is.",
+        "is | is": "Two windows es plural: el segundo hueco necesita are."
+      },
+      "pistas": [
+        "El verbo concuerda con lo que viene DESPUÉS de there is / there are.",
+        "Primer hueco: a bed. Segundo hueco: two windows.",
+        "Regla: be concuerda con lo que va detrás: a + singular → is; número + plural → are."
+      ],
+      "solucion": { "respuesta": "is · are", "explicacion": "La respuesta correcta es is y luego are. A bed es una sola cama (singular), por eso there is; two windows son dos ventanas (plural), por eso there are. En español ambos son «hay», pero en inglés cada uno mira su sustantivo." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada comienzo con el final que concuerda.",
+      "pares": [
+        { "a": "There's a", "b": "lamp on the desk." },
+        { "a": "There are four", "b": "chairs in the kitchen." },
+        { "a": "There's some", "b": "money in my wallet." },
+        { "a": "There's an", "b": "old sofa in the living room." }
+      ],
+      "pistas": [
+        "Fíjate en si el final es singular, plural o incontable.",
+        "An va antes de sonido de vocal (old); un número + plural lleva there are.",
+        "Regla: a / an + singular contable → there's; número + plural → there are; some + incontable → there's."
+      ],
+      "solucion": { "respuesta": "a lamp · four chairs · some money · an old sofa", "explicacion": "There's a lamp (singular con a); There are four chairs (plural con número); There's some money (money es incontable: va con is y some, sin a); There's an old sofa (an porque old empieza con sonido vocálico)." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.04",
+      "tipo": "corregir",
+      "dificultad": 1,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Have a big park near my house.",
+      "error": "Have",
+      "correcciones": ["There's", "There is"],
+      "frase_correcta": "There's a big park near my house.",
+      "pistas": [
+        "¿Qué quiere decir la frase: «tengo» o «hay»?",
+        "La primera palabra traduce mal el «hay» del español.",
+        "Para decir que algo existe en un lugar se usa there is / there are, nunca have."
+      ],
+      "solucion": { "respuesta": "Have → There's", "explicacion": "La corrección es There's (o There is). La frase quiere decir «hay un parque grande cerca de mi casa». Have significa «tener» y además aquí no tiene sujeto; el «hay» del inglés es there is con singular." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "There are a new student in our class.",
+      "error": "are",
+      "correcciones": ["is"],
+      "frase_correcta": "There is a new student in our class.",
+      "pistas": [
+        "Revisa la concordancia entre el verbo y lo que viene después.",
+        "Mira qué hay detrás del verbo: a new student.",
+        "Regla: be concuerda con lo que va detrás: a/an + sustantivo singular pide la forma singular."
+      ],
+      "solucion": { "respuesta": "are → is", "explicacion": "La corrección es is: a new student es una sola persona (singular), así que el «hay» es there is. There are solo va con plurales como two new students." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la oración.",
+      "fichas": ["some", "on", "There", "apples", "table", "the", "are"],
+      "respuestas": ["There are some apples on the table"],
+      "traduccion": "Hay unas manzanas en la mesa.",
+      "pistas": [
+        "La oración empieza con el «hay» en plural.",
+        "Primero va el «hay», después lo que hay y al final el lugar.",
+        "Orden: There + be + cuantificador + sustantivo plural + preposición + lugar (como en There are some books in the box)."
+      ],
+      "solucion": { "respuesta": "There are some apples on the table.", "explicacion": "El orden es there + are + lo que hay + dónde está. Are porque apples es plural, y some («unas») va justo delante del sustantivo. El lugar (on the table) va al final, no al principio como en «En la mesa hay…»." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.07",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con there, their o they're.",
+      "frase": "___ are two new neighbors on my floor. ___ from Colombia, and ___ apartment is very nice.",
+      "respuestas": [["There"], ["They're", "They are"], ["Their"]],
+      "errores_tipicos": {
+        "their | they're | their": "El primer hueco es el «hay»: se escribe there, no their (posesivo).",
+        "there | there | their": "El segundo hueco significa «ellos son»: they're (they are).",
+        "there | they're | there": "El tercer hueco dice de quién es el departamento: their (de ellos)."
+      },
+      "pistas": [
+        "Las tres suenan igual; decide por el significado.",
+        "Hueco 1 = «hay»; hueco 2 = «(ellos) son»; hueco 3 = «su» de ellos.",
+        "Regla: there, they're y their suenan igual: una indica existencia, la del apóstrofo es pronombre + be y la otra es posesivo delante de sustantivo."
+      ],
+      "solucion": { "respuesta": "There · They're · Their", "explicacion": "There are = hay (dos vecinos). They're = they are (son de Colombia). Their apartment = su departamento (de ellos). Se pronuncian igual, así que se distinguen por la función: existencia, sujeto + verbo, o posesión." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la oración para que haya tres sillas.",
+      "origen": "There's a chair in the kitchen.",
+      "instruccion": "Plural: three chairs",
+      "respuestas": ["There are three chairs in the kitchen."],
+      "errores_tipicos": {
+        "There is three chairs in the kitchen": "Al pasar a plural el verbo también cambia: there are.",
+        "There are three chair in the kitchen": "Chair necesita -s en plural: three chairs.",
+        "There are a three chairs in the kitchen": "A solo va con singular; con un número se quita."
+      },
+      "pistas": [
+        "Cambian dos cosas: el verbo y el sustantivo.",
+        "Pasa el sustantivo a plural con el número tres. ¿Qué pasa con is?",
+        "Regla: there + be en plural + número + sustantivo con -s; el artículo a desaparece."
+      ],
+      "solucion": { "respuesta": "There are three chairs in the kitchen.", "explicacion": "Hay que cambiar tres cosas a la vez: is → are (plural), a → three (el artículo a solo va con singular) y chair → chairs (plural regular con -s). El lugar no cambia." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Mantén el orden de la frase española.",
+      "es": "Hay un parque y dos escuelas en mi barrio.",
+      "respuestas": [
+        "There is a park and two schools in my neighborhood.",
+        "There is a park and two schools in my neighbourhood.",
+        "There is a park and there are two schools in my neighborhood.",
+        "There is a park and there are two schools in my neighbourhood."
+      ],
+      "errores_tipicos": {
+        "There are a park and two schools in my neighborhood": "El verbo concuerda con lo primero de la lista, a park (singular): there's / there is.",
+        "Have a park and two schools in my neighborhood": "Have significa «tener». Para «hay» usa there is / there are.",
+        "There is park and two schools in my neighborhood": "Park es contable y singular: necesita a."
+      },
+      "pistas": [
+        "Empieza con el «hay» del inglés.",
+        "La lista empieza por «un parque»: ¿singular o plural?",
+        "Regla: con una lista, be concuerda con el primer elemento (como en There's a bed and two chairs in the room)."
+      ],
+      "solucion": { "respuesta": "There's a park and two schools in my neighborhood.", "explicacion": "Empieza con there is (o there's) porque el primer elemento de la lista, a park, es singular; el verbo concuerda con él aunque luego vengan dos escuelas. Neighborhood es la ortografía estadounidense; neighbourhood, la británica." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.10",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con there o it. Piensa si presentas algo nuevo o hablas de algo ya mencionado.",
+      "frase": "___'s a small café on the corner. ___'s very popular with students.",
+      "respuestas": [["There"], ["It"]],
+      "errores_tipicos": {
+        "there | there": "En la segunda oración el café ya se mencionó: se describe con it, no con there.",
+        "it | it": "La primera oración presenta el café por primera vez: se usa there ('s = is)."
+      },
+      "pistas": [
+        "There presenta; it describe lo que ya presentaste.",
+        "¿En qué oración aparece el café por primera vez?",
+        "Primera mención → there's; segunda mención (describir) → it's."
+      ],
+      "solucion": { "respuesta": "There · It", "explicacion": "There's a small café presenta el café como algo nuevo («hay un café»). En la segunda oración ya sabemos de qué café hablamos, así que lo describimos con it's («es muy popular»). Usar there otra vez significaría «hay muy popular», que no tiene sentido." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "There are two big windows in my bedroom.",
+      "pistas": [
+        "Empieza por el «hay» en plural; recuerda que are suena muy débil.",
+        "Escucharás un número, un adjetivo y un sustantivo plural.",
+        "Estructura: there + be + número + adjetivo + sustantivo plural + lugar. El adjetivo no lleva -s."
+      ],
+      "solucion": { "respuesta": "There are two big windows in my bedroom.", "explicacion": "Are se reduce a /ər/ y casi desaparece al hablar, pero se escribe completo. Big va delante de windows y no lleva -s aunque las ventanas sean dos. Bedroom es una sola palabra." }
+    },
+    {
+      "id": "there-is-there-are.there-is-there-are-afirmativo.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "There's a bank, and there are two cafés.",
+      "ipa": "/ðɛrz ə bæŋk ən ðɛr ər tu kæˈfeɪz/",
+      "consejo": "Pon la lengua entre los dientes en cada th (there) y deja vibrar la voz. There's termina en /z/ zumbada. And se reduce a /ən/ y are a /ər/: no las pronuncies con fuerza. Café lleva el acento en la segunda sílaba.",
+      "es": "Hay un banco y hay dos cafeterías."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué hay en tu cuarto?",
+    "contexto": "Estás en una videollamada con Priya, una amiga de otro país, y te pide que le describas tu cuarto.",
+    "dialogo": [
+      { "quien": "Priya", "en": "So, what's in your room?", "es": "A ver, ¿qué hay en tu cuarto?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Priya", "en": "Nice! Is it big?", "es": "¡Qué bien! ¿Es grande?" }
+    ],
+    "tu_turno": "Dile a Priya tres o cuatro cosas que hay en tu cuarto: al menos una con there's y otra con there are. Luego contesta si es grande o chico usando it's.",
+    "modelo": "There's a bed, a desk and a lamp. There are two windows and there are some books on the shelf. It's not very big, but it's nice.",
+    "alternativas": [
+      "There's a big bed and there are three pictures on the wall. It's small.",
+      "There are two beds because it's my room and my brother's room. There's also a TV. It's quite big."
+    ],
+    "claves": [
+      "There's + a/an + singular; there are + número/some + plural.",
+      "En una lista, el verbo concuerda con lo primero que nombras.",
+      "Para describir el cuarto después, usa it's, no there's."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "There is / there's + a/an + singular: There's a lamp.",
+      "There is + incontable, sin a: There's some water.",
+      "There are + número o some + plural: There are two chairs.",
+      "There are no se contrae por escrito.",
+      "There presenta algo nuevo; después se describe con it / they."
+    ],
+    "recuerda": [
+      "Nunca «Have a bank…» ni «Is a bank…» para decir «hay».",
+      "En una lista, el verbo va con el primer elemento.",
+      "There, their y they're suenan igual (/ðɛr/) pero significan cosas distintas."
+    ]
+  },
+  "repaso": [
+    { "id": "there-is-there-are.there-is-there-are-afirmativo.r1", "frente": "¿Cómo dices «Hay dos baños»?", "reverso": "There are two bathrooms.", "nota": "Plural → are." },
+    { "id": "there-is-there-are.there-is-there-are-afirmativo.r2", "frente": "¿There's o there are con water?", "reverso": "There's (some) water.", "nota": "Water es incontable: is y sin a." },
+    { "id": "there-is-there-are.there-is-there-are-afirmativo.r3", "frente": "Completa: There's a park near here. ___ very big.", "reverso": "It's very big.", "nota": "There presenta; it describe." },
+    { "id": "there-is-there-are.there-is-there-are-afirmativo.r4", "frente": "¿There, their o they're? «___ from Peru.»", "reverso": "They're from Peru.", "nota": "They're = they are." },
+    { "id": "there-is-there-are.there-is-there-are-afirmativo.r5", "frente": "¿Is o are? There ___ a table and six chairs.", "reverso": "There's a table and six chairs.", "nota": "El verbo concuerda con el primer elemento de la lista." }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "titulo": "Evaluación: frecuencia y tiempo libre",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.01",
+      "leccion": "adverbios-de-frecuencia",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "«La tienda siempre está cerrada los lunes.»",
+      "opciones": [
+        {"texto": "The shop is always closed on Mondays.", "correcta": true, "porque": "Correcta: con be, el adverbio va después del verbo (is always)."},
+        {"texto": "The shop always is closed on Mondays.", "correcta": false, "porque": "Con be el adverbio va detrás, no delante: is always."},
+        {"texto": "The shop is closed always on Mondays.", "correcta": false, "porque": "always no va después del adjetivo: su sitio es justo detrás de is."},
+        {"texto": "Always the shop is closed on Mondays.", "correcta": false, "porque": "always no abre una oración normal en inglés."}
+      ],
+      "pistas": [
+        "Recuerda que el verbo be tiene su propia regla de posición.",
+        "Busca is en cada opción y mira qué hay a su lado.",
+        "Con am / is / are, el adverbio va inmediatamente después."
+      ],
+      "solucion": {
+        "respuesta": "The shop is always closed on Mondays.",
+        "explicacion": "La respuesta es The shop is always closed on Mondays porque el verbo es be (is), y con be el adverbio de frecuencia va justo después del verbo."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.02",
+      "leccion": "adverbios-de-frecuencia",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el adverbio y el verbo en presente simple, en el orden correcto.",
+      "frase": "Diego ___ ___ his homework after dinner. (usually / do)",
+      "traduccion": "Diego normalmente hace su tarea después de cenar.",
+      "respuestas": [["usually"], ["does"]],
+      "errores_tipicos": {
+        "usually | do": "Diego es tercera persona del singular: do → does (termina en -o, añade -es).",
+        "does | usually": "Con un verbo normal el adverbio va antes: usually does."
+      },
+      "pistas": [
+        "Decide el orden y la forma del verbo.",
+        "do es aquí el verbo principal (hacer) y el sujeto es Diego.",
+        "Adverbio antes del verbo; con he, do se convierte en does."
+      ],
+      "solucion": {
+        "respuesta": "usually … does",
+        "explicacion": "La respuesta es usually does. Do es el verbo principal («hacer la tarea»), así que usually va delante; y como Diego es tercera persona del singular, do añade -es: does."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.03",
+      "leccion": "adverbios-de-frecuencia",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración con never, sin usar don't.",
+      "origen": "I don't go to the gym.",
+      "instruccion": "Usa never",
+      "respuestas": ["I never go to the gym"],
+      "errores_tipicos": {
+        "I don't never go to the gym": "Doble negación: never ya es negativo. Quita don't.",
+        "I go never to the gym": "never va antes del verbo principal, no después."
+      },
+      "pistas": [
+        "never sustituye a la negación.",
+        "Si pones never, ¿qué pasa con don't?",
+        "Sujeto + never + verbo en afirmativo."
+      ],
+      "solucion": {
+        "respuesta": "I never go to the gym.",
+        "explicacion": "La respuesta es I never go to the gym: never aporta la negación, así que don't desaparece, y el adverbio se coloca antes del verbo principal (go)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.04",
+      "leccion": "adverbios-de-frecuencia",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señálalo y corrígelo.",
+      "frase": "We never are late for dinner.",
+      "error": "never are",
+      "correcciones": ["are never"],
+      "frase_correcta": "We are never late for dinner.",
+      "pistas": [
+        "Mira cuál es el verbo de la oración.",
+        "El verbo es are (be).",
+        "Con be, el adverbio va después del verbo."
+      ],
+      "solucion": {
+        "respuesta": "We are never late for dinner.",
+        "explicacion": "El error es never are. El verbo es be (are), y con be el adverbio se coloca después: are never. We're never late for dinner también es correcto."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.05",
+      "leccion": "adverbios-de-frecuencia",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la oración.",
+      "fichas": ["never", "office", "is", "my", "boss", "in", "the", "on", "Fridays"],
+      "respuestas": ["my boss is never in the office on Fridays", "on Fridays my boss is never in the office"],
+      "traduccion": "Mi jefe nunca está en la oficina los viernes.",
+      "pistas": [
+        "Busca el sujeto y el verbo: my boss + is.",
+        "¿Dónde va never si el verbo es be?",
+        "Sujeto + is + never + lugar + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "My boss is never in the office on Fridays.",
+        "explicacion": "El orden es My boss is never in the office on Fridays: con be, never va después de is; el lugar (in the office) va antes del tiempo (on Fridays). On Fridays también puede ir al principio."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.06",
+      "leccion": "how-often",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión con su significado.",
+      "pares": [
+        {"a": "once a year", "b": "una vez al año"},
+        {"a": "twice a day", "b": "dos veces al día"},
+        {"a": "four times a month", "b": "cuatro veces al mes"},
+        {"a": "every Monday", "b": "cada lunes"},
+        {"a": "every two weeks", "b": "cada dos semanas"}
+      ],
+      "pistas": [
+        "once = 1, twice = 2; desde 3, número + times.",
+        "Fíjate en el periodo: year, day, month, Monday, weeks.",
+        "every + singular = cada…; every + número + plural = cada x…"
+      ],
+      "solucion": {
+        "respuesta": "once a year = una vez al año; twice a day = dos veces al día; four times a month = cuatro veces al mes; every Monday = cada lunes; every two weeks = cada dos semanas",
+        "explicacion": "once y twice significan una y dos veces; four times, cuatro veces. El periodo va con a. every Monday es «cada lunes» (singular) y every two weeks, «cada dos semanas» (con número, plural)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.07",
+      "leccion": "how-often",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe una sola palabra.",
+      "frase": "The dentist? I go ___ a year, in January and in July.",
+      "traduccion": "¿El dentista? Voy dos veces al año, en enero y en julio.",
+      "respuestas": [["twice"]],
+      "errores_tipicos": {
+        "two": "two es solo el número dos; «dos veces» es una sola palabra: twice.",
+        "once": "Enero y julio son dos veces, no una."
+      },
+      "pistas": [
+        "Cuenta las veces: enero y julio.",
+        "Necesitas la palabra para «dos veces».",
+        "Igual que «una vez» es once, «dos veces» tiene su propia palabra (no se dice two times)."
+      ],
+      "solucion": {
+        "respuesta": "twice",
+        "explicacion": "La respuesta es twice porque va dos veces al año (enero y julio), y «dos veces» se dice twice, en una sola palabra."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.08",
+      "leccion": "how-often",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa son y soccer.",
+      "es": "¿Cada cuánto juega futbol tu hijo?",
+      "respuestas": ["How often does your son play soccer"],
+      "errores_tipicos": {
+        "How often your son plays soccer": "Falta el auxiliar does después de How often.",
+        "How often does your son plays soccer": "does ya se lleva la -s: play en forma base.",
+        "How often do your son play soccer": "your son es tercera persona del singular: does."
+      },
+      "pistas": [
+        "«¿Cada cuánto?» = How often.",
+        "El sujeto es your son: elige el auxiliar.",
+        "How often + does + sujeto + verbo en forma base + complemento?"
+      ],
+      "solucion": {
+        "respuesta": "How often does your son play soccer?",
+        "explicacion": "La pregunta es How often does your son play soccer? How often abre la pregunta; does es el auxiliar porque your son es tercera persona del singular; y play queda en forma base porque la -s ya está en does."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.09",
+      "leccion": "how-often",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y elige la respuesta correcta.",
+      "pregunta": "«Sam goes to the gym on Mondays, Wednesdays and Fridays.» How often does Sam go to the gym?",
+      "opciones": [
+        {"texto": "Three times a week.", "correcta": true, "porque": "Correcta: lunes, miércoles y viernes son tres días cada semana."},
+        {"texto": "Every day.", "correcta": false, "porque": "No va todos los días: solo tres."},
+        {"texto": "Once a week.", "correcta": false, "porque": "Va más de una vez: tres días por semana."},
+        {"texto": "Three times for week.", "correcta": false, "porque": "El número es correcto, pero el periodo va con a, no con for."}
+      ],
+      "pistas": [
+        "Cuenta los días que menciona la oración.",
+        "on Mondays (plural) significa todos los lunes: se repite cada semana.",
+        "3 días por semana = three times + a + week."
+      ],
+      "solucion": {
+        "respuesta": "Three times a week.",
+        "explicacion": "Sam va los lunes, miércoles y viernes: tres veces cada semana. Se dice three times a week, con a antes del periodo."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.10",
+      "leccion": "how-often",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My sister calls me three times a week.",
+      "respuestas": ["My sister calls me 3 times a week."],
+      "pistas": [
+        "El sujeto es singular: atento a la -s del verbo.",
+        "La expresión de frecuencia va al final.",
+        "calls (con -s) + three times a week."
+      ],
+      "solucion": {
+        "respuesta": "My sister calls me three times a week.",
+        "explicacion": "La oración es My sister calls me three times a week. Calls lleva -s porque my sister es tercera persona del singular, y la expresión de frecuencia va al final."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.11",
+      "leccion": "gustos",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta del verbo entre paréntesis.",
+      "frase": "Carlos enjoys ___ (ride) his bike in the park.",
+      "traduccion": "Carlos disfruta andar en bici en el parque.",
+      "respuestas": [["riding"]],
+      "errores_tipicos": {
+        "rideing": "ride termina en e muda: se quita la e antes de -ing (riding).",
+        "to ride": "enjoy solo admite -ing, no to + verbo.",
+        "ridding": "No se duplica la d: ride termina en e muda, no en vocal + consonante."
+      },
+      "pistas": [
+        "El verbo que manda es enjoy.",
+        "enjoy exige una forma concreta; luego mira cómo termina ride.",
+        "enjoy + -ing; los verbos con e muda la pierden."
+      ],
+      "solucion": {
+        "respuesta": "riding",
+        "explicacion": "La respuesta es riding: enjoy solo admite -ing, y ride pierde la e muda antes de la terminación."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.12",
+      "leccion": "gustos",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Una amiga quiere invitar a tu hermano a una fiesta de salsa.",
+      "lineas": [
+        {"quien": "Lucía", "en": "Does your brother like dancing?", "es": "¿A tu hermano le gusta bailar?"}
+      ],
+      "opciones": [
+        {"texto": "No, he doesn't. He hates it.", "correcta": true, "porque": "Correcta: respuesta corta con doesn't (he) y un comentario con hates it."},
+        {"texto": "No, he don't. He hates it.", "correcta": false, "porque": "Con he el auxiliar es doesn't, no don't."},
+        {"texto": "No, he doesn't likes.", "correcta": false, "porque": "Después de doesn't, like va sin -s, y además necesita complemento. La respuesta corta es No, he doesn't."},
+        {"texto": "No, he isn't. He hates it.", "correcta": false, "porque": "La pregunta usa does, no be: la respuesta corta es No, he doesn't."}
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "La pregunta empieza con Does y el sujeto es he.",
+        "Does he…? → No, he doesn't."
+      ],
+      "solucion": {
+        "respuesta": "No, he doesn't. He hates it.",
+        "explicacion": "La pregunta es Does your brother like…?, así que la respuesta corta es No, he doesn't. He hates it añade información: hates lleva -s por he, e it sustituye a dancing."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.13",
+      "leccion": "gustos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa la forma contraída de la negación.",
+      "es": "No nos gustan las películas de terror.",
+      "respuestas": ["We don't like horror movies", "We don't like horror films"],
+      "errores_tipicos": {
+        "Horror movies don't like us": "Calco del español: quien siente el gusto (we) es el sujeto.",
+        "We doesn't like horror movies": "Con we el auxiliar es don't.",
+        "We don't like the horror movies": "Hablas de las películas de terror en general: sin the."
+      },
+      "pistas": [
+        "¿Quién siente el gusto? Esa persona es el sujeto.",
+        "Elige don't o doesn't según el sujeto y revisa si hace falta the.",
+        "We + don't + like + plural general sin the."
+      ],
+      "solucion": {
+        "respuesta": "We don't like horror movies.",
+        "explicacion": "La traducción es We don't like horror movies: el sujeto es we (las personas a quienes no les gustan), el auxiliar es don't y horror movies va sin the porque es un gusto general. Horror films también es correcto (más británico)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.14",
+      "leccion": "gustos",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee el texto y responde.",
+      "pregunta": "«Hi, I'm Aisha. I work at a bank from Monday to Friday, so I love weekends! On Saturdays I always go swimming, and on Sundays I usually visit my parents. I hate cooking, so my husband and I eat out once a week.» What does Aisha do every Saturday?",
+      "opciones": [
+        {"texto": "She goes swimming.", "correcta": true, "porque": "Correcta: On Saturdays I always go swimming."},
+        {"texto": "She visits her parents.", "correcta": false, "porque": "Eso lo hace los domingos (on Sundays), y usually, no siempre."},
+        {"texto": "She cooks for her husband.", "correcta": false, "porque": "Aisha dice que odia cocinar (I hate cooking)."},
+        {"texto": "She works at the bank.", "correcta": false, "porque": "Trabaja en el banco de lunes a viernes, no los sábados."}
+      ],
+      "pistas": [
+        "Busca en el texto la palabra Saturdays.",
+        "Lee la oración completa que empieza con On Saturdays.",
+        "always + go swimming = todos los sábados, sin excepción."
+      ],
+      "solucion": {
+        "respuesta": "She goes swimming.",
+        "explicacion": "El texto dice On Saturdays I always go swimming: always significa que lo hace todos los sábados. Visitar a sus papás es los domingos, y cocinar es algo que odia."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.15",
+      "leccion": "how-often",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Vuelve a leer el texto de Aisha y responde.",
+      "pregunta": "«… I hate cooking, so my husband and I eat out once a week.» How often do Aisha and her husband eat out?",
+      "opciones": [
+        {"texto": "Once a week.", "correcta": true, "porque": "Correcta: el texto dice eat out once a week."},
+        {"texto": "Every day.", "correcta": false, "porque": "El texto no dice every day, sino once a week."},
+        {"texto": "Twice a week.", "correcta": false, "porque": "twice sería dos veces; el texto dice once (una vez)."},
+        {"texto": "Never.", "correcta": false, "porque": "Sí comen fuera: una vez a la semana."}
+      ],
+      "pistas": [
+        "Busca eat out en el texto.",
+        "Mira la expresión que va al final de esa oración.",
+        "once = una vez."
+      ],
+      "solucion": {
+        "respuesta": "Once a week.",
+        "explicacion": "La oración termina en once a week: comen fuera una vez por semana. Fíjate en que la expresión de frecuencia está al final, que es su sitio normal."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.eval.16",
+      "leccion": "gustos",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Escribe la pregunta con What kind of music cuya respuesta sea la oración dada.",
+      "origen": "She likes jazz.",
+      "instruccion": "Pregunta con What kind of music",
+      "respuestas": ["What kind of music does she like"],
+      "errores_tipicos": {
+        "What kind of music she likes": "Falta el auxiliar does: palabra interrogativa + does + sujeto + verbo.",
+        "What kind of music does she likes": "does ya se lleva la -s: like va en forma base.",
+        "What kind of music do she like": "she es tercera persona del singular: el auxiliar es does."
+      },
+      "pistas": [
+        "Es una pregunta abierta en presente simple.",
+        "Después de What kind of music necesitas auxiliar y sujeto.",
+        "What kind of music + auxiliar + sujeto + verbo sin -s?"
+      ],
+      "solucion": {
+        "respuesta": "What kind of music does she like?",
+        "explicacion": "La pregunta es What kind of music does she like?: la palabra interrogativa (What kind of music) va primero, luego el auxiliar does (por she), el sujeto y like en forma base, porque la -s ya está en does."
+      }
+    }
+  ]
+}

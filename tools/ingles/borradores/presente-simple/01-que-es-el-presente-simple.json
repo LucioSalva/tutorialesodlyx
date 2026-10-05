@@ -1,0 +1,646 @@
+{
+  "slug": "que-es-el-presente-simple",
+  "titulo": "Qué es el presente simple",
+  "minutos": 35,
+  "objetivos": [
+    "Reconocer los cinco usos del presente simple: hábitos, rutinas, hechos permanentes, verdades generales y horarios.",
+    "Construir oraciones afirmativas con I, you, we, they y sujetos plurales usando la forma base del verbo.",
+    "Entender por qué en inglés el sujeto es obligatorio aunque en español lo omitas.",
+    "Distinguir el presente simple (lo habitual) de lo que pasa en este momento exacto."
+  ],
+  "situacion": {
+    "titulo": "Un intercambio de idiomas",
+    "texto": "Ana, enfermera en Puebla, practica inglés por videollamada con Tom. Él le pregunta por su trabajo. Fíjate en que ninguno habla de lo que está haciendo ahora mismo: hablan de lo que hacen normalmente.",
+    "dialogo": [
+      { "quien": "Tom", "en": "What's your job, Ana?", "es": "¿A qué te dedicas, Ana?" },
+      { "quien": "Ana", "en": "I'm a nurse. I work at a hospital.", "es": "Soy enfermera. Trabajo en un hospital." },
+      { "quien": "Tom", "en": "Oh, nice! My brother works at a hospital too.", "es": "¡Qué bien! Mi hermano también trabaja en un hospital." },
+      { "quien": "Ana", "en": "Really? We start very early.", "es": "¿En serio? Nosotros empezamos muy temprano." },
+      { "quien": "Tom", "en": "I know. He gets up at five o'clock!", "es": "Ya sé. ¡Él se levanta a las cinco!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "usos-del-presente-simple",
+      "titulo": "Para qué sirve: lo habitual, lo permanente y lo que siempre es verdad",
+      "que_es": "El **presente simple** es el tiempo verbal que usas para hablar de cosas que se repiten o que son verdad de forma estable: lo que haces normalmente, dónde vives, a qué te dedicas, cómo funciona el mundo y a qué hora sale el autobús. Se llama «simple» porque, en afirmativo, es solo el verbo: [[I work]] (trabajo), sin ningún verbo auxiliar delante.",
+      "para_que": [
+        "**Hábitos**: lo que haces con regularidad → [[I drink coffee every morning.]]",
+        "**Rutinas**: los pasos de tu día → [[We start work at eight.]]",
+        "**Hechos permanentes** o estables: dónde vives, a qué te dedicas → [[My parents live in a small town.]]",
+        "**Verdades generales**: cómo funciona el mundo → [[Water boils at 100 degrees.]]",
+        "**Horarios** fijos de transportes, tiendas, clases → [[The bus leaves at 7:15.]]"
+      ],
+      "como_funciona": "La idea clave es **la repetición o la estabilidad**, no el momento presente exacto. [[I work at a hospital]] es verdad hoy, lo era el mes pasado y lo seguirá siendo; no significa que ahora mismo estés trabajando (quizá lo dices en tu día libre, en pijama). En español el presente sirve para las dos cosas: «trabajo en un hospital» (en general) y «¿qué haces? — leo» (ahora mismo). En inglés, **no**: para lo que ocurre justo en este momento existe otra forma, el presente continuo (lo verás en el bloque 6). Por ahora, quédate con esto: si puedes añadir mentalmente «normalmente», «siempre» o «en general», es presente simple.\n\nLos horarios merecen un comentario: [[The bus leaves at 7:15]] habla de un horario que se repite (el autobús sale a esa hora todos los días). Por eso también es presente simple, aunque se refiera a mañana: [[The class starts at eight tomorrow]] (la clase empieza a las ocho mañana).",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "verbo (forma base)", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" },
+            { "t": "(expresión de tiempo)", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "We", "rol": "sujeto" },
+            { "t": "start", "rol": "verbo" },
+            { "t": "work", "rol": "complemento" },
+            { "t": "at eight", "rol": "tiempo" }
+          ],
+          "es": "Empezamos a trabajar a las ocho."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los cinco usos de un vistazo",
+          "columnas": ["Uso", "Ejemplo", "Traducción"],
+          "filas": [
+            ["Hábito", "I drink coffee every morning.", "Tomo café todas las mañanas."],
+            ["Rutina", "We start work at eight.", "Empezamos a trabajar a las ocho."],
+            ["Hecho permanente", "My parents live in a small town.", "Mis papás viven en un pueblo."],
+            ["Verdad general", "Water boils at 100 degrees.", "El agua hierve a 100 grados."],
+            ["Horario", "The bus leaves at 7:15.", "El autobús sale a las 7:15."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I work at a hospital.",
+          "es": "Trabajo en un hospital.",
+          "situacion": "Ana explica a qué se dedica.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "work", "rol": "verbo" },
+            { "t": "at a hospital", "rol": "complemento" }
+          ],
+          "nota": "Hecho estable: es su trabajo, no algo que esté haciendo en este instante. En español dices solo «trabajo»; en inglés el sujeto I es obligatorio porque work, por sí solo, no dice quién trabaja. También es correcto in a hospital; at pone el foco en el lugar de trabajo."
+        },
+        {
+          "en": "I drink coffee every morning.",
+          "es": "Tomo café todas las mañanas.",
+          "situacion": "Hablas de tus costumbres.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "drink", "rol": "verbo" },
+            { "t": "coffee", "rol": "complemento" },
+            { "t": "every morning", "rol": "tiempo" }
+          ],
+          "nota": "Hábito. Every morning (cada mañana) va al final, que es su lugar normal. Fíjate: «tomar café» en inglés es drink coffee (beber), no take coffee."
+        },
+        {
+          "en": "My parents live in a small town.",
+          "es": "Mis papás viven en un pueblo.",
+          "partes": [
+            { "t": "My parents", "rol": "sujeto" },
+            { "t": "live", "rol": "verbo" },
+            { "t": "in a small town", "rol": "complemento" }
+          ],
+          "nota": "Hecho permanente. El sujeto no es un pronombre, pero es plural (= they), así que el verbo va en forma base: live, sin -s."
+        },
+        {
+          "en": "Water boils at 100 degrees.",
+          "es": "El agua hierve a 100 grados.",
+          "partes": [
+            { "t": "Water", "rol": "sujeto" },
+            { "t": "boils", "rol": "verbo" },
+            { "t": "at 100 degrees", "rol": "complemento" }
+          ],
+          "nota": "Verdad general. Dos detalles: en inglés no se dice «The water» cuando hablas del agua en general (a diferencia de «el agua»), y boils lleva -s porque water equivale a it. Esa -s es el tema de la siguiente lección."
+        },
+        {
+          "en": "The bus leaves at 7:15.",
+          "es": "El autobús sale a las 7:15.",
+          "situacion": "Lees el horario en la parada.",
+          "partes": [
+            { "t": "The bus", "rol": "sujeto" },
+            { "t": "leaves", "rol": "verbo" },
+            { "t": "at 7:15", "rol": "tiempo" }
+          ],
+          "nota": "Horario fijo. Se lee «at seven fifteen». También lleva -s (the bus = it)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: un presente para todo",
+          "items": [
+            "«Trabajo en un hospital» (en general).",
+            "«¿Qué haces? — Leo» (ahora mismo).",
+            "El mismo tiempo verbal cubre lo habitual y lo que pasa en este instante."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: el presente simple es para lo habitual",
+          "items": [
+            "[[I work at a hospital.]] → en general.",
+            "Lo que pasa justo ahora usa otra forma (presente continuo, bloque 6).",
+            "Pregúntate: ¿puedo añadir «normalmente» o «siempre»? Si sí, presente simple."
+          ]
+        },
+        "veredicto": "No traduzcas cada presente español por un presente simple. Primero decide si hablas de algo habitual o estable (presente simple) o de algo que ocurre en este momento (eso lo aprenderás más adelante)."
+      },
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "I work at a hospital: antes, ahora y después",
+        "marcas": [
+          { "pos": 0.1, "texto": "Monday", "tipo": "repeticion" },
+          { "pos": 0.25, "texto": "Tuesday", "tipo": "repeticion" },
+          { "pos": 0.4, "texto": "Wednesday", "tipo": "repeticion" },
+          { "pos": 0.6, "texto": "Thursday", "tipo": "repeticion" },
+          { "pos": 0.75, "texto": "Friday", "tipo": "repeticion" },
+          { "pos": 0.9, "texto": "next Monday…", "tipo": "repeticion" }
+        ],
+        "ahora": 0.5,
+        "pie": "El presente simple describe algo que se repite o se mantiene a lo largo del tiempo. El «ahora» cae en medio, pero no es el protagonista: la oración sigue siendo verdad aunque en este instante estés en casa."
+      },
+      "pronunciacion": [
+        {
+          "texto": "work",
+          "ipa": "/wɝk/",
+          "consejo": "La vocal /ɝ/ no existe en español: es una «er» en la que la lengua se queda recogida hacia atrás, sin tocar el paladar, y los labios apenas redondeados. No digas «guork» ni «wor-k» con una o clara: no hay o. Compárala con walk /wɔːk/ (caminar), que sí tiene una vocal abierta y no suena la l.",
+          "lento": true
+        },
+        {
+          "texto": "live",
+          "ipa": "/lɪv/",
+          "consejo": "La i es corta y relajada, entre la i y la e del español; no la alargues o dirás leave /liːv/ (irse). La v final se hace apoyando los dientes de arriba en el labio de abajo, y vibra: no la conviertas en b ni en f.",
+          "lento": true
+        },
+        {
+          "texto": "hospital",
+          "ipa": "/ˈhɑːspɪtl/",
+          "consejo": "La h se pronuncia (un soplo suave, como una j muy débil) y el acento va al principio: HOS-pi-tl. La última sílaba casi no tiene vocal: la lengua pasa de la t a la l sin decir «tal». En británico la primera vocal es más redonda: /ˈhɒspɪtl/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Work at a hospital.",
+          "bien": "I work at a hospital.",
+          "porque": "En español el verbo ya dice quién lo hace («trabajo» = yo). En inglés work vale para I, you, we y they, así que sin sujeto no se sabe quién trabaja. Una oración afirmativa en inglés siempre lleva sujeto."
+        },
+        {
+          "mal": "I am work at a hospital.",
+          "bien": "I work at a hospital.",
+          "porque": "Es un cruce entre I am a nurse y I work. En presente simple afirmativo no se pone am/is/are delante de otro verbo: el verbo work ya es el verbo de la oración."
+        },
+        {
+          "mal": "The water boils at 100 degrees.",
+          "bien": "Water boils at 100 degrees.",
+          "porque": "Cuando hablas de algo en general (el agua, la vida, la gente), el inglés no usa the. Es el mismo calco que «The life is hard»."
+        }
+      ]
+    },
+    {
+      "id": "forma-base",
+      "titulo": "I, you, we, they: la forma base, sin cambios",
+      "que_es": "La **forma base** es el verbo tal como aparece en el diccionario, sin to: [[work]], [[live]], [[speak]], [[have]]. En presente simple la usas con **I, you, we, they** y con cualquier sujeto plural ([[my parents]], [[Ana and Tom]], [[people]]). Solo he, she, it y los sujetos singulares cambian: añaden -s. Esa es la próxima lección.",
+      "para_que": [
+        "Hablar de ti: [[I live in Puebla.]]",
+        "Hablar de la persona con la que hablas: [[You speak English very well.]]",
+        "Hablar de un grupo que te incluye: [[We have lunch at two.]]",
+        "Hablar de otras personas en plural: [[My parents work in a bank.]]"
+      ],
+      "como_funciona": "En español cada persona tiene su terminación: trabajo, trabajas, trabaja, trabajamos, trabajan. En inglés el presente simple solo tiene **dos formas**: [[work]] y [[works]]. Con cinco de los seis pronombres el verbo es idéntico. Consecuencia directa: como el verbo casi no da información, **el sujeto es obligatorio** siempre.\n\nPara decidir la forma no mires si el sujeto es un pronombre, mira si equivale a **they** (plural) o a **he/she/it** (singular):\n- [[My sister and I]] = we → [[My sister and I work]].\n- [[Ana and Carlos]] = they → [[Ana and Carlos speak English]].\n- [[People]] es plural en inglés (= they) aunque «la gente» sea singular en español → [[People work hard here]].\n- [[The children]] es plural irregular (= they) → [[The children play in the park]].",
+      "estructuras": [
+        {
+          "etiqueta": "Sujeto plural o I / you",
+          "formula": [
+            { "t": "I / you / we / they / sujeto plural", "rol": "sujeto" },
+            { "t": "verbo base", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "My parents", "rol": "sujeto" },
+            { "t": "speak", "rol": "verbo" },
+            { "t": "English and French", "rol": "complemento" }
+          ],
+          "es": "Mis papás hablan inglés y francés."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Español: seis formas · Inglés: dos",
+          "columnas": ["Sujeto", "Inglés", "Español"],
+          "filas": [
+            ["I", "I work", "trabajo"],
+            ["you", "you work", "trabajas / trabaja usted / trabajan ustedes"],
+            ["we", "we work", "trabajamos"],
+            ["they", "they work", "trabajan"],
+            ["he / she / it", "he works", "trabaja (la única forma distinta en inglés)"]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "You speak English very well.",
+          "es": "Hablas inglés muy bien.",
+          "partes": [
+            { "t": "You", "rol": "sujeto" },
+            { "t": "speak", "rol": "verbo" },
+            { "t": "English", "rol": "complemento" },
+            { "t": "very well", "rol": "otro" }
+          ],
+          "nota": "You es tú, usted y ustedes a la vez; el verbo es speak en los tres casos. Very well va al final, después de lo que hablas: nunca «You speak very well English»."
+        },
+        {
+          "en": "We have lunch at two.",
+          "es": "Comemos a las dos.",
+          "partes": [
+            { "t": "We", "rol": "sujeto" },
+            { "t": "have", "rol": "verbo" },
+            { "t": "lunch", "rol": "complemento" },
+            { "t": "at two", "rol": "tiempo" }
+          ],
+          "nota": "Rutina. Have lunch es «comer (la comida del mediodía)»: con comidas se usa have, y sin artículo (have lunch, no «have the lunch»)."
+        },
+        {
+          "en": "My sister and I study at night.",
+          "es": "Mi hermana y yo estudiamos en la noche.",
+          "partes": [
+            { "t": "My sister and I", "rol": "sujeto" },
+            { "t": "study", "rol": "verbo" },
+            { "t": "at night", "rol": "tiempo" }
+          ],
+          "nota": "Dos personas = we, así que study sin cambios. En inglés, por cortesía, I va al final: my sister and I, no «I and my sister»."
+        },
+        {
+          "en": "People work hard in this city.",
+          "es": "La gente trabaja mucho en esta ciudad.",
+          "partes": [
+            { "t": "People", "rol": "sujeto" },
+            { "t": "work", "rol": "verbo" },
+            { "t": "hard", "rol": "otro" },
+            { "t": "in this city", "rol": "complemento" }
+          ],
+          "nota": "Trampa para hispanohablantes: «la gente trabaja» (singular) pero people work (plural, sin -s). People siempre funciona como they."
+        },
+        {
+          "en": "They teach English at a language school.",
+          "es": "Dan clases de inglés en una escuela de idiomas.",
+          "partes": [
+            { "t": "They", "rol": "sujeto" },
+            { "t": "teach", "rol": "verbo" },
+            { "t": "English", "rol": "complemento" },
+            { "t": "at a language school", "rol": "complemento" }
+          ]
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "I work at a hospital.",
+          "items": [
+            "Sujeto: I (primera persona).",
+            "Verbo en forma base: work.",
+            "Igual con you, we, they y cualquier plural."
+          ]
+        },
+        "b": {
+          "titulo": "My brother works at a hospital.",
+          "items": [
+            "Sujeto: my brother = he (tercera persona del singular).",
+            "El verbo añade -s: works.",
+            "Es el único cambio de todo el presente simple afirmativo."
+          ]
+        },
+        "veredicto": "El verbo cambia porque cambia el sujeto: con he/she/it (o un sujeto singular como my brother) aparece la -s. Con todo lo demás, forma base. En la próxima lección verás las reglas de ortografía y pronunciación de esa -s."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Un verbo, dos formas",
+        "centro": "work",
+        "ramas": [
+          { "texto": "I work", "detalle": "forma base" },
+          { "texto": "you work", "detalle": "forma base" },
+          { "texto": "we work", "detalle": "forma base" },
+          { "texto": "they work", "detalle": "forma base (y cualquier plural)" },
+          { "texto": "he / she / it works", "detalle": "+ -s (siguiente lección)" }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "speak",
+          "ipa": "/spiːk/",
+          "consejo": "Empieza directamente con la s, sin apoyarte en una e: no «espik». Truco: alarga la s como un siseo (ssspeak) y pasa a la p sin vocal en medio. La i es larga y tensa, con los labios estirados como al sonreír.",
+          "lento": true
+        },
+        {
+          "texto": "they",
+          "ipa": "/ðeɪ/",
+          "consejo": "La /ð/ se hace con la punta de la lengua entre los dientes, dejando salir el aire con vibración, como la d suave de «cada» pero con la lengua más adelante. No es una d dura como en «día». Después, un diptongo «ei»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "People works hard in this city.",
+          "bien": "People work hard in this city.",
+          "porque": "Calco de «la gente trabaja». En inglés people es plural (equivale a they), así que el verbo va en forma base."
+        },
+        {
+          "mal": "My parents lives in a small town.",
+          "bien": "My parents live in a small town.",
+          "porque": "My parents son dos personas (= they). La -s del verbo es solo para sujetos singulares de tercera persona."
+        },
+        {
+          "mal": "I and my sister study at night.",
+          "bien": "My sister and I study at night.",
+          "porque": "No es un error de verbo sino de cortesía: en inglés la persona que habla se nombra al final. El verbo sigue siendo study porque el sujeto es plural."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Y el verbo to be?",
+        "texto": "To be (am, is, are) es un verbo aparte con sus propias formas, que ya dominas. Los demás verbos siguen el patrón de esta lección. Por eso no se mezclan: I'm a nurse (be) / I work at a hospital (work).",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple.que-es-el-presente-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el uso del presente simple que corresponde a la oración.",
+      "pregunta": "The museum opens at ten o'clock.",
+      "audio": true,
+      "opciones": [
+        { "texto": "Un horario fijo", "correcta": true, "porque": "Correcto: el museo abre a las diez todos los días que abre; es un horario establecido, y los horarios van en presente simple." },
+        { "texto": "Algo que está pasando en este momento", "correcta": false, "porque": "No: la oración no dice que el museo esté abriendo ahora; dice a qué hora abre normalmente." },
+        { "texto": "Una verdad científica", "correcta": false, "porque": "No es una ley de la naturaleza como «el agua hierve a 100 grados»; es una decisión del museo que se repite." },
+        { "texto": "Un hábito personal", "correcta": false, "porque": "Los hábitos son costumbres de personas (I drink coffee every morning). Aquí el sujeto es un edificio con un horario." }
+      ],
+      "pistas": [
+        "El presente simple tiene cinco usos: hábitos, rutinas, hechos permanentes, verdades generales y horarios.",
+        "Fíjate en el sujeto (the museum) y en at ten o'clock.",
+        "Cuando un lugar o un transporte hace algo a una hora fija que se repite, hablamos de un horario."
+      ],
+      "solucion": {
+        "respuesta": "Un horario fijo",
+        "explicacion": "La respuesta correcta es «un horario fijo» porque la oración indica a qué hora abre el museo de forma habitual. El presente simple se usa para horarios de tiendas, transportes y clases. Por cierto: opens lleva -s porque the museum equivale a it."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada oración con su uso del presente simple.",
+      "pares": [
+        { "a": "I walk to work every day.", "b": "Hábito o rutina" },
+        { "a": "My grandparents live in Oaxaca.", "b": "Hecho permanente" },
+        { "a": "The sun rises in the east.", "b": "Verdad general" },
+        { "a": "The train leaves at 6:40.", "b": "Horario" }
+      ],
+      "pistas": [
+        "Recuerda los usos: hábitos y rutinas, hechos estables, verdades generales y horarios.",
+        "Pregúntate en cada oración: ¿es una costumbre de alguien, un dato estable de su vida, algo que es verdad en todo el mundo o una hora fija de un servicio?",
+        "Las verdades generales valen para todos y siempre (la naturaleza); los horarios son horas fijas de transportes o lugares; los hechos permanentes describen situaciones estables de personas (dónde viven, a qué se dedican)."
+      ],
+      "solucion": {
+        "respuesta": "walk → hábito · live → hecho permanente · rises → verdad general · leaves → horario",
+        "explicacion": "I walk to work every day es una costumbre que se repite (every day). Que tus abuelos vivan en Oaxaca es una situación estable. Que el sol salga por el este es verdad siempre y para todos. Y el tren que sale a las 6:40 es un horario fijo. Todos usan presente simple, cada uno por un motivo distinto."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta del verbo.",
+      "frase": "They ___ in a big house near the park.",
+      "traduccion": "Viven en una casa grande cerca del parque.",
+      "banco": ["live", "lives", "are live"],
+      "respuestas": [["live"]],
+      "errores_tipicos": {
+        "lives": "La -s solo va con he, she, it o un sujeto singular. They es plural, así que el verbo queda en forma base.",
+        "are live": "No se pone are delante de otro verbo en presente simple. Are es del verbo to be; aquí el verbo es live."
+      },
+      "pistas": [
+        "Con I, you, we y they el verbo va en su forma base.",
+        "Mira el sujeto: they.",
+        "They es plural: el verbo no lleva -s ni va acompañado de am/is/are."
+      ],
+      "solucion": {
+        "respuesta": "live",
+        "explicacion": "La respuesta correcta es live porque el sujeto es they y con they el presente simple usa la forma base, sin -s. Are live es incorrecto: are pertenece a to be y no se combina con otro verbo en presente simple."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, lee y repite. Grábate si quieres y compara.",
+      "texto": "I work at a hospital.",
+      "ipa": "/aɪ ˈwɝk ət ə ˈhɑːspɪtl/",
+      "consejo": "Une las palabras pequeñas: «at a» suena como una sola sílaba débil /ətə/, casi «ara» con una r muy suave en inglés estadounidense. El acento fuerte cae en work y en HOS-pital. En work no hay o: la lengua se recoge hacia atrás para la /ɝ/.",
+      "es": "Trabajo en un hospital.",
+      "pistas": [
+        "Las palabras importantes (verbo y sustantivo) se pronuncian fuertes; at y a, débiles.",
+        "Concéntrate en work: una sola vocal, sin o.",
+        "Di «at a» muy rápido, pegado, con una vocal neutra /ə/ en cada una."
+      ]
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con have. Cuidado con los sujetos.",
+      "frase": "We ___ lunch at two, and my kids ___ lunch at school.",
+      "traduccion": "Nosotros comemos a las dos y mis hijos comen en la escuela.",
+      "respuestas": [["have"], ["have"]],
+      "errores_tipicos": {
+        "have | has": "My kids son varios niños (= they), así que el verbo va en forma base: have. Has es solo para he, she, it o un sujeto singular.",
+        "are have | have": "No se usa are antes de have en presente simple: el verbo es have."
+      },
+      "pistas": [
+        "El presente simple usa la forma base con I, you, we, they y cualquier sujeto plural.",
+        "Hay dos sujetos: we y my kids. ¿Alguno de los dos es singular?",
+        "My kids = they. Con they y con we el verbo no cambia."
+      ],
+      "solucion": {
+        "respuesta": "have … have",
+        "explicacion": "Las dos respuestas son have: we es plural y my kids también (equivale a they). Has solo aparecería con un sujeto singular de tercera persona, como my son. Recuerda también que con las comidas se dice have lunch, sin artículo."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": ["work", "we", "eight", "start", "at"],
+      "respuestas": ["We start work at eight", "At eight we start work"],
+      "traduccion": "Empezamos a trabajar a las ocho.",
+      "pistas": [
+        "El orden básico es sujeto + verbo + complemento + tiempo.",
+        "Busca el sujeto (un pronombre) y el verbo que va justo después. Work aquí es un sustantivo: «el trabajo».",
+        "Start work significa «empezar a trabajar»; at eight es la expresión de tiempo y va normalmente al final."
+      ],
+      "solucion": {
+        "respuesta": "We start work at eight.",
+        "explicacion": "La respuesta es We start work at eight: sujeto (we) + verbo (start) + complemento (work, «el trabajo») + tiempo (at eight). Poner la hora al principio (At eight, we start work) también es correcto para dar énfasis a la hora, pero lo más habitual es al final."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "My parents lives in a small town.",
+      "error": "lives",
+      "correcciones": ["live"],
+      "frase_correcta": "My parents live in a small town.",
+      "pistas": [
+        "Revisa si el verbo concuerda con el sujeto.",
+        "El sujeto es my parents. ¿Es una persona o varias?",
+        "Con sujetos plurales (= they) el verbo va en forma base, sin -s."
+      ],
+      "solucion": {
+        "respuesta": "live",
+        "explicacion": "El error es lives. My parents son dos personas, equivale a they, y con they el presente simple usa la forma base: My parents live in a small town. La -s solo aparece con sujetos singulares de tercera persona."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia el sujeto y ajusta lo que haga falta.",
+      "origen": "I teach English at a language school.",
+      "instruccion": "Sujeto nuevo: My sister and I",
+      "respuestas": ["My sister and I teach English at a language school"],
+      "errores_tipicos": {
+        "My sister and I teaches English at a language school": "My sister and I son dos personas (= we). Con we el verbo no lleva -s.",
+        "I and my sister teach English at a language school": "El verbo está bien, pero en inglés la persona que habla se nombra al final: my sister and I."
+      },
+      "pistas": [
+        "Antes de escribir el verbo, piensa a qué pronombre equivale el nuevo sujeto.",
+        "My sister and I: ¿cuántas personas son? ¿Incluye a quien habla?",
+        "My sister and I = we. Con we el verbo se queda en forma base."
+      ],
+      "solucion": {
+        "respuesta": "My sister and I teach English at a language school.",
+        "explicacion": "My sister and I equivale a we (dos personas, incluida yo), así que el verbo sigue siendo teach, sin -s. El único cambio es el sujeto. Recuerda nombrarte al final: my sister and I."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "They live near the school.",
+      "pistas": [
+        "Son cinco palabras: sujeto, verbo y un lugar.",
+        "El verbo empieza con l y tiene una i corta.",
+        "El sujeto es un pronombre plural que empieza con el sonido /ð/; el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "They live near the school.",
+        "explicacion": "La oración es They live near the school (Viven cerca de la escuela). Live va sin -s porque el sujeto es they. Fíjate en la i corta de live /lɪv/: si la alargas, se entiende leave (irse)."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.10",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Trabajamos en un hospital.",
+      "respuestas": ["We work at a hospital", "We work in a hospital"],
+      "errores_tipicos": {
+        "Work at a hospital": "Falta el sujeto. En español «trabajamos» ya dice quién, pero en inglés work sirve para I, you, we y they: necesitas We.",
+        "Work in a hospital": "Falta el sujeto. En inglés una oración afirmativa siempre lleva sujeto: We work…",
+        "We are work at a hospital": "Sobra are: en presente simple afirmativo el verbo work va solo, sin am/is/are delante.",
+        "We works at a hospital": "Con we el verbo no lleva -s; la -s es solo para he, she, it o sujetos singulares."
+      },
+      "pistas": [
+        "Una oración en inglés siempre necesita sujeto.",
+        "«Trabajamos» contiene el sujeto «nosotros» escondido en la terminación: sácalo.",
+        "We + forma base del verbo + at/in a hospital."
+      ],
+      "solucion": {
+        "respuesta": "We work at a hospital.",
+        "explicacion": "La traducción es We work at a hospital (también vale in a hospital). El sujeto we es obligatorio porque work no indica quién trabaja, y el verbo va en forma base porque we es plural. No se añade are: el verbo de la oración es work."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Es tu primer día en una oficina nueva y una compañera te cuenta dónde vive.",
+      "lineas": [
+        { "quien": "Grace", "en": "I live in Guadalajara, but my family lives in Tijuana. And you?", "es": "Yo vivo en Guadalajara, pero mi familia vive en Tijuana. ¿Y tú?" }
+      ],
+      "opciones": [
+        { "texto": "I live in Puebla, near my parents.", "correcta": true, "porque": "Correcta: sujeto I + forma base live + lugar. Es exactamente la estructura que usa Grace." },
+        { "texto": "I'm live in Puebla, near my parents.", "correcta": false, "porque": "Sobra 'm (am): no se combina to be con otro verbo en presente simple. El verbo es live." },
+        { "texto": "Live in Puebla, near my parents.", "correcta": false, "porque": "Falta el sujeto. En español «vivo» basta, pero en inglés necesitas I." },
+        { "texto": "I lives in Puebla, near my parents.", "correcta": false, "porque": "Con I el verbo va en forma base. La -s es solo para he, she, it o sujetos singulares (como my family en la frase de Grace)." }
+      ],
+      "pistas": [
+        "Responde con la misma estructura que usa Grace para hablar de sí misma.",
+        "Revisa tres cosas en cada opción: ¿hay sujeto?, ¿sobra am/is/are?, ¿el verbo concuerda?",
+        "Con I: I + verbo en forma base, sin -s y sin am."
+      ],
+      "solucion": {
+        "respuesta": "I live in Puebla, near my parents.",
+        "explicacion": "La respuesta correcta es I live in Puebla… porque tiene sujeto, no mezcla to be con live y usa la forma base con I. Observa además que Grace dice my family lives: my family es un sujeto singular (= it) y por eso lleva -s. Lo estudiarás en la siguiente lección."
+      }
+    },
+    {
+      "id": "presente-simple.que-es-el-presente-simple.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Mantén el orden de los idiomas.",
+      "es": "La gente habla inglés y español en esta ciudad.",
+      "respuestas": ["People speak English and Spanish in this city", "In this city people speak English and Spanish"],
+      "errores_tipicos": {
+        "People speaks English and Spanish in this city": "«La gente» es singular en español, pero people es plural en inglés (= they). Por eso el verbo va sin -s: people speak.",
+        "The people speak English and Spanish in this city": "Hablas de la gente en general, y en ese caso el inglés no usa the: people speak…",
+        "The people speaks English and Spanish in this city": "Dos calcos a la vez: people en general va sin the, y es plural, así que el verbo no lleva -s."
+      },
+      "pistas": [
+        "Piensa si el sujeto es singular o plural en inglés, no en español.",
+        "El sujeto es «la gente». ¿Cómo se dice y a qué pronombre equivale en inglés?",
+        "People = they, y cuando hablas de la gente en general no lleva the. Con they, forma base."
+      ],
+      "solucion": {
+        "respuesta": "People speak English and Spanish in this city.",
+        "explicacion": "La traducción es People speak English and Spanish in this city. Hay dos trampas del español: people es plural (por eso speak sin -s) y, como hablas de la gente en general, no lleva the. Los nombres de idiomas se escriben con mayúscula en inglés: English, Spanish."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Preséntate con tres datos estables",
+    "contexto": "Estás en un grupo de intercambio de idiomas. Priya se presenta y te pide que hagas lo mismo con tres datos de tu vida: dónde vives, dónde trabajas o estudias y qué idiomas hablas.",
+    "dialogo": [
+      { "quien": "Priya", "en": "Hi! I'm Priya. I live in Monterrey, I work at a bank and I speak English and Hindi.", "es": "¡Hola! Soy Priya. Vivo en Monterrey, trabajo en un banco y hablo inglés e hindi." },
+      { "quien": "Priya", "en": "Now you! Tell me about you.", "es": "¡Ahora tú! Cuéntame de ti." }
+    ],
+    "tu_turno": "Di tres oraciones en presente simple sobre ti. Cada una con sujeto I y el verbo en forma base. Si quieres, añade una sobre tu familia en plural (my parents…).",
+    "modelo": "Hi, I'm Diego. I live in Querétaro. I work at a school, and I speak Spanish and a little English. My parents live in a small town.",
+    "alternativas": [
+      "I'm Lucía. I live in León and I study at a university. I speak Spanish and English.",
+      "My name is Omar. I live near the city center. I work at a hospital. My brothers work there too."
+    ],
+    "claves": [
+      "I + verbo en forma base: I live, I work, I study, I speak.",
+      "No pongas am delante del verbo: I work, no «I'm work».",
+      "Sujetos plurales (my parents, my brothers) también van con forma base."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "El presente simple sirve para hábitos, rutinas, hechos permanentes, verdades generales y horarios.",
+      "No describe lo que pasa en este instante exacto: describe lo habitual o lo estable.",
+      "Con I, you, we, they y cualquier sujeto plural, el verbo va en forma base: I work, my parents work.",
+      "El sujeto es obligatorio porque el verbo inglés casi no cambia."
+    ],
+    "recuerda": [
+      "People es plural: people work, no «people works».",
+      "No mezcles to be con otro verbo: I work, no «I am work».",
+      "Con he/she/it el verbo añade -s (my brother works): es la próxima lección."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-simple.que-es-el-presente-simple.r1", "frente": "¿Para qué cinco cosas se usa el presente simple?", "reverso": "Hábitos, rutinas, hechos permanentes, verdades generales y horarios.", "nota": "No para lo que pasa justo ahora." },
+    { "id": "presente-simple.que-es-el-presente-simple.r2", "frente": "¿Qué forma del verbo va con I, you, we y they?", "reverso": "La forma base: I work, you work, we work, they work.", "nota": "Igual con cualquier sujeto plural: my parents work." },
+    { "id": "presente-simple.que-es-el-presente-simple.r3", "frente": "Traduce: «La gente vive bien aquí».", "reverso": "People live well here.", "nota": "People es plural: sin -s y sin the." },
+    { "id": "presente-simple.que-es-el-presente-simple.r4", "frente": "¿Qué está mal en «I am work at a bank»?", "reverso": "Sobra am → I work at a bank.", "nota": "To be no se pone delante de otro verbo en presente simple." }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "slug": "there-was-y-born",
+  "titulo": "There was / there were y I was born",
+  "minutos": 45,
+  "objetivos": [
+    "Decir qué había en un lugar con there was / there were.",
+    "Negar y preguntar con there wasn't / weren't, Was there…? y Were there…?",
+    "Decir dónde y cuándo naciste con I was born… y preguntarlo a otras personas."
+  ],
+  "situacion": {
+    "titulo": "Fotos del barrio",
+    "texto": "Aisha le enseña a su amigo Ben fotos antiguas del barrio donde nació. Fíjate en dos cosas: para «había» usa there was o there were según lo que viene después, y para «nací» usa was born, nunca solo born.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Is this your street?",
+        "es": "¿Esta es tu calle?"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Yes! I was born in that house, in 1994.",
+        "es": "¡Sí! Nací en esa casa, en 1994."
+      },
+      {
+        "quien": "Ben",
+        "en": "Wow. There weren't many cars then.",
+        "es": "Guau. Entonces no había muchos carros."
+      },
+      {
+        "quien": "Aisha",
+        "en": "No, there weren't. And there was a big market on the corner.",
+        "es": "No. Y había un mercado grande en la esquina."
+      },
+      {
+        "quien": "Ben",
+        "en": "Was there a school near your house?",
+        "es": "¿Había una escuela cerca de tu casa?"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Yes, there was. My mom was a teacher there!",
+        "es": "Sí. ¡Mi mamá era maestra ahí!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "there-was-there-were",
+      "titulo": "There was y there were: lo que había",
+      "que_es": "Ya conoces [[there is]] / [[there are]] para decir lo que hay. Su pasado es **there was** / **there were**, y equivale a «había» o «hubo». La diferencia importante con el español es que «había» no cambia (había un perro, había tres perros), pero en inglés el verbo concuerda con lo que viene después.",
+      "para_que": [
+        "Describir cómo era un lugar antes: «There was a cinema here».",
+        "Contar lo que pasó en un evento: «There were a lot of people».",
+        "Preguntar qué había: «Was there a pool at the hotel?»."
+      ],
+      "como_funciona": "Mira lo que va **después** del verbo. Si es un sustantivo singular (a park, one bank) o incontable (traffic, water, noise) → **there was**. Si es plural (two parks, a lot of people, some trees) → **there were**. Con a lot of también decide el sustantivo: [[a lot of traffic]] → was; [[a lot of cars]] → were. Para **negar**: there wasn't a… / there wasn't any + incontable / there weren't any + plural (como con there isn't / there aren't). Para **preguntar**: Was there a…? / Were there any…?, con respuestas cortas Yes, there was / No, there weren't. Y para cantidades: How many + plural + were there? Dos calcos típicos: omitir there («Was a problem» → There was a problem) y usar have como en «había» («Had many people» → There were many people). Ojo también con **there was** frente a **it was**: there was presenta algo que existía («There was a party» = hubo una fiesta); it was describe algo que ya se mencionó («It was a great party» = fue una gran fiesta).",
+      "estructuras": [
+        {
+          "etiqueta": "Singular o incontable",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a / an / incontable",
+              "rol": "complemento"
+            },
+            {
+              "t": "lugar / tiempo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of traffic",
+              "rol": "complemento"
+            },
+            {
+              "t": "this morning",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Esta mañana había mucho tráfico."
+        },
+        {
+          "etiqueta": "Plural",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "plural",
+              "rol": "complemento"
+            },
+            {
+              "t": "lugar / tiempo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "three dogs",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the yard",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Había tres perros en el patio."
+        },
+        {
+          "etiqueta": "Pregunta y respuesta corta",
+          "formula": [
+            {
+              "t": "Was / Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a… / any…",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any problems",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Hubo algún problema?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "There was / there were en todas sus formas",
+          "columnas": [
+            "",
+            "Singular / incontable",
+            "Plural"
+          ],
+          "filas": [
+            [
+              "Afirmación",
+              "There was a bank.",
+              "There were two banks."
+            ],
+            [
+              "Negación",
+              "There wasn't a bank.",
+              "There weren't any banks."
+            ],
+            [
+              "Pregunta",
+              "Was there a bank?",
+              "Were there any banks?"
+            ],
+            [
+              "Respuestas cortas",
+              "Yes, there was. / No, there wasn't.",
+              "Yes, there were. / No, there weren't."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There was a small store on the corner.",
+          "es": "Había una tiendita en la esquina.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a small store",
+              "rol": "complemento"
+            },
+            {
+              "t": "on the corner",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "A small store es singular → was."
+        },
+        {
+          "en": "There were a lot of people at the wedding.",
+          "es": "Había mucha gente en la boda.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of people",
+              "rol": "complemento"
+            },
+            {
+              "t": "at the wedding",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«Mucha gente» es singular en español, pero people es plural en inglés → were."
+        },
+        {
+          "en": "There wasn't any milk in the fridge.",
+          "es": "No había leche en el refri.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "wasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "any milk",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the fridge",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Milk es incontable → wasn't, con any en la negación."
+        },
+        {
+          "en": "Were there any taxis at the airport?",
+          "es": "¿Había taxis en el aeropuerto?",
+          "partes": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any taxis",
+              "rol": "complemento"
+            },
+            {
+              "t": "at the airport",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta: were pasa delante de there. Con plurales en preguntas se suele usar any."
+        },
+        {
+          "en": "There was a party on Friday. It was fun.",
+          "es": "El viernes hubo una fiesta. Estuvo divertida.",
+          "nota": "There was presenta la fiesta (existió); it was la describe después de mencionarla."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: «había» no cambia",
+          "items": [
+            "Había un perro.",
+            "Había tres perros.",
+            "Había mucha gente."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: concuerda con lo que sigue",
+          "items": [
+            "There was a dog.",
+            "There were three dogs.",
+            "There were a lot of people."
+          ]
+        },
+        "veredicto": "Antes de decir there was o there were, piensa en el sustantivo que viene después: singular o incontable → was; plural → were."
+      },
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Mi calle en 1994",
+        "objetos": [
+          {
+            "emoji": "🏪",
+            "x": 0.2,
+            "y": 0.45,
+            "etiqueta": "There was a big market."
+          },
+          {
+            "emoji": "🌳",
+            "x": 0.5,
+            "y": 0.4,
+            "etiqueta": "There were two trees."
+          },
+          {
+            "emoji": "🚗",
+            "x": 0.78,
+            "y": 0.72,
+            "etiqueta": "There was only one car."
+          },
+          {
+            "emoji": "🏫",
+            "x": 0.8,
+            "y": 0.35,
+            "etiqueta": "There was a school."
+          },
+          {
+            "emoji": "🐕",
+            "x": 0.35,
+            "y": 0.8,
+            "etiqueta": "There were three dogs."
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "There was a market.",
+          "ipa": "/ðɛr wəz ə ˈmɑrkɪt/",
+          "consejo": "La /ð/ de there no es una «d» española: pon la punta de la lengua entre los dientes y deja que vibre, como una «d» muy suave de «nada». Was queda débil y se pega a la a: «ðer-wə-zə-már-kit».",
+          "lento": true
+        },
+        {
+          "texto": "There were",
+          "ipa": "/ðɛr wɚ/",
+          "consejo": "Las dos palabras tienen r al final en inglés estadounidense y se enlazan: «ðer-wɚ». Were es muy corto dentro de la frase; no lo conviertas en «ué-re»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There was many people.",
+          "bien": "There were a lot of people. / There were many people.",
+          "porque": "People es plural en inglés, así que el verbo es were, aunque en español digas «había mucha gente»."
+        },
+        {
+          "mal": "Had a lot of cars in the street.",
+          "bien": "There were a lot of cars in the street.",
+          "porque": "«Había» con el sentido de «existía» no se traduce con have: se usa there was / there were."
+        },
+        {
+          "mal": "Was a problem with the car.",
+          "bien": "There was a problem with the car.",
+          "porque": "Falta there. Sin él, la oración no tiene sujeto."
+        }
+      ]
+    },
+    {
+      "id": "i-was-born",
+      "titulo": "I was born: por qué «nací» se dice con was",
+      "que_es": "En inglés «nacer» no se dice con un verbo normal. Se dice **be born**, literalmente «ser dado a luz»: tu madre te dio a luz y tú «fuiste nacido». Por eso «nací» es **I was born**, «naciste» es **you were born** y «¿dónde naciste?» es **Where were you born?**. Born no cambia nunca; el que cambia es was / were.",
+      "para_que": [
+        "Presentarte con más detalle: «I was born in Morelia».",
+        "Dar tu fecha de nacimiento en un trámite: «I was born on May 5th, 1998».",
+        "Conocer a alguien: «Where were you born?»."
+      ],
+      "como_funciona": "La fórmula es **sujeto + was / were + born + in / on / at…**. Como nacer es algo que ocurrió una vez en el pasado, casi siempre se usa en pasado: I was born, my kids were born. Las preposiciones son las que ya conoces para lugares y fechas: **in** + ciudad, país, año o mes (in Puebla, in 1998, in May); **on** + fecha completa o día (on May 5th, 1998; on a Sunday); **at** + hora o lugar concreto (at 3 a.m., at home). Para preguntar se usa el orden de las preguntas con be: **Where / When were you born?**, **Where was your mom born?**, **Were you born in Mexico? — Yes, I was.** No confundas born con [[birthday]]: My birthday is on May 5th (el día que celebras, sin año) / I was born on May 5th, 1998 (el hecho de nacer).",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was / were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "in / on / at…",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Chihuahua",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Nací en Chihuahua."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Where / When",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was / were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "When",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your son",
+              "rol": "sujeto"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Cuándo nació tu hijo?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Nacer con la preposición correcta",
+          "columnas": [
+            "Dato",
+            "Preposición",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "ciudad, país",
+              "in",
+              "I was born in Tijuana."
+            ],
+            [
+              "año o mes",
+              "in",
+              "She was born in 2001."
+            ],
+            [
+              "fecha completa, día",
+              "on",
+              "He was born on June 2nd, 1985."
+            ],
+            [
+              "hora",
+              "at",
+              "The baby was born at six in the morning."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I was born in Oaxaca.",
+          "es": "Nací en Oaxaca.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Oaxaca",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Was es obligatorio: «I born in Oaxaca» es el calco más frecuente."
+        },
+        {
+          "en": "My twins were born on a Sunday.",
+          "es": "Mis gemelos nacieron en domingo.",
+          "partes": [
+            {
+              "t": "My twins",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            },
+            {
+              "t": "on a Sunday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Sujeto plural → were born. Día de la semana → on."
+        },
+        {
+          "en": "Where was your father born?",
+          "es": "¿Dónde nació tu papá?",
+          "partes": [
+            {
+              "t": "Where",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "was",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your father",
+              "rol": "sujeto"
+            },
+            {
+              "t": "born",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Born va al final, después del sujeto; was va delante del sujeto."
+        },
+        {
+          "en": "Were you born in Mexico? — No, I wasn't. I was born in Guatemala.",
+          "es": "¿Naciste en México? — No, nací en Guatemala.",
+          "nota": "La respuesta corta no repite born: Yes, I was / No, I wasn't."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "born",
+          "ipa": "/bɔrn/ (GB /bɔːn/)",
+          "consejo": "La vocal es una «o» abierta y alargada, con los labios redondeados; en EE. UU. la lengua se recoge enseguida para la r. No digas «bor-ne»: termina en /n/ sin vocal. En británico no se oye la r: /bɔːn/.",
+          "lento": true
+        },
+        {
+          "texto": "I was born in Mexico.",
+          "ipa": "/aɪ wəz bɔrn ɪn ˈmɛksɪkoʊ/",
+          "consejo": "Was es débil (/wəz/) y el acento principal cae en born y en MEX-ico. La x de Mexico suena /ks/, no como la «j» española."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I born in Monterrey.",
+          "bien": "I was born in Monterrey.",
+          "porque": "Born no es un verbo en pasado: siempre necesita was / were delante."
+        },
+        {
+          "mal": "I am born in 1999.",
+          "bien": "I was born in 1999.",
+          "porque": "Nacer ocurrió en el pasado: was born. «I am born» no se dice."
+        },
+        {
+          "mal": "I was born on 1999.",
+          "bien": "I was born in 1999.",
+          "porque": "Con un año solo se usa in. On es para fechas completas o días (on May 3rd, 1999)."
+        },
+        {
+          "mal": "Where you were born?",
+          "bien": "Where were you born?",
+          "porque": "Es una pregunta con be: were va delante del sujeto."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "was-were.there-was-y-born.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "In 2010 there ___ two banks on my street.",
+      "opciones": [
+        {
+          "texto": "were",
+          "correcta": true,
+          "porque": "Lo que sigue es two banks, un plural, así que va were."
+        },
+        {
+          "texto": "was",
+          "correcta": false,
+          "porque": "Was es para un sustantivo singular o incontable; two banks es plural."
+        },
+        {
+          "texto": "had",
+          "correcta": false,
+          "porque": "«Había» con el sentido de «existía» no se dice con have: se usa there was / there were."
+        },
+        {
+          "texto": "are",
+          "correcta": false,
+          "porque": "Are es presente y la oración está en 2010."
+        }
+      ],
+      "pistas": [
+        "There was / there were concuerda con algo de la oración.",
+        "Mira el sustantivo que va después del hueco.",
+        "Singular o incontable → there was; plural → there were."
+      ],
+      "solucion": {
+        "respuesta": "were",
+        "explicacion": "La respuesta correcta es were porque el sustantivo que sigue, two banks, es plural. In 2010 obliga al pasado, así que no vale are."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta.",
+      "pares": [
+        {
+          "a": "Where were you born?",
+          "b": "In Mérida."
+        },
+        {
+          "a": "When were you born?",
+          "b": "In 1998."
+        },
+        {
+          "a": "Were you born in Mexico?",
+          "b": "Yes, I was."
+        },
+        {
+          "a": "Where was your dad born?",
+          "b": "He was born in Chiapas."
+        },
+        {
+          "a": "Was your sister born in May?",
+          "b": "No, she wasn't. She was born in June."
+        },
+        {
+          "a": "Were there any doctors on the plane?",
+          "b": "Yes, there were two."
+        }
+      ],
+      "pistas": [
+        "Where pide un lugar, when pide un momento y las preguntas que empiezan con was / were piden sí o no.",
+        "Fíjate en el sujeto de cada pregunta: you, your dad, your sister, there.",
+        "Las respuestas cortas repiten el sujeto de la pregunta (you pasa a I) y el mismo verbo be, en afirmativo o en negativo."
+      ],
+      "solucion": {
+        "respuesta": "born? → In Mérida · When…? → In 1998 · born in Mexico? → Yes, I was · your dad → He was born in Chiapas · your sister → No, she wasn't… · doctors → Yes, there were two",
+        "explicacion": "Where pide un lugar (In Mérida) y when un momento (In 1998). Were you…? se contesta con I was. Your dad se retoma con he, your sister con she, y la pregunta con there se contesta con there were."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma correcta de nacer (dos palabras).",
+      "frase": "I ___ in León, but my brothers ___ in Querétaro.",
+      "traduccion": "Yo nací en León, pero mis hermanos nacieron en Querétaro.",
+      "respuestas": [
+        [
+          "was born"
+        ],
+        [
+          "were born"
+        ]
+      ],
+      "errores_tipicos": {
+        "born | born": "Born solo no funciona como verbo: necesita was / were delante.",
+        "am born | are born": "Nacer ocurrió en el pasado: was born / were born.",
+        "was born | was born": "My brothers es plural: were born."
+      },
+      "pistas": [
+        "«Nacer» en inglés se dice con be + born.",
+        "El primer sujeto es I; el segundo, my brothers.",
+        "Nacer = be born: I, he, she, it usan la forma singular de be; los sujetos plurales, la plural, como en She was born in Puebla and her cousins were born in Colima."
+      ],
+      "solucion": {
+        "respuesta": "was born · were born",
+        "explicacion": "«Nací» es I was born: was porque el sujeto es I. «Nacieron» es were born porque my brothers es plural. Born no cambia; lo que concuerda con el sujeto es was / were."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "There was a cinema near my house.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "There wasn't a cinema near my house.",
+        "There was no cinema near my house."
+      ],
+      "errores_tipicos": {
+        "There weren't a cinema near my house.": "A cinema es singular: there wasn't.",
+        "There no was a cinema near my house.": "El not va después de was: there wasn't."
+      },
+      "pistas": [
+        "La negación de there was se forma igual que la de was.",
+        "¿Dónde colocas not?",
+        "There + be en negativo + resto, como en There weren't any parks."
+      ],
+      "solucion": {
+        "respuesta": "There wasn't a cinema near my house.",
+        "explicacion": "Se añade not después de was: there was not → there wasn't. A cinema es singular, así que se mantiene was. También es correcto There was no cinema near my house, que es algo más enfático."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "There were some good restaurants in the town.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Were there any good restaurants in the town?",
+        "Were there some good restaurants in the town?"
+      ],
+      "errores_tipicos": {
+        "There were any good restaurants in the town?": "En la pregunta were va delante de there.",
+        "Was there any good restaurants in the town?": "Restaurants es plural: Were there…?"
+      },
+      "pistas": [
+        "Las preguntas con there cambian el orden igual que las demás preguntas con be.",
+        "Primero va el verbo y luego there. Piensa también qué palabra suele sustituir a some en las preguntas.",
+        "Be + there + any + sustantivo + ?, como en Was there any milk in the fridge?"
+      ],
+      "solucion": {
+        "respuesta": "Were there any good restaurants in the town?",
+        "explicacion": "Were pasa delante de there, y some normalmente se convierte en any en las preguntas (como viste en la unidad de some / any). Some también es posible si esperas que la respuesta sea sí, pero any es la opción neutra."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "born",
+        "Where",
+        "your",
+        "were",
+        "parents"
+      ],
+      "respuestas": [
+        "Where were your parents born"
+      ],
+      "traduccion": "¿Dónde nacieron tus papás?",
+      "pistas": [
+        "Es una pregunta con palabra interrogativa y be.",
+        "Después de where va el verbo; born no va junto a were en la pregunta.",
+        "Palabra interrogativa + be + sujeto + born + ?, como en When was your brother born?"
+      ],
+      "solucion": {
+        "respuesta": "Where were your parents born?",
+        "explicacion": "Where va primero, luego were (plural, porque your parents es plural), después el sujeto completo y born al final. Were y born quedan separados por el sujeto, como en Were you at home? queda separado at home."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "I born in Toluca in 1999.",
+      "error": "born",
+      "correcciones": [
+        "was born"
+      ],
+      "frase_correcta": "I was born in Toluca in 1999.",
+      "pistas": [
+        "«Nacer» en inglés no es un verbo normal.",
+        "A la oración le falta una palabra delante de born.",
+        "Nacer = be born; be va en pasado y concuerda con el sujeto, como en She was born in Puebla."
+      ],
+      "solucion": {
+        "respuesta": "born → was born",
+        "explicacion": "Born necesita siempre was / were delante: I was born. «I born» es un calco de «yo nací», que en español es un verbo de una sola palabra."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.08",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Luego dilo con tu propia ciudad.",
+      "texto": "I was born in Mexico.",
+      "ipa": "/aɪ wəz bɔrn ɪn ˈmɛksɪkoʊ/",
+      "consejo": "Was es débil y corto; born se alarga con una «o» abierta y la lengua recogida para la r. Born in se enlaza: «bɔr-nin». En Mexico, la x suena /ks/ y el acento va en la primera sílaba.",
+      "es": "Nací en México."
+    },
+    {
+      "id": "was-were.there-was-y-born.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "There weren't any buses after midnight.",
+      "pistas": [
+        "Es una negación con there en pasado.",
+        "Lo que no había es plural.",
+        "There + be en pasado negativo + any + sustantivo + expresión de tiempo, como en There wasn't any coffee in the morning."
+      ],
+      "solucion": {
+        "respuesta": "There weren't any buses after midnight.",
+        "explicacion": "Buses es plural, por eso weren't, y en negación se usa any. Si escuchaste «wasn't», fíjate en que weren't tiene una sola sílaba con sonido de r: /wɝnt/."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error de concordancia. Señálalo y corrígelo.",
+      "frase": "There was many people at the concert.",
+      "error": "was",
+      "correcciones": [
+        "were"
+      ],
+      "frase_correcta": "There were many people at the concert.",
+      "pistas": [
+        "There was / there were concuerda con lo que viene después.",
+        "¿People es singular o plural en inglés?",
+        "People es plural en inglés; con un sustantivo plural, there usa la forma plural de be."
+      ],
+      "solucion": {
+        "respuesta": "was → were",
+        "explicacion": "People es plural en inglés, aunque «gente» sea singular en español. Por eso: There were many people (o There were a lot of people) at the concert."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa a lot of y square.",
+      "es": "Había mucha gente en la plaza.",
+      "respuestas": [
+        "There were a lot of people in the square.",
+        "In the square there were a lot of people."
+      ],
+      "errores_tipicos": {
+        "There was a lot of people in the square.": "People es plural: there were.",
+        "Had a lot of people in the square.": "«Había» (existía) se dice there was / there were, no con have.",
+        "It was a lot of people in the square.": "Para decir lo que había se usa there, no it."
+      },
+      "pistas": [
+        "«Había» con el sentido de «existía» tiene una traducción fija en inglés.",
+        "Piensa si people es singular o plural.",
+        "There + be en pasado + a lot of + sustantivo + lugar, como en There was a lot of noise in the street. Recuerda que people es plural."
+      ],
+      "solucion": {
+        "respuesta": "There were a lot of people in the square.",
+        "explicacion": "«Había» se traduce con there was / there were. Como people es plural en inglés, va were, aunque en español digamos «mucha gente» en singular."
+      },
+      "audio": true
+    },
+    {
+      "id": "was-were.there-was-y-born.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa mom y escribe la fecha como quieras.",
+      "es": "Mi mamá nació el 3 de marzo de 1970.",
+      "respuestas": [
+        "My mom was born on March 3rd, 1970.",
+        "My mom was born on March 3, 1970.",
+        "My mom was born on March third, 1970.",
+        "My mom was born on the third of March, 1970.",
+        "My mom was born on the 3rd of March, 1970.",
+        "My mom was born on 3rd March 1970.",
+        "My mom was born on 3 March 1970.",
+        "My mom was born on March the third, 1970."
+      ],
+      "errores_tipicos": {
+        "My mom born on March 3rd, 1970.": "Falta was: nacer es be born.",
+        "My mom was born in March 3rd, 1970.": "Con una fecha completa se usa on, no in.",
+        "My mom is born on March 3rd, 1970.": "Nacer es algo pasado: was born."
+      },
+      "pistas": [
+        "«Nació» se dice con be + born.",
+        "Con una fecha completa (día, mes y año) cambia la preposición.",
+        "Sujeto + be born en pasado + on + fecha completa, como en My dad was born on May 5th, 1968."
+      ],
+      "solucion": {
+        "respuesta": "My mom was born on March 3rd, 1970.",
+        "explicacion": "«Nació» es was born (sujeto singular). Una fecha completa lleva on. En inglés estadounidense la fecha se suele decir March 3rd (o March third); en británico, 3rd March o the third of March. Todas son correctas."
+      }
+    },
+    {
+      "id": "was-were.there-was-y-born.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre el lugar donde naciste.",
+      "objetivo": "Presentar tu lugar de nacimiento y describir cómo era cuando eras niño con there was / there were.",
+      "instrucciones": "Escribe al menos 40 palabras. Di dónde y cuándo naciste y describe tu calle o tu barrio cuando eras niño: qué había y qué no había. Usa was born, there was, there were y al menos una negación (there wasn't / there weren't).",
+      "vocabulario_apoyo": [
+        "a park",
+        "a market",
+        "a church",
+        "a school",
+        "trees",
+        "stores",
+        "traffic",
+        "noise",
+        "neighbors",
+        "quiet / busy"
+      ],
+      "estructuras": [
+        "I was born in … in …",
+        "There was a …",
+        "There were a lot of …",
+        "There wasn't a … / There weren't any …",
+        "It was a … street."
+      ],
+      "ejemplo": "My cousin Sam was born in Tampico in 2003. When he was a child, there was a small beach near his house and there were a lot of fish restaurants. There wasn't a cinema.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Dices dónde o cuándo naciste con was born",
+          "patron": "\\bwas born\\b"
+        },
+        {
+          "descripcion": "Usas there was",
+          "patron": "\\bthere was\\b"
+        },
+        {
+          "descripcion": "Usas there were",
+          "patron": "\\bthere were\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con there",
+          "patron": "\\bthere (wasn't|weren't|was not|were not)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Escribiste was born (y no solo born)?",
+        "¿Usaste in con la ciudad y el año, y on si diste una fecha completa?",
+        "¿Concuerda there was / there were con el sustantivo que sigue?",
+        "¿Usaste any en las negaciones con plural?"
+      ],
+      "modelo": "I was born in Zacatecas in 1996. When I was a child, my street was very quiet. There was a small park in front of my house and there were two big trees in it. There was a bakery on the corner. There weren't any tall buildings and there wasn't much traffic. It was a nice place for kids.",
+      "explicacion": "El modelo empieza con I was born in + ciudad + in + año. Después usa there was con sustantivos singulares (a small park, a bakery) y there were con plurales (two big trees). Las negaciones usan weren't any con un plural y wasn't much con un incontable (traffic). La última oración usa it was para valorar el lugar ya mencionado.",
+      "errores_comunes": [
+        "«I born in…» sin was.",
+        "«There was many trees»: con plural, there were.",
+        "«Had a park near my house» para decir «había»: se usa there was."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Intercambio de idiomas",
+    "contexto": "Estás en un intercambio de idiomas y conoces a Grace, que acaba de llegar a México.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "So, where were you born?",
+        "es": "Oye, ¿y dónde naciste?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "Nice! Was it a big city when you were a child?",
+        "es": "¡Qué bien! ¿Era una ciudad grande cuando eras niño?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Di dónde (y si quieres cuándo) naciste. Después describe tu ciudad o barrio de niño con una respuesta corta y dos oraciones con there was / there were. Termina preguntándole a Grace dónde nació ella.",
+    "modelo": "I was born in Puebla, in 1995. — No, it wasn't. There weren't many tall buildings, but there was a beautiful old market. And you? Where were you born?",
+    "alternativas": [
+      "I was born in a small town in Jalisco. — No, it wasn't. There was one church and there were a lot of farms. Where were you born, Grace?",
+      "I was born here, in Mexico City. — Yes, it was! There was a lot of traffic and there were a lot of people. What about you?"
+    ],
+    "claves": [
+      "I was born in + lugar / año.",
+      "Respuesta corta: Yes, it was / No, it wasn't.",
+      "There was + singular; there were + plural.",
+      "Pregunta: Where were you born?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "There was + singular o incontable; there were + plural.",
+      "Negación: there wasn't a… / there weren't any…",
+      "Pregunta: Was there a…? / Were there any…? — Yes, there was / No, there weren't.",
+      "Nacer = be born: I was born, they were born.",
+      "Where / When were you born? — I was born in… / on…"
+    ],
+    "recuerda": [
+      "«Había» no cambia en español, pero there was / there were sí.",
+      "People es plural: there were a lot of people.",
+      "Nunca «I born»: siempre I was born.",
+      "In + año o ciudad; on + fecha completa."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "was-were.there-was-y-born.r1",
+      "frente": "¿There was o there were? … a lot of people.",
+      "reverso": "There were a lot of people.",
+      "nota": "People es plural."
+    },
+    {
+      "id": "was-were.there-was-y-born.r2",
+      "frente": "¿Cómo se dice «Nací en Puebla»?",
+      "reverso": "I was born in Puebla.",
+      "nota": "Nunca «I born»."
+    },
+    {
+      "id": "was-were.there-was-y-born.r3",
+      "frente": "Pregunta: «¿Había un banco?»",
+      "reverso": "Was there a bank?",
+      "nota": "Respuesta: Yes, there was / No, there wasn't."
+    },
+    {
+      "id": "was-were.there-was-y-born.r4",
+      "frente": "¿In u on? I was born … 1999.",
+      "reverso": "in 1999",
+      "nota": "On solo con fecha completa: on May 3rd, 1999."
+    },
+    {
+      "id": "was-were.there-was-y-born.r5",
+      "frente": "¿Cómo se pregunta «¿Dónde nació tu mamá?»?",
+      "reverso": "Where was your mom born?",
+      "nota": "Was delante del sujeto; born al final."
+    }
+  ]
+}

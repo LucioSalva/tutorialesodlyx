@@ -1,0 +1,524 @@
+{
+  "slug": "preguntas-wh-con-be",
+  "titulo": "Preguntas con what, where, who, how",
+  "minutos": 40,
+  "objetivos": [
+    "Preguntar el nombre, el origen, la edad, la identidad y el estado de alguien con what, where, who, how y how old.",
+    "Construir la pregunta con el orden palabra interrogativa + be + sujeto.",
+    "Evitar los calcos del español: «How many years do you have?», «From where are you?», «How do you call?».",
+    "Usar la contracción con is (What's, Where's, Who's, How's) y la entonación descendente."
+  ],
+  "situacion": {
+    "titulo": "En la fila del registro",
+    "texto": "Sam y Lucía esperan en la fila para registrarse en un curso de verano. Empiezan a platicar y se hacen las preguntas típicas para conocer a alguien. Ninguna se puede contestar con sí o no: por eso empiezan con what, where, how o who.",
+    "dialogo": [
+      {"quien": "Sam", "en": "Hi! What's your name?", "es": "¡Hola! ¿Cómo te llamas?"},
+      {"quien": "Lucía", "en": "I'm Lucía. And you?", "es": "Soy Lucía. ¿Y tú?"},
+      {"quien": "Sam", "en": "I'm Sam. Where are you from, Lucía?", "es": "Soy Sam. ¿De dónde eres, Lucía?"},
+      {"quien": "Lucía", "en": "I'm from Mexico, from Puebla.", "es": "Soy de México, de Puebla."},
+      {"quien": "Sam", "en": "Cool! Who's that? Is she your friend?", "es": "¡Qué padre! ¿Quién es ella? ¿Es tu amiga?"},
+      {"quien": "Lucía", "en": "That's Ana, my sister. She's only sixteen!", "es": "Es Ana, mi hermana. ¡Solo tiene dieciséis!"},
+      {"quien": "Sam", "en": "How old are you, then?", "es": "¿Y tú cuántos años tienes?"},
+      {"quien": "Lucía", "en": "I'm twenty.", "es": "Tengo veinte."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "palabras-interrogativas",
+      "titulo": "Palabra interrogativa + be + sujeto",
+      "que_es": "Las palabras interrogativas (en inglés se llaman **wh-words** porque casi todas empiezan por wh) sirven para pedir información concreta: un nombre, un lugar, una persona, un estado, una edad. Con be, la pregunta es igual que una de sí o no, pero con la palabra interrogativa delante: [[Are you from Peru?]] → [[Where are you from?]]",
+      "para_que": [
+        "Conocer a alguien: nombre, origen, edad.",
+        "Preguntar cómo está una persona: [[How are you?]]",
+        "Identificar a alguien: [[Who is she?]]",
+        "Pedir datos: [[What's your phone number?]]"
+      ],
+      "como_funciona": "El orden es fijo: {{interrogativo:palabra interrogativa}} + {{verbo:am/is/are}} + {{sujeto:sujeto}} + (resto)?\n\n• **What** = qué / cuál: [[What's your name?]] Ojo: cuando en español dices «¿cuál es tu nombre / tu número / tu correo?», en inglés casi siempre es what.\n• **Where** = dónde: [[Where is Ben?]] Para el origen, [[Where are you from?]]: la preposición from va **al final**, aunque en español «de» vaya al principio («¿**De** dónde eres?»).\n• **Who** = quién: [[Who is he?]]\n• **How** = cómo (el estado): [[How are you?]] Se contesta con cómo estás: [[I'm fine, thanks.]]\n• **How old** = qué edad: [[How old are you?]] La edad va con be, como ya sabes: nada de «How many years do you have?».\n\nBe concuerda con el sujeto que va después: [[Where **is** your brother?]] / [[Where **are** your parents?]]\n\nPara preguntar el nombre, el inglés NO usa el verbo «llamarse»: [[What's your name?]] («¿Cuál es tu nombre?»). La traducción literal «How do you call?» no tiene sentido.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con wh- y be",
+          "formula": [{"t": "What / Where / Who / How", "rol": "interrogativo"}, {"t": "am / is / are", "rol": "verbo"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "(resto)", "rol": "complemento"}],
+          "ejemplo": [{"t": "Where", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "from", "rol": "complemento"}],
+          "es": "¿De dónde eres?"
+        },
+        {
+          "etiqueta": "Preguntar la edad",
+          "formula": [{"t": "How old", "rol": "interrogativo"}, {"t": "am / is / are", "rol": "verbo"}, {"t": "sujeto", "rol": "sujeto"}],
+          "ejemplo": [{"t": "How old", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your sister", "rol": "sujeto"}],
+          "es": "¿Cuántos años tiene tu hermana?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las preguntas básicas para conocer a alguien",
+          "columnas": ["Pregunta", "Significa", "Respuesta posible"],
+          "filas": [
+            ["What's your name?", "¿Cómo te llamas?", "I'm Diego. / My name's Diego."],
+            ["Where are you from?", "¿De dónde eres?", "I'm from Mexico."],
+            ["How old are you?", "¿Cuántos años tienes?", "I'm 28."],
+            ["How are you?", "¿Cómo estás?", "I'm fine, thanks. And you?"],
+            ["Who is she?", "¿Quién es ella?", "She's my teacher."],
+            ["Where is Ben?", "¿Dónde está Ben?", "He's at work."]
+          ],
+          "audio": [0, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?",
+          "partes": [{"t": "Where", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "from", "rol": "complemento"}],
+          "nota": "From se queda al final. «Where you are from?» es incorrecto: be va antes del sujeto."
+        },
+        {
+          "en": "How old is your sister?",
+          "es": "¿Cuántos años tiene tu hermana?",
+          "partes": [{"t": "How old", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your sister", "rol": "sujeto"}],
+          "nota": "Literalmente «¿Qué tan vieja es tu hermana?». En inglés la edad se pregunta con be + old, aunque la persona sea joven."
+        },
+        {
+          "en": "Who is your teacher?",
+          "es": "¿Quién es tu maestro?",
+          "partes": [{"t": "Who", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your teacher", "rol": "sujeto"}],
+          "nota": "Who pregunta por personas."
+        },
+        {
+          "en": "Where are my keys?",
+          "es": "¿Dónde están mis llaves?",
+          "partes": [{"t": "Where", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "my keys", "rol": "sujeto"}],
+          "nota": "Keys es plural, así que are. Be siempre concuerda con el sujeto que va después."
+        },
+        {
+          "en": "What is your email address?",
+          "es": "¿Cuál es tu correo electrónico?",
+          "partes": [{"t": "What", "rol": "interrogativo"}, {"t": "is", "rol": "verbo"}, {"t": "your email address", "rol": "sujeto"}],
+          "nota": "«¿Cuál es…?» se traduce con what cuando pides un dato."
+        }
+      ],
+      "comparacion": {
+        "a": {"titulo": "Pregunta de sí o no", "items": ["Are you from Peru?", "empieza por be", "se contesta Yes, I am / No, I'm not", "la voz suele subir al final"]},
+        "b": {"titulo": "Pregunta con wh-", "items": ["Where are you from?", "empieza por la palabra interrogativa; después, el mismo orden be + sujeto", "se contesta con información: I'm from Peru.", "la voz suele bajar al final"]},
+        "veredicto": "La estructura es la misma (be antes del sujeto); la pregunta con wh- solo añade una palabra delante y pide información en lugar de un sí o un no."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Qué pide cada palabra interrogativa",
+        "centro": "wh- + be",
+        "ramas": [
+          {"texto": "What's your name?", "detalle": "what: dato, nombre (qué / cuál)"},
+          {"texto": "Where are you from?", "detalle": "where: lugar u origen (dónde)"},
+          {"texto": "Who is she?", "detalle": "who: persona (quién)"},
+          {"texto": "How are you?", "detalle": "how: estado (cómo)"},
+          {"texto": "How old are you?", "detalle": "how old: edad (cuántos años)"}
+        ]
+      },
+      "pronunciacion": [
+        {"texto": "Where are you from?", "ipa": "/ˈwɛr ər jə ˈfrʌm ↘/", "consejo": "La w es como el sonido de «hu» en «huevo», con los labios redondeados; la h escrita no suena. Are you va débil y rápido. La voz sube un poco en from y luego cae: en las preguntas con wh- la entonación es descendente.", "lento": true},
+        {"texto": "How old are you?", "ipa": "/haʊ ˈoʊld ər jə ↘/", "consejo": "La h de how sí se pronuncia: es un soplo suave de aire, mucho más débil que la j del español. En old la vocal es el diptongo /oʊ/ y la l final se hace con la lengua algo más atrás que en español."}
+      ],
+      "errores": [
+        {"mal": "How many years do you have?", "bien": "How old are you?", "porque": "Calco de «¿cuántos años tienes?». La edad se pregunta con how old + be."},
+        {"mal": "How do you call?", "bien": "What's your name?", "porque": "Calco de «¿cómo te llamas?». En inglés se pregunta cuál es tu nombre."},
+        {"mal": "Where you are from?", "bien": "Where are you from?", "porque": "Después de la palabra interrogativa va be y luego el sujeto."},
+        {"mal": "Where is from Priya?", "bien": "Where is Priya from?", "porque": "From va al final, después del sujeto."}
+      ]
+    },
+    {
+      "id": "contracciones-y-respuestas",
+      "titulo": "What's, where's, who's, how's y cómo responder",
+      "que_es": "Con is, la palabra interrogativa se contrae casi siempre al hablar: **What's, Where's, Who's, How's**. Con are, en cambio, por escrito no se contrae. Y la respuesta no necesita repetir la pregunta: basta con la información, en una oración o incluso sola.",
+      "para_que": [
+        "Hablar con ritmo natural: [[What's your name?]] suena más normal que What is your name?",
+        "Reconocer estas contracciones al escuchar.",
+        "Responder de forma natural, sin frases ni muy largas ni demasiado cortas."
+      ],
+      "como_funciona": "**Contracciones con is:** what is → what's; where is → where's; who is → who's; how is → how's. Son muy comunes al hablar y en mensajes. La forma completa (What is your name?) es correcta y aparece en formularios o cuando se quiere hablar con claridad.\n\n**Con are no se contrae por escrito:** se escribe Where are you from?, How are you?. Al hablar, are suena tan débil que parece desaparecer («Where'r you from?»), pero no se escribe así.\n\n**Cuidado con who's:** suena igual que [[whose]] (de quién), otra palabra que verás más adelante. Who's siempre equivale a who is.\n\n**Cómo responder:** lo más natural es una oración corta con be: [[Where are you from? — I'm from Chile.]] También puedes dar solo el dato en conversación informal: [[— Chile.]] Lo que no se hace es contestar con Yes o No: la pregunta pide información.\n\nPara [[How are you?]] las respuestas típicas son [[I'm fine, thanks.]] / [[I'm good, thanks.]] / [[Not bad.]], casi siempre seguidas de [[And you?]]",
+      "estructuras": [
+        {
+          "etiqueta": "Contracción con is",
+          "formula": [{"t": "What's / Where's / Who's / How's", "rol": "interrogativo"}, {"t": "sujeto singular", "rol": "sujeto"}, {"t": "(resto)", "rol": "complemento"}],
+          "ejemplo": [{"t": "Where's", "rol": "interrogativo"}, {"t": "Ben", "rol": "sujeto"}],
+          "es": "¿Dónde está Ben?"
+        },
+        {
+          "etiqueta": "Respuesta con la información",
+          "formula": [{"t": "Sujeto", "rol": "sujeto"}, {"t": "be", "rol": "verbo"}, {"t": "dato pedido", "rol": "complemento"}],
+          "ejemplo": [{"t": "He's", "rol": "sujeto"}, {"t": "at work", "rol": "complemento"}],
+          "es": "Está en el trabajo."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What's your name?",
+          "es": "¿Cómo te llamas?",
+          "partes": [{"t": "What's", "rol": "interrogativo"}, {"t": "your name", "rol": "sujeto"}],
+          "nota": "What's = what is. Es la pregunta más frecuente al conocer a alguien."
+        },
+        {
+          "en": "Where's my phone?",
+          "es": "¿Dónde está mi celular?",
+          "partes": [{"t": "Where's", "rol": "interrogativo"}, {"t": "my phone", "rol": "sujeto"}],
+          "nota": "Where's = where is. Con un sujeto plural sería Where are my phones?, sin contraer por escrito."
+        },
+        {
+          "en": "Who's your friend?",
+          "es": "¿Quién es tu amigo?",
+          "partes": [{"t": "Who's", "rol": "interrogativo"}, {"t": "your friend", "rol": "sujeto"}],
+          "nota": "Who's = who is. No lo confundas con whose (de quién), que suena igual."
+        },
+        {
+          "en": "How's your mom?",
+          "es": "¿Cómo está tu mamá?",
+          "partes": [{"t": "How's", "rol": "interrogativo"}, {"t": "your mom", "rol": "sujeto"}],
+          "nota": "Mom es la forma estadounidense; en Reino Unido se dice mum."
+        }
+      ],
+      "pronunciacion": [
+        {"texto": "What's", "ipa": "/wʌts/", "consejo": "Una sola sílaba. La vocal es corta y relajada, parecida a una a española dicha sin abrir mucho la boca. Termina en «ts», como la «tz» de «quetzal», sin vocal después.", "lento": true},
+        {"texto": "Who's", "ipa": "/huz/", "consejo": "La w escrita no suena: empieza con el soplo suave de la h. La u es larga, con labios redondeados, y termina en z sonora (vibración)."},
+        {"texto": "How are you?", "ipa": "/haʊ ər ˈju ↘/", "consejo": "En este saludo la fuerza cae en you y la voz baja al final. How rima con el español «jau», pero con una h suave de solo aire."}
+      ],
+      "errores": [
+        {"mal": "Where're you from? (por escrito)", "bien": "Where are you from?", "porque": "Con are la palabra interrogativa no se contrae en la escritura normal, aunque al hablar are suene muy débil."},
+        {"mal": "Where are you from? — Yes, I'm from Chile.", "bien": "I'm from Chile.", "porque": "Una pregunta con wh- pide información, no un sí o un no."},
+        {"mal": "How are you? — I'm 25.", "bien": "I'm fine, thanks. And you?", "porque": "How are you? pregunta por tu estado; la edad se pregunta con How old are you?"}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "«¿Cómo te llamas?»",
+      "opciones": [
+        {"texto": "What's your name?", "correcta": true, "porque": "Correcto: en inglés se pregunta «¿cuál es tu nombre?» con what + is (what's) + your name."},
+        {"texto": "How do you call?", "correcta": false, "porque": "Es la traducción literal de «¿cómo te llamas?» y no tiene sentido en inglés."},
+        {"texto": "How is your name?", "correcta": false, "porque": "How pregunta cómo está algo, no cuál es. Para un dato se usa what."},
+        {"texto": "What your name is?", "correcta": false, "porque": "Después de what va be y luego el sujeto: What is (What's) your name?"}
+      ],
+      "pistas": [
+        "En inglés no se usa el verbo «llamarse» para preguntar el nombre.",
+        "Piensa en «¿Cuál es tu nombre?» y en qué palabra traduce «cuál» cuando pides un dato.",
+        "Regla: para pedir un dato (nombre, número) se usa what + be, como en What's your phone number?"
+      ],
+      "solucion": {"respuesta": "What's your name?", "explicacion": "La respuesta correcta es What's your name? porque en inglés se pregunta literalmente «¿cuál es tu nombre?»: what + be + sujeto. How pregunta por el estado y el orden de «What your name is?» es incorrecto."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta.",
+      "pares": [
+        {"a": "What's your name?", "b": "I'm Diego."},
+        {"a": "Where are you from?", "b": "I'm from Peru."},
+        {"a": "How old are you?", "b": "I'm 28."},
+        {"a": "How are you?", "b": "I'm fine, thanks."},
+        {"a": "Who is she?", "b": "She's my sister."},
+        {"a": "Where is Ben?", "b": "He's at work."}
+      ],
+      "pistas": [
+        "Cada palabra interrogativa pide un tipo de información distinto.",
+        "What → dato; where → lugar; who → persona; how → estado; how old → edad.",
+        "Regla: fíjate también en el sujeto: una pregunta sobre Ben se contesta con he."
+      ],
+      "solucion": {"respuesta": "What's your name? → I'm Diego. · Where are you from? → I'm from Peru. · How old are you? → I'm 28. · How are you? → I'm fine, thanks. · Who is she? → She's my sister. · Where is Ben? → He's at work.", "explicacion": "Cada pregunta se une con la respuesta que da la información que pide su palabra interrogativa: nombre, origen, edad, estado, identidad y lugar."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra interrogativa correcta.",
+      "frase": "___ are you from? I'm from Colombia.",
+      "traduccion": "¿De dónde eres? Soy de Colombia.",
+      "respuestas": [["Where"]],
+      "banco": ["What", "Where", "Who", "How"],
+      "errores_tipicos": {
+        "What": "What pide un dato o una cosa; para el origen (un lugar) se usa where.",
+        "How": "How pregunta por el estado (cómo estás), no por el lugar."
+      },
+      "pistas": [
+        "La respuesta es un lugar.",
+        "Mira la respuesta: I'm from Colombia.",
+        "Regla: para preguntar por un lugar o por el origen se usa where."
+      ],
+      "solucion": {"respuesta": "Where", "explicacion": "La respuesta correcta es Where porque la respuesta es un lugar de origen (Colombia), y para preguntar por lugares se usa where. From se queda al final de la pregunta."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta con una palabra.",
+      "frase": "How ___ is your brother? He's 19.",
+      "traduccion": "¿Cuántos años tiene tu hermano? Tiene 19.",
+      "respuestas": [["old"]],
+      "errores_tipicos": {
+        "many": "«How many years…» es el calco del español. La edad se pregunta con How old + be.",
+        "years": "La edad se pregunta con How old…?, no con years."
+      },
+      "pistas": [
+        "Es una pregunta sobre la edad.",
+        "En inglés la edad no se «tiene»: se pregunta qué tan viejo es alguien.",
+        "Regla: la edad se pregunta con How + el adjetivo contrario de young + be + sujeto."
+      ],
+      "solucion": {"respuesta": "old", "explicacion": "La respuesta correcta es old: la edad se pregunta con How old is/are…?, porque en inglés la edad se expresa con be (He's 19), no con have."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la palabra interrogativa y la forma de be.",
+      "frase": "___ ___ your teacher? Ms. Grant.",
+      "traduccion": "¿Quién es tu maestra? La maestra Grant.",
+      "respuestas": [["Who"], ["is"]],
+      "errores_tipicos": {
+        "What | is": "Grant es una persona: para personas se usa who.",
+        "Who | are": "Your teacher es singular: va is."
+      },
+      "pistas": [
+        "La respuesta es el nombre de una persona.",
+        "Primer hueco: palabra para personas. Segundo: be según your teacher.",
+        "Regla: palabra interrogativa de personas + be según el sujeto (singular → is)."
+      ],
+      "solucion": {"respuesta": "Who … is", "explicacion": "La respuesta correcta es Who is (Who's) your teacher? porque se pregunta por una persona (who), y el sujeto your teacher es singular, así que be es is."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la pregunta.",
+      "fichas": ["are", "from", "your", "Where", "parents"],
+      "respuestas": ["Where are your parents from"],
+      "traduccion": "¿De dónde son tus papás?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "Después va be y luego el sujeto completo (dos palabras).",
+        "Orden: palabra interrogativa + be + sujeto + preposición al final + ?"
+      ],
+      "solucion": {"respuesta": "Where are your parents from?", "explicacion": "El orden correcto es Where are your parents from?: la palabra interrogativa, be (are, porque parents es plural), el sujeto completo y from al final."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la pregunta con where que corresponde a esta respuesta (pregunta por el origen).",
+      "origen": "She is from Canada.",
+      "instruccion": "Pregunta con where",
+      "respuestas": ["Where is she from?"],
+      "errores_tipicos": {
+        "Where she is from?": "Falta invertir: después de where va is y luego she.",
+        "Where is from she?": "From va al final, después del sujeto.",
+        "Where is she from Canada?": "Canada es la información que preguntas: no aparece en la pregunta."
+      },
+      "pistas": [
+        "La pregunta no incluye Canada: eso es lo que quieres saber.",
+        "Where + be + sujeto… ¿y dónde queda from?",
+        "Regla: Where + be + sujeto + from? (como en Where are they from?)."
+      ],
+      "solucion": {"respuesta": "Where is she from?", "explicacion": "La respuesta correcta es Where is she from? (o Where's she from?): where sustituye a Canada, is pasa delante de she y from se queda al final de la pregunta."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y escribe la corrección.",
+      "frase": "How many years are you?",
+      "error": "many years",
+      "correcciones": ["old"],
+      "frase_correcta": "How old are you?",
+      "pistas": [
+        "Es una pregunta sobre la edad.",
+        "Mira las palabras que van después de How.",
+        "Regla: en inglés la edad no se cuenta en años: se pregunta con How + el adjetivo contrario de young + be."
+      ],
+      "solucion": {"respuesta": "How old are you?", "explicacion": "El error está en many years: la edad no se pregunta contando años sino con How old…? La pregunta correcta es How old are you?"}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señálalo y escríbelo bien.",
+      "frase": "Where you are from?",
+      "error": "you are",
+      "correcciones": ["are you"],
+      "frase_correcta": "Where are you from?",
+      "pistas": [
+        "Después de la palabra interrogativa el orden es de pregunta.",
+        "¿Qué va primero, be o el sujeto?",
+        "Regla: wh- + be + sujeto."
+      ],
+      "solucion": {"respuesta": "Where are you from?", "explicacion": "El error es you are: en una pregunta, después de where va be (are) y después el sujeto (you). Lo correcto es Where are you from?"}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "How old is your sister?",
+      "audio": true,
+      "pistas": [
+        "Es una pregunta sobre la edad.",
+        "Escucha el sujeto: son dos palabras al final.",
+        "Regla: How old + is + sujeto singular."
+      ],
+      "solucion": {"respuesta": "How old is your sister?", "explicacion": "Se dice How old is your sister? (¿Cuántos años tiene tu hermana?). Is va con your sister porque es un sujeto singular; la voz baja al final porque es una pregunta con wh-."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.11",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Atención a las contracciones.",
+      "texto": "Who's that? Where's he from?",
+      "respuestas": ["Who is that? Where is he from?"],
+      "audio": true,
+      "pistas": [
+        "Son dos preguntas cortas, las dos con is contraído.",
+        "La primera pregunta por una persona; la segunda por su origen.",
+        "Regla: who is → who's; where is → where's."
+      ],
+      "solucion": {"respuesta": "Who's that? Where's he from?", "explicacion": "Se dice Who's that? Where's he from? (¿Quién es? ¿De dónde es?). Who's y where's son who is y where is contraídos; al oído, la z final es la única huella de is."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿De dónde es Priya?",
+      "respuestas": ["Where is Priya from?"],
+      "errores_tipicos": {
+        "Where is from Priya?": "From va al final: Where is Priya from?",
+        "Where Priya is from?": "Falta invertir: después de where va is y luego Priya."
+      },
+      "pistas": [
+        "«De dónde» se reparte: where al principio, from al final.",
+        "Where + be + sujeto + from.",
+        "Regla: Where + be + sujeto + from? (como en Where are your friends from?)."
+      ],
+      "solucion": {"respuesta": "Where is Priya from?", "explicacion": "La respuesta correcta es Where is Priya from? (o Where's Priya from?). En inglés «¿de dónde…?» se construye con where al principio y from al final, después del sujeto."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Cuántos años tienes?",
+      "respuestas": ["How old are you?"],
+      "errores_tipicos": {
+        "How many years do you have?": "Calco del español. La edad se pregunta con How old + be.",
+        "How many years have you?": "Calco del español. En inglés: How old are you?",
+        "How old you are?": "Falta invertir: How old are you?"
+      },
+      "pistas": [
+        "La edad en inglés va con be, no con have.",
+        "Usa How old y el orden de pregunta.",
+        "Regla: How old + be + sujeto + ? (como en How old is he?)."
+      ],
+      "solucion": {"respuesta": "How old are you?", "explicacion": "La respuesta correcta es How old are you? porque en inglés la edad se expresa con be (I'm 25), así que se pregunta con How old + be + sujeto, no con «how many years» ni con have."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.14",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Te encuentras con Mei en la escuela.",
+      "lineas": [
+        {"quien": "Mei", "en": "Hi! How are you?", "es": "¡Hola! ¿Cómo estás?"}
+      ],
+      "opciones": [
+        {"texto": "I'm fine, thanks. And you?", "correcta": true, "porque": "Correcto: How are you? pregunta por tu estado, y lo natural es contestar y devolver la pregunta con And you?"},
+        {"texto": "I'm 25.", "correcta": false, "porque": "Eso responde a How old are you? (la edad), no a How are you?"},
+        {"texto": "I'm from Chile.", "correcta": false, "porque": "Eso responde a Where are you from?"},
+        {"texto": "Yes, I am.", "correcta": false, "porque": "How are you? no es una pregunta de sí o no: pide información."}
+      ],
+      "pistas": [
+        "How pregunta por el estado.",
+        "No confundas How are you? con How old are you?",
+        "Regla: How are you? pregunta por el estado; se contesta diciendo cómo estás, no la edad."
+      ],
+      "solucion": {"respuesta": "I'm fine, thanks. And you?", "explicacion": "La respuesta adecuada es I'm fine, thanks. And you? porque How are you? pregunta cómo estás. Las otras opciones responden a otras preguntas (edad, origen) o a una pregunta de sí o no."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.15",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe un diálogo breve para conocer a alguien.",
+      "objetivo": "Escribir un diálogo de presentación con al menos cuatro preguntas con what, where, how old y how, y sus respuestas con be.",
+      "instrucciones": "Imagina que conoces a una persona nueva en un curso. Escribe el diálogo entre tú (You) y esa persona: pregúntale su nombre, su origen, su edad y cómo está, y escribe también sus respuestas. Mínimo 35 palabras.",
+      "vocabulario_apoyo": ["What's your name?", "Where are you from?", "How old are you?", "How are you?", "I'm fine, thanks.", "And you?", "Nice to meet you."],
+      "estructuras": ["What's your name? — I'm …", "Where are you from? — I'm from …", "How old are you? — I'm …", "How are you? — I'm …, thanks."],
+      "ejemplo": "A: Who's that? B: That's Ben. A: Where's he from? B: He's from Canada. A: Is he a student? B: No, he isn't. He's a teacher.",
+      "min_palabras": 35,
+      "comprobaciones": [
+        {"descripcion": "Preguntas el nombre con what", "patron": "\\bwhat('s| is) your name\\b"},
+        {"descripcion": "Preguntas el origen con where … from", "patron": "\\bwhere('s| are| is)\\b.*\\bfrom\\b"},
+        {"descripcion": "Preguntas la edad con how old", "patron": "\\bhow old (are|is)\\b"},
+        {"descripcion": "Preguntas cómo está con how are you", "patron": "\\bhow are you\\b"}
+      ],
+      "criterios": [
+        "¿Cada pregunta tiene el orden palabra interrogativa + be + sujeto?",
+        "¿From va al final en la pregunta por el origen?",
+        "¿La edad aparece con be (I'm 24), no con have?",
+        "¿Cada respuesta tiene sujeto y be?"
+      ],
+      "modelo": "You: Hi! What's your name?\nOmar: I'm Omar. Nice to meet you.\nYou: Nice to meet you too. Where are you from, Omar?\nOmar: I'm from Morocco. And you?\nYou: I'm from Mexico. How old are you?\nOmar: I'm 24.\nYou: How are you today?\nOmar: I'm fine, thanks, but I'm a little nervous!",
+      "explicacion": "El modelo usa las cuatro preguntas básicas con el orden correcto (What's your name?, Where are you from?, How old are you?, How are you?). Las respuestas son oraciones completas con be (I'm Omar, I'm from Morocco, I'm 24, I'm fine) y usan and you? para devolver la pregunta, que es lo natural en una conversación.",
+      "errores_comunes": [
+        "Escribir «Where you are from?» en lugar de Where are you from?",
+        "Escribir «I have 24 years» en lugar de I'm 24.",
+        "Omitir el sujeto en las respuestas: «Am from Mexico»."
+      ]
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.16",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Haz que la voz baje al final.",
+      "texto": "What's your name? Where are you from?",
+      "ipa": "/ˈwʌts jər ˈneɪm ↘ | ˈwɛr ər jə ˈfrʌm ↘/",
+      "consejo": "En las preguntas con wh- la voz baja al final, al revés que en Are you ready? ↗. Your se reduce a /jər/, muy débil. En name la vocal es un diptongo, /eɪ/, como «ei» en «reina».",
+      "es": "¿Cómo te llamas? ¿De dónde eres?"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "La primera conversación completa",
+    "contexto": "En una reunión de trabajo conoces a Aisha. Ella se presenta y te toca a ti preguntarle y contestarle.",
+    "dialogo": [
+      {"quien": "Aisha", "en": "Hi, I'm Aisha. What's your name?", "es": "Hola, soy Aisha. ¿Cómo te llamas?"},
+      {"quien": "Tú", "en": "…", "es": "…"},
+      {"quien": "Aisha", "en": "I'm from Kenya. And you?", "es": "Soy de Kenia. ¿Y tú?"},
+      {"quien": "Tú", "en": "…", "es": "…"}
+    ],
+    "tu_turno": "Contesta a Aisha con tu nombre y pregúntale de dónde es. Cuando responda, di de dónde eres y hazle otra pregunta con how o who.",
+    "modelo": "I'm Carlos. Nice to meet you. Where are you from? … I'm from Mexico, from Monterrey. How are you today?",
+    "alternativas": [
+      "My name's Grace. Nice to meet you, Aisha. Where are you from? … I'm from Mexico City. Who's your boss here?",
+      "I'm Diego. Where are you from, Aisha? … I'm from Guadalajara. How are you today?"
+    ],
+    "claves": [
+      "What's your name? se contesta con I'm… o My name's…",
+      "Where are you from? con from al final.",
+      "La voz baja al final de las preguntas con wh-."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Orden: what/where/who/how + am/is/are + sujeto (+ resto)?",
+      "What's your name? / Where are you from? / How old are you? / How are you?",
+      "Con is se contrae: what's, where's, who's, how's; con are no se contrae por escrito.",
+      "La voz baja al final de las preguntas con wh-."
+    ],
+    "recuerda": [
+      "La edad con be: How old are you? — I'm 30.",
+      "From va al final: Where is Priya from?",
+      "«¿Cuál es tu…?» para pedir un dato se dice What's your…?"
+    ]
+  },
+  "repaso": [
+    {"id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.r1", "frente": "¿Cómo se dice «¿De dónde eres?»?", "reverso": "Where are you from?", "nota": "From va al final."},
+    {"id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.r2", "frente": "¿Cómo se dice «¿Cuántos años tienes?»?", "reverso": "How old are you?", "nota": "Nada de «How many years do you have?»."},
+    {"id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.r3", "frente": "¿Qué pregunta how y qué pregunta who?", "reverso": "How → estado (How are you?); who → persona (Who is she?)."},
+    {"id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.r4", "frente": "Contracción de what is, where is, who is", "reverso": "what's, where's, who's"},
+    {"id": "to-be-negacion-y-preguntas.preguntas-wh-con-be.r5", "frente": "¿Sube o baja la voz en Where are you from?", "reverso": "Baja: las preguntas con wh- tienen entonación descendente."}
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "titulo": "Evaluación: los posesivos",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "posesivos.eval.01",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el posesivo correcto.",
+      "pregunta": "Lucía está con su papá. → Lucía is with ___ father.",
+      "opciones": [
+        { "texto": "her", "correcta": true, "porque": "Correcto: la dueña es Lucía, una mujer." },
+        { "texto": "his", "correcta": false, "porque": "father es hombre, pero el posesivo no depende de la cosa poseída, sino de la dueña: Lucía." },
+        { "texto": "she", "correcta": false, "porque": "she es pronombre sujeto; delante de un sustantivo va un posesivo." },
+        { "texto": "hers", "correcta": false, "porque": "hers va solo, sin sustantivo. Delante de father va her." }
+      ],
+      "pistas": [
+        "El posesivo depende del dueño.",
+        "¿De quién es el papá?",
+        "Dueña mujer + sustantivo detrás → el adjetivo posesivo de she."
+      ],
+      "solucion": { "respuesta": "her", "explicacion": "La respuesta es her porque el papá es de Lucía, una mujer, y después viene un sustantivo (father). his dependería de un dueño hombre, y hers no puede ir delante de un sustantivo." }
+    },
+    {
+      "id": "posesivos.eval.02",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con un adjetivo posesivo.",
+      "frase": "Ben and I are brothers. ___ mom is a teacher.",
+      "traduccion": "Ben y yo somos hermanos. Nuestra mamá es maestra.",
+      "respuestas": [ [ "Our" ] ],
+      "errores_tipicos": {
+        "Their": "their es de ellos. Ben y yo = nosotros (we): our.",
+        "We": "we es el pronombre sujeto. Delante de mom va el posesivo."
+      },
+      "pistas": [
+        "Ben and I equivale a un pronombre.",
+        "Ben and I = we.",
+        "El posesivo de we."
+      ],
+      "solucion": { "respuesta": "Our", "explicacion": "Ben and I equivale a we, y el posesivo de we es our: our mom. Como los hablantes están incluidos, no es their." }
+    },
+    {
+      "id": "posesivos.eval.03",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "The bird is in it's cage.",
+      "error": "it's",
+      "correcciones": [ "its" ],
+      "frase_correcta": "The bird is in its cage.",
+      "pistas": [
+        "Una palabra lleva un apóstrofo que no debería.",
+        "Prueba a leerla como it is.",
+        "El posesivo de it nunca lleva apóstrofo."
+      ],
+      "solucion": { "respuesta": "it's → its", "explicacion": "«in it is cage» no tiene sentido: aquí hace falta el posesivo its (la jaula del pájaro). it's solo significa it is." }
+    },
+    {
+      "id": "posesivos.eval.04",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Diego está con su hermana.",
+      "respuestas": [ "Diego is with his sister." ],
+      "errores_tipicos": {
+        "Diego is with her sister.": "La hermana es de Diego, un hombre: his. El género de sister no decide.",
+        "Diego is with the his sister.": "El posesivo no lleva artículo."
+      },
+      "pistas": [
+        "«su» en inglés depende del dueño.",
+        "¿De quién es la hermana?",
+        "Dueño hombre → his, aunque la cosa sea femenina."
+      ],
+      "solucion": { "respuesta": "Diego is with his sister.", "explicacion": "La hermana es de Diego, así que el posesivo es his. El error típico es pensar en «hermana» (femenino) y poner her." }
+    },
+    {
+      "id": "posesivos.eval.05",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee e interpreta.",
+      "pregunta": "«Grace is at the park with Tom and his sister.» ¿De quién es la hermana?",
+      "opciones": [
+        { "texto": "De Tom", "correcta": true, "porque": "Correcto: his indica un dueño hombre, y el único hombre es Tom." },
+        { "texto": "De Grace", "correcta": false, "porque": "Si fuera de Grace, diría her sister." },
+        { "texto": "De Grace y Tom", "correcta": false, "porque": "Si fuera de los dos, diría their sister." }
+      ],
+      "pistas": [
+        "El posesivo te dice quién es el dueño.",
+        "¿his, her o their?",
+        "his = de un hombre."
+      ],
+      "solucion": { "respuesta": "De Tom", "explicacion": "his señala a un dueño hombre, así que la hermana es de Tom. Ese es el tipo de precisión que el inglés tiene y el «su» del español no." }
+    },
+    {
+      "id": "posesivos.eval.06",
+      "leccion": "adjetivos-posesivos",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con its o it's.",
+      "frase": "Look at that tree! ___ leaves are red.",
+      "traduccion": "¡Mira ese árbol! Sus hojas son rojas.",
+      "respuestas": [ [ "Its" ] ],
+      "errores_tipicos": {
+        "It's": "«It is leaves are red» no tiene sentido: hace falta el posesivo its.",
+        "Their": "El dueño es el árbol (uno solo, una cosa): its."
+      },
+      "pistas": [
+        "¿De quién son las hojas?",
+        "El dueño es una cosa en singular.",
+        "Posesivo de it, sin apóstrofo."
+      ],
+      "solucion": { "respuesta": "Its", "explicacion": "Las hojas son del árbol, una cosa en singular: el posesivo es its. Que leaves sea plural no cambia el posesivo, y it's significaría it is." }
+    },
+    {
+      "id": "posesivos.eval.07",
+      "leccion": "genitivo-sajon",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma posesiva de grandparents (son los dos abuelos).",
+      "frase": "These are my ___ photos.",
+      "traduccion": "Estas son las fotos de mis abuelos.",
+      "respuestas": [ [ "grandparents'" ] ],
+      "errores_tipicos": {
+        "grandparent's": "Con 's serían de un solo abuelo. Son los dos: grandparents'.",
+        "grandparents's": "Plural en -s: solo se añade el apóstrofo.",
+        "grandparents": "Falta el apóstrofo que marca la posesión."
+      },
+      "pistas": [
+        "Los dueños son varios.",
+        "grandparents ya termina en -s.",
+        "Plural en -s → solo apóstrofo."
+      ],
+      "solucion": { "respuesta": "grandparents'", "explicacion": "Los dueños son los dos abuelos (grandparents). Como el plural termina en -s, se añade solo el apóstrofo: my grandparents' photos." }
+    },
+    {
+      "id": "posesivos.eval.08",
+      "leccion": "genitivo-sajon",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta el 's.",
+      "pregunta": "«Sam's at the office.» ¿Qué es 's aquí?",
+      "opciones": [
+        { "texto": "is (Sam está en la oficina)", "correcta": true, "porque": "Correcto: después no viene nada que Sam posea; es Sam is at the office." },
+        { "texto": "posesión (de Sam)", "correcta": false, "porque": "Para ser genitivo, detrás tendría que venir la cosa poseída (Sam's office)." },
+        { "texto": "plural (varios Sam)", "correcta": false, "porque": "El plural no lleva apóstrofo." }
+      ],
+      "pistas": [
+        "'s puede ser dos cosas distintas.",
+        "Mira qué viene después de Sam's.",
+        "Si después no hay una cosa poseída, 's es el verbo."
+      ],
+      "solucion": { "respuesta": "is (Sam está en la oficina)", "explicacion": "Detrás de Sam's viene at the office, un lugar, no algo que Sam posea. Por eso 's es la contracción de is: Sam is at the office." }
+    },
+    {
+      "id": "posesivos.eval.09",
+      "leccion": "genitivo-sajon",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas.",
+      "fichas": [ "The", "women's", "team", "is", "very", "good" ],
+      "respuestas": [ "The women's team is very good." ],
+      "traduccion": "El equipo de mujeres es muy bueno.",
+      "pistas": [
+        "El sujeto es «el equipo de mujeres».",
+        "women's va delante de team.",
+        "Orden: artículo + dueño con 's + cosa + be + very + adjetivo."
+      ],
+      "solucion": { "respuesta": "The women's team is very good.", "explicacion": "women es plural irregular, así que lleva 's: women's. El genitivo va antes de la cosa (team). Después is y el adjetivo con very." }
+    },
+    {
+      "id": "posesivos.eval.10",
+      "leccion": "genitivo-sajon",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe con el genitivo.",
+      "origen": "The room of my sister is small.",
+      "instruccion": "Usa 's (una sola hermana).",
+      "respuestas": [ "My sister's room is small." ],
+      "errores_tipicos": {
+        "The my sister's room is small.": "El artículo de room desaparece; my se queda porque va con sister.",
+        "My sisters' room is small.": "sisters' serían varias hermanas. Es una: sister's.",
+        "The room of my sister's is small.": "El genitivo sustituye a of y va delante de la cosa."
+      },
+      "pistas": [
+        "El dueño va primero.",
+        "La dueña es my sister, una sola.",
+        "Regla: dueño + 's + cosa, y el artículo de la cosa desaparece."
+      ],
+      "solucion": { "respuesta": "My sister's room is small.", "explicacion": "El dueño (my sister) pasa al principio con 's; the y of desaparecen. Es una sola hermana, así que el apóstrofo va antes de la s." }
+    },
+    {
+      "id": "posesivos.eval.11",
+      "leccion": "genitivo-sajon",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada forma con su significado.",
+      "pares": [
+        { "a": "Tom's", "b": "de Tom" },
+        { "a": "my parents'", "b": "de mis papás" },
+        { "a": "my parent's", "b": "de mi papá o de mi mamá (uno)" },
+        { "a": "the children's", "b": "de los niños" },
+        { "a": "the child's", "b": "del niño" }
+      ],
+      "pistas": [
+        "Lo que va antes del apóstrofo es el dueño.",
+        "parent / parents; child / children.",
+        "Singular + 's; plural en -s + '; plural irregular + 's."
+      ],
+      "solucion": { "respuesta": "Tom's = de Tom; parents' = de mis papás; parent's = de uno; children's = de los niños; child's = del niño", "explicacion": "Mira la palabra antes del apóstrofo: parent (uno) frente a parents (dos); child (uno) frente a children (varios, plural irregular que lleva 's)." }
+    },
+    {
+      "id": "posesivos.eval.12",
+      "leccion": "pronombres-posesivos-y-whose",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta.",
+      "frase": "___ bike is this? — It's mine.",
+      "traduccion": "¿De quién es esta bici? — Es mía.",
+      "respuestas": [ [ "Whose" ] ],
+      "errores_tipicos": {
+        "Who's": "Who's = who is. Para preguntar por el dueño: whose.",
+        "Who": "who es «quién»; «de quién» es whose."
+      },
+      "pistas": [
+        "La respuesta dice quién es el dueño.",
+        "Necesitas «¿de quién?».",
+        "Regla: no confundas la palabra que pregunta por el dueño con who's (who is): no lleva apóstrofo."
+      ],
+      "solucion": { "respuesta": "Whose", "explicacion": "La respuesta It's mine indica el dueño, así que la pregunta es Whose bike is this? Who's (who is) suena igual pero no pregunta por el dueño." }
+    },
+    {
+      "id": "posesivos.eval.13",
+      "leccion": "pronombres-posesivos-y-whose",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce. Termina la oración con un pronombre posesivo.",
+      "es": "Ese carro no es nuestro.",
+      "respuestas": [ "That car isn't ours.", "That car's not ours." ],
+      "errores_tipicos": {
+        "That car isn't our.": "our necesita un sustantivo detrás. Al final va ours.",
+        "That car isn't the ours.": "El pronombre posesivo no lleva artículo."
+      },
+      "pistas": [
+        "«nuestro» sin sustantivo detrás.",
+        "La forma de our que va sola.",
+        "Regla: demostrativo + sustantivo + be negativo + pronombre posesivo (sin sustantivo detrás)."
+      ],
+      "solucion": { "respuesta": "That car isn't ours.", "explicacion": "Como car ya está en el sujeto, al final va el pronombre posesivo ours. Sin artículo y sin apóstrofo." }
+    },
+    {
+      "id": "posesivos.eval.14",
+      "leccion": "pronombres-posesivos-y-whose",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Ana encuentra unos lentes en la mesa. Tom sabe que son de Mei.",
+      "lineas": [
+        { "quien": "Ana", "en": "Whose glasses are these?", "es": "¿De quién son estos lentes?" }
+      ],
+      "opciones": [
+        { "texto": "They're Mei's.", "correcta": true, "porque": "Correcto: glasses es plural (They're) y Mei's indica la dueña." },
+        { "texto": "It's Mei's.", "correcta": false, "porque": "glasses es plural en inglés: la respuesta empieza con They're." },
+        { "texto": "They're Mei.", "correcta": false, "porque": "Falta el 's: «They're Mei» significa «son Mei», no «son de Mei»." },
+        { "texto": "Who's Mei.", "correcta": false, "porque": "Who's es una pregunta (¿quién es?), no dice de quién son." }
+      ],
+      "pistas": [
+        "glasses es plural.",
+        "La respuesta necesita un sujeto plural y un dueño.",
+        "They're + nombre + 's."
+      ],
+      "solucion": { "respuesta": "They're Mei's.", "explicacion": "glasses (lentes) es plural, así que se responde con They're. El dueño se indica con el genitivo solo: Mei's." }
+    },
+    {
+      "id": "posesivos.eval.15",
+      "leccion": "pronombres-posesivos-y-whose",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Whose coats are those? They're theirs.",
+      "pistas": [
+        "Una pregunta y una respuesta.",
+        "Las dos oraciones tienen palabras que suenan igual a otras (whose, they're, theirs).",
+        "whose + coats; They're (they are) + el pronombre posesivo de they."
+      ],
+      "solucion": { "respuesta": "Whose coats are those? They're theirs.", "explicacion": "Whose pregunta por el dueño. En la respuesta, They're = They are, y theirs es el pronombre posesivo de they (sin apóstrofo)." },
+      "audio": true
+    },
+    {
+      "id": "posesivos.eval.16",
+      "leccion": "pronombres-posesivos-y-whose",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "These books are mines.",
+      "error": "mines",
+      "correcciones": [ "mine" ],
+      "frase_correcta": "These books are mine.",
+      "pistas": [
+        "Una palabra está en plural cuando no debería.",
+        "Mira el pronombre posesivo.",
+        "mine no cambia aunque la cosa sea plural."
+      ],
+      "solucion": { "respuesta": "mines → mine", "explicacion": "mine vale para mío, mía, míos y mías: nunca lleva -s de plural. These books are mine." }
+    }
+  ]
+}

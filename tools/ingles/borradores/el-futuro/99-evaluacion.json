@@ -1,0 +1,512 @@
+{
+  "titulo": "Evaluación: el futuro con going to, will y el presente continuo",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "el-futuro.eval.01",
+      "leccion": "going-to",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con be going to y el verbo entre paréntesis.",
+      "frase": "My sister ___ (start) a new job in September.",
+      "respuestas": [
+        [
+          "is going to start",
+          "'s going to start"
+        ]
+      ],
+      "traduccion": "Mi hermana va a empezar un trabajo nuevo en septiembre.",
+      "pistas": [
+        "Es un plan ya decidido.",
+        "My sister = she. ¿Qué forma de be necesitas?",
+        "La forma de be para she + going to + verbo base (sin -s)."
+      ],
+      "solucion": {
+        "respuesta": "is going to start",
+        "explicacion": "Un plan decidido: be going to. Con my sister (she), be es is. Después de to, el verbo en forma base: start."
+      },
+      "errores_tipicos": {
+        "going to start": "Falta be: is going to start.",
+        "is going to starts": "Después de to el verbo va en forma base: start.",
+        "are going to start": "My sister es singular: is."
+      }
+    },
+    {
+      "id": "el-futuro.eval.02",
+      "leccion": "going-to",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta.",
+      "origen": "They're going to sell the house.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": [
+        "Are they going to sell the house?"
+      ],
+      "pistas": [
+        "Going to pregunta con be.",
+        "Mueve are delante del sujeto.",
+        "Be + sujeto + going to + verbo base + complemento + ?, como en Is he going to call?"
+      ],
+      "solucion": {
+        "respuesta": "Are they going to sell the house?",
+        "explicacion": "Con going to, la pregunta se forma poniendo be (are) delante del sujeto. No se usa do."
+      },
+      "errores_tipicos": {
+        "Do they going to sell the house?": "Going to pregunta con be, no con do: Are they…?",
+        "They are going to sell the house?": "Falta la inversión: Are they going to…?"
+      }
+    },
+    {
+      "id": "el-futuro.eval.03",
+      "leccion": "going-to",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la situación que corresponde a la oración.",
+      "pregunta": "«Look at that man! He's going to fall into the pool.»",
+      "opciones": [
+        {
+          "texto": "Ves a un hombre que camina hacia atrás al borde de la alberca.",
+          "correcta": true,
+          "porque": "Correcto: hay una evidencia visible ahora, por eso going to."
+        },
+        {
+          "texto": "Crees que un amigo se caerá algún día en una alberca.",
+          "correcta": false,
+          "porque": "Eso sería una opinión sin evidencia: se diría con will."
+        },
+        {
+          "texto": "Un hombre planea tirarse a la alberca mañana.",
+          "correcta": false,
+          "porque": "Fall no es un plan: nadie planea caerse. Y Look! indica que lo estás viendo."
+        },
+        {
+          "texto": "Un hombre se cayó a la alberca ayer.",
+          "correcta": false,
+          "porque": "Going to habla del futuro, no del pasado."
+        }
+      ],
+      "pistas": [
+        "Fíjate en Look at…!",
+        "¿La predicción se basa en una opinión o en algo que ves?",
+        "Evidencia visible → going to."
+      ],
+      "solucion": {
+        "respuesta": "Ves a un hombre que camina hacia atrás al borde de la alberca.",
+        "explicacion": "Look at that man! señala una evidencia presente, y going to predice un resultado inmediato basado en ella."
+      }
+    },
+    {
+      "id": "el-futuro.eval.04",
+      "leccion": "going-to",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa going to.",
+      "es": "¿Qué vas a hacer este fin de semana?",
+      "respuestas": [
+        "What are you going to do this weekend?"
+      ],
+      "pistas": [
+        "Empieza con la palabra interrogativa.",
+        "Después, be + sujeto + going to.",
+        "Palabra interrogativa + be + sujeto + going to + verbo «hacer» + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "What are you going to do this weekend?",
+        "explicacion": "Pregunta con palabra interrogativa: What + are + you + going to + do (hacer) + this weekend."
+      },
+      "errores_tipicos": {
+        "What you are going to do this weekend?": "En la pregunta, are va delante del sujeto: What are you…?",
+        "What are you going to make this weekend?": "«Hacer» en el sentido de actividades es do, no make.",
+        "What do you go to do this weekend?": "Calco de «vas a hacer»: se dice What are you going to do?"
+      }
+    },
+    {
+      "id": "el-futuro.eval.05",
+      "leccion": "going-to",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. La voz dice going to de forma relajada; escríbelo completo.",
+      "texto": "We're going to buy a new car next year.",
+      "respuestas": [
+        "We are going to buy a new car next year."
+      ],
+      "pistas": [
+        "Es un plan de una pareja o familia.",
+        "Oyes «gonna»: escríbelo como going to. Next year va sin the.",
+        "Sujeto + be contraído + going to + verbo base + a + adjetivo + sustantivo + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "We're going to buy a new car next year.",
+        "explicacion": "Going to suena /ˈɡənə/ en habla rápida, pero se escribe completo. Next year, sin the."
+      }
+    },
+    {
+      "id": "el-futuro.eval.06",
+      "leccion": "will",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta.",
+      "frase": "Will you help me with my homework? — Yes, I ___.",
+      "respuestas": [
+        [
+          "will"
+        ]
+      ],
+      "traduccion": "¿Me ayudas con la tarea? — Sí.",
+      "pistas": [
+        "La pregunta empieza con will.",
+        "La respuesta corta repite el auxiliar.",
+        "En la afirmativa corta no se contrae."
+      ],
+      "solucion": {
+        "respuesta": "will",
+        "explicacion": "A Will you…? se responde Yes, I will. La contracción I'll no se usa en respuestas cortas afirmativas."
+      },
+      "errores_tipicos": {
+        "do": "La pregunta usa will: Yes, I will.",
+        "'ll": "En la respuesta corta afirmativa no se contrae: Yes, I will."
+      }
+    },
+    {
+      "id": "el-futuro.eval.07",
+      "leccion": "will",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Don't worry, I will to call you tomorrow.",
+      "error": "will to call",
+      "correcciones": [
+        "will call"
+      ],
+      "frase_correcta": "Don't worry, I will call you tomorrow.",
+      "pistas": [
+        "Mira lo que va entre will y el verbo.",
+        "Will es un modal.",
+        "Modal + verbo base, sin to."
+      ],
+      "solucion": {
+        "respuesta": "will to call → will call",
+        "explicacion": "Will es un modal: va seguido directamente del verbo base, sin to. I will call you tomorrow."
+      }
+    },
+    {
+      "id": "el-futuro.eval.08",
+      "leccion": "will",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa will.",
+      "es": "Te prometo que no voy a llegar tarde.",
+      "respuestas": [
+        "I promise I won't be late.",
+        "I promise that I won't be late.",
+        "I promise you I won't be late.",
+        "I promise you that I won't be late."
+      ],
+      "pistas": [
+        "Es una promesa negativa.",
+        "«Llegar tarde» = be late. La negación de will es won't.",
+        "I promise + sujeto + negación contraída de will + be + «tarde»."
+      ],
+      "solucion": {
+        "respuesta": "I promise I won't be late.",
+        "explicacion": "Las promesas usan will; la negativa es won't + verbo base. «Llegar tarde» se dice be late."
+      },
+      "errores_tipicos": {
+        "I promise I don't be late.": "Para prometer sobre el futuro se usa won't: I won't be late.",
+        "I promise I will not to be late.": "Después de will not no va to."
+      }
+    },
+    {
+      "id": "el-futuro.eval.09",
+      "leccion": "will",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la oración.",
+      "fichas": [
+        "probably",
+        "She",
+        "come",
+        "won't"
+      ],
+      "respuestas": [
+        "She probably won't come"
+      ],
+      "traduccion": "Probablemente ella no venga.",
+      "pistas": [
+        "Empieza con el sujeto.",
+        "En la negativa, probably va antes de won't.",
+        "Sujeto + adverbio + auxiliar negativo + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "She probably won't come.",
+        "explicacion": "Con won't, el adverbio probably va delante: She probably won't come. En afirmativa iría después de will: She'll probably come."
+      }
+    },
+    {
+      "id": "el-futuro.eval.10",
+      "leccion": "will",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada frase con su función.",
+      "pares": [
+        {
+          "a": "I'll have the pasta, please.",
+          "b": "Pedir en un restaurante"
+        },
+        {
+          "a": "I'll carry that for you.",
+          "b": "Ofrecer ayuda"
+        },
+        {
+          "a": "I won't forget, I promise.",
+          "b": "Prometer"
+        },
+        {
+          "a": "Will you close the door?",
+          "b": "Pedir un favor"
+        },
+        {
+          "a": "I don't think it will rain.",
+          "b": "Predicción negativa"
+        }
+      ],
+      "pistas": [
+        "Todas usan will o won't.",
+        "Will you…? pide algo; I promise promete.",
+        "Distingue: pedir comida, ofrecer ayuda, prometer, pedir un favor con una pregunta y predecir en negativo con un verbo de opinión."
+      ],
+      "solucion": {
+        "respuesta": "pasta → pedir; carry → ofrecer; won't forget → prometer; Will you close → favor; don't think… rain → predicción negativa.",
+        "explicacion": "Will tiene muchas funciones: pedir en un restaurante (I'll have), ofrecer (I'll carry), prometer (I won't forget), pedir favores (Will you…?) y predecir (I don't think it will…)."
+      }
+    },
+    {
+      "id": "el-futuro.eval.11",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Tu compañero de casa te da una noticia que no conocías.",
+      "lineas": [
+        {
+          "quien": "Carlos",
+          "en": "The printer doesn't have any paper.",
+          "es": "La impresora no tiene papel."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Oh, I'll get some from the store.",
+          "correcta": true,
+          "porque": "Correcto: te enteras ahora y decides en el momento → will."
+        },
+        {
+          "texto": "Oh, I'm going to get some from the store.",
+          "correcta": false,
+          "porque": "No es gramaticalmente incorrecto, pero going to indica que ya lo tenías decidido, y no sabías del problema."
+        },
+        {
+          "texto": "Oh, I get some from the store.",
+          "correcta": false,
+          "porque": "Calco del presente español («yo compro»). La decisión del momento necesita will."
+        },
+        {
+          "texto": "Oh, I'm getting some from the store at five with Ana.",
+          "correcta": false,
+          "porque": "El presente continuo describe un plan ya acordado; tú acabas de enterarte."
+        }
+      ],
+      "pistas": [
+        "¿Conocías el problema antes?",
+        "Oh! muestra que reaccionas a algo nuevo.",
+        "Decisión en el momento → will."
+      ],
+      "solucion": {
+        "respuesta": "Oh, I'll get some from the store.",
+        "explicacion": "Reaccionas a una información nueva y decides al instante: will. Going to y el presente continuo sugieren una decisión o un plan anteriores."
+      }
+    },
+    {
+      "id": "el-futuro.eval.12",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el presente continuo del verbo entre paréntesis. Es una cita ya acordada.",
+      "frase": "I can't go to the gym on Tuesday. I ___ (meet) my lawyer at five.",
+      "respuestas": [
+        [
+          "am meeting",
+          "'m meeting"
+        ]
+      ],
+      "traduccion": "No puedo ir al gimnasio el martes. Tengo cita con mi abogado a las cinco.",
+      "pistas": [
+        "Es una cita con hora y con otra persona.",
+        "Presente continuo = be + verbo-ing.",
+        "Sujeto + la forma de be para I + verbo con -ing."
+      ],
+      "solucion": {
+        "respuesta": "am meeting",
+        "explicacion": "Para una cita acordada (hora, otra persona) se usa el presente continuo: I'm meeting my lawyer at five."
+      },
+      "errores_tipicos": {
+        "meet": "Calco del presente español. Para una cita acordada: I'm meeting.",
+        "meeting": "Falta be: I am (I'm) meeting."
+      }
+    },
+    {
+      "id": "el-futuro.eval.13",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee el mensaje y responde.",
+      "pregunta": "«Hi Mei! I'm flying to Lima on Friday, so I can't come to your party. I'm going to visit my cousins there. I'll send you some photos!» ¿Qué decidió la persona mientras escribía el mensaje?",
+      "opciones": [
+        {
+          "texto": "Enviar fotos a Mei.",
+          "correcta": true,
+          "porque": "Correcto: I'll send you some photos es una decisión y un ofrecimiento del momento (will)."
+        },
+        {
+          "texto": "Volar a Lima.",
+          "correcta": false,
+          "porque": "I'm flying es presente continuo: un plan ya organizado (con boleto)."
+        },
+        {
+          "texto": "Visitar a sus primos.",
+          "correcta": false,
+          "porque": "I'm going to visit indica una intención decidida antes."
+        },
+        {
+          "texto": "No ir a la fiesta.",
+          "correcta": false,
+          "porque": "Es la consecuencia del viaje ya organizado (I can't come), no una decisión nueva."
+        }
+      ],
+      "pistas": [
+        "Hay tres formas de futuro en el mensaje.",
+        "¿Cuál expresa una decisión tomada en el momento?",
+        "Presente continuo = plan organizado; going to = intención previa; will = decisión ahora."
+      ],
+      "solucion": {
+        "respuesta": "Enviar fotos a Mei.",
+        "explicacion": "El vuelo (I'm flying) es un plan organizado y la visita (I'm going to visit) una intención previa. Solo I'll send you some photos es una decisión espontánea, típica de will."
+      }
+    },
+    {
+      "id": "el-futuro.eval.14",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa will para la opinión.",
+      "es": "Creo que te va a gustar este libro.",
+      "respuestas": [
+        "I think you'll like this book.",
+        "I think you will like this book.",
+        "I think that you'll like this book.",
+        "I think you'll love this book."
+      ],
+      "pistas": [
+        "Es una predicción basada en tu opinión.",
+        "«Te va a gustar»: la persona que gusta es you, el sujeto.",
+        "I think + persona + will contraído + verbo base + objeto, como en I think she'll enjoy the movie."
+      ],
+      "solucion": {
+        "respuesta": "I think you'll like this book.",
+        "explicacion": "Una predicción de opinión con I think se expresa con will. Ojo: en inglés el sujeto de like es la persona (you), no el libro."
+      },
+      "errores_tipicos": {
+        "I think this book will like you.": "En inglés quien «gusta» es el sujeto: you'll like this book.",
+        "I think you go to like this book.": "Calco de «vas a»: se usa will (o are going to).",
+        "I think you'll to like this book.": "Después de will no va to."
+      }
+    },
+    {
+      "id": "el-futuro.eval.15",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la afirmación correcta sobre el uso del futuro.",
+      "pregunta": "Un estudiante dice: «I will go to the dentist tomorrow at ten» (la cita ya está fijada). ¿Qué es verdad?",
+      "opciones": [
+        {
+          "texto": "No es un error gramatical, pero lo natural es I'm going to the dentist / I'm seeing the dentist tomorrow at ten.",
+          "correcta": true,
+          "porque": "Correcto: will es gramatical, pero para una cita ya fijada suena a decisión del momento o a promesa; el presente continuo es lo habitual."
+        },
+        {
+          "texto": "Es un error grave: will nunca se usa para mañana.",
+          "correcta": false,
+          "porque": "Falso: will puede hablar de mañana o de cualquier momento futuro. El problema es el matiz, no la gramática."
+        },
+        {
+          "texto": "Lo correcto es «I go to the dentist tomorrow at ten».",
+          "correcta": false,
+          "porque": "El presente simple es para horarios oficiales, no para citas personales."
+        },
+        {
+          "texto": "Es la única forma correcta en inglés.",
+          "correcta": false,
+          "porque": "Para citas acordadas el presente continuo es más natural, y going to también es posible."
+        }
+      ],
+      "pistas": [
+        "Piensa en gramática y en naturalidad por separado.",
+        "¿Will está prohibido o solo cambia el matiz?",
+        "Cita acordada → presente continuo; will → decisión del momento o promesa."
+      ],
+      "solucion": {
+        "respuesta": "No es un error gramatical, pero lo natural es I'm going to the dentist / I'm seeing the dentist tomorrow at ten.",
+        "explicacion": "Will es gramaticalmente correcto, pero para una cita ya fijada un nativo diría I'm going to the dentist o I'm seeing the dentist. Will sonaría a decisión tomada al hablar o a promesa."
+      }
+    },
+    {
+      "id": "el-futuro.eval.16",
+      "leccion": "elegir-el-futuro",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa. En el primer hueco hay evidencia visible (going to); en el segundo, un ofrecimiento espontáneo (will).",
+      "frase": "Look, the baby's eyes are closing. She ___ (sleep) soon. — OK, I ___ (turn off) the TV.",
+      "respuestas": [
+        [
+          "is going to sleep",
+          "'s going to sleep"
+        ],
+        [
+          "will turn off",
+          "'ll turn off"
+        ]
+      ],
+      "traduccion": "Mira, a la bebé se le cierran los ojos. Se va a dormir pronto. — Bueno, apago la tele.",
+      "pistas": [
+        "El enunciado indica qué futuro usar en cada hueco.",
+        "El sujeto del primero es she; el del segundo, I.",
+        "Primero: la forma de be para she + going to + verbo base; segundo: modal + verbo base de dos palabras."
+      ],
+      "solucion": {
+        "respuesta": "is going to sleep | will turn off",
+        "explicacion": "Los ojos que se cierran son una evidencia visible: She's going to sleep. La respuesta es una decisión y un ofrecimiento del momento: I'll turn off the TV."
+      },
+      "errores_tipicos": {
+        "going to sleep | will turn off": "Falta be en el primer hueco: she is going to sleep.",
+        "is going to sleep | turn off": "«Apago la tele» es una decisión del momento: I'll turn off."
+      }
+    }
+  ]
+}

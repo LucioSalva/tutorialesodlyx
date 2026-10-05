@@ -1,0 +1,580 @@
+{
+  "slug": "la-familia",
+  "titulo": "La familia",
+  "minutos": 45,
+  "objetivos": [
+    "Nombrar a los miembros de la familia y sus plurales mixtos (parents, children, siblings, grandparents).",
+    "Evitar los falsos amigos: parents = padres (papá y mamá), no «parientes» (relatives).",
+    "Expresar relaciones con el genitivo: my sister's husband, my parents' house, y elegir his / her según el poseedor.",
+    "Presentar a tu familia con this is / these are, there are, la edad con be y el estado civil."
+  ],
+  "situacion": {
+    "titulo": "Una foto en el celular",
+    "texto": "En un descanso del trabajo, Diego le enseña a su compañera Priya una foto de la boda de su hermana. Fíjate en cómo nombra cada relación usando el genitivo 's y los posesivos.",
+    "dialogo": [
+      { "quien": "Priya", "en": "Is this your family?", "es": "¿Esta es tu familia?" },
+      { "quien": "Diego", "en": "Yes! These are my parents, and this is my sister, Sofía.", "es": "¡Sí! Estos son mis papás y esta es mi hermana, Sofía." },
+      { "quien": "Priya", "en": "Who's the man next to her?", "es": "¿Quién es el hombre que está junto a ella?" },
+      { "quien": "Diego", "en": "That's her husband, Luis. He's my brother-in-law.", "es": "Es su esposo, Luis. Es mi cuñado." },
+      { "quien": "Priya", "en": "And the little boy?", "es": "¿Y el niño?" },
+      { "quien": "Diego", "en": "He's their son, Mateo. He's my nephew. He's four.", "es": "Es su hijo, Mateo. Es mi sobrino. Tiene cuatro años." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "miembros-de-la-familia",
+      "titulo": "Los miembros de la familia y sus plurales",
+      "que_es": "El vocabulario de la familia en inglés distingue masculino y femenino con palabras distintas ([[brother]] / [[sister]]), y para el grupo mixto usa una tercera palabra ([[siblings]]) o las dos juntas ([[brothers and sisters]]). En español, en cambio, el masculino plural sirve para el grupo mixto: «mis hermanos» puede incluir hermanas. Ese es el origen de muchos errores.",
+      "para_que": [
+        "Hablar de tu familia en una conversación, una entrevista o una clase.",
+        "Llenar formularios (next of kin, number of children, marital status).",
+        "Entender a otras personas cuando hablan de sus hijos, padres o abuelos."
+      ],
+      "como_funciona": "**El problema del plural mixto.** En español «mis padres» son papá y mamá; en inglés NO se dice «my fathers» (eso serían dos papás). Lo mismo pasa con los hijos y los hermanos:\n• padres (papá + mamá) → [[parents]]\n• hijos (niños y niñas) → [[children]] (singular [[child]]; plural irregular). [[Sons]] solo si todos son varones.\n• hermanos (hombres y mujeres) → [[brothers and sisters]] en la conversación; [[siblings]] en formularios y en un registro algo más cuidado (también se oye en la conversación). [[Brothers]] solo si todos son varones.\n• abuelos → [[grandparents]]; nietos → [[grandchildren]]\n• tíos (tío + tía) → [[aunts and uncles]] (no hay palabra única)\n• sobrinos (sobrino + sobrina) → [[nephews and nieces]] (no hay palabra única)\n\n**Cousin no tiene género.** [[My cousin]] es primo o prima; si hace falta aclarar, se añade el nombre: [[my cousin Ana]], [[my cousin Tom]]. No existe «cousine» en inglés.\n\n**Falso amigo: parents ≠ parientes.** [[Parents]] son SOLO el papá y la mamá. Los parientes en general son [[relatives]]: [[There are fifty relatives at the wedding.]] (Hay cincuenta parientes en la boda.)\n\n**Formas cariñosas.** En Estados Unidos se dice [[Mom]] y [[Dad]] (en Reino Unido, [[Mum]]); para los abuelos, [[Grandma]] y [[Grandpa]]. Cuando se usan como nombre para hablarle a alguien, van con mayúscula: [[Thanks, Mom!]]\n\n**Plurales irregulares que aparecen aquí:** [[child]] → [[children]], [[wife]] → [[wives]] (la f pasa a v).",
+      "estructuras": [
+        {
+          "etiqueta": "Presentar a un familiar",
+          "formula": [ { "t": "Posesivo", "rol": "otro" }, { "t": "familiar", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "información", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My", "rol": "otro" }, { "t": "grandparents", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "from Veracruz", "rol": "complemento" } ],
+          "es": "Mis abuelos son de Veracruz."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Masculino, femenino y grupo mixto",
+          "columnas": ["Masculino", "Femenino", "Grupo mixto", "Español"],
+          "filas": [
+            ["father (Dad)", "mother (Mom)", "parents", "padre / madre / padres"],
+            ["son", "daughter", "children", "hijo / hija / hijos"],
+            ["brother", "sister", "siblings / brothers and sisters", "hermano / hermana / hermanos"],
+            ["grandfather", "grandmother", "grandparents", "abuelo / abuela / abuelos"],
+            ["grandson", "granddaughter", "grandchildren", "nieto / nieta / nietos"],
+            ["uncle", "aunt", "aunts and uncles", "tío / tía / tíos"],
+            ["nephew", "niece", "nephews and nieces", "sobrino / sobrina / sobrinos"],
+            ["husband", "wife", "husband and wife", "esposo / esposa / esposos"]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My parents are from Oaxaca.",
+          "es": "Mis papás son de Oaxaca.",
+          "partes": [ { "t": "My parents", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "from Oaxaca", "rol": "complemento" } ],
+          "nota": "Parents = papá y mamá. «My fathers» significaría dos papás."
+        },
+        {
+          "en": "Their children are six and nine.",
+          "es": "Sus hijos tienen seis y nueve años.",
+          "partes": [ { "t": "Their children", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "six and nine", "rol": "complemento" } ],
+          "nota": "Children porque son un niño y una niña (o no sabemos). La edad va con be, nunca con have."
+        },
+        {
+          "en": "My cousin Ana is a student.",
+          "es": "Mi prima Ana es estudiante.",
+          "nota": "Cousin sirve para primo y prima. El nombre aclara que es mujer."
+        },
+        {
+          "en": "There are forty relatives at my grandmother's party.",
+          "es": "Hay cuarenta parientes en la fiesta de mi abuela.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "forty relatives", "rol": "sujeto" }, { "t": "at my grandmother's party", "rol": "complemento" } ],
+          "nota": "Relatives = parientes en general (tíos, primos, abuelos…). Aquí sería un error decir parents."
+        },
+        {
+          "en": "Grace and Tom are my aunt and uncle.",
+          "es": "Grace y Tom son mis tíos.",
+          "nota": "No existe una palabra para «tíos» mixtos: se dicen las dos (lo más habitual es aunt and uncle o aunts and uncles)."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Español: masculino plural = grupo mixto", "items": ["mis padres (papá + mamá)", "mis hijos (niño + niña)", "mis hermanos (hermano + hermana)"] },
+        "b": { "titulo": "Inglés: palabra propia o las dos juntas", "items": ["my parents", "my children", "my brothers and sisters / my siblings"] },
+        "veredicto": "Antes de usar un plural, pregúntate: ¿son todos hombres? Si no, busca la palabra mixta (parents, children, siblings, grandparents) o nombra a los dos."
+      },
+      "pronunciacion": [
+        {
+          "texto": "mother · brother · father",
+          "ipa": "/ˈmʌðər/ · /ˈbrʌðər/ · /ˈfɑːðər/",
+          "consejo": "La th es /ð/, sonora: saca un poquito la punta de la lengua entre los dientes y deja que vibre la garganta, como una «d» muy suave de «nada». No la pronuncies como «d» fuerte ni como «z». En mother y brother la vocal es /ʌ/, una «a» corta y relajada; en father es /ɑː/, una «a» abierta y larga.",
+          "lento": true
+        },
+        {
+          "texto": "daughter",
+          "ipa": "/ˈdɔːtər/ (en EE. UU. a menudo /ˈdɑːtər/)",
+          "consejo": "La gh no suena. En inglés estadounidense la t entre vocales se convierte en un golpe rápido de lengua, parecido a la r suave del español en «pero»: DAH-rer."
+        },
+        {
+          "texto": "aunt",
+          "ipa": "/ænt/ (británico /ɑːnt/)",
+          "consejo": "En EE. UU. suena casi igual que ant (hormiga): /æ/, con la boca abierta y los labios estirados. En el Reino Unido, con /ɑː/ larga, como una «a» profunda."
+        },
+        {
+          "texto": "cousin · niece · nephew",
+          "ipa": "/ˈkʌzən/ · /niːs/ · /ˈnɛfjuː/",
+          "consejo": "Cousin: la ou suena /ʌ/ y la s suena /z/ (zumbido): KA-zen. Niece: i larga /iː/, «niis». Nephew: ph = /f/ y ew = /juː/, «NEF-yu»."
+        }
+      ],
+      "errores": [
+        { "mal": "My fathers are teachers.", "bien": "My parents are teachers.", "porque": "Papá y mamá juntos son parents. Fathers significa varios papás." },
+        { "mal": "My sons are Ana and Tom.", "bien": "My children are Ana and Tom.", "porque": "Si hay una hija, el plural mixto es children. Sons son solo hijos varones." },
+        { "mal": "There are many parents at the wedding.", "bien": "There are many relatives at the wedding.", "porque": "Parientes = relatives. Parents son solo papá y mamá." },
+        { "mal": "She's my cousine.", "bien": "She's my cousin.", "porque": "Cousin no cambia para el femenino." }
+      ]
+    },
+    {
+      "id": "relaciones-con-genitivo",
+      "titulo": "Relaciones con 's: my sister's husband, la familia política y los step-",
+      "que_es": "Para decir «el esposo de mi hermana» el inglés usa el genitivo que ya estudiaste: [[my sister's husband]]. El orden es el inverso del español: primero el poseedor (my sister) + [['s]], y después la persona o cosa (husband). Con esa herramienta y unas pocas palabras nuevas puedes describir cualquier relación familiar, incluida la familia política ([[in-laws]]) y la familia reconstituida ([[stepmother]], [[half-brother]]).",
+      "para_que": [
+        "Explicar quién es quién en una foto o en una fiesta familiar.",
+        "Hablar de la familia de tu pareja: mother-in-law, brother-in-law.",
+        "Describir familias reconstituidas con precisión: stepfather, half-sister."
+      ],
+      "como_funciona": "**1) El genitivo en cadena.** Poseedor + [['s]] + persona. Se puede encadenar: [[my mother's sister]] (la hermana de mi mamá = mi tía), [[my brother's children]] (los hijos de mi hermano = mis sobrinos).\n• Si el poseedor es un plural terminado en -s, solo se añade el apóstrofo: [[my parents' house]] (la casa de mis papás).\n• Si es un plural irregular, se añade [['s]]: [[my children's school]] (la escuela de mis hijos).\n\n**2) His / her según el POSEEDOR.** [[Tom and his wife]] (Tom y su esposa: his porque el poseedor es Tom). [[Ana and her husband]] (her porque la poseedora es Ana). En español «su» sirve para todo; en inglés tienes que mirar quién posee, nunca a la persona poseída.\n\n**3) La familia política: in-law.** Se añade [[-in-law]] (literalmente, «por ley», por el matrimonio):\n• [[mother-in-law]] (suegra), [[father-in-law]] (suegro)\n• [[brother-in-law]] (cuñado), [[sister-in-law]] (cuñada)\n• [[son-in-law]] (yerno), [[daughter-in-law]] (nuera)\n• [[my in-laws]] = mis suegros / mi familia política\nEl plural se forma en la PRIMERA palabra: [[two brothers-in-law]] (en la conversación también se oye «brother-in-laws», pero la forma estándar es brothers-in-law).\n\n**4) Familias reconstituidas: step- y half-.**\n• [[stepmother]] = la esposa de tu papá, que no es tu mamá (madrastra; en inglés no tiene la carga negativa del español)\n• [[stepfather]], [[stepson]], [[stepdaughter]], [[stepbrother]], [[stepsister]] (sin lazo de sangre)\n• [[half-brother]] / [[half-sister]] = medio hermano: comparten solo el papá o solo la mamá.\n\n**5) Whose para preguntar.** [[Whose son is Mateo?]] — [[He's Sofía's son.]] (¿De quién es hijo Mateo? — Es hijo de Sofía.) Cuidado: [[whose]] y [[who's]] suenan igual, pero who's = who is.",
+      "estructuras": [
+        {
+          "etiqueta": "Relación con 's",
+          "formula": [ { "t": "Poseedor + 's", "rol": "sujeto" }, { "t": "familiar", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "información", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My sister's", "rol": "sujeto" }, { "t": "husband", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "Colombian", "rol": "complemento" } ],
+          "es": "El esposo de mi hermana es colombiano."
+        },
+        {
+          "etiqueta": "Identificar a alguien",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "poseedor + 's + familiar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Luis", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "my sister's husband", "rol": "complemento" } ],
+          "es": "Luis es el esposo de mi hermana."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "«El esposo de mi hermana» → my sister's husband",
+        "pasos": [
+          { "etiqueta": "Orden español (calco)", "partes": [ { "t": "the husband", "rol": "complemento" }, { "t": "of", "rol": "otro" }, { "t": "my sister", "rol": "sujeto" } ] },
+          { "etiqueta": "Orden inglés natural", "partes": [ { "t": "my sister's", "rol": "sujeto" }, { "t": "husband", "rol": "complemento" } ] }
+        ],
+        "pie": "El poseedor pasa delante y toma 's; «the» y «of» desaparecen. The husband of my sister se entiende, pero suena rebuscado: con personas se usa 's."
+      },
+      "ejemplos": [
+        {
+          "en": "Luis is my sister's husband.",
+          "es": "Luis es el esposo de mi hermana.",
+          "partes": [ { "t": "Luis", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "my sister's husband", "rol": "complemento" } ],
+          "nota": "Primero el poseedor (my sister) con 's, después la persona (husband)."
+        },
+        {
+          "en": "My parents' house is in Puebla.",
+          "es": "La casa de mis papás está en Puebla.",
+          "partes": [ { "t": "My parents' house", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "in Puebla", "rol": "complemento" } ],
+          "nota": "Parents ya termina en -s: solo se añade el apóstrofo (parents')."
+        },
+        {
+          "en": "Tom and his wife are Canadian.",
+          "es": "Tom y su esposa son canadienses.",
+          "nota": "His porque el poseedor es Tom, aunque la esposa sea mujer."
+        },
+        {
+          "en": "My mother-in-law is very kind.",
+          "es": "Mi suegra es muy amable.",
+          "nota": "In-law indica la familia de tu pareja. Se escribe con guiones."
+        },
+        {
+          "en": "Ben is my half-brother. His mother is my father's second wife.",
+          "es": "Ben es mi medio hermano. Su mamá es la segunda esposa de mi papá.",
+          "nota": "Half-brother: compartimos solo el papá. Y la mamá de Ben es mi stepmother."
+        },
+        {
+          "en": "Whose daughter is Ana? She's Omar's daughter.",
+          "es": "¿De quién es hija Ana? Es hija de Omar.",
+          "nota": "Whose pregunta por el poseedor; la respuesta usa 's."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "my sister's husband",
+          "ipa": "/maɪ ˈsɪstərz ˈhʌzbənd/",
+          "consejo": "La 's de sister's suena /z/ porque sister termina en sonido sonoro (la r). En husband, la s también suena /z/ y la segunda vocal es una schwa débil: HAZ-bend.",
+          "lento": true
+        },
+        {
+          "texto": "mother-in-law",
+          "ipa": "/ˈmʌðər ɪn ˌlɔː/ (EE. UU. también /ˌlɑː/)",
+          "consejo": "Se dice como una sola palabra con el acento fuerte en MOTH. In se une a la palabra anterior: «mother-rin-law»."
+        },
+        {
+          "texto": "Whose / Who's",
+          "ipa": "/huːz/",
+          "consejo": "Suenan exactamente igual: la w no se pronuncia y se oye una h aspirada (aire suave, no la j española) + u larga + z. El contexto y la ortografía los distinguen."
+        }
+      ],
+      "errores": [
+        { "mal": "my sister husband", "bien": "my sister's husband", "porque": "Falta 's: sin él no hay relación de posesión." },
+        { "mal": "Ana and his husband", "bien": "Ana and her husband", "porque": "El posesivo concuerda con el poseedor (Ana, mujer → her), no con la persona poseída." },
+        { "mal": "my parent's house (hablando de los dos)", "bien": "my parents' house", "porque": "Con un plural en -s el apóstrofo va después de la s. Parent's sería de UN solo padre o madre." },
+        { "mal": "two brother-in-laws", "bien": "two brothers-in-law", "porque": "En la forma estándar el plural se marca en la palabra principal: brothers." }
+      ]
+    },
+    {
+      "id": "presentar-a-la-familia",
+      "titulo": "Presentar a tu familia: this is, there are, edad y estado civil",
+      "que_es": "Para presentar a tu familia combinas estructuras que ya conoces: [[This is my…]] / [[These are my…]] para señalar, [[There are five people in my family]] para contar, [[be]] para la edad y el estado civil. Añadimos solo dos expresiones fijas con have, que estudiarás a fondo más adelante.",
+      "para_que": [
+        "Enseñar fotos y presentar a tus familiares en persona.",
+        "Contestar la pregunta típica: Do you have any brothers or sisters?",
+        "Decir la edad y el estado civil sin calcos del español."
+      ],
+      "como_funciona": "**Señalar:** [[This is my brother.]] (uno, cerca) · [[These are my grandparents.]] (varios) · [[That's my aunt.]] (lejos, en la foto del fondo).\n\n**Contar:** [[There are four people in my family.]] (Somos cuatro en mi familia.) En español decimos «somos cuatro»; en inglés lo natural es there are.\n\n**La edad con be:** [[My daughter is ten.]] / [[My daughter is ten years old.]] Nunca «has ten years»: en inglés la edad se ES, no se tiene.\n\n**Estado civil con be:** [[I'm married.]] (casado/a) · [[I'm single.]] (soltero/a) · [[I'm divorced.]] · [[She's married to Tom.]] (casada CON Tom se dice married **to**, no «with»). [[I'm an only child.]] = soy hijo/a único/a.\n\n**Expresiones fijas con have (por ahora sin analizar):**\n• [[I have two sisters and a brother.]] — Tengo dos hermanas y un hermano.\n• [[Do you have any brothers or sisters?]] — ¿Tienes hermanos?\n• [[How many brothers and sisters do you have?]] — ¿Cuántos hermanos tienes?\n• Respuestas cortas: [[Yes, I do.]] / [[No, I don't.]]\nLa pregunta usa [[any]] y [[or]]: ¿tienes alguno, hermano o hermana?",
+      "estructuras": [
+        {
+          "etiqueta": "Señalar",
+          "formula": [ { "t": "This is / These are", "rol": "verbo" }, { "t": "my + familiar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "These are", "rol": "verbo" }, { "t": "my grandparents", "rol": "complemento" } ],
+          "es": "Estos son mis abuelos."
+        },
+        {
+          "etiqueta": "Contar",
+          "formula": [ { "t": "There are", "rol": "verbo" }, { "t": "número + people", "rol": "sujeto" }, { "t": "in my family", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "There are", "rol": "verbo" }, { "t": "five people", "rol": "sujeto" }, { "t": "in my family", "rol": "complemento" } ],
+          "es": "Somos cinco en mi familia."
+        },
+        {
+          "etiqueta": "Edad",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "número (+ years old)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My grandfather", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "eighty-two", "rol": "complemento" } ],
+          "es": "Mi abuelo tiene ochenta y dos años."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are four people in my family: my parents, my brother and me.",
+          "es": "Somos cuatro en mi familia: mis papás, mi hermano y yo.",
+          "nota": "There are + número + people. Al final de una lista como esta lo más natural es me."
+        },
+        {
+          "en": "This is my son. He's twelve.",
+          "es": "Este es mi hijo. Tiene doce años.",
+          "partes": [ { "t": "This", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "my son", "rol": "complemento" }, { "t": "He's", "rol": "sujeto" }, { "t": "twelve", "rol": "complemento" } ],
+          "nota": "La edad con be. Years old es opcional."
+        },
+        {
+          "en": "My sister is married to a Brazilian engineer.",
+          "es": "Mi hermana está casada con un ingeniero brasileño.",
+          "partes": [ { "t": "My sister", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "married to a Brazilian engineer", "rol": "complemento" } ],
+          "nota": "Married to, no «married with». Y la nacionalidad va antes del sustantivo."
+        },
+        {
+          "en": "I'm an only child.",
+          "es": "Soy hijo único.",
+          "nota": "An porque only empieza con sonido vocal. Sirve para hombre o mujer."
+        },
+        {
+          "en": "Do you have any brothers or sisters? Yes, I do. I have two sisters.",
+          "es": "¿Tienes hermanos? Sí. Tengo dos hermanas.",
+          "nota": "Expresión fija. La respuesta corta repite do, igual que con Do you speak…?"
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "There are four people in my family.",
+          "ipa": "/ðɛr ər ˈfɔːr ˈpiːpəl ɪn maɪ ˈfæməli/",
+          "consejo": "There are se une y se reduce: «ther-er». People tiene i larga /iː/ y termina en una l oscura: la lengua se retrasa, casi como «pí-pl». Family se acentúa en FAM, con /æ/.",
+          "lento": true
+        },
+        {
+          "texto": "married · single",
+          "ipa": "/ˈmɛrid/ · /ˈsɪŋɡəl/",
+          "consejo": "Married tiene DOS sílabas (MER-rid): la -ed no forma una tercera sílaba. En single la n suena como en «tengo» (/ŋ/) y se oye la g."
+        }
+      ],
+      "errores": [
+        { "mal": "My daughter has ten years.", "bien": "My daughter is ten (years old).", "porque": "La edad se expresa con be en inglés." },
+        { "mal": "She's married with Tom.", "bien": "She's married to Tom.", "porque": "Married va con la preposición to." },
+        { "mal": "We are four in my family.", "bien": "There are four people in my family.", "porque": "Es un calco de «somos cuatro». En inglés se cuenta con there are." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada palabra masculina con su pareja femenina.",
+      "pares": [
+        { "a": "father", "b": "mother" },
+        { "a": "son", "b": "daughter" },
+        { "a": "uncle", "b": "aunt" },
+        { "a": "nephew", "b": "niece" },
+        { "a": "husband", "b": "wife" },
+        { "a": "grandfather", "b": "grandmother" }
+      ],
+      "pistas": [
+        "Cada pareja es la misma relación familiar, en hombre y en mujer.",
+        "Traduce mentalmente: tío/tía, sobrino/sobrina, hijo/hija.",
+        "uncle = tío → aunt; nephew = sobrino → niece; son = hijo → daughter."
+      ],
+      "solucion": { "respuesta": "father–mother, son–daughter, uncle–aunt, nephew–niece, husband–wife, grandfather–grandmother", "explicacion": "En inglés el masculino y el femenino de la familia son palabras distintas, no una terminación -o/-a. Las que más se confunden son uncle/aunt (tío/tía) y nephew/niece (sobrino/sobrina)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«Mis padres son maestros.» (papá y mamá)",
+      "opciones": [
+        { "texto": "My parents are teachers.", "correcta": true, "porque": "Correcto: parents = papá y mamá." },
+        { "texto": "My fathers are teachers.", "correcta": false, "porque": "Fathers significaría varios papás. Papá + mamá = parents." },
+        { "texto": "My relatives are teachers.", "correcta": false, "porque": "Relatives son los parientes en general (tíos, primos…), no específicamente papá y mamá." },
+        { "texto": "My parent are teachers.", "correcta": false, "porque": "Son dos personas: parents, en plural. Además, are no concuerda con un sujeto singular." }
+      ],
+      "pistas": [
+        "El español usa el masculino plural para el grupo mixto; el inglés, no.",
+        "Busca la palabra que significa exactamente papá + mamá.",
+        "Papá + mamá = parents (con -s, porque son dos). No confundas con relatives (parientes)."
+      ],
+      "solucion": { "respuesta": "My parents are teachers.", "explicacion": "Parents es la palabra para padre y madre juntos. Fathers serían varios papás, relatives son parientes en general y parent sin -s es una sola persona." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra de la familia.",
+      "frase": "My mother's sister is my ___.",
+      "traduccion": "La hermana de mi mamá es mi tía.",
+      "respuestas": [["aunt"]],
+      "errores_tipicos": {
+        "uncle": "Uncle es tío. La hermana de tu mamá es mujer: aunt.",
+        "cousin": "Cousin es primo o prima: la hija de tu tía, no tu tía."
+      },
+      "pistas": [
+        "Lee la relación de derecha a izquierda: my mother's sister = la hermana de mi mamá.",
+        "Es una mujer de la generación de tus papás.",
+        "Tía en inglés; su pareja masculina es uncle."
+      ],
+      "solucion": { "respuesta": "aunt", "explicacion": "My mother's sister significa «la hermana de mi mamá», es decir, mi tía: aunt. Uncle es el masculino (tío) y cousin es primo o prima." },
+      "audio": true
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Cuida el sonido th.",
+      "texto": "My mother, my father and my brother.",
+      "ipa": "/maɪ ˈmʌðər maɪ ˈfɑːðər ənd maɪ ˈbrʌðər/",
+      "consejo": "Las tres palabras tienen /ð/: la punta de la lengua asoma un poco entre los dientes y la garganta vibra (pon la mano en el cuello y siéntelo). No la cambies por una «d» fuerte. La r final no vibra: la lengua se curva hacia atrás.",
+      "es": "Mi mamá, mi papá y mi hermano."
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con his o her.",
+      "frase": "Tom and ___ wife are from Canada.",
+      "traduccion": "Tom y su esposa son de Canadá.",
+      "respuestas": [["his"]],
+      "banco": ["his", "her"],
+      "errores_tipicos": {
+        "her": "Her se usa cuando la poseedora es una mujer. Aquí el poseedor es Tom: his, aunque la esposa sea mujer."
+      },
+      "pistas": [
+        "His y her dependen de una sola persona de la oración.",
+        "¿Quién es el poseedor: Tom o la esposa?",
+        "El posesivo concuerda con el poseedor (Tom, hombre), no con lo poseído."
+      ],
+      "solucion": { "respuesta": "his", "explicacion": "La respuesta es his porque el poseedor es Tom (la esposa es de Tom). En inglés el posesivo mira al poseedor, no a la persona poseída; por eso no importa que wife sea mujer." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Ana está casada con Carlos. Completa cada hueco con una palabra de la familia.",
+      "frase": "Carlos is Ana's ___. Ana's mother is Carlos's ___.",
+      "traduccion": "Carlos es el esposo de Ana. La mamá de Ana es la suegra de Carlos.",
+      "respuestas": [["husband"], ["mother-in-law"]],
+      "errores_tipicos": {
+        "husband | stepmother": "Stepmother es la esposa de tu papá (madrastra). La mamá de tu pareja es tu mother-in-law.",
+        "wife | mother-in-law": "Carlos es hombre: es el husband de Ana. Wife es esposa."
+      },
+      "pistas": [
+        "Primero: ¿qué es un hombre casado para su esposa? Segundo: la familia de tu pareja lleva una terminación especial.",
+        "La mamá de tu esposa es tu suegra.",
+        "Esposo: la pareja masculina de wife. Suegra: la palabra de «mamá» + la terminación de la familia política, con guiones."
+      ],
+      "solucion": { "respuesta": "husband · mother-in-law", "explicacion": "Carlos es el esposo de Ana: husband. La mamá de Ana, para Carlos, es su suegra: mother-in-law. La familia de tu pareja se forma con -in-law (por el matrimonio)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para decir «Este es el esposo de mi hermana».",
+      "fichas": ["This", "is", "my", "sister's", "husband"],
+      "respuestas": ["This is my sister's husband."],
+      "traduccion": "Este es el esposo de mi hermana.",
+      "pistas": [
+        "Empieza con This is.",
+        "La palabra con 's es el poseedor.",
+        "Poseedor con 's (my sister's) + persona (husband)."
+      ],
+      "solucion": { "respuesta": "This is my sister's husband.", "explicacion": "This is presenta a la persona. Después va el genitivo: primero el poseedor con 's (my sister's) y luego la persona poseída (husband). Es el orden inverso al español «el esposo de mi hermana»." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Ana es niña y Tom es niño. Señala la palabra incorrecta y escribe la corrección.",
+      "frase": "My sons are Ana and Tom.",
+      "error": "sons",
+      "correcciones": ["children"],
+      "frase_correcta": "My children are Ana and Tom.",
+      "pistas": [
+        "Piensa en el grupo mixto.",
+        "¿Son todos varones los hijos de la oración?",
+        "Para hijos e hijas juntos se usa el plural irregular de child."
+      ],
+      "solucion": { "respuesta": "sons → children", "explicacion": "Sons son solo hijos varones. Como Ana es niña, el grupo es mixto y se usa children (plural irregular de child)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración con el genitivo (apóstrofo), como lo diría un nativo.",
+      "origen": "The house of my parents is big.",
+      "instruccion": "Usa el genitivo",
+      "respuestas": ["My parents' house is big."],
+      "errores_tipicos": {
+        "My parents house is big": "Falta el apóstrofo: sin él, parents no indica posesión.",
+        "My parents's house is big": "Con un plural que ya termina en -s solo se añade el apóstrofo: parents'.",
+        "My parent's house is big": "Parent's sería la casa de UNO solo de tus papás. Para los dos, el apóstrofo va después de la s: parents'."
+      },
+      "pistas": [
+        "El poseedor (my parents) pasa delante.",
+        "Parents es un plural que ya termina en -s.",
+        "Plural en -s + apóstrofo solo (parents'), y después house."
+      ],
+      "solucion": { "respuesta": "My parents' house is big.", "explicacion": "El poseedor my parents pasa delante; como es un plural terminado en -s, solo se le añade el apóstrofo: my parents' house. The y of desaparecen." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My cousin Grace is my uncle's daughter.",
+      "pistas": [
+        "Hay un genitivo 's.",
+        "Cousin no cambia para mujer.",
+        "La relación es «la hija de mi tío»: uncle's daughter."
+      ],
+      "solucion": { "respuesta": "My cousin Grace is my uncle's daughter.", "explicacion": "Cousin sirve para prima; el nombre Grace aclara que es mujer. My uncle's daughter = la hija de mi tío. Daughter se escribe con gh muda." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "En una comida de trabajo, Priya te pregunta por tu familia. Tienes un hermano de 25 años y una hermana de 20.",
+      "lineas": [
+        { "quien": "Priya", "en": "Do you have any brothers or sisters?", "es": "¿Tienes hermanos?" }
+      ],
+      "opciones": [
+        { "texto": "Yes, I do. A brother and a sister. He's twenty-five and she's twenty.", "correcta": true, "porque": "Correcto: respuesta corta con do, grupo mixto nombrado con las dos palabras y edades con be." },
+        { "texto": "Yes, I do. Two brothers. He's twenty-five and she's twenty.", "correcta": false, "porque": "Two brothers son dos varones; si uno es mujer, di a brother and a sister (o two siblings)." },
+        { "texto": "Yes, I do. A brother and a sister. He has twenty-five years.", "correcta": false, "porque": "La edad no se expresa con have: He's twenty-five." },
+        { "texto": "Yes, I am. A brother and a sister.", "correcta": false, "porque": "La pregunta usa do, así que la respuesta corta es Yes, I do." }
+      ],
+      "pistas": [
+        "Revisa tres cosas: la respuesta corta, el plural mixto y la edad.",
+        "La pregunta empieza con Do; tus hermanos son un hombre y una mujer.",
+        "Yes, I do + a brother and a sister + edad con be."
+      ],
+      "solucion": { "respuesta": "Yes, I do. A brother and a sister. He's twenty-five and she's twenty.", "explicacion": "Es la única respuesta que acierta en todo: repite el auxiliar de la pregunta (do), nombra el grupo mixto con las dos palabras y expresa la edad con be." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés usando el genitivo 's.",
+      "es": "El esposo de mi hermana es mexicano.",
+      "respuestas": ["My sister's husband is Mexican."],
+      "errores_tipicos": {
+        "The husband of my sister is Mexican": "Se entiende, pero el enunciado pide el genitivo, que es lo natural con personas: my sister's husband.",
+        "My sister husband is Mexican": "Falta 's después de sister para marcar la relación."
+      },
+      "pistas": [
+        "Empieza por el poseedor.",
+        "El poseedor es my sister y lleva 's; la persona es husband.",
+        "My sister's husband + is + nacionalidad (con mayúscula)."
+      ],
+      "solucion": { "respuesta": "My sister's husband is Mexican.", "explicacion": "El genitivo invierte el orden del español: primero my sister's (poseedor + 's) y después husband. Luego be + nacionalidad: is Mexican, con mayúscula." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.la-familia.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe a tu familia.",
+      "objetivo": "Presentar a tu familia con there are, posesivos, genitivo 's, edades y profesiones o nacionalidades.",
+      "instrucciones": "Escribe de 5 a 7 oraciones sobre tu familia (real o inventada). Di cuántas personas son, presenta al menos a tres familiares con su nombre y su edad, y usa al menos una vez el genitivo 's para una relación (my brother's wife, my aunt's children…).",
+      "vocabulario_apoyo": ["parents", "siblings", "married to", "only child", "in-laws", "cousin", "years old"],
+      "estructuras": ["There are … people in my family.", "My … is … (years old).", "My …'s … is …", "His / Her name is …", "I'm married / single / an only child."],
+      "ejemplo": "There are three people in my house: my roommate Sam, his cat and me. Sam is twenty-eight. He's from Canada.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        { "descripcion": "Usas there is / there are", "patron": "\\bthere (is|are)\\b" },
+        { "descripcion": "Usas un genitivo detrás de un posesivo (my sister's husband, my parents' house…)", "patron": "\\b(my|his|her|their|your|our) [a-z]+('s|s') [a-z]" },
+        { "descripcion": "Usas un posesivo (my, his, her, their)", "patron": "\\b(my|his|her|their)\\b" }
+      ],
+      "criterios": [
+        "¿Usaste parents, children o siblings para los grupos mixtos?",
+        "¿La edad va con be (is / are) y no con have?",
+        "¿Elegiste his o her según el poseedor?",
+        "¿El genitivo va en el orden poseedor + 's + persona?"
+      ],
+      "modelo": "There are five people in my family: my parents, my two sisters and me. My father's name is Raúl. He's fifty-six. My mother is fifty-four, and she's a teacher. My sisters are Paula and Inés. Paula is married to Omar, so he's my brother-in-law. My sister's husband is Egyptian, and their daughter, Nora, is two. She's my niece.",
+      "explicacion": "El modelo cuenta con there are, usa parents y sisters (todas mujeres), da las edades con be y encadena relaciones con el genitivo (My father's name, My sister's husband). Their daughter usa their porque los poseedores son Paula y Omar. Married to lleva to.",
+      "errores_comunes": [
+        "My fathers para decir papá y mamá.",
+        "He has fifty years en lugar de He's fifty.",
+        "Her husband cuando el poseedor es un hombre (debe ser his wife)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "La foto de la boda",
+    "contexto": "Tu compañero Sam ve en tu escritorio una foto de una reunión familiar y te pregunta quién es quién.",
+    "dialogo": [
+      { "quien": "Sam", "en": "Nice photo! Who are these people?", "es": "¡Qué bonita foto! ¿Quiénes son estas personas?" },
+      { "quien": "Sam", "en": "Is the woman in the red dress your sister?", "es": "¿La mujer del vestido rojo es tu hermana?" }
+    ],
+    "tu_turno": "Presenta a tres personas de la foto con this is / these are, di su relación contigo (usa al menos un genitivo 's) y la edad de una de ellas.",
+    "modelo": "These are my parents, and this is my brother, Iván. The woman in the red dress isn't my sister. She's my brother's wife, Carmen. And the little girl is their daughter. She's six.",
+    "alternativas": [
+      "Yes, she is! Her name is Laura, and this is her husband, Pedro. The old man is my grandfather. He's eighty-five.",
+      "No, she isn't. She's my cousin Rosa, my aunt's daughter. These are my grandparents, and that's my mother-in-law."
+    ],
+    "claves": [
+      "This is (uno) / These are (varios).",
+      "Genitivo: my brother's wife, my aunt's daughter.",
+      "Edad con be: She's six."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Grupos mixtos: parents, children, siblings (o brothers and sisters), grandparents, grandchildren.",
+      "Parents = papá y mamá; relatives = parientes.",
+      "Cousin es primo o prima; tíos = aunts and uncles; sobrinos = nephews and nieces.",
+      "Relaciones con 's: my sister's husband, my parents' house, my children's school.",
+      "His / her según el poseedor: Tom and his wife; Ana and her husband.",
+      "Familia política con -in-law (plural: brothers-in-law); step- sin lazo de sangre, half- con un solo padre en común."
+    ],
+    "recuerda": [
+      "La edad con be: She's ten (years old).",
+      "Married to, no «married with».",
+      "There are four people in my family (no «We are four»).",
+      "I have… / Do you have any brothers or sisters? son expresiones fijas por ahora."
+    ]
+  },
+  "repaso": [
+    { "id": "familia-profesiones-y-preguntas.la-familia.r1", "frente": "¿Cómo dices «mis padres» (papá y mamá) y «mis parientes»?", "reverso": "my parents / my relatives", "nota": "Parents no es «parientes»." },
+    { "id": "familia-profesiones-y-preguntas.la-familia.r2", "frente": "«Mis hijos» (una niña y un niño) y «mis hermanos» (hombre y mujer).", "reverso": "my children / my brothers and sisters (o my siblings)", "nota": "Sons y brothers solo si todos son varones." },
+    { "id": "familia-profesiones-y-preguntas.la-familia.r3", "frente": "«El esposo de mi hermana» en inglés.", "reverso": "my sister's husband", "nota": "Poseedor + 's + persona." },
+    { "id": "familia-profesiones-y-preguntas.la-familia.r4", "frente": "Suegra, cuñado, yerno.", "reverso": "mother-in-law, brother-in-law, son-in-law", "nota": "Plural: brothers-in-law." },
+    { "id": "familia-profesiones-y-preguntas.la-familia.r5", "frente": "«Tom y su esposa» / «Ana y su esposo».", "reverso": "Tom and his wife / Ana and her husband", "nota": "El posesivo concuerda con el poseedor." }
+  ]
+}

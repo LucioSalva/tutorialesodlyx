@@ -1,0 +1,447 @@
+{
+  "slug": "presentarse",
+  "titulo": "Presentarte y presentar a alguien",
+  "minutos": 35,
+  "objetivos": [
+    "Decir tu nombre con My name is… o I'm… y preguntar el de otra persona con What's your name?",
+    "Responder a Nice to meet you con Nice to meet you, too o You too.",
+    "Presentar a otra persona con This is…",
+    "Decir de dónde eres con I'm from… y mantener una primera conversación completa."
+  ],
+  "situacion": {
+    "titulo": "El primer día en la escuela de idiomas",
+    "texto": "Diego llega a su primera clase. Se sienta junto a Mei, que es de Taiwán. Poco después llega Sam, un amigo de Mei, y ella se lo presenta a Diego. En dos minutos usan todas las frases de esta lección.",
+    "dialogo": [
+      {"quien": "Mei", "en": "Hi! I'm Mei. What's your name?", "es": "¡Hola! Soy Mei. ¿Cómo te llamas?"},
+      {"quien": "Diego", "en": "Hi, Mei. My name is Diego. Nice to meet you.", "es": "Hola, Mei. Me llamo Diego. Mucho gusto."},
+      {"quien": "Mei", "en": "Nice to meet you, too. Where are you from?", "es": "Igualmente. ¿De dónde eres?"},
+      {"quien": "Diego", "en": "I'm from Mexico.", "es": "Soy de México."},
+      {"quien": "Mei", "en": "Oh, look! Diego, this is my friend Sam.", "es": "¡Ah, mira! Diego, te presento a mi amigo Sam."},
+      {"quien": "Sam", "en": "Hi, Diego. Nice to meet you.", "es": "Hola, Diego. Mucho gusto."},
+      {"quien": "Diego", "en": "You too, Sam.", "es": "Igualmente, Sam."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "decir-tu-nombre",
+      "titulo": "My name is… / I'm…",
+      "que_es": "Para decir cómo te llamas el inglés no usa un verbo como «llamarse». Dice literalmente «Mi nombre es…» (**My name is…**) o «Soy…» (**I'm…**). Para preguntar se usa **What's your name?** («¿Cuál es tu nombre?»).",
+      "para_que": [
+        "Para presentarte en clase, en el trabajo o en una reunión.",
+        "Para preguntar el nombre de alguien y dar tu nombre completo cuando te lo piden."
+      ],
+      "como_funciona": "Aprende estas frases como bloques; is, are y 'm los estudiarás en la unidad 4. **Presentarte**: My name is Diego. / My name's Diego. (contracción, más oral) / I'm Diego. (la más común en conversación informal). **Preguntar**: What's your name? (What's = What is). **Nombre y apellido**: first name = nombre de pila; last name = apellido (en el Reino Unido también surname). En el mundo anglosajón normalmente se tiene un solo apellido; si tienes dos, puedes decir los dos o solo el primero. **Nunca** traduzcas «me llamo» como «I call me» o «I call myself»: esas frases significan «me llamo a mí mismo (por teléfono)». Si quieres que te llamen por un apodo: Call me Toño.",
+      "estructuras": [
+        {
+          "etiqueta": "Mi nombre es…",
+          "formula": [{"t": "My name", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "nombre", "rol": "complemento"}],
+          "ejemplo": [{"t": "My name", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "Diego", "rol": "complemento"}],
+          "es": "Me llamo Diego."
+        },
+        {
+          "etiqueta": "Soy…",
+          "formula": [{"t": "I'm", "rol": "sujeto"}, {"t": "nombre", "rol": "complemento"}],
+          "ejemplo": [{"t": "I'm", "rol": "sujeto"}, {"t": "Mei", "rol": "complemento"}],
+          "es": "Soy Mei."
+        },
+        {
+          "etiqueta": "Preguntar el nombre",
+          "formula": [{"t": "What's", "rol": "interrogativo"}, {"t": "your name", "rol": "sujeto"}],
+          "ejemplo": [{"t": "What's", "rol": "interrogativo"}, {"t": "your name", "rol": "sujeto"}],
+          "es": "¿Cómo te llamas?"
+        }
+      ],
+      "ejemplos": [
+        {"en": "My name is Lucía Torres.", "es": "Me llamo Lucía Torres.", "partes": [{"t": "My name", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "Lucía Torres", "rol": "complemento"}], "nota": "Forma completa: más clara y algo más formal. Útil al presentarte ante un grupo."},
+        {"en": "I'm Omar.", "es": "Soy Omar.", "partes": [{"t": "I'm", "rol": "sujeto"}, {"t": "Omar", "rol": "complemento"}], "nota": "Lo más natural entre compañeros. I'm = I am."},
+        {"en": "What's your name?", "es": "¿Cómo te llamas? / ¿Cuál es su nombre?", "partes": [{"t": "What's", "rol": "interrogativo"}, {"t": "your name", "rol": "sujeto"}], "nota": "Literalmente «¿Cuál es tu nombre?». your = tu / su."},
+        {"en": "My last name is Ruiz.", "es": "Mi apellido es Ruiz.", "partes": [{"t": "My last name", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "Ruiz", "rol": "complemento"}], "nota": "last name = apellido. En formularios verás también surname o family name."},
+        {"en": "Call me Toño.", "es": "Dime Toño.", "partes": [{"t": "Call", "rol": "verbo"}, {"t": "me", "rol": "complemento"}, {"t": "Toño", "rol": "complemento"}], "nota": "Para dar un apodo. Es una orden amable, por eso no lleva sujeto."}
+      ],
+      "pronunciacion": [
+        {"texto": "My name is…", "ipa": "/maɪ ˈneɪm ɪz/", "consejo": "my es «mai»; name es «neim» con una sola sílaba (la e final no suena); is lleva /z/, con zumbido. Todo seguido: «mai-NEIM-iz».", "lento": true},
+        {"texto": "What's your name?", "ipa": "/wʌts jər ˈneɪm/", "consejo": "What's se pronuncia «uats», corto, con /ʌ/. your se reduce a /jər/. La fuerza va en name y la voz baja al final.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "I call me Diego.", "bien": "My name is Diego. / I'm Diego.", "porque": "El inglés no usa «llamarse». I call me no tiene sentido."},
+        {"mal": "My name Diego.", "bien": "My name is Diego.", "porque": "Falta is (es). En inglés no se puede quitar el verbo."},
+        {"mal": "I'm name is Diego.", "bien": "My name is Diego.", "porque": "Se mezclan dos frases: I'm Diego y My name is Diego. Elige una."}
+      ]
+    },
+    {
+      "id": "nice-to-meet-you",
+      "titulo": "Nice to meet you",
+      "que_es": "**Nice to meet you** es lo que dices cuando conoces a alguien por primera vez: equivale a «Mucho gusto» o «Encantado/a». La respuesta es **Nice to meet you, too** o, más corto, **You too**.",
+      "para_que": [
+        "Para cerrar una presentación con cortesía.",
+        "Para responder bien cuando alguien te lo dice primero."
+      ],
+      "como_funciona": "La primera persona dice Nice to meet you. La segunda contesta Nice to meet you, too. (too = también, al final) o You too. En situaciones formales se oye Pleased to meet you. Ojo: meet significa «conocer» a alguien por primera vez; si ya conoces a la persona y te la encuentras, se dice **Nice to see you** (qué gusto verte). Al despedirte de alguien que acabas de conocer puedes decir Nice meeting you. Y un detalle de ortografía: **too** (también) no es **to** (a, para): las dos suenan /tuː/ cuando se dicen solas.",
+      "estructuras": [
+        {
+          "etiqueta": "Mucho gusto → Igualmente",
+          "formula": [{"t": "Nice to meet you.", "rol": "otro"}, {"t": "Nice to meet you, too. / You too.", "rol": "complemento"}],
+          "ejemplo": [{"t": "Nice to meet you, Sam.", "rol": "otro"}, {"t": "You too, Diego.", "rol": "complemento"}],
+          "es": "Mucho gusto, Sam. — Igualmente, Diego."
+        }
+      ],
+      "ejemplos": [
+        {"en": "Nice to meet you.", "es": "Mucho gusto.", "partes": [{"t": "Nice", "rol": "complemento"}, {"t": "to meet", "rol": "verbo"}, {"t": "you", "rol": "complemento"}], "nota": "Literalmente «Agradable conocerte». Frase fija."},
+        {"en": "Nice to meet you, too.", "es": "Igualmente. / El gusto es mío.", "partes": [{"t": "Nice", "rol": "complemento"}, {"t": "to meet", "rol": "verbo"}, {"t": "you", "rol": "complemento"}, {"t": "too", "rol": "otro"}], "nota": "too va al final y significa «también». Se escribe con dos o."},
+        {"en": "Pleased to meet you.", "es": "Encantado de conocerle.", "situacion": "Una entrevista de trabajo.", "nota": "Más formal que nice to meet you."},
+        {"en": "Nice to see you again!", "es": "¡Qué gusto verte otra vez!", "situacion": "Te encuentras con una amiga que ya conoces.", "nota": "Con alguien que ya conoces se usa see, no meet."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Primera vez", "items": ["Nice to meet you.", "meet = conocer a alguien", "Respuesta: Nice to meet you, too. / You too."]},
+        "b": {"titulo": "Ya se conocen", "items": ["Nice to see you.", "see = ver", "Respuesta: Nice to see you, too. / You too."]},
+        "veredicto": "Meet solo la primera vez; después, see."
+      },
+      "pronunciacion": [
+        {"texto": "Nice to meet you.", "ipa": "/ˈnaɪs tə ˈmiːt juː/", "consejo": "to se reduce a /tə/. En el habla rápida, la t de meet se une a you y suena «mii-chu»: /ˈmiːtʃuː/. La fuerza va en nice y en meet.", "lento": true},
+        {"texto": "You too.", "ipa": "/juː ˈtuː/", "consejo": "Dos sílabas iguales de largas, con la fuerza en too. Redondea bien los labios en las dos u largas.", "lento": false}
+      ],
+      "errores": [
+        {"mal": "Nice to meet you, to.", "bien": "Nice to meet you, too.", "porque": "«También» se escribe too (dos o). to es una preposición."},
+        {"mal": "Nice to meet you. — Equally.", "bien": "Nice to meet you, too. / You too.", "porque": "«Igualmente» no se traduce equally en este contexto."},
+        {"mal": "Nice to meet you! (a un amigo que ya conoces)", "bien": "Nice to see you!", "porque": "meet es para la primera vez; con conocidos se usa see."}
+      ]
+    },
+    {
+      "id": "presentar-a-alguien",
+      "titulo": "This is… y I'm from…",
+      "que_es": "Para presentar a otra persona el inglés usa **This is…** («Este/Esta es…»), no he is ni she is. Y para decir tu origen se usa **I'm from…** («Soy de…»), con la pregunta **Where are you from?**",
+      "para_que": [
+        "Para presentar a un amigo, un familiar o un compañero.",
+        "Para decir de dónde eres y preguntarlo en una primera conversación."
+      ],
+      "como_funciona": "Al presentar, señalas a la persona y dices This is + nombre: This is Sam. / This is my friend Sam. / This is my sister, Ana. Es la fórmula fija, aunque sea un hombre o una mujer: **no** se dice «He is my friend Sam» para presentar (esa frase sirve para dar información de alguien ya presentado). Si presentas a dos personas entre sí: Mei, this is Tom. Tom, this is Mei. **Origen**: I'm from Mexico. / I'm from Guadalajara. Pregunta: Where are you from? (¿De dónde eres?). Fíjate en que from va al final de la pregunta, no al principio como «de» en español.",
+      "estructuras": [
+        {
+          "etiqueta": "Presentar a alguien",
+          "formula": [{"t": "This", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "(my friend) + nombre", "rol": "complemento"}],
+          "ejemplo": [{"t": "This", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "my friend Sam", "rol": "complemento"}],
+          "es": "Te presento a mi amigo Sam. (Este es mi amigo Sam.)"
+        },
+        {
+          "etiqueta": "Origen",
+          "formula": [{"t": "I'm", "rol": "sujeto"}, {"t": "from", "rol": "otro"}, {"t": "lugar", "rol": "complemento"}],
+          "ejemplo": [{"t": "I'm", "rol": "sujeto"}, {"t": "from", "rol": "otro"}, {"t": "Mexico", "rol": "complemento"}],
+          "es": "Soy de México."
+        }
+      ],
+      "ejemplos": [
+        {"en": "This is my friend Sam.", "es": "Te presento a mi amigo Sam.", "partes": [{"t": "This", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "my friend Sam", "rol": "complemento"}], "nota": "This is es la fórmula fija para presentar. Sirve igual para hombres y mujeres."},
+        {"en": "Mei, this is Tom. Tom, this is Mei.", "es": "Mei, él es Tom. Tom, ella es Mei.", "nota": "Para presentar a dos personas entre sí, primero el nombre de quien escucha y luego This is…"},
+        {"en": "I'm from Mexico.", "es": "Soy de México.", "partes": [{"t": "I'm", "rol": "sujeto"}, {"t": "from", "rol": "otro"}, {"t": "Mexico", "rol": "complemento"}], "nota": "from = de (origen). Los países se escriben con mayúscula."},
+        {"en": "Where are you from?", "es": "¿De dónde eres?", "partes": [{"t": "Where", "rol": "interrogativo"}, {"t": "are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "from", "rol": "otro"}], "nota": "from va al final. En español «de» va al principio: ¿De dónde…?"},
+        {"en": "This is my sister, Ana. She's from Puebla.", "es": "Ella es mi hermana, Ana. Es de Puebla.", "nota": "Primero presentas con This is; después das información con She's (ella es)."}
+      ],
+      "pronunciacion": [
+        {"texto": "This is my friend Sam.", "ipa": "/ˈðɪs ɪz maɪ ˈfrend sæm/", "consejo": "this empieza con /ð/ (lengua entre los dientes, con voz) y se une a is: «DIS-iz». En friend pronuncia la n y la d finales.", "lento": true},
+        {"texto": "Where are you from?", "ipa": "/ˈwer ər juː ˈfrʌm/", "consejo": "where suena «uer», sin h. are se reduce a /ər/. from lleva /ʌ/, una a floja: «frəm», no «from» con o española.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "He is my friend Sam. (al presentar)", "bien": "This is my friend Sam.", "porque": "Para presentar a alguien la fórmula es This is…"},
+        {"mal": "From where are you?", "bien": "Where are you from?", "porque": "En inglés from va al final de la pregunta."},
+        {"mal": "I'm of Mexico.", "bien": "I'm from Mexico.", "porque": "Para el origen se usa from, no of."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "saludos-y-presentaciones.presentarse.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta adecuada.",
+      "pregunta": "Alguien te dice: «Nice to meet you». ¿Qué respondes?",
+      "opciones": [
+        {"texto": "Nice to meet you, too.", "correcta": true, "porque": "Correcto: es la respuesta estándar («igualmente»)."},
+        {"texto": "Yes, I am.", "correcta": false, "porque": "No responde a nada: Nice to meet you no es una pregunta."},
+        {"texto": "Good night.", "correcta": false, "porque": "Es una despedida nocturna y no responde al saludo."}
+      ],
+      "pistas": [
+        "Es la respuesta a «Mucho gusto».",
+        "En español dirías «Igualmente».",
+        "Regla: a Nice to meet you se responde repitiendo la frase y añadiendo «también» al final."
+      ],
+      "solucion": {"respuesta": "Nice to meet you, too.", "explicacion": "A Nice to meet you se responde repitiendo la frase con too al final (también) o, más corto, You too."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la presentación.",
+      "frase": "Hi! My ___ is Carlos.",
+      "respuestas": [["name"]],
+      "errores_tipicos": {
+        "names": "Es un solo nombre: name, sin -s.",
+        "call": "El inglés no usa «llamarse»: se dice My name is…"
+      },
+      "pistas": [
+        "Literalmente dirás «Mi ___ es Carlos».",
+        "¿Qué palabra significa «nombre»?",
+        "Regla: el inglés dice literalmente «Mi ___ es Carlos», con el sustantivo en singular."
+      ],
+      "solucion": {"respuesta": "name", "explicacion": "My name is Carlos = Mi nombre es Carlos (Me llamo Carlos). El inglés no tiene un verbo «llamarse»: usa name + is."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada frase con su equivalente en español.",
+      "pares": [
+        {"a": "What's your name?", "b": "¿Cómo te llamas?"},
+        {"a": "Nice to meet you.", "b": "Mucho gusto."},
+        {"a": "This is my friend Ben.", "b": "Te presento a mi amigo Ben."},
+        {"a": "Where are you from?", "b": "¿De dónde eres?"},
+        {"a": "I'm from Mexico.", "b": "Soy de México."},
+        {"a": "My last name is Ruiz.", "b": "Mi apellido es Ruiz."}
+      ],
+      "pistas": [
+        "Busca palabras clave: name, meet, this is, from, last name.",
+        "last name es apellido; from indica origen.",
+        "Regla: This is… sirve para presentar; Where…from? pregunta el origen."
+      ],
+      "solucion": {"respuesta": "What's your name?–¿Cómo te llamas? · Nice to meet you.–Mucho gusto. · This is my friend Ben.–Te presento a mi amigo Ben. · Where are you from?–¿De dónde eres? · I'm from Mexico.–Soy de México. · My last name is Ruiz.–Mi apellido es Ruiz.", "explicacion": "Son las frases básicas de una presentación. Fíjate en que ninguna se traduce palabra por palabra: What's your name? es literalmente «¿Cuál es tu nombre?» y This is… es «Este es…»."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la respuesta.",
+      "frase": "— Nice to meet you, Priya. — Nice to meet you, ___.",
+      "respuestas": [["too"]],
+      "errores_tipicos": {
+        "to": "to (a, para) suena igual, pero «también» se escribe too, con dos o.",
+        "also": "also significa «también», pero no va al final en esta respuesta. La fórmula fija es Nice to meet you, too.",
+        "equally": "Es un calque de «igualmente». En inglés se dice too."
+      },
+      "pistas": [
+        "Es la palabra «también».",
+        "Suena igual que to, pero se escribe distinto.",
+        "Regla: «también» al final de la frase = too."
+      ],
+      "solucion": {"respuesta": "too", "explicacion": "Nice to meet you, too = El gusto es mío / Igualmente. too significa «también» y va al final. No lo confundas con to, que tiene otro significado."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para presentar a tu amigo.",
+      "fichas": ["is", "This", "friend", "my", "Omar"],
+      "respuestas": ["This is my friend Omar.", "This is Omar, my friend."],
+      "traduccion": "Te presento a mi amigo Omar.",
+      "pistas": [
+        "Empieza con la fórmula para presentar.",
+        "This va primero y is después.",
+        "Estructura: fórmula de presentación (Este es) + my friend + nombre."
+      ],
+      "solucion": {"respuesta": "This is my friend Omar.", "explicacion": "Para presentar a alguien se usa This is… seguido de la persona: my friend Omar. También es correcto This is Omar, my friend."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.06",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Me llamo Lucía.",
+      "respuestas": ["My name is Lucía.", "My name is Lucia.", "My name's Lucía.", "My name's Lucia.", "I'm Lucía.", "I'm Lucia."],
+      "errores_tipicos": {
+        "I call me Lucía.": "El inglés no usa «llamarse». Se dice My name is Lucía o I'm Lucía.",
+        "I call myself Lucía.": "Es un calque: significaría que te llamas a ti misma. Se dice My name is Lucía.",
+        "My name Lucía.": "Falta is: My name is Lucía."
+      },
+      "pistas": [
+        "El inglés no tiene un verbo «llamarse».",
+        "Piensa en «Mi nombre es…» o en «Soy…».",
+        "Estructura: «Mi nombre es» + nombre, o «Yo soy» (contraído) + nombre."
+      ],
+      "solucion": {"respuesta": "My name is Lucía.", "explicacion": "«Me llamo» se dice My name is (mi nombre es) o I'm (soy). Las dos son correctas; I'm es más informal. El acento de Lucía suele omitirse en inglés."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿De dónde eres?",
+      "respuestas": ["Where are you from?"],
+      "errores_tipicos": {
+        "From where are you?": "En inglés from va al final de la pregunta: Where are you from?",
+        "Where you are from?": "En la pregunta are va antes de you: Where are you from?",
+        "Where are you of?": "Para el origen se usa from, no of."
+      },
+      "pistas": [
+        "Empieza con la palabra que significa «dónde».",
+        "La palabra «de» va al final de la pregunta en inglés.",
+        "Estructura: palabra interrogativa + are + sujeto + preposición de origen al final."
+      ],
+      "solucion": {"respuesta": "Where are you from?", "explicacion": "Where = dónde; are you = eres; from = de (origen), que en inglés va al final. Apréndela como bloque: la estructura de las preguntas la verás en la unidad 5."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Hello! I call me Diego.",
+      "error": "I call me",
+      "correcciones": ["My name is", "I'm"],
+      "frase_correcta": "Hello! My name is Diego.",
+      "pistas": [
+        "Es una traducción literal de «me llamo».",
+        "El inglés no usa el verbo call para decir tu nombre.",
+        "Regla: el inglés no dice «me llamo», sino «mi nombre es…» o «soy…»."
+      ],
+      "solucion": {"respuesta": "Hello! My name is Diego.", "explicacion": "I call me es un calque de «me llamo» que no existe en inglés. Se dice My name is Diego o I'm Diego."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.09",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Estás presentando a tu amigo a tu mamá. Señala el error y corrígelo.",
+      "frase": "Mom, he is my friend Sam.",
+      "error": "he is",
+      "correcciones": ["this is"],
+      "frase_correcta": "Mom, this is my friend Sam.",
+      "pistas": [
+        "La frase es gramatical, pero no es la fórmula para presentar.",
+        "Mira las palabras que van después de Mom.",
+        "Regla: para presentar a alguien se dice This is…"
+      ],
+      "solucion": {"respuesta": "Mom, this is my friend Sam.", "explicacion": "Al presentar, el inglés usa siempre This is…, sea hombre o mujer. He is my friend Sam da información sobre alguien, pero no funciona como presentación."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Primer día de clase. Una compañera se presenta.",
+      "lineas": [
+        {"quien": "Grace", "en": "Hi, I'm Grace. What's your name?", "es": "Hola, soy Grace. ¿Cómo te llamas?"}
+      ],
+      "opciones": [
+        {"texto": "Hi, Grace. I'm Diego. Nice to meet you.", "correcta": true, "porque": "Correcto: saludas, dices tu nombre y cierras con Nice to meet you."},
+        {"texto": "My name Diego.", "correcta": false, "porque": "Falta is: My name is Diego. Y conviene saludar."},
+        {"texto": "Yes, Diego.", "correcta": false, "porque": "What's your name? no se contesta con sí o no."}
+      ],
+      "pistas": [
+        "Te preguntan tu nombre.",
+        "La respuesta completa tiene saludo, nombre y fórmula de cortesía.",
+        "Regla: Hi + I'm / My name is + Nice to meet you."
+      ],
+      "solucion": {"respuesta": "Hi, Grace. I'm Diego. Nice to meet you.", "explicacion": "Respondes al saludo, das tu nombre con I'm (o My name is) y cierras con Nice to meet you. My name Diego no tiene verbo y Yes no responde a la pregunta."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Ben te presenta a su hermana.",
+      "lineas": [
+        {"quien": "Ben", "en": "Carlos, this is my sister, Aisha.", "es": "Carlos, te presento a mi hermana, Aisha."},
+        {"quien": "Aisha", "en": "Hi, Carlos. Nice to meet you.", "es": "Hola, Carlos. Mucho gusto."}
+      ],
+      "opciones": [
+        {"texto": "Nice to meet you, too, Aisha.", "correcta": true, "porque": "Correcto: respondes a Nice to meet you con too y usas su nombre."},
+        {"texto": "Nice to see you again, Aisha.", "correcta": false, "porque": "No: see you again es para alguien que ya conoces, y la acabas de conocer."},
+        {"texto": "Equally, Aisha.", "correcta": false, "porque": "Es un calque de «igualmente»; en inglés se dice too o You too."}
+      ],
+      "pistas": [
+        "Es la primera vez que ves a Aisha.",
+        "¿meet o see?",
+        "Regla: primera vez → Nice to meet you, too."
+      ],
+      "solucion": {"respuesta": "Nice to meet you, too, Aisha.", "explicacion": "Como es la primera vez que se ven, la respuesta es Nice to meet you, too. See you again implica que ya se conocían, y equally no se usa así."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha a Omar presentarse y escribe lo que dice.",
+      "texto": "Hi, my name is Omar. I'm from Mexico.",
+      "respuestas": ["Hi, my name's Omar. I'm from Mexico."],
+      "pistas": [
+        "Son dos oraciones: el nombre y el origen.",
+        "La segunda empieza con I'm y termina con un país.",
+        "Regla: My name is + nombre; I'm from + lugar."
+      ],
+      "solucion": {"respuesta": "Hi, my name is Omar. I'm from Mexico.", "explicacion": "«Hola, me llamo Omar. Soy de México». Mexico se escribe con x y sin acento en inglés, y suena /ˈmeksɪkoʊ/."}
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite. Fíjate en cómo se unen meet y you.",
+      "texto": "Nice to meet you.",
+      "ipa": "/ˈnaɪs tə ˈmiːt juː/",
+      "consejo": "nice es «nais». to se reduce a /tə/, muy breve. meet tiene una i larga. En el habla natural la t de meet y la y de you se funden en «ch»: «nais-tə-MII-chu».",
+      "es": "Mucho gusto."
+    },
+    {
+      "id": "saludos-y-presentaciones.presentarse.14",
+      "tipo": "escritura",
+      "dificultad": 2,
+      "enunciado": "Escribe una presentación breve de ti mismo.",
+      "objetivo": "Presentarte por escrito en un grupo de chat de tu nueva clase de inglés.",
+      "instrucciones": "Escribe un mensaje de 25 a 40 palabras. Saluda, di tu nombre y tu apellido, de dónde eres y termina con una fórmula de cortesía. Usa solo las estructuras de esta unidad.",
+      "vocabulario_apoyo": ["Hello / Hi", "My name is… / I'm…", "My last name is…", "I'm from…", "Nice to meet you!", "See you in class!"],
+      "estructuras": ["Hi, everyone! My name is …", "My last name is …", "I'm from …", "Nice to meet you!"],
+      "ejemplo": "Hello! I'm Grace. My last name is Miller. I'm from Chicago. Nice to meet you all. See you on Monday!",
+      "min_palabras": 25,
+      "comprobaciones": [
+        {"descripcion": "Dices tu nombre con My name is o I'm", "patron": "\\b(my name is|my name's|i'm|i am)\\b"},
+        {"descripcion": "Dices de dónde eres con from", "patron": "\\bfrom\\b"},
+        {"descripcion": "Usas una fórmula de cortesía (nice to meet you)", "patron": "nice to meet you"}
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto (I, my name…)?",
+        "¿Escribiste I con mayúscula?",
+        "¿Usaste My name is o I'm, y no «I call me»?",
+        "¿Usaste from para el origen?",
+        "¿Escribiste los nombres de países y ciudades con mayúscula?"
+      ],
+      "modelo": "Hi, everyone! My name is Diego and my last name is Ruiz. I'm from Guadalajara, a big city in Mexico. I speak Spanish and a little English. Nice to meet you all! See you in class!",
+      "explicacion": "El modelo saluda al grupo (Hi, everyone!), dice el nombre con My name is y el apellido con my last name is, indica el origen con I'm from (la ciudad y después el país) y añade un dato con I speak… Cierra con dos fórmulas fijas: Nice to meet you all y See you in class. Todas las oraciones tienen sujeto.",
+      "errores_comunes": [
+        "Escribir «I call me…» en lugar de My name is…",
+        "Omitir el sujeto: «Am from Mexico» en lugar de I'm from Mexico.",
+        "Escribir i con minúscula.",
+        "Escribir «Nice to meet you to» en lugar de too (aquí no hace falta, pero si lo usas, con dos o)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Tu primera conversación completa",
+    "contexto": "Estás en una fiesta de bienvenida de tu curso. Un chico se acerca y se presenta. Después llega tu amiga Lucía y tú la presentas.",
+    "dialogo": [
+      {"quien": "Tom", "en": "Hi! I'm Tom. What's your name?", "es": "¡Hola! Soy Tom. ¿Cómo te llamas?"},
+      {"quien": "Tú", "en": "…", "es": "(te presentas)"},
+      {"quien": "Tom", "en": "Nice to meet you, too. Where are you from?", "es": "Igualmente. ¿De dónde eres?"},
+      {"quien": "Tú", "en": "…", "es": "(dices de dónde eres y presentas a Lucía, que acaba de llegar)"}
+    ],
+    "tu_turno": "Di tu nombre y Nice to meet you; luego di de dónde eres y presenta a tu amiga Lucía.",
+    "modelo": "Hi, Tom. My name is Carlos. Nice to meet you. … I'm from Mexico. Oh, Tom, this is my friend Lucía.",
+    "alternativas": ["Hi, I'm Carlos. Nice to meet you. … I'm from Monterrey, Mexico. Tom, this is Lucía.", "Hello, Tom. I'm Carlos. Nice to meet you. … I'm from Mexico. And this is my friend Lucía."],
+    "claves": ["My name is… / I'm… para tu nombre.", "I'm from… para el origen.", "This is… para presentar a alguien (no he is / she is).", "Nice to meet you la primera vez."]
+  },
+  "resumen": {
+    "esencial": [
+      "Presentarte: My name is… / My name's… / I'm…",
+      "Preguntar el nombre: What's your name?",
+      "Nice to meet you → Nice to meet you, too / You too.",
+      "Presentar a alguien: This is (my friend) + nombre.",
+      "Origen: I'm from… / Where are you from?"
+    ],
+    "recuerda": [
+      "Nunca «I call me»: el inglés no tiene «llamarse».",
+      "meet la primera vez; see con quien ya conoces.",
+      "too (también) ≠ to.",
+      "from va al final de Where are you from?"
+    ]
+  },
+  "repaso": [
+    {"id": "saludos-y-presentaciones.presentarse.r1", "frente": "Me llamo Ana", "reverso": "My name is Ana. / I'm Ana.", "nota": "Nunca «I call me Ana»."},
+    {"id": "saludos-y-presentaciones.presentarse.r2", "frente": "Respuesta a Nice to meet you", "reverso": "Nice to meet you, too. / You too."},
+    {"id": "saludos-y-presentaciones.presentarse.r3", "frente": "Te presento a mi amigo Sam", "reverso": "This is my friend Sam."},
+    {"id": "saludos-y-presentaciones.presentarse.r4", "frente": "¿De dónde eres?", "reverso": "Where are you from? — I'm from Mexico."},
+    {"id": "saludos-y-presentaciones.presentarse.r5", "frente": "apellido", "reverso": "last name (R. U. también surname)"}
+  ]
+}

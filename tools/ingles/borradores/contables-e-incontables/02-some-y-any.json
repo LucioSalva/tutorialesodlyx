@@ -1,0 +1,1204 @@
+{
+  "slug": "some-y-any",
+  "titulo": "Some y any",
+  "minutos": 40,
+  "objetivos": [
+    "Usar some con plurales e incontables en oraciones afirmativas.",
+    "Usar any en negaciones y en preguntas.",
+    "Usar some en ofrecimientos y peticiones: Would you like some tea? Can I have some water?",
+    "Saber que some y any no van con un contable en singular (some apple ✗ → an apple)."
+  ],
+  "situacion": {
+    "titulo": "El refri de dos roomies",
+    "texto": "Sam y Diego comparten departamento y planean la cena. Revisan qué hay en el refri. Fíjate en cuándo usan some y cuándo any, y en que ninguna de las dos palabras aparece con un sustantivo contable en singular.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Is there any chicken in the fridge?",
+        "es": "¿Hay pollo en el refri?"
+      },
+      {
+        "quien": "Diego",
+        "en": "No, there isn't any chicken. But there are some eggs and some cheese.",
+        "es": "No, no hay pollo. Pero hay unos huevos y algo de queso."
+      },
+      {
+        "quien": "Sam",
+        "en": "Great. Do we have any tomatoes?",
+        "es": "Perfecto. ¿Tenemos jitomates?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Yes, we have some. Let's make an omelet.",
+        "es": "Sí, tenemos algunos. Hagamos un omelette."
+      },
+      {
+        "quien": "Sam",
+        "en": "Good idea. Would you like some coffee too?",
+        "es": "Buena idea. ¿Quieres un café también?"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "some-afirmativa",
+      "titulo": "Some: una cantidad que no precisas",
+      "que_es": "[[Some]] indica una cantidad indeterminada, ni muy grande ni muy pequeña: «unos», «unas», «algunos», «algo de», «un poco de». Se usa con **contables en plural** ([[some eggs]]) y con **incontables** ([[some cheese]]). A menudo en español no se traduce: [[I have some money]] = «Tengo dinero» o «Tengo algo de dinero».",
+      "para_que": [
+        "Decir qué hay o qué tienes sin dar un número exacto: There are some apples on the table.",
+        "Hablar de compras y comida: I need some rice and some onions.",
+        "Evitar el error de poner a con un plural o un incontable: a eggs ✗, a cheese ✗."
+      ],
+      "como_funciona": "{{otro:some}} + {{complemento:contable en plural}} o {{complemento:incontable}}. Nunca con un contable en singular: para una sola cosa se usa [[a]] / [[an]] ([[an egg]], no [[some egg]]). Some aparece sobre todo en **oraciones afirmativas**: [[There's some milk]], [[We have some time]]. A veces es opcional: [[I need eggs]] y [[I need some eggs]] son correctas; con some la idea es «una cantidad (limitada)», sin some suena más general. Some también puede ir solo, sin sustantivo, cuando ya se sabe de qué hablas: [[Do we have tomatoes? — Yes, we have some.]]. Pronunciación: cuando va delante de un sustantivo, some casi siempre es débil, /səm/.",
+      "estructuras": [
+        {
+          "etiqueta": "Con plural contable",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "contable en plural",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "onions",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Necesito unas cebollas."
+        },
+        {
+          "etiqueta": "Con incontable",
+          "formula": [
+            {
+              "t": "There is",
+              "rol": "verbo"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "rice",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Hay arroz."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are some cookies in the kitchen.",
+          "es": "Hay galletas en la cocina.",
+          "partes": [
+            {
+              "t": "There are",
+              "rol": "verbo"
+            },
+            {
+              "t": "some cookies",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the kitchen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Plural contable → some + -s, y there are. En español no hace falta «unas», pero en inglés some suena muy natural aquí."
+        },
+        {
+          "en": "Lucía has some money for the trip.",
+          "es": "Lucía tiene algo de dinero para el viaje.",
+          "partes": [
+            {
+              "t": "Lucía",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "some money",
+              "rol": "complemento"
+            },
+            {
+              "t": "for the trip",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Money es incontable: some money, nunca a money ni moneys."
+        },
+        {
+          "en": "I have an apple and some grapes.",
+          "es": "Tengo una manzana y unas uvas.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "an apple",
+              "rol": "complemento"
+            },
+            {
+              "t": "and some grapes",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Una manzana → an (contable singular). Uvas → some (plural). Some apple sería incorrecto."
+        },
+        {
+          "en": "We need some advice.",
+          "es": "Necesitamos consejo.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "some advice",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Los incontables «trampa» de la lección anterior funcionan igual: some advice, some information, some furniture."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "some",
+          "ipa": "/səm/ (débil) · /sʌm/ (fuerte)",
+          "consejo": "Delante de un sustantivo, some se dice débil y rápido, con una vocal neutra /ə/: «sm». Solo suena fuerte (/sʌm/) cuando va sola o se enfatiza: Yes, we have some. La o no suena como la o española.",
+          "lento": true
+        },
+        {
+          "texto": "some eggs",
+          "ipa": "/səm ˈɛɡz/",
+          "consejo": "La m se une a la vocal de eggs: «sa-MEGZ». Termina en /z/, con vibración, como todos los plurales después de sonido sonoro."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I want some apple.",
+          "bien": "I want an apple. / I want some apples.",
+          "porque": "Some no va con contables en singular. Uno → an apple; varios → some apples."
+        },
+        {
+          "mal": "There are a eggs in the fridge.",
+          "bien": "There are some eggs in the fridge.",
+          "porque": "A / an solo va con singular. Para un plural sin número, some."
+        },
+        {
+          "mal": "I need a bread.",
+          "bien": "I need some bread.",
+          "porque": "Bread es incontable: some bread (o a loaf of bread)."
+        }
+      ]
+    },
+    {
+      "id": "any-negativa-pregunta",
+      "titulo": "Any: en negaciones y preguntas",
+      "que_es": "[[Any]] es la palabra que sustituye a some en **oraciones negativas** y en **preguntas**. En negación equivale a «nada de», «ningún» o simplemente no se traduce: [[I don't have any money]] = «No tengo (nada de) dinero». En pregunta, «algo de», «algún» o nada: [[Are there any questions?]] = «¿Hay (alguna) pregunta?». Ya la usaste con there: [[Are there any…?]].",
+      "para_que": [
+        "Decir que no hay o no tienes algo: There isn't any milk.",
+        "Preguntar si hay o tienes algo: Do you have any brothers? Is there any sugar?",
+        "Evitar la doble negación del español: «No tengo nada» no es I don't have nothing."
+      ],
+      "como_funciona": "**Negación:** {{negacion:don't / doesn't / isn't / aren't}} + … + {{otro:any}} + {{complemento:plural o incontable}}. **Pregunta:** {{auxiliar:Do / Does / Is / Are}} + … + {{otro:any}} + {{complemento:plural o incontable}}? Igual que some, any va con plurales ([[any eggs]]) e incontables ([[any milk]]); con un contable singular se usa a: [[Do you have a pen?]] (no [[any pen]]). Hay otra forma de negar: [[no]] + sustantivo con el verbo en afirmativo: [[There's no milk]] = [[There isn't any milk]]. Las dos significan lo mismo; [[no]] suena un poco más enfático. Lo que **nunca** se hace es juntar dos negaciones: [[I don't have no money]] es incorrecto en inglés estándar (en español «no tengo nada» es normal). Un último detalle: any también existe en oraciones afirmativas con otro significado, «cualquier» ([[Take any seat]] = siéntate en cualquier lugar). Lo verás más adelante; por ahora, piensa en any como la palabra de las negaciones y las preguntas.",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "any",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "any",
+              "rol": "otro"
+            },
+            {
+              "t": "bread",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No tenemos pan."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Do / Is / Are…",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "(verbo)",
+              "rol": "verbo"
+            },
+            {
+              "t": "any",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any",
+              "rol": "otro"
+            },
+            {
+              "t": "tomatoes?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Hay jitomates?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Some y any, de un vistazo",
+          "columnas": [
+            "",
+            "Plural contable",
+            "Incontable"
+          ],
+          "filas": [
+            [
+              "Afirmación",
+              "There are some eggs.",
+              "There's some milk."
+            ],
+            [
+              "Negación",
+              "There aren't any eggs.",
+              "There isn't any milk."
+            ],
+            [
+              "Negación con no",
+              "There are no eggs.",
+              "There's no milk."
+            ],
+            [
+              "Pregunta",
+              "Are there any eggs?",
+              "Is there any milk?"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I don't have any cash.",
+          "es": "No traigo efectivo.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "any cash",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Negación con don't → any. En español no se traduce any aquí."
+        },
+        {
+          "en": "Are there any good restaurants near here?",
+          "es": "¿Hay buenos restaurantes por aquí?",
+          "partes": [
+            {
+              "t": "Are there",
+              "rol": "verbo"
+            },
+            {
+              "t": "any good restaurants",
+              "rol": "sujeto"
+            },
+            {
+              "t": "near here?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta con plural → any. El adjetivo good va entre any y el sustantivo."
+        },
+        {
+          "en": "Does Omar have any brothers?",
+          "es": "¿Omar tiene hermanos?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Omar",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "any brothers?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta con does → any + plural. Compara: Does Omar have a car? (un carro: a, no any)."
+        },
+        {
+          "en": "There's no sugar in my coffee.",
+          "es": "Mi café no tiene azúcar.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "no sugar",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in my coffee",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "No + sustantivo con el verbo en afirmativo. Equivale a There isn't any sugar. Nunca There isn't no sugar."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Some se convierte en any",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "There's",
+                "rol": "verbo"
+              },
+              {
+                "t": "some",
+                "rol": "otro"
+              },
+              {
+                "t": "juice.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "There",
+                "rol": "sujeto"
+              },
+              {
+                "t": "isn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "any",
+                "rol": "otro"
+              },
+              {
+                "t": "juice.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Is",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "there",
+                "rol": "sujeto"
+              },
+              {
+                "t": "any",
+                "rol": "otro"
+              },
+              {
+                "t": "juice?",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Cuando la oración se vuelve negativa o pregunta, some cambia a any. El sustantivo (juice) no cambia."
+      },
+      "pronunciacion": [
+        {
+          "texto": "any",
+          "ipa": "/ˈɛni/",
+          "consejo": "Se escribe con a pero se pronuncia con e: «ENI», con la e de «perro». Es un error común decir «ani». Many sigue el mismo patrón: /ˈmɛni/.",
+          "lento": true
+        },
+        {
+          "texto": "Is there any milk?",
+          "ipa": "/ɪz ðɛr ˈɛni ˈmɪlk/",
+          "consejo": "Th de there es sonora: la punta de la lengua entre los dientes, vibrando, como una d muy suave. Las palabras se enlazan: «izthereeni MILK?», con la voz subiendo al final."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I don't have some money.",
+          "bien": "I don't have any money.",
+          "porque": "En negación se usa any, no some."
+        },
+        {
+          "mal": "I don't have no money.",
+          "bien": "I don't have any money. / I have no money.",
+          "porque": "El inglés estándar no admite doble negación. O don't + any, o no con el verbo en afirmativo."
+        },
+        {
+          "mal": "Do you have any pen?",
+          "bien": "Do you have a pen?",
+          "porque": "Pen es contable singular: se usa a. Any va con plurales e incontables."
+        },
+        {
+          "mal": "Is there some bread?",
+          "bien": "Is there any bread?",
+          "porque": "En una pregunta neutra (no ofrecimiento ni petición), se usa any."
+        }
+      ]
+    },
+    {
+      "id": "some-ofrecer-pedir",
+      "titulo": "Some en ofrecimientos y peticiones",
+      "que_es": "Hay un tipo de pregunta en el que se usa **some**, no any: cuando **ofreces** algo o **pides** algo. La razón es que esperas un «sí»: no estás preguntando si existe, estás ofreciendo o pidiendo una cantidad.",
+      "para_que": [
+        "Ofrecer comida o bebida: Would you like some tea?",
+        "Pedir algo con cortesía: Can I have some water, please?",
+        "Sonar natural en una cafetería, en casa de alguien o en una tienda."
+      ],
+      "como_funciona": "Dos fórmulas fijas que te conviene aprender como bloque: **[[Would you like some…?]]** (¿Quieres…? / ¿Te gustaría…?) para ofrecer, y **[[Can I have some…?]]** (¿Me das…? / ¿Me regalas…?) para pedir. Would y can los estudiarás más adelante; aquí úsalos como expresiones completas. Compara: [[Is there any coffee?]] pregunta si hay café (no sabes si hay); [[Would you like some coffee?]] ofrece café (sabes que hay y esperas que diga sí). Para contestar: [[Yes, please.]] / [[No, thank you.]] / [[No, thanks.]]. Con un contable singular, como siempre, se usa a: [[Would you like a cookie?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Ofrecer",
+          "formula": [
+            {
+              "t": "Would you like",
+              "rol": "otro"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Would you like",
+              "rol": "otro"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "cake?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Quieres pastel?"
+        },
+        {
+          "etiqueta": "Pedir",
+          "formula": [
+            {
+              "t": "Can I have",
+              "rol": "otro"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Can I have",
+              "rol": "otro"
+            },
+            {
+              "t": "some",
+              "rol": "otro"
+            },
+            {
+              "t": "napkins,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Me das unas servilletas, por favor?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Would you like some water?",
+          "es": "¿Quieres agua?",
+          "situacion": "Un anfitrión recibe a un invitado.",
+          "partes": [
+            {
+              "t": "Would you like",
+              "rol": "otro"
+            },
+            {
+              "t": "some water?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ofrecimiento: some, aunque sea pregunta. Would you like es más amable que Do you want."
+        },
+        {
+          "en": "Can I have some more rice, please?",
+          "es": "¿Me das más arroz, por favor?",
+          "partes": [
+            {
+              "t": "Can I have",
+              "rol": "otro"
+            },
+            {
+              "t": "some more rice,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Petición: some. Some more = un poco más."
+        },
+        {
+          "en": "Is there any rice left?",
+          "es": "¿Queda arroz?",
+          "partes": [
+            {
+              "t": "Is there",
+              "rol": "verbo"
+            },
+            {
+              "t": "any rice",
+              "rol": "sujeto"
+            },
+            {
+              "t": "left?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aquí preguntas de verdad si queda (no lo sabes): any. Left = que queda."
+        },
+        {
+          "en": "Would you like a sandwich?",
+          "es": "¿Quieres un sándwich?",
+          "partes": [
+            {
+              "t": "Would you like",
+              "rol": "otro"
+            },
+            {
+              "t": "a sandwich?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sandwich es contable singular: a, no some."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Pregunta real → any",
+          "items": [
+            "Is there any milk?",
+            "Do you have any stamps?",
+            "¿Existe? ¿Hay? No lo sé."
+          ]
+        },
+        "b": {
+          "titulo": "Ofrecer o pedir → some",
+          "items": [
+            "Would you like some milk?",
+            "Can I have some stamps, please?",
+            "Sé que hay; ofrezco o pido."
+          ]
+        },
+        "veredicto": "Si esperas un sí porque estás ofreciendo o pidiendo, usa some. Si de verdad no sabes la respuesta, usa any."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Would you like some tea?",
+          "ipa": "/wʊdʒə ˈlaɪk səm ˈtiː/",
+          "consejo": "Would you se funde en «wuja»: la d y la y se unen en un sonido como la ll rioplatense sonora. La l de would no suena. Los golpes van en like y tea.",
+          "lento": true
+        },
+        {
+          "texto": "Yes, please.",
+          "ipa": "/jɛs ˈpliːz/",
+          "consejo": "Please termina en /z/ (vibra) y la i es larga. No digas «plis» corto y seco."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Would you like any coffee?",
+          "bien": "Would you like some coffee?",
+          "porque": "En un ofrecimiento se usa some porque esperas un sí."
+        },
+        {
+          "mal": "Give me water.",
+          "bien": "Can I have some water, please?",
+          "porque": "Give me suena brusco en inglés, aunque «dame agua» sea normal entre amigos en español. Pide con Can I have… please?"
+        },
+        {
+          "mal": "Would you like some cookie?",
+          "bien": "Would you like a cookie? / Would you like some cookies?",
+          "porque": "Some no va con contable singular."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "contables-e-incontables.some-y-any.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "We don't have ___ eggs. Let's go to the store.",
+      "opciones": [
+        {
+          "texto": "any",
+          "correcta": true,
+          "porque": "La oración es negativa (don't have): se usa any."
+        },
+        {
+          "texto": "some",
+          "correcta": false,
+          "porque": "Some va en afirmaciones, ofrecimientos y peticiones; esta oración es negativa."
+        },
+        {
+          "texto": "a",
+          "correcta": false,
+          "porque": "A solo va con singular; eggs es plural."
+        }
+      ],
+      "pistas": [
+        "Some y any cambian según el tipo de oración.",
+        "¿La oración es afirmativa, negativa o pregunta? Mira el verbo.",
+        "En oraciones negativas, los plurales y los incontables van con any."
+      ],
+      "solucion": {
+        "respuesta": "any",
+        "explicacion": "Don't have hace que la oración sea negativa, así que se usa any con el plural eggs. «No tenemos huevos» → We don't have any eggs."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con some, any, a o an.",
+      "frase": "There's ___ orange and ___ bread on the table, but there aren't ___ bananas.",
+      "traduccion": "Hay una naranja y pan en la mesa, pero no hay plátanos.",
+      "respuestas": [
+        [
+          "an"
+        ],
+        [
+          "some"
+        ],
+        [
+          "any"
+        ]
+      ],
+      "banco": [
+        "a",
+        "an",
+        "some",
+        "any"
+      ],
+      "errores_tipicos": {
+        "some | some | any": "Orange es contable singular: an orange, no some orange.",
+        "an | a | any": "Bread es incontable: no lleva a. En afirmación, some bread.",
+        "an | some | some": "Aren't es negación: any bananas."
+      },
+      "pistas": [
+        "Decide primero si cada sustantivo es contable singular, plural o incontable, y si la frase es afirmativa o negativa.",
+        "orange (singular, empieza con vocal), bread (incontable), bananas (plural en una negación).",
+        "Singular → a / an; incontable o plural en afirmación → some; en negación → any."
+      ],
+      "solucion": {
+        "respuesta": "an … some … any",
+        "explicacion": "Orange es contable singular y empieza con sonido vocálico: an. Bread es incontable en una afirmación: some. Bananas es plural en una negación (aren't): any."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada situación con la frase adecuada.",
+      "pares": [
+        {
+          "a": "Ofreces bebida a una visita.",
+          "b": "Would you like some juice?"
+        },
+        {
+          "a": "Preguntas si queda jugo en el refri.",
+          "b": "Is there any juice?"
+        },
+        {
+          "a": "Dices que se acabó el jugo.",
+          "b": "There isn't any juice."
+        },
+        {
+          "a": "Pides jugo en un restaurante.",
+          "b": "Can I have some juice, please?"
+        },
+        {
+          "a": "Dices que compraste jugo y está en el refri.",
+          "b": "There's some juice in the fridge."
+        }
+      ],
+      "pistas": [
+        "Some: afirmación, ofrecimiento y petición. Any: negación y pregunta real.",
+        "Identifica qué hace cada persona: ofrecer, preguntar, negar, pedir o afirmar.",
+        "Ofrecer y pedir usan some aunque sean preguntas; una pregunta real y una negación usan any; una afirmación, some."
+      ],
+      "solucion": {
+        "respuesta": "ofrecer → Would you like some… · preguntar → Is there any… · se acabó → There isn't any… · pedir → Can I have some… · afirmar → There's some…",
+        "explicacion": "Las dos preguntas con some son un ofrecimiento y una petición (esperas un sí). La pregunta real, la de si queda jugo, usa any, igual que la negación."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en negativa con any.",
+      "origen": "There are some good movies on TV tonight.",
+      "instruccion": "Negativa con any",
+      "respuestas": [
+        "There aren't any good movies on TV tonight."
+      ],
+      "errores_tipicos": {
+        "There aren't some good movies on TV tonight.": "En negación some se convierte en any.",
+        "There isn't any good movies on TV tonight.": "Movies es plural: there aren't.",
+        "There aren't no good movies on TV tonight.": "Doble negación: con aren't se usa any, no no."
+      },
+      "pistas": [
+        "Dos cambios: el verbo pasa a negativo y some cambia.",
+        "Movies es plural: ¿qué forma negativa de there are corresponde?",
+        "There aren't + any + sustantivo plural + resto, como en There aren't any buses today."
+      ],
+      "solucion": {
+        "respuesta": "There aren't any good movies on TV tonight.",
+        "explicacion": "There are pasa a there aren't (plural) y some se convierte en any, porque la oración ahora es negativa."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en pregunta de sí o no (una pregunta real, no un ofrecimiento).",
+      "origen": "Your sister has some homework today.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Does your sister have any homework today?"
+      ],
+      "errores_tipicos": {
+        "Does your sister have some homework today?": "Es una pregunta real, no un ofrecimiento: any.",
+        "Does your sister has any homework today?": "Después de does, have en forma base.",
+        "Does your sister have any homeworks today?": "Homework es incontable: sin -s."
+      },
+      "pistas": [
+        "Presente simple con has → auxiliar does. Y some cambia.",
+        "Después de does, el verbo va en forma base.",
+        "Does + sujeto + verbo en forma base + any + sustantivo + expresión de tiempo + ?, como en Does your brother need any help now?"
+      ],
+      "solucion": {
+        "respuesta": "Does your sister have any homework today?",
+        "explicacion": "Has pasa a Does… have y some a any, porque es una pregunta real. Homework sigue siendo incontable, sin -s."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Sorry, I don't have no time today.",
+      "error": "no",
+      "correcciones": [
+        "any"
+      ],
+      "frase_correcta": "Sorry, I don't have any time today.",
+      "pistas": [
+        "En español «no tengo nada de tiempo» es normal; en inglés hay un problema.",
+        "La oración ya tiene una negación en el verbo.",
+        "El inglés no admite dos negaciones: si el verbo ya es negativo, el sustantivo va con la palabra de las preguntas y negaciones, no con no."
+      ],
+      "solucion": {
+        "respuesta": "any",
+        "explicacion": "Don't y no son dos negaciones: el inglés estándar no las admite juntas. Con don't se usa any: I don't have any time. También sería correcto I have no time today."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para ofrecer algo.",
+      "fichas": [
+        "like",
+        "some",
+        "Would",
+        "tea",
+        "you"
+      ],
+      "respuestas": [
+        "Would you like some tea"
+      ],
+      "traduccion": "¿Quieres té?",
+      "pistas": [
+        "Es la fórmula fija para ofrecer.",
+        "Empieza con Would you like…",
+        "Para ofrecer se usa some aunque sea pregunta: Would you like + cantidad + bebida?, como en Would you like some juice?"
+      ],
+      "solucion": {
+        "respuesta": "Would you like some tea?",
+        "explicacion": "Would you like es la fórmula para ofrecer. Como es un ofrecimiento, se usa some aunque sea pregunta; tea es incontable."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa there y any.",
+      "es": "¿Hay leche?",
+      "respuestas": [
+        "Is there any milk?"
+      ],
+      "errores_tipicos": {
+        "Are there any milk?": "Milk es incontable: se usa is there, en singular.",
+        "Is there some milk?": "Es una pregunta real: any.",
+        "Is there any milks?": "Milk no tiene plural."
+      },
+      "pistas": [
+        "Pregunta con there + incontable.",
+        "Milk es incontable: ¿is o are?",
+        "Pregunta con there: el verbo va antes de there, y en preguntas el incontable va con any, como en Is there any sugar?"
+      ],
+      "solucion": {
+        "respuesta": "Is there any milk?",
+        "explicacion": "Milk es incontable, así que is there (singular). Como es una pregunta real, any."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa have y la forma negativa con don't.",
+      "es": "Todavía no tengo amigos aquí.",
+      "respuestas": [
+        "I don't have any friends here yet.",
+        "I don't have any friends here.",
+        "I still don't have any friends here.",
+        "I don't have friends here yet.",
+        "I still don't have friends here."
+      ],
+      "errores_tipicos": {
+        "I don't have some friends here yet.": "En negación se usa any.",
+        "I don't have no friends here yet.": "Doble negación: con don't se usa any.",
+        "I don't have any friend here yet.": "Any va con plural cuando el sustantivo es contable: friends."
+      },
+      "pistas": [
+        "Negación con don't have + any.",
+        "Friend es contable: con any va en plural. Yet (todavía) va al final.",
+        "Sujeto + don't have + any + plural + lugar + yet, como en We don't have any plans for tonight yet."
+      ],
+      "solucion": {
+        "respuesta": "I don't have any friends here yet.",
+        "explicacion": "Negación → don't have any. Friend es contable, así que va en plural (friends). Yet al final de una negación equivale a «todavía»."
+      }
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Estás en casa de tu amiga Grace. Acaban de comer.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "The cake is ready!",
+          "es": "¡Ya está el pastel!"
+        },
+        {
+          "quien": "Tú",
+          "en": "It smells great.",
+          "es": "Huele delicioso."
+        },
+        {
+          "quien": "Grace",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Would you like some?",
+          "correcta": true,
+          "porque": "Grace te ofrece pastel: ofrecimiento → some. Puede ir sola porque ya se sabe que habla del pastel."
+        },
+        {
+          "texto": "Would you like any?",
+          "correcta": false,
+          "porque": "En un ofrecimiento se usa some, no any."
+        },
+        {
+          "texto": "Is there any cake?",
+          "correcta": false,
+          "porque": "Grace acaba de decir que el pastel está listo: no tiene sentido preguntar si hay."
+        },
+        {
+          "texto": "Would you like a some?",
+          "correcta": false,
+          "porque": "A y some no van juntos."
+        }
+      ],
+      "pistas": [
+        "Grace quiere ofrecerte algo.",
+        "¿Qué palabra se usa en las preguntas que ofrecen algo?",
+        "Las ofertas usan some aunque sean preguntas, y some puede quedarse sin sustantivo si ya se sabe de qué hablas."
+      ],
+      "solucion": {
+        "respuesta": "Would you like some?",
+        "explicacion": "Grace te ofrece pastel, así que usa some (esperas un sí). Some puede ir sola porque el pastel ya se mencionó."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "There aren't any tomatoes, but there's some cheese.",
+      "pistas": [
+        "Una negación con plural y una afirmación con incontable.",
+        "La primera parte usa any; la segunda, some.",
+        "There aren't any + plural…, but there's some + incontable."
+      ],
+      "solucion": {
+        "respuesta": "There aren't any tomatoes, but there's some cheese.",
+        "explicacion": "Tomatoes es plural en una negación: aren't any. Cheese es incontable en una afirmación: there's some."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Cuida la forma débil de some y la e de any.",
+      "texto": "Is there any bread? Yes, there's some.",
+      "ipa": "/ɪz ðɛr ˈɛni ˈbrɛd ‖ jɛs ðɛrz ˈsʌm/",
+      "consejo": "Any suena «ENI», con e. En la respuesta, some va sola al final y por eso suena fuerte: /sʌm/, con una a corta y relajada, no una o. Bread tiene una e corta: «bred».",
+      "es": "¿Hay pan? — Sí, hay."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Un invitado en casa",
+    "contexto": "Tu compañero de trabajo, Ben, viene a tu casa a preparar una presentación. Llega con hambre.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hi! Sorry, I'm very hungry. I don't have any food at my place.",
+        "es": "¡Hola! Perdón, tengo mucha hambre. No tengo nada de comida en mi casa."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "Yes, please! Is there any coffee too?",
+        "es": "¡Sí, por favor! ¿Hay café también?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Ofrécele comida con Would you like some…? Luego responde a su pregunta sobre el café: si no hay, usa isn't any; si hay, ofrécelo.",
+    "modelo": "No problem! Would you like some sandwiches? — Sorry, there isn't any coffee, but there's some tea. Would you like some?",
+    "alternativas": [
+      "Would you like some pasta? There's some in the fridge. — Yes, there's some coffee. Would you like a cup?",
+      "Sure. Would you like an apple or some cookies? — No, there isn't any, sorry. But there's some tea. Would you like some?"
+    ],
+    "claves": [
+      "Ofrecer: Would you like some + plural / incontable?",
+      "Negación: there isn't any + incontable / there aren't any + plural.",
+      "Con contable singular: a / an (an apple, a cup)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Some + plural o incontable en afirmaciones: There are some eggs. There's some milk.",
+      "Any + plural o incontable en negaciones y preguntas: I don't have any money. Are there any eggs?",
+      "Some en ofrecimientos y peticiones: Would you like some tea? Can I have some water?",
+      "Con contable singular, ni some ni any: a / an."
+    ],
+    "recuerda": [
+      "Nada de doble negación: I don't have any = I have no, nunca I don't have no.",
+      "There's no milk = There isn't any milk.",
+      "any se pronuncia «eni»; some delante de sustantivo es débil (/səm/).",
+      "Any en afirmación (cualquier) existe; lo verás más adelante."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "contables-e-incontables.some-y-any.r1",
+      "frente": "There ___ any bread. (niega)",
+      "reverso": "There isn't any bread. / There's no bread.",
+      "nota": "Negación → any (o no con verbo afirmativo)."
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.r2",
+      "frente": "¿Some o any? Would you like ___ coffee?",
+      "reverso": "some",
+      "nota": "Ofrecimiento → some."
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.r3",
+      "frente": "¿Some o any? Are there ___ questions?",
+      "reverso": "any",
+      "nota": "Pregunta real → any."
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.r4",
+      "frente": "¿Qué está mal en I want some apple?",
+      "reverso": "Some no va con singular → an apple / some apples."
+    },
+    {
+      "id": "contables-e-incontables.some-y-any.r5",
+      "frente": "Corrige: I don't have no money.",
+      "reverso": "I don't have any money. / I have no money.",
+      "nota": "No hay doble negación en inglés estándar."
+    }
+  ]
+}

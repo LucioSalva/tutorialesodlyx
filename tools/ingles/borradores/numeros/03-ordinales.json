@@ -1,0 +1,1184 @@
+{
+  "slug": "ordinales",
+  "titulo": "Números ordinales",
+  "minutos": 40,
+  "objetivos": [
+    "Formar los ordinales: first, second, third y la regla de -th con sus cambios de ortografía (fifth, eighth, ninth, twelfth, twentieth).",
+    "Formar ordinales compuestos cambiando solo la última palabra (twenty-first, forty-second).",
+    "Abreviar correctamente: 1st, 2nd, 3rd, 4th, 11th, 12th, 21st.",
+    "Usar los ordinales para pisos, orden y cumpleaños, y entender por qué el first floor de EE. UU. es la planta baja."
+  ],
+  "situacion": {
+    "titulo": "En el elevador",
+    "texto": "Diego visita a su amiga Aisha en un edificio de oficinas en Chicago. Ella le dijo que su oficina está en el segundo piso. Diego sube al elevador y otra persona le pregunta a qué piso va.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Which floor?",
+        "es": "¿Qué piso?"
+      },
+      {
+        "quien": "Diego",
+        "en": "The second floor, please.",
+        "es": "El segundo piso, por favor."
+      },
+      {
+        "quien": "Sam",
+        "en": "Here you go. This is the second floor.",
+        "es": "Aquí es. Este es el segundo piso."
+      },
+      {
+        "quien": "Diego",
+        "en": "Thanks! Oh, it's only one floor up.",
+        "es": "¡Gracias! Ah, solo es un piso arriba."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formar-ordinales",
+      "titulo": "Cómo se forman: first, second, third… y -th",
+      "que_es": "Los ordinales indican el orden o la posición: primero, segundo, tercero… En inglés los tres primeros son palabras especiales ([[first]], [[second]], [[third]]) y casi todos los demás se forman añadiendo [[-th]] al número: [[four]] → [[fourth]], [[ten]] → [[tenth]].",
+      "para_que": [
+        "Decir en qué piso vives o trabajas.",
+        "Hablar de posiciones y orden: la primera clase, el tercer lugar.",
+        "Decir fechas y cumpleaños (lo verás en la próxima unidad: May fifth)."
+      ],
+      "como_funciona": "**1, 2, 3 son irregulares:** [[first]], [[second]], [[third]]. No se parecen a one, two, three.\n\n**Del 4 en adelante, + th:** [[fourth]], [[sixth]], [[seventh]], [[tenth]], [[thirteenth]], [[hundredth]]. Pero cuatro cambian la ortografía para que la palabra se pueda pronunciar:\n- [[five]] → [[fifth]] (la ve se convierte en f)\n- [[eight]] → [[eighth]] (solo se añade h, porque ya termina en t)\n- [[nine]] → [[ninth]] (pierde la e)\n- [[twelve]] → [[twelfth]] (la ve se convierte en f)\n\n**Decenas:** la y de -ty se convierte en ie + th: [[twenty]] → [[twentieth]], [[thirty]] → [[thirtieth]], [[fifty]] → [[fiftieth]].\n\n**Compuestos:** solo cambia la última palabra; la decena se queda igual: [[twenty-first]], [[thirty-second]], [[forty-third]], [[ninety-ninth]], [[a hundred and first]]. En español también («vigésimo primero»), pero el inglés es mucho más fácil: basta con saber los ordinales del 1 al 9.\n\n**Diferencia con el español:** en español dejamos de usar ordinales muy pronto y decimos «el piso veintiuno» o «el siglo veintiuno». En inglés se usan ordinales siempre: [[the twenty-first floor]], [[the twenty-first century]].",
+      "estructuras": [
+        {
+          "etiqueta": "Ordinal con the",
+          "formula": [
+            {
+              "t": "the",
+              "rol": "otro"
+            },
+            {
+              "t": "ordinal",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "the",
+              "rol": "otro"
+            },
+            {
+              "t": "third",
+              "rol": "otro"
+            },
+            {
+              "t": "floor",
+              "rol": "complemento"
+            }
+          ],
+          "es": "el tercer piso"
+        },
+        {
+          "etiqueta": "Ordinal con posesivo",
+          "formula": [
+            {
+              "t": "my / your / her…",
+              "rol": "otro"
+            },
+            {
+              "t": "ordinal",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "my",
+              "rol": "otro"
+            },
+            {
+              "t": "first",
+              "rol": "otro"
+            },
+            {
+              "t": "class",
+              "rol": "complemento"
+            }
+          ],
+          "es": "mi primera clase"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los ordinales que hay que mirar dos veces",
+          "columnas": [
+            "Número",
+            "Ordinal",
+            "Qué pasa"
+          ],
+          "filas": [
+            [
+              "1",
+              "first",
+              "Irregular."
+            ],
+            [
+              "2",
+              "second",
+              "Irregular."
+            ],
+            [
+              "3",
+              "third",
+              "Irregular."
+            ],
+            [
+              "4",
+              "fourth",
+              "Regular: + th (con u, como four)."
+            ],
+            [
+              "5",
+              "fifth",
+              "ve → f."
+            ],
+            [
+              "8",
+              "eighth",
+              "Solo + h."
+            ],
+            [
+              "9",
+              "ninth",
+              "Pierde la e."
+            ],
+            [
+              "12",
+              "twelfth",
+              "ve → f."
+            ],
+            [
+              "20",
+              "twentieth",
+              "y → ie + th."
+            ],
+            [
+              "21",
+              "twenty-first",
+              "Solo cambia la última palabra."
+            ]
+          ],
+          "audio": [
+            1
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Tres familias de ordinales",
+        "centro": "ordinales",
+        "ramas": [
+          {
+            "texto": "Irregulares",
+            "detalle": "first, second, third"
+          },
+          {
+            "texto": "+ th",
+            "detalle": "fourth, sixth, seventh, tenth, thirteenth"
+          },
+          {
+            "texto": "+ th con cambio",
+            "detalle": "fifth, eighth, ninth, twelfth"
+          },
+          {
+            "texto": "-ty → -tieth",
+            "detalle": "twentieth, thirtieth, fiftieth"
+          },
+          {
+            "texto": "Compuestos",
+            "detalle": "twenty-first, forty-second: solo cambia el final"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "This is my first English class.",
+          "es": "Esta es mi primera clase de inglés.",
+          "partes": [
+            {
+              "t": "This",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "my first English class",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El ordinal va antes del sustantivo, como un adjetivo, y después del posesivo: my first class."
+        },
+        {
+          "en": "Her apartment is on the ninth floor.",
+          "es": "Su departamento está en el noveno piso.",
+          "partes": [
+            {
+              "t": "Her apartment",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the ninth floor",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ninth sin e (nine → ninth). Con los pisos se usa on: on the ninth floor."
+        },
+        {
+          "en": "It's his twenty-first birthday.",
+          "es": "Es su cumpleaños número veintiuno.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "his twenty-first birthday",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En español solemos decir «cumple veintiuno» con número normal; en inglés, ordinal: twenty-first. Solo cambia first; twenty se queda igual."
+        },
+        {
+          "en": "We are in the twenty-first century.",
+          "es": "Estamos en el siglo veintiuno.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the twenty-first century",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Los siglos van con ordinal y the. En inglés no se usan números romanos para los siglos."
+        },
+        {
+          "en": "Ana is the fifth person in line.",
+          "es": "Ana es la quinta persona en la fila.",
+          "partes": [
+            {
+              "t": "Ana",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "the fifth person",
+              "rol": "complemento"
+            },
+            {
+              "t": "in line",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Fifth: la ve de five se convierte en f y se añade th. Es de los más difíciles de pronunciar."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "first, third",
+          "ipa": "/fɝːst/ · /θɝːd/",
+          "consejo": "La vocal es la misma en las dos: la lengua se recoge hacia atrás como en una r inglesa, sin vibrar. No digas «ferst» ni «terd»: en third la lengua empieza entre los dientes.",
+          "lento": true
+        },
+        {
+          "texto": "fifth, sixth",
+          "ipa": "/fɪfθ/ · /sɪksθ/",
+          "consejo": "Terminan en varias consonantes seguidas. Para fifth: labio en los dientes (f) y enseguida la lengua entre los dientes (th). Muchos nativos simplifican sixth a «siks»; tú intenta al menos sacar la lengua al final.",
+          "lento": true
+        },
+        {
+          "texto": "twelfth",
+          "ipa": "/twelfθ/",
+          "consejo": "Cuatro consonantes al final: l-f-th. Ve despacio: «twel» + labio en los dientes (f) + lengua entre los dientes (th). En el habla rápida muchos nativos dicen «twelth»; se entiende igual.",
+          "lento": true
+        },
+        {
+          "texto": "twentieth",
+          "ipa": "/ˈtwentiəθ/",
+          "consejo": "Tres sílabas: TWEN-ti-eth. La ie se pronuncia como una i seguida de una vocal neutra; no digas «twentith».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        {
+          "mal": "fiveth, nineth, twelveth",
+          "bien": "fifth, ninth, twelfth",
+          "porque": "Son las excepciones ortográficas: ve → f en fifth y twelfth; nine pierde la e en ninth."
+        },
+        {
+          "mal": "twentyth",
+          "bien": "twentieth",
+          "porque": "En las decenas la y cambia a ie antes de -th."
+        },
+        {
+          "mal": "twentieth-first",
+          "bien": "twenty-first",
+          "porque": "En un compuesto solo la última palabra es ordinal; la decena no cambia."
+        },
+        {
+          "mal": "the floor twenty-one (como calco de «el piso veintiuno»)",
+          "bien": "the twenty-first floor",
+          "porque": "En inglés el ordinal va delante del sustantivo. (Floor twenty-one, sin the, también existe, como en un botón o un letrero.)"
+        }
+      ]
+    },
+    {
+      "id": "abreviar-ordinales",
+      "titulo": "Abreviaturas: 1st, 2nd, 3rd, 4th",
+      "que_es": "Al escribir con cifras, el ordinal se abrevia con el número más las dos últimas letras de la palabra: [[1st]] (first), [[2nd]] (second), [[3rd]] (third), [[4th]] (fourth).",
+      "para_que": [
+        "Leer y escribir fechas (May 1st), pisos (3rd floor) e invitaciones.",
+        "Escribir listas y clasificaciones."
+      ],
+      "como_funciona": "La regla es sencilla si piensas en la palabra, no en la cifra: se escriben las dos últimas letras del ordinal hablado.\n- Terminan en 1 → **st** (first): 1st, 21st, 31st, 101st.\n- Terminan en 2 → **nd** (second): 2nd, 22nd, 42nd.\n- Terminan en 3 → **rd** (third): 3rd, 23rd, 53rd.\n- Todo lo demás → **th**: 4th, 5th, 9th, 20th, 100th.\n\n**La trampa: 11, 12 y 13.** Aunque terminen en 1, 2 y 3, se dicen eleventh, twelfth, thirteenth, así que se escriben [[11th]], [[12th]], [[13th]]. Lo mismo con 111th, 112th, 113th.\n\nEn español se usa un superíndice (1.º, 2.ª); en inglés las letras pueden ir en superíndice (1ˢᵗ) o normales (1st): las dos formas son correctas. Nunca se pone punto: no «1.st».",
+      "estructuras": [
+        {
+          "etiqueta": "Abreviatura",
+          "formula": [
+            {
+              "t": "cifra",
+              "rol": "otro"
+            },
+            {
+              "t": "dos últimas letras del ordinal",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "22",
+              "rol": "otro"
+            },
+            {
+              "t": "nd",
+              "rol": "complemento"
+            }
+          ],
+          "es": "22.º (twenty-second)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Abreviaturas",
+          "columnas": [
+            "Cifra",
+            "Abreviatura",
+            "Palabra"
+          ],
+          "filas": [
+            [
+              "1",
+              "1st",
+              "first"
+            ],
+            [
+              "2",
+              "2nd",
+              "second"
+            ],
+            [
+              "3",
+              "3rd",
+              "third"
+            ],
+            [
+              "4",
+              "4th",
+              "fourth"
+            ],
+            [
+              "11",
+              "11th",
+              "eleventh"
+            ],
+            [
+              "12",
+              "12th",
+              "twelfth"
+            ],
+            [
+              "13",
+              "13th",
+              "thirteenth"
+            ],
+            [
+              "21",
+              "21st",
+              "twenty-first"
+            ],
+            [
+              "22",
+              "22nd",
+              "twenty-second"
+            ],
+            [
+              "33",
+              "33rd",
+              "thirty-third"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The meeting room is on the 3rd floor.",
+          "es": "La sala de juntas está en el 3.er piso.",
+          "partes": [
+            {
+              "t": "The meeting room",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the 3rd floor",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "3rd se lee third: las letras rd vienen de third."
+        },
+        {
+          "en": "My son is 12th on the list.",
+          "es": "Mi hijo es el 12.º de la lista.",
+          "partes": [
+            {
+              "t": "My son",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "12th",
+              "rol": "otro"
+            },
+            {
+              "t": "on the list",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aunque termine en 2, se escribe 12th porque se dice twelfth."
+        },
+        {
+          "en": "It's her 21st birthday.",
+          "es": "Es su cumpleaños número 21.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "her 21st birthday",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "21st porque se dice twenty-first: la última palabra es first."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "the 3rd floor",
+          "ipa": "/ðə ˈθɝːd ˈflɔːr/",
+          "consejo": "Aunque veas una cifra, se lee la palabra completa: the third floor. The empieza con la lengua entre los dientes, con vibración (/ð/).",
+          "lento": false
+        }
+      ],
+      "errores": [
+        {
+          "mal": "11st, 12nd, 13rd",
+          "bien": "11th, 12th, 13th",
+          "porque": "Se dicen eleventh, twelfth, thirteenth: terminan en -th."
+        },
+        {
+          "mal": "22th",
+          "bien": "22nd",
+          "porque": "Se dice twenty-second: la última palabra es second, así que se escribe nd."
+        },
+        {
+          "mal": "3th",
+          "bien": "3rd",
+          "porque": "Third es irregular: sus dos últimas letras son rd."
+        }
+      ]
+    },
+    {
+      "id": "usos-ordinales",
+      "titulo": "Pisos y otros usos: el first floor no es el primer piso",
+      "que_es": "Los ordinales se usan para pisos, posiciones, cumpleaños, siglos y fechas. El caso de los pisos esconde una diferencia cultural importante: el sistema de EE. UU. no es el mismo que el de México ni el del Reino Unido.",
+      "para_que": [
+        "Llegar al piso correcto en un edificio de EE. UU. o del Reino Unido.",
+        "Hablar de posiciones en una competencia o en una lista.",
+        "Preparar el terreno para las fechas (May first, the fifth of May)."
+      ],
+      "como_funciona": "**Pisos:**\n- En **EE. UU.**, el piso al nivel de la calle es el [[first floor]]; el de arriba, el [[second floor]].\n- En el **Reino Unido**, el piso al nivel de la calle es el [[ground floor]] y el de arriba es el [[first floor]].\n- En **México** decimos planta baja y primer piso, igual que en el Reino Unido. Por eso el «primer piso» mexicano es el [[second floor]] estadounidense.\n\nCon pisos se usa [[on]]: [[on the second floor]]. Para preguntar: [[Which floor is it on?]] o, en un elevador, [[Which floor?]]\n\n**Otros usos:** posiciones ([[She is first]], [[the third place]]), cumpleaños ([[my thirtieth birthday]]), siglos ([[the nineteenth century]]) y fechas (la próxima unidad). El ordinal casi siempre va con [[the]] o con un posesivo delante.\n\n**Fracciones (para reconocer):** los ordinales también sirven para las fracciones: [[a third]] (un tercio), [[a quarter]] o [[a fourth]] (un cuarto), [[two fifths]] (dos quintos). La excepción es [[a half]] (un medio), nunca «a second».",
+      "estructuras": [
+        {
+          "etiqueta": "Ubicar en un piso",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the + ordinal + floor",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The bathroom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the second floor",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El baño está en el segundo piso (EE. UU.) / en el primer piso (México)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "EE. UU.",
+          "items": [
+            "Nivel de la calle: first floor.",
+            "Uno arriba: second floor.",
+            "Dos arriba: third floor."
+          ]
+        },
+        "b": {
+          "titulo": "Reino Unido y México",
+          "items": [
+            "Nivel de la calle: ground floor / planta baja.",
+            "Uno arriba: first floor / primer piso.",
+            "Dos arriba: second floor / segundo piso."
+          ]
+        },
+        "veredicto": "En EE. UU. suma uno al número que usarías en México: tu «primer piso» es su second floor."
+      },
+      "visual": {
+        "tipo": "escena",
+        "titulo": "El mismo edificio, dos formas de contar (American / British)",
+        "objetos": [
+          {
+            "emoji": "🪟",
+            "x": 0.5,
+            "y": 0.12,
+            "etiqueta": "American: the third floor. British: the second floor."
+          },
+          {
+            "emoji": "🪟",
+            "x": 0.5,
+            "y": 0.48,
+            "etiqueta": "American: the second floor. British: the first floor."
+          },
+          {
+            "emoji": "🚪",
+            "x": 0.5,
+            "y": 0.85,
+            "etiqueta": "American: the first floor. British: the ground floor."
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "The café is on the first floor.",
+          "es": "La cafetería está en la planta baja.",
+          "situacion": "Un letrero en un centro comercial de Estados Unidos.",
+          "partes": [
+            {
+              "t": "The café",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the first floor",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En EE. UU., first floor es el nivel de la calle: por eso la traducción natural es «planta baja»."
+        },
+        {
+          "en": "The reception is on the ground floor.",
+          "es": "La recepción está en la planta baja.",
+          "situacion": "Un hotel en Londres.",
+          "partes": [
+            {
+              "t": "The reception",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the ground floor",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ground floor es la forma británica. Allí, first floor sería el piso de arriba."
+        },
+        {
+          "en": "Priya is first and Tom is second.",
+          "es": "Priya va en primer lugar y Tom en segundo.",
+          "partes": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "first",
+              "rol": "complemento"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "second",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para posiciones en una carrera o competencia, el ordinal puede ir solo, sin the."
+        },
+        {
+          "en": "A third of the students are from Mexico.",
+          "es": "Una tercera parte de los alumnos son de México.",
+          "partes": [
+            {
+              "t": "A third of the students",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "from Mexico",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Fracción con ordinal: a third = un tercio. El verbo concuerda con students (plural): are."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "floor",
+          "ipa": "/flɔːr/",
+          "consejo": "Una sola sílaba: «flor» con la o más larga y abierta, y una r inglesa al final (la lengua no toca el paladar).",
+          "lento": false
+        },
+        {
+          "texto": "ground floor",
+          "ipa": "/ˌɡraʊnd ˈflɔːr/",
+          "consejo": "Ground tiene el diptongo «au», como en «aula». La d final casi desaparece antes de floor en el habla rápida.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        {
+          "mal": "in the second floor",
+          "bien": "on the second floor",
+          "porque": "Con los pisos de un edificio se usa on."
+        },
+        {
+          "mal": "the second floor = el segundo piso (en EE. UU.)",
+          "bien": "the second floor = el primer piso (en México)",
+          "porque": "En EE. UU. se empieza a contar desde el nivel de la calle."
+        },
+        {
+          "mal": "a second (para ½)",
+          "bien": "a half",
+          "porque": "½ es la única fracción que no usa ordinal."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "numeros.ordinales.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada abreviatura con su ordinal.",
+      "pares": [
+        {
+          "a": "1st",
+          "b": "first"
+        },
+        {
+          "a": "2nd",
+          "b": "second"
+        },
+        {
+          "a": "3rd",
+          "b": "third"
+        },
+        {
+          "a": "5th",
+          "b": "fifth"
+        },
+        {
+          "a": "8th",
+          "b": "eighth"
+        },
+        {
+          "a": "9th",
+          "b": "ninth"
+        },
+        {
+          "a": "12th",
+          "b": "twelfth"
+        },
+        {
+          "a": "20th",
+          "b": "twentieth"
+        }
+      ],
+      "pistas": [
+        "Las dos letras de la abreviatura son las dos últimas del ordinal.",
+        "1, 2 y 3 son irregulares; los demás terminan en -th, algunos con cambios.",
+        "5 y 12: ve → f; 9 pierde la e; 20: y → ie."
+      ],
+      "solucion": {
+        "respuesta": "1st = first · 2nd = second · 3rd = third · 5th = fifth · 8th = eighth · 9th = ninth · 12th = twelfth · 20th = twentieth",
+        "explicacion": "First, second y third son irregulares y sus abreviaturas salen de sus dos últimas letras (st, nd, rd). Los demás llevan -th, con los cambios de ortografía de fifth, eighth, ninth, twelfth y twentieth."
+      }
+    },
+    {
+      "id": "numeros.ordinales.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la abreviatura correcta.",
+      "pregunta": "¿Cómo se abrevia twenty-second (22)?",
+      "opciones": [
+        {
+          "texto": "22nd",
+          "correcta": true,
+          "porque": "Correcto: la última palabra es second, y sus dos últimas letras son nd."
+        },
+        {
+          "texto": "22th",
+          "correcta": false,
+          "porque": "-th es para los que terminan en fourth, fifth… Aquí la última palabra es second."
+        },
+        {
+          "texto": "22st",
+          "correcta": false,
+          "porque": "St es de first (21st). 22 termina en second."
+        },
+        {
+          "texto": "22rd",
+          "correcta": false,
+          "porque": "Rd es de third (23rd)."
+        }
+      ],
+      "pistas": [
+        "La abreviatura sale del ordinal hablado.",
+        "Piensa en la última palabra de twenty-second.",
+        "Se escriben las dos últimas letras de esa última palabra."
+      ],
+      "solucion": {
+        "respuesta": "22nd",
+        "explicacion": "La respuesta correcta es 22nd: se dice twenty-second, la última palabra es second y sus dos últimas letras son nd."
+      }
+    },
+    {
+      "id": "numeros.ordinales.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe con letras el ordinal entre paréntesis.",
+      "frase": "Her office is on the ___ (5th) floor.",
+      "traduccion": "Su oficina está en el quinto piso.",
+      "respuestas": [
+        [
+          "fifth"
+        ]
+      ],
+      "errores_tipicos": {
+        "fiveth": "Five cambia la ve por f: fifth.",
+        "five": "Necesitas el ordinal (quinto), no el cardinal (cinco).",
+        "fith": "Falta una f: fif + th."
+      },
+      "pistas": [
+        "Necesitas un ordinal, no el número cardinal.",
+        "Five es uno de los números que cambian la ortografía al añadir -th.",
+        "Los números que terminan en -ve cambian ve → f antes de añadir th."
+      ],
+      "solucion": {
+        "respuesta": "fifth",
+        "explicacion": "La respuesta correcta es fifth: al ordinal de five se le cambia ve por f y se añade th. Con los pisos se usa ordinal: the fifth floor."
+      }
+    },
+    {
+      "id": "numeros.ordinales.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las abreviaturas con st, nd, rd o th.",
+      "frase": "The 11___ floor and the 21___ floor are closed today.",
+      "traduccion": "El piso 11 y el piso 21 están cerrados hoy.",
+      "respuestas": [
+        [
+          "th"
+        ],
+        [
+          "st"
+        ]
+      ],
+      "banco": [
+        "st",
+        "nd",
+        "rd",
+        "th"
+      ],
+      "errores_tipicos": {
+        "st | st": "11 se dice eleventh, así que se escribe 11th, aunque termine en 1.",
+        "th | th": "21 se dice twenty-first: la última palabra es first, así que es 21st."
+      },
+      "pistas": [
+        "Piensa cómo se DICE cada número, no cómo termina la cifra.",
+        "11 no se dice «ten-first». 21 sí termina en una palabra irregular.",
+        "Los ordinales que terminan en 11, 12 y 13 siempre llevan th; en los demás se copian las dos últimas letras de la última palabra del ordinal, como en 42 → forty-second → 42nd."
+      ],
+      "solucion": {
+        "respuesta": "th · st",
+        "explicacion": "11th porque se dice eleventh (11, 12 y 13 siempre llevan th). 21st porque se dice twenty-first y first termina en st."
+      }
+    },
+    {
+      "id": "numeros.ordinales.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite despacio y grábate.",
+      "texto": "the fifth, the sixth, the twelfth",
+      "ipa": "/ðə fɪfθ · ðə sɪksθ · ðə twelfθ/",
+      "consejo": "Los tres terminan con la lengua entre los dientes (th). En fifth y twelfth, antes de sacar la lengua, apoya el labio de abajo en los dientes de arriba para la f. No te preocupes si al principio suena lento: la claridad importa más que la velocidad.",
+      "es": "el quinto, el sexto, el duodécimo"
+    },
+    {
+      "id": "numeros.ordinales.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la información.",
+      "pregunta": "Estás en un hotel de Estados Unidos. La recepcionista dice: The restaurant is on the first floor. ¿Dónde está el restaurante?",
+      "opciones": [
+        {
+          "texto": "En la planta baja, al nivel de la calle.",
+          "correcta": true,
+          "porque": "Correcto: en EE. UU. el first floor es el nivel de la calle."
+        },
+        {
+          "texto": "Un piso arriba de la planta baja.",
+          "correcta": false,
+          "porque": "Así sería en el Reino Unido o en México (primer piso). En EE. UU. se empieza a contar desde el nivel de la calle."
+        },
+        {
+          "texto": "En el sótano.",
+          "correcta": false,
+          "porque": "El sótano es the basement."
+        }
+      ],
+      "pistas": [
+        "Los pisos no se cuentan igual en todos los países.",
+        "Fíjate en dónde está el hotel: Estados Unidos.",
+        "En EE. UU. no existe «planta baja + primer piso»: el nivel de la calle ya es el primero."
+      ],
+      "solucion": {
+        "respuesta": "En la planta baja, al nivel de la calle.",
+        "explicacion": "En EE. UU. el first floor es el piso al nivel de la calle, lo que en México llamamos planta baja. En el Reino Unido ese piso sería el ground floor."
+      }
+    },
+    {
+      "id": "numeros.ordinales.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "This is my nineth English class.",
+      "error": "nineth",
+      "correcciones": [
+        "ninth"
+      ],
+      "frase_correcta": "This is my ninth English class.",
+      "pistas": [
+        "Revisa la ortografía de los ordinales.",
+        "Mira el ordinal de nine.",
+        "Nine pierde una letra al añadir -th."
+      ],
+      "solucion": {
+        "respuesta": "ninth",
+        "explicacion": "El error es nineth: el ordinal de nine pierde la e y se escribe ninth. Compara con ninety y nineteen, que sí la conservan."
+      }
+    },
+    {
+      "id": "numeros.ordinales.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. El ordinal puedes escribirlo con letras o abreviado (12th).",
+      "texto": "My apartment is on the twelfth floor.",
+      "respuestas": [
+        "My apartment is on the 12th floor."
+      ],
+      "audio": true,
+      "pistas": [
+        "Hay un ordinal delante de floor.",
+        "El ordinal termina en varias consonantes: l, f, th.",
+        "Un ordinal que suena -lfth viene de un número terminado en -lve: ve → f + th. Puedes escribirlo con cifras + th o con letras."
+      ],
+      "solucion": {
+        "respuesta": "My apartment is on the twelfth floor.",
+        "explicacion": "Se oye twelfth: twelve con la ve cambiada por f y th al final. Abreviado es 12th, no 12nd, porque se dice twelfth."
+      }
+    },
+    {
+      "id": "numeros.ordinales.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa un ordinal escrito con letras.",
+      "es": "Mi oficina está en el piso veintiuno.",
+      "respuestas": [
+        "My office is on the twenty-first floor."
+      ],
+      "errores_tipicos": {
+        "My office is on the twenty-one floor": "Delante de floor necesitas el ordinal: twenty-first.",
+        "My office is in the twenty-first floor": "Con los pisos se usa on: on the twenty-first floor.",
+        "My office is on the twentieth-first floor": "Solo cambia la última palabra: twenty-first."
+      },
+      "pistas": [
+        "En inglés los pisos se dicen con ordinal, aunque en español digamos «piso veintiuno».",
+        "Revisa la preposición y cuál de las dos palabras del número cambia.",
+        "on the + decena sin cambios + ordinal de one + floor."
+      ],
+      "solucion": {
+        "respuesta": "My office is on the twenty-first floor.",
+        "explicacion": "En inglés se usa ordinal delante de floor: the twenty-first floor. En los compuestos solo cambia la última palabra (twenty se queda igual, one → first), y con los pisos la preposición es on."
+      }
+    },
+    {
+      "id": "numeros.ordinales.10",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe la oración con el ordinal en letras.",
+      "origen": "Today is Tom's 30th birthday.",
+      "instruccion": "Ordinal con letras",
+      "respuestas": [
+        "Today is Tom's thirtieth birthday."
+      ],
+      "errores_tipicos": {
+        "Today is Tom's thirtyth birthday": "En las decenas la y cambia a ie: thirtieth.",
+        "Today is Tom's thirty birthday": "Delante de birthday se usa el ordinal: thirtieth.",
+        "Today is Tom's thirteenth birthday": "Thirteenth es 13.º. El 30.º es thirtieth."
+      },
+      "pistas": [
+        "30th es un ordinal de decena.",
+        "Las decenas terminan en -ty: ¿qué le pasa a la y?",
+        "-ty → -tieth."
+      ],
+      "solucion": {
+        "respuesta": "Today is Tom's thirtieth birthday.",
+        "explicacion": "30th se lee thirtieth: en los ordinales de las decenas la y final cambia a ie y se añade th (thirty → thirtieth). Cuidado con no confundirlo con thirteenth (13th)."
+      }
+    },
+    {
+      "id": "numeros.ordinales.11",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": [
+        "is",
+        "Mei",
+        "the",
+        "third",
+        "student",
+        "on",
+        "the",
+        "list"
+      ],
+      "respuestas": [
+        "Mei is the third student on the list."
+      ],
+      "traduccion": "Mei es la tercera alumna de la lista.",
+      "pistas": [
+        "Sujeto + be + complemento.",
+        "El ordinal va entre the y el sustantivo.",
+        "Sujeto + is + the + ordinal + sustantivo + lugar, como en Tom is the second boy in the line."
+      ],
+      "solucion": {
+        "respuesta": "Mei is the third student on the list.",
+        "explicacion": "Mei es el sujeto, is el verbo; el ordinal third funciona como adjetivo y va entre the y student. On the list indica dónde."
+      }
+    },
+    {
+      "id": "numeros.ordinales.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Estás en el elevador de un edificio en Nueva York. Quieres ir al piso 4 (el cuarto botón).",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "Which floor?",
+          "es": "¿Qué piso?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "The fourth floor, please.",
+          "correcta": true,
+          "porque": "Correcto: ordinal (fourth) delante de floor, con the."
+        },
+        {
+          "texto": "The four floor, please.",
+          "correcta": false,
+          "porque": "Four es cardinal. Delante de floor se necesita el ordinal: fourth."
+        },
+        {
+          "texto": "The fourteenth floor, please.",
+          "correcta": false,
+          "porque": "Fourteenth es el piso 14. El 4 es fourth."
+        },
+        {
+          "texto": "The fourth floors, please.",
+          "correcta": false,
+          "porque": "Es un solo piso: floor en singular."
+        }
+      ],
+      "pistas": [
+        "Con floor se usa un ordinal.",
+        "Revisa si el número es cardinal u ordinal, y si es el 4 o el 14.",
+        "Para pisos: the + ordinal (no cardinal) + floor en singular; comprueba que no sea el número en -teen."
+      ],
+      "solucion": {
+        "respuesta": "The fourth floor, please.",
+        "explicacion": "The fourth floor: con pisos se usa el ordinal delante de floor (four → fourth, con u y + th), y floor en singular porque es uno solo."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿En qué piso está?",
+    "contexto": "Trabajas en la recepción de un edificio en Estados Unidos. Un visitante, Ben, te pregunta dónde están varias oficinas.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Hi! Where is the dentist's office?",
+        "es": "¡Hola! ¿Dónde está el consultorio del dentista?"
+      },
+      {
+        "quien": "Tú",
+        "en": "It's on the third floor, room three twelve.",
+        "es": "Está en el tercer piso, consultorio 312."
+      },
+      {
+        "quien": "Ben",
+        "en": "Thanks. And the bathroom?",
+        "es": "Gracias. ¿Y el baño?"
+      }
+    ],
+    "tu_turno": "Dile a Ben que el baño está en la planta baja (recuerda que estás en EE. UU.) y que la cafetería está en el piso 22.",
+    "modelo": "The bathroom is on the first floor, and the café is on the twenty-second floor.",
+    "alternativas": [
+      "It's on the first floor. The café is on the twenty-second floor.",
+      "The bathroom is on the first floor, next to the elevator. The café is on the 22nd floor."
+    ],
+    "claves": [
+      "En EE. UU. la planta baja es the first floor.",
+      "22 = twenty-second (22nd): solo cambia la última palabra.",
+      "Con pisos: on the + ordinal + floor."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "first, second, third son irregulares; los demás + th.",
+      "Cambios: fifth, eighth, ninth, twelfth; decenas -ty → -tieth (twentieth).",
+      "Compuestos: solo cambia la última palabra (twenty-first, forty-second).",
+      "Abreviatura = cifra + dos últimas letras del ordinal: 1st, 2nd, 3rd, 4th, 11th, 12th, 13th, 21st.",
+      "Pisos con on y ordinal: on the third floor. En EE. UU., first floor = planta baja."
+    ],
+    "recuerda": [
+      "En inglés se usan ordinales donde el español usa números normales: the twenty-first century, the twenty-first floor.",
+      "½ = a half, no a second."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "numeros.ordinales.r1",
+      "frente": "Ordinales de 5, 8, 9 y 12.",
+      "reverso": "fifth · eighth · ninth · twelfth"
+    },
+    {
+      "id": "numeros.ordinales.r2",
+      "frente": "¿11st o 11th? ¿22th o 22nd?",
+      "reverso": "11th (eleventh) · 22nd (twenty-second)."
+    },
+    {
+      "id": "numeros.ordinales.r3",
+      "frente": "¿Cómo se dice el ordinal de 20 y de 21?",
+      "reverso": "twentieth · twenty-first",
+      "nota": "y → ie en las decenas; en los compuestos solo cambia el final."
+    },
+    {
+      "id": "numeros.ordinales.r4",
+      "frente": "En EE. UU., ¿qué es the first floor?",
+      "reverso": "La planta baja (nivel de la calle). En el R. U. y en México: ground floor / planta baja."
+    },
+    {
+      "id": "numeros.ordinales.r5",
+      "frente": "Traduce: «Estamos en el siglo veintiuno».",
+      "reverso": "We are in the twenty-first century."
+    }
+  ]
+}

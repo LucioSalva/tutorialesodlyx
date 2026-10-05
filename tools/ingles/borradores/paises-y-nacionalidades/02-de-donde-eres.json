@@ -1,0 +1,506 @@
+{
+  "slug": "de-donde-eres",
+  "titulo": "¿De dónde eres? Idiomas",
+  "minutos": 40,
+  "objetivos": [
+    "Preguntar y responder de dónde es alguien con Where are you from? / Where is she from? y con preguntas de sí o no.",
+    "Colocar from al FINAL de la pregunta, al contrario que el «de» del español.",
+    "Nombrar idiomas y distinguirlos de las nacionalidades (un mexicano es Mexican y habla Spanish).",
+    "Usar las expresiones fijas I speak…, Do you speak…? y What languages do you speak?"
+  ],
+  "situacion": {
+    "titulo": "Intercambio de idiomas por videollamada",
+    "texto": "Lucía se conecta a una app de intercambio de idiomas y conoce a Ben. Fíjate en dónde queda from en la pregunta y en cómo Ben separa su nacionalidad (British) del idioma que habla (English).",
+    "dialogo": [
+      { "quien": "Ben", "en": "Hi, Lucía! Where are you from?", "es": "¡Hola, Lucía! ¿De dónde eres?" },
+      { "quien": "Lucía", "en": "I'm from Mexico, from Monterrey. And you?", "es": "Soy de México, de Monterrey. ¿Y tú?" },
+      { "quien": "Ben", "en": "I'm from the UK. I'm British.", "es": "Soy del Reino Unido. Soy británico." },
+      { "quien": "Lucía", "en": "What languages do you speak?", "es": "¿Qué idiomas hablas?" },
+      { "quien": "Ben", "en": "I speak English and French, and a little Spanish.", "es": "Hablo inglés y francés, y un poco de español." },
+      { "quien": "Lucía", "en": "Cool! My first language is Spanish. I speak a little English.", "es": "¡Qué padre! Mi lengua materna es el español. Hablo un poco de inglés." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "where-are-you-from",
+      "titulo": "Where are you from? La preposición se queda al final",
+      "que_es": "La pregunta para saber el origen de alguien es [[Where are you from?]] (¿De dónde eres?). Se construye como las preguntas con [[be]] que ya conoces, con una diferencia que sorprende al hispanohablante: la preposición [[from]] (de) NO va al principio, sino al final.",
+      "para_que": [
+        "Iniciar una conversación con alguien nuevo: en viajes, trabajo o clases es de las primeras preguntas.",
+        "Preguntar por otras personas: Where is your teacher from?",
+        "Confirmar una suposición con una pregunta de sí o no: Are you from Spain?"
+      ],
+      "como_funciona": "**Pregunta abierta:** palabra interrogativa + be + sujeto + from?\n• [[Where are you from?]] — ¿De dónde eres?\n• [[Where is he from?]] / [[Where's he from?]] — ¿De dónde es él?\n• [[Where are your parents from?]] — ¿De dónde son tus papás?\n\nEn español decimos «¿**De** dónde…?», con la preposición delante. En inglés [[from]] se queda al final, pegada a la idea de origen. «From where are you?» es un calco que suena muy extraño, y «Where you are from?» olvida la inversión de sujeto y verbo que exige toda pregunta con be.\n\n**Respuesta:** puedes contestar con el país o con la nacionalidad, y precisar la ciudad:\n• [[I'm from Mexico.]] / [[I'm Mexican.]]\n• [[I'm from Puebla, in Mexico.]] (ciudad, in + país)\nSi te preguntan [[Where in Mexico?]] (¿De qué parte de México?), responde solo con la ciudad o el estado: [[Oaxaca.]]\n\n**Preguntas de sí o no:** be + sujeto + from + país? o be + sujeto + nacionalidad?\n• [[Are you from Spain?]] — [[No, I'm not. I'm from Mexico.]]\n• [[Is she Brazilian?]] — [[Yes, she is.]]\nRecuerda que en la respuesta corta afirmativa no se contrae: [[Yes, she is.]], nunca «Yes, she's».",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta abierta",
+          "formula": [ { "t": "Where", "rol": "interrogativo" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "from", "rol": "otro" } ],
+          "ejemplo": [ { "t": "Where", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "you", "rol": "sujeto" }, { "t": "from", "rol": "otro" } ],
+          "es": "¿De dónde eres?"
+        },
+        {
+          "etiqueta": "Pregunta de sí o no",
+          "formula": [ { "t": "Am / Is / Are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "from + país / nacionalidad", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Is", "rol": "verbo" }, { "t": "Omar", "rol": "sujeto" }, { "t": "from Egypt", "rol": "complemento" } ],
+          "es": "¿Omar es de Egipto?"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la afirmación a la pregunta con Where",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ { "t": "She", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "from", "rol": "otro" }, { "t": "Chile", "rol": "complemento" } ] },
+          { "etiqueta": "Pregunta de sí o no", "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "she", "rol": "sujeto" }, { "t": "from", "rol": "otro" }, { "t": "Chile", "rol": "complemento" }, { "t": "?", "rol": "otro" } ] },
+          { "etiqueta": "Pregunta abierta", "partes": [ { "t": "Where", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "she", "rol": "sujeto" }, { "t": "from", "rol": "otro" }, { "t": "?", "rol": "otro" } ] }
+        ],
+        "pie": "El país (lo que no sabes) desaparece y Where ocupa el primer lugar; from se queda donde estaba, al final."
+      },
+      "ejemplos": [
+        {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?",
+          "situacion": "Conoces a alguien en un curso.",
+          "partes": [ { "t": "Where", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "you", "rol": "sujeto" }, { "t": "from", "rol": "otro" } ],
+          "nota": "Are va antes de you (inversión) y from cierra la pregunta."
+        },
+        {
+          "en": "Where's your teacher from?",
+          "es": "¿De dónde es tu maestro?",
+          "partes": [ { "t": "Where's", "rol": "interrogativo" }, { "t": "your teacher", "rol": "sujeto" }, { "t": "from", "rol": "otro" } ],
+          "nota": "Where's = Where is. El sujeto es singular (your teacher), por eso is."
+        },
+        {
+          "en": "I'm from Puebla, in Mexico.",
+          "es": "Soy de Puebla, en México.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "from Puebla", "rol": "complemento" }, { "t": "in Mexico", "rol": "complemento" } ],
+          "nota": "Para situar la ciudad dentro del país se usa in, no «of»: Puebla, in Mexico."
+        },
+        {
+          "en": "Are you from Spain? No, I'm not. I'm from Mexico.",
+          "es": "¿Eres de España? No. Soy de México.",
+          "nota": "Respuesta corta negativa y después la información correcta. En inglés se contesta con la respuesta corta completa (No, I'm not), no solo con «No»."
+        },
+        {
+          "en": "Where are Aisha and Ben from?",
+          "es": "¿De dónde son Aisha y Ben?",
+          "nota": "Dos personas = sujeto plural = are."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Where are you from?",
+          "ipa": "/wɛr ər jə ˈfrʌm/",
+          "consejo": "En la conversación real are y you se reducen a sonidos débiles (/ər/, /jə/) y el golpe de voz cae en from. Suena casi como «wer-er-ye-FROM». La entonación baja al final: es una pregunta con Where, no de sí o no.",
+          "lento": true
+        },
+        {
+          "texto": "from",
+          "ipa": "/frʌm/ (británico /frɒm/)",
+          "consejo": "Al final de la pregunta from se pronuncia completa, con /ʌ/: una a corta y relajada, con la boca a medio abrir. La r no vibra como en español: la lengua no toca el paladar."
+        },
+        {
+          "texto": "Is she Brazilian?",
+          "ipa": "/ɪz ʃi brəˈzɪliən/",
+          "consejo": "Pregunta de sí o no: la entonación SUBE al final. Brazilian se acentúa en ZI: bra-ZI-lian."
+        }
+      ],
+      "errores": [
+        { "mal": "From where are you?", "bien": "Where are you from?", "porque": "En inglés la preposición se queda al final de la pregunta. Poner from delante es un calco de «¿De dónde…?»." },
+        { "mal": "Where you are from?", "bien": "Where are you from?", "porque": "Toda pregunta con be invierte el orden: primero el verbo (are), luego el sujeto (you)." },
+        { "mal": "I'm of Mexico.", "bien": "I'm from Mexico.", "porque": "El «de» de origen se traduce como from, no como of." },
+        { "mal": "Where is she from? — She's from Chilean.", "bien": "She's from Chile. / She's Chilean.", "porque": "Después de from va el país; la nacionalidad va sin from." }
+      ]
+    },
+    {
+      "id": "idiomas",
+      "titulo": "Idiomas: la nacionalidad no siempre es el idioma",
+      "que_es": "Los idiomas en inglés también se escriben con mayúscula y muchas veces coinciden con la palabra de la nacionalidad ([[French]] = francés/a y el idioma francés). Pero no siempre: un mexicano es [[Mexican]] y habla [[Spanish]]; una estadounidense es [[American]] y habla [[English]]. No existe el idioma «Mexican» ni el «American».",
+      "para_que": [
+        "Decir qué idiomas hablas en una entrevista, en un viaje o en una app de intercambio.",
+        "Preguntar a alguien si habla inglés o español antes de empezar una conversación.",
+        "Evitar decir «I'm Spanish» cuando quieres decir que hablas español."
+      ],
+      "como_funciona": "**Idioma = nacionalidad (muchas veces):** [[English]], [[Spanish]], [[French]], [[German]], [[Italian]], [[Portuguese]], [[Japanese]], [[Chinese]], [[Korean]], [[Russian]], [[Dutch]], [[Greek]], [[Polish]].\n\n**Idioma ≠ nacionalidad (muy frecuente en América):**\n• Mexican, Colombian, Peruvian, Argentinian… → hablan [[Spanish]]\n• American, Canadian, Australian → [[English]] (en Canadá también [[French]])\n• Brazilian → [[Portuguese]]\n• Swiss → [[German]], [[French]] o [[Italian]] (no existe «Swiss» como idioma)\n• Egyptian, Saudi → [[Arabic]]; Indian → [[Hindi]], [[English]] y muchos más\n\n**La gran trampa del hispanohablante:** [[Spanish]] significa a la vez «español/a (de España)» y «el idioma español». [[I'm Spanish]] quiere decir «soy de España». Si quieres decir que hablas español, usa una de estas:\n• [[I speak Spanish.]] (Hablo español.)\n• [[My first language is Spanish.]] (Mi lengua materna es el español.)\n• [[I'm a Spanish speaker.]] (Soy hispanohablante.)\n\n**Sin artículo:** los idiomas no llevan [[the]]: [[I speak English.]], [[Spanish is my first language.]] «The English» significaría «los ingleses» (las personas).\n\n**Expresiones fijas para esta etapa.** Todavía no has estudiado el tiempo verbal de [[speak]] (lo verás en la unidad del presente simple); por ahora apréndelas como bloques, con su traducción:\n• [[I speak Spanish and a little English.]] — Hablo español y un poco de inglés.\n• [[Do you speak English?]] — ¿Hablas inglés? → [[Yes, I do.]] / [[No, I don't.]]\n• [[What languages do you speak?]] — ¿Qué idiomas hablas?\n• [[How do you say «gracias» in English?]] — ¿Cómo se dice «gracias» en inglés? (en un idioma = [[in]] + idioma)\nFíjate en que a [[Do you speak…?]] NO se responde con [[Yes, I am]]: la pregunta usa do, no be, así que la respuesta corta usa do.",
+      "estructuras": [
+        {
+          "etiqueta": "Con be (ya la dominas)",
+          "formula": [ { "t": "My first language", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "IDIOMA", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My first language", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "Spanish", "rol": "complemento" } ],
+          "es": "Mi lengua materna es el español."
+        },
+        {
+          "etiqueta": "Expresión fija",
+          "formula": [ { "t": "I", "rol": "sujeto" }, { "t": "speak", "rol": "verbo" }, { "t": "IDIOMA (sin the)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "I", "rol": "sujeto" }, { "t": "speak", "rol": "verbo" }, { "t": "Spanish and English", "rol": "complemento" } ],
+          "es": "Hablo español e inglés."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "País, nacionalidad e idioma",
+          "columnas": ["País", "Nacionalidad", "Idioma principal"],
+          "filas": [
+            ["Mexico", "Mexican", "Spanish"],
+            ["the United States", "American", "English"],
+            ["Brazil", "Brazilian", "Portuguese"],
+            ["Canada", "Canadian", "English and French"],
+            ["Egypt", "Egyptian", "Arabic"],
+            ["Spain", "Spanish", "Spanish"],
+            ["Japan", "Japanese", "Japanese"]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My first language is Spanish.",
+          "es": "Mi lengua materna es el español.",
+          "partes": [ { "t": "My first language", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "Spanish", "rol": "complemento" } ],
+          "nota": "Sin the delante de Spanish, aunque en español digamos «el español». Y con mayúscula."
+        },
+        {
+          "en": "Carlos is Mexican. He speaks Spanish and English.",
+          "es": "Carlos es mexicano. Habla español e inglés.",
+          "nota": "Nacionalidad (Mexican) e idioma (Spanish) son palabras distintas. La -s de speaks aparece porque el sujeto es he: lo entenderás a fondo en la unidad del presente simple."
+        },
+        {
+          "en": "Do you speak English? Yes, I do.",
+          "es": "¿Hablas inglés? Sí.",
+          "partes": [ { "t": "Do", "rol": "auxiliar" }, { "t": "you", "rol": "sujeto" }, { "t": "speak", "rol": "verbo" }, { "t": "English", "rol": "complemento" }, { "t": "Yes, I do", "rol": "otro" } ],
+          "nota": "La pregunta empieza con do, así que la respuesta corta también: Yes, I do / No, I don't. Tómala como bloque fijo por ahora."
+        },
+        {
+          "en": "Grace is Canadian. English and French are the official languages of Canada.",
+          "es": "Grace es canadiense. El inglés y el francés son los idiomas oficiales de Canadá.",
+          "nota": "Aquí the va delante de official languages (unos idiomas concretos), no delante de English ni French."
+        },
+        {
+          "en": "How do you say «mesa» in English?",
+          "es": "¿Cómo se dice «mesa» en inglés?",
+          "nota": "En un idioma = in + idioma: in English, in Spanish. Pregunta fija muy útil en clase."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "I'm Spanish.", "items": ["Soy español/a.", "Hablas de tu nacionalidad: eres de España."] },
+        "b": { "titulo": "I speak Spanish.", "items": ["Hablo español.", "Hablas del idioma, sin importar tu nacionalidad."] },
+        "veredicto": "Un mexicano dice I'm Mexican. I speak Spanish. Decir I'm Spanish haría pensar que naciste en España."
+      },
+      "pronunciacion": [
+        {
+          "texto": "English",
+          "ipa": "/ˈɪŋɡlɪʃ/",
+          "consejo": "Empieza con /ɪ/ (una i corta y relajada), no con «e». La n se une a la g como en «tengo»: ING-glish. La sh final es /ʃ/, el sonido de «shh» para pedir silencio."
+        },
+        {
+          "texto": "Spanish",
+          "ipa": "/ˈspænɪʃ/",
+          "consejo": "No pongas una «e» antes de la s: no es «espanish». Empieza directamente con el siseo de la s. La a es /æ/: abre la boca como para decir «a» pero estira los labios hacia «e»."
+        },
+        {
+          "texto": "language",
+          "ipa": "/ˈlæŋɡwɪdʒ/",
+          "consejo": "Tres sonidos difíciles: /æ/ en la primera sílaba, «gw» en medio y /dʒ/ al final (como la «y» fuerte de «yo»). No termina en «e»: LANG-gwidge."
+        },
+        {
+          "texto": "Portuguese",
+          "ipa": "/ˌpɔːrtʃʊˈɡiːz/",
+          "consejo": "El acento va al final, como todas las palabras en -ese: por-chu-GIIZ. La t suena /tʃ/ (ch) y la s final es /z/ vibrante."
+        }
+      ],
+      "errores": [
+        { "mal": "I'm Mexican. I speak Mexican.", "bien": "I'm Mexican. I speak Spanish.", "porque": "No existe el idioma «Mexican». En México se habla español (y muchas lenguas indígenas)." },
+        { "mal": "I'm Spanish. (queriendo decir «hablo español»)", "bien": "I speak Spanish. / My first language is Spanish.", "porque": "I'm Spanish significa «soy de España»." },
+        { "mal": "I speak the English.", "bien": "I speak English.", "porque": "Los idiomas no llevan the en inglés." },
+        { "mal": "Do you speak English? — Yes, I am.", "bien": "Yes, I do.", "porque": "La pregunta usa do, no be; la respuesta corta repite el mismo auxiliar." },
+        { "mal": "My first idiom is Spanish.", "bien": "My first language is Spanish.", "porque": "Idiom es un falso amigo: significa «modismo» (una expresión hecha). Idioma = language." }
+      ],
+      "nota": { "titulo": "Lenguas indígenas", "texto": "En México se hablan más de sesenta lenguas indígenas. En inglés se nombran igual que en español, con mayúscula: Nahuatl, Maya, Zapotec, Mixtec. My grandmother speaks Zapotec and Spanish.", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "¿Cómo se pregunta «¿De dónde eres?» en inglés?",
+      "opciones": [
+        { "texto": "Where are you from?", "correcta": true, "porque": "Correcto: Where + are + you + from, con la preposición al final." },
+        { "texto": "Where you are from?", "correcta": false, "porque": "Falta la inversión: en una pregunta con be, el verbo (are) va antes del sujeto (you)." },
+        { "texto": "From where are you?", "correcta": false, "porque": "Es un calco de «¿De dónde…?». En inglés from se queda al final de la pregunta." },
+        { "texto": "Where are you of?", "correcta": false, "porque": "El «de» de origen es from, no of." }
+      ],
+      "pistas": [
+        "Es una pregunta con be: recuerda el orden verbo + sujeto.",
+        "Fíjate en dónde está la preposición y cuál es.",
+        "Where + be + sujeto + preposición de origen al final, como en Where is she from?"
+      ],
+      "solucion": { "respuesta": "Where are you from?", "explicacion": "La correcta es Where are you from? porque sigue el orden de las preguntas con be (palabra interrogativa + verbo + sujeto) y deja from al final. Las otras opciones olvidan la inversión, adelantan la preposición como en español o usan of, que no expresa origen." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada país con su idioma principal.",
+      "pares": [
+        { "a": "Mexico", "b": "Spanish" },
+        { "a": "Brazil", "b": "Portuguese" },
+        { "a": "the United States", "b": "English" },
+        { "a": "Egypt", "b": "Arabic" },
+        { "a": "Japan", "b": "Japanese" },
+        { "a": "France", "b": "French" }
+      ],
+      "pistas": [
+        "El idioma no siempre se parece a la nacionalidad.",
+        "Busca primero los países de América: ahí el idioma casi nunca coincide con la nacionalidad.",
+        "En los países de América se habla el idioma del país europeo que los colonizó; Egipto es un país árabe; los demás hablan el idioma de su nacionalidad."
+      ],
+      "solucion": { "respuesta": "Mexico–Spanish, Brazil–Portuguese, the United States–English, Egypt–Arabic, Japan–Japanese, France–French", "explicacion": "En Japón y Francia el idioma coincide con la nacionalidad (Japanese, French). En México, Brasil, Estados Unidos y Egipto no: allí se habla Spanish, Portuguese, English y Arabic, y no existen idiomas llamados «Mexican», «Brazilian», «American» ni «Egyptian»." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con am, is o are.",
+      "frase": "Where ___ Ana and Tom from?",
+      "traduccion": "¿De dónde son Ana y Tom?",
+      "respuestas": [["are"]],
+      "banco": ["am", "is", "are"],
+      "errores_tipicos": {
+        "is": "Ana and Tom son dos personas: el sujeto es plural y pide are."
+      },
+      "pistas": [
+        "La forma de be depende del sujeto.",
+        "¿Cuántas personas hay en el sujeto?",
+        "Con un sujeto plural (dos o más personas) se usa are."
+      ],
+      "solucion": { "respuesta": "are", "explicacion": "La respuesta es are porque el sujeto, Ana and Tom, es plural (equivale a they). La pregunta completa es Where are Ana and Tom from?, con from al final." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el idioma.",
+      "frase": "Gabriel is Brazilian. His first language is ___.",
+      "traduccion": "Gabriel es brasileño. Su lengua materna es el portugués.",
+      "respuestas": [["Portuguese"]],
+      "errores_tipicos": {
+        "Brazilian": "Brazilian es la nacionalidad. No existe un idioma «brasileño»: en Brasil se habla portugués.",
+        "the Portuguese": "Los idiomas no llevan the en inglés, aunque en español digamos «el portugués».",
+        "Spanish": "En Brasil no se habla español como primera lengua, sino portugués."
+      },
+      "pistas": [
+        "La nacionalidad y el idioma no siempre coinciden.",
+        "Piensa qué idioma se habla en Brasil.",
+        "El idioma de Brasil es el de Portugal, y termina en -ese."
+      ],
+      "solucion": { "respuesta": "Portuguese", "explicacion": "La respuesta es Portuguese: en Brasil se habla portugués. Brazilian es la nacionalidad, no un idioma. Como todos los idiomas, va con mayúscula y sin the." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la pregunta y la respuesta. Imita el ritmo.",
+      "texto": "Where are you from? I'm from Mexico.",
+      "ipa": "/wɛr ər jə ˈfrʌm/ · /aɪm frəm ˈmɛksɪkoʊ/",
+      "consejo": "En la pregunta, from va al final y se pronuncia completa y acentuada (/frʌm/). En la respuesta, from va en medio y se debilita (/frəm/): el golpe de voz pasa a MEXico. La entonación baja al final de las dos.",
+      "es": "¿De dónde eres? Soy de México."
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para preguntar «¿De qué parte de México eres?».",
+      "fichas": ["Where", "in", "Mexico", "are", "you", "from"],
+      "respuestas": ["Where in Mexico are you from?", "Where are you from in Mexico?"],
+      "traduccion": "¿De qué parte de México eres?",
+      "errores_tipicos": {
+        "From where in Mexico are you": "From va al final en inglés, no al principio.",
+        "Where in Mexico you are from": "Falta la inversión: are debe ir antes de you."
+      },
+      "pistas": [
+        "Empieza con la palabra interrogativa.",
+        "In Mexico puede ir pegado a Where; después viene el orden de toda pregunta con be.",
+        "Where (+ in + lugar) + be + sujeto + from, como en Where in Spain is she from?"
+      ],
+      "solucion": { "respuesta": "Where in Mexico are you from?", "explicacion": "Where in Mexico funciona como un bloque interrogativo (¿en qué parte de México?). Después va el orden de pregunta con be (are + you) y from cierra la pregunta. En el habla informal también se oye Where are you from in Mexico?" }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.07",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Estás en una recepción de hotel en Chicago. La recepcionista quiere saber en qué idioma atenderte.",
+      "lineas": [
+        { "quien": "Receptionist", "en": "Good evening! Do you speak English?", "es": "¡Buenas noches! ¿Hablas inglés?" }
+      ],
+      "opciones": [
+        { "texto": "Yes, I do. A little.", "correcta": true, "porque": "Correcto: la pregunta empieza con do, así que la respuesta corta es Yes, I do. A little (un poco) es una aclaración natural." },
+        { "texto": "Yes, I am.", "correcta": false, "porque": "La pregunta usa do, no be. A Do you…? se responde Yes, I do." },
+        { "texto": "Yes, I'm English.", "correcta": false, "porque": "Esto significa «Sí, soy inglés (de Inglaterra)»: habla de nacionalidad, no del idioma." },
+        { "texto": "Yes, I speak the English.", "correcta": false, "porque": "Los idiomas no llevan the. Sería Yes, I speak English." }
+      ],
+      "pistas": [
+        "Mira con qué palabra empieza la pregunta de la recepcionista.",
+        "La respuesta corta repite el mismo auxiliar de la pregunta.",
+        "A una pregunta con Do you…? se responde Yes, I do / No, I don't."
+      ],
+      "solucion": { "respuesta": "Yes, I do. A little.", "explicacion": "La mejor respuesta es Yes, I do. A little, porque la pregunta se formó con do y la respuesta corta repite ese auxiliar. Yes, I am cambia de verbo, I'm English habla de nacionalidad y the English añade un artículo que los idiomas no llevan." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en una pregunta con Where para averiguar el país.",
+      "origen": "Sam is from Canada.",
+      "instruccion": "Pregunta con Where",
+      "respuestas": ["Where is Sam from?"],
+      "errores_tipicos": {
+        "Where Sam is from": "Falta la inversión: en la pregunta is va antes de Sam.",
+        "From where is Sam": "From se queda al final en inglés.",
+        "Where is Sam from Canada": "Canada es justo lo que preguntas: desaparece y Where ocupa su lugar."
+      },
+      "pistas": [
+        "La información que no sabes (Canada) desaparece y la sustituye Where.",
+        "Where va al principio, y después el verbo antes del sujeto.",
+        "Where + be + sujeto + from?, como en Where are the Smiths from? — from no se mueve."
+      ],
+      "solucion": { "respuesta": "Where is Sam from?", "explicacion": "Se elimina Canada (lo que preguntas), Where pasa al inicio, is se coloca antes del sujeto Sam, y from se queda al final. También es correcto contraer: Where's Sam from?" }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y escribe la corrección.",
+      "frase": "Diego is Colombian. His first language is Colombian.",
+      "error": "Colombian",
+      "correcciones": ["Spanish"],
+      "frase_correcta": "Diego is Colombian. His first language is Spanish.",
+      "pistas": [
+        "Una nacionalidad no siempre es un idioma.",
+        "La primera oración está bien; revisa la segunda.",
+        "En Colombia no existe un idioma «colombiano»: se habla el mismo idioma que en México."
+      ],
+      "solucion": { "respuesta": "Colombian → Spanish", "explicacion": "El error está en la segunda oración: Colombian es una nacionalidad, no un idioma. La lengua de Colombia es el español, Spanish. La primera oración (Diego is Colombian) sí es correcta." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "What languages do you speak?",
+      "pistas": [
+        "Es una de las expresiones fijas de la lección.",
+        "Empieza con What y pregunta por idiomas, en plural.",
+        "Pregunta con do: What + sustantivo en plural + do + sujeto + verbo base?"
+      ],
+      "solucion": { "respuesta": "What languages do you speak?", "explicacion": "Es la expresión fija para preguntar qué idiomas habla alguien. Languages va en plural porque se espera que puedan ser varios. Language se escribe con -uage, no «lenguage»." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.11",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error. Señala el grupo de palabras incorrecto y escribe la corrección.",
+      "frase": "My husband is from the Brazil.",
+      "error": "the Brazil",
+      "correcciones": ["Brazil"],
+      "frase_correcta": "My husband is from Brazil.",
+      "pistas": [
+        "Algunos países llevan artículo y otros no.",
+        "Fíjate en lo que va después de from.",
+        "Solo llevan the los países con una palabra común (States, Kingdom, Republic) o con nombre plural; Brazil no es ninguno de esos."
+      ],
+      "solucion": { "respuesta": "the Brazil → Brazil", "explicacion": "Brazil es un nombre propio simple y no lleva artículo en inglés, aunque en español a veces digamos «el Brasil». La oración correcta es My husband is from Brazil." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa la palabra language.",
+      "es": "Mi lengua materna es el español.",
+      "respuestas": ["My first language is Spanish.", "My native language is Spanish."],
+      "errores_tipicos": {
+        "My first language is the Spanish": "Los idiomas no llevan the en inglés, aunque en español digamos «el español».",
+        "My first idiom is Spanish": "Idiom es un falso amigo: significa «modismo». Idioma = language.",
+        "My mother language is Spanish": "La expresión natural es first language (también native language). Mother language no se usa así."
+      },
+      "pistas": [
+        "«Lengua materna» se dice first language.",
+        "Después de is va el idioma: piensa si lleva artículo.",
+        "My first language + is + idioma con mayúscula y sin the."
+      ],
+      "solucion": { "respuesta": "My first language is Spanish.", "explicacion": "Lengua materna = first language (la forma más común) o native language. El verbo es is porque el sujeto (my first language) es singular, y Spanish va sin the y con mayúscula." }
+    },
+    {
+      "id": "paises-y-nacionalidades.de-donde-eres.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe un perfil breve para una app de intercambio de idiomas.",
+      "objetivo": "Presentarte y presentar a un amigo o familiar diciendo país, nacionalidad e idiomas.",
+      "instrucciones": "Escribe de 4 a 6 oraciones: tu nombre, de dónde eres (país y ciudad), tu nacionalidad, tu lengua materna y qué otros idiomas hablas. Después di de dónde es un amigo o familiar y qué idioma habla.",
+      "vocabulario_apoyo": ["first language", "a little", "from", "in Mexico", "Spanish", "English"],
+      "estructuras": ["I'm from … , in …", "I'm + nacionalidad.", "My first language is …", "I speak … and a little …", "My friend … is from … . He's / She's …"],
+      "ejemplo": "Hello! I'm Kenji. I'm from Osaka, in Japan. I'm Japanese. My first language is Japanese, and I speak a little Korean.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Dices de dónde eres con from", "patron": "\\bfrom\\b" },
+        { "descripcion": "Usas I'm o I am", "patron": "\\b(i'm|i am)\\b" },
+        { "descripcion": "Mencionas tu lengua materna o los idiomas que hablas", "patron": "\\b(first language|speak)\\b" }
+      ],
+      "criterios": [
+        "¿Escribiste los países, las nacionalidades y los idiomas con mayúscula?",
+        "¿Usaste from con el país y la nacionalidad sin from?",
+        "¿Los idiomas van sin the?",
+        "¿Usaste his para un hombre y her para una mujer según el poseedor?"
+      ],
+      "modelo": "Hi! My name is Lucía. I'm from Monterrey, in Mexico. I'm Mexican. My first language is Spanish, and I speak a little English. My best friend is Aisha. She's from the Netherlands. She's Dutch, and her English is very good.",
+      "explicacion": "El modelo separa las tres ideas: país (from Monterrey, in Mexico; from the Netherlands, con the), nacionalidad (I'm Mexican; She's Dutch, sin from) e idioma (Spanish, English, sin the). Todas llevan mayúscula. I speak se usa como expresión fija y her English usa her porque el poseedor es Aisha.",
+      "errores_comunes": [
+        "Escribir las nacionalidades o los idiomas con minúscula (mexican, spanish).",
+        "Decir I'm Spanish para indicar que hablas español.",
+        "Olvidar the con the US, the UK o the Netherlands."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Encuentro de intercambio de idiomas",
+    "contexto": "Estás en un café donde se reúnen personas para practicar idiomas. Omar se sienta a tu lado y empieza a conversar.",
+    "dialogo": [
+      { "quien": "Omar", "en": "Hi! I'm Omar. I'm from Egypt, from Cairo.", "es": "¡Hola! Soy Omar. Soy de Egipto, de El Cairo." },
+      { "quien": "Omar", "en": "My first language is Arabic. Where are you from?", "es": "Mi lengua materna es el árabe. ¿De dónde eres?" },
+      { "quien": "Omar", "en": "And what languages do you speak?", "es": "¿Y qué idiomas hablas?" }
+    ],
+    "tu_turno": "Responde las dos preguntas de Omar: di tu país, tu ciudad y los idiomas que hablas. Después pregúntale algo a él.",
+    "modelo": "Nice to meet you, Omar! I'm from Mexico, from Guadalajara. My first language is Spanish, and I speak a little English. Do you speak Spanish?",
+    "alternativas": [
+      "Hi, Omar! I'm Mexican. I'm from Mérida. I speak Spanish and a little English. And you? What languages do you speak?",
+      "I'm from Oaxaca, in Mexico. I speak Spanish and Zapotec, and a little English. Is Arabic difficult?"
+    ],
+    "claves": [
+      "Where are you from? → I'm from + país (+ ciudad).",
+      "Idiomas con mayúscula y sin the: Spanish, English.",
+      "Do you speak…? como expresión fija; se responde Yes, I do / No, I don't."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Where are you from? — from va al final; nunca «From where are you?».",
+      "Respuesta: I'm from Mexico / I'm Mexican / I'm from Puebla, in Mexico.",
+      "Preguntas de sí o no: Are you from Spain? — No, I'm not. Is she Brazilian? — Yes, she is.",
+      "Nacionalidad ≠ idioma: Mexican → Spanish, American → English, Brazilian → Portuguese.",
+      "Idiomas con mayúscula y sin the: I speak Spanish. My first language is Spanish."
+    ],
+    "recuerda": [
+      "I'm Spanish = soy de España. Para el idioma: I speak Spanish.",
+      "Do you speak English? → Yes, I do / No, I don't (no «Yes, I am»).",
+      "Idiom = modismo; idioma = language."
+    ]
+  },
+  "repaso": [
+    { "id": "paises-y-nacionalidades.de-donde-eres.r1", "frente": "¿Dónde va from en la pregunta «¿De dónde es ella?»?", "reverso": "Al final: Where is she from?", "nota": "From where is she? es un calco del español." },
+    { "id": "paises-y-nacionalidades.de-donde-eres.r2", "frente": "¿Qué idioma hablan un mexicano, una brasileña y un estadounidense?", "reverso": "Spanish, Portuguese, English.", "nota": "No existen «Mexican», «Brazilian» ni «American» como idiomas." },
+    { "id": "paises-y-nacionalidades.de-donde-eres.r3", "frente": "¿Qué significa I'm Spanish? ¿Cómo dices que hablas español?", "reverso": "Soy de España. / I speak Spanish. o My first language is Spanish.", "nota": "Spanish es nacionalidad e idioma a la vez." },
+    { "id": "paises-y-nacionalidades.de-donde-eres.r4", "frente": "Responde afirmativamente: Do you speak English?", "reverso": "Yes, I do.", "nota": "La pregunta usa do: la respuesta corta también." },
+    { "id": "paises-y-nacionalidades.de-donde-eres.r5", "frente": "Pregunta en inglés: ¿Cómo se dice «ventana» en inglés?", "reverso": "How do you say «ventana» in English?", "nota": "En un idioma = in + idioma." }
+  ]
+}

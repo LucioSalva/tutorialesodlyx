@@ -1,0 +1,455 @@
+{
+  "slug": "could-sugerencias-y-posibilidad",
+  "titulo": "Sugerencias y posibilidades",
+  "minutos": 35,
+  "objetivos": [
+    "Proponer ideas de forma suave con We could / You could + verbo base.",
+    "Reaccionar a una sugerencia: Good idea, That sounds great, I'm not sure, Maybe later.",
+    "Expresar que algo es posible con could: It could rain. That could be Tom.",
+    "Distinguir can (posibilidad general) de could (posibilidad concreta): It can be cold here in winter / It could be cold tonight."
+  ],
+  "situacion": {
+    "titulo": "¿Qué hacemos mañana?",
+    "texto": "Tom y Mei están de vacaciones en la costa y planean el día siguiente. Tom propone ideas con we could, y Mei piensa en lo que podría pasar con it could. Ninguna de estas frases habla del pasado: could mira hacia ahora y hacia el futuro.",
+    "dialogo": [
+      { "quien": "Tom", "en": "What could we do tomorrow?", "es": "¿Qué podríamos hacer mañana?" },
+      { "quien": "Mei", "en": "We could go to the beach.", "es": "Podríamos ir a la playa." },
+      { "quien": "Tom", "en": "Hmm, it could rain tomorrow. Look at those clouds.", "es": "Mmm, mañana podría llover. Mira esas nubes." },
+      { "quien": "Mei", "en": "OK. Then we could visit the museum in the old town.", "es": "Bueno. Entonces podríamos visitar el museo del centro histórico." },
+      { "quien": "Tom", "en": "Good idea! That could be fun.", "es": "¡Buena idea! Eso podría estar divertido." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "could-sugerencias",
+      "titulo": "We could… / You could…: proponer sin imponer",
+      "que_es": "Con [[could]] + verbo base propones una idea como **una opción entre varias**, sin imponerla: [[We could go to the beach]] = «Podríamos ir a la playa». Con [[you could]] das un consejo suave: [[You could take a taxi]] = «Podrías tomar un taxi». No habla del pasado: se refiere a ahora o al futuro, como el condicional «podríamos» del español.",
+      "para_que": [
+        "Hacer planes con amigos o con la familia: «Podríamos ver una película».",
+        "Dar una idea o un consejo sin sonar mandón: «Podrías preguntarle al recepcionista».",
+        "Ofrecer varias opciones: «Podemos quedarnos o podríamos salir a caminar»."
+      ],
+      "como_funciona": "**Fórmula:** sujeto (we / you / I / they) + could + verbo base + complemento → {{sujeto:We}} {{auxiliar:could}} {{verbo:go}} {{complemento:to the beach}}.\n\n**Para pedir ideas:** [[What could we do?]] (¿Qué podríamos hacer?) — wh + could + sujeto + verbo.\n\n**Diferencia de tono con otras formas:**\n- [[Let's go to the beach.]] → propuesta decidida: «Vamos a la playa».\n- [[We can go to the beach.]] → dice que es posible, de forma directa: «Podemos ir a la playa».\n- [[We could go to the beach.]] → una idea abierta, más suave: «Podríamos ir a la playa». Invita a opinar.\n\n**Cómo reaccionar:** [[Good idea!]] / [[That sounds great!]] / [[Why not?]] / [[I'm not sure.]] / [[Maybe later.]]\n\n**Cuidado con la traducción:** en esta función, [[we could]] se traduce «podríamos», no «podíamos». El contexto (tomorrow, this weekend, una situación de planes) te lo indica.",
+      "estructuras": [
+        {
+          "etiqueta": "Sugerencia",
+          "formula": [ {"t": "We / You", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "We", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "go", "rol": "verbo"}, {"t": "to the beach", "rol": "complemento"}, {"t": "tomorrow", "rol": "tiempo"} ],
+          "es": "Podríamos ir a la playa mañana."
+        },
+        {
+          "etiqueta": "Pedir ideas",
+          "formula": [ {"t": "What", "rol": "interrogativo"}, {"t": "could", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "do?", "rol": "verbo"} ],
+          "ejemplo": [ {"t": "What", "rol": "interrogativo"}, {"t": "could", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "do", "rol": "verbo"}, {"t": "this weekend?", "rol": "tiempo"} ],
+          "es": "¿Qué podríamos hacer este fin de semana?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Tres formas de proponer",
+          "columnas": ["Frase", "Tono", "Traducción"],
+          "filas": [
+            ["Let's go to the beach.", "Decidido", "Vamos a la playa."],
+            ["We can go to the beach.", "Directo: es posible", "Podemos ir a la playa."],
+            ["We could go to the beach.", "Suave: una idea entre varias", "Podríamos ir a la playa."]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "We could watch a movie tonight.",
+          "es": "Podríamos ver una película esta noche.",
+          "partes": [ {"t": "We", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "watch", "rol": "verbo"}, {"t": "a movie", "rol": "complemento"}, {"t": "tonight", "rol": "tiempo"} ],
+          "nota": "Tonight deja claro que es una propuesta para el futuro, no algo del pasado."
+        },
+        {
+          "en": "You could take the bus. It's very cheap.",
+          "es": "Podrías tomar el camión. Es muy barato.",
+          "partes": [ {"t": "You", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "take", "rol": "verbo"}, {"t": "the bus.", "rol": "complemento"}, {"t": "It's very cheap", "rol": "otro"} ],
+          "nota": "You could = un consejo amable. Con transporte se usa take: take the bus, take a taxi."
+        },
+        {
+          "en": "What could we do this weekend?",
+          "es": "¿Qué podríamos hacer este fin de semana?",
+          "partes": [ {"t": "What", "rol": "interrogativo"}, {"t": "could", "rol": "auxiliar"}, {"t": "we", "rol": "sujeto"}, {"t": "do", "rol": "verbo"}, {"t": "this weekend", "rol": "tiempo"} ],
+          "nota": "Pregunta abierta para pedir ideas. Do aquí es el verbo «hacer»."
+        },
+        {
+          "en": "We could visit the old town, or we could stay at the hotel.",
+          "es": "Podríamos visitar el centro histórico o quedarnos en el hotel.",
+          "nota": "Could es ideal para presentar varias opciones y dejar que el otro elija."
+        },
+        {
+          "en": "You could ask the receptionist.",
+          "es": "Podrías preguntarle al recepcionista.",
+          "partes": [ {"t": "You", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "ask", "rol": "verbo"}, {"t": "the receptionist", "rol": "complemento"} ],
+          "nota": "Ask + persona, sin preposición: ask the receptionist (no «ask to the receptionist»)."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "We could go.", "ipa": "/wi kəd ˈɡoʊ/", "consejo": "Could se reduce a /kəd/, casi «kd». La fuerza va en go, con su diptongo «ou»." },
+        { "texto": "That sounds great!", "ipa": "/ðæt saʊndz ˈɡreɪt/", "consejo": "Sounds termina en /ndz/: no te comas la z final. Great rima con late, no con «grit»." }
+      ],
+      "errores": [
+        { "mal": "We could to go to the beach.", "bien": "We could go to the beach.", "porque": "Detrás de could no va to." },
+        { "mal": "We could went to the museum tomorrow.", "bien": "We could go to the museum tomorrow.", "porque": "Could no pone el verbo en pasado; además, la sugerencia es para el futuro." },
+        { "mal": "Could go to the beach.", "bien": "We could go to the beach.", "porque": "El sujeto es obligatorio. En español «podríamos» ya lo lleva; en inglés could es igual para todos." }
+      ]
+    },
+    {
+      "id": "could-posibilidad",
+      "titulo": "It could rain: algo es posible",
+      "que_es": "[[Could]] también dice que algo **es posible, pero no seguro**, ahora o en el futuro: [[It could rain]] = «Podría llover» / «Tal vez llueva». [[That could be Tom]] = «Ese podría ser Tom». Sirve para especular: no sabes la respuesta, pero consideras una opción.",
+      "para_que": [
+        "Hablar del clima y de planes inciertos: «Podría llover esta tarde».",
+        "Adivinar quién es o dónde está algo: «Tus llaves podrían estar en el carro».",
+        "Opinar con prudencia: «Eso podría ser verdad»."
+      ],
+      "como_funciona": "**Fórmula:** sujeto + could + verbo base (muy a menudo be) → {{sujeto:It}} {{auxiliar:could}} {{verbo:rain}} {{tiempo:this afternoon}}. / {{sujeto:That}} {{auxiliar:could}} {{verbo:be}} {{complemento:Tom}}.\n\n**El sujeto es obligatorio.** En español decimos «Podría llover» o «Podría ser Tom» sin sujeto. En inglés hace falta [[it]] o [[that]]: [[It could rain]], [[That could be Tom]].\n\n**Can o could para posibilidad:**\n- [[Can]] = posibilidad **general**, algo que a veces ocurre: [[It can be very cold here in January]] (aquí en enero a veces hace mucho frío).\n- [[Could]] = posibilidad **concreta**, en una situación específica: [[It could be cold tonight]] (esta noche podría hacer frío).\nPor eso, para una predicción concreta no se usa can: «It can rain tomorrow» es incorrecto; lo correcto es [[It could rain tomorrow]].\n\n**¿Y si algo es imposible?** Para decir «no puede ser» se usa sobre todo [[can't]]: [[That can't be Tom. He's at work]] (No puede ser Tom; está en el trabajo). Hay más formas de expresar probabilidad (may, might…) que verás más adelante.",
+      "estructuras": [
+        {
+          "etiqueta": "Posibilidad concreta",
+          "formula": [ {"t": "Sujeto (it / that / …)", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "It", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "rain", "rol": "verbo"}, {"t": "this afternoon", "rol": "tiempo"} ],
+          "es": "Podría llover esta tarde."
+        },
+        {
+          "etiqueta": "Adivinar con be",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "be", "rol": "verbo"}, {"t": "persona / lugar / adjetivo", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Your keys", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "be", "rol": "verbo"}, {"t": "in the car", "rol": "complemento"} ],
+          "es": "Tus llaves podrían estar en el carro."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Take an umbrella. It could rain.",
+          "es": "Llévate un paraguas. Podría llover.",
+          "nota": "It es obligatorio aunque en español no haya sujeto. Could rain: posibilidad concreta de hoy."
+        },
+        {
+          "en": "Someone is at the door. That could be Ben.",
+          "es": "Alguien está en la puerta. Podría ser Ben.",
+          "partes": [ {"t": "Someone is at the door.", "rol": "otro"}, {"t": "That", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "be", "rol": "verbo"}, {"t": "Ben", "rol": "complemento"} ],
+          "nota": "That could be… para adivinar quién es. También se dice It could be Ben."
+        },
+        {
+          "en": "This could be a good hotel for us.",
+          "es": "Este podría ser un buen hotel para nosotros.",
+          "partes": [ {"t": "This", "rol": "sujeto"}, {"t": "could", "rol": "auxiliar"}, {"t": "be", "rol": "verbo"}, {"t": "a good hotel for us", "rol": "complemento"} ],
+          "nota": "Opinión prudente: no estás seguro, pero parece una buena opción."
+        },
+        {
+          "en": "It can be very hot here in summer.",
+          "es": "Aquí en verano puede hacer mucho calor.",
+          "partes": [ {"t": "It", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "be", "rol": "verbo"}, {"t": "very hot", "rol": "complemento"}, {"t": "here in summer", "rol": "tiempo"} ],
+          "nota": "Can: posibilidad general (a veces pasa). Compara con It could be hot tomorrow (una predicción concreta)."
+        },
+        {
+          "en": "That can't be Tom. He's at work.",
+          "es": "No puede ser Tom. Está en el trabajo.",
+          "nota": "Para decir que algo es imposible se usa can't."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "can: posibilidad general", "items": ["Algo que a veces ocurre, en general.", "It can be cold here in January.", "Traducción: «puede (llegar a) hacer frío»."] },
+        "b": { "titulo": "could: posibilidad concreta", "items": ["Algo que podría pasar en una situación específica.", "It could be cold tonight.", "Traducción: «podría hacer frío», «tal vez haga frío»."] },
+        "veredicto": "Si hablas de lo que suele ser posible, usa can. Si haces una predicción sobre una situación concreta (hoy, mañana, esa persona), usa could."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Los cinco trabajos de could",
+        "centro": "could",
+        "ramas": [
+          { "texto": "Habilidad en el pasado", "detalle": "At six, I could swim." },
+          { "texto": "Petición cortés", "detalle": "Could you help me?" },
+          { "texto": "Permiso cortés", "detalle": "Could I sit here?" },
+          { "texto": "Sugerencia", "detalle": "We could go to the beach." },
+          { "texto": "Posibilidad", "detalle": "It could rain tonight." }
+        ]
+      },
+      "pronunciacion": [
+        { "texto": "It could rain.", "ipa": "/ɪt kəd ˈreɪn/", "consejo": "Could débil. La r inglesa no vibra: la lengua se curva hacia atrás sin tocar el paladar. Rain lleva el diptongo «ei».", "lento": true },
+        { "texto": "That could be Tom.", "ipa": "/ðæt kəd bi ˈtɑːm/", "consejo": "La th de that es sonora (lengua entre los dientes, con vibración). Tom en EE. UU. suena con una «a» abierta, /tɑːm/; en Reino Unido, /tɒm/." }
+      ],
+      "errores": [
+        { "mal": "It can rain tomorrow.", "bien": "It could rain tomorrow.", "porque": "Para una posibilidad concreta en el futuro se usa could; can es para posibilidades generales." },
+        { "mal": "Could be Tom.", "bien": "That could be Tom.", "porque": "El sujeto es obligatorio en inglés estándar. (En habla muy informal a veces se omite, pero al escribir y como regla general, inclúyelo)." },
+        { "mal": "It could to be true.", "bien": "It could be true.", "porque": "Detrás de could no va to." },
+        { "mal": "Your keys could are in the car.", "bien": "Your keys could be in the car.", "porque": "Después de could va la forma base de be: be, nunca am / is / are." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "could.could-sugerencias-y-posibilidad.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la sugerencia correcta.",
+      "pregunta": "Mei: I'm bored. Tom: ___",
+      "opciones": [
+        { "texto": "We could watch a movie.", "correcta": true, "porque": "Correcto: sugerencia con we could + verbo base." },
+        { "texto": "We could to watch a movie.", "correcta": false, "porque": "Detrás de could no va to." },
+        { "texto": "We could watching a movie.", "correcta": false, "porque": "Después de could va la forma base, no -ing." },
+        { "texto": "We coulds watch a movie.", "correcta": false, "porque": "Could nunca lleva -s." }
+      ],
+      "pistas": [
+        "Tom propone una idea.",
+        "Revisa la forma del verbo después de could.",
+        "Sugerencia: We could + verbo base."
+      ],
+      "solucion": { "respuesta": "We could watch a movie.", "explicacion": "Para proponer una idea se usa we could + verbo en forma base (watch). Sin to, sin -ing y sin -s." },
+      "audio": true
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el significado.",
+      "pregunta": "It could rain this afternoon.",
+      "opciones": [
+        { "texto": "Tal vez llueva esta tarde.", "correcta": true, "porque": "Correcto: could expresa una posibilidad concreta en el futuro." },
+        { "texto": "Llovía esta tarde.", "correcta": false, "porque": "Aquí could no es pasado; this afternoon habla de hoy, más tarde." },
+        { "texto": "Seguro que llueve esta tarde.", "correcta": false, "porque": "Could indica posibilidad, no certeza." },
+        { "texto": "¿Podría llover esta tarde?", "correcta": false, "porque": "No es una pregunta: no hay inversión." }
+      ],
+      "pistas": [
+        "Could tiene varios usos; aquí el sujeto es it y el verbo rain.",
+        "¿Habla del pasado o de algo que puede pasar?",
+        "It could + verbo = es posible, no seguro."
+      ],
+      "solucion": { "respuesta": "Tal vez llueva esta tarde.", "explicacion": "It could rain expresa una posibilidad concreta: no es seguro, pero puede pasar. This afternoon confirma que no se trata del pasado." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con el uso de could.",
+      "pares": [
+        { "a": "We could go to the museum.", "b": "sugerencia" },
+        { "a": "It could be cold tonight.", "b": "posibilidad" },
+        { "a": "I could read at age four.", "b": "habilidad en el pasado" },
+        { "a": "Could you help me, please?", "b": "petición cortés" },
+        { "a": "Could I sit here?", "b": "permiso cortés" }
+      ],
+      "pistas": [
+        "Could tiene cinco trabajos distintos.",
+        "Mira el sujeto y las pistas de tiempo: we, it, at age four, you, I.",
+        "We could = idea; It could = posible; at age… = pasado; Could you = favor; Could I = permiso."
+      ],
+      "solucion": { "respuesta": "museum = sugerencia; cold tonight = posibilidad; at age four = habilidad en el pasado; Could you help me = petición cortés; Could I sit here = permiso cortés.", "explicacion": "El contexto decide: una propuesta con we es sugerencia; it + tonight es posibilidad; at age four sitúa la habilidad en el pasado; Could you… pide un favor y Could I… pide permiso." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la sugerencia.",
+      "texto": "We could go to the beach.",
+      "ipa": "/wi kəd ˈɡoʊ tə ðə ˈbiːtʃ/",
+      "consejo": "Could y to se reducen (/kəd/, /tə/). Beach lleva una «i» LARGA, con los labios estirados: si la acortas, suena a otra palabra muy grosera. Alárgala sin miedo.",
+      "es": "Podríamos ir a la playa."
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con una palabra del banco.",
+      "frase": "Take a jacket. It ___ be cold tonight.",
+      "respuestas": [["could"]],
+      "banco": ["could", "can", "could to", "coulds"],
+      "traduccion": "Llévate una chamarra. Esta noche podría hacer frío.",
+      "pistas": [
+        "Es una predicción sobre una situación concreta: esta noche.",
+        "¿Posibilidad general o concreta?",
+        "Posibilidad concreta: could + verbo base."
+      ],
+      "solucion": { "respuesta": "could", "explicacion": "La respuesta es could porque hablas de una posibilidad concreta (tonight). Can se usa para posibilidades generales (It can be cold here in winter). Could to y coulds no existen." },
+      "errores_tipicos": {
+        "can": "Can es para posibilidades generales. Para una predicción concreta (tonight) se usa could.",
+        "could to": "Detrás de could no va to.",
+        "coulds": "Could nunca lleva -s."
+      }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Suaviza la propuesta.",
+      "origen": "Let's take a taxi.",
+      "instruccion": "Conviértela en una sugerencia más suave con We could…",
+      "respuestas": ["We could take a taxi."],
+      "pistas": [
+        "Let's decide; could propone.",
+        "Sustituye Let's por el sujeto y el modal.",
+        "Sujeto + could + verbo base + resto, como en Let's eat → We could eat."
+      ],
+      "solucion": { "respuesta": "We could take a taxi.", "explicacion": "Let's presenta la idea como una decisión; We could + verbo base la presenta como una opción abierta, más suave." },
+      "errores_tipicos": {
+        "We could to take a taxi.": "Detrás de could no va to.",
+        "Could take a taxi.": "Falta el sujeto we."
+      }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "It can rain tomorrow, so take an umbrella.",
+      "error": "can",
+      "correcciones": ["could", "might", "may"],
+      "frase_correcta": "It could rain tomorrow, so take an umbrella.",
+      "pistas": [
+        "Es una predicción sobre mañana.",
+        "¿Posibilidad general o concreta?",
+        "Posibilidad concreta en el futuro: could."
+      ],
+      "solucion": { "respuesta": "can → could", "explicacion": "Para una posibilidad concreta (mañana) se usa could: It could rain tomorrow. Can expresa posibilidad general (It can rain a lot here in September). May y might también serían correctas; las verás más adelante." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración es un calco del español. Señala la parte incorrecta y corrígela.",
+      "frase": "Someone is at the door. Could be Omar.",
+      "error": "Could be",
+      "correcciones": ["It could be", "That could be"],
+      "frase_correcta": "Someone is at the door. It could be Omar.",
+      "pistas": [
+        "En español decimos «Podría ser Omar», sin sujeto.",
+        "¿A la segunda oración le falta algo?",
+        "En inglés el sujeto es obligatorio: It / That + could be."
+      ],
+      "solucion": { "respuesta": "Could be → It could be", "explicacion": "El inglés necesita sujeto: It could be Omar (o That could be Omar). En conversación muy informal a veces se oye sin sujeto, pero la forma completa es la correcta al escribir y la que debes usar." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para hacer una sugerencia.",
+      "fichas": ["tomorrow", "could", "the", "We", "castle", "visit"],
+      "respuestas": ["We could visit the castle tomorrow", "Tomorrow we could visit the castle"],
+      "traduccion": "Mañana podríamos visitar el castillo.",
+      "pistas": [
+        "Sujeto + modal + verbo.",
+        "Tomorrow puede ir al final o al principio.",
+        "Sujeto + could + verbo + lugar + tiempo, como en We could cook dinner tonight."
+      ],
+      "solucion": { "respuesta": "We could visit the castle tomorrow.", "explicacion": "Sugerencia: we + could + verbo base (visit) + complemento. Tomorrow va al final o al principio." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Hay dos usos distintos de could.",
+      "texto": "It could rain this afternoon, so we could visit the museum.",
+      "pistas": [
+        "La primera parte habla del clima; la segunda propone un plan.",
+        "So = así que. Could suena débil las dos veces.",
+        "It could + verbo + tiempo, so + sujeto + could + verbo + lugar."
+      ],
+      "solucion": { "respuesta": "It could rain this afternoon, so we could visit the museum.", "explicacion": "El primer could expresa posibilidad (podría llover) y el segundo, sugerencia (podríamos visitar). Los dos van seguidos de verbo base." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa could.",
+      "es": "Podríamos ir a la playa mañana.",
+      "respuestas": ["We could go to the beach tomorrow.", "Tomorrow we could go to the beach."],
+      "pistas": [
+        "Es una sugerencia.",
+        "Necesitas el sujeto we; «ir a» = go to.",
+        "Sujeto + could + verbo + a + lugar + tiempo, como en We could go to the park tonight."
+      ],
+      "solucion": { "respuesta": "We could go to the beach tomorrow.", "explicacion": "«Podríamos» es una sugerencia: we could + go (forma base). El sujeto we es obligatorio. Tomorrow puede ir al final o al principio." },
+      "errores_tipicos": {
+        "We could to go to the beach tomorrow.": "Detrás de could no va to.",
+        "Could go to the beach tomorrow.": "Falta el sujeto we.",
+        "We can go to the beach tomorrow.": "Es correcto en inglés, pero es más directo («podemos»). El enunciado pide could («podríamos»)."
+      }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Tu amigo Sam está buscando sus llaves por toda la casa.",
+      "lineas": [
+        { "quien": "Sam", "en": "I can't find my keys!", "es": "¡No encuentro mis llaves!" }
+      ],
+      "opciones": [
+        { "texto": "They could be in your car.", "correcta": true, "porque": "Correcto: posibilidad concreta con could + be." },
+        { "texto": "They can be in your car.", "correcta": false, "porque": "Can es para posibilidades generales; aquí es una situación concreta: could." },
+        { "texto": "They could are in your car.", "correcta": false, "porque": "Después de could va be, en forma base." },
+        { "texto": "Could be in your car they.", "correcta": false, "porque": "El sujeto va al principio: They could be…" }
+      ],
+      "pistas": [
+        "Quieres sugerir un lugar donde podrían estar.",
+        "Es una situación concreta. Revisa también la forma de be.",
+        "Sujeto + could + be + lugar."
+      ],
+      "solucion": { "respuesta": "They could be in your car.", "explicacion": "Especulas sobre una situación concreta: They could be in your car (Podrían estar en tu carro). Could va seguido de be en forma base." }
+    },
+    {
+      "id": "could.could-sugerencias-y-posibilidad.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa could y that.",
+      "es": "Ese podría ser nuestro hotel.",
+      "respuestas": ["That could be our hotel."],
+      "pistas": [
+        "Estás adivinando.",
+        "«Ese» = that, que funciona como sujeto. «Ser» después de could = be.",
+        "Demostrativo + could + be + posesivo + sustantivo, como en This could be your room."
+      ],
+      "solucion": { "respuesta": "That could be our hotel.", "explicacion": "That es el sujeto; could + be (forma base) expresa posibilidad. Nuestro = our." },
+      "errores_tipicos": {
+        "Could be our hotel.": "Falta el sujeto: That could be our hotel.",
+        "That could is our hotel.": "Después de could va be, no is.",
+        "That can be our hotel.": "Para adivinar en una situación concreta se usa could."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Planes para el sábado",
+    "contexto": "Tu amiga Aisha te escribe para hacer planes el sábado. El pronóstico dice que podría llover por la tarde.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Hey! What could we do on Saturday?", "es": "¡Hola! ¿Qué podríamos hacer el sábado?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Aisha", "en": "Good idea! And in the afternoon?", "es": "¡Buena idea! ¿Y en la tarde?" },
+      { "quien": "Tú", "en": "…", "es": "…" }
+    ],
+    "tu_turno": "Propón un plan para la mañana con we could. Luego explica que por la tarde podría llover y propón un plan bajo techo.",
+    "modelo": "We could go to the park in the morning. … It could rain in the afternoon, so we could see a movie or visit the museum.",
+    "alternativas": [
+      "We could have breakfast at the market. … Well, it could rain, so we could stay home and cook something.",
+      "We could ride our bikes by the river. … It could rain later. We could go to a café and play cards."
+    ],
+    "claves": [
+      "Sugerencia: We could + verbo base.",
+      "Posibilidad: It could rain.",
+      "So une la causa con la sugerencia."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Sugerencia: We could / You could + verbo base = podríamos / podrías.",
+      "Let's = decidido; we can = directo; we could = suave, una opción entre varias.",
+      "Posibilidad concreta: It could rain. That could be Tom. Your keys could be in the car.",
+      "Can = posibilidad general (It can be cold here in winter); could = concreta (It could be cold tonight).",
+      "El sujeto es obligatorio: It could rain, no «Could rain»."
+    ],
+    "recuerda": [
+      "En estos usos could NO es pasado.",
+      "Imposible: That can't be Tom.",
+      "Reacciones: Good idea! / That sounds great! / I'm not sure. / Maybe later."
+    ]
+  },
+  "repaso": [
+    { "id": "could.could-sugerencias-y-posibilidad.r1", "frente": "¿Cómo se dice «Podríamos ir a la playa»?", "reverso": "We could go to the beach." },
+    { "id": "could.could-sugerencias-y-posibilidad.r2", "frente": "¿Qué es más suave: Let's go… o We could go…?", "reverso": "We could go…: presenta la idea como una opción.", "nota": "Let's suena a decisión." },
+    { "id": "could.could-sugerencias-y-posibilidad.r3", "frente": "Traduce: Podría llover mañana.", "reverso": "It could rain tomorrow.", "nota": "Nunca «It can rain tomorrow» ni «Could rain tomorrow»." },
+    { "id": "could.could-sugerencias-y-posibilidad.r4", "frente": "¿Can o could? «Aquí en invierno puede hacer mucho frío»", "reverso": "It can be very cold here in winter.", "nota": "Posibilidad general → can." },
+    { "id": "could.could-sugerencias-y-posibilidad.r5", "frente": "Adivina con could: ¿Quién está en la puerta? (tal vez Tom)", "reverso": "That could be Tom. / It could be Tom." }
+  ]
+}

@@ -1,0 +1,1019 @@
+{
+  "slug": "pedir-comida",
+  "titulo": "Pedir en una cafetería o restaurante",
+  "minutos": 45,
+  "objetivos": [
+    "Pedir con cortesía usando I'd like…, Can I have…?, Could I have…? e I'll have…",
+    "Entender las preguntas típicas del mesero: Are you ready to order? Anything to drink? For here or to go?",
+    "Pedir la cuenta: the check (EE. UU.) / the bill (R. U.), y pagar.",
+    "Evitar las formas que suenan bruscas en inglés: I want…, Give me…"
+  ],
+  "situacion": {
+    "titulo": "Cena en un restaurante",
+    "texto": "Carlos y Aisha cenan en un restaurante en Chicago. El mesero, Tom, les toma la orden. Fíjate en que nadie dice I want ni Give me, y en cómo piden la cuenta.",
+    "dialogo": [
+      {
+        "quien": "Tom",
+        "en": "Hi, are you ready to order?",
+        "es": "Hola, ¿están listos para ordenar?"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Yes. I'd like the chicken salad, please.",
+        "es": "Sí. Quisiera la ensalada de pollo, por favor."
+      },
+      {
+        "quien": "Carlos",
+        "en": "Can I have the burger with fries?",
+        "es": "¿Me trae la hamburguesa con papas?"
+      },
+      {
+        "quien": "Tom",
+        "en": "Sure. And what would you like to drink?",
+        "es": "Claro. ¿Y qué les gustaría tomar?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Two glasses of lemonade, please.",
+        "es": "Dos vasos de limonada, por favor."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Excuse me, could we have the check, please?",
+        "es": "Disculpe, ¿nos trae la cuenta, por favor?"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formulas-para-pedir",
+      "titulo": "I'd like…, Can I have…?, Could I have…?, I'll have…",
+      "que_es": "En inglés, pedir comida o bebida tiene fórmulas fijas que marcan la cortesía. En español de México decimos con toda naturalidad «Me da un café» o «Quiero unos tacos»; en inglés, [[I want a coffee]] o [[Give me a coffee]] suenan exigentes, casi groseros, con un desconocido. Las fórmulas correctas usan verbos que estudiarás más adelante (would, can, could, will), pero aquí se aprenden enteras.",
+      "para_que": [
+        "Pedir en una cafetería: Can I have a large coffee, please?",
+        "Ordenar en un restaurante: I'd like the fish, please. I'll have the soup.",
+        "Pedir algo extra: Could I have some more water, please?",
+        "Responder a las preguntas del mesero sin sonar brusco."
+      ],
+      "como_funciona": "**[[I'd like]]** + lo que pides (I'd = I would): «quisiera». No confundas [[I'd like a coffee]] (quisiera un café, ahora) con [[I like coffee]] (me gusta el café, en general). **[[Can I have…?]]**: «¿me da…?», muy común y amable. **[[Could I have…?]]**: igual, un poco más cortés; could lo estudiarás en la unidad 23, pero aquí es solo una fórmula. Con varias personas: [[Could we have…?]], [[Can we have…?]]. **[[I'll have…]]**: muy frecuente al ordenar en restaurante, cuando decides en ese momento ([[I'll have the pasta]]), igual que I'll take it en la tienda. Añade **please** al final o después del objeto. Todo lo que ya sabes de contables e incontables sigue valiendo: [[a coffee]] (una taza), [[some water]], [[a glass of juice]], [[two slices of pizza]]. Para platos concretos del menú se usa **the**: [[I'd like the chicken salad]] (la del menú).",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación cortés",
+          "formula": [
+            {
+              "t": "I'd like / I'll have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lo que pides",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I'd like",
+              "rol": "verbo"
+            },
+            {
+              "t": "a cup of tea,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "es": "Quisiera una taza de té, por favor."
+        },
+        {
+          "etiqueta": "Petición en forma de pregunta",
+          "formula": [
+            {
+              "t": "Can / Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "I / we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lo que pides,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "some napkins,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Nos trae unas servilletas, por favor?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Lo que dice el mesero y lo que contestas",
+          "columnas": [
+            "Mesero",
+            "Significa",
+            "Tú"
+          ],
+          "filas": [
+            [
+              "Are you ready to order?",
+              "¿Listos para ordenar?",
+              "Yes, I'd like… / Not yet, sorry."
+            ],
+            [
+              "What can I get you?",
+              "¿Qué le traigo?",
+              "Can I have…, please?"
+            ],
+            [
+              "Anything to drink?",
+              "¿Algo de tomar?",
+              "A glass of water, please."
+            ],
+            [
+              "Anything else?",
+              "¿Algo más?",
+              "No, that's all, thanks."
+            ],
+            [
+              "For here or to go?",
+              "¿Para comer aquí o para llevar?",
+              "For here. / To go, please."
+            ],
+            [
+              "How is everything?",
+              "¿Qué tal todo?",
+              "It's delicious, thanks."
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'd like a small coffee with milk, please.",
+          "es": "Quisiera un café chico con leche, por favor.",
+          "partes": [
+            {
+              "t": "I'd like",
+              "rol": "verbo"
+            },
+            {
+              "t": "a small coffee",
+              "rol": "complemento"
+            },
+            {
+              "t": "with milk,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "nota": "A coffee = una taza de café (al pedir, coffee se cuenta). I'd like, no I like."
+        },
+        {
+          "en": "Can I have a chocolate muffin?",
+          "es": "¿Me da un panqué de chocolate?",
+          "partes": [
+            {
+              "t": "Can I have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a chocolate muffin?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Chocolate va delante de muffin: el sustantivo que describe va primero (a chocolate muffin, no a muffin of chocolate)."
+        },
+        {
+          "en": "I'll have the soup of the day.",
+          "es": "Voy a querer la sopa del día.",
+          "partes": [
+            {
+              "t": "I'll have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the soup of the day",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "I'll have es la decisión en el momento, típica al ordenar. The porque es un plato concreto del menú."
+        },
+        {
+          "en": "Could I have some more bread, please?",
+          "es": "¿Me podría traer más pan, por favor?",
+          "partes": [
+            {
+              "t": "Could I have",
+              "rol": "verbo"
+            },
+            {
+              "t": "some more bread,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Petición → some (unidad anterior). Could suena un poco más formal que can."
+        },
+        {
+          "en": "No, that's all, thanks.",
+          "es": "No, es todo, gracias.",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "that's all,",
+              "rol": "verbo"
+            },
+            {
+              "t": "thanks",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Respuesta fija a Anything else? No digas Nothing more: suena brusco."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Suena brusco",
+          "items": [
+            "I want a coffee.",
+            "Give me the menu.",
+            "A coffee. (sin please)"
+          ]
+        },
+        "b": {
+          "titulo": "Suena cortés",
+          "items": [
+            "I'd like a coffee, please.",
+            "Could I have the menu, please?",
+            "A coffee, please."
+          ]
+        },
+        "veredicto": "El problema no es la gramática: I want a coffee es correcto. Es el tono. En inglés, la cortesía se construye con fórmulas (I'd like, Can I have, Could I have) y con please."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'd like",
+          "ipa": "/aɪd ˈlaɪk/",
+          "consejo": "La d de I'd es muy breve y casi se funde con la l: «aid-LAIK». Si no la pronuncias, suena I like, que significa otra cosa. Practica: I like / I'd like.",
+          "lento": true
+        },
+        {
+          "texto": "Could I have…?",
+          "ipa": "/kʊd aɪ ˈhæv/",
+          "consejo": "La l de could no se pronuncia: «kud». Could I se une: «ku-DAI». En EE. UU. la d entre vocales suena como la r suave: «ku-rai-HAV»."
+        },
+        {
+          "texto": "Can I have…?",
+          "ipa": "/kən aɪ ˈhæv/",
+          "consejo": "Can es débil (/kən/) y se enlaza con I: «ke-NAI-hav». El golpe fuerte va en have o en lo que pides."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I want a hamburger.",
+          "bien": "I'd like a hamburger, please. / Can I have a hamburger, please?",
+          "porque": "I want es gramaticalmente correcto, pero con un mesero suena exigente. Usa las fórmulas de cortesía."
+        },
+        {
+          "mal": "I like a coffee, please.",
+          "bien": "I'd like a coffee, please.",
+          "porque": "I like = me gusta (en general). Para pedir, I'd like (quisiera)."
+        },
+        {
+          "mal": "Give me the menu.",
+          "bien": "Could I have the menu, please?",
+          "porque": "Give me es una orden; en español «deme» es normal, en inglés suena rudo."
+        },
+        {
+          "mal": "A muffin of chocolate.",
+          "bien": "A chocolate muffin.",
+          "porque": "En inglés el sustantivo que describe va delante: chocolate muffin, orange juice, chicken salad."
+        }
+      ]
+    },
+    {
+      "id": "la-cuenta",
+      "titulo": "La cuenta: the check / the bill",
+      "que_es": "Para pedir la cuenta, la palabra cambia según el país: en **Estados Unidos** se dice [[the check]]; en **Reino Unido**, [[the bill]]. En EE. UU. también se entiende the bill, pero [[a bill]] allí es sobre todo un billete ([[a ten-dollar bill]]) o un recibo de servicios (the electricity bill).",
+      "para_que": [
+        "Pedir la cuenta: Could we have the check, please?",
+        "Pagar: Can I pay by card? / Is the tip included?",
+        "Dividir la cuenta: Can we pay separately?"
+      ],
+      "como_funciona": "Fórmula: {{auxiliar:Could / Can}} + {{sujeto:I / we}} + {{verbo:have}} + {{complemento:the check / the bill}}, {{otro:please}}? Es la misma estructura de pedir comida. En un restaurante también se usa un gesto (hacer como que firmas en el aire) y la frase [[Check, please!]]. Para pagar, lo que viste en la lección 1: [[Can I pay by card?]]. Sobre la propina (**tip**): en EE. UU. y Canadá se espera dejar entre 15 y 20 % en restaurantes con servicio de mesa, y casi nunca va incluida; puedes preguntar [[Is the tip included?]] o [[Is service included?]] (esta última más británica). Para pagar por separado: [[Can we pay separately?]] o, en EE. UU., [[Separate checks, please]]. Y si no quieres cambio: [[Keep the change]].",
+      "estructuras": [
+        {
+          "etiqueta": "Pedir la cuenta",
+          "formula": [
+            {
+              "t": "Could / Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the check / the bill,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the check,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Nos trae la cuenta, por favor?"
+        },
+        {
+          "etiqueta": "Preguntar por la propina",
+          "formula": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "the tip / service",
+              "rol": "sujeto"
+            },
+            {
+              "t": "included?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "the tip",
+              "rol": "sujeto"
+            },
+            {
+              "t": "included?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Está incluida la propina?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Excuse me, can I have the check, please?",
+          "es": "Disculpe, ¿me trae la cuenta, por favor?",
+          "situacion": "En un restaurante en Estados Unidos.",
+          "partes": [
+            {
+              "t": "Excuse me,",
+              "rol": "otro"
+            },
+            {
+              "t": "can I have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the check,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Excuse me para llamar la atención del mesero. Check en EE. UU."
+        },
+        {
+          "en": "Could we have the bill, please?",
+          "es": "¿Nos trae la cuenta, por favor?",
+          "situacion": "En un restaurante en Londres.",
+          "partes": [
+            {
+              "t": "Could we have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the bill,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please?",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Bill en Reino Unido. We porque pides para toda la mesa."
+        },
+        {
+          "en": "Is the tip included?",
+          "es": "¿Ya viene incluida la propina?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "the tip",
+              "rol": "sujeto"
+            },
+            {
+              "t": "included?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta con be: el verbo va delante del sujeto. En EE. UU. normalmente la respuesta es No, it isn't."
+        },
+        {
+          "en": "Keep the change.",
+          "es": "Quédese con el cambio.",
+          "partes": [
+            {
+              "t": "Keep",
+              "rol": "verbo"
+            },
+            {
+              "t": "the change",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Imperativo amable en este contexto: el cambio es para el mesero. Change aquí es el cambio (dinero), incontable."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Estados Unidos",
+          "items": [
+            "the check",
+            "a ten-dollar bill (billete)",
+            "To go, please.",
+            "Separate checks, please."
+          ]
+        },
+        "b": {
+          "titulo": "Reino Unido",
+          "items": [
+            "the bill",
+            "a ten-pound note (billete)",
+            "Take away, please.",
+            "Can we pay separately?"
+          ]
+        },
+        "veredicto": "Los dos se entienden en todas partes, pero si viajas a EE. UU., pide the check y pide la comida to go; en Reino Unido, the bill y take away."
+      },
+      "pronunciacion": [
+        {
+          "texto": "the check",
+          "ipa": "/ðə ˈtʃɛk/",
+          "consejo": "Check empieza con ch como «chile» y tiene una e corta. The antes de consonante se dice débil: /ðə/, con la lengua entre los dientes.",
+          "lento": true
+        },
+        {
+          "texto": "included",
+          "ipa": "/ɪnˈkluːdɪd/",
+          "consejo": "El acento va en -CLU-: in-CLU-did. La terminación -ed suena /ɪd/ porque la palabra termina en d."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The account, please.",
+          "bien": "The check, please. / The bill, please.",
+          "porque": "Account es una cuenta bancaria o de usuario, no la cuenta del restaurante."
+        },
+        {
+          "mal": "Can you bring me the count?",
+          "bien": "Can I have the check, please?",
+          "porque": "Count es contar (verbo) o un conteo. La cuenta es check / bill."
+        },
+        {
+          "mal": "Is the propina included?",
+          "bien": "Is the tip included?",
+          "porque": "Propina se dice tip."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "compras-y-comida.pedir-comida.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta para pedir.",
+      "pregunta": "Mesero: What can I get you? — Tú: ___",
+      "opciones": [
+        {
+          "texto": "I'd like an orange juice, please.",
+          "correcta": true,
+          "porque": "I'd like = quisiera: fórmula cortés para pedir."
+        },
+        {
+          "texto": "I like an orange juice, please.",
+          "correcta": false,
+          "porque": "I like significa «me gusta»: no sirve para pedir."
+        },
+        {
+          "texto": "Give me an orange juice.",
+          "correcta": false,
+          "porque": "Es gramaticalmente correcto, pero suena como una orden; con un mesero es brusco."
+        }
+      ],
+      "pistas": [
+        "Busca la fórmula de cortesía.",
+        "Compara I like y I'd like: una letra cambia el significado.",
+        "Para pedir: I'd like (quisiera) + lo que pides + please."
+      ],
+      "solucion": {
+        "respuesta": "I'd like an orange juice, please.",
+        "explicacion": "I'd like (I would like) es la fórmula cortés para pedir. I like expresa un gusto general, y Give me suena a orden."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona lo que dice el mesero con tu respuesta.",
+      "pares": [
+        {
+          "a": "Are you ready to order?",
+          "b": "Yes, I'll have the pasta."
+        },
+        {
+          "a": "Anything to drink?",
+          "b": "A glass of water, please."
+        },
+        {
+          "a": "For here or to go?",
+          "b": "To go, please."
+        },
+        {
+          "a": "Anything else?",
+          "b": "No, that's all, thanks."
+        },
+        {
+          "a": "How is everything?",
+          "b": "It's delicious, thanks."
+        }
+      ],
+      "pistas": [
+        "Cada pregunta corresponde a un momento de la comida.",
+        "to go = para llevar; Anything else? = ¿algo más?; How is everything? = ¿qué tal todo?",
+        "Responde a la función de cada pregunta: para ordenar, anuncias tu plato con will; para beber, pides un recipiente de algo; aquí o para llevar, eliges; algo más, cierras el pedido; qué tal todo, das una opinión."
+      ],
+      "solucion": {
+        "respuesta": "ready to order → I'll have the pasta · to drink → a glass of water · here or to go → To go · anything else → that's all · how is everything → delicious",
+        "explicacion": "Cada pregunta del mesero tiene una respuesta natural: ordenar con I'll have, pedir bebida, elegir para llevar, cerrar la orden con that's all y valorar la comida."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a, an o some.",
+      "frase": "I'd like ___ omelet, ___ toast and ___ cup of coffee, please.",
+      "traduccion": "Quisiera un omelette, pan tostado y una taza de café, por favor.",
+      "respuestas": [
+        [
+          "an"
+        ],
+        [
+          "some"
+        ],
+        [
+          "a"
+        ]
+      ],
+      "banco": [
+        "a",
+        "an",
+        "some"
+      ],
+      "errores_tipicos": {
+        "a | some | a": "Omelet empieza con sonido vocálico: an omelet.",
+        "an | a | a": "Toast (pan tostado) es incontable: some toast. (A toast es un brindis.)"
+      },
+      "pistas": [
+        "Contable singular → a / an; incontable → some.",
+        "Toast como comida es incontable. Mira el primer sonido de omelet.",
+        "Contable singular → a (an antes de sonido vocálico); incontable → some."
+      ],
+      "solucion": {
+        "respuesta": "an … some … a",
+        "explicacion": "Omelet es contable y empieza con sonido vocálico: an. Toast (pan tostado) es incontable: some toast; a toast significa un brindis. Cup es contable: a cup of coffee."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Esta petición suena brusca. Reescríbela con Can I have…, please? sin cambiar lo que pides.",
+      "origen": "I want two tacos and a lemonade.",
+      "instruccion": "Con Can I have…, please?",
+      "respuestas": [
+        "Can I have two tacos and a lemonade, please?",
+        "Please can I have two tacos and a lemonade?"
+      ],
+      "errores_tipicos": {
+        "Can I have two taco and a lemonade, please?": "Con two, tacos en plural.",
+        "Can I want two tacos and a lemonade, please?": "La fórmula es Can I have, no Can I want."
+      },
+      "pistas": [
+        "Sustituye I want por la fórmula de petición.",
+        "Can I have + lo mismo que pedías + please.",
+        "Can I have + los mismos productos + , please?, como en Can I have a burger and a soda, please?"
+      ],
+      "solucion": {
+        "respuesta": "Can I have two tacos and a lemonade, please?",
+        "explicacion": "Can I have…? convierte la exigencia en una petición cortés, y please completa el tono. Lo que pides no cambia."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Estás en un restaurante en Estados Unidos. Señala la palabra incorrecta y corrígela.",
+      "frase": "Excuse me, could we have the account, please?",
+      "error": "account",
+      "correcciones": [
+        "check",
+        "bill"
+      ],
+      "frase_correcta": "Excuse me, could we have the check, please?",
+      "pistas": [
+        "Es un calco de «la cuenta».",
+        "Account es una cuenta bancaria o de usuario.",
+        "En EE. UU. la cuenta del restaurante tiene una palabra propia (en el Reino Unido es bill); es la misma palabra que el verbo «revisar»."
+      ],
+      "solucion": {
+        "respuesta": "check",
+        "explicacion": "Account no se usa para la cuenta del restaurante. En EE. UU. se dice the check (en Reino Unido, the bill). El resto de la frase es una petición muy cortés."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "have",
+        "we",
+        "Could",
+        "the",
+        "check",
+        "please"
+      ],
+      "respuestas": [
+        "Could we have the check please"
+      ],
+      "traduccion": "¿Nos trae la cuenta, por favor?",
+      "pistas": [
+        "Es una petición en forma de pregunta.",
+        "Could + sujeto + have + lo que pides + please.",
+        "Could + sujeto + have + lo que pides + please?, como en Could I have the menu, please?"
+      ],
+      "solucion": {
+        "respuesta": "Could we have the check, please?",
+        "explicacion": "Could va primero, luego el sujeto we (pides para la mesa), have, lo que pides y please al final."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa I'd like.",
+      "es": "Quisiera la ensalada de pollo y un vaso de agua, por favor.",
+      "respuestas": [
+        "I'd like the chicken salad and a glass of water, please.",
+        "I'd like the chicken salad and a glass of water please."
+      ],
+      "errores_tipicos": {
+        "I like the chicken salad and a glass of water, please.": "I like = me gusta. Para pedir: I'd like.",
+        "I'd like the salad of chicken and a glass of water, please.": "En inglés el sustantivo que describe va delante: chicken salad.",
+        "I'd like the chicken salad and a glass water, please.": "Falta of: a glass of water."
+      },
+      "pistas": [
+        "Fórmula de cortesía + plato del menú + bebida con su medida.",
+        "«Ensalada de pollo» se forma con dos sustantivos: ¿cuál va primero?",
+        "I'd like + plato (el sustantivo que describe va primero) + and a + recipiente + of + bebida, please, como en I'd like the beef soup and a cup of coffee, please."
+      ],
+      "solucion": {
+        "respuesta": "I'd like the chicken salad and a glass of water, please.",
+        "explicacion": "I'd like para pedir. Chicken salad: el sustantivo que describe (chicken) va delante. The porque es un plato del menú. A glass of water, con of."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.08",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés (estás en Estados Unidos). Usa Could we.",
+      "es": "¿Nos trae la cuenta, por favor? ¿Está incluida la propina?",
+      "respuestas": [
+        "Could we have the check, please? Is the tip included?",
+        "Could we have the check please? Is the tip included?",
+        "Could we get the check, please? Is the tip included?"
+      ],
+      "errores_tipicos": {
+        "Could we have the account, please? Is the tip included?": "La cuenta del restaurante es the check, no the account.",
+        "Could we have the check, please? The tip is included?": "Pregunta con be: el verbo va primero: Is the tip included?",
+        "Could we have the check, please? Is the propina included?": "Propina es tip."
+      },
+      "pistas": [
+        "Dos preguntas: una petición y una pregunta con be.",
+        "La cuenta en EE. UU. es the check; propina es tip.",
+        "Could we have + la cuenta, please? + Is + sujeto + participio?, como en Could we have the menu, please? Is breakfast included?"
+      ],
+      "solucion": {
+        "respuesta": "Could we have the check, please? Is the tip included?",
+        "explicacion": "Could we have… please? es la petición cortés. En EE. UU. la cuenta es the check. La segunda es una pregunta con be: Is va antes del sujeto the tip."
+      }
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.09",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "En una cafetería en Seattle. Pediste un café y un muffin para llevártelos a la oficina.",
+      "lineas": [
+        {
+          "quien": "Empleada",
+          "en": "Is that for here or to go?",
+          "es": "¿Es para aquí o para llevar?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "To go, please.",
+          "correcta": true,
+          "porque": "To go = para llevar, lo que necesitas. Please mantiene el tono amable."
+        },
+        {
+          "texto": "For here, please.",
+          "correcta": false,
+          "porque": "For here es para comer ahí; tú te lo llevas a la oficina."
+        },
+        {
+          "texto": "For carry, please.",
+          "correcta": false,
+          "porque": "Es un calco de «para llevar». En EE. UU. se dice to go (en R. U., take away)."
+        },
+        {
+          "texto": "I want to go.",
+          "correcta": false,
+          "porque": "Significa «quiero irme», no «para llevar»."
+        }
+      ],
+      "pistas": [
+        "Te llevas la comida.",
+        "La empleada te da dos opciones: elige una de ellas.",
+        "Aquí = for here; para llevar es una expresión de dos palabras con el verbo «ir»."
+      ],
+      "solucion": {
+        "respuesta": "To go, please.",
+        "explicacion": "La empleada pregunta si es para aquí (for here) o para llevar (to go). Como te lo llevas, To go, please."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la orden y escríbela.",
+      "texto": "Could I have a cheese sandwich and a large iced tea, please?",
+      "pistas": [
+        "Empieza con la fórmula más cortés para pedir.",
+        "Pide un sándwich y una bebida grande y fría.",
+        "Petición cortés: Could I have + a + comida + and + a + tamaño + bebida, please? Iced tea es té helado."
+      ],
+      "solucion": {
+        "respuesta": "Could I have a cheese sandwich and a large iced tea, please?",
+        "explicacion": "Could I have… please? es la petición cortés. Cheese sandwich (el sustantivo que describe va delante) y a large iced tea (té helado, con -ed)."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.11",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe el diálogo de una comida en un restaurante.",
+      "objetivo": "Pedir comida y bebida con fórmulas corteses y pedir la cuenta.",
+      "instrucciones": "Escribe un diálogo breve (50–90 palabras) entre un mesero y tú en un restaurante de Estados Unidos. Incluye: el saludo del mesero, tu orden con I'd like o I'll have, una bebida con una medida (a glass of, a cup of, a bottle of), una petición con Can I have o Could I have, y al final pide la cuenta.",
+      "vocabulario_apoyo": [
+        "Are you ready to order?",
+        "Anything to drink?",
+        "Anything else?",
+        "a glass of / a cup of / a bottle of",
+        "the check",
+        "Is the tip included?",
+        "That's all, thanks."
+      ],
+      "estructuras": [
+        "I'd like the…, please.",
+        "I'll have…",
+        "Can I have some…, please?",
+        "Could we have the check, please?"
+      ],
+      "ejemplo": "Barista: Hi! What can I get you? — Diego: Can I have a large coffee with milk, please? — Barista: Sure. Anything else? — Diego: Yes, a blueberry muffin. — Barista: For here or to go? — Diego: For here, thanks.",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Pides con I'd like o I'll have",
+          "patron": "\\b(i'd like|i would like|i'll have|i will have)\\b"
+        },
+        {
+          "descripcion": "Usas Can I have o Could I have / Could we have",
+          "patron": "\\b(can|could) (i|we) have\\b"
+        },
+        {
+          "descripcion": "Incluyes una medida o envase con of",
+          "patron": "\\b(glass|cup|bottle|slice|piece|bowl) of\\b"
+        },
+        {
+          "descripcion": "Pides la cuenta (check o bill)",
+          "patron": "\\bthe (check|bill)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Evitaste I want y Give me?",
+        "¿Usaste please en tus peticiones?",
+        "¿Los incontables van con some o con una medida (a glass of water), nunca con a?",
+        "¿Los platos del menú llevan the (the chicken salad)?",
+        "¿Pediste the check (EE. UU.)?"
+      ],
+      "modelo": "Waiter: Good evening! Are you ready to order? — Me: Yes. I'd like the fish tacos, please. — Waiter: Anything to drink? — Me: A glass of lemonade, please. — Waiter: Here you are. How is everything? — Me: It's delicious, thanks. Could I have some more napkins, please? — Waiter: Sure. Anything else? — Me: No, that's all. Could we have the check, please? Is the tip included? — Waiter: No, it isn't.",
+      "explicacion": "El modelo sigue el orden real de una comida. Pide con I'd like y the (plato del menú), la bebida con una medida (a glass of lemonade) y algo extra con Could I have some more…, please? (some porque es una petición). Responde a Anything else? con That's all. Pide la cuenta con la palabra estadounidense the check y pregunta por la propina con Is…included?",
+      "errores_comunes": [
+        "Usar I want o Give me (suena brusco).",
+        "Escribir I like en lugar de I'd like.",
+        "Pedir a water o a bread en lugar de a glass of water o some bread.",
+        "Decir the account en lugar de the check / the bill."
+      ]
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Haz que se oiga la d de I'd.",
+      "texto": "I'd like a coffee, please. I like coffee a lot.",
+      "ipa": "/aɪd ˈlaɪk ə ˈkɑːfi pliːz ‖ aɪ ˈlaɪk ˈkɑːfi ə ˈlɑːt/",
+      "consejo": "La única diferencia entre las dos oraciones al inicio es la /d/ de I'd: tócala con la punta de la lengua detrás de los dientes antes de like. Coffee lleva el acento en la primera sílaba, con una a abierta en EE. UU.: «KA-fi».",
+      "es": "Quisiera un café, por favor. Me gusta mucho el café."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En la cafetería",
+    "contexto": "Entras a una cafetería en Nueva York con una amiga. La barista, Lucía, te atiende.",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "Hi! What can I get you?",
+        "es": "¡Hola! ¿Qué les doy?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Lucía",
+        "en": "Sure. Anything else? For here or to go?",
+        "es": "Claro. ¿Algo más? ¿Para aquí o para llevar?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Pide dos bebidas y algo de comer para ti y tu amiga (usa Can I have… o I'd like…). Después contesta a Anything else? y a For here or to go?, y pregunta si puedes pagar con tarjeta.",
+    "modelo": "Hi! Can I have two large lattes and a slice of banana bread, please? — No, that's all, thanks. For here. Can I pay by card?",
+    "alternativas": [
+      "I'd like a cup of tea and a hot chocolate, please. And two cookies. — That's all. To go, please. Can I pay by card?",
+      "Could we have two iced coffees and a piece of carrot cake, please? — No, thanks. For here. Can I pay in cash?"
+    ],
+    "claves": [
+      "Fórmulas: Can I have / Could we have / I'd like + please.",
+      "Incontables con medida: a slice of…, a piece of…, a cup of…",
+      "For here / to go (EE. UU.)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pedir: I'd like…, Can I have…?, Could I have…?, I'll have… + please.",
+      "I'd like (quisiera) ≠ I like (me gusta).",
+      "La cuenta: the check (EE. UU.) / the bill (R. U.).",
+      "Para llevar: to go (EE. UU.) / take away (R. U.)."
+    ],
+    "recuerda": [
+      "I want y Give me son correctos, pero suenan bruscos al pedir.",
+      "Los platos del menú llevan the: I'll have the soup.",
+      "El sustantivo que describe va delante: chicken salad, orange juice.",
+      "En EE. UU. la propina (tip) no suele estar incluida."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "compras-y-comida.pedir-comida.r1",
+      "frente": "¿I like o I'd like para pedir?",
+      "reverso": "I'd like (quisiera)",
+      "nota": "I like = me gusta."
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.r2",
+      "frente": "Pide la cuenta en EE. UU.",
+      "reverso": "Could we have the check, please?",
+      "nota": "En R. U.: the bill."
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.r3",
+      "frente": "Hazlo cortés: I want a coffee.",
+      "reverso": "Can I have a coffee, please? / I'd like a coffee, please.",
+      "nota": "Please forma parte de la cortesía."
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.r4",
+      "frente": "«Para llevar» en EE. UU.",
+      "reverso": "to go",
+      "nota": "R. U.: take away."
+    },
+    {
+      "id": "compras-y-comida.pedir-comida.r5",
+      "frente": "«ensalada de pollo»",
+      "reverso": "chicken salad",
+      "nota": "El sustantivo que describe va delante."
+    }
+  ]
+}

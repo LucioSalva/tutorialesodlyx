@@ -1,0 +1,312 @@
+{
+  "titulo": "Evaluación: sonidos y alfabeto",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "sonidos-y-alfabeto.eval.01",
+      "leccion": "como-suena-el-ingles",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Lee la transcripción y elige la palabra.",
+      "pregunta": "¿Qué palabra se transcribe /kʌp/?",
+      "opciones": [
+        {"texto": "cup (taza)", "correcta": true, "porque": "Correcto: /ʌ/ es la vocal corta y floja que en cup se escribe con u."},
+        {"texto": "cap (gorra)", "correcta": false, "porque": "No: cap se transcribe /kæp/, con la a muy abierta /æ/."},
+        {"texto": "cop (policía, coloquial)", "correcta": false, "porque": "No: cop se transcribe /kɑːp/ en inglés estadounidense, con una a larga y abierta."}
+      ],
+      "pistas": [
+        "Lee el símbolo vocálico sin pensar en letras.",
+        "/ʌ/ es el sonido de son y sun.",
+        "Regla: /ʌ/ se escribe a menudo con u (cup, bus, sun) y a veces con o (son)."
+      ],
+      "solucion": {"respuesta": "cup (taza)", "explicacion": "/kʌp/ tiene la vocal /ʌ/, corta y relajada, la misma de sun y bus. cap lleva /æ/ y cop lleva /ɑː/: tres vocales distintas que en español serían casi la misma a."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.02",
+      "leccion": "como-suena-el-ingles",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Cuál de estas transcripciones contiene una vocal larga?",
+      "opciones": [
+        {"texto": "/fuːd/ (food)", "correcta": true, "porque": "Correcto: los dos puntos ː después de u indican vocal larga."},
+        {"texto": "/bʊk/ (book)", "correcta": false, "porque": "No: /ʊ/ es la u corta; no lleva ː."},
+        {"texto": "/bɪɡ/ (big)", "correcta": false, "porque": "No: /ɪ/ es la i corta; no lleva ː."}
+      ],
+      "pistas": [
+        "Busca el símbolo que marca la longitud.",
+        "Solo una de las tres transcripciones tiene dos puntos.",
+        "Regla: ː después de una vocal = vocal larga y tensa."
+      ],
+      "solucion": {"respuesta": "/fuːd/ (food)", "explicacion": "Solo /fuːd/ lleva ː. Fíjate en que food y book se escriben las dos con oo pero suenan distinto: /uː/ larga en food y /ʊ/ corta en book. La ortografía no basta; el AFI sí."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.03",
+      "leccion": "como-suena-el-ingles",
+      "habilidad": "interpretacion",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada palabra con la forma en que se acentúa (la sílaba fuerte va en mayúsculas).",
+      "pares": [
+        {"a": "hotel /hoʊˈtel/", "b": "ho-TEL"},
+        {"a": "animal /ˈænɪməl/", "b": "A-ni-mal"},
+        {"a": "computer /kəmˈpjuːtər/", "b": "com-PU-ter"},
+        {"a": "Canada /ˈkænədə/", "b": "CA-na-da"}
+      ],
+      "pistas": [
+        "Busca la marca ˈ en cada transcripción.",
+        "La sílaba fuerte es la que va justo después de ˈ.",
+        "Regla: ˈ se coloca ANTES de la sílaba acentuada."
+      ],
+      "solucion": {"respuesta": "hotel–ho-TEL · animal–A-ni-mal · computer–com-PU-ter · Canada–CA-na-da", "explicacion": "La marca ˈ indica la sílaba fuerte: en hotel va antes de tel; en animal y Canada, al principio; en computer, antes de pju. Las demás sílabas se debilitan, a menudo hasta la schwa /ə/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.04",
+      "leccion": "como-suena-el-ingles",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las transcripciones con el símbolo correcto del banco.",
+      "frase": "sit (sentarse) = /s___t/ · seat (asiento) = /s___t/",
+      "banco": ["iː", "ɪ", "eɪ", "aɪ"],
+      "respuestas": [["ɪ"], ["iː"]],
+      "errores_tipicos": {
+        "iː | ɪ": "Están al revés: sit, con una sola i, lleva la i corta /ɪ/; seat, con ea, la i larga /iː/."
+      },
+      "pistas": [
+        "Es un par corto/largo como ship/sheep.",
+        "¿Cuál de las dos palabras tiene la vocal escrita con dos letras?",
+        "Regla: /ɪ/ corta y relajada; /iː/ larga y tensa, marcada con ː."
+      ],
+      "solucion": {"respuesta": "/sɪt/ · /siːt/", "explicacion": "sit lleva la i corta /ɪ/ y seat la larga /iː/. Si alargas la vocal de sit, pides un asiento en lugar de pedir a alguien que se siente."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.05",
+      "leccion": "el-alfabeto",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Una estudiante deletrea su nombre. Escucha y escribe el nombre.",
+      "texto": "P, R, I, Y, A.",
+      "respuestas": ["Priya"],
+      "pistas": [
+        "Son cinco letras. Atención a las dos que suenan «ai».",
+        "Una de ellas empieza con /w/: «uai».",
+        "Regla: /aɪ/ = I; /waɪ/ = Y; /eɪ/ = A."
+      ],
+      "solucion": {"respuesta": "Priya", "explicacion": "Oíste /piː/ /ɑːr/ /aɪ/ /waɪ/ /eɪ/: P, R, I, Y, A. La I (/aɪ/) y la Y (/waɪ/) solo se distinguen por la /w/ del principio."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.06",
+      "leccion": "el-alfabeto",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha cómo deletrean un nombre y escríbelo.",
+      "texto": "A, I, S, H, A.",
+      "respuestas": ["Aisha"],
+      "pistas": [
+        "Empieza y termina con la misma letra.",
+        "La cuarta letra se llama «eich».",
+        "Regla: /eɪ/ = A, /aɪ/ = I, /es/ = S, /eɪtʃ/ = H."
+      ],
+      "solucion": {"respuesta": "Aisha", "explicacion": "Oíste /eɪ/ /aɪ/ /es/ /eɪtʃ/ /eɪ/: A, I, S, H, A. La trampa es que A /eɪ/ y H /eɪtʃ/ empiezan igual, y que la I suena «ai»."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.07",
+      "leccion": "el-alfabeto",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Cómo se lee en inglés la sigla ID (identificación)?",
+      "opciones": [
+        {"texto": "/aɪ diː/", "correcta": true, "porque": "Correcto: I se llama /aɪ/ y D se llama /diː/: «ai-di»."},
+        {"texto": "/iː diː/", "correcta": false, "porque": "No: /iː/ es el nombre de la E, no de la I."},
+        {"texto": "/aɪ deɪ/", "correcta": false, "porque": "No: la D pertenece al grupo /iː/ (B, C, D, E…): se llama /diː/."}
+      ],
+      "pistas": [
+        "Las siglas se leen letra por letra con el nombre inglés de cada una.",
+        "Recuerda cómo se llaman la I y la D.",
+        "Regla: la I se llama como la palabra I (yo); la D rima con B, C y E."
+      ],
+      "solucion": {"respuesta": "/aɪ diː/", "explicacion": "ID se lee con los nombres ingleses de sus letras: I /aɪ/ + D /diː/. Es una sigla muy útil en aeropuertos, bancos y hoteles."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.08",
+      "leccion": "el-alfabeto",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés esta petición amable. Usa spell y termina con please.",
+      "es": "¿Me lo puedes deletrear, por favor?",
+      "respuestas": ["Can you spell that, please?", "Can you spell it, please?", "Could you spell that, please?", "Could you spell it, please?"],
+      "errores_tipicos": {
+        "You can spell that, please?": "Así es una afirmación («Tú puedes deletrearlo»). En la pregunta, can va antes de you: Can you…?",
+        "Can you spell, please?": "Falta decir qué hay que deletrear: that (eso) o it (lo)."
+      },
+      "pistas": [
+        "Es la versión cortés de How do you spell that?",
+        "Empieza con Can you… y pon please al final.",
+        "Estructura: Can + sujeto + verbo + lo que se deletrea + please?"
+      ],
+      "solucion": {"respuesta": "Can you spell that, please?", "explicacion": "Can you…? es la forma de pedir algo con amabilidad: «¿puedes…?». spell = deletrear, that = eso (lo que acaba de decir la otra persona) y please al final suaviza la petición. También valen it en lugar de that y could en lugar de can."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.09",
+      "leccion": "el-alfabeto",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige lo más adecuado para continuar.",
+      "contexto": "Apuntas los nombres para una reservación. Un cliente te dice su nombre y no sabes cómo se escribe el apellido.",
+      "lineas": [
+        {"quien": "Diego", "en": "My name is Diego Ruiz.", "es": "Me llamo Diego Ruiz."}
+      ],
+      "opciones": [
+        {"texto": "How do you spell your last name?", "correcta": true, "porque": "Correcto: pides que deletree el apellido (last name) con la frase fija de la lección."},
+        {"texto": "How you spell your last name?", "correcta": false, "porque": "Falta do: la pregunta correcta es How do you spell…?"},
+        {"texto": "What is your name?", "correcta": false, "porque": "Ya te dijo su nombre; lo que necesitas es que lo deletree."}
+      ],
+      "pistas": [
+        "Necesitas las letras, no el nombre.",
+        "Busca la opción con la frase completa de la lección.",
+        "Regla: para pedir que deletreen se usa la frase fija con how, do y spell, completa."
+      ],
+      "solucion": {"respuesta": "How do you spell your last name?", "explicacion": "Lo que te falta es la ortografía del apellido, así que pides que lo deletree: How do you spell your last name? La opción sin do no es correcta y preguntar el nombre no tiene sentido porque ya lo dijo."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.10",
+      "leccion": "el-alfabeto",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para pedir con amabilidad que te deletreen algo.",
+      "fichas": ["that", "Can", "please", "spell", "you"],
+      "respuestas": ["Can you spell that, please?"],
+      "traduccion": "¿Me lo puedes deletrear, por favor?",
+      "pistas": [
+        "Es una petición que empieza con can.",
+        "Después de Can va la persona (you) y luego el verbo.",
+        "Estructura: Can + sujeto + verbo + lo que se deletrea, + please?"
+      ],
+      "solucion": {"respuesta": "Can you spell that, please?", "explicacion": "La petición empieza por Can, sigue con you y el verbo spell; that es lo que se deletrea y please cierra la frase para que suene amable."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.11",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "Oyes /deɪ/: la lengua corta el aire como una d española. ¿Qué palabra es?",
+      "opciones": [
+        {"texto": "day (día)", "correcta": true, "porque": "Correcto: /d/ corta el aire. they sería /ðeɪ/, con la lengua entre los dientes y el aire pasando."},
+        {"texto": "they (ellos)", "correcta": false, "porque": "No: they empieza con /ð/, con la lengua entre los dientes. Si la cambias por d, dices day."},
+        {"texto": "the (el, la)", "correcta": false, "porque": "No: the es /ðə/, con th sonora y una schwa, no /eɪ/."}
+      ],
+      "pistas": [
+        "Fíjate en el primer símbolo: ¿/d/ o /ð/?",
+        "La transcripción empieza por /d/, la d de «dedo».",
+        "Regla: /d/ = d; /ð/ = th sonora. day /deɪ/ ≠ they /ðeɪ/."
+      ],
+      "solucion": {"respuesta": "day (día)", "explicacion": "/deɪ/ empieza con d, así que es day. they es /ðeɪ/. Por eso, si dices they con d, tu oyente entiende day."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.12",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con sh o ch.",
+      "frase": "___oes (zapatos) · ___eese (queso)",
+      "banco": ["sh", "ch"],
+      "respuestas": [["sh"], ["ch"]],
+      "errores_tipicos": {
+        "ch | sh": "Están al revés: shoes (zapatos) empieza con /ʃ/, sh; cheese (queso) con /tʃ/, ch."
+      },
+      "pistas": [
+        "Una palabra empieza con aire continuo (shhh) y la otra con un pequeño golpe.",
+        "El queso empieza como «chile».",
+        "Regla: /ʃ/ (aire continuo) se escribe sh; /tʃ/ (con un pequeño golpe) se escribe ch."
+      ],
+      "solucion": {"respuesta": "shoes · cheese", "explicacion": "shoes /ʃuːz/ empieza con /ʃ/, el sonido de pedir silencio; cheese /tʃiːz/ empieza con /tʃ/, como la ch española. Fíjate en que las dos terminan en /z/ aunque se escriban con s."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.13",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra mal escrita y corrígela.",
+      "frase": "My name is Ben and I'm a new estudent.",
+      "error": "estudent",
+      "correcciones": ["student"],
+      "frase_correcta": "My name is Ben and I'm a new student.",
+      "pistas": [
+        "Una palabra tiene una letra de más al principio.",
+        "Busca la palabra que en español empieza por es-.",
+        "Regla: en inglés las palabras pueden empezar con s + consonante: student, school, Spain."
+      ],
+      "solucion": {"respuesta": "My name is Ben and I'm a new student.", "explicacion": "La palabra correcta es student /ˈstuːdənt/, sin e: en inglés las palabras pueden empezar por s + consonante. La frase significa «Me llamo Ben y soy un estudiante nuevo»."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.14",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha las cuatro palabras y escríbelas en orden, separadas por comas.",
+      "texto": "very, berry, vote, boat",
+      "pistas": [
+        "Son dos pares: en cada uno cambia solo la primera consonante.",
+        "Escucha si hay cosquilleo en el labio (v) o una pequeña explosión con los dos labios (b).",
+        "Regla: /v/ se escribe v; /b/ se escribe b. En inglés no suenan igual."
+      ],
+      "solucion": {"respuesta": "very, berry, vote, boat", "explicacion": "Oíste /ˈveri/ (muy), /ˈberi/ (baya), /voʊt/ (votar) y /boʊt/ (barco). La v se hace con los dientes sobre el labio y la b con los dos labios."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.15",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿En cuál de estas palabras la letra s suena /z/?",
+      "opciones": [
+        {"texto": "easy /ˈiːzi/", "correcta": true, "porque": "Correcto: la transcripción muestra /z/ aunque se escriba s."},
+        {"texto": "bus /bʌs/", "correcta": false, "porque": "No: en bus la s suena /s/, sin vibración."},
+        {"texto": "desk /desk/", "correcta": false, "porque": "No: en desk la s suena /s/, como en español."}
+      ],
+      "pistas": [
+        "Mira la transcripción, no la letra.",
+        "Busca el símbolo /z/.",
+        "Regla: la letra s puede sonar /s/ o /z/; el AFI te dice cuál."
+      ],
+      "solucion": {"respuesta": "easy /ˈiːzi/", "explicacion": "En easy la s está entre vocales y suena /z/, con zumbido. En bus y desk suena /s/. Otras palabras con s = /z/: is, his, rose."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.eval.16",
+      "leccion": "sonidos-nuevos",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 3,
+      "enunciado": "Une cada palabra con el símbolo de su sonido especial: la th de think, la th de mother, la sh de shop, la z de zero y la v de very.",
+      "pares": [
+        {"a": "think", "b": "/θ/"},
+        {"a": "mother", "b": "/ð/"},
+        {"a": "shop", "b": "/ʃ/"},
+        {"a": "zero", "b": "/z/"},
+        {"a": "very", "b": "/v/"}
+      ],
+      "pistas": [
+        "Hay dos th: una sin voz y otra con voz.",
+        "think es una palabra de contenido que empieza por th; mother lleva th entre vocales.",
+        "Regla: la th tiene dos símbolos, /θ/ sin voz y /ð/ con voz; /ʃ/ es aire continuo, /z/ zumba y /v/ se hace con los dientes sobre el labio."
+      ],
+      "solucion": {"respuesta": "think /θ/ · mother /ð/ · shop /ʃ/ · zero /z/ · very /v/", "explicacion": "think lleva la th sorda /θ/ y mother la sonora /ð/. shop empieza con /ʃ/, zero con /z/ y very con /v/. Son cinco de los sonidos que el español de México no tiene."}
+    }
+  ]
+}

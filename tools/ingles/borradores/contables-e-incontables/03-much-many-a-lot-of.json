@@ -1,0 +1,1284 @@
+{
+  "slug": "much-many-a-lot-of",
+  "titulo": "Much, many, a lot of",
+  "minutos": 40,
+  "objetivos": [
+    "Usar many con contables en plural y much con incontables, sobre todo en negaciones y preguntas.",
+    "Usar a lot of en oraciones afirmativas con los dos tipos de sustantivo.",
+    "Preguntar cantidades con How much…? y How many…?",
+    "Usar a few (contables) y a little (incontables) para cantidades pequeñas."
+  ],
+  "situacion": {
+    "titulo": "Una encuesta sobre hábitos",
+    "texto": "Aisha hace una encuesta de salud en la universidad y entrevista a Tom. Fíjate en que pregunta How much con lo que no se cuenta y How many con lo que sí, y en que Tom usa a lot of al afirmar y much / many al negar.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "How much water do you drink a day?",
+        "es": "¿Cuánta agua tomas al día?"
+      },
+      {
+        "quien": "Tom",
+        "en": "Not much. Maybe two glasses. But I drink a lot of coffee.",
+        "es": "No mucha. Unos dos vasos. Pero tomo mucho café."
+      },
+      {
+        "quien": "Aisha",
+        "en": "How many cups of coffee?",
+        "es": "¿Cuántas tazas de café?"
+      },
+      {
+        "quien": "Tom",
+        "en": "Five or six. I don't sleep many hours.",
+        "es": "Cinco o seis. No duermo muchas horas."
+      },
+      {
+        "quien": "Aisha",
+        "en": "And do you eat much fruit?",
+        "es": "¿Y comes mucha fruta?"
+      },
+      {
+        "quien": "Tom",
+        "en": "A little. A few apples a week.",
+        "es": "Un poco. Unas cuantas manzanas a la semana."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "much-many-a-lot",
+      "titulo": "Many, much y a lot of: «mucho»",
+      "que_es": "El español tiene una sola palabra que cambia de forma: mucho, mucha, muchos, muchas. El inglés elige según el tipo de sustantivo y el tipo de oración: [[many]] con contables en plural, [[much]] con incontables, y [[a lot of]] con los dos, sobre todo en afirmaciones.",
+      "para_que": [
+        "Decir que hay o tienes mucho de algo: We have a lot of work.",
+        "Negar con naturalidad: There aren't many people. I don't have much time.",
+        "Preguntar: Do you have many friends here? Is there much traffic?"
+      ],
+      "como_funciona": "**Many** + contable en plural: [[many books]], [[many people]]. **Much** + incontable: [[much money]], [[much time]]. Los dos se usan sobre todo en **negaciones** ([[I don't have many friends]], [[There isn't much milk]]) y **preguntas** ([[Do you have much homework?]]). En **afirmaciones**, lo natural es **a lot of** (o [[lots of]], más informal), con cualquier tipo de sustantivo: [[I have a lot of friends]], [[She has a lot of money]]. Una oración como [[I have much money]] no es imposible, pero suena rara o muy formal; evítala. Hay excepciones en afirmativa que sí son normales: [[too much]] (demasiado), [[so much]] (tanto), [[very much]] ([[Thank you very much]]); las verás poco a poco. A lot of también vale en negaciones y preguntas ([[I don't have a lot of time]]). Cuando no hay sustantivo detrás, se quita of: [[I like it a lot]], [[Do you have homework? — Yes, a lot.]]. Y un calco frecuente: «mucha gente» es [[a lot of people]] o [[many people]]; people es plural, así que nunca [[much people]].",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Diego",
+              "rol": "sujeto"
+            },
+            {
+              "t": "drinks",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of",
+              "rol": "otro"
+            },
+            {
+              "t": "coffee",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Diego toma mucho café."
+        },
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't + verbo",
+              "rol": "negacion"
+            },
+            {
+              "t": "many / much",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't have",
+              "rol": "negacion"
+            },
+            {
+              "t": "much",
+              "rol": "otro"
+            },
+            {
+              "t": "time",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No tenemos mucho tiempo."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Do / Is / Are…",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto (+ verbo)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "many / much",
+              "rol": "otro"
+            },
+            {
+              "t": "plural / incontable?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Are there",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "many",
+              "rol": "otro"
+            },
+            {
+              "t": "students?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Hay muchos estudiantes?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Cuál uso?",
+          "columnas": [
+            "",
+            "Contable plural",
+            "Incontable"
+          ],
+          "filas": [
+            [
+              "Afirmación",
+              "a lot of friends",
+              "a lot of money"
+            ],
+            [
+              "Negación",
+              "not many friends",
+              "not much money"
+            ],
+            [
+              "Pregunta",
+              "many friends?",
+              "much money?"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are a lot of people at the beach today.",
+          "es": "Hay mucha gente en la playa hoy.",
+          "partes": [
+            {
+              "t": "There are",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of people",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at the beach",
+              "rol": "complemento"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "People es plural (there are). En afirmación, a lot of. «Mucha gente» en español es singular; en inglés no."
+        },
+        {
+          "en": "I don't have much money this month.",
+          "es": "No tengo mucho dinero este mes.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't have",
+              "rol": "verbo"
+            },
+            {
+              "t": "much money",
+              "rol": "complemento"
+            },
+            {
+              "t": "this month",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Money es incontable y la oración es negativa: much."
+        },
+        {
+          "en": "Does your city have many parks?",
+          "es": "¿Tu ciudad tiene muchos parques?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your city",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "many parks?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Parks es contable plural en una pregunta: many."
+        },
+        {
+          "en": "Carlos works a lot.",
+          "es": "Carlos trabaja mucho.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "works",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sin sustantivo detrás, a lot va sin of. Aquí modifica al verbo (trabaja mucho)."
+        },
+        {
+          "en": "Thank you very much!",
+          "es": "¡Muchas gracias!",
+          "partes": [
+            {
+              "t": "Thank you",
+              "rol": "verbo"
+            },
+            {
+              "t": "very much!",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Very much es una de las combinaciones en las que much sí es normal en afirmación."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Palabras de cantidad",
+        "centro": "¿cuánto?",
+        "ramas": [
+          {
+            "texto": "many",
+            "detalle": "plural · negación y pregunta"
+          },
+          {
+            "texto": "much",
+            "detalle": "incontable · negación y pregunta"
+          },
+          {
+            "texto": "a lot of",
+            "detalle": "los dos · sobre todo afirmación"
+          },
+          {
+            "texto": "a few",
+            "detalle": "plural · unos cuantos"
+          },
+          {
+            "texto": "a little",
+            "detalle": "incontable · un poco de"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "a lot of",
+          "ipa": "/ə ˈlɑːt əv/ → /əˈlɑːɾəv/",
+          "consejo": "En inglés estadounidense la t queda entre vocales y suena como la r suave de «pero»; of se reduce a /əv/: todo junto suena «a-LA-rav». En Reino Unido la o es corta y redondeada: /əˈlɒt əv/.",
+          "lento": true
+        },
+        {
+          "texto": "many",
+          "ipa": "/ˈmɛni/",
+          "consejo": "Se escribe con a pero suena con e: «MENI», como any. No digas «mani»."
+        },
+        {
+          "texto": "much",
+          "ipa": "/mʌtʃ/",
+          "consejo": "La u es /ʌ/: una a corta y relajada, con la boca a medio abrir. Termina en ch: «mach», pero más breve y sin la a abierta del español."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There are much people here.",
+          "bien": "There are a lot of people here. / There are many people here.",
+          "porque": "People es plural contable: many o a lot of, nunca much."
+        },
+        {
+          "mal": "I have much work.",
+          "bien": "I have a lot of work.",
+          "porque": "En afirmación, much suena forzado; lo natural es a lot of."
+        },
+        {
+          "mal": "She has a lot of friend.",
+          "bien": "She has a lot of friends.",
+          "porque": "Con contables, a lot of va seguido de plural."
+        },
+        {
+          "mal": "I like it a lot of.",
+          "bien": "I like it a lot.",
+          "porque": "Si no hay sustantivo después, se quita of."
+        }
+      ]
+    },
+    {
+      "id": "how-much-how-many",
+      "titulo": "How much…? How many…?",
+      "que_es": "Para preguntar «¿cuánto?», «¿cuánta?», «¿cuántos?», «¿cuántas?», el inglés usa [[How many]] con contables en plural y [[How much]] con incontables. La elección depende del sustantivo, no del género como en español.",
+      "para_que": [
+        "Preguntar cantidades: How many kids do you have? How much sugar do you want?",
+        "Hacer encuestas y entrevistas: How many hours do you sleep?",
+        "Preparar la próxima unidad: How much is it? (¿cuánto cuesta?)."
+      ],
+      "como_funciona": "{{interrogativo:How many}} + {{complemento:plural}} + {{auxiliar:do / does / are…}} + {{sujeto:sujeto}} + {{verbo:verbo}}? y {{interrogativo:How much}} + {{complemento:incontable}} + … El sustantivo va **pegado** a How many / How much, antes del auxiliar: [[How many brothers do you have?]], no [[How many do you have brothers?]]. Con there: [[How many chairs are there?]] / [[How much milk is there?]] (plural → are; incontable → is). Si el sustantivo ya se sabe, puede omitirse: [[I need eggs. — How many?]]. Para respuestas: un número ([[Three]]), [[a lot]], [[not many]] / [[not much]], [[none]] (ninguno). Aviso para la unidad 21: [[How much is it?]] sin sustantivo pregunta el precio.",
+      "estructuras": [
+        {
+          "etiqueta": "How many (contables)",
+          "formula": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "plural",
+              "rol": "complemento"
+            },
+            {
+              "t": "do / does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "languages",
+              "rol": "complemento"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Cuántos idiomas hablas?"
+        },
+        {
+          "etiqueta": "How much (incontables)",
+          "formula": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "incontable",
+              "rol": "complemento"
+            },
+            {
+              "t": "do / does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "sugar",
+              "rol": "complemento"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "want?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Cuánta azúcar quieres?"
+        },
+        {
+          "etiqueta": "Con there",
+          "formula": [
+            {
+              "t": "How many / How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "are / is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there?",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "rice",
+              "rol": "complemento"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there?",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "¿Cuánto arroz hay?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "How many hours do you sleep?",
+          "es": "¿Cuántas horas duermes?",
+          "partes": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "hours",
+              "rol": "complemento"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "sleep?",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Hours es contable plural → How many. El sustantivo va justo después de How many."
+        },
+        {
+          "en": "How much time do we have?",
+          "es": "¿Cuánto tiempo tenemos?",
+          "partes": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "time",
+              "rol": "complemento"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have?",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Time (tiempo) es incontable → How much. Ojo: times (veces) sí es contable: How many times?"
+        },
+        {
+          "en": "How many people are there in your family?",
+          "es": "¿Cuántas personas hay en tu familia?",
+          "partes": [
+            {
+              "t": "How many",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "people",
+              "rol": "complemento"
+            },
+            {
+              "t": "are there",
+              "rol": "verbo"
+            },
+            {
+              "t": "in your family?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "People es plural aunque no lleve -s: How many y are there."
+        },
+        {
+          "en": "How much homework does Ben have?",
+          "es": "¿Cuánta tarea tiene Ben?",
+          "partes": [
+            {
+              "t": "How much",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "homework",
+              "rol": "complemento"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have?",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Homework es incontable → How much, aunque en español digamos «cuántas tareas»."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "How many…?",
+          "ipa": "/haʊ ˈmɛni/",
+          "consejo": "How suena como «jau» pero con una h suave (un soplo, no la j fuerte del español). El acento cae en MEN-y.",
+          "lento": true
+        },
+        {
+          "texto": "How much…?",
+          "ipa": "/haʊ ˈmʌtʃ/",
+          "consejo": "Las dos palabras se unen: «hau-MACH». La voz baja al final de las preguntas con palabra interrogativa."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "How many money do you have?",
+          "bien": "How much money do you have?",
+          "porque": "Money es incontable: How much."
+        },
+        {
+          "mal": "How much brothers do you have?",
+          "bien": "How many brothers do you have?",
+          "porque": "Brothers es contable plural: How many."
+        },
+        {
+          "mal": "How many do you have brothers?",
+          "bien": "How many brothers do you have?",
+          "porque": "El sustantivo va pegado a How many, antes del auxiliar."
+        },
+        {
+          "mal": "How many information do you need?",
+          "bien": "How much information do you need?",
+          "porque": "Information es incontable, aunque en español sea «cuántos datos»."
+        }
+      ]
+    },
+    {
+      "id": "a-few-a-little",
+      "titulo": "A few y a little: cantidades pequeñas",
+      "que_es": "Para decir que hay una cantidad pequeña pero suficiente, se usa [[a few]] con contables en plural («unos cuantos», «algunos») y [[a little]] con incontables («un poco de»).",
+      "para_que": [
+        "Hablar de cantidades pequeñas: I have a few questions. Add a little salt.",
+        "Responder con matiz a How much / How many: A few. / A little.",
+        "Suavizar: I speak a little English."
+      ],
+      "como_funciona": "{{otro:a few}} + {{complemento:contable plural}}: [[a few friends]], [[a few minutes]]. {{otro:a little}} + {{complemento:incontable}}: [[a little milk]], [[a little time]]. Las dos tienen un sentido **positivo**: hay poco, pero hay. Existe también [[few]] y [[little]] **sin a**, con un matiz **negativo**: «poco, casi nada, no suficiente» ([[He has few friends]] = tiene pocos amigos, casi ninguno). Es una forma más formal y menos frecuente en conversación; por ahora basta con que la reconozcas. Para hablar, usa a few / a little para «algo, un poco», y not many / not much para «poco».",
+      "estructuras": [
+        {
+          "etiqueta": "A few (contables)",
+          "formula": [
+            {
+              "t": "a few",
+              "rol": "otro"
+            },
+            {
+              "t": "contable plural",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a few",
+              "rol": "otro"
+            },
+            {
+              "t": "minutes",
+              "rol": "complemento"
+            }
+          ],
+          "es": "unos minutos"
+        },
+        {
+          "etiqueta": "A little (incontables)",
+          "formula": [
+            {
+              "t": "a little",
+              "rol": "otro"
+            },
+            {
+              "t": "incontable",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a little",
+              "rol": "otro"
+            },
+            {
+              "t": "sugar",
+              "rol": "complemento"
+            }
+          ],
+          "es": "un poco de azúcar"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I have a few friends in Canada.",
+          "es": "Tengo unos cuantos amigos en Canadá.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a few friends",
+              "rol": "complemento"
+            },
+            {
+              "t": "in Canada",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Friends es contable plural → a few. El matiz es positivo: tiene algunos."
+        },
+        {
+          "en": "Add a little salt to the soup.",
+          "es": "Échale un poco de sal a la sopa.",
+          "partes": [
+            {
+              "t": "Add",
+              "rol": "verbo"
+            },
+            {
+              "t": "a little salt",
+              "rol": "complemento"
+            },
+            {
+              "t": "to the soup",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Salt es incontable → a little. En español «un poco de», en inglés no hace falta of."
+        },
+        {
+          "en": "Mei speaks a little French.",
+          "es": "Mei habla un poco de francés.",
+          "partes": [
+            {
+              "t": "Mei",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speaks",
+              "rol": "verbo"
+            },
+            {
+              "t": "a little French",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Los idiomas se tratan como incontables: a little French, a little English."
+        },
+        {
+          "en": "Very few people know this.",
+          "es": "Muy poca gente sabe esto.",
+          "partes": [
+            {
+              "t": "Very few people",
+              "rol": "sujeto"
+            },
+            {
+              "t": "know",
+              "rol": "verbo"
+            },
+            {
+              "t": "this",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Few sin a: matiz negativo (casi nadie). Solo para reconocerlo por ahora."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "a few / a little (positivo)",
+          "items": [
+            "I have a few friends here. → tengo algunos.",
+            "There's a little milk. → hay un poco, alcanza."
+          ]
+        },
+        "b": {
+          "titulo": "few / little (negativo)",
+          "items": [
+            "I have few friends here. → casi ninguno.",
+            "There's little milk. → casi nada."
+          ]
+        },
+        "veredicto": "La a lo cambia todo: con a, el vaso está medio lleno; sin a, medio vacío. En conversación, para lo negativo es más común not many / not much."
+      },
+      "pronunciacion": [
+        {
+          "texto": "a few",
+          "ipa": "/ə ˈfjuː/",
+          "consejo": "Few suena «fiu», con una i muy breve que se desliza a una u larga. La f es con los dientes de arriba sobre el labio de abajo.",
+          "lento": true
+        },
+        {
+          "texto": "a little",
+          "ipa": "/ə ˈlɪɾəl/ (EE. UU.) · /ə ˈlɪtəl/ (R. U.)",
+          "consejo": "La i es corta y relajada, no la i española. En Estados Unidos la tt suena como la r suave de «pero»: «LI-rel». La l final es oscura: la parte de atrás de la lengua sube."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I have a little friends.",
+          "bien": "I have a few friends.",
+          "porque": "Friends es contable: a few. A little es para incontables."
+        },
+        {
+          "mal": "Can I have a few water?",
+          "bien": "Can I have a little water?",
+          "porque": "Water es incontable: a little."
+        },
+        {
+          "mal": "I speak a little of English.",
+          "bien": "I speak a little English.",
+          "porque": "A little no lleva of delante del sustantivo, aunque en español digamos «un poco de»."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "How ___ languages does Priya speak?",
+      "opciones": [
+        {
+          "texto": "many",
+          "correcta": true,
+          "porque": "Languages es contable plural: How many."
+        },
+        {
+          "texto": "much",
+          "correcta": false,
+          "porque": "Much es para incontables; languages se cuenta (one language, two languages)."
+        },
+        {
+          "texto": "a lot of",
+          "correcta": false,
+          "porque": "A lot of no forma preguntas con how: la estructura es How many + plural."
+        }
+      ],
+      "pistas": [
+        "How much o How many dependen del sustantivo.",
+        "Mira la palabra que viene después del hueco: ¿se puede contar?",
+        "Contable plural → How many; incontable → How much."
+      ],
+      "solucion": {
+        "respuesta": "many",
+        "explicacion": "Languages es un sustantivo contable en plural (one language, three languages), por eso How many."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con much o many.",
+      "frase": "There isn't ___ traffic today, and there aren't ___ cars on the road.",
+      "traduccion": "Hoy no hay mucho tráfico y no hay muchos carros en la calle.",
+      "respuestas": [
+        [
+          "much"
+        ],
+        [
+          "many"
+        ]
+      ],
+      "banco": [
+        "much",
+        "many"
+      ],
+      "errores_tipicos": {
+        "many | many": "Traffic es incontable: much.",
+        "much | much": "Cars es contable plural: many."
+      },
+      "pistas": [
+        "Much con incontables, many con plurales.",
+        "Traffic: ¿dices two traffics? Cars: ¿dices two cars?",
+        "Incontable → much; contable plural → many. Pregúntate si cada sustantivo se puede contar."
+      ],
+      "solucion": {
+        "respuesta": "much … many",
+        "explicacion": "Traffic es incontable, así que en negación va con much. Cars es contable plural: many. Las dos oraciones son negativas, que es donde much y many suenan más naturales."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada inicio de pregunta con el sustantivo que puede seguirlo.",
+      "pares": [
+        {
+          "a": "How many…",
+          "b": "…hours do you work?"
+        },
+        {
+          "a": "How much…",
+          "b": "…money do you need?"
+        },
+        {
+          "a": "How many people…",
+          "b": "…are there in the room?"
+        },
+        {
+          "a": "How much milk…",
+          "b": "…is there in the fridge?"
+        }
+      ],
+      "pistas": [
+        "How many va con plurales; How much, con incontables.",
+        "En las dos últimas, mira el verbo: are (plural) o is (singular).",
+        "Many va con plurales que se cuentan y much con incontables; después de un plural va are, y después de un incontable, is."
+      ],
+      "solucion": {
+        "respuesta": "How many → hours · How much → money · How many people → are there · How much milk → is there",
+        "explicacion": "Hours es contable plural y money es incontable. People es plural, así que are there; milk es incontable, así que is there."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a few o a little.",
+      "frase": "Wait ___ minutes, please. I need ___ time to finish.",
+      "traduccion": "Espera unos minutos, por favor. Necesito un poco de tiempo para terminar.",
+      "respuestas": [
+        [
+          "a few"
+        ],
+        [
+          "a little"
+        ]
+      ],
+      "banco": [
+        "a few",
+        "a little"
+      ],
+      "errores_tipicos": {
+        "a little | a little": "Minutes es contable plural: a few minutes.",
+        "a few | a few": "Time (tiempo) es incontable: a little time."
+      },
+      "pistas": [
+        "A few con plurales; a little con incontables.",
+        "Minutes lleva -s; time, en el sentido de tiempo, no se cuenta.",
+        "Contable plural → a few; incontable → a little."
+      ],
+      "solucion": {
+        "respuesta": "a few … a little",
+        "explicacion": "Minutes es contable plural (a few minutes). Time, con el significado de «tiempo», es incontable (a little time)."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "La oración es gramaticalmente posible pero no suena natural. Señala la palabra y cámbiala por la forma natural en afirmación.",
+      "frase": "My brother has much free time on weekends.",
+      "error": "much",
+      "correcciones": [
+        "a lot of",
+        "lots of"
+      ],
+      "frase_correcta": "My brother has a lot of free time on weekends.",
+      "pistas": [
+        "Much suena forzado en un tipo de oración.",
+        "¿La oración es afirmativa, negativa o pregunta?",
+        "En afirmaciones se prefiere a lot of."
+      ],
+      "solucion": {
+        "respuesta": "a lot of",
+        "explicacion": "La oración es afirmativa. Much en afirmación suena forzado o muy formal; lo natural es a lot of (o lots of): My brother has a lot of free time."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en negativa. Usa much o many.",
+      "origen": "We have a lot of eggs.",
+      "instruccion": "Negativa con much / many",
+      "respuestas": [
+        "We don't have many eggs."
+      ],
+      "errores_tipicos": {
+        "We don't have much eggs.": "Eggs es contable plural: many.",
+        "We don't have many egg.": "Con many el sustantivo va en plural: many eggs."
+      },
+      "pistas": [
+        "Negación de have: don't have. Y a lot of cambia.",
+        "Eggs se cuenta.",
+        "Negativa con don't + have; con un plural contable se usa many, como en They don't have many books."
+      ],
+      "solucion": {
+        "respuesta": "We don't have many eggs.",
+        "explicacion": "Have se niega con don't. Eggs es contable plural, así que a lot of pasa a many, que es lo más natural en negación."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": [
+        "sugar",
+        "much",
+        "you",
+        "How",
+        "want",
+        "do"
+      ],
+      "respuestas": [
+        "How much sugar do you want"
+      ],
+      "traduccion": "¿Cuánta azúcar quieres?",
+      "pistas": [
+        "Empieza con la palabra interrogativa.",
+        "El sustantivo va pegado a How much, antes del auxiliar.",
+        "How much + sustantivo + auxiliar + sujeto + verbo + ?, como en How much money do they need?"
+      ],
+      "solucion": {
+        "respuesta": "How much sugar do you want?",
+        "explicacion": "Sugar es incontable → How much. El sustantivo va justo después, luego el auxiliar do, el sujeto y el verbo."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Cuánta agua tomas al día?",
+      "respuestas": [
+        "How much water do you drink a day?",
+        "How much water do you drink every day?",
+        "How much water do you drink per day?",
+        "How much water do you drink each day?",
+        "How much water do you drink in a day?"
+      ],
+      "errores_tipicos": {
+        "How many water do you drink a day?": "Water es incontable: How much.",
+        "How much water you drink a day?": "Falta el auxiliar do antes del sujeto.",
+        "How much do you drink water a day?": "El sustantivo va pegado a How much: How much water do you…"
+      },
+      "pistas": [
+        "Agua es incontable. «Tomar» una bebida es drink.",
+        "Estructura: palabra interrogativa + sustantivo + auxiliar + sujeto + verbo.",
+        "How much + incontable + do + sujeto + verbo + frecuencia, como en How much coffee does he drink a week?"
+      ],
+      "solucion": {
+        "respuesta": "How much water do you drink a day?",
+        "explicacion": "Water es incontable → How much, y va pegado a la palabra interrogativa. Después, el auxiliar do, el sujeto you y el verbo drink. «Al día» es a day (o every day / per day)."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa a lot of en la primera parte y much o many en la segunda.",
+      "es": "Tengo mucha tarea, pero no tengo mucho tiempo.",
+      "respuestas": [
+        "I have a lot of homework, but I don't have much time.",
+        "I've got a lot of homework, but I don't have much time.",
+        "I have a lot of homework, but I haven't got much time.",
+        "I've got a lot of homework, but I haven't got much time."
+      ],
+      "errores_tipicos": {
+        "I have a lot of homeworks, but I don't have much time.": "Homework es incontable: sin -s.",
+        "I have a lot of homework, but I don't have many time.": "Time (tiempo) es incontable: much."
+      },
+      "pistas": [
+        "Homework y time son incontables.",
+        "Primera parte afirmativa → a lot of; segunda negativa → much o many.",
+        "Sujeto + have + a lot of + incontable, but + sujeto + don't have + much + incontable, como en We have a lot of work, but we don't have much money."
+      ],
+      "solucion": {
+        "respuesta": "I have a lot of homework, but I don't have much time.",
+        "explicacion": "Homework es incontable: a lot of homework, sin -s. Time también: en la negación, much time. Así cada parte usa la forma más natural para su tipo de oración."
+      }
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Tu amiga Lucía prepara café en su casa.",
+      "lineas": [
+        {
+          "quien": "Lucía",
+          "en": "Do you take milk in your coffee?",
+          "es": "¿Le pones leche a tu café?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, just a little, please.",
+          "correcta": true,
+          "porque": "Milk es incontable: a little. Just suaviza: «solo un poquito»."
+        },
+        {
+          "texto": "Yes, just a few, please.",
+          "correcta": false,
+          "porque": "A few es para contables en plural; milk no se cuenta."
+        },
+        {
+          "texto": "Yes, much, please.",
+          "correcta": false,
+          "porque": "Much solo como respuesta afirmativa suena muy raro. Si quieres mucha, di Yes, a lot, please."
+        },
+        {
+          "texto": "Yes, a little of, please.",
+          "correcta": false,
+          "porque": "Sin sustantivo detrás no se pone of, y aun con sustantivo sería a little milk, sin of."
+        }
+      ],
+      "pistas": [
+        "La leche es incontable.",
+        "Busca la forma de decir «un poco» con incontables.",
+        "Incontable → a little (sin of)."
+      ],
+      "solucion": {
+        "respuesta": "Yes, just a little, please.",
+        "explicacion": "Milk es incontable, así que «un poco» es a little. Puede ir sola porque ya se sabe que hablas de la leche."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "How many kids are there in your class? Not many, only a few.",
+      "pistas": [
+        "Una pregunta con there y una respuesta breve.",
+        "El sustantivo es contable y plural. La respuesta tiene dos partes separadas por coma.",
+        "How many + plural + are there + lugar?; la respuesta corta repite la palabra de cantidad sin sustantivo y añade una cantidad pequeña positiva."
+      ],
+      "solucion": {
+        "respuesta": "How many kids are there in your class? Not many, only a few.",
+        "explicacion": "Kids es contable plural → How many y are there. En la respuesta, not many y a few se refieren a kids sin repetirlo."
+      },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "I don't have much money, but I have a lot of friends.",
+      "ipa": "/aɪ doʊnt hæv ˈmʌtʃ ˈmʌni bət aɪ hæv ə ˈlɑːɾəv ˈfrɛndz/",
+      "consejo": "Much y money tienen la misma vocal /ʌ/, una a corta y relajada. A lot of se funde en «a-LA-rav». Friends termina en /ndz/: no te comas la d ni la z.",
+      "es": "No tengo mucho dinero, pero tengo muchos amigos."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Encuesta de hábitos",
+    "contexto": "Estás en una clase de inglés y haces una encuesta a un compañero, Omar, sobre sus hábitos.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "OK, ask me your questions.",
+        "es": "Va, hazme tus preguntas."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Omar",
+        "en": "About seven hours. And I drink a lot of water.",
+        "es": "Unas siete horas. Y tomo mucha agua."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Hazle dos preguntas a Omar: una con How many (horas de sueño, tazas de café, idiomas…) y otra con How much (agua, tiempo libre, azúcar…). Después cuenta algo de ti con a lot of, not much / not many, a few o a little.",
+    "modelo": "How many hours do you sleep? — How much coffee do you drink? I drink a lot of coffee, but I don't eat much fruit.",
+    "alternativas": [
+      "How many languages do you speak? — How much free time do you have? I have a little free time on Sundays.",
+      "How many cups of tea do you drink a day? — How much sugar do you eat? I eat a few cookies every day."
+    ],
+    "claves": [
+      "How many + plural; How much + incontable.",
+      "El sustantivo va pegado a How many / How much.",
+      "Afirmación: a lot of. Negación: not much / not many."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "many + plural; much + incontable: sobre todo en negaciones y preguntas.",
+      "a lot of + plural o incontable: sobre todo en afirmaciones.",
+      "How many + plural…? How much + incontable…?",
+      "a few + plural (unos cuantos); a little + incontable (un poco de)."
+    ],
+    "recuerda": [
+      "People es plural: a lot of people / many people, nunca much people.",
+      "Sin sustantivo, sin of: I like it a lot.",
+      "Few / little sin a = poco, casi nada (matiz negativo).",
+      "Very much, too much y so much sí son normales en afirmación."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.r1",
+      "frente": "How ___ money do you have?",
+      "reverso": "much",
+      "nota": "Money es incontable."
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.r2",
+      "frente": "¿Cómo dices «mucha gente» en afirmación?",
+      "reverso": "a lot of people",
+      "nota": "People es plural; nunca much people."
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.r3",
+      "frente": "Niega con much / many: We have a lot of time.",
+      "reverso": "We don't have much time.",
+      "nota": "Time es incontable."
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.r4",
+      "frente": "¿A few o a little? ___ salt",
+      "reverso": "a little salt",
+      "nota": "Salt es incontable."
+    },
+    {
+      "id": "contables-e-incontables.much-many-a-lot-of.r5",
+      "frente": "Ordena: brothers / have / do / how many / you",
+      "reverso": "How many brothers do you have?",
+      "nota": "El sustantivo va pegado a How many."
+    }
+  ]
+}

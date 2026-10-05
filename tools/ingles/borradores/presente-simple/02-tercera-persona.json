@@ -1,0 +1,1273 @@
+{
+  "slug": "tercera-persona",
+  "titulo": "La tercera persona: he works",
+  "minutos": 45,
+  "objetivos": [
+    "Añadir -s al verbo con he, she, it y con cualquier sujeto singular (my brother, the shop, Ana).",
+    "Aplicar las reglas de ortografía: -s, -es (watches, goes, does), -ies (studies) frente a vocal + y (plays), y have → has.",
+    "Pronunciar la -s final como /s/, /z/ o /ɪz/ según el sonido en que termina el verbo.",
+    "Entender por qué la -s desaparece cuando aparece does (adelanto de la próxima unidad)."
+  ],
+  "situacion": {
+    "titulo": "La familia de Mei",
+    "texto": "Mei le enseña a Diego fotos de su familia y le explica a qué se dedica cada uno. Fíjate en los verbos: todos terminan en -s, pero no todos se escriben ni suenan igual.",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Who's this?",
+        "es": "¿Quién es este?"
+      },
+      {
+        "quien": "Mei",
+        "en": "That's my brother. He's a nurse. He works at a hospital.",
+        "es": "Es mi hermano. Es enfermero. Trabaja en un hospital."
+      },
+      {
+        "quien": "Diego",
+        "en": "And your sister?",
+        "es": "¿Y tu hermana?"
+      },
+      {
+        "quien": "Mei",
+        "en": "She teaches math, and she studies French at night.",
+        "es": "Da clases de matemáticas y estudia francés en las noches."
+      },
+      {
+        "quien": "Mei",
+        "en": "My dad fixes cars, and my mom has a small shop. It opens at nine.",
+        "es": "Mi papá arregla carros y mi mamá tiene una tiendita. Abre a las nueve."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "por-que-la-s",
+      "titulo": "Por qué aparece la -s: he, she, it y cualquier sujeto singular",
+      "que_es": "En presente simple afirmativo, el verbo añade **-s** cuando el sujeto es **tercera persona del singular**: he, she, it, y también cualquier sujeto que se pueda sustituir por uno de ellos: [[my brother]] (= he), [[Ana]] (= she), [[the shop]] (= it), [[my family]] (= it), [[water]] (= it).",
+      "para_que": [
+        "Hablar de una persona concreta: [[My brother works at a hospital.]]",
+        "Hablar de un lugar o un servicio: [[The shop opens at nine.]]",
+        "Hablar de un animal o una cosa: [[The dog sleeps in the garden.]]",
+        "Expresar verdades generales con sujetos incontables: [[Water boils at 100 degrees.]]"
+      ],
+      "como_funciona": "Tomemos el ejemplo del hilo conductor de este bloque:\n\n**Situación:** una persona explica la rutina laboral de su familia.\n**Oración:** [[My brother works at a hospital.]] — «Mi hermano trabaja en un hospital».\n**Estructura:** {{sujeto:My brother}} | {{verbo:works}} | {{complemento:at a hospital}} → Sujeto | Verbo | Complemento.\n**Por qué works:** el sujeto, my brother, es una sola persona que no soy yo ni tú: equivale a **he**, tercera persona del singular. En presente simple ese es el único sujeto que obliga al verbo a cambiar, y el cambio es añadir -s.\n\nLa pregunta que debes hacerte siempre es: **¿puedo cambiar el sujeto por he, she o it?** Si sí, -s. Si equivale a I, you, we o they, forma base. No importa lo largo que sea el sujeto: [[The new teacher from Canada lives here]] (= she lives here).\n\nCuidado con los sujetos que engañan:\n- [[My brother and my sister work]]: dos personas = they, sin -s.\n- [[The children play]]: children es plural (irregular) = they.\n- [[Everybody knows]]: everybody se construye en singular, aunque signifique «todos».\n- [[My family lives in Puebla]]: la familia como grupo = it (en inglés británico también se oye my family live).",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación en tercera persona",
+          "formula": [
+            {
+              "t": "He / She / It / sujeto singular",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -s",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "works",
+              "rol": "verbo"
+            },
+            {
+              "t": "at a hospital",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi hermano trabaja en un hospital."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Lleva -s? Sustituye el sujeto por un pronombre",
+          "columnas": [
+            "Sujeto",
+            "Equivale a",
+            "Oración"
+          ],
+          "filas": [
+            [
+              "my brother",
+              "he → -s",
+              "My brother works at a hospital."
+            ],
+            [
+              "Ana",
+              "she → -s",
+              "Ana lives in Mérida."
+            ],
+            [
+              "the shop",
+              "it → -s",
+              "The shop opens at nine."
+            ],
+            [
+              "my parents",
+              "they → sin -s",
+              "My parents work at a hospital."
+            ],
+            [
+              "my sister and I",
+              "we → sin -s",
+              "My sister and I work at a hospital."
+            ],
+            [
+              "the children",
+              "they → sin -s",
+              "The children play in the park."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My brother works at a hospital.",
+          "es": "Mi hermano trabaja en un hospital.",
+          "situacion": "Una persona explica la rutina laboral de su familia.",
+          "partes": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "works",
+              "rol": "verbo"
+            },
+            {
+              "t": "at a hospital",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Usamos works porque el sujeto (my brother = he) es tercera persona del singular. Compara: I work at a hospital (sin -s)."
+        },
+        {
+          "en": "The shop opens at nine.",
+          "es": "La tienda abre a las nueve.",
+          "partes": [
+            {
+              "t": "The shop",
+              "rol": "sujeto"
+            },
+            {
+              "t": "opens",
+              "rol": "verbo"
+            },
+            {
+              "t": "at nine",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "La -s no es solo para personas: the shop = it. Es un horario, así que presente simple."
+        },
+        {
+          "en": "Ana speaks three languages.",
+          "es": "Ana habla tres idiomas.",
+          "partes": [
+            {
+              "t": "Ana",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speaks",
+              "rol": "verbo"
+            },
+            {
+              "t": "three languages",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Un nombre propio de persona = he o she. La -s va en el verbo, nunca en el objeto: la -s de languages es la del plural, otra cosa distinta."
+        },
+        {
+          "en": "It rains a lot in July.",
+          "es": "Llueve mucho en julio.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "rains",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "otro"
+            },
+            {
+              "t": "in July",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "En español «llueve» no tiene sujeto. En inglés hace falta un sujeto vacío, it, y como es tercera persona, rains lleva -s."
+        },
+        {
+          "en": "My brother and my sister work at a hospital.",
+          "es": "Mi hermano y mi hermana trabajan en un hospital.",
+          "partes": [
+            {
+              "t": "My brother and my sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "at a hospital",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos sujetos singulares unidos con and forman un plural (= they): el verbo pierde la -s."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "I work at a hospital.",
+          "items": [
+            "Sujeto: I, primera persona.",
+            "Verbo en forma base: work.",
+            "Igual con you, we, they y los plurales."
+          ]
+        },
+        "b": {
+          "titulo": "My brother works at a hospital.",
+          "items": [
+            "Sujeto: my brother = he, tercera persona del singular.",
+            "Verbo + -s: works.",
+            "Igual con she, it, Ana, the shop, my family…"
+          ]
+        },
+        "veredicto": "El verbo cambia porque cambia el sujeto: la -s es la marca de «tercera persona del singular» en presente simple. Es la única terminación que conserva el inglés de todas las que tiene el español, y por eso los nativos la notan enseguida cuando falta: «He work» suena tan raro como «él trabajo»."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Adelanto: ¿adónde se va la -s?",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "My brother",
+                "rol": "sujeto"
+              },
+              {
+                "t": "works",
+                "rol": "verbo"
+              },
+              {
+                "t": "at a hospital.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "your brother",
+                "rol": "sujeto"
+              },
+              {
+                "t": "work",
+                "rol": "verbo"
+              },
+              {
+                "t": "at a hospital?",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "My brother",
+                "rol": "sujeto"
+              },
+              {
+                "t": "doesn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "work",
+                "rol": "verbo"
+              },
+              {
+                "t": "at a hospital.",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "En preguntas y negaciones aparece el auxiliar does (do + -es). La marca de tercera persona solo se escribe una vez, y se la lleva el auxiliar: por eso work vuelve a su forma base. Nunca «Does he works?» ni «He doesn't works». Lo practicarás a fondo en la unidad «Do y does»."
+      },
+      "pronunciacion": [
+        {
+          "texto": "My brother works at a hospital.",
+          "ipa": "/maɪ ˈbrʌðər ˈwɝks ət ə ˈhɑːspɪtl/",
+          "consejo": "Que se oiga la -s de works: termina en /ks/, como la x de «taxi». Es muy común que el hispanohablante la trague; practica works + at pegados: «wɝk-sat». En brother, la /ð/ se hace con la lengua entre los dientes.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My brother work at a hospital.",
+          "bien": "My brother works at a hospital.",
+          "porque": "My brother equivale a he: tercera persona del singular. En presente simple afirmativo el verbo necesita -s."
+        },
+        {
+          "mal": "My brother and my sister works at a hospital.",
+          "bien": "My brother and my sister work at a hospital.",
+          "porque": "Dos personas unidas con and = they. La -s solo va con un sujeto singular."
+        },
+        {
+          "mal": "She is works at a hospital.",
+          "bien": "She works at a hospital.",
+          "porque": "No se combina is con otro verbo en presente simple. La -s de works ya indica que el sujeto es she."
+        },
+        {
+          "mal": "Rains a lot in July.",
+          "bien": "It rains a lot in July.",
+          "porque": "En inglés los verbos del clima también necesitan sujeto: it, que no significa nada pero es obligatorio."
+        }
+      ]
+    },
+    {
+      "id": "ortografia-tercera-persona",
+      "titulo": "Cómo se escribe: -s, -es, -ies y has",
+      "que_es": "La -s de tercera persona casi siempre es solo una s, pero según cómo termina el verbo se escribe **-s**, **-es** o **-ies**, y un verbo, **have**, cambia por completo: **has**.",
+      "para_que": [
+        "Escribir bien los verbos más frecuentes: watches, goes, does, studies, has.",
+        "No confundir study → studies con play → plays.",
+        "Evitar formas inexistentes como «watchs», «gos» o «haves»."
+      ],
+      "como_funciona": "Las reglas dependen de las **últimas letras** del verbo:\n\n1. **Regla general: + s** → work → works, read → reads, live → lives, make → makes.\n2. **Terminados en -s, -ss, -sh, -ch, -x, -z: + es** → miss → misses, wash → washes, watch → watches, teach → teaches, fix → fixes, buzz → buzzes. La razón es de pronunciación: después de esos sonidos silbantes no se puede pegar otra s sin añadir una vocal, y esa vocal se escribe e.\n3. **Terminados en -o: + es** → go → goes, do → does. Son los dos verbos con -o que usarás constantemente (hay algún otro raro, como echo → echoes).\n4. **Consonante + y: la y cambia a i + es** → study → studies, try → tries, carry → carries, cry → cries.\n5. **Vocal + y: solo + s** → play → plays, say → says, buy → buys, enjoy → enjoys. La y se queda porque va detrás de una vocal (a, e, o, u).\n6. **Irregular: have → has**. Es el único verbo común (además de be: is) cuya tercera persona no se forma con estas reglas. Nunca «haves».",
+      "estructuras": [
+        {
+          "etiqueta": "Verbos en -ch, -sh, -s, -x, -z, -o",
+          "formula": [
+            {
+              "t": "He / She / It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -es",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "watches",
+              "rol": "verbo"
+            },
+            {
+              "t": "the news",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ella ve las noticias."
+        },
+        {
+          "etiqueta": "Consonante + y",
+          "formula": [
+            {
+              "t": "He / She / It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo sin -y + -ies",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "studies",
+              "rol": "verbo"
+            },
+            {
+              "t": "English",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Carlos estudia inglés."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Reglas de ortografía",
+          "columnas": [
+            "Si el verbo termina en…",
+            "Haces esto",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "casi todo",
+              "+ s",
+              "works, reads, lives, makes"
+            ],
+            [
+              "-s, -ss, -sh, -ch, -x, -z",
+              "+ es",
+              "misses, washes, watches, fixes"
+            ],
+            [
+              "-o",
+              "+ es",
+              "goes, does"
+            ],
+            [
+              "consonante + y",
+              "y → ies",
+              "studies, tries, carries"
+            ],
+            [
+              "vocal + y",
+              "+ s",
+              "plays, says, buys, enjoys"
+            ],
+            [
+              "have",
+              "irregular",
+              "has"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My dad fixes cars.",
+          "es": "Mi papá arregla carros.",
+          "partes": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "fixes",
+              "rol": "verbo"
+            },
+            {
+              "t": "cars",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Fix termina en -x → + es. Sin la e («fixs») sería imposible de pronunciar."
+        },
+        {
+          "en": "She studies French at night.",
+          "es": "Estudia francés en las noches.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "studies",
+              "rol": "verbo"
+            },
+            {
+              "t": "French",
+              "rol": "complemento"
+            },
+            {
+              "t": "at night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Study: la letra antes de la y es d, una consonante → y cambia a ies."
+        },
+        {
+          "en": "Tom plays soccer on Saturdays.",
+          "es": "Tom juega futbol los sábados.",
+          "partes": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "plays",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Saturdays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Play: antes de la y hay una a, una vocal → solo + s. «Plaies» no existe. En inglés británico el futbol es football."
+        },
+        {
+          "en": "My son goes to school by bus.",
+          "es": "Mi hijo va a la escuela en autobús.",
+          "partes": [
+            {
+              "t": "My son",
+              "rol": "sujeto"
+            },
+            {
+              "t": "goes",
+              "rol": "verbo"
+            },
+            {
+              "t": "to school",
+              "rol": "complemento"
+            },
+            {
+              "t": "by bus",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Go → goes. Go to school va sin the cuando hablas de ir a estudiar."
+        },
+        {
+          "en": "Ana has two children.",
+          "es": "Ana tiene dos hijos.",
+          "partes": [
+            {
+              "t": "Ana",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "two children",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have → has con he/she/it. Recuerda también: la edad no se dice con have (She's 30, no «She has 30 years»)."
+        },
+        {
+          "en": "He does the dishes after dinner.",
+          "es": "Él lava los trastes después de cenar.",
+          "partes": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "does",
+              "rol": "verbo"
+            },
+            {
+              "t": "the dishes",
+              "rol": "complemento"
+            },
+            {
+              "t": "after dinner",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Aquí do es un verbo normal («hacer»), así que en tercera persona es does. Do the dishes = lavar los trastes."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Las terminaciones de la tercera persona",
+        "centro": "he / she / it",
+        "ramas": [
+          {
+            "texto": "+ s",
+            "detalle": "works, lives, plays"
+          },
+          {
+            "texto": "+ es",
+            "detalle": "watches, fixes, goes, does"
+          },
+          {
+            "texto": "y → ies",
+            "detalle": "studies, tries"
+          },
+          {
+            "texto": "irregular",
+            "detalle": "have → has"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "goes",
+          "ipa": "/ɡoʊz/",
+          "consejo": "Una sola sílaba: la e no se pronuncia. La o es un diptongo «ou» (los labios se cierran un poco al final) y la s suena /z/, con vibración, como un zumbido de abeja. En británico: /ɡəʊz/."
+        },
+        {
+          "texto": "does",
+          "ipa": "/dʌz/",
+          "consejo": "¡No suena como se escribe! Ni «dous» ni «dus»: la vocal es /ʌ/, una a corta y relajada, parecida a la a de «mamá» dicha rápido y con la boca menos abierta. Termina en /z/ vibrante."
+        },
+        {
+          "texto": "says",
+          "ipa": "/sez/",
+          "consejo": "Otra excepción de pronunciación: say es /seɪ/ pero says es /sez/, con una e corta como la de «mes», no «seis». La ortografía es regular (vocal + y → + s); lo irregular es el sonido."
+        },
+        {
+          "texto": "has",
+          "ipa": "/hæz/",
+          "consejo": "La h es un soplo suave. La /æ/ está entre la a y la e del español: abre la boca como para decir a y estira los labios como para e. Termina en /z/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She watchs TV.",
+          "bien": "She watches TV.",
+          "porque": "Watch termina en -ch: se añade -es. Además, la -es se pronuncia como una sílaba extra: /ˈwɑːtʃɪz/."
+        },
+        {
+          "mal": "He studys English.",
+          "bien": "He studies English.",
+          "porque": "Study termina en consonante (d) + y: la y cambia a i y se añade -es."
+        },
+        {
+          "mal": "She plaies tennis.",
+          "bien": "She plays tennis.",
+          "porque": "Play termina en vocal (a) + y: la y se queda y solo se añade -s."
+        },
+        {
+          "mal": "My mom haves a small shop.",
+          "bien": "My mom has a small shop.",
+          "porque": "Have es irregular: su tercera persona es has."
+        }
+      ]
+    },
+    {
+      "id": "pronunciacion-de-la-s",
+      "titulo": "Cómo suena la -s: /s/, /z/ o /ɪz/",
+      "que_es": "La -s de tercera persona se escribe casi siempre igual, pero **se pronuncia de tres maneras**: /s/ (works), /z/ (plays) o /ɪz/ (watches). Lo que decide cuál usar no es la letra final, sino **el último sonido** del verbo.",
+      "para_que": [
+        "Que te entiendan: una -s mal pronunciada o tragada hace que parezca que dijiste otra cosa.",
+        "Reconocer la -s cuando la escuchas rápido (en dictados y conversaciones).",
+        "No añadir sílabas que no existen: likes es una sílaba, no «lai-kes»."
+      ],
+      "como_funciona": "1. **/ɪz/ (una sílaba más)**: cuando el verbo termina en un sonido silbante: /s/, /z/, /ʃ/ (sh), /tʃ/ (ch), /ʒ/, /dʒ/ (j de «jazz»). Ejemplos: watches /ˈwɑːtʃɪz/, fixes /ˈfɪksɪz/, washes, misses, y también verbos que se escriben con -e pero terminan en esos sonidos: dances /ˈdænsɪz/, closes /ˈkloʊzɪz/, uses /ˈjuːzɪz/, changes /ˈtʃeɪndʒɪz/.\n2. **/s/ (sin vibración)**: cuando el verbo termina en un sonido sordo (sin vibración de la garganta): /p/, /t/, /k/, /f/, /θ/. Ejemplos: stops, eats, works, makes, likes, laughs.\n3. **/z/ (con vibración)**: en todos los demás casos, es decir, tras vocales y sonidos sonoros (/b/, /d/, /g/, /v/, /m/, /n/, /l/, /r/…). Ejemplos: plays, goes, lives, reads, runs, calls, studies.\n\nPara saber si un sonido es sordo o sonoro, pon los dedos en la garganta: si vibra (como en mmm o vvv), es sonoro. La -s simplemente copia esa característica.\n\n**Diferencia con el español:** en español casi siempre dices s sorda. Pero ya produces la z sonora sin darte cuenta: en «mismo» o «desde», la s vibra porque la sigue una consonante sonora. Esa es la /z/ de plays. Y ojo con la regla de /ɪz/: makes y likes terminan en e escrita, pero el último **sonido** es /k/, así que son una sola sílaba: /meɪks/, /laɪks/.",
+      "estructuras": [
+        {
+          "etiqueta": "La -s y su sonido",
+          "formula": [
+            {
+              "t": "He / She / It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo + -s → /s/, /z/ o /ɪz/",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "watches /ɪz/",
+              "rol": "verbo"
+            },
+            {
+              "t": "TV",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ella ve la tele. (La -s suena /ɪz/ porque watch termina en /tʃ/, un sonido silbante.)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los tres sonidos de la -s",
+          "columnas": [
+            "Sonido",
+            "Cuándo",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "/s/",
+              "tras /p/, /t/, /k/, /f/, /θ/",
+              "stops, eats, works, makes, likes"
+            ],
+            [
+              "/z/",
+              "tras vocales y sonidos sonoros",
+              "plays, goes, lives, reads, studies"
+            ],
+            [
+              "/ɪz/",
+              "tras /s/, /z/, /ʃ/, /tʃ/, /ʒ/, /dʒ/",
+              "watches, fixes, dances, closes, changes"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "He works at night.",
+          "es": "Trabaja de noche.",
+          "partes": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "works",
+              "rol": "verbo"
+            },
+            {
+              "t": "at night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Work termina en /k/, sordo → /s/: /wɝks/. Una sola sílaba."
+        },
+        {
+          "en": "She reads a lot.",
+          "es": "Lee mucho.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "reads",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Read termina en /d/, sonoro → /z/: /riːdz/. Siente cómo sigue vibrando la garganta."
+        },
+        {
+          "en": "The class finishes at noon.",
+          "es": "La clase termina a mediodía.",
+          "partes": [
+            {
+              "t": "The class",
+              "rol": "sujeto"
+            },
+            {
+              "t": "finishes",
+              "rol": "verbo"
+            },
+            {
+              "t": "at noon",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Finish termina en /ʃ/ → /ɪz/: /ˈfɪnɪʃɪz/, tres sílabas (FI-ni-shiz)."
+        },
+        {
+          "en": "My mom dances on Fridays.",
+          "es": "Mi mamá baila los viernes.",
+          "partes": [
+            {
+              "t": "My mom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "dances",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Fridays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Dance se escribe con -e, pero su último sonido es /s/ → /ɪz/: /ˈdænsɪz/, dos sílabas. La letra engaña; el sonido manda."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "works",
+          "ipa": "/wɝks/",
+          "consejo": "Una sílaba. Termina en /ks/, como la x de «taxi». Sin vibración en la garganta al final.",
+          "lento": true
+        },
+        {
+          "texto": "plays",
+          "ipa": "/pleɪz/",
+          "consejo": "Una sílaba. La -s final vibra como un zumbido /z/: pon los dedos en la garganta y nota la vibración, como en la s de «mismo».",
+          "lento": true
+        },
+        {
+          "texto": "watches",
+          "ipa": "/ˈwɑːtʃɪz/",
+          "consejo": "Dos sílabas: WA-chiz. La segunda es muy débil, con una i corta, y termina en /z/. No digas «watchs» en una sola sílaba. En británico: /ˈwɒtʃɪz/.",
+          "lento": true
+        },
+        {
+          "texto": "likes",
+          "ipa": "/laɪks/",
+          "consejo": "Una sola sílaba: la e no se pronuncia. No digas «lai-kes»; el final es /ks/, como en «taxi»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "likes pronunciado «lai-kes» (dos sílabas)",
+          "bien": "likes /laɪks/ (una sílaba)",
+          "porque": "La e de like es muda. Solo se añade sílaba /ɪz/ tras sonidos silbantes, y /k/ no lo es."
+        },
+        {
+          "mal": "watches pronunciado «watchs» (una sílaba)",
+          "bien": "watches /ˈwɑːtʃɪz/ (dos sílabas)",
+          "porque": "Tras /tʃ/ la -s necesita una vocal de apoyo: /ɪz/. Sin ella, la terminación no se oye."
+        },
+        {
+          "mal": "He work (la -s tragada al hablar)",
+          "bien": "He works /wɝks/",
+          "porque": "En español se suele relajar la s final, pero en inglés esa -s es gramática: si no se oye, parece que dijiste un error."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple.tercera-persona.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "My sister ___ at a bank.",
+      "opciones": [
+        {
+          "texto": "works",
+          "correcta": true,
+          "porque": "Correcta: my sister equivale a she, tercera persona del singular, y en presente simple el verbo añade -s."
+        },
+        {
+          "texto": "work",
+          "correcta": false,
+          "porque": "Work sin -s es para I, you, we, they y sujetos plurales. My sister es una sola persona (= she)."
+        },
+        {
+          "texto": "is work",
+          "correcta": false,
+          "porque": "No se combina is con otro verbo en presente simple. Basta con works."
+        }
+      ],
+      "pistas": [
+        "Sustituye el sujeto por un pronombre.",
+        "My sister = ¿I, you, he, she, it, we o they?",
+        "Con he, she o it, el verbo lleva -s en presente simple afirmativo."
+      ],
+      "solucion": {
+        "respuesta": "works",
+        "explicacion": "La respuesta correcta es works porque my sister equivale a she, tercera persona del singular, y en presente simple el verbo añade -s con ese sujeto. Is work es incorrecto porque mezcla to be con otro verbo."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada verbo con su forma de tercera persona.",
+      "pares": [
+        {
+          "a": "watch",
+          "b": "watches"
+        },
+        {
+          "a": "go",
+          "b": "goes"
+        },
+        {
+          "a": "study",
+          "b": "studies"
+        },
+        {
+          "a": "play",
+          "b": "plays"
+        },
+        {
+          "a": "have",
+          "b": "has"
+        },
+        {
+          "a": "fix",
+          "b": "fixes"
+        }
+      ],
+      "pistas": [
+        "No todos los verbos añaden solo -s: depende de cómo terminan.",
+        "Mira las últimas letras de cada verbo: -ch, -o, -x, consonante + y, vocal + y.",
+        "-ch/-x/-o → + es; consonante + y → ies; vocal + y → + s; have → has."
+      ],
+      "solucion": {
+        "respuesta": "watch → watches · go → goes · study → studies · play → plays · have → has · fix → fixes",
+        "explicacion": "Watch (-ch) y fix (-x) añaden -es; go (-o) también. Study cambia la y por ies porque antes de la y hay una consonante; play solo añade -s porque antes de la y hay una vocal. Have es irregular: has."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el verbo entre paréntesis en la forma correcta.",
+      "frase": "Carlos ___ (study) English at night.",
+      "traduccion": "Carlos estudia inglés en las noches.",
+      "respuestas": [
+        [
+          "studies"
+        ]
+      ],
+      "errores_tipicos": {
+        "studys": "Study termina en consonante (d) + y: la y cambia a i y se añade -es → studies.",
+        "study": "Carlos = he: en presente simple el verbo necesita la marca de tercera persona.",
+        "studyes": "Casi: la y no se queda; cambia a i → studies."
+      },
+      "pistas": [
+        "Carlos es tercera persona del singular: el verbo cambia.",
+        "Mira la letra que va antes de la y en study.",
+        "Consonante + y → quita la y y añade -ies."
+      ],
+      "solucion": {
+        "respuesta": "studies",
+        "explicacion": "La respuesta es studies. Carlos equivale a he, así que el verbo lleva la marca de tercera persona; y como study termina en consonante + y, la y se convierte en i y se añade -es."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite las tres formas. Exagera la diferencia al principio.",
+      "texto": "He works. She plays. It closes.",
+      "ipa": "/hi ˈwɝks · ʃi ˈpleɪz · ɪt ˈkloʊzɪz/",
+      "consejo": "Tres finales distintos: works termina en /s/ sorda (sin vibración, como en «taxi»); plays en /z/ sonora (pon los dedos en la garganta: debe vibrar); closes añade una sílaba, KLOU-ziz. Si closes te sale de una sola sílaba, la -s se pierde.",
+      "es": "Él trabaja. Ella juega. Cierra.",
+      "pistas": [
+        "El sonido de la -s depende del último sonido del verbo.",
+        "Work termina en /k/, play en vocal y close en /z/.",
+        "Sordo → /s/; vocal o sonoro → /z/; silbante → /ɪz/ (sílaba extra)."
+      ]
+    },
+    {
+      "id": "presente-simple.tercera-persona.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Piensa en el sonido, no en la letra.",
+      "pregunta": "¿En cuál de estos verbos la -s final se pronuncia /ɪz/ (con una sílaba extra)?",
+      "opciones": [
+        {
+          "texto": "uses",
+          "correcta": true,
+          "porque": "Correcta: use termina en el sonido /z/ (silbante), así que la -s añade una sílaba: /ˈjuːzɪz/."
+        },
+        {
+          "texto": "makes",
+          "correcta": false,
+          "porque": "Make se escribe con -e, pero su último sonido es /k/ (sordo): makes es /meɪks/, una sola sílaba, con /s/."
+        },
+        {
+          "texto": "plays",
+          "correcta": false,
+          "porque": "Play termina en vocal: la -s suena /z/ y no añade sílaba: /pleɪz/."
+        },
+        {
+          "texto": "eats",
+          "correcta": false,
+          "porque": "Eat termina en /t/, sordo: la -s suena /s/: /iːts/, una sílaba."
+        }
+      ],
+      "pistas": [
+        "La sílaba extra /ɪz/ solo aparece tras sonidos silbantes.",
+        "Di cada verbo SIN la -s y fíjate en su último sonido: ¿es un siseo o zumbido (s, z, sh, ch, j)?",
+        "Los silbantes son /s/, /z/, /ʃ/, /tʃ/, /ʒ/, /dʒ/. La e escrita al final no cuenta: lo que cuenta es el sonido."
+      ],
+      "solucion": {
+        "respuesta": "uses",
+        "explicacion": "La respuesta es uses: el verbo use termina en el sonido /z/, que es silbante, así que la -s necesita una vocal de apoyo y suena /ɪz/. Makes también se escribe con -e, pero termina en /k/: una sílaba y -s /s/."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la descripción de la familia de Mei con los verbos entre paréntesis.",
+      "frase": "My dad ___ (fix) cars, my mom ___ (teach) math, and my grandparents ___ (live) with us.",
+      "traduccion": "Mi papá arregla carros, mi mamá da clases de matemáticas y mis abuelos viven con nosotros.",
+      "respuestas": [
+        [
+          "fixes"
+        ],
+        [
+          "teaches"
+        ],
+        [
+          "live"
+        ]
+      ],
+      "errores_tipicos": {
+        "fixes | teaches | lives": "Los dos primeros están bien, pero my grandparents son varias personas (= they): el verbo va en forma base, live.",
+        "fixs | teachs | live": "Fix y teach terminan en -x y -ch: necesitan -es (fixes, teaches).",
+        "fix | teach | live": "My dad y my mom son sujetos singulares (= he, she): sus verbos necesitan la marca de tercera persona."
+      },
+      "pistas": [
+        "Hay tres sujetos distintos: decide para cada uno si es singular o plural.",
+        "My dad = he, my mom = she, my grandparents = they. Después mira cómo terminan fix y teach.",
+        "Singular → -s, y tras -x o -ch se escribe -es. Plural → forma base."
+      ],
+      "solucion": {
+        "respuesta": "fixes … teaches … live",
+        "explicacion": "My dad (= he) → fixes, con -es porque fix termina en -x. My mom (= she) → teaches, con -es porque teach termina en -ch. My grandparents (= they) → live, forma base, porque el sujeto es plural."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "My brother watchs TV after dinner.",
+      "error": "watchs",
+      "correcciones": [
+        "watches"
+      ],
+      "frase_correcta": "My brother watches TV after dinner.",
+      "pistas": [
+        "El sujeto está bien y el verbo sí lleva marca de tercera persona. Revisa cómo está escrita.",
+        "¿En qué letras termina watch?",
+        "Tras -ch se añade -es, no solo -s."
+      ],
+      "solucion": {
+        "respuesta": "watches",
+        "explicacion": "El error es watchs. My brother (= he) sí necesita la marca de tercera persona, pero watch termina en -ch y en ese caso se escribe -es: watches. Además se pronuncia con una sílaba extra: /ˈwɑːtʃɪz/."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia el sujeto y ajusta el verbo.",
+      "origen": "I have two classes on Monday.",
+      "instruccion": "Sujeto nuevo: Mei",
+      "respuestas": [
+        "Mei has two classes on Monday"
+      ],
+      "errores_tipicos": {
+        "Mei haves two classes on Monday": "Have es irregular: con he/she/it no se añade -s, se cambia a has.",
+        "Mei have two classes on Monday": "Mei es tercera persona del singular (= she): el verbo cambia. Con have, la forma es has."
+      },
+      "pistas": [
+        "Mei equivale a un pronombre de tercera persona.",
+        "El verbo es have. ¿Sigue la regla general?",
+        "Have es irregular: con he, she o it se convierte en has."
+      ],
+      "solucion": {
+        "respuesta": "Mei has two classes on Monday.",
+        "explicacion": "Mei = she, tercera persona del singular, así que el verbo cambia. Have no sigue la regla general («haves» no existe): su forma es has. Lo demás de la oración no cambia."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Fíjate bien en el final del verbo.",
+      "texto": "The shop closes at nine.",
+      "respuestas": [
+        "The shop closes at 9"
+      ],
+      "pistas": [
+        "El sujeto es un lugar, así que el verbo está en tercera persona.",
+        "El verbo tiene dos sílabas: la segunda es la terminación /ɪz/.",
+        "El verbo es close (cerrar) + s; la hora va después de at."
+      ],
+      "solucion": {
+        "respuesta": "The shop closes at nine.",
+        "explicacion": "La oración es The shop closes at nine (La tienda cierra a las nueve). The shop = it, así que close lleva -s. Como close termina en el sonido /z/, la -s se pronuncia /ɪz/ y añade una sílaba: KLOU-ziz."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.10",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "town",
+        "lives",
+        "family",
+        "in",
+        "my",
+        "a",
+        "small"
+      ],
+      "respuestas": [
+        "My family lives in a small town"
+      ],
+      "traduccion": "Mi familia vive en un pueblo.",
+      "pistas": [
+        "Empieza por el sujeto: un posesivo + un sustantivo.",
+        "El verbo lleva -s: ¿qué sujeto de las fichas es singular?",
+        "Sujeto singular + verbo con -s + in + a + adjetivo + sustantivo (el adjetivo va antes)."
+      ],
+      "solucion": {
+        "respuesta": "My family lives in a small town.",
+        "explicacion": "El orden es sujeto + verbo + lugar: My family lives in a small town. Lives lleva -s porque my family, como grupo, equivale a it. El adjetivo small va antes de town, al revés que en español."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hermano trabaja en un hospital y mi hermana estudia medicina.",
+      "respuestas": [
+        "My brother works at a hospital and my sister studies medicine",
+        "My brother works in a hospital and my sister studies medicine"
+      ],
+      "errores_tipicos": {
+        "My brother work at a hospital and my sister study medicine": "Los dos sujetos son tercera persona del singular (he, she): los verbos necesitan -s → works, studies.",
+        "My brother works at a hospital and my sister studys medicine": "Study termina en consonante + y: la y cambia a ies → studies.",
+        "My brother works at a hospital and my sister studies the medicine": "Las materias y carreras en general van sin artículo: studies medicine."
+      },
+      "pistas": [
+        "Hay dos sujetos. Decide para cada uno si es tercera persona del singular.",
+        "My brother = he, my sister = she. Mira después cómo termina study.",
+        "Tercera persona → -s (works); consonante + y → -ies (studies). Medicine, sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "My brother works at a hospital and my sister studies medicine.",
+        "explicacion": "Ambos sujetos son tercera persona del singular: my brother (he) → works, my sister (she) → studies, con -ies porque study termina en consonante + y. Las carreras y materias en general no llevan the: studies medicine."
+      }
+    },
+    {
+      "id": "presente-simple.tercera-persona.12",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Priya and her husband has a small restaurant.",
+      "error": "has",
+      "correcciones": [
+        "have"
+      ],
+      "frase_correcta": "Priya and her husband have a small restaurant.",
+      "pistas": [
+        "Antes de decidir la forma del verbo, cuenta cuántas personas forman el sujeto.",
+        "El sujeto es Priya and her husband. ¿A qué pronombre equivale?",
+        "Dos personas unidas con and = they, y con they el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "have",
+        "explicacion": "El error es has. El sujeto, Priya and her husband, son dos personas (= they), así que el verbo va en forma base: have. Has solo va con un sujeto singular de tercera persona, por ejemplo Priya has a small restaurant."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Presenta a tu familia",
+    "contexto": "Omar te enseña una foto de su familia y te explica a qué se dedica cada uno. Luego te toca a ti.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "This is my sister. She's a chef. She works at a hotel and she cooks every day.",
+        "es": "Esta es mi hermana. Es chef. Trabaja en un hotel y cocina todos los días."
+      },
+      {
+        "quien": "Omar",
+        "en": "And this is my dad. He drives a taxi and he watches soccer on Sundays.",
+        "es": "Y este es mi papá. Maneja un taxi y ve futbol los domingos."
+      },
+      {
+        "quien": "Omar",
+        "en": "What about your family?",
+        "es": "¿Y tu familia?"
+      }
+    ],
+    "tu_turno": "Describe a dos o tres miembros de tu familia: su profesión (con be), dónde trabajan o estudian y una cosa que hacen normalmente. Usa al menos un verbo con -es o -ies.",
+    "modelo": "This is my mom. She's a teacher. She teaches English at a high school. My brother is a student: he studies engineering and he plays the guitar. My dad fixes computers.",
+    "alternativas": [
+      "My sister is a nurse. She works at a hospital and she has two children.",
+      "My grandfather lives with us. He goes to the park every morning and he watches the news at night."
+    ],
+    "claves": [
+      "He/she + verbo con -s: works, lives, plays.",
+      "-es tras -ch, -sh, -x, -o: teaches, fixes, watches, goes.",
+      "Consonante + y → -ies: studies. Y have → has.",
+      "Profesión con be (She's a teacher); actividad con otro verbo (She teaches English)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Con he, she, it o cualquier sujeto singular (my brother, the shop, Ana), el verbo añade -s: My brother works at a hospital.",
+      "Ortografía: + es tras -s, -sh, -ch, -x, -z y -o (watches, goes, does); consonante + y → -ies (studies); vocal + y → + s (plays); have → has.",
+      "Pronunciación: /s/ tras sonidos sordos (works), /z/ tras vocales y sonoros (plays), /ɪz/ tras silbantes (watches).",
+      "Dos sujetos unidos con and, people y children son plurales: sin -s."
+    ],
+    "recuerda": [
+      "Pregúntate: ¿puedo cambiar el sujeto por he, she o it? Si sí, -s.",
+      "Does y says tienen pronunciación especial: /dʌz/ y /sez/.",
+      "Adelanto: con does y doesn't la -s se va al auxiliar y el verbo vuelve a la forma base (Does he work…?, He doesn't work…)."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "presente-simple.tercera-persona.r1",
+      "frente": "¿Por qué decimos My brother works y no My brother work?",
+      "reverso": "Porque my brother = he, tercera persona del singular, y en presente simple el verbo lleva -s.",
+      "nota": "Compara: I work at a hospital."
+    },
+    {
+      "id": "presente-simple.tercera-persona.r2",
+      "frente": "Tercera persona de watch, go, study, play y have.",
+      "reverso": "watches, goes, studies, plays, has.",
+      "nota": "-ch/-o → es; consonante + y → ies; vocal + y → s; have → has."
+    },
+    {
+      "id": "presente-simple.tercera-persona.r3",
+      "frente": "¿Cómo suena la -s en works, plays y watches?",
+      "reverso": "/s/, /z/ y /ɪz/.",
+      "nota": "Decide el último SONIDO del verbo, no la última letra."
+    },
+    {
+      "id": "presente-simple.tercera-persona.r4",
+      "frente": "¿Priya and Tom has o have a car?",
+      "reverso": "have → Priya and Tom have a car.",
+      "nota": "Dos personas = they."
+    },
+    {
+      "id": "presente-simple.tercera-persona.r5",
+      "frente": "¿Por qué Does your brother work…? y no Does your brother works…?",
+      "reverso": "Porque la -s ya está en does (do + es); el verbo principal vuelve a la forma base.",
+      "nota": "Lo practicarás en la unidad «Do y does»."
+    }
+  ]
+}

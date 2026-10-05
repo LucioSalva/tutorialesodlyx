@@ -1,0 +1,1191 @@
+{
+  "slug": "imperativo",
+  "titulo": "El imperativo",
+  "minutos": 40,
+  "objetivos": [
+    "Dar instrucciones, avisos, consejos e invitaciones con el verbo en forma base y sin sujeto: Open the door. Be careful. Come in.",
+    "Formar el imperativo negativo con Don't + verbo base, también con be: Don't touch it. Don't be late.",
+    "Proponer planes con Let's + verbo base y rechazarlos con Let's not…",
+    "Suavizar el imperativo con please o cambiarlo por Could you…? para no sonar brusco."
+  ],
+  "situacion": {
+    "titulo": "Clase de cocina",
+    "texto": "Omar enseña a Lucía a preparar guacamole. Cuando alguien da instrucciones paso a paso, el inglés usa el imperativo: el verbo solo, sin sujeto. Fíjate también en cómo avisa de un peligro y en cómo propone probar el resultado.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "First, wash your hands. Then cut the avocados in half.",
+        "es": "Primero, lávate las manos. Luego corta los aguacates por la mitad."
+      },
+      {
+        "quien": "Lucía",
+        "en": "Like this?",
+        "es": "¿Así?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Yes. Be careful! That knife is very sharp.",
+        "es": "Sí. ¡Ten cuidado! Ese cuchillo está muy afilado."
+      },
+      {
+        "quien": "Lucía",
+        "en": "OK. Do I add the onion now?",
+        "es": "Bueno. ¿Pongo la cebolla ahora?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Yes, and a little salt. Don't add too much!",
+        "es": "Sí, y un poco de sal. ¡No pongas demasiada!"
+      },
+      {
+        "quien": "Lucía",
+        "en": "It looks great. Let's try it!",
+        "es": "Se ve buenísimo. ¡Probémoslo!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "imperativo-afirmativo",
+      "titulo": "Open the door: el verbo solo",
+      "que_es": "El **imperativo** es la forma que usas para decirle a alguien que haga algo: [[Sit down]], [[Open your books]], [[Call me later]]. En inglés es la forma más sencilla de todas: el **verbo en forma base, sin sujeto**. No cambia si hablas con una persona o con varias, ni si es de tú o de usted: [[Come in]] es «pasa», «pase» y «pasen».",
+      "para_que": [
+        "Instrucciones y recetas: Mix the eggs. Turn on the oven.",
+        "Avisos y advertencias: Be careful! Watch out! Stop!",
+        "Consejos: Drink more water. Get some rest.",
+        "Invitaciones y ofrecimientos amables: Come in. Have a seat. Help yourself."
+      ],
+      "como_funciona": "**Fórmula:** {{verbo:verbo base}} + {{complemento:complemento}} → {{verbo:Close}} {{complemento:the window}}.\n\n- **Sin sujeto:** no se dice «You close the window» para dar una instrucción (esa oración describe un hábito). Solo se añade [[you]] para marcar un contraste o con enfado: [[You sit here, and you sit there]].\n- **Sin -s ni to:** [[Open]], no «Opens» ni «To open».\n- **Con be:** [[Be careful]], [[Be quiet]], [[Be nice to your sister]]. Be + adjetivo es muy frecuente en avisos.\n- **Una sola forma para todos:** tú, usted, ustedes → [[Sit down, please]].\n\n**Cuidado con el tono.** El imperativo es normal en recetas, instrucciones, avisos, señales e invitaciones (lo que beneficia al otro: [[Have a seat]], [[Take a cookie]]). Pero si **pides un favor** con un imperativo seco, puede sonar a orden: [[Give me the salt]]. Para suavizar tienes dos herramientas:\n1. [[please]] al principio o al final: [[Please sit down]] / [[Sit down, please]]. Ayuda, pero no convierte una orden en una petición: el tono de voz también cuenta.\n2. Una pregunta con [[Can you…?]] o [[Could you…?]] (ya las estudiaste): [[Could you pass me the salt?]] Con desconocidos y en el trabajo es la opción más segura.\n\n**Calco de los letreros:** el español usa infinitivo en instrucciones escritas («Agitar antes de usar», «Empujar»). En inglés se usa el imperativo: [[Shake before use]], [[Push]]. Nunca «To push».",
+      "estructuras": [
+        {
+          "etiqueta": "Instrucción",
+          "formula": [
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Turn off",
+              "rol": "verbo"
+            },
+            {
+              "t": "your phone,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Apaga tu celular, por favor."
+        },
+        {
+          "etiqueta": "Aviso con be",
+          "formula": [
+            {
+              "t": "Be",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Be",
+              "rol": "verbo"
+            },
+            {
+              "t": "careful!",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¡Ten cuidado!"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Open your books to page twenty.",
+          "es": "Abran sus libros en la página veinte.",
+          "situacion": "Una maestra al empezar la clase.",
+          "partes": [
+            {
+              "t": "Open",
+              "rol": "verbo"
+            },
+            {
+              "t": "your books",
+              "rol": "complemento"
+            },
+            {
+              "t": "to page twenty",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Habla con toda la clase, pero el verbo es el mismo que para una persona: open."
+        },
+        {
+          "en": "Come in and have a seat.",
+          "es": "Pasa y siéntate.",
+          "situacion": "Recibes a una visita en tu casa.",
+          "partes": [
+            {
+              "t": "Come in",
+              "rol": "verbo"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a seat",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Es una invitación amable, no una orden: beneficia a la visita. Have a seat es más cortés que Sit down."
+        },
+        {
+          "en": "Watch out! There's a car.",
+          "es": "¡Cuidado! Viene un carro.",
+          "partes": [
+            {
+              "t": "Watch out!",
+              "rol": "verbo"
+            },
+            {
+              "t": "There's a car.",
+              "rol": "otro"
+            }
+          ],
+          "nota": "En un aviso urgente no hace falta please: la brevedad es lo importante."
+        },
+        {
+          "en": "Be quiet, please. The baby is sleeping.",
+          "es": "Guarden silencio, por favor. El bebé está durmiendo.",
+          "partes": [
+            {
+              "t": "Be",
+              "rol": "verbo"
+            },
+            {
+              "t": "quiet,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please.",
+              "rol": "otro"
+            },
+            {
+              "t": "The baby is sleeping.",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Quiet es adjetivo (callado), por eso necesita be. «Quiet, please» también se oye, sin verbo."
+        },
+        {
+          "en": "Heat the oil and add the onions.",
+          "es": "Calienta el aceite y añade la cebolla.",
+          "partes": [
+            {
+              "t": "Heat",
+              "rol": "verbo"
+            },
+            {
+              "t": "the oil",
+              "rol": "complemento"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "add",
+              "rol": "verbo"
+            },
+            {
+              "t": "the onions",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Las recetas se escriben en imperativo. En español a veces usamos infinitivo o «se calienta»; en inglés, siempre el verbo base."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De orden a petición cortés",
+        "pasos": [
+          {
+            "etiqueta": "Orden directa",
+            "partes": [
+              {
+                "t": "Close",
+                "rol": "verbo"
+              },
+              {
+                "t": "the window.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Con please",
+            "partes": [
+              {
+                "t": "Please",
+                "rol": "otro"
+              },
+              {
+                "t": "close",
+                "rol": "verbo"
+              },
+              {
+                "t": "the window.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Petición",
+            "partes": [
+              {
+                "t": "Can",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "you",
+                "rol": "sujeto"
+              },
+              {
+                "t": "close",
+                "rol": "verbo"
+              },
+              {
+                "t": "the window?",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Petición cortés",
+            "partes": [
+              {
+                "t": "Could",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "you",
+                "rol": "sujeto"
+              },
+              {
+                "t": "close",
+                "rol": "verbo"
+              },
+              {
+                "t": "the window,",
+                "rol": "complemento"
+              },
+              {
+                "t": "please?",
+                "rol": "otro"
+              }
+            ]
+          }
+        ],
+        "pie": "Las cuatro piden lo mismo; cambia el tono. Para instrucciones, recetas y avisos basta el imperativo. Para pedir un favor, sube por la escalera."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Have a seat.",
+          "ipa": "/ˈhæv ə ˈsiːt/",
+          "consejo": "Have lleva la vocal /æ/: abre la boca como para decir «a» y estira los labios como para «e». La v se hace con los dientes de arriba sobre el labio de abajo (no es b). Seat con «i» larga.",
+          "lento": true
+        },
+        {
+          "texto": "Be careful!",
+          "ipa": "/bi ˈkɛrfəl/",
+          "consejo": "El acento cae en CARE. La terminación -ful se reduce a /fəl/, con una vocal casi muda y una l oscura: no digas «ful» con u clara."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "You open the door, please.",
+          "bien": "Open the door, please.",
+          "porque": "Para dar una instrucción no se usa sujeto. Con you suena a descripción o a reproche."
+        },
+        {
+          "mal": "To open the door.",
+          "bien": "Open the door.",
+          "porque": "Calco del infinitivo español de instrucciones («Abrir la puerta»). En inglés se usa el verbo base sin to."
+        },
+        {
+          "mal": "Careful you!",
+          "bien": "Be careful!",
+          "porque": "Careful es adjetivo: necesita be delante."
+        },
+        {
+          "mal": "Gives me your pen.",
+          "bien": "Give me your pen, please. / Could you give me your pen?",
+          "porque": "El imperativo no lleva -s. Y para pedir algo, añade please o usa Could you…?"
+        }
+      ]
+    },
+    {
+      "id": "imperativo-negativo",
+      "titulo": "Don't touch it: el imperativo negativo",
+      "que_es": "Para decir que **no** se haga algo, pon [[Don't]] delante del verbo base: [[Don't touch it]], [[Don't worry]], [[Don't be late]]. Sirve para prohibir, avisar y tranquilizar.",
+      "para_que": [
+        "Prohibir o avisar: Don't touch the oven. It's hot.",
+        "Tranquilizar a alguien: Don't worry. It's OK.",
+        "Dar consejos: Don't drink coffee at night."
+      ],
+      "como_funciona": "**Fórmula:** {{negacion:Don't}} + {{verbo:verbo base}} + {{complemento:complemento}}.\n\n- Es igual para una persona o para varias: [[Don't run!]] (no corras / no corran).\n- **También con be:** [[Don't be late]], [[Don't be sad]]. Aquí sí usamos do aunque el verbo sea be: «Be not late» o «No be late» no existen.\n- **Don't es la forma normal;** [[Do not]] aparece en letreros y textos formales: [[Do not enter]].\n- **Never** también funciona para consejos fuertes: [[Never open emails from strangers]].\n\n**Los letreros «No + -ing»:** [[No smoking]], [[No parking]] son formas fijas de los carteles (usan un sustantivo). En una conversación dices [[Don't smoke here]], no «No smoke».\n\n**El calco más común:** el español dice «no toques», y el estudiante escribe «No touch». En inglés la negación de un verbo siempre necesita el auxiliar: [[Don't touch]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negativo",
+          "formula": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "touch",
+              "rol": "verbo"
+            },
+            {
+              "t": "the plate.",
+              "rol": "complemento"
+            },
+            {
+              "t": "It's very hot.",
+              "rol": "otro"
+            }
+          ],
+          "es": "No toques el plato. Está muy caliente."
+        },
+        {
+          "etiqueta": "Negativo con be",
+          "formula": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "late!",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¡No llegues tarde!"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Don't worry. Everything is OK.",
+          "es": "No te preocupes. Todo está bien.",
+          "partes": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "worry.",
+              "rol": "verbo"
+            },
+            {
+              "t": "Everything is OK.",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Don't worry no lleva pronombre: «preocuparse» en inglés es solo worry."
+        },
+        {
+          "en": "Don't forget your umbrella.",
+          "es": "No olvides tu paraguas.",
+          "partes": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "forget",
+              "rol": "verbo"
+            },
+            {
+              "t": "your umbrella",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Un recordatorio amable, muy común al despedirse."
+        },
+        {
+          "en": "Don't be shy. Come and dance with us!",
+          "es": "No seas tímido. ¡Ven a bailar con nosotros!",
+          "partes": [
+            {
+              "t": "Don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "shy.",
+              "rol": "complemento"
+            },
+            {
+              "t": "Come and dance with us!",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Don't be + adjetivo. Come and dance = ven a bailar (come and + verbo es muy natural)."
+        },
+        {
+          "en": "Please don't park here.",
+          "es": "Por favor, no se estacione aquí.",
+          "nota": "Please también suaviza el negativo. En un letrero verías No parking."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Don't touch it.",
+          "ipa": "/ˈdoʊn ˈtʌtʃ ɪt/",
+          "consejo": "Antes de una consonante, la t final de don't casi no se oye: «DOUN-tʌch». Don't lleva el diptongo /oʊ/: empieza en «o» y cierra los labios hacia «u». No lo digas «dont» con o corta."
+        },
+        {
+          "texto": "Don't worry.",
+          "ipa": "/ˈdoʊnt ˈwɝːi/",
+          "consejo": "Worry NO suena «guo-ri»: la vocal es la de bird, una «e» murmurada con la lengua curvada hacia atrás (en Reino Unido /ˈwʌri/). La w empieza con los labios redondeados."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "No touch it!",
+          "bien": "Don't touch it!",
+          "porque": "Calco de «no lo toques». El imperativo negativo necesita don't."
+        },
+        {
+          "mal": "Don't to be late.",
+          "bien": "Don't be late.",
+          "porque": "Después de don't va el verbo base, sin to."
+        },
+        {
+          "mal": "Not be sad.",
+          "bien": "Don't be sad.",
+          "porque": "También con be se usa don't en el imperativo negativo."
+        }
+      ]
+    },
+    {
+      "id": "lets",
+      "titulo": "Let's go! Proponer planes",
+      "que_es": "[[Let's]] + verbo base sirve para **proponer que hagamos algo juntos** (tú y yo, o nosotros): [[Let's go]] = «vamos», «vámonos»; [[Let's eat]] = «comamos». Es la forma más común de sugerir un plan que incluye a quien habla.",
+      "para_que": [
+        "Proponer planes: Let's go to the beach this weekend.",
+        "Organizar al grupo: Let's start. Let's take a break.",
+        "Rechazar una idea: Let's not take the bus. Let's walk."
+      ],
+      "como_funciona": "**Fórmula:** {{verbo:Let's}} + {{verbo:verbo base}} + {{complemento:complemento}}.\n\n- [[Let's]] es la contracción de [[let us]], pero en las propuestas siempre se dice [[Let's]]. [[Let us]] completo suena muy formal y además puede significar «déjanos, permítenos» ([[Let us help you]] = «déjanos ayudarte»).\n- **Negativo: Let's not** + verbo base: [[Let's not wait]]. En habla muy informal de EE. UU. se oye «Let's don't», pero la forma estándar es [[Let's not]].\n- **Respuestas:** a favor → [[OK!]], [[Good idea!]], [[Sure]], [[Yes, let's]]. En contra → [[Let's not]], [[I'd rather not]] (expresión fija: «prefiero que no») o una alternativa: [[Let's take a taxi instead]].\n\n**Let's, We could y Could we?** Ya estudiaste [[We could…]] para sugerencias suaves. [[Let's]] es más decidido: presenta la idea casi como un hecho. [[We could go to the beach]] = «podríamos ir»; [[Let's go to the beach]] = «vamos a la playa».",
+      "estructuras": [
+        {
+          "etiqueta": "Propuesta",
+          "formula": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lunch",
+              "rol": "complemento"
+            },
+            {
+              "t": "together.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Comamos juntos."
+        },
+        {
+          "etiqueta": "Propuesta negativa",
+          "formula": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "go",
+              "rol": "verbo"
+            },
+            {
+              "t": "out",
+              "rol": "complemento"
+            },
+            {
+              "t": "tonight.",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Mejor no salgamos esta noche."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "It's late. Let's go home.",
+          "es": "Ya es tarde. Vámonos a casa.",
+          "partes": [
+            {
+              "t": "It's late.",
+              "rol": "otro"
+            },
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "go",
+              "rol": "verbo"
+            },
+            {
+              "t": "home",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Go home, sin to: home funciona como adverbio de lugar."
+        },
+        {
+          "en": "Let's take a break for ten minutes.",
+          "es": "Tomemos un descanso de diez minutos.",
+          "partes": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "take",
+              "rol": "verbo"
+            },
+            {
+              "t": "a break",
+              "rol": "complemento"
+            },
+            {
+              "t": "for ten minutes",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Muy común en clases y reuniones. Take a break = tomar un descanso."
+        },
+        {
+          "en": "Let's not take the car. There's a lot of traffic.",
+          "es": "Mejor no llevemos el carro. Hay mucho tráfico.",
+          "partes": [
+            {
+              "t": "Let's",
+              "rol": "verbo"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "take",
+              "rol": "verbo"
+            },
+            {
+              "t": "the car.",
+              "rol": "complemento"
+            },
+            {
+              "t": "There's a lot of traffic.",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Not va entre Let's y el verbo. No uses don't."
+        },
+        {
+          "en": "Are you hungry? — Yes, let's order a pizza.",
+          "es": "¿Tienes hambre? — Sí, pidamos una pizza.",
+          "nota": "Order = pedir comida en un restaurante o a domicilio."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Let's go!",
+          "ipa": "/ˈlɛts ˈɡoʊ/",
+          "consejo": "Let's es una sola sílaba que termina en /ts/, como la «ts» de «tsunami». Go lleva el diptongo /oʊ/: empieza en «o» y termina con los labios hacia «u»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Let's to go.",
+          "bien": "Let's go.",
+          "porque": "Después de let's va el verbo base, sin to."
+        },
+        {
+          "mal": "Let's going to the park.",
+          "bien": "Let's go to the park.",
+          "porque": "Let's + verbo base, no -ing."
+        },
+        {
+          "mal": "Don't let's wait.",
+          "bien": "Let's not wait.",
+          "porque": "La forma estándar del negativo es Let's not + verbo base. «Don't let's» existe en inglés británico informal, pero es poco común."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la instrucción correcta.",
+      "pregunta": "Estás en el aeropuerto. ¿Qué dice el letrero de la puerta?",
+      "opciones": [
+        {
+          "texto": "Show your boarding pass here.",
+          "correcta": true,
+          "porque": "Correcto: imperativo = verbo base sin sujeto. Es la forma normal de las instrucciones escritas."
+        },
+        {
+          "texto": "To show your boarding pass here.",
+          "correcta": false,
+          "porque": "Calco del infinitivo de los letreros en español. En inglés las instrucciones no llevan to."
+        },
+        {
+          "texto": "Shows your boarding pass here.",
+          "correcta": false,
+          "porque": "El imperativo nunca lleva -s."
+        },
+        {
+          "texto": "You showing your boarding pass here.",
+          "correcta": false,
+          "porque": "No es imperativo ni una oración completa: falta el verbo be y sobra el sujeto."
+        }
+      ],
+      "pistas": [
+        "Una instrucción escrita usa el imperativo.",
+        "Fíjate en la primera palabra: ¿lleva to, -s o sujeto?",
+        "Imperativo = verbo base, sin sujeto, sin to, sin -s."
+      ],
+      "solucion": {
+        "respuesta": "Show your boarding pass here.",
+        "explicacion": "Las instrucciones y los letreros usan el imperativo: el verbo en forma base (show) sin sujeto. Ni to (calco del infinitivo «Mostrar…») ni -s."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa el aviso con la palabra que falta.",
+      "frase": "___ careful! The floor is wet.",
+      "respuestas": [
+        [
+          "Be"
+        ]
+      ],
+      "traduccion": "¡Ten cuidado! El piso está mojado.",
+      "pistas": [
+        "Careful es un adjetivo.",
+        "Un adjetivo necesita un verbo delante en el imperativo.",
+        "En el imperativo, un adjetivo necesita delante la forma base del verbo «ser/estar», sin sujeto."
+      ],
+      "solucion": {
+        "respuesta": "Be",
+        "explicacion": "La respuesta es Be. Careful es un adjetivo, y en el imperativo los adjetivos van con be: Be careful, Be quiet, Be nice."
+      },
+      "errores_tipicos": {
+        "is": "Is lleva sujeto (It is…). En el imperativo, sin sujeto, se usa la forma base: Be.",
+        "you": "El imperativo no lleva sujeto y careful necesita un verbo: Be careful."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada situación con la frase adecuada.",
+      "pares": [
+        {
+          "a": "Una visita llega a tu casa.",
+          "b": "Come in and have a seat."
+        },
+        {
+          "a": "Tu amigo está nervioso antes de un examen.",
+          "b": "Don't worry. You can do it."
+        },
+        {
+          "a": "Un niño va a tocar la estufa.",
+          "b": "Don't touch it! It's hot."
+        },
+        {
+          "a": "Tus amigos y tú tienen hambre.",
+          "b": "Let's order some food."
+        },
+        {
+          "a": "Una receta explica el primer paso.",
+          "b": "Wash the tomatoes."
+        },
+        {
+          "a": "Viene una bicicleta muy rápido.",
+          "b": "Watch out!"
+        }
+      ],
+      "pistas": [
+        "Distingue invitación, tranquilizar, prohibir, proponer, instruir y avisar.",
+        "Let's incluye a quien habla; Don't prohíbe o tranquiliza.",
+        "Invitación: pasar y sentarse; propuesta: la palabra que te incluye a ti; aviso urgente: dos palabras, sin please."
+      ],
+      "solucion": {
+        "respuesta": "visita → Come in; examen → Don't worry; estufa → Don't touch it; hambre → Let's order; receta → Wash the tomatoes; bicicleta → Watch out!",
+        "explicacion": "El imperativo tiene muchos usos: invitar (Come in), tranquilizar (Don't worry), prohibir (Don't touch it), instruir (Wash…) y avisar (Watch out!). Let's propone algo que haremos juntos."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la invitación con tono amable.",
+      "texto": "Come in and have a seat.",
+      "ipa": "/ˈkʌm ˈɪn ən ˈhæv ə ˈsiːt/",
+      "consejo": "Come in se une: «KA-min». And se reduce a /ən/. Have con /æ/ (boca abierta entre «a» y «e») y v con dientes sobre el labio. Seat con «i» larga. Sonríe al decirlo: la entonación hace que suene como invitación.",
+      "es": "Pasa y siéntate."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la instrucción en negativa.",
+      "origen": "Open the window.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Don't open the window."
+      ],
+      "pistas": [
+        "El imperativo negativo necesita un auxiliar.",
+        "El auxiliar va delante del verbo, y el verbo no cambia.",
+        "Forma contraída negativa del auxiliar do + verbo base sin cambios."
+      ],
+      "solucion": {
+        "respuesta": "Don't open the window.",
+        "explicacion": "El imperativo negativo se forma con Don't + verbo base: Don't open the window. El verbo open no cambia."
+      },
+      "errores_tipicos": {
+        "No open the window.": "Calco de «no abras». En inglés se necesita don't.",
+        "Not open the window.": "Not solo no basta: el imperativo negativo es Don't + verbo."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma correcta.",
+      "frase": "Don't ___ so noisy, please. The baby is sleeping.",
+      "respuestas": [
+        [
+          "be"
+        ]
+      ],
+      "traduccion": "No hagan tanto ruido, por favor. El bebé está durmiendo.",
+      "pistas": [
+        "Noisy (ruidoso) es un adjetivo.",
+        "Después de don't va un verbo en forma base, y un adjetivo necesita un verbo concreto.",
+        "Después de don't va la forma base del verbo «ser/estar» (sin to, sin -s), y luego el adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "be",
+        "explicacion": "La respuesta es be. Noisy es un adjetivo y necesita be, igual que en Be quiet. En el imperativo negativo también se usa don't con be: Don't be so noisy."
+      },
+      "errores_tipicos": {
+        "are": "Después de don't va el verbo en forma base: be, no are.",
+        "to be": "Después de don't no va to: Don't be…",
+        "is": "Después de don't va el verbo en forma base: be."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "It's a beautiful day. Let's going to the park.",
+      "error": "going",
+      "correcciones": [
+        "go"
+      ],
+      "frase_correcta": "It's a beautiful day. Let's go to the park.",
+      "pistas": [
+        "Mira el verbo que va después de let's.",
+        "Let's funciona como el imperativo: ¿qué forma del verbo sigue?",
+        "Let's + verbo base, sin -ing ni to."
+      ],
+      "solucion": {
+        "respuesta": "going → go",
+        "explicacion": "Después de let's siempre va el verbo en forma base: Let's go to the park. La forma -ing no se usa aquí."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para rechazar un plan.",
+      "fichas": [
+        "not",
+        "Let's",
+        "the",
+        "take",
+        "bus"
+      ],
+      "respuestas": [
+        "Let's not take the bus"
+      ],
+      "traduccion": "Mejor no tomemos el autobús.",
+      "pistas": [
+        "Empieza con la palabra que propone.",
+        "La negación va justo después de let's.",
+        "Propuesta negativa: let's + negación + verbo base + complemento, como en Let's not wait."
+      ],
+      "solucion": {
+        "respuesta": "Let's not take the bus.",
+        "explicacion": "El negativo de let's es Let's not + verbo base. Not va entre let's y el verbo; no se usa don't."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la instrucción de la receta y escríbela.",
+      "texto": "Don't add too much salt.",
+      "respuestas": [
+        "Do not add too much salt."
+      ],
+      "pistas": [
+        "Es una instrucción negativa.",
+        "Empieza con don't y el verbo que significa «añadir».",
+        "Imperativo negativo + verbo base + «demasiado» (para incontables) + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "Don't add too much salt.",
+        "explicacion": "Don't + add (verbo base) + too much salt. Too much = demasiado, con un sustantivo incontable como salt. Fíjate en que la t de don't casi no se oye antes de add."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.10",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "No te preocupes. Todo está bien.",
+      "respuestas": [
+        "Don't worry. Everything is OK.",
+        "Don't worry. Everything is fine.",
+        "Don't worry. Everything is all right.",
+        "Don't worry. Everything is alright.",
+        "Don't worry. It's OK.",
+        "Don't worry. It's fine.",
+        "Don't worry. It's all right.",
+        "Don't worry. Everything's OK.",
+        "Don't worry. Everything's fine.",
+        "Don't worry. Everything's all right.",
+        "Don't worry. It's all good.",
+        "Don't worry. Everything's alright."
+      ],
+      "pistas": [
+        "«No te preocupes» es un imperativo negativo.",
+        "«Preocuparse» en inglés es un solo verbo sin pronombre.",
+        "Imperativo negativo = don't + verbo base, sin pronombre; «todo» es singular y lleva is."
+      ],
+      "solucion": {
+        "respuesta": "Don't worry. Everything is OK.",
+        "explicacion": "Don't + worry (verbo base) es el imperativo negativo. En inglés worry no lleva pronombre (nada de «worry you»). Everything es singular: Everything is OK / fine."
+      },
+      "errores_tipicos": {
+        "Don't worry you. Everything is OK.": "Worry no lleva pronombre: Don't worry.",
+        "No worry. Everything is OK.": "El imperativo negativo necesita don't: Don't worry.",
+        "Don't worry. Everything are OK.": "Everything es singular: Everything is OK."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la forma más adecuada para la situación.",
+      "contexto": "Estás en una cafetería y no conoces a la persona de la mesa de al lado. Necesitas la sal que está en su mesa.",
+      "lineas": [
+        {
+          "quien": "Tú (piensas)",
+          "en": "My soup needs some salt… and the salt is on that table.",
+          "es": "A mi sopa le falta sal… y la sal está en esa mesa."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Excuse me, could you pass me the salt, please?",
+          "correcta": true,
+          "porque": "Correcto: con un desconocido, pedir un favor con Could you…? y please es lo más cortés."
+        },
+        {
+          "texto": "Give me the salt.",
+          "correcta": false,
+          "porque": "Es gramaticalmente correcto, pero un imperativo seco para pedir un favor a un desconocido suena a orden, casi grosero."
+        },
+        {
+          "texto": "Pass me the salt.",
+          "correcta": false,
+          "porque": "Sigue siendo una orden directa. Sin please ni pregunta, suena brusco con alguien que no conoces."
+        },
+        {
+          "texto": "You pass me the salt, please.",
+          "correcta": false,
+          "porque": "El imperativo no lleva sujeto; con you suena a reproche o a orden."
+        }
+      ],
+      "pistas": [
+        "Pides un favor a alguien que no conoces.",
+        "¿El imperativo solo suena amable o brusco en este caso?",
+        "Con desconocidos, un favor se pide mejor con una pregunta con auxiliar de cortesía y please que con un imperativo."
+      ],
+      "solucion": {
+        "respuesta": "Excuse me, could you pass me the salt, please?",
+        "explicacion": "El imperativo es perfecto para instrucciones, avisos e invitaciones, pero para pedir un favor a un desconocido puede sonar brusco. Excuse me + Could you…? + please es la opción segura."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa let's.",
+      "es": "Tomemos un descanso. Estoy muy cansado.",
+      "respuestas": [
+        "Let's take a break. I'm very tired.",
+        "Let's have a break. I'm very tired.",
+        "Let's take a break. I'm really tired.",
+        "Let's have a break. I'm really tired.",
+        "Let's take a break. I'm so tired.",
+        "Let's have a break. I'm so tired."
+      ],
+      "pistas": [
+        "«Tomemos» es una propuesta para ti y los demás.",
+        "Let's + verbo base; «descanso» = break.",
+        "Let's + verbo base + a break; luego sujeto + be + adjetivo, como en Let's have lunch. I'm hungry."
+      ],
+      "solucion": {
+        "respuesta": "Let's take a break. I'm very tired.",
+        "explicacion": "Let's + take (verbo base) + a break es una propuesta para el grupo. Tired es adjetivo: I'm tired (con be, no con have)."
+      },
+      "errores_tipicos": {
+        "Let's to take a break. I'm very tired.": "Después de let's no va to.",
+        "Let's taking a break. I'm very tired.": "Después de let's va el verbo base: take.",
+        "Let's take a break. I have very tired.": "Cansado se expresa con be: I'm tired."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe una nota para alguien que va a cuidar tu casa.",
+      "objetivo": "Dar instrucciones y avisos claros con el imperativo afirmativo y negativo.",
+      "instrucciones": "Te vas de viaje el fin de semana y una amiga, Grace, cuida tu casa y a tu gato. Escríbele una nota (35–60 palabras) con al menos tres instrucciones afirmativas, dos negativas con Don't y un agradecimiento. Usa please al menos una vez.",
+      "vocabulario_apoyo": [
+        "feed the cat",
+        "water the plants",
+        "lock the door",
+        "turn off the lights",
+        "the key is under…",
+        "call me if…",
+        "Help yourself to…",
+        "Thanks a lot!"
+      ],
+      "estructuras": [
+        "Please + verbo base…",
+        "Don't + verbo base…",
+        "Don't forget to…",
+        "Help yourself to…"
+      ],
+      "ejemplo": "Hi Tom, welcome to the office! Check your email first. Don't use the printer on the left; it's broken. Ask Ana for help. Thanks!",
+      "min_palabras": 35,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas Don't al menos una vez",
+          "patron": "\\bdon'?t\\b"
+        },
+        {
+          "descripcion": "Usas please",
+          "patron": "\\bplease\\b"
+        },
+        {
+          "descripcion": "Das las gracias",
+          "patron": "\\bthank"
+        }
+      ],
+      "criterios": [
+        "¿Tus instrucciones empiezan con el verbo en forma base, sin sujeto?",
+        "¿Los negativos usan Don't + verbo base (no «No + verbo»)?",
+        "¿Usaste Be + adjetivo si hay un aviso (Be careful…)?",
+        "¿Hay un saludo, las instrucciones en orden y una despedida?"
+      ],
+      "modelo": "Hi Grace, thanks for your help! Please feed the cat twice a day: the food is in the kitchen. Water the plants on Saturday. Don't open the back door; the cat likes to escape. Don't forget to lock the front door at night. Help yourself to anything in the fridge. Call me if there's a problem. Thanks a lot! Mei",
+      "explicacion": "El modelo empieza y termina con agradecimiento, porque la nota pide un favor. Las instrucciones usan el verbo base sin sujeto (feed, water, help yourself, call) y los avisos van con Don't + verbo (Don't open, Don't forget to lock). Please suaviza la primera instrucción, y cada aviso negativo tiene su razón.",
+      "errores_comunes": [
+        "Poner sujeto: «You feed the cat».",
+        "Negar sin don't: «No open the door».",
+        "Olvidar be con adjetivos: «Careful with the stairs» es aceptable como aviso breve, pero la forma completa es Be careful."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué hacemos el sábado?",
+    "contexto": "Tu amigo Ben te escribe para organizar el sábado. Propón un plan, rechaza otra idea y dale un consejo.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "What do you want to do on Saturday? We could go to the mall.",
+        "es": "¿Qué quieres hacer el sábado? Podríamos ir al centro comercial."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "Good idea! See you on Saturday.",
+        "es": "¡Buena idea! Nos vemos el sábado."
+      }
+    ],
+    "tu_turno": "Rechaza la idea del centro comercial con Let's not…, propón otro plan con Let's… y termina con un consejo o aviso en imperativo (Don't forget… / Bring…).",
+    "modelo": "Let's not go to the mall. It's always very busy on Saturdays. Let's go to the lake and have a picnic. Bring your camera, and don't forget your hat!",
+    "alternativas": [
+      "Hmm, let's not go shopping. Let's play soccer in the park. Don't be late!",
+      "Let's not stay in the city. Let's go to the beach! Don't forget your swimsuit."
+    ],
+    "claves": [
+      "Rechazar: Let's not + verbo base.",
+      "Proponer: Let's + verbo base.",
+      "Consejo o aviso: verbo base / Don't + verbo base."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Imperativo = verbo base sin sujeto: Open the door. Be careful. Igual para tú, usted y ustedes.",
+      "Negativo: Don't + verbo base, también con be: Don't touch it. Don't be late.",
+      "Let's + verbo base propone un plan para nosotros; Let's not + verbo base lo rechaza.",
+      "Instrucciones, recetas, avisos e invitaciones van en imperativo; para pedir favores, suaviza con please o usa Could you…?"
+    ],
+    "recuerda": [
+      "Nada de to en las instrucciones: Push, no «To push».",
+      "No touch → Don't touch.",
+      "Have a seat es más amable que Sit down."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.r1",
+      "frente": "¿Cómo se forma el imperativo en inglés?",
+      "reverso": "Verbo base, sin sujeto: Open the door. Be careful.",
+      "nota": "Igual para una persona o varias."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.r2",
+      "frente": "Di en inglés: «¡No llegues tarde!»",
+      "reverso": "Don't be late!",
+      "nota": "Don't también con be."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.r3",
+      "frente": "Rechaza el plan «Let's take the car».",
+      "reverso": "Let's not take the car.",
+      "nota": "Not entre let's y el verbo."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.r4",
+      "frente": "Haz más cortés: Give me the salt.",
+      "reverso": "Could you pass me the salt, please?",
+      "nota": "Para favores, mejor una pregunta con could."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.imperativo.r5",
+      "frente": "Corrige: No touch the oven!",
+      "reverso": "Don't touch the oven!"
+    }
+  ]
+}

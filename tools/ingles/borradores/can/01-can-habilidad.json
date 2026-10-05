@@ -1,0 +1,556 @@
+{
+  "slug": "can-habilidad",
+  "titulo": "Can para habilidades",
+  "minutos": 35,
+  "objetivos": [
+    "Decir lo que sabes hacer con can + verbo en forma base: I can swim.",
+    "Usar can igual con todos los sujetos, sin la -s de tercera persona: she can, no «she cans».",
+    "Traducir «saber hacer algo» con can, no con know: «Sé nadar» = I can swim.",
+    "Matizar el grado de habilidad con very well, well, a little, not very well y can't … at all."
+  ],
+  "situacion": {
+    "titulo": "Voluntarios para el campamento de verano",
+    "texto": "Priya quiere ser voluntaria en el campamento de verano de su colonia. Omar, el coordinador, llena una ficha con lo que sabe hacer cada voluntario. Fíjate en que can no cambia aunque cambie el sujeto, y en que el verbo que va detrás nunca lleva -s ni to.",
+    "dialogo": [
+      { "quien": "Omar", "en": "So, Priya, what can you do?", "es": "A ver, Priya, ¿qué sabes hacer?" },
+      { "quien": "Priya", "en": "I can swim, and I can play the guitar.", "es": "Sé nadar y sé tocar la guitarra." },
+      { "quien": "Omar", "en": "Great! The kids love music. And your brother?", "es": "¡Genial! A los niños les encanta la música. ¿Y tu hermano?" },
+      { "quien": "Priya", "en": "My brother can cook very well, but he can't swim.", "es": "Mi hermano cocina muy bien, pero no sabe nadar." },
+      { "quien": "Omar", "en": "No problem. He can help in the kitchen.", "es": "No hay problema. Puede ayudar en la cocina." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "can-forma-base",
+      "titulo": "Can + verbo en forma base: un verbo que nunca cambia",
+      "que_es": "[[Can]] es un **verbo modal**: un auxiliar especial que se coloca delante de otro verbo para añadirle un significado. Aquí ese significado es «saber hacer algo» o «ser capaz de hacerlo». [[Can]] no expresa una acción por sí solo: siempre necesita un verbo principal detrás ([[can swim]], [[can cook]], [[can drive]]).",
+      "para_que": [
+        "Decir qué sabes hacer en una entrevista o en un formulario: «Hablo inglés y español».",
+        "Describir las habilidades de tu familia y amigos: «Mi papá cocina muy bien».",
+        "Hablar de lo que puede hacer un animal o un aparato: «Mi gato sabe abrir la puerta», «Este celular toma fotos muy buenas».",
+        "Ofrecer tu ayuda: «Puedo ayudar en la cocina»."
+      ],
+      "como_funciona": "Tres reglas, sin excepciones en este nivel:\n\n1. **Can nunca cambia.** Es la misma palabra para todos los sujetos: [[I can]], [[you can]], [[he can]], [[she can]], [[it can]], [[we can]], [[they can]]. En presente simple aprendiste que con he / she / it el verbo lleva -s ([[she swims]]); los modales **no** siguen esa regla: nunca existe «cans».\n2. **El verbo que sigue va en forma base**, la del diccionario: sin -s, sin to y sin -ing. {{sujeto:She}} {{auxiliar:can}} {{verbo:swim}}. Nunca «she can swims», «she can to swim» ni «she can swimming».\n3. **La -s de tercera persona desaparece.** Compara [[She swims]] (hábito: nada con regularidad) con [[She can swim]] (habilidad: sabe nadar). Al entrar [[can]], ni [[can]] ni [[swim]] llevan -s: los modales ocupan el lugar del verbo conjugado y dejan al verbo principal «desnudo».\n\nComo es un auxiliar, [[can]] tampoco necesita a [[do]] / [[does]]: él mismo se encarga de negar y de preguntar (lo verás a fondo en la siguiente lección).",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación con can",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "verbo en forma base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "She", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "play", "rol": "verbo"}, {"t": "the piano", "rol": "complemento"} ],
+          "es": "Ella sabe tocar el piano."
+        },
+        {
+          "etiqueta": "Con un sujeto de tercera persona: ni can ni el verbo llevan -s",
+          "formula": [ {"t": "Sujeto singular", "rol": "sujeto"}, {"t": "can (sin -s)", "rol": "auxiliar"}, {"t": "verbo base (sin -s)", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "My brother", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "cook", "rol": "verbo"}, {"t": "Mexican food", "rol": "complemento"} ],
+          "es": "Mi hermano sabe cocinar comida mexicana."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Can con todos los sujetos: la misma forma siempre",
+          "columnas": ["Sujeto", "Can + verbo", "Traducción"],
+          "filas": [
+            ["I", "I can swim.", "Sé nadar."],
+            ["you", "You can swim.", "Sabes nadar."],
+            ["he / she / it", "She can swim.", "Ella sabe nadar."],
+            ["we", "We can swim.", "Sabemos nadar."],
+            ["they", "They can swim.", "Ellos saben nadar."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I can speak two languages.",
+          "es": "Hablo dos idiomas.",
+          "situacion": "Carlos se presenta en una entrevista de trabajo.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "speak", "rol": "verbo"}, {"t": "two languages", "rol": "complemento"} ],
+          "nota": "Con idiomas se usa speak, no talk. En español basta «hablo dos idiomas»; en inglés, para presentarlo como una habilidad, lo natural es can speak."
+        },
+        {
+          "en": "Tom can ride a horse.",
+          "es": "Tom sabe montar a caballo.",
+          "partes": [ {"t": "Tom", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "ride", "rol": "verbo"}, {"t": "a horse", "rol": "complemento"} ],
+          "nota": "Tom equivale a he, pero no aparece ninguna -s: ni «cans» ni «rides». Con can la tercera persona no se marca."
+        },
+        {
+          "en": "We can dance salsa.",
+          "es": "Sabemos bailar salsa.",
+          "partes": [ {"t": "We", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "dance", "rol": "verbo"}, {"t": "salsa", "rol": "complemento"} ],
+          "nota": "El sujeto we es obligatorio. En español «sabemos» ya indica quién; en inglés can es igual para todos, así que sin sujeto no se sabría quién sabe bailar."
+        },
+        {
+          "en": "My cat can open the door.",
+          "es": "Mi gato sabe abrir la puerta.",
+          "situacion": "Mei se queja, divertida, de su mascota.",
+          "partes": [ {"t": "My cat", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "open", "rol": "verbo"}, {"t": "the door", "rol": "complemento"} ],
+          "nota": "Un animal (it) también usa can. Aquí can significa «es capaz de»."
+        },
+        {
+          "en": "This phone can take very good photos.",
+          "es": "Este celular toma muy buenas fotos.",
+          "partes": [ {"t": "This phone", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "take", "rol": "verbo"}, {"t": "very good photos", "rol": "complemento"} ],
+          "nota": "Can también describe lo que puede hacer una máquina. Fíjate: take photos, no «make photos»."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Presente simple: She swims.", "items": ["El verbo lleva -s porque el sujeto es she.", "Habla de un hábito: nada (va a nadar con regularidad).", "Para negar y preguntar necesita does: She doesn't swim. Does she swim?"] },
+        "b": { "titulo": "Con can: She can swim.", "items": ["Ni can ni swim llevan -s.", "Habla de una habilidad: sabe nadar, aunque hoy no nade.", "Niega y pregunta sin does, con can mismo: She can't swim. Can she swim?"] },
+        "veredicto": "Cuando aparece can, la regla de la -s de tercera persona deja de aplicarse: can es invariable y el verbo que lo sigue queda en forma base. Además cambia el significado: el presente simple dice lo que alguien hace habitualmente; can, lo que es capaz de hacer."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Al entrar can, la -s desaparece",
+        "pasos": [
+          { "etiqueta": "Presente simple (hábito)", "partes": [ {"t": "She", "rol": "sujeto"}, {"t": "swims", "rol": "verbo"}, {"t": "every day", "rol": "tiempo"} ] },
+          { "etiqueta": "Con can (habilidad)", "partes": [ {"t": "She", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "swim", "rol": "verbo"}, {"t": "very well", "rol": "complemento"} ] }
+        ],
+        "pie": "Swims pierde la -s en cuanto aparece can: después de un modal el verbo va siempre en forma base."
+      },
+      "pronunciacion": [
+        { "texto": "can (forma débil)", "ipa": "/kən/", "consejo": "En una afirmación normal, can casi no se oye: la a se convierte en la vocal neutra /ə/, un sonido corto y relajado, parecido a una «e» murmurada con la boca casi cerrada. No digas una «a» española abierta.", "lento": true },
+        { "texto": "I can swim.", "ipa": "/aɪ kən ˈswɪm/", "consejo": "El golpe de voz cae en swim, no en can. Suena casi como «ai-kən-SUIM». La w de swim se forma redondeando los labios como para una «u» rápida.", "lento": true },
+        { "texto": "My brother can cook.", "ipa": "/maɪ ˈbrʌðər kən ˈkʊk/", "consejo": "Otra vez can débil y la fuerza en cook. La th de brother es sonora: punta de la lengua entre los dientes y vibración, como la «d» suave de «nada»." }
+      ],
+      "errores": [
+        { "mal": "She cans swim.", "bien": "She can swim.", "porque": "Can es un modal y los modales nunca llevan la -s de tercera persona." },
+        { "mal": "She can swims.", "bien": "She can swim.", "porque": "Después de can el verbo va en forma base. La -s de tercera persona no aparece en ninguna parte de la oración." },
+        { "mal": "I can to dance.", "bien": "I can dance.", "porque": "Detrás de can no se pone to. En español decimos «puedo bailar» sin preposición, y en inglés tampoco la hay." },
+        { "mal": "I can swimming.", "bien": "I can swim.", "porque": "Can va seguido de la forma base, no de la forma -ing (esa es para el presente continuo)." }
+      ]
+    },
+    {
+      "id": "can-saber-y-poder",
+      "titulo": "Can traduce «saber» y «poder»",
+      "que_es": "En español distinguimos dos ideas: «saber nadar» (una habilidad que aprendiste) y «poder nadar» (tener la posibilidad hoy, por tus circunstancias). En inglés las dos se dicen con [[can]]. Por eso [[I can swim]] se traduce «sé nadar» y [[I can help you on Saturday]] se traduce «puedo ayudarte el sábado». El contexto aclara cuál de las dos ideas es.",
+      "para_que": [
+        "Hablar de habilidades aprendidas: «Sé tocar la guitarra».",
+        "Decir que algo es posible para ti en ese momento: «Hoy puedo salir temprano».",
+        "Hablar de lo que percibes: «Oigo música», «Veo el mar desde aquí»."
+      ],
+      "como_funciona": "**«Saber hacer algo» se dice con can, no con know.** [[Know]] significa saber un dato o conocer a alguien: [[I know the answer]] (sé la respuesta), [[I know Ana]] (conozco a Ana). Pero para una habilidad, el hispanohablante tiende a calcar «sé nadar» como «I know swim», y eso no es inglés. Lo correcto es [[I can swim]]. (Existe también [[know how to]] + verbo, [[I know how to swim]], que es correcto; en este curso usarás sobre todo [[can]], que es lo más frecuente al hablar).\n\n**«Poder» (posibilidad, disponibilidad) también es can.** [[I can help you today]] no habla de una habilidad, sino de que hoy tienes tiempo. Y [[can't]] (la forma negativa, que verás a fondo en la siguiente lección) sirve igual para «no sé» y para «no puedo»: [[I can't come to the party]] = «no puedo ir a la fiesta».\n\n**Con verbos de percepción** ([[see]], [[hear]]) el inglés usa mucho [[can]] donde el español usa el verbo solo: [[I can hear the rain]] = «oigo la lluvia»; [[I can see the ocean]] = «veo el mar».",
+      "estructuras": [
+        {
+          "etiqueta": "Habilidad (saber)",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Carlos", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "fix", "rol": "verbo"}, {"t": "computers", "rol": "complemento"} ],
+          "es": "Carlos sabe arreglar computadoras."
+        },
+        {
+          "etiqueta": "Posibilidad o disponibilidad (poder)",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}, {"t": "cuándo", "rol": "tiempo"} ],
+          "ejemplo": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "help", "rol": "verbo"}, {"t": "you", "rol": "complemento"}, {"t": "on Saturday", "rol": "tiempo"} ],
+          "es": "Puedo ayudarte el sábado."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos can fix computers.",
+          "es": "Carlos sabe arreglar computadoras.",
+          "partes": [ {"t": "Carlos", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "fix", "rol": "verbo"}, {"t": "computers", "rol": "complemento"} ],
+          "nota": "Habilidad aprendida: en español, «sabe». Nunca «Carlos knows fix computers»."
+        },
+        {
+          "en": "I can help you on Saturday.",
+          "es": "Puedo ayudarte el sábado.",
+          "situacion": "Una amiga se muda y pide ayuda.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "help", "rol": "verbo"}, {"t": "you", "rol": "complemento"}, {"t": "on Saturday", "rol": "tiempo"} ],
+          "nota": "Aquí no es habilidad, es disponibilidad: el sábado tienes tiempo. La forma es exactamente la misma."
+        },
+        {
+          "en": "Grace can't come to the party. She's working.",
+          "es": "Grace no puede venir a la fiesta. Está trabajando.",
+          "nota": "Can't es la negación de can. Aquí significa «no puede» por una circunstancia (está trabajando), no por falta de habilidad."
+        },
+        {
+          "en": "I can hear the rain.",
+          "es": "Oigo la lluvia.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "hear", "rol": "verbo"}, {"t": "the rain", "rol": "complemento"} ],
+          "nota": "Con hear y see el inglés suele añadir can donde el español usa el verbo solo."
+        },
+        {
+          "en": "I know the answer.",
+          "es": "Sé la respuesta.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "know", "rol": "verbo"}, {"t": "the answer", "rol": "complemento"} ],
+          "nota": "Know + un dato: aquí «saber» no es una habilidad sino una información. Por eso no se usa can."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "know + sustantivo", "items": ["Saber un dato: I know the answer. (Sé la respuesta).", "Conocer a alguien o algo: I know Ana. (Conozco a Ana).", "Va seguido de un sustantivo, no de un verbo."] },
+        "b": { "titulo": "can + verbo", "items": ["Saber hacer algo: I can swim. (Sé nadar).", "Poder hacer algo ahora: I can help you. (Puedo ayudarte).", "Va seguido de un verbo en forma base."] },
+        "veredicto": "Si detrás de «saber» viene un verbo (nadar, cocinar, manejar), en inglés usas can + ese verbo. Si viene un dato o una persona, usas know."
+      },
+      "pronunciacion": [
+        { "texto": "I can help you.", "ipa": "/aɪ kən ˈhɛlp ju/", "consejo": "La h de help se pronuncia: es solo aire, como un suspiro suave, mucho más débil que la «j» española. Can, débil: /kən/." },
+        { "texto": "know", "ipa": "/noʊ/", "consejo": "La k inicial es muda: know suena igual que no. Empieza con /n/ y termina en un diptongo «ou», con los labios que se van cerrando." }
+      ],
+      "errores": [
+        { "mal": "I know swim.", "bien": "I can swim.", "porque": "Para una habilidad («sé nadar») se usa can + verbo. Know va con datos o personas." },
+        { "mal": "I know to cook.", "bien": "I can cook.", "porque": "«Know to + verbo» no significa «saber hacer». Usa can cook (o, si quieres usar know, know how to cook)." },
+        { "mal": "Can help you on Saturday.", "bien": "I can help you on Saturday.", "porque": "El sujeto es obligatorio. Can es igual para todas las personas, así que sin I nadie sabe quién puede ayudar." }
+      ]
+    },
+    {
+      "id": "grados-de-habilidad",
+      "titulo": "¿Qué tan bien? very well, a little, can't … at all",
+      "que_es": "Casi nunca decimos solo «sé nadar»: matizamos cuánto. En inglés esos matices son expresiones que van **al final** de la oración: [[very well]] (muy bien), [[well]] (bien), [[a little]] (un poco), [[not very well]] (no muy bien) y, con la negación, [[at all]] (nada, en absoluto).",
+      "para_que": [
+        "Ser honesto en una entrevista: «Hablo francés, pero no muy bien».",
+        "Presumir un poco: «Mi tía cocina muy bien».",
+        "Decir que no tienes ni idea de algo: «No sé nadar nada»."
+      ],
+      "como_funciona": "**Orden:** sujeto + can + verbo + complemento + grado. El grado va al final, detrás del complemento: {{sujeto:Aisha}} {{auxiliar:can}} {{verbo:sing}} {{complemento:very well}}. Nunca entre can y el verbo («can very well sing») ni entre el verbo y su complemento («play very well the guitar»).\n\n**Well, no good.** [[Well]] es un adverbio: describe cómo haces algo (= «bien»). [[Good]] es un adjetivo: describe una cosa o persona (= «bueno»). Por eso [[She can sing well]] y [[She is a good singer]], pero nunca «she can sing good».\n\n**A little** puede ir al final ([[I can speak French a little]]) o delante del idioma ([[I can speak a little French]]). Las dos formas son correctas.\n\n**Can't … at all** refuerza la negación: [[I can't swim at all]] = «no sé nadar nada». En español se dice «no… nada»; en inglés no se usa «nothing» aquí: una sola negación ([[can't]]) + [[at all]].\n\n**Not very well** es la forma amable de decir que algo se te da mal: [[I can dance, but not very well]].",
+      "estructuras": [
+        {
+          "etiqueta": "Habilidad con grado",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}, {"t": "very well / well / a little", "rol": "otro"} ],
+          "ejemplo": [ {"t": "Ben", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "play", "rol": "verbo"}, {"t": "the guitar", "rol": "complemento"}, {"t": "very well", "rol": "otro"} ],
+          "es": "Ben toca la guitarra muy bien."
+        },
+        {
+          "etiqueta": "Negación reforzada",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "verbo base", "rol": "verbo"}, {"t": "at all", "rol": "otro"} ],
+          "ejemplo": [ {"t": "My grandfather", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "swim", "rol": "verbo"}, {"t": "at all", "rol": "otro"} ],
+          "es": "Mi abuelo no sabe nadar nada."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Escala de habilidad",
+          "columnas": ["Grado", "Ejemplo", "Traducción"],
+          "filas": [
+            ["muchísimo", "I can cook very well.", "Cocino muy bien."],
+            ["bastante", "I can cook well.", "Cocino bien."],
+            ["un poco", "I can cook a little.", "Sé cocinar un poco."],
+            ["poco", "I can cook, but not very well.", "Sé cocinar, pero no muy bien."],
+            ["nada", "I can't cook at all.", "No sé cocinar nada."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Aisha can sing very well.",
+          "es": "Aisha canta muy bien.",
+          "partes": [ {"t": "Aisha", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "sing", "rol": "verbo"}, {"t": "very well", "rol": "otro"} ],
+          "nota": "Very well va al final. Sing no tiene complemento, así que el grado va justo después del verbo."
+        },
+        {
+          "en": "I can speak a little French.",
+          "es": "Hablo un poco de francés.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "speak", "rol": "verbo"}, {"t": "a little French", "rol": "complemento"} ],
+          "nota": "Con idiomas, a little puede ir delante del idioma (como aquí) o al final: I can speak French a little."
+        },
+        {
+          "en": "Ben can play the piano, but not very well.",
+          "es": "Ben sabe tocar el piano, pero no muy bien.",
+          "nota": "But not very well se añade como una idea aparte; así no repites can."
+        },
+        {
+          "en": "My grandfather can't swim at all.",
+          "es": "Mi abuelo no sabe nadar nada.",
+          "partes": [ {"t": "My grandfather", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "swim", "rol": "verbo"}, {"t": "at all", "rol": "otro"} ],
+          "nota": "Una sola negación: can't. At all la refuerza. No digas «can't swim nothing»."
+        },
+        {
+          "en": "Lucía is a good dancer. She can dance very well.",
+          "es": "Lucía es buena bailarina. Baila muy bien.",
+          "nota": "Good describe a la persona (a good dancer); well describe cómo baila (dance well)."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "very well", "ipa": "/ˈvɛri ˈwɛl/", "consejo": "La v de very se hace con los dientes de arriba apoyados en el labio de abajo, vibrando: no es la «b» española. La l final de well es «oscura»: la lengua se retrae un poco hacia atrás." },
+        { "texto": "at all", "ipa": "/ət ˈɔːl/", "consejo": "Se pronuncian unidas: «ə-TOL». En inglés de EE. UU. la t entre vocales suena como la «r» suave de «pero», así que suele oírse algo como «ə-ROL»." }
+      ],
+      "errores": [
+        { "mal": "She can sing good.", "bien": "She can sing well.", "porque": "Para decir cómo se hace algo se usa el adverbio well. Good es adjetivo: a good singer." },
+        { "mal": "I can very well swim.", "bien": "I can swim very well.", "porque": "El grado va al final, no entre can y el verbo." },
+        { "mal": "He can play very well the guitar.", "bien": "He can play the guitar very well.", "porque": "No separes el verbo de su complemento: primero play the guitar, después very well." },
+        { "mal": "I can't swim nothing.", "bien": "I can't swim at all.", "porque": "En inglés estándar no se usan dos negaciones. Para reforzar can't se usa at all." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "can.can-habilidad.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "My sister ___ play the piano.",
+      "opciones": [
+        { "texto": "can", "correcta": true, "porque": "Correcto: can es igual para todos los sujetos y va directamente seguido del verbo en forma base (play)." },
+        { "texto": "cans", "correcta": false, "porque": "Can es un modal y nunca lleva la -s de tercera persona, aunque el sujeto sea she." },
+        { "texto": "can to", "correcta": false, "porque": "Detrás de can no se pone to: el verbo va directamente (can play)." },
+        { "texto": "does can", "correcta": false, "porque": "Can es un auxiliar: no se combina con does. Él solo basta." }
+      ],
+      "pistas": [
+        "Can es un verbo modal: tiene reglas propias.",
+        "El sujeto es my sister (she). ¿Afecta eso a can?",
+        "Can nunca cambia ni lleva to detrás: sujeto + can + verbo base."
+      ],
+      "solucion": { "respuesta": "can", "explicacion": "La respuesta correcta es can porque los modales son invariables: no llevan -s aunque el sujeto sea tercera persona (my sister = she), no llevan to detrás y no necesitan does." },
+      "audio": true
+    },
+    {
+      "id": "can.can-habilidad.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Elige del banco la forma correcta del verbo.",
+      "frase": "Tom can ___ a horse.",
+      "respuestas": [["ride"]],
+      "banco": ["ride", "rides", "to ride", "riding"],
+      "traduccion": "Tom sabe montar a caballo.",
+      "pistas": [
+        "Después de un modal, el verbo tiene una forma fija.",
+        "Fíjate en la palabra que está justo antes del hueco: can.",
+        "Can + verbo en forma base: sin -s, sin to, sin -ing."
+      ],
+      "solucion": { "respuesta": "ride", "explicacion": "La respuesta correcta es ride porque después de can el verbo va en forma base. Aunque Tom sea he, la -s no aparece (rides), y tampoco se usa to ni -ing." },
+      "errores_tipicos": {
+        "rides": "Con can la -s de tercera persona desaparece de toda la oración: Tom can ride.",
+        "to ride": "Detrás de can no va to: can ride, no «can to ride».",
+        "riding": "La forma -ing es para el presente continuo. Después de can va la forma base."
+      }
+    },
+    {
+      "id": "can.can-habilidad.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con su traducción.",
+      "pares": [
+        { "a": "I can swim.", "b": "Sé nadar." },
+        { "a": "She can cook.", "b": "Ella sabe cocinar." },
+        { "a": "We can dance.", "b": "Sabemos bailar." },
+        { "a": "He can drive.", "b": "Él sabe manejar." },
+        { "a": "I can hear music.", "b": "Oigo música." },
+        { "a": "I know the answer.", "b": "Sé la respuesta." }
+      ],
+      "pistas": [
+        "Can expresa habilidad (saber hacer) o posibilidad (poder).",
+        "Mira el sujeto de cada oración: I, she, we, he.",
+        "Saber + verbo = can; saber + dato = know; oír algo = can hear."
+      ],
+      "solucion": { "respuesta": "I can swim = Sé nadar; She can cook = Ella sabe cocinar; We can dance = Sabemos bailar; He can drive = Él sabe manejar; I can hear music = Oigo música; I know the answer = Sé la respuesta.", "explicacion": "El sujeto te dice la persona, porque can no cambia. «Sé la respuesta» usa know porque detrás de «saber» hay un dato, no un verbo; «oigo música» usa can hear porque con verbos de percepción el inglés añade can." }
+    },
+    {
+      "id": "can.can-habilidad.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y fíjate en que can casi desaparece.",
+      "texto": "I can swim, and I can cook.",
+      "ipa": "/aɪ kən ˈswɪm ən aɪ kən ˈkʊk/",
+      "consejo": "Can suena /kən/, muy corto y sin fuerza; los golpes de voz van en swim y en cook. And también se reduce a /ən/. Si dices «can» con una «a» fuerte, el que escucha puede entender can't.",
+      "es": "Sé nadar y sé cocinar."
+    },
+    {
+      "id": "can.can-habilidad.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con can y el verbo speak en la forma correcta.",
+      "frase": "Diego ___ ___ three languages.",
+      "respuestas": [["can"], ["speak"]],
+      "traduccion": "Diego habla tres idiomas.",
+      "pistas": [
+        "Necesitas el modal y luego el verbo principal.",
+        "El sujeto es Diego (he). Piensa si alguna de las dos palabras cambia.",
+        "Can nunca lleva -s y el verbo que lo sigue va en forma base."
+      ],
+      "solucion": { "respuesta": "can speak", "explicacion": "La respuesta correcta es can speak. Aunque Diego sea tercera persona del singular, can no lleva -s y speak se queda en forma base porque va detrás de un modal." },
+      "errores_tipicos": {
+        "can | speaks": "Speaks lleva una -s de más: después de can el verbo va en forma base.",
+        "cans | speak": "Can nunca lleva -s, sea cual sea el sujeto.",
+        "can | talk": "Con idiomas se usa speak, no talk."
+      }
+    },
+    {
+      "id": "can.can-habilidad.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la oración.",
+      "fichas": ["guitar", "can", "very", "My", "play", "the", "brother", "well"],
+      "respuestas": ["My brother can play the guitar very well"],
+      "traduccion": "Mi hermano toca la guitarra muy bien.",
+      "pistas": [
+        "Empieza por el sujeto y el modal.",
+        "El verbo play va pegado a su complemento, the guitar.",
+        "Sujeto + can + verbo + complemento + very well (al final)."
+      ],
+      "solucion": { "respuesta": "My brother can play the guitar very well.", "explicacion": "El orden es sujeto (my brother) + can + verbo base (play) + complemento (the guitar) + grado (very well). Very well va al final, nunca entre can y el verbo ni entre play y the guitar." }
+    },
+    {
+      "id": "can.can-habilidad.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y corrígela.",
+      "frase": "Mei cans draw beautiful pictures.",
+      "error": "cans",
+      "correcciones": ["can"],
+      "frase_correcta": "Mei can draw beautiful pictures.",
+      "pistas": [
+        "Revisa el modal.",
+        "El sujeto es Mei (she). ¿Los modales cambian con she?",
+        "Can es invariable: nunca lleva -s."
+      ],
+      "solucion": { "respuesta": "cans → can", "explicacion": "El error es cans. Can es un modal y los modales no llevan la -s de tercera persona: Mei can draw beautiful pictures (Mei dibuja cuadros preciosos)." }
+    },
+    {
+      "id": "can.can-habilidad.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración es un calco del español. Señala la palabra incorrecta y corrígela.",
+      "frase": "I know swim very well.",
+      "error": "know",
+      "correcciones": ["can"],
+      "frase_correcta": "I can swim very well.",
+      "pistas": [
+        "La oración quiere decir «Sé nadar muy bien».",
+        "Detrás de «saber» hay un verbo (nadar), no un dato.",
+        "Saber hacer algo = can + verbo; know va con datos o personas."
+      ],
+      "solucion": { "respuesta": "know → can", "explicacion": "El error es know. Para una habilidad («sé nadar») el inglés usa can + verbo en forma base: I can swim very well. Know significa saber un dato o conocer a alguien (I know the answer)." }
+    },
+    {
+      "id": "can.can-habilidad.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa de hábito a habilidad.",
+      "origen": "Ana plays tennis.",
+      "instruccion": "Reescríbela con can para decir que Ana sabe jugar tenis.",
+      "respuestas": ["Ana can play tennis."],
+      "pistas": [
+        "Añade el modal entre el sujeto y el verbo.",
+        "Fíjate en la -s de plays: ¿sigue siendo necesaria?",
+        "Sujeto + can + verbo en forma base: la -s desaparece."
+      ],
+      "solucion": { "respuesta": "Ana can play tennis.", "explicacion": "Se coloca can después del sujeto y el verbo pierde la -s: plays → play. Con can la tercera persona ya no se marca en el verbo." },
+      "errores_tipicos": {
+        "Ana can plays tennis.": "Sobra la -s: después de can el verbo va en forma base (play).",
+        "Ana cans play tennis.": "Can no lleva -s nunca.",
+        "Ana can to play tennis.": "Detrás de can no va to."
+      }
+    },
+    {
+      "id": "can.can-habilidad.10",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa can y la palabra dad.",
+      "es": "Mi papá sabe cocinar muy bien.",
+      "respuestas": ["My dad can cook very well."],
+      "pistas": [
+        "«Saber + verbo» se traduce con un modal.",
+        "El grado (muy bien) tiene su lugar fijo en la oración.",
+        "Sujeto + can + verbo base + grado al final, como en My aunt can dance very well."
+      ],
+      "solucion": { "respuesta": "My dad can cook very well.", "explicacion": "«Sabe cocinar» es una habilidad: can + cook en forma base, sin -s aunque el sujeto sea my dad (he). «Muy bien» es very well, adverbio, y va al final." },
+      "errores_tipicos": {
+        "My dad can cook very good.": "Good es adjetivo. Para decir cómo cocina se usa el adverbio well.",
+        "My dad knows cook very well.": "«Saber cocinar» es una habilidad: se dice can cook, no «knows cook».",
+        "My dad can cooks very well.": "Después de can el verbo va en forma base: cook, sin -s.",
+        "My dad can very well cook.": "Very well va al final de la oración, no entre can y el verbo."
+      }
+    },
+    {
+      "id": "can.can-habilidad.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "Lucía can paint, and she can sing a little.",
+      "pistas": [
+        "Hay dos habilidades unidas por and.",
+        "Can suena débil, /kən/: no lo confundas con can't. El sujeto de la segunda parte es un pronombre.",
+        "Estructura: nombre + can + verbo, and + pronombre + can + verbo + a little."
+      ],
+      "solucion": { "respuesta": "Lucía can paint, and she can sing a little.", "explicacion": "Las dos partes son afirmativas: can se oye débil, /kən/, y el acento cae en paint y en sing. A little va al final e indica que canta solo un poco." }
+    },
+    {
+      "id": "can.can-habilidad.12",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la única oración correcta.",
+      "pregunta": "¿Cuál dice correctamente «Sam juega ajedrez muy bien»?",
+      "opciones": [
+        { "texto": "Sam can play chess very well.", "correcta": true, "porque": "Correcto: sujeto + can + verbo base + complemento + very well al final." },
+        { "texto": "Sam can very well play chess.", "correcta": false, "porque": "Very well no va entre can y el verbo: va al final." },
+        { "texto": "Sam can play very well chess.", "correcta": false, "porque": "Very well separa el verbo de su complemento. Primero play chess, después very well." },
+        { "texto": "Sam cans play chess very well.", "correcta": false, "porque": "Can nunca lleva -s." }
+      ],
+      "pistas": [
+        "Las cuatro usan las mismas palabras: el problema es la forma o el orden.",
+        "Busca dónde está very well en cada opción y cómo está escrito can.",
+        "Sujeto + can (sin -s) + verbo + complemento + grado al final."
+      ],
+      "solucion": { "respuesta": "Sam can play chess very well.", "explicacion": "Es la única que respeta las dos reglas: can invariable (sin -s) y el grado very well al final, detrás del complemento chess." }
+    },
+    {
+      "id": "can.can-habilidad.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre las habilidades de tu familia.",
+      "objetivo": "Describir lo que tú y tu familia saben y no saben hacer, con grados.",
+      "instrucciones": "Escribe 5 o 6 oraciones: qué sabes hacer tú y qué saben hacer dos personas de tu familia. Incluye al menos una negación con can't y al menos un grado (very well, a little, not very well o at all).",
+      "vocabulario_apoyo": ["swim", "cook", "drive", "dance", "sing", "draw", "play the guitar", "play soccer", "speak English", "ride a bike", "fix things"],
+      "estructuras": ["I can … very well.", "My … can …, but he / she can't …", "… can … a little.", "… can't … at all."],
+      "ejemplo": "My friend Sam can play soccer very well. He can't dance at all.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Usas can al menos una vez", "patron": "\\bcan\\b" },
+        { "descripcion": "Usas can't o cannot al menos una vez", "patron": "\\b(can't|can’t|cannot)\\b" },
+        { "descripcion": "Incluyes un grado (well, a little o at all)", "patron": "\\b(well|a little|at all)\\b" }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto (I, my mom, my brother…)?",
+        "¿Can aparece sin -s en todas las oraciones, también con he y she?",
+        "¿El verbo después de can o can't está en forma base (sin -s, sin to)?",
+        "¿Very well, a little o at all están al final de la oración?"
+      ],
+      "modelo": "I can cook very well, and I can speak English a little. My mom can drive, but she can't swim at all. My brother Luis can play the guitar and he can sing very well. He can't cook, but he can make coffee.",
+      "explicacion": "El modelo usa can con tres sujetos distintos (I, my mom, my brother Luis) sin cambiar nunca su forma. Todos los verbos van en forma base (cook, speak, drive, play, sing, make). Los grados van al final: very well, a little, at all. La negación can't aparece dos veces y but sirve para contrastar lo que sí y lo que no saben hacer.",
+      "errores_comunes": [
+        "Escribir «my mom cans drive» o «she can drives».",
+        "Olvidar el sujeto: «Can cook very well».",
+        "Usar good en lugar de well: «he can sing good»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Tu ficha de voluntario",
+    "contexto": "Te inscribes como voluntario en un centro comunitario. Grace, la coordinadora, te pregunta qué sabes hacer para asignarte una actividad.",
+    "dialogo": [
+      { "quien": "Grace", "en": "Hi! Thanks for coming. So, what can you do?", "es": "¡Hola! Gracias por venir. A ver, ¿qué sabes hacer?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Grace", "en": "Perfect. We need people for the kitchen and for sports.", "es": "Perfecto. Necesitamos gente para la cocina y para deportes." }
+    ],
+    "tu_turno": "Contesta a Grace con dos cosas que sabes hacer (con un grado) y una que no sabes hacer.",
+    "modelo": "I can cook very well, and I can play soccer a little. I can't swim, but I can help in the kitchen.",
+    "alternativas": [
+      "I can speak English and Spanish, and I can draw very well. I can't sing at all.",
+      "I can drive, so I can help with the kids' trips. I can cook a little, but I can't dance."
+    ],
+    "claves": [
+      "Sujeto + can + verbo en forma base.",
+      "El grado (very well, a little) al final.",
+      "Para lo que no sabes hacer: can't + verbo."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Can + verbo en forma base expresa habilidad: I can swim (sé nadar).",
+      "Can es igual para todos los sujetos: nunca «cans», y el verbo que sigue no lleva -s, ni to, ni -ing.",
+      "«Saber hacer algo» = can + verbo; know es para datos y personas.",
+      "Can también es «poder»: I can help you on Saturday.",
+      "El grado va al final: very well, well, a little, not very well; can't … at all."
+    ],
+    "recuerda": [
+      "En una afirmación, can suena débil: /kən/.",
+      "Well (adverbio) para cómo haces algo; good (adjetivo) para describir personas y cosas.",
+      "No se omite el sujeto: I can cook, no «can cook»."
+    ]
+  },
+  "repaso": [
+    { "id": "can.can-habilidad.r1", "frente": "¿Cómo se dice «Ella sabe nadar»?", "reverso": "She can swim.", "nota": "Ni can ni swim llevan -s." },
+    { "id": "can.can-habilidad.r2", "frente": "¿Qué forma tiene el verbo que va después de can?", "reverso": "La forma base: sin -s, sin to, sin -ing → can play, can cook.", "nota": "«She can to dance» y «she can dances» son incorrectas." },
+    { "id": "can.can-habilidad.r3", "frente": "«Sé cocinar»: ¿can o know?", "reverso": "I can cook.", "nota": "Know es para datos o personas: I know the answer, I know Ana." },
+    { "id": "can.can-habilidad.r4", "frente": "¿Dónde va very well en «Él toca la guitarra muy bien»?", "reverso": "Al final: He can play the guitar very well.", "nota": "Nunca «can very well play» ni «play very well the guitar»." },
+    { "id": "can.can-habilidad.r5", "frente": "¿Cómo se dice «No sé nadar nada»?", "reverso": "I can't swim at all.", "nota": "Una sola negación (can't) reforzada con at all." }
+  ]
+}

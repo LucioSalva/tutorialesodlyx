@@ -1,0 +1,611 @@
+{
+  "slug": "numeros-0-100",
+  "titulo": "Del 0 al 100",
+  "minutos": 40,
+  "objetivos": [
+    "Decir y escribir los números del 0 al 100 con la ortografía correcta (forty, fifteen, eighteen…).",
+    "Distinguir al oído y al hablar los pares -teen / -ty (thirteen / thirty) por el acento y el sonido final.",
+    "Escribir con guion los números compuestos del 21 al 99 y no añadir «and» entre decenas y unidades.",
+    "Decir tu edad y otras cantidades con be y there is / there are."
+  ],
+  "situacion": {
+    "titulo": "¿Salón trece o treinta?",
+    "texto": "Carlos llega tarde a su primer día en una escuela de idiomas. Pregunta en recepción dónde es su clase y, al oír la respuesta, no está seguro de si le dijeron 13 o 30. Esa duda la tienen hasta los hablantes nativos, y por eso existe una forma de confirmar.",
+    "dialogo": [
+      { "quien": "Carlos", "en": "Excuse me, where is the English class?", "es": "Disculpe, ¿dónde es la clase de inglés?" },
+      { "quien": "Grace", "en": "It's in room thirteen.", "es": "Es en el salón trece." },
+      { "quien": "Carlos", "en": "Sorry, is that thirteen or thirty?", "es": "Perdón, ¿es trece o treinta?" },
+      { "quien": "Grace", "en": "Thirteen. One, three.", "es": "Trece. Uno, tres." },
+      { "quien": "Carlos", "en": "Thank you!", "es": "¡Gracias!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "cero-a-doce",
+      "titulo": "Del 0 al 12: las palabras base",
+      "que_es": "Los números del 0 al 12 son palabras independientes que hay que memorizar: no siguen ningún patrón. Todos los demás números del 13 al 99 se construyen a partir de ellos, así que son la base de todo lo que viene después.",
+      "para_que": [
+        "Decir tu edad, tu número de salón o de casa y cantidades pequeñas.",
+        "Dictar números de teléfono dígito a dígito (lo verás en la siguiente lección).",
+        "Construir después todos los números hasta el 99."
+      ],
+      "como_funciona": "Del 1 al 10 las palabras son cortas: [[one, two, three, four, five, six, seven, eight, nine, ten]]. El 11 y el 12, [[eleven]] y [[twelve]], son irregulares: no se parecen a «ten + one» ni «ten + two», igual que en español once y doce no se dicen «diez y uno». El cero tiene dos nombres frecuentes: [[zero]] es el nombre general (matemáticas, temperaturas, cuentas) y [[oh]], como la letra O, se usa al leer dígitos sueltos: números de teléfono, de habitación, años y horas ([[room two oh five]] = habitación 205). En inglés británico también oirás [[nought]] en los decimales, pero no lo necesitas para producir.\n\nOjo con la ortografía: [[four]] lleva u, pero [[forty]] (40) no; [[eight]] se escribe con -ght aunque la gh no suene; [[two]] se pronuncia igual que [[too]] y [[to]].",
+      "estructuras": [
+        {
+          "etiqueta": "Decir la edad con be",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "número (+ years old)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "My son", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "eleven", "rol": "complemento" } ],
+          "es": "Mi hijo tiene once años."
+        },
+        {
+          "etiqueta": "Contar cosas con there is / there are",
+          "formula": [ { "t": "There are", "rol": "verbo" }, { "t": "número", "rol": "otro" }, { "t": "sustantivo en plural", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "There are", "rol": "verbo" }, { "t": "twelve", "rol": "otro" }, { "t": "eggs", "rol": "complemento" } ],
+          "es": "Hay doce huevos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Del 0 al 12",
+          "columnas": ["Cifra", "Palabra", "Ejemplo"],
+          "filas": [
+            ["0", "zero / oh", "The temperature is zero."],
+            ["1", "one", "There is one bathroom."],
+            ["2", "two", "I'm two minutes away."],
+            ["3", "three", "There are three windows."],
+            ["4", "four", "There are four chairs."],
+            ["5", "five", "My daughter is five."],
+            ["6", "six", "There are six apples."],
+            ["7", "seven", "Room seven is open."],
+            ["8", "eight", "Tom is eight years old."],
+            ["9", "nine", "There are nine players."],
+            ["10", "ten", "The class is ten minutes long."],
+            ["11", "eleven", "Mei is eleven."],
+            ["12", "twelve", "There are twelve months."]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm twelve years old.",
+          "es": "Tengo doce años.",
+          "situacion": "Un niño se presenta en su nuevo equipo de futbol.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "twelve", "rol": "complemento" }, { "t": "years old", "rol": "complemento" } ],
+          "nota": "La edad va con be, no con have. [[Years old]] es opcional: [[I'm twelve]] es igual de correcto. Lo que NO se dice es [[I'm twelve years]] a secas: o dices las dos palabras o ninguna."
+        },
+        {
+          "en": "There are eleven players on the field.",
+          "es": "Hay once jugadores en la cancha.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "eleven", "rol": "otro" }, { "t": "players", "rol": "complemento" }, { "t": "on the field", "rol": "complemento" } ],
+          "nota": "Con cualquier número mayor que uno, el sustantivo va en plural y el verbo es are."
+        },
+        {
+          "en": "It's zero degrees today.",
+          "es": "Hoy hace cero grados.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "zero", "rol": "otro" }, { "t": "degrees", "rol": "complemento" }, { "t": "today", "rol": "tiempo" } ],
+          "nota": "Con temperaturas se dice [[zero]], no [[oh]]. Fíjate en que [[zero]] lleva el sustantivo en plural: [[zero degrees]]."
+        },
+        {
+          "en": "My apartment is two oh four.",
+          "es": "Mi departamento es el 204.",
+          "partes": [ { "t": "My apartment", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "two oh four", "rol": "complemento" } ],
+          "nota": "Los números de departamento o habitación se leen a menudo por dígitos, y el cero se lee [[oh]]."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "three",
+          "ipa": "/θriː/",
+          "consejo": "Empieza con la punta de la lengua entre los dientes y sopla (el sonido /θ/, como la z de España). No digas «tri»: si pones la lengua detrás de los dientes suena a [[tree]], árbol.",
+          "lento": true
+        },
+        {
+          "texto": "eight",
+          "ipa": "/eɪt/",
+          "consejo": "Suena como «eit»: una e que se desliza hacia i y termina con una t clara. La gh no se pronuncia.",
+          "lento": false
+        },
+        {
+          "texto": "twelve",
+          "ipa": "/twelv/",
+          "consejo": "Termina en /lv/: después de la l, apoya los dientes de arriba en el labio de abajo para la v. No la conviertas en b ni la dejes caer.",
+          "lento": true
+        },
+        {
+          "texto": "zero",
+          "ipa": "/ˈzɪroʊ/",
+          "consejo": "La z inglesa vibra, como el zumbido de una abeja; no es la s del español de México. Pon la mano en la garganta: debe vibrar.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "I have twelve years.", "bien": "I'm twelve (years old).", "porque": "En inglés la edad se dice con be: literalmente «soy doce años de edad»." },
+        { "mal": "I'm twelve years.", "bien": "I'm twelve. / I'm twelve years old.", "porque": "[[Years]] sin [[old]] suena incompleto. Usa las dos palabras o ninguna." },
+        { "mal": "The temperature is oh.", "bien": "The temperature is zero.", "porque": "[[Oh]] solo se usa al leer dígitos sueltos (teléfonos, habitaciones, años). Como cantidad, el cero es [[zero]]." }
+      ]
+    },
+    {
+      "id": "teen-y-ty",
+      "titulo": "-teen y -ty: 13–19 frente a 20, 30… 90",
+      "que_es": "Del 13 al 19 los números terminan en [[-teen]] (thirteen, fourteen…) y las decenas del 20 al 90 terminan en [[-ty]] (twenty, thirty…). Como se parecen tanto (thirteen / thirty, fifteen / fifty), son la confusión número uno al escuchar precios, edades o direcciones.",
+      "para_que": [
+        "No pagar 50 cuando te dijeron 15 (o al revés).",
+        "Entender horarios, edades y números de salón a la primera.",
+        "Hacerte entender cuando tú dices un número."
+      ],
+      "como_funciona": "**Formación.** Casi todos se forman con la raíz del 3 al 9 + -teen o -ty, pero hay cambios de ortografía que hay que aprender: [[thirteen / thirty]] (three → thir-), [[fifteen / fifty]] (five → fif-), [[eighteen / eighty]] (solo una t en eighteen), [[forty]] sin u (aunque four sí la lleve). El 20 es [[twenty]], que no se parece a two.\n\n**El acento.** Esta es la clave para distinguirlos:\n- Los -teen llevan el acento al final cuando se dicen solos o al final de una frase: [[thir**TEEN**]], [[fif**TEEN**]]. La -teen es larga, con /iː/ larga y una n clara al final.\n- Los -ty llevan el acento al principio: [[**THIR**ty]], [[**FIF**ty]]. La terminación es corta, /ti/, sin n. Además, en el inglés estadounidense la t de thirty, forty y eighty suena como una r suave del español («thirdy», «fordy»).\n\n**Cuidado:** cuando un -teen va delante de un sustantivo o se cuenta en serie, el acento puede pasar a la primera sílaba ([[THIRteen DOLlars]]). Por eso no te fíes solo del acento: fíjate también en la n final y en la vocal larga, que el -teen nunca pierde. Y si dudas, pregunta como Carlos: [[Is that thirteen or thirty?]] La respuesta nativa típica es deletrear los dígitos: [[One, three]].",
+      "estructuras": [
+        {
+          "etiqueta": "13–19",
+          "formula": [ { "t": "raíz (thir-, four-, fif-…)", "rol": "otro" }, { "t": "-teen (acento aquí)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "fif", "rol": "otro" }, { "t": "teen", "rol": "complemento" } ],
+          "es": "quince"
+        },
+        {
+          "etiqueta": "20–90",
+          "formula": [ { "t": "raíz (acento aquí)", "rol": "otro" }, { "t": "-ty", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "fif", "rol": "otro" }, { "t": "ty", "rol": "complemento" } ],
+          "es": "cincuenta"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los pares que se confunden",
+          "columnas": ["-teen", "Acento", "-ty", "Acento"],
+          "filas": [
+            ["thirteen (13)", "thir-TEEN", "thirty (30)", "THIR-ty"],
+            ["fourteen (14)", "four-TEEN", "forty (40)", "FOR-ty"],
+            ["fifteen (15)", "fif-TEEN", "fifty (50)", "FIF-ty"],
+            ["sixteen (16)", "six-TEEN", "sixty (60)", "SIX-ty"],
+            ["seventeen (17)", "seven-TEEN", "seventy (70)", "SEV-en-ty"],
+            ["eighteen (18)", "eigh-TEEN", "eighty (80)", "EIGH-ty"],
+            ["nineteen (19)", "nine-TEEN", "ninety (90)", "NINE-ty"]
+          ],
+          "audio": [0, 2]
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "thirteen (13)", "items": ["Acento en la última sílaba: thir-TEEN.", "Vocal larga /iː/: se alarga la «ii».", "Termina en n clara: /tiːn/.", "La t suena como t fuerte."] },
+        "b": { "titulo": "thirty (30)", "items": ["Acento en la primera sílaba: THIR-ty.", "Vocal final corta /i/.", "Termina en vocal, sin n.", "En EE. UU. la t suena como r suave: «thirdy»."] },
+        "veredicto": "Si oyes una n al final y una «ii» larga, es -teen (13–19). Si el número termina en una vocal corta, es -ty (20–90)."
+      },
+      "ejemplos": [
+        {
+          "en": "My sister is fifteen.",
+          "es": "Mi hermana tiene quince años.",
+          "partes": [ { "t": "My sister", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "fifteen", "rol": "complemento" } ],
+          "nota": "Al final de la frase, [[fifteen]] lleva el acento en -TEEN. Fíjate en la ortografía: fif-, no five-."
+        },
+        {
+          "en": "My grandmother is fifty.",
+          "es": "Mi abuela tiene cincuenta años.",
+          "partes": [ { "t": "My grandmother", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "fifty", "rol": "complemento" } ],
+          "nota": "Compara con el ejemplo anterior: misma raíz fif-, pero acento en FIF- y final corto, sin n."
+        },
+        {
+          "en": "There are forty students in the room.",
+          "es": "Hay cuarenta alumnos en el salón.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "forty", "rol": "otro" }, { "t": "students", "rol": "complemento" }, { "t": "in the room", "rol": "complemento" } ],
+          "nota": "[[Forty]] se escribe sin u. Es el error de ortografía más frecuente, incluso entre nativos."
+        },
+        {
+          "en": "Is that eighteen or eighty?",
+          "es": "¿Eso es dieciocho u ochenta?",
+          "situacion": "Confirmas un número que no oíste bien.",
+          "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "that", "rol": "sujeto" }, { "t": "eighteen or eighty", "rol": "complemento" } ],
+          "nota": "Una pregunta con be (Is that…?) que te salva de muchos malentendidos. [[Eighteen]] lleva una sola t: eight + een."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "thirteen",
+          "ipa": "/ˌθɝːˈtiːn/",
+          "consejo": "Lengua entre los dientes para la /θ/, luego una vocal sin equivalente en español: la lengua se echa hacia atrás como para una r inglesa (/ɝː/). Remata con una «tiin» larga y fuerte.",
+          "lento": true
+        },
+        {
+          "texto": "thirty",
+          "ipa": "/ˈθɝːti/",
+          "consejo": "Golpe de voz en THIR y un final rápido y débil. En EE. UU. la t entre vocales suena como la r de «pero»: «THIR-ri».",
+          "lento": true
+        },
+        {
+          "texto": "fifteen, fifty",
+          "ipa": "/ˌfɪfˈtiːn/ · /ˈfɪfti/",
+          "consejo": "La i de fif- es corta y relajada, entre la i y la e del español. Aquí la t de fifty no se convierte en r porque va detrás de f.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "fourty", "bien": "forty", "porque": "Four lleva u, pero forty (40) no. Fourteen (14) sí la conserva." },
+        { "mal": "fiveteen / fivety", "bien": "fifteen / fifty", "porque": "La raíz del 5 cambia a fif- tanto en el 15 como en el 50." },
+        { "mal": "eightteen", "bien": "eighteen", "porque": "Se escribe con una sola t: eight + een." },
+        { "mal": "threeteen / threety", "bien": "thirteen / thirty", "porque": "La raíz del 3 cambia a thir- en el 13 y en el 30." }
+      ],
+      "nota": { "titulo": "Truco de supervivencia", "texto": "Cuando des un número importante (un precio, una hora, un número de salón), puedes decirlo y después confirmarlo dígito a dígito: [[It's fifteen, one five]]. Los nativos lo hacen constantemente.", "tono": "info" }
+    },
+    {
+      "id": "compuestos-21-99",
+      "titulo": "Del 21 al 99 y el 100: decena + guion + unidad",
+      "que_es": "Los números del 21 al 99 que no son decenas exactas se forman juntando la decena y la unidad con un guion: [[twenty-one]], [[thirty-five]], [[ninety-nine]]. El 100 es [[a hundred]] o [[one hundred]].",
+      "para_que": [
+        "Decir edades, precios y cantidades de cualquier tamaño hasta el 100.",
+        "Escribir números con letras en formularios, cheques o mensajes."
+      ],
+      "como_funciona": "Se dice primero la decena y luego la unidad, **sin «and»** en medio: [[forty-two]], no «forty and two». Es un calco muy frecuente del español «cuarenta **y** dos». Al escribirlos con letras se usa guion ([[forty-two]]); si lo omites, un profesor lo marcaría como error de puntuación, aunque en la vida diaria se ve a veces sin guion.\n\nCon las unidades no hay cambios: se usan las mismas palabras del 1 al 9 ([[twenty-five]], nunca «twenty-fif»). Las formas especiales [[thir-]] y [[fif-]] solo aparecen en la decena: [[thirty-three]], [[fifty-five]].\n\nPara el 100 se dice [[a hundred]] (más frecuente al hablar) o [[one hundred]] (más formal, o cuando quieres dejar claro que es uno). [[Hundred]] no lleva -s: lo verás a fondo en la próxima lección.",
+      "estructuras": [
+        {
+          "etiqueta": "Número compuesto",
+          "formula": [ { "t": "decena (twenty…ninety)", "rol": "otro" }, { "t": "-", "rol": "otro" }, { "t": "unidad (one…nine)", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "thirty", "rol": "otro" }, { "t": "-", "rol": "otro" }, { "t": "seven", "rol": "complemento" } ],
+          "es": "treinta y siete"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Del español al inglés: el «y» desaparece y aparece un guion",
+        "pasos": [
+          { "etiqueta": "Español", "partes": [ { "t": "cuarenta", "rol": "otro" }, { "t": "y", "rol": "negacion" }, { "t": "dos", "rol": "complemento" } ] },
+          { "etiqueta": "Calco incorrecto", "partes": [ { "t": "forty", "rol": "otro" }, { "t": "and", "rol": "negacion" }, { "t": "two", "rol": "complemento" } ] },
+          { "etiqueta": "Inglés correcto", "partes": [ { "t": "forty-two", "rol": "otro" } ] }
+        ],
+        "pie": "Entre la decena y la unidad nunca va and. El guion ocupa su lugar al escribir."
+      },
+      "ejemplos": [
+        {
+          "en": "I'm thirty-four years old.",
+          "es": "Tengo treinta y cuatro años.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "thirty-four", "rol": "complemento" }, { "t": "years old", "rol": "complemento" } ],
+          "nota": "Decena + guion + unidad. Al hablar se oye como una sola palabra con el acento en THIR: THIRty-FOUR."
+        },
+        {
+          "en": "There are twenty-one people on the bus.",
+          "es": "Hay veintiuna personas en el autobús.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "twenty-one", "rol": "otro" }, { "t": "people", "rol": "complemento" }, { "t": "on the bus", "rol": "complemento" } ],
+          "nota": "Aunque termine en one, twenty-one es plural: there ARE y people. El español hace lo mismo (veintiuna personas)."
+        },
+        {
+          "en": "My grandfather is ninety-nine.",
+          "es": "Mi abuelo tiene noventa y nueve años.",
+          "partes": [ { "t": "My grandfather", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "ninety-nine", "rol": "complemento" } ],
+          "nota": "Ninety conserva la e de nine (nine + ty). Compara con ninth, que la pierde (lo verás en los ordinales)."
+        },
+        {
+          "en": "There are a hundred rooms in the hotel.",
+          "es": "Hay cien habitaciones en el hotel.",
+          "partes": [ { "t": "There are", "rol": "verbo" }, { "t": "a hundred", "rol": "otro" }, { "t": "rooms", "rol": "complemento" }, { "t": "in the hotel", "rol": "complemento" } ],
+          "nota": "[[A hundred]] lleva el artículo a, pero sigue siendo plural: there are y rooms."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "twenty-one",
+          "ipa": "/ˌtwentiˈwʌn/",
+          "consejo": "En el habla rápida de EE. UU. la t después de la n casi desaparece: suena parecido a «tweni-wan». Al principio pronúnciala; basta con que la reconozcas así.",
+          "lento": true
+        },
+        {
+          "texto": "a hundred",
+          "ipa": "/ə ˈhʌndrəd/",
+          "consejo": "La a es una vocal neutra muy breve (schwa). La h se aspira, como una j muy suave; la u suena como una a corta y relajada.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "forty and two", "bien": "forty-two", "porque": "El «y» del español (cuarenta y dos) no se traduce. Entre decena y unidad va un guion." },
+        { "mal": "two-twenty (para 22)", "bien": "twenty-two", "porque": "Como en español, primero la decena y luego la unidad." },
+        { "mal": "twenty-fif", "bien": "twenty-five", "porque": "La raíz fif- solo aparece en fifteen y fifty. La unidad del 5 siempre es five." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "numeros.numeros-0-100.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada cifra con su nombre en inglés.",
+      "pares": [
+        { "a": "3", "b": "three" },
+        { "a": "8", "b": "eight" },
+        { "a": "11", "b": "eleven" },
+        { "a": "12", "b": "twelve" },
+        { "a": "15", "b": "fifteen" },
+        { "a": "40", "b": "forty" },
+        { "a": "50", "b": "fifty" },
+        { "a": "80", "b": "eighty" }
+      ],
+      "pistas": [
+        "Los números del 0 al 12 son palabras que se memorizan; los demás se construyen con -teen y -ty.",
+        "Fíjate en la terminación: -teen es del 13 al 19 y -ty es de las decenas (20, 30… 90).",
+        "11 y 12 son irregulares (no llevan -teen); en el 15 y el 50 la raíz de five cambia a fif-; la decena del 4 pierde la u de four."
+      ],
+      "solucion": {
+        "respuesta": "3 = three · 8 = eight · 11 = eleven · 12 = twelve · 15 = fifteen · 40 = forty · 50 = fifty · 80 = eighty",
+        "explicacion": "Three, eight, eleven y twelve son palabras base que no siguen patrón. Fifteen lleva -teen porque está entre 13 y 19, mientras que fifty y eighty llevan -ty porque son decenas. Forty es decena (-ty) y pierde la u de four."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la ortografía correcta.",
+      "pregunta": "¿Cómo se escribe 40 con letras?",
+      "opciones": [
+        { "texto": "forty", "correcta": true, "porque": "Correcto: la decena del 4 pierde la u de four." },
+        { "texto": "fourty", "correcta": false, "porque": "Es el error más común. Four lleva u, pero forty no." },
+        { "texto": "fourteen", "correcta": false, "porque": "Fourteen es 14: termina en -teen, que es la terminación del 13 al 19." },
+        { "texto": "four-ty", "correcta": false, "porque": "Las decenas se escriben en una sola palabra, sin guion. El guion solo une decena y unidad (forty-four)." }
+      ],
+      "pistas": [
+        "Las decenas terminan en -ty.",
+        "Mira la primera parte de la palabra: ¿conserva exactamente la ortografía de four?",
+        "La decena del 4 es una excepción ortográfica: pierde una vocal que four sí tiene."
+      ],
+      "solucion": {
+        "respuesta": "forty",
+        "explicacion": "La respuesta correcta es forty: las decenas terminan en -ty y la del 4 pierde la u (four → forty). Fourteen es 14 y la conserva."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe con letras el número entre paréntesis.",
+      "frase": "My brother is ___ (15) years old.",
+      "traduccion": "Mi hermano tiene quince años.",
+      "respuestas": [["fifteen"]],
+      "errores_tipicos": {
+        "fiveteen": "La raíz del 5 cambia a fif-: fifteen, no fiveteen.",
+        "fifty": "Fifty es 50 (termina en -ty). El 15 termina en -teen.",
+        "fiftteen": "Se escribe con una sola t: fif + teen."
+      },
+      "pistas": [
+        "Los números del 13 al 19 terminan en -teen.",
+        "La raíz del 5 no es five en este número.",
+        "En el 15 y en el 50 la raíz del 5 es fif-; aquí necesitas la terminación del 13 al 19."
+      ],
+      "solucion": {
+        "respuesta": "fifteen",
+        "explicacion": "La respuesta correcta es fifteen: los números del 13 al 19 terminan en -teen, y la raíz de five cambia a fif-. Fifty sería 50."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha el par, repítelo exagerando el acento y grábate para comparar.",
+      "texto": "thirteen, thirty",
+      "ipa": "/ˌθɝːˈtiːn/ · /ˈθɝːti/",
+      "consejo": "En thirteen el golpe va al final y la «iin» es larga, con n. En thirty el golpe va al principio y el final es cortito, sin n (en EE. UU., con una r suave: «THIR-ri»). Exagera la diferencia: thir-TEEEN / THIR-ty.",
+      "es": "trece, treinta",
+      "pistas": [
+        "El acento cambia de lugar entre las dos palabras.",
+        "Escucha la última sílaba: ¿es larga o corta?, ¿termina en n o en vocal?",
+        "thirteen: acento al final y /iːn/ larga; thirty: acento al principio y /i/ corta."
+      ]
+    },
+    {
+      "id": "numeros.numeros-0-100.05",
+      "tipo": "dictado",
+      "dificultad": 1,
+      "enunciado": "Escucha y escribe la oración. Puedes escribir el número con cifras o con letras.",
+      "texto": "The class is in room thirty.",
+      "respuestas": ["The class is in room 30."],
+      "audio": true,
+      "pistas": [
+        "El número es 13 o 30: decide por el acento y el final.",
+        "Escucha si la última sílaba es larga y termina en n, o si es corta y termina en vocal.",
+        "Acento al principio y final corto sin n = decena en -ty."
+      ],
+      "solucion": {
+        "respuesta": "The class is in room thirty.",
+        "explicacion": "Se oye THIR-ty: el acento está al principio y el final es corto, sin n, así que es 30 y no 13 (thir-TEEN, con /iːn/ larga)."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe con letras los números entre paréntesis. Recuerda el guion.",
+      "frase": "There are ___ (47) chairs and ___ (18) tables.",
+      "traduccion": "Hay cuarenta y siete sillas y dieciocho mesas.",
+      "respuestas": [["forty-seven"], ["eighteen"]],
+      "errores_tipicos": {
+        "fourty seven | eighteen": "Forty no lleva u, aunque four sí.",
+        "forty and seven | eighteen": "Entre decena y unidad no va and: forty-seven.",
+        "forty seven | eightteen": "Eighteen se escribe con una sola t: eight + een."
+      },
+      "pistas": [
+        "47 es un número compuesto: decena + unidad. 18 es un -teen.",
+        "Revisa la ortografía de la decena del 4 y cuántas t tiene el 18.",
+        "Decena del 4 sin u + guion + unidad, sin and; el 18 es eight + een con una sola t."
+      ],
+      "solucion": {
+        "respuesta": "forty-seven · eighteen",
+        "explicacion": "47 = forty-seven: decena (forty, sin u) + guion + unidad, sin and. 18 = eighteen: eight + -een, con una sola t porque la t de eight ya sirve para el -teen."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "My grandfather is eighty and two.",
+      "error": "eighty and two",
+      "correcciones": ["eighty-two"],
+      "frase_correcta": "My grandfather is eighty-two.",
+      "pistas": [
+        "Piensa en cómo se unen la decena y la unidad en inglés.",
+        "Mira la palabra que está entre eighty y two.",
+        "En inglés no se traduce el «y» del español: decena + guion + unidad."
+      ],
+      "solucion": {
+        "respuesta": "eighty-two",
+        "explicacion": "El error es eighty and two, un calco de «ochenta y dos». En inglés la decena y la unidad se unen con guion y sin and: eighty-two."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Escribe el número con letras.",
+      "es": "Tengo veintiún años.",
+      "respuestas": [
+        "I'm twenty-one.",
+        "I'm twenty-one years old."
+      ],
+      "errores_tipicos": {
+        "I have twenty-one years": "La edad se expresa con be, no con have: I'm twenty-one.",
+        "I have twenty-one years old": "La edad se expresa con be, no con have: I'm twenty-one years old.",
+        "I'm twenty-one years": "Years sin old suena incompleto: di I'm twenty-one o I'm twenty-one years old.",
+        "I'm twenty and one": "No se traduce el «y»: twenty-one, con guion."
+      },
+      "pistas": [
+        "La edad en inglés se dice con el verbo be.",
+        "Revisa dos cosas: el verbo (no es have) y cómo se une veinte con uno.",
+        "Estructura: I'm + decena-unidad (+ years old, si quieres; pero entonces las dos palabras)."
+      ],
+      "solucion": {
+        "respuesta": "I'm twenty-one (years old).",
+        "explicacion": "La respuesta correcta es I'm twenty-one o I'm twenty-one years old: la edad va con be (I am), el número se escribe twenty-one con guion y sin and, y years old va completo o no va."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": ["are", "There", "sixty-three", "in", "students", "the", "school"],
+      "respuestas": ["There are sixty-three students in the school."],
+      "traduccion": "Hay sesenta y tres alumnos en la escuela.",
+      "pistas": [
+        "Es una oración con there are: primero there are y luego lo que hay.",
+        "El número va justo antes del sustantivo que cuenta.",
+        "There are + número + sustantivo plural + lugar (in the school)."
+      ],
+      "solucion": {
+        "respuesta": "There are sixty-three students in the school.",
+        "explicacion": "There are abre la oración porque hay varios (plural); el número va delante del sustantivo, como en español (sixty-three students), y el lugar va al final: in the school."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.10",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. Aquí hay dos números que se parecen: escríbelos con cifras o con letras.",
+      "texto": "My mom is forty and my cousin is fourteen.",
+      "respuestas": [
+        "My mom is 40 and my cousin is 14.",
+        "My mom is forty and my cousin is 14.",
+        "My mom is 40 and my cousin is fourteen."
+      ],
+      "audio": true,
+      "pistas": [
+        "Uno de los números es una decena y el otro está entre 13 y 19.",
+        "Escucha dónde cae el golpe de voz en cada número y si terminan en n.",
+        "FOR-ty (acento al principio, final corto) = 40; four-TEEN (acento al final, /iːn/ larga) = 14."
+      ],
+      "solucion": {
+        "respuesta": "My mom is forty and my cousin is fourteen.",
+        "explicacion": "El primer número se oye FOR-ty, con acento al principio y final corto: 40. El segundo es four-TEEN, con acento al final y la n clara: 14. Y ojo con la ortografía: forty sin u, fourteen con u."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.11",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe la oración con los números en letras.",
+      "origen": "There are 12 girls and 19 boys in my class.",
+      "instruccion": "Escribe los números con letras",
+      "respuestas": ["There are twelve girls and nineteen boys in my class."],
+      "errores_tipicos": {
+        "There are twelve girls and ninteen boys in my class": "Nineteen conserva la e de nine: nine + teen.",
+        "There are tweleve girls and nineteen boys in my class": "Twelve se escribe t-w-e-l-v-e, sin e en medio.",
+        "There are twelve girls and ninety boys in my class": "Ninety es 90. El 19 termina en -teen: nineteen."
+      },
+      "pistas": [
+        "12 es una palabra irregular; 19 es un -teen.",
+        "Revisa la ortografía: ¿el 19 conserva la e de nine?",
+        "12 = la forma irregular que termina en -lve; 19 = nine + teen, sin quitar ninguna letra."
+      ],
+      "solucion": {
+        "respuesta": "There are twelve girls and nineteen boys in my class.",
+        "explicacion": "12 es twelve, una de las dos formas irregulares (11 y 12). 19 es nineteen: nine + teen sin perder la e. El resto de la oración no cambia."
+      }
+    },
+    {
+      "id": "numeros.numeros-0-100.12",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre los números de tu vida.",
+      "objetivo": "Usar números del 0 al 100 escritos con letras en oraciones con be y there is / there are.",
+      "instrucciones": "Escribe 5 o 6 oraciones sobre ti y tu entorno: tu edad, la edad de dos personas de tu familia, cuántas personas hay en tu casa o en tu trabajo, y el número de tu casa o departamento. Escribe todos los números con letras e incluye al menos un -teen o un -ty y un número compuesto con guion.",
+      "vocabulario_apoyo": ["years old", "people", "in my house", "in my office", "my apartment", "my street"],
+      "estructuras": ["I'm … (years old).", "My … is …", "There are … people in …", "My house is number …"],
+      "ejemplo": "Sam is nineteen. His dog is eleven years old. There are fifty-two students in his school, and his classroom is number twelve.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Dices tu edad con I'm o I am", "patron": "\\b(i'm|i am)\\b" },
+        { "descripcion": "Usas there is o there are", "patron": "\\bthere (is|are)\\b" },
+        { "descripcion": "Escribes un número compuesto con guion", "patron": "\\b(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)-(one|two|three|four|five|six|seven|eight|nine)\\b" },
+        { "descripcion": "Usas un número en -teen o una decena en -ty", "patron": "(teen|ty)\\b" }
+      ],
+      "criterios": [
+        "¿Usas be (no have) para las edades?",
+        "¿Los números compuestos llevan guion y no llevan and (thirty-six, no thirty and six)?",
+        "¿Escribiste bien forty, fifteen, eighteen?",
+        "¿El sustantivo va en plural después de números mayores que uno?"
+      ],
+      "modelo": "I'm thirty-six years old. My mother is sixty-two and my son is fourteen. There are four people in my house. My apartment is number eighteen. There are forty people in my office, and my desk is number twenty-nine.",
+      "explicacion": "El modelo usa be para todas las edades (I'm thirty-six, my mother is sixty-two), escribe los compuestos con guion y sin and (thirty-six, sixty-two, twenty-nine), contrasta un -teen (fourteen, eighteen) con un -ty (forty) y pone en plural los sustantivos contados (four people, forty people).",
+      "errores_comunes": [
+        "I have thirty-six years → I'm thirty-six.",
+        "sixty and two → sixty-two.",
+        "fourty → forty.",
+        "There is four people → There are four people."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Confirma el número",
+    "contexto": "Llamas a una clínica para confirmar tu cita. La recepcionista, Priya, te dice el número de consultorio y tú no estás seguro de si oíste bien.",
+    "dialogo": [
+      { "quien": "Priya", "en": "Your doctor is in office fifty.", "es": "Su médico está en el consultorio cincuenta." },
+      { "quien": "Tú", "en": "Sorry, is that fifteen or fifty?", "es": "Perdón, ¿es quince o cincuenta?" },
+      { "quien": "Priya", "en": "Fifty. Five, zero.", "es": "Cincuenta. Cinco, cero." },
+      { "quien": "Tú", "en": "Fifty. Thank you!", "es": "Cincuenta. ¡Gracias!" }
+    ],
+    "tu_turno": "Ahora eres tú quien da el número. Alguien te pregunta en qué salón es tu clase (es el 13) y luego te pide que lo confirmes. Responde y confirma con los dígitos.",
+    "modelo": "It's in room thirteen. Thirteen: one, three.",
+    "alternativas": [
+      "It's room thirteen. One, three.",
+      "My class is in room thirteen. That's one, three."
+    ],
+    "claves": [
+      "Acento al final en thir-TEEN.",
+      "Confirma dígito a dígito: one, three.",
+      "Usa It's… con be para responder."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "0–12 se memorizan; 11 (eleven) y 12 (twelve) son irregulares. El cero es zero, y oh al leer dígitos sueltos.",
+      "13–19 terminan en -teen (acento al final, /iːn/ larga); 20–90 terminan en -ty (acento al principio, final corto).",
+      "Ortografía: thirteen/thirty, fifteen/fifty, eighteen (una t), forty (sin u).",
+      "21–99: decena + guion + unidad, sin and (forty-two).",
+      "100 = a hundred / one hundred."
+    ],
+    "recuerda": [
+      "La edad se dice con be: I'm twenty-one, nunca I have twenty-one years.",
+      "Si dudas entre 13 y 30, pregunta: Is that thirteen or thirty?"
+    ]
+  },
+  "repaso": [
+    { "id": "numeros.numeros-0-100.r1", "frente": "¿Cómo se escribe 40 con letras?", "reverso": "forty (sin u) → There are forty students.", "nota": "Fourteen (14) sí conserva la u." },
+    { "id": "numeros.numeros-0-100.r2", "frente": "¿Dónde va el acento en thirteen y en thirty?", "reverso": "thir-TEEN (al final, /iːn/ larga) · THIR-ty (al principio, final corto)." },
+    { "id": "numeros.numeros-0-100.r3", "frente": "¿Cómo se dice 42? ¿Lleva and?", "reverso": "forty-two → sin and, con guion.", "nota": "Calco frecuente: forty and two." },
+    { "id": "numeros.numeros-0-100.r4", "frente": "¿Zero u oh? «Room 205» y «the temperature is 0».", "reverso": "room two oh five (dígitos sueltos) · zero degrees (cantidad)." },
+    { "id": "numeros.numeros-0-100.r5", "frente": "Traduce: «Tengo quince años».", "reverso": "I'm fifteen (years old).", "nota": "Be, no have; fif-, no five-." }
+  ]
+}

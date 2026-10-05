@@ -1,0 +1,492 @@
+{
+  "slug": "preposiciones-de-lugar",
+  "titulo": "Preposiciones de lugar",
+  "minutos": 40,
+  "objetivos": [
+    "Distinguir in, on y under, que en español a veces son el mismo «en».",
+    "Situar cosas y lugares con next to, between… and…, behind, in front of y opposite.",
+    "No confundir in front of (delante de) con opposite (enfrente de, al otro lado).",
+    "Preguntar y decir dónde está algo: Where's…? It's… / There's a… next to…"
+  ],
+  "situacion": {
+    "titulo": "¿Dónde están mis llaves?",
+    "texto": "Sam va a salir y no encuentra sus cosas. Su compañera de departamento, Lucía, le ayuda. Fíjate en las palabras que indican el lugar exacto.",
+    "dialogo": [
+      { "quien": "Sam", "en": "Where are my keys?", "es": "¿Dónde están mis llaves?" },
+      { "quien": "Lucía", "en": "They're on the table, next to the lamp.", "es": "Están en la mesa, junto a la lámpara." },
+      { "quien": "Sam", "en": "And my wallet? It isn't in my bag.", "es": "¿Y mi cartera? No está en mi bolsa." },
+      { "quien": "Lucía", "en": "It's under the sofa! And your jacket is behind the door.", "es": "¡Está debajo del sillón! Y tu chamarra está detrás de la puerta." },
+      { "quien": "Sam", "en": "Thanks! Is the bus stop in front of the bank?", "es": "¡Gracias! ¿La parada del autobús está delante del banco?" },
+      { "quien": "Lucía", "en": "No, it's opposite the bank, on the other side of the street.", "es": "No, está enfrente del banco, del otro lado de la calle." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "in-on-under",
+      "titulo": "In, on, under: dentro, encima, debajo",
+      "que_es": "Tres preposiciones básicas para decir dónde está algo en relación con otra cosa. El español usa «en» tanto para «dentro» como para «encima» («las llaves están en la mesa», «la leche está en el refri»); el inglés te obliga a elegir: [[in]] (dentro) u [[on]] (sobre una superficie).",
+      "para_que": [
+        "Encontrar objetos en casa: [[It's in the drawer.]] · [[It's on the shelf.]]",
+        "Describir una habitación: [[There's a picture on the wall.]]"
+      ],
+      "como_funciona": "[[in]] = dentro de un espacio con límites: una caja, un cajón, un cuarto, una ciudad, un país ([[in the box]], [[in the kitchen]], [[in Mexico]]). [[on]] = en contacto con una superficie, sea horizontal o vertical: la mesa, el piso, la pared, el techo ([[on the table]], [[on the floor]], [[on the wall]]). [[under]] = debajo de algo, lo toque o no ([[under the bed]]). La preposición va **antes** del sustantivo y casi siempre con artículo o posesivo: {{complemento:on}} {{otro:the table}}, {{complemento:in}} {{otro:my bag}}. Existe también [[at]] para puntos o sitios concretos ([[at the door]], [[at the bus stop]]), que irás viendo con el uso. Los medios de transporte tienen sus propias reglas ([[in the car]], [[on the bus]]) que estudiarás más adelante.",
+      "estructuras": [
+        {
+          "etiqueta": "Decir dónde está algo",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "in / on / under", "rol": "complemento" }, { "t": "the + lugar", "rol": "otro" } ],
+          "ejemplo": [ { "t": "The milk", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "in", "rol": "complemento" }, { "t": "the fridge", "rol": "otro" } ],
+          "es": "La leche está en el refri."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Your phone is on the kitchen table.",
+          "es": "Tu celular está en la mesa de la cocina.",
+          "partes": [ { "t": "Your phone", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on", "rol": "complemento" }, { "t": "the kitchen table", "rol": "otro" } ],
+          "nota": "On porque está sobre la superficie de la mesa. «En» en español; on en inglés."
+        },
+        {
+          "en": "The towels are in the closet.",
+          "es": "Las toallas están en el clóset.",
+          "partes": [ { "t": "The towels", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "in", "rol": "complemento" }, { "t": "the closet", "rol": "otro" } ],
+          "nota": "In porque están dentro de un espacio cerrado."
+        },
+        {
+          "en": "There's a big map on the wall.",
+          "es": "Hay un mapa grande en la pared.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a big map", "rol": "complemento" }, { "t": "on the wall", "rol": "otro" } ],
+          "nota": "La pared es una superficie vertical: on, no in. Es uno de los errores más frecuentes del hispanohablante."
+        },
+        {
+          "en": "The dog is under the table.",
+          "es": "El perro está debajo de la mesa.",
+          "partes": [ { "t": "The dog", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "under", "rol": "complemento" }, { "t": "the table", "rol": "otro" } ],
+          "nota": "Under es una sola palabra; no se añade «of» como en «debajo de»."
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "In, on, under",
+        "objetos": [
+          { "emoji": "🛏️", "x": 0.3, "y": 0.55, "etiqueta": "bed" },
+          { "emoji": "🐈", "x": 0.3, "y": 0.3, "etiqueta": "The cat is on the bed." },
+          { "emoji": "👟", "x": 0.3, "y": 0.85, "etiqueta": "The shoes are under the bed." },
+          { "emoji": "📦", "x": 0.75, "y": 0.6, "etiqueta": "box" },
+          { "emoji": "🧸", "x": 0.75, "y": 0.62, "etiqueta": "The teddy bear is in the box." },
+          { "emoji": "🖼️", "x": 0.75, "y": 0.15, "etiqueta": "The picture is on the wall." }
+        ]
+      },
+      "pronunciacion": [
+        { "texto": "under", "ipa": "/ˈʌndər/", "consejo": "La primera vocal /ʌ/ es una «a» corta y relajada, con la boca a medio abrir, como una «a» dicha sin ganas. El acento va al principio: ÚN-der.", "lento": true },
+        { "texto": "on the wall", "ipa": "/ɑn ðə wɔl/ (británico /ɒn ðə wɔːl/)", "consejo": "On en estadounidense suena casi como «an» con la boca bien abierta. La th de the es sonora y breve. Wall empieza redondeando los labios como para «u»." }
+      ],
+      "errores": [
+        { "mal": "The picture is in the wall.", "bien": "The picture is on the wall.", "porque": "In the wall significaría «dentro de la pared». Algo colgado en una pared está sobre su superficie: on." },
+        { "mal": "The keys are in the table.", "bien": "The keys are on the table.", "porque": "El español dice «en la mesa», pero las llaves están encima: on." },
+        { "mal": "The cat is under of the bed.", "bien": "The cat is under the bed.", "porque": "Under ya significa «debajo de»; no lleva of." }
+      ]
+    },
+    {
+      "id": "next-to-between-behind",
+      "titulo": "Next to, between, behind, in front of, opposite",
+      "que_es": "Preposiciones que sitúan una cosa **respecto a otra** al lado, en medio, detrás, delante o al otro lado. Son las que usas para explicar dónde está un lugar en la calle.",
+      "para_que": [
+        "Dar indicaciones: [[The pharmacy is between the bank and the café.]]",
+        "Describir la posición de los muebles: [[The TV is in front of the sofa.]]"
+      ],
+      "como_funciona": "[[next to]] = junto a, al lado de (dos palabras, siempre con to). [[between]] = entre dos cosas: [[between A and B]] (con and, no con or ni con to). [[behind]] = detrás de. [[in front of]] = delante de (tres palabras: no olvides of). [[opposite]] = enfrente de, en el lado contrario, cara a cara; en Estados Unidos también se dice [[across from]]. **Cuidado:** el español «enfrente de» casi siempre significa opposite (al otro lado de la calle), mientras que [[in front of]] significa «delante de» (en el mismo lado, pegado): el carro está [[in front of the house]] (estacionado delante), la escuela está [[opposite the house]] (al otro lado de la calle). También existe [[near]] (cerca de), sin of: [[near the park]].",
+      "estructuras": [
+        {
+          "etiqueta": "Entre dos cosas",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "between", "rol": "complemento" }, { "t": "A and B", "rol": "otro" } ],
+          "ejemplo": [ { "t": "The store", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "between", "rol": "complemento" }, { "t": "the bank and the café", "rol": "otro" } ],
+          "es": "La tienda está entre el banco y el café."
+        },
+        {
+          "etiqueta": "Preposición de varias palabras",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "next to / in front of", "rol": "complemento" }, { "t": "the + lugar", "rol": "otro" } ],
+          "ejemplo": [ { "t": "The car", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "in front of", "rol": "complemento" }, { "t": "the store", "rol": "otro" } ],
+          "es": "El carro está delante de la tienda."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Preposiciones de posición relativa",
+          "columnas": ["Español", "Inglés", "Ejemplo"],
+          "filas": [
+            ["junto a, al lado de", "next to", "The café is next to the store."],
+            ["entre (dos)", "between … and …", "The store is between the bank and the café."],
+            ["detrás de", "behind", "The tree is behind the store."],
+            ["delante de", "in front of", "The car is in front of the store."],
+            ["enfrente de (al otro lado)", "opposite · across from", "The school is opposite the store."],
+            ["cerca de", "near", "The park is near the school."]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The bathroom is next to the kitchen.",
+          "es": "El baño está junto a la cocina.",
+          "partes": [ { "t": "The bathroom", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "next to", "rol": "complemento" }, { "t": "the kitchen", "rol": "otro" } ],
+          "nota": "Next to, nunca «next of»: el «de» del español se traduce aquí con to."
+        },
+        {
+          "en": "My desk is between the window and the door.",
+          "es": "Mi escritorio está entre la ventana y la puerta.",
+          "partes": [ { "t": "My desk", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "between", "rol": "complemento" }, { "t": "the window and the door", "rol": "otro" } ],
+          "nota": "Between va con dos elementos unidos por and."
+        },
+        {
+          "en": "There's a small garden behind the building.",
+          "es": "Hay un jardín pequeño detrás del edificio.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a small garden", "rol": "complemento" }, { "t": "behind the building", "rol": "otro" } ],
+          "nota": "Behind es una sola palabra, sin of."
+        },
+        {
+          "en": "The bus stop is opposite the hospital.",
+          "es": "La parada del autobús está enfrente del hospital.",
+          "partes": [ { "t": "The bus stop", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "opposite", "rol": "complemento" }, { "t": "the hospital", "rol": "otro" } ],
+          "nota": "Opposite no lleva of ni to. En EE. UU. es muy común decir across from the hospital."
+        },
+        {
+          "en": "There are two taxis in front of the hotel.",
+          "es": "Hay dos taxis delante del hotel.",
+          "partes": [ { "t": "There", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "two taxis", "rol": "complemento" }, { "t": "in front of the hotel", "rol": "otro" } ]
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "in front of = delante de", "items": ["En el mismo lado, pegado o muy cerca.", "The car is in front of my house. (estacionado delante)"] },
+        "b": { "titulo": "opposite = enfrente de", "items": ["Al otro lado (de una calle, de una mesa), cara a cara.", "The park is opposite my house. (cruzando la calle)"] },
+        "veredicto": "Si entre las dos cosas hay una calle, un pasillo o una mesa, es opposite. Si una está justo delante de la otra, es in front of. Traducir «enfrente de» por in front of es un calco muy común."
+      },
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Una calle vista desde arriba",
+        "objetos": [
+          { "emoji": "🏦", "x": 0.18, "y": 0.35, "etiqueta": "bank" },
+          { "emoji": "🏪", "x": 0.5, "y": 0.35, "etiqueta": "The store is between the bank and the café." },
+          { "emoji": "☕", "x": 0.82, "y": 0.35, "etiqueta": "The café is next to the store." },
+          { "emoji": "🌳", "x": 0.5, "y": 0.1, "etiqueta": "The tree is behind the store." },
+          { "emoji": "🚗", "x": 0.5, "y": 0.55, "etiqueta": "The car is in front of the store." },
+          { "emoji": "🏫", "x": 0.5, "y": 0.9, "etiqueta": "The school is opposite the store." }
+        ]
+      },
+      "pronunciacion": [
+        { "texto": "between", "ipa": "/bɪˈtwin/", "consejo": "El acento va en la segunda sílaba: bi-TUÍN. La /w/ se hace redondeando los labios como para decir «u», y la i final es larga.", "lento": true },
+        { "texto": "behind", "ipa": "/bɪˈhaɪnd/", "consejo": "La h se aspira: un soplo suave, no la j española. El acento va en la segunda sílaba: bi-JÁIND pero con h suave." },
+        { "texto": "in front of", "ipa": "/ɪn ˈfrʌnt əv/", "consejo": "Front tiene la /ʌ/ corta (como en under), no una «o». Of se reduce a /əv/, casi solo «ev» débil, pero no desaparece." },
+        { "texto": "opposite", "ipa": "/ˈɑpəzɪt/ (británico /ˈɒpəzɪt/)", "consejo": "Acento en la primera sílaba: Á-pa-zit. La s suena /z/ y la e final es muda." }
+      ],
+      "errores": [
+        { "mal": "The bank is next of the park.", "bien": "The bank is next to the park.", "porque": "La preposición es next to. «Next of» es un calco de «al lado de»." },
+        { "mal": "The car is in front the house.", "bien": "The car is in front of the house.", "porque": "In front of tiene tres palabras: no olvides of." },
+        { "mal": "The park is in front of my house, on the other side of the street.", "bien": "The park is opposite my house.", "porque": "Si hay una calle en medio, en inglés es opposite (o across from), no in front of." },
+        { "mal": "The store is near of the school.", "bien": "The store is near the school.", "porque": "Near no lleva of." }
+      ]
+    },
+    {
+      "id": "donde-esta",
+      "titulo": "Where's…? y el orden de las frases de lugar",
+      "que_es": "Dos formas de hablar de ubicación: preguntar y decir **dónde está** algo que ya conocemos ([[Where's the bank? It's next to the park.]]) o decir **qué hay** en un lugar ([[There's a bank next to the park.]]).",
+      "para_que": [
+        "Pedir y dar indicaciones sencillas en la calle.",
+        "Evitar el calco «En la sala está un sofá»."
+      ],
+      "como_funciona": "Para algo conocido (con the, un nombre o un posesivo): {{interrogativo:Where}} {{verbo:is / are}} {{sujeto:the …}}? → {{sujeto:It's / They're}} {{complemento:+ preposición + lugar}}. Para algo nuevo: {{sujeto:There}} {{verbo:is / are}} {{complemento:a / some …}} {{otro:+ preposición + lugar}}. El orden normal pone el lugar **al final**. Se puede empezar con el lugar ([[In the living room, there's a sofa.]]), pero aun así hace falta there is: en inglés no se dice [[In the living room is a sofa.]] como calco de «En la sala está un sofá». Where's = where is; con plural se dice where are (no se contrae por escrito).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta por algo conocido",
+          "formula": [ { "t": "Where", "rol": "interrogativo" }, { "t": "is / are", "rol": "verbo" }, { "t": "the + sustantivo?", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "Where", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "the post office?", "rol": "sujeto" } ],
+          "es": "¿Dónde está la oficina de correos?"
+        },
+        {
+          "etiqueta": "Respuesta",
+          "formula": [ { "t": "It / They", "rol": "sujeto" }, { "t": "is / are", "rol": "verbo" }, { "t": "preposición + lugar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "behind the church", "rol": "complemento" } ],
+          "es": "Está detrás de la iglesia."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Where are the glasses? — They're in the cupboard.",
+          "es": "¿Dónde están los vasos? — Están en la alacena.",
+          "partes": [ { "t": "Where", "rol": "interrogativo" }, { "t": "are", "rol": "verbo" }, { "t": "the glasses? —", "rol": "sujeto" }, { "t": "They're", "rol": "sujeto" }, { "t": "in the cupboard", "rol": "complemento" } ],
+          "nota": "Glasses es plural: where are y they're. En la respuesta no se repite el sustantivo; se usa el pronombre."
+        },
+        {
+          "en": "Where's Priya? — She's in the garden.",
+          "es": "¿Dónde está Priya? — Está en el jardín.",
+          "partes": [ { "t": "Where's", "rol": "interrogativo" }, { "t": "Priya? —", "rol": "sujeto" }, { "t": "She's", "rol": "sujeto" }, { "t": "in the garden", "rol": "complemento" } ],
+          "nota": "Con personas, la respuesta usa he / she, nunca se omite el sujeto."
+        },
+        {
+          "en": "There's a mirror above the sink.",
+          "es": "Hay un espejo encima del lavabo.",
+          "partes": [ { "t": "There's", "rol": "sujeto" }, { "t": "a mirror", "rol": "complemento" }, { "t": "above the sink", "rol": "otro" } ],
+          "nota": "Above = más arriba que algo, sin tocarlo. On sería «apoyado encima»."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "Where's", "ipa": "/wɛrz/", "consejo": "Empieza con labios redondeados (/w/), como si fueras a decir «u», y abre a una «e». Termina en /z/ zumbada. Suena igual que wears." }
+      ],
+      "errores": [
+        { "mal": "In the living room is a sofa.", "bien": "There's a sofa in the living room.", "porque": "Para presentar algo nuevo en un lugar hace falta there is; el inglés no admite este orden del español." },
+        { "mal": "Where is the keys?", "bien": "Where are the keys?", "porque": "Keys es plural: where are." },
+        { "mal": "Where's the bank? — Is next to the park.", "bien": "Where's the bank? — It's next to the park.", "porque": "La respuesta necesita sujeto: it." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada preposición con su significado.",
+      "pares": [
+        { "a": "under", "b": "debajo de" },
+        { "a": "behind", "b": "detrás de" },
+        { "a": "in front of", "b": "delante de" },
+        { "a": "opposite", "b": "enfrente de (al otro lado)" },
+        { "a": "next to", "b": "junto a" },
+        { "a": "between", "b": "entre" },
+        { "a": "on", "b": "sobre (una superficie)" }
+      ],
+      "pistas": [
+        "Piensa en una calle y en una mesa.",
+        "Hay dos que parecen iguales en español: «delante de» y «enfrente de».",
+        "in front of = mismo lado, delante; opposite = al otro lado, cara a cara."
+      ],
+      "solucion": { "respuesta": "under-debajo de · behind-detrás de · in front of-delante de · opposite-enfrente de · next to-junto a · between-entre · on-sobre", "explicacion": "La pareja más delicada es in front of (delante de, en el mismo lado) frente a opposite (enfrente, al otro lado de algo). On indica contacto con una superficie, tanto una mesa como una pared." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la preposición correcta.",
+      "pregunta": "There's a clock ___ the wall.",
+      "opciones": [
+        { "texto": "on", "correcta": true, "porque": "Correcto: el reloj está colgado en la superficie de la pared, y para superficies (también verticales) se usa on." },
+        { "texto": "in", "correcta": false, "porque": "In the wall significaría «dentro de la pared», como un cable." },
+        { "texto": "under", "correcta": false, "porque": "Under es «debajo de»: no tiene sentido con un reloj de pared." },
+        { "texto": "between", "correcta": false, "porque": "Between necesita dos cosas: between the window and the door." }
+      ],
+      "pistas": [
+        "El español dice «en la pared». ¿Dentro o sobre la superficie?",
+        "La pared es una superficie, aunque sea vertical.",
+        "Superficie (mesa, piso, pared, techo) → on."
+      ],
+      "solucion": { "respuesta": "on", "explicacion": "La respuesta es on, porque el reloj está en contacto con la superficie de la pared. El español usa «en» para todo, pero el inglés distingue in (dentro) de on (sobre una superficie)." },
+      "audio": true
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con in, on o under.",
+      "frase": "The milk is ___ the fridge, the rug is ___ the floor, and the cat is ___ the table.",
+      "respuestas": [["in"], ["on"], ["under"]],
+      "banco": ["in", "on", "under"],
+      "traduccion": "La leche está en el refri, el tapete está en el piso y el gato está debajo de la mesa.",
+      "errores_tipicos": {
+        "on | on | under": "La leche está DENTRO del refri: in.",
+        "in | in | under": "El tapete está sobre la superficie del piso: on the floor."
+      },
+      "pistas": [
+        "in = dentro; on = sobre una superficie; under = debajo.",
+        "¿La leche está dentro de algo? ¿El tapete, sobre qué?",
+        "Regla: espacio cerrado → in; superficie → on; más abajo que algo → under."
+      ],
+      "solucion": { "respuesta": "in · on · under", "explicacion": "In the fridge porque la leche está dentro de un espacio cerrado; on the floor porque el tapete descansa sobre la superficie del piso; under the table porque el gato está debajo." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.04",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la situación y elige la frase que la describe.",
+      "pregunta": "Vives en una calle. Al otro lado de la calle, justo delante de tu puerta, hay un parque. ¿Cómo lo dices?",
+      "opciones": [
+        { "texto": "The park is opposite my house.", "correcta": true, "porque": "Correcto: hay una calle entre tu casa y el parque; están cara a cara, en lados opuestos. Eso es opposite (o across from)." },
+        { "texto": "The park is in front of my house.", "correcta": false, "porque": "In front of significa pegado delante, en tu mismo lado. Es el calco de «enfrente de»." },
+        { "texto": "The park is behind my house.", "correcta": false, "porque": "Behind es «detrás de»: el parque estaría en la parte de atrás." },
+        { "texto": "The park is next of my house.", "correcta": false, "porque": "No existe next of; es next to, y además significaría «al lado», no «enfrente»." }
+      ],
+      "pistas": [
+        "Recuerda la diferencia entre «delante de» y «enfrente de».",
+        "Entre tu casa y el parque hay una calle.",
+        "Con algo en medio (calle, mesa) y cara a cara → opposite."
+      ],
+      "solucion": { "respuesta": "The park is opposite my house.", "explicacion": "La respuesta es opposite porque el parque está al otro lado de la calle, frente a tu casa. In front of se usaría para un carro estacionado delante de tu casa, en tu mismo lado." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la oración (una palabra por hueco).",
+      "frase": "The pharmacy is ___ the bank ___ the supermarket.",
+      "respuestas": [["between"], ["and"]],
+      "traduccion": "La farmacia está entre el banco y el supermercado.",
+      "errores_tipicos": {
+        "between | to": "Between va con and: between A and B.",
+        "between | or": "Entre dos cosas se usa and: between the bank and the supermarket."
+      },
+      "pistas": [
+        "«Entre» dos cosas.",
+        "La preposición necesita una segunda palabra que una los dos lugares.",
+        "Regla: la preposición de «entre» siempre forma pareja con la conjunción de «y»: preposición + A + conjunción + B."
+      ],
+      "solucion": { "respuesta": "between · and", "explicacion": "Entre dos elementos se dice between A and B. La conjunción es and, igual que la «y» del español; no se usa to (que sería de un punto a otro)." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "The bathroom is next of the bedroom.",
+      "error": "of",
+      "correcciones": ["to"],
+      "frase_correcta": "The bathroom is next to the bedroom.",
+      "pistas": [
+        "Revisa la preposición de dos palabras.",
+        "«Al lado de»: ¿qué palabra acompaña a next?",
+        "Regla: «al lado de» no se traduce palabra por palabra: next no va con of, sino con la preposición que en español sería «a»."
+      ],
+      "solucion": { "respuesta": "of → to", "explicacion": "La corrección es to: next to the bedroom. «Next of» es un calco del «de» en «al lado de». En inglés las preposiciones de varias palabras son fijas: next to, in front of." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "In the kitchen is a big table.",
+      "error": "is",
+      "correcciones": ["there is", "there's"],
+      "frase_correcta": "In the kitchen there is a big table.",
+      "pistas": [
+        "La oración presenta algo nuevo (a big table) en un lugar.",
+        "Al verbo le falta algo delante; ¿qué palabra introduce el «hay»?",
+        "Para decir que algo existe en un lugar: there is. Aunque empieces con el lugar, there sigue siendo necesario."
+      ],
+      "solucion": { "respuesta": "is → there is", "explicacion": "La corrección es there is. «In the kitchen is a big table» calca «En la cocina está una mesa grande». En inglés, para presentar algo nuevo hace falta there is. Lo más natural es There's a big table in the kitchen, pero también es correcto In the kitchen, there's a big table." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["in", "the", "house", "front", "There's", "a", "of", "car"],
+      "respuestas": ["There's a car in front of the house"],
+      "traduccion": "Hay un carro delante de la casa.",
+      "pistas": [
+        "Empieza por lo que hay.",
+        "Después de There's a car viene el lugar.",
+        "Orden: There's + artículo + sustantivo + preposición de tres palabras + artículo + lugar."
+      ],
+      "solucion": { "respuesta": "There's a car in front of the house.", "explicacion": "There's a car presenta lo que hay; el lugar va al final: in front of + the house. In front of siempre lleva sus tres palabras juntas." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.09",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Diego acaba de llegar a tu oficina y busca el baño. Está junto a la cocina.",
+      "lineas": [
+        { "quien": "Diego", "en": "Excuse me, where's the bathroom?", "es": "Disculpa, ¿dónde está el baño?" }
+      ],
+      "opciones": [
+        { "texto": "It's next to the kitchen.", "correcta": true, "porque": "Correcto: responde a where's con it's (sujeto obligatorio) + preposición + lugar." },
+        { "texto": "There's next to the kitchen.", "correcta": false, "porque": "There's presenta algo nuevo y necesita un sustantivo; aquí hablas del baño que ya se mencionó: it's." },
+        { "texto": "Is next to the kitchen.", "correcta": false, "porque": "Falta el sujeto. En inglés no se omite: it's." },
+        { "texto": "It's next of the kitchen.", "correcta": false, "porque": "La preposición es next to, no next of." }
+      ],
+      "pistas": [
+        "Para decir dónde está algo ya conocido, usa un pronombre sujeto.",
+        "El baño = it.",
+        "Regla: pronombre contraído con be + preposición de «junto a» + lugar."
+      ],
+      "solucion": { "respuesta": "It's next to the kitchen.", "explicacion": "Diego pregunta por un lugar concreto (the bathroom), así que contestas con it's + preposición + lugar. No se usa there porque no presentas algo nuevo, y el sujeto it no se puede omitir." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa opposite.",
+      "es": "La estación está enfrente del museo.",
+      "respuestas": ["The station is opposite the museum.", "The train station is opposite the museum."],
+      "errores_tipicos": {
+        "The station is in front of the museum": "«Enfrente de» (al otro lado) se dice opposite; in front of es «delante de».",
+        "The station is opposite of the museum": "Opposite no lleva of: opposite the museum."
+      },
+      "pistas": [
+        "«Estar» + lugar = be.",
+        "El enunciado te pide opposite: ¿lleva of?",
+        "Estructura: sujeto + be + preposición + lugar; opposite no lleva of."
+      ],
+      "solucion": { "respuesta": "The station is opposite the museum.", "explicacion": "Estar en un lugar se dice con be (is). Opposite va directo delante del sustantivo, sin of. En inglés estadounidense también es muy natural The station is across from the museum." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.11",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe.",
+      "texto": "The lamp is between the bed and the window.",
+      "pistas": [
+        "Escucharás una oración con be y una preposición de lugar.",
+        "La preposición indica que la lámpara está en medio de dos cosas.",
+        "Estructura: sujeto + be + preposición de «entre» + A + and + B."
+      ],
+      "solucion": { "respuesta": "The lamp is between the bed and the window.", "explicacion": "Between lleva el acento en la segunda sílaba (bi-TUÍN) y va seguido de dos elementos unidos por and. Los dos the se reducen a /ðə/." }
+    },
+    {
+      "id": "there-is-there-are.preposiciones-de-lugar.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "The bank is behind the church, opposite the park.",
+      "ipa": "/ðə bæŋk ɪz bɪˈhaɪnd ðə tʃɜrtʃ ˈɑpəzɪt ðə pɑrk/",
+      "consejo": "Behind: acento en la segunda sílaba y h aspirada suave. Church empieza y termina con /tʃ/, como la «ch» de «chile», y en medio lleva una vocal con r, con la lengua doblada hacia atrás. Opposite: acento en la primera sílaba.",
+      "es": "El banco está detrás de la iglesia, enfrente del parque."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Encuentra el objeto",
+    "contexto": "Tu amiga Mei está en tu casa y quiere un vaso, el control de la tele y un cargador. Tú estás en otro cuarto y le explicas dónde está cada cosa.",
+    "dialogo": [
+      { "quien": "Mei", "en": "Where are the glasses? And where's the remote?", "es": "¿Dónde están los vasos? ¿Y dónde está el control?" },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Mei", "en": "Great, thanks! And the charger?", "es": "¡Perfecto, gracias! ¿Y el cargador?" }
+    ],
+    "tu_turno": "Explica dónde están los vasos y el control, y luego el cargador. Usa al menos tres preposiciones distintas y it's / they're.",
+    "modelo": "The glasses are in the cupboard, next to the fridge. The remote is on the sofa, between the cushions. The charger? It's under my desk.",
+    "alternativas": [
+      "They're in the kitchen, in the cupboard above the sink. The remote is on the table in front of the TV. The charger is behind the computer.",
+      "The glasses are on the shelf next to the window. The remote is under the sofa! The charger is in the drawer."
+    ],
+    "claves": [
+      "Where are + plural → They're…; Where's + singular → It's…",
+      "in (dentro), on (superficie), under (debajo).",
+      "next to, between … and …, behind, in front of."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "in = dentro · on = sobre una superficie (también la pared) · under = debajo.",
+      "next to · between A and B · behind · in front of · opposite (across from en EE. UU.) · near.",
+      "in front of = delante (mismo lado); opposite = enfrente (al otro lado).",
+      "Where's the…? → It's + preposición + lugar. Algo nuevo → There's a… + preposición + lugar."
+    ],
+    "recuerda": [
+      "Sin of: under, behind, opposite, near, between. Con of: in front of. Con to: next to.",
+      "On the wall, no in the wall.",
+      "In the room is a bed ✗ → There's a bed in the room ✓."
+    ]
+  },
+  "repaso": [
+    { "id": "there-is-there-are.preposiciones-de-lugar.r1", "frente": "¿Cómo dices «Hay un cuadro en la pared»?", "reverso": "There's a picture on the wall.", "nota": "Pared = superficie → on." },
+    { "id": "there-is-there-are.preposiciones-de-lugar.r2", "frente": "«La escuela está enfrente del parque (al otro lado de la calle)»", "reverso": "The school is opposite the park. / The school is across from the park.", "nota": "No in front of." },
+    { "id": "there-is-there-are.preposiciones-de-lugar.r3", "frente": "Completa: The café is ___ the bank ___ the park.", "reverso": "between … and …", "nota": "between A and B." },
+    { "id": "there-is-there-are.preposiciones-de-lugar.r4", "frente": "¿next of o next to?", "reverso": "next to: The bathroom is next to the kitchen.", "nota": "Preposición fija." },
+    { "id": "there-is-there-are.preposiciones-de-lugar.r5", "frente": "Contesta: Where are the keys? (dentro del cajón)", "reverso": "They're in the drawer.", "nota": "Plural → they're." }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "titulo": "Evaluación: el presente continuo",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "presente-continuo.eval.01",
+      "leccion": "que-es-el-presente-continuo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "Look! The cat ___ on the roof.",
+      "opciones": [
+        { "texto": "is sitting", "correcta": true, "porque": "Correcta: Look! señala algo que pasa ahora; the cat = it → is + sitting." },
+        { "texto": "sits", "correcta": false, "porque": "El presente simple describe hábitos, no lo que ves en este momento." },
+        { "texto": "sitting", "correcta": false, "porque": "Falta el auxiliar is." },
+        { "texto": "are sitting", "correcta": false, "porque": "are va con sujetos plurales; the cat es singular." }
+      ],
+      "pistas": [
+        "Look! anuncia algo que ocurre ahora.",
+        "Necesitas be + -ing y be debe concordar con the cat.",
+        "Un sustantivo singular (it) lleva is; detrás va el verbo + -ing."
+      ],
+      "solucion": { "respuesta": "is sitting", "explicacion": "La respuesta es is sitting: Look! indica una acción en progreso, el sujeto singular pide is y sit duplica la t (sitting)." }
+    },
+    {
+      "id": "presente-continuo.eval.02",
+      "leccion": "que-es-el-presente-continuo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el presente continuo de stay (una palabra por hueco).",
+      "frase": "My cousins ___ ___ with us this month.",
+      "respuestas": [["are"], ["staying"]],
+      "traduccion": "Este mes mis primos se están quedando con nosotros.",
+      "errores_tipicos": {
+        "is | staying": "My cousins es plural: are.",
+        "are | stay": "Después de are el verbo lleva -ing: staying."
+      },
+      "pistas": [
+        "this month indica una situación temporal.",
+        "El sujeto es plural.",
+        "Con sujeto plural se usa are; los verbos que terminan en vocal + y solo añaden -ing, como en play → playing."
+      ],
+      "solucion": { "respuesta": "are staying", "explicacion": "La respuesta es are staying: presente continuo para una situación temporal (this month); are concuerda con my cousins y stay añade -ing sin cambios." }
+    },
+    {
+      "id": "presente-continuo.eval.03",
+      "leccion": "que-es-el-presente-continuo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa la forma contraída.",
+      "es": "Estamos esperando a Diego.",
+      "respuestas": ["We're waiting for Diego"],
+      "errores_tipicos": {
+        "We're waiting Diego": "wait necesita for delante de lo que se espera: wait for Diego.",
+        "We waiting for Diego": "Falta are (we're).",
+        "We're waiting to Diego": "La preposición de wait es for, no to."
+      },
+      "pistas": [
+        "Acción en progreso: be + -ing.",
+        "El verbo esperar a alguien lleva una preposición en inglés.",
+        "Sujeto contraído con be + verbo -ing + preposición + persona; con wait la preposición es la misma de This is ___ you."
+      ],
+      "solucion": { "respuesta": "We're waiting for Diego.", "explicacion": "We're (we are) + waiting + for Diego. En inglés «esperar a alguien» es wait for someone; la preposición for es obligatoria." }
+    },
+    {
+      "id": "presente-continuo.eval.04",
+      "leccion": "que-es-el-presente-continuo",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la oración.",
+      "pregunta": "Grace dice: «I'm learning to drive these days.» ¿Qué sabemos?",
+      "opciones": [
+        { "texto": "Que está manejando en este momento.", "correcta": false, "porque": "these days habla de un periodo, no del instante exacto." },
+        { "texto": "Que está en un periodo de aprender a manejar, una situación temporal.", "correcta": true, "porque": "Correcta: el continuo con these days describe una actividad temporal en curso." },
+        { "texto": "Que ya sabe manejar desde hace mucho.", "correcta": false, "porque": "learning indica un proceso sin terminar: todavía está aprendiendo." }
+      ],
+      "pistas": [
+        "Mira la expresión de tiempo.",
+        "these days = estos días, esta temporada.",
+        "Continuo + periodo = situación temporal en curso, no necesariamente ahora mismo."
+      ],
+      "solucion": { "respuesta": "Que está en un periodo de aprender a manejar, una situación temporal.", "explicacion": "Con these days el presente continuo describe una situación temporal que está en marcha: Grace está tomando clases estos días, aunque ahora no esté al volante." }
+    },
+    {
+      "id": "presente-continuo.eval.05",
+      "leccion": "que-es-el-presente-continuo",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "It's snowing and the children are making a snowman.",
+      "pistas": [
+        "Hay dos acciones unidas por and.",
+        "La primera trata del clima; la segunda, de los niños.",
+        "Clima: It's + verbo -ing; después, sujeto plural + are + verbo -ing + objeto."
+      ],
+      "solucion": { "respuesta": "It's snowing and the children are making a snowman.", "explicacion": "Dos acciones en progreso: It's snowing (sujeto it obligatorio) y the children are making a snowman (plural → are; make pierde la e muda)." }
+    },
+    {
+      "id": "presente-continuo.eval.06",
+      "leccion": "ortografia-ing",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada verbo con su forma -ing.",
+      "pares": [
+        { "a": "dance", "b": "dancing" },
+        { "a": "stop", "b": "stopping" },
+        { "a": "tie", "b": "tying" },
+        { "a": "agree", "b": "agreeing" },
+        { "a": "snow", "b": "snowing" },
+        { "a": "forget", "b": "forgetting" }
+      ],
+      "pistas": [
+        "Cada verbo sigue una regla distinta.",
+        "Mira la terminación: e muda, ee, ie, CVC, w.",
+        "e muda se quita; ee se conserva; ie → y; CVC acentuado duplica; w nunca duplica."
+      ],
+      "solucion": { "respuesta": "dance–dancing, stop–stopping, tie–tying, agree–agreeing, snow–snowing, forget–forgetting", "explicacion": "dance pierde la e muda; stop duplica la p (CVC de una sílaba); tie cambia ie por y; agree conserva ee; snow no duplica la w; forget duplica la t porque se acentúa en la última sílaba (for-GET)." }
+    },
+    {
+      "id": "presente-continuo.eval.07",
+      "leccion": "ortografia-ing",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma -ing del verbo entre paréntesis.",
+      "frase": "Hurry up! The train is ___ now. (arrive)",
+      "respuestas": [["arriving"]],
+      "traduccion": "¡Apúrate! El tren ya está llegando.",
+      "errores_tipicos": {
+        "arriveing": "arrive termina en e muda: se quita antes de -ing.",
+        "arrivving": "No se duplica la v: arrive termina en e muda, no en CVC."
+      },
+      "pistas": [
+        "Fíjate en la última letra de arrive.",
+        "Es una e que no se pronuncia.",
+        "Quita la e muda y añade -ing."
+      ],
+      "solucion": { "respuesta": "arriving", "explicacion": "arrive termina en e muda, que desaparece: arriving. Hurry up! (¡apúrate!) es una expresión fija para meter prisa." }
+    },
+    {
+      "id": "presente-continuo.eval.08",
+      "leccion": "ortografia-ing",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra mal escrita. Señálala y escribe la forma correcta.",
+      "frase": "Why is Ben geting angry?",
+      "error": "geting",
+      "correcciones": ["getting"],
+      "frase_correcta": "Why is Ben getting angry?",
+      "pistas": [
+        "Revisa la ortografía del verbo en -ing.",
+        "get: consonante + vocal + consonante, una sílaba.",
+        "CVC de una sílaba → duplica la consonante final."
+      ],
+      "solucion": { "respuesta": "geting → getting", "explicacion": "get es CVC de una sílaba, así que duplica la t: getting. Sin la doble t, la e se leería larga. get angry = enojarse." }
+    },
+    {
+      "id": "presente-continuo.eval.09",
+      "leccion": "ortografia-ing",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "¿Qué oración está bien escrita?",
+      "pregunta": "Elige la única oración sin faltas de ortografía.",
+      "opciones": [
+        { "texto": "She's openning the window.", "correcta": false, "porque": "open se acentúa en la primera sílaba (O-pen): no se duplica la n → opening." },
+        { "texto": "He's comming home.", "correcta": false, "porque": "come termina en e muda: se quita y no se duplica nada → coming." },
+        { "texto": "The flowers are diing.", "correcta": false, "porque": "die cambia ie por y: dying." },
+        { "texto": "We're planning a party.", "correcta": true, "porque": "Correcta: plan es CVC de una sílaba y duplica la n: planning." }
+      ],
+      "pistas": [
+        "Aplica a cada verbo su regla: e muda, CVC, ie.",
+        "Piensa dónde va el acento de open y qué termina en ie.",
+        "Solo duplica el CVC acentuado; come pierde la e; die → dying."
+      ],
+      "solucion": { "respuesta": "We're planning a party.", "explicacion": "planning es correcto porque plan es CVC de una sílaba. opening no duplica (acento en O-pen), coming solo pierde la e y dying cambia ie por y." }
+    },
+    {
+      "id": "presente-continuo.eval.10",
+      "leccion": "ortografia-ing",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa lying y reading.",
+      "es": "Mi abuelo está acostado en la hamaca y está leyendo el periódico.",
+      "respuestas": [
+        "My grandpa is lying in the hammock and he's reading the newspaper",
+        "My grandfather is lying in the hammock and he's reading the newspaper",
+        "My grandpa is lying in the hammock and reading the newspaper",
+        "My grandfather is lying in the hammock and reading the newspaper"
+      ],
+      "errores_tipicos": {
+        "My grandpa is lieing in the hammock and he's reading the newspaper": "lie cambia ie por y: lying.",
+        "My grandpa is lying in the hammock and he reading the newspaper": "Si repites el sujeto he, necesitas is: he's reading."
+      },
+      "pistas": [
+        "«Estar acostado» se expresa con be + lying.",
+        "lie termina en ie; read sigue la regla general.",
+        "Sujeto + is + lie en -ing (ie → y) + lugar + and + (he's) + read en -ing + objeto."
+      ],
+      "solucion": { "respuesta": "My grandpa is lying in the hammock and he's reading the newspaper.", "explicacion": "«Está acostado» es is lying (ie → y). Puedes repetir el sujeto y el auxiliar (he's reading) o compartirlos (is lying … and reading). hammock = hamaca." }
+    },
+    {
+      "id": "presente-continuo.eval.11",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "Mei is wearing a hat.",
+      "instruccion": "Negativa",
+      "respuestas": ["Mei isn't wearing a hat", "Mei's not wearing a hat"],
+      "errores_tipicos": {
+        "Mei doesn't wearing a hat": "En el continuo se niega be, no se usa doesn't.",
+        "Mei isn't wear a hat": "El verbo sigue en -ing: wearing."
+      },
+      "pistas": [
+        "La negación se forma con be.",
+        "Pon not después de is.",
+        "Sujeto + isn't (o 's not) + verbo -ing + complemento, como en Tom isn't eating an apple."
+      ],
+      "solucion": { "respuesta": "Mei isn't wearing a hat.", "explicacion": "not va detrás de is (isn't) y wearing no cambia. wear = llevar puesto." }
+    },
+    {
+      "id": "presente-continuo.eval.12",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Haz una pregunta con What para saber qué esperan (la respuesta sería a taxi). Deja la preposición al final.",
+      "origen": "They are waiting for a taxi.",
+      "instruccion": "Pregunta con What",
+      "respuestas": ["What are they waiting for"],
+      "errores_tipicos": {
+        "What they are waiting for": "Falta la inversión: What + are + they.",
+        "What are they waiting": "wait necesita for: What are they waiting for?",
+        "What do they waiting for": "En el continuo el auxiliar es be: are."
+      },
+      "pistas": [
+        "What sustituye a a taxi.",
+        "Después de What va la pregunta de sí o no: are they waiting…",
+        "Palabra interrogativa + be + sujeto + verbo -ing + preposición al final, como en Who are you looking at?"
+      ],
+      "solucion": { "respuesta": "What are they waiting for?", "explicacion": "What reemplaza a a taxi y va al principio; después viene are + they + waiting, y for se queda al final." }
+    },
+    {
+      "id": "presente-continuo.eval.13",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Tu jefe llama a la casa y contestas tú.",
+      "lineas": [
+        { "quien": "Jefe", "en": "Hello. Is your sister working today?", "es": "Hola. ¿Tu hermana está trabajando hoy?" }
+      ],
+      "opciones": [
+        { "texto": "No, she isn't. She's at home.", "correcta": true, "porque": "Correcta: respuesta corta con be y el pronombre she, y después una aclaración." },
+        { "texto": "No, she doesn't. She's at home.", "correcta": false, "porque": "La pregunta usa Is, así que se contesta con is, no con doesn't." },
+        { "texto": "Yes, she's.", "correcta": false, "porque": "Las respuestas cortas afirmativas no se contraen: Yes, she is." },
+        { "texto": "No, I'm not.", "correcta": false, "porque": "La pregunta es sobre tu hermana (she), no sobre ti." }
+      ],
+      "pistas": [
+        "Repite el auxiliar de la pregunta.",
+        "La pregunta es sobre your sister.",
+        "Is your sister…? → Yes, she is / No, she isn't."
+      ],
+      "solucion": { "respuesta": "No, she isn't. She's at home.", "explicacion": "Se contesta con el pronombre she y la forma de be de la pregunta: No, she isn't. Añadir una aclaración (She's at home) es muy natural." }
+    },
+    {
+      "id": "presente-continuo.eval.14",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": ["listening", "What", "to", "you", "are"],
+      "respuestas": ["What are you listening to"],
+      "traduccion": "¿Qué estás escuchando?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "Luego be, el sujeto y el verbo -ing.",
+        "La preposición to va al final."
+      ],
+      "solucion": { "respuesta": "What are you listening to?", "explicacion": "What + are + you + listening + to. listen to es «escuchar algo»; en la pregunta, to se queda al final." }
+    },
+    {
+      "id": "presente-continuo.eval.15",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta negativa con una contracción.",
+      "frase": "— Are your friends coming to the party? — No, they ___.",
+      "respuestas": [["aren't"]],
+      "traduccion": "—¿Tus amigos ya vienen para la fiesta? —No.",
+      "errores_tipicos": {
+        "don't": "La pregunta usa Are, así que la respuesta corta usa be: aren't.",
+        "isn't": "they va con are: aren't."
+      },
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "El pronombre es they.",
+        "La respuesta corta negativa repite be en la persona del pronombre y lo contrae con not, como en No, he isn't."
+      ],
+      "solucion": { "respuesta": "aren't", "explicacion": "La pregunta empieza por Are y el sujeto es they, así que la respuesta es No, they aren't (o No, they're not)." }
+    },
+    {
+      "id": "presente-continuo.eval.16",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Tu hermano está trabajando esta semana?",
+      "respuestas": ["Is your brother working this week"],
+      "errores_tipicos": {
+        "Does your brother working this week": "La pregunta del continuo se hace con be: Is your brother…?",
+        "Your brother is working this week": "Falta la inversión: Is va delante del sujeto.",
+        "Is your brother work this week": "El verbo va en -ing: working."
+      },
+      "pistas": [
+        "Situación temporal (esta semana): presente continuo.",
+        "Pregunta de sí o no: be delante del sujeto.",
+        "Be + sujeto + verbo -ing + expresión de tiempo + ?, como en Is your sister studying this month?"
+      ],
+      "solucion": { "respuesta": "Is your brother working this week?", "explicacion": "Pregunta de sí o no en presente continuo: Is (para your brother = he) + sujeto + working + this week. No se usa does." }
+    },
+    {
+      "id": "presente-continuo.eval.17",
+      "leccion": "negacion-y-preguntas-continuo",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee el mensaje y contesta.",
+      "pregunta": "Omar le escribe a su mamá: «Hi, Mom! I'm not at home. I'm at the library with Sam. We aren't studying, we're reading comics!» ¿Qué están haciendo Omar y Sam?",
+      "opciones": [
+        { "texto": "Están estudiando en la biblioteca.", "correcta": false, "porque": "Omar dice We aren't studying: no están estudiando." },
+        { "texto": "Están leyendo cómics en la biblioteca.", "correcta": true, "porque": "Correcta: we're reading comics, y están en la biblioteca (I'm at the library)." },
+        { "texto": "Están en casa leyendo cómics.", "correcta": false, "porque": "Omar dice I'm not at home." }
+      ],
+      "pistas": [
+        "Lee las negaciones con atención.",
+        "aren't y not cambian el sentido de la frase.",
+        "Busca la oración afirmativa: we're …-ing."
+      ],
+      "solucion": { "respuesta": "Están leyendo cómics en la biblioteca.", "explicacion": "El mensaje niega dos cosas (I'm not at home, We aren't studying) y afirma una (we're reading comics). Están en la biblioteca, pero leyendo cómics." }
+    }
+  ]
+}

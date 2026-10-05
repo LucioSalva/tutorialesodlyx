@@ -1,0 +1,1187 @@
+{
+  "slug": "orden-de-la-oracion",
+  "titulo": "El orden de la oración",
+  "minutos": 35,
+  "objetivos": [
+    "Construir oraciones afirmativas con el orden fijo sujeto + verbo + complemento.",
+    "Colocar el adjetivo antes del sustantivo: a red car, a big house.",
+    "Saber que el adjetivo inglés no cambia en plural ni en femenino.",
+    "Poner el lugar y el tiempo al final de la oración (primero el lugar, luego el tiempo)."
+  ],
+  "situacion": {
+    "titulo": "Un mensaje desordenado",
+    "texto": "Carlos le escribe a su amiga Grace: «Have I a car red new». Grace entiende las palabras, pero tarda en descifrar el mensaje. En español podemos mover las palabras bastante («Un carro rojo tengo yo», «Tengo yo un carro rojo»), pero en inglés el orden es casi fijo: si lo cambias, la oración se vuelve rara o cambia de significado.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Have I a car red new.",
+        "es": "(quiere decir) Tengo un carro rojo nuevo."
+      },
+      {
+        "quien": "Grace",
+        "en": "Oh! You have a new red car? Cool!",
+        "es": "¡Ah! ¿Tienes un carro rojo nuevo? ¡Qué padre!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "sujeto-verbo-complemento",
+      "titulo": "Sujeto + verbo + complemento (SVO)",
+      "que_es": "Una oración afirmativa en inglés sigue casi siempre el mismo orden: primero el **sujeto** (quién), luego el **verbo** (qué hace) y después el **complemento** (qué, a quién, dónde…). A este orden se le llama SVO. El inglés depende de ese orden para saber quién hace qué, porque sus palabras apenas cambian de forma.",
+      "para_que": [
+        "Para construir cualquier oración afirmativa desde el primer día.",
+        "Para que tu interlocutor sepa quién hace la acción y sobre qué."
+      ],
+      "como_funciona": "Coloca las piezas en este orden: {{sujeto:I}} {{verbo:speak}} {{complemento:Spanish}}. En esta etapa puedes usar estos verbos con I, you, we y they sin cambiar su forma: **speak** (hablar), **have** (tener), **like** (gustar), **need** (necesitar), **want** (querer), **live in** (vivir en), **study** (estudiar), **play** (jugar, tocar). En español «Español hablo yo» o «Hablo yo español» se entienden; en inglés solo existe **I speak Spanish**. Cambiar el orden puede cambiar el sentido: Dogs like cats (a los perros les gustan los gatos) ≠ Cats like dogs (a los gatos les gustan los perros). Recuerda, además, que el sujeto no puede faltar (lección anterior). Las preguntas y las negaciones tienen su propio orden; las verás en las unidades 5 y 9.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación básica",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "Complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "study",
+              "rol": "verbo"
+            },
+            {
+              "t": "English",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Estudiamos inglés."
+        },
+        {
+          "etiqueta": "Con I'm (bloque de to be)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "'m / 's / 're",
+              "rol": "verbo"
+            },
+            {
+              "t": "Complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "'m",
+              "rol": "verbo"
+            },
+            {
+              "t": "a teacher",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Soy maestro."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I speak Spanish.",
+          "es": "Hablo español.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            },
+            {
+              "t": "Spanish",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El orden más básico: quién + qué hace + qué."
+        },
+        {
+          "en": "We have a dog.",
+          "es": "Tenemos un perro.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a dog",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "have = tener. a = un / una (lo verás a fondo en la unidad 6)."
+        },
+        {
+          "en": "They like coffee.",
+          "es": "Les gusta el café.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "like",
+              "rol": "verbo"
+            },
+            {
+              "t": "coffee",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ojo: en español el sujeto gramatical es «el café» (el café les gusta). En inglés la persona es el sujeto: They like coffee."
+        },
+        {
+          "en": "You need a pen.",
+          "es": "Necesitas una pluma.",
+          "partes": [
+            {
+              "t": "You",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "a pen",
+              "rol": "complemento"
+            }
+          ]
+        },
+        {
+          "en": "I'm a teacher.",
+          "es": "Soy maestro. / Soy maestra.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a teacher",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con profesiones el inglés pone a: I'm a teacher (no «I'm teacher»). teacher no cambia para hombre o mujer."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: orden flexible",
+          "items": [
+            "Yo hablo español.",
+            "Hablo español yo.",
+            "Español hablo (yo).",
+            "Todas se entienden."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: orden fijo",
+          "items": [
+            "I speak Spanish. ✔",
+            "Speak I Spanish. ✘",
+            "Spanish I speak. ✘ (solo en usos muy especiales)",
+            "Un solo orden normal."
+          ]
+        },
+        "veredicto": "Piensa primero en quién (sujeto), luego en la acción (verbo) y al final en el resto."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De palabras sueltas a oración",
+        "pasos": [
+          {
+            "etiqueta": "Palabras sueltas",
+            "partes": [
+              {
+                "t": "coffee",
+                "rol": "complemento"
+              },
+              {
+                "t": "like",
+                "rol": "verbo"
+              },
+              {
+                "t": "they",
+                "rol": "sujeto"
+              }
+            ]
+          },
+          {
+            "etiqueta": "1. ¿Quién?",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              }
+            ]
+          },
+          {
+            "etiqueta": "2. ¿Qué hace?",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              },
+              {
+                "t": "like",
+                "rol": "verbo"
+              }
+            ]
+          },
+          {
+            "etiqueta": "3. ¿Qué?",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              },
+              {
+                "t": "like",
+                "rol": "verbo"
+              },
+              {
+                "t": "coffee",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Construye siempre en el orden sujeto → verbo → complemento."
+      },
+      "pronunciacion": [
+        {
+          "texto": "We have a dog.",
+          "ipa": "/wi ˈhæv ə ˈdɔːɡ/",
+          "consejo": "have lleva h aspirada y /æ/, una a muy abierta; la v final se hace con los dientes sobre el labio. a se reduce a schwa /ə/ y se une a have: «HAV-ə».",
+          "lento": true
+        },
+        {
+          "texto": "They like coffee.",
+          "ipa": "/ðeɪ ˈlaɪk ˈkɔːfi/",
+          "consejo": "they con /ð/. like es «laik», con k final clara. coffee lleva la fuerza en la primera sílaba (CO-fee) y la f se sopla entre dientes y labio.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Spanish speak I.",
+          "bien": "I speak Spanish.",
+          "porque": "En inglés el orden es sujeto + verbo + complemento."
+        },
+        {
+          "mal": "Like coffee they.",
+          "bien": "They like coffee.",
+          "porque": "El sujeto va antes del verbo."
+        },
+        {
+          "mal": "Coffee likes them. (para «les gusta el café»)",
+          "bien": "They like coffee.",
+          "porque": "Con like, la persona es el sujeto; la cosa que gusta es el complemento."
+        }
+      ]
+    },
+    {
+      "id": "adjetivo-antes",
+      "titulo": "El adjetivo va antes del sustantivo",
+      "que_es": "Un adjetivo es una palabra que describe: grande, nuevo, rojo. En español suele ir después del sustantivo («un carro **rojo**»). En inglés va **antes**: a **red** car. Además, el adjetivo inglés nunca cambia: no tiene plural ni femenino.",
+      "para_que": [
+        "Para describir cosas y personas: a big house, a new phone, a good friend.",
+        "Para evitar dos errores muy frecuentes: «a car red» y «reds cars»."
+      ],
+      "como_funciona": "La fórmula es: (a / my / the…) + **adjetivo** + **sustantivo**. a **big** house (una casa grande), my **new** phone (mi celular nuevo), a **good** friend (un buen amigo). El adjetivo **no concuerda**: big sirve para masculino, femenino, singular y plural: a big house, two big houses; a tall man, a tall woman. Nunca «bigs». Cuando hay dos adjetivos, los dos van antes: a new red car. (Hay un orden preferido entre adjetivos —tamaño antes que color, por ejemplo—; lo verás más adelante.) Detalle: delante de un adjetivo que empieza con sonido vocálico, a se convierte en **an**: an old car. Lo estudiarás en la unidad 6.",
+      "estructuras": [
+        {
+          "etiqueta": "Adjetivo + sustantivo",
+          "formula": [
+            {
+              "t": "a / my",
+              "rol": "otro"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "sujeto"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "red",
+              "rol": "complemento"
+            },
+            {
+              "t": "car",
+              "rol": "sujeto"
+            }
+          ],
+          "es": "un carro rojo"
+        },
+        {
+          "etiqueta": "En una oración",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "a + adjetivo + sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new phone",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Tengo un celular nuevo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Adjetivos útiles para empezar",
+          "columnas": [
+            "Adjetivo",
+            "Significado",
+            "Ejemplo",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "big",
+              "grande",
+              "a big house",
+              "una casa grande"
+            ],
+            [
+              "small",
+              "pequeño, chico",
+              "a small dog",
+              "un perro chico"
+            ],
+            [
+              "new",
+              "nuevo",
+              "a new phone",
+              "un celular nuevo"
+            ],
+            [
+              "old",
+              "viejo, antiguo",
+              "an old car",
+              "un carro viejo"
+            ],
+            [
+              "good",
+              "bueno",
+              "a good friend",
+              "un buen amigo"
+            ],
+            [
+              "red",
+              "rojo",
+              "a red bag",
+              "una bolsa roja"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I have a red car.",
+          "es": "Tengo un carro rojo.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a red car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "red va antes de car. «a car red» no es inglés."
+        },
+        {
+          "en": "We want a big house.",
+          "es": "Queremos una casa grande.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "want",
+              "rol": "verbo"
+            },
+            {
+              "t": "a big house",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "house es «casa» (femenino), pero big no cambia: no hay femenino."
+        },
+        {
+          "en": "They have two big dogs.",
+          "es": "Tienen dos perros grandes.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "two big dogs",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El sustantivo va en plural (dogs), pero el adjetivo no: big, nunca «bigs»."
+        },
+        {
+          "en": "She's a good friend.",
+          "es": "Es una buena amiga.",
+          "partes": [
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a good friend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "friend sirve para amigo y amiga; good no cambia."
+        },
+        {
+          "en": "I need a new red pen.",
+          "es": "Necesito una pluma roja nueva.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "need",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new red pen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos adjetivos, los dos antes del sustantivo. Fíjate en que el orden en español es el inverso."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español",
+          "items": [
+            "un carro rojo (sustantivo + adjetivo)",
+            "casas grandes (el adjetivo lleva -s)",
+            "una casa bonita / un carro bonito (cambia el género)"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés",
+          "items": [
+            "a red car (adjetivo + sustantivo)",
+            "big houses (el adjetivo no cambia)",
+            "a nice house / a nice car (sin género)"
+          ]
+        },
+        "veredicto": "En inglés el adjetivo va delante y es invariable: solo cambia el sustantivo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "a big house",
+          "ipa": "/ə ˈbɪɡ ˈhaʊs/",
+          "consejo": "a es una schwa breve pegada a big. big lleva /ɪ/ corta y una g final clara. house empieza con soplo suave (/h/), no con j.",
+          "lento": true
+        },
+        {
+          "texto": "a new phone",
+          "ipa": "/ə ˈnuː ˈfoʊn/",
+          "consejo": "new es «nuu» en inglés estadounidense (en británico /njuː/, «niu»). phone se escribe ph pero suena /f/: «foun».",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I have a car red.",
+          "bien": "I have a red car.",
+          "porque": "El adjetivo va antes del sustantivo."
+        },
+        {
+          "mal": "They have two bigs dogs.",
+          "bien": "They have two big dogs.",
+          "porque": "El adjetivo nunca lleva -s de plural."
+        },
+        {
+          "mal": "I have a house big and new.",
+          "bien": "I have a big new house.",
+          "porque": "Los dos adjetivos van antes del sustantivo y sin and."
+        }
+      ]
+    },
+    {
+      "id": "lugar-y-tiempo",
+      "titulo": "Lugar y tiempo al final",
+      "que_es": "Muchas oraciones añaden dónde y cuándo ocurre algo. En inglés estas informaciones van normalmente **al final**, después del complemento, y en este orden: **primero el lugar, luego el tiempo**.",
+      "para_que": [
+        "Para decir dónde y cuándo haces algo: I study English at home at night.",
+        "Para no mezclar el orden y que la oración suene natural."
+      ],
+      "como_funciona": "Orden completo: {{sujeto:Sujeto}} + {{verbo:verbo}} + {{complemento:complemento}} + **lugar** + {{tiempo:tiempo}}. We play soccer in the park on Sundays. (Jugamos fútbol en el parque los domingos). El tiempo también puede ir al principio, seguido normalmente de coma, para darle énfasis: On Sundays, we play soccer in the park. Lo que NO se hace es meterlo entre el verbo y su complemento: «We play on Sundays soccer» es incorrecto. Truco para recordarlo: «**L**ugar antes que **T**iempo», como en el alfabeto la L va antes que la T.",
+      "estructuras": [
+        {
+          "etiqueta": "Oración completa",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "Complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "Lugar",
+              "rol": "otro"
+            },
+            {
+              "t": "Tiempo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "play",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the park",
+              "rol": "otro"
+            },
+            {
+              "t": "on Sundays",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Jugamos fútbol en el parque los domingos."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I study English at night.",
+          "es": "Estudio inglés en la noche.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "study",
+              "rol": "verbo"
+            },
+            {
+              "t": "English",
+              "rol": "complemento"
+            },
+            {
+              "t": "at night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "El tiempo (at night) va al final, después del complemento."
+        },
+        {
+          "en": "They live in Mexico City.",
+          "es": "Viven en la Ciudad de México.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "live",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Mexico City",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Con live, el lugar funciona como complemento: live in + lugar."
+        },
+        {
+          "en": "We play soccer in the park on Sundays.",
+          "es": "Jugamos fútbol en el parque los domingos.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "play",
+              "rol": "verbo"
+            },
+            {
+              "t": "soccer",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the park",
+              "rol": "otro"
+            },
+            {
+              "t": "on Sundays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Primero el lugar (in the park) y después el tiempo (on Sundays)."
+        },
+        {
+          "en": "On Mondays, I study at home.",
+          "es": "Los lunes estudio en casa.",
+          "partes": [
+            {
+              "t": "On Mondays",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "study",
+              "rol": "verbo"
+            },
+            {
+              "t": "at home",
+              "rol": "otro"
+            }
+          ],
+          "nota": "El tiempo puede ir al principio para destacarlo; el resto conserva el orden SVO."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "I study English at night.",
+          "ipa": "/aɪ ˈstʌdi ˈɪŋɡlɪʃ ət ˈnaɪt/",
+          "consejo": "study empieza con s + t, sin e delante, y lleva /ʌ/: «STA-di». English termina en /ʃ/ («shhh»). at se reduce a /ət/ y se pega a night.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "We play on Sundays soccer.",
+          "bien": "We play soccer on Sundays.",
+          "porque": "El tiempo no se mete entre el verbo y su complemento; va al final (o al principio)."
+        },
+        {
+          "mal": "I study at home English.",
+          "bien": "I study English at home.",
+          "porque": "El lugar no se mete entre el verbo y su complemento: primero study English y después at home."
+        },
+        {
+          "mal": "At night study I English.",
+          "bien": "At night, I study English.",
+          "porque": "Aunque el tiempo vaya al principio, sigue el orden sujeto + verbo + complemento."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál significa «Hablo inglés»?",
+      "opciones": [
+        {
+          "texto": "I speak English.",
+          "correcta": true,
+          "porque": "Correcto: sujeto (I) + verbo (speak) + complemento (English)."
+        },
+        {
+          "texto": "Speak I English.",
+          "correcta": false,
+          "porque": "El verbo no puede ir antes del sujeto en una afirmación."
+        },
+        {
+          "texto": "English speak I.",
+          "correcta": false,
+          "porque": "El complemento no puede abrir la oración con el sujeto al final."
+        }
+      ],
+      "pistas": [
+        "Recuerda el orden fijo del inglés.",
+        "Busca la opción que empieza por el sujeto.",
+        "Regla: Sujeto + Verbo + Complemento."
+      ],
+      "solucion": {
+        "respuesta": "I speak English.",
+        "explicacion": "En una oración afirmativa el orden es SVO: I (sujeto) + speak (verbo) + English (complemento). Las otras dos opciones mueven las piezas como se podría hacer en español, pero en inglés no son correctas."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.02",
+      "tipo": "ordenar",
+      "dificultad": 1,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "Spanish",
+        "speak",
+        "We"
+      ],
+      "respuestas": [
+        "We speak Spanish."
+      ],
+      "traduccion": "Hablamos español.",
+      "pistas": [
+        "¿Quién realiza la acción?",
+        "El sujeto va primero y el verbo justo después.",
+        "Estructura: sujeto + verbo + complemento."
+      ],
+      "solucion": {
+        "respuesta": "We speak Spanish.",
+        "explicacion": "Primero el sujeto (We), después el verbo (speak) y al final el complemento (Spanish)."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión inglesa con su traducción. Fíjate en dónde va el adjetivo.",
+      "pares": [
+        {
+          "a": "a big house",
+          "b": "una casa grande"
+        },
+        {
+          "a": "a new phone",
+          "b": "un celular nuevo"
+        },
+        {
+          "a": "a good friend",
+          "b": "un buen amigo"
+        },
+        {
+          "a": "a small dog",
+          "b": "un perro chico"
+        },
+        {
+          "a": "a red bag",
+          "b": "una bolsa roja"
+        }
+      ],
+      "pistas": [
+        "En inglés el adjetivo va primero.",
+        "Identifica el sustantivo (la cosa) de cada expresión: house, phone, friend, dog, bag.",
+        "Regla: a + adjetivo + sustantivo = un(a) + sustantivo + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "a big house–una casa grande · a new phone–un celular nuevo · a good friend–un buen amigo · a small dog–un perro chico · a red bag–una bolsa roja",
+        "explicacion": "En todas, el adjetivo inglés va antes del sustantivo y no cambia de forma. En español casi siempre va después; «buen amigo» es una de las excepciones en que el español también lo antepone."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.04",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "car",
+        "have",
+        "red",
+        "a",
+        "I"
+      ],
+      "respuestas": [
+        "I have a red car."
+      ],
+      "traduccion": "Tengo un carro rojo.",
+      "pistas": [
+        "Primero construye sujeto + verbo.",
+        "Después, piensa dónde va red respecto a car.",
+        "Estructura: sujeto + verbo + a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "I have a red car.",
+        "explicacion": "I (sujeto) + have (verbo) + a red car (complemento). Dentro del complemento, el adjetivo red va antes del sustantivo car."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con las palabras del banco en el orden correcto.",
+      "frase": "We want a ___ ___. (Queremos una casa grande.)",
+      "banco": [
+        "big",
+        "house",
+        "bigs",
+        "houses"
+      ],
+      "respuestas": [
+        [
+          "big"
+        ],
+        [
+          "house"
+        ]
+      ],
+      "errores_tipicos": {
+        "house | big": "El orden está al revés: en inglés el adjetivo (big) va antes del sustantivo (house).",
+        "bigs | house": "El adjetivo no lleva -s nunca: big."
+      },
+      "pistas": [
+        "Hay un adjetivo y un sustantivo. ¿Cuál va primero en inglés?",
+        "Es una sola casa; y el adjetivo nunca cambia.",
+        "Regla: a + adjetivo + sustantivo en singular."
+      ],
+      "solucion": {
+        "respuesta": "big house",
+        "explicacion": "El adjetivo big va delante de house. Es una sola casa, así que house va sin -s; y big no tiene plural en ningún caso."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I have a cat black.",
+      "error": "cat black",
+      "correcciones": [
+        "black cat"
+      ],
+      "frase_correcta": "I have a black cat.",
+      "pistas": [
+        "El error está en el complemento.",
+        "Mira el orden entre el adjetivo y el sustantivo.",
+        "Regla: el adjetivo va antes del sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "I have a black cat.",
+        "explicacion": "black (negro) es un adjetivo y debe ir antes de cat: a black cat. «a cat black» copia el orden del español."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "They have two bigs dogs.",
+      "error": "bigs",
+      "correcciones": [
+        "big"
+      ],
+      "frase_correcta": "They have two big dogs.",
+      "pistas": [
+        "El orden es correcto; el problema es una letra de más.",
+        "¿Los adjetivos ingleses tienen plural?",
+        "Regla: el adjetivo es invariable; solo el sustantivo lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "They have two big dogs.",
+        "explicacion": "En español decimos «perros grandes» con -s en los dos, pero en inglés solo el sustantivo es plural (dogs). El adjetivo big nunca cambia."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Añade el adjetivo en su lugar.",
+      "origen": "I have a phone.",
+      "instruccion": "Añade el adjetivo new (nuevo).",
+      "respuestas": [
+        "I have a new phone."
+      ],
+      "errores_tipicos": {
+        "I have a phone new.": "El adjetivo va antes del sustantivo: a new phone.",
+        "I have new a phone.": "El adjetivo va entre a y el sustantivo: a new phone."
+      },
+      "pistas": [
+        "El adjetivo describe a phone.",
+        "Tiene que ir pegado al sustantivo, pero ¿antes o después?",
+        "Regla: a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "I have a new phone.",
+        "explicacion": "new se coloca entre el artículo a y el sustantivo phone: a new phone. El resto de la oración no cambia."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el verbo have.",
+      "es": "Tengo un perro negro.",
+      "respuestas": [
+        "I have a black dog."
+      ],
+      "errores_tipicos": {
+        "I have a dog black.": "El adjetivo va antes del sustantivo: a black dog.",
+        "Have a black dog.": "Falta el sujeto I. En inglés no se omite.",
+        "I have black dog.": "Falta a (un): I have a black dog."
+      },
+      "pistas": [
+        "Piensa en las tres piezas: quién, qué hace, qué.",
+        "Dentro de la última pieza hay un adjetivo (black) y un sustantivo (dog).",
+        "Estructura: sujeto + verbo + a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "I have a black dog.",
+        "explicacion": "I (sujeto obligatorio) + have (tener) + a black dog (complemento, con el adjetivo delante). Los tres errores típicos son copiar el orden español, omitir el sujeto u omitir a."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa want y el adjetivo small.",
+      "es": "Queremos un carro pequeño.",
+      "respuestas": [
+        "We want a small car."
+      ],
+      "errores_tipicos": {
+        "We want a car small.": "El adjetivo va antes del sustantivo: a small car.",
+        "Want a small car.": "Falta el sujeto: We want…",
+        "We want a smalls car.": "El adjetivo no cambia: small."
+      },
+      "pistas": [
+        "«Queremos» incluye un sujeto escondido.",
+        "El sujeto es we; luego el verbo y el complemento con el adjetivo delante.",
+        "Estructura: sujeto + verbo + a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "We want a small car.",
+        "explicacion": "We (sujeto que en español va escondido en -mos) + want (querer) + a small car (adjetivo antes del sustantivo). car = carro, auto."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.11",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras. Pon el tiempo al final.",
+      "fichas": [
+        "English",
+        "at",
+        "study",
+        "night",
+        "I"
+      ],
+      "respuestas": [
+        "I study English at night.",
+        "At night, I study English."
+      ],
+      "traduccion": "Estudio inglés en la noche.",
+      "pistas": [
+        "Primero construye la oración básica SVO.",
+        "at night es una expresión de tiempo.",
+        "Estructura: sujeto + verbo + complemento + tiempo (o el tiempo al principio, seguido de coma)."
+      ],
+      "solucion": {
+        "respuesta": "I study English at night.",
+        "explicacion": "Sujeto (I) + verbo (study) + complemento (English) + tiempo (at night). El tiempo también puede ir al principio: At night, I study English. Lo que no se puede es meterlo entre study y English."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.12",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál es la forma natural de «Jugamos fútbol en el parque los domingos»?",
+      "opciones": [
+        {
+          "texto": "We play soccer in the park on Sundays.",
+          "correcta": true,
+          "porque": "Correcto: SVO + lugar (in the park) + tiempo (on Sundays)."
+        },
+        {
+          "texto": "We play in the park soccer on Sundays.",
+          "correcta": false,
+          "porque": "Incorrecta: el lugar (in the park) no puede ir entre el verbo play y su complemento soccer."
+        },
+        {
+          "texto": "We play on Sundays soccer in the park.",
+          "correcta": false,
+          "porque": "Incorrecta: el tiempo no puede ir entre el verbo y su complemento."
+        }
+      ],
+      "pistas": [
+        "El orden básico es SVO; lo demás va después.",
+        "Hay un lugar y un tiempo. ¿Cuál va primero?",
+        "Regla: Sujeto + Verbo + Complemento + Lugar + Tiempo."
+      ],
+      "solucion": {
+        "respuesta": "We play soccer in the park on Sundays.",
+        "explicacion": "Tras la oración básica (We play soccer) va el lugar (in the park) y después el tiempo (on Sundays). Las otras dos opciones separan el verbo play de su complemento soccer metiendo en medio el lugar o el tiempo, y eso en inglés no se hace."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.13",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "They have a big house in Puebla.",
+      "pistas": [
+        "Empieza con un pronombre plural.",
+        "Hay un adjetivo antes de house y un lugar al final.",
+        "Estructura: They + have + a big house + in Puebla."
+      ],
+      "solucion": {
+        "respuesta": "They have a big house in Puebla.",
+        "explicacion": "«Tienen una casa grande en Puebla». Fíjate en el orden: sujeto, verbo, complemento con el adjetivo delante y, al final, el lugar."
+      }
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "I have a new red car.",
+      "ipa": "/aɪ ˈhæv ə ˈnuː ˈred ˈkɑːr/",
+      "consejo": "have con h aspirada y a abierta /æ/; la v con dientes sobre el labio, unida a la schwa de a: «HAV-ə». red con r inglesa sin vibrar y d final clara. car con a larga y r final curvando la lengua.",
+      "es": "Tengo un carro rojo nuevo."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Describe lo que tienes",
+    "contexto": "Tu compañero Ben te cuenta qué cosas tiene y te pregunta por las tuyas.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "I have a small apartment and an old car. I have a big dog, too!",
+        "es": "Tengo un departamento pequeño y un carro viejo. ¡También tengo un perro grande!"
+      },
+      {
+        "quien": "Ben",
+        "en": "And you?",
+        "es": "¿Y tú?"
+      }
+    ],
+    "tu_turno": "Di tres oraciones sobre cosas que tienes, quieres o necesitas. Usa un adjetivo en cada una (big, small, new, old, good, red…).",
+    "modelo": "I have a small house. I have a new phone. I want a big dog.",
+    "alternativas": [
+      "I have a red car. I need a new computer. I want a small cat.",
+      "We have a big house in Toluca. I have a good friend. I need a new bag."
+    ],
+    "claves": [
+      "Cada oración: sujeto + verbo + complemento.",
+      "El adjetivo va antes del sustantivo.",
+      "El adjetivo no lleva -s, aunque el sustantivo sea plural."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Orden fijo: Sujeto + Verbo + Complemento (I speak Spanish).",
+      "El adjetivo va antes del sustantivo: a red car, a big house.",
+      "El adjetivo no cambia: ni plural ni femenino (two big dogs).",
+      "Lugar y tiempo al final, primero el lugar: We play soccer in the park on Sundays."
+    ],
+    "recuerda": [
+      "Con like, la persona es el sujeto: They like coffee (les gusta el café).",
+      "Con profesiones se pone a: I'm a teacher.",
+      "Delante de sonido vocálico, a pasa a an (an old car); lo verás en la unidad 6."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.r1",
+      "frente": "¿Cuál es el orden de una afirmación en inglés?",
+      "reverso": "Sujeto + Verbo + Complemento: I speak Spanish."
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.r2",
+      "frente": "un carro rojo",
+      "reverso": "a red car",
+      "nota": "El adjetivo va antes."
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.r3",
+      "frente": "dos perros grandes",
+      "reverso": "two big dogs (big sin -s)"
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.r4",
+      "frente": "¿Lugar o tiempo primero?",
+      "reverso": "Lugar y luego tiempo: I study at home at night."
+    },
+    {
+      "id": "saludos-y-presentaciones.orden-de-la-oracion.r5",
+      "frente": "Les gusta el café",
+      "reverso": "They like coffee."
+    }
+  ]
+}

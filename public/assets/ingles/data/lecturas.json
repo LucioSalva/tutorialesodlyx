@@ -1,0 +1,4150 @@
+{
+  "lecturas": [
+    {
+      "slug": "hola-soy-lucia",
+      "titulo": "Hola, soy Lucía",
+      "nivel": "A1",
+      "unidad": "saludos-y-presentaciones",
+      "resumen": "Lucía saluda a su nueva clase, se presenta y presenta a dos personas. Tu primera lectura completa en inglés.",
+      "antes_de_leer": "Lee el texto una vez sin traducir. Busca tres cosas: el nombre de cada persona, de dónde es y qué es (estudiante o maestra). Fíjate en que TODAS las oraciones tienen sujeto: I, he, she, this. Después lee la traducción.",
+      "parrafos": [
+        {
+          "en": "Good morning, everyone! Hi! My name is Lucía. I'm a student. I'm from Mexico, from Puebla.",
+          "es": "¡Buenos días a todos! ¡Hola! Me llamo Lucía. Soy estudiante. Soy de México, de Puebla."
+        },
+        {
+          "en": "This is my friend Omar. He's from Egypt. He's a student, too. He's very nice.",
+          "es": "Este es mi amigo Omar. Es de Egipto. También es estudiante. Es muy buena onda."
+        },
+        {
+          "en": "And this is Grace. She's a teacher. She's from Canada.",
+          "es": "Y ella es Grace. Es maestra. Es de Canadá."
+        },
+        {
+          "en": "Omar, this is Grace. Grace, this is Omar. Nice to meet you! Goodbye, and see you tomorrow.",
+          "es": "Omar, te presento a Grace. Grace, te presento a Omar. ¡Mucho gusto! Adiós, y nos vemos mañana."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "Good morning",
+          "es": "Buenos días",
+          "nota": "Se usa hasta el mediodía. Después: good afternoon."
+        },
+        {
+          "en": "everyone",
+          "es": "todos (todas las personas)",
+          "nota": "Good morning, everyone! es el saludo típico a un grupo."
+        },
+        {
+          "en": "My name is…",
+          "es": "Me llamo…",
+          "nota": "Literalmente «mi nombre es». No existe un «me llamo» palabra por palabra."
+        },
+        {
+          "en": "I'm",
+          "es": "soy / estoy",
+          "nota": "Contracción de I am. En la conversación casi siempre se usa I'm."
+        },
+        {
+          "en": "student",
+          "es": "estudiante",
+          "nota": "Se dice a student: en inglés las profesiones llevan a."
+        },
+        {
+          "en": "friend",
+          "es": "amigo / amiga",
+          "nota": "Una sola palabra para hombre y mujer."
+        },
+        {
+          "en": "This is…",
+          "es": "Este es… / Ella es… / Te presento a…",
+          "nota": "La forma natural de presentar a otra persona."
+        },
+        {
+          "en": "too",
+          "es": "también",
+          "nota": "Va al final de la oración: He's a student, too."
+        },
+        {
+          "en": "Nice to meet you",
+          "es": "Mucho gusto / Encantada",
+          "nota": "Solo se dice la primera vez que conoces a alguien."
+        },
+        {
+          "en": "see you tomorrow",
+          "es": "nos vemos mañana",
+          "nota": "Despedida informal cuando vas a ver a la persona al día siguiente."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "El sujeto nunca desaparece",
+          "texto": "En español decimos «Soy estudiante» sin «yo». En inglés el sujeto es obligatorio: [[I'm a student]], [[He's from Egypt]], [[She's a teacher]]. Sin I, he o she la oración está incompleta.",
+          "ejemplo": "He's from Egypt. (nunca: Is from Egypt.)"
+        },
+        {
+          "titulo": "This is para presentar",
+          "texto": "Para presentar a alguien no se dice «he is Omar» sino [[This is Omar]]. [[This is]] sirve para hombres y para mujeres, y es lo que se dice mientras señalas o acompañas a la persona.",
+          "ejemplo": "This is my friend Omar. / This is Grace."
+        },
+        {
+          "titulo": "I'm, he's, she's: formas cortas",
+          "texto": "[[I'm]] es I am; [[he's]], he is; [[she's]], she is. En un saludo o una presentación hablada se usan casi siempre las formas cortas. Las verás a fondo en la unidad del verbo to be.",
+          "ejemplo": "I'm from Mexico. = I am from Mexico."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.hola-soy-lucia.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Piensa en la idea general, no en un detalle.",
+            "Mira cómo empiezan los párrafos 2 y 3: This is…",
+            "This is + nombre sirve para presentar a otra persona."
+          ],
+          "solucion": {
+            "respuesta": "Se presenta y presenta a dos personas.",
+            "explicacion": "La respuesta correcta es que se presenta y presenta a dos personas: el primer párrafo usa My name is… y los dos siguientes empiezan con This is…, la fórmula para presentar."
+          },
+          "pregunta": "¿Qué hace Lucía en este texto?",
+          "opciones": [
+            {
+              "texto": "Se presenta y presenta a dos personas.",
+              "correcta": true,
+              "porque": "Correcto: dice su nombre (My name is Lucía) y luego presenta a Omar y a Grace con This is…"
+            },
+            {
+              "texto": "Se despide de sus amigos porque se va de viaje.",
+              "correcta": false,
+              "porque": "Dice goodbye al final, pero añade see you tomorrow: los verá mañana. No se va de viaje."
+            },
+            {
+              "texto": "Pregunta de dónde son sus compañeros.",
+              "correcta": false,
+              "porque": "En el texto no hay ninguna pregunta: todo son afirmaciones de Lucía."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hola-soy-lucia.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca el párrafo donde aparece Omar.",
+            "Mira la oración que empieza con He's from…",
+            "From + país indica el origen."
+          ],
+          "solucion": {
+            "respuesta": "De Egipto.",
+            "explicacion": "La respuesta es Egipto: el texto dice He's from Egypt justo después de presentar a Omar. He se refiere a Omar porque es la última persona mencionada."
+          },
+          "pregunta": "¿De dónde es Omar?",
+          "opciones": [
+            {
+              "texto": "De Egipto.",
+              "correcta": true,
+              "porque": "Correcto: He's from Egypt."
+            },
+            {
+              "texto": "De México.",
+              "correcta": false,
+              "porque": "México es el país de Lucía (I'm from Mexico), no el de Omar."
+            },
+            {
+              "texto": "De Canadá.",
+              "correcta": false,
+              "porque": "Canadá es el país de Grace (She's from Canada)."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hola-soy-lucia.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca el párrafo de Grace.",
+            "Mira la palabra que va después de She's a…",
+            "Teacher = maestra; student = estudiante."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: el texto dice She's a teacher. Grace es la maestra; Lucía y Omar son los estudiantes."
+          },
+          "pregunta": "Grace is a student.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: el texto dice She's a teacher. Los estudiantes son Lucía y Omar."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: Grace es maestra (She's a teacher), no estudiante."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: el tercer párrafo indica qué es Grace."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hola-soy-lucia.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Distingue entre «el texto dice lo contrario» y «el texto no habla de eso».",
+            "Busca un número en el texto. ¿Hay alguno?",
+            "Si el texto no menciona el dato, la respuesta es «No se dice»."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "La respuesta es «No se dice»: de Omar solo sabemos que es amigo de Lucía, que es de Egipto y que es estudiante. No aparece su edad, así que no es verdadero ni falso."
+          },
+          "pregunta": "Omar is twenty years old.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto nunca menciona la edad de Omar."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No podemos decir que es falso: el texto no da ninguna edad, así que tampoco la contradice."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos su país y que es estudiante, pero nada de su edad."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hola-soy-lucia.05",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con la palabra del texto.",
+          "pistas": [
+            "Lucía presenta a Omar: ¿qué relación tiene con ella?",
+            "La palabra va entre my y el nombre.",
+            "Es la palabra inglesa para «amigo»; es igual para hombre y mujer."
+          ],
+          "solucion": {
+            "respuesta": "friend",
+            "explicacion": "La respuesta es friend: This is my friend Omar significa «Este es mi amigo Omar». En inglés friend sirve para hombres y mujeres."
+          },
+          "frase": "This is my ___ Omar.",
+          "respuestas": [
+            [
+              "friend"
+            ]
+          ],
+          "traduccion": "Este es mi amigo Omar."
+        },
+        {
+          "id": "lectura.hola-soy-lucia.06",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés (es una frase del texto).",
+          "pistas": [
+            "No olvides el sujeto: en inglés es obligatorio.",
+            "Ella = she. Después va el verbo y luego from.",
+            "Estructura: sujeto + 's (is) + from + país."
+          ],
+          "solucion": {
+            "respuesta": "She's from Canada.",
+            "explicacion": "La respuesta es She's from Canada: she es el sujeto obligatorio, 's es la forma corta de is y from + país indica el origen."
+          },
+          "es": "Ella es de Canadá.",
+          "respuestas": [
+            "She's from Canada.",
+            "She is from Canada."
+          ],
+          "errores_tipicos": {
+            "Is from Canada.": "Falta el sujeto. En español se puede omitir «ella», pero en inglés she es obligatorio.",
+            "She from Canada.": "Falta el verbo: she's o she is. En inglés no puede faltar el verbo."
+          }
+        },
+        {
+          "id": "lectura.hola-soy-lucia.07",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras para formar una oración del texto.",
+          "pistas": [
+            "Empieza por el sujeto con su verbo.",
+            "She's va primero; después, qué es ella: a teacher.",
+            "Sujeto + verbo + a + profesión + from + país."
+          ],
+          "solucion": {
+            "respuesta": "She's a teacher from Canada.",
+            "explicacion": "El orden es She's a teacher from Canada: primero sujeto y verbo (She's), luego la profesión con a (a teacher) y al final el origen (from Canada). Junta en una sola oración dos datos del tercer párrafo."
+          },
+          "fichas": [
+            "from",
+            "Canada",
+            "teacher",
+            "a",
+            "She's"
+          ],
+          "respuestas": [
+            "She's a teacher from Canada."
+          ],
+          "traduccion": "Es una maestra de Canadá."
+        }
+      ]
+    },
+    {
+      "slug": "perfil-de-tom",
+      "titulo": "El perfil de Tom",
+      "nivel": "A1",
+      "unidad": "verbo-to-be",
+      "resumen": "Tom escribe su perfil en una red social para estudiantes: edad, origen, dónde está, cómo se siente y quién es su mejor amiga.",
+      "antes_de_leer": "Es un perfil personal, así que casi todas las oraciones usan am, is o are. Mientras lees, subraya mentalmente cada forma de to be y fíjate en su sujeto. Busca también cómo se dice la edad: en inglés no se «tienen» años.",
+      "parrafos": [
+        {
+          "en": "Hi! I'm Tom. I'm twenty-two years old, and I'm from Leeds, in England. I'm a student in Toronto now.",
+          "es": "¡Hola! Soy Tom. Tengo veintidós años y soy de Leeds, en Inglaterra. Ahora soy estudiante en Toronto."
+        },
+        {
+          "en": "My friend Priya is from India. She's twenty-three. She's a student, too, and she's very funny. We're in the same class.",
+          "es": "Mi amiga Priya es de la India. Tiene veintitrés años. También es estudiante y es muy divertida. Estamos en la misma clase."
+        },
+        {
+          "en": "Today I'm tired, but I'm happy. It's very cold here in Toronto!",
+          "es": "Hoy estoy cansado, pero estoy contento. ¡Aquí en Toronto hace mucho frío!"
+        },
+        {
+          "en": "Priya and I are online now. Hello, new friends!",
+          "es": "Priya y yo estamos conectados ahora. ¡Hola, nuevos amigos!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "years old",
+          "es": "años (de edad)",
+          "nota": "I'm twenty-two years old = tengo veintidós años. Se puede decir solo I'm twenty-two."
+        },
+        {
+          "en": "now",
+          "es": "ahora"
+        },
+        {
+          "en": "funny",
+          "es": "divertido, gracioso",
+          "nota": "No significa «feliz» (feliz es happy)."
+        },
+        {
+          "en": "the same class",
+          "es": "la misma clase"
+        },
+        {
+          "en": "today",
+          "es": "hoy"
+        },
+        {
+          "en": "tired",
+          "es": "cansado",
+          "nota": "Un estado: se usa con be. I'm tired = estoy cansado."
+        },
+        {
+          "en": "happy",
+          "es": "feliz, contento"
+        },
+        {
+          "en": "cold",
+          "es": "frío",
+          "nota": "It's cold = hace frío. I'm cold = tengo frío."
+        },
+        {
+          "en": "online",
+          "es": "conectado, en línea"
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "La edad se dice con be, no con have",
+          "texto": "En español «tengo 22 años»; en inglés «soy 22 años de edad»: [[I'm twenty-two years old]] o simplemente [[I'm twenty-two]]. Decir «I have twenty-two years» es el calco más típico de un hispanohablante y es incorrecto.",
+          "ejemplo": "She's twenty-three. (nunca: She has twenty-three years.)"
+        },
+        {
+          "titulo": "Un solo verbo para ser y estar",
+          "texto": "En este texto to be significa «ser» (I'm a student, she's very funny) y también «estar» (I'm tired, we're in the same class). El inglés no distingue: lo que cambia es el complemento.",
+          "ejemplo": "I'm a student. (soy) / I'm tired. (estoy)"
+        },
+        {
+          "titulo": "It's cold: el sujeto it para el clima",
+          "texto": "Para el tiempo atmosférico el español no usa sujeto («hace frío»), pero el inglés necesita uno: [[it]]. Además, usa be donde el español usa hacer: [[It's very cold]].",
+          "ejemplo": "It's very cold here in Toronto!"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.perfil-de-tom.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Mira cómo empieza y cómo termina el texto.",
+            "¿A quién saluda Tom al final?",
+            "Online y new friends indican una red social."
+          ],
+          "solucion": {
+            "respuesta": "Un perfil personal en una red para estudiantes.",
+            "explicacion": "Es un perfil personal: Tom se presenta (edad, origen, estado de ánimo), presenta a su amiga y saluda a nuevos amigos porque está online."
+          },
+          "pregunta": "¿Qué tipo de texto es?",
+          "opciones": [
+            {
+              "texto": "Un perfil personal en una red para estudiantes.",
+              "correcta": true,
+              "porque": "Correcto: Tom habla de sí mismo y de su amiga y termina saludando a «nuevos amigos» porque están conectados."
+            },
+            {
+              "texto": "Una carta formal a una universidad.",
+              "correcta": false,
+              "porque": "Una carta formal no empieza con Hi! ni termina con Hello, new friends!"
+            },
+            {
+              "texto": "Un anuncio para buscar compañero de cuarto.",
+              "correcta": false,
+              "porque": "Tom no pide nada ni ofrece un cuarto: solo se presenta."
+            }
+          ]
+        },
+        {
+          "id": "lectura.perfil-de-tom.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "La edad aparece en el primer párrafo.",
+            "Busca years old.",
+            "Ojo: en el texto hay dos edades; la de Tom es la que va con I'm."
+          ],
+          "solucion": {
+            "respuesta": "22",
+            "explicacion": "Tom tiene 22 años: I'm twenty-two years old. El número 23 corresponde a Priya."
+          },
+          "pregunta": "¿Cuántos años tiene Tom?",
+          "opciones": [
+            {
+              "texto": "22",
+              "correcta": true,
+              "porque": "Correcto: I'm twenty-two years old."
+            },
+            {
+              "texto": "23",
+              "correcta": false,
+              "porque": "Veintitrés años tiene Priya: She's twenty-three."
+            },
+            {
+              "texto": "20",
+              "correcta": false,
+              "porque": "Twenty sería 20, pero el texto dice twenty-two."
+            }
+          ]
+        },
+        {
+          "id": "lectura.perfil-de-tom.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca the same class.",
+            "¿Quién es we en esa oración?",
+            "We = yo + otra persona. ¿Quién escribe el texto y de quién habla en ese párrafo?"
+          ],
+          "solucion": {
+            "respuesta": "Verdadero",
+            "explicacion": "Es verdadero: We're in the same class. En un texto de Tom sobre Priya, we son ellos dos."
+          },
+          "pregunta": "Tom and Priya are in the same class.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": true,
+              "porque": "Correcto: We're in the same class. We = Tom y Priya."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "El texto dice lo contrario: We're in the same class."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el segundo párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.perfil-de-tom.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué dice exactamente el texto sobre el origen de Priya?",
+            "Compara: de Tom da la ciudad y el país; de Priya, ¿qué da?",
+            "Si el texto no da el dato, no es ni verdadero ni falso."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: de Priya solo sabemos que es de la India (She's from India). No aparece ninguna ciudad, así que no podemos confirmarlo ni negarlo."
+          },
+          "pregunta": "Priya is from Mumbai.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto dice India, pero no dice la ciudad."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: Mumbai está en la India, y el texto no dice de qué ciudad es."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos el país (India), no la ciudad."
+            }
+          ]
+        },
+        {
+          "id": "lectura.perfil-de-tom.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca el párrafo que empieza con Today.",
+            "Hay dos adjetivos unidos por but.",
+            "Tired se refiere a la energía del cuerpo; happy, al ánimo. Ninguno de los dos habla de enfermedad."
+          ],
+          "solucion": {
+            "respuesta": "Cansado pero contento.",
+            "explicacion": "Tom está cansado pero contento: Today I'm tired, but I'm happy. El frío es un dato del lugar (It's very cold), no de la salud de Tom."
+          },
+          "pregunta": "¿Cómo está Tom hoy?",
+          "opciones": [
+            {
+              "texto": "Cansado pero contento.",
+              "correcta": true,
+              "porque": "Correcto: I'm tired, but I'm happy. But une dos estados que parecen opuestos."
+            },
+            {
+              "texto": "Cansado y triste.",
+              "correcta": false,
+              "porque": "Tired sí, pero happy es contento, no triste."
+            },
+            {
+              "texto": "Enfermo por el frío.",
+              "correcta": false,
+              "porque": "El texto dice que hace frío, pero no que Tom esté enfermo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.perfil-de-tom.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa la frase del texto.",
+          "pistas": [
+            "Es la forma completa de decir la edad.",
+            "Falta la última palabra, después de years.",
+            "Estructura: be + número + years old."
+          ],
+          "solucion": {
+            "respuesta": "old",
+            "explicacion": "La respuesta es old: I'm twenty-two years old. Years old es opcional (I'm twenty-two también es correcto), pero si dices years tienes que añadir old."
+          },
+          "frase": "I'm twenty-two years ___.",
+          "respuestas": [
+            [
+              "old"
+            ]
+          ],
+          "traduccion": "Tengo veintidós años."
+        },
+        {
+          "id": "lectura.perfil-de-tom.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa la estructura del texto con years old.",
+          "pistas": [
+            "La edad NO se dice con have.",
+            "Empieza con I'm.",
+            "Estructura: I'm + número + years old."
+          ],
+          "solucion": {
+            "respuesta": "I'm twenty-two years old.",
+            "explicacion": "La respuesta es I'm twenty-two years old. En inglés la edad se expresa con be: literalmente «soy veintidós años de edad»."
+          },
+          "es": "Tengo veintidós años.",
+          "respuestas": [
+            "I'm twenty-two years old.",
+            "I'm 22 years old."
+          ],
+          "errores_tipicos": {
+            "I have twenty-two years.": "Es un calco del español. La edad se dice con be: I'm twenty-two years old.",
+            "I have twenty-two years old.": "La edad no usa have: I'm twenty-two years old.",
+            "I'm twenty-two years.": "Si dices years, falta old al final: I'm twenty-two years old."
+          }
+        },
+        {
+          "id": "lectura.perfil-de-tom.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Empieza por el sujeto con el verbo.",
+            "Después va la profesión con a; el lugar va al final.",
+            "Sujeto + be + a + sustantivo + in + lugar."
+          ],
+          "solucion": {
+            "respuesta": "I'm a student in Toronto.",
+            "explicacion": "El orden es I'm a student in Toronto: sujeto y verbo (I'm), qué eres (a student) y dónde (in Toronto). En inglés el lugar suele ir al final."
+          },
+          "fichas": [
+            "in",
+            "I'm",
+            "Toronto",
+            "student",
+            "a"
+          ],
+          "respuestas": [
+            "I'm a student in Toronto."
+          ],
+          "traduccion": "Soy estudiante en Toronto."
+        }
+      ]
+    },
+    {
+      "slug": "mi-cuarto",
+      "titulo": "Mi cuarto",
+      "nivel": "A1",
+      "unidad": "there-is-there-are",
+      "resumen": "Sam describe su cuarto: qué hay, qué no hay y dónde está cada cosa.",
+      "antes_de_leer": "Mientras lees, dibuja el cuarto en un papel: la puerta, la ventana, el escritorio, la cama… Cada preposición (under, on, next to, between, behind, opposite) te dice dónde poner un objeto. Fíjate también en cuándo se usa there's y cuándo there are.",
+      "parrafos": [
+        {
+          "en": "My name is Sam, and this is my bedroom. It's small, but it's very nice.",
+          "es": "Me llamo Sam y este es mi cuarto. Es pequeño, pero es muy bonito."
+        },
+        {
+          "en": "There's a big window opposite the door, and there's a desk under the window. There's a lamp on the desk, and there are three books next to the lamp.",
+          "es": "Hay una ventana grande frente a la puerta, y hay un escritorio debajo de la ventana. Hay una lámpara sobre el escritorio y hay tres libros junto a la lámpara."
+        },
+        {
+          "en": "My bed is between the desk and the wardrobe. There are two pillows on the bed, and there's a cat under the bed! Her name is Luna.",
+          "es": "Mi cama está entre el escritorio y el clóset. Hay dos almohadas sobre la cama, ¡y hay un gato debajo de la cama! Se llama Luna."
+        },
+        {
+          "en": "There isn't a TV in my room, and there aren't any posters on the walls. The walls are white. Is there a plant? Yes, there is. There's a small green plant behind the door.",
+          "es": "No hay televisión en mi cuarto y no hay pósters en las paredes. Las paredes son blancas. ¿Hay alguna planta? Sí, hay una. Hay una pequeña planta verde detrás de la puerta."
+        },
+        {
+          "en": "It's a quiet room, and it's my favorite place in the house.",
+          "es": "Es un cuarto tranquilo y es mi lugar favorito de la casa."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "bedroom",
+          "es": "recámara, cuarto",
+          "nota": "Room es «cuarto» en general; bedroom, el de dormir."
+        },
+        {
+          "en": "opposite",
+          "es": "enfrente de, frente a",
+          "nota": "Una cosa mira a la otra, con un espacio en medio."
+        },
+        {
+          "en": "desk",
+          "es": "escritorio"
+        },
+        {
+          "en": "under",
+          "es": "debajo de"
+        },
+        {
+          "en": "next to",
+          "es": "junto a, al lado de"
+        },
+        {
+          "en": "between",
+          "es": "entre (dos cosas)",
+          "nota": "between A and B."
+        },
+        {
+          "en": "wardrobe",
+          "es": "clóset, ropero",
+          "nota": "En Estados Unidos también se dice closet cuando está empotrado."
+        },
+        {
+          "en": "pillow",
+          "es": "almohada"
+        },
+        {
+          "en": "behind",
+          "es": "detrás de"
+        },
+        {
+          "en": "quiet",
+          "es": "tranquilo, silencioso",
+          "nota": "No confundir con quite (bastante)."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "There's con singular, there are con plural",
+          "texto": "El «hay» del español no cambia, pero el inglés sí: [[there's]] (there is) para una cosa (a lamp, a cat) y [[there are]] para varias (three books, two pillows). Mira el sustantivo que viene después.",
+          "ejemplo": "There's a lamp on the desk, and there are three books next to the lamp."
+        },
+        {
+          "titulo": "Negación: there isn't a / there aren't any",
+          "texto": "En singular se niega con [[there isn't a]]; en plural, con [[there aren't any]]. Any acompaña al plural en las negaciones y equivale a «ningún» o a nada en español.",
+          "ejemplo": "There isn't a TV. There aren't any posters."
+        },
+        {
+          "titulo": "Pregunta y respuesta corta",
+          "texto": "Para preguntar se invierte: [[Is there a plant?]] La respuesta corta repite there y el verbo: [[Yes, there is.]] / [[No, there isn't.]] En la respuesta afirmativa no se contrae: nunca «Yes, there's».",
+          "ejemplo": "Is there a plant? Yes, there is."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.mi-cuarto.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Piensa en qué hace casi cada oración.",
+            "Muchas oraciones empiezan con There's o There are.",
+            "There is/are sirve para describir lo que hay en un lugar."
+          ],
+          "solucion": {
+            "respuesta": "Sam describe su cuarto y dónde están las cosas.",
+            "explicacion": "La idea principal es la descripción del cuarto: el texto repite there's/there are con preposiciones de lugar para decir qué hay y dónde."
+          },
+          "pregunta": "¿Cuál es la idea principal del texto?",
+          "opciones": [
+            {
+              "texto": "Sam describe su cuarto y dónde están las cosas.",
+              "correcta": true,
+              "porque": "Correcto: casi todas las oraciones dicen qué hay y dónde está."
+            },
+            {
+              "texto": "Sam busca a su gato, que se perdió.",
+              "correcta": false,
+              "porque": "El gato no está perdido: está debajo de la cama (there's a cat under the bed)."
+            },
+            {
+              "texto": "Sam quiere comprar una televisión.",
+              "correcta": false,
+              "porque": "El texto dice que no hay televisión, pero no dice que Sam quiera una."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-cuarto.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca la palabra desk.",
+            "Mira la preposición que va después de desk.",
+            "Ojo: opposite the door describe otra cosa; fíjate en la palabra que va justo antes de the window."
+          ],
+          "solucion": {
+            "respuesta": "Debajo de la ventana.",
+            "explicacion": "El escritorio está debajo de la ventana: there's a desk under the window. Opposite the door describe la ventana, no el escritorio."
+          },
+          "pregunta": "¿Dónde está el escritorio?",
+          "opciones": [
+            {
+              "texto": "Debajo de la ventana.",
+              "correcta": true,
+              "porque": "Correcto: there's a desk under the window."
+            },
+            {
+              "texto": "Frente a la puerta.",
+              "correcta": false,
+              "porque": "Frente a la puerta está la ventana (a big window opposite the door)."
+            },
+            {
+              "texto": "Detrás de la puerta.",
+              "correcta": false,
+              "porque": "Detrás de la puerta está la planta (behind the door)."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-cuarto.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca la palabra TV.",
+            "¿La oración es afirmativa o negativa?",
+            "There isn't = no hay."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: There isn't a TV in my room. Isn't es la negación de is."
+          },
+          "pregunta": "There's a TV in Sam's room.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: el texto dice There isn't a TV in my room."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: There isn't a TV in my room."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el cuarto párrafo, y de forma negativa."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-cuarto.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué información da el texto sobre Luna?",
+            "Busca un adjetivo de color junto a cat o Luna.",
+            "Si falta el dato, la respuesta es «No se dice»."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: del gato solo sabemos que está debajo de la cama y que se llama Luna. Los colores del texto (white, green) son de las paredes y de la planta."
+          },
+          "pregunta": "Luna is a black cat.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice de qué color es Luna."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no menciona ningún color para el gato, así que no lo contradice."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos dónde está Luna, pero no su color."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-cuarto.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Mira el principio y el final del texto.",
+            "Busca los adjetivos nice, quiet y favorite.",
+            "Small, but very nice: but introduce lo que Sam piensa de verdad."
+          ],
+          "solucion": {
+            "respuesta": "Le gusta mucho, aunque es pequeño.",
+            "explicacion": "A Sam le gusta mucho su cuarto: It's small, but it's very nice y it's my favorite place in the house. El but muestra que lo pequeño no le importa."
+          },
+          "pregunta": "¿Qué opina Sam de su cuarto?",
+          "opciones": [
+            {
+              "texto": "Le gusta mucho, aunque es pequeño.",
+              "correcta": true,
+              "porque": "Correcto: dice que es muy bonito y que es su lugar favorito de la casa."
+            },
+            {
+              "texto": "No le gusta porque es pequeño y no tiene televisión.",
+              "correcta": false,
+              "porque": "Dice que es pequeño, pero añade but it's very nice y lo llama my favorite place."
+            },
+            {
+              "texto": "Le da igual: solo lo usa para dormir.",
+              "correcta": false,
+              "porque": "Nada en el texto indica indiferencia; al contrario, termina diciendo que es su lugar favorito."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-cuarto.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con is o are.",
+          "pistas": [
+            "¿Cuántos libros hay?",
+            "Mira el sustantivo después del hueco: three books.",
+            "Plural → there are; singular → there is."
+          ],
+          "solucion": {
+            "respuesta": "are",
+            "explicacion": "La respuesta es are: three books es plural, y con plural se usa there are."
+          },
+          "frase": "There ___ three books next to the lamp.",
+          "respuestas": [
+            [
+              "are"
+            ]
+          ],
+          "traduccion": "Hay tres libros junto a la lámpara.",
+          "banco": [
+            "is",
+            "are"
+          ],
+          "errores_tipicos": {
+            "is": "Books es plural (three books): con plural se usa there are, no there is."
+          }
+        },
+        {
+          "id": "lectura.mi-cuarto.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa there isn't y las palabras TV y room.",
+          "pistas": [
+            "Es la negación de there is.",
+            "Después de there isn't va a + sustantivo singular.",
+            "There isn't + a + TV + in + my room."
+          ],
+          "solucion": {
+            "respuesta": "There isn't a TV in my room.",
+            "explicacion": "La respuesta es There isn't a TV in my room: there isn't es la negación singular de there is y, como TV es contable y singular, lleva a."
+          },
+          "es": "No hay televisión en mi cuarto.",
+          "respuestas": [
+            "There isn't a TV in my room."
+          ],
+          "errores_tipicos": {
+            "There isn't TV in my room.": "TV es contable y singular: necesita a → There isn't a TV.",
+            "There aren't a TV in my room.": "A TV es singular: se usa there isn't, no there aren't.",
+            "No there is a TV in my room.": "La negación se hace con isn't después de there: There isn't a TV."
+          }
+        },
+        {
+          "id": "lectura.mi-cuarto.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Empieza con there's.",
+            "Después va lo que hay (a lamp) y luego dónde (on the desk).",
+            "There's + a + cosa + preposición + lugar."
+          ],
+          "solucion": {
+            "respuesta": "There's a lamp on the desk.",
+            "explicacion": "El orden más natural es There's a lamp on the desk: there's, lo que hay y el lugar al final. También es correcto poner el lugar al principio: On the desk there's a lamp."
+          },
+          "fichas": [
+            "There's",
+            "the",
+            "on",
+            "lamp",
+            "desk",
+            "a"
+          ],
+          "respuestas": [
+            "There's a lamp on the desk.",
+            "On the desk there's a lamp."
+          ],
+          "traduccion": "Hay una lámpara sobre el escritorio."
+        }
+      ]
+    },
+    {
+      "slug": "anuncio-de-natacion",
+      "titulo": "Clases de natación de verano",
+      "nivel": "A1",
+      "unidad": "fechas-y-horas",
+      "resumen": "Un anuncio de un centro deportivo con fechas, días, horarios y precios de sus clases de natación.",
+      "antes_de_leer": "Un anuncio no se lee de principio a fin como una historia: se busca información. Antes de leer, mira las preguntas y luego busca en el texto números, días de la semana, horas y precios. Fíjate en la preposición que va delante de cada uno: on, at, from… to.",
+      "parrafos": [
+        {
+          "en": "Summer swimming classes at the Riverside Sports Center! Are you free this summer? Is your son or daughter bored at home? Our classes are the answer.",
+          "es": "¡Clases de natación de verano en el Centro Deportivo Riverside! ¿Tienes tiempo libre este verano? ¿Tu hijo o tu hija se aburre en casa? Nuestras clases son la respuesta."
+        },
+        {
+          "en": "The classes are from June second to August twenty-ninth. There are classes for children and for adults. Children's classes are on Mondays and Wednesdays at four o'clock in the afternoon. Adult classes are on Tuesdays and Thursdays at half past seven in the evening. Each class is forty-five minutes long.",
+          "es": "Las clases son del 2 de junio al 29 de agosto. Hay clases para niños y para adultos. Las clases de niños son los lunes y miércoles a las cuatro de la tarde. Las de adultos son los martes y jueves a las siete y media de la noche. Cada clase dura cuarenta y cinco minutos."
+        },
+        {
+          "en": "A class for children is eight dollars. A class for adults is twelve dollars and fifty cents. A pack of ten classes is sixty dollars for children and ninety dollars for adults. On Saturday mornings, from nine to twelve, the pool is open for families, and it's free!",
+          "es": "Una clase para niños cuesta ocho dólares. Una clase para adultos cuesta doce dólares con cincuenta centavos. Un paquete de diez clases cuesta sesenta dólares para niños y noventa dólares para adultos. Los sábados por la mañana, de nueve a doce, la alberca está abierta para las familias, ¡y es gratis!"
+        },
+        {
+          "en": "The sports center is on Lake Street, next to the library. The office is open from nine a.m. to six p.m., Monday to Saturday. It isn't open on Sundays. Our phone number is five five five, oh one nine two. There are only twenty spots in each class.",
+          "es": "El centro deportivo está en la calle Lake, junto a la biblioteca. La oficina abre de nueve de la mañana a seis de la tarde, de lunes a sábado. No abre los domingos. Nuestro teléfono es el 555 0192. Solo hay veinte lugares en cada clase."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "swimming",
+          "es": "natación"
+        },
+        {
+          "en": "free",
+          "es": "libre / gratis",
+          "nota": "Dos significados: Are you free? = ¿estás libre?; it's free = es gratis."
+        },
+        {
+          "en": "bored",
+          "es": "aburrido (que se aburre)",
+          "nota": "Bored describe cómo te sientes; boring, algo que aburre."
+        },
+        {
+          "en": "half past seven",
+          "es": "siete y media",
+          "nota": "También se dice seven thirty."
+        },
+        {
+          "en": "each",
+          "es": "cada"
+        },
+        {
+          "en": "long",
+          "es": "de duración",
+          "nota": "forty-five minutes long = de cuarenta y cinco minutos."
+        },
+        {
+          "en": "pack",
+          "es": "paquete"
+        },
+        {
+          "en": "pool",
+          "es": "alberca, piscina"
+        },
+        {
+          "en": "a.m. / p.m.",
+          "es": "de la mañana / de la tarde o noche",
+          "nota": "a.m. va de medianoche a mediodía; p.m., de mediodía a medianoche."
+        },
+        {
+          "en": "spot",
+          "es": "lugar (en una clase)",
+          "nota": "Twenty spots = cupo de veinte personas. En Reino Unido se dice places."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "On para días y fechas, at para horas",
+          "texto": "El inglés usa [[on]] con días y fechas ([[on Mondays]], [[on Saturday mornings]]) y [[at]] con horas ([[at four o'clock]], [[at half past seven]]). El español usa «el/los» y «a las», así que es fácil equivocarse con la preposición.",
+          "ejemplo": "Adult classes are on Tuesdays and Thursdays at half past seven."
+        },
+        {
+          "titulo": "From… to… para intervalos",
+          "texto": "Para decir «de… a…» o «del… al…» se usa [[from… to…]], tanto con fechas como con horas y días.",
+          "ejemplo": "from June second to August twenty-ninth / from nine a.m. to six p.m."
+        },
+        {
+          "titulo": "Las fechas se leen con ordinales",
+          "texto": "Aunque se escriba June 2, se dice [[June second]] (en inglés estadounidense) o [[the second of June]]. El número de la fecha es ordinal: second, twenty-ninth.",
+          "ejemplo": "The classes are from June second to August twenty-ninth."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.anuncio-de-natacion.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Piensa en qué tipo de información da cada párrafo.",
+            "Hay fechas, horas, precios y una dirección.",
+            "Un texto que ofrece algo con precios y horarios es un anuncio."
+          ],
+          "solucion": {
+            "respuesta": "Para dar información sobre unas clases de natación.",
+            "explicacion": "Es un anuncio informativo: ofrece clases de natación y da todos los datos prácticos (fechas, horarios, precios, dirección y teléfono)."
+          },
+          "pregunta": "¿Para qué sirve este texto?",
+          "opciones": [
+            {
+              "texto": "Para dar información sobre unas clases de natación.",
+              "correcta": true,
+              "porque": "Correcto: da fechas, horarios, precios y la dirección del centro."
+            },
+            {
+              "texto": "Para contar un día en la alberca.",
+              "correcta": false,
+              "porque": "No es una historia: no hay nadie que cuente lo que hizo."
+            },
+            {
+              "texto": "Para buscar un maestro de natación.",
+              "correcta": false,
+              "porque": "No se pide ningún maestro: se ofrecen clases."
+            }
+          ]
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca Children's classes.",
+            "Mira la preposición on (días) y at (hora).",
+            "On + día en plural (on Mondays) significa «los lunes», cada semana. Descarta el horario de adultos y el de familias."
+          ],
+          "solucion": {
+            "respuesta": "Los lunes y miércoles a las cuatro.",
+            "explicacion": "Las clases de niños son los lunes y miércoles a las cuatro: on Mondays and Wednesdays at four o'clock. On introduce los días y at la hora."
+          },
+          "pregunta": "¿Cuándo son las clases para niños?",
+          "opciones": [
+            {
+              "texto": "Los lunes y miércoles a las cuatro.",
+              "correcta": true,
+              "porque": "Correcto: on Mondays and Wednesdays at four o'clock."
+            },
+            {
+              "texto": "Los martes y jueves a las siete y media.",
+              "correcta": false,
+              "porque": "Ese es el horario de los adultos."
+            },
+            {
+              "texto": "Los sábados de nueve a doce.",
+              "correcta": false,
+              "porque": "El sábado la alberca está abierta para familias; no son clases."
+            }
+          ]
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Hay dos formas de pagar: por clase o por paquete.",
+            "Busca A pack of ten classes.",
+            "Compara diez clases de 12.50 con el precio del paquete para adultos."
+          ],
+          "solucion": {
+            "respuesta": "90 dólares, por el paquete de diez clases.",
+            "explicacion": "Le conviene el paquete de 90 dólares: diez clases sueltas de adulto costarían 10 × 12.50 = 125, mientras que A pack of ten classes is… ninety dollars for adults."
+          },
+          "pregunta": "Carlos es adulto y quiere tomar diez clases. ¿Qué le conviene pagar?",
+          "opciones": [
+            {
+              "texto": "90 dólares, por el paquete de diez clases.",
+              "correcta": true,
+              "porque": "Correcto: el paquete de diez clases para adultos cuesta ninety dollars, menos que diez clases sueltas."
+            },
+            {
+              "texto": "125 dólares, diez clases de 12.50.",
+              "correcta": false,
+              "porque": "Diez clases sueltas costarían 125, pero el paquete cuesta menos: ninety dollars."
+            },
+            {
+              "texto": "60 dólares.",
+              "correcta": false,
+              "porque": "Sixty dollars es el paquete para niños, no para adultos."
+            }
+          ]
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca la palabra Sundays.",
+            "¿La oración es afirmativa o negativa?",
+            "Isn't = no está / no es."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: la oficina abre Monday to Saturday e It isn't open on Sundays."
+          },
+          "pregunta": "The office is open on Sundays.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: el texto dice It isn't open on Sundays."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: It isn't open on Sundays; abre de lunes a sábado."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el último párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Aparece algún nombre de persona en el texto?",
+            "Revisa los cuatro párrafos buscando teacher.",
+            "Si el texto no menciona el dato, no es verdadero ni falso."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: el anuncio da fechas, horarios, precios y dirección, pero no menciona a ningún maestro."
+          },
+          "pregunta": "The teacher's name is Ben.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no nombra a ningún maestro."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no habla de los maestros, así que no dice que se llame de otra forma."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: en el anuncio no aparece el nombre de ningún maestro."
+            }
+          ]
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con la preposición correcta.",
+          "pistas": [
+            "Días y horas llevan preposiciones distintas.",
+            "Primer hueco: delante de días. Segundo: delante de una hora.",
+            "On + día; at + hora."
+          ],
+          "solucion": {
+            "respuesta": "on / at",
+            "explicacion": "Las respuestas son on y at: on con días de la semana (on Tuesdays) y at con horas exactas (at half past seven)."
+          },
+          "frase": "Adult classes are ___ Tuesdays and Thursdays ___ half past seven.",
+          "respuestas": [
+            [
+              "on"
+            ],
+            [
+              "at"
+            ]
+          ],
+          "traduccion": "Las clases de adultos son los martes y jueves a las siete y media.",
+          "errores_tipicos": {
+            "in | at": "In se usa con meses, años y partes del día (in June, in the evening). Con días de la semana: on.",
+            "on | on": "Con horas exactas se usa at: at half past seven.",
+            "at | on": "Están al revés: on con días (on Tuesdays) y at con horas (at half past seven)."
+          }
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa half past.",
+          "pistas": [
+            "«A las» + hora se dice con una preposición de tiempo.",
+            "La hora va después de at.",
+            "Y media = half past + hora: half past seven."
+          ],
+          "solucion": {
+            "respuesta": "The class is at half past seven.",
+            "explicacion": "La respuesta es The class is at half past seven: at introduce la hora y half past seven es «siete y media» (media hora después de las siete)."
+          },
+          "es": "La clase es a las siete y media.",
+          "respuestas": [
+            "The class is at half past seven."
+          ],
+          "errores_tipicos": {
+            "The class is at seven and half.": "Es un calco del español. Se dice half past seven o seven thirty.",
+            "The class is in half past seven.": "Con horas exactas se usa at, no in.",
+            "The class is at half past eight.": "Half past eight son las ocho y media. Las siete y media son half past seven."
+          }
+        },
+        {
+          "id": "lectura.anuncio-de-natacion.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Empieza por el sujeto: ¿de qué lugar se habla?",
+            "The sports center + is; luego la preposición de dos palabras.",
+            "Sujeto + is + next to + the + lugar."
+          ],
+          "solucion": {
+            "respuesta": "The sports center is next to the library.",
+            "explicacion": "El orden es The sports center is next to the library: sujeto (the sports center), verbo (is) y la ubicación con la preposición next to, que siempre va junta."
+          },
+          "fichas": [
+            "center",
+            "The",
+            "library",
+            "the",
+            "sports",
+            "to",
+            "is",
+            "next"
+          ],
+          "respuestas": [
+            "The sports center is next to the library."
+          ],
+          "traduccion": "El centro deportivo está junto a la biblioteca."
+        }
+      ]
+    },
+    {
+      "slug": "la-foto-de-aisha",
+      "titulo": "La foto de la familia de Aisha",
+      "nivel": "A1",
+      "unidad": "familia-profesiones-y-preguntas",
+      "resumen": "Aisha describe una foto de su familia: quién es quién, a qué se dedica cada uno… y dónde está ella.",
+      "antes_de_leer": "Imagina la foto mientras lees. Para cada persona anota tres datos: qué relación tiene con Aisha, dónde está en la foto y su profesión o su edad. Fíjate en el artículo a delante de cada profesión: el español no lo usa, el inglés sí.",
+      "parrafos": [
+        {
+          "en": "Hello! I'm Aisha, and this is a photo of my family. There are five people in the photo.",
+          "es": "¡Hola! Soy Aisha y esta es una foto de mi familia. Hay cinco personas en la foto."
+        },
+        {
+          "en": "The tall man on the left is my father, Karim. He's a taxi driver, and he's very funny. Next to my father is my mother, Leila. She's a nurse at a big hospital.",
+          "es": "El hombre alto de la izquierda es mi papá, Karim. Es taxista y es muy divertido. Junto a mi papá está mi mamá, Leila. Es enfermera en un hospital grande."
+        },
+        {
+          "en": "The two children in front of my parents are my brother and my sister. My brother's name is Yusuf. He's fifteen, and he's a high school student. My sister, Nadia, is only six. She's very small, but she's very clever!",
+          "es": "Los dos niños que están delante de mis papás son mi hermano y mi hermana. Mi hermano se llama Yusuf. Tiene quince años y estudia la preparatoria. Mi hermana, Nadia, tiene solo seis. Es muy pequeña, ¡pero es muy lista!"
+        },
+        {
+          "en": "The old woman in the middle is my grandmother, Samira. She's eighty-one. She's a retired teacher.",
+          "es": "La señora mayor del centro es mi abuela, Samira. Tiene ochenta y un años. Es maestra jubilada."
+        },
+        {
+          "en": "And where am I? I'm not in the photo, because I'm the photographer! But I'm not a professional photographer. I'm a vet.",
+          "es": "¿Y dónde estoy yo? No salgo en la foto, ¡porque yo soy la fotógrafa! Pero no soy fotógrafa profesional. Soy veterinaria."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "parents",
+          "es": "papás, padres",
+          "nota": "Parents = padre y madre. No significa «parientes» (relatives)."
+        },
+        {
+          "en": "taxi driver",
+          "es": "taxista"
+        },
+        {
+          "en": "nurse",
+          "es": "enfermero, enfermera",
+          "nota": "Una sola palabra para hombre y mujer."
+        },
+        {
+          "en": "in front of",
+          "es": "delante de, enfrente de"
+        },
+        {
+          "en": "high school student",
+          "es": "estudiante de preparatoria"
+        },
+        {
+          "en": "clever",
+          "es": "listo, inteligente"
+        },
+        {
+          "en": "grandmother",
+          "es": "abuela"
+        },
+        {
+          "en": "retired",
+          "es": "jubilado, retirado"
+        },
+        {
+          "en": "photographer",
+          "es": "fotógrafo, fotógrafa",
+          "nota": "Acento en la segunda sílaba: pho-TO-gra-pher /fəˈtɑːɡrəfər/."
+        },
+        {
+          "en": "vet",
+          "es": "veterinario, veterinaria",
+          "nota": "Forma corta y muy común de veterinarian."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Profesiones con a",
+          "texto": "El español dice «es taxista», sin artículo. El inglés necesita [[a]] (o [[an]] delante de sonido vocálico) con una profesión en singular: [[He's a taxi driver]], [[She's a nurse]], [[I'm a vet]].",
+          "ejemplo": "She's a nurse. (nunca: She's nurse.)"
+        },
+        {
+          "titulo": "El genitivo 's para decir «de»",
+          "texto": "[[My brother's name]] significa «el nombre de mi hermano». El poseedor va primero, con 's, y lo poseído después. No se dice «the name of my brother» en una conversación normal.",
+          "ejemplo": "My brother's name is Yusuf."
+        },
+        {
+          "titulo": "Where am I? Preguntas con be",
+          "texto": "En una pregunta con be, el verbo va antes del sujeto: [[Where am I?]] La palabra interrogativa (where) va al principio, luego el verbo y después el sujeto.",
+          "ejemplo": "Where am I? / Who is the woman in the middle?"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.la-foto-de-aisha.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Lee la primera oración.",
+            "Busca la palabra photo.",
+            "This is a photo of… presenta el tema del texto."
+          ],
+          "solucion": {
+            "respuesta": "Una foto de su familia.",
+            "explicacion": "Aisha describe una foto de su familia: lo dice en la primera oración (this is a photo of my family) y el resto del texto presenta a cada persona de la foto."
+          },
+          "pregunta": "¿Qué describe Aisha?",
+          "opciones": [
+            {
+              "texto": "Una foto de su familia.",
+              "correcta": true,
+              "porque": "Correcto: this is a photo of my family, y luego describe a cada persona."
+            },
+            {
+              "texto": "Un viaje con su familia.",
+              "correcta": false,
+              "porque": "No se habla de ningún viaje: solo de la foto y de las personas."
+            },
+            {
+              "texto": "Su trabajo en un hospital.",
+              "correcta": false,
+              "porque": "Quien trabaja en un hospital es su mamá; Aisha es veterinaria."
+            }
+          ]
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca my mother.",
+            "Lee la oración que sigue a su nombre, Leila.",
+            "Descarta las profesiones del papá (taxi driver) y de la abuela (retired teacher)."
+          ],
+          "solucion": {
+            "respuesta": "Es enfermera.",
+            "explicacion": "La mamá, Leila, es enfermera: She's a nurse at a big hospital. Taxi driver es el papá y retired teacher, la abuela."
+          },
+          "pregunta": "¿A qué se dedica la mamá de Aisha?",
+          "opciones": [
+            {
+              "texto": "Es enfermera.",
+              "correcta": true,
+              "porque": "Correcto: She's a nurse at a big hospital."
+            },
+            {
+              "texto": "Es maestra jubilada.",
+              "correcta": false,
+              "porque": "La maestra jubilada es la abuela, Samira."
+            },
+            {
+              "texto": "Es taxista.",
+              "correcta": false,
+              "porque": "El taxista es el papá, Karim."
+            }
+          ]
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Lee el último párrafo.",
+            "Busca la oración con not.",
+            "Si ella toma la foto, ¿puede salir en ella?"
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: I'm not in the photo, because I'm the photographer. Por eso hay cinco personas en la foto y no seis."
+          },
+          "pregunta": "Aisha is in the photo.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: ella misma dice I'm not in the photo."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: I'm not in the photo, because I'm the photographer."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el último párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca la edad de cada uno de los hermanos.",
+            "Nadia: is only… / Yusuf: He's…",
+            "Only six = solo seis. No confundas la edad de Nadia con la de Yusuf."
+          ],
+          "solucion": {
+            "respuesta": "Verdadero",
+            "explicacion": "Es verdadero: My sister, Nadia, is only six. Fifteen es la edad de Yusuf, su hermano."
+          },
+          "pregunta": "Nadia is six years old.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": true,
+              "porque": "Correcto: My sister, Nadia, is only six."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto dice que Nadia tiene seis años. Quince (fifteen) es la edad de Yusuf."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el tercer párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué datos da el texto sobre la abuela?",
+            "Busca from: ¿aparece en el texto?",
+            "Sin dato en el texto, la respuesta es «No se dice»."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: de Samira sabemos que tiene 81 años y que es maestra jubilada. El texto no menciona ningún país."
+          },
+          "pregunta": "Samira is from Morocco.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice de dónde es nadie de la familia."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no menciona países, así que no lo contradice."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: de la abuela sabemos su edad y su profesión, pero no su país."
+            }
+          ]
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con el artículo que falta.",
+          "pistas": [
+            "En español no hay artículo aquí, pero en inglés sí.",
+            "Mira la palabra que sigue: taxi empieza con sonido de consonante.",
+            "Profesión en singular: a + profesión (an si empieza con sonido vocálico)."
+          ],
+          "solucion": {
+            "respuesta": "a",
+            "explicacion": "La respuesta es a: en inglés las profesiones en singular llevan artículo, y como taxi empieza con sonido consonante /t/, es a y no an."
+          },
+          "frase": "He's ___ taxi driver.",
+          "respuestas": [
+            [
+              "a"
+            ]
+          ],
+          "traduccion": "Es taxista.",
+          "banco": [
+            "a",
+            "an",
+            "the"
+          ],
+          "errores_tipicos": {
+            "an": "An se usa antes de sonido vocálico (an engineer). Taxi empieza con /t/: a taxi driver.",
+            "the": "The señalaría «el taxista» concreto. Para decir su profesión se usa a."
+          }
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa mother.",
+          "pistas": [
+            "Recuerda el artículo de las profesiones.",
+            "Sujeto (my mother) + is + ¿qué va antes de nurse?",
+            "Sujeto + is + a + profesión."
+          ],
+          "solucion": {
+            "respuesta": "My mother is a nurse.",
+            "explicacion": "La respuesta es My mother is a nurse: la profesión en singular lleva a, aunque en español digamos «es enfermera» sin artículo."
+          },
+          "es": "Mi mamá es enfermera.",
+          "respuestas": [
+            "My mother is a nurse."
+          ],
+          "errores_tipicos": {
+            "My mother is nurse.": "Falta el artículo: en inglés se dice a nurse.",
+            "My mother is an nurse.": "Nurse empieza con sonido consonante /n/: a nurse."
+          }
+        },
+        {
+          "id": "lectura.la-foto-de-aisha.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la pregunta.",
+          "pistas": [
+            "Es una pregunta: empieza por la palabra interrogativa.",
+            "Who + is + el sujeto.",
+            "Palabra interrogativa + be + sujeto + lugar."
+          ],
+          "solucion": {
+            "respuesta": "Who is the woman in the middle?",
+            "explicacion": "El orden es Who is the woman in the middle?: la palabra interrogativa va primero, luego el verbo is y después el sujeto (the woman) con su ubicación (in the middle)."
+          },
+          "fichas": [
+            "middle",
+            "in",
+            "is",
+            "the",
+            "woman",
+            "Who",
+            "the"
+          ],
+          "respuestas": [
+            "Who is the woman in the middle?"
+          ],
+          "traduccion": "¿Quién es la mujer del centro?"
+        }
+      ]
+    },
+    {
+      "slug": "una-enfermera-de-noche",
+      "titulo": "Una enfermera de noche",
+      "nivel": "A1",
+      "unidad": "presente-simple",
+      "resumen": "La rutina de Priya, una enfermera que trabaja de noche y desayuna a las cuatro de la tarde.",
+      "antes_de_leer": "El texto cuenta una rutina con verbos en presente simple. Como el sujeto casi siempre es she (Priya), fíjate en la -s o -es de cada verbo: gets, has, finishes, goes. Anota también las horas: la rutina de Priya está al revés que la de la mayoría.",
+      "parrafos": [
+        {
+          "en": "Priya is a nurse at a hospital in a big city. She works at night, from eight p.m. to eight a.m., so her day is very different from other people's days.",
+          "es": "Priya es enfermera en un hospital de una gran ciudad. Trabaja de noche, de ocho de la noche a ocho de la mañana, así que su día es muy distinto al de otras personas."
+        },
+        {
+          "en": "Priya gets up at three o'clock in the afternoon. First, she has a shower and gets dressed. Then she has breakfast, at four p.m.! She eats eggs and toast, and she drinks a big cup of tea.",
+          "es": "Priya se levanta a las tres de la tarde. Primero se baña y se viste. Luego desayuna… ¡a las cuatro de la tarde! Come huevos y pan tostado, y toma una taza grande de té."
+        },
+        {
+          "en": "After that, she walks in the park with her dog, Max. At six o'clock, she cooks dinner for her husband, Diego. He's a teacher, and he works during the day. They eat together at half past six.",
+          "es": "Después pasea en el parque con su perro, Max. A las seis prepara la cena para su esposo, Diego. Él es maestro y trabaja de día. Cenan juntos a las seis y media."
+        },
+        {
+          "en": "Priya takes the bus to work at a quarter past seven. She starts work at eight. At night, she checks her patients and writes reports. She has a break at two a.m.",
+          "es": "Priya toma el autobús al trabajo a las siete y cuarto. Empieza a trabajar a las ocho. En la noche revisa a sus pacientes y escribe informes. Tiene un descanso a las dos de la mañana."
+        },
+        {
+          "en": "She finishes work at eight in the morning. She goes home by bus and goes to bed at nine. She loves her job, but it's a hard job.",
+          "es": "Termina de trabajar a las ocho de la mañana. Regresa a casa en autobús y se acuesta a las nueve. Le encanta su trabajo, pero es un trabajo difícil."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "at night",
+          "es": "de noche, en la noche"
+        },
+        {
+          "en": "get up",
+          "es": "levantarse",
+          "nota": "Levantarse de la cama. No confundir con wake up (despertarse)."
+        },
+        {
+          "en": "have a shower",
+          "es": "bañarse (en regadera)",
+          "nota": "Have aquí no es «tener»: es una acción. En EE. UU. también take a shower."
+        },
+        {
+          "en": "get dressed",
+          "es": "vestirse"
+        },
+        {
+          "en": "have breakfast",
+          "es": "desayunar"
+        },
+        {
+          "en": "during the day",
+          "es": "de día, durante el día"
+        },
+        {
+          "en": "take the bus",
+          "es": "tomar el autobús"
+        },
+        {
+          "en": "patient",
+          "es": "paciente (en un hospital)",
+          "nota": "Como adjetivo también significa «paciente»."
+        },
+        {
+          "en": "break",
+          "es": "descanso"
+        },
+        {
+          "en": "go to bed",
+          "es": "acostarse",
+          "nota": "Sin the: go to bed, no go to the bed."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "La -s de la tercera persona",
+          "texto": "Con he, she o it el verbo en presente simple añade -s: [[she works]], [[she gets up]], [[she drinks]]. Con I, you, we y they no: [[they eat together]]. En el texto, el sujeto casi siempre es Priya (she), por eso casi todos los verbos llevan -s.",
+          "ejemplo": "She works at night. / They eat together at half past six."
+        },
+        {
+          "titulo": "-es, has y goes",
+          "texto": "Los verbos que terminan en -sh, -ch, -ss, -x y -o añaden -es: [[finishes]], [[goes]]. Have es irregular: [[she has]], nunca «she haves».",
+          "ejemplo": "She finishes work at eight. She has a break at two."
+        },
+        {
+          "titulo": "Conectores de secuencia",
+          "texto": "[[First]], [[then]] y [[after that]] ordenan las acciones de una rutina. Van al principio de la oración; first y after that suelen llevar coma.",
+          "ejemplo": "First, she has a shower. Then she has breakfast. After that, she walks in the park."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.una-enfermera-de-noche.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Lee el primer párrafo.",
+            "Busca at night y el horario from… to…",
+            "Su día es very different porque su horario está al revés."
+          ],
+          "solucion": {
+            "respuesta": "Porque trabaja de noche y duerme de día.",
+            "explicacion": "Su rutina es especial porque trabaja de noche (She works at night, from eight p.m. to eight a.m.) y, en consecuencia, se levanta a las tres de la tarde y se acuesta por la mañana."
+          },
+          "pregunta": "¿Por qué es especial la rutina de Priya?",
+          "opciones": [
+            {
+              "texto": "Porque trabaja de noche y duerme de día.",
+              "correcta": true,
+              "porque": "Correcto: trabaja de ocho de la noche a ocho de la mañana y se acuesta a las nueve de la mañana."
+            },
+            {
+              "texto": "Porque no trabaja y pasa el día en el parque.",
+              "correcta": false,
+              "porque": "Sí trabaja: es enfermera y tiene un turno de doce horas."
+            },
+            {
+              "texto": "Porque trabaja en dos hospitales.",
+              "correcta": false,
+              "porque": "El texto habla de un solo hospital."
+            }
+          ]
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca el verbo gets up.",
+            "Mira la hora que va después de at.",
+            "Get up = levantarse."
+          ],
+          "solucion": {
+            "respuesta": "A las tres de la tarde.",
+            "explicacion": "Se levanta a las tres de la tarde: Priya gets up at three o'clock in the afternoon."
+          },
+          "pregunta": "¿A qué hora se levanta Priya?",
+          "opciones": [
+            {
+              "texto": "A las tres de la tarde.",
+              "correcta": true,
+              "porque": "Correcto: She gets up at three o'clock in the afternoon."
+            },
+            {
+              "texto": "A las cuatro de la tarde.",
+              "correcta": false,
+              "porque": "A las cuatro desayuna (she has breakfast, at four p.m.)."
+            },
+            {
+              "texto": "A las nueve de la mañana.",
+              "correcta": false,
+              "porque": "A las nueve de la mañana se acuesta (goes to bed at nine)."
+            }
+          ]
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Relaciona la hora a la que se levanta con la del desayuno.",
+            "Breakfast es la primera comida después de dormir.",
+            "Si te levantas a las 3 p. m., tu desayuno es en la tarde."
+          ],
+          "solucion": {
+            "respuesta": "Porque para ella es la primera comida después de dormir.",
+            "explicacion": "Desayuna a las cuatro porque se levanta a las tres: breakfast es la primera comida del día de cada persona, y el día de Priya empieza en la tarde."
+          },
+          "pregunta": "¿Por qué desayuna Priya a las cuatro de la tarde?",
+          "opciones": [
+            {
+              "texto": "Porque para ella es la primera comida después de dormir.",
+              "correcta": true,
+              "porque": "Correcto: se levanta a las tres, así que su «mañana» empieza en la tarde."
+            },
+            {
+              "texto": "Porque no le gusta comer temprano.",
+              "correcta": false,
+              "porque": "El texto no habla de sus gustos sobre la comida; la razón es su horario."
+            },
+            {
+              "texto": "Porque en el hospital le dan el desayuno a esa hora.",
+              "correcta": false,
+              "porque": "A las cuatro todavía está en casa; entra a trabajar a las ocho de la noche."
+            }
+          ]
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca el nombre Diego.",
+            "Lee la oración que sigue a He's a teacher.",
+            "During the day = de día; at night = de noche."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: He's a teacher, and he works during the day. Solo Priya trabaja de noche."
+          },
+          "pregunta": "Diego works at night, too.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: Diego works during the day."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: Diego es maestro y trabaja de día (during the day)."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el tercer párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué información hay sobre Max?",
+            "Busca un adjetivo junto a dog o Max.",
+            "Sin dato en el texto, la respuesta es «No se dice»."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: el texto solo cuenta que Priya pasea con su perro, Max. El único big del texto se refiere a la ciudad y a la taza de té."
+          },
+          "pregunta": "Max is a big dog.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no describe al perro."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice nada sobre su tamaño."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: solo sabemos que Max es el perro de Priya y que pasean en el parque."
+            }
+          ]
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con la forma correcta del verbo finish.",
+          "pistas": [
+            "El sujeto es she: tercera persona del singular.",
+            "Finish termina en -sh.",
+            "Verbos en -sh, -ch, -ss, -x, -o añaden -es con he/she/it."
+          ],
+          "solucion": {
+            "respuesta": "finishes",
+            "explicacion": "La respuesta es finishes: el sujeto she pide -s, y como finish termina en -sh, se añade -es para poder pronunciarla (/ˈfɪnɪʃɪz/)."
+          },
+          "frase": "She ___ work at eight in the morning.",
+          "respuestas": [
+            [
+              "finishes"
+            ]
+          ],
+          "traduccion": "Termina de trabajar a las ocho de la mañana.",
+          "errores_tipicos": {
+            "finish": "Falta la terminación: con she el verbo lleva -s o -es.",
+            "finishs": "Después de -sh se añade -es, no solo -s: finishes."
+          }
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa takes the bus y a quarter past.",
+          "pistas": [
+            "El sujeto es she: el verbo lleva -s.",
+            "«A las» + hora = at + hora.",
+            "Y cuarto = a quarter past + hora."
+          ],
+          "solucion": {
+            "respuesta": "She takes the bus at a quarter past seven.",
+            "explicacion": "La respuesta es She takes the bus at a quarter past seven: takes lleva -s porque el sujeto es she, at introduce la hora y a quarter past seven es «siete y cuarto»."
+          },
+          "es": "Ella toma el autobús a las siete y cuarto.",
+          "respuestas": [
+            "She takes the bus at a quarter past seven.",
+            "She takes the bus at quarter past seven."
+          ],
+          "errores_tipicos": {
+            "She take the bus at a quarter past seven.": "Falta la -s: con she el verbo es takes.",
+            "She takes the bus at seven and quarter.": "Es un calco del español: se dice a quarter past seven."
+          }
+        },
+        {
+          "id": "lectura.una-enfermera-de-noche.08",
+          "tipo": "ordenar",
+          "dificultad": 1,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Empieza por el sujeto.",
+            "She goes + adónde + a qué hora.",
+            "Sujeto + verbo + to bed + at + hora."
+          ],
+          "solucion": {
+            "respuesta": "She goes to bed at nine.",
+            "explicacion": "El orden natural es She goes to bed at nine: sujeto, verbo con -es (goes), la expresión fija to bed y la hora al final. También es posible empezar con la hora: At nine she goes to bed."
+          },
+          "fichas": [
+            "goes",
+            "bed",
+            "nine",
+            "at",
+            "to",
+            "She"
+          ],
+          "respuestas": [
+            "She goes to bed at nine.",
+            "At nine she goes to bed."
+          ],
+          "traduccion": "Se acuesta a las nueve."
+        }
+      ]
+    },
+    {
+      "slug": "chat-de-fin-de-semana",
+      "titulo": "¿Qué haces los fines de semana?",
+      "nivel": "A1",
+      "unidad": "frecuencia-y-tiempo-libre",
+      "resumen": "Un chat entre Mei y Ben sobre lo que hacen en su tiempo libre y con qué frecuencia.",
+      "antes_de_leer": "Es una conversación escrita: cada párrafo es un mensaje. Busca los adverbios de frecuencia (always, usually, often, sometimes, rarely, never) y fíjate en su lugar: antes del verbo principal. Busca también expresiones como once a month o twice a month, que van al final.",
+      "parrafos": [
+        {
+          "en": "Mei: Hi, Ben! What do you usually do on weekends? I need some ideas. My weekends are really boring!",
+          "es": "Mei: ¡Hola, Ben! ¿Qué sueles hacer los fines de semana? Necesito ideas. ¡Mis fines de semana son muy aburridos!"
+        },
+        {
+          "en": "Ben: Hi, Mei! Well, on Saturday mornings I always play football with some friends in the park. After that, I usually have lunch with my parents.",
+          "es": "Ben: ¡Hola, Mei! Bueno, los sábados en la mañana siempre juego futbol con unos amigos en el parque. Después, normalmente como con mis papás."
+        },
+        {
+          "en": "Mei: Football? I hate running! What about Sundays?",
+          "es": "Mei: ¿Futbol? ¡Odio correr! ¿Y los domingos?"
+        },
+        {
+          "en": "Ben: On Sundays I often go to the cinema. I sometimes cook something new, because I love cooking. And once a month, I go hiking in the mountains with my cousin.",
+          "es": "Ben: Los domingos voy seguido al cine. A veces cocino algo nuevo, porque me encanta cocinar. Y una vez al mes voy de excursión a la montaña con mi primo."
+        },
+        {
+          "en": "Mei: Hiking sounds great! How often do you go to the cinema?",
+          "es": "Mei: ¡Ir de excursión suena genial! ¿Cada cuánto vas al cine?"
+        },
+        {
+          "en": "Ben: About twice a month. I never go on Saturdays, because it's very busy. Do you like films?",
+          "es": "Ben: Unas dos veces al mes. Nunca voy en sábado, porque hay mucha gente. ¿Te gustan las películas?"
+        },
+        {
+          "en": "Mei: Yes, I love films! But I rarely go to the cinema, because the tickets are expensive. I usually watch films at home.",
+          "es": "Mei: ¡Sí, me encantan las películas! Pero casi nunca voy al cine, porque las entradas son caras. Normalmente veo películas en casa."
+        },
+        {
+          "en": "Ben: There's a cheap cinema near your house. The tickets are only five dollars on Sundays. Do you want to come next Sunday?",
+          "es": "Ben: Hay un cine barato cerca de tu casa. Los domingos las entradas cuestan solo cinco dólares. ¿Quieres venir el próximo domingo?"
+        },
+        {
+          "en": "Mei: Yes, great idea! See you on Sunday!",
+          "es": "Mei: ¡Sí, buena idea! ¡Nos vemos el domingo!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "on weekends",
+          "es": "los fines de semana",
+          "nota": "En inglés británico: at the weekend / at weekends."
+        },
+        {
+          "en": "boring",
+          "es": "aburrido (que aburre)",
+          "nota": "My weekends are boring (aburren). I'm bored (me aburro)."
+        },
+        {
+          "en": "football",
+          "es": "futbol",
+          "nota": "En EE. UU. football suele ser el futbol americano; el futbol se llama soccer."
+        },
+        {
+          "en": "go hiking",
+          "es": "ir de excursión, hacer senderismo"
+        },
+        {
+          "en": "cousin",
+          "es": "primo, prima",
+          "nota": "Se pronuncia /ˈkʌzən/: la ou suena como la u de cup."
+        },
+        {
+          "en": "How often…?",
+          "es": "¿Con qué frecuencia…?, ¿cada cuánto…?"
+        },
+        {
+          "en": "twice a month",
+          "es": "dos veces al mes"
+        },
+        {
+          "en": "busy",
+          "es": "lleno de gente, concurrido / ocupado",
+          "nota": "Un lugar busy tiene mucha gente; una persona busy está ocupada."
+        },
+        {
+          "en": "ticket",
+          "es": "boleto, entrada"
+        },
+        {
+          "en": "rarely",
+          "es": "casi nunca, rara vez"
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "El adverbio de frecuencia va antes del verbo",
+          "texto": "Always, usually, often, sometimes, rarely y never van entre el sujeto y el verbo principal: [[I always play]], [[I often go]], [[I never go]]. Con be van después: [[it's always busy]].",
+          "ejemplo": "I always play football. I rarely go to the cinema."
+        },
+        {
+          "titulo": "Expresiones de frecuencia al final",
+          "texto": "[[Once a month]], [[twice a month]], [[every Sunday]] suelen ir al final de la oración (o al principio, para destacarlas). Nunca entre el sujeto y el verbo.",
+          "ejemplo": "I go hiking once a month. / Once a month, I go hiking."
+        },
+        {
+          "titulo": "Love / hate + -ing",
+          "texto": "Después de [[love]], [[like]] y [[hate]] una actividad va en -ing: [[I love cooking]], [[I hate running]]. El español usa infinitivo («me encanta cocinar»), el inglés, -ing.",
+          "ejemplo": "I love cooking. / I hate running."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.chat-de-fin-de-semana.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Lee la primera pregunta de Mei.",
+            "What do you usually do on weekends?",
+            "Weekends = fines de semana, tiempo libre."
+          ],
+          "solucion": {
+            "respuesta": "De lo que hacen en su tiempo libre.",
+            "explicacion": "Hablan de su tiempo libre: Mei pregunta What do you usually do on weekends? y Ben cuenta sus actividades de sábado y domingo."
+          },
+          "pregunta": "¿De qué hablan Mei y Ben?",
+          "opciones": [
+            {
+              "texto": "De lo que hacen en su tiempo libre.",
+              "correcta": true,
+              "porque": "Correcto: la conversación gira en torno a sus fines de semana y termina con un plan."
+            },
+            {
+              "texto": "De su trabajo.",
+              "correcta": false,
+              "porque": "No mencionan el trabajo en ningún mensaje."
+            },
+            {
+              "texto": "De un problema con el cine.",
+              "correcta": false,
+              "porque": "Hablan del cine, pero solo como una actividad; no hay ningún problema."
+            }
+          ]
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca hiking.",
+            "Mira la expresión con la que empieza esa oración de Ben.",
+            "Cada actividad de Ben tiene su frecuencia: no confundas la del cine con la de la excursión."
+          ],
+          "solucion": {
+            "respuesta": "Una vez al mes.",
+            "explicacion": "Va de excursión una vez al mes: And once a month, I go hiking in the mountains with my cousin."
+          },
+          "pregunta": "¿Con qué frecuencia va Ben de excursión?",
+          "opciones": [
+            {
+              "texto": "Una vez al mes.",
+              "correcta": true,
+              "porque": "Correcto: once a month, I go hiking."
+            },
+            {
+              "texto": "Dos veces al mes.",
+              "correcta": false,
+              "porque": "Twice a month es su frecuencia para ir al cine."
+            },
+            {
+              "texto": "Todos los sábados.",
+              "correcta": false,
+              "porque": "Los sábados juega futbol."
+            }
+          ]
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca running.",
+            "Mira el verbo que va antes.",
+            "Hate es lo contrario de love."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: Mei escribe I hate running! Hate significa «odiar»."
+          },
+          "pregunta": "Mei likes running.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: Mei dice I hate running!"
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: I hate running! Hate = odiar."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el tercer mensaje."
+            }
+          ]
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué hace Ben con su primo?",
+            "¿Con quién juega futbol Ben?",
+            "Si el texto no habla de eso, no es verdadero ni falso."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: Ben juega futbol with some friends y va de excursión with my cousin. Del primo y el futbol no hay información."
+          },
+          "pregunta": "Ben's cousin plays football, too.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice si su primo juega futbol."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice que su primo no juegue."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: del primo solo sabemos que va de excursión con Ben."
+            }
+          ]
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca rarely.",
+            "La razón va después de because.",
+            "La razón de Mei está en su propio mensaje, no en lo que dice Ben de los sábados."
+          ],
+          "solucion": {
+            "respuesta": "Porque las entradas son caras.",
+            "explicacion": "Mei casi nunca va porque las entradas son caras: I rarely go to the cinema, because the tickets are expensive. Por eso la oferta de Ben (five dollars on Sundays) le parece una gran idea."
+          },
+          "pregunta": "¿Por qué Mei casi nunca va al cine?",
+          "opciones": [
+            {
+              "texto": "Porque las entradas son caras.",
+              "correcta": true,
+              "porque": "Correcto: because the tickets are expensive."
+            },
+            {
+              "texto": "Porque no le gustan las películas.",
+              "correcta": false,
+              "porque": "Al contrario: I love films!"
+            },
+            {
+              "texto": "Porque siempre hay mucha gente.",
+              "correcta": false,
+              "porque": "Eso lo dice Ben de los sábados (it's very busy), no es la razón de Mei."
+            }
+          ]
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con el adverbio del texto.",
+          "pistas": [
+            "Ben explica por qué no va al cine un día concreto.",
+            "El adverbio significa «cero veces».",
+            "Always = siempre; never = nunca."
+          ],
+          "solucion": {
+            "respuesta": "never",
+            "explicacion": "La respuesta es never: Ben nunca va al cine en sábado porque hay mucha gente. Never ya es negativo, así que no se añade don't."
+          },
+          "frase": "I ___ go on Saturdays, because it's very busy.",
+          "respuestas": [
+            [
+              "never"
+            ]
+          ],
+          "traduccion": "Nunca voy en sábado, porque hay mucha gente.",
+          "banco": [
+            "always",
+            "never",
+            "often"
+          ],
+          "errores_tipicos": {
+            "always": "Si siempre fuera, no tendría sentido la razón because it's very busy.",
+            "often": "Often significa «seguido». La razón (hay mucha gente) indica que no va."
+          }
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa rarely y the cinema.",
+          "pistas": [
+            "Rarely es un adverbio de frecuencia.",
+            "Va entre el sujeto I y el verbo go.",
+            "Sujeto + rarely + verbo + to the cinema."
+          ],
+          "solucion": {
+            "respuesta": "I rarely go to the cinema.",
+            "explicacion": "La respuesta es I rarely go to the cinema: rarely, como los demás adverbios de frecuencia, va entre el sujeto y el verbo principal."
+          },
+          "es": "Casi nunca voy al cine.",
+          "respuestas": [
+            "I rarely go to the cinema."
+          ],
+          "errores_tipicos": {
+            "I go rarely to the cinema.": "El adverbio de frecuencia va antes del verbo principal: I rarely go.",
+            "Rarely I go to the cinema.": "No se empieza con rarely en una oración normal: I rarely go to the cinema.",
+            "I don't rarely go to the cinema.": "Rarely ya tiene sentido negativo; no se usa con don't."
+          }
+        },
+        {
+          "id": "lectura.chat-de-fin-de-semana.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la pregunta.",
+          "pistas": [
+            "Es una pregunta de frecuencia.",
+            "Empieza con How often; después el auxiliar do.",
+            "How often + do + sujeto + verbo + complemento."
+          ],
+          "solucion": {
+            "respuesta": "How often do you go to the cinema?",
+            "explicacion": "El orden es How often do you go to the cinema?: la expresión interrogativa how often, el auxiliar do, el sujeto you y el verbo go en forma base."
+          },
+          "fichas": [
+            "you",
+            "often",
+            "to",
+            "How",
+            "cinema",
+            "the",
+            "do",
+            "go"
+          ],
+          "respuestas": [
+            "How often do you go to the cinema?"
+          ],
+          "traduccion": "¿Cada cuánto vas al cine?"
+        }
+      ]
+    },
+    {
+      "slug": "postal-desde-lisboa",
+      "titulo": "Una postal desde Lisboa",
+      "nivel": "A2",
+      "unidad": "simple-o-continuo",
+      "resumen": "Diego le escribe una postal a su hermana desde Lisboa: lo que pasa ahora mismo, cómo es la ciudad y qué planes tiene.",
+      "antes_de_leer": "El texto mezcla dos tiempos. Separa las oraciones en dos grupos: lo que pasa AHORA, mientras Diego escribe (presente continuo: I'm sitting…), y lo que es siempre así o pasa todos los días (presente simple: Lisbon has…). Hay un tercer uso del continuo: planes ya organizados. Búscalo en el último párrafo.",
+      "parrafos": [
+        {
+          "en": "Dear Ana, greetings from Lisbon! I'm sitting in a small café near the river, and I'm writing this postcard in the sun. It's warm and sunny today, and the sky is very blue.",
+          "es": "Querida Ana: ¡saludos desde Lisboa! Estoy sentado en un pequeño café cerca del río y te escribo esta postal bajo el sol. Hoy hace calorcito y está soleado, y el cielo está muy azul."
+        },
+        {
+          "en": "Lisbon is a beautiful city. It has seven hills, so I walk up and down all day! The streets are narrow, and old yellow trams go up the hills. Right now, a tram is passing in front of the café, and a man is playing the guitar on the corner.",
+          "es": "Lisboa es una ciudad preciosa. Tiene siete colinas, ¡así que me paso el día subiendo y bajando! Las calles son angostas y unos tranvías amarillos y viejos suben las colinas. Justo ahora pasa un tranvía frente al café y un hombre toca la guitarra en la esquina."
+        },
+        {
+          "en": "I'm staying in a small hotel in the old town. The owner, Mrs. Costa, makes fresh bread every morning, and she always gives me an extra piece of cake. I think she likes me!",
+          "es": "Me estoy quedando en un hotelito del centro histórico. La dueña, la señora Costa, hace pan fresco todas las mañanas y siempre me da un pedazo extra de pastel. ¡Creo que le caigo bien!"
+        },
+        {
+          "en": "I don't understand much Portuguese, but the people here are very friendly, and a lot of them speak English.",
+          "es": "No entiendo mucho portugués, pero la gente de aquí es muy amable y muchos hablan inglés."
+        },
+        {
+          "en": "Tomorrow I'm visiting the castle, and on Saturday I'm taking a boat trip on the river. I'm flying home on Monday. I miss you and Mom. See you soon! Love, Diego.",
+          "es": "Mañana voy a visitar el castillo y el sábado voy a dar un paseo en barco por el río. Regreso en avión el lunes. Las extraño a ti y a mamá. ¡Nos vemos pronto! Con cariño, Diego."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "greetings from…",
+          "es": "saludos desde…",
+          "nota": "Fórmula típica al empezar una postal."
+        },
+        {
+          "en": "postcard",
+          "es": "postal, tarjeta postal"
+        },
+        {
+          "en": "hill",
+          "es": "colina, cerro"
+        },
+        {
+          "en": "narrow",
+          "es": "angosto, estrecho",
+          "nota": "Lo contrario es wide."
+        },
+        {
+          "en": "tram",
+          "es": "tranvía",
+          "nota": "En EE. UU. también streetcar."
+        },
+        {
+          "en": "right now",
+          "es": "justo ahora, en este momento"
+        },
+        {
+          "en": "owner",
+          "es": "dueño, dueña"
+        },
+        {
+          "en": "old town",
+          "es": "centro histórico, casco antiguo"
+        },
+        {
+          "en": "boat trip",
+          "es": "paseo en barco"
+        },
+        {
+          "en": "miss",
+          "es": "extrañar",
+          "nota": "I miss you = te extraño. No confundir con «perder» un autobús, que también es miss."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Ahora: presente continuo",
+          "texto": "Para lo que está pasando mientras Diego escribe se usa be + -ing: [[I'm sitting]], [[I'm writing]], [[a tram is passing]], [[a man is playing]]. Right now lo refuerza.",
+          "ejemplo": "Right now, a tram is passing in front of the café."
+        },
+        {
+          "titulo": "Siempre o todos los días: presente simple",
+          "texto": "Los hechos permanentes ([[Lisbon has seven hills]]) y los hábitos ([[Mrs. Costa makes fresh bread every morning]]) van en presente simple. Every morning y always son señales de hábito.",
+          "ejemplo": "She always gives me an extra piece of cake."
+        },
+        {
+          "titulo": "Verbos de estado y planes",
+          "texto": "[[Understand]], [[think]] (opinar), [[like]] y [[miss]] son verbos de estado: van en presente simple aunque hablen de ahora ([[I don't understand]], nunca «I'm not understanding»). Y el continuo con una expresión de futuro indica un plan organizado: [[Tomorrow I'm visiting the castle]].",
+          "ejemplo": "I think she likes me! / I'm flying home on Monday."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.postal-desde-lisboa.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Busca un verbo en continuo en el primer párrafo.",
+            "I'm sitting in…",
+            "El continuo describe lo que pasa en este momento."
+          ],
+          "solucion": {
+            "respuesta": "En un café cerca del río.",
+            "explicacion": "Está en un café cerca del río: I'm sitting in a small café near the river. El presente continuo indica dónde está mientras escribe."
+          },
+          "pregunta": "¿Dónde está Diego mientras escribe?",
+          "opciones": [
+            {
+              "texto": "En un café cerca del río.",
+              "correcta": true,
+              "porque": "Correcto: I'm sitting in a small café near the river."
+            },
+            {
+              "texto": "En su hotel del centro histórico.",
+              "correcta": false,
+              "porque": "Se hospeda ahí, pero ahora está sentado en un café."
+            },
+            {
+              "texto": "En un barco por el río.",
+              "correcta": false,
+              "porque": "El paseo en barco es un plan para el sábado."
+            }
+          ]
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.02",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Las tres oraciones usan be + -ing.",
+            "Busca una palabra que señale el futuro.",
+            "Continuo + expresión de futuro (tomorrow, on Saturday) = plan."
+          ],
+          "solucion": {
+            "respuesta": "Tomorrow I'm visiting the castle.",
+            "explicacion": "La oración del plan es Tomorrow I'm visiting the castle: la forma es presente continuo, pero tomorrow indica que es un plan ya decidido, no una acción en curso."
+          },
+          "pregunta": "¿Qué oración habla de un plan futuro, no de algo que pasa ahora?",
+          "opciones": [
+            {
+              "texto": "Tomorrow I'm visiting the castle.",
+              "correcta": true,
+              "porque": "Correcto: es presente continuo, pero tomorrow lo convierte en un plan ya organizado."
+            },
+            {
+              "texto": "A man is playing the guitar on the corner.",
+              "correcta": false,
+              "porque": "Eso pasa ahora mismo, mientras Diego escribe."
+            },
+            {
+              "texto": "I'm writing this postcard in the sun.",
+              "correcta": false,
+              "porque": "Es lo que Diego hace en este momento."
+            }
+          ]
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca Portuguese.",
+            "¿La oración es afirmativa o negativa?",
+            "Don't understand much = no entiende mucho."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: Diego escribe I don't understand much Portuguese. Por eso le alivia que mucha gente hable inglés."
+          },
+          "pregunta": "Diego speaks Portuguese well.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: dice I don't understand much Portuguese."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: I don't understand much Portuguese."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el cuarto párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca Mrs. Costa.",
+            "Mira el verbo makes y la expresión de tiempo.",
+            "Every morning = todas las mañanas."
+          ],
+          "solucion": {
+            "respuesta": "Verdadero",
+            "explicacion": "Es verdadero: The owner, Mrs. Costa, makes fresh bread every morning. Presente simple + every morning = hábito."
+          },
+          "pregunta": "Mrs. Costa makes bread every morning.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": true,
+              "porque": "Correcto: makes fresh bread every morning. Es un hábito."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto lo dice con esas mismas palabras."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el tercer párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué adjetivos describen el hotel?",
+            "Small y in the old town, ¿hablan del precio?",
+            "Sin dato de precio, la respuesta es «No se dice»."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: el hotel es small y está in the old town, pero no hay ninguna información sobre su precio."
+          },
+          "pregunta": "Diego's hotel is expensive.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice nada del precio del hotel."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice que sea barato."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos que es pequeño y que está en el centro histórico, pero no cuánto cuesta."
+            }
+          ]
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con la forma correcta de play.",
+          "pistas": [
+            "Right now indica una acción en curso.",
+            "El sujeto es a man (tercera persona). Necesitas dos palabras.",
+            "Presente continuo: is + verbo con -ing."
+          ],
+          "solucion": {
+            "respuesta": "is playing",
+            "explicacion": "La respuesta es is playing: right now indica que la acción ocurre en este momento, así que se usa el presente continuo (is + playing)."
+          },
+          "frase": "Right now, a man ___ the guitar on the corner.",
+          "respuestas": [
+            [
+              "is playing"
+            ]
+          ],
+          "traduccion": "Justo ahora, un hombre está tocando la guitarra en la esquina.",
+          "errores_tipicos": {
+            "plays": "Plays es presente simple (hábito). Right now pide el continuo: is playing.",
+            "playing": "Falta el verbo be: a man is playing.",
+            "is play": "Después de is, el verbo va con -ing: is playing."
+          }
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa stay y a small hotel.",
+          "pistas": [
+            "Es una situación temporal que ocurre ahora.",
+            "Usa be + -ing. El adjetivo va antes del sustantivo.",
+            "I'm + staying + in/at + a small hotel."
+          ],
+          "solucion": {
+            "respuesta": "I'm staying in a small hotel.",
+            "explicacion": "La respuesta es I'm staying in a small hotel: es una situación temporal (solo durante el viaje), por eso va en presente continuo, y el adjetivo small va antes de hotel."
+          },
+          "es": "Me estoy quedando en un hotel pequeño.",
+          "respuestas": [
+            "I'm staying in a small hotel.",
+            "I'm staying at a small hotel."
+          ],
+          "errores_tipicos": {
+            "I stay in a small hotel.": "El presente simple indicaría una costumbre. Es algo temporal: I'm staying.",
+            "I'm staying in a hotel small.": "En inglés el adjetivo va antes del sustantivo: a small hotel."
+          }
+        },
+        {
+          "id": "lectura.postal-desde-lisboa.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Es un plan: presente continuo.",
+            "Sujeto con be + verbo en -ing + home.",
+            "La expresión de tiempo va al final (o al principio)."
+          ],
+          "solucion": {
+            "respuesta": "I'm flying home on Monday.",
+            "explicacion": "El orden es I'm flying home on Monday: presente continuo para un plan con fecha fija. Home va sin to después de fly. La expresión on Monday también puede ir al principio."
+          },
+          "fichas": [
+            "flying",
+            "Monday",
+            "I'm",
+            "home",
+            "on"
+          ],
+          "respuestas": [
+            "I'm flying home on Monday.",
+            "On Monday I'm flying home."
+          ],
+          "traduccion": "Regreso a casa en avión el lunes."
+        }
+      ]
+    },
+    {
+      "slug": "hot-cakes-del-sabado",
+      "titulo": "Los hot cakes del sábado",
+      "nivel": "A2",
+      "unidad": "contables-e-incontables",
+      "resumen": "Grace revisa su cocina antes de preparar hot cakes, hace su lista de compras y explica su receta.",
+      "antes_de_leer": "Clasifica los alimentos del texto en dos columnas: los que se pueden contar (eggs, bananas, pancakes) y los que no (milk, flour, butter, honey). Luego observa qué palabra acompaña a cada grupo: some, any, much, many, a few, a little.",
+      "parrafos": [
+        {
+          "en": "Every Saturday morning, I make pancakes for my family. Today, before breakfast, I'm checking the kitchen. Do we have everything?",
+          "es": "Todos los sábados en la mañana preparo hot cakes para mi familia. Hoy, antes del desayuno, estoy revisando la cocina. ¿Tenemos todo?"
+        },
+        {
+          "en": "We have some flour and a lot of sugar, but there isn't much milk, just a little. There are a few eggs in the fridge, but not many: only two, and I need three. We don't have any butter, and there aren't any bananas.",
+          "es": "Tenemos algo de harina y mucha azúcar, pero no hay mucha leche, solo un poco. Hay unos cuantos huevos en el refrigerador, pero no muchos: solo dos, y necesito tres. No tenemos mantequilla y no hay plátanos."
+        },
+        {
+          "en": "So here's my shopping list: milk, six eggs, some butter, four bananas and some honey.",
+          "es": "Así que esta es mi lista de compras: leche, seis huevos, mantequilla, cuatro plátanos y miel."
+        },
+        {
+          "en": "My recipe is very simple. First, I put two cups of flour, a little sugar and a little salt in a big bowl. Then I add three eggs and some milk, and I mix everything. After that, I heat a little butter in a pan and cook the pancakes, one by one. How many pancakes do I make? About twelve! Finally, I put some banana and a little honey on top.",
+          "es": "Mi receta es muy sencilla. Primero, pongo dos tazas de harina, un poco de azúcar y un poco de sal en un tazón grande. Luego agrego tres huevos y leche, y lo mezclo todo. Después caliento un poco de mantequilla en un sartén y cocino los hot cakes uno por uno. ¿Cuántos hot cakes preparo? ¡Unos doce! Por último, les pongo plátano y un poco de miel encima."
+        },
+        {
+          "en": "My children love pancakes with a lot of honey. My husband doesn't eat much sugar, so he has his pancakes with a little cheese. Strange, but true!",
+          "es": "A mis hijos les encantan los hot cakes con mucha miel. Mi esposo no come mucha azúcar, así que se come los suyos con un poco de queso. ¡Raro, pero cierto!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "pancake",
+          "es": "hot cake, panqueque",
+          "nota": "Contable: a pancake, twelve pancakes."
+        },
+        {
+          "en": "flour",
+          "es": "harina",
+          "nota": "Incontable. Suena igual que flower (flor): /ˈflaʊər/."
+        },
+        {
+          "en": "fridge",
+          "es": "refrigerador",
+          "nota": "Forma corta y coloquial de refrigerator."
+        },
+        {
+          "en": "butter",
+          "es": "mantequilla",
+          "nota": "Incontable: some butter, nunca «a butter»."
+        },
+        {
+          "en": "honey",
+          "es": "miel",
+          "nota": "Incontable. También es una forma cariñosa de llamar a alguien."
+        },
+        {
+          "en": "shopping list",
+          "es": "lista de compras"
+        },
+        {
+          "en": "a cup of",
+          "es": "una taza de",
+          "nota": "Una medida para contar algo incontable. La verás a fondo en la unidad de envases y medidas."
+        },
+        {
+          "en": "bowl",
+          "es": "tazón"
+        },
+        {
+          "en": "pan",
+          "es": "sartén"
+        },
+        {
+          "en": "on top",
+          "es": "encima"
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Some en afirmaciones, any en negaciones y preguntas",
+          "texto": "[[We have some flour]] (afirmativa) frente a [[We don't have any butter]] y [[there aren't any bananas]] (negativas). Some y any funcionan con incontables (flour, butter) y con plurales (bananas). En español a menudo no se traducen.",
+          "ejemplo": "We have some flour, but we don't have any butter."
+        },
+        {
+          "titulo": "Much con incontables, many con plurales",
+          "texto": "En negaciones y preguntas: [[much]] + incontable ([[there isn't much milk]]) y [[many]] + plural ([[not many eggs]], [[How many pancakes?]]). En afirmativas se prefiere [[a lot of]] para los dos: [[a lot of sugar]], [[a lot of honey]].",
+          "ejemplo": "There isn't much milk. How many pancakes do I make?"
+        },
+        {
+          "titulo": "A few y a little: «unos pocos», «un poco»",
+          "texto": "[[A few]] va con plurales ([[a few eggs]]) y [[a little]] con incontables ([[a little salt]], [[a little honey]]). Ojo: sin a, few y little tienen un sentido más negativo («pocos, casi nada»).",
+          "ejemplo": "There are a few eggs. / I heat a little butter."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.hot-cakes-del-sabado.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Piensa en lo que hace cada párrafo.",
+            "Párrafo 2: qué hay; párrafo 3: la lista; párrafo 4: la receta.",
+            "El texto sigue el orden de una mañana de cocina."
+          ],
+          "solucion": {
+            "respuesta": "Revisa qué ingredientes tiene, hace una lista y explica su receta.",
+            "explicacion": "Grace revisa su cocina (I'm checking the kitchen), escribe su lista de compras (here's my shopping list) y explica su receta (My recipe is very simple)."
+          },
+          "pregunta": "¿Qué hace Grace en el texto?",
+          "opciones": [
+            {
+              "texto": "Revisa qué ingredientes tiene, hace una lista y explica su receta.",
+              "correcta": true,
+              "porque": "Correcto: son los tres pasos del texto, en ese orden."
+            },
+            {
+              "texto": "Cuenta una visita a un restaurante.",
+              "correcta": false,
+              "porque": "Todo ocurre en su cocina; no hay ningún restaurante."
+            },
+            {
+              "texto": "Se queja de que a su familia no le gusta su comida.",
+              "correcta": false,
+              "porque": "Al contrario: a sus hijos les encantan los hot cakes."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.02",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca eggs en el segundo párrafo.",
+            "Lee lo que viene después de not many.",
+            "Compara los que tiene con los que necesita la receta."
+          ],
+          "solucion": {
+            "respuesta": "Porque tiene dos y la receta necesita tres.",
+            "explicacion": "Los necesita porque solo tiene dos (only two) y la receta lleva tres (I add three eggs). A few eggs = unos cuantos, pero no suficientes."
+          },
+          "pregunta": "Grace ya tiene huevos. ¿Por qué los pone en la lista de compras?",
+          "opciones": [
+            {
+              "texto": "Porque tiene dos y la receta necesita tres.",
+              "correcta": true,
+              "porque": "Correcto: only two, and I need three."
+            },
+            {
+              "texto": "Porque los huevos del refrigerador están viejos.",
+              "correcta": false,
+              "porque": "El texto no dice nada del estado de los huevos."
+            },
+            {
+              "texto": "Porque su esposo come muchos huevos.",
+              "correcta": false,
+              "porque": "Del esposo solo sabemos que no come mucha azúcar."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca milk.",
+            "Mira la palabra que va antes: much, con not.",
+            "There isn't much = no hay mucho."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: there isn't much milk, just a little. Por eso la leche aparece en la lista de compras."
+          },
+          "pregunta": "There's a lot of milk in the kitchen.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: there isn't much milk, just a little."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: there isn't much milk, just a little."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el segundo párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.04",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Lee el último párrafo.",
+            "Distingue entre my children y my husband.",
+            "He y his se refieren a una sola persona; my children, a varias. ¿Quién es he en ese párrafo?"
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: My children love pancakes with a lot of honey. El queso es para el esposo: he has his pancakes with a little cheese."
+          },
+          "pregunta": "Grace's children eat their pancakes with cheese.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: el queso es para el esposo; los niños prefieren mucha miel."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: los niños los comen with a lot of honey; el que los come con queso es el esposo."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: el último párrafo explica cómo los come cada uno."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca los días de la semana en el texto.",
+            "Solo aparece uno: Saturday.",
+            "Que diga «los sábados» no significa que niegue otros días."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: Every Saturday morning, I make pancakes. El texto no habla de los domingos, ni para decir que sí ni para decir que no."
+          },
+          "pregunta": "Grace makes pancakes on Sundays, too.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto solo menciona los sábados."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice que no los haga los domingos."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos que los hace todos los sábados; de los domingos no hay información."
+            }
+          ]
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con some o any.",
+          "pistas": [
+            "Una parte de la oración es afirmativa y la otra negativa.",
+            "Primer hueco: we have (afirmativa). Segundo: we don't have (negativa).",
+            "Some en afirmativas; any en negativas y preguntas."
+          ],
+          "solucion": {
+            "respuesta": "some / any",
+            "explicacion": "Las respuestas son some y any: some en la parte afirmativa (We have some flour) y any en la negativa (we don't have any butter)."
+          },
+          "frase": "We have ___ flour, but we don't have ___ butter.",
+          "respuestas": [
+            [
+              "some"
+            ],
+            [
+              "any"
+            ]
+          ],
+          "traduccion": "Tenemos algo de harina, pero no tenemos mantequilla.",
+          "banco": [
+            "some",
+            "any"
+          ],
+          "errores_tipicos": {
+            "any | some": "Están al revés: some en afirmativas (we have) y any en negativas (we don't have).",
+            "some | some": "En negativas se usa any: we don't have any butter."
+          }
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.07",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con much o many.",
+          "pistas": [
+            "Pregúntate si cada alimento se puede contar.",
+            "Milk: incontable. Eggs: plural contable.",
+            "Much + incontable; many + plural."
+          ],
+          "solucion": {
+            "respuesta": "much / many",
+            "explicacion": "Las respuestas son much y many: milk es incontable (much) y eggs es un plural contable (many)."
+          },
+          "frase": "There isn't ___ milk, and there aren't ___ eggs.",
+          "respuestas": [
+            [
+              "much"
+            ],
+            [
+              "many"
+            ]
+          ],
+          "traduccion": "No hay mucha leche y no hay muchos huevos.",
+          "errores_tipicos": {
+            "many | much": "Están al revés: milk es incontable (much) y eggs es contable plural (many).",
+            "many | many": "Milk es incontable, así que no admite many: se dice much milk."
+          }
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.08",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa a few y the fridge.",
+          "pistas": [
+            "Eggs es plural: el «hay» es plural.",
+            "Unos cuantos con un plural = a few.",
+            "There are + a few + eggs + in the fridge."
+          ],
+          "solucion": {
+            "respuesta": "There are a few eggs in the fridge.",
+            "explicacion": "La respuesta es There are a few eggs in the fridge: there are porque eggs es plural, y a few porque acompaña a un contable en plural."
+          },
+          "es": "Hay unos cuantos huevos en el refrigerador.",
+          "respuestas": [
+            "There are a few eggs in the fridge.",
+            "In the fridge there are a few eggs."
+          ],
+          "errores_tipicos": {
+            "There are a little eggs in the fridge.": "A little va con incontables. Con plurales como eggs se usa a few.",
+            "There is a few eggs in the fridge.": "Eggs es plural: there are, no there is."
+          }
+        },
+        {
+          "id": "lectura.hot-cakes-del-sabado.09",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la pregunta.",
+          "pistas": [
+            "Pregunta por una cantidad de algo contable.",
+            "How many + sustantivo plural va junto al principio.",
+            "How many + plural + do + sujeto + verbo."
+          ],
+          "solucion": {
+            "respuesta": "How many pancakes do I make?",
+            "explicacion": "El orden es How many pancakes do I make?: how many va con un plural contable (pancakes) y ambos van juntos al principio; después, el auxiliar do, el sujeto y el verbo."
+          },
+          "fichas": [
+            "How",
+            "many",
+            "I",
+            "do",
+            "make",
+            "pancakes"
+          ],
+          "respuestas": [
+            "How many pancakes do I make?"
+          ],
+          "traduccion": "¿Cuántos hot cakes preparo?"
+        }
+      ]
+    },
+    {
+      "slug": "voluntarios-para-el-festival",
+      "titulo": "Se buscan voluntarios",
+      "nivel": "A2",
+      "unidad": "can",
+      "resumen": "Un festival de verano busca voluntarios y explica qué habilidades necesita, qué ofrece y cómo apuntarse.",
+      "antes_de_leer": "El anuncio usa can de tres maneras: para preguntar por habilidades (Can you cook?), para decir lo que alguien sabe hacer y para dar permiso u opciones (You can choose…). Al leer, piensa en qué tarea le darías a alguien que conoces.",
+      "parrafos": [
+        {
+          "en": "Volunteers wanted for the Green Park Summer Festival! Do you like helping people? Are you free on July twelfth and thirteenth? We need forty volunteers, and we want you!",
+          "es": "¡Se buscan voluntarios para el Festival de Verano de Green Park! ¿Te gusta ayudar a la gente? ¿Estás libre el 12 y el 13 de julio? Necesitamos cuarenta voluntarios, ¡y te queremos a ti!"
+        },
+        {
+          "en": "We have jobs for all kinds of people. You don't need any experience, but some skills are very useful.",
+          "es": "Tenemos tareas para todo tipo de personas. No necesitas experiencia, pero algunas habilidades son muy útiles."
+        },
+        {
+          "en": "Can you speak another language? A lot of visitors come from other countries, and they often need help. We need Spanish, French and Chinese speakers at the information desk. Can you cook? Our food tent needs six people in the kitchen. Are you good with children? In the family area, volunteers paint faces and play games with children. Can you drive? We need four drivers with a license. They take chairs and tables from our office to the park.",
+          "es": "¿Hablas otro idioma? Muchos visitantes vienen de otros países y a menudo necesitan ayuda. Necesitamos personas que hablen español, francés y chino en el módulo de información. ¿Sabes cocinar? Nuestra carpa de comida necesita seis personas en la cocina. ¿Se te dan bien los niños? En la zona familiar, los voluntarios pintan caritas y juegan con los niños. ¿Sabes manejar? Necesitamos cuatro conductores con licencia. Llevan sillas y mesas de nuestra oficina al parque."
+        },
+        {
+          "en": "All volunteers are sixteen or older. You can choose your hours: mornings, from eight to one, or afternoons, from one to six. Every volunteer gets a free T-shirt, a free lunch and two tickets for the evening concert.",
+          "es": "Todos los voluntarios tienen dieciséis años o más. Puedes elegir tu horario: mañanas, de ocho a una, o tardes, de una a seis. Cada voluntario recibe una camiseta gratis, una comida gratis y dos boletos para el concierto de la noche."
+        },
+        {
+          "en": "How can you join? You can write to Sam at the festival office. Your email needs three things: your name, your age and your skills. Can you bring a friend? Yes, of course you can!",
+          "es": "¿Cómo puedes participar? Puedes escribirle a Sam a la oficina del festival. Tu correo necesita tres cosas: tu nombre, tu edad y tus habilidades. ¿Puedes traer a un amigo? ¡Claro que sí!"
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "volunteer",
+          "es": "voluntario, voluntaria",
+          "nota": "Acento al final: vol-un-TEER /ˌvɑːlənˈtɪr/."
+        },
+        {
+          "en": "wanted",
+          "es": "se busca(n)",
+          "nota": "Típico de los anuncios: Volunteers wanted, Waiter wanted."
+        },
+        {
+          "en": "skill",
+          "es": "habilidad"
+        },
+        {
+          "en": "useful",
+          "es": "útil"
+        },
+        {
+          "en": "information desk",
+          "es": "módulo de información"
+        },
+        {
+          "en": "tent",
+          "es": "carpa, tienda de campaña"
+        },
+        {
+          "en": "be good with children",
+          "es": "tener buena mano con los niños"
+        },
+        {
+          "en": "paint faces",
+          "es": "pintar caritas"
+        },
+        {
+          "en": "license",
+          "es": "licencia de manejo",
+          "nota": "Driver's license en EE. UU.; en Reino Unido se escribe licence."
+        },
+        {
+          "en": "join",
+          "es": "unirse, participar"
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Can para preguntar por habilidades",
+          "texto": "Para preguntar si alguien sabe hacer algo, can va antes del sujeto: [[Can you cook?]], [[Can you drive?]] El verbo que sigue va en forma base, sin to y sin -s. La respuesta corta es [[Yes, I can]] o [[No, I can't]].",
+          "ejemplo": "Can you speak another language?"
+        },
+        {
+          "titulo": "Can para permiso y opciones",
+          "texto": "[[You can choose your hours]] y [[You can write to Sam]] no hablan de habilidad, sino de lo que está permitido o es posible. Es el mismo can, que nunca cambia: I can, you can, she can.",
+          "ejemplo": "Can you bring a friend? Yes, of course you can!"
+        },
+        {
+          "titulo": "Saber + verbo = can",
+          "texto": "«¿Sabes cocinar?» no se traduce con know: se dice [[Can you cook?]] Know se usa para saber información (I know the answer), no para una habilidad.",
+          "ejemplo": "Can you drive? (no: Do you know drive?)"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.voluntarios-para-el-festival.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Lee el título.",
+            "Volunteers wanted = se buscan voluntarios.",
+            "El resto explica qué tareas hay y cómo participar."
+          ],
+          "solucion": {
+            "respuesta": "Para buscar voluntarios para un festival.",
+            "explicacion": "El texto busca voluntarios: lo dice la primera frase (Volunteers wanted) y luego detalla las tareas, las condiciones y cómo apuntarse."
+          },
+          "pregunta": "¿Para qué es este texto?",
+          "opciones": [
+            {
+              "texto": "Para buscar voluntarios para un festival.",
+              "correcta": true,
+              "porque": "Correcto: Volunteers wanted… We need forty volunteers."
+            },
+            {
+              "texto": "Para vender boletos de un concierto.",
+              "correcta": false,
+              "porque": "Los boletos del concierto son un regalo para los voluntarios, no algo en venta."
+            },
+            {
+              "texto": "Para ofrecer empleos con sueldo.",
+              "correcta": false,
+              "porque": "Son voluntarios: reciben camiseta, comida y boletos, pero el texto no habla de sueldo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.02",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Relaciona cada dato de Omar con un requisito del texto.",
+            "Busca Spanish y license.",
+            "Descarta primero las tareas que Omar no puede hacer (licencia, edad) y busca una en la que sirvan sus idiomas."
+          ],
+          "solucion": {
+            "respuesta": "Ayudar en el módulo de información.",
+            "explicacion": "Le queda el módulo de información: el festival busca Spanish… speakers at the information desk. No puede ser conductor porque no tiene licencia, y su edad (17) cumple con sixteen or older."
+          },
+          "pregunta": "Omar tiene 17 años, habla español e inglés y no tiene licencia de manejo. ¿Qué tarea le queda mejor?",
+          "opciones": [
+            {
+              "texto": "Ayudar en el módulo de información.",
+              "correcta": true,
+              "porque": "Correcto: buscan hablantes de español en el information desk, y Omar tiene la edad mínima."
+            },
+            {
+              "texto": "Llevar sillas y mesas en carro.",
+              "correcta": false,
+              "porque": "Para eso piden drivers with a license, y Omar no tiene licencia."
+            },
+            {
+              "texto": "Ninguna: es demasiado joven.",
+              "correcta": false,
+              "porque": "La edad mínima es dieciséis (sixteen or older) y Omar tiene diecisiete."
+            }
+          ]
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.03",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Está en el primer párrafo.",
+            "Busca We need…",
+            "Ojo: forty y fourteen suenan parecido; en fourteen el acento cae al final (four-TEEN)."
+          ],
+          "solucion": {
+            "respuesta": "Cuarenta.",
+            "explicacion": "Necesitan cuarenta: We need forty volunteers. Ojo con forty (40) y fourteen (14): en fourteen el acento cae al final."
+          },
+          "pregunta": "¿Cuántos voluntarios necesita el festival en total?",
+          "opciones": [
+            {
+              "texto": "Cuarenta.",
+              "correcta": true,
+              "porque": "Correcto: We need forty volunteers."
+            },
+            {
+              "texto": "Catorce.",
+              "correcta": false,
+              "porque": "Fourteen sería catorce; el texto dice forty."
+            },
+            {
+              "texto": "Seis.",
+              "correcta": false,
+              "porque": "Seis son los que necesita la cocina (six people in the kitchen)."
+            }
+          ]
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca experience.",
+            "Mira si hay una negación antes.",
+            "Don't need = no necesitas."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: You don't need any experience. Las habilidades son útiles, pero no obligatorias."
+          },
+          "pregunta": "You need experience to be a volunteer.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: el texto dice You don't need any experience."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: You don't need any experience."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el segundo párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca el nombre Sam.",
+            "¿Qué dice el texto de Sam, aparte de dónde escribirle?",
+            "Si el texto no da el dato, no podemos confirmarlo ni negarlo."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: solo sabemos que se le puede escribir a Sam a la oficina del festival (You can write to Sam at the festival office). El texto no dice cuál es su puesto."
+          },
+          "pregunta": "Sam is the festival director.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice qué puesto tiene Sam."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice que Sam tenga otro puesto."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: sabemos que Sam está en la oficina del festival, pero no si es el director."
+            }
+          ]
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.06",
+          "tipo": "completar",
+          "dificultad": 1,
+          "enunciado": "Completa con la forma correcta de can.",
+          "pistas": [
+            "Can es igual con todos los sujetos.",
+            "El sujeto es plural, pero eso no cambia can.",
+            "Can nunca lleva -s ni to después."
+          ],
+          "solucion": {
+            "respuesta": "can",
+            "explicacion": "La respuesta es can: es un verbo modal que no cambia con el sujeto (I can, they can, she can) y va seguido del verbo en forma base (paint)."
+          },
+          "frase": "In the family area, some volunteers ___ paint faces.",
+          "respuestas": [
+            [
+              "can"
+            ]
+          ],
+          "traduccion": "En la zona familiar, algunos voluntarios saben pintar caritas.",
+          "errores_tipicos": {
+            "cans": "Can nunca lleva -s: es igual con todos los sujetos.",
+            "can to": "Después de can el verbo va sin to: can paint."
+          }
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.07",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa can.",
+          "pistas": [
+            "Saber hacer algo = habilidad.",
+            "La habilidad se expresa con can; aquí en negativa.",
+            "Sujeto + can't + verbo en forma base."
+          ],
+          "solucion": {
+            "respuesta": "I can't cook.",
+            "explicacion": "La respuesta es I can't cook: «saber hacer algo» es una habilidad y se expresa con can; la negación es can't (cannot) y el verbo va en forma base."
+          },
+          "es": "No sé cocinar.",
+          "respuestas": [
+            "I can't cook.",
+            "I cannot cook."
+          ],
+          "errores_tipicos": {
+            "I don't know cook.": "Es un calco del español. Una habilidad se expresa con can: I can't cook.",
+            "I can't to cook.": "Después de can't el verbo va sin to: I can't cook.",
+            "I don't can cook.": "Can no usa do para negar: la negación es can't."
+          }
+        },
+        {
+          "id": "lectura.voluntarios-para-el-festival.08",
+          "tipo": "ordenar",
+          "dificultad": 1,
+          "enunciado": "Ordena la pregunta.",
+          "pistas": [
+            "Es una pregunta sobre una habilidad.",
+            "Can va antes del sujeto.",
+            "Can + sujeto + verbo base + complemento."
+          ],
+          "solucion": {
+            "respuesta": "Can you speak another language?",
+            "explicacion": "El orden es Can you speak another language?: en las preguntas can va antes del sujeto (you) y el verbo speak va en forma base."
+          },
+          "fichas": [
+            "speak",
+            "language",
+            "another",
+            "you",
+            "Can"
+          ],
+          "respuestas": [
+            "Can you speak another language?"
+          ],
+          "traduccion": "¿Hablas otro idioma?"
+        }
+      ]
+    },
+    {
+      "slug": "el-peor-viaje",
+      "titulo": "El peor viaje de nuestra vida",
+      "nivel": "A2",
+      "unidad": "pasado-simple-irregular",
+      "resumen": "Carlos cuenta un fin de semana en la costa en el que todo salió mal… y por qué ahora es su historia favorita.",
+      "antes_de_leer": "Es una narración en pasado. Haz una lista de los verbos irregulares que encuentres (went, got, took, saw…) y escribe al lado su forma base. Fíjate también en las negaciones: después de didn't el verbo vuelve a su forma base.",
+      "parrafos": [
+        {
+          "en": "Last summer, my friend Tom and I went to the coast for a long weekend. We planned everything carefully. Or that's what we thought.",
+          "es": "El verano pasado, mi amigo Tom y yo fuimos a la costa para un fin de semana largo. Lo planeamos todo con cuidado. O eso creímos."
+        },
+        {
+          "en": "On Friday, we got up at five o'clock and took a taxi to the train station. But when we arrived, we saw a sign on the door: no trains today. There was a problem with the tracks. So we took a bus. The bus was slow and very hot, and the trip took seven hours, not three.",
+          "es": "El viernes nos levantamos a las cinco y tomamos un taxi a la estación de tren. Pero cuando llegamos, vimos un letrero en la puerta: hoy no hay trenes. Había un problema con la vía. Así que tomamos un autobús. El autobús era lento y hacía mucho calor, y el viaje duró siete horas, no tres."
+        },
+        {
+          "en": "When we finally arrived, it was dark, and we couldn't find our hotel. We walked around the town for an hour with our heavy bags. At last, a kind woman showed us the way. At the hotel, the receptionist looked at her computer and said, \"I'm sorry, but there's no reservation for you.\" Tom made the reservation, but he chose the wrong month! There weren't any free rooms, so we slept in a tiny room above a noisy bar.",
+          "es": "Cuando por fin llegamos, era de noche y no pudimos encontrar nuestro hotel. Dimos vueltas por el pueblo durante una hora con nuestras maletas pesadas. Al final, una señora amable nos indicó el camino. En el hotel, la recepcionista miró su computadora y dijo: «Lo siento, pero no hay ninguna reservación a su nombre». Tom hizo la reservación… ¡pero eligió el mes equivocado! No había cuartos libres, así que dormimos en un cuartito encima de un bar ruidoso."
+        },
+        {
+          "en": "On Saturday, it rained all day. We didn't swim, and we didn't see the sun. We spent the afternoon in a café and played cards.",
+          "es": "El sábado llovió todo el día. No nadamos y no vimos el sol. Pasamos la tarde en un café jugando cartas."
+        },
+        {
+          "en": "On Sunday, the sky was blue at last, and we went to the beach. Tom fell asleep in the sun and didn't wake up for two hours. He got very red, and he couldn't sleep that night.",
+          "es": "El domingo, por fin, el cielo estaba azul y fuimos a la playa. Tom se quedó dormido al sol y no se despertó en dos horas. Se puso muy rojo y esa noche no pudo dormir."
+        },
+        {
+          "en": "Was it a bad trip? Yes, it was terrible! But now, when we remember it, we laugh a lot. It's our favorite story.",
+          "es": "¿Fue un mal viaje? ¡Sí, fue terrible! Pero ahora, cuando lo recordamos, nos reímos mucho. Es nuestra historia favorita."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "coast",
+          "es": "costa"
+        },
+        {
+          "en": "carefully",
+          "es": "con cuidado"
+        },
+        {
+          "en": "sign",
+          "es": "letrero, cartel"
+        },
+        {
+          "en": "heavy",
+          "es": "pesado"
+        },
+        {
+          "en": "at last",
+          "es": "por fin, al final",
+          "nota": "Expresa alivio después de esperar mucho."
+        },
+        {
+          "en": "show someone the way",
+          "es": "indicarle el camino a alguien"
+        },
+        {
+          "en": "wrong",
+          "es": "equivocado, incorrecto"
+        },
+        {
+          "en": "tiny",
+          "es": "diminuto, muy pequeño"
+        },
+        {
+          "en": "noisy",
+          "es": "ruidoso"
+        },
+        {
+          "en": "fall asleep",
+          "es": "quedarse dormido",
+          "nota": "Pasado irregular: fell asleep."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Pasados irregulares",
+          "texto": "Muchos verbos frecuentes no añaden -ed: go → [[went]], get → [[got]], take → [[took]], see → [[saw]], say → [[said]], make → [[made]], choose → [[chose]], sleep → [[slept]], spend → [[spent]], fall → [[fell]]. Hay que aprenderlos de memoria, pero son iguales para todos los sujetos.",
+          "ejemplo": "We took a bus. Tom chose the wrong month."
+        },
+        {
+          "titulo": "Didn't + forma base",
+          "texto": "En la negación, el auxiliar [[didn't]] ya lleva el pasado, así que el verbo vuelve a su forma base: [[we didn't see]] (no «didn't saw»), [[didn't wake up]].",
+          "ejemplo": "We didn't swim, and we didn't see the sun."
+        },
+        {
+          "titulo": "Couldn't y there weren't",
+          "texto": "[[Couldn't]] es el pasado negativo de can: [[we couldn't find our hotel]], [[he couldn't sleep]]. Y [[there weren't any]] es el pasado de there aren't any.",
+          "ejemplo": "There weren't any free rooms."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.el-peor-viaje.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Lee el título y el último párrafo.",
+            "Busca la respuesta a Was it a bad trip?",
+            "Terrible, pero ahora se ríen."
+          ],
+          "solucion": {
+            "respuesta": "Un viaje en el que casi todo salió mal.",
+            "explicacion": "Es la historia de un viaje desastroso: el tren no salió, perdieron la reservación, llovió y Tom se quemó. Carlos lo resume con Yes, it was terrible!"
+          },
+          "pregunta": "¿Qué tipo de historia cuenta Carlos?",
+          "opciones": [
+            {
+              "texto": "Un viaje en el que casi todo salió mal.",
+              "correcta": true,
+              "porque": "Correcto: problemas de tren, hotel, lluvia y sol, uno tras otro."
+            },
+            {
+              "texto": "Unas vacaciones perfectas en la playa.",
+              "correcta": false,
+              "porque": "El texto dice lo contrario: Yes, it was terrible!"
+            },
+            {
+              "texto": "El día en que conoció a Tom.",
+              "correcta": false,
+              "porque": "Tom ya era su amigo antes del viaje (my friend Tom)."
+            }
+          ]
+        },
+        {
+          "id": "lectura.el-peor-viaje.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca train station.",
+            "¿Qué vieron en la puerta?",
+            "Lee la oración que empieza con There was a problem…"
+          ],
+          "solucion": {
+            "respuesta": "Porque ese día no había trenes por un problema en la vía.",
+            "explicacion": "No tomaron el tren porque había un problema con la vía: we saw a sign on the door: no trains today. There was a problem with the tracks."
+          },
+          "pregunta": "¿Por qué no tomaron el tren?",
+          "opciones": [
+            {
+              "texto": "Porque ese día no había trenes por un problema en la vía.",
+              "correcta": true,
+              "porque": "Correcto: no trains today. There was a problem with the tracks."
+            },
+            {
+              "texto": "Porque llegaron tarde a la estación.",
+              "correcta": false,
+              "porque": "Se levantaron a las cinco; el problema era de la línea, no de ellos."
+            },
+            {
+              "texto": "Porque el tren era muy caro.",
+              "correcta": false,
+              "porque": "El texto no habla del precio del tren."
+            }
+          ]
+        },
+        {
+          "id": "lectura.el-peor-viaje.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca reservation.",
+            "Lee la oración que empieza con Tom made the reservation…",
+            "Wrong month = mes equivocado."
+          ],
+          "solucion": {
+            "respuesta": "Porque Tom reservó para otro mes.",
+            "explicacion": "No había reservación porque Tom eligió el mes equivocado: Tom made the reservation, but he chose the wrong month!"
+          },
+          "pregunta": "¿Por qué no había reservación en el hotel?",
+          "opciones": [
+            {
+              "texto": "Porque Tom reservó para otro mes.",
+              "correcta": true,
+              "porque": "Correcto: he chose the wrong month."
+            },
+            {
+              "texto": "Porque la recepcionista perdió la reservación.",
+              "correcta": false,
+              "porque": "La recepcionista no se equivocó: el error fue de Tom."
+            },
+            {
+              "texto": "Porque llegaron un día tarde.",
+              "correcta": false,
+              "porque": "Llegaron el día previsto; el problema era el mes."
+            }
+          ]
+        },
+        {
+          "id": "lectura.el-peor-viaje.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca On Saturday.",
+            "¿El verbo swim aparece en afirmativa o negativa?",
+            "Didn't swim = no nadaron."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: On Saturday, it rained all day. We didn't swim. Pasaron la tarde jugando cartas."
+          },
+          "pregunta": "They swam in the sea on Saturday.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: On Saturday… We didn't swim."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: el sábado llovió todo el día y no nadaron (We didn't swim)."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice, en el cuarto párrafo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.el-peor-viaje.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca a kind woman.",
+            "¿Qué hizo? ¿Se dice algo de su trabajo?",
+            "Si el texto no lo dice, no podemos confirmarlo ni negarlo."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: a kind woman showed us the way. En el hotel aparece una recepcionista, pero el texto no dice que sea la misma persona."
+          },
+          "pregunta": "The kind woman worked at the hotel.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice quién era la señora."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: el texto no dice que no trabajara ahí."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: solo sabemos que les indicó el camino; no dónde trabajaba."
+            }
+          ]
+        },
+        {
+          "id": "lectura.el-peor-viaje.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el pasado de take.",
+          "pistas": [
+            "Take es un verbo irregular.",
+            "La historia está en pasado; mira got, el otro verbo de la oración.",
+            "Take es irregular: no añade -ed y cambia la vocal (como shake → shook)."
+          ],
+          "solucion": {
+            "respuesta": "took",
+            "explicacion": "La respuesta es took: take es irregular y su pasado es took; no se forma con -ed."
+          },
+          "frase": "We got up at five o'clock and ___ a taxi to the train station.",
+          "respuestas": [
+            [
+              "took"
+            ]
+          ],
+          "traduccion": "Nos levantamos a las cinco y tomamos un taxi a la estación de tren.",
+          "errores_tipicos": {
+            "taked": "Take es irregular: su pasado es took, no taked.",
+            "take": "La historia está en pasado: took."
+          }
+        },
+        {
+          "id": "lectura.el-peor-viaje.07",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa la negación.",
+          "pistas": [
+            "Después de didn't, ¿el verbo va en pasado?",
+            "Didn't ya indica el pasado.",
+            "Didn't + verbo en forma base."
+          ],
+          "solucion": {
+            "respuesta": "see",
+            "explicacion": "La respuesta es see: después de didn't el verbo va en forma base, porque el auxiliar ya lleva el pasado. Didn't saw sería marcar el pasado dos veces."
+          },
+          "frase": "We didn't ___ the sun.",
+          "respuestas": [
+            [
+              "see"
+            ]
+          ],
+          "traduccion": "No vimos el sol.",
+          "errores_tipicos": {
+            "saw": "Después de didn't el verbo va en forma base: didn't see.",
+            "seen": "Seen es el participio; después de didn't va la forma base: see."
+          }
+        },
+        {
+          "id": "lectura.el-peor-viaje.08",
+          "tipo": "traducir",
+          "dificultad": 2,
+          "enunciado": "Traduce al inglés. Usa could y our hotel.",
+          "pistas": [
+            "«No pudimos» es el pasado negativo de can.",
+            "Couldn't + verbo en forma base.",
+            "We + couldn't + find + our hotel."
+          ],
+          "solucion": {
+            "respuesta": "We couldn't find our hotel.",
+            "explicacion": "La respuesta es We couldn't find our hotel: couldn't es el pasado negativo de can y, como todo modal, va seguido del verbo en forma base (find)."
+          },
+          "es": "No pudimos encontrar nuestro hotel.",
+          "respuestas": [
+            "We couldn't find our hotel."
+          ],
+          "errores_tipicos": {
+            "We didn't could find our hotel.": "Could no usa did para negar: la negación es couldn't.",
+            "We couldn't found our hotel.": "Después de couldn't el verbo va en forma base: find.",
+            "We couldn't to find our hotel.": "Después de couldn't no va to: couldn't find."
+          }
+        },
+        {
+          "id": "lectura.el-peor-viaje.09",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena las palabras.",
+          "pistas": [
+            "Empieza por el sujeto.",
+            "Fell asleep es una expresión de dos palabras que va junta.",
+            "Sujeto + fell asleep + lugar."
+          ],
+          "solucion": {
+            "respuesta": "Tom fell asleep in the sun.",
+            "explicacion": "El orden es Tom fell asleep in the sun: sujeto, la expresión fell asleep (pasado irregular de fall asleep) y el lugar al final."
+          },
+          "fichas": [
+            "Tom",
+            "in",
+            "fell",
+            "asleep",
+            "sun",
+            "the"
+          ],
+          "respuestas": [
+            "Tom fell asleep in the sun."
+          ],
+          "traduccion": "Tom se quedó dormido al sol."
+        }
+      ]
+    },
+    {
+      "slug": "mi-primera-carrera",
+      "titulo": "Mi primera carrera",
+      "nivel": "A2",
+      "unidad": "comunicacion-integrada",
+      "resumen": "Lucía le escribe un correo a su amiga Mei para contarle cómo fue su primera carrera de diez kilómetros y proponerle un plan.",
+      "antes_de_leer": "Un correo personal tiene partes: saludo, pregunta por la otra persona, motivo del correo, la historia, un plan o propuesta y la despedida. Identifica cada parte. Después fíjate en cómo cambia el tiempo verbal: pasado para la carrera, presente continuo para lo que hace ahora y could para proponer.",
+      "parrafos": [
+        {
+          "en": "Hi Mei, how are you? I hope you're well and your new job is going OK. Is your boss nice? Thanks for your last email. The photos of your new apartment were lovely!",
+          "es": "Hola, Mei: ¿cómo estás? Espero que estés bien y que tu nuevo trabajo vaya bien. ¿Tu jefe es buena onda? Gracias por tu último correo. ¡Las fotos de tu nuevo departamento estaban preciosas!"
+        },
+        {
+          "en": "I'm writing because I have some big news. On Sunday, I ran my first ten-kilometer race! Can you believe it? A year ago, I couldn't run for five minutes.",
+          "es": "Te escribo porque tengo una gran noticia. ¡El domingo corrí mi primera carrera de diez kilómetros! ¿Puedes creerlo? Hace un año no podía correr ni cinco minutos."
+        },
+        {
+          "en": "The race started at eight in the morning in the city park. There were about six hundred runners, and the atmosphere was amazing. People stood along the streets and shouted our names. At first, I felt great, but after six kilometers my legs started to hurt, and I wanted to stop.",
+          "es": "La carrera empezó a las ocho de la mañana en el parque de la ciudad. Había unos seiscientos corredores y el ambiente era increíble. La gente se paraba a lo largo de las calles y gritaba nuestros nombres. Al principio me sentía genial, pero después de seis kilómetros me empezaron a doler las piernas y quería parar."
+        },
+        {
+          "en": "Then I saw an old man next to me. He was seventy-five years old, and he looked really happy! I thought, \"He's seventy-five, and he isn't stopping. So I'm not stopping either!\"",
+          "es": "Entonces vi a un señor mayor a mi lado. Tenía setenta y cinco años, ¡y se veía feliz! Pensé: «Él tiene setenta y cinco y no se está deteniendo. ¡Así que yo tampoco me detengo!»."
+        },
+        {
+          "en": "I finished in one hour and four minutes. I was so tired and so happy! My brother was at the finish line with a big sign: Go, Lucía! After the race, we went to a café and had a huge breakfast. Then I went home and slept all afternoon!",
+          "es": "Terminé en una hora y cuatro minutos. ¡Estaba cansadísima y felicísima! Mi hermano estaba en la meta con un letrero enorme: ¡Vamos, Lucía! Después de la carrera fuimos a un café y desayunamos muchísimo. ¡Luego me fui a casa y dormí toda la tarde!"
+        },
+        {
+          "en": "Now I'm training for the next race in October. Do you want to run it with me? We could train together on weekends when you visit. Running with a friend is always more fun!",
+          "es": "Ahora estoy entrenando para la próxima carrera, en octubre. ¿Quieres correrla conmigo? Podríamos entrenar juntas los fines de semana cuando vengas. ¡Correr con una amiga siempre es más divertido!"
+        },
+        {
+          "en": "Write back soon and tell me all your news. Love, Lucía.",
+          "es": "Contéstame pronto y cuéntame todas tus novedades. Con cariño, Lucía."
+        }
+      ],
+      "vocabulario": [
+        {
+          "en": "I hope you're well",
+          "es": "espero que estés bien",
+          "nota": "Frase muy común al inicio de un correo."
+        },
+        {
+          "en": "news",
+          "es": "noticia(s), novedades",
+          "nota": "Incontable: some big news, nunca «a news»."
+        },
+        {
+          "en": "race",
+          "es": "carrera (competencia)",
+          "nota": "No es «carrera» universitaria: eso es degree."
+        },
+        {
+          "en": "Can you believe it?",
+          "es": "¿Puedes creerlo?",
+          "nota": "Expresa sorpresa y entusiasmo."
+        },
+        {
+          "en": "atmosphere",
+          "es": "ambiente"
+        },
+        {
+          "en": "amazing",
+          "es": "increíble, impresionante"
+        },
+        {
+          "en": "shout",
+          "es": "gritar"
+        },
+        {
+          "en": "hurt",
+          "es": "doler",
+          "nota": "My legs hurt = me duelen las piernas. El sujeto es la parte del cuerpo."
+        },
+        {
+          "en": "finish line",
+          "es": "meta, línea de llegada"
+        },
+        {
+          "en": "Write back soon",
+          "es": "contéstame pronto",
+          "nota": "Cierre típico de un correo entre amigos."
+        }
+      ],
+      "gramatica": [
+        {
+          "titulo": "Pasado para contar, adjetivos para valorar",
+          "texto": "La historia va en pasado simple ([[I ran]], [[the race started]], [[I saw]], [[I finished]]) y cada momento lleva un adjetivo que dice cómo fue: [[the atmosphere was amazing]], [[I was so tired and so happy]]. Así una experiencia deja de ser una lista de hechos.",
+          "ejemplo": "At first, I felt great, but after six kilometers my legs started to hurt."
+        },
+        {
+          "titulo": "Cambiar de tiempo según el momento",
+          "texto": "El correo salta del pasado (la carrera) al presente continuo ([[Now I'm training]]) y a could para proponer ([[We could train together]]). Cada tiempo responde a una pregunta distinta: ¿qué pasó?, ¿qué hago ahora?, ¿qué propongo?",
+          "ejemplo": "Now I'm training for the next race. We could train together on weekends."
+        },
+        {
+          "titulo": "Registro informal",
+          "texto": "Entre amigas se empieza con [[Hi Mei]] y se termina con [[Love]] o [[Best wishes]]. Las contracciones ([[I'm]], [[you're]], [[isn't]]) y las exclamaciones son normales. En un correo formal se usaría [[Dear…]] y [[Kind regards]].",
+          "ejemplo": "Hi Mei, … Love, Lucía."
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "lectura.mi-primera-carrera.01",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Comprensión global.",
+          "pistas": [
+            "Busca la oración que empieza con I'm writing because…",
+            "Big news = gran noticia.",
+            "El motivo de un correo suele aparecer justo después del saludo."
+          ],
+          "solucion": {
+            "respuesta": "Contarle a Mei que corrió su primera carrera de 10 km.",
+            "explicacion": "El motivo es contar la carrera: Lucía lo dice explícitamente (I'm writing because I have some big news) y dedica la mayor parte del correo a esa experiencia."
+          },
+          "pregunta": "¿Cuál es el motivo principal del correo?",
+          "opciones": [
+            {
+              "texto": "Contarle a Mei que corrió su primera carrera de 10 km.",
+              "correcta": true,
+              "porque": "Correcto: I'm writing because I have some big news. On Sunday, I ran my first ten-kilometer race!"
+            },
+            {
+              "texto": "Agradecerle a Mei las fotos de su departamento.",
+              "correcta": false,
+              "porque": "Lo menciona al principio, pero es un comentario de cortesía, no el motivo."
+            },
+            {
+              "texto": "Invitar a Mei a su casa.",
+              "correcta": false,
+              "porque": "Propone entrenar juntas cuando Mei la visite, pero no la invita a su casa como tema principal."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-primera-carrera.02",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "Busca el dato.",
+          "pistas": [
+            "Busca finished.",
+            "Mira la expresión con in después del verbo.",
+            "Finish in + tiempo = terminar en…"
+          ],
+          "solucion": {
+            "respuesta": "Una hora y cuatro minutos.",
+            "explicacion": "Tardó una hora y cuatro minutos: I finished in one hour and four minutes."
+          },
+          "pregunta": "¿Cuánto tardó Lucía en terminar la carrera?",
+          "opciones": [
+            {
+              "texto": "Una hora y cuatro minutos.",
+              "correcta": true,
+              "porque": "Correcto: I finished in one hour and four minutes."
+            },
+            {
+              "texto": "Cinco minutos.",
+              "correcta": false,
+              "porque": "Cinco minutos es lo que no podía correr hace un año."
+            },
+            {
+              "texto": "Seis horas.",
+              "correcta": false,
+              "porque": "El número seis aparece en six hundred runners y six kilometers, no en el tiempo."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-primera-carrera.03",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación.",
+          "pistas": [
+            "Busca el momento en que quería parar.",
+            "Lee lo que pasa justo después: Then I saw…",
+            "Lee lo que pensó: He's seventy-five, and he isn't stopping."
+          ],
+          "solucion": {
+            "respuesta": "Ver a un señor de setenta y cinco años que corría feliz a su lado.",
+            "explicacion": "La motivó el señor mayor: Then I saw an old man… he looked really happy! Y pensó: He's seventy-five, and he isn't stopping. So I'm not stopping either!"
+          },
+          "pregunta": "¿Qué ayudó a Lucía a no detenerse?",
+          "opciones": [
+            {
+              "texto": "Ver a un señor de setenta y cinco años que corría feliz a su lado.",
+              "correcta": true,
+              "porque": "Correcto: pensó que si él no se detenía, ella tampoco."
+            },
+            {
+              "texto": "El letrero de su hermano.",
+              "correcta": false,
+              "porque": "El letrero estaba en la meta, al final; el momento difícil fue a los seis kilómetros."
+            },
+            {
+              "texto": "Que ya no le dolían las piernas.",
+              "correcta": false,
+              "porque": "El texto no dice que el dolor desapareciera; siguió a pesar de él."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-primera-carrera.04",
+          "tipo": "opcion",
+          "dificultad": 1,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "Busca my brother.",
+            "¿Dónde estaba y qué tenía?",
+            "At the finish line with a sign = esperando en la meta."
+          ],
+          "solucion": {
+            "respuesta": "Falso",
+            "explicacion": "Es falso: su hermano estaba at the finish line with a big sign. Si hubiera corrido, no podría sostener el letrero en la meta."
+          },
+          "pregunta": "Lucía's brother ran the race, too.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "No: su hermano estaba en la meta con un letrero, esperándola."
+            },
+            {
+              "texto": "Falso",
+              "correcta": true,
+              "porque": "Correcto: My brother was at the finish line with a big sign. Estaba animándola, no corriendo."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": false,
+              "porque": "Sí se dice: el texto explica dónde estaba su hermano."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-primera-carrera.05",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "¿Verdadero, falso o el texto no lo dice?",
+          "pistas": [
+            "¿Qué sabemos de Mei en el correo?",
+            "Lucía la invita a correr: ¿dice eso si Mei ya corre o no?",
+            "Una invitación no es un dato: si el texto no lo dice, no es verdadero ni falso."
+          ],
+          "solucion": {
+            "respuesta": "No se dice",
+            "explicacion": "No se dice: de Mei sabemos que tiene un trabajo y un departamento nuevos. Lucía la invita a correr y a entrenar juntas, pero el texto no dice si Mei ya corre."
+          },
+          "pregunta": "Mei runs every weekend.",
+          "opciones": [
+            {
+              "texto": "Verdadero",
+              "correcta": false,
+              "porque": "El texto no dice que Mei corra."
+            },
+            {
+              "texto": "Falso",
+              "correcta": false,
+              "porque": "No es falso: la invitación de Lucía no dice que Mei no corra."
+            },
+            {
+              "texto": "No se dice",
+              "correcta": true,
+              "porque": "Correcto: el correo no da información sobre si Mei corre o no."
+            }
+          ]
+        },
+        {
+          "id": "lectura.mi-primera-carrera.06",
+          "tipo": "completar",
+          "dificultad": 2,
+          "enunciado": "Completa con el pasado de run.",
+          "pistas": [
+            "Run es un verbo irregular.",
+            "On Sunday indica un momento terminado del pasado.",
+            "Run es irregular: no añade -ed, cambia la vocal (como swim → swam)."
+          ],
+          "solucion": {
+            "respuesta": "ran",
+            "explicacion": "La respuesta es ran: on Sunday señala un momento terminado, así que va en pasado simple, y el pasado irregular de run es ran."
+          },
+          "frase": "On Sunday, I ___ my first ten-kilometer race!",
+          "respuestas": [
+            [
+              "ran"
+            ]
+          ],
+          "traduccion": "¡El domingo corrí mi primera carrera de diez kilómetros!",
+          "errores_tipicos": {
+            "runned": "Run es irregular: su pasado es ran.",
+            "run": "Run es la forma base (o el participio). On Sunday pide pasado: ran."
+          }
+        },
+        {
+          "id": "lectura.mi-primera-carrera.07",
+          "tipo": "traducir",
+          "dificultad": 3,
+          "enunciado": "Traduce al inglés. Usa could y empieza con A year ago.",
+          "pistas": [
+            "«Hace un año» se dice con ago, detrás de la cantidad.",
+            "«No podía» = habilidad en el pasado, en negativa.",
+            "A year ago + I + couldn't + run + (for) five minutes."
+          ],
+          "solucion": {
+            "respuesta": "A year ago, I couldn't run for five minutes.",
+            "explicacion": "La respuesta es A year ago, I couldn't run for five minutes: ago va después de la cantidad de tiempo (a year ago) y couldn't expresa una habilidad que no se tenía en el pasado."
+          },
+          "es": "Hace un año, no podía correr cinco minutos.",
+          "respuestas": [
+            "A year ago, I couldn't run for five minutes.",
+            "A year ago, I couldn't run five minutes."
+          ],
+          "errores_tipicos": {
+            "Ago a year, I couldn't run for five minutes.": "Ago va después del periodo: a year ago.",
+            "A year ago, I didn't can run for five minutes.": "El pasado negativo de can es couldn't, sin did.",
+            "A year ago, I couldn't ran for five minutes.": "Después de couldn't el verbo va en forma base: run."
+          }
+        },
+        {
+          "id": "lectura.mi-primera-carrera.08",
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "enunciado": "Ordena la propuesta.",
+          "pistas": [
+            "Es una sugerencia con could.",
+            "Sujeto + could + verbo base.",
+            "La expresión de tiempo (on weekends) va al final o al principio."
+          ],
+          "solucion": {
+            "respuesta": "We could train together on weekends.",
+            "explicacion": "El orden es We could train together on weekends: could + verbo base para proponer, together después del verbo y la expresión de tiempo al final (también puede ir al principio)."
+          },
+          "fichas": [
+            "train",
+            "could",
+            "on",
+            "together",
+            "weekends",
+            "We"
+          ],
+          "respuestas": [
+            "We could train together on weekends.",
+            "On weekends we could train together."
+          ],
+          "traduccion": "Podríamos entrenar juntas los fines de semana."
+        },
+        {
+          "id": "lectura.mi-primera-carrera.09",
+          "tipo": "opcion",
+          "dificultad": 2,
+          "enunciado": "Interpretación: el registro.",
+          "pistas": [
+            "Piensa en la relación entre Lucía y Mei.",
+            "Mira también cómo empieza el correo: Hi Mei.",
+            "Hi… / Love… = registro informal y cercano."
+          ],
+          "solucion": {
+            "respuesta": "Porque Mei es una amiga cercana y el correo es informal.",
+            "explicacion": "Se despide con Love porque es un correo informal a una amiga: igual que el saludo Hi Mei, es cercano y cariñoso, sin sentido romántico."
+          },
+          "pregunta": "¿Por qué Lucía se despide con Love?",
+          "opciones": [
+            {
+              "texto": "Porque Mei es una amiga cercana y el correo es informal.",
+              "correcta": true,
+              "porque": "Correcto: Love es una despedida cariñosa normal entre amigos y familia."
+            },
+            {
+              "texto": "Porque es la despedida correcta en cualquier correo.",
+              "correcta": false,
+              "porque": "En un correo formal sería raro: allí se usa Kind regards o Best regards."
+            },
+            {
+              "texto": "Porque Mei es su novia.",
+              "correcta": false,
+              "porque": "Love como despedida no implica una relación romántica; se usa con amigos y familia."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

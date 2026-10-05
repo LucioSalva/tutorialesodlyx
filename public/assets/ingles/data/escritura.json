@@ -1,0 +1,713 @@
+{
+  "tareas": [
+    {
+      "slug": "presentacion-personal",
+      "titulo": "Preséntate en el foro del curso",
+      "nivel": "A1",
+      "unidad": "paises-y-nacionalidades",
+      "tipo": "escritura",
+      "objetivo": "Escribir un párrafo de presentación personal con nombre, edad, origen, nacionalidad e idiomas, usando to be con su sujeto en cada oración.",
+      "instrucciones": "Tu curso de inglés tiene un foro y cada estudiante nuevo se presenta. Escribe un párrafo de 6 a 9 oraciones. Incluye: 1) tu nombre; 2) tu edad; 3) de dónde eres (ciudad y país); 4) tu nacionalidad; 5) qué idiomas hablas; 6) una o dos cosas más sobre ti, y al menos una en negativo (algo que NO eres); 7) una despedida amable.",
+      "vocabulario_apoyo": [
+        "years old — años (de edad)",
+        "from — de (origen)",
+        "Mexican, Colombian, Peruvian, Chilean… — nacionalidades (con mayúscula)",
+        "Spanish, English, French — idiomas (con mayúscula)",
+        "a little — un poco",
+        "city / country — ciudad / país",
+        "married / single — casado(a) / soltero(a)",
+        "Nice to meet you! — ¡Mucho gusto!"
+      ],
+      "estructuras": [
+        "My name is … / My name's …",
+        "I'm … years old.",
+        "I'm from + ciudad, in + país.",
+        "I'm + nacionalidad. (I'm Mexican.)",
+        "I speak + idioma and a little + idioma.",
+        "I'm not + adjetivo. (I'm not married.)"
+      ],
+      "ejemplo": "This is my friend Kenji. He's twenty-six years old. He's from Osaka, in Japan, so he's Japanese. He speaks Japanese and a little Spanish. He isn't married. He's very friendly!",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Dices tu nombre con My name is o My name's",
+          "patron": "\\bmy name(['’]s| is)\\b"
+        },
+        {
+          "descripcion": "Dices tu edad con be (I'm 34 / I'm thirty-four years old)",
+          "patron": "\\byears old\\b|\\b(i['’]m|i am) (\\d{1,3}|(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(-\\w+)?|eighteen|nineteen)\\b"
+        },
+        {
+          "descripcion": "Dices tu origen con I'm from / I am from",
+          "patron": "\\b(i['’]m|i am) from\\b"
+        },
+        {
+          "descripcion": "Dices tu nacionalidad con I'm + nacionalidad",
+          "patron": "\\b(i['’]m|i am) (mexican|american|canadian|colombian|argentinian|argentine|peruvian|chilean|cuban|venezuelan|guatemalan|ecuadorian|bolivian|uruguayan|paraguayan|salvadoran|honduran|nicaraguan|costa rican|panamanian|dominican|puerto rican|spanish|brazilian|british|english|french|german|italian|portuguese|chinese|japanese|korean|indian)\\b"
+        },
+        {
+          "descripcion": "Hablas de tus idiomas con speak",
+          "patron": "\\bspeak\\b"
+        },
+        {
+          "descripcion": "Incluyes al menos una negación con to be",
+          "patron": "\\b(i['’]m not|i am not|isn['’]t|aren['’]t|is not|are not)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto? Busca oraciones que empiecen con «Am», «Is» o «From»: les falta el sujeto.",
+        "¿Dijiste tu edad con be (I'm 34) y no con have?",
+        "¿Usaste from para el origen, y no of?",
+        "¿Escribiste con mayúscula las nacionalidades y los idiomas (Mexican, Spanish, English)?",
+        "¿La negación es I'm not (y no «I amn't» ni «I no am»)?",
+        "Si mencionas tu profesión, ¿pusiste a / an delante (I'm a nurse)?"
+      ],
+      "modelo": "Hello, everyone! My name is Rosa Medina. I'm thirty-four years old. I'm from Puebla, in Mexico, so I'm Mexican. I speak Spanish and a little English. I'm a nurse, and my hospital is very big. I'm not married, but my dog, Luna, is my best friend! I'm very happy in this class. Nice to meet you!",
+      "explicacion": "**Saludo:** [[Hello, everyone!]] abre el mensaje para todo el grupo. **Nombre:** [[My name is Rosa Medina]] usa el posesivo [[my]] + [[name]] + [[is]]; también valdría [[I'm Rosa]]. **Edad:** [[I'm thirty-four years old]] usa be, porque en inglés la edad se «es», no se «tiene»; [[years old]] puede omitirse ([[I'm thirty-four]]), pero nunca se dice solo «thirty-four years». **Origen:** [[I'm from Puebla, in Mexico]]: [[from]] marca la procedencia e [[in]] sitúa la ciudad dentro del país. **Nacionalidad:** [[so I'm Mexican]]: [[so]] («así que») une la causa con la consecuencia; la nacionalidad es un adjetivo y va con mayúscula. **Idiomas:** [[I speak Spanish and a little English]]: [[speak]] es el verbo para idiomas y [[a little]] matiza el nivel. **Profesión:** [[I'm a nurse]] lleva artículo, al revés que el español. **Negación:** [[I'm not married]]: sujeto + be + [[not]]; con I la única contracción es [[I'm not]]. **Cierre:** [[Nice to meet you!]] es la fórmula de la primera vez. Fíjate en que TODAS las oraciones tienen su propio sujeto, incluso cuando en español lo omitiríamos.",
+      "errores_comunes": [
+        "«I have 34 years» → I'm 34 (years old). La edad va con be.",
+        "«Am from Mexico» → I'm from Mexico. El sujeto nunca se omite.",
+        "«I'm of Puebla» → I'm from Puebla.",
+        "«I'm mexican», «I speak spanish» → Mexican, Spanish: nacionalidades e idiomas van con mayúscula.",
+        "«I amn't married» → I'm not married.",
+        "«I'm nurse» → I'm a nurse: la profesión lleva a / an."
+      ]
+    },
+    {
+      "slug": "describir-mi-habitacion",
+      "titulo": "Describe tu habitación",
+      "nivel": "A1",
+      "unidad": "there-is-there-are",
+      "tipo": "escritura",
+      "objetivo": "Describir un espacio real con there is / there are, preposiciones de lugar y adjetivos antes del sustantivo.",
+      "instrucciones": "Un amigo de otro país va a quedarse en tu casa y quiere saber cómo es tu habitación. Escribe entre 7 y 10 oraciones. Incluye: cómo es en general (grande, pequeña…), al menos 4 objetos con su ubicación (usa preposiciones: next to, between, under, behind, in front of, on…), al menos una oración con there are y una negación (algo que NO hay).",
+      "vocabulario_apoyo": [
+        "bed — cama",
+        "closet (EE. UU.) / wardrobe (R. U.) — clóset, ropero",
+        "desk — escritorio",
+        "lamp — lámpara",
+        "shelf / shelves — repisa / repisas",
+        "rug — tapete",
+        "wall / floor / window — pared / piso / ventana",
+        "next to, between, under, behind, in front of, opposite — junto a, entre, debajo de, detrás de, delante de, enfrente de"
+      ],
+      "estructuras": [
+        "There is (There's) + a / an + sustantivo singular + lugar.",
+        "There are + número / some + sustantivo plural + lugar.",
+        "There isn't a … / There aren't any …",
+        "sustantivo + is + preposición + the + lugar. (The lamp is on the desk.)",
+        "adjetivo + sustantivo. (a big bed)"
+      ],
+      "ejemplo": "Our kitchen is old, but it's nice. There's a big table in the middle, and there are four chairs around it. The fridge is next to the door. There isn't a microwave.",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas there is o there's",
+          "patron": "\\bthere(['’]s| is)\\b"
+        },
+        {
+          "descripcion": "Usas there are con un plural",
+          "patron": "\\bthere are\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con there",
+          "patron": "\\bthere (isn['’]t|is not|aren['’]t|are not)\\b"
+        },
+        {
+          "descripcion": "Usas al menos una preposición de lugar compuesta o precisa",
+          "patron": "\\b(next to|between|under|behind|in front of|opposite|above)\\b"
+        },
+        {
+          "descripcion": "Usas algún adjetivo de tamaño, estado o color",
+          "patron": "\\b(big|small|large|little|old|new|comfortable|nice|beautiful|modern|clean|white|black|blue|green|red|yellow|brown|gray|grey|pink)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Usaste there is con singular y there are con plural?",
+        "¿Pusiste los adjetivos ANTES del sustantivo (a big bed, no «a bed big»)?",
+        "¿Los adjetivos están sin -s aunque el sustantivo sea plural (two green plants)?",
+        "¿Usaste any en la negación con plural (There aren't any chairs)?",
+        "¿Cada objeto tiene una ubicación clara con una preposición?",
+        "¿Evitaste «have» para decir «hay» (no «In my room have a bed»)?"
+      ],
+      "modelo": "My bedroom is small, but it's very comfortable. The walls are light blue. There is a big bed next to the window, and there's a small table between the bed and the door. On the table, there's a lamp and a black clock. There are two pictures on the wall, and there are three green plants in front of the window. My shoes are under the bed. There isn't a TV in my bedroom, and there aren't any chairs. My favorite thing is the brown rug on the floor.",
+      "explicacion": "**Impresión general:** [[My bedroom is small, but it's very comfortable]] usa be + adjetivo y [[but]] para contrastar; la segunda parte repite el sujeto ([[it's]]). **There is + singular:** [[There is a big bed next to the window]]: [[a]] porque es un solo objeto contable, y el adjetivo [[big]] va delante de [[bed]]. **There's:** es la contracción de [[there is]], muy común al escribir de forma informal. **Between:** [[between the bed and the door]] siempre une dos lugares con [[and]]. **Varios objetos:** [[there's a lamp and a black clock]]: cuando la lista empieza por un singular, en el inglés cotidiano se usa [[there's]]. **There are + plural:** [[There are two pictures on the wall]] y [[three green plants]]: el adjetivo [[green]] no lleva -s aunque [[plants]] sea plural. **Lugar sin there:** [[My shoes are under the bed]]: cuando el sujeto ya es algo concreto y conocido (mis zapatos), se usa sujeto + be + preposición, no there are. **Negación:** [[There isn't a TV]] (singular con [[a]]) y [[there aren't any chairs]] (plural con [[any]]). **Cierre:** [[My favorite thing is…]] da un toque personal.",
+      "errores_comunes": [
+        "«In my room have a bed» o «Has a bed» → There is a bed in my room.",
+        "«There is two pictures» → There are two pictures.",
+        "«a bed big», «plants greens» → a big bed, green plants.",
+        "«There aren't chairs» es posible, pero lo más natural en negación es There aren't any chairs.",
+        "«The lamp is in the table» → on the table (encima de una superficie).",
+        "«There are my shoes under the bed» → My shoes are under the bed (con algo concreto y conocido no se usa there)."
+      ]
+    },
+    {
+      "slug": "describir-a-un-familiar",
+      "titulo": "Describe a una persona de tu familia",
+      "nivel": "A1",
+      "unidad": "familia-profesiones-y-preguntas",
+      "tipo": "escritura",
+      "objetivo": "Describir a un familiar (parentesco, edad, origen, profesión, físico y carácter) usando posesivos, el genitivo 's y la profesión con artículo.",
+      "instrucciones": "Elige a una persona de tu familia y escribe un párrafo de 8 a 10 oraciones sobre ella. Incluye: quién es y su relación contigo (usa 's: my mother's sister), su edad, de dónde es, su profesión, cómo es físicamente (pelo, ojos, estatura), cómo es de carácter, una cosa que NO es y alguna otra persona relacionada con ella (su esposo, sus hijos…). No uses todavía has / have got: describe con be (Her hair is short).",
+      "vocabulario_apoyo": [
+        "aunt / uncle — tía / tío",
+        "cousin — primo(a)",
+        "grandmother / grandfather — abuela / abuelo",
+        "tall / short — alto(a) / bajo(a)",
+        "thin / slim — delgado(a)",
+        "hair: long, short, curly, straight, gray — pelo: largo, corto, rizado, lacio, canoso",
+        "funny, kind, patient, quiet, serious — divertido(a), amable, paciente, callado(a), serio(a)",
+        "teacher, engineer, nurse, cook — maestro(a), ingeniero(a), enfermero(a), cocinero(a)"
+      ],
+      "estructuras": [
+        "This is my + parentesco + nombre.",
+        "He's / She's my + persona + 's + parentesco. (She's my mother's sister.)",
+        "He's / She's a / an + profesión.",
+        "His / Her + parte del cuerpo + is / are + adjetivo. (Her eyes are brown.)",
+        "He / She isn't + adjetivo.",
+        "Their + sustantivo + are … (Their children are my cousins.)"
+      ],
+      "ejemplo": "My neighbor Sam is from Canada. He's thirty. He's a cook at an Italian restaurant. His hair is red, and his eyes are green. He's very friendly, but he isn't quiet!",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas el genitivo 's con un parentesco o un nombre",
+          "patron": "\\b(?!(he|she|it|that|what|who|there|here|where|how)['’]s)\\w+['’]s (sister|brother|mother|father|mom|dad|husband|wife|son|daughter|name|children|kids|parents|cousin|family|aunt|uncle|grandmother|grandfather)\\b"
+        },
+        {
+          "descripcion": "Usas el posesivo his o her",
+          "patron": "\\b(his|her)\\b"
+        },
+        {
+          "descripcion": "Dices su profesión con a / an",
+          "patron": "\\b(he|she)(['’]s| is) an? (\\w+ ){0,2}(teacher|engineer|nurse|cook|chef|doctor|lawyer|dentist|architect|accountant|mechanic|driver|farmer|waiter|waitress|secretary|student|manager|designer|programmer|developer|writer|artist|musician|singer|actor|actress|police officer|firefighter|pilot|cashier|receptionist|salesperson|businessman|businesswoman|electrician|plumber|carpenter|painter|photographer|journalist|scientist|vet|veterinarian|housewife|homemaker|builder|cleaner|baker|hairdresser|psychologist|pharmacist|economist|surgeon|professor|librarian|translator|assistant|soldier|dancer|technician|consultant|clerk|guard|nanny|gardener|shop owner|seller|worker|employee|bus driver|taxi driver|social worker|lab technician)\\b"
+        },
+        {
+          "descripcion": "Dices su edad con be (She's 52 / She's fifty-two years old)",
+          "patron": "\\byears old\\b|\\b(he|she)(['’]s| is) (\\d{1,3}|(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(-\\w+)?|eighteen|nineteen)\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con to be",
+          "patron": "\\b(isn['’]t|is not|['’]s not|aren['’]t|are not)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Elegiste his o her según la persona que POSEE (her hair si hablas de tu tía, his hair si hablas de tu tío), sin importar la cosa ni quién escribe?",
+        "¿Pusiste el apóstrofo en el lugar correcto (my mother's sister, my parents' house)?",
+        "¿La profesión lleva a / an (She's a teacher, He's an engineer)?",
+        "¿Los adjetivos van antes del sustantivo o después de be (short hair / her hair is short), nunca «hair short»?",
+        "¿Usaste be para la edad y no have?",
+        "¿Distinguiste their (su, de ellos) de they're (ellos son)?"
+      ],
+      "modelo": "This is my aunt Teresa. She's my mother's sister. She's fifty-two years old, and she's from Veracruz. She's a teacher at a primary school. She's tall and thin, and her hair is short and gray. Her eyes are brown. She's very funny and kind, but she isn't patient in the car! Her husband is my uncle Jorge, and he's an engineer. Their children are my cousins, Mateo and Lía. Teresa is my favorite aunt.",
+      "explicacion": "**Presentación:** [[This is my aunt Teresa]]: [[this is]] presenta a alguien, como si enseñaras una foto. **Genitivo:** [[She's my mother's sister]]: poseedor ([[my mother]]) + [['s]] + lo poseído ([[sister]]); en español sería «la hermana de mi mamá», con el orden al revés. **Edad y origen:** [[She's fifty-two years old, and she's from Veracruz]]: be para las dos cosas y el sujeto repetido después de [[and]]. **Profesión:** [[She's a teacher]]: el artículo es obligatorio en inglés. **Físico:** [[She's tall and thin]] (be + adjetivos) y [[her hair is short and gray]]: [[her]] porque la dueña del pelo es una mujer. [[Her eyes are brown]]: [[eyes]] es plural, así que el verbo es [[are]], pero [[brown]] no cambia. **Carácter y negación:** [[She's very funny and kind, but she isn't patient in the car!]] combina afirmación y negación con [[but]]. **Otras personas:** [[Her husband is my uncle Jorge, and he's an engineer.]]: [[an]] porque [[engineer]] empieza con sonido de vocal. [[Their children are my cousins]]: [[their]] = «sus» (de ellos dos). **Cierre:** [[my favorite aunt]], con el adjetivo antes del sustantivo.",
+      "errores_comunes": [
+        "«His hair is short» hablando de tu tía → Her hair is short: el posesivo concuerda con el POSEEDOR.",
+        "«the sister of my mother» → my mother's sister.",
+        "«She's teacher» → She's a teacher.",
+        "«She has 52 years» → She's 52 (years old).",
+        "«Her eyes is brown» → Her eyes are brown.",
+        "«They're children are my cousins» → Their children are my cousins."
+      ]
+    },
+    {
+      "slug": "mi-rutina-diaria",
+      "titulo": "Tu rutina de entre semana",
+      "nivel": "A1",
+      "unidad": "presente-simple",
+      "tipo": "escritura",
+      "objetivo": "Contar tu rutina diaria en orden, con horas y conectores, y describir la rutina de otra persona con la -s de tercera persona.",
+      "instrucciones": "Escribe un texto de 9 a 12 oraciones sobre un día normal de entre semana. Primera parte: TU rutina desde que te levantas hasta que te acuestas, con al menos 4 horas (at seven, at half past eight…) y conectores de secuencia (first, then, after that, finally). Segunda parte: 2 o 3 oraciones sobre la rutina de otra persona de tu casa (he / she + verbo con -s). No hace falta usar always, usually, etc.: los verás en la unidad de frecuencia.",
+      "vocabulario_apoyo": [
+        "get up / wake up — levantarse / despertarse",
+        "take a shower — bañarse",
+        "get dressed — vestirse",
+        "have breakfast / lunch / dinner — desayunar / comer / cenar",
+        "leave home — salir de casa",
+        "take the bus / the subway — tomar el camión / el metro",
+        "start / finish work — empezar / terminar de trabajar",
+        "go to bed — acostarse"
+      ],
+      "estructuras": [
+        "I + verbo base + at + hora. (I get up at six o'clock.)",
+        "First, … Then … After that, … Finally, …",
+        "I have breakfast / lunch / dinner at …",
+        "He / She + verbo con -s / -es. (He works, she watches, he goes, she has)",
+        "I work from + hora + to + hora."
+      ],
+      "ejemplo": "My cat, Mishi, has a very easy day. She wakes up at nine. First, she eats. Then she sleeps on the sofa for three hours. After that, she watches the birds from the window. At night, she plays with my socks!",
+      "min_palabras": 60,
+      "comprobaciones": [
+        {
+          "descripcion": "Dices a qué hora te levantas o despiertas",
+          "patron": "\\b(get|gets|wake|wakes) up\\b"
+        },
+        {
+          "descripcion": "Usas at + hora al menos una vez",
+          "patron": "\\bat (\\d{1,2}([:.]\\d{2})?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|half past|a quarter|noon|midnight)\\b"
+        },
+        {
+          "descripcion": "Usas conectores de secuencia",
+          "patron": "\\b(first|then|after that|next|finally|later)\\b"
+        },
+        {
+          "descripcion": "Usas have con las comidas",
+          "patron": "\\b(have|has) (breakfast|lunch|dinner)\\b"
+        },
+        {
+          "descripcion": "Escribes al menos un verbo en tercera persona con -s",
+          "patron": "\\b(gets|goes|works|has|starts|finishes|leaves|takes|eats|watches|drinks|comes|makes|studies|reads|cooks|walks|drives|sleeps|wakes|arrives|does|washes|brushes|plays|listens|cleans|teaches|helps|opens|closes|buys|runs|visits|calls|tries|carries|catches|misses|relaxes|exercises|rides|writes|stays|finishes|sits|says)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Los verbos con I, you, we, they están en forma base (I work) y con he / she / it llevan -s (he works)?",
+        "¿Aplicaste la ortografía de la tercera persona: -es tras -ch, -sh, -ss, -o (watches, goes) y -ies tras consonante + y (studies)? ¿Y los irregulares has y does?",
+        "¿Usaste at con las horas y from … to … para los horarios?",
+        "¿Las acciones van en orden y con conectores?",
+        "¿Cada oración tiene sujeto, también después de and o then?",
+        "¿Evitaste el artículo delante de las comidas (have breakfast, no «have the breakfast»)?"
+      ],
+      "modelo": "On weekdays, I get up at six o'clock. First, I take a shower and get dressed. Then I have breakfast with my husband: coffee, eggs and fruit. I leave home at a quarter past seven and take the bus to work. I work in an office from eight to four, and I have lunch at one with my coworkers. After that, I go home and cook dinner. In the evening, I read or watch TV. Finally, I go to bed at half past ten. My husband's routine is very different. He works at night, so he gets up at noon. He has breakfast at one o'clock, and he leaves home at five.",
+      "explicacion": "**Marco:** [[On weekdays]] indica que hablas de algo que se repite, el uso principal del presente simple. **Primera acción:** [[I get up at six o'clock]]: sujeto + verbo base + [[at]] + hora. **Secuencia:** [[First]], [[Then]], [[After that]], [[Finally]] ordenan el día; después de [[First,]] y [[After that,]] va coma. **Dos verbos, un sujeto:** [[I take a shower and get dressed]]: si el sujeto es el mismo, puede no repetirse después de [[and]]. **Comidas:** [[I have breakfast]] y [[I have lunch]]: [[have]] + comida, sin artículo. **Horas:** [[at a quarter past seven]], [[at half past ten]] y [[from eight to four]] (de… a…). **Tercera persona:** en la segunda parte cambia el sujeto: [[He works]], [[he gets up]], [[He has]], [[he leaves]]: todos con -s; [[has]] es la forma irregular de [[have]]. Compara [[I have breakfast]] con [[He has breakfast]]: mismo verbo, distinta forma según el sujeto. **Genitivo:** [[My husband's routine]] conecta las dos partes del texto. **Causa y efecto:** [[He works at night, so he gets up at noon]]: [[so]] = «así que».",
+      "errores_comunes": [
+        "«He work at night» → He works at night.",
+        "«She haves breakfast» → She has breakfast.",
+        "«He gos», «she watchs» → he goes, she watches.",
+        "«I have the breakfast» → I have breakfast.",
+        "«I get up in six o'clock» → at six o'clock.",
+        "«After, I go home» → After that, I go home (After solo necesita un complemento: after work)."
+      ]
+    },
+    {
+      "slug": "mi-fin-de-semana-ideal",
+      "titulo": "Tu fin de semana ideal",
+      "nivel": "A1",
+      "unidad": "frecuencia-y-tiempo-libre",
+      "tipo": "escritura",
+      "objetivo": "Describir tus fines de semana con adverbios de frecuencia bien colocados, expresiones como twice a month y gustos con like / love / hate + -ing.",
+      "instrucciones": "Escribe un texto de 9 a 12 oraciones sobre cómo es tu fin de semana ideal (o tu fin de semana típico, si ya te gusta como es). Incluye: al menos 3 adverbios de frecuencia distintos (always, usually, often, sometimes, rarely, never), al menos 2 expresiones de frecuencia al final de la oración (once a week, twice a month, every Sunday…), al menos 3 gustos con like, love o hate + verbo en -ing, y una oración negativa con don't.",
+      "vocabulario_apoyo": [
+        "sleep late — dormir hasta tarde",
+        "go for a walk / a run — salir a caminar / a correr",
+        "go to the movies — ir al cine",
+        "go swimming / go shopping — ir a nadar / ir de compras",
+        "visit my parents — visitar a mis papás",
+        "watch a series — ver una serie",
+        "once / twice / three times a month — una / dos / tres veces al mes",
+        "every Saturday — todos los sábados"
+      ],
+      "estructuras": [
+        "Sujeto + adverbio de frecuencia + verbo. (I usually wake up at nine.)",
+        "Sujeto + be + adverbio de frecuencia. (I'm never at home on Saturday night.)",
+        "… + expresión de frecuencia al final. (I go swimming twice a month.)",
+        "I like / love / hate + verbo en -ing. (I love cooking.)",
+        "I don't like + verbo en -ing."
+      ],
+      "ejemplo": "My brother is a busy student. He always studies after class, and he never watches TV on weekdays. He goes to the gym three times a week. He loves listening to music, but he hates getting up early.",
+      "min_palabras": 60,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas adverbios de frecuencia",
+          "patron": "\\b(always|usually|often|sometimes|rarely|never|hardly ever)\\b"
+        },
+        {
+          "descripcion": "Usas una expresión de frecuencia (once a week, every Sunday…)",
+          "patron": "\\b(once|twice|\\w+ times) a (day|week|month|year)\\b|\\bevery (day|week|month|morning|evening|night|weekend|saturday|sunday)\\b"
+        },
+        {
+          "descripcion": "Expresas gustos con like / love / hate + -ing",
+          "patron": "\\b(like|love|hate|likes|loves|hates|enjoy|enjoys) (?!((every|some|any|no)thing|morning|evening|spring|thing|king|ring|wedding|building|pudding|string|sing|bring|ceiling)\\b)\\w+ing\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con don't / doesn't",
+          "patron": "\\b(don['’]t|do not|doesn['’]t|does not)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Los adverbios de frecuencia van ANTES del verbo principal (I usually wake up) y DESPUÉS de be (I'm never at home)?",
+        "¿Las expresiones como twice a month van al final de la oración?",
+        "¿Después de like / love / hate usaste -ing (o to + verbo), y no el verbo solo?",
+        "¿Usaste a en las expresiones de frecuencia (once a week, no «once for week»)?",
+        "¿Evitaste la doble negación (I never go, no «I don't never go»)?",
+        "¿Los días llevan mayúscula y on delante (on Saturday)?"
+      ],
+      "modelo": "My ideal weekend is quiet and simple. On Saturday, I never get up early: I usually wake up at nine. I love having a big breakfast with my family. After breakfast, we often go to the park, and my kids play soccer. I hate staying at home all day! On Saturday night, I sometimes go to the movies with friends. On Sunday, I always visit my parents. My mom cooks, and I help her in the kitchen. I go swimming twice a month, and I clean the house once a week, but I don't like cleaning! On Sunday evening, I'm usually tired, so I read a book or watch a series.",
+      "explicacion": "**Tema:** [[My ideal weekend is quiet and simple]] presenta la idea general con be + adjetivos. **Adverbio antes del verbo:** [[I never get up early]], [[I usually wake up]], [[we often go]], [[I sometimes go]], [[I always visit]]: el adverbio va entre el sujeto y el verbo principal. **Adverbio después de be:** [[I'm usually tired]]: con be, el adverbio va DESPUÉS del verbo. Compara: [[I usually wake up]] / [[I'm usually tired]]. **Gustos:** [[I love having]], [[I hate staying]], [[I don't like cleaning]]: después de estos verbos, el segundo verbo va en -ing. **Frecuencia al final:** [[I go swimming twice a month]] y [[I clean the house once a week]]: estas expresiones se colocan al final, no entre el verbo y el complemento. [[once]] = una vez, [[twice]] = dos veces; a partir de tres, [[three times]]. **Negación:** [[I don't like cleaning]]: don't + verbo base. **Días:** [[On Saturday]], [[On Sunday evening]]: [[on]] con días y partes de un día concreto. **Causa y consecuencia:** [[so I read a book]].",
+      "errores_comunes": [
+        "«I wake up usually at nine» → I usually wake up at nine.",
+        "«I never am at home» → I'm never at home.",
+        "«I like cook» → I like cooking / I like to cook.",
+        "«I go swimming two times for month» → twice a month.",
+        "«I don't never get up early» → I never get up early.",
+        "«I go twice a month swimming» → I go swimming twice a month."
+      ]
+    },
+    {
+      "slug": "preguntas-para-una-entrevista",
+      "titulo": "Seis preguntas para entrevistar a alguien",
+      "nivel": "A1",
+      "unidad": "presente-simple-do-does",
+      "tipo": "escritura",
+      "objetivo": "Escribir preguntas correctas en presente simple y con be, eligiendo bien entre do, does, am, is y are, y la palabra interrogativa adecuada.",
+      "instrucciones": "El boletín de tu empresa va a publicar una entrevista con Grace, una compañera nueva, y tú haces las preguntas. Escribe una frase de introducción y 6 preguntas. Requisitos: al menos 2 preguntas con Do you…?, al menos 1 con Does + su esposo, su hija u otra persona de su familia, al menos 1 pregunta con be (Are you…? / Where are you from?), al menos 3 con palabra interrogativa (where, what, what time, how often, who…) y 1 con How often. Termina cada pregunta con signo de interrogación (solo al final: en inglés no existe «¿»).",
+      "vocabulario_apoyo": [
+        "live — vivir",
+        "start work — empezar a trabajar",
+        "get to work — llegar al trabajo",
+        "free time — tiempo libre",
+        "How often…? — ¿Con qué frecuencia…?",
+        "What time…? — ¿A qué hora…?",
+        "What kind of…? — ¿Qué tipo de…?",
+        "right? — ¿verdad? (al final)"
+      ],
+      "estructuras": [
+        "Do + you + verbo base…? (Do you like…?)",
+        "Does + he / she / sustantivo singular + verbo base…? (Does your husband work…?)",
+        "Palabra interrogativa + do / does + sujeto + verbo base? (Where do you live?)",
+        "Palabra interrogativa + be + sujeto? (Where are you from?)",
+        "How often + do / does + sujeto + verbo base?"
+      ],
+      "ejemplo": "Gym registration questions: How old are you? Do you exercise every week? What sports do you like? Does your doctor know about your plans?",
+      "min_palabras": 30,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas Do you…?",
+          "patron": "\\bdo you\\b"
+        },
+        {
+          "descripcion": "Usas Does + tercera persona",
+          "patron": "\\bdoes (he|she|it|your|her|his|my|the|\\w+['’]s)\\b"
+        },
+        {
+          "descripcion": "Incluyes una pregunta con be",
+          "patron": "\\b(are you|is your|is he|is she|am i)\\b"
+        },
+        {
+          "descripcion": "Usas How often",
+          "patron": "\\bhow often\\b"
+        },
+        {
+          "descripcion": "Incluyes al menos tres preguntas con palabra interrogativa",
+          "patron": "(\\b(where|what|when|who|whose|why|which|how)\\b[^?]*\\?[\\s\\S]*?){3}"
+        },
+        {
+          "descripcion": "Escribes al menos seis preguntas (seis signos ?)",
+          "patron": "(\\?[^?]*){6}"
+        }
+      ],
+      "criterios": [
+        "¿Después de do / does el verbo está en forma base (Does she work, no «Does she works»)?",
+        "¿Elegiste does para he / she / un sustantivo singular y do para I / you / we / they?",
+        "¿En las preguntas con be NO pusiste do (Are you from…?, no «Do you are from…?»)?",
+        "¿El orden es: palabra interrogativa + auxiliar + sujeto + verbo (Where do you live?)?",
+        "¿Cada pregunta tiene solo el signo ? al final?",
+        "¿Las preguntas son adecuadas para una compañera nueva (nada demasiado personal)?"
+      ],
+      "modelo": "Welcome to the team, Grace! Here are my questions for you.\n1. Where are you from?\n2. Where do you live now?\n3. What time do you usually start work?\n4. How often do you go to the gym?\n5. Do you like working in a team?\n6. Your daughter is a student, right? What does she study?",
+      "explicacion": "**Pregunta con be:** [[Where are you from?]]: be no necesita do; se invierte ([[are you]]) y [[from]] queda al final. **Wh + do:** [[Where do you live now?]]: palabra interrogativa + [[do]] + sujeto + verbo base. Compara con la pregunta anterior: con be no hay do; con cualquier otro verbo, sí. **What time:** [[What time do you usually start work?]]: el adverbio [[usually]] va entre el sujeto y el verbo, igual que en la afirmación. **How often:** [[How often do you go to the gym?]] pregunta por la frecuencia; la respuesta sería algo como [[twice a week]]. **Pregunta de sí o no:** [[Do you like working in a team?]]: se contesta [[Yes, I do]] / [[No, I don't]]; después de [[like]], -ing. **Does:** [[What does she study?]]: con [[she]] el auxiliar es [[does]], y la -s «se pasa» al auxiliar: el verbo queda en forma base ([[study]], no «studies»). **right?:** [[Your daughter is a student, right?]] confirma un dato antes de preguntar; es una pregunta con entonación, válida porque solo compruebas algo que ya sabes.",
+      "errores_comunes": [
+        "«Where you live?» → Where do you live? (falta el auxiliar).",
+        "«What does she studies?» → What does she study?",
+        "«Do you are from Mexico?» → Are you from Mexico?",
+        "«Does you like…?» → Do you like…?",
+        "«¿Where do you live?» → en inglés no existe el signo de apertura.",
+        "«How often you go to the gym?» → How often do you go to the gym?"
+      ]
+    },
+    {
+      "slug": "mensaje-esta-semana",
+      "titulo": "Un mensaje: lo que estás haciendo esta semana",
+      "nivel": "A1",
+      "unidad": "presente-continuo",
+      "tipo": "escritura",
+      "objetivo": "Escribir un mensaje informal que cuente actividades temporales de esta semana con el presente continuo, en afirmativo, negativo y pregunta.",
+      "instrucciones": "Tu compañero de trabajo Sam está de vacaciones y te escribe para saber cómo va todo. Contéstale con un mensaje de 8 a 11 oraciones. Incluye: un saludo; al menos 3 cosas que estás haciendo esta semana en el trabajo o en casa; algo que está haciendo otra persona; al menos una cosa que NO estás haciendo; una expresión de tiempo (this week, these days, at the moment); una pregunta a Sam en presente continuo; y una despedida.",
+      "vocabulario_apoyo": [
+        "this week / these days / at the moment — esta semana / estos días / en este momento",
+        "work on (a project) — trabajar en (un proyecto)",
+        "prepare / organize — preparar / organizar",
+        "answer emails — contestar correos",
+        "paint — pintar",
+        "take a break — tomar un descanso",
+        "enjoy — disfrutar",
+        "Talk soon, / See you soon, — Hablamos pronto / Nos vemos pronto"
+      ],
+      "estructuras": [
+        "I'm + verbo en -ing + this week. (I'm working on…)",
+        "He's / She's / We're / They're + verbo en -ing.",
+        "I'm not + verbo en -ing.",
+        "Are you + verbo en -ing…? / What are you doing?",
+        "It's + verbo en -ing (el clima: It's raining)."
+      ],
+      "ejemplo": "Hi Ana! I'm at Tom's party right now. Everyone is dancing, and Tom is cooking tacos in the kitchen. Mei isn't dancing: she's talking on the phone. Are you coming?",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Empiezas con un saludo",
+          "patron": "^\\s*(hi|hello|hey|dear)\\b"
+        },
+        {
+          "descripcion": "Usas I'm / I am + verbo en -ing",
+          "patron": "\\b(i['’]m|i am) \\w+ing\\b"
+        },
+        {
+          "descripcion": "Incluyes una expresión de tiempo presente",
+          "patron": "\\b(this week|these days|at the moment|right now|this month)\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación en continuo",
+          "patron": "\\b(i['’]m not|i am not|isn['’]t|aren['’]t|is not|are not) \\w+ing\\b"
+        },
+        {
+          "descripcion": "Hablas de otra persona en continuo",
+          "patron": "\\b(?!(it|you|i|there|that|what|this|how|who|where)\\b)\\w+(['’]s|['’]re| is| are) (?!((every|some|any|no)thing|interesting|boring|amazing|exciting|relaxing|annoying|tiring|surprising|charming|morning|evening)\\b)\\w+ing\\b"
+        },
+        {
+          "descripcion": "Haces una pregunta en presente continuo",
+          "patron": "\\bare you \\w+ing\\b[^?]*\\?|\\bwhat are you doing\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada verbo en -ing tiene su be delante (I'm working, no «I working»)?",
+        "¿Revisaste la ortografía de -ing: write → writing, run → running, study → studying?",
+        "¿Usaste el continuo para lo temporal de esta semana y no para tus hábitos de siempre?",
+        "¿Las preguntas tienen be antes del sujeto (Are you enjoying…?)?",
+        "¿Evitaste los verbos de estado en continuo (I want, no «I'm wanting»)?",
+        "¿El tono es informal y adecuado para un compañero (Hi…, Talk soon)?"
+      ],
+      "modelo": "Hi Sam!\nHow's your vacation? Here at the office, everything is crazy this week. I'm working on the new website with Priya, and we're writing all the texts in English and Spanish. Our manager is traveling, so I'm answering her emails too. I'm not taking a lunch break these days! At home, I'm painting my bedroom, and my brother is helping me. It's raining a lot, so I'm not running in the park. What are you doing? Are you enjoying the beach? Send photos!\nTalk soon,\nDiego",
+      "explicacion": "**Saludo y pregunta inicial:** [[Hi Sam!]] y [[How's your vacation?]] ([[How's]] = [[How is]]) dan el tono informal. **Marco temporal:** [[this week]] y [[these days]] indican una situación temporal, no un hábito: por eso el continuo. **Afirmación:** [[I'm working on the new website]]: be ([[am]]) + verbo en -ing. **Otras personas:** [[we're writing]] (write pierde la -e: writing), [[Our manager is traveling]] (en inglés estadounidense no se duplica la l; en británico, travelling) y [[my brother is helping me]]. **Causa:** [[so I'm answering her emails too]]: [[so]] une causa y consecuencia. **Negación:** [[I'm not taking a lunch break]] y [[I'm not running]]: be + [[not]] + -ing; [[run]] duplica la n porque termina en consonante-vocal-consonante con acento. **Clima:** [[It's raining a lot]]: sujeto [[it]] obligatorio. **Preguntas:** [[What are you doing?]] y [[Are you enjoying the beach?]]: be antes del sujeto. **Cierre:** [[Send photos!]] (imperativo amistoso) y [[Talk soon,]] + tu nombre.",
+      "errores_comunes": [
+        "«I working on a project» → I'm working on a project.",
+        "«I'm writeing», «I'm runing», «I'm studing» → writing, running, studying.",
+        "«You are enjoying the beach?» → Are you enjoying the beach?",
+        "«I'm not take a break» → I'm not taking a break.",
+        "«Is raining a lot» → It's raining a lot.",
+        "«I'm wanting a vacation» → I want a vacation (want es un verbo de estado)."
+      ]
+    },
+    {
+      "slug": "lista-y-pedido-a-la-tienda",
+      "titulo": "Una lista y un pedido para la tienda",
+      "nivel": "A2",
+      "unidad": "compras-y-comida",
+      "tipo": "escritura",
+      "objetivo": "Escribir una lista de compras con envases y medidas, y un mensaje cortés para hacer un pedido y preguntar precios.",
+      "instrucciones": "La tienda de tu barrio acepta pedidos por mensaje. Primero escribe una lista con 5 productos y su cantidad (usa envases y medidas: a bottle of, a kilo of, a loaf of…). Después escribe el mensaje a la tienda (6 a 9 oraciones): saluda, pide los productos con I'd like y Can / Could I have…?, pregunta si hay algún producto con Are there any / Is there any, pregunta el precio total con How much, pregunta cómo pagar y despídete.",
+      "vocabulario_apoyo": [
+        "a bottle of (water, oil) — una botella de",
+        "a carton of (milk, juice) — un cartón / envase de",
+        "a kilo of (tomatoes, apples) — un kilo de",
+        "a loaf of bread — una barra / un paquete de pan",
+        "a box of (cereal, strawberries) — una caja de",
+        "a can of (tuna, beans) — una lata de",
+        "a piece / slice of (cake, cheese) — un pedazo / una rebanada de",
+        "200 grams of — 200 gramos de"
+      ],
+      "estructuras": [
+        "número + envase + of + sustantivo. (two bottles of water)",
+        "I'd like + cantidad…, please.",
+        "Can / Could I have + cantidad…?",
+        "Are there any + plural…? / Is there any + incontable…?",
+        "How much is + singular / everything? · How much are + plural?"
+      ],
+      "ejemplo": "Hello! Can I have two coffees and a piece of chocolate cake, please? I'd also like a bottle of water. How much is that? Thanks! – Omar",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas al menos un envase o medida con of",
+          "patron": "\\b(an? |two |three |four |five |\\d+ )?(bottles?|cartons?|kilos?|bags?|box|boxes|cans?|jars?|loaf|loaves|pieces?|slices?|packets?|packs?|grams?|liters?|litres?) of\\b"
+        },
+        {
+          "descripcion": "Pides con I'd like / I would like",
+          "patron": "\\b(i would|i['’]d)( also)? like\\b"
+        },
+        {
+          "descripcion": "Pides con Can I have / Could I have",
+          "patron": "\\b(can|could) i have\\b"
+        },
+        {
+          "descripcion": "Preguntas el precio con How much",
+          "patron": "\\bhow much\\b"
+        },
+        {
+          "descripcion": "Usas some o any",
+          "patron": "\\b(some|any)\\b"
+        },
+        {
+          "descripcion": "Usas please",
+          "patron": "\\bplease\\b"
+        }
+      ],
+      "criterios": [
+        "¿Los incontables van sin a y sin -s (bread, milk, cheese) y los cuentas con un envase (a loaf of bread)?",
+        "¿El plural está en el envase, no en el incontable (two bottles of water, no «two bottle of waters»)?",
+        "¿Usaste any en las preguntas y some en las afirmaciones y ofrecimientos?",
+        "¿How much is con singular / everything y How much are con plural?",
+        "¿El tono es cortés (I'd like, Could I…, please, thank you) y no «I want» ni «Give me»?",
+        "¿Tu mensaje tiene saludo, pedido, preguntas y despedida?"
+      ],
+      "modelo": "Shopping list:\n- two bottles of water\n- a kilo of tomatoes\n- a loaf of bread\n- a carton of milk\n- 200 grams of cheese\n\nHello! This is Julia from 12 Oak Street. I'd like to order some things for this afternoon, please. Can I have two bottles of water, a kilo of tomatoes, a loaf of bread and a carton of milk? I'd also like 200 grams of white cheese. Are there any fresh strawberries today? If there are, I'd like a box, please. How much is everything? Could I pay by card when I arrive? Thank you very much!\nJulia",
+      "explicacion": "**La lista:** cada producto lleva cantidad + envase + [[of]]: [[two bottles of water]] (el plural va en [[bottles]]; [[water]] es incontable y no cambia), [[a kilo of tomatoes]] (aquí [[tomatoes]] sí es contable y va en plural), [[a loaf of bread]] (un pan entero de caja o de barra) y [[200 grams of cheese]]. **Saludo e identificación:** [[This is Julia]] es la forma de decir quién escribe (como al teléfono). **Petición general:** [[I'd like to order some things]]: [[I'd like]] = «quisiera»; [[some]] en afirmativo. **Pedido:** [[Can I have…?]] con la lista unida por comas y [[and]] antes del último elemento. **Segundo pedido:** [[I'd also like]]: [[also]] va entre el sujeto y [[like]]. **Pregunta de existencia:** [[Are there any fresh strawberries today?]]: [[any]] en preguntas y [[are]] porque [[strawberries]] es plural. **Condición:** [[If there are, I'd like a box]]: la respuesta se anticipa. **Precio:** [[How much is everything?]]: [[everything]] es singular. **Pago:** [[Could I pay by card…?]]: [[could]] es más cortés; [[by card]], no «with card». **Cierre:** [[Thank you very much!]] y tu nombre.",
+      "errores_comunes": [
+        "«two bottle of waters» → two bottles of water.",
+        "«a bread», «breads» → a loaf of bread / some bread.",
+        "«Are there some strawberries?» → en preguntas normales se usa any: Are there any strawberries?",
+        "«How much are everything?» → How much is everything?",
+        "«I want two bottles of water» → I'd like… (más cortés para pedir).",
+        "«Can I pay with card?» → Can I pay by card?"
+      ]
+    },
+    {
+      "slug": "correo-formal-informacion-curso",
+      "titulo": "Un correo formal para pedir información sobre un curso",
+      "nivel": "A2",
+      "unidad": "comunicacion-integrada",
+      "tipo": "escritura",
+      "objetivo": "Escribir un correo formal sencillo con saludo, motivo, preguntas corteses, agradecimiento y despedida adecuados al registro.",
+      "instrucciones": "Viste en internet un curso de fotografía los sábados y quieres más información. Escribe un correo a la coordinadora, la Sra. Parker, de 80 a 120 palabras en 4 partes: 1) saludo formal (Dear Ms. Parker,); 2) quién eres y por qué escribes (I'm writing to…, I'm interested in…); 3) al menos 3 preguntas corteses (fechas, horario, precio, materiales, nivel…), usando Could you…? y otras preguntas directas; 4) agradecimiento y despedida formal (Best regards, / Kind regards,) con tu nombre completo.",
+      "vocabulario_apoyo": [
+        "Dear Ms. / Mr. + apellido, — Estimada Sra. / Estimado Sr.",
+        "I'm writing to ask for information about… — Le escribo para pedir información sobre…",
+        "I'm interested in… — Me interesa…",
+        "beginner — principiante",
+        "start date — fecha de inicio",
+        "price / fee — precio / cuota",
+        "include — incluir",
+        "Thank you for your help. / I look forward to hearing from you. — Gracias por su ayuda. / Quedo en espera de su respuesta."
+      ],
+      "estructuras": [
+        "Dear + Ms. / Mr. + apellido,",
+        "I'm writing to + verbo base…",
+        "I'm interested in + sustantivo / verbo en -ing.",
+        "Could you tell me / send me…?",
+        "I would like to know…",
+        "How much does … cost? / When does … start? / Does the price include…?",
+        "Best regards, / Kind regards, + nombre completo"
+      ],
+      "ejemplo": "Dear Mr. Evans,\nI'm writing to ask about a room at your hotel for March 3–5. Could you tell me the price for two people? Does it include breakfast?\nThank you for your help.\nKind regards,\nPriya Shah",
+      "min_palabras": 80,
+      "comprobaciones": [
+        {
+          "descripcion": "Empiezas con Dear",
+          "patron": "^\\s*dear\\b"
+        },
+        {
+          "descripcion": "Explicas el motivo con I'm writing o I'm interested",
+          "patron": "\\b(i['’]m|i am) (writing|interested)\\b"
+        },
+        {
+          "descripcion": "Haces una petición con Could you",
+          "patron": "\\bcould you\\b"
+        },
+        {
+          "descripcion": "Usas I would like / I'd like",
+          "patron": "\\b(i would|i['’]d)( also)? like\\b"
+        },
+        {
+          "descripcion": "Preguntas el precio con How much",
+          "patron": "\\bhow much\\b"
+        },
+        {
+          "descripcion": "Das las gracias",
+          "patron": "\\bthank you\\b"
+        },
+        {
+          "descripcion": "Te despides con una fórmula formal",
+          "patron": "\\b(best regards|kind regards|best wishes|yours sincerely|sincerely|yours faithfully)\\b"
+        }
+      ],
+      "criterios": [
+        "¿El saludo es formal y usa el APELLIDO (Dear Ms. Parker), no el nombre de pila ni «Hi»?",
+        "¿Dijiste desde el principio por qué escribes?",
+        "¿Las preguntas con do / does tienen el verbo en forma base (How much does it cost?)?",
+        "¿Usaste Could you… y I would like… en lugar de «I want» o imperativos?",
+        "¿Evitaste abreviaturas y expresiones de chat (Thx, pls, u)? Contracciones como I'm son aceptables en un correo así, pero las formas completas (I would like) suenan más formales.",
+        "¿Separaste el correo en partes (saludo, motivo, preguntas, cierre) y firmaste con tu nombre completo?"
+      ],
+      "modelo": "Dear Ms. Parker,\n\nI'm writing to ask for some information about your Saturday photography course. I saw it on your website last week, and I'm very interested in it.\n\nI'm a beginner, and I have a small camera. Could you tell me the start date of the next course and the time of the classes? I would also like to know the price. How much does the course cost, and does the price include the materials? Finally, could you send me the address of the school?\n\nThank you very much for your help. I look forward to hearing from you.\n\nBest regards,\nCarlos Rivera",
+      "explicacion": "**Saludo:** [[Dear Ms. Parker,]]: [[Dear]] + tratamiento + apellido y coma. [[Ms.]] sirve para cualquier mujer, sin importar su estado civil. **Motivo:** [[I'm writing to ask for some information about…]]: el lector sabe desde la primera línea qué quieres; [[ask for]] = pedir (algo). **Contexto en pasado:** [[I saw it on your website last week]]: pasado simple con [[last week]]. **Interés:** [[I'm very interested in it]]: [[interested in]], nunca «interested on». **Tu situación:** [[I'm a beginner, and I have a small camera]]: presente simple y be. **Petición cortés:** [[Could you tell me the start date…?]]: [[could]] suaviza la petición; después, verbo base. **Deseo formal:** [[I would like to know the price]]: la forma completa [[I would]] suena más formal que [[I'd]]; contracciones como [[I'm]] son normales en un correo así, pero no las abreviaturas de chat. **Preguntas directas:** [[How much does the course cost]] y [[does the price include the materials?]]: [[does]] con sujeto singular y verbo base ([[cost]], [[include]]). **Orden:** [[Finally, could you send me…?]] cierra la lista de preguntas. **Cierre:** [[Thank you very much for your help.]] y [[I look forward to hearing from you.]] (fórmula fija: «quedo en espera de su respuesta»; ojo: [[hearing]] con -ing). **Despedida:** [[Best regards,]] + nombre y apellido.",
+      "errores_comunes": [
+        "«Hi Ms. Parker» o «Dear Laura» en un correo formal → Dear Ms. Parker.",
+        "«I want information» → I would like some information / I'm writing to ask for information.",
+        "«How much costs the course?» → How much does the course cost?",
+        "«Does the price includes…?» → Does the price include…?",
+        "«I'm interested on…» → I'm interested in…",
+        "«I look forward to hear from you» → I look forward to hearing from you."
+      ]
+    },
+    {
+      "slug": "una-experiencia-pasada",
+      "titulo": "Cuenta una experiencia que recuerdes",
+      "nivel": "A2",
+      "unidad": "pasado-simple-irregular",
+      "tipo": "escritura",
+      "objetivo": "Narrar una experiencia personal en orden con pasado simple (regulares e irregulares), was / were, negaciones con didn't y conectores de secuencia.",
+      "instrucciones": "Escribe un relato de 9 a 13 oraciones sobre una experiencia que recuerdes: un viaje, un día especial, un problema que resolviste… Incluye: cuándo pasó (two years ago, last summer, in 2019…), dónde estabas y con quién (was / were), qué pasó en orden (first, then, after that, finally), al menos 3 verbos irregulares y 2 regulares en pasado, al menos una negación con didn't, cómo te sentiste y cómo terminó.",
+      "vocabulario_apoyo": [
+        "ago — hace (two years ago = hace dos años)",
+        "last summer / last year — el verano pasado / el año pasado",
+        "get lost → got lost — perderse",
+        "take → took — tomar",
+        "find → found — encontrar",
+        "feel → felt — sentirse",
+        "nervous / scared / relieved — nervioso(a) / asustado(a) / aliviado(a)",
+        "in the end — al final"
+      ],
+      "estructuras": [
+        "Expresión de tiempo + sujeto + verbo en pasado. (Two years ago, I went…)",
+        "I was / We were + adjetivo o lugar.",
+        "Sujeto + didn't + verbo base.",
+        "First, … Then … After that, … Finally, …",
+        "Sujeto + verbo regular + -ed. (I arrived, I walked, I asked)",
+        "couldn't + verbo base (no pude…)"
+      ],
+      "ejemplo": "Last Saturday, my sister Lucía had a surprise party. First, we decorated the house. Then her friends arrived at seven. When Lucía opened the door, she screamed! She didn't know anything about it. We ate cake and danced until midnight.",
+      "min_palabras": 80,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas verbos irregulares en pasado",
+          "patron": "\\b(went|saw|had|ate|took|made|got|bought|met|came|found|left|felt|drank|gave|lost|said|thought|told|slept|swam|wrote|began|ran|sat|stood|spent|knew|became|forgot|flew|drove|did|heard|paid|sent|won|brought|caught|taught|woke|wore|chose|broke|fell|held|kept|rode|rang|sang|spoke|threw|understood)\\b"
+        },
+        {
+          "descripcion": "Usas verbos regulares en pasado (-ed)",
+          "patron": "\\b(?!(hundred|naked|wicked|sacred|hatred|kindred|tired|bored|scared|interested|excited|worried|married|relieved|surprised|pleased|embarrassed|annoyed|amazed|confused|stressed|frightened|terrified|delighted|disappointed|exhausted|satisfied|shocked|talented|crowded|colored|coloured)\\b)\\w{2,}[^\\We]ed\\b"
+        },
+        {
+          "descripcion": "Usas was o were",
+          "patron": "\\b(was|were)\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con didn't",
+          "patron": "\\b(didn['’]t|did not)\\b"
+        },
+        {
+          "descripcion": "Sitúas la historia en el tiempo",
+          "patron": "\\b(ago|last (year|month|week|summer|winter|spring|fall|weekend|night|saturday|sunday)|yesterday|in (19|20)\\d\\d|when i was)\\b"
+        },
+        {
+          "descripcion": "Usas conectores de secuencia",
+          "patron": "\\b(first|then|after that|finally|later|in the end)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Todos los verbos de la narración están en pasado (no se te coló ningún presente)?",
+        "¿Después de didn't y couldn't pusiste el verbo en forma base (didn't check, no «didn't checked»)?",
+        "¿Usaste was con I / he / she / it y were con you / we / they?",
+        "¿Revisaste la ortografía de -ed: arrive → arrived, stop → stopped, study → studied?",
+        "¿Los hechos siguen un orden claro con conectores?",
+        "¿Dijiste cómo te sentiste y cómo terminó la historia?"
+      ],
+      "modelo": "Two years ago, I went to Mexico City for a job interview. It was my first time there, and I was very nervous. I arrived at the bus station at eight in the morning. First, I took the subway, but I didn't check the map, and I got off at the wrong station! Then I walked for thirty minutes, but I couldn't find the office. My phone was dead, so I asked a woman for help. She was very kind, and she walked with me to the building. Finally, I arrived ten minutes late, but the interview went well, and I got the job! Now I laugh about that day, but it was very stressful.",
+      "explicacion": "**Marco temporal:** [[Two years ago]]: [[ago]] va DESPUÉS de la cantidad de tiempo («hace dos años»). **Irregular:** [[I went]] (go → went). **Situación:** [[It was my first time there, and I was very nervous]]: [[was]] para describir cómo era la situación y cómo te sentías. **Regular:** [[I arrived]]: [[arrive]] termina en -e, así que solo añade -d. **Secuencia:** [[First]], [[Then]], [[Finally]] marcan el orden de los hechos. **Negación:** [[I didn't check the map]]: [[didn't]] ya lleva el pasado, así que [[check]] va en forma base. **Irregulares con partícula:** [[I got off at the wrong station]] (get off → got off: bajarse). **Imposibilidad:** [[I couldn't find the office]]: [[couldn't]] + verbo base = «no pude». **Causa y efecto:** [[My phone was dead, so I asked a woman for help]]: [[ask for help]] = pedir ayuda. **Final:** [[the interview went well, and I got the job!]] y una reflexión desde hoy: [[Now I laugh about that day]] (presente, porque es lo que haces ahora), [[but it was very stressful]] (pasado, porque describe aquel día).",
+      "errores_comunes": [
+        "«Before two years, I went…» → Two years ago, I went…",
+        "«I didn't checked the map» → I didn't check the map.",
+        "«I goed», «I taked», «I buyed» → went, took, bought.",
+        "«I was go to the station» → I went to the station (no se mezcla was con otro verbo en pasado).",
+        "«We was very happy» → We were very happy.",
+        "«I couldn't to find the office» → I couldn't find the office."
+      ]
+    }
+  ]
+}

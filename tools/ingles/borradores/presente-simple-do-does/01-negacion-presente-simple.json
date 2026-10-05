@@ -1,0 +1,505 @@
+{
+  "slug": "negacion-presente-simple",
+  "titulo": "La negación: don't y doesn't",
+  "minutos": 40,
+  "objetivos": [
+    "Negar en presente simple con don't / doesn't + verbo en forma base.",
+    "Explicar por qué la -s de works desaparece en doesn't work.",
+    "Distinguir la negación de be (I'm not) de la negación de los demás verbos (I don't).",
+    "Pronunciar don't y doesn't con su vocal y su final correctos."
+  ],
+  "situacion": {
+    "titulo": "Una confusión en la cena familiar",
+    "texto": "Lucía presenta a su familia a Sam, un compañero nuevo. Sam cree que el hermano de Lucía es médico porque lo vio salir de un hospital. Lucía tiene que corregirlo: su hermano sí trabaja en un hospital… pero no es médico.",
+    "dialogo": [
+      { "quien": "Sam", "en": "Your brother is a doctor, right?", "es": "Tu hermano es médico, ¿verdad?" },
+      { "quien": "Lucía", "en": "No, he isn't. My brother works at a hospital, but he doesn't work with patients.", "es": "No. Mi hermano trabaja en un hospital, pero no trabaja con pacientes." },
+      { "quien": "Sam", "en": "Oh! So what's his job?", "es": "¡Ah! ¿Entonces cuál es su trabajo?" },
+      { "quien": "Lucía", "en": "He's a cook. He makes food for the patients. And he doesn't wear a white coat!", "es": "Es cocinero. Prepara la comida de los pacientes. ¡Y no usa bata blanca!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "dont-doesnt",
+      "titulo": "Negar con don't y doesn't: el auxiliar se lleva la -s",
+      "que_es": "En español basta con poner «no» delante del verbo: «Mi hermano no trabaja». En inglés, con casi todos los verbos, [[not]] no puede ir solo delante del verbo: necesita un ayudante, el **auxiliar** [[do]] (o [[does]] en tercera persona del singular). El auxiliar no significa nada por sí mismo; su trabajo es cargar con la negación y con la información de persona y tiempo.",
+      "para_que": [
+        "Corregir un dato falso: «No, mi hermano no trabaja en un hospital».",
+        "Hablar de lo que no forma parte de tu rutina: «No tomo café», «No manejo al trabajo».",
+        "Describir a alguien por lo que no hace: «Mi abuela no usa celular».",
+        "Dar información práctica: «La tienda no abre los domingos»."
+      ],
+      "como_funciona": "La fórmula es siempre la misma: **sujeto + don't / doesn't + verbo en forma base + complemento**.\n\n1. Con [[I]], [[you]], [[we]], [[they]] y cualquier sujeto plural ([[my parents]], [[the kids]]) usas [[don't]] (= [[do not]]).\n2. Con [[he]], [[she]], [[it]] y cualquier sujeto singular ([[my brother]], [[Ana]], [[the shop]]) usas [[doesn't]] (= [[does not]]).\n3. El verbo principal queda en **forma base**, la del diccionario: [[work]], [[study]], [[have]], [[go]]. Nunca [[works]], [[studies]], [[has]], [[goes]].\n\n**¿Por qué desaparece la -s?** En la afirmación, la -s de {{verbo:works}} es una etiqueta que dice «presente, tercera persona del singular». En una oración en presente simple esa etiqueta se pone **una sola vez**. Cuando aparece el auxiliar, la etiqueta se muda a él: [[do]] + -es = {{auxiliar:does}}. Por eso el verbo principal se queda «desnudo»: {{sujeto:My brother}} {{auxiliar:doesn't}} {{verbo:work}}. Si escribieras [[doesn't works]], estarías marcando la tercera persona dos veces, y el inglés no lo admite.\n\nLo mismo pasa con los verbos que cambian en tercera persona: [[has]] vuelve a [[have]] ([[She doesn't have a car]]), [[goes]] vuelve a [[go]], [[studies]] vuelve a [[study]].\n\nEn la conversación y en mensajes casi siempre se usan las contracciones [[don't]] y [[doesn't]]. Las formas completas [[do not]] / [[does not]] son correctas, pero suenan más formales o enfáticas (instrucciones, carteles, textos escritos).",
+      "estructuras": [
+        {
+          "etiqueta": "Negación con I / you / we / they",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ],
+          "es": "No trabajo en un hospital."
+        },
+        {
+          "etiqueta": "Negación con he / she / it y sujetos singulares",
+          "formula": [ {"t": "Sujeto singular", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "verbo base (sin -s)", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "My brother", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ],
+          "es": "Mi hermano no trabaja en un hospital."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación y negación, persona por persona",
+          "columnas": ["Sujeto", "Afirmación", "Negación"],
+          "filas": [
+            ["I", "I work.", "I don't work."],
+            ["You", "You work.", "You don't work."],
+            ["He / She / It", "She works.", "She doesn't work."],
+            ["We", "We work.", "We don't work."],
+            ["They", "They work.", "They don't work."],
+            ["My brother", "My brother has a car.", "My brother doesn't have a car."],
+            ["The kids", "The kids go to school.", "The kids don't go to school."]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My brother doesn't work at a hospital.",
+          "es": "Mi hermano no trabaja en un hospital.",
+          "situacion": "Lucía corrige a alguien que cree que su hermano es médico.",
+          "partes": [ {"t": "My brother", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ],
+          "nota": "Afirmación: My brother works. Negación: la -s de works se muda al auxiliar (does) y work queda en forma base."
+        },
+        {
+          "en": "I don't drink coffee.",
+          "es": "No tomo café.",
+          "situacion": "Alguien te ofrece café en la oficina.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"}, {"t": "drink", "rol": "verbo"}, {"t": "coffee", "rol": "complemento"} ],
+          "nota": "Con I se usa don't. Fíjate en que el sujeto I no se puede omitir, aunque en español digas solo «No tomo café»."
+        },
+        {
+          "en": "Ana doesn't have a car.",
+          "es": "Ana no tiene carro.",
+          "partes": [ {"t": "Ana", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "have", "rol": "verbo"}, {"t": "a car", "rol": "complemento"} ],
+          "nota": "En la afirmación es Ana has a car; con doesn't, has vuelve a su forma base have. Error típico: Ana doesn't has a car."
+        },
+        {
+          "en": "The shop doesn't open on Sundays.",
+          "es": "La tienda no abre los domingos.",
+          "situacion": "Un cartel o un vecino te da información práctica.",
+          "partes": [ {"t": "The shop", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "open", "rol": "verbo"}, {"t": "on Sundays", "rol": "tiempo"} ],
+          "nota": "The shop equivale a it: sujeto singular, por eso doesn't. En Estados Unidos es más común store que shop."
+        },
+        {
+          "en": "My parents don't live in Mexico City.",
+          "es": "Mis papás no viven en la Ciudad de México.",
+          "partes": [ {"t": "My parents", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"}, {"t": "live", "rol": "verbo"}, {"t": "in Mexico City", "rol": "complemento"} ],
+          "nota": "My parents equivale a they (plural): don't, aunque sean «mis» papás. El posesivo no cambia la persona."
+        },
+        {
+          "en": "Carlos doesn't do his homework.",
+          "es": "Carlos no hace su tarea.",
+          "partes": [ {"t": "Carlos", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "do", "rol": "verbo"}, {"t": "his homework", "rol": "complemento"} ],
+          "nota": "Aquí do aparece dos veces con papeles distintos: doesn't es el auxiliar y do es el verbo principal «hacer». Es correcto y muy común."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "I don't work at a hospital.", "items": ["Sujeto I (primera persona).", "Auxiliar do + not = don't.", "Verbo en forma base: work."] },
+        "b": { "titulo": "My brother doesn't work at a hospital.", "items": ["Sujeto singular = he (tercera persona).", "Auxiliar does + not = doesn't: aquí está la -s.", "Verbo en forma base: work (la -s ya no está)."] },
+        "veredicto": "Las dos oraciones tienen el MISMO verbo principal, work. Lo único que cambia es el auxiliar: don't / doesn't. La tercera persona se marca una sola vez, y en la negación la marca el auxiliar."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación: la -s se muda",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ {"t": "My brother", "rol": "sujeto"}, {"t": "works", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ] },
+          { "etiqueta": "Entra el auxiliar", "partes": [ {"t": "My brother", "rol": "sujeto"}, {"t": "does + not", "rol": "auxiliar"}, {"t": "work(s)", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ] },
+          { "etiqueta": "Negación", "partes": [ {"t": "My brother", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ] }
+        ],
+        "pie": "La -s de works pasa al auxiliar: do → does. El verbo principal queda en forma base."
+      },
+      "pronunciacion": [
+        { "texto": "don't", "ipa": "/doʊnt/", "consejo": "La vocal no es una «o» española pura: empieza en «o» y los labios se cierran hacia una «u» corta (/oʊ/). La t final casi no se suelta: la lengua toca detrás de los dientes y se detiene. En inglés británico suena /dəʊnt/.", "lento": true },
+        { "texto": "doesn't", "ipa": "/ˈdʌzənt/", "consejo": "La primera vocal /ʌ/ es una «a» corta y relajada, con la boca a medio abrir, nada de «o». La z es sonora (vibra como un zumbido de abeja, no como la s española). Después, la n forma casi una sílaba sola: «DA-z'nt».", "lento": true },
+        { "texto": "She doesn't work.", "ipa": "/ʃi ˈdʌzənt wɜrk/", "consejo": "El acento cae en doesn't y en work: la negación se oye fuerte. En work, redondea los labios para la w y luego di una vocal neutra con la lengua curvada hacia atrás (/ɜr/), sin «o»." }
+      ],
+      "errores": [
+        { "mal": "My brother doesn't works at a hospital.", "bien": "My brother doesn't work at a hospital.", "porque": "La -s ya está en does. Si la dejas también en works, marcas la tercera persona dos veces." },
+        { "mal": "He don't work on Saturdays.", "bien": "He doesn't work on Saturdays.", "porque": "Con he / she / it y sujetos singulares el auxiliar es doesn't. En canciones o en habla muy informal oirás he don't, pero no es inglés estándar: no lo uses al escribir ni en situaciones formales." },
+        { "mal": "I no work on Sundays.", "bien": "I don't work on Sundays.", "porque": "Calco del español «yo no trabajo». En inglés no (ni not) no puede ir solo delante de un verbo como work: necesita el auxiliar do." },
+        { "mal": "She not have a car.", "bien": "She doesn't have a car.", "porque": "Falta el auxiliar. Not solo va directamente después de be (She isn't…) o de otros auxiliares; con have como verbo principal necesitas doesn't." }
+      ],
+      "nota": { "titulo": "Do not y does not en carteles", "texto": "Las formas completas son normales en avisos e instrucciones: [[Do not touch.]] («No tocar»), [[This machine does not accept coins.]] («Esta máquina no acepta monedas»). Suenan formales o enfáticas; en una conversación normal usa las contracciones.", "tono": "info" }
+    },
+    {
+      "id": "be-o-dont",
+      "titulo": "¿I'm not o I don't? Be se niega solo",
+      "que_es": "El verbo [[be]] ([[am]], [[is]], [[are]]) es especial: ya lo sabes negar sin ayuda ([[I'm not tired]], [[She isn't a doctor]]). Todos los demás verbos del presente simple ([[work]], [[like]], [[have]], [[live]]…) necesitan [[don't]] / [[doesn't]]. Mezclar los dos sistemas es uno de los errores más frecuentes al empezar.",
+      "para_que": [
+        "Decir lo que alguien no es y lo que no hace en la misma conversación: «No es médico; no trabaja con pacientes».",
+        "Evitar errores como «I'm not work» o «She doesn't is»."
+      ],
+      "como_funciona": "Pregúntate: **¿cuál es el verbo de la oración?**\n\n- Si el verbo es **be** (ser/estar, edad, origen, profesión con [[a]]…), la negación es **be + not**: [[I'm not]], [[he isn't]], [[they aren't]]. Nunca uses [[do]] con be.\n- Si el verbo es **cualquier otro**, la negación es **don't / doesn't + verbo base**. Nunca pongas [[am / is / are]] delante de otro verbo en presente simple.\n\nPiensa en ellos como dos sistemas que no se mezclan: [[be]] trabaja solo; los demás verbos trabajan con [[do]].\n\nUna pista muy útil: si en español la oración lleva «ser» o «estar», casi siempre usarás [[be]]; si lleva «trabajar», «vivir», «tener», «hablar»…, usarás [[don't]] / [[doesn't]]. **Cuidado** con dos excepciones que ya conoces: la edad («tengo 30 años») es [[I'm 30]], con be; y «tener hambre / frío» también va con be ([[I'm hungry]], [[I'm cold]]). Al negarlas: [[I'm not hungry]], nunca [[I don't have hunger]].",
+      "estructuras": [
+        {
+          "etiqueta": "Verbo be: se niega con not",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "am / is / are", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "My brother", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "a doctor", "rol": "complemento"} ],
+          "es": "Mi hermano no es médico."
+        },
+        {
+          "etiqueta": "Otros verbos: se niegan con don't / doesn't",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "don't / doesn't", "rol": "auxiliar"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "He", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "work", "rol": "verbo"}, {"t": "with patients", "rol": "complemento"} ],
+          "es": "No trabaja con pacientes."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm not a teacher. I don't work at a school.",
+          "es": "No soy maestro. No trabajo en una escuela.",
+          "nota": "Primera oración: verbo be → I'm not. Segunda: verbo work → I don't work. Dos sistemas en dos oraciones seguidas."
+        },
+        {
+          "en": "Mei isn't from Japan. She doesn't speak Japanese.",
+          "es": "Mei no es de Japón. No habla japonés.",
+          "nota": "Origen con be (isn't); hablar un idioma con speak (doesn't speak)."
+        },
+        {
+          "en": "We aren't hungry. We don't want pizza.",
+          "es": "No tenemos hambre. No queremos pizza.",
+          "nota": "Tener hambre = be hungry, así que se niega con aren't, no con don't have."
+        },
+        {
+          "en": "It isn't expensive, but I don't need it.",
+          "es": "No es caro, pero no lo necesito."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Con be", "items": ["She isn't tired.", "They aren't at home.", "I'm not 20."] },
+        "b": { "titulo": "Con otros verbos", "items": ["She doesn't sleep much.", "They don't live here.", "I don't have a car."] },
+        "veredicto": "Be y do nunca van juntos en la misma negación: ni «She doesn't is», ni «She isn't sleep»."
+      },
+      "pronunciacion": [
+        { "texto": "I'm not / I don't", "ipa": "/aɪm nɑt/ · /aɪ doʊnt/", "consejo": "Escucha la diferencia: en I'm not la m se une a la n («aim-not») y la vocal de not es una «a» abierta (/ɑ/ en EE. UU.; /ɒ/ redondeada en Gran Bretaña). En I don't la vocal es /oʊ/, que se desliza hacia «u».", "lento": true },
+        { "texto": "isn't / doesn't", "ipa": "/ˈɪzənt/ · /ˈdʌzənt/", "consejo": "Riman casi del todo: las dos terminan en z sonora + n silábica + t débil. Lo que cambia es el principio: /ɪ/ es una «i» corta y relajada; /dʌ/ empieza con d y una «a» breve." }
+      ],
+      "errores": [
+        { "mal": "I'm not work on Mondays.", "bien": "I don't work on Mondays.", "porque": "Work no es be: se niega con don't. I'm not solo va delante de adjetivos, sustantivos, lugares o edades (I'm not tired)." },
+        { "mal": "She doesn't is my sister.", "bien": "She isn't my sister.", "porque": "Is es el verbo be y se niega solo, sin do." },
+        { "mal": "I don't have hunger.", "bien": "I'm not hungry.", "porque": "Calco de «no tengo hambre». En inglés el hambre, la sed, el frío y la edad van con be." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra que completa la negación.",
+      "pregunta": "My sister ___ like coffee.",
+      "opciones": [
+        { "texto": "doesn't", "correcta": true, "porque": "Correcto: my sister equivale a she (tercera persona del singular) y like no es be, así que necesita el auxiliar doesn't + verbo base." },
+        { "texto": "don't", "correcta": false, "porque": "Don't es para I, you, we, they y sujetos plurales. My sister es una sola persona: she." },
+        { "texto": "isn't", "correcta": false, "porque": "Isn't es la negación de be. Like es otro verbo, así que no puede ir detrás de isn't." },
+        { "texto": "not", "correcta": false, "porque": "Not no puede ir solo delante de like: falta el auxiliar. Es el calco del español, donde basta con poner «no» delante del verbo." }
+      ],
+      "pistas": [
+        "Like es un verbo normal, no es be: necesita un auxiliar para negar.",
+        "Mira el sujeto: my sister. ¿A qué pronombre equivale?",
+        "Sujeto singular (he / she / it) + doesn't + verbo base."
+      ],
+      "solucion": { "respuesta": "doesn't", "explicacion": "La respuesta correcta es doesn't porque my sister equivale a she, tercera persona del singular, y like es un verbo distinto de be. La negación se forma con doesn't + like (forma base)." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con don't o doesn't.",
+      "frase": "We ___ live near the beach.",
+      "respuestas": [["don't"]],
+      "banco": ["don't", "doesn't", "aren't"],
+      "traduccion": "No vivimos cerca de la playa.",
+      "pistas": [
+        "Live no es be: se niega con un auxiliar.",
+        "El sujeto es we. ¿Es tercera persona del singular?",
+        "I / you / we / they + don't + verbo base."
+      ],
+      "solucion": { "respuesta": "don't", "explicacion": "La respuesta correcta es don't porque el sujeto es we (primera persona del plural). Doesn't solo va con sujetos singulares de tercera persona, y aren't es la negación de be, que no sirve con live." },
+      "errores_tipicos": {
+        "doesn't": "Doesn't es solo para he / she / it o un sujeto singular. We es plural.",
+        "aren't": "Aren't es la negación de be. Live es otro verbo: necesita don't."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la negación con el auxiliar y el verbo. El verbo de la afirmación es works.",
+      "frase": "Tom ___ ___ at a bank. He works at a school.",
+      "respuestas": [["doesn't"], ["work"]],
+      "traduccion": "Tom no trabaja en un banco. Trabaja en una escuela.",
+      "pistas": [
+        "Para negar un verbo que no es be necesitas un auxiliar y el verbo principal.",
+        "Tom es una sola persona (he). Fíjate también en si el verbo principal conserva la -s.",
+        "Sujeto singular + doesn't + verbo en forma base: la -s pasa al auxiliar."
+      ],
+      "solucion": { "respuesta": "doesn't … work", "explicacion": "La respuesta correcta es doesn't work: Tom equivale a he, así que el auxiliar es doesn't, y como la -s de tercera persona ya está en does, el verbo principal queda en forma base, work." },
+      "errores_tipicos": {
+        "doesn't | works": "La -s ya está en doesn't. El verbo principal va en forma base: work.",
+        "don't | work": "Don't es para I / you / we / they. Tom es he: doesn't.",
+        "isn't | work": "Isn't es la negación de be. Con work necesitas doesn't."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.04",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada afirmación con su negación correcta.",
+      "pares": [
+        { "a": "She works on Saturdays.", "b": "She doesn't work on Saturdays." },
+        { "a": "They work on Saturdays.", "b": "They don't work on Saturdays." },
+        { "a": "He has a dog.", "b": "He doesn't have a dog." },
+        { "a": "The bus stops here.", "b": "The bus doesn't stop here." },
+        { "a": "I watch TV at night.", "b": "I don't watch TV at night." },
+        { "a": "He is a nurse.", "b": "He isn't a nurse." }
+      ],
+      "pistas": [
+        "Cada negación mantiene el mismo sujeto que su afirmación.",
+        "Fíjate en el auxiliar (don't / doesn't) y en si el verbo es be.",
+        "Singular → doesn't + base; plural o I → don't + base; be → isn't."
+      ],
+      "solucion": { "respuesta": "She works → She doesn't work; They work → They don't work; He has → He doesn't have; The bus stops → The bus doesn't stop; I watch → I don't watch; He is → He isn't", "explicacion": "Cada sujeto conserva su persona: she, he y the bus son singulares (doesn't + verbo base; has vuelve a have); they e I van con don't. He is a nurse lleva be, que se niega sin do: He isn't a nurse." }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Presta atención a la vocal de doesn't.",
+      "texto": "She doesn't eat meat.",
+      "ipa": "/ʃi ˈdʌzənt it mit/",
+      "consejo": "Doesn't empieza con una «a» corta y relajada (/ʌ/), no con «o». La z vibra como un zumbido. Eat y meat llevan la misma vocal /i/, más larga y tensa que la i española: estira los labios como si sonrieras. No separes: «she-DA-z'nt-eat-MEAT».",
+      "es": "Ella no come carne."
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa.",
+      "origen": "Ana studies English.",
+      "instruccion": "Negativa",
+      "respuestas": ["Ana doesn't study English."],
+      "pistas": [
+        "Study no es be: la negación necesita don't o doesn't.",
+        "Ana es un sujeto singular. Mira también cómo está escrito studies.",
+        "Sujeto singular + doesn't + verbo base: studies vuelve a study."
+      ],
+      "solucion": { "respuesta": "Ana doesn't study English.", "explicacion": "Ana equivale a she, así que la negación usa doesn't. La marca de tercera persona (-ies) pasa al auxiliar, y el verbo vuelve a su forma base: study, con y." },
+      "errores_tipicos": {
+        "Ana doesn't studies English.": "La -s (aquí -ies) ya está en does. El verbo va en forma base: study.",
+        "Ana don't study English.": "Ana es un sujeto singular (she): el auxiliar es doesn't.",
+        "Ana doesn't studys English.": "No añadas ninguna terminación: con doesn't el verbo va en forma base, study."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa. Usa la forma contraída.",
+      "origen": "My grandparents have a car.",
+      "instruccion": "Negativa",
+      "respuestas": ["My grandparents don't have a car."],
+      "pistas": [
+        "Have como verbo principal se niega con un auxiliar, como work o live.",
+        "My grandparents equivale a they.",
+        "They + don't + have."
+      ],
+      "solucion": { "respuesta": "My grandparents don't have a car.", "explicacion": "My grandparents es un sujeto plural (they), así que la negación es don't + have. Have no cambia porque con they ya estaba en forma base." },
+      "errores_tipicos": {
+        "My grandparents doesn't have a car.": "Doesn't es para sujetos singulares. Grandparents es plural: don't.",
+        "My grandparents not have a car.": "Falta el auxiliar: not no puede ir solo delante de have en este uso. Usa don't.",
+        "My grandparents aren't have a car.": "Aren't es la negación de be. Have es otro verbo: don't have."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "My father don't drive to work.",
+      "error": "don't",
+      "correcciones": ["doesn't", "does not"],
+      "frase_correcta": "My father doesn't drive to work.",
+      "pistas": [
+        "Revisa si el auxiliar concuerda con el sujeto.",
+        "My father es una persona: ¿he o they?",
+        "Con he / she / it y sujetos singulares el auxiliar negativo es doesn't."
+      ],
+      "solucion": { "respuesta": "My father doesn't drive to work.", "explicacion": "El error es don't: my father equivale a he, tercera persona del singular, y en inglés estándar el auxiliar es doesn't. Drive se queda como está, en forma base." }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "She doesn't watches TV in the morning.",
+      "error": "watches",
+      "correcciones": ["watch"],
+      "frase_correcta": "She doesn't watch TV in the morning.",
+      "pistas": [
+        "El auxiliar está bien. Mira el verbo principal.",
+        "¿Cuántas veces está marcada la tercera persona en esta oración?",
+        "Después de doesn't el verbo va en forma base, sin -s ni -es."
+      ],
+      "solucion": { "respuesta": "She doesn't watch TV in the morning.", "explicacion": "El error es watches: la tercera persona ya está marcada en does, así que el verbo principal vuelve a su forma base, watch, sin la terminación -es." }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "My brother doesn't work on Saturdays.",
+      "respuestas": ["My brother does not work on Saturdays."],
+      "pistas": [
+        "Es una negación en tercera persona del singular.",
+        "Después de doesn't escucharás un verbo sin -s; al final, un día de la semana en plural.",
+        "Estructura: sujeto + doesn't + work + on + día."
+      ],
+      "solucion": { "respuesta": "My brother doesn't work on Saturdays.", "explicacion": "Se dice doesn't work, sin -s en work, porque la marca de tercera persona la lleva does. On Saturdays (con -s) significa «los sábados», de forma habitual." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.11",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": ["open", "doesn't", "Sundays", "The", "on", "pharmacy"],
+      "respuestas": ["The pharmacy doesn't open on Sundays"],
+      "traduccion": "La farmacia no abre los domingos.",
+      "pistas": [
+        "Empieza por el sujeto: el artículo y el sustantivo van juntos.",
+        "Después del sujeto va el auxiliar negativo y luego el verbo.",
+        "Sujeto + doesn't + verbo base + on + día."
+      ],
+      "solucion": { "respuesta": "The pharmacy doesn't open on Sundays.", "explicacion": "El sujeto (The pharmacy) va primero; después el auxiliar doesn't, porque pharmacy es singular (it); luego el verbo en forma base, open, y al final la expresión de tiempo on Sundays." }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Luis no es médico. No trabaja en un hospital.",
+      "respuestas": [
+        "Luis isn't a doctor. He doesn't work at a hospital.",
+        "Luis isn't a doctor. He doesn't work in a hospital.",
+        "Luis is not a doctor. He doesn't work at a hospital."
+      ],
+      "pistas": [
+        "Hay dos oraciones con dos verbos distintos: ser y trabajar.",
+        "La primera lleva be; la segunda, un verbo normal. En inglés la segunda necesita sujeto.",
+        "Be + not (isn't) + a doctor; he + doesn't + work."
+      ],
+      "solucion": { "respuesta": "Luis isn't a doctor. He doesn't work at a hospital.", "explicacion": "La primera oración usa be, que se niega solo: isn't. Recuerda el artículo a con la profesión. La segunda usa work, que se niega con doesn't + forma base, y necesita el sujeto he aunque en español se omita. At a hospital e in a hospital son correctos." },
+      "errores_tipicos": {
+        "Luis doesn't is a doctor. He doesn't work at a hospital.": "Be no se niega con do: Luis isn't a doctor.",
+        "Luis isn't a doctor. He isn't work at a hospital.": "Work no es be: se niega con doesn't, no con isn't.",
+        "Luis isn't a doctor. Doesn't work at a hospital.": "En inglés el sujeto es obligatorio: He doesn't work…"
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa la forma contraída.",
+      "es": "Mis hijos no toman leche.",
+      "respuestas": [
+        "My children don't drink milk.",
+        "My kids don't drink milk.",
+        "My sons don't drink milk."
+      ],
+      "pistas": [
+        "«Tomar» una bebida en inglés es drink.",
+        "Mis hijos es plural: ¿qué auxiliar negativo le corresponde?",
+        "Sujeto plural + don't + drink + milk (sin artículo, porque hablas de la leche en general)."
+      ],
+      "solucion": { "respuesta": "My children don't drink milk.", "explicacion": "My children es plural (they), así que la negación es don't + drink. Milk va sin the porque se habla de la leche en general. Children, kids o sons (si son hombres) son válidos." },
+      "errores_tipicos": {
+        "My children doesn't drink milk.": "Children es plural: don't, no doesn't.",
+        "My children don't drink the milk.": "Hablas de la leche en general: sin the.",
+        "My children no drink milk.": "No puede ir solo delante del verbo. Necesitas el auxiliar: don't drink."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.negacion-presente-simple.14",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre lo que una persona de tu familia NO hace.",
+      "objetivo": "Usar doesn't / don't + verbo base para describir hábitos que alguien no tiene, combinándolos con afirmaciones.",
+      "instrucciones": "Elige a una persona de tu familia. Escribe 5 o 6 oraciones: al menos tres negaciones con doesn't y una con don't (sobre ti o sobre varias personas). Combina con alguna afirmación para contrastar, como en «He doesn't drink coffee. He drinks tea».",
+      "vocabulario_apoyo": ["drink coffee / tea", "watch TV", "drive", "cook", "eat meat", "work on weekends", "live with…", "speak English", "have a car"],
+      "estructuras": ["My … doesn't + verbo base.", "He / She + verbo con -s.", "I / We / They don't + verbo base."],
+      "ejemplo": "My roommate is very quiet. He doesn't watch TV and he doesn't play music. He reads books. We don't talk much.",
+      "min_palabras": 35,
+      "comprobaciones": [
+        { "descripcion": "Usas doesn't (o does not) al menos una vez", "patron": "\\b(doesn't|does not)\\b" },
+        { "descripcion": "Usas don't (o do not) al menos una vez", "patron": "\\b(don't|do not)\\b" }
+      ],
+      "criterios": [
+        "¿Después de doesn't / don't el verbo está en forma base (sin -s)?",
+        "¿Usas doesn't con he / she / my mother… y don't con I / we / they?",
+        "¿En las afirmaciones de tercera persona pusiste la -s (drinks, watches, has)?",
+        "¿Cada oración tiene sujeto?",
+        "¿Niegas be con isn't / aren't y no con doesn't?"
+      ],
+      "modelo": "My grandmother lives with us. She is 78. She doesn't have a cell phone and she doesn't watch TV. She listens to the radio. She doesn't eat meat, so she cooks vegetables every day. My parents don't cook on Sundays, but she does!",
+      "explicacion": "Cada negación con she usa doesn't + forma base (have, watch, eat). Las afirmaciones de tercera persona llevan -s (lives, listens, cooks). My parents es plural: don't cook. La edad va con be (She is 78). La última oración usa does solo, como verbo que sustituye a cook: se verá con detalle en las respuestas cortas.",
+      "errores_comunes": [
+        "She doesn't has a cell phone (la -s ya está en does).",
+        "My parents doesn't cook (parents es plural: don't).",
+        "Omitir el sujeto: Doesn't eat meat."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Corrige los datos equivocados",
+    "contexto": "Estás en una reunión y Omar, un compañero, repite cosas que cree saber de ti y de tu familia. Algunas son falsas. Corrígelo: niega el dato falso y di el verdadero.",
+    "dialogo": [
+      { "quien": "Omar", "en": "So your sister lives in Cancún.", "es": "Entonces tu hermana vive en Cancún." },
+      { "quien": "Tú", "en": "No, she doesn't live in Cancún. She lives in Mérida.", "es": "No, no vive en Cancún. Vive en Mérida." },
+      { "quien": "Omar", "en": "And you work at a bank.", "es": "Y tú trabajas en un banco." },
+      { "quien": "Tú", "en": "No, I don't work at a bank. I work at a school.", "es": "No, no trabajo en un banco. Trabajo en una escuela." },
+      { "quien": "Omar", "en": "And your parents have a restaurant.", "es": "Y tus papás tienen un restaurante." }
+    ],
+    "tu_turno": "Corrige el último dato de Omar: tus papás no tienen un restaurante. Di qué tienen o a qué se dedican en realidad.",
+    "modelo": "No, they don't have a restaurant. They have a small shop.",
+    "alternativas": [
+      "No, my parents don't have a restaurant. They have a bakery.",
+      "No, they don't. They work at a hospital.",
+      "No, they don't have a restaurant. My father is a taxi driver and my mother is a teacher."
+    ],
+    "claves": [
+      "Parents = they → don't + have (no doesn't, no has).",
+      "Primero niegas, después das el dato correcto en afirmación.",
+      "Si das una profesión, vuelves a be: My father is a taxi driver."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación en presente simple: sujeto + don't / doesn't + verbo en forma base.",
+      "Doesn't con he / she / it y cualquier sujeto singular (my brother, Ana, the shop); don't con I / you / we / they y sujetos plurales.",
+      "La -s de tercera persona se marca una sola vez: en la negación la lleva does, así que el verbo pierde la -s (works → doesn't work, has → doesn't have, studies → doesn't study).",
+      "Be se niega solo (I'm not, she isn't); los demás verbos necesitan don't / doesn't. Nunca se mezclan."
+    ],
+    "recuerda": [
+      "No existe «I no work» ni «She not work»: siempre hace falta el auxiliar.",
+      "He don't es informal y no estándar: usa he doesn't.",
+      "Don't /doʊnt/ con vocal que se desliza a «u»; doesn't /ˈdʌzənt/ con «a» corta y z sonora."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-simple-do-does.negacion-presente-simple.r1", "frente": "¿Cómo se niega My brother works at a hospital?", "reverso": "My brother doesn't work at a hospital.", "nota": "La -s pasa a does; work queda en forma base." },
+    { "id": "presente-simple-do-does.negacion-presente-simple.r2", "frente": "¿Don't o doesn't con my parents?", "reverso": "don't → My parents don't live here.", "nota": "My parents = they (plural)." },
+    { "id": "presente-simple-do-does.negacion-presente-simple.r3", "frente": "Niega: She has a car.", "reverso": "She doesn't have a car.", "nota": "Has vuelve a have después de doesn't." },
+    { "id": "presente-simple-do-does.negacion-presente-simple.r4", "frente": "¿Qué está mal en «I'm not work on Mondays»?", "reverso": "I don't work on Mondays.", "nota": "Work no es be: se niega con don't, no con I'm not." },
+    { "id": "presente-simple-do-does.negacion-presente-simple.r5", "frente": "Traduce: No tengo hambre.", "reverso": "I'm not hungry.", "nota": "Hambre, sed, frío y edad van con be, no con have." }
+  ]
+}

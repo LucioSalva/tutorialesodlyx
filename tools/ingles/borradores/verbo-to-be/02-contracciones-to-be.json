@@ -1,0 +1,937 @@
+{
+  "slug": "contracciones-to-be",
+  "titulo": "Contracciones de to be",
+  "minutos": 35,
+  "objetivos": [
+    "Formar las contracciones I'm, you're, he's, she's, it's, we're y they're.",
+    "Saber cuándo conviene la forma contraída y cuándo la completa.",
+    "No confundir palabras que suenan igual: you're / your, it's / its, they're / their / there.",
+    "Reconocer las contracciones al escucharlas y escribirlas correctamente."
+  ],
+  "situacion": {
+    "titulo": "Mensajes entre amigas",
+    "texto": "Ana y Grace se escriben por el celular. En un mensaje nadie escribe «I am» ni «it is»: se escribe igual que se habla, con contracciones. Fíjate en el apóstrofo (') de cada una.",
+    "dialogo": [
+      {
+        "quien": "Ana",
+        "en": "Hi! I'm at the café. Where are you?",
+        "es": "¡Hola! Estoy en el café. ¿Dónde estás?"
+      },
+      {
+        "quien": "Grace",
+        "en": "Sorry! I'm on the bus. It's very slow today.",
+        "es": "¡Perdón! Voy en el camión. Hoy va muy lento."
+      },
+      {
+        "quien": "Ana",
+        "en": "No problem. Tom's here too. We're near the window.",
+        "es": "No hay problema. Tom también está aquí. Estamos junto a la ventana."
+      },
+      {
+        "quien": "Grace",
+        "en": "Great, you're the best!",
+        "es": "¡Genial, eres la mejor!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formas-contraidas",
+      "titulo": "Cómo se forman y cuándo se usan",
+      "que_es": "Una contracción une el sujeto y el verbo en una sola palabra. Se quita una letra de am, is o are, y en su lugar se pone un **apóstrofo** ('): [[I am]] → [[I'm]], [[she is]] → [[she's]], [[they are]] → [[they're]]. No cambia el significado: [[I'm tired]] y [[I am tired]] dicen exactamente lo mismo.",
+      "para_que": [
+        "Hablar con naturalidad: los hablantes nativos usan la contracción casi siempre al hablar.",
+        "Escribir mensajes, chats, correos a amigos y cualquier texto informal.",
+        "Entender lo que oyes: si solo conoces «I am», no reconocerás «I'm» en una conversación real."
+      ],
+      "como_funciona": "El apóstrofo ocupa el lugar exacto de la letra que desaparece: en [[I'm]] falta la a de am; en [[she's]] falta la i de is; en [[you're]], [[we're]] y [[they're]] falta la a de are. Se escribe pegado, sin espacios. ¿Cuándo usar cada forma? La **contraída** es la normal al hablar y al escribir de manera informal. La **completa** se prefiere en textos formales (una solicitud de empleo, un documento oficial) y cuando quieres dar énfasis: [[I AM ready!]] («¡Que sí estoy listo!»). Además, [[is]] se contrae con nombres y con sustantivos al hablar: [[Tom's here]] = Tom is here. En la escritura cuidada, con nombres suele preferirse la forma completa.",
+      "estructuras": [
+        {
+          "etiqueta": "Contracción",
+          "formula": [
+            {
+              "t": "Sujeto + 'm / 's / 're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Llegamos tarde. (lit. «Estamos tarde»)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Forma completa y forma contraída",
+          "columnas": [
+            "Completa",
+            "Contraída",
+            "Letra que desaparece",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "I am",
+              "I'm",
+              "a",
+              "I'm hungry."
+            ],
+            [
+              "you are",
+              "you're",
+              "a",
+              "You're right."
+            ],
+            [
+              "he is",
+              "he's",
+              "i",
+              "He's my cousin."
+            ],
+            [
+              "she is",
+              "she's",
+              "i",
+              "She's at work."
+            ],
+            [
+              "it is",
+              "it's",
+              "i",
+              "It's cold."
+            ],
+            [
+              "we are",
+              "we're",
+              "a",
+              "We're ready."
+            ],
+            [
+              "they are",
+              "they're",
+              "a",
+              "They're in Canada."
+            ]
+          ],
+          "audio": [
+            1,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm in the kitchen.",
+          "es": "Estoy en la cocina.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in the kitchen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[I'm]] contiene el sujeto y el verbo. No añadas otro am: «I'm am» es un error."
+        },
+        {
+          "en": "She's a vet.",
+          "es": "Es veterinaria.",
+          "partes": [
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a vet",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[['s]] aquí es [[is]]. La forma contraída sirve igual para identidad (ser) que para estado o lugar (estar)."
+        },
+        {
+          "en": "It's a small apartment.",
+          "es": "Es un departamento pequeño.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a small apartment",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[It's]] es probablemente la contracción más frecuente del inglés: la oirás constantemente para describir cosas, la hora y el tiempo."
+        },
+        {
+          "en": "Omar's at the gym.",
+          "es": "Omar está en el gimnasio.",
+          "situacion": "Al hablar, alguien pregunta por Omar.",
+          "nota": "Con un nombre, [['s]] también puede ser is. Es muy común al hablar; al escribir con cuidado se prefiere [[Omar is at the gym]]."
+        },
+        {
+          "en": "I AM tired!",
+          "es": "¡Sí que estoy cansado! / ¡Te digo que estoy cansado!",
+          "situacion": "Alguien no te cree y tú insistes.",
+          "nota": "La forma completa, pronunciada con fuerza, sirve para enfatizar. Aquí la contracción no transmitiría la insistencia."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Forma completa",
+          "items": [
+            "Textos formales: «I am writing to apply for…»",
+            "Énfasis o contradicción: «I AM ready!»",
+            "Al final de una oración (lo verás en la próxima unidad): «Yes, I am.»"
+          ]
+        },
+        "b": {
+          "titulo": "Forma contraída",
+          "items": [
+            "Conversación de todos los días: «I'm fine.»",
+            "Mensajes y correos informales: «We're here!»",
+            "Canciones, series, diálogos: es lo que vas a oír casi siempre."
+          ]
+        },
+        "veredicto": "Las dos son correctas. Al hablar, usa la contraída: la completa en cada oración suena rígida, como de robot. Al escribir, elige según lo formal que sea el texto."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'm",
+          "ipa": "/aɪm/",
+          "consejo": "Una sola sílaba: el diptongo /aɪ/ (como «ai» en «aire») y cierra los labios para la /m/. No digas «ai-am» en dos golpes.",
+          "lento": true
+        },
+        {
+          "texto": "you're",
+          "ipa": "/jʊr/",
+          "consejo": "Empieza con /j/, como la «y» de «yo» pero suave (sin la «ll/sh» rioplatense), y termina con la lengua curvada hacia atrás para la r. En el habla rápida se reduce a /jər/ y suena igual que [[your]]. En británico: /jɔː/."
+        },
+        {
+          "texto": "we're",
+          "ipa": "/wɪr/",
+          "consejo": "Labios redondeados para la /w/ (como «u» rápida de «huevo»), una i corta y la r inglesa. Una sola sílaba: «wir», no «ui-ar». En británico: /wɪə/."
+        },
+        {
+          "texto": "they're",
+          "ipa": "/ðer/",
+          "consejo": "La /ð/ se hace con la punta de la lengua entre los dientes, dejando pasar el aire con vibración (parecida a la «d» suave de «nada», pero con la lengua más adelante). Suena exactamente igual que [[there]] y [[their]]."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Im happy.",
+          "bien": "I'm happy.",
+          "porque": "Sin apóstrofo la palabra no existe. El apóstrofo marca la letra que falta (la a de am)."
+        },
+        {
+          "mal": "I'm am a student.",
+          "bien": "I'm a student.",
+          "porque": "[[I'm]] ya contiene am. Escribir am otra vez duplica el verbo."
+        },
+        {
+          "mal": "She' s tired.",
+          "bien": "She's tired.",
+          "porque": "La contracción se escribe junta, sin espacio entre el apóstrofo y la letra."
+        }
+      ],
+      "nota": {
+        "titulo": "Una contracción que NO existe: «amn't»",
+        "texto": "[[I am]] solo se contrae como [[I'm]]. En la próxima unidad verás que esto importa para la negación: se dice [[I'm not]], y nunca «I amn't».",
+        "tono": "aviso"
+      }
+    },
+    {
+      "id": "palabras-que-suenan-igual",
+      "titulo": "Contracciones que se confunden al escribir",
+      "que_es": "Algunas contracciones suenan exactamente igual que otras palabras muy comunes que **no** llevan apóstrofo. Al hablar no hay problema, pero al escribir cambian el significado. Hasta los nativos se equivocan con ellas.",
+      "para_que": [
+        "Escribir mensajes y correos sin errores que llaman mucho la atención.",
+        "Entender por qué una frase que «suena bien» está mal escrita."
+      ],
+      "como_funciona": "La prueba infalible: **expande la contracción**. Si puedes cambiar la palabra por la forma completa y la oración tiene sentido, lleva apóstrofo. [[It's cold]] → «It is cold» ✔. [[Its color is red]] → «It is color is red» ✘, así que ahí es [[its]] sin apóstrofo (que significa «su», de una cosa). Lo mismo con [[you're]] («you are») frente a [[your]] («tu, su»), y con [[they're]] («they are») frente a [[their]] («su, de ellos») y [[there]] («allí»). Las palabras posesivas (your, its, their) las estudiarás a fondo en la unidad de posesivos; por ahora basta con saber que existen y que **no llevan apóstrofo**.",
+      "estructuras": [
+        {
+          "etiqueta": "Prueba de la expansión",
+          "formula": [
+            {
+              "t": "¿Puedo decir «it is / you are / they are»?",
+              "rol": "otro"
+            },
+            {
+              "t": "Sí → it's / you're / they're",
+              "rol": "verbo"
+            },
+            {
+              "t": "No → its / your / their / there",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "You're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "welcome",
+              "rol": "complemento"
+            }
+          ],
+          "es": "De nada. (You are welcome ✔ → lleva apóstrofo)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Suenan igual, significan otra cosa",
+          "columnas": [
+            "Contracción",
+            "Significa",
+            "Sin apóstrofo",
+            "Significa"
+          ],
+          "filas": [
+            [
+              "you're",
+              "you are (tú eres/estás)",
+              "your",
+              "tu, su (de usted)"
+            ],
+            [
+              "it's",
+              "it is (es, está)",
+              "its",
+              "su (de una cosa o animal)"
+            ],
+            [
+              "they're",
+              "they are (son, están)",
+              "their / there",
+              "su, de ellos / allí, ahí"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "You're right.",
+          "es": "Tienes razón.",
+          "partes": [
+            {
+              "t": "You're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "right",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Se expande a «You are right», así que lleva apóstrofo. Ojo: el español dice «tener razón», el inglés usa be (lo verás en la lección siguiente)."
+        },
+        {
+          "en": "It's a nice city.",
+          "es": "Es una ciudad bonita.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a nice city",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«It is a nice city» funciona: apóstrofo."
+        },
+        {
+          "en": "They're at the airport.",
+          "es": "Están en el aeropuerto.",
+          "partes": [
+            {
+              "t": "They're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at the airport",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«They are at the airport» funciona. Si escribieras «There at the airport» o «Their at the airport», el lector tendría que adivinar qué quisiste decir."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "it's / its",
+          "ipa": "/ɪts/",
+          "consejo": "Las dos se pronuncian igual: i corta y relajada, y al final /ts/, como en la palabra española «tsunami» pronunciada rápido. La diferencia solo existe en la escritura."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Your very funny.",
+          "bien": "You're very funny.",
+          "porque": "Quieres decir «you are very funny». [[your]] significa «tu» y no puede ir sin un sustantivo detrás."
+        },
+        {
+          "mal": "Its hot today.",
+          "bien": "It's hot today.",
+          "porque": "Es «it is hot today», así que necesita apóstrofo. [[its]] sin apóstrofo es posesivo."
+        }
+      ]
+    },
+    {
+      "id": "oir-contracciones",
+      "titulo": "Reconocer las contracciones al escuchar",
+      "que_es": "Al hablar, las contracciones se funden con la palabra anterior y apenas se oyen: un zumbido /z/ o un siseo /s/ (is), una /m/ (am) o una r (are) pegados al sujeto. Aprender a detectarlas es la clave para entender inglés hablado.",
+      "para_que": [
+        "Entender a un hablante nativo que habla a velocidad normal.",
+        "Hacer dictados y tomar notas sin perder el verbo.",
+        "Saber si la oración habla de una persona o de varias aunque solo oigas un sonido."
+      ],
+      "como_funciona": "Presta atención al **final del sujeto**. Si oyes /m/ pegada a «ai», es [[I'm]]. Si oyes /z/ o /s/ pegada a he, she, it, a un nombre o a un sustantivo, es [['s]] = is: después de it se oye /s/ ([[it's]] /ɪts/) y después de una vocal o de una consonante sonora se oye /z/ ([[she's]] /ʃiːz/, [[Tom's]] /tɑːmz/). Si oyes una r suave tras you, we o they, es [['re]] = are. Muchas veces la contracción es lo único que te dice si el sujeto es singular o plural, porque el adjetivo que viene después no cambia.",
+      "estructuras": [
+        {
+          "etiqueta": "Lo que oyes → lo que escribes",
+          "formula": [
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "+ /m/, /z/, /s/ o r",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto de la oración",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "from Peru",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Es de Perú. (/ʃiːz/: la /z/ pegada a she es el verbo)"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "He's a chef.",
+          "es": "Es chef.",
+          "partes": [
+            {
+              "t": "He's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a chef",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/hiːz/: una i larga y una /z/. Sin esa /z/ («He a chef») la oración estaría incompleta."
+        },
+        {
+          "en": "We're tired.",
+          "es": "Estamos cansados.",
+          "partes": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "tired",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/wɪr ˈtaɪərd/. La r de [['re]] se funde con el sujeto; el oído hispanohablante tiende a oír solo «wi» y a perder el verbo."
+        },
+        {
+          "en": "It's my turn.",
+          "es": "Me toca a mí. / Es mi turno.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "my turn",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Después de la /t/ de it, la s suena sorda: /ɪts/."
+        },
+        {
+          "en": "They're from Brazil.",
+          "es": "Son de Brasil.",
+          "partes": [
+            {
+              "t": "They're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "from Brazil",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Suena igual que «there» (/ðer/). El contexto te dice que es they are: después viene de dónde son."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "he's / she's",
+          "ipa": "/hiːz/ /ʃiːz/",
+          "consejo": "La i es larga y tensa (labios estirados) y la s final vibra como zumbido: /z/. Pon la mano en la garganta: debes sentir la vibración. La h de he es solo aire; la sh de she es el sonido de pedir silencio: «shhh».",
+          "lento": true
+        },
+        {
+          "texto": "It's cold.",
+          "ipa": "/ɪts koʊld/",
+          "consejo": "El /ts/ se pega a la k de cold casi sin pausa. La o de cold es un diptongo /oʊ/: empieza en «o» y cierra los labios hacia «u»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "He a chef.",
+          "bien": "He's a chef.",
+          "porque": "Al oír rápido se pierde la /z/ y parece que no hay verbo. Pero en inglés el verbo nunca falta: [['s]] = is."
+        },
+        {
+          "mal": "There from Brazil.",
+          "bien": "They're from Brazil.",
+          "porque": "Suenan igual, pero aquí el significado es «they are from Brazil». Usa la prueba de la expansión."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "verbo-to-be.contracciones-to-be.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada forma completa con su contracción.",
+      "pares": [
+        {
+          "a": "I am",
+          "b": "I'm"
+        },
+        {
+          "a": "you are",
+          "b": "you're"
+        },
+        {
+          "a": "he is",
+          "b": "he's"
+        },
+        {
+          "a": "it is",
+          "b": "it's"
+        },
+        {
+          "a": "we are",
+          "b": "we're"
+        },
+        {
+          "a": "they are",
+          "b": "they're"
+        }
+      ],
+      "pistas": [
+        "Una contracción une el sujeto con am, is o are.",
+        "Busca el mismo sujeto en las dos columnas.",
+        "am → 'm; is → 's; are → 're."
+      ],
+      "solucion": {
+        "respuesta": "I am → I'm · you are → you're · he is → he's · it is → it's · we are → we're · they are → they're",
+        "explicacion": "En cada contracción se conserva el sujeto y se sustituye la primera letra del verbo por un apóstrofo: am pierde la a ('m), is pierde la i ('s) y are pierde la a ('re)."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe la forma contraída de «they are».",
+      "frase": "___ my neighbors.",
+      "traduccion": "Son mis vecinos.",
+      "respuestas": [
+        [
+          "They're"
+        ]
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Their": "[[their]] se pronuncia igual, pero significa «su, de ellos» y no contiene el verbo. Aquí necesitas they + are.",
+        "There": "[[there]] significa «allí». Suena igual que they're, pero no contiene el verbo are.",
+        "They are": "Es correcto como oración, pero el ejercicio pide la forma contraída: una sola palabra con apóstrofo."
+      },
+      "pistas": [
+        "La contracción une el sujeto y el verbo en una sola palabra.",
+        "Toma they y cambia la a de are por un apóstrofo.",
+        "Regla: el apóstrofo ocupa el lugar de la letra que desaparece de are, y todo se escribe junto."
+      ],
+      "solucion": {
+        "respuesta": "They're",
+        "explicacion": "They are se contrae como They're: se quita la a de are y en su lugar va el apóstrofo. No es their (su) ni there (allí), aunque suenen igual."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta para el mensaje.",
+      "pregunta": "Ha, ha! ___ very funny.",
+      "opciones": [
+        {
+          "texto": "You're",
+          "correcta": true,
+          "porque": "Correcto: quieres decir «You are very funny» (Eres muy chistoso). La prueba de la expansión funciona."
+        },
+        {
+          "texto": "Your",
+          "correcta": false,
+          "porque": "[[your]] significa «tu» y necesita un sustantivo detrás (your phone). No contiene el verbo are."
+        },
+        {
+          "texto": "You",
+          "correcta": false,
+          "porque": "Falta el verbo: «You very funny» no tiene are."
+        }
+      ],
+      "pistas": [
+        "Hay dos palabras que suenan igual; solo una contiene el verbo.",
+        "Prueba a decir la oración con la forma completa: ¿«you are very funny» tiene sentido?",
+        "Si puedes expandirla a you are, lleva apóstrofo."
+      ],
+      "solucion": {
+        "respuesta": "You're",
+        "explicacion": "La respuesta es You're porque la oración necesita sujeto y verbo: You are very funny. Your es un posesivo (tu) y You sola deja la oración sin verbo."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.04",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración con la forma contraída.",
+      "origen": "We are in the classroom.",
+      "instruccion": "Forma contraída",
+      "respuestas": [
+        "We're in the classroom."
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Were in the classroom.": "Sin apóstrofo es otra palabra: [[were]] es el pasado de be (lo verás más adelante). La contracción de we are es [[we're]].",
+        "We'are in the classroom.": "El apóstrofo sustituye a la a de are: [[we're]], no we'are."
+      },
+      "pistas": [
+        "Une el sujeto y el verbo.",
+        "El verbo es are: ¿qué letra desaparece?",
+        "Regla: el apóstrofo sustituye a la a de are y todo va junto; sin apóstrofo sería otra palabra."
+      ],
+      "solucion": {
+        "respuesta": "We're in the classroom.",
+        "explicacion": "We are se contrae en We're: la a de are se sustituye por el apóstrofo. Cuidado con were sin apóstrofo, que es otra palabra (el pasado de be)."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Piensa en lo que significa el apóstrofo.",
+      "pregunta": "En la oración «Sam's at home», ¿qué es 's?",
+      "opciones": [
+        {
+          "texto": "is (Sam is at home)",
+          "correcta": true,
+          "porque": "Correcto: después viene at home (un lugar), así que la oración necesita el verbo: Sam is at home, «Sam está en casa»."
+        },
+        {
+          "texto": "Un plural (varios Sam)",
+          "correcta": false,
+          "porque": "El plural se forma con -s sin apóstrofo. El apóstrofo indica que falta algo (aquí la i de is)."
+        },
+        {
+          "texto": "No significa nada: es decorativo",
+          "correcta": false,
+          "porque": "El apóstrofo siempre tiene una función. Aquí sustituye a la i de is; sin él, la oración no tendría verbo."
+        }
+      ],
+      "pistas": [
+        "El apóstrofo marca una letra que falta.",
+        "Mira qué viene después: at home. ¿Qué falta para tener una oración completa?",
+        "Con un nombre, 's puede ser la contracción de is."
+      ],
+      "solucion": {
+        "respuesta": "is (Sam is at home)",
+        "explicacion": "Sam's at home = Sam is at home. Es la contracción de is con un nombre, muy normal al hablar. Sin is, la oración no tendría verbo."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración con la forma contraída.",
+      "origen": "It is my birthday today.",
+      "instruccion": "Forma contraída",
+      "respuestas": [
+        "It's my birthday today."
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Its my birthday today.": "Falta el apóstrofo. [[its]] sin apóstrofo es un posesivo («su»); aquí es it is, así que se escribe [[it's]]."
+      },
+      "pistas": [
+        "Une it con is.",
+        "¿Qué letra de is se sustituye?",
+        "Regla: el apóstrofo sustituye a la i de is; sin él, la palabra es un posesivo."
+      ],
+      "solucion": {
+        "respuesta": "It's my birthday today.",
+        "explicacion": "It is se contrae en It's: la i de is se sustituye por el apóstrofo. Sin apóstrofo, its es un posesivo y la oración quedaría sin verbo."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra mal escrita. Señálala y corrígela.",
+      "frase": "Their very happy with the new house.",
+      "error": "Their",
+      "correcciones": [
+        "They're",
+        "They are"
+      ],
+      "frase_correcta": "They're very happy with the new house.",
+      "pistas": [
+        "Hay palabras que suenan igual y se escriben diferente.",
+        "Busca el verbo de la oración. ¿Dónde está el are?",
+        "Si la palabra equivale a they are, se escribe they're."
+      ],
+      "solucion": {
+        "respuesta": "They're",
+        "explicacion": "La oración quiere decir «They are very happy with the new house» (Están muy contentos con la casa nueva). Their es un posesivo y no contiene verbo; la contracción correcta es They're."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. Escribe las contracciones tal como las oyes.",
+      "texto": "She's a pilot and he's a chef.",
+      "literal": true,
+      "pistas": [
+        "Hay dos sujetos, cada uno con su contracción.",
+        "Escucha la /z/ que va pegada a she y a he.",
+        "she is → she's; he is → he's. Las profesiones llevan a delante."
+      ],
+      "solucion": {
+        "respuesta": "She's a pilot and he's a chef.",
+        "explicacion": "Se oye /ʃiːz/ y /hiːz/: la /z/ pegada al pronombre es la contracción de is. «Ella es piloto y él es chef.»"
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.09",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Escribe las contracciones tal como las oyes (ojo: hay dos palabras que suenan igual y solo una es correcta aquí).",
+      "texto": "They're at the park with Grace.",
+      "literal": true,
+      "pistas": [
+        "La primera palabra suena /ðer/.",
+        "Hay tres palabras que suenan /ðer/. ¿Cuál contiene el verbo are?",
+        "Si equivale a they are, se escribe they're."
+      ],
+      "solucion": {
+        "respuesta": "They're at the park with Grace.",
+        "explicacion": "La oración necesita sujeto y verbo: They are at the park with Grace (Están en el parque con Grace). Por eso es They're, no there ni their, aunque las tres suenan igual."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.10",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "teacher",
+        "She's",
+        "great",
+        "a"
+      ],
+      "respuestas": [
+        "She's a great teacher"
+      ],
+      "traduccion": "Es una gran maestra.",
+      "pistas": [
+        "She's contiene sujeto y verbo: va primero.",
+        "Después viene lo que es ella: a + adjetivo + sustantivo.",
+        "Regla: a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "She's a great teacher.",
+        "explicacion": "She's (she is) abre la oración. Después va a great teacher: el artículo, luego el adjetivo y al final el sustantivo, porque en inglés el adjetivo precede al sustantivo."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés usando contracciones. Usa nice para «simpática».",
+      "es": "Es de Chile y es muy simpática.",
+      "respuestas": [
+        "She's from Chile and she's very nice.",
+        "She's from Chile and very nice.",
+        "She's from Chile and is very nice."
+      ],
+      "errores_tipicos": {
+        "Is from Chile and is very nice.": "Faltan los sujetos. En inglés hay que decir quién: [[She's]] (she is)."
+      },
+      "pistas": [
+        "«Es» aparece dos veces, pero en inglés necesitas también el sujeto.",
+        "¿Quién es de Chile? Una mujer: ¿qué pronombre usas?",
+        "Regla: pronombre femenino + 's delante de from Chile; después de and puedes repetir sujeto y verbo."
+      ],
+      "solucion": {
+        "respuesta": "She's from Chile and she's very nice.",
+        "explicacion": "Cada «es» necesita su sujeto: she's (she is). También es correcto omitir she's en la segunda parte (She's from Chile and very nice), porque sujeto y verbo se sobreentienden, o decir and is very nice, porque el sujeto she sigue valiendo para el segundo verbo. Lo que no vale es empezar la oración sin sujeto («Is from Chile»)."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.12",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural para el mensaje.",
+      "contexto": "Tu amigo Ben te escribe por el celular.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Hey! Where are you?",
+          "es": "¡Hola! ¿Dónde estás?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I'm at home.",
+          "correcta": true,
+          "porque": "Correcto y natural: la contracción es lo normal en un mensaje a un amigo. «Estoy en casa.»"
+        },
+        {
+          "texto": "Im at home.",
+          "correcta": false,
+          "porque": "Falta el apóstrofo. Aunque mucha gente lo omite al escribir rápido, la forma correcta es [[I'm]]."
+        },
+        {
+          "texto": "I at home.",
+          "correcta": false,
+          "porque": "Falta el verbo. Sin am (o 'm) no hay oración."
+        },
+        {
+          "texto": "Am at home.",
+          "correcta": false,
+          "porque": "Falta el sujeto [[I]]. En inglés no se omite."
+        }
+      ],
+      "pistas": [
+        "Contestas dónde estás tú.",
+        "Revisa sujeto, verbo y apóstrofo en cada opción.",
+        "I am → I'm, con apóstrofo; los dos elementos (I y am) tienen que estar."
+      ],
+      "solucion": {
+        "respuesta": "I'm at home.",
+        "explicacion": "I'm at home tiene sujeto (I) y verbo ('m = am) y usa la contracción, que es lo natural en un mensaje informal. Las otras opciones pierden el apóstrofo, el verbo o el sujeto."
+      }
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite cada contracción como UNA sola sílaba. Grábate y compara.",
+      "texto": "I'm, you're, he's, she's, it's, we're, they're.",
+      "ipa": "/aɪm | jʊr | hiːz | ʃiːz | ɪts | wɪr | ðer/",
+      "consejo": "Cada contracción es un solo golpe de voz. En he's y she's, la s vibra (/z/); en it's es sorda (/s/) porque viene después de t. En you're, we're y they're, la r final se hace curvando la punta de la lengua hacia atrás, sin tocar el paladar y sin vibrar.",
+      "es": "Yo soy/estoy, tú eres/estás, él es/está, ella es/está, es/está (cosa), somos/estamos, son/están."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Un mensaje rápido",
+    "contexto": "Estás en una fiesta con tus amigos Carlos y Priya. Tu amiga Mei te escribe para preguntar dónde están y cómo va la fiesta.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "Hi! Where are you? Is the party good?",
+        "es": "¡Hola! ¿Dónde estás? ¿Está buena la fiesta?"
+      }
+    ],
+    "tu_turno": "Contesta con un mensaje de 3 o 4 oraciones usando contracciones: dónde estás, con quién estás, cómo es la fiesta y cómo están tus amigos.",
+    "modelo": "Hi, Mei! I'm at the party with Carlos. Priya's here too. It's a great party! We're very happy.",
+    "alternativas": [
+      "I'm at the party with Carlos and Priya. It's a lot of fun. They're in the kitchen and I'm in the garden.",
+      "We're at the party. It's a small party, but it's nice. Carlos is very happy today."
+    ],
+    "claves": [
+      "I'm para hablar de ti; we're para el grupo; they're para tus amigos.",
+      "It's para describir la fiesta.",
+      "Revisa cada apóstrofo con la prueba de la expansión."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Contracción = sujeto + verbo en una palabra, con apóstrofo en lugar de la letra que falta: I'm, you're, he's, she's, it's, we're, they're.",
+      "Al hablar y en textos informales, la contracción es lo normal; la forma completa es formal o enfática.",
+      "Prueba de la expansión: si puedes decir it is / you are / they are, lleva apóstrofo (it's, you're, they're).",
+      "Al escuchar, busca el sonido pegado al sujeto: /m/ = am, /z/ o /s/ = is, r = are."
+    ],
+    "recuerda": [
+      "your, its, their y there NO son contracciones.",
+      "I am solo se contrae como I'm.",
+      "Con nombres, 's = is es muy común al hablar: Tom's here."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "verbo-to-be.contracciones-to-be.r1",
+      "frente": "Contracción de they are",
+      "reverso": "they're → They're in Canada.",
+      "nota": "No confundir con their (su) ni con there (allí)."
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.r2",
+      "frente": "It's o its: «___ cold today.»",
+      "reverso": "It's cold today. (= It is cold today.)",
+      "nota": "Prueba de la expansión."
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.r3",
+      "frente": "¿Qué representa el apóstrofo en I'm?",
+      "reverso": "La a de am, que desaparece: I am → I'm.",
+      "nota": "El apóstrofo marca siempre letras que faltan."
+    },
+    {
+      "id": "verbo-to-be.contracciones-to-be.r4",
+      "frente": "¿Cuándo es mejor la forma completa (I am, it is)?",
+      "reverso": "En textos formales y para dar énfasis: I AM ready!",
+      "nota": "Al hablar, la contraída es la normal."
+    }
+  ]
+}

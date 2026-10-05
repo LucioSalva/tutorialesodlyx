@@ -1,0 +1,535 @@
+{
+  "titulo": "Evaluación: was y were",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "was-were.eval.01",
+      "leccion": "was-were-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Carlos and Lucía ___ at the airport at six.",
+      "opciones": [
+        {
+          "texto": "were",
+          "correcta": true,
+          "porque": "Carlos and Lucía son dos personas (= they): were."
+        },
+        {
+          "texto": "was",
+          "correcta": false,
+          "porque": "Was es para un sujeto singular; aquí hay dos personas."
+        },
+        {
+          "texto": "are",
+          "correcta": false,
+          "porque": "Are es presente; la oración cuenta algo que ya pasó."
+        }
+      ],
+      "pistas": [
+        "El pasado de be tiene dos formas.",
+        "¿Cuántas personas forman el sujeto?",
+        "Dos sujetos unidos con and = they → were."
+      ],
+      "solucion": {
+        "respuesta": "were",
+        "explicacion": "La respuesta es were porque el sujeto, Carlos and Lucía, es plural (equivale a they). Was solo va con I, he, she, it y sujetos singulares."
+      }
+    },
+    {
+      "id": "was-were.eval.02",
+      "leccion": "was-were-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con was o were.",
+      "frase": "The soup ___ cold, but the drinks ___ perfect.",
+      "traduccion": "La sopa estaba fría, pero las bebidas estaban perfectas.",
+      "respuestas": [
+        [
+          "was"
+        ],
+        [
+          "were"
+        ]
+      ],
+      "errores_tipicos": {
+        "were | were": "The soup es singular (= it): was.",
+        "was | was": "The drinks es plural (= they): were."
+      },
+      "pistas": [
+        "Cada parte de la oración tiene su propio sujeto.",
+        "Los sujetos son the soup y the drinks.",
+        "Singular → was; plural → were."
+      ],
+      "solucion": {
+        "respuesta": "was · were",
+        "explicacion": "The soup es singular, por eso was; the drinks es plural, por eso were."
+      }
+    },
+    {
+      "id": "was-were.eval.03",
+      "leccion": "was-were-afirmativo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa very.",
+      "es": "Teníamos mucho frío.",
+      "respuestas": [
+        "We were very cold."
+      ],
+      "errores_tipicos": {
+        "We had very cold.": "«Tener frío» es be cold: we were cold.",
+        "We had a lot of cold.": "«Tener frío» es be cold: we were very cold.",
+        "Were very cold.": "Falta el sujeto we."
+      },
+      "pistas": [
+        "Las sensaciones como frío o hambre no se «tienen» en inglés.",
+        "El sujeto es we y cold es un adjetivo.",
+        "Sujeto + be en pasado + very + adjetivo; en inglés el frío se «es», no se «tiene», como en They were very hungry."
+      ],
+      "solucion": {
+        "respuesta": "We were very cold.",
+        "explicacion": "«Tener frío» es be cold, porque cold es un adjetivo. Con we el pasado de be es were. El sujeto es obligatorio aunque el español lo omita."
+      }
+    },
+    {
+      "id": "was-were.eval.04",
+      "leccion": "was-were-afirmativo",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "You was the best student in the class.",
+      "error": "was",
+      "correcciones": [
+        "were"
+      ],
+      "frase_correcta": "You were the best student in the class.",
+      "pistas": [
+        "Revisa la concordancia entre sujeto y verbo.",
+        "El sujeto es you, aunque se refiera a una sola persona.",
+        "You siempre lleva were."
+      ],
+      "solucion": {
+        "respuesta": "was → were",
+        "explicacion": "You lleva were siempre, se refiera a una persona o a varias, igual que en presente es you are."
+      }
+    },
+    {
+      "id": "was-were.eval.05",
+      "leccion": "was-were-afirmativo",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee el mensaje y elige la interpretación correcta.",
+      "pregunta": "«The trip was long, but the hotel was great and the beaches were beautiful.» ¿Qué opina quien escribe?",
+      "opciones": [
+        {
+          "texto": "El viaje fue largo, pero le gustaron el hotel y las playas.",
+          "correcta": true,
+          "porque": "Was long = fue largo; was great y were beautiful son valoraciones positivas del hotel y de las playas."
+        },
+        {
+          "texto": "El viaje va a ser largo y el hotel es muy bueno.",
+          "correcta": false,
+          "porque": "Was y were hablan del pasado, no del futuro ni del presente."
+        },
+        {
+          "texto": "No le gustó nada del viaje.",
+          "correcta": false,
+          "porque": "Great y beautiful son opiniones positivas."
+        },
+        {
+          "texto": "Todavía está en el hotel.",
+          "correcta": false,
+          "porque": "Todo está en pasado (was, were): el viaje ya terminó."
+        }
+      ],
+      "pistas": [
+        "Fíjate en el tiempo de los verbos.",
+        "Busca los adjetivos: long, great, beautiful.",
+        "Was / were = algo que ya pasó; great y beautiful son positivos."
+      ],
+      "solucion": {
+        "respuesta": "El viaje fue largo, pero le gustaron el hotel y las playas.",
+        "explicacion": "Was y were indican que el viaje ya terminó. Long (largo) es la parte negativa; great y beautiful son valoraciones positivas del hotel y de las playas."
+      }
+    },
+    {
+      "id": "was-were.eval.06",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "The kids were in the pool.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Were the kids in the pool?"
+      ],
+      "errores_tipicos": {
+        "The kids were in the pool?": "La pregunta normal pone were delante del sujeto.",
+        "Was the kids in the pool?": "The kids es plural: Were…?"
+      },
+      "pistas": [
+        "Las preguntas con be cambian el orden.",
+        "¿Qué palabra pasa al principio?",
+        "Be + sujeto + lugar + ?, como en Was the dog in the garden?"
+      ],
+      "solucion": {
+        "respuesta": "Were the kids in the pool?",
+        "explicacion": "Were se coloca delante del sujeto (the kids) y el resto se mantiene. Es were porque the kids es plural."
+      }
+    },
+    {
+      "id": "was-were.eval.07",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta negativa (una palabra).",
+      "frase": "Was the exam easy? — No, it ___.",
+      "traduccion": "¿El examen fue fácil? — No.",
+      "respuestas": [
+        [
+          "wasn't"
+        ]
+      ],
+      "errores_tipicos": {
+        "weren't": "It es singular: wasn't.",
+        "don't": "Be no usa don't: la respuesta corta es No, it wasn't."
+      },
+      "pistas": [
+        "La respuesta corta repite el verbo de la pregunta.",
+        "El sujeto de la respuesta es it.",
+        "Respuesta corta negativa: No, + pronombre + be en pasado con n't, como en Were they late? — No, they weren't."
+      ],
+      "solucion": {
+        "respuesta": "wasn't",
+        "explicacion": "La pregunta usa was con el exam; en la respuesta, it también lleva was, y en negativo es wasn't."
+      }
+    },
+    {
+      "id": "was-were.eval.08",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Tu amigo Ben te pregunta por la fiesta de Diego.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Were you at Diego's party on Saturday?",
+          "es": "¿Estuviste en la fiesta de Diego el sábado?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, I wasn't. I was sick.",
+          "correcta": true,
+          "porque": "Respuesta corta con I + wasn't y una explicación en pasado."
+        },
+        {
+          "texto": "No, I weren't. I was sick.",
+          "correcta": false,
+          "porque": "Con I la negación es wasn't, aunque la pregunta use were."
+        },
+        {
+          "texto": "No, I don't. I was sick.",
+          "correcta": false,
+          "porque": "La pregunta es con be en pasado; don't no sirve para responderla."
+        },
+        {
+          "texto": "Yes, I wasn't.",
+          "correcta": false,
+          "porque": "Yes y wasn't se contradicen."
+        }
+      ],
+      "pistas": [
+        "Contestas sobre ti mismo.",
+        "¿Qué forma de be va con I en pasado?",
+        "No, + pronombre + be en pasado con n't; después puedes dar el motivo, como en No, she wasn't. She was busy."
+      ],
+      "solucion": {
+        "respuesta": "No, I wasn't. I was sick.",
+        "explicacion": "A Were you…? se contesta con I was / I wasn't, porque en la respuesta el sujeto es I. Después se añade el motivo, también en pasado."
+      }
+    },
+    {
+      "id": "was-were.eval.09",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Why were you so late this morning?",
+      "pistas": [
+        "Es una pregunta de información en pasado.",
+        "Empieza por una palabra interrogativa y el sujeto es you.",
+        "Why + be en pasado + sujeto + so + adjetivo + expresión de tiempo, como en Why was he so tired last night?"
+      ],
+      "solucion": {
+        "respuesta": "Why were you so late this morning?",
+        "explicacion": "Why (por qué) va primero; were va delante de you porque es una pregunta con be. So late = tan tarde."
+      }
+    },
+    {
+      "id": "was-were.eval.10",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "old",
+        "How",
+        "was",
+        "your",
+        "grandfather",
+        "in",
+        "this",
+        "photo"
+      ],
+      "respuestas": [
+        "How old was your grandfather in this photo"
+      ],
+      "traduccion": "¿Cuántos años tenía tu abuelo en esta foto?",
+      "pistas": [
+        "La edad se pregunta con dos palabras interrogativas juntas.",
+        "Después de how old va el verbo y luego el sujeto.",
+        "How old + be en pasado + sujeto + resto + ?, como en How old were your parents in that picture?"
+      ],
+      "solucion": {
+        "respuesta": "How old was your grandfather in this photo?",
+        "explicacion": "How old va junto al principio; luego was (sujeto singular) y después your grandfather. In this photo cierra la pregunta."
+      }
+    },
+    {
+      "id": "was-were.eval.11",
+      "leccion": "was-were-negacion-y-preguntas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa la forma contraída.",
+      "es": "No estuvimos en casa el domingo.",
+      "respuestas": [
+        "We weren't at home on Sunday.",
+        "On Sunday we weren't at home.",
+        "We weren't home on Sunday.",
+        "On Sunday we weren't home."
+      ],
+      "errores_tipicos": {
+        "We no were at home on Sunday.": "El not va después de were: weren't.",
+        "We wasn't at home on Sunday.": "We lleva were: weren't.",
+        "We don't were at home on Sunday.": "Be se niega solo, sin don't."
+      },
+      "pistas": [
+        "La negación de be en pasado se hace añadiendo not.",
+        "El sujeto es we y los días de la semana llevan una preposición concreta.",
+        "Sujeto + be en pasado negativo + lugar + on + día, como en She wasn't at work on Monday."
+      ],
+      "solucion": {
+        "respuesta": "We weren't at home on Sunday.",
+        "explicacion": "We lleva were y la negación es weren't. Los días llevan on. En inglés estadounidense también es muy común We weren't home, sin at."
+      }
+    },
+    {
+      "id": "was-were.eval.12",
+      "leccion": "there-was-y-born",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "There ___ a lot of noise at the party.",
+      "opciones": [
+        {
+          "texto": "was",
+          "correcta": true,
+          "porque": "Noise (ruido) es incontable: there was."
+        },
+        {
+          "texto": "were",
+          "correcta": false,
+          "porque": "Were va con plurales; noise es incontable, aunque vaya con a lot of."
+        },
+        {
+          "texto": "had",
+          "correcta": false,
+          "porque": "«Había» (existía) no se dice con have, sino con there was / there were."
+        }
+      ],
+      "pistas": [
+        "Con a lot of, lo que decide es el sustantivo.",
+        "¿Noise es contable o incontable?",
+        "Incontable → there was."
+      ],
+      "solucion": {
+        "respuesta": "was",
+        "explicacion": "Noise es un sustantivo incontable, así que va there was. A lot of no convierte el sustantivo en plural: a lot of noise → was; a lot of people → were."
+      }
+    },
+    {
+      "id": "was-were.eval.13",
+      "leccion": "there-was-y-born",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "There were some trees in the yard.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "There weren't any trees in the yard.",
+        "There were no trees in the yard."
+      ],
+      "errores_tipicos": {
+        "There weren't some trees in the yard.": "En las negaciones some se convierte en any.",
+        "There wasn't any trees in the yard.": "Trees es plural: weren't."
+      },
+      "pistas": [
+        "Para negar se añade not después de were.",
+        "Además, hay una palabra que cambia en la negación.",
+        "There + be en negativo + any + sustantivo plural (some cambia a any), como en There wasn't any water in the glass."
+      ],
+      "solucion": {
+        "respuesta": "There weren't any trees in the yard.",
+        "explicacion": "Se niega were (weren't) y some pasa a any, como en presente. También es correcto There were no trees in the yard."
+      }
+    },
+    {
+      "id": "was-were.eval.14",
+      "leccion": "there-was-y-born",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta y la respuesta.",
+      "frase": "Where ___ you born? — I ___ born in Colima.",
+      "traduccion": "¿Dónde naciste? — Nací en Colima.",
+      "respuestas": [
+        [
+          "were"
+        ],
+        [
+          "was"
+        ]
+      ],
+      "errores_tipicos": {
+        "were | were": "En la respuesta el sujeto es I: I was born.",
+        "was | was": "You lleva were: Where were you born?"
+      },
+      "pistas": [
+        "Nacer = be born; lo que concuerda con el sujeto es be.",
+        "El sujeto de la pregunta es you; el de la respuesta, I.",
+        "I, he, she, it → was; you, we, they → were. En la pregunta be va antes del sujeto y born va después."
+      ],
+      "solucion": {
+        "respuesta": "were · was",
+        "explicacion": "En la pregunta el sujeto es you, que lleva were. En la respuesta el sujeto es I, que lleva was. Born no cambia."
+      }
+    },
+    {
+      "id": "was-were.eval.15",
+      "leccion": "there-was-y-born",
+      "habilidad": "interpretacion",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada frase en español con su traducción.",
+      "pares": [
+        {
+          "a": "Nací en 2000.",
+          "b": "I was born in 2000."
+        },
+        {
+          "a": "Hubo un problema.",
+          "b": "There was a problem."
+        },
+        {
+          "a": "Fue un problema.",
+          "b": "It was a problem."
+        },
+        {
+          "a": "¿Había baños?",
+          "b": "Were there any bathrooms?"
+        },
+        {
+          "a": "No había agua.",
+          "b": "There wasn't any water."
+        },
+        {
+          "a": "Mis hijos nacieron en casa.",
+          "b": "My kids were born at home."
+        }
+      ],
+      "pistas": [
+        "«Había / hubo» se traduce con there; «fue» describe algo ya mencionado.",
+        "Fíjate en si lo que había es singular, plural o incontable.",
+        "There was / there were presenta algo; it was lo describe; nacer = be born."
+      ],
+      "solucion": {
+        "respuesta": "Nací → I was born · Hubo → There was · Fue → It was · ¿Había baños? → Were there any · No había agua → There wasn't any · nacieron → were born",
+        "explicacion": "There was presenta algo que existió (hubo un problema); it was describe algo ya conocido (fue un problema). Bathrooms es plural → were there; water es incontable → there wasn't. Nacer siempre es be born."
+      }
+    },
+    {
+      "id": "was-were.eval.16",
+      "leccion": "there-was-y-born",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "My grandparents born in a small village.",
+      "error": "born",
+      "correcciones": [
+        "were born"
+      ],
+      "frase_correcta": "My grandparents were born in a small village.",
+      "pistas": [
+        "«Nacer» necesita dos palabras en inglés.",
+        "Falta algo delante de born; mira el sujeto.",
+        "Sujeto plural → were born."
+      ],
+      "solucion": {
+        "respuesta": "born → were born",
+        "explicacion": "Born siempre va con be. Como my grandparents es plural, en pasado es were born."
+      }
+    },
+    {
+      "id": "was-were.eval.17",
+      "leccion": "there-was-y-born",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Había muchos turistas en la playa?",
+      "respuestas": [
+        "Were there a lot of tourists on the beach?",
+        "Were there many tourists on the beach?",
+        "Were there lots of tourists on the beach?",
+        "Were there a lot of tourists at the beach?",
+        "Were there many tourists at the beach?",
+        "Were there lots of tourists at the beach?"
+      ],
+      "errores_tipicos": {
+        "Was there many tourists on the beach?": "Tourists es plural: Were there…?",
+        "There were many tourists on the beach?": "En la pregunta were va delante de there.",
+        "Had many tourists on the beach?": "«Había» se traduce con there was / there were."
+      },
+      "pistas": [
+        "«¿Había…?» es la pregunta de there was / there were.",
+        "Tourists es plural; piensa en el orden de la pregunta.",
+        "Be + there + many / a lot of + sustantivo + lugar + ?, como en Was there a lot of traffic on the road?"
+      ],
+      "solucion": {
+        "respuesta": "Were there many tourists on the beach?",
+        "explicacion": "Tourists es plural, así que la forma es there were; en pregunta, were va delante de there. Many y a lot of son correctas; on the beach y at the beach, también."
+      }
+    }
+  ]
+}

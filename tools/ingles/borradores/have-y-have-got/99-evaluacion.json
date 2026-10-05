@@ -1,0 +1,512 @@
+{
+  "titulo": "Evaluación: have y have got",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "have-y-have-got.eval.01",
+      "leccion": "have-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "The new phone ___ a very good camera.",
+      "opciones": [
+        {
+          "texto": "has",
+          "correcta": true,
+          "porque": "The new phone equivale a it: tercera persona del singular, has."
+        },
+        {
+          "texto": "have",
+          "correcta": false,
+          "porque": "Have va con I, you, we, they; un teléfono es it."
+        },
+        {
+          "texto": "is have",
+          "correcta": false,
+          "porque": "No se combinan be y have en presente simple: el verbo es solo has."
+        }
+      ],
+      "pistas": [
+        "Have tiene dos formas en presente simple.",
+        "¿Qué pronombre sustituye a the new phone?",
+        "Con he/she/it, have cambia a su forma irregular de tercera persona."
+      ],
+      "solucion": {
+        "respuesta": "has",
+        "explicacion": "The new phone es una cosa en singular (it), así que el verbo es has, la forma irregular de tercera persona de have."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.02",
+      "leccion": "have-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta y la respuesta corta.",
+      "frase": "___ your teacher have a car? — No, she ___.",
+      "traduccion": "¿Tu maestra tiene carro? — No.",
+      "respuestas": [
+        [
+          "Does"
+        ],
+        [
+          "doesn't",
+          "does not"
+        ]
+      ],
+      "errores_tipicos": {
+        "does | hasn't": "La pregunta usa does, así que la respuesta corta repite does: No, she doesn't.",
+        "do | don't": "Your teacher es she: el auxiliar es does / doesn't."
+      },
+      "pistas": [
+        "Pregunta de presente simple con have: necesita un auxiliar.",
+        "Your teacher es tercera persona del singular, y la respuesta repite el mismo auxiliar.",
+        "Con tercera persona del singular el auxiliar es la forma de do con -es; la respuesta corta repite ese auxiliar en negativo."
+      ],
+      "solucion": {
+        "respuesta": "Does … doesn't",
+        "explicacion": "Como el verbo es have (sin got), la pregunta se forma con Does (your teacher = she), y la respuesta corta repite el auxiliar en negativo: doesn't."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.03",
+      "leccion": "have-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hijo tiene 12 años y tiene el pelo rizado.",
+      "respuestas": [
+        "My son is 12 and he has curly hair.",
+        "My son is 12 years old and he has curly hair.",
+        "My son is twelve and he has curly hair.",
+        "My son is twelve years old and he has curly hair.",
+        "My son is 12 and has curly hair.",
+        "My son is 12 years old and has curly hair.",
+        "My son is twelve and has curly hair.",
+        "My son is twelve years old and has curly hair.",
+        "My son is 12 and he's got curly hair.",
+        "My son is 12 years old and he's got curly hair.",
+        "My son is twelve and he's got curly hair.",
+        "My son is twelve years old and he's got curly hair.",
+        "My son's 12 and he has curly hair.",
+        "My son's 12 years old and he has curly hair.",
+        "My son's twelve and he has curly hair.",
+        "My son's twelve years old and he has curly hair.",
+        "My son's 12 and he's got curly hair.",
+        "My son's twelve and he's got curly hair."
+      ],
+      "errores_tipicos": {
+        "My son has 12 years and he has curly hair.": "La edad va con be: My son is 12.",
+        "My son is 12 and he has the curly hair.": "Los rasgos físicos no llevan the: he has curly hair.",
+        "My son is 12 and he has hair curly.": "El adjetivo va antes del sustantivo: curly hair."
+      },
+      "pistas": [
+        "Hay dos «tener» en la oración, pero solo uno es have en inglés.",
+        "Mira la edad y el pelo por separado.",
+        "Edad → be + número; rasgo físico → has + adjetivo + sustantivo, sin the."
+      ],
+      "solucion": {
+        "respuesta": "My son is 12 and he has curly hair.",
+        "explicacion": "La edad se expresa con be (My son is 12 / 12 years old). El pelo sí se «tiene»: he has curly hair (o he's got), con el adjetivo delante y sin artículo."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.04",
+      "leccion": "have-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "Does your apartment has air conditioning?",
+      "error": "has",
+      "correcciones": [
+        "have"
+      ],
+      "frase_correcta": "Does your apartment have air conditioning?",
+      "pistas": [
+        "La pregunta ya tiene un auxiliar de tercera persona.",
+        "Fíjate en el verbo después del sujeto.",
+        "Después de does, el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "have",
+        "explicacion": "Does ya lleva la marca de tercera persona; por eso el verbo vuelve a la forma base: Does your apartment have…?"
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.05",
+      "leccion": "have-presente-simple",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "We don't have a garage, but we have a big garden.",
+      "pistas": [
+        "Una negación y una afirmación unidas por but.",
+        "El sujeto es we en las dos partes.",
+        "Sujeto + auxiliar negativo + have + a + sustantivo, but + sujeto + have + a + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "We don't have a garage, but we have a big garden.",
+        "explicacion": "We va con don't have en negación y con have en afirmación. Garage y garden son contables y singulares: llevan a."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.eval.06",
+      "leccion": "have-got",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "Quieres saber si tu amigo tiene cargador. ¿Cuál es correcta?",
+      "opciones": [
+        {
+          "texto": "Have you got a charger?",
+          "correcta": true,
+          "porque": "Pregunta con have got: el auxiliar Have va delante del sujeto y got detrás."
+        },
+        {
+          "texto": "Do you have got a charger?",
+          "correcta": false,
+          "porque": "Mezcla do con got: son dos sistemas que no se combinan."
+        },
+        {
+          "texto": "Have got you a charger?",
+          "correcta": false,
+          "porque": "Solo el auxiliar have pasa delante del sujeto; got se queda después."
+        },
+        {
+          "texto": "Are you got a charger?",
+          "correcta": false,
+          "porque": "Have got se forma con have, no con be."
+        }
+      ],
+      "pistas": [
+        "Con have got, ¿quién es el auxiliar?",
+        "El auxiliar va antes del sujeto; el resto se queda en su lugar.",
+        "Con got, have va antes del sujeto y got se queda después de él, como en Has she got a car?"
+      ],
+      "solucion": {
+        "respuesta": "Have you got a charger?",
+        "explicacion": "En have got, have es el auxiliar: en la pregunta pasa delante del sujeto y got se queda detrás. No se usa do ni be."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.07",
+      "leccion": "have-got",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta el significado de 's.",
+      "pregunta": "¿En cuál de estas oraciones 's significa has?",
+      "opciones": [
+        {
+          "texto": "It's got a big kitchen.",
+          "correcta": true,
+          "porque": "Después de 's viene got: It has got a big kitchen."
+        },
+        {
+          "texto": "It's a big kitchen.",
+          "correcta": false,
+          "porque": "Aquí 's va seguido de un sustantivo (a big kitchen): es is, «es una cocina grande»."
+        },
+        {
+          "texto": "She's cooking in the kitchen.",
+          "correcta": false,
+          "porque": "'s + verbo en -ing es el presente continuo: she is cooking."
+        },
+        {
+          "texto": "Diego's kitchen is big.",
+          "correcta": false,
+          "porque": "Aquí 's es posesivo: la cocina de Diego."
+        }
+      ],
+      "pistas": [
+        "'s puede ser is, has o posesivo.",
+        "Mira qué palabra viene después de 's en cada opción.",
+        "Solo 's + got es has."
+      ],
+      "solucion": {
+        "respuesta": "It's got a big kitchen.",
+        "explicacion": "Solo en It's got… el 's va seguido de got, así que es has (tiene una cocina grande). En las demás es is o posesivo."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.08",
+      "leccion": "have-got",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración con have got, en negativa. Mantén el significado.",
+      "origen": "Sam doesn't have any money.",
+      "instruccion": "Con have got (negativa)",
+      "respuestas": [
+        "Sam hasn't got any money."
+      ],
+      "errores_tipicos": {
+        "Sam doesn't have got any money.": "No mezcles doesn't con got: Sam hasn't got…",
+        "Sam haven't got any money.": "Sam es he: hasn't got."
+      },
+      "pistas": [
+        "En have got la negación la lleva have, no do.",
+        "Sam es tercera persona del singular.",
+        "He → hasn't + got + complemento."
+      ],
+      "solucion": {
+        "respuesta": "Sam hasn't got any money.",
+        "explicacion": "Con have got, el auxiliar has recibe la negación: hasn't got. Doesn't desaparece porque ya no hace falta."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.09",
+      "leccion": "have-got",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "En la oficina de una compañera británica.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "Has your team got a meeting today?",
+          "es": "¿Tu equipo tiene junta hoy?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, it has. At three.",
+          "correcta": true,
+          "porque": "Pregunta con Has → respuesta con has. Your team se sustituye por it."
+        },
+        {
+          "texto": "Yes, it does. At three.",
+          "correcta": false,
+          "porque": "Does respondería a Does your team have…?, no a Has your team got…?"
+        },
+        {
+          "texto": "Yes, it's got. At three.",
+          "correcta": false,
+          "porque": "En la respuesta corta no se repite got ni se contrae el auxiliar."
+        },
+        {
+          "texto": "Yes, they has. At three.",
+          "correcta": false,
+          "porque": "Con they sería have; además, your team en singular se sustituye normalmente por it."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "Mira con qué palabra empieza la pregunta de Grace.",
+        "A Has…got? se responde con has / hasn't, sin got, y con el pronombre de una cosa."
+      ],
+      "solucion": {
+        "respuesta": "Yes, it has. At three.",
+        "explicacion": "La pregunta empieza con Has, así que la respuesta corta es Yes, it has, completa, sin got y sin contraer."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.eval.10",
+      "leccion": "have-got",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "got",
+        "Have",
+        "any",
+        "parents",
+        "pets",
+        "your"
+      ],
+      "respuestas": [
+        "Have your parents got any pets"
+      ],
+      "traduccion": "¿Tus papás tienen mascotas?",
+      "pistas": [
+        "Pregunta con have got.",
+        "El auxiliar va primero, luego el sujeto de dos palabras.",
+        "Have + sujeto plural + got + any + sustantivo?, como en Have the Smiths got any cats?"
+      ],
+      "solucion": {
+        "respuesta": "Have your parents got any pets?",
+        "explicacion": "Your parents = they, así que el auxiliar es Have. Va delante del sujeto; got queda detrás y any acompaña al plural en la pregunta."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.11",
+      "leccion": "expresiones-con-have",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra que falta.",
+      "frase": "I'm tired. Let's have a ___ and continue in ten minutes.",
+      "traduccion": "Estoy cansado. Tomemos un descanso y seguimos en diez minutos.",
+      "respuestas": [
+        [
+          "break",
+          "rest"
+        ]
+      ],
+      "banco": [
+        "break",
+        "breakfast",
+        "time",
+        "fun"
+      ],
+      "errores_tipicos": {
+        "breakfast": "Breakfast es el desayuno; aquí se habla de una pausa corta: have a break.",
+        "fun": "Fun no lleva a y significa diversión, no descanso."
+      },
+      "pistas": [
+        "Buscas una expresión con have que signifique «descansar un rato».",
+        "Mira el contexto: estás cansado y quieres seguir en diez minutos.",
+        "Have a + pausa corta."
+      ],
+      "solucion": {
+        "respuesta": "break",
+        "explicacion": "Have a break es tomarse un descanso. Encaja con I'm tired y con continue in ten minutes. Let's es una fórmula fija para proponer algo («vamos a…»)."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.12",
+      "leccion": "expresiones-con-have",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en negativa.",
+      "origen": "Ana has lunch at the office.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Ana doesn't have lunch at the office."
+      ],
+      "errores_tipicos": {
+        "Ana hasn't got lunch at the office.": "Have lunch es una acción: no admite got. Se niega con doesn't.",
+        "Ana hasn't lunch at the office.": "Have de acción es un verbo normal: necesita doesn't.",
+        "Ana doesn't has lunch at the office.": "Después de doesn't va have."
+      },
+      "pistas": [
+        "Have lunch es una acción, no una posesión.",
+        "¿Cómo se niega un verbo de acción en presente simple con she?",
+        "Con she: auxiliar negativo + have en forma base + comida + lugar."
+      ],
+      "solucion": {
+        "respuesta": "Ana doesn't have lunch at the office.",
+        "explicacion": "Have lunch es comer, una acción; por eso se niega con doesn't have, como cualquier verbo, y nunca con hasn't got."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.13",
+      "leccion": "expresiones-con-have",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta la diferencia.",
+      "pregunta": "Tu amigo te escribe: «I've got a party on Saturday.» ¿Qué entiendes?",
+      "opciones": [
+        {
+          "texto": "Tiene una fiesta en su agenda el sábado (lo invitaron o tiene ese compromiso).",
+          "correcta": true,
+          "porque": "Have got expresa lo que «tienes» en tu agenda, como un compromiso: tiene una fiesta a la que ir."
+        },
+        {
+          "texto": "Él organiza la fiesta en su casa el sábado.",
+          "correcta": false,
+          "porque": "Para organizar una fiesta se usaría I'm having a party o We're having a party, sin got."
+        },
+        {
+          "texto": "Está en una fiesta ahora mismo.",
+          "correcta": false,
+          "porque": "Para eso diría I'm at a party. Además, on Saturday habla del futuro."
+        }
+      ],
+      "pistas": [
+        "Got cambia el tipo de have.",
+        "Have got = tener (algo en tu poder o en tu agenda); have a party sin got = hacer una fiesta.",
+        "Un compromiso en la agenda se «tiene»; organizar se dice con having."
+      ],
+      "solucion": {
+        "respuesta": "Tiene una fiesta en su agenda el sábado.",
+        "explicacion": "Con got, have significa tener: I've got a party on Saturday = tengo una fiesta (un compromiso) el sábado. Si él la organizara, lo natural sería I'm having a party on Saturday."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.14",
+      "leccion": "expresiones-con-have",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa have.",
+      "es": "Perdón, estoy cenando con mi familia.",
+      "respuestas": [
+        "Sorry, I'm having dinner with my family.",
+        "I'm sorry, I'm having dinner with my family.",
+        "Sorry, I'm having dinner with my family now.",
+        "Sorry, I'm having dinner with my family right now.",
+        "I'm sorry, I'm having dinner with my family right now."
+      ],
+      "errores_tipicos": {
+        "Sorry, I have dinner with my family.": "Es una acción que pasa ahora: I'm having dinner.",
+        "Sorry, I'm having the dinner with my family.": "Las comidas van sin artículo: having dinner.",
+        "Sorry, I'm having got dinner with my family.": "Have de acción nunca lleva got."
+      },
+      "pistas": [
+        "«Estoy cenando» describe lo que pasa en este momento.",
+        "Cenar se dice con have + una comida. ¿Lleva artículo?",
+        "Disculpa + sujeto contraído con be + having + comida (sin artículo) + with + personas, como en Sorry, we're having lunch with Tom."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, I'm having dinner with my family.",
+        "explicacion": "Cenar es have dinner, sin artículo, y como ocurre en este momento va en presente continuo: I'm having dinner. Got no aparece porque have aquí es una acción."
+      }
+    },
+    {
+      "id": "have-y-have-got.eval.15",
+      "leccion": "expresiones-con-have",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada situación con la expresión que le corresponde.",
+      "pares": [
+        {
+          "a": "Son las 8 de la mañana y comes huevos.",
+          "b": "have breakfast"
+        },
+        {
+          "a": "Te metes a la regadera.",
+          "b": "have a shower"
+        },
+        {
+          "a": "Duermes 20 minutos después de comer.",
+          "b": "have a nap"
+        },
+        {
+          "a": "Invitas a 30 amigos a tu casa a celebrar.",
+          "b": "have a party"
+        },
+        {
+          "a": "Te diviertes mucho en un concierto.",
+          "b": "have a good time"
+        }
+      ],
+      "pistas": [
+        "Todas son expresiones de acción con have.",
+        "Piensa en qué acción describe cada situación: comer, bañarse, dormir un rato, celebrar, divertirse.",
+        "Asocia cada situación con su acción: comer temprano, bañarse, dormir un rato, celebrar con amigos, divertirse; solo algunas expresiones llevan a."
+      ],
+      "solucion": {
+        "respuesta": "8 a. m. → have breakfast · regadera → have a shower · 20 minutos → have a nap · 30 amigos → have a party · concierto → have a good time",
+        "explicacion": "Cada situación describe una acción que en inglés se expresa con have + sustantivo, sin got."
+      }
+    }
+  ]
+}

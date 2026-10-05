@@ -1,0 +1,4287 @@
+{
+  "escenarios": [
+    {
+      "slug": "primer-dia-en-el-curso",
+      "titulo": "Primer día en el curso de inglés",
+      "nivel": "A1",
+      "unidad": "palabras-para-empezar",
+      "contexto": "Es lunes por la mañana y llegas a tu primera clase de inglés en una escuela de idiomas. La profesora te recibe en la puerta, te presenta a una compañera y empieza la clase. Vas a saludar, presentarte, decir de dónde eres y pedir ayuda cuando no entiendas algo.",
+      "personaje": "Grace, la profesora, y Mei, una compañera de clase",
+      "tu_papel": "Eres Diego (usa solo tu nombre de pila), de Guadalajara, México. Es tu primer día en el curso.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Grace",
+          "en": "Good morning! I'm Grace, the English teacher. And you?",
+          "es": "¡Buenos días! Soy Grace, la profesora de inglés. ¿Y tú?",
+          "significa": "Te saluda, te dice su nombre y con «And you?» te pide que tú también te presentes. No pregunta cómo estás: pregunta quién eres.",
+          "estructura": "[[Good morning]] (saludo formal hasta el mediodía) + [[I'm]] + nombre. [[And you?]] es una pregunta corta que devuelve el mismo tema a la otra persona.",
+          "respuestas": [
+            {
+              "texto": "Good morning! I'm Diego.",
+              "correcta": true,
+              "porque": "Devuelves el mismo saludo y te presentas con [[I'm]] + nombre, igual que ella. Es la respuesta más natural.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Good morning! My name is Diego.",
+              "correcta": true,
+              "porque": "[[My name is]] es un poco más formal que [[I'm]], y encaja muy bien con una profesora el primer día.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Good morning! Am Diego.",
+              "correcta": false,
+              "porque": "Falta el sujeto. En español «Soy Diego» no necesita «yo», pero en inglés el verbo nunca va solo: tiene que ser [[I am]] o [[I'm]]."
+            },
+            {
+              "texto": "Good night! I'm Diego.",
+              "correcta": false,
+              "porque": "[[Good night]] no es «buenas noches» como saludo: se usa para despedirse por la noche o antes de dormir. Además, es de mañana: el saludo es [[Good morning]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Good morning I'm Diego",
+              "Good morning my name is Diego",
+              "Good morning Grace I'm Diego",
+              "Good morning Grace my name is Diego",
+              "Hello I'm Diego",
+              "Hello my name is Diego",
+              "Hi I'm Diego",
+              "Hi my name is Diego",
+              "Hello Grace I'm Diego",
+              "Hi Grace I'm Diego",
+              "I'm Diego",
+              "My name is Diego",
+              "My name's Diego",
+              "Good morning my name's Diego"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Grace",
+          "en": "Nice to meet you, Diego.",
+          "es": "Mucho gusto, Diego.",
+          "significa": "Es la fórmula para decir «mucho gusto» o «encantada» la primera vez que conoces a alguien. Espera que respondas con la misma cortesía.",
+          "estructura": "[[Nice to meet you]] es una expresión fija; la versión completa es [[It's nice to meet you]], pero en la conversación se omite [[It's]]. Para devolverla se añade [[too]] al final.",
+          "respuestas": [
+            {
+              "texto": "Nice to meet you too.",
+              "correcta": true,
+              "porque": "Repites la fórmula y añades [[too]] («también»): es el equivalente exacto de «igualmente».",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "You too.",
+              "correcta": true,
+              "porque": "Es una forma corta y natural de devolver el saludo: «(Mucho gusto) a ti también».",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Me too.",
+              "correcta": false,
+              "porque": "[[Me too]] significa «yo también» y sirve para decir que a ti te pasa lo mismo que a la otra persona («I'm tired.» — «Me too.»). Aquí no encaja: lo que hay que hacer es devolver la cortesía a Grace, y eso se dice [[Nice to meet you too]] o [[You too]]."
+            },
+            {
+              "texto": "Equally.",
+              "correcta": false,
+              "porque": "Es la traducción palabra por palabra de «igualmente». En inglés [[equally]] significa «en partes iguales» y no se usa para devolver un saludo."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Nice to meet you too",
+              "Nice to meet you too Grace",
+              "You too",
+              "You too Grace",
+              "It's nice to meet you too",
+              "Nice to meet you",
+              "Nice to meet you Grace"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Grace",
+          "en": "Diego, this is Mei. She's in the class too.",
+          "es": "Diego, ella es Mei. También está en la clase.",
+          "significa": "Te presenta a otra estudiante. Ahora tienes que saludar a Mei directamente.",
+          "estructura": "Para presentar a alguien se usa [[this is]] + nombre (no «she is Mei»). [[She's]] es la contracción de [[she is]].",
+          "respuestas": [
+            {
+              "texto": "Hi, Mei! Nice to meet you.",
+              "correcta": true,
+              "porque": "Saludas a Mei por su nombre y usas la fórmula de la primera vez. [[Hi]] es informal, perfecto entre compañeros.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Hello, Mei. Nice to meet you.",
+              "correcta": true,
+              "porque": "Igual que la anterior, con [[Hello]], que sirve en cualquier situación.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Hi, Mei! Is nice to meet you.",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]. O dices la forma completa [[It's nice to meet you]] o la corta [[Nice to meet you]]; «Is nice…» es un calco de «es un gusto»."
+            },
+            {
+              "texto": "Hello, Mei! Nice to meet her.",
+              "correcta": false,
+              "porque": "Estás hablando CON Mei, así que es [[you]]. [[her]] («a ella») sería para hablar de ella con otra persona."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Hi Mei nice to meet you",
+              "Hello Mei nice to meet you",
+              "Nice to meet you Mei",
+              "Hi Mei",
+              "Hello Mei",
+              "Hi Mei I'm Diego",
+              "Hello Mei I'm Diego",
+              "Hi Mei I'm Diego nice to meet you",
+              "Hello Mei I'm Diego nice to meet you",
+              "Hi Mei nice to meet you I'm Diego",
+              "Hello Mei nice to meet you I'm Diego"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Mei",
+          "en": "Hi, Diego! I'm from China. And you?",
+          "es": "¡Hola, Diego! Soy de China. ¿Y tú?",
+          "significa": "Mei te dice de qué país es y te pregunta de dónde eres tú. Si no entendiste, también puedes pedirle que lo repita.",
+          "estructura": "[[I'm from]] + país = «soy de…». La preposición [[from]] marca el origen; en español decimos «de», pero en inglés NO es [[of]].",
+          "respuestas": [
+            {
+              "texto": "I'm from Mexico.",
+              "correcta": true,
+              "porque": "Contestas con la misma estructura que usó Mei: [[I'm from]] + país.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Sorry? Can you repeat that, please?",
+              "correcta": true,
+              "porque": "Si no entendiste, pedir que repitan es lo correcto y muy educado. [[Sorry?]] con tono de pregunta ya significa «¿perdón?, ¿cómo?».",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "I'm of Mexico.",
+              "correcta": false,
+              "porque": "Calco de «soy de México». Para el origen, el inglés usa [[from]]: [[I'm from Mexico]]. [[of]] indica pertenencia o parte de algo, no procedencia."
+            },
+            {
+              "texto": "I from Mexico.",
+              "correcta": false,
+              "porque": "Falta el verbo [[am]]. En español el verbo «soy» está claro; en inglés [[from]] no es un verbo y la oración necesita [[I am]] / [[I'm]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I'm from Mexico",
+              "I'm from Guadalajara",
+              "I'm from Guadalajara Mexico",
+              "I'm from Guadalajara in Mexico",
+              "I'm from Mexico I'm from Guadalajara",
+              "From Mexico",
+              "Mexico",
+              "I'm Mexican",
+              "I come from Mexico",
+              "I'm from Mexico and you",
+              "I'm from Mexico nice to meet you"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n4b",
+          "quien": "Mei",
+          "en": "Sure! I'm from China. And you? Where are you from?",
+          "es": "¡Claro! Soy de China. ¿Y tú? ¿De dónde eres?",
+          "significa": "Mei repite más despacio y añade la pregunta completa «¿De dónde eres?».",
+          "estructura": "[[Where are you from?]]: la palabra interrogativa [[where]] va primero, luego el verbo [[are]], el sujeto [[you]], y [[from]] se queda al FINAL de la pregunta.",
+          "respuestas": [
+            {
+              "texto": "Thank you! I'm from Mexico.",
+              "correcta": true,
+              "porque": "Agradeces que te lo repitiera y contestas con [[I'm from]] + país.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Thanks! I'm from Guadalajara, in Mexico.",
+              "correcta": true,
+              "porque": "Das la ciudad y el país. [[in Mexico]] aclara dónde está la ciudad.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "I'm Mexico.",
+              "correcta": false,
+              "porque": "Sin [[from]] dices «soy México», como si fueras el país. El origen siempre necesita [[from]]."
+            },
+            {
+              "texto": "Of Mexico.",
+              "correcta": false,
+              "porque": "La respuesta corta también lleva [[from]]: [[From Mexico]]. [[of]] es un calco de «de»."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you I'm from Mexico",
+              "Thanks I'm from Mexico",
+              "I'm from Mexico",
+              "Thanks I'm from Guadalajara in Mexico",
+              "Thank you I'm from Guadalajara in Mexico",
+              "I'm from Guadalajara in Mexico",
+              "I'm from Guadalajara Mexico",
+              "I'm from Guadalajara",
+              "From Mexico",
+              "Mexico",
+              "I'm Mexican"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Grace",
+          "en": "OK, everyone. Please look at the exercise on page twelve.",
+          "es": "Bien, todos. Por favor, miren el ejercicio de la página doce.",
+          "significa": "La clase empieza y Grace da una instrucción. Imagina que no entiendes la palabra «exercise» o que habla demasiado rápido: tienes que pedir ayuda de forma correcta.",
+          "estructura": "Es una instrucción en imperativo ([[look at]] = mira/miren), suavizada con [[please]]. Para pedir aclaraciones se usan frases fijas: [[What does … mean?]], [[Can you speak more slowly, please?]].",
+          "respuestas": [
+            {
+              "texto": "Sorry, what does \"exercise\" mean?",
+              "correcta": true,
+              "porque": "Es la frase fija para preguntar el significado de una palabra: [[What does]] + palabra + [[mean?]]",
+              "siguiente": "n6a"
+            },
+            {
+              "texto": "Sorry, can you speak more slowly, please?",
+              "correcta": true,
+              "porque": "Pides que hable más despacio de forma educada: [[Can you…, please?]]",
+              "siguiente": "n6b"
+            },
+            {
+              "texto": "Sorry, what means \"exercise\"?",
+              "correcta": false,
+              "porque": "Calco de «¿qué significa…?». En inglés la pregunta necesita el auxiliar [[does]] y el verbo [[mean]] va al final: [[What does \"exercise\" mean?]]"
+            },
+            {
+              "texto": "Repeat!",
+              "correcta": false,
+              "porque": "Una orden seca a la profesora suena grosera. Para pedir algo se usa [[Can you repeat that, please?]] o, al menos, [[Sorry?]]"
+            }
+          ]
+        },
+        {
+          "id": "n6a",
+          "quien": "Grace",
+          "en": "Good question! An exercise is an activity. Look: this is exercise one.",
+          "es": "¡Buena pregunta! Un «exercise» es una actividad. Mira: este es el ejercicio uno.",
+          "significa": "Grace te explica la palabra con otras palabras y te muestra el libro. Solo tienes que confirmar que entendiste y agradecer.",
+          "estructura": "[[An exercise is an activity]]: definición con sujeto + [[is]] + complemento. [[Look]] llama tu atención hacia algo.",
+          "respuestas": [
+            {
+              "texto": "Oh, OK. I understand. Thank you!",
+              "correcta": true,
+              "porque": "Confirmas que entendiste con [[I understand]] y das las gracias.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "I no understand.",
+              "correcta": false,
+              "porque": "Calco de «no entiendo». En inglés la negación de un verbo como [[understand]] necesita [[don't]]: [[I don't understand]]. Y además aquí sí entendiste."
+            },
+            {
+              "texto": "You're welcome!",
+              "correcta": false,
+              "porque": "[[You're welcome]] («de nada») responde a un «gracias». Grace no te dio las gracias; tú tienes que dárselas a ella."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Oh OK I understand thank you",
+              "OK I understand thank you",
+              "I understand thank you",
+              "OK thank you",
+              "Oh OK thank you",
+              "Thank you",
+              "Thanks",
+              "OK thanks",
+              "I understand thanks",
+              "Oh I see thank you",
+              "I see thanks",
+              "I see thank you"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n6b",
+          "quien": "Grace",
+          "en": "Of course. Look... at the exercise... on page... twelve.",
+          "es": "Claro. Miren... el ejercicio... de la página... doce.",
+          "significa": "Grace repite despacio. Muestra que entendiste repitiendo el dato clave (la página) y agradece.",
+          "estructura": "[[Of course]] = «claro, por supuesto». [[on page twelve]]: con las páginas se usa [[on]], y el número va después de [[page]], sin artículo.",
+          "respuestas": [
+            {
+              "texto": "Page twelve. Thank you!",
+              "correcta": true,
+              "porque": "Repetir el dato importante es una buena forma de comprobar que lo entendiste.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "Page twenty. Thank you!",
+              "correcta": false,
+              "porque": "Grace dijo [[twelve]] (12), no [[twenty]] (20). Es una confusión frecuente al escuchar: [[twelve]] termina en /lv/ y [[twenty]] en /ti/."
+            },
+            {
+              "texto": "The page twelve. Thank you!",
+              "correcta": false,
+              "porque": "En inglés se dice [[page twelve]], sin [[the]]. El artículo es un calco de «la página doce»."
+            }
+          ]
+        },
+        {
+          "id": "n7",
+          "quien": "Grace",
+          "en": "OK, that's all for today. Goodbye, everyone!",
+          "es": "Bien, es todo por hoy. ¡Adiós a todos!",
+          "significa": "La clase terminó y Grace se despide. Tienes que despedirte según la hora (todavía es de mañana).",
+          "estructura": "[[Goodbye]] es la despedida neutra. [[See you]] («nos vemos») es informal y muy común entre personas que se volverán a ver.",
+          "respuestas": [
+            {
+              "texto": "Goodbye, Grace! Thank you.",
+              "correcta": true,
+              "porque": "Te despides por su nombre y agradeces la clase. Perfecto con una profesora.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Bye! See you.",
+              "correcta": true,
+              "porque": "[[Bye]] y [[See you]] son despedidas informales pero normales al final de una clase.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Good night!",
+              "correcta": false,
+              "porque": "Es de mañana y [[Good night]] solo se usa por la noche para despedirse o antes de dormir."
+            },
+            {
+              "texto": "Good morning!",
+              "correcta": false,
+              "porque": "[[Good morning]] es un saludo al llegar, no una despedida."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Goodbye Grace thank you",
+              "Goodbye Grace thanks",
+              "Goodbye thank you",
+              "Goodbye",
+              "Goodbye Grace",
+              "Bye",
+              "Bye Grace",
+              "Bye see you",
+              "Bye Grace see you",
+              "See you",
+              "See you Grace",
+              "Bye thank you",
+              "Bye Grace thank you",
+              "Thank you goodbye",
+              "Thank you bye",
+              "Goodbye see you",
+              "See you later",
+              "Bye see you later"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Grace",
+          "fin": true,
+          "en": "Bye, Diego! Welcome to the class!",
+          "es": "¡Adiós, Diego! ¡Bienvenido a la clase!",
+          "resumen": "Practicaste el primer contacto completo en una clase: saludar según la hora (**Good morning**, no Good night), presentarte con **I'm** o **My name is** sin omitir el sujeto, responder a **Nice to meet you** con **too** (no «Me too»), decir tu origen con **from** (no of) y pedir ayuda con frases fijas: **What does … mean?** y **Can you speak more slowly, please?**"
+        }
+      ]
+    },
+    {
+      "slug": "conocer-al-vecino",
+      "titulo": "Conocer a un vecino",
+      "nivel": "A1",
+      "unidad": "to-be-negacion-y-preguntas",
+      "contexto": "Es sábado por la mañana. Acabas de mudarte a un edificio de departamentos y estás subiendo cajas. En el pasillo te encuentras con el vecino de al lado, que te hace varias preguntas para conocerte.",
+      "personaje": "Tom, el vecino del departamento 4B",
+      "tu_papel": "Eres Laura, tienes 29 años, eres de Puebla (México) y acabas de mudarte al departamento 4A. Trabajas; no eres estudiante. Contesta con la verdad; cuando te pregunte cómo estás, elige tú.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Tom",
+          "en": "Hi! Are you the new neighbor in 4A?",
+          "es": "¡Hola! ¿Eres la nueva vecina del 4A?",
+          "significa": "Te pregunta si eres la persona que se acaba de mudar al departamento 4A. Es una pregunta de sí o no.",
+          "estructura": "Pregunta con to be: el verbo [[are]] va ANTES del sujeto [[you]] (inversión). Se contesta con respuesta corta: [[Yes, I am]] / [[No, I'm not]].",
+          "respuestas": [
+            {
+              "texto": "Yes, I am. I'm Laura.",
+              "correcta": true,
+              "porque": "Respuesta corta afirmativa completa ([[Yes, I am]]) y luego te presentas.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Yes! Hi, I'm Laura. Nice to meet you.",
+              "correcta": true,
+              "porque": "Confirmas con [[Yes]], saludas y te presentas: natural y amable.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Yes, I'm. I'm Laura.",
+              "correcta": false,
+              "porque": "En la respuesta corta afirmativa NO se contrae: es [[Yes, I am]]. La contracción solo funciona cuando después viene algo más ([[I'm Laura]])."
+            },
+            {
+              "texto": "Yes, is me. Laura.",
+              "correcta": false,
+              "porque": "Calco de «sí, soy yo». Falta el sujeto: en inglés sería [[Yes, it's me]]. Una oración con [[is]] siempre necesita sujeto delante."
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "quien": "Tom",
+          "en": "Nice to meet you, Laura. I'm Tom, from 4B. Welcome to the building!",
+          "es": "Mucho gusto, Laura. Soy Tom, del 4B. ¡Bienvenida al edificio!",
+          "significa": "Se presenta, te dice en qué departamento vive y te da la bienvenida. Toca devolver el saludo y agradecer.",
+          "estructura": "[[Welcome to]] + lugar = «bienvenida a…». [[Nice to meet you]] se devuelve con [[too]].",
+          "respuestas": [
+            {
+              "texto": "Thank you! Nice to meet you too, Tom.",
+              "correcta": true,
+              "porque": "Agradeces la bienvenida y devuelves el saludo con [[too]].",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Thank you! Me too.",
+              "correcta": false,
+              "porque": "[[Me too]] significa «yo también» (a mí me pasa lo mismo). Para devolver «mucho gusto» se dice [[Nice to meet you too]] o [[You too]]."
+            },
+            {
+              "texto": "You're welcome, Tom.",
+              "correcta": false,
+              "porque": "[[You're welcome]] es «de nada», la respuesta a un «gracias». Aquí Tom te da la bienvenida: tú tienes que decir [[Thank you]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you nice to meet you too",
+              "Thanks nice to meet you too",
+              "Thank you nice to meet you too Tom",
+              "Thanks nice to meet you too Tom",
+              "Nice to meet you too",
+              "Nice to meet you too Tom",
+              "Thank you",
+              "Thanks",
+              "Thank you Tom",
+              "Thanks Tom",
+              "Thank you you too",
+              "Thanks you too"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Tom",
+          "en": "So, where are you from, Laura?",
+          "es": "Y dime, ¿de dónde eres, Laura?",
+          "significa": "Te pregunta tu lugar de origen (ciudad o país).",
+          "estructura": "Pregunta con palabra interrogativa: [[Where]] + [[are]] + [[you]] + [[from]]? La preposición [[from]] se queda al final.",
+          "respuestas": [
+            {
+              "texto": "I'm from Puebla, in Mexico.",
+              "correcta": true,
+              "porque": "[[I'm from]] + ciudad, y [[in Mexico]] para situarla.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "I'm from Mexico, from Puebla.",
+              "correcta": true,
+              "porque": "Primero el país y luego la ciudad: también es natural.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "I am of Puebla.",
+              "correcta": false,
+              "porque": "Calco de «soy de Puebla». El origen se expresa con [[from]], nunca con [[of]]."
+            },
+            {
+              "texto": "I'm Puebla, Mexico.",
+              "correcta": false,
+              "porque": "Sin [[from]] estás diciendo «soy Puebla». Necesitas [[I'm from Puebla]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I'm from Puebla in Mexico",
+              "I'm from Puebla Mexico",
+              "I'm from Puebla",
+              "I'm from Mexico",
+              "I'm from Mexico from Puebla",
+              "From Puebla",
+              "From Puebla in Mexico",
+              "From Mexico",
+              "Puebla",
+              "Puebla Mexico",
+              "Puebla in Mexico",
+              "I'm from Puebla It's in Mexico",
+              "I'm from Puebla it's a city in Mexico"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Tom",
+          "en": "Puebla! Is it a big city?",
+          "es": "¡Puebla! ¿Es una ciudad grande?",
+          "significa": "Quiere saber si tu ciudad es grande. Es una pregunta de sí o no sobre una cosa (la ciudad).",
+          "estructura": "[[Is it…?]]: para una ciudad (una cosa, no una persona) el pronombre es [[it]]. Respuesta corta: [[Yes, it is]] / [[No, it isn't]].",
+          "respuestas": [
+            {
+              "texto": "Yes, it is. It's very big.",
+              "correcta": true,
+              "porque": "Respuesta corta sin contraer ([[Yes, it is]]) y luego amplías con [[It's very big]].",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Yes, is big.",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]. En español «sí, es grande» no lo necesita, pero en inglés sí: [[Yes, it's big]] o [[Yes, it is]]."
+            },
+            {
+              "texto": "Yes, she is.",
+              "correcta": false,
+              "porque": "Una ciudad es una cosa, así que el pronombre es [[it]], no [[she]]. [[she]] es solo para mujeres (y a veces animales hembra)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it is",
+              "Yes it is It's very big",
+              "Yes it is It's big",
+              "Yes it's very big",
+              "Yes it's big",
+              "Yes it is very big",
+              "Yes it's a big city",
+              "Yes it is a big city",
+              "Yes it's a very big city",
+              "Yes very big",
+              "Yes"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Tom",
+          "en": "And how are you? Are you tired?",
+          "es": "¿Y cómo estás? ¿Estás cansada?",
+          "significa": "Te ve con cajas y quiere saber cómo estás y si estás cansada. Puedes decir que sí o que no: las dos opciones llevan la conversación por caminos distintos.",
+          "estructura": "[[Are you + adjetivo?]] Con los estados («cansada», «contenta») el inglés usa [[be]]: [[I'm tired]], nunca «I have tired».",
+          "respuestas": [
+            {
+              "texto": "Yes, I am. I'm very tired, but I'm happy.",
+              "correcta": true,
+              "porque": "Respuesta corta afirmativa y dos estados con [[I'm]] + adjetivo, unidos con [[but]].",
+              "siguiente": "n6a"
+            },
+            {
+              "texto": "No, I'm not. I'm fine, thanks.",
+              "correcta": true,
+              "porque": "Respuesta corta negativa correcta: con I solo existe [[I'm not]] (no hay «I amn't»).",
+              "siguiente": "n6b"
+            },
+            {
+              "texto": "No, I not tired.",
+              "correcta": false,
+              "porque": "Falta el verbo [[am]]. La negación con be es sujeto + be + [[not]]: [[I'm not tired]]."
+            },
+            {
+              "texto": "Yes, I have tired.",
+              "correcta": false,
+              "porque": "Con los estados se usa [[be]], no [[have]]: [[I'm tired]]. Es el mismo error que «I have hungry» por «tengo hambre»."
+            }
+          ]
+        },
+        {
+          "id": "n6a",
+          "quien": "Tom",
+          "en": "Of course! Moving day is hard. Is your apartment OK?",
+          "es": "¡Claro! El día de la mudanza es pesado. ¿Tu departamento está bien?",
+          "significa": "Tom te comprende y te pregunta si el departamento está bien (si te gusta, si está en buen estado).",
+          "estructura": "[[Is your apartment OK?]]: inversión [[is]] + sujeto. El sujeto es [[your apartment]] (una cosa), así que en la respuesta el pronombre es [[it]].",
+          "respuestas": [
+            {
+              "texto": "Yes, it is. It's small, but it's nice.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[it]] y una descripción con dos adjetivos contrastados con [[but]]. Cada oración repite su sujeto [[it]].",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "Yes, it's nice but is small.",
+              "correcta": false,
+              "porque": "La segunda oración se quedó sin sujeto: después de [[but]] hay que repetirlo: [[but it's small]]."
+            },
+            {
+              "texto": "Yes, he is OK.",
+              "correcta": false,
+              "porque": "El departamento es una cosa: se usa [[it]]. En español «el departamento» es masculino, pero en inglés las cosas no tienen género."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it is It's small but it's nice",
+              "Yes it is",
+              "Yes it's small but it's nice",
+              "Yes it's small but nice",
+              "Yes it is It's small but nice",
+              "Yes it's nice",
+              "Yes it is It's nice",
+              "Yes it's OK",
+              "Yes it's nice but it's small",
+              "It's small but it's nice",
+              "It's small but nice"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n6b",
+          "quien": "Tom",
+          "en": "Great! Are you a student here in the city?",
+          "es": "¡Qué bien! ¿Eres estudiante aquí en la ciudad?",
+          "significa": "Quiere saber si estudias en la ciudad. Tú no eres estudiante: trabajas.",
+          "estructura": "[[Are you a student?]]: el verbo be también se niega en la respuesta corta: [[No, I'm not]]. Nunca se usa [[don't]] con be.",
+          "respuestas": [
+            {
+              "texto": "No, I'm not. I'm not a student.",
+              "correcta": true,
+              "porque": "Respuesta corta negativa ([[No, I'm not]]) y la oración completa en negativo con be.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "No, I don't.",
+              "correcta": false,
+              "porque": "La pregunta es con [[are]], así que la respuesta corta usa be: [[No, I'm not]]. [[don't]] solo responde a preguntas con [[do]]."
+            },
+            {
+              "texto": "No, I amn't.",
+              "correcta": false,
+              "porque": "[[amn't]] no existe en inglés. Con I la única contracción negativa es [[I'm not]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No I'm not",
+              "No I'm not I'm not a student",
+              "No I'm not a student",
+              "No I am not a student",
+              "No I'm not a student here"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Tom",
+          "en": "Well, Laura, I'm in 4B if you need anything. See you later!",
+          "es": "Bueno, Laura, estoy en el 4B si necesitas algo. ¡Nos vemos!",
+          "significa": "Se ofrece a ayudarte y se despide de forma informal.",
+          "estructura": "[[See you later]] es una despedida informal («nos vemos», «hasta luego»). Se puede devolver igual o con [[See you]] + nombre.",
+          "respuestas": [
+            {
+              "texto": "Thanks, Tom! See you later.",
+              "correcta": true,
+              "porque": "Agradeces la ayuda y devuelves la despedida.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Bye, Tom! Have a nice day.",
+              "correcta": true,
+              "porque": "[[Have a nice day]] es una despedida amable muy común de día.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "See you after, Tom.",
+              "correcta": false,
+              "porque": "Calco de «nos vemos después». La expresión fija es [[See you later]]."
+            },
+            {
+              "texto": "Good night, Tom!",
+              "correcta": false,
+              "porque": "Es sábado por la mañana: [[Good night]] solo se usa de noche para despedirse."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thanks Tom See you later",
+              "Thank you Tom See you later",
+              "Thanks see you later",
+              "Thank you see you later",
+              "See you later",
+              "See you later Tom",
+              "See you Tom",
+              "Bye Tom",
+              "Bye",
+              "Bye Tom have a nice day",
+              "Thanks Tom bye",
+              "Thank you Tom bye",
+              "Thanks Tom have a nice day",
+              "Thank you have a nice day",
+              "See you Tom thanks"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Tom",
+          "fin": true,
+          "en": "Bye, Laura! Good luck with the boxes!",
+          "es": "¡Adiós, Laura! ¡Suerte con las cajas!",
+          "resumen": "Practicaste el verbo to be en una conversación real: preguntas con inversión (**Are you…? Is it…?**), respuestas cortas sin contraer en afirmativo (**Yes, I am**, no «Yes, I'm»), la única negación posible con I (**I'm not**), **it** para cosas y ciudades, **be** para estados (**I'm tired**) y el sujeto obligatorio en cada oración."
+        }
+      ]
+    },
+    {
+      "slug": "tu-profesion-en-una-reunion",
+      "titulo": "Hablar de tu profesión en una reunión",
+      "nivel": "A1",
+      "unidad": "familia-profesiones-y-preguntas",
+      "contexto": "Es tu primera reunión con un equipo nuevo de proyecto. La coordinadora pide a cada persona que diga su nombre, su profesión y algunos datos de su trabajo. Después te presenta a otro compañero.",
+      "personaje": "Priya, coordinadora del proyecto, y Sam, diseñador",
+      "tu_papel": "Eres Carlos, ingeniero civil, de Monterrey. Tu jefa es Ana Torres, tu oficina está en el tercer piso y en tu equipo son seis personas.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Priya",
+          "en": "Good afternoon, everyone. Let's start with names and jobs. What's your name, and what's your job?",
+          "es": "Buenas tardes a todos. Empecemos con nombres y trabajos. ¿Cómo te llamas y a qué te dedicas?",
+          "significa": "Pide dos datos: tu nombre y tu profesión.",
+          "estructura": "[[What's your job?]] = [[What is]] + [[your job]]. Se contesta con [[I'm]] + [[a]]/[[an]] + profesión: el inglés NECESITA el artículo que el español omite («soy ingeniero»).",
+          "respuestas": [
+            {
+              "texto": "My name is Carlos, and I'm an engineer.",
+              "correcta": true,
+              "porque": "Das los dos datos. [[an]] porque [[engineer]] empieza con sonido de vocal /ɛ/.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "I'm Carlos. I'm an engineer.",
+              "correcta": true,
+              "porque": "Dos oraciones cortas y correctas, cada una con su sujeto y su verbo.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "My name is Carlos, and I'm engineer.",
+              "correcta": false,
+              "porque": "Falta el artículo. En español decimos «soy ingeniero», pero en inglés una profesión en singular lleva [[a]]/[[an]]: [[I'm an engineer]]."
+            },
+            {
+              "texto": "My name is Carlos, and I'm a engineer.",
+              "correcta": false,
+              "porque": "Delante de un sonido de vocal se usa [[an]], no [[a]]: [[an engineer]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "My name is Carlos and I'm an engineer",
+              "My name is Carlos I'm an engineer",
+              "I'm Carlos I'm an engineer",
+              "I'm Carlos and I'm an engineer",
+              "My name's Carlos and I'm an engineer",
+              "My name's Carlos I'm an engineer",
+              "My name is Carlos and I'm a civil engineer",
+              "I'm Carlos and I'm a civil engineer",
+              "I'm Carlos I'm a civil engineer",
+              "My name is Carlos I'm a civil engineer",
+              "My name's Carlos and I'm a civil engineer"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Priya",
+          "en": "An engineer! What kind of engineer are you?",
+          "es": "¡Ingeniero! ¿Qué tipo de ingeniero eres?",
+          "significa": "Quiere saber tu especialidad (civil, eléctrico, de software…).",
+          "estructura": "[[What kind of]] + sustantivo = «qué tipo de…». En la respuesta, el adjetivo de especialidad va ANTES del sustantivo: [[a civil engineer]].",
+          "respuestas": [
+            {
+              "texto": "I'm a civil engineer.",
+              "correcta": true,
+              "porque": "Adjetivo ([[civil]]) antes del sustantivo ([[engineer]]), y [[a]] porque [[civil]] empieza con sonido de consonante /s/.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "I'm engineer civil.",
+              "correcta": false,
+              "porque": "Dos calcos del español: falta el artículo y el adjetivo va después. En inglés: [[I'm a civil engineer]]."
+            },
+            {
+              "texto": "I'm an civil engineer.",
+              "correcta": false,
+              "porque": "El artículo depende de la palabra que va inmediatamente después: [[civil]] empieza con sonido /s/, así que es [[a civil engineer]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I'm a civil engineer",
+              "A civil engineer",
+              "Civil",
+              "A civil one",
+              "I'm a civil engineer from Monterrey"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Priya",
+          "en": "Great. And who is your manager?",
+          "es": "Muy bien. ¿Y quién es tu jefe?",
+          "significa": "Pregunta el nombre de la persona que dirige tu trabajo.",
+          "estructura": "[[Who]] pregunta por personas. [[your manager]]: [[your]] es el posesivo de [[you]]; en tu respuesta cambia a [[my]].",
+          "respuestas": [
+            {
+              "texto": "My manager is Ana Torres.",
+              "correcta": true,
+              "porque": "Cambias [[your]] por [[my]] y contestas con una oración completa.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Ana Torres is my boss.",
+              "correcta": true,
+              "porque": "[[boss]] es un sinónimo informal de [[manager]]; el orden sujeto + [[is]] + complemento es correcto.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Is Ana Torres.",
+              "correcta": false,
+              "porque": "Calco de «es Ana Torres». Falta el sujeto: [[It's Ana Torres]] o [[My manager is Ana Torres]]."
+            },
+            {
+              "texto": "Her manager is Ana Torres.",
+              "correcta": false,
+              "porque": "Hablas de TU jefe, así que el posesivo es [[my]]. [[her]] significa «de ella»."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "My manager is Ana Torres",
+              "My manager is Ana",
+              "Ana Torres is my manager",
+              "Ana Torres is my boss",
+              "My boss is Ana Torres",
+              "Ana Torres",
+              "It's Ana Torres",
+              "Ana is my manager",
+              "Ana is my boss",
+              "My boss is Ana",
+              "My manager's name is Ana Torres",
+              "Her name is Ana Torres"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Priya",
+          "en": "Ana! She's very nice. Where's your office?",
+          "es": "¡Ana! Es muy amable. ¿Dónde está tu oficina?",
+          "significa": "Pregunta en qué lugar del edificio está tu oficina.",
+          "estructura": "[[Where's]] = [[Where is]]. Para los pisos se usa el número ordinal con [[on]] y [[the]]: [[on the third floor]].",
+          "respuestas": [
+            {
+              "texto": "It's on the third floor.",
+              "correcta": true,
+              "porque": "Sujeto [[it]] (la oficina), preposición [[on]] y el ordinal [[third]] con [[the]].",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Is on the third floor.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[It's on the third floor]]. En inglés [[is]] no puede empezar una afirmación."
+            },
+            {
+              "texto": "It's on the three floor.",
+              "correcta": false,
+              "porque": "Para el orden de los pisos se usa el ordinal: [[third]] (tercero), no [[three]] (tres)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "It's on the third floor",
+              "On the third floor",
+              "The third floor",
+              "My office is on the third floor",
+              "It's on the 3rd floor",
+              "On the 3rd floor",
+              "My office is on the 3rd floor",
+              "Third floor"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Priya",
+          "en": "And how many people are on your team?",
+          "es": "¿Y cuántas personas hay en tu equipo?",
+          "significa": "Pregunta cuántas personas forman tu equipo de trabajo.",
+          "estructura": "[[How many]] + sustantivo plural. Para decir «hay» con plural se usa [[there are]]. En inglés estadounidense se dice [[on a team]] (en británico también [[in a team]]).",
+          "respuestas": [
+            {
+              "texto": "There are six people on my team.",
+              "correcta": true,
+              "porque": "[[There are]] porque [[people]] es plural (6 personas).",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Six. It's a small team.",
+              "correcta": true,
+              "porque": "Respuesta corta con el número y un comentario con [[It's a]] + adjetivo + sustantivo.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "There is six people on my team.",
+              "correcta": false,
+              "porque": "[[people]] es plural, así que es [[there are]]. [[There is]] solo va con singular."
+            },
+            {
+              "texto": "We are six.",
+              "correcta": false,
+              "porque": "Es un calco de «somos seis» y no suena natural en inglés. Se dice [[There are six of us]] o [[There are six people on my team]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "There are six people on my team",
+              "There are six people in my team",
+              "There are six of us",
+              "There are six",
+              "Six",
+              "Six people",
+              "Six It's a small team",
+              "Six people It's a small team"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Priya",
+          "en": "Perfect. Carlos, this is Sam. He's our new designer.",
+          "es": "Perfecto. Carlos, él es Sam. Es nuestro nuevo diseñador.",
+          "significa": "Te presenta a un compañero nuevo. Puedes solo saludarlo o saludarlo y hacerle una pregunta: cada opción lleva a una conversación distinta.",
+          "estructura": "[[This is]] + nombre para presentar. [[our]] = «nuestro». [[new designer]]: adjetivo antes del sustantivo.",
+          "respuestas": [
+            {
+              "texto": "Nice to meet you, Sam.",
+              "correcta": true,
+              "porque": "La fórmula correcta al conocer a alguien, dirigida a Sam con [[you]].",
+              "siguiente": "n7a"
+            },
+            {
+              "texto": "Hi, Sam! Nice to meet you. Are you from Monterrey too?",
+              "correcta": true,
+              "porque": "Saludas y haces una pregunta de sí o no con inversión ([[Are you…?]]).",
+              "siguiente": "n7b"
+            },
+            {
+              "texto": "Nice to meet him.",
+              "correcta": false,
+              "porque": "Hablas CON Sam, así que es [[you]]. [[him]] sería para hablar de él con otra persona."
+            },
+            {
+              "texto": "Hello, Sam. You are from Monterrey too?",
+              "correcta": false,
+              "porque": "En una pregunta con be el verbo va antes del sujeto: [[Are you from Monterrey too?]] En español solo cambia la entonación; en inglés cambia el orden."
+            }
+          ]
+        },
+        {
+          "id": "n7a",
+          "quien": "Sam",
+          "en": "Nice to meet you too, Carlos. Is Ana your manager?",
+          "es": "Igualmente, Carlos. ¿Ana es tu jefa?",
+          "significa": "Sam te pregunta si Ana es tu jefa. Es una pregunta de sí o no sobre una mujer.",
+          "estructura": "[[Is Ana your manager?]] En la respuesta corta, Ana se convierte en [[she]]: [[Yes, she is]].",
+          "respuestas": [
+            {
+              "texto": "Yes, she is.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[she]] (Ana es mujer) y sin contraer.",
+              "siguiente": "n8"
+            },
+            {
+              "texto": "Yes. She's my manager.",
+              "correcta": true,
+              "porque": "[[Yes]] + una oración completa; aquí la contracción [[She's]] sí es correcta porque sigue algo más.",
+              "siguiente": "n8"
+            },
+            {
+              "texto": "Yes, he is.",
+              "correcta": false,
+              "porque": "Ana es mujer: el pronombre es [[she]]. Confundir he y she es un error muy frecuente al hablar rápido."
+            },
+            {
+              "texto": "Yes, she's.",
+              "correcta": false,
+              "porque": "La respuesta corta afirmativa no se contrae: [[Yes, she is]]."
+            }
+          ]
+        },
+        {
+          "id": "n7b",
+          "quien": "Sam",
+          "en": "No, I'm not. I'm from Toronto, in Canada. And you? Are you from here?",
+          "es": "No. Soy de Toronto, en Canadá. ¿Y tú? ¿Eres de aquí?",
+          "significa": "Sam te dice que no es de Monterrey y te devuelve la pregunta.",
+          "estructura": "[[Are you from here?]] Respuesta corta: [[Yes, I am]]. Después puedes dar el dato con [[I'm from]] + ciudad.",
+          "respuestas": [
+            {
+              "texto": "Yes, I am. I'm from Monterrey.",
+              "correcta": true,
+              "porque": "Respuesta corta completa y el dato concreto.",
+              "siguiente": "n8"
+            },
+            {
+              "texto": "Yes, I do. I'm from Monterrey.",
+              "correcta": false,
+              "porque": "La pregunta es con [[are]], así que se responde con be: [[Yes, I am]]. [[do]] responde a preguntas con do."
+            },
+            {
+              "texto": "Yes, I'm. I'm from Monterrey.",
+              "correcta": false,
+              "porque": "La respuesta corta afirmativa no se contrae: [[Yes, I am]]."
+            }
+          ]
+        },
+        {
+          "id": "n8",
+          "quien": "Priya",
+          "en": "OK, thank you, everyone. The next meeting is on Monday at ten.",
+          "es": "Bien, gracias a todos. La próxima reunión es el lunes a las diez.",
+          "significa": "Cierra la reunión y dice cuándo es la siguiente. Despídete confirmando el día.",
+          "estructura": "Con los días se usa [[on]] ([[on Monday]]) y con las horas [[at]] ([[at ten]]). En inglés NO se pone artículo delante del día: nada de «the Monday».",
+          "respuestas": [
+            {
+              "texto": "Perfect. See you on Monday!",
+              "correcta": true,
+              "porque": "[[on]] + día de la semana, sin artículo.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "OK, thank you, Priya.",
+              "correcta": true,
+              "porque": "Una forma sencilla y educada de cerrar.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "See you in Monday!",
+              "correcta": false,
+              "porque": "Con los días de la semana la preposición es [[on]]: [[on Monday]]. [[in]] va con meses y años."
+            },
+            {
+              "texto": "See you the Monday!",
+              "correcta": false,
+              "porque": "Calco de «el lunes». En inglés el día no lleva artículo: [[See you on Monday]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Perfect See you on Monday",
+              "See you on Monday",
+              "OK see you on Monday",
+              "Thank you see you on Monday",
+              "Thanks see you on Monday",
+              "OK thank you Priya",
+              "Thank you Priya",
+              "Thanks Priya",
+              "OK thanks Priya",
+              "Thank you",
+              "Perfect thank you",
+              "See you Monday",
+              "Perfect thanks"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Priya",
+          "fin": true,
+          "en": "See you on Monday. Welcome to the team, Carlos!",
+          "es": "Nos vemos el lunes. ¡Bienvenido al equipo, Carlos!",
+          "resumen": "Practicaste cómo presentarte en el trabajo: la profesión con artículo (**I'm an engineer**, **a civil engineer**), el adjetivo antes del sustantivo, los posesivos (**your → my**), **who / where / how many**, **there are** con plural, los ordinales para los pisos (**on the third floor**) y **on Monday** sin artículo."
+        }
+      ]
+    },
+    {
+      "slug": "la-foto-de-mi-familia",
+      "titulo": "Describir a tu familia con una foto",
+      "nivel": "A1",
+      "unidad": "posesivos",
+      "contexto": "Estás en la hora de la comida en el trabajo. Tu compañero ve una foto familiar en tu celular y te pregunta quién es cada persona.",
+      "personaje": "Omar, compañero de trabajo",
+      "tu_papel": "Eres Andrea. En la foto están tu mamá Rosa, tu papá Luis, tu hermano Pablo (25 años) y Toby, el perro de tu hermano. Tus papás son de Oaxaca. No estás casada.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Omar",
+          "en": "Nice photo! Who are these people?",
+          "es": "¡Qué bonita foto! ¿Quiénes son estas personas?",
+          "significa": "Quiere saber quiénes son las personas de la foto.",
+          "estructura": "[[Who are]] + [[these people]]: [[these]] es el plural de [[this]] y va con [[are]] porque [[people]] es plural.",
+          "respuestas": [
+            {
+              "texto": "They're my family.",
+              "correcta": true,
+              "porque": "[[They]] retoma [[these people]] (plural) y [[my]] es el posesivo de [[I]].",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "This is my family.",
+              "correcta": true,
+              "porque": "Hablas de la familia como grupo (un solo conjunto), así que [[this is]] también es natural.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "They're mine family.",
+              "correcta": false,
+              "porque": "[[mine]] se usa SOLO, sin sustantivo detrás ([[It's mine]]). Delante de un sustantivo va [[my]]: [[my family]]."
+            },
+            {
+              "texto": "Is my family.",
+              "correcta": false,
+              "porque": "Falta el sujeto. En inglés hay que decir [[This is my family]] o [[They're my family]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "They're my family",
+              "This is my family",
+              "That's my family",
+              "It's my family",
+              "My family",
+              "It's a photo of my family",
+              "This is a photo of my family",
+              "They are my family members"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Omar",
+          "en": "Who's this woman in the red dress?",
+          "es": "¿Quién es esta mujer del vestido rojo?",
+          "significa": "Pregunta por una mujer concreta de la foto: es tu mamá.",
+          "estructura": "[[Who's]] = [[Who is]]. Al contestar, para decir su nombre necesitas el posesivo de ELLA: [[her name]].",
+          "respuestas": [
+            {
+              "texto": "She's my mother. Her name is Rosa.",
+              "correcta": true,
+              "porque": "[[her]] porque el nombre pertenece a una mujer (la poseedora). El posesivo depende de quién posee, no de la cosa.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "That's my mom, Rosa.",
+              "correcta": true,
+              "porque": "[[That's]] señala a alguien en la foto y [[mom]] es la forma familiar de [[mother]] en inglés estadounidense.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "She's my mother. His name is Rosa.",
+              "correcta": false,
+              "porque": "[[his]] es «de él». Tu mamá es mujer, así que es [[her name]]. En español «su» sirve para los dos; en inglés hay que elegir."
+            },
+            {
+              "texto": "She's my mother. She name is Rosa.",
+              "correcta": false,
+              "porque": "[[She]] es pronombre de sujeto. Para la posesión se usa el adjetivo posesivo [[her]]: [[Her name is Rosa]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "She's my mother Her name is Rosa",
+              "She's my mom Her name is Rosa",
+              "That's my mom Rosa",
+              "That's my mother Rosa",
+              "She's my mother Rosa",
+              "She's my mom Rosa",
+              "My mother Rosa",
+              "My mom Rosa",
+              "That's my mother Her name is Rosa",
+              "That's my mom Her name is Rosa",
+              "She's my mother",
+              "She's my mom",
+              "It's my mother",
+              "It's my mom",
+              "That's my mother",
+              "That's my mom",
+              "My mother",
+              "My mom"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Omar",
+          "en": "She's very pretty! And the tall man? Is he your father?",
+          "es": "¡Es muy guapa! ¿Y el hombre alto? ¿Es tu papá?",
+          "significa": "Pregunta si el hombre alto es tu papá. Es una pregunta de sí o no.",
+          "estructura": "[[Is he your father?]] Respuesta corta: [[Yes, he is]]. Para el nombre de un hombre se usa [[his]].",
+          "respuestas": [
+            {
+              "texto": "Yes, he is. His name is Luis.",
+              "correcta": true,
+              "porque": "Respuesta corta sin contraer y [[his]] porque el poseedor es un hombre.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Yes, he is. Her name is Luis.",
+              "correcta": false,
+              "porque": "Aunque tú seas mujer, el nombre es de tu papá: el poseedor es él, así que es [[his name]]."
+            },
+            {
+              "texto": "Yes, is my father.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[Yes, he's my father]] o [[Yes, he is]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes he is His name is Luis",
+              "Yes he is",
+              "Yes he is my father",
+              "Yes he is my dad",
+              "Yes he's my father",
+              "Yes he's my dad",
+              "Yes his name is Luis",
+              "Yes that's my father",
+              "Yes that's my dad",
+              "Yes he is my father His name is Luis",
+              "Yes he's my dad His name is Luis",
+              "Yes that's my dad Luis",
+              "Yes that's my father Luis"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Omar",
+          "en": "And this young man? Is he your husband?",
+          "es": "¿Y este joven? ¿Es tu esposo?",
+          "significa": "Pregunta si el joven de la foto es tu esposo. No lo es: es tu hermano.",
+          "estructura": "Respuesta corta negativa: [[No, he isn't]] (o [[No, he's not]]). Luego la información correcta con [[He's]] + [[my]] + parentesco.",
+          "respuestas": [
+            {
+              "texto": "No, he isn't. He's my brother. His name is Pablo.",
+              "correcta": true,
+              "porque": "Negación corta correcta y [[his]] para el nombre de tu hermano.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "No, he isn't. He's my brother. Her name is Pablo.",
+              "correcta": false,
+              "porque": "El nombre es de tu hermano (hombre): [[his name]]. [[her]] solo si el poseedor es mujer."
+            },
+            {
+              "texto": "No, he's not my husband, is my brother.",
+              "correcta": false,
+              "porque": "La segunda parte no tiene sujeto. Hay que repetirlo: [[he's my brother]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No he isn't He's my brother His name is Pablo",
+              "No he isn't He's my brother",
+              "No he's my brother",
+              "No he's my brother Pablo",
+              "No he's my brother His name is Pablo",
+              "No he isn't He's my brother Pablo",
+              "No that's my brother",
+              "No that's my brother Pablo",
+              "No he's not He's my brother",
+              "No he is my brother",
+              "No he isn't my husband He's my brother"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Omar",
+          "en": "Oh, and a dog! Is it your dog?",
+          "es": "¡Ah, y un perro! ¿Es tu perro?",
+          "significa": "Pregunta si el perro es tuyo. Es de tu hermano.",
+          "estructura": "Para decir de quién es algo se usa el genitivo: poseedor + [[’s]] + cosa ([[my brother's dog]]). Para el nombre del perro se usa [[its]] (sin apóstrofo).",
+          "respuestas": [
+            {
+              "texto": "No, it isn't. It's my brother's dog. Its name is Toby.",
+              "correcta": true,
+              "porque": "Genitivo [[my brother's dog]] y [[its]] (posesivo de it, sin apóstrofo) para el nombre del perro.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "No, it isn't mine. It's his.",
+              "correcta": true,
+              "porque": "[[mine]] y [[his]] sustituyen al sustantivo. Es correcto, aunque [[his]] no deja claro de quién hablas… Omar te lo va a preguntar.",
+              "siguiente": "n5b"
+            },
+            {
+              "texto": "No, it isn't. It's my brother's dog. It's name is Toby.",
+              "correcta": false,
+              "porque": "[[It's]] significa [[it is]]. El posesivo de it es [[its]], sin apóstrofo: [[Its name is Toby]]."
+            },
+            {
+              "texto": "No, it's the dog of my brother.",
+              "correcta": false,
+              "porque": "Calco de «el perro de mi hermano». Con personas el inglés usa el genitivo: [[my brother's dog]]."
+            }
+          ]
+        },
+        {
+          "id": "n5b",
+          "quien": "Omar",
+          "en": "His? Whose dog is it? Your father's or your brother's?",
+          "es": "¿De él? ¿De quién es el perro? ¿De tu papá o de tu hermano?",
+          "significa": "No quedó claro a quién te referías con «his» y te pide que lo aclares.",
+          "estructura": "[[Whose]] + sustantivo pregunta por el poseedor. La respuesta usa el genitivo sin repetir el sustantivo: [[It's my brother's]].",
+          "respuestas": [
+            {
+              "texto": "It's my brother's.",
+              "correcta": true,
+              "porque": "Genitivo sin repetir [[dog]]: el sustantivo ya se entiende por la pregunta.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "It's of my brother.",
+              "correcta": false,
+              "porque": "Calco de «es de mi hermano». En inglés se usa el genitivo: [[It's my brother's]]."
+            },
+            {
+              "texto": "It's he's.",
+              "correcta": false,
+              "porque": "[[he's]] significa [[he is]]. El pronombre posesivo de he es [[his]], y además aquí hay que decir de quién: [[my brother's]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "It's my brother's",
+              "My brother's",
+              "It's my brother's dog",
+              "My brother's dog",
+              "It's Pablo's",
+              "Pablo's",
+              "It's Pablo's dog",
+              "Pablo's dog",
+              "My brother's It's Pablo's"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Omar",
+          "en": "Toby is so cute! How old is your brother?",
+          "es": "¡Toby es muy lindo! ¿Cuántos años tiene tu hermano?",
+          "significa": "Pregunta la edad de tu hermano.",
+          "estructura": "La edad se dice con [[be]], no con «tener»: [[He's]] + número, o [[He's]] + número + [[years old]].",
+          "respuestas": [
+            {
+              "texto": "He's twenty-five.",
+              "correcta": true,
+              "porque": "Con be + número basta. [[twenty-five]] se escribe con guion.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "He's twenty-five years old.",
+              "correcta": true,
+              "porque": "La forma completa: be + número + [[years old]].",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "He has twenty-five years.",
+              "correcta": false,
+              "porque": "Calco de «tiene 25 años». La edad en inglés se expresa con be: [[He's twenty-five]]."
+            },
+            {
+              "texto": "He's twenty-five years.",
+              "correcta": false,
+              "porque": "Si dices [[years]], tienes que terminar con [[old]]: [[twenty-five years old]]. O solo el número: [[He's twenty-five]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "He's twenty-five",
+              "He's twenty-five years old",
+              "He's 25",
+              "He's 25 years old",
+              "Twenty-five",
+              "25",
+              "My brother is twenty-five",
+              "My brother is 25",
+              "Pablo is twenty-five",
+              "Pablo is 25",
+              "My brother is twenty-five years old",
+              "Twenty-five years old"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Omar",
+          "en": "And your parents? Are they from Mexico City?",
+          "es": "¿Y tus papás? ¿Son de la Ciudad de México?",
+          "significa": "Pregunta si tus papás son de la Ciudad de México. Son de Oaxaca.",
+          "estructura": "[[Are they…?]] Respuesta corta negativa: [[No, they aren't]]. Cuidado con tres palabras que suenan igual: [[they're]] (they are), [[their]] (su, de ellos) y [[there]] (allí).",
+          "respuestas": [
+            {
+              "texto": "No, they aren't. They're from Oaxaca.",
+              "correcta": true,
+              "porque": "Respuesta corta negativa con be y [[They're]] = [[They are]].",
+              "siguiente": "n8"
+            },
+            {
+              "texto": "No, they don't. They're from Oaxaca.",
+              "correcta": false,
+              "porque": "La pregunta es con [[are]], así que la respuesta corta es [[No, they aren't]]. [[don't]] no se usa con be."
+            },
+            {
+              "texto": "No, they aren't. Their from Oaxaca.",
+              "correcta": false,
+              "porque": "[[Their]] es el posesivo («su», de ellos). Aquí necesitas sujeto + verbo: [[They're]] (= [[They are]]). Suenan igual, pero se escriben distinto."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No they aren't They're from Oaxaca",
+              "No they aren't",
+              "No they're from Oaxaca",
+              "No they're not They're from Oaxaca",
+              "No They are from Oaxaca",
+              "No from Oaxaca",
+              "No my parents are from Oaxaca",
+              "No they aren't They are from Oaxaca",
+              "They're from Oaxaca"
+            ],
+            "siguiente": "n8"
+          }
+        },
+        {
+          "id": "n8",
+          "quien": "Omar",
+          "en": "What a beautiful family, Andrea!",
+          "es": "¡Qué familia tan bonita, Andrea!",
+          "significa": "Es un cumplido. Agradece y, si quieres, devuélvele la conversación preguntando por su familia.",
+          "estructura": "[[What a]] + adjetivo + sustantivo = «¡Qué … tan …!». Para devolver la pregunta: [[And your family?]] (con el posesivo [[your]], no el pronombre [[you]]).",
+          "respuestas": [
+            {
+              "texto": "Thank you, Omar!",
+              "correcta": true,
+              "porque": "Agradeces el cumplido de forma sencilla.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Thanks! And your family?",
+              "correcta": true,
+              "porque": "Agradeces y devuelves el tema con el posesivo [[your]].",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Thanks! And you family?",
+              "correcta": false,
+              "porque": "[[you]] es pronombre de sujeto; delante de un sustantivo va el posesivo [[your]]: [[your family]]."
+            },
+            {
+              "texto": "You're welcome!",
+              "correcta": false,
+              "porque": "[[You're welcome]] responde a un «gracias». A un cumplido se contesta [[Thank you]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you Omar",
+              "Thank you",
+              "Thanks",
+              "Thanks Omar",
+              "Thanks And your family",
+              "Thank you And your family",
+              "Thanks Omar And your family",
+              "Thank you Omar And your family",
+              "Thank you What about your family",
+              "Thanks What about your family"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Omar",
+          "fin": true,
+          "en": "My family? That's a long story! Ha ha.",
+          "es": "¿Mi familia? ¡Es una historia larga! Ja, ja.",
+          "resumen": "Practicaste los posesivos en contexto: **his / her** según el POSEEDOR (no según la cosa ni según quién habla), **my** delante del sustantivo y **mine** solo, **its** sin apóstrofo frente a **it's**, el genitivo (**my brother's dog**, no «the dog of my brother»), **whose**, la edad con be y la diferencia entre **they're** y **their**."
+        }
+      ]
+    },
+    {
+      "slug": "oficina-de-turismo",
+      "titulo": "En la oficina de turismo",
+      "nivel": "A1",
+      "unidad": "there-is-there-are",
+      "contexto": "Es lunes y estás de visita en un pueblo que no conoces. Entras en la oficina de turismo para preguntar qué hay para ver, dónde comer y dónde están algunos lugares.",
+      "personaje": "Ben, empleado de la oficina de turismo",
+      "tu_papel": "Eres Marta, turista. Quieres saber si hay un museo, si hay restaurantes cerca y dónde están los lugares que te recomienden.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Ben",
+          "en": "Good morning! Welcome to the tourist office. How can I help you?",
+          "es": "¡Buenos días! Bienvenida a la oficina de turismo. ¿En qué te puedo ayudar?",
+          "significa": "Te saluda y te ofrece ayuda. Es el momento de hacer tu primera pregunta: si hay un museo.",
+          "estructura": "[[How can I help you?]] es una fórmula fija de atención al público. Para preguntar si algo existe se invierte [[there is]]: [[Is there a…?]]",
+          "respuestas": [
+            {
+              "texto": "Good morning. Is there a museum in town?",
+              "correcta": true,
+              "porque": "[[Is there]] + [[a]] + sustantivo singular: la pregunta de «¿hay un…?» con el verbo antes de [[there]].",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Hi! Are there any museums here?",
+              "correcta": true,
+              "porque": "Con plural: [[Are there any]] + sustantivo plural. [[any]] es lo normal en preguntas.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Good morning. There is a museum?",
+              "correcta": false,
+              "porque": "Calco de «¿hay un museo?», donde el español solo cambia la entonación. Para pedir información nueva, el inglés invierte el verbo: [[Is there a museum?]]"
+            },
+            {
+              "texto": "Good morning. Have a museum here?",
+              "correcta": false,
+              "porque": "Calco de «¿tienen/hay museo?». El «hay» del inglés es [[there is]] / [[there are]], y la pregunta es [[Is there a museum here?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Good morning Is there a museum in town",
+              "Is there a museum in town",
+              "Is there a museum here",
+              "Good morning Is there a museum here",
+              "Are there any museums here",
+              "Are there any museums in town",
+              "Hi Are there any museums here",
+              "Is there a museum",
+              "Are there any museums",
+              "Good morning Are there any museums in town",
+              "Hello Is there a museum in town",
+              "Hi Is there a museum in town",
+              "Is there a museum in the town",
+              "Good morning is there a museum in the town"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Ben",
+          "en": "Yes, there is. There's a history museum on Park Street.",
+          "es": "Sí, hay uno. Hay un museo de historia en la calle Park.",
+          "significa": "Te confirma que hay un museo y te dice en qué calle está. Ahora puedes preguntar si está lejos o si abre hoy: cada pregunta lleva a una respuesta distinta.",
+          "estructura": "Respuesta corta [[Yes, there is]]. [[There's]] = [[There is]]. Con el nombre de una calle se usa [[on]]: [[on Park Street]] (en inglés británico también [[in]]).",
+          "respuestas": [
+            {
+              "texto": "Great! Is it far?",
+              "correcta": true,
+              "porque": "Pregunta de sí o no con [[it]] (el museo) y el verbo antes del sujeto.",
+              "siguiente": "n3a"
+            },
+            {
+              "texto": "Is it open today?",
+              "correcta": true,
+              "porque": "Preguntar si está abierto hoy es muy útil: [[Is it open…?]]",
+              "siguiente": "n3b"
+            },
+            {
+              "texto": "Great! Is far?",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]. «¿Está lejos?» en inglés es [[Is it far?]]"
+            },
+            {
+              "texto": "It is open today?",
+              "correcta": false,
+              "porque": "Sin inversión es una afirmación. La pregunta necesita [[Is it open today?]]"
+            }
+          ]
+        },
+        {
+          "id": "n3a",
+          "quien": "Ben",
+          "en": "No, it isn't. It's next to the train station, about five minutes from here.",
+          "es": "No, no está lejos. Está junto a la estación de tren, a unos cinco minutos de aquí.",
+          "significa": "Te dice que el museo está cerca y junto a la estación. Aprovecha para preguntar por restaurantes cerca del museo.",
+          "estructura": "[[next to]] = «junto a, al lado de». Para preguntar por varios restaurantes: [[Are there any]] + plural; por uno: [[Is there a]] + singular.",
+          "respuestas": [
+            {
+              "texto": "Thank you! Are there any good restaurants near the museum?",
+              "correcta": true,
+              "porque": "[[Are there any]] + adjetivo + sustantivo plural: correcto en número y en orden.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Thanks! Is there a good restaurant near there?",
+              "correcta": true,
+              "porque": "[[Is there a]] + singular también es correcto si buscas un lugar.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Thank you! There are any restaurants near the museum?",
+              "correcta": false,
+              "porque": "Falta la inversión: [[Are there any…?]] Además, [[any]] en una afirmación no tiene sentido aquí."
+            },
+            {
+              "texto": "Thank you! Is there any restaurants near the museum?",
+              "correcta": false,
+              "porque": "[[restaurants]] es plural, así que el verbo es [[are]]: [[Are there any restaurants…?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you Are there any good restaurants near the museum",
+              "Are there any good restaurants near the museum",
+              "Are there any restaurants near the museum",
+              "Thank you Are there any restaurants near the museum",
+              "Thanks Are there any restaurants near the museum",
+              "Thanks Are there any good restaurants near the museum",
+              "Is there a good restaurant near the museum",
+              "Is there a restaurant near the museum",
+              "Thanks Is there a good restaurant near there",
+              "Is there a good restaurant near there",
+              "Is there a restaurant near there",
+              "Are there any restaurants near there",
+              "Are there any good restaurants near there",
+              "Thank you Is there a restaurant near the museum"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n3b",
+          "quien": "Ben",
+          "en": "Sorry, it isn't. It's closed on Mondays. But there's a big market in the main square today.",
+          "es": "Lo siento, no. Cierra los lunes. Pero hoy hay un mercado grande en la plaza principal.",
+          "significa": "El museo está cerrado hoy, pero te recomienda un mercado en la plaza principal. Pregunta dónde está la plaza.",
+          "estructura": "[[It's closed on Mondays]]: [[on]] + día en plural = todos los lunes. Para preguntar por la ubicación: [[Where is]] + lugar?",
+          "respuestas": [
+            {
+              "texto": "Oh, OK. Where is the main square?",
+              "correcta": true,
+              "porque": "[[Where]] + [[is]] + sujeto: el orden normal de una pregunta con be.",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "Oh, OK. Where is it the main square?",
+              "correcta": false,
+              "porque": "Sobra [[it]]. El sujeto de la pregunta ya es [[the main square]]: [[Where is the main square?]]"
+            },
+            {
+              "texto": "Oh, OK. Where the main square is?",
+              "correcta": false,
+              "porque": "En una pregunta directa el verbo va antes del sujeto: [[Where is the main square?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Oh OK Where is the main square",
+              "Where is the main square",
+              "OK Where is the main square",
+              "Where's the main square",
+              "Oh OK Where's the main square",
+              "Where is the square",
+              "Where's the square",
+              "Where is it",
+              "Oh OK where is it"
+            ],
+            "siguiente": "n4b"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Ben",
+          "en": "Yes, there are two. There's an Italian restaurant opposite the museum and a small café behind it.",
+          "es": "Sí, hay dos. Hay un restaurante italiano enfrente del museo y un café pequeño detrás.",
+          "significa": "Te describe dónde están dos lugares para comer. Comprueba que entendiste bien la ubicación.",
+          "estructura": "[[opposite]] = «enfrente de» (al otro lado de la calle); [[behind]] = «detrás de». No confundas [[behind]] con [[in front of]] («delante de»).",
+          "respuestas": [
+            {
+              "texto": "So the café is behind the museum?",
+              "correcta": true,
+              "porque": "Repites el dato para confirmarlo: [[behind]] es exactamente lo que dijo Ben. Aquí la pregunta sin inversión, solo con entonación, es natural porque no pides información nueva: compruebas algo que ya te dijeron.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Two restaurants. Perfect, thank you!",
+              "correcta": true,
+              "porque": "Resumes lo que entendiste y agradeces.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "So the café is in front of the museum?",
+              "correcta": false,
+              "porque": "Ben dijo [[behind]] («detrás»), no [[in front of]] («delante»). Escuchaste mal la preposición."
+            },
+            {
+              "texto": "So there is two restaurants?",
+              "correcta": false,
+              "porque": "Con plural es [[there are]]: [[So there are two restaurants?]]"
+            }
+          ]
+        },
+        {
+          "id": "n4b",
+          "quien": "Ben",
+          "en": "It's behind the church, between the bank and the post office.",
+          "es": "Está detrás de la iglesia, entre el banco y la oficina de correos.",
+          "significa": "Te da la ubicación con dos preposiciones. Repite los datos para confirmar que los entendiste.",
+          "estructura": "[[behind]] + un lugar; [[between]] + lugar + [[and]] + lugar («entre… y…»).",
+          "respuestas": [
+            {
+              "texto": "Behind the church, between the bank and the post office. Thank you!",
+              "correcta": true,
+              "porque": "Repites las dos preposiciones tal como las dijo Ben.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "OK, in front of the church. Thank you!",
+              "correcta": false,
+              "porque": "Ben dijo [[behind]] («detrás»), no [[in front of]] («delante»)."
+            },
+            {
+              "texto": "OK, between the church and the bank. Thank you!",
+              "correcta": false,
+              "porque": "Ben dijo que la plaza está DETRÁS de la iglesia y ENTRE el banco y la oficina de correos. Los dos lugares que van con [[between]] son [[the bank]] y [[the post office]]."
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "quien": "Ben",
+          "en": "That's right. Is there anything else?",
+          "es": "Así es. ¿Algo más?",
+          "significa": "Confirma y te pregunta si necesitas algo más. Puedes terminar o hacer una última pregunta.",
+          "estructura": "[[Is there anything else?]] = «¿hay algo más (en que te pueda ayudar)?». Se contesta [[No, that's all]] o con otra pregunta con [[Is there…?]]",
+          "respuestas": [
+            {
+              "texto": "No, that's all. Thank you very much!",
+              "correcta": true,
+              "porque": "[[That's all]] = «eso es todo». Cierre educado.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Yes. Is there a restroom here?",
+              "correcta": true,
+              "porque": "[[restroom]] (EE. UU.) o [[toilet]] (Reino Unido) es el baño público. [[Is there a…?]] otra vez.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "No, is all. Thank you.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[That's all]] («eso es todo»). «Es todo» sin sujeto no funciona en inglés."
+            },
+            {
+              "texto": "Yes. Where is the bath?",
+              "correcta": false,
+              "porque": "[[bath]] es la tina o el baño de tina. En un lugar público se pregunta por el [[restroom]] (EE. UU.) o el [[toilet]] (Reino Unido)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No that's all Thank you very much",
+              "No that's all thank you",
+              "No that's all thanks",
+              "That's all thank you",
+              "That's all thanks",
+              "No thank you",
+              "No thanks",
+              "No thank you very much",
+              "No that's everything thank you",
+              "No that's it thanks",
+              "No that's it thank you"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Ben",
+          "en": "Yes, there is. It's over there, next to the door.",
+          "es": "Sí, hay uno. Está allá, junto a la puerta.",
+          "significa": "Te indica dónde está el baño. Agradece y despídete.",
+          "estructura": "[[over there]] = «allá». [[Have a nice day]] es la despedida amable más común de día.",
+          "respuestas": [
+            {
+              "texto": "Thank you! Have a nice day.",
+              "correcta": true,
+              "porque": "Agradeces y te despides con una fórmula de día.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Thanks! Good night.",
+              "correcta": false,
+              "porque": "Es de mañana. [[Good night]] solo se usa para despedirse de noche."
+            },
+            {
+              "texto": "You're welcome! Bye.",
+              "correcta": false,
+              "porque": "Quien tiene que agradecer eres tú: [[Thank you]]. [[You're welcome]] responde a un «gracias»."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you Have a nice day",
+              "Thanks Have a nice day",
+              "Thank you",
+              "Thanks",
+              "Thank you very much",
+              "Thank you bye",
+              "Thanks bye",
+              "Thank you very much Have a nice day",
+              "Thanks a lot"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Ben",
+          "fin": true,
+          "en": "You're welcome. Enjoy your visit!",
+          "es": "De nada. ¡Disfruta tu visita!",
+          "resumen": "Practicaste **there is / there are** en preguntas reales (**Is there a…? Are there any…?**) con la inversión obligatoria, el número (plural → **are**) y preposiciones de lugar al escuchar: **next to, opposite, behind, between** frente a **in front of**. También fórmulas útiles: **That's all**, **restroom** (no bath) y **Have a nice day**."
+        }
+      ]
+    },
+    {
+      "slug": "comprar-una-sudadera",
+      "titulo": "Comprar ropa: tallas y precios",
+      "nivel": "A1",
+      "unidad": "numeros",
+      "contexto": "Estás en una tienda de ropa. Hay ofertas y te interesa una sudadera. Vas a preguntar el precio, la talla y el color, y pagar.",
+      "personaje": "Sam, dependiente de la tienda",
+      "tu_papel": "Eres Pablo. Buscas una sudadera (hoodie) talla mediana (medium). Tienes 40 dólares.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Sam",
+          "en": "Hi there! Can I help you?",
+          "es": "¡Hola! ¿Te puedo ayudar?",
+          "significa": "Te ofrece ayuda. Puedes preguntar ya el precio o decir que solo estás mirando.",
+          "estructura": "[[Can I help you?]] es la fórmula de las tiendas. Para el precio de UNA cosa: [[How much is]] + [[this]] + cosa?",
+          "respuestas": [
+            {
+              "texto": "Yes, please. How much is this hoodie?",
+              "correcta": true,
+              "porque": "[[How much]] pregunta el precio; [[is]] y [[this]] porque es una sola sudadera y la tienes cerca.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "No, thanks. I'm just looking.",
+              "correcta": true,
+              "porque": "[[I'm just looking]] = «solo estoy viendo». Es la respuesta educada si no necesitas ayuda todavía.",
+              "siguiente": "n1b"
+            },
+            {
+              "texto": "Yes. How much cost this hoodie?",
+              "correcta": false,
+              "porque": "Calco de «¿cuánto cuesta?». Lo más sencillo es [[How much is this hoodie?]]; con [[cost]] la pregunta necesita auxiliar: [[How much does it cost?]]"
+            },
+            {
+              "texto": "Yes, please. How many is this hoodie?",
+              "correcta": false,
+              "porque": "Para precios se usa [[how much]]. [[How many]] pregunta cuántas unidades hay de algo que se cuenta."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes please How much is this hoodie",
+              "How much is this hoodie",
+              "Yes How much is this hoodie",
+              "How much is this",
+              "How much is it",
+              "Yes please How much is it",
+              "Yes please how much is this",
+              "How much does this hoodie cost",
+              "How much does it cost",
+              "How much is this one",
+              "Yes please how much is this one"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n1b",
+          "quien": "Sam",
+          "en": "No problem! All the hoodies are on sale today.",
+          "es": "¡No hay problema! Todas las sudaderas están en oferta hoy.",
+          "significa": "Te informa de que las sudaderas están en oferta. Aprovecha para preguntar el precio de una.",
+          "estructura": "[[on sale]] = «en oferta, rebajado». Con una prenda concreta: [[How much is this]] + color + [[hoodie]]? (el color va antes del sustantivo).",
+          "respuestas": [
+            {
+              "texto": "Oh, really? How much is this blue hoodie?",
+              "correcta": true,
+              "porque": "[[this]] + adjetivo de color + sustantivo, y [[is]] porque es una sola prenda.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Great! How much is this one?",
+              "correcta": true,
+              "porque": "[[this one]] evita repetir [[hoodie]]; es muy natural cuando señalas algo.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Oh, really? How much are this blue hoodie?",
+              "correcta": false,
+              "porque": "[[hoodie]] es singular: [[How much is]]. [[How much are]] se usa con plurales ([[How much are these hoodies?]])."
+            },
+            {
+              "texto": "Oh, really? How much is this hoodie blue?",
+              "correcta": false,
+              "porque": "El adjetivo va ANTES del sustantivo: [[this blue hoodie]]. «Sudadera azul» no se traduce en el mismo orden."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Oh really How much is this blue hoodie",
+              "How much is this blue hoodie",
+              "Really How much is this blue hoodie",
+              "Great How much is this one",
+              "How much is this one",
+              "How much is this",
+              "How much is this hoodie",
+              "Great how much is this hoodie",
+              "How much is it",
+              "Great how much is it"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Sam",
+          "en": "It's usually forty dollars, but today it's thirty.",
+          "es": "Normalmente cuesta cuarenta dólares, pero hoy cuesta treinta.",
+          "significa": "Te da el precio normal (40) y el de hoy (30). Escucha bien: thirty (30) y thirteen (13) se parecen. Después pregunta si hay talla mediana.",
+          "estructura": "Precio con [[It's]] + número + [[dollars]]. En [[thirty]] el acento va al principio (/ˈθɝːti/); en [[thirteen]], al final (/θɝːˈtiːn/).",
+          "respuestas": [
+            {
+              "texto": "Thirty dollars? Great! Is there a medium?",
+              "correcta": true,
+              "porque": "Confirmas el precio correcto y preguntas por la talla con [[Is there a…?]]",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Thirteen dollars? Great!",
+              "correcta": false,
+              "porque": "Sam dijo [[thirty]] (30), con el acento al principio. [[thirteen]] (13) lleva el acento al final: /θɝːˈtiːn/."
+            },
+            {
+              "texto": "Thirty dollars? Great! There is a medium?",
+              "correcta": false,
+              "porque": "Para pedir información nueva hace falta la inversión: [[Is there a medium?]] Sin ella es una afirmación con tono de pregunta, como en español."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thirty dollars Great Is there a medium",
+              "Is there a medium",
+              "Great Is there a medium",
+              "Is there a medium in this color",
+              "Is there a medium size",
+              "Is there one in medium",
+              "Is there a medium one",
+              "Thirty dollars Is there a medium",
+              "Great is there one in medium",
+              "Is there a size medium",
+              "Thirty great is there a medium"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Sam",
+          "en": "Yes, there is. In medium, there are two colors: blue and gray. Blue or gray?",
+          "es": "Sí, hay. En mediana hay dos colores: azul y gris. ¿Azul o gris?",
+          "significa": "Hay talla mediana en dos colores. Te pide que elijas uno. Las dos elecciones llevan a respuestas distintas.",
+          "estructura": "[[there are two colors]]: plural con [[are]]. Para elegir basta el color + [[please]]; o [[the blue one]] (en inglés el adjetivo necesita [[one]] si no hay sustantivo).",
+          "respuestas": [
+            {
+              "texto": "Blue, please.",
+              "correcta": true,
+              "porque": "Respuesta corta y educada.",
+              "siguiente": "n4a"
+            },
+            {
+              "texto": "The gray one, please.",
+              "correcta": true,
+              "porque": "[[the gray one]]: [[one]] sustituye a [[hoodie]]. Sin [[one]] («the gray») queda incompleto.",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "The blue, please.",
+              "correcta": false,
+              "porque": "Calco de «la azul». En inglés un adjetivo con [[the]] necesita un sustantivo o [[one]]: [[The blue one, please]]; o simplemente [[Blue, please]]."
+            },
+            {
+              "texto": "Is blue, please.",
+              "correcta": false,
+              "porque": "Una oración con [[is]] necesita sujeto. Para elegir basta [[Blue, please]]."
+            }
+          ]
+        },
+        {
+          "id": "n4a",
+          "quien": "Sam",
+          "en": "Here you are. The blue one is thirty dollars.",
+          "es": "Aquí tienes. La azul cuesta treinta dólares.",
+          "significa": "Te da la sudadera azul y te recuerda el precio. Confirma que la quieres.",
+          "estructura": "[[Here you are]] = «aquí tienes» al dar algo. Para decir «esta» con algo singular: [[this one]]; con plural sería [[these]].",
+          "respuestas": [
+            {
+              "texto": "OK, this one, please.",
+              "correcta": true,
+              "porque": "[[this one]]: singular con singular.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Great. It's perfect. This one, please.",
+              "correcta": true,
+              "porque": "Das tu opinión con [[It's]] + adjetivo y confirmas con [[this one]].",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "OK, these one, please.",
+              "correcta": false,
+              "porque": "[[these]] es plural; con [[one]] (una sola prenda) va [[this]]: [[this one]]."
+            },
+            {
+              "texto": "OK, this ones, please.",
+              "correcta": false,
+              "porque": "Es una sola sudadera: [[this one]], sin -s. Además [[this]] nunca va con plural."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "OK this one please",
+              "This one please",
+              "Great It's perfect This one please",
+              "It's perfect this one please",
+              "OK I'll take it",
+              "I'll take it",
+              "OK please",
+              "Perfect this one please",
+              "Great this one please",
+              "The blue one please",
+              "OK the blue one please"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n4b",
+          "quien": "Sam",
+          "en": "Here you are. But the gray one isn't on sale. It's forty dollars.",
+          "es": "Aquí tienes. Pero la gris no está en oferta. Cuesta cuarenta dólares.",
+          "significa": "La gris no tiene descuento: cuesta 40 dólares (lo que tienes). Decide si la compras o cambias a la azul.",
+          "estructura": "[[isn't on sale]]: negación con be. [[forty]] (40) se escribe sin u (no «fourty») y lleva el acento al principio, frente a [[fourteen]] (14), con acento al final.",
+          "respuestas": [
+            {
+              "texto": "Forty? Oh, no. The blue one, please.",
+              "correcta": true,
+              "porque": "Reaccionas al precio y cambias de elección con [[the blue one]].",
+              "siguiente": "n4a"
+            },
+            {
+              "texto": "That's OK. The gray one, please.",
+              "correcta": true,
+              "porque": "Aceptas el precio: tienes justo 40 dólares.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Fourteen? OK, the gray one, please.",
+              "correcta": false,
+              "porque": "Sam dijo [[forty]] (40), con el acento al principio. [[fourteen]] (14) tiene el acento al final."
+            },
+            {
+              "texto": "Forty? Is very expensive.",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]: [[It's very expensive]]."
+            }
+          ]
+        },
+        {
+          "id": "n5",
+          "quien": "Sam",
+          "en": "Great choice. Is that cash or card?",
+          "es": "Buena elección. ¿Pagas en efectivo o con tarjeta?",
+          "significa": "Pregunta cómo vas a pagar.",
+          "estructura": "[[cash]] = efectivo; [[card]] = tarjeta. Si usas preposición: [[by card]] / [[in cash]] (no «with card»).",
+          "respuestas": [
+            {
+              "texto": "Card, please.",
+              "correcta": true,
+              "porque": "Respuesta corta, suficiente en una tienda.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Cash.",
+              "correcta": true,
+              "porque": "También vale: eliges una de las dos opciones que te dio.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "With card, please.",
+              "correcta": false,
+              "porque": "Calco de «con tarjeta». Sin artículo, «with card» no funciona: se dice [[by card]] (o [[with a card]]), o simplemente [[Card, please]]."
+            },
+            {
+              "texto": "Is card.",
+              "correcta": false,
+              "porque": "Falta sujeto. Basta con [[Card, please]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Card please",
+              "Card",
+              "By card",
+              "By card please",
+              "Cash",
+              "Cash please",
+              "In cash",
+              "In cash please",
+              "Card thanks",
+              "Cash thanks"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Sam",
+          "en": "Here's your receipt. Have a nice day!",
+          "es": "Aquí está tu recibo. ¡Que tengas un buen día!",
+          "significa": "Te da el recibo y te desea un buen día. Devuélvele el deseo.",
+          "estructura": "Para devolver un buen deseo se dice [[You too]] («igualmente»). [[Me too]] significa otra cosa.",
+          "respuestas": [
+            {
+              "texto": "Thanks! You too.",
+              "correcta": true,
+              "porque": "[[You too]] = «igualmente, tú también (ten un buen día)».",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Thanks! Me too.",
+              "correcta": false,
+              "porque": "[[Me too]] significa «yo también» y no responde a un deseo. Se dice [[You too]]."
+            },
+            {
+              "texto": "You're welcome! You too.",
+              "correcta": false,
+              "porque": "Sam no te dio las gracias. Tú agradeces el recibo: [[Thanks! You too]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thanks You too",
+              "Thank you You too",
+              "You too",
+              "Thanks you too bye",
+              "Thank you you too bye",
+              "Thanks same to you",
+              "Thank you same to you",
+              "Same to you"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Sam",
+          "fin": true,
+          "en": "Thanks! Bye!",
+          "es": "¡Gracias! ¡Adiós!",
+          "resumen": "Practicaste una compra completa: **How much is this…?** (no «How much cost» ni «How many»), la diferencia de acento entre **thirty/thirteen** y **forty/fourteen**, **Is there a medium?** con inversión, el adjetivo antes del sustantivo, **this one / the blue one**, **by card** y **You too** para devolver un buen deseo."
+        }
+      ]
+    },
+    {
+      "slug": "la-hora-y-la-estacion",
+      "titulo": "Preguntar la hora y una dirección",
+      "nivel": "A1",
+      "unidad": "fechas-y-horas",
+      "contexto": "Estás de turista en una ciudad nueva, tu celular no tiene batería y tienes que tomar un tren. Una mujer en la calle ve que estás perdido y te ofrece ayuda.",
+      "personaje": "Aisha, una mujer amable en la calle",
+      "tu_papel": "Eres Luis, turista. Tu tren sale a las 4:15 de la tarde desde la estación central (Central Station). Es tu primera vez en la ciudad y te quedas hasta el domingo.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Aisha",
+          "en": "Hi! Are you OK? Do you need help?",
+          "es": "¡Hola! ¿Estás bien? ¿Necesitas ayuda?",
+          "significa": "Te pregunta si estás bien y si necesitas ayuda. Primero necesitas saber la hora.",
+          "estructura": "Para preguntar la hora: [[What time is it?]] Es una pregunta con palabra interrogativa: [[What time]] + [[is]] + [[it]]. En inglés la hora no es «hour».",
+          "respuestas": [
+            {
+              "texto": "Yes, thanks. What time is it, please?",
+              "correcta": true,
+              "porque": "[[What time is it?]] es la pregunta estándar; [[please]] la hace más amable con una desconocida.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Excuse me. What time is it?",
+              "correcta": true,
+              "porque": "[[Excuse me]] es una forma educada de introducir una pregunta a una persona desconocida; luego la pregunta estándar [[What time is it?]]",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Yes. Which hour is it?",
+              "correcta": false,
+              "porque": "Calco de «¿qué hora es?». En inglés se pregunta por [[time]], no por [[hour]] (que es la duración de 60 minutos)."
+            },
+            {
+              "texto": "Excuse me. What time it is?",
+              "correcta": false,
+              "porque": "En una pregunta directa el verbo va antes del sujeto: [[What time is it?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes thanks What time is it please",
+              "What time is it",
+              "What time is it please",
+              "Excuse me What time is it",
+              "Excuse me What time is it please",
+              "Yes thanks What time is it",
+              "Yes please What time is it",
+              "Yes What time is it please",
+              "Do you have the time",
+              "Excuse me do you have the time",
+              "Yes please what time is it"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Aisha",
+          "en": "It's a quarter to four.",
+          "es": "Son las cuatro menos cuarto.",
+          "significa": "Te dice la hora: faltan quince minutos para las cuatro (3:45). Reacciona según lo que entendiste.",
+          "estructura": "[[a quarter to four]] = 15 minutos ANTES de las cuatro (3:45). [[a quarter past four]] = 15 minutos DESPUÉS (4:15). Con horas exactas se usa [[at]]: [[at four fifteen]].",
+          "respuestas": [
+            {
+              "texto": "A quarter to four? Oh no! My train is at four fifteen.",
+              "correcta": true,
+              "porque": "Entendiste bien (3:45) y explicas el problema con [[at]] + hora.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Three forty-five? Thanks. Where is Central Station?",
+              "correcta": true,
+              "porque": "Pasas la hora a la forma digital ([[three forty-five]] = 3:45) y preguntas directamente por la estación.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "A quarter past four? OK, thanks.",
+              "correcta": false,
+              "porque": "Aisha dijo [[to]] (antes), no [[past]] (después). [[A quarter past four]] serían las 4:15, justo la hora de tu tren."
+            },
+            {
+              "texto": "Three forty-five? My train is in four fifteen.",
+              "correcta": false,
+              "porque": "Con una hora exacta la preposición es [[at]]: [[at four fifteen]]. [[in]] va con meses, años o partes del día."
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "quien": "Aisha",
+          "en": "Four fifteen? That's in thirty minutes. Is your train at Central Station?",
+          "es": "¿A las cuatro y cuarto? Es en treinta minutos. ¿Tu tren sale de la estación central?",
+          "significa": "Te dice cuánto tiempo te queda y te pregunta si tu tren sale de la estación central.",
+          "estructura": "[[in thirty minutes]] = «dentro de treinta minutos». [[Is your train…?]]: el tren es una cosa, así que en la respuesta corta se convierte en [[it]]: [[Yes, it is]]. Luego pregunta con [[Where is it?]]",
+          "respuestas": [
+            {
+              "texto": "Yes, it is. Where is it, please?",
+              "correcta": true,
+              "porque": "Respuesta corta sin contraer y pregunta de lugar con el orden [[Where]] + [[is]] + [[it]].",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Yes, it is. Where it is?",
+              "correcta": false,
+              "porque": "En la pregunta el verbo va antes del sujeto: [[Where is it?]]"
+            },
+            {
+              "texto": "Yes. Where is it the station?",
+              "correcta": false,
+              "porque": "Sobra [[it]]: el sujeto es [[the station]]. Se dice [[Where is the station?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it is Where is it please",
+              "Yes it is Where is it",
+              "Yes Where is it",
+              "Yes where is it please",
+              "Where is it",
+              "Where is it please",
+              "Yes it is Where is Central Station",
+              "Yes where is Central Station",
+              "Where is Central Station",
+              "Yes it is Where is the station",
+              "Where is the station",
+              "Yes where is the station please"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Aisha",
+          "en": "It's on Main Street, next to the big hotel. Go straight, then turn left at the bank.",
+          "es": "Está en la calle Main, junto al hotel grande. Sigue derecho y luego da vuelta a la izquierda en el banco.",
+          "significa": "Te da la dirección: sigue derecho y gira a la izquierda en el banco. Confirma o pide aclaración.",
+          "estructura": "Instrucciones en imperativo: [[Go straight]], [[turn left]]. [[at the bank]] = en el punto donde está el banco (no dentro: eso sería [[in the bank]]).",
+          "respuestas": [
+            {
+              "texto": "Straight, then left at the bank. Thank you!",
+              "correcta": true,
+              "porque": "Repites las instrucciones clave para comprobarlas.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Sorry, left or right?",
+              "correcta": true,
+              "porque": "Pedir que te aclaren un dato es perfectamente correcto.",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "Straight, then right at the bank. Thank you!",
+              "correcta": false,
+              "porque": "Aisha dijo [[left]] (izquierda), no [[right]] (derecha)."
+            },
+            {
+              "texto": "OK. Is next to the hotel.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[It's next to the hotel]]."
+            }
+          ]
+        },
+        {
+          "id": "n4b",
+          "quien": "Aisha",
+          "en": "Left. Turn left at the bank.",
+          "es": "A la izquierda. Da vuelta a la izquierda en el banco.",
+          "significa": "Te repite que es a la izquierda. Confírmalo y agradece.",
+          "estructura": "[[at the bank]]: [[at]] marca un punto de referencia en el camino.",
+          "respuestas": [
+            {
+              "texto": "OK, left at the bank. Thank you!",
+              "correcta": true,
+              "porque": "Confirmas la dirección y la preposición correcta.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "OK, right at the bank. Thank you!",
+              "correcta": false,
+              "porque": "Aisha repitió [[left]] (izquierda)."
+            },
+            {
+              "texto": "OK, left in the bank. Thank you!",
+              "correcta": false,
+              "porque": "[[in the bank]] significa «dentro del banco». Para un punto del camino se usa [[at the bank]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "OK left at the bank Thank you",
+              "Left at the bank Thank you",
+              "Left at the bank",
+              "OK left at the bank",
+              "Left at the bank thanks",
+              "OK left at the bank thanks",
+              "Left thank you",
+              "OK left thanks",
+              "OK thank you",
+              "Thank you",
+              "Thanks"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Aisha",
+          "en": "You're welcome. Is this your first time in the city?",
+          "es": "De nada. ¿Es tu primera vez en la ciudad?",
+          "significa": "Te pregunta si es la primera vez que visitas la ciudad.",
+          "estructura": "[[Is this your first time…?]] Respuesta corta: [[Yes, it is]]. Con los días de la semana NO se usa artículo: [[until Sunday]] («hasta el domingo»).",
+          "respuestas": [
+            {
+              "texto": "Yes, it is. I'm here until Sunday.",
+              "correcta": true,
+              "porque": "Respuesta corta y dato extra; [[until Sunday]] sin artículo.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Yes, is my first time.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[Yes, it's my first time]]."
+            },
+            {
+              "texto": "Yes, it is. I'm here until the Sunday.",
+              "correcta": false,
+              "porque": "Calco de «hasta el domingo». En inglés los días van sin [[the]]: [[until Sunday]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it is I'm here until Sunday",
+              "Yes it is",
+              "Yes",
+              "Yes it's my first time",
+              "Yes it's my first time here",
+              "Yes it's my first time in the city",
+              "Yes it is my first time here",
+              "Yes I'm here until Sunday",
+              "Yes it is my first time",
+              "Yes it's my first time I'm here until Sunday"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Aisha",
+          "en": "Welcome, then! Hurry, it's ten to four now. Bye!",
+          "es": "¡Bienvenido, entonces! Date prisa, ya son las cuatro menos diez. ¡Adiós!",
+          "significa": "Te da la bienvenida, te recuerda que ya son las 3:50 y se despide.",
+          "estructura": "[[ten to four]] = diez para las cuatro (3:50). Para despedirte de una desconocida que te ayudó: [[Thank you so much! Bye!]]",
+          "respuestas": [
+            {
+              "texto": "Thank you so much! Bye!",
+              "correcta": true,
+              "porque": "Agradeces con énfasis y te despides.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Thanks! See you tomorrow!",
+              "correcta": false,
+              "porque": "No vas a ver mañana a esta persona: [[See you tomorrow]] solo se usa si hay un encuentro previsto."
+            },
+            {
+              "texto": "Thanks! Good night!",
+              "correcta": false,
+              "porque": "Son casi las cuatro de la tarde: [[Good night]] solo sirve de noche."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Thank you so much Bye",
+              "Thank you so much",
+              "Thank you Bye",
+              "Thanks Bye",
+              "Thanks a lot Bye",
+              "Thank you very much Bye",
+              "Thank you very much",
+              "Thanks a lot",
+              "Bye thank you",
+              "Bye thanks",
+              "Thanks for your help Bye",
+              "Thank you for your help"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Aisha",
+          "fin": true,
+          "en": "Bye! Have a good trip!",
+          "es": "¡Adiós! ¡Buen viaje!",
+          "resumen": "Practicaste la hora y las direcciones: **What time is it?** (no «which hour»), **a quarter to / a quarter past**, la forma digital (**three forty-five**), **at** con horas, **on** con calles, **at the bank** frente a **in the bank**, **left / right** al escuchar y los días sin artículo (**until Sunday**)."
+        }
+      ]
+    },
+    {
+      "slug": "tu-rutina-en-el-medico",
+      "titulo": "Explicar tu rutina al médico",
+      "nivel": "A1",
+      "unidad": "frecuencia-y-tiempo-libre",
+      "contexto": "Vas a una consulta porque últimamente te duele la cabeza a veces. La doctora quiere conocer tus hábitos: horarios, comidas, café, ejercicio, tiempo libre y sueño.",
+      "personaje": "Dra. Mei Chen, médica general",
+      "tu_papel": "Eres Elena. Normalmente te levantas a las 6:30. Desayunas café y pan tostado, pero algunos días no desayunas. Tomas café unas cuatro veces al día. Haces ejercicio casi nunca (una vez al mes). Te gusta leer y ver películas. Duermes normalmente seis horas.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Dra. Chen",
+          "en": "Good morning, Elena. Tell me about your day. What time do you usually get up?",
+          "es": "Buenos días, Elena. Cuéntame de tu día. ¿A qué hora te levantas normalmente?",
+          "significa": "Pregunta la hora a la que te levantas habitualmente.",
+          "estructura": "[[What time do you usually get up?]]: [[What time]] + [[do]] + sujeto + adverbio + verbo base. El adverbio de frecuencia va ANTES del verbo principal: [[I usually get up…]]",
+          "respuestas": [
+            {
+              "texto": "I usually get up at six thirty.",
+              "correcta": true,
+              "porque": "[[usually]] antes del verbo [[get up]] y [[at]] con la hora.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "At half past six.",
+              "correcta": true,
+              "porque": "Respuesta corta con la hora en la forma tradicional ([[half past six]] = 6:30).",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "I get up usually at six thirty.",
+              "correcta": false,
+              "porque": "El adverbio de frecuencia va antes del verbo principal, no después: [[I usually get up]]. En español «me levanto normalmente» admite otro orden; en inglés no."
+            },
+            {
+              "texto": "I usually get up in six thirty.",
+              "correcta": false,
+              "porque": "Con horas se usa [[at]]: [[at six thirty]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I usually get up at six thirty",
+              "I get up at six thirty",
+              "At six thirty",
+              "At half past six",
+              "I usually get up at half past six",
+              "I get up at half past six",
+              "Six thirty",
+              "I usually get up at 6:30",
+              "I get up at 6:30",
+              "At 6:30",
+              "Usually at six thirty",
+              "Usually at 6:30"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Dra. Chen",
+          "en": "And do you have breakfast?",
+          "es": "¿Y desayunas?",
+          "significa": "Pregunta si desayunas. Tú a veces sí y a veces no: elige cómo contestar, y la doctora reaccionará distinto.",
+          "estructura": "Pregunta con [[do]]: la respuesta corta usa [[do]] / [[don't]], no el verbo principal. [[have breakfast]] = desayunar.",
+          "respuestas": [
+            {
+              "texto": "Yes, I do. I have coffee and toast.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[do]] y detalle en presente simple.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Not always. I sometimes don't have time.",
+              "correcta": true,
+              "porque": "[[sometimes]] se coloca antes del auxiliar negativo; [[Not always]] matiza la respuesta.",
+              "siguiente": "n2b"
+            },
+            {
+              "texto": "Yes, I have.",
+              "correcta": false,
+              "porque": "La pregunta usa [[do]], así que la respuesta corta es [[Yes, I do]]. [[Yes, I have]] responde a preguntas con have como auxiliar, que verás más adelante."
+            },
+            {
+              "texto": "No, I don't never have breakfast.",
+              "correcta": false,
+              "porque": "Doble negación: en inglés estándar [[never]] ya es negativo. Se dice [[I never have breakfast]] o [[I don't have breakfast]]."
+            }
+          ]
+        },
+        {
+          "id": "n2b",
+          "quien": "Dra. Chen",
+          "en": "Breakfast is important, Elena. Do you drink coffee in the morning?",
+          "es": "El desayuno es importante, Elena. ¿Tomas café en la mañana?",
+          "significa": "Te aconseja desayunar y pregunta si tomas café por la mañana.",
+          "estructura": "[[Do you drink…?]] → [[Yes, I do]]. Con [[I]] el verbo nunca lleva -s: [[I always drink]].",
+          "respuestas": [
+            {
+              "texto": "Yes, I do. I always drink coffee.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[do]] y [[always]] antes del verbo.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Yes, I drink.",
+              "correcta": false,
+              "porque": "La respuesta corta repite el auxiliar: [[Yes, I do]]. [[drink]] además necesitaría complemento."
+            },
+            {
+              "texto": "Yes, I always drinks coffee.",
+              "correcta": false,
+              "porque": "La -s solo va con he/she/it. Con [[I]]: [[I always drink coffee]]."
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "quien": "Dra. Chen",
+          "en": "OK. How often do you drink coffee?",
+          "es": "Bien. ¿Con qué frecuencia tomas café?",
+          "significa": "Quiere saber cuántas veces tomas café.",
+          "estructura": "[[How often…?]] se contesta con expresiones de frecuencia al FINAL: [[four times a day]]. En inglés «al día» es [[a day]], no «for day».",
+          "respuestas": [
+            {
+              "texto": "About four times a day.",
+              "correcta": true,
+              "porque": "[[times]] + [[a day]]; [[about]] = «más o menos».",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "I drink coffee four times a day.",
+              "correcta": true,
+              "porque": "Oración completa con la expresión de frecuencia al final.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Four times for day.",
+              "correcta": false,
+              "porque": "Calco de «por día». Se dice [[four times a day]]."
+            },
+            {
+              "texto": "I drink four times coffee a day.",
+              "correcta": false,
+              "porque": "La expresión de frecuencia no se mete entre el verbo y el complemento: [[I drink coffee four times a day]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "About four times a day",
+              "Four times a day",
+              "I drink coffee four times a day",
+              "I drink coffee about four times a day",
+              "I usually drink coffee four times a day",
+              "I drink it four times a day",
+              "I drink it about four times a day",
+              "Four cups a day",
+              "About four cups a day",
+              "I drink four cups a day",
+              "I drink four cups of coffee a day",
+              "I drink about four cups of coffee a day"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Dra. Chen",
+          "en": "That's a lot. And do you exercise?",
+          "es": "Es mucho. ¿Y haces ejercicio?",
+          "significa": "Pregunta si haces ejercicio. Tú casi nunca (una vez al mes).",
+          "estructura": "Adverbios para «casi nunca»: [[rarely]], [[hardly ever]]; van antes del verbo. O una expresión al final: [[once a month]].",
+          "respuestas": [
+            {
+              "texto": "Not really. I rarely exercise.",
+              "correcta": true,
+              "porque": "[[rarely]] (casi nunca) antes del verbo [[exercise]].",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Not often. About once a month.",
+              "correcta": true,
+              "porque": "[[once a month]] = una vez al mes, con [[a]] y no «for».",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "No, I not exercise.",
+              "correcta": false,
+              "porque": "La negación en presente simple necesita [[don't]]: [[I don't exercise]]."
+            },
+            {
+              "texto": "Yes, I exercise never.",
+              "correcta": false,
+              "porque": "Contradice el [[Yes]] y además [[never]] va antes del verbo: [[I never exercise]]. Y tú sí haces algo de ejercicio."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Not really I rarely exercise",
+              "I rarely exercise",
+              "Not often",
+              "Not often About once a month",
+              "About once a month",
+              "Once a month",
+              "I exercise once a month",
+              "I exercise about once a month",
+              "I hardly ever exercise",
+              "Rarely",
+              "Not really",
+              "No not really",
+              "Hardly ever",
+              "Not really about once a month",
+              "No I rarely exercise"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Dra. Chen",
+          "en": "What do you like doing in your free time?",
+          "es": "¿Qué te gusta hacer en tu tiempo libre?",
+          "significa": "Pregunta por tus pasatiempos.",
+          "estructura": "[[like]] + verbo en -ing ([[like reading]]) o [[like]] + [[to]] + verbo ([[like to read]]). [[like]] es un verbo: no lleva [[am]] delante.",
+          "respuestas": [
+            {
+              "texto": "I like reading and watching movies.",
+              "correcta": true,
+              "porque": "[[like]] + dos verbos en -ing unidos con [[and]].",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "I like read and watch movies.",
+              "correcta": false,
+              "porque": "Después de [[like]] el verbo va en -ing o con [[to]]: [[I like reading]] / [[I like to read]]."
+            },
+            {
+              "texto": "I'm like reading and watching movies.",
+              "correcta": false,
+              "porque": "[[like]] ya es el verbo; no necesita [[am]]. [[I'm like]] cambia el sentido («soy como…»)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I like reading and watching movies",
+              "I like reading and watching films",
+              "I like to read and watch movies",
+              "I like to read and to watch movies",
+              "I like reading and I like watching movies",
+              "Reading and watching movies",
+              "I love reading and watching movies",
+              "I like watching movies and reading",
+              "I like reading and watching TV",
+              "I like reading books and watching movies",
+              "I like to read and watch films"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Dra. Chen",
+          "en": "And how many hours do you sleep?",
+          "es": "¿Y cuántas horas duermes?",
+          "significa": "Quiere saber cuántas horas duermes normalmente.",
+          "estructura": "[[How many hours]] + [[do you]] + verbo? En la respuesta: [[I usually sleep]] + número + [[hours]] (adverbio antes del verbo; sin -s con I).",
+          "respuestas": [
+            {
+              "texto": "I usually sleep six hours.",
+              "correcta": true,
+              "porque": "[[usually]] antes de [[sleep]] y el verbo sin -s porque el sujeto es [[I]].",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "I sleep usually six hours.",
+              "correcta": false,
+              "porque": "El adverbio de frecuencia va antes del verbo principal: [[I usually sleep]]."
+            },
+            {
+              "texto": "I usually sleeps six hours.",
+              "correcta": false,
+              "porque": "La -s es solo para he/she/it: [[I usually sleep]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I usually sleep six hours",
+              "I sleep six hours",
+              "Six hours",
+              "About six hours",
+              "Usually six hours",
+              "I usually sleep about six hours",
+              "I sleep about six hours",
+              "I usually sleep six hours a night",
+              "I sleep six hours a night",
+              "Six hours a night",
+              "I sleep for six hours",
+              "I usually sleep for six hours"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Dra. Chen",
+          "en": "OK, Elena. You need more sleep and less coffee. And please walk three times a week.",
+          "es": "Bien, Elena. Necesitas dormir más y tomar menos café. Y, por favor, camina tres veces por semana.",
+          "significa": "Te da recomendaciones. Confirma la frecuencia del ejercicio y agradece.",
+          "estructura": "[[three times a week]] = tres veces por semana: número + [[times]] + [[a]] + periodo. [[once]] (1 vez) y [[twice]] (2 veces) son formas especiales.",
+          "respuestas": [
+            {
+              "texto": "Three times a week. OK, thank you, doctor.",
+              "correcta": true,
+              "porque": "Repites la frecuencia correctamente y agradeces.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Three times for week. OK.",
+              "correcta": false,
+              "porque": "Calco de «por semana»: se dice [[a week]]."
+            },
+            {
+              "texto": "OK, thanks, doctor. Good night!",
+              "correcta": false,
+              "porque": "La consulta es de mañana; [[Good night]] solo se usa de noche."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Three times a week OK thank you doctor",
+              "OK thank you doctor",
+              "Thank you doctor",
+              "Thanks doctor",
+              "OK thank you",
+              "Three times a week OK thanks",
+              "Three times a week thank you",
+              "OK three times a week thank you",
+              "OK thanks doctor",
+              "Thank you"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Dra. Chen",
+          "fin": true,
+          "en": "You're welcome. See you in a month!",
+          "es": "De nada. ¡Nos vemos en un mes!",
+          "resumen": "Practicaste el presente simple para hablar de hábitos: la posición del adverbio de frecuencia (**I usually get up**, no «I get up usually»), las respuestas cortas con **do** (**Yes, I do**), **How often…?** con **four times a day / once a month** (no «for day»), **like + -ing** y la ausencia de -s con **I**."
+        }
+      ]
+    },
+    {
+      "slug": "que-estas-haciendo",
+      "titulo": "Una llamada: «¿Qué estás haciendo?»",
+      "nivel": "A1",
+      "unidad": "presente-continuo",
+      "contexto": "Es viernes en la tarde y estás en tu casa. Suena tu celular: es un amigo que quiere saber qué haces y te invita a salir esta noche.",
+      "personaje": "Ben, tu amigo",
+      "tu_papel": "Eres Daniel. Ahora mismo estás cocinando pasta para la cena. Tu hermana Sara está viendo la tele. Afuera está lloviendo. Decide tú si esta noche estás libre o no; si no lo estás, es porque tienes que estudiar inglés para un examen.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Ben",
+          "en": "Hi, Daniel! It's Ben. What are you doing?",
+          "es": "¡Hola, Daniel! Soy Ben. ¿Qué estás haciendo?",
+          "significa": "Se identifica y pregunta qué haces EN ESTE MOMENTO.",
+          "estructura": "Al teléfono uno se identifica con [[It's]] + nombre (no «I'm Ben»). [[What are you doing?]]: [[What]] + [[are]] + sujeto + verbo en -ing = presente continuo, algo en progreso ahora.",
+          "respuestas": [
+            {
+              "texto": "Hi, Ben! I'm cooking dinner.",
+              "correcta": true,
+              "porque": "Presente continuo completo: [[I'm]] (be) + [[cooking]] (verbo en -ing), para una acción que ocurre ahora.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "I'm making pasta.",
+              "correcta": true,
+              "porque": "[[make]] pierde la -e al añadir -ing: [[making]].",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "I cook dinner.",
+              "correcta": false,
+              "porque": "El presente simple habla de hábitos («suelo cocinar la cena»). Para lo que pasa ahora mismo se usa [[I'm cooking]]."
+            },
+            {
+              "texto": "I cooking dinner.",
+              "correcta": false,
+              "porque": "Falta el verbo be. El presente continuo siempre tiene dos piezas: [[am]] + [[cooking]] → [[I'm cooking]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Hi Ben I'm cooking dinner",
+              "I'm cooking dinner",
+              "I'm cooking",
+              "I'm making dinner",
+              "I'm making pasta",
+              "I'm cooking pasta",
+              "Hi Ben I'm cooking pasta",
+              "Hi Ben I'm making pasta",
+              "Hi Ben I'm making dinner",
+              "Hi Ben I'm cooking",
+              "I'm cooking some pasta",
+              "I'm making some pasta",
+              "I'm cooking pasta for dinner",
+              "I'm making pasta for dinner"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Ben",
+          "en": "Oh, nice! Is Sara with you? Is she helping you?",
+          "es": "¡Qué bien! ¿Está Sara contigo? ¿Te está ayudando?",
+          "significa": "Pregunta si tu hermana está contigo y si te ayuda. No te está ayudando: está viendo la tele.",
+          "estructura": "Pregunta en continuo: [[Is]] + [[she]] + [[helping]]? Respuesta corta con be: [[No, she isn't]]. Luego lo que SÍ hace: [[She's watching TV]].",
+          "respuestas": [
+            {
+              "texto": "No, she isn't. She's watching TV.",
+              "correcta": true,
+              "porque": "Respuesta corta con be ([[isn't]]) y la acción real en continuo.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "No, she doesn't. She's watching TV.",
+              "correcta": false,
+              "porque": "La pregunta usa [[is]], así que la respuesta corta es [[No, she isn't]]. [[doesn't]] corresponde a preguntas con [[does]]."
+            },
+            {
+              "texto": "No, she isn't. She watching TV.",
+              "correcta": false,
+              "porque": "Falta [[is]]: [[She's watching TV]]. Sin be, [[watching]] no forma un verbo completo."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No she isn't She's watching TV",
+              "No she isn't",
+              "No she's watching TV",
+              "No she isn't She's watching television",
+              "No She's watching television",
+              "No she's not She's watching TV",
+              "No she's not",
+              "She's watching TV",
+              "No she isn't helping me She's watching TV",
+              "No she's not helping me She's watching TV",
+              "Yes she's here but she isn't helping me She's watching TV",
+              "She's here but she's watching TV"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Ben",
+          "en": "Ha ha, typical! Listen, are you busy tonight? Priya and I are going to the movies.",
+          "es": "¡Ja, ja, típico! Oye, ¿estás ocupado esta noche? Priya y yo vamos a ir al cine.",
+          "significa": "Te pregunta si estás ocupado esta noche porque va al cine con Priya. Contesta que estás libre o que no puedes: cada respuesta abre una conversación distinta.",
+          "estructura": "[[are you busy?]] es una pregunta con be: se responde [[Yes, I am]] / [[No, I'm not]]. [[are going]]: el continuo también sirve para planes ya decididos.",
+          "respuestas": [
+            {
+              "texto": "No, I'm not. What movie are you watching?",
+              "correcta": true,
+              "porque": "Respuesta corta negativa y una pregunta en continuo con el orden correcto: [[What]] + [[are]] + [[you]] + [[watching]].",
+              "siguiente": "n4a"
+            },
+            {
+              "texto": "Yes, I am. Sorry, I'm studying for an exam tonight.",
+              "correcta": true,
+              "porque": "Respuesta corta sin contraer y una excusa en continuo (plan para esta noche).",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "No, I'm not. What movie you are watching?",
+              "correcta": false,
+              "porque": "En la pregunta el auxiliar [[are]] va antes del sujeto: [[What movie are you watching?]]"
+            },
+            {
+              "texto": "Yes, I'm. I'm studying tonight.",
+              "correcta": false,
+              "porque": "La respuesta corta afirmativa no se contrae: [[Yes, I am]]."
+            }
+          ]
+        },
+        {
+          "id": "n4a",
+          "quien": "Ben",
+          "en": "It's a comedy. It starts at nine. Are you coming?",
+          "es": "Es una comedia. Empieza a las nueve. ¿Vienes?",
+          "significa": "Te dice qué película es, a qué hora empieza y te pregunta si vas con ellos.",
+          "estructura": "[[It starts at nine]]: presente simple para horarios fijos. [[Are you coming?]]: continuo para un plan de esta noche. Respuesta: [[Yes, I am]] o [[Yes, I'm coming]].",
+          "respuestas": [
+            {
+              "texto": "Yes, I am! See you at nine.",
+              "correcta": true,
+              "porque": "Respuesta corta con be (la pregunta es con [[are]]) y [[at]] con la hora.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Yes, I come!",
+              "correcta": false,
+              "porque": "Calco de «sí, voy». La pregunta está en continuo, así que se responde [[Yes, I am]] o [[Yes, I'm coming]]."
+            },
+            {
+              "texto": "Yes, I'm come!",
+              "correcta": false,
+              "porque": "Después de [[I'm]] el verbo necesita -ing: [[I'm coming]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes I am See you at nine",
+              "Yes I am",
+              "Yes I'm coming",
+              "Yes",
+              "Sure",
+              "Yes see you at nine",
+              "Sure see you at nine",
+              "Yes I'm coming See you at nine",
+              "Of course",
+              "Of course I'm coming",
+              "Yes I'm coming see you there",
+              "Yes see you there"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n4b",
+          "quien": "Ben",
+          "en": "Oh, OK. What are you studying?",
+          "es": "Ah, bueno. ¿Qué estás estudiando?",
+          "significa": "Quiere saber qué materia estás estudiando estos días. Tú estudias inglés.",
+          "estructura": "[[study]] + -ing = [[studying]]: la -y se conserva (no se cambia a i delante de -ing).",
+          "respuestas": [
+            {
+              "texto": "I'm studying English!",
+              "correcta": true,
+              "porque": "Continuo correcto: [[I'm]] + [[studying]], con la -y intacta.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "I'm studing English!",
+              "correcta": false,
+              "porque": "Error de ortografía: la -y de [[study]] se conserva delante de -ing: [[studying]]."
+            },
+            {
+              "texto": "I study English now.",
+              "correcta": false,
+              "porque": "Para algo en progreso en este periodo se usa el continuo: [[I'm studying English]]. [[I study]] describe un hábito general."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I'm studying English",
+              "English",
+              "I'm studying for my English exam",
+              "For my English exam",
+              "I'm studying for an English exam",
+              "I'm studying English for an exam",
+              "For an English exam",
+              "I'm studying English right now"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Ben",
+          "en": "Cool. By the way, is it raining there? It's raining a lot here.",
+          "es": "Genial. Por cierto, ¿está lloviendo allá? Aquí está lloviendo mucho.",
+          "significa": "Pregunta si llueve donde estás. Sí, está lloviendo.",
+          "estructura": "Para el clima el sujeto es [[it]], aunque en español no exista: [[It's raining]] = «está lloviendo». [[rain]] + -ing = [[raining]] (una sola n).",
+          "respuestas": [
+            {
+              "texto": "Yes, it's raining here too.",
+              "correcta": true,
+              "porque": "Sujeto [[it]] + [[is]] + [[raining]], y [[too]] = «también».",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Yes, is raining.",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]. Con el clima el inglés usa un [[it]] vacío: [[It's raining]]."
+            },
+            {
+              "texto": "Yes, it's rainning.",
+              "correcta": false,
+              "porque": "[[rain]] termina en dos vocales + consonante, así que NO se duplica la n: [[raining]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it's raining here too",
+              "Yes it's raining",
+              "Yes it is",
+              "Yes it's raining a lot",
+              "Yes it is raining",
+              "Yes it's raining here",
+              "Yes it's raining right now",
+              "Yes it's raining a lot here too",
+              "Yes it is It's raining a lot"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Ben",
+          "en": "OK, I'm leaving now. Talk to you later!",
+          "es": "Bueno, ya me voy. ¡Hablamos luego!",
+          "significa": "Termina la llamada. Despídete de forma informal.",
+          "estructura": "[[Talk to you later]] es una despedida fija para llamadas y mensajes («hablamos luego»). [[See you later]] también sirve.",
+          "respuestas": [
+            {
+              "texto": "Bye, Ben! Talk to you later.",
+              "correcta": true,
+              "porque": "Devuelves la despedida con la misma fórmula.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Bye! See you after.",
+              "correcta": false,
+              "porque": "Calco de «nos vemos después». La expresión fija es [[See you later]]."
+            },
+            {
+              "texto": "Bye! I'm talking to you later.",
+              "correcta": false,
+              "porque": "No se cambia la fórmula fija. [[Talk to you later]] no lleva sujeto ni continuo."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Bye Ben Talk to you later",
+              "Bye Talk to you later",
+              "Talk to you later",
+              "Talk to you later Ben",
+              "Bye Ben",
+              "Bye",
+              "See you later",
+              "Bye see you later",
+              "Bye Ben see you later",
+              "OK bye",
+              "OK bye Ben"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Ben",
+          "fin": true,
+          "en": "Bye, Daniel!",
+          "es": "¡Adiós, Daniel!",
+          "resumen": "Practicaste el presente continuo en una llamada: **be + verbo en -ing** sin olvidar el be (**I'm cooking**, no «I cooking»), la diferencia con el presente simple, respuestas cortas con be (**No, she isn't**), el orden de la pregunta (**What are you watching?**), la ortografía (**making, studying, raining**) y el **it** del clima."
+        }
+      ]
+    },
+    {
+      "slug": "pedir-en-un-restaurante",
+      "titulo": "Pedir en un restaurante",
+      "nivel": "A2",
+      "unidad": "compras-y-comida",
+      "contexto": "Vas a cenar con una amiga a un restaurante. Tú hablas con el mesero: pides mesa, bebida y comida, comentas la comida y pides la cuenta.",
+      "personaje": "Leo, el mesero",
+      "tu_papel": "Eres Julia. Vienes con una amiga (son dos). Quieres una limonada y, de comer, la pasta. La cuenta será de 42.50 dólares y pagarás con tarjeta.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Leo",
+          "en": "Good evening! A table for how many?",
+          "es": "¡Buenas noches! ¿Mesa para cuántos?",
+          "significa": "Pregunta para cuántas personas es la mesa.",
+          "estructura": "[[A table for]] + número. El plural normal de [[person]] es [[people]]; [[persons]] solo aparece en textos muy formales o legales.",
+          "respuestas": [
+            {
+              "texto": "A table for two, please.",
+              "correcta": true,
+              "porque": "Repites la estructura del mesero con el número y [[please]].",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "For two, please.",
+              "correcta": true,
+              "porque": "Respuesta corta y natural.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "For two persons, please.",
+              "correcta": false,
+              "porque": "En la conversación el plural de [[person]] es [[people]]: [[for two people]], o solo [[for two]]."
+            },
+            {
+              "texto": "We are two.",
+              "correcta": false,
+              "porque": "Calco de «somos dos». Se dice [[A table for two]] o [[There are two of us]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "A table for two please",
+              "For two please",
+              "Two please",
+              "A table for two",
+              "For two",
+              "Two people",
+              "For two people please",
+              "Table for two please",
+              "Two",
+              "A table for two people please",
+              "There are two of us",
+              "For two people",
+              "A table for two people"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Leo",
+          "en": "Here you are. What would you like to drink?",
+          "es": "Aquí tienen. ¿Qué les gustaría tomar?",
+          "significa": "Pregunta qué quieres beber.",
+          "estructura": "[[What would you like…?]] es la forma cortés de «¿qué quieres?». Se contesta con [[I'd like]] (= [[I would like]]) o [[Can I have…?]]",
+          "respuestas": [
+            {
+              "texto": "I'd like a lemonade, please.",
+              "correcta": true,
+              "porque": "[[I'd like]] es la forma cortés para pedir; [[please]] al final.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "Can I have a lemonade, please?",
+              "correcta": true,
+              "porque": "[[Can I have…?]] es otra forma natural de pedir en un restaurante.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "I like a lemonade, please.",
+              "correcta": false,
+              "porque": "[[I like]] = «me gusta» (en general). Para pedir se usa [[I'd like]] = «me gustaría, quisiera»."
+            },
+            {
+              "texto": "I want a lemonade.",
+              "correcta": false,
+              "porque": "Gramaticalmente es correcto, pero con un mesero suena brusco, como una orden. Lo cortés es [[I'd like…, please]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I'd like a lemonade please",
+              "I'd like a lemonade",
+              "I'd like lemonade please",
+              "Can I have a lemonade please",
+              "Could I have a lemonade please",
+              "Can I have a lemonade",
+              "Could I have a lemonade",
+              "A lemonade please",
+              "Lemonade please",
+              "Can I get a lemonade please",
+              "I'll have a lemonade please"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Leo",
+          "en": "Sure. Are you ready to order?",
+          "es": "Claro. ¿Ya quieren ordenar?",
+          "significa": "Pregunta si ya sabes qué vas a comer. Puedes pedir ya o preguntar primero si hay sopa.",
+          "estructura": "Con platos del menú se usa [[the]] ([[the pasta]]): es un plato concreto de la carta. [[pasta]] es incontable: nunca «a pasta». Para preguntar si hay algo incontable: [[Is there any…?]]",
+          "respuestas": [
+            {
+              "texto": "Yes. I'd like the pasta, please.",
+              "correcta": true,
+              "porque": "[[the pasta]] = el plato de pasta de la carta.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Not yet. Is there any soup today?",
+              "correcta": true,
+              "porque": "[[soup]] es incontable; en preguntas se usa [[any]] con [[is there]].",
+              "siguiente": "n3b"
+            },
+            {
+              "texto": "Yes. I'd like a pasta, please.",
+              "correcta": false,
+              "porque": "[[pasta]] es incontable: no lleva [[a]]. Para el plato de la carta se dice [[the pasta]]."
+            },
+            {
+              "texto": "Not yet. There is any soup today?",
+              "correcta": false,
+              "porque": "Sin inversión no es pregunta: [[Is there any soup?]] Además [[any]] no se usa en afirmativo con este sentido."
+            }
+          ]
+        },
+        {
+          "id": "n3b",
+          "quien": "Leo",
+          "en": "Yes, there's some tomato soup. It's very good.",
+          "es": "Sí, hay sopa de tomate. Está muy buena.",
+          "significa": "Hay sopa de tomate y te la recomienda. Pide la sopa y la pasta.",
+          "estructura": "[[tomato soup]]: el sustantivo que describe va ANTES ([[tomato]]) y el principal al final ([[soup]]). No hace falta «of».",
+          "respuestas": [
+            {
+              "texto": "Great. I'd like the soup and the pasta, please.",
+              "correcta": true,
+              "porque": "Pides los dos platos con [[I'd like]] y [[the]].",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Great. Can I have the tomato soup, and then the pasta?",
+              "correcta": true,
+              "porque": "[[Can I have…?]] y [[and then]] para indicar el orden de los platos.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Great. I'd like a soup of tomato.",
+              "correcta": false,
+              "porque": "Calco de «sopa de tomate». En inglés: [[tomato soup]], con el sustantivo descriptivo delante."
+            },
+            {
+              "texto": "Great. I'd like some soups.",
+              "correcta": false,
+              "porque": "[[soup]] es incontable aquí: no lleva -s. Se dice [[some soup]] o [[the soup]]."
+            }
+          ]
+        },
+        {
+          "id": "n4",
+          "quien": "Leo",
+          "en": "Good choice. Would you like some bread with that?",
+          "es": "Buena elección. ¿Quieren pan para acompañar?",
+          "significa": "Te ofrece pan. Puedes aceptar o rechazar con cortesía.",
+          "estructura": "[[Would you like…?]] es un ofrecimiento; se contesta [[Yes, please]] o [[No, thank you]] (no «Yes, I like»). [[bread]] es incontable: [[some bread]], nunca «a bread» ni «breads».",
+          "respuestas": [
+            {
+              "texto": "Yes, please.",
+              "correcta": true,
+              "porque": "Es la respuesta estándar para aceptar un ofrecimiento.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "No, thank you.",
+              "correcta": true,
+              "porque": "Rechazo cortés.",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Yes, a bread, please.",
+              "correcta": false,
+              "porque": "[[bread]] es incontable: no lleva [[a]]. Se dice [[some bread]] o [[a piece of bread]]."
+            },
+            {
+              "texto": "Yes, I like.",
+              "correcta": false,
+              "porque": "[[Would you like…?]] no pregunta si te gusta el pan en general. Se responde [[Yes, please]]. Además [[like]] necesitaría objeto ([[I like it]])."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes please",
+              "No thank you",
+              "No thanks",
+              "Yes thank you",
+              "Yes please some bread",
+              "Yes some bread please",
+              "Sure",
+              "Sure thanks",
+              "Yes I'd like some bread please",
+              "Yes I would",
+              "No thanks we're fine"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Leo",
+          "en": "How is everything?",
+          "es": "¿Qué tal está todo?",
+          "significa": "Durante la comida, el mesero pregunta si todo está bien.",
+          "estructura": "[[everything]] es singular aunque signifique «todo»: [[Everything is…]]. Para opinar: [[It's]] + adjetivo.",
+          "respuestas": [
+            {
+              "texto": "It's delicious, thank you!",
+              "correcta": true,
+              "porque": "Sujeto [[it]] + [[is]] + adjetivo, y agradeces.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Is delicious, thanks.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[It's delicious]]."
+            },
+            {
+              "texto": "Everything are delicious.",
+              "correcta": false,
+              "porque": "[[everything]] va con verbo en singular: [[Everything is delicious]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "It's delicious thank you",
+              "It's delicious",
+              "It's delicious thanks",
+              "Everything is delicious",
+              "Everything is great thanks",
+              "Everything is great thank you",
+              "Everything is delicious thank you",
+              "It's very good thank you",
+              "It's great",
+              "It's great thanks",
+              "Very good thank you",
+              "Delicious thank you",
+              "Great thanks",
+              "It's very good"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Leo",
+          "en": "Can I get you anything else? Dessert? Coffee?",
+          "es": "¿Les traigo algo más? ¿Postre? ¿Café?",
+          "significa": "Te ofrece postre o café. Ya terminaste: pide la cuenta.",
+          "estructura": "Para pedir la cuenta: [[Could we have the check, please?]] ([[the check]] en EE. UU.; en el Reino Unido, [[the bill]]). [[Could]] suena más cortés que [[Can]].",
+          "respuestas": [
+            {
+              "texto": "No, thanks. Could we have the check, please?",
+              "correcta": true,
+              "porque": "Rechazas y pides la cuenta con [[Could we have…?]], la forma cortés.",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "No, thanks. Give me the check.",
+              "correcta": false,
+              "porque": "Una orden directa ([[Give me]]) suena brusca con el mesero. Mejor [[Could we have the check, please?]]"
+            },
+            {
+              "texto": "No, thanks. Can you bring me the account?",
+              "correcta": false,
+              "porque": "Calco de «la cuenta». [[account]] es una cuenta de banco o de usuario. En un restaurante es [[the check]] (EE. UU.) o [[the bill]] (Reino Unido)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "No thanks Could we have the check please",
+              "No thank you Could we have the check please",
+              "Could we have the check please",
+              "Can we have the check please",
+              "Could I have the check please",
+              "Can I have the check please",
+              "Could we have the bill please",
+              "Can we have the bill please",
+              "Could I have the bill please",
+              "Can I have the bill please",
+              "The check please",
+              "The bill please",
+              "No thanks The check please",
+              "No thanks Can we have the check please",
+              "No thanks Could we have the bill please",
+              "No thank you just the check please"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Leo",
+          "en": "Of course. That's forty-two fifty. How would you like to pay?",
+          "es": "Claro. Son cuarenta y dos cincuenta. ¿Cómo quieren pagar?",
+          "significa": "Te dice el total (42.50 dólares) y pregunta la forma de pago.",
+          "estructura": "Los precios se dicen a menudo sin «dollars» ni «cents»: [[forty-two fifty]] = $42.50. Forma de pago: [[by card]] / [[in cash]].",
+          "respuestas": [
+            {
+              "texto": "By card, please.",
+              "correcta": true,
+              "porque": "[[by card]] es la preposición correcta.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Can I pay by card?",
+              "correcta": true,
+              "porque": "Preguntas si aceptan tarjeta con [[Can I…?]] (pedir permiso).",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "With card, please.",
+              "correcta": false,
+              "porque": "Calco de «con tarjeta». Sin artículo, «with card» no funciona: se dice [[by card]] (o [[with a card]])."
+            },
+            {
+              "texto": "Forty-two fifteen? By card.",
+              "correcta": false,
+              "porque": "Leo dijo [[fifty]] (50, acento al principio), no [[fifteen]] (15, acento al final)."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "By card please",
+              "By card",
+              "Card please",
+              "Can I pay by card",
+              "Could I pay by card",
+              "Can I pay by card please",
+              "Could I pay by card please",
+              "I'd like to pay by card",
+              "By credit card please",
+              "Card"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Leo",
+          "fin": true,
+          "en": "Here you are. Thank you, and have a nice evening!",
+          "es": "Aquí tiene. ¡Gracias y que pasen buena noche!",
+          "resumen": "Practicaste cómo pedir con cortesía: **I'd like** (no «I like» ni «I want»), **Can / Could I have…?**, **Yes, please** ante **Would you like…?**, incontables sin **a** ni -s (**some bread, the pasta, soup**), **tomato soup** (no «soup of tomato»), **everything is**, **the check / the bill** (no «account») y **by card**."
+        }
+      ]
+    },
+    {
+      "slug": "permisos-y-favores-en-el-trabajo",
+      "titulo": "Pedir permiso y favores en el trabajo",
+      "nivel": "A2",
+      "unidad": "could",
+      "contexto": "Es martes en la oficina. Necesitas salir temprano el viernes y hay un informe pendiente. Hablas con tu jefa y con un compañero, y al final tu jefa te pide un favor a ti.",
+      "personaje": "Grace, tu jefa, y Omar, tu compañero",
+      "tu_papel": "Eres Pablo. El viernes tienes cita con el dentista a las 4:00 y quieres salir a las 3:30. Tienes que terminar el informe de ventas (sales report).",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Grace",
+          "en": "Hi, Pablo. Do you need something?",
+          "es": "Hola, Pablo. ¿Necesitas algo?",
+          "significa": "Tu jefa te pregunta si necesitas algo. Pide permiso para salir temprano el viernes.",
+          "estructura": "Permiso cortés: [[Could I]] + verbo base…? (más formal que [[Can I…?]]). Después de [[could]] el verbo va sin [[to]] y sin -s.",
+          "respuestas": [
+            {
+              "texto": "Yes. Could I leave early on Friday, please?",
+              "correcta": true,
+              "porque": "[[Could I]] + [[leave]] (forma base) es la manera cortés de pedir permiso a una jefa.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Yes. Can I leave early on Friday?",
+              "correcta": true,
+              "porque": "[[Can I…?]] también es correcto; es un poco menos formal que [[could]].",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "Yes. Could I to leave early on Friday?",
+              "correcta": false,
+              "porque": "Después de [[could]] el verbo va en forma base, sin [[to]]: [[Could I leave…?]]"
+            },
+            {
+              "texto": "Yes. I could leave early on Friday?",
+              "correcta": false,
+              "porque": "Sin inversión suena a afirmación («podría salir temprano»). La petición es [[Could I leave…?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes Could I leave early on Friday please",
+              "Could I leave early on Friday please",
+              "Could I leave early on Friday",
+              "Can I leave early on Friday",
+              "Can I leave early on Friday please",
+              "Yes Can I leave early on Friday",
+              "Yes could I leave early on Friday",
+              "Yes can I leave early on Friday please",
+              "Could I leave early this Friday please",
+              "Could I leave early this Friday",
+              "Can I leave early this Friday"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Grace",
+          "en": "On Friday? What time do you need to leave?",
+          "es": "¿El viernes? ¿A qué hora necesitas salir?",
+          "significa": "Pregunta a qué hora quieres salir.",
+          "estructura": "Hora con [[at]] y sin artículo: [[at three thirty]] (no «at the three thirty»). [[if possible]] = «si es posible».",
+          "respuestas": [
+            {
+              "texto": "At three thirty, if possible.",
+              "correcta": true,
+              "porque": "[[at]] + hora, y [[if possible]] suaviza la petición.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "In three thirty.",
+              "correcta": false,
+              "porque": "Con horas se usa [[at]]: [[at three thirty]]."
+            },
+            {
+              "texto": "At the three thirty.",
+              "correcta": false,
+              "porque": "Calco de «a las tres y media». La hora no lleva [[the]]: [[at three thirty]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "At three thirty if possible",
+              "At three thirty",
+              "At half past three",
+              "At half past three if possible",
+              "Three thirty",
+              "At 3:30",
+              "At 3:30 if possible",
+              "At three thirty please",
+              "At three thirty I have a dentist appointment at four",
+              "At three thirty My dentist appointment is at four"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Grace",
+          "en": "OK, no problem. But could you finish the sales report before you leave?",
+          "es": "Está bien, no hay problema. Pero ¿podrías terminar el informe de ventas antes de irte?",
+          "significa": "Te da permiso y te pide que termines el informe antes. Puedes comprometerte o pedir ayuda a Omar: cada opción sigue un camino distinto.",
+          "estructura": "[[Could you]] + verbo base…? es una petición cortés. Para prometer que lo harás: [[I can]] + verbo base. Los días van con [[on]] y sin artículo.",
+          "respuestas": [
+            {
+              "texto": "Yes, of course. I can finish it on Thursday.",
+              "correcta": true,
+              "porque": "[[can]] + forma base ([[finish]]) y [[on Thursday]] sin artículo.",
+              "siguiente": "n4a"
+            },
+            {
+              "texto": "It's a big report. Could Omar help me with it?",
+              "correcta": true,
+              "porque": "[[Could]] + sujeto + verbo base para preguntar si otra persona podría ayudar.",
+              "siguiente": "n4b"
+            },
+            {
+              "texto": "Yes, of course. I can finishing it on Thursday.",
+              "correcta": false,
+              "porque": "Después de [[can]] el verbo va en forma base, sin -ing: [[I can finish]]."
+            },
+            {
+              "texto": "Yes, of course. I finish it the Thursday.",
+              "correcta": false,
+              "porque": "Los días van con [[on]] y sin artículo: [[on Thursday]]. Además, para prometer, lo natural es [[I can finish it]]."
+            }
+          ]
+        },
+        {
+          "id": "n4a",
+          "quien": "Grace",
+          "en": "Perfect. Oh, and could you print these documents for the meeting? Ten copies.",
+          "es": "Perfecto. Ah, y ¿podrías imprimir estos documentos para la reunión? Diez copias.",
+          "significa": "Te pide un favor: imprimir diez copias. Acepta.",
+          "estructura": "A [[Could you…?]] se responde [[Sure]], [[Of course]] o [[No problem]]. NO se responde «Yes, I could»: sonaría a «sí, sería capaz» sin comprometerte.",
+          "respuestas": [
+            {
+              "texto": "Sure. Ten copies, no problem.",
+              "correcta": true,
+              "porque": "Aceptas con [[Sure]] y repites el dato para confirmarlo.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Yes, I could.",
+              "correcta": false,
+              "porque": "[[Could you…?]] es una petición, no una pregunta sobre tu capacidad. Se acepta con [[Sure]], [[Of course]] o [[No problem]]."
+            },
+            {
+              "texto": "Sure. Ten copies, not problem.",
+              "correcta": false,
+              "porque": "La expresión fija es [[no problem]], no «not problem»."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Sure Ten copies no problem",
+              "Sure",
+              "Of course",
+              "No problem",
+              "Sure no problem",
+              "Of course no problem",
+              "Sure ten copies",
+              "Of course ten copies",
+              "Yes of course",
+              "Sure I can do that",
+              "Yes sure"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n4b",
+          "quien": "Grace",
+          "en": "Good idea. Ask him. He's at his desk.",
+          "es": "Buena idea. Pregúntale. Está en su escritorio.",
+          "significa": "Tu jefa está de acuerdo. Ahora vas con Omar y le pides ayuda con el informe.",
+          "estructura": "Petición a un compañero: [[Could you]] + verbo base + [[me]] + [[with]] + tarea? Una orden directa ([[Help me]]) suena brusca incluso entre compañeros.",
+          "respuestas": [
+            {
+              "texto": "Omar, could you help me with the sales report, please?",
+              "correcta": true,
+              "porque": "[[Could you]] + [[help]] (forma base) + [[with]] + la tarea, y [[please]].",
+              "siguiente": "n5"
+            },
+            {
+              "texto": "Omar, could you helping me with the sales report?",
+              "correcta": false,
+              "porque": "Después de [[could]] va la forma base: [[help]], no [[helping]]."
+            },
+            {
+              "texto": "Omar, you could help me with the sales report?",
+              "correcta": false,
+              "porque": "Falta la inversión: [[Could you help me…?]] En inglés la entonación sola no convierte la oración en una petición cortés."
+            },
+            {
+              "texto": "Omar, help me with the report.",
+              "correcta": false,
+              "porque": "Es una orden directa y suena brusca. Para pedir un favor: [[Could you help me…, please?]]"
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Omar could you help me with the sales report please",
+              "Could you help me with the sales report please",
+              "Could you help me with the sales report",
+              "Could you help me with the report please",
+              "Could you help me with the report",
+              "Omar could you help me with the report please",
+              "Omar can you help me with the sales report please",
+              "Can you help me with the sales report please",
+              "Can you help me with the report please",
+              "Omar could you help me with the sales report",
+              "Omar can you help me with the report"
+            ],
+            "siguiente": "n5"
+          }
+        },
+        {
+          "id": "n5",
+          "quien": "Omar",
+          "en": "Sure! I'm free this afternoon. Could we start at two?",
+          "es": "¡Claro! Estoy libre esta tarde. ¿Podemos empezar a las dos?",
+          "significa": "Omar acepta y propone empezar a las dos. Puedes aceptar o proponer otra hora.",
+          "estructura": "[[Could we…?]] aquí es una sugerencia. Se acepta con [[That's perfect]] o se propone otra con [[Could we]] + verbo base…?",
+          "respuestas": [
+            {
+              "texto": "Yes, that's perfect. Thanks, Omar!",
+              "correcta": true,
+              "porque": "Aceptas la sugerencia y agradeces.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Could we start at three? I'm in a meeting at two.",
+              "correcta": true,
+              "porque": "Propones otra hora con [[Could we…?]] y das la razón con be: [[I'm in a meeting]] («tengo una reunión»).",
+              "siguiente": "n5b"
+            },
+            {
+              "texto": "Yes, at the two is perfect.",
+              "correcta": false,
+              "porque": "La hora no lleva artículo: [[at two]]. Mejor aún: [[Yes, that's perfect]]."
+            },
+            {
+              "texto": "Yes, we could. Thanks!",
+              "correcta": false,
+              "porque": "Ante una sugerencia con [[Could we…?]] no se contesta «Yes, we could» (suena a «sí, sería posible» sin aceptar). Se dice [[Sure]] o [[That's perfect]]."
+            }
+          ]
+        },
+        {
+          "id": "n5b",
+          "quien": "Omar",
+          "en": "Three? Sure, no problem. See you at three.",
+          "es": "¿A las tres? Claro, no hay problema. Nos vemos a las tres.",
+          "significa": "Omar acepta tu nueva hora. Agradece y confirma.",
+          "estructura": "[[See you at]] + hora: [[at]] con la hora exacta.",
+          "respuestas": [
+            {
+              "texto": "Great, see you at three. Thanks a lot!",
+              "correcta": true,
+              "porque": "Confirmas con [[at three]] y agradeces.",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Great, see you in three. Thanks a lot!",
+              "correcta": false,
+              "porque": "[[in three]] significaría «dentro de tres (minutos/días)». Para la hora es [[at three]]."
+            },
+            {
+              "texto": "Great. You're welcome!",
+              "correcta": false,
+              "porque": "Omar te hace el favor a ti: tú dices [[Thanks]]; [[You're welcome]] responde a un «gracias»."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Great see you at three Thanks a lot",
+              "Great see you at three",
+              "See you at three",
+              "See you at three thanks",
+              "See you at three Thanks a lot",
+              "Thanks a lot see you at three",
+              "Thanks see you at three",
+              "Thank you see you at three",
+              "Great thanks",
+              "Thanks a lot",
+              "Thank you Omar",
+              "Thanks Omar see you at three"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Grace",
+          "en": "Pablo, could you open the window, please? It's really hot in here.",
+          "es": "Pablo, ¿podrías abrir la ventana, por favor? Hace mucho calor aquí.",
+          "significa": "Tu jefa te pide un pequeño favor. Acepta de forma natural.",
+          "estructura": "Otra petición con [[Could you…?]]. Las respuestas naturales son [[Sure]], [[Of course]], [[No problem]].",
+          "respuestas": [
+            {
+              "texto": "Sure, no problem.",
+              "correcta": true,
+              "porque": "Aceptas de forma natural y amable.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Of course.",
+              "correcta": true,
+              "porque": "Otra aceptación correcta y educada.",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Yes, I could.",
+              "correcta": false,
+              "porque": "Suena a «sí, sería capaz», no a «claro, lo hago». Ante una petición: [[Sure]] / [[Of course]]."
+            },
+            {
+              "texto": "Yes, I can to open it.",
+              "correcta": false,
+              "porque": "[[can]] no lleva [[to]] detrás: [[I can open it]]. Y lo natural aquí es [[Sure]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Sure no problem",
+              "Sure",
+              "Of course",
+              "No problem",
+              "Of course no problem",
+              "Sure Grace",
+              "Of course Grace",
+              "Yes of course",
+              "Sure of course"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Grace",
+          "fin": true,
+          "en": "Thanks, Pablo. And good luck at the dentist on Friday!",
+          "es": "Gracias, Pablo. ¡Y suerte con el dentista el viernes!",
+          "resumen": "Practicaste **could** y **can** para pedir permiso (**Could I leave…?**), hacer peticiones (**Could you help me…?**) y sugerir (**Could we start at three?**), siempre con el verbo en forma base (sin to, sin -ing). Y aprendiste a responder: **Sure / Of course / No problem**, nunca «Yes, I could»."
+        }
+      ]
+    },
+    {
+      "slug": "mis-vacaciones",
+      "titulo": "Contar qué hiciste en tus vacaciones",
+      "nivel": "A2",
+      "unidad": "pasado-simple-irregular",
+      "contexto": "Es lunes y vuelves al trabajo después de una semana de vacaciones. Una compañera te pregunta por tu viaje.",
+      "personaje": "Priya, compañera de trabajo",
+      "tu_papel": "Eres Carmen. Fuiste una semana a Oaxaca con tu familia, en autobús (ocho horas de viaje). Visitaron unas ruinas y un mercado grande, donde compraste una bolsa para tu mamá, y comieron mole y tlayudas. Solo llovió el último día. Te encantó el viaje.",
+      "inicio": "n1",
+      "nodos": [
+        {
+          "id": "n1",
+          "quien": "Priya",
+          "en": "Hi, Carmen! Welcome back! Where did you go on vacation?",
+          "es": "¡Hola, Carmen! ¡Bienvenida de vuelta! ¿A dónde fuiste de vacaciones?",
+          "significa": "Pregunta a qué lugar fuiste de vacaciones.",
+          "estructura": "[[Where did you go?]]: en la pregunta el pasado lo lleva [[did]] y el verbo queda en forma base ([[go]]). En la respuesta afirmativa se usa el pasado irregular: [[went]].",
+          "respuestas": [
+            {
+              "texto": "I went to Oaxaca with my family.",
+              "correcta": true,
+              "porque": "[[went]] es el pasado irregular de [[go]]; [[to]] indica el destino.",
+              "siguiente": "n2"
+            },
+            {
+              "texto": "I goed to Oaxaca.",
+              "correcta": false,
+              "porque": "[[go]] es irregular: su pasado es [[went]], no «goed»."
+            },
+            {
+              "texto": "I go to Oaxaca with my family.",
+              "correcta": false,
+              "porque": "[[go]] está en presente. El viaje ya terminó: [[I went]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "I went to Oaxaca with my family",
+              "I went to Oaxaca",
+              "We went to Oaxaca",
+              "To Oaxaca",
+              "Oaxaca",
+              "My family and I went to Oaxaca",
+              "I went to Oaxaca with my family for a week",
+              "We went to Oaxaca for a week",
+              "I went to Oaxaca in Mexico",
+              "I went to Oaxaca for a week",
+              "To Oaxaca with my family",
+              "Hi Priya I went to Oaxaca with my family"
+            ],
+            "siguiente": "n2"
+          }
+        },
+        {
+          "id": "n2",
+          "quien": "Priya",
+          "en": "Oaxaca! How did you get there?",
+          "es": "¡Oaxaca! ¿Cómo llegaron?",
+          "significa": "Pregunta en qué medio de transporte viajaron.",
+          "estructura": "Transporte con [[by]] y sin artículo: [[by bus]], [[by car]], [[by plane]]. El español dice «en autobús», pero el inglés usa [[by]].",
+          "respuestas": [
+            {
+              "texto": "We went by bus.",
+              "correcta": true,
+              "porque": "[[went]] + [[by bus]], sin artículo.",
+              "siguiente": "n3"
+            },
+            {
+              "texto": "We went in bus.",
+              "correcta": false,
+              "porque": "Calco de «en autobús». Con medios de transporte se usa [[by]]: [[by bus]]."
+            },
+            {
+              "texto": "By the bus.",
+              "correcta": false,
+              "porque": "Con [[by]] el transporte va sin artículo: [[by bus]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "We went by bus",
+              "By bus",
+              "We took the bus",
+              "We took a bus",
+              "I went by bus",
+              "We traveled by bus",
+              "We travelled by bus",
+              "We got there by bus",
+              "We went there by bus"
+            ],
+            "siguiente": "n3"
+          }
+        },
+        {
+          "id": "n3",
+          "quien": "Priya",
+          "en": "Was the bus trip long?",
+          "es": "¿El viaje en autobús fue largo?",
+          "significa": "Pregunta si el viaje fue largo. Fueron ocho horas.",
+          "estructura": "[[Was]] + sujeto singular? Respuesta corta: [[Yes, it was]]. [[was]] va con I/he/she/it; [[were]] con you/we/they.",
+          "respuestas": [
+            {
+              "texto": "Yes, it was. It was about eight hours.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[was]] (sujeto [[it]]) y detalle.",
+              "siguiente": "n4"
+            },
+            {
+              "texto": "Yes, it were.",
+              "correcta": false,
+              "porque": "Con [[it]] el pasado de be es [[was]]: [[Yes, it was]]."
+            },
+            {
+              "texto": "Yes, was very long.",
+              "correcta": false,
+              "porque": "Falta el sujeto [[it]]: [[Yes, it was very long]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it was It was about eight hours",
+              "Yes it was",
+              "Yes it was eight hours",
+              "Yes it was very long",
+              "Yes about eight hours",
+              "Yes eight hours",
+              "Yes it was about eight hours",
+              "Yes it was long",
+              "Yes it was 8 hours",
+              "Yes it was long about eight hours",
+              "Yes it was about 8 hours"
+            ],
+            "siguiente": "n4"
+          }
+        },
+        {
+          "id": "n4",
+          "quien": "Priya",
+          "en": "Wow. And what did you do there?",
+          "es": "¡Vaya! ¿Y qué hicieron allá?",
+          "significa": "Pregunta qué actividades hicieron. Puedes hablar de los lugares que visitaron o de la comida: Priya reaccionará distinto.",
+          "estructura": "[[What did you do?]]: [[did]] (auxiliar) + [[do]] (verbo principal). Respuesta con pasados regulares ([[visited]]) o irregulares ([[ate]]).",
+          "respuestas": [
+            {
+              "texto": "We visited some ruins and a big market.",
+              "correcta": true,
+              "porque": "[[visited]] es regular (-ed). [[some ruins]]: plural con [[some]].",
+              "siguiente": "n5a"
+            },
+            {
+              "texto": "We ate a lot of delicious food!",
+              "correcta": true,
+              "porque": "[[ate]] es el pasado irregular de [[eat]].",
+              "siguiente": "n5b"
+            },
+            {
+              "texto": "We visit some ruins and a big market.",
+              "correcta": false,
+              "porque": "[[visit]] está en presente. Falta el -ed del pasado: [[visited]]."
+            },
+            {
+              "texto": "We eated a lot of food.",
+              "correcta": false,
+              "porque": "[[eat]] es irregular: el pasado es [[ate]], no «eated»."
+            }
+          ]
+        },
+        {
+          "id": "n5a",
+          "quien": "Priya",
+          "en": "Nice! Did you buy anything at the market?",
+          "es": "¡Qué bien! ¿Compraste algo en el mercado?",
+          "significa": "Pregunta si compraste algo en el mercado.",
+          "estructura": "[[Did you buy…?]] Respuesta corta: [[Yes, I did]] (no «Yes, I bought»). En la oración completa: [[bought]], pasado irregular de [[buy]].",
+          "respuestas": [
+            {
+              "texto": "Yes, I did. I bought a bag for my mom.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[did]] y oración completa con [[bought]].",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "Yes, I bought.",
+              "correcta": false,
+              "porque": "La respuesta corta repite el auxiliar: [[Yes, I did]]. Si usas [[bought]], necesita objeto: [[I bought a bag]]."
+            },
+            {
+              "texto": "Yes, I did. I buyed a bag for my mom.",
+              "correcta": false,
+              "porque": "[[buy]] es irregular: el pasado es [[bought]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes I did I bought a bag for my mom",
+              "Yes I did",
+              "Yes I did I bought a bag",
+              "Yes I bought a bag for my mom",
+              "Yes I bought a bag",
+              "Yes a bag for my mom",
+              "Yes I did I bought a bag for my mother",
+              "Yes I bought a bag for my mother",
+              "Yes I did a bag for my mom",
+              "I bought a bag for my mom"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n5b",
+          "quien": "Priya",
+          "en": "Yum! What did you eat?",
+          "es": "¡Qué rico! ¿Qué comieron?",
+          "significa": "Quiere saber qué platillos comieron.",
+          "estructura": "En la pregunta [[eat]] va en forma base (porque [[did]] ya marca el pasado); en la respuesta, [[ate]].",
+          "respuestas": [
+            {
+              "texto": "We ate mole and tlayudas. They were delicious.",
+              "correcta": true,
+              "porque": "[[ate]] (pasado de eat) y [[were]] con [[they]] (plural).",
+              "siguiente": "n6"
+            },
+            {
+              "texto": "We eat mole. It was delicious.",
+              "correcta": false,
+              "porque": "[[eat]] es presente. Para lo que ya pasó: [[We ate mole]]."
+            },
+            {
+              "texto": "We ate mole. Was delicious.",
+              "correcta": false,
+              "porque": "Falta el sujeto: [[It was delicious]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "We ate mole and tlayudas They were delicious",
+              "We ate mole and tlayudas",
+              "We ate mole",
+              "I ate mole",
+              "Mole and tlayudas",
+              "We ate mole It was delicious",
+              "We ate mole and tlayudas It was delicious",
+              "I ate mole and tlayudas",
+              "We ate mole and tlayudas Everything was delicious"
+            ],
+            "siguiente": "n6"
+          }
+        },
+        {
+          "id": "n6",
+          "quien": "Priya",
+          "en": "Sounds amazing! Did it rain? The weather was terrible here.",
+          "es": "¡Suena increíble! ¿Llovió? Aquí el clima estuvo horrible.",
+          "significa": "Pregunta si llovió durante tu viaje. Solo llovió el último día.",
+          "estructura": "[[Did it rain?]] → [[Yes, it did]]. Con un día concreto se usa [[on]]: [[on the last day]]. [[rain]] es regular: [[rained]] (sin doble n).",
+          "respuestas": [
+            {
+              "texto": "Yes, it did, but only on the last day.",
+              "correcta": true,
+              "porque": "Respuesta corta con [[did]] y [[on the last day]].",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "Only on the last day. The other days were sunny.",
+              "correcta": true,
+              "porque": "Das el dato directamente y usas [[were]] con el plural [[the other days]].",
+              "siguiente": "n7"
+            },
+            {
+              "texto": "Yes, it rained only in the last day.",
+              "correcta": false,
+              "porque": "Con un día se usa [[on]]: [[on the last day]]."
+            },
+            {
+              "texto": "Yes, it rainned on the last day.",
+              "correcta": false,
+              "porque": "[[rain]] no duplica la n: [[rained]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes it did but only on the last day",
+              "Only on the last day",
+              "Only on the last day The other days were sunny",
+              "Yes on the last day",
+              "Yes it rained on the last day",
+              "It rained on the last day",
+              "Yes but only on the last day",
+              "Yes it did on the last day",
+              "It only rained on the last day",
+              "Yes it rained only on the last day",
+              "Yes it only rained on the last day"
+            ],
+            "siguiente": "n7"
+          }
+        },
+        {
+          "id": "n7",
+          "quien": "Priya",
+          "en": "So, did you like it?",
+          "es": "Entonces, ¿te gustó?",
+          "significa": "Pregunta si te gustó el viaje. Te encantó.",
+          "estructura": "[[like]] y [[love]] necesitan objeto: [[I loved it]] («me encantó»). El español dice «me gustó» sin «lo», pero en inglés el [[it]] es obligatorio.",
+          "respuestas": [
+            {
+              "texto": "Yes, I loved it! It was a wonderful trip.",
+              "correcta": true,
+              "porque": "[[loved]] + objeto [[it]], y una opinión con [[It was]].",
+              "siguiente": "fin"
+            },
+            {
+              "texto": "Yes, I liked. It was wonderful.",
+              "correcta": false,
+              "porque": "[[like]] necesita objeto: [[I liked it]]. «Me gustó» no se traduce sin [[it]]."
+            },
+            {
+              "texto": "Yes, I did loved it.",
+              "correcta": false,
+              "porque": "En afirmativo no se usa [[did]] con el verbo en pasado. O [[I loved it]] o, en la respuesta corta, [[Yes, I did]]."
+            }
+          ],
+          "escribir": {
+            "respuestas": [
+              "Yes I loved it It was a wonderful trip",
+              "Yes I loved it",
+              "Yes I did",
+              "Yes I did I loved it",
+              "Yes I liked it a lot",
+              "Yes I really liked it",
+              "I loved it",
+              "Yes it was wonderful",
+              "Yes it was a wonderful trip",
+              "Yes I did It was wonderful",
+              "Yes I loved it It was wonderful"
+            ],
+            "siguiente": "fin"
+          }
+        },
+        {
+          "id": "fin",
+          "quien": "Priya",
+          "fin": true,
+          "en": "That's great, Carmen. Now show me the photos!",
+          "es": "¡Qué bien, Carmen! ¡Ahora enséñame las fotos!",
+          "resumen": "Practicaste el pasado simple en una conversación real: irregulares (**went, ate, bought**), regulares (**visited, rained**), **did** en preguntas con el verbo en forma base, respuestas cortas (**Yes, I did**, no «Yes, I bought»), **was / were**, **by bus** y **on the last day**, y el objeto obligatorio en **I loved it**."
+        }
+      ]
+    }
+  ]
+}

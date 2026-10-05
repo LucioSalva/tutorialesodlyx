@@ -1,0 +1,329 @@
+{
+  "titulo": "Evaluación: could",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "could.eval.01",
+      "leccion": "could-pasado",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración que habla de una habilidad en el pasado.",
+      "pregunta": "¿Cuál de estas oraciones dice lo que alguien sabía hacer antes?",
+      "opciones": [
+        { "texto": "My uncle could fix any car as a young man.", "correcta": true, "porque": "Correcto: could + as a young man (de joven) = habilidad en una etapa pasada." },
+        { "texto": "My uncle can fix any car.", "correcta": false, "porque": "Can habla de una habilidad presente." },
+        { "texto": "Could you fix my car, please?", "correcta": false, "porque": "Es una petición cortés para ahora, no una habilidad pasada." },
+        { "texto": "We could fix the car tomorrow.", "correcta": false, "porque": "Es una sugerencia para el futuro (tomorrow)." }
+      ],
+      "pistas": [
+        "Could tiene varios usos; busca el que mira al pasado.",
+        "Fíjate en las expresiones de tiempo y en si es una pregunta con please.",
+        "Habilidad pasada: could + una etapa pasada (as a child, as a young man…)."
+      ],
+      "solucion": { "respuesta": "My uncle could fix any car as a young man.", "explicacion": "Solo la primera sitúa la habilidad en una etapa pasada. Las otras son presente (can), petición (Could you… please?) y sugerencia (tomorrow)." }
+    },
+    {
+      "id": "could.eval.02",
+      "leccion": "could-pasado",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma adecuada de could.",
+      "frase": "Sorry I'm late. I ___ find my keys this morning.",
+      "respuestas": [["couldn't"]],
+      "traduccion": "Perdón por llegar tarde. Esta mañana no encontraba mis llaves.",
+      "pistas": [
+        "This morning ya pasó.",
+        "Algo no fue posible.",
+        "Negación en pasado: el modal pasado + not (contraído) + verbo base."
+      ],
+      "solucion": { "respuesta": "couldn't", "explicacion": "La respuesta es couldn't (could not): this morning ya pasó y dices que algo no fue posible. En negativa, couldn't vale para una ocasión concreta." },
+      "errores_tipicos": {
+        "can't": "Can't es presente; this morning ya pasó: couldn't.",
+        "could": "Falta la negación: llegaste tarde porque NO encontrabas las llaves."
+      }
+    },
+    {
+      "id": "could.eval.03",
+      "leccion": "could-pasado",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Pasa la oración al pasado.",
+      "origen": "My brother can't swim.",
+      "instruccion": "Usa couldn't.",
+      "respuestas": ["My brother couldn't swim."],
+      "pistas": [
+        "Solo cambia el modal.",
+        "El verbo swim no cambia.",
+        "Solo cambia la negación del modal a su forma pasada; el verbo sigue en forma base."
+      ],
+      "solucion": { "respuesta": "My brother couldn't swim.", "explicacion": "Can't pasa a couldn't y swim se queda en forma base: el modal es lo único que marca el pasado." },
+      "errores_tipicos": {
+        "My brother couldn't swam.": "Después de couldn't el verbo va en forma base: swim.",
+        "My brother didn't can swim.": "Could no se combina con otro auxiliar: couldn't swim."
+      }
+    },
+    {
+      "id": "could.eval.04",
+      "leccion": "could-pasado",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa could y grandfather.",
+      "es": "Mi abuelo hablaba tres idiomas.",
+      "respuestas": ["My grandfather could speak three languages."],
+      "pistas": [
+        "«Hablaba» aquí significa «sabía hablar»: una habilidad.",
+        "Idiomas = languages; con idiomas se usa speak.",
+        "Sujeto + could + verbo + complemento, como en My aunt could play two instruments."
+      ],
+      "solucion": { "respuesta": "My grandfather could speak three languages.", "explicacion": "Es una habilidad general en el pasado: could + speak (forma base). Con idiomas, speak." },
+      "errores_tipicos": {
+        "My grandfather could spoke three languages.": "Después de could el verbo va en forma base: speak.",
+        "My grandfather could talk three languages.": "Con idiomas se usa speak."
+      }
+    },
+    {
+      "id": "could.eval.05",
+      "leccion": "could-pasado",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Una amiga te pregunta por tu infancia. De niño no hablabas inglés.",
+      "lineas": [
+        { "quien": "Priya", "en": "Could you speak English as a child?", "es": "¿Hablabas inglés de niño?" }
+      ],
+      "opciones": [
+        { "texto": "No, I couldn't.", "correcta": true, "porque": "Correcto: respuesta corta en pasado con el mismo modal de la pregunta." },
+        { "texto": "No, I can't.", "correcta": false, "porque": "Can't habla de ahora; la pregunta es sobre tu infancia." },
+        { "texto": "No, I don't.", "correcta": false, "porque": "La pregunta usa could, no do." },
+        { "texto": "No, I couldn't speak.", "correcta": false, "porque": "Suena incompleto y cambia el sentido (como si no pudieras hablar en absoluto). Basta con No, I couldn't." }
+      ],
+      "pistas": [
+        "Pregunta sobre el pasado (as a child).",
+        "La respuesta corta repite el modal de la pregunta.",
+        "Respuesta corta negativa: No + pronombre + el modal de la pregunta en negativo."
+      ],
+      "solucion": { "respuesta": "No, I couldn't.", "explicacion": "Se responde con el mismo modal de la pregunta en negativo: couldn't. Can't hablaría del presente." }
+    },
+    {
+      "id": "could.eval.06",
+      "leccion": "could-pasado",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "As a child, I could run very fast.",
+      "pistas": [
+        "Empieza con una expresión de tiempo.",
+        "Could suena /kʊd/ o /kəd/, sin l.",
+        "As a child, + I + could + verbo + very fast."
+      ],
+      "solucion": { "respuesta": "As a child, I could run very fast.", "explicacion": "As a child sitúa la oración en el pasado; could + run (forma base) expresa una habilidad de esa etapa. Very fast = muy rápido." }
+    },
+    {
+      "id": "could.eval.07",
+      "leccion": "could-peticiones",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige qué significa la oración.",
+      "pregunta": "Could you open the window, please?",
+      "opciones": [
+        { "texto": "Una petición cortés para ahora.", "correcta": true, "porque": "Correcto: Could you… please? pide un favor con cortesía; no habla del pasado." },
+        { "texto": "Una pregunta sobre lo que sabías hacer antes.", "correcta": false, "porque": "No hay ninguna expresión de pasado y please indica una petición." },
+        { "texto": "Una sugerencia para el fin de semana.", "correcta": false, "porque": "Las sugerencias usan we could / you could en afirmativa, no una pregunta con please." },
+        { "texto": "Una predicción sobre el clima.", "correcta": false, "porque": "No se especula sobre nada; se pide que alguien abra la ventana." }
+      ],
+      "pistas": [
+        "Mira la estructura: pregunta con you y please.",
+        "¿Hay alguna expresión de tiempo pasado?",
+        "Could you + verbo + please? = petición cortés."
+      ],
+      "solucion": { "respuesta": "Una petición cortés para ahora.", "explicacion": "Could you…? con please es la forma cortés de pedir un favor. Could no marca pasado en esta estructura." }
+    },
+    {
+      "id": "could.eval.08",
+      "leccion": "could-peticiones",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la parte incorrecta y corrígela.",
+      "frase": "Could you to call a taxi for me?",
+      "error": "to call",
+      "correcciones": ["call"],
+      "frase_correcta": "Could you call a taxi for me?",
+      "pistas": [
+        "Revisa lo que va después de you.",
+        "¿Qué forma lleva el verbo tras un modal?",
+        "Could + sujeto + verbo base, sin to."
+      ],
+      "solucion": { "respuesta": "to call → call", "explicacion": "Después de could el verbo va en forma base sin to: Could you call a taxi for me?" }
+    },
+    {
+      "id": "could.eval.09",
+      "leccion": "could-peticiones",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la petición.",
+      "fichas": ["the", "tell", "Could", "way", "you", "to", "me", "station", "the"],
+      "respuestas": ["Could you tell me the way to the station"],
+      "traduccion": "¿Me podría decir cómo llegar a la estación?",
+      "pistas": [
+        "Es una pregunta con could.",
+        "Me va después del verbo tell.",
+        "Could + you + verbo + pronombre objeto + complemento?, como en Could you give me the name of the hotel?"
+      ],
+      "solucion": { "respuesta": "Could you tell me the way to the station?", "explicacion": "Could + you + tell (forma base) + me + the way to the station. El pronombre me va después del verbo." }
+    },
+    {
+      "id": "could.eval.10",
+      "leccion": "could-peticiones",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa Could I have…? y please.",
+      "es": "¿Me podría dar un vaso de agua, por favor?",
+      "respuestas": ["Could I have a glass of water, please?", "Could I please have a glass of water?"],
+      "pistas": [
+        "Para pedir cosas se usa Could I have…?",
+        "Un vaso de agua = a glass of water.",
+        "Could I have + recipiente + of + bebida + please?, como en Could I have a cup of tea, please?"
+      ],
+      "solucion": { "respuesta": "Could I have a glass of water, please?", "explicacion": "En inglés lo natural es poner el foco en ti: Could I have…? (literalmente «¿podría tener…?»). A glass of water = un vaso de agua. Please al final o después de I." },
+      "errores_tipicos": {
+        "I could have a glass of water, please?": "Falta la inversión: Could I…?",
+        "Could I to have a glass of water, please?": "Detrás de could no va to."
+      }
+    },
+    {
+      "id": "could.eval.11",
+      "leccion": "could-peticiones",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás de paseo. Una turista se acerca con su cámara.",
+      "lineas": [
+        { "quien": "Tourist", "en": "Excuse me, could you take a photo of us?", "es": "Disculpe, ¿nos podría tomar una foto?" }
+      ],
+      "opciones": [
+        { "texto": "Of course. Smile!", "correcta": true, "porque": "Correcto: aceptas la petición con Of course." },
+        { "texto": "Yes, I could.", "correcta": false, "porque": "Suena a habilidad en el pasado; ante una petición se dice Sure / Of course." },
+        { "texto": "Sorry, I couldn't.", "correcta": false, "porque": "La petición es para ahora: el rechazo sería Sorry, I can't." },
+        { "texto": "No, you can't.", "correcta": false, "porque": "You can't niega un permiso; la turista pide un favor." }
+      ],
+      "pistas": [
+        "Te piden un favor para ahora.",
+        "¿Se contesta con could?",
+        "Para aceptar no se repite could: basta una expresión corta de acuerdo (y aquí, algo que se dice antes de una foto)."
+      ],
+      "solucion": { "respuesta": "Of course. Smile!", "explicacion": "Could you…? es una petición cortés en presente. Se acepta con Of course / Sure; las respuestas con could no encajan." }
+    },
+    {
+      "id": "could.eval.12",
+      "leccion": "could-sugerencias-y-posibilidad",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Lee y responde.",
+      "pregunta": "Ana says: «We could go to the lake, or we could stay home and cook.» What is Ana doing?",
+      "opciones": [
+        { "texto": "Suggesting options.", "correcta": true, "porque": "Correcto: we could + verbo presenta ideas, y or ofrece dos opciones." },
+        { "texto": "Talking about the past.", "correcta": false, "porque": "No hay nada de pasado: habla de planes." },
+        { "texto": "Asking for permission.", "correcta": false, "porque": "No es una pregunta con Could I…?" },
+        { "texto": "Saying what she can't do.", "correcta": false, "porque": "No hay negación: son propuestas." }
+      ],
+      "pistas": [
+        "Mira el sujeto (we) y la palabra or.",
+        "¿Habla del pasado o de planes?",
+        "We could + verbo = sugerencia."
+      ],
+      "solucion": { "respuesta": "Suggesting options.", "explicacion": "We could go… or we could stay… presenta dos ideas para que la otra persona elija: es una sugerencia." }
+    },
+    {
+      "id": "could.eval.13",
+      "leccion": "could-sugerencias-y-posibilidad",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración.",
+      "origen": "Maybe that's Priya's car.",
+      "instruccion": "Usa That could be… (sin maybe).",
+      "respuestas": ["That could be Priya's car."],
+      "pistas": [
+        "Maybe expresa duda; could también.",
+        "El verbo is se convierte en otra forma después de could.",
+        "Demostrativo + could + be + posesivo + sustantivo, como en This could be Tom's bag."
+      ],
+      "solucion": { "respuesta": "That could be Priya's car.", "explicacion": "Could + be expresa la misma duda que maybe. Is pasa a be porque después de could va la forma base." },
+      "errores_tipicos": {
+        "That could is Priya's car.": "Después de could va be, no is.",
+        "That can be Priya's car.": "Para adivinar en una situación concreta se usa could."
+      }
+    },
+    {
+      "id": "could.eval.14",
+      "leccion": "could-sugerencias-y-posibilidad",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "Where's Tom? He could is at the gym.",
+      "error": "is",
+      "correcciones": ["be"],
+      "frase_correcta": "Where's Tom? He could be at the gym.",
+      "pistas": [
+        "Revisa la segunda oración.",
+        "¿Qué forma de be va después de un modal?",
+        "Could + be (forma base)."
+      ],
+      "solucion": { "respuesta": "is → be", "explicacion": "Después de could va la forma base: be. He could be at the gym = Podría estar en el gimnasio." }
+    },
+    {
+      "id": "could.eval.15",
+      "leccion": "could-sugerencias-y-posibilidad",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa could y la palabra receptionist.",
+      "es": "Podrías pedirle ayuda al recepcionista.",
+      "respuestas": ["You could ask the receptionist for help.", "You could ask the receptionist to help you."],
+      "pistas": [
+        "Es un consejo suave: you could.",
+        "«Pedirle ayuda a alguien» = ask + persona + for help.",
+        "Sujeto + could + ask + persona + for + sustantivo, como en We could ask the teacher for advice."
+      ],
+      "solucion": { "respuesta": "You could ask the receptionist for help.", "explicacion": "You could + verbo base da un consejo amable. Ask + persona + for help = pedirle ayuda a alguien; la persona va directamente después de ask, sin to." },
+      "errores_tipicos": {
+        "You could ask to the receptionist for help.": "Ask va seguido directamente de la persona: ask the receptionist.",
+        "Could ask the receptionist for help.": "Falta el sujeto you."
+      }
+    },
+    {
+      "id": "could.eval.16",
+      "leccion": "could-sugerencias-y-posibilidad",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada reacción a una sugerencia con su traducción.",
+      "pares": [
+        { "a": "That sounds great!", "b": "¡Suena genial!" },
+        { "a": "Good idea.", "b": "Buena idea." },
+        { "a": "I'm not sure.", "b": "No estoy seguro." },
+        { "a": "Maybe later.", "b": "Tal vez más tarde." },
+        { "a": "Why not?", "b": "¿Por qué no?" }
+      ],
+      "pistas": [
+        "Son respuestas a propuestas como We could…",
+        "Algunas aceptan y otras dudan.",
+        "Sound = sonar; sure = seguro; later = más tarde."
+      ],
+      "solucion": { "respuesta": "That sounds great = ¡Suena genial!; Good idea = Buena idea; I'm not sure = No estoy seguro; Maybe later = Tal vez más tarde; Why not? = ¿Por qué no?", "explicacion": "That sounds great, Good idea y Why not? aceptan una propuesta; I'm not sure y Maybe later la dejan en duda o la aplazan con amabilidad." }
+    }
+  ]
+}

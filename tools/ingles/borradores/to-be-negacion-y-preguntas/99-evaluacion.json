@@ -1,0 +1,349 @@
+{
+  "titulo": "Evaluación: to be en negación, preguntas y respuestas",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "to-be-negacion-y-preguntas.eval.01",
+      "leccion": "negacion-to-be",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la negación correcta.",
+      "pregunta": "I am from Brazil. → (negativa)",
+      "opciones": [
+        {"texto": "I'm not from Brazil.", "correcta": true, "porque": "Correcto: con I la negación contraída es I'm not."},
+        {"texto": "I amn't from Brazil.", "correcta": false, "porque": "Amn't no existe en el inglés estándar."},
+        {"texto": "I don't am from Brazil.", "correcta": false, "porque": "Don't nunca se usa con be."},
+        {"texto": "I no am from Brazil.", "correcta": false, "porque": "No no niega verbos, y not va después de am."}
+      ],
+      "pistas": [
+        "To be se niega con not.",
+        "Con I solo hay una forma contraída.",
+        "Regla: con I, am y not no se contraen entre sí; se contrae el sujeto con be."
+      ],
+      "solucion": {"respuesta": "I'm not from Brazil.", "explicacion": "La respuesta correcta es I'm not from Brazil. porque be se niega con not después de am, y con I la única contracción negativa posible es I'm not."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.02",
+      "leccion": "negacion-to-be",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la negación de be.",
+      "frase": "The coffee ___ hot. It's cold!",
+      "traduccion": "El café no está caliente. ¡Está frío!",
+      "respuestas": [["isn't", "is not"]],
+      "errores_tipicos": {
+        "aren't": "The coffee es singular: is not / isn't.",
+        "don't": "Don't no se usa con be: isn't."
+      },
+      "pistas": [
+        "El sujeto es una sola cosa.",
+        "¿Qué forma de be va con the coffee (= it)?",
+        "Regla: sujeto singular + is not (isn't)."
+      ],
+      "solucion": {"respuesta": "isn't", "explicacion": "La respuesta correcta es isn't (is not) porque the coffee equivale a it, que va con is; la negación añade not detrás."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.03",
+      "leccion": "negacion-to-be",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativo.",
+      "origen": "You are late.",
+      "instruccion": "Negativa",
+      "respuestas": ["You aren't late."],
+      "errores_tipicos": {
+        "You don't are late": "Don't no acompaña a be.",
+        "You isn't late": "Con you la forma de be es are: aren't."
+      },
+      "pistas": [
+        "Solo añades una palabra.",
+        "Va justo detrás de are.",
+        "Regla: sujeto + be + not; are not puede contraerse de dos maneras."
+      ],
+      "solucion": {"respuesta": "You aren't late.", "explicacion": "La respuesta correcta es You aren't late. (o You're not late.) porque para negar be basta con poner not detrás de are."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.04",
+      "leccion": "negacion-to-be",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "They're not at school today.",
+      "respuestas": ["They aren't at school today."],
+      "audio": true,
+      "pistas": [
+        "¿Es afirmativa o negativa? Escucha la palabra fuerte después del sujeto.",
+        "El sujeto es plural y está contraído con be.",
+        "Regla: are not puede contraerse con el sujeto o con not; las dos formas significan lo mismo."
+      ],
+      "solucion": {"respuesta": "They're not at school today.", "explicacion": "Se dice They're not at school today. (Hoy no están en la escuela.) They're es they are contraído, y not se oye como palabra aparte, con fuerza."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.05",
+      "leccion": "negacion-to-be",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Ben and Aisha isn't here.",
+      "error": "isn't",
+      "correcciones": ["aren't", "are not"],
+      "frase_correcta": "Ben and Aisha aren't here.",
+      "pistas": [
+        "Cuenta las personas del sujeto.",
+        "Mira la forma de be.",
+        "Regla: sujeto plural → are not (aren't)."
+      ],
+      "solucion": {"respuesta": "Ben and Aisha aren't here.", "explicacion": "El error es isn't: Ben and Aisha son dos personas, un sujeto plural, que lleva are; la negación es aren't."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.06",
+      "leccion": "preguntas-to-be",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "Diego is hungry.",
+      "instruccion": "Pregunta",
+      "respuestas": ["Is Diego hungry?"],
+      "errores_tipicos": {
+        "Diego is hungry?": "Falta invertir: is va delante de Diego.",
+        "Does Diego hungry?": "Con be no se usa does: Is Diego hungry?"
+      },
+      "pistas": [
+        "En inglés la pregunta cambia el orden.",
+        "Mueve be al principio.",
+        "Regla: be + sujeto + complemento + ?; be conserva la forma que tenía en la afirmación."
+      ],
+      "solucion": {"respuesta": "Is Diego hungry?", "explicacion": "La respuesta correcta es Is Diego hungry? porque en las preguntas de sí o no be pasa delante del sujeto; el complemento hungry se queda al final."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.07",
+      "leccion": "preguntas-to-be",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una pregunta.",
+      "fichas": ["sister", "Grace", "Is", "your"],
+      "respuestas": ["Is Grace your sister", "Is your sister Grace"],
+      "traduccion": "¿Grace es tu hermana?",
+      "pistas": [
+        "Una pregunta de sí o no empieza por be.",
+        "Después de Is va el sujeto.",
+        "Orden: be + sujeto + complemento + ?"
+      ],
+      "solucion": {"respuesta": "Is Grace your sister?", "explicacion": "El orden es Is Grace your sister?: be delante, luego el sujeto (Grace) y al final el complemento. Is your sister Grace? también es correcta si el sujeto es your sister."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.08",
+      "leccion": "preguntas-to-be",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la interpretación correcta.",
+      "pregunta": "Mei mira por la ventana y dice: «Is it cold today?» ↗ ¿Qué quiere saber?",
+      "opciones": [
+        {"texto": "Si hoy hace frío o no.", "correcta": true, "porque": "Correcto: empieza por is y la voz sube: es una pregunta de sí o no."},
+        {"texto": "Qué tiempo hace hoy.", "correcta": false, "porque": "Para eso haría falta una palabra interrogativa (what, how). Esta pregunta solo admite sí o no."},
+        {"texto": "Afirma que hoy hace frío.", "correcta": false, "porque": "La afirmación sería It is cold today. Aquí is va delante de it: es pregunta."},
+        {"texto": "Dónde hace frío hoy.", "correcta": false, "porque": "No hay where: no pregunta por un lugar."}
+      ],
+      "pistas": [
+        "Fíjate en la primera palabra y en la entonación.",
+        "¿Hay alguna palabra interrogativa (what, where…)?",
+        "Regla: be + sujeto al principio = pregunta de sí o no."
+      ],
+      "solucion": {"respuesta": "Si hoy hace frío o no.", "explicacion": "Mei pregunta si hace frío: Is it cold today? empieza por be, no tiene palabra interrogativa y lleva entonación ascendente, así que se contesta con sí o no."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.09",
+      "leccion": "preguntas-to-be",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Tienen sed tus hijos?",
+      "respuestas": ["Are your children thirsty?", "Are your kids thirsty?"],
+      "errores_tipicos": {
+        "Do your children have thirst?": "Calco del español: la sed va con be + thirsty.",
+        "Is your children thirsty?": "Children es plural: Are.",
+        "Your children are thirsty?": "Falta invertir: Are your children…?"
+      },
+      "pistas": [
+        "La sed, como el hambre, va con be.",
+        "Children es plural (hijos).",
+        "Regla: be + sujeto plural completo + adjetivo + ?"
+      ],
+      "solucion": {"respuesta": "Are your children thirsty?", "explicacion": "La respuesta correcta es Are your children thirsty? porque la sed se expresa con be + thirsty, children es plural (are) y en la pregunta be pasa delante del sujeto."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.10",
+      "leccion": "respuestas-cortas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta con una palabra.",
+      "frase": "Are they from Peru? Yes, they ___.",
+      "traduccion": "¿Son de Perú? Sí.",
+      "respuestas": [["are"]],
+      "literal": true,
+      "errores_tipicos": {
+        "'re": "La afirmativa corta no se contrae: Yes, they are.",
+        "is": "They es plural: are."
+      },
+      "pistas": [
+        "Es una respuesta afirmativa corta.",
+        "Falta be para they.",
+        "Regla: Yes + pronombre + be completo, sin contraer."
+      ],
+      "solucion": {"respuesta": "are", "explicacion": "La respuesta correcta es are: they lleva are y en la respuesta corta afirmativa be va completo."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.11",
+      "leccion": "respuestas-cortas",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Sam encuentra una pluma en tu escritorio. Es tuya.",
+      "lineas": [
+        {"quien": "Sam", "en": "Is this your pen?", "es": "¿Esta es tu pluma?"}
+      ],
+      "opciones": [
+        {"texto": "Yes, it is. Thanks!", "correcta": true, "porque": "Correcto: la pluma es it y la afirmativa corta va sin contraer."},
+        {"texto": "Yes, it's. Thanks!", "correcta": false, "porque": "La afirmativa corta no se contrae: Yes, it is."},
+        {"texto": "Yes, I am. Thanks!", "correcta": false, "porque": "Te preguntan por la pluma (this), no por ti: el pronombre es it."},
+        {"texto": "Yes, is. Thanks!", "correcta": false, "porque": "Falta el sujeto it."}
+      ],
+      "pistas": [
+        "¿De qué se habla, de una persona o de una cosa?",
+        "Revisa el pronombre y si be está contraído.",
+        "Regla: para una cosa el pronombre es it; en la respuesta corta afirmativa be no se contrae."
+      ],
+      "solucion": {"respuesta": "Yes, it is. Thanks!", "explicacion": "La respuesta adecuada es Yes, it is. porque la pregunta es sobre una cosa (it) y en la respuesta corta afirmativa be no se contrae."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.12",
+      "leccion": "respuestas-cortas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Te preguntan «Is your brother a student?». Contesta con una respuesta corta: «No, no lo es.»",
+      "es": "No, no lo es.",
+      "respuestas": ["No, he isn't.", "No, he's not."],
+      "errores_tipicos": {
+        "No, he don't": "Don't no se usa con be: No, he isn't.",
+        "No, he isn't it": "El «lo» del español no se traduce.",
+        "No, she isn't": "Your brother es hombre: he."
+      },
+      "pistas": [
+        "«Lo» no se traduce en la respuesta corta.",
+        "Your brother → pronombre; be negativo.",
+        "Regla: No + pronombre + be negativo contraído (como en No, she isn't)."
+      ],
+      "solucion": {"respuesta": "No, he isn't.", "explicacion": "La respuesta correcta es No, he isn't. (o No, he's not.): your brother se convierte en he y la negativa corta se contrae con normalidad."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.13",
+      "leccion": "preguntas-wh-con-be",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada palabra interrogativa con lo que pregunta.",
+      "pares": [
+        {"a": "what", "b": "qué / cuál (un dato)"},
+        {"a": "where", "b": "dónde (un lugar)"},
+        {"a": "who", "b": "quién (una persona)"},
+        {"a": "how", "b": "cómo (un estado)"},
+        {"a": "how old", "b": "cuántos años (la edad)"}
+      ],
+      "pistas": [
+        "Cada palabra pide un tipo de información.",
+        "Piensa en What's your name?, Where are you from?, Who is she?, How are you?, How old are you?",
+        "Regla: lugar → where; persona → who; estado → how; edad → how old; dato → what."
+      ],
+      "solucion": {"respuesta": "what → qué/cuál · where → dónde · who → quién · how → cómo · how old → cuántos años", "explicacion": "Cada palabra interrogativa pide un tipo de dato: what un dato o cosa, where un lugar, who una persona, how un estado y how old la edad."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.14",
+      "leccion": "preguntas-wh-con-be",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra interrogativa.",
+      "frase": "___ is my phone? It's on the table.",
+      "traduccion": "¿Dónde está mi celular? Está en la mesa.",
+      "respuestas": [["Where"]],
+      "banco": ["What", "Where", "Who", "How"],
+      "errores_tipicos": {
+        "What": "La respuesta es un lugar (on the table): se usa where."
+      },
+      "pistas": [
+        "La respuesta indica un lugar.",
+        "On the table responde a «¿dónde?».",
+        "Regla: lugar → where."
+      ],
+      "solucion": {"respuesta": "Where", "explicacion": "La respuesta correcta es Where porque la respuesta (on the table) es un lugar."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.15",
+      "leccion": "preguntas-wh-con-be",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "What's your phone number?",
+      "respuestas": ["What is your phone number?"],
+      "audio": true,
+      "pistas": [
+        "La primera palabra es una palabra interrogativa contraída con is.",
+        "Pide un dato: un número.",
+        "Regla: what is → what's."
+      ],
+      "solucion": {"respuesta": "What's your phone number?", "explicacion": "Se dice What's your phone number? (¿Cuál es tu número de teléfono?). What's es what is; «¿cuál es…?» para pedir un dato se traduce con what."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.16",
+      "leccion": "preguntas-wh-con-be",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "What old is your son?",
+      "error": "What",
+      "correcciones": ["How"],
+      "frase_correcta": "How old is your son?",
+      "pistas": [
+        "Es una pregunta sobre la edad.",
+        "Mira la palabra que va antes de old.",
+        "Regla: en inglés la edad no se cuenta en años: se pregunta con How + el adjetivo contrario de young + be."
+      ],
+      "solucion": {"respuesta": "How old is your son?", "explicacion": "El error es What: la edad se pregunta con How old + be + sujeto: How old is your son?"}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.eval.17",
+      "leccion": "preguntas-wh-con-be",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la respuesta y elige la pregunta que la provocó.",
+      "pregunta": "«I'm fine, thanks. And you?»",
+      "opciones": [
+        {"texto": "How are you?", "correcta": true, "porque": "Correcto: pregunta por el estado, y I'm fine es un estado."},
+        {"texto": "How old are you?", "correcta": false, "porque": "Pide la edad; se contestaría con un número: I'm 30."},
+        {"texto": "Where are you from?", "correcta": false, "porque": "Pide el origen: I'm from…"},
+        {"texto": "Who are you?", "correcta": false, "porque": "Pide la identidad: I'm Ana, Tom's sister."}
+      ],
+      "pistas": [
+        "Fine describe cómo estás.",
+        "¿Qué palabra interrogativa pregunta por el estado?",
+        "Regla: how → estado; how old → edad."
+      ],
+      "solucion": {"respuesta": "How are you?", "explicacion": "La pregunta es How are you? porque la respuesta I'm fine describe un estado, y how es la palabra que pregunta cómo está alguien."}
+    }
+  ]
+}

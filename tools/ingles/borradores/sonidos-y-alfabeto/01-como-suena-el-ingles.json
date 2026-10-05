@@ -1,0 +1,466 @@
+{
+  "slug": "como-suena-el-ingles",
+  "titulo": "Cómo suena el inglés",
+  "minutos": 35,
+  "objetivos": [
+    "Entender por qué en inglés una misma letra puede tener varios sonidos y por qué hay letras mudas.",
+    "Leer una transcripción del AFI: las barras, un símbolo por sonido, la marca de vocal larga ː y la marca de acento ˈ.",
+    "Distinguir vocales cortas y largas en pares como ship / sheep y full / fool.",
+    "Reconocer la schwa /ə/, el sonido más frecuente del inglés, en las sílabas sin acento."
+  ],
+  "situacion": {
+    "titulo": "La palabra que no se lee como se escribe",
+    "texto": "Carlos empieza su curso de inglés. Ve escrita la palabra [[doctor]] y la lee como en español: doc-TOR. Su compañera Grace, que es de Estados Unidos, sonríe y le enseña cómo la dice ella: DOC-ter, con la fuerza al principio y la segunda o casi desaparecida. Carlos descubre que en inglés no basta con ver la palabra: hay que saber cómo suena. Para eso existe el AFI.",
+    "dialogo": [
+      {"quien": "Carlos", "en": "Doctor… doc-TOR?", "es": "¿Doctor… doc-TOR?"},
+      {"quien": "Grace", "en": "Almost! DOC-tor. Listen: doctor.", "es": "¡Casi! DOC-tor. Escucha: doctor."},
+      {"quien": "Carlos", "en": "Doctor. Thank you!", "es": "Doctor. ¡Gracias!"}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "letras-y-sonidos",
+      "titulo": "Letras y sonidos no coinciden",
+      "que_es": "En español cada vocal tiene un solo sonido: la a de «casa», «mapa» y «gato» es siempre la misma. En inglés hay 5 letras vocales (a, e, i, o, u) pero unos 15 sonidos vocálicos, así que cada letra tiene que repartirse entre varios sonidos. Además, la ortografía inglesa se fijó hace siglos y la pronunciación siguió cambiando, por eso hay letras que se escriben y ya no se pronuncian.",
+      "para_que": [
+        "Para no leer el inglés «a la española» y que te entiendan a la primera.",
+        "Para saber que ante una palabra nueva tienes que comprobar cómo suena (en un diccionario o escuchándola), no adivinarlo.",
+        "Para reconocer al oído palabras que ya conoces por escrito."
+      ],
+      "como_funciona": "Piensa en la palabra escrita y en la palabra hablada como dos cosas distintas. La letra **a** suena diferente en [[cat]] /kæt/, [[name]] /neɪm/, [[car]] /kɑːr/ y [[about]] /əˈbaʊt/: son cuatro sonidos distintos para una sola letra. Y al revés: un mismo sonido puede escribirse de muchas maneras; el sonido /iː/ aparece en [[see]], [[sea]], [[key]], [[me]] y [[people]]. Hay pistas que ayudan (por ejemplo, la e final muda de [[name]] suele alargar la vocal anterior), pero tienen muchas excepciones, así que la regla de oro es: **cada palabra nueva se aprende con su sonido**. Por eso en este curso casi todas las palabras llevan su transcripción entre barras.",
+      "estructuras": [
+        {
+          "etiqueta": "Una letra, varios sonidos",
+          "formula": [{"t": "letra escrita", "rol": "otro"}, {"t": "sonido en esa palabra", "rol": "complemento"}],
+          "ejemplo": [{"t": "cat", "rol": "otro"}, {"t": "/kæt/", "rol": "complemento"}],
+          "es": "gato: la a suena /æ/, una a muy abierta."
+        },
+        {
+          "etiqueta": "La misma letra en otra palabra",
+          "formula": [{"t": "letra escrita", "rol": "otro"}, {"t": "sonido en esa palabra", "rol": "complemento"}],
+          "ejemplo": [{"t": "name", "rol": "otro"}, {"t": "/neɪm/", "rol": "complemento"}],
+          "es": "nombre: aquí la a suena /eɪ/, como «ei», y la e final no se pronuncia."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La letra a y la letra o en distintas palabras",
+          "columnas": ["Palabra", "AFI", "Significado", "Cómo suena la vocal"],
+          "filas": [
+            ["cat", "/kæt/", "gato", "a muy abierta, entre la a y la e del español"],
+            ["name", "/neɪm/", "nombre", "«ei», como en «rey»"],
+            ["car", "/kɑːr/", "carro, auto", "a larga y abierta, seguida de r inglesa"],
+            ["about", "/əˈbaʊt/", "acerca de", "sonido débil /ə/, casi un murmullo"],
+            ["hot", "/hɑːt/", "caliente", "a abierta (en inglés británico /hɒt/, una o corta)"],
+            ["go", "/ɡoʊ/", "ir", "«ou», como deslizándose de o a u"],
+            ["do", "/duː/", "hacer", "u larga"],
+            ["son", "/sʌn/", "hijo", "vocal corta y relajada, parecida a una a floja"]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {"en": "cat", "es": "gato", "nota": "Tres letras, tres sonidos: /k/ + /æ/ + /t/. La /æ/ no existe en español: abre la boca como para decir a, pero con la lengua adelantada como para decir e."},
+        {"en": "name", "es": "nombre", "nota": "Cuatro letras pero solo tres sonidos: /n/ + /eɪ/ + /m/. La e final es muda; su función es avisar de que la a se dice /eɪ/."},
+        {"en": "son", "es": "hijo", "nota": "La letra o aquí no suena o sino /ʌ/. Por eso son y sun (sol) se pronuncian exactamente igual: /sʌn/."},
+        {"en": "know", "es": "saber, conocer", "nota": "Se escribe con cuatro letras y se pronuncia /noʊ/: la k y la w no suenan. Suena igual que no."},
+        {"en": "people", "es": "gente, personas", "nota": "Las letras eo representan un solo sonido, /iː/: /ˈpiːpəl/. En español leerías cada vocal; en inglés no."},
+        {"en": "listen", "es": "escuchar", "nota": "La t es muda: /ˈlɪsən/. Otras letras mudas frecuentes: la w de write, la h de hour, la b de climb."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Español", "items": ["5 vocales escritas y 5 sonidos vocálicos.", "Si sabes escribir una palabra, sabes decirla.", "Casi no hay letras mudas (la h y la u de «que»)."]},
+        "b": {"titulo": "Inglés", "items": ["5 vocales escritas y unos 15 sonidos vocálicos.", "Saber escribir una palabra no garantiza saber decirla.", "Muchas letras mudas: know, write, listen, hour."]},
+        "veredicto": "No intentes leer el inglés con las reglas del español. Aprende cada palabra con su sonido y usa el AFI como mapa."
+      },
+      "pronunciacion": [
+        {"texto": "cat", "ipa": "/kæt/", "consejo": "Abre la boca como para una a española, pero empuja la lengua hacia delante como si fueras a decir e. El resultado es un sonido intermedio que no es ni a ni e.", "lento": true},
+        {"texto": "son", "ipa": "/sʌn/", "consejo": "La /ʌ/ es corta y relajada: deja la boca medio abierta, sin redondear los labios, y di una a floja y breve. No digas o.", "lento": true},
+        {"texto": "know", "ipa": "/noʊ/", "consejo": "Empieza directamente con la n, sin rastro de k. La vocal se desliza de o a u cerrando un poco los labios al final.", "lento": false}
+      ],
+      "errores": [
+        {"mal": "Leer know como «k-nou».", "bien": "/noʊ/", "porque": "La k inicial de kn- es muda en inglés moderno: know, knife, knee."},
+        {"mal": "Leer name como «na-me».", "bien": "/neɪm/", "porque": "La e final de name es muda y la a se dice /eɪ/. La palabra tiene una sola sílaba."},
+        {"mal": "Pronunciar son con o española.", "bien": "/sʌn/", "porque": "La letra o de son representa el sonido /ʌ/, el mismo de sun, cup y bus."}
+      ],
+      "nota": {"titulo": "¿Hay reglas o no?", "texto": "Sí hay patrones útiles (la e final muda, la k muda en kn-, ee casi siempre /iː/), pero ninguno funciona siempre. Los irás aprendiendo poco a poco; mientras tanto, confía en el AFI y en tu oído.", "tono": "info"}
+    },
+    {
+      "id": "leer-el-afi",
+      "titulo": "Cómo leer el AFI",
+      "que_es": "El Alfabeto Fonético Internacional (AFI; en inglés IPA) es un sistema de símbolos en el que **cada símbolo representa siempre un solo sonido**, en cualquier idioma. Los diccionarios lo usan para decirte cómo se pronuncia una palabra sin depender de la ortografía. Una transcripción se escribe entre barras: /kæt/ significa «los sonidos de cat», no las letras.",
+      "para_que": [
+        "Para saber cómo suena una palabra que nunca has oído, con solo mirarla en el diccionario.",
+        "Para distinguir sonidos que en español no existen o no se diferencian, como /ɪ/ y /iː/.",
+        "Para entender las transcripciones que acompañan cada palabra de este curso."
+      ],
+      "como_funciona": "Lee una transcripción símbolo por símbolo, sin aplicar reglas de ortografía. Cinco claves: 1) **Las barras** /…/ encierran sonidos, no letras. 2) **Un símbolo = un sonido**: /ʃ/ es el sonido de sh, aunque se escriba con dos letras. 3) **Los dos puntos** ː después de una vocal indican que es larga y tensa: /iː/ en [[sheep]] frente a /ɪ/ en [[ship]]. 4) **El apóstrofo alto** ˈ va ANTES de la sílaba que lleva el acento: /ˈdɑːktər/ se acentúa en DOC. 5) **Dos símbolos vocálicos juntos** como /eɪ/, /aɪ/, /oʊ/, /aʊ/ forman un diptongo: una vocal que se desliza hacia otra, como «ei» en «rey». Muchos símbolos coinciden con letras (/t/, /m/, /s/…) y suenan casi como en español; los raros (/æ/, /ʌ/, /ə/, /θ/, /ð/, /ʃ/) son precisamente los sonidos que tienes que aprender.",
+      "estructuras": [
+        {
+          "etiqueta": "Vocal corta y vocal larga",
+          "formula": [{"t": "vocal corta: ɪ", "rol": "otro"}, {"t": "vocal larga: iː", "rol": "complemento"}],
+          "ejemplo": [{"t": "ship /ʃɪp/", "rol": "otro"}, {"t": "sheep /ʃiːp/", "rol": "complemento"}],
+          "es": "barco / oveja: solo cambia la vocal, y cambia el significado."
+        },
+        {
+          "etiqueta": "Marca de acento",
+          "formula": [{"t": "ˈ", "rol": "otro"}, {"t": "sílaba fuerte", "rol": "complemento"}, {"t": "sílaba débil", "rol": "otro"}],
+          "ejemplo": [{"t": "/ˈ", "rol": "otro"}, {"t": "dɑːk", "rol": "complemento"}, {"t": "tər/", "rol": "otro"}],
+          "es": "doctor: el ˈ está antes de DOC, así que esa es la sílaba fuerte."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Vocales cortas y largas más útiles",
+          "columnas": ["Símbolo", "Palabra", "AFI", "Qué hace la boca"],
+          "filas": [
+            ["ɪ", "sit", "/sɪt/", "i corta y relajada, algo abierta, casi hacia e"],
+            ["iː", "seat", "/siːt/", "i larga y tensa, labios estirados como al sonreír"],
+            ["ʊ", "full", "/fʊl/", "u corta y relajada, labios poco redondeados"],
+            ["uː", "fool", "/fuːl/", "u larga y tensa, labios muy redondeados"],
+            ["æ", "cat", "/kæt/", "boca muy abierta, lengua adelantada (entre a y e)"],
+            ["ʌ", "cup", "/kʌp/", "a corta y floja, boca medio abierta"],
+            ["ɑː", "father", "/ˈfɑːðər/", "a larga, abierta y hacia atrás"],
+            ["ə", "about", "/əˈbaʊt/", "schwa: sonido neutro y débil, boca relajada"]
+          ],
+          "audio": [1]
+        },
+        {
+          "titulo": "Símbolos extra que verás en las transcripciones",
+          "columnas": ["Símbolo", "Nombre", "Qué indica", "Ejemplo"],
+          "filas": [
+            ["/ … /", "barras", "Lo de dentro son sonidos, no letras.", "/kæt/"],
+            ["ː", "dos puntos de longitud", "La vocal anterior es larga y tensa.", "/siː/"],
+            ["ˈ", "acento principal", "La sílaba que sigue es la fuerte.", "/ˈfæmɪli/"],
+            ["eɪ, aɪ, oʊ", "diptongos", "Una vocal que se desliza hacia otra.", "/neɪm/, /maɪ/, /ɡoʊ/"]
+          ]
+        }
+      ],
+      "ejemplos": [
+        {"en": "ship / sheep", "es": "barco / oveja", "nota": "/ʃɪp/ frente a /ʃiːp/. La diferencia no es solo la duración: /ɪ/ es más relajada y abierta; /iː/ es tensa, con los labios estirados."},
+        {"en": "live / leave", "es": "vivir / irse", "nota": "/lɪv/ frente a /liːv/. Si alargas la vocal de live, dices leave y cambias el mensaje."},
+        {"en": "full / fool", "es": "lleno / tonto", "nota": "/fʊl/ frente a /fuːl/. El mismo contraste corto–largo, ahora con la u."},
+        {"en": "she", "es": "ella", "nota": "/ʃiː/: dos letras sh = un solo símbolo /ʃ/. Contar letras no sirve para contar sonidos."},
+        {"en": "family", "es": "familia", "nota": "/ˈfæmɪli/ (muchos dicen /ˈfæmli/, con dos sílabas). El acento está al principio, no en la i como en español."}
+      ],
+      "pronunciacion": [
+        {"texto": "ship", "ipa": "/ʃɪp/", "consejo": "Di la i española pero relaja la lengua y bájala un poco, como si fueras a decir e. Corta y sin tensión.", "lento": true},
+        {"texto": "sheep", "ipa": "/ʃiːp/", "consejo": "Estira los labios como al sonreír y mantén la i un poco más, tensa. Es la i española, pero más larga.", "lento": true},
+        {"texto": "fool", "ipa": "/fuːl/", "consejo": "Redondea bien los labios hacia delante y alarga la u. En full /fʊl/, en cambio, los labios casi no se mueven y la u es breve.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Pensar que /siː/ son las letras s, i.", "bien": "/siː/ son los sonidos de see (o de sea).", "porque": "Lo que va entre barras son sonidos. /siː/ puede escribirse see, sea o incluso ser el nombre de la letra C."},
+        {"mal": "Decir ship y sheep igual.", "bien": "ship /ʃɪp/ ≠ sheep /ʃiːp/", "porque": "En español solo hay una i, pero en inglés /ɪ/ e /iː/ distinguen palabras. Confundirlas cambia el significado."},
+        {"mal": "Ignorar la marca ˈ.", "bien": "/ˈdɑːktər/ → DOC-tor", "porque": "El acento en inglés es tan importante como una letra: si lo pones en otra sílaba, la palabra puede volverse irreconocible."}
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Las piezas de una transcripción",
+        "centro": "/ˈfæmɪli/",
+        "ramas": [
+          {"texto": "/ … /", "detalle": "barras: dentro hay sonidos"},
+          {"texto": "ˈ", "detalle": "acento: la sílaba siguiente es la fuerte (FAM)"},
+          {"texto": "æ", "detalle": "un símbolo = un sonido (a abierta)"},
+          {"texto": "ɪ", "detalle": "vocal corta y relajada"},
+          {"texto": "i", "detalle": "vocal final breve, como la i española"}
+        ]
+      },
+      "nota": {"titulo": "Distintos diccionarios, pequeñas diferencias", "texto": "Algunos diccionarios estadounidenses escriben /i/ en lugar de /iː/ o /r/ en lugar de /ɹ/. No es un error: son convenciones. En este curso usamos ː para las vocales largas y /r/ para la r inglesa.", "tono": "info"}
+    },
+    {
+      "id": "schwa-y-acento",
+      "titulo": "La schwa /ə/ y el acento",
+      "que_es": "El inglés tiene sílabas fuertes y sílabas débiles. La sílaba fuerte (la acentuada) se dice más larga, más alta y más clara. Las sílabas débiles se reducen tanto que su vocal casi desaparece y se convierte en /ə/, llamada **schwa**: un sonido neutro, breve y relajado, como el que haces al dudar («eh…»). Es el sonido más frecuente del inglés y puede escribirse con cualquier letra vocal.",
+      "para_que": [
+        "Para sonar natural: si pronuncias todas las vocales completas, como en español, suenas «silabeado».",
+        "Para entender a los nativos, que reducen las sílabas débiles a /ə/ y a veces las comen.",
+        "Para no poner el acento en la sílaba equivocada en palabras parecidas al español (doctor, hotel, animal)."
+      ],
+      "como_funciona": "Cada palabra de dos o más sílabas tiene una sílaba fuerte, marcada con ˈ en el AFI. Las vocales de las otras sílabas suelen reducirse a /ə/ (o a /ɪ/). La letra no importa: en [[about]] /əˈbaʊt/ la schwa se escribe a; en [[problem]] /ˈprɑːbləm/ se escribe e; en [[doctor]] /ˈdɑːktər/ se escribe o. En español las cinco vocales suenan completas aunque no lleven acento; en inglés, no. Cuidado con las palabras que se parecen al español: muchas cambian de sílaba fuerte (DOC-tor, A-ni-mal, HOS-pi-tal) y otras la conservan (ho-TEL).",
+      "estructuras": [
+        {
+          "etiqueta": "Sílaba débil + sílaba fuerte",
+          "formula": [{"t": "sílaba débil con /ə/", "rol": "otro"}, {"t": "ˈsílaba fuerte", "rol": "complemento"}],
+          "ejemplo": [{"t": "a", "rol": "otro"}, {"t": "bout", "rol": "complemento"}],
+          "es": "about /əˈbaʊt/: la a inicial es una schwa débil; la fuerza está en bout."
+        },
+        {
+          "etiqueta": "Sílaba fuerte + sílabas débiles",
+          "formula": [{"t": "ˈsílaba fuerte", "rol": "complemento"}, {"t": "sílabas débiles", "rol": "otro"}],
+          "ejemplo": [{"t": "Can", "rol": "complemento"}, {"t": "a da", "rol": "otro"}],
+          "es": "Canada /ˈkænədə/: fuerza en CAN, las dos a siguientes son schwas."
+        }
+      ],
+      "ejemplos": [
+        {"en": "banana", "es": "plátano", "nota": "/bəˈnænə/: tres letras a, pero solo la del medio suena /æ/. La primera y la última son schwas. En inglés británico la del medio es /ɑː/: /bəˈnɑːnə/."},
+        {"en": "doctor", "es": "médico, doctor", "nota": "/ˈdɑːktər/: acento en DOC, al revés que en español. La o de -tor se reduce a /ə/."},
+        {"en": "hotel", "es": "hotel", "nota": "/hoʊˈtel/: aquí el acento sí coincide con el español (ho-TEL). No todas las palabras parecidas cambian."},
+        {"en": "animal", "es": "animal", "nota": "/ˈænɪməl/: acento en la primera sílaba. Si dices a-ni-MAL, un nativo tardará en reconocerla."},
+        {"en": "chocolate", "es": "chocolate", "nota": "/ˈtʃɑːklət/: en el habla normal tiene solo dos sílabas. La o central desaparece y la e final es muda."},
+        {"en": "computer", "es": "computadora", "nota": "/kəmˈpjuːtər/: la o de com- es schwa y la fuerza está en PU."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Español: todas las vocales completas", "items": ["pro-ble-ma: tres vocales claras", "ba-na-na: tres a iguales", "El acento solo hace más fuerte una sílaba."]},
+        "b": {"titulo": "Inglés: vocales débiles reducidas", "items": ["PROB-lem /ˈprɑːbləm/: la e casi no suena", "ba-NA-na /bəˈnænə/: tres a distintas", "El acento cambia el sonido de las vocales débiles: se reducen a /ə/."]},
+        "veredicto": "Localiza la sílaba fuerte (ˈ) y relaja las demás. Una schwa bien hecha te hace sonar más natural que una r perfecta."
+      },
+      "pronunciacion": [
+        {"texto": "about", "ipa": "/əˈbaʊt/", "consejo": "Empieza con un «eh» breve y relajado, casi sin abrir la boca, y pon toda la fuerza en bout.", "lento": true},
+        {"texto": "banana", "ipa": "/bəˈnænə/", "consejo": "Solo la sílaba del medio se abre (/æ/, boca amplia). La primera y la última son murmullos cortos: bə-NÆ-nə.", "lento": true},
+        {"texto": "doctor", "ipa": "/ˈdɑːktər/", "consejo": "Golpe de voz en DOC con la boca bien abierta; la segunda sílaba es corta y débil, con la r inglesa sin vibrar.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «doc-TOR» con acento final.", "bien": "/ˈdɑːktər/ DOC-tor", "porque": "En inglés el acento de doctor va en la primera sílaba. Trasladar el acento del español es uno de los errores que más dificultan la comprensión."},
+        {"mal": "Pronunciar la a de about como a española clara.", "bien": "/əˈbaʊt/", "porque": "Esa a está en sílaba débil, así que se reduce a schwa /ə/."},
+        {"mal": "Decir «cho-co-la-te» con cuatro sílabas.", "bien": "/ˈtʃɑːklət/", "porque": "En inglés la e final es muda y la o central se pierde en el habla normal."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "En un diccionario ves: cat /kæt/. ¿Qué es lo que aparece entre las barras?",
+      "opciones": [
+        {"texto": "Los sonidos de la palabra, escritos con símbolos del AFI.", "correcta": true, "porque": "Correcto: las barras encierran sonidos. /kæt/ te dice que cat tiene tres sonidos: /k/, /æ/ y /t/."},
+        {"texto": "Otra forma de escribir la palabra, por ejemplo en letra antigua.", "correcta": false, "porque": "No: la forma escrita es cat. Lo de las barras no es ortografía, es pronunciación."},
+        {"texto": "La traducción de la palabra al inglés británico.", "correcta": false, "porque": "No. El AFI no traduce nada; solo indica sonidos. Cuando el británico difiere, se da otra transcripción, pero sigue siendo pronunciación."}
+      ],
+      "pistas": [
+        "Recuerda para qué sirve el AFI.",
+        "Fíjate en que dentro de las barras aparece un símbolo, æ, que no es una letra normal del inglés.",
+        "Regla: todo lo que va entre barras /…/ son sonidos; cada símbolo representa uno solo."
+      ],
+      "solucion": {"respuesta": "Los sonidos de la palabra, escritos con símbolos del AFI.", "explicacion": "Las barras del AFI encierran sonidos, no letras. /kæt/ indica los tres sonidos de cat: la k, una a muy abierta /æ/ que no existe en español, y la t."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Qué indican los dos puntos ː en /siː/?",
+      "opciones": [
+        {"texto": "Que la vocal anterior es larga y tensa.", "correcta": true, "porque": "Exacto: ː marca una vocal larga. /iː/ es la i larga y tensa de see, distinta de la /ɪ/ corta de sit."},
+        {"texto": "Que la palabra termina ahí.", "correcta": false, "porque": "No: el final de la transcripción lo marca la barra de cierre /, no los dos puntos."},
+        {"texto": "Que esa sílaba lleva el acento.", "correcta": false, "porque": "No: el acento se marca con ˈ ANTES de la sílaba fuerte. ː afecta solo a la duración de la vocal."}
+      ],
+      "pistas": [
+        "Recuerda los cinco símbolos extra del AFI que viste en la lección.",
+        "Mira a qué símbolo sigue ː: va pegado a una vocal.",
+        "Regla: ː después de una vocal significa que esa vocal es larga (y tensa)."
+      ],
+      "solucion": {"respuesta": "Que la vocal anterior es larga y tensa.", "explicacion": "En el AFI, ː alarga la vocal que tiene delante. Por eso /siː/ (see) tiene una i larga y tensa, mientras que /sɪt/ (sit) tiene una i corta y relajada."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada palabra con su transcripción. Todas llevan la letra a o la letra o, pero cada una suena distinto.",
+      "pares": [
+        {"a": "cat", "b": "/kæt/"},
+        {"a": "name", "b": "/neɪm/"},
+        {"a": "car", "b": "/kɑːr/"},
+        {"a": "about", "b": "/əˈbaʊt/"},
+        {"a": "go", "b": "/ɡoʊ/"},
+        {"a": "son", "b": "/sʌn/"}
+      ],
+      "pistas": [
+        "Recuerda: la misma letra puede tener varios sonidos.",
+        "Empieza por las consonantes: /k/, /n/, /ɡ/, /s/ te dicen de qué palabra se trata aunque la vocal sea rara.",
+        "Regla: name lleva el diptongo /eɪ/ por su e final muda; about empieza con schwa /ə/; son suena /ʌ/, igual que sun."
+      ],
+      "solucion": {"respuesta": "cat /kæt/ · name /neɪm/ · car /kɑːr/ · about /əˈbaʊt/ · go /ɡoʊ/ · son /sʌn/", "explicacion": "La letra a suena /æ/ en cat, /eɪ/ en name, /ɑː/ en car y /ə/ en about; la letra o suena /oʊ/ en go y /ʌ/ en son. Ninguna coincide con la a o la o del español: por eso cada palabra se aprende con su sonido."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa las transcripciones con el símbolo vocálico correcto del banco.",
+      "frase": "ship (barco) = /ʃ___p/ · sheep (oveja) = /ʃ___p/",
+      "banco": ["ɪ", "iː", "ə", "æ"],
+      "respuestas": [["ɪ"], ["iː"]],
+      "errores_tipicos": {
+        "iː | ɪ": "Están al revés: ship tiene la i corta /ɪ/ y sheep, escrita con ee, la i larga /iː/.",
+        "iː | iː": "Las dos no pueden ser iguales: si lo fueran, ship y sheep sonarían idénticas. ship lleva la i corta /ɪ/."
+      },
+      "pistas": [
+        "Recuerda la diferencia entre vocal corta y vocal larga.",
+        "Compara la ortografía: ship tiene una sola i; sheep tiene ee.",
+        "Regla: ː indica vocal larga. La i corta y relajada es /ɪ/; la i larga y tensa es /iː/."
+      ],
+      "solucion": {"respuesta": "/ʃɪp/ · /ʃiːp/", "explicacion": "ship lleva la vocal corta y relajada /ɪ/, y sheep la larga y tensa /iː/, marcada con ː. Es el par mínimo más famoso: solo cambia la vocal y cambia el significado."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las transcripciones con el símbolo del banco.",
+      "frase": "full (lleno) = /f___l/ · fool (tonto) = /f___l/",
+      "banco": ["ʊ", "uː", "ʌ", "oʊ"],
+      "respuestas": [["ʊ"], ["uː"]],
+      "errores_tipicos": {
+        "uː | ʊ": "Están al revés: fool, con oo, es la u larga /uː/; full es la corta /ʊ/.",
+        "ʌ | uː": "full no lleva /ʌ/ (el sonido de cup): su vocal es una u corta y relajada, /ʊ/."
+      },
+      "pistas": [
+        "Es el mismo contraste corta/larga que ship/sheep, pero con la u.",
+        "Mira qué palabra tiene la vocal escrita doble (oo).",
+        "Regla: /ʊ/ es la u corta y relajada; /uː/, con ː, es la u larga con los labios muy redondeados."
+      ],
+      "solucion": {"respuesta": "/fʊl/ · /fuːl/", "explicacion": "full tiene la u corta /ʊ/ y fool la u larga /uː/. Si alargas la vocal de full dices fool: de «lleno» pasas a «tonto»."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe una palabra inglesa de tres letras que se pronuncie /siː/ (significa «ver» o «mar»).",
+      "frase": "/siː/ = ___",
+      "respuestas": [["see", "sea"]],
+      "errores_tipicos": {
+        "si": "Estás escribiendo el sonido a la española. En inglés /iː/ se escribe con ee o ea en esta palabra: see o sea.",
+        "sí": "Estás escribiendo el sonido a la española. En inglés /iː/ se escribe con ee o ea en esta palabra: see o sea."
+      },
+      "pistas": [
+        "Recuerda que un mismo sonido puede escribirse de varias maneras.",
+        "El sonido /iː/ se escribe a menudo con dos letras vocales.",
+        "Regla: el sonido /iː/ se escribe a menudo con dos vocales (ee o ea); aquí hay dos palabras válidas que suenan igual."
+      ],
+      "solucion": {"respuesta": "see (o sea)", "explicacion": "see (ver) y sea (mar) se pronuncian igual, /siː/. Son homófonos: el sonido /iː/ se escribe ee en una y ea en la otra. Por eso el AFI es tan útil: /siː/ no te dice la ortografía, te dice el sonido."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.07",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "La transcripción de doctor es /ˈdɑːktər/. ¿Cómo se acentúa?",
+      "opciones": [
+        {"texto": "DOC-tor: la fuerza va en la primera sílaba.", "correcta": true, "porque": "Correcto: ˈ va antes de dɑːk, así que la primera sílaba es la fuerte. Es al revés que en español."},
+        {"texto": "doc-TOR: la fuerza va en la última sílaba, como en español.", "correcta": false, "porque": "No: si fuera así, la marca ˈ estaría antes de tər. Trasladar el acento del español es un error muy común."},
+        {"texto": "Las dos sílabas tienen la misma fuerza.", "correcta": false, "porque": "No: en inglés cada palabra de varias sílabas tiene una sílaba fuerte, y ˈ te dice cuál es."}
+      ],
+      "pistas": [
+        "Recuerda qué símbolo marca el acento en el AFI.",
+        "Busca ˈ en /ˈdɑːktər/: ¿delante de qué sílaba está?",
+        "Regla: ˈ se coloca justo ANTES de la sílaba que lleva el acento."
+      ],
+      "solucion": {"respuesta": "DOC-tor: la fuerza va en la primera sílaba.", "explicacion": "La marca ˈ aparece al principio, antes de dɑːk, así que la sílaba fuerte es DOC. La segunda sílaba se debilita: su o se reduce a schwa /ə/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.08",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "En about /əˈbaʊt/, ¿cómo suena la primera a?",
+      "opciones": [
+        {"texto": "Como una schwa /ə/: un sonido breve, débil y neutro.", "correcta": true, "porque": "Correcto: está en una sílaba sin acento, así que se reduce a /ə/, el sonido más frecuente del inglés."},
+        {"texto": "Como la a española de «casa», clara y completa.", "correcta": false, "porque": "No: en inglés las vocales de las sílabas débiles no se dicen completas. Una a clara aquí suena extranjera."},
+        {"texto": "Como /eɪ/, igual que en name.", "correcta": false, "porque": "No: /eɪ/ aparece en sílabas con fuerza como en name. En about la transcripción dice /ə/."}
+      ],
+      "pistas": [
+        "Recuerda qué les pasa a las vocales de las sílabas sin acento.",
+        "Mira dónde está la marca ˈ: ¿la primera a está antes o después?",
+        "Regla: en sílaba débil, cualquier vocal escrita suele reducirse a schwa /ə/."
+      ],
+      "solucion": {"respuesta": "Como una schwa /ə/: un sonido breve, débil y neutro.", "explicacion": "La marca ˈ está después de la primera a, así que esa a queda en sílaba débil y se reduce a /ə/. La fuerza está en bout /baʊt/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.09",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "know se pronuncia /noʊ/. ¿Qué letra de know NO se pronuncia en absoluto?",
+      "opciones": [
+        {"texto": "La k.", "correcta": true, "porque": "Correcto: la transcripción empieza por /n/. La k de kn- es muda, igual que en knife o knee."},
+        {"texto": "La n.", "correcta": false, "porque": "No: /n/ es el primer sonido de la transcripción, así que la n sí se pronuncia."},
+        {"texto": "La o.", "correcta": false, "porque": "No: la o forma parte del diptongo /oʊ/, que sí se oye."}
+      ],
+      "pistas": [
+        "Recuerda que en inglés hay letras mudas.",
+        "Compara letra por letra la palabra escrita con /noʊ/: ¿con qué sonido empieza la transcripción?",
+        "Regla: en las palabras que empiezan por kn-, la k no suena."
+      ],
+      "solucion": {"respuesta": "La k.", "explicacion": "La transcripción /noʊ/ empieza con /n/, así que la k inicial es muda. Por eso know y no suenan igual. La w tampoco suena como consonante: forma parte de la escritura del diptongo /oʊ/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha dos palabras que solo se diferencian por la vocal y escríbelas en el orden en que las oyes, separadas por coma.",
+      "texto": "ship, sheep",
+      "pistas": [
+        "Una de las palabras tiene la i corta y la otra la i larga.",
+        "La primera es más breve y relajada; la segunda se alarga, con los labios estirados.",
+        "Regla: /ɪ/ corta se escribe normalmente con una i; /iː/ larga, a menudo con ee."
+      ],
+      "solucion": {"respuesta": "ship, sheep", "explicacion": "Primero se oye /ʃɪp/ (barco), con la i corta y relajada, y después /ʃiːp/ (oveja), con la i larga y tensa. Si no notaste la diferencia, repite el audio en modo lento: tu oído se entrena con la práctica."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.11",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, lee la transcripción y repite. Grábate y compara.",
+      "texto": "banana",
+      "ipa": "/bəˈnænə/",
+      "consejo": "Solo la sílaba del medio es fuerte y abierta (/æ/: boca amplia, lengua adelantada). La primera y la última a son schwas: murmullos breves con la boca relajada. No digas «ba-na-na» con tres a iguales.",
+      "es": "plátano"
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.12",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha cuatro palabras (dos pares de vocal corta y larga) y escríbelas en orden, separadas por comas.",
+      "texto": "full, fool, live, leave",
+      "pistas": [
+        "Son dos pares: uno con la u y otro con la i.",
+        "En cada par, la primera palabra es corta y relajada; la segunda es larga y tensa.",
+        "Regla: la vocal corta suele escribirse con una sola letra (u, i) y la larga con dos (oo, ea)."
+      ],
+      "solucion": {"respuesta": "full, fool, live, leave", "explicacion": "Oíste /fʊl/ (lleno), /fuːl/ (tonto), /lɪv/ (vivir) y /liːv/ (irse). En ambos pares la ortografía da una pista: la vocal larga suele escribirse con dos letras (oo, ea)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.como-suena-el-ingles.13",
+      "tipo": "pronunciacion",
+      "dificultad": 3,
+      "enunciado": "Estas palabras se parecen al español pero se acentúan distinto. Escucha, repite y grábate.",
+      "texto": "doctor, animal, hotel",
+      "ipa": "/ˈdɑːktər/, /ˈænɪməl/, /hoʊˈtel/",
+      "consejo": "Marca la sílaba fuerte con un golpe de voz: DOC-tor, A-ni-mal, ho-TEL. En doctor y animal la fuerza va al principio (distinto del español); en hotel va al final (igual que en español). Relaja las sílabas débiles hacia la schwa.",
+      "es": "médico, animal, hotel"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Leer transcripciones en voz alta",
+    "contexto": "Estás en clase. La maestra, Ms. Aisha, escribe transcripciones en el pizarrón y te pide que digas la palabra.",
+    "dialogo": [
+      {"quien": "Ms. Aisha", "en": "Read this word, please: /ʃiːp/.", "es": "Lee esta palabra, por favor: /ʃiːp/."},
+      {"quien": "Sam", "en": "Sheep.", "es": "Sheep (oveja)."},
+      {"quien": "Ms. Aisha", "en": "Very good! And this one: /ʃɪp/?", "es": "¡Muy bien! ¿Y esta: /ʃɪp/?"}
+    ],
+    "tu_turno": "Contesta a la maestra diciendo en voz alta la palabra /ʃɪp/ y, si puedes, añade la siguiente que te enseña: /ˈdɑːktər/.",
+    "modelo": "Ship. And this one: doctor.",
+    "alternativas": ["Ship. Doctor.", "Ship… and doctor."],
+    "claves": ["/ʃɪp/ lleva la i corta y relajada, no la larga de sheep.", "En /ˈdɑːktər/ la fuerza va en DOC.", "Lee la transcripción símbolo por símbolo, sin pensar en la ortografía."]
+  },
+  "resumen": {
+    "esencial": [
+      "En inglés una letra puede tener varios sonidos (a: cat, name, car, about) y un sonido varias escrituras (/iː/: see, sea, key, people).",
+      "El AFI escribe sonidos entre barras; cada símbolo es un solo sonido.",
+      "ː marca vocal larga y tensa: ship /ʃɪp/ ≠ sheep /ʃiːp/.",
+      "ˈ va antes de la sílaba fuerte: /ˈdɑːktər/ = DOC-tor.",
+      "Las sílabas débiles se reducen a schwa /ə/: about, banana, problem."
+    ],
+    "recuerda": [
+      "No leas el inglés con las reglas del español.",
+      "Muchas palabras parecidas al español cambian de sílaba fuerte: DOC-tor, A-ni-mal, HOS-pi-tal.",
+      "Hay letras mudas: know, write, listen, hour."
+    ]
+  },
+  "repaso": [
+    {"id": "sonidos-y-alfabeto.como-suena-el-ingles.r1", "frente": "¿Qué significan las barras en /kæt/?", "reverso": "Que lo de dentro son sonidos (AFI), no letras.", "nota": "Cada símbolo = un sonido."},
+    {"id": "sonidos-y-alfabeto.como-suena-el-ingles.r2", "frente": "¿Qué indica ː en /iː/?", "reverso": "Vocal larga y tensa: sheep /ʃiːp/ frente a ship /ʃɪp/."},
+    {"id": "sonidos-y-alfabeto.como-suena-el-ingles.r3", "frente": "¿Dónde se coloca ˈ y qué indica?", "reverso": "Antes de la sílaba fuerte: /ˈdɑːktər/ = DOC-tor."},
+    {"id": "sonidos-y-alfabeto.como-suena-el-ingles.r4", "frente": "¿Qué es la schwa /ə/?", "reverso": "La vocal débil y neutra de las sílabas sin acento: about /əˈbaʊt/, banana /bəˈnænə/.", "nota": "Es el sonido más frecuente del inglés."},
+    {"id": "sonidos-y-alfabeto.como-suena-el-ingles.r5", "frente": "Di tres sonidos distintos de la letra a.", "reverso": "cat /æ/, name /eɪ/, car /ɑː/ (y about /ə/)."}
+  ]
+}

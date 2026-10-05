@@ -1,0 +1,444 @@
+{
+  "slug": "frases-de-clase",
+  "titulo": "Frases para sobrevivir en clase",
+  "minutos": 30,
+  "objetivos": [
+    "Pedir que te repitan algo o que hablen más despacio: Sorry? Can you repeat that, please? Can you speak more slowly, please?",
+    "Decir que no entiendes o que no sabes: I don't understand. I don't know.",
+    "Preguntar cómo se dice una palabra en inglés y qué significa: How do you say…? What does… mean?",
+    "Entender las instrucciones más comunes del maestro: open, close, listen, repeat, read, write."
+  ],
+  "situacion": {
+    "titulo": "Cuando no entiendes nada",
+    "texto": "Es la segunda clase de Lucía. El maestro, Mr. Ben, habla rápido y usa una palabra que ella no conoce. En lugar de quedarse callada, Lucía usa tres frases que la salvan: pide que repita, que hable más despacio y que le explique la palabra.",
+    "dialogo": [
+      {"quien": "Mr. Ben", "en": "OK, take out your notebooks and work in pairs.", "es": "Bien, saquen sus cuadernos y trabajen en parejas."},
+      {"quien": "Lucía", "en": "Sorry, can you repeat that, please?", "es": "Perdón, ¿puede repetirlo, por favor?"},
+      {"quien": "Mr. Ben", "en": "Sure. Take out your notebooks and work in pairs.", "es": "Claro. Saquen sus cuadernos y trabajen en parejas."},
+      {"quien": "Lucía", "en": "What does pairs mean?", "es": "¿Qué significa pairs?"},
+      {"quien": "Mr. Ben", "en": "Pairs means groups of two. You and Omar, for example.", "es": "Pairs significa grupos de dos. Tú y Omar, por ejemplo."},
+      {"quien": "Lucía", "en": "Ah, OK. Thank you!", "es": "Ah, ya. ¡Gracias!"}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "pedir-ayuda",
+      "titulo": "Pedir que repitan y decir que no entiendes",
+      "que_es": "Son frases fijas para cuando no oíste bien, no entendiste o necesitas más tiempo. Usarlas es la mejor estrategia de un estudiante: en inglés es totalmente normal pedir que te repitan, incluso entre nativos.",
+      "para_que": [
+        "Para no quedarte callado cuando no entiendes en clase, en una llamada o en una tienda.",
+        "Para pedir que alguien hable más despacio sin sonar brusco."
+      ],
+      "como_funciona": "Apréndelas como bloques. **Para que repitan**: Sorry? (la más breve, con entonación de pregunta), Pardon? (más formal) o Can you repeat that, please? Si quieres sonar aún más cortés: Could you repeat that, please? **Para que hablen despacio**: Can you speak more slowly, please? (slowly = despacio; more slowly = más despacio). En la calle oirás también Can you speak slower?, que es muy común en el habla informal; more slowly es la forma estándar. **Para decir que no entiendes o no sabes**: I don't understand. / I don't know. (don't = do not; es la forma de negar que estudiarás en la unidad 9; por ahora úsala como bloque). Nunca digas «I no understand»: en inglés el no del español no va delante del verbo. Y un truco cultural: en inglés las peticiones suenan mucho más amables con please y en forma de pregunta (Can you…?) que como orden directa (Repeat!).",
+      "estructuras": [
+        {
+          "etiqueta": "Petición cortés",
+          "formula": [{"t": "Can you", "rol": "auxiliar"}, {"t": "verbo", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}, {"t": "please?", "rol": "otro"}],
+          "ejemplo": [{"t": "Can you", "rol": "auxiliar"}, {"t": "repeat", "rol": "verbo"}, {"t": "that", "rol": "complemento"}, {"t": "please?", "rol": "otro"}],
+          "es": "¿Puedes repetir eso, por favor?"
+        },
+        {
+          "etiqueta": "No entiendo / No sé",
+          "formula": [{"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "negacion"}, {"t": "understand / know", "rol": "verbo"}],
+          "ejemplo": [{"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "negacion"}, {"t": "understand", "rol": "verbo"}],
+          "es": "No entiendo."
+        }
+      ],
+      "ejemplos": [
+        {"en": "Sorry? Can you repeat that, please?", "es": "¿Perdón? ¿Puedes repetirlo, por favor?", "partes": [{"t": "Sorry", "rol": "otro"}, {"t": "Can you", "rol": "auxiliar"}, {"t": "repeat", "rol": "verbo"}, {"t": "that", "rol": "complemento"}, {"t": "please", "rol": "otro"}], "nota": "Sorry? con entonación ascendente significa «¿cómo dijiste?». that = eso (lo que acabas de decir)."},
+        {"en": "Can you speak more slowly, please?", "es": "¿Puedes hablar más despacio, por favor?", "partes": [{"t": "Can you", "rol": "auxiliar"}, {"t": "speak", "rol": "verbo"}, {"t": "more slowly", "rol": "complemento"}, {"t": "please", "rol": "otro"}], "nota": "slowly es un adverbio (despacio). more slowly = más despacio."},
+        {"en": "I don't understand.", "es": "No entiendo.", "partes": [{"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "negacion"}, {"t": "understand", "rol": "verbo"}], "nota": "El sujeto I es obligatorio y don't va entre el sujeto y el verbo."},
+        {"en": "I don't know.", "es": "No sé.", "partes": [{"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "negacion"}, {"t": "know", "rol": "verbo"}], "nota": "know se pronuncia /noʊ/, con k muda. Suena igual que no."},
+        {"en": "Pardon?", "es": "¿Perdón? / ¿Mande?", "situacion": "No oíste bien a una persona mayor o en un contexto formal.", "nota": "Más formal que Sorry? En EE. UU. se oye también Pardon me?"}
+      ],
+      "comparacion": {
+        "a": {"titulo": "Suena brusco", "items": ["Repeat!", "Speak slow!", "What?"]},
+        "b": {"titulo": "Suena amable", "items": ["Can you repeat that, please?", "Can you speak more slowly, please?", "Sorry? / Pardon?"]},
+        "veredicto": "En inglés una petición sin please y sin forma de pregunta suena a orden. Dos palabras de más cambian totalmente la impresión."
+      },
+      "pronunciacion": [
+        {"texto": "Can you repeat that, please?", "ipa": "/kən juː rɪˈpiːt ðæt ˈpliːz/", "consejo": "can se reduce a /kən/. repeat lleva la fuerza en PEAT, con i larga. please termina en /z/, con zumbido. Sube la voz al final.", "lento": true},
+        {"texto": "I don't understand.", "ipa": "/aɪ doʊnt ˌʌndərˈstænd/", "consejo": "don't es «dount», con el diptongo /oʊ/; la t final casi no se oye. understand lleva la fuerza en STAND, con /æ/ abierta, y termina en nd.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "I no understand.", "bien": "I don't understand.", "porque": "En inglés no se niega poniendo no delante del verbo; se usa don't."},
+        {"mal": "No understand.", "bien": "I don't understand.", "porque": "Faltan el sujeto I y don't."},
+        {"mal": "Can you speak more slow, please?", "bien": "Can you speak more slowly, please?", "porque": "Para modificar un verbo se usa el adverbio slowly. En el habla informal oirás slower, pero more slow no es correcto."}
+      ]
+    },
+    {
+      "id": "preguntar-por-palabras",
+      "titulo": "How do you say…? What does… mean?",
+      "que_es": "Son las dos preguntas más útiles para aprender vocabulario: una va del español al inglés (¿Cómo se dice…?) y la otra del inglés al español (¿Qué significa…?). A ellas se suman How do you spell…? (ya la conoces) y How do you pronounce…?",
+      "para_que": [
+        "Para preguntar al maestro o a un compañero cómo se dice algo que no sabes.",
+        "Para preguntar el significado de una palabra que acabas de oír o leer."
+      ],
+      "como_funciona": "Apréndelas como bloques. **Del español al inglés**: How do you say «mesa» in English? — respuesta: Table. / You say table. **Del inglés al español**: What does table mean? — respuesta: It means «mesa». Fíjate en tres detalles: 1) en How do you say…? la palabra va justo después de say, y in English va al final; 2) en What does… mean? la palabra va en medio, entre does y mean; 3) mean no lleva -s aquí, porque la -s ya la tiene does. El error típico es calcar el español: «What means table?» o «How do you say in English mesa?». Para la pronunciación: How do you pronounce this word?",
+      "estructuras": [
+        {
+          "etiqueta": "¿Cómo se dice…?",
+          "formula": [{"t": "How do you say", "rol": "interrogativo"}, {"t": "palabra", "rol": "complemento"}, {"t": "in English?", "rol": "otro"}],
+          "ejemplo": [{"t": "How do you say", "rol": "interrogativo"}, {"t": "mesa", "rol": "complemento"}, {"t": "in English?", "rol": "otro"}],
+          "es": "¿Cómo se dice «mesa» en inglés?"
+        },
+        {
+          "etiqueta": "¿Qué significa…?",
+          "formula": [{"t": "What does", "rol": "interrogativo"}, {"t": "palabra", "rol": "complemento"}, {"t": "mean?", "rol": "verbo"}],
+          "ejemplo": [{"t": "What does", "rol": "interrogativo"}, {"t": "desk", "rol": "complemento"}, {"t": "mean?", "rol": "verbo"}],
+          "es": "¿Qué significa desk?"
+        }
+      ],
+      "ejemplos": [
+        {"en": "How do you say gato in English?", "es": "¿Cómo se dice «gato» en inglés?", "partes": [{"t": "How do you say", "rol": "interrogativo"}, {"t": "gato", "rol": "complemento"}, {"t": "in English", "rol": "otro"}], "nota": "in English va al final. La respuesta: Cat. / You say cat."},
+        {"en": "What does desk mean?", "es": "¿Qué significa desk?", "partes": [{"t": "What does", "rol": "interrogativo"}, {"t": "desk", "rol": "complemento"}, {"t": "mean", "rol": "verbo"}], "nota": "La palabra va entre does y mean. La respuesta: It means «escritorio»."},
+        {"en": "It means escritorio.", "es": "Significa «escritorio».", "partes": [{"t": "It", "rol": "sujeto"}, {"t": "means", "rol": "verbo"}, {"t": "escritorio", "rol": "complemento"}], "nota": "En la respuesta sí aparece means, con -s, porque el sujeto es it. En la pregunta la -s la lleva does."},
+        {"en": "How do you pronounce this word?", "es": "¿Cómo se pronuncia esta palabra?", "partes": [{"t": "How do you pronounce", "rol": "interrogativo"}, {"t": "this word", "rol": "complemento"}], "nota": "pronounce /prəˈnaʊns/: la fuerza va en NOUNCE."}
+      ],
+      "pronunciacion": [
+        {"texto": "How do you say…?", "ipa": "/haʊ də jə ˈseɪ/", "consejo": "do y you se reducen y se pegan: «jau-də-yə-SEI». say suena «sei».", "lento": true},
+        {"texto": "What does it mean?", "ipa": "/wʌt dʌz ɪt ˈmiːn/", "consejo": "does suena «das» con /ʌ/ y termina en /z/. mean tiene i larga: «miin».", "lento": true}
+      ],
+      "errores": [
+        {"mal": "What means desk?", "bien": "What does desk mean?", "porque": "Es un calque de «¿Qué significa…?». La pregunta necesita does y la palabra va antes de mean."},
+        {"mal": "How do you say in English mesa?", "bien": "How do you say mesa in English?", "porque": "La palabra va justo después de say; in English va al final."},
+        {"mal": "What does desk means?", "bien": "What does desk mean?", "porque": "Después de does el verbo va sin -s."}
+      ]
+    },
+    {
+      "id": "instrucciones",
+      "titulo": "Las instrucciones del maestro",
+      "que_es": "Las instrucciones son órdenes: dicen a alguien qué hacer. En inglés se forman con el verbo solo, sin sujeto (Listen. Open your books.). Es el caso principal en que el inglés omite el sujeto, igual que el español en «Escuchen» o «Abran sus libros».",
+      "para_que": [
+        "Para entender qué te pide el maestro o un libro de ejercicios.",
+        "Para seguir instrucciones escritas en exámenes y aplicaciones."
+      ],
+      "como_funciona": "La fórmula es **verbo + complemento** (+ please para suavizar). El mismo verbo sirve para una persona o para toda la clase: Open your books = abre tu libro / abran sus libros. Para prohibir se pone **Don't** delante: Don't use your phone. (No usen el celular). Verbos frecuentes: open (abrir), close (cerrar), listen (escuchar), repeat (repetir), read (leer), write (escribir), look at (mirar), sit down (sentarse), stand up (ponerse de pie), work in pairs (trabajar en parejas).",
+      "estructuras": [
+        {
+          "etiqueta": "Instrucción",
+          "formula": [{"t": "Verbo", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}, {"t": "(please)", "rol": "otro"}],
+          "ejemplo": [{"t": "Open", "rol": "verbo"}, {"t": "your books", "rol": "complemento"}, {"t": "please", "rol": "otro"}],
+          "es": "Abran sus libros, por favor."
+        },
+        {
+          "etiqueta": "Prohibición",
+          "formula": [{"t": "Don't", "rol": "negacion"}, {"t": "verbo", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"}],
+          "ejemplo": [{"t": "Don't", "rol": "negacion"}, {"t": "use", "rol": "verbo"}, {"t": "your phone", "rol": "complemento"}],
+          "es": "No usen el celular."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Instrucciones frecuentes",
+          "columnas": ["Instrucción", "Significado"],
+          "filas": [
+            ["Open your books.", "Abran sus libros."],
+            ["Close the door, please.", "Cierra la puerta, por favor."],
+            ["Listen and repeat.", "Escuchen y repitan."],
+            ["Read the text.", "Lean el texto."],
+            ["Write your name.", "Escribe tu nombre."],
+            ["Look at the board.", "Miren el pizarrón."],
+            ["Work in pairs.", "Trabajen en parejas."],
+            ["Sit down, please.", "Siéntense, por favor."]
+          ],
+          "audio": [0]
+        }
+      ],
+      "ejemplos": [
+        {"en": "Listen and repeat.", "es": "Escuchen y repitan.", "partes": [{"t": "Listen", "rol": "verbo"}, {"t": "and", "rol": "otro"}, {"t": "repeat", "rol": "verbo"}], "nota": "La instrucción más típica de un ejercicio de pronunciación. listen tiene la t muda: /ˈlɪsən/."},
+        {"en": "Look at the board.", "es": "Miren el pizarrón.", "partes": [{"t": "Look at", "rol": "verbo"}, {"t": "the board", "rol": "complemento"}], "nota": "look va con at cuando dices qué miras: look at + cosa."},
+        {"en": "Don't use your phone.", "es": "No usen el celular.", "partes": [{"t": "Don't", "rol": "negacion"}, {"t": "use", "rol": "verbo"}, {"t": "your phone", "rol": "complemento"}], "nota": "Don't + verbo = prohibición. En inglés se dice «tu celular» (your phone), no «el celular»."},
+        {"en": "Write your name, please.", "es": "Escribe tu nombre, por favor.", "partes": [{"t": "Write", "rol": "verbo"}, {"t": "your name", "rol": "complemento"}, {"t": "please", "rol": "otro"}], "nota": "write tiene la w muda: /raɪt/."}
+      ],
+      "pronunciacion": [
+        {"texto": "Listen and repeat.", "ipa": "/ˈlɪsən ən rɪˈpiːt/", "consejo": "listen sin t: «LIS-ən». and se reduce a /ən/. repeat con la fuerza al final: rə-PIIT.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "You open your books. (como instrucción)", "bien": "Open your books.", "porque": "Las instrucciones no llevan sujeto. Con you parece una descripción («ustedes abren sus libros»)."},
+        {"mal": "No use your phone.", "bien": "Don't use your phone.", "porque": "Para prohibir se usa Don't + verbo. (No phones! sí se ve en letreros, pero con sustantivo.)"},
+        {"mal": "Look the board.", "bien": "Look at the board.", "porque": "Para decir qué miras, look necesita at."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "palabras-para-empezar.frases-de-clase.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada instrucción con su significado.",
+      "pares": [
+        {"a": "Open your books.", "b": "Abran sus libros."},
+        {"a": "Listen and repeat.", "b": "Escuchen y repitan."},
+        {"a": "Look at the board.", "b": "Miren el pizarrón."},
+        {"a": "Work in pairs.", "b": "Trabajen en parejas."},
+        {"a": "Sit down, please.", "b": "Siéntense, por favor."},
+        {"a": "Don't use your phone.", "b": "No usen el celular."}
+      ],
+      "pistas": [
+        "Busca el verbo de cada instrucción: open, listen, look, work, sit, use.",
+        "Don't delante del verbo indica prohibición.",
+        "Regla: las instrucciones empiezan por el verbo; Don't + verbo = no + verbo."
+      ],
+      "solucion": {"respuesta": "Open–Abran · Listen and repeat–Escuchen y repitan · Look at the board–Miren el pizarrón · Work in pairs–Trabajen en parejas · Sit down–Siéntense · Don't use your phone–No usen el celular", "explicacion": "Todas las instrucciones empiezan con el verbo y no llevan sujeto. La única negativa empieza con Don't."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la frase adecuada.",
+      "pregunta": "La maestra dijo algo y no lo oíste bien. ¿Qué dices?",
+      "opciones": [
+        {"texto": "Sorry? Can you repeat that, please?", "correcta": true, "porque": "Correcto: pides con amabilidad que repita."},
+        {"texto": "Repeat!", "correcta": false, "porque": "Es una orden seca; suena brusco, sobre todo hablando con tu maestra."},
+        {"texto": "I don't know.", "correcta": false, "porque": "Significa «no sé». No pides que repita; dices que no sabes la respuesta."}
+      ],
+      "pistas": [
+        "Necesitas que vuelva a decirlo.",
+        "Busca la opción que es una petición cortés.",
+        "Regla: Can you + verbo + please? = petición amable."
+      ],
+      "solucion": {"respuesta": "Sorry? Can you repeat that, please?", "explicacion": "Sorry? llama la atención sobre que no oíste y Can you repeat that, please? pide la repetición con cortesía. Repeat! solo suena bien como instrucción del maestro al grupo."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta.",
+      "frase": "How do you ___ «ventana» in English?",
+      "respuestas": [["say"]],
+      "errores_tipicos": {
+        "speak": "speak es hablar un idioma. Para preguntar cómo se dice una palabra se usa say.",
+        "tell": "tell significa contar o decir a alguien. La frase fija es How do you say…?",
+        "says": "Después de do you el verbo va sin -s: say."
+      },
+      "pistas": [
+        "Es la pregunta para pasar una palabra del español al inglés.",
+        "El verbo significa «decir».",
+        "Regla: How do you + verbo «decir» (sin -s) + palabra + in English?"
+      ],
+      "solucion": {"respuesta": "say", "explicacion": "How do you say «ventana» in English? = ¿Cómo se dice «ventana» en inglés? El verbo es say. (La respuesta sería window.)"}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta.",
+      "frase": "What does eraser ___?",
+      "respuestas": [["mean"]],
+      "errores_tipicos": {
+        "means": "Después de does el verbo va sin -s: mean. La -s ya la lleva does.",
+        "say": "Para preguntar el significado se usa mean: What does… mean?",
+        "meaning": "La pregunta usa el verbo mean, no el sustantivo meaning."
+      },
+      "pistas": [
+        "Es la pregunta para saber qué significa una palabra inglesa.",
+        "El verbo es «significar».",
+        "Regla: What does + palabra + verbo «significar» (sin -s)?"
+      ],
+      "solucion": {"respuesta": "mean", "explicacion": "What does eraser mean? = ¿Qué significa eraser? (goma de borrar). El verbo mean va sin -s porque does ya lleva esa marca."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["you", "Can", "repeat", "please", "that"],
+      "respuestas": ["Can you repeat that, please?"],
+      "traduccion": "¿Puedes repetir eso, por favor?",
+      "pistas": [
+        "Es una petición que empieza con can.",
+        "Después: la persona, el verbo y lo que hay que repetir.",
+        "Estructura: Can + persona + verbo + lo que se repite + please?"
+      ],
+      "solucion": {"respuesta": "Can you repeat that, please?", "explicacion": "Can you abre la petición, repeat es el verbo, that es lo que se repite y please cierra con cortesía."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["more", "speak", "you", "Can", "slowly", "please"],
+      "respuestas": ["Can you speak more slowly, please?"],
+      "traduccion": "¿Puedes hablar más despacio, por favor?",
+      "pistas": [
+        "Empieza igual que la petición anterior.",
+        "more va justo antes de slowly.",
+        "Estructura: Can + persona + verbo + «más despacio» + please?"
+      ],
+      "solucion": {"respuesta": "Can you speak more slowly, please?", "explicacion": "Can you + speak (verbo) + more slowly (más despacio) + please. more siempre va delante de la palabra que intensifica."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "No entiendo.",
+      "respuestas": ["I don't understand."],
+      "errores_tipicos": {
+        "I no understand.": "En inglés no se niega con no delante del verbo: I don't understand.",
+        "No understand.": "Faltan el sujeto I y don't: I don't understand.",
+        "I not understand.": "Falta do: la negación es don't (do not). I don't understand.",
+        "Don't understand.": "Falta el sujeto I. Sin él, parece una orden («no entiendas»)."
+      },
+      "pistas": [
+        "Recuerda que el sujeto es obligatorio.",
+        "La negación se forma con una palabra especial entre el sujeto y el verbo.",
+        "Estructura: sujeto + negación contraída + verbo."
+      ],
+      "solucion": {"respuesta": "I don't understand.", "explicacion": "I (sujeto obligatorio) + don't (negación) + understand (entender). También puedes escribir I do not understand, más enfático. «I no understand» es el calque más común."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.08",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Escribe la palabra española sin comillas.",
+      "es": "¿Cómo se dice «pizarrón» en inglés?",
+      "respuestas": ["How do you say pizarrón in English?", "How do you say pizarron in English?"],
+      "errores_tipicos": {
+        "How do you say in English pizarrón?": "La palabra va justo después de say; in English va al final.",
+        "How is said pizarrón in English?": "Es un calque de «¿cómo se dice?». La frase fija es How do you say…?",
+        "How do you speak pizarrón in English?": "Para palabras se usa say, no speak."
+      },
+      "pistas": [
+        "Es la frase fija para pasar del español al inglés.",
+        "Empieza con How do you say y termina con in English.",
+        "Estructura: How + do + you + say + palabra + in English?"
+      ],
+      "solucion": {"respuesta": "How do you say pizarrón in English?", "explicacion": "How do you say + palabra + in English? La palabra va en medio y in English al final. (La respuesta sería board o whiteboard.)"}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Sorry, I no understand.",
+      "error": "no",
+      "correcciones": ["don't", "do not"],
+      "frase_correcta": "Sorry, I don't understand.",
+      "pistas": [
+        "El error está en la negación.",
+        "En inglés no se niega poniendo no delante del verbo.",
+        "Regla: sujeto + don't + verbo."
+      ],
+      "solucion": {"respuesta": "Sorry, I don't understand.", "explicacion": "La negación en inglés con verbos como understand usa don't: I don't understand. «I no understand» es una traducción literal del español."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Señala el error y corrígelo. Escribe la parte corregida completa.",
+      "frase": "What means backpack?",
+      "error": "What means backpack",
+      "correcciones": ["What does backpack mean"],
+      "frase_correcta": "What does backpack mean?",
+      "pistas": [
+        "Es un calque de «¿Qué significa…?».",
+        "Falta una palabra al principio y el verbo va al final.",
+        "Regla: What + does + palabra + mean?"
+      ],
+      "solucion": {"respuesta": "What does backpack mean?", "explicacion": "La pregunta correcta es What does backpack mean? Necesita does, la palabra va en medio y mean al final, sin -s. (backpack = mochila.)"}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.11",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Tu compañero Omar te pregunta cómo se dice una palabra.",
+      "lineas": [
+        {"quien": "Omar", "en": "How do you say gato in English?", "es": "¿Cómo se dice «gato» en inglés?"}
+      ],
+      "opciones": [
+        {"texto": "Cat. You say cat.", "correcta": true, "porque": "Correcto: le das la palabra en inglés."},
+        {"texto": "It means gato.", "correcta": false, "porque": "It means… explica qué significa una palabra inglesa; Omar ya sabe el significado, lo que quiere es la palabra en inglés."},
+        {"texto": "C-A-T. How do you spell that?", "correcta": false, "porque": "Deletreas bien, pero luego haces una pregunta que no tiene sentido: es Omar quien necesita la información."}
+      ],
+      "pistas": [
+        "Omar quiere saber la palabra inglesa.",
+        "How do you say…? se responde con la palabra, no con su significado.",
+        "Regla: How do you say X? → You say Y. / What does Y mean? → It means X."
+      ],
+      "solucion": {"respuesta": "Cat. You say cat.", "explicacion": "How do you say gato? pide la palabra inglesa: cat. It means… es la respuesta a la otra pregunta, What does… mean?"}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Estás en una llamada con el servicio al cliente. La agente habla muy rápido.",
+      "lineas": [
+        {"quien": "Agent", "en": "Please-confirm-your-account-number-and-the-date-of-your-last-payment.", "es": "(Por favor confirme su número de cuenta y la fecha de su último pago, dicho muy rápido.)"}
+      ],
+      "opciones": [
+        {"texto": "Sorry, can you speak more slowly, please?", "correcta": true, "porque": "Correcto: pides con cortesía que hable más despacio."},
+        {"texto": "Speak slow!", "correcta": false, "porque": "Suena a orden brusca y slow no es la forma estándar para modificar un verbo."},
+        {"texto": "I don't know.", "correcta": false, "porque": "No es que no sepas: es que no entendiste. Además, la agente pensaría que no tienes el dato."}
+      ],
+      "pistas": [
+        "El problema es la velocidad, no la información.",
+        "Busca la petición amable completa.",
+        "Regla: Sorry + Can you + verbo + «más despacio» + please?"
+      ],
+      "solucion": {"respuesta": "Sorry, can you speak more slowly, please?", "explicacion": "Sorry + petición con Can you… please suena educado y claro. More slowly es la forma correcta de «más despacio»."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.13",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la instrucción del maestro y escríbela.",
+      "texto": "Open your books and listen, please.",
+      "pistas": [
+        "Es una instrucción con dos verbos.",
+        "El primer verbo significa «abrir» y el segundo «escuchar».",
+        "Estructura: verbo + complemento + and + verbo + please (sin sujeto)."
+      ],
+      "solucion": {"respuesta": "Open your books and listen, please.", "explicacion": "«Abran sus libros y escuchen, por favor». Las instrucciones empiezan por el verbo, sin sujeto. listen se escribe con t, aunque no suena."}
+    },
+    {
+      "id": "palabras-para-empezar.frases-de-clase.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "Can you repeat that, please?",
+      "ipa": "/kən juː rɪˈpiːt ðæt ˈpliːz/",
+      "consejo": "can se reduce a /kən/, muy breve. repeat con la fuerza en PEAT. that con la lengua entre los dientes (/ð/) y a abierta /æ/. please termina en /z/, con zumbido. Sube la entonación al final: es una petición.",
+      "es": "¿Puedes repetir eso, por favor?"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Pide ayuda en clase",
+    "contexto": "La maestra, Ms. Priya, explica una actividad demasiado rápido y usa una palabra que no conoces.",
+    "dialogo": [
+      {"quien": "Ms. Priya", "en": "OK, everyone, underline the verbs in the text.", "es": "Bien, todos, subrayen los verbos del texto."},
+      {"quien": "Tú", "en": "…", "es": "(pides que repita más despacio)"},
+      {"quien": "Ms. Priya", "en": "Sure. Underline… the verbs… in the text.", "es": "Claro. Subrayen… los verbos… del texto."},
+      {"quien": "Tú", "en": "…", "es": "(preguntas qué significa underline)"}
+    ],
+    "tu_turno": "Pide a Ms. Priya que repita y que hable más despacio; después pregunta qué significa underline.",
+    "modelo": "Sorry, can you repeat that more slowly, please? … What does underline mean?",
+    "alternativas": ["Sorry? Can you speak more slowly, please? … Thank you. What does underline mean?", "Pardon? I don't understand. Can you repeat that, please? … What does underline mean?"],
+    "claves": ["Sorry? / Pardon? para empezar.", "Can you… please? para pedir.", "What does + palabra + mean? (mean sin -s)."]
+  },
+  "resumen": {
+    "esencial": [
+      "Sorry? / Pardon? / Can you repeat that, please?",
+      "Can you speak more slowly, please?",
+      "I don't understand. / I don't know.",
+      "How do you say + palabra + in English?",
+      "What does + palabra + mean? → It means…",
+      "Instrucciones: verbo + complemento (Open your books); prohibición: Don't + verbo."
+    ],
+    "recuerda": [
+      "Nunca «I no understand» ni «What means…?».",
+      "Con please y en forma de pregunta, las peticiones suenan amables.",
+      "Las instrucciones son el único caso en que no hay sujeto."
+    ]
+  },
+  "repaso": [
+    {"id": "palabras-para-empezar.frases-de-clase.r1", "frente": "No entiendo", "reverso": "I don't understand."},
+    {"id": "palabras-para-empezar.frases-de-clase.r2", "frente": "¿Qué significa desk?", "reverso": "What does desk mean?", "nota": "mean sin -s; nunca «What means…?»."},
+    {"id": "palabras-para-empezar.frases-de-clase.r3", "frente": "¿Cómo se dice «mesa» en inglés?", "reverso": "How do you say mesa in English?"},
+    {"id": "palabras-para-empezar.frases-de-clase.r4", "frente": "¿Puedes hablar más despacio, por favor?", "reverso": "Can you speak more slowly, please?"},
+    {"id": "palabras-para-empezar.frases-de-clase.r5", "frente": "No usen el celular", "reverso": "Don't use your phone."}
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "titulo": "Evaluación: países, nacionalidades e idiomas",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "paises-y-nacionalidades.eval.01",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la nacionalidad correcta.",
+      "pregunta": "Nuestra maestra es de Switzerland. Es…",
+      "opciones": [
+        { "texto": "Swiss", "correcta": true, "porque": "Correcto: Switzerland → Swiss, una de las nacionalidades irregulares." },
+        { "texto": "Swedish", "correcta": false, "porque": "Swedish es la nacionalidad de Sweden (Suecia), no de Suiza." },
+        { "texto": "Switzish", "correcta": false, "porque": "No existe: Switzerland no forma su nacionalidad con -ish." },
+        { "texto": "Switzerlandian", "correcta": false, "porque": "No existe: la nacionalidad de Suiza es irregular." }
+      ],
+      "pistas": [
+        "Suiza está en el grupo de las irregulares.",
+        "No se añade ninguna terminación al nombre del país.",
+        "Es irregular y muy corta: no se forma con ninguna terminación a partir de Switzerland."
+      ],
+      "solucion": { "respuesta": "Swiss", "explicacion": "Switzerland tiene nacionalidad irregular: Swiss. Swedish existe, pero es de Suecia (Sweden), un error frecuente por el parecido." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.02",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra.",
+      "frase": "Grace is from ___ UK. She's British.",
+      "traduccion": "Grace es del Reino Unido. Es británica.",
+      "respuestas": [["the"]],
+      "errores_tipicos": { "a": "Con nombres de países se usa the, no a: the UK es un país concreto y su nombre contiene Kingdom." },
+      "pistas": [
+        "Algunos países necesitan artículo.",
+        "UK es la abreviatura de United Kingdom.",
+        "Los nombres con Kingdom, States o Republic llevan the."
+      ],
+      "solucion": { "respuesta": "the", "explicacion": "The UK (the United Kingdom) lleva the porque su nombre contiene la palabra común Kingdom. Lo mismo pasa con the US y the Dominican Republic." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.03",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la nacionalidad. Cuida la mayúscula.",
+      "mayusculas": true,
+      "frase": "Linh is from Vietnam. She's ___.",
+      "traduccion": "Linh es de Vietnam. Es vietnamita.",
+      "respuestas": [["Vietnamese"]],
+      "errores_tipicos": {
+        "Vietnam": "Vietnam es el país. Sin from necesitas la nacionalidad.",
+        "Vietnamian": "Vietnam no está en el grupo -ian, sino en el grupo -ese, como Japan o China.",
+        "vietnamese": "Casi: en inglés las nacionalidades siempre llevan mayúscula: Vietnamese."
+      },
+      "pistas": [
+        "Después de She's sin from va la nacionalidad.",
+        "Vietnam está en Asia, como Japan y China.",
+        "Vietnam forma la nacionalidad con -ese."
+      ],
+      "solucion": { "respuesta": "Vietnamese", "explicacion": "Vietnam pertenece al grupo -ese (como Japanese y Chinese): Vietnamese, con el acento en la última sílaba." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.04",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada país con su nacionalidad.",
+      "pares": [
+        { "a": "Korea", "b": "Korean" },
+        { "a": "Ireland", "b": "Irish" },
+        { "a": "Portugal", "b": "Portuguese" },
+        { "a": "Israel", "b": "Israeli" },
+        { "a": "Thailand", "b": "Thai" },
+        { "a": "Italy", "b": "Italian" }
+      ],
+      "pistas": [
+        "Usa los cinco grupos: -an/-ian, -ish, -ese, -i e irregulares.",
+        "Portugal va con el mismo grupo que Japan; Israel, con el mismo que Pakistan.",
+        "Terminaciones: dos con -an/-ian, una con -ish, una con -ese, una con -i y una irregular muy corta."
+      ],
+      "solucion": { "respuesta": "Korea–Korean, Ireland–Irish, Portugal–Portuguese, Israel–Israeli, Thailand–Thai, Italy–Italian", "explicacion": "Korean e Italian siguen el grupo -an/-ian; Irish, el -ish; Portuguese, el -ese; Israeli, el -i; Thai es irregular (y su th se lee /t/)." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.05",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señala el grupo de palabras incorrecto y escribe la corrección.",
+      "frase": "There is a restaurant Italian next to the bank.",
+      "error": "a restaurant Italian",
+      "correcciones": ["an Italian restaurant"],
+      "frase_correcta": "There is an Italian restaurant next to the bank.",
+      "pistas": [
+        "La nacionalidad funciona como adjetivo.",
+        "Fíjate en el orden de restaurant e Italian.",
+        "En inglés el adjetivo va antes del sustantivo (y recuerda que Italian empieza con sonido vocal)."
+      ],
+      "solucion": { "respuesta": "a restaurant Italian → an Italian restaurant", "explicacion": "La nacionalidad es un adjetivo y va antes del sustantivo: Italian restaurant. Al cambiar el orden, el artículo también cambia a an, porque ahora le sigue Italian, que empieza con sonido vocal: an Italian restaurant." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.06",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y elige la afirmación verdadera.",
+      "pregunta": "Ben es de Edimburgo, en Escocia. ¿Qué oración sobre Ben es correcta?",
+      "opciones": [
+        { "texto": "He's British.", "correcta": true, "porque": "Correcto: Escocia es parte del Reino Unido, y British vale para todo el Reino Unido. También sería correcto Scottish." },
+        { "texto": "He's English.", "correcta": false, "porque": "English es solo de Inglaterra (England). Escocia no es Inglaterra." },
+        { "texto": "He's American.", "correcta": false, "porque": "American significa estadounidense." },
+        { "texto": "He's Irish.", "correcta": false, "porque": "Irish es de Irlanda (Ireland), no de Escocia." }
+      ],
+      "pistas": [
+        "Escocia forma parte de un país más grande.",
+        "Piensa en la diferencia entre English y British.",
+        "English = solo Inglaterra; British = todo el Reino Unido (incluida Escocia)."
+      ],
+      "solucion": { "respuesta": "He's British.", "explicacion": "Ben es escocés (Scottish) y, como Escocia forma parte del Reino Unido, también es British. No es English, porque English se refiere solo a Inglaterra." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.07",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Ellas son japonesas.",
+      "respuestas": ["They're Japanese."],
+      "errores_tipicos": {
+        "They're Japaneses": "Japanese no tiene plural: como adjetivo nunca lleva -s.",
+        "They're Japan": "Japan es el país. Necesitas la nacionalidad.",
+        "They're from Japanese": "From pide el país (Japan). Con la nacionalidad no se usa from."
+      },
+      "pistas": [
+        "«Ellas» y «ellos» son la misma palabra en inglés.",
+        "La nacionalidad va directamente después de be.",
+        "Sujeto + be (contraído) + nacionalidad sin -s, como en We're Brazilian: los adjetivos no tienen plural."
+      ],
+      "solucion": { "respuesta": "They're Japanese.", "explicacion": "They sirve para ellos y ellas; con they el verbo es are. Japanese es un adjetivo y no cambia en plural, así que no lleva -s." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.08",
+      "leccion": "paises-y-nacionalidades",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración escrita correctamente.",
+      "pregunta": "¿Cuál es correcta?",
+      "opciones": [
+        { "texto": "I love Italian food.", "correcta": true, "porque": "Correcto: nacionalidad con mayúscula y antes del sustantivo." },
+        { "texto": "I love Italians food.", "correcta": false, "porque": "Delante de un sustantivo la nacionalidad es adjetivo y no lleva -s: Italian food." },
+        { "texto": "I love food Italian.", "correcta": false, "porque": "Orden del español: en inglés la nacionalidad va antes del sustantivo." },
+        { "texto": "I love Italy food.", "correcta": false, "porque": "Italy es el país; delante de un sustantivo se usa el adjetivo de nacionalidad, Italian." }
+      ],
+      "pistas": [
+        "Revisa tres cosas: la palabra, la -s y el orden.",
+        "Delante de food necesitas un adjetivo, no un país.",
+        "Adjetivo de nacionalidad (sin -s) + sustantivo."
+      ],
+      "solucion": { "respuesta": "I love Italian food.", "explicacion": "La única correcta usa el adjetivo de nacionalidad (Italian, no Italy ni Italians), con mayúscula y delante del sustantivo food. Los adjetivos ingleses no tienen plural." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.09",
+      "leccion": "de-donde-eres",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con Where que corresponde a esta respuesta.",
+      "origen": "They are from Peru.",
+      "instruccion": "Pregunta con Where",
+      "respuestas": ["Where are they from?"],
+      "errores_tipicos": {
+        "Where they are from": "Falta la inversión: are debe ir antes de they.",
+        "From where are they": "From se queda al final de la pregunta en inglés.",
+        "Where is they from": "Con they el verbo es are, también en preguntas."
+      },
+      "pistas": [
+        "Peru es lo que se pregunta: desaparece.",
+        "Where al principio y luego el orden de pregunta con be.",
+        "Where + be + sujeto + from?, como en Where is your teacher from?"
+      ],
+      "solucion": { "respuesta": "Where are they from?", "explicacion": "Se quita Peru, Where pasa al inicio, are se coloca antes de they y from se queda al final." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.10",
+      "leccion": "de-donde-eres",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Mei te pregunta por tu maestra de inglés, que es de Toronto, en Canadá.",
+      "lineas": [
+        { "quien": "Mei", "en": "Is your English teacher American?", "es": "¿Tu maestra de inglés es estadounidense?" }
+      ],
+      "opciones": [
+        { "texto": "No, she isn't. She's Canadian.", "correcta": true, "porque": "Correcto: respuesta corta negativa y después la nacionalidad, sin from." },
+        { "texto": "No, she isn't. She's Canada.", "correcta": false, "porque": "Canada es el país; sin from hace falta la nacionalidad, Canadian." },
+        { "texto": "No, she isn't. She's from Canadian.", "correcta": false, "porque": "From pide el país (Canada), no la nacionalidad." },
+        { "texto": "Yes, she's.", "correcta": false, "porque": "Es falso (es canadiense) y además la respuesta corta afirmativa no se contrae: Yes, she is." }
+      ],
+      "pistas": [
+        "Primero decide si la respuesta es sí o no.",
+        "Después revisa si la oración usa from o no.",
+        "No, she isn't + She's + nacionalidad (sin from) o She's from + país."
+      ],
+      "solucion": { "respuesta": "No, she isn't. She's Canadian.", "explicacion": "La maestra es de Canadá, así que no es American. La respuesta corta es No, she isn't y la aclaración usa la nacionalidad sin from: She's Canadian (o She's from Canada)." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.11",
+      "leccion": "de-donde-eres",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el idioma.",
+      "frase": "Tom is Australian. His first language is ___.",
+      "traduccion": "Tom es australiano. Su lengua materna es el inglés.",
+      "respuestas": [["English"]],
+      "errores_tipicos": {
+        "Australian": "Australian es la nacionalidad. En Australia se habla inglés.",
+        "the English": "Los idiomas no llevan the."
+      },
+      "pistas": [
+        "La nacionalidad no siempre coincide con el idioma.",
+        "¿Qué idioma se habla en Australia?",
+        "En Australia, como en Estados Unidos, se habla el idioma de Inglaterra."
+      ],
+      "solucion": { "respuesta": "English", "explicacion": "En Australia se habla inglés: English. Australian es solo la nacionalidad." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.12",
+      "leccion": "de-donde-eres",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la oración.",
+      "pregunta": "Un estudiante de Guadalajara escribe en su perfil: «I'm Spanish». ¿Qué entenderá un angloparlante?",
+      "opciones": [
+        { "texto": "Que el estudiante es de España.", "correcta": true, "porque": "Correcto: I'm Spanish habla de nacionalidad; Spanish, sin from ni speak, es «español/a de España»." },
+        { "texto": "Que el estudiante habla español.", "correcta": false, "porque": "Para eso haría falta I speak Spanish o My first language is Spanish." },
+        { "texto": "Que el estudiante es mexicano.", "correcta": false, "porque": "Mexicano sería I'm Mexican." },
+        { "texto": "Que el estudiante estudia español.", "correcta": false, "porque": "La oración no dice nada de estudiar: solo usa be + nacionalidad." }
+      ],
+      "pistas": [
+        "Mira qué estructura usa: be + palabra.",
+        "Spanish tiene dos significados; ¿cuál corresponde a be + adjetivo?",
+        "I'm + nacionalidad dice de qué país eres."
+      ],
+      "solucion": { "respuesta": "Que el estudiante es de España.", "explicacion": "Con be, Spanish funciona como nacionalidad: «soy de España». Un mexicano debería escribir I'm Mexican. I speak Spanish." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.13",
+      "leccion": "de-donde-eres",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 1,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": ["Where", "are", "your", "neighbors", "from"],
+      "respuestas": ["Where are your neighbors from?"],
+      "traduccion": "¿De dónde son tus vecinos?",
+      "pistas": [
+        "Empieza con la palabra interrogativa.",
+        "Después va el verbo y luego el sujeto (your neighbors).",
+        "Where + be + sujeto + from?, como en Where is your cousin from?"
+      ],
+      "solucion": { "respuesta": "Where are your neighbors from?", "explicacion": "Where abre la pregunta, are va antes del sujeto plural your neighbors, y from queda al final." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.14",
+      "leccion": "de-donde-eres",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señala el grupo de palabras incorrecto y escribe la corrección.",
+      "frase": "Excuse me, where you are from?",
+      "error": "you are",
+      "correcciones": ["are you"],
+      "frase_correcta": "Excuse me, where are you from?",
+      "pistas": [
+        "Es una pregunta con be.",
+        "Revisa el orden del sujeto y el verbo.",
+        "En las preguntas con be, el verbo va antes del sujeto."
+      ],
+      "solucion": { "respuesta": "you are → are you", "explicacion": "En una pregunta con be hay inversión: el verbo (are) va antes del sujeto (you). Where are you from?" }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.15",
+      "leccion": "de-donde-eres",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés con la expresión fija de la lección.",
+      "es": "¿Hablas francés?",
+      "respuestas": ["Do you speak French?"],
+      "errores_tipicos": {
+        "Do you speak the French": "Los idiomas no llevan the.",
+        "Are you French": "Esa pregunta significa «¿Eres francés?», no «¿Hablas francés?».",
+        "Do you speak France": "France es el país; el idioma es French."
+      },
+      "pistas": [
+        "Usa la expresión fija Do you speak…?",
+        "Francés como idioma es la misma palabra que la nacionalidad.",
+        "Do you speak + idioma con mayúscula y sin the."
+      ],
+      "solucion": { "respuesta": "Do you speak French?", "explicacion": "La expresión fija es Do you speak + idioma. El idioma francés es French, con mayúscula y sin artículo." }
+    },
+    {
+      "id": "paises-y-nacionalidades.eval.16",
+      "leccion": "de-donde-eres",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My neighbors are from the Philippines, and their first language is Tagalog.",
+      "respuestas": ["My neighbours are from the Philippines, and their first language is Tagalog."],
+      "pistas": [
+        "El país lleva artículo porque su nombre es plural.",
+        "Their se refiere a los vecinos.",
+        "the Philippines se escribe con ph al principio y doble p en medio."
+      ],
+      "solucion": { "respuesta": "My neighbors are from the Philippines, and their first language is Tagalog.", "explicacion": "The Philippines lleva the por ser un nombre plural. Their concuerda con my neighbors (plural). Tagalog es un idioma y va con mayúscula." }
+    }
+  ]
+}

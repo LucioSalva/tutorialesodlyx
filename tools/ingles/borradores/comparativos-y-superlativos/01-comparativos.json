@@ -1,0 +1,1274 @@
+{
+  "slug": "comparativos",
+  "titulo": "Comparativos: bigger than, more expensive than",
+  "minutos": 40,
+  "objetivos": [
+    "Formar el comparativo de los adjetivos de una sílaba con -er y aplicar las reglas de ortografía (nicer, bigger, drier).",
+    "Formar el comparativo de los adjetivos de dos sílabas terminados en -y con -ier (happier, easier) y el de los demás adjetivos largos con more (more expensive).",
+    "Usar than para introducir el segundo elemento, también con pronombres: taller than me / taller than I am.",
+    "Usar los irregulares better, worse y farther/further, y evitar «more bigger» y «more better»."
+  ],
+  "situacion": {
+    "titulo": "¿Dónde vivir?",
+    "texto": "Priya se va a mudar y duda entre dos departamentos. Le cuenta a su amigo Ben cómo son. Fíjate en que algunos adjetivos cambian de terminación (bigger, cheaper, nicer) y otros llevan more delante (more modern, more expensive). Y fíjate en la palabra que introduce la segunda cosa: than.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "So, which apartment do you like?",
+        "es": "Entonces, ¿qué departamento te gusta?"
+      },
+      {
+        "quien": "Priya",
+        "en": "I don't know! The apartment on Elm Street is bigger and cheaper.",
+        "es": "¡No sé! El departamento de la calle Elm es más grande y más barato."
+      },
+      {
+        "quien": "Ben",
+        "en": "That sounds great.",
+        "es": "Suena muy bien."
+      },
+      {
+        "quien": "Priya",
+        "en": "Yes, but the other one is more modern, and the area is nicer.",
+        "es": "Sí, pero el otro es más moderno y la zona es más bonita."
+      },
+      {
+        "quien": "Ben",
+        "en": "Is it more expensive?",
+        "es": "¿Es más caro?"
+      },
+      {
+        "quien": "Priya",
+        "en": "A little. But it's closer to my office, so the trip is shorter and easier.",
+        "es": "Un poco. Pero está más cerca de mi oficina, así que el trayecto es más corto y más fácil."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "comparativos-cortos",
+      "titulo": "Adjetivos cortos: -er + than",
+      "que_es": "El **comparativo** dice que una cosa tiene **más** de una cualidad que otra: «más alto», «más barato». En inglés, los adjetivos de **una sílaba** no usan una palabra como «más»: añaden la terminación **-er**. La segunda cosa se introduce con [[than]] («que»): [[My brother is taller than me]].",
+      "para_que": [
+        "Comparar precios: This phone is cheaper than that one.",
+        "Comparar personas: Ana is older than her sister.",
+        "Comparar lugares y el clima: Monterrey is hotter than Mexico City in summer."
+      ],
+      "como_funciona": "**Fórmula:** A + be + adjetivo-**er** + [[than]] + B → {{sujeto:The bus}} {{verbo:is}} {{complemento:cheaper}} {{otro:than the train}}.\n\n**Reglas de ortografía** (todas con adjetivos de una sílaba):\n1. **Regla general: + er.** [[tall]] → [[taller]], [[cheap]] → [[cheaper]], [[old]] → [[older]], [[fast]] → [[faster]].\n2. **Terminan en -e: solo + r.** [[nice]] → [[nicer]], [[large]] → [[larger]], [[safe]] → [[safer]].\n3. **Una vocal + una consonante al final: se dobla la consonante.** [[big]] → [[bigger]], [[hot]] → [[hotter]], [[thin]] → [[thinner]], [[sad]] → [[sadder]]. **No** se dobla si hay dos vocales ([[cheap]] → [[cheaper]], [[cool]] → [[cooler]]) ni si termina en -w o -y ([[slow]] → [[slower]], [[new]] → [[newer]]).\n4. **Consonante + y: la y cambia a i + er.** [[dry]] → [[drier]]. (Con vocal + y no cambia: [[gray]] → [[grayer]].)\n\n**Than, no «that» ni «what»:** [[than]] /ðən/ es la palabra que compara. El español «más grande **que**» lleva a escribir «bigger that», pero that es otra palabra (ese, que relativo).\n\n**No se repite el adjetivo:** [[Ana is taller than Tom]], no «Ana is taller than Tom is tall».\n\n**Sin la segunda parte:** si ya se sabe con qué comparas, puedes omitir than: [[This room is nice, but that one is bigger]].",
+      "estructuras": [
+        {
+          "etiqueta": "Comparativo corto",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo + er",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My city",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "smaller",
+              "rol": "complemento"
+            },
+            {
+              "t": "than Guadalajara.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Mi ciudad es más pequeña que Guadalajara."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Be",
+              "rol": "verbo"
+            },
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "adjetivo + er",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "the train",
+              "rol": "sujeto"
+            },
+            {
+              "t": "faster",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the bus?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿El tren es más rápido que el autobús?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Reglas de ortografía del comparativo corto",
+          "columnas": [
+            "Regla",
+            "Adjetivo",
+            "Comparativo",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "+ er",
+              "cheap",
+              "cheaper",
+              "The bus is cheaper than a taxi."
+            ],
+            [
+              "-e → + r",
+              "nice",
+              "nicer",
+              "Your house is nicer than mine."
+            ],
+            [
+              "vocal + consonante → doble",
+              "big",
+              "bigger",
+              "Texas is bigger than Ohio."
+            ],
+            [
+              "vocal + consonante → doble",
+              "hot",
+              "hotter",
+              "July is hotter than March."
+            ],
+            [
+              "consonante + y → ier",
+              "dry",
+              "drier",
+              "The north is drier than the south."
+            ],
+            [
+              "termina en -w: no dobla",
+              "slow",
+              "slower",
+              "The old bus is slower than the new one."
+            ]
+          ],
+          "audio": [
+            2,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My sister is older than me.",
+          "es": "Mi hermana es mayor que yo.",
+          "partes": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "older",
+              "rol": "complemento"
+            },
+            {
+              "t": "than me",
+              "rol": "otro"
+            }
+          ],
+          "nota": "«Mayor» (de edad) = older. Después de than, en conversación, se usa el pronombre de objeto: than me."
+        },
+        {
+          "en": "Today is hotter than yesterday.",
+          "es": "Hoy hace más calor que ayer.",
+          "partes": [
+            {
+              "t": "Today",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "hotter",
+              "rol": "complemento"
+            },
+            {
+              "t": "than yesterday",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Hot termina en vocal + consonante (o + t): se dobla la t. El español dice «hace calor»; el inglés usa be + adjetivo."
+        },
+        {
+          "en": "This hotel is nicer, but it's farther from the beach.",
+          "es": "Este hotel es más bonito, pero está más lejos de la playa.",
+          "nota": "Nice termina en -e: solo añade -r. Aquí no hay than porque se sobreentiende con qué comparas."
+        },
+        {
+          "en": "Is your new phone faster than the old one?",
+          "es": "¿Tu teléfono nuevo es más rápido que el viejo?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "your new phone",
+              "rol": "sujeto"
+            },
+            {
+              "t": "faster",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the old one",
+              "rol": "otro"
+            }
+          ],
+          "nota": "En la pregunta, is va delante del sujeto, como siempre con be. The old one = el viejo (one evita repetir phone)."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Cómo se forma el comparativo?",
+        "centro": "comparativo",
+        "ramas": [
+          {
+            "texto": "1 sílaba: + er",
+            "detalle": "tall → taller"
+          },
+          {
+            "texto": "termina en -e: + r",
+            "detalle": "nice → nicer"
+          },
+          {
+            "texto": "vocal + consonante: doble",
+            "detalle": "big → bigger"
+          },
+          {
+            "texto": "consonante + y: -ier",
+            "detalle": "happy → happier, dry → drier"
+          },
+          {
+            "texto": "2 o más sílabas: more",
+            "detalle": "more modern, more expensive"
+          },
+          {
+            "texto": "irregulares",
+            "detalle": "good → better, bad → worse, far → farther"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "bigger than",
+          "ipa": "/ˈbɪɡər ðən/",
+          "consejo": "La terminación -er es una vocal débil con la lengua curvada hacia atrás, nunca «er» con e clara. Than casi no suena: /ðən/, con la lengua entre los dientes. Todo el acento va en BIG.",
+          "lento": true
+        },
+        {
+          "texto": "older",
+          "ipa": "/ˈoʊldər/",
+          "consejo": "Empieza con el diptongo /oʊ/ (de «o» hacia «u») y la l es oscura, con la lengua echada hacia atrás. No digas «ólder» con o y e españolas."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My brother is more tall than me.",
+          "bien": "My brother is taller than me.",
+          "porque": "Tall tiene una sílaba: el comparativo se forma con -er, no con more."
+        },
+        {
+          "mal": "Mexico City is bigger that Puebla.",
+          "bien": "Mexico City is bigger than Puebla.",
+          "porque": "La palabra para comparar es than. That es otra palabra."
+        },
+        {
+          "mal": "July is hoter than May.",
+          "bien": "July is hotter than May.",
+          "porque": "Hot termina en una vocal + una consonante: la t se dobla."
+        },
+        {
+          "mal": "It's more bigger than my house.",
+          "bien": "It's bigger than my house.",
+          "porque": "More y -er nunca van juntos: o uno o el otro."
+        }
+      ]
+    },
+    {
+      "id": "comparativos-largos",
+      "titulo": "Adjetivos largos: more + adjetivo + than",
+      "que_es": "Los adjetivos de **dos o más sílabas** normalmente no añaden -er: ponen [[more]] delante y el adjetivo no cambia: [[expensive]] → [[more expensive]], [[interesting]] → [[more interesting]]. La gran excepción son los de **dos sílabas terminados en -y**, que se comportan como los cortos: [[happy]] → [[happier]], [[easy]] → [[easier]].",
+      "para_que": [
+        "Comparar productos: This laptop is more expensive than that one.",
+        "Opinar: I think history is more interesting than math.",
+        "Describir cambios: English is easier now."
+      ],
+      "como_funciona": "**Fórmula:** A + be + {{otro:more}} + {{complemento:adjetivo}} + {{otro:than}} + B → [[The plane is more comfortable than the bus]].\n\n**Cuenta las sílabas:**\n- **Tres o más sílabas: siempre more.** [[expensive]] → [[more expensive]], [[beautiful]] → [[more beautiful]], [[comfortable]] → [[more comfortable]], [[important]] → [[more important]].\n- **Dos sílabas terminadas en -y: -ier.** La y se cambia por i: [[happy]] → [[happier]], [[easy]] → [[easier]], [[busy]] → [[busier]], [[funny]] → [[funnier]], [[pretty]] → [[prettier]], [[early]] → [[earlier]].\n- **Las demás de dos sílabas: normalmente more.** [[modern]] → [[more modern]], [[boring]] → [[more boring]], [[famous]] → [[more famous]], [[careful]] → [[more careful]].\n\n**Un caso intermedio:** algunos adjetivos de dos sílabas aceptan las dos formas: [[quiet]] → [[quieter]] o [[more quiet]]; [[simple]] → [[simpler]] o [[more simple]]; [[narrow]] → [[narrower]]. No es un error usar la otra forma; con el tiempo aprenderás cuál suena más natural.\n\n**Adjetivos terminados en -ed:** aunque tengan una sola sílaba, van con more: [[tired]] → [[more tired]], [[bored]] → [[more bored]]. «Tireder» no existe.\n\n**Nunca las dos cosas:** «more easier», «more happier» son errores muy frecuentes. Si el adjetivo ya lleva -er, no lleva more.",
+      "estructuras": [
+        {
+          "etiqueta": "Comparativo largo",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "more + adjetivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The museum",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "more interesting",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the zoo.",
+              "rol": "otro"
+            }
+          ],
+          "es": "El museo es más interesante que el zoológico."
+        },
+        {
+          "etiqueta": "Dos sílabas en -y",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo -y → -ier",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "This exercise",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "easier",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the last one.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Este ejercicio es más fácil que el anterior."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "A hotel is more expensive than a hostel.",
+          "es": "Un hotel es más caro que un hostal.",
+          "partes": [
+            {
+              "t": "A hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "more expensive",
+              "rol": "complemento"
+            },
+            {
+              "t": "than a hostel",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Expensive tiene tres sílabas (ex-pen-sive): more + adjetivo sin cambios."
+        },
+        {
+          "en": "My grandmother is happier in her small town.",
+          "es": "Mi abuela es más feliz en su pueblo.",
+          "partes": [
+            {
+              "t": "My grandmother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "happier",
+              "rol": "complemento"
+            },
+            {
+              "t": "in her small town",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Happy tiene dos sílabas pero termina en -y: happier, no «more happy»."
+        },
+        {
+          "en": "Saturdays are busier than Mondays at the restaurant.",
+          "es": "Los sábados hay más trabajo que los lunes en el restaurante.",
+          "partes": [
+            {
+              "t": "Saturdays",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "busier",
+              "rol": "complemento"
+            },
+            {
+              "t": "than Mondays",
+              "rol": "otro"
+            },
+            {
+              "t": "at the restaurant",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Busy → busier: la y cambia a i. Con sujeto plural, are."
+        },
+        {
+          "en": "I'm more tired today than yesterday.",
+          "es": "Hoy estoy más cansado que ayer.",
+          "nota": "Tired tiene una sílaba, pero los adjetivos en -ed van con more."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Terminación -er / -ier",
+          "items": [
+            "1 sílaba: cheap → cheaper, big → bigger.",
+            "2 sílabas en -y: easy → easier, busy → busier.",
+            "El adjetivo cambia; no hay more."
+          ]
+        },
+        "b": {
+          "titulo": "more + adjetivo",
+          "items": [
+            "3 o más sílabas: more expensive.",
+            "La mayoría de 2 sílabas: more modern, more famous.",
+            "Adjetivos en -ed: more tired.",
+            "El adjetivo no cambia."
+          ]
+        },
+        "veredicto": "Cada adjetivo usa una sola de las dos formas (o, en unos pocos, cualquiera de ellas), pero nunca las dos a la vez: «more cheaper» es siempre un error."
+      },
+      "pronunciacion": [
+        {
+          "texto": "more expensive",
+          "ipa": "/mɔr ɪkˈspɛnsɪv/",
+          "consejo": "Acento en PEN. La primera sílaba es una «i» corta y débil, y ex suena /ɪks/. More se une a la vocal siguiente con la r: «mo-rik-SPEN-siv»."
+        },
+        {
+          "texto": "easier",
+          "ipa": "/ˈiːziər/",
+          "consejo": "La s de easy suena /z/, como un zumbido. Son tres sílabas cortas: «I-zi-ər», con la i inicial larga y el acento en ella."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "This book is more easier than the other one.",
+          "bien": "This book is easier than the other one.",
+          "porque": "Easy → easier ya es comparativo; no se añade more."
+        },
+        {
+          "mal": "Math is interestinger than history.",
+          "bien": "Math is more interesting than history.",
+          "porque": "Interesting tiene cuatro sílabas: se usa more."
+        },
+        {
+          "mal": "She is more happy now.",
+          "bien": "She is happier now.",
+          "porque": "Los adjetivos de dos sílabas en -y forman el comparativo con -ier."
+        }
+      ]
+    },
+    {
+      "id": "irregulares-y-than",
+      "titulo": "Better, worse, farther y los pronombres después de than",
+      "que_es": "Tres adjetivos muy frecuentes tienen comparativos **irregulares**, que hay que memorizar: [[good]] → [[better]], [[bad]] → [[worse]], [[far]] → [[farther]] / [[further]]. Además, después de [[than]] a menudo aparece un pronombre, y hay que saber cuál usar: [[than me]] o [[than I am]].",
+      "para_que": [
+        "Opinar y recomendar: This restaurant is better than that one.",
+        "Hablar de problemas o de salud: My cold is worse today.",
+        "Hablar de distancias: The airport is farther than the station."
+      ],
+      "como_funciona": "**Los irregulares:**\n- [[good]] (bueno) → [[better]] (mejor). También [[well]] (bien) → [[better]]: [[I feel better today]].\n- [[bad]] (malo) → [[worse]] (peor).\n- [[far]] (lejos) → [[farther]] o [[further]] (más lejos). En EE. UU. se prefiere farther para distancias físicas; further vale para distancias y además significa «adicional» ([[further information]]).\n\n**«Más mejor» no existe en ninguno de los dos idiomas:** better ya significa «más bueno». «More better», «more worse», «gooder» y «badder» son errores.\n\n**Pronombres después de than:**\n- En conversación normal, pronombre de objeto: [[She's taller than me]], [[They're younger than us]].\n- En un registro más cuidado, pronombre de sujeto + verbo: [[She's taller than I am]], [[They're younger than we are]].\n- [[than I]] solo, sin verbo, es gramaticalmente correcto pero suena muy formal.\nLo que no se hace es mezclar: «than me am».\n\n**Mayor y menor de edad:** [[older]] / [[younger]]. «Más grande» no se usa para la edad: [[my older brother]] = mi hermano mayor.",
+      "estructuras": [
+        {
+          "etiqueta": "Irregular",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "better / worse / farther",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The new version",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "better",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the old one.",
+              "rol": "otro"
+            }
+          ],
+          "es": "La versión nueva es mejor que la vieja."
+        },
+        {
+          "etiqueta": "Than + pronombre + verbo",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "comparativo",
+              "rol": "complemento"
+            },
+            {
+              "t": "than I am / than she is…",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My son",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "taller",
+              "rol": "complemento"
+            },
+            {
+              "t": "than I am.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Mi hijo es más alto que yo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Comparativos irregulares",
+          "columnas": [
+            "Adjetivo",
+            "Comparativo",
+            "Ejemplo",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "good / well",
+              "better",
+              "Your English is better now.",
+              "Tu inglés está mejor ahora."
+            ],
+            [
+              "bad",
+              "worse",
+              "The traffic is worse on Fridays.",
+              "El tráfico es peor los viernes."
+            ],
+            [
+              "far",
+              "farther / further",
+              "My office is farther than yours.",
+              "Mi oficina está más lejos que la tuya."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The coffee here is better than at my office.",
+          "es": "El café de aquí es mejor que el de mi oficina.",
+          "partes": [
+            {
+              "t": "The coffee here",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "better",
+              "rol": "complemento"
+            },
+            {
+              "t": "than at my office",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Better = mejor. Nunca «more good» ni «more better»."
+        },
+        {
+          "en": "I had a cold yesterday, and today I feel worse.",
+          "es": "Ayer tenía un resfriado y hoy me siento peor.",
+          "nota": "Worse = peor. Feel + adjetivo: I feel worse / better."
+        },
+        {
+          "en": "Carlos is younger than me, but he's taller.",
+          "es": "Carlos es más joven que yo, pero es más alto.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "younger",
+              "rol": "complemento"
+            },
+            {
+              "t": "than me,",
+              "rol": "otro"
+            },
+            {
+              "t": "but he's taller",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Than me: lo normal en conversación. En la segunda parte no hace falta than me: se entiende."
+        },
+        {
+          "en": "Your house is farther from the center than mine.",
+          "es": "Tu casa está más lejos del centro que la mía.",
+          "partes": [
+            {
+              "t": "Your house",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "farther",
+              "rol": "complemento"
+            },
+            {
+              "t": "from the center",
+              "rol": "otro"
+            },
+            {
+              "t": "than mine",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Farther para distancia física (en EE. UU.). Further también sería correcto."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "better",
+          "ipa": "/ˈbɛɾər/",
+          "consejo": "En inglés estadounidense la tt entre vocales suena como la «r» suave del español en «pero»: «BÉ-rer». En Reino Unido la t se pronuncia clara: /ˈbetə/."
+        },
+        {
+          "texto": "worse",
+          "ipa": "/wɝːs/",
+          "consejo": "Labios redondeados para la w y después la vocal de bird (una «e» murmurada con la lengua curvada hacia atrás). La s final es sorda. No suena «guors»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "This movie is more better than the book.",
+          "bien": "This movie is better than the book.",
+          "porque": "Better ya es comparativo; more sobra (igual que «más mejor» en español)."
+        },
+        {
+          "mal": "The weather is badder today.",
+          "bien": "The weather is worse today.",
+          "porque": "Bad es irregular: bad → worse."
+        },
+        {
+          "mal": "My brother is more old than me.",
+          "bien": "My brother is older than me.",
+          "porque": "Old tiene una sílaba: older."
+        },
+        {
+          "mal": "She's taller than me am.",
+          "bien": "She's taller than me. / She's taller than I am.",
+          "porque": "Con verbo se usa el pronombre de sujeto (than I am); sin verbo, el de objeto (than me)."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comparativos-y-superlativos.comparativos.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su comparativo.",
+      "pares": [
+        {
+          "a": "big",
+          "b": "bigger"
+        },
+        {
+          "a": "nice",
+          "b": "nicer"
+        },
+        {
+          "a": "easy",
+          "b": "easier"
+        },
+        {
+          "a": "good",
+          "b": "better"
+        },
+        {
+          "a": "expensive",
+          "b": "more expensive"
+        },
+        {
+          "a": "bad",
+          "b": "worse"
+        }
+      ],
+      "pistas": [
+        "Mira la longitud y la terminación de cada adjetivo.",
+        "Dos de ellos son irregulares; uno es largo.",
+        "Una sílaba: -er (doblando la consonante tras vocal + consonante, solo -r si termina en -e); dos sílabas en -y: -ier; tres sílabas: more; y dos irregulares («mejor», «peor») que hay que memorizar."
+      ],
+      "solucion": {
+        "respuesta": "big → bigger; nice → nicer; easy → easier; good → better; expensive → more expensive; bad → worse.",
+        "explicacion": "Big dobla la g (vocal + consonante); nice solo añade -r; easy cambia la y por i; expensive tiene tres sílabas y usa more. Good y bad son irregulares: better, worse."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál compara bien dos ciudades?",
+      "opciones": [
+        {
+          "texto": "Tokyo is bigger than Paris.",
+          "correcta": true,
+          "porque": "Correcto: big → bigger (se dobla la g) + than."
+        },
+        {
+          "texto": "Tokyo is more big than Paris.",
+          "correcta": false,
+          "porque": "Big tiene una sílaba: se usa -er, no more."
+        },
+        {
+          "texto": "Tokyo is biger than Paris.",
+          "correcta": false,
+          "porque": "Big termina en vocal + consonante: la g se dobla (bigger)."
+        },
+        {
+          "texto": "Tokyo is bigger that Paris.",
+          "correcta": false,
+          "porque": "Para comparar se usa than, no that."
+        }
+      ],
+      "pistas": [
+        "Big es un adjetivo de una sílaba.",
+        "Revisa la ortografía de la terminación y la palabra que introduce Paris.",
+        "Vocal + consonante: se dobla la consonante; y se compara con than."
+      ],
+      "solucion": {
+        "respuesta": "Tokyo is bigger than Paris.",
+        "explicacion": "Big tiene una sílaba y termina en una vocal + una consonante, así que dobla la g: bigger. La segunda ciudad se introduce con than."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el comparativo del adjetivo entre paréntesis.",
+      "frase": "In summer, Mexicali is ___ than Tijuana. (hot)",
+      "respuestas": [
+        [
+          "hotter"
+        ]
+      ],
+      "traduccion": "En verano, en Mexicali hace más calor que en Tijuana.",
+      "pistas": [
+        "Hot tiene una sílaba.",
+        "Termina en una vocal + una consonante.",
+        "Se dobla la consonante y se añade -er."
+      ],
+      "solucion": {
+        "respuesta": "hotter",
+        "explicacion": "Hot tiene una sílaba y termina en vocal + consonante (o + t): la t se dobla y se añade -er → hotter."
+      },
+      "errores_tipicos": {
+        "hoter": "Falta doblar la t: hot termina en vocal + consonante → hotter.",
+        "more hot": "Hot tiene una sílaba: se forma con -er → hotter."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Fíjate en lo débil que suena than.",
+      "texto": "My sister is older than me.",
+      "ipa": "/maɪ ˈsɪstər ɪz ˈoʊldər ðən mi/",
+      "consejo": "Las sílabas fuertes son SIS y OLD. Is y than se dicen muy rápido y débiles: than suena casi /ðn/. La -er de sister y older es la misma vocal débil con la lengua curvada.",
+      "es": "Mi hermana es mayor que yo."
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe el comparativo de cada adjetivo entre paréntesis.",
+      "frase": "The new app is ___ (easy) to use, but it's ___ (expensive) than the old one.",
+      "respuestas": [
+        [
+          "easier"
+        ],
+        [
+          "more expensive"
+        ]
+      ],
+      "traduccion": "La nueva aplicación es más fácil de usar, pero es más cara que la anterior.",
+      "pistas": [
+        "Cuenta las sílabas de cada adjetivo.",
+        "Easy tiene dos sílabas y termina en -y; expensive tiene tres.",
+        "-y → -ier; tres sílabas → more + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "easier | more expensive",
+        "explicacion": "Easy termina en -y: la y cambia a i y se añade -er → easier. Expensive tiene tres sílabas: se usa more expensive."
+      },
+      "errores_tipicos": {
+        "more easy | more expensive": "Easy (dos sílabas en -y) forma el comparativo con -ier: easier.",
+        "more easier | more expensive": "Easier ya es comparativo; no lleva more.",
+        "easier | expensiver": "Expensive es largo: more expensive."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I think this pizza is more better than the other one.",
+      "error": "more better",
+      "correcciones": [
+        "better"
+      ],
+      "frase_correcta": "I think this pizza is better than the other one.",
+      "pistas": [
+        "Busca el comparativo.",
+        "Better ya significa «más bueno».",
+        "Los irregulares no llevan more."
+      ],
+      "solucion": {
+        "respuesta": "more better → better",
+        "explicacion": "Better es el comparativo irregular de good y ya significa «mejor». Con more sería como decir «más mejor»."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "than",
+        "is",
+        "more",
+        "The",
+        "train",
+        "comfortable",
+        "the",
+        "bus"
+      ],
+      "respuestas": [
+        "The train is more comfortable than the bus",
+        "The bus is more comfortable than the train"
+      ],
+      "traduccion": "El tren es más cómodo que el autobús.",
+      "pistas": [
+        "Empieza con el primer medio de transporte.",
+        "Comfortable es largo: va con more.",
+        "A + be + more + adjetivo largo + than + B, como en The hotel is more expensive than the hostel."
+      ],
+      "solucion": {
+        "respuesta": "The train is more comfortable than the bus.",
+        "explicacion": "Comfortable tiene tres sílabas (en inglés estadounidense suele sonar COMF-ter-ble), así que se usa more comfortable. Than introduce el segundo elemento."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "The traffic is worse on Fridays.",
+      "pistas": [
+        "Es una queja sobre el tráfico.",
+        "El comparativo es irregular: significa «peor».",
+        "Sujeto incontable + is + comparativo irregular de bad + on + día de la semana en plural."
+      ],
+      "solucion": {
+        "respuesta": "The traffic is worse on Fridays.",
+        "explicacion": "Worse es el comparativo irregular de bad. Traffic es incontable, por eso is. On Fridays = los viernes."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el pronombre de objeto después de than.",
+      "es": "Mi hermano es más alto que yo.",
+      "respuestas": [
+        "My brother is taller than me.", "My brother's taller than me."
+      ],
+      "pistas": [
+        "Tall tiene una sílaba.",
+        "«Que yo»: en conversación se usa el pronombre de objeto.",
+        "Sujeto + is + adjetivo con -er + than + pronombre de objeto, como en She is older than him."
+      ],
+      "solucion": {
+        "respuesta": "My brother is taller than me.",
+        "explicacion": "Tall → taller (una sílaba, -er). Después de than, en conversación, se usa el pronombre de objeto: than me. En registro más cuidado: than I am."
+      },
+      "errores_tipicos": {
+        "My brother is more tall than me.": "Tall tiene una sílaba: taller.",
+        "My brother is taller that me.": "Para comparar se usa than, no that."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.10",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe la oración con el sentido contrario, usando el comparativo del adjetivo opuesto.",
+      "origen": "My new job is worse than my old job.",
+      "instruccion": "Usa el comparativo de good.",
+      "respuestas": [
+        "My new job is better than my old job.",
+        "My new job is better than my old one."
+      ],
+      "pistas": [
+        "El opuesto de bad es good.",
+        "Good es irregular.",
+        "Good tiene un comparativo irregular (el mismo que well): no lleva more ni -er."
+      ],
+      "solucion": {
+        "respuesta": "My new job is better than my old job.",
+        "explicacion": "Worse (peor) es el comparativo de bad; su opuesto es better, el comparativo irregular de good. El resto de la oración no cambia."
+      },
+      "errores_tipicos": {
+        "My new job is gooder than my old job.": "Good es irregular: better.",
+        "My new job is more good than my old job.": "Good es irregular: better, no more good."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Hoy estoy más feliz que ayer.",
+      "respuestas": [
+        "I'm happier today than yesterday.",
+        "Today I'm happier than yesterday.",
+        "I'm happier today than I was yesterday.",
+        "Today I'm happier than I was yesterday."
+      ],
+      "pistas": [
+        "«Estar feliz» es be + happy.",
+        "Happy tiene dos sílabas y termina en -y.",
+        "Sujeto + be + adjetivo en -y con -ier + today + than + yesterday (today también puede ir al principio)."
+      ],
+      "solucion": {
+        "respuesta": "I'm happier today than yesterday.",
+        "explicacion": "Happy (dos sílabas en -y) → happier. El verbo es be (I'm). Today puede ir al principio o después del adjetivo."
+      },
+      "errores_tipicos": {
+        "I'm more happy today than yesterday.": "Los adjetivos de dos sílabas en -y forman el comparativo con -ier: happier.",
+        "I'm more happier today than yesterday.": "Happier ya es comparativo: sobra more.",
+        "I'm happyer today than yesterday.": "La y cambia a i: happier."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Un amigo te pregunta por tu nuevo departamento.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "How's your new apartment? Is it better than the old one?",
+          "es": "¿Qué tal tu nuevo departamento? ¿Es mejor que el anterior?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, it's bigger and quieter, but it's farther from work.",
+          "correcta": true,
+          "porque": "Correcto: bigger (doble g), quieter (-er, también existe more quiet) y farther (irregular de far)."
+        },
+        {
+          "texto": "Yes, it's more big and more quiet, but it's more far from work.",
+          "correcta": false,
+          "porque": "Big y far no usan more: bigger, farther."
+        },
+        {
+          "texto": "Yes, it's biger and quieter, but it's farer from work.",
+          "correcta": false,
+          "porque": "Big dobla la g (bigger) y far es irregular (farther/further)."
+        },
+        {
+          "texto": "Yes, it's more bigger, but it's farther that work.",
+          "correcta": false,
+          "porque": "More y -er no van juntos, y aquí «from work» necesita from, no that."
+        }
+      ],
+      "pistas": [
+        "Revisa cada comparativo de las opciones.",
+        "Big dobla la consonante; far es irregular.",
+        "Descarta las opciones con more + adjetivo corto, con la g sin doblar o con far regular; «más lejos de» lleva from."
+      ],
+      "solucion": {
+        "respuesta": "Yes, it's bigger and quieter, but it's farther from work.",
+        "explicacion": "Big → bigger (doble g), quiet → quieter (dos sílabas que admiten -er) y far → farther (irregular). Más lejos de = farther from."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Compara dos lugares que conoces.",
+      "objetivo": "Usar comparativos cortos, largos e irregulares con than.",
+      "instrucciones": "Compara dos ciudades, dos barrios o dos lugares de vacaciones que conozcas (40–70 palabras). Usa al menos un comparativo con -er, uno con more y uno irregular (better, worse o farther), y al menos una vez than.",
+      "vocabulario_apoyo": [
+        "big / small",
+        "cheap / expensive",
+        "hot / cold",
+        "busy / quiet",
+        "safe",
+        "beautiful",
+        "interesting",
+        "crowded",
+        "good → better",
+        "bad → worse",
+        "far → farther"
+      ],
+      "estructuras": [
+        "A is + adjetivo-er + than B.",
+        "A is more + adjetivo + than B.",
+        "A is better / worse than B."
+      ],
+      "ejemplo": "My old school was smaller than my new school, but it was more beautiful. The teachers were friendlier, and the food was better!",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas than",
+          "patron": "\\bthan\\b"
+        },
+        {
+          "descripcion": "Usas un comparativo con more",
+          "patron": "\\bmore \\w+"
+        },
+        {
+          "descripcion": "Usas un comparativo irregular",
+          "patron": "\\b(better|worse|farther|further)\\b"
+        },
+        {
+          "descripcion": "Usas un comparativo con -er",
+          "patron": "\\b\\w+(er|ier)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Los adjetivos de una sílaba llevan -er y los largos more (nunca los dos)?",
+        "¿Aplicaste la ortografía (bigger, nicer, busier)?",
+        "¿Usaste than, no that?",
+        "¿Tu texto tiene una conclusión (cuál prefieres y por qué)?"
+      ],
+      "modelo": "I live in Puebla, but my parents live in Veracruz. Veracruz is hotter than Puebla, and it's more relaxed. Puebla is bigger and busier, and the traffic is worse. For me, the food in Puebla is better, but the beach in Veracruz is more beautiful. I prefer Veracruz for vacations, but it's farther from my job.",
+      "explicacion": "El modelo combina todos los tipos: -er (hotter, bigger), -ier (busier), more (more relaxed, more beautiful) e irregulares (worse, better, farther). Usa than para la primera comparación y luego lo omite porque ya se sabe qué dos lugares compara. Termina con una preferencia personal.",
+      "errores_comunes": [
+        "Mezclar more y -er: «more bigger».",
+        "Escribir that en lugar de than.",
+        "Olvidar doblar la consonante: «hoter», «biger»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Autobús o avión?",
+    "contexto": "Tu amiga Lucía va a viajar de Monterrey a Ciudad de México y te pide consejo. El autobús tarda doce horas y cuesta poco; el avión tarda hora y media y cuesta más.",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "Should I take the bus or the plane to Mexico City?",
+        "es": "¿Tomo el autobús o el avión a la Ciudad de México?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Lucía",
+        "en": "Hmm, you're right. Thanks!",
+        "es": "Mmm, tienes razón. ¡Gracias!"
+      }
+    ],
+    "tu_turno": "Compara las dos opciones con al menos tres comparativos (uno con -er, uno con more y uno irregular) y da tu recomendación.",
+    "modelo": "The bus is cheaper, but the plane is faster. The bus is also more tiring, because it's a long trip. I think the plane is better for you.",
+    "alternativas": [
+      "The plane is more expensive, but it's faster and more comfortable. For a short vacation, the plane is better.",
+      "The bus is cheaper than the plane, and it's better for your budget, but the trip is longer and more boring."
+    ],
+    "claves": [
+      "Cortos: cheaper, faster, longer.",
+      "Largos: more expensive, more comfortable, more tiring.",
+      "Irregular: better / worse."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Una sílaba: + er (taller); -e: + r (nicer); vocal + consonante: doble (bigger); consonante + y: -ier (drier).",
+      "Dos sílabas en -y: -ier (happier, easier). La mayoría de las demás de dos sílabas y todas las de tres o más: more (more modern, more expensive).",
+      "Than = que: bigger than, more expensive than.",
+      "Irregulares: good → better, bad → worse, far → farther / further.",
+      "Nunca more + -er: «more bigger», «more better» son errores."
+    ],
+    "recuerda": [
+      "Than me (conversación) / than I am (más cuidado).",
+      "Mayor de edad = older, no «more big».",
+      "Adjetivos en -ed van con more: more tired."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "comparativos-y-superlativos.comparativos.r1",
+      "frente": "Comparativo de big, nice y happy",
+      "reverso": "bigger · nicer · happier",
+      "nota": "Doble consonante, solo -r, y → ier."
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.r2",
+      "frente": "Comparativo de expensive",
+      "reverso": "more expensive",
+      "nota": "Tres sílabas: more."
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.r3",
+      "frente": "Comparativo de good, bad y far",
+      "reverso": "better · worse · farther / further"
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.r4",
+      "frente": "Corrige: She is more taller that me.",
+      "reverso": "She is taller than me.",
+      "nota": "Sin more, y than en lugar de that."
+    },
+    {
+      "id": "comparativos-y-superlativos.comparativos.r5",
+      "frente": "Dos formas de «Es más alto que yo»",
+      "reverso": "He's taller than me. / He's taller than I am."
+    }
+  ]
+}

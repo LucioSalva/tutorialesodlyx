@@ -1,0 +1,1218 @@
+{
+  "slug": "plurales",
+  "titulo": "Plurales",
+  "minutos": 40,
+  "objetivos": [
+    "Formar el plural regular con -s, -es, -ies y -ves según cómo termina la palabra.",
+    "Usar los plurales irregulares más frecuentes: men, women, children, people, feet, teeth, mice.",
+    "Recordar que people es plural (people are) y que los adjetivos no tienen plural.",
+    "Pronunciar la -s final de tres maneras: /s/, /z/ e /ɪz/."
+  ],
+  "situacion": {
+    "titulo": "Preparando la cena",
+    "texto": "Mei y Omar organizan una cena para varios amigos y revisan la cocina. Fíjate en cómo cambian las palabras cuando hablan de más de una cosa: no todas añaden una simple -s.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "OK, the guests: ten people, six women and four men.",
+        "es": "Bueno, los invitados: diez personas, seis mujeres y cuatro hombres."
+      },
+      {
+        "quien": "Omar",
+        "en": "And two children! Are the knives and the glasses clean?",
+        "es": "¡Y dos niños! ¿Están limpios los cuchillos y los vasos?"
+      },
+      {
+        "quien": "Mei",
+        "en": "Yes, they are. But the tomatoes are in the car!",
+        "es": "Sí. ¡Pero los jitomates están en el carro!"
+      },
+      {
+        "quien": "Omar",
+        "en": "No problem. The dishes are ready.",
+        "es": "No hay problema. Los platos están listos."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "plurales-regulares",
+      "titulo": "Plurales regulares: -s, -es, -ies, -ves",
+      "que_es": "Como en español, en inglés el plural se forma casi siempre añadiendo una **-s** al final: [[book]] → [[books]]. Pero la ortografía cambia un poco según cómo termina la palabra: a veces es **-es**, a veces la y se convierte en **-ies** y a veces la f se convierte en **-ves**.",
+      "para_que": [
+        "Hablar de más de una persona o cosa: two cars, three cities.",
+        "Escribir sin faltas de ortografía palabras muy comunes (boxes, babies, knives).",
+        "Entender que un sujeto plural pide are: The buses are late."
+      ],
+      "como_funciona": "1) **Regla general**: + -s ([[car]] → [[cars]], [[apple]] → [[apples]]). 2) Si la palabra termina en **s, ss, sh, ch, x o z**, + **-es**, porque sería imposible pronunciar otra s pegada: [[bus]] → [[buses]], [[glass]] → [[glasses]], [[dish]] → [[dishes]], [[watch]] → [[watches]], [[box]] → [[boxes]]. 3) **Consonante + y** → la y cambia a **-ies**: [[city]] → [[cities]], [[baby]] → [[babies]]. Pero **vocal + y** solo añade -s: [[boy]] → [[boys]], [[day]] → [[days]], [[key]] → [[keys]]. 4) Muchas palabras en **-f / -fe** cambian a **-ves**: [[knife]] → [[knives]], [[wife]] → [[wives]], [[leaf]] → [[leaves]], [[shelf]] → [[shelves]], [[half]] → [[halves]], [[life]] → [[lives]]. No todas: [[roof]] → [[roofs]], [[chef]] → [[chefs]]; si dudas, consulta el diccionario. 5) Terminadas en **-o**: algunas muy comunes llevan -es ([[tomato]] → [[tomatoes]], [[potato]] → [[potatoes]], [[hero]] → [[heroes]]), pero muchas solo -s ([[photo]] → [[photos]], [[piano]] → [[pianos]], [[radio]] → [[radios]]). Aquí no hay una regla segura: apréndelas de memoria.",
+      "estructuras": [
+        {
+          "etiqueta": "Sujeto plural",
+          "formula": [
+            {
+              "t": "The + sustantivo en plural",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The boxes",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "heavy",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Las cajas están pesadas."
+        },
+        {
+          "etiqueta": "El adjetivo no cambia",
+          "formula": [
+            {
+              "t": "Sujeto plural",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo sin -s",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The cities",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "big",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Las ciudades son grandes."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Reglas de ortografía del plural",
+          "columnas": [
+            "Terminación",
+            "Regla",
+            "Singular",
+            "Plural"
+          ],
+          "filas": [
+            [
+              "la mayoría",
+              "+ s",
+              "car, apple, pen",
+              "cars, apples, pens"
+            ],
+            [
+              "s, ss, sh, ch, x, z",
+              "+ es",
+              "bus, glass, dish, watch, box",
+              "buses, glasses, dishes, watches, boxes"
+            ],
+            [
+              "consonante + y",
+              "y → ies",
+              "city, baby, party",
+              "cities, babies, parties"
+            ],
+            [
+              "vocal + y",
+              "+ s",
+              "boy, day, key",
+              "boys, days, keys"
+            ],
+            [
+              "f / fe (muchas)",
+              "→ ves",
+              "knife, wife, leaf, shelf",
+              "knives, wives, leaves, shelves"
+            ],
+            [
+              "o (algunas)",
+              "+ es",
+              "tomato, potato, hero",
+              "tomatoes, potatoes, heroes"
+            ],
+            [
+              "o (otras)",
+              "+ s",
+              "photo, piano, radio",
+              "photos, pianos, radios"
+            ]
+          ],
+          "audio": [
+            2,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The glasses are on the table.",
+          "es": "Los vasos están en la mesa.",
+          "partes": [
+            {
+              "t": "The glasses",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the table",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[glass]] termina en ss: + es. Ojo: [[glasses]] también significa «anteojos»."
+        },
+        {
+          "en": "The babies are asleep.",
+          "es": "Los bebés están dormidos.",
+          "partes": [
+            {
+              "t": "The babies",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "asleep",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[baby]]: consonante (b) + y, así que la y cambia a -ies."
+        },
+        {
+          "en": "The keys are in the car.",
+          "es": "Las llaves están en el carro.",
+          "partes": [
+            {
+              "t": "The keys",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[key]]: vocal (e) + y, así que solo + s. «Keies» no existe."
+        },
+        {
+          "en": "The knives are sharp.",
+          "es": "Los cuchillos están afilados.",
+          "partes": [
+            {
+              "t": "The knives",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "sharp",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[knife]] → [[knives]]: la f se vuelve v. La k inicial es muda en las dos formas: /naɪf/, /naɪvz/."
+        },
+        {
+          "en": "The photos are beautiful.",
+          "es": "Las fotos están preciosas.",
+          "partes": [
+            {
+              "t": "The photos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "beautiful",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Termina en o, pero solo + s. Compara con [[tomatoes]], que lleva -es."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español",
+          "items": [
+            "casas bonitas (el adjetivo también va en plural)",
+            "unos libros (el artículo tiene plural)",
+            "Las ciudades son grandes."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés",
+          "items": [
+            "beautiful houses (el adjetivo NO cambia)",
+            "books (a / an desaparece en plural)",
+            "The cities are big. (big, nunca «bigs»)"
+          ]
+        },
+        "veredicto": "En inglés solo el sustantivo lleva la marca de plural. El adjetivo y el artículo the se quedan igual; a / an se quita."
+      },
+      "pronunciacion": [
+        {
+          "texto": "knives",
+          "ipa": "/naɪvz/",
+          "consejo": "La k no se pronuncia: empieza directamente con n. La v se hace con el labio inferior tocando los dientes de arriba y vibrando (no como la b española), y termina en /z/, con zumbido.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "two boxs",
+          "bien": "two boxes",
+          "porque": "Después de x (y de s, ss, sh, ch, z) el plural es -es."
+        },
+        {
+          "mal": "three citys",
+          "bien": "three cities",
+          "porque": "Consonante + y → -ies."
+        },
+        {
+          "mal": "The houses are bigs.",
+          "bien": "The houses are big.",
+          "porque": "Los adjetivos en inglés no tienen plural, ni después de be ni delante del sustantivo."
+        },
+        {
+          "mal": "They are a teachers.",
+          "bien": "They are teachers.",
+          "porque": "a / an significa «uno»: no puede ir con un plural."
+        }
+      ]
+    },
+    {
+      "id": "plurales-irregulares",
+      "titulo": "Plurales irregulares y el caso de people",
+      "que_es": "Un grupo pequeño de palabras muy frecuentes no forma el plural con -s: cambian la vocal ([[man]] → [[men]]), añaden otra terminación ([[child]] → [[children]]) o son una palabra distinta ([[person]] → [[people]]). Son pocas, pero salen en cada conversación, así que conviene memorizarlas.",
+      "para_que": [
+        "Hablar de personas: men, women, children, people.",
+        "Hablar del cuerpo: feet, teeth.",
+        "Evitar errores muy visibles como «childs», «mans» o «people is»."
+      ],
+      "como_funciona": "Memoriza las parejas: [[man]] → [[men]], [[woman]] → [[women]], [[child]] → [[children]], [[person]] → [[people]], [[foot]] → [[feet]], [[tooth]] → [[teeth]], [[mouse]] → [[mice]]. Estos plurales **ya son plurales**: no se les añade -s («childrens», «peoples» en el sentido de personas, «feets» son errores). Algunas palabras son **iguales en singular y plural**: [[sheep]] (oveja/ovejas), [[fish]] (pez/peces). El caso más importante es [[people]]: aunque no termina en -s, **es plural** y va con [[are]]: [[People are friendly here]]. En español «la gente» es singular («la gente es amable»), y por eso el hispanohablante tiende a decir «people is»: es incorrecto. Existe [[persons]], pero solo en lenguaje legal o de avisos oficiales; en la vida diaria el plural de person es people.",
+      "estructuras": [
+        {
+          "etiqueta": "People = plural",
+          "formula": [
+            {
+              "t": "People / The people",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The people here",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "very kind",
+              "rol": "complemento"
+            }
+          ],
+          "es": "La gente de aquí es muy amable."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Plurales irregulares frecuentes",
+          "columnas": [
+            "Singular",
+            "Plural",
+            "Significado",
+            "Pronunciación del plural"
+          ],
+          "filas": [
+            [
+              "man",
+              "men",
+              "hombre / hombres",
+              "/men/"
+            ],
+            [
+              "woman",
+              "women",
+              "mujer / mujeres",
+              "/ˈwɪmɪn/"
+            ],
+            [
+              "child",
+              "children",
+              "niño / niños",
+              "/ˈtʃɪldrən/"
+            ],
+            [
+              "person",
+              "people",
+              "persona / personas, gente",
+              "/ˈpiːpəl/"
+            ],
+            [
+              "foot",
+              "feet",
+              "pie / pies",
+              "/fiːt/"
+            ],
+            [
+              "tooth",
+              "teeth",
+              "diente / dientes",
+              "/tiːθ/"
+            ],
+            [
+              "mouse",
+              "mice",
+              "ratón / ratones",
+              "/maɪs/"
+            ],
+            [
+              "sheep",
+              "sheep",
+              "oveja / ovejas",
+              "/ʃiːp/"
+            ],
+            [
+              "fish",
+              "fish",
+              "pez / peces",
+              "/fɪʃ/"
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Tres formas de ser irregular",
+        "centro": "plural irregular",
+        "ramas": [
+          {
+            "texto": "cambia la vocal",
+            "detalle": "man → men, woman → women, foot → feet, tooth → teeth, mouse → mice"
+          },
+          {
+            "texto": "otra terminación",
+            "detalle": "child → children"
+          },
+          {
+            "texto": "otra palabra",
+            "detalle": "person → people (¡plural: people are!)"
+          },
+          {
+            "texto": "no cambia",
+            "detalle": "sheep → sheep, fish → fish"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "The children are in the garden.",
+          "es": "Los niños están en el jardín.",
+          "partes": [
+            {
+              "t": "The children",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the garden",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[children]] ya es plural: sin -s. Va con are."
+        },
+        {
+          "en": "People are very friendly in this town.",
+          "es": "La gente es muy amable en este pueblo.",
+          "partes": [
+            {
+              "t": "People",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "very friendly in this town",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«La gente es» (singular en español) → [[People are]] (plural en inglés)."
+        },
+        {
+          "en": "Two women and a man are at the door.",
+          "es": "Dos mujeres y un hombre están en la puerta.",
+          "partes": [
+            {
+              "t": "Two women and a man",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "at the door",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[women]] se escribe con o, pero se pronuncia /ˈwɪmɪn/, «uímin». Solo cambia la vocal escrita de man → men."
+        },
+        {
+          "en": "My feet are cold.",
+          "es": "Tengo los pies fríos.",
+          "partes": [
+            {
+              "t": "My feet",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "cold",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El inglés usa el posesivo con partes del cuerpo (my feet), donde el español dice «los pies». Y be cold, no «tener fríos»."
+        },
+        {
+          "en": "The sheep are on the hill.",
+          "es": "Las ovejas están en la colina.",
+          "partes": [
+            {
+              "t": "The sheep",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the hill",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[sheep]] no cambia; el verbo are te dice que son varias. Con una: The sheep is…"
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "woman / women",
+          "ipa": "/ˈwʊmən/ /ˈwɪmɪn/",
+          "consejo": "El cambio que oyes está en la PRIMERA sílaba, aunque al escribir cambia la segunda. woman: «wu-mən», con u corta. women: «wi-min», con i corta. Distinguirlas al oído es clave: la primera vocal te dice si es una o varias.",
+          "lento": true
+        },
+        {
+          "texto": "people",
+          "ipa": "/ˈpiːpəl/",
+          "consejo": "La primera sílaba es una i larga («pii»). La primera p va con un pequeño soplo de aire. La segunda sílaba casi no tiene vocal: es una l oscura, con la parte de atrás de la lengua levantada. No digas «pí-o-ple»."
+        },
+        {
+          "texto": "teeth",
+          "ipa": "/tiːθ/",
+          "consejo": "i larga y, al final, la lengua entre los dientes soplando (/θ/, como la z de España). Si terminas en t («tit»), no se entiende."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The people is nice.",
+          "bien": "The people are nice.",
+          "porque": "people es plural en inglés, aunque «la gente» sea singular en español."
+        },
+        {
+          "mal": "two childs / two childrens",
+          "bien": "two children",
+          "porque": "El plural de child es children, que ya es plural: no se añade -s."
+        },
+        {
+          "mal": "three mans",
+          "bien": "three men",
+          "porque": "man es irregular: el plural cambia la vocal (men)."
+        }
+      ]
+    },
+    {
+      "id": "pronunciacion-de-la-s",
+      "titulo": "Tres maneras de pronunciar la -s final",
+      "que_es": "La -s del plural se escribe igual, pero se pronuncia de tres formas distintas según el último sonido de la palabra: **/s/** (cats), **/z/** (dogs) o **/ɪz/**, con una sílaba extra (buses). No es un capricho: es lo que la boca hace de forma natural.",
+      "para_que": [
+        "Que te entiendan: una -s mal pronunciada o comida puede convertir un plural en singular.",
+        "Reconocer los plurales al escuchar, sobre todo las formas con sílaba extra (/ɪz/).",
+        "Prepararte: la misma regla vale para la -s del presente (he works) y del posesivo (Tom's)."
+      ],
+      "como_funciona": "Mira el **último sonido** (no la última letra) del singular. 1) Si es **sordo** (sin vibración en la garganta: /p/, /t/, /k/, /f/, /θ/), la -s suena **/s/**: [[cups]], [[cats]], [[books]], [[chefs]]. 2) Si es **sonoro** (la garganta vibra: /b/, /d/, /g/, /v/, /l/, /m/, /n/, /r/… y todas las vocales), la -s suena **/z/**: [[dogs]], [[pens]], [[days]], [[cars]]. 3) Si es un sonido **silbante** (/s/, /z/, /ʃ/, /tʃ/, /dʒ/), se añade una sílaba: **/ɪz/**: [[buses]], [[boxes]], [[dishes]], [[watches]], [[oranges]], [[pages]]. Atención: [[house]] /haʊs/ → [[houses]] /ˈhaʊzɪz/, la s del singular también se vuelve /z/. Para saber si un sonido es sordo o sonoro, pon la mano en la garganta: si vibra, es sonoro. El error típico del hispanohablante es pronunciar siempre /s/ o, peor, no pronunciar la -s final.",
+      "estructuras": [
+        {
+          "etiqueta": "Último sonido → sonido de la -s",
+          "formula": [
+            {
+              "t": "sordo → /s/",
+              "rol": "otro"
+            },
+            {
+              "t": "sonoro → /z/",
+              "rol": "otro"
+            },
+            {
+              "t": "silbante → /ɪz/",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "cats /s/",
+              "rol": "complemento"
+            },
+            {
+              "t": "dogs /z/",
+              "rol": "complemento"
+            },
+            {
+              "t": "buses /ɪz/",
+              "rol": "complemento"
+            }
+          ],
+          "es": "gatos, perros, autobuses"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las tres pronunciaciones",
+          "columnas": [
+            "Sonido de la -s",
+            "Después de…",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "/s/",
+              "p, t, k, f, θ (sordos)",
+              "cups, cats, books, roofs, months"
+            ],
+            [
+              "/z/",
+              "vocales y b, d, g, v, l, m, n, r (sonoros)",
+              "days, dogs, knives, pens, cars"
+            ],
+            [
+              "/ɪz/ (sílaba extra)",
+              "s, z, sh, ch, j/ge (silbantes)",
+              "buses, boxes, dishes, watches, oranges"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The books are new.",
+          "es": "Los libros son nuevos.",
+          "partes": [
+            {
+              "t": "The books",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "new",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/bʊks/: después de /k/ (sorda), la s es sorda /s/, como en español."
+        },
+        {
+          "en": "The dogs are hungry.",
+          "es": "Los perros tienen hambre.",
+          "partes": [
+            {
+              "t": "The dogs",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "hungry",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/dɔːɡz/: después de /g/ (sonora), la s zumba: /z/."
+        },
+        {
+          "en": "The oranges are sweet.",
+          "es": "Las naranjas están dulces.",
+          "partes": [
+            {
+              "t": "The oranges",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "sweet",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/ˈɔːrɪndʒɪz/: orange termina en el sonido /dʒ/, silbante, así que el plural tiene una sílaba más."
+        },
+        {
+          "en": "The houses are very old.",
+          "es": "Las casas son muy viejas.",
+          "partes": [
+            {
+              "t": "The houses",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "very old",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "/ˈhaʊzɪz/: sílaba extra y, además, la s de house se sonoriza en plural."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "cats, dogs, buses",
+          "ipa": "/kæts | dɔːɡz | ˈbʌsɪz/",
+          "consejo": "cats: s sorda, como en español. dogs: alarga el zumbido de la z, sintiendo la vibración en la garganta. buses: dos sílabas, «ba-siz»; la segunda es corta y débil.",
+          "lento": true
+        },
+        {
+          "texto": "watches",
+          "ipa": "/ˈwɑːtʃɪz/",
+          "consejo": "Dos sílabas: «wa-chiz». El sonido /tʃ/ es como la ch de «chico», y después la sílaba /ɪz/ con zumbido."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "buses pronunciado /bʌss/ (una sílaba)",
+          "bien": "buses /ˈbʌsɪz/ (dos sílabas)",
+          "porque": "Después de un sonido silbante hay que añadir la sílaba /ɪz/; si no, singular y plural suenan casi igual."
+        },
+        {
+          "mal": "The book are new. (la -s se «come»)",
+          "bien": "The books are new.",
+          "porque": "Sin la -s final la palabra es singular y no concuerda con are. Pronuncia siempre la consonante final."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sustantivos-y-articulos.plurales.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el plural correcto.",
+      "pregunta": "one box, two ___",
+      "opciones": [
+        {
+          "texto": "boxes",
+          "correcta": true,
+          "porque": "Correcto: box termina en x, y tras x el plural es -es."
+        },
+        {
+          "texto": "boxs",
+          "correcta": false,
+          "porque": "Tras s, ss, sh, ch, x o z no basta la -s: se añade -es."
+        },
+        {
+          "texto": "boxies",
+          "correcta": false,
+          "porque": "-ies solo aparece cuando la palabra termina en consonante + y."
+        }
+      ],
+      "pistas": [
+        "Fíjate en la última letra de box.",
+        "Después de x sería imposible pronunciar otra s pegada.",
+        "s, ss, sh, ch, x, z → + es."
+      ],
+      "solucion": {
+        "respuesta": "boxes",
+        "explicacion": "Box termina en x, uno de los sonidos silbantes, así que el plural añade -es: boxes, que se pronuncia con una sílaba extra /ˈbɑːksɪz/."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el plural de la palabra entre paréntesis.",
+      "frase": "one watch, two ___ (watch)",
+      "respuestas": [
+        [
+          "watches"
+        ]
+      ],
+      "errores_tipicos": {
+        "watchs": "watch termina en ch: el plural es -es, [[watches]]."
+      },
+      "pistas": [
+        "Mira cómo termina watch.",
+        "Termina en ch, uno de los sonidos silbantes.",
+        "s, ss, sh, ch, x, z → + es."
+      ],
+      "solucion": {
+        "respuesta": "watches",
+        "explicacion": "Watch termina en ch, así que el plural añade -es: watches /ˈwɑːtʃɪz/, con una sílaba más."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada singular con su plural irregular.",
+      "pares": [
+        {
+          "a": "man",
+          "b": "men"
+        },
+        {
+          "a": "woman",
+          "b": "women"
+        },
+        {
+          "a": "child",
+          "b": "children"
+        },
+        {
+          "a": "person",
+          "b": "people"
+        },
+        {
+          "a": "foot",
+          "b": "feet"
+        },
+        {
+          "a": "tooth",
+          "b": "teeth"
+        },
+        {
+          "a": "mouse",
+          "b": "mice"
+        }
+      ],
+      "pistas": [
+        "Ninguno de estos plurales lleva -s.",
+        "Varios solo cambian la vocal; uno es una palabra totalmente distinta.",
+        "Regla: los que cambian la vocal conservan la consonante inicial y final (como goose → geese); child añade una terminación; person cambia por una palabra distinta."
+      ],
+      "solucion": {
+        "respuesta": "man → men · woman → women · child → children · person → people · foot → feet · tooth → teeth · mouse → mice",
+        "explicacion": "Son los plurales irregulares más frecuentes: cambian la vocal (men, women, feet, teeth, mice), añaden otra terminación (children) o son otra palabra (people). Ninguno lleva -s."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe el plural de cada palabra entre paréntesis.",
+      "frase": "two ___ (city), three ___ (boy), four ___ (knife)",
+      "respuestas": [
+        [
+          "cities"
+        ],
+        [
+          "boys"
+        ],
+        [
+          "knives"
+        ]
+      ],
+      "errores_tipicos": {
+        "citys | boys | knives": "city termina en consonante + y: la y cambia a -ies, [[cities]].",
+        "cities | boies | knives": "boy termina en vocal + y: solo se añade -s, [[boys]].",
+        "cities | boys | knifes": "knife es de las palabras en -fe que cambian a -ves: [[knives]]."
+      },
+      "pistas": [
+        "Cada palabra sigue una regla distinta.",
+        "Mira la letra antes de la y en city y en boy; y la terminación de knife.",
+        "Regla: consonante + y → ies; vocal + y → s; muchas palabras en -fe cambian a -ves (como life → lives)."
+      ],
+      "solucion": {
+        "respuesta": "cities … boys … knives",
+        "explicacion": "City: consonante (t) + y → cities. Boy: vocal (o) + y → boys. Knife: la f se vuelve v → knives."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "The people in my office ___ very nice.",
+      "opciones": [
+        {
+          "texto": "are",
+          "correcta": true,
+          "porque": "Correcto: people es plural en inglés y va con are."
+        },
+        {
+          "texto": "is",
+          "correcta": false,
+          "porque": "Es el calco de «la gente es». En inglés people es plural: are."
+        }
+      ],
+      "pistas": [
+        "El sujeto es people.",
+        "En español «la gente» es singular, pero ¿y en inglés?",
+        "people es el plural de person: siempre va con are."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "People es plural (el plural de person), así que el verbo es are, aunque en español digamos «la gente es»."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "The childrens are at the park.",
+      "error": "childrens",
+      "correcciones": [
+        "children"
+      ],
+      "frase_correcta": "The children are at the park.",
+      "pistas": [
+        "Una palabra tiene una marca de plural de más.",
+        "Mira el sujeto.",
+        "children ya es el plural de child: no lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "children",
+        "explicacion": "Children ya es plural (de child). Añadirle -s duplica la marca de plural: lo correcto es The children are at the park."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pon la oración en plural.",
+      "origen": "The woman is tired.",
+      "instruccion": "Plural",
+      "respuestas": [
+        "The women are tired."
+      ],
+      "errores_tipicos": {
+        "The womans are tired.": "woman es irregular: el plural es [[women]].",
+        "The women is tired.": "Con un sujeto plural el verbo es [[are]].",
+        "The women are tireds.": "Los adjetivos no tienen plural: tired."
+      },
+      "pistas": [
+        "Cambian dos palabras: el sustantivo y el verbo.",
+        "woman es un plural irregular; tired es un adjetivo.",
+        "Regla: el sustantivo va en su plural irregular, be pasa a plural y el adjetivo no cambia (como The man is tall → The men are tall)."
+      ],
+      "solucion": {
+        "respuesta": "The women are tired.",
+        "explicacion": "Woman tiene plural irregular (women), el verbo pasa a are porque el sujeto es plural, y tired no cambia porque los adjetivos no tienen plural."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.08",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Pon la oración en plural. Usa they.",
+      "origen": "It's a big box.",
+      "instruccion": "Plural (they)",
+      "respuestas": [
+        "They're big boxes."
+      ],
+      "errores_tipicos": {
+        "They're a big boxes.": "a / an no puede ir con un plural: se quita. [[They're big boxes]].",
+        "They're bigs boxes.": "Los adjetivos no tienen plural: [[big]] boxes.",
+        "They're big boxs.": "Después de x el plural es -es: [[boxes]]."
+      },
+      "pistas": [
+        "Cambian el sujeto, el verbo, el artículo y el sustantivo.",
+        "¿Qué pasa con a en plural? ¿Y con el adjetivo big?",
+        "Regla: en plural cambian el pronombre y be, a desaparece, el adjetivo no cambia y el sustantivo en -x añade -es (como It's a small bus → They're small buses)."
+      ],
+      "solucion": {
+        "respuesta": "They're big boxes.",
+        "explicacion": "It's pasa a They're (they are). El artículo a se elimina porque no va con plurales, big se queda igual porque los adjetivos no cambian, y box añade -es tras x."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "expensive",
+        "are",
+        "The",
+        "tomatoes"
+      ],
+      "respuestas": [
+        "The tomatoes are expensive"
+      ],
+      "traduccion": "Los jitomates están caros.",
+      "pistas": [
+        "Empieza por el sujeto.",
+        "El sujeto es plural: ¿qué forma de be lleva?",
+        "Orden: sujeto (artículo + sustantivo) + be + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "The tomatoes are expensive.",
+        "explicacion": "Sujeto plural (The tomatoes, con -es porque tomato es de las palabras en -o que lo llevan) + are + adjetivo sin plural (expensive)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa kind para «amable» y pon here al final.",
+      "es": "La gente es muy amable aquí.",
+      "respuestas": [
+        "People are very kind here.",
+        "The people are very kind here."
+      ],
+      "errores_tipicos": {
+        "People is very kind here.": "people es plural: [[are]], no is.",
+        "The people is very kind here.": "people es plural: [[are]], no is.",
+        "People are very kinds here.": "Los adjetivos no tienen plural: [[kind]]."
+      },
+      "pistas": [
+        "«La gente» se traduce con una palabra que ya conoces.",
+        "En inglés, ¿esa palabra es singular o plural?",
+        "people = plural → are; el adjetivo kind no cambia."
+      ],
+      "solucion": {
+        "respuesta": "People are very kind here.",
+        "explicacion": "«La gente» es people, que en inglés es plural: por eso are. Para hablar de la gente de un lugar en general suele omitirse the, aunque The people are very kind here también es correcto."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.11",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Pronuncia en voz alta cada palabra y elige la respuesta.",
+      "pregunta": "¿En cuál de estas palabras la -s final forma una sílaba extra (/ɪz/)?",
+      "opciones": [
+        {
+          "texto": "dishes",
+          "correcta": true,
+          "porque": "Correcto: dish termina en /ʃ/, un sonido silbante, así que el plural suena /ˈdɪʃɪz/, con dos sílabas."
+        },
+        {
+          "texto": "books",
+          "correcta": false,
+          "porque": "book termina en /k/, sorda: la -s suena /s/ sin sílaba extra (/bʊks/)."
+        },
+        {
+          "texto": "dogs",
+          "correcta": false,
+          "porque": "dog termina en /g/, sonora: la -s suena /z/ sin sílaba extra (/dɔːɡz/)."
+        },
+        {
+          "texto": "days",
+          "correcta": false,
+          "porque": "day termina en vocal: la -s suena /z/ sin sílaba extra (/deɪz/)."
+        }
+      ],
+      "pistas": [
+        "Solo un tipo de sonido final provoca la sílaba extra.",
+        "Busca la palabra cuyo singular termina en un sonido silbante (s, z, sh, ch, j).",
+        "Silbante → /ɪz/; sorda → /s/; sonora o vocal → /z/."
+      ],
+      "solucion": {
+        "respuesta": "dishes",
+        "explicacion": "Dish termina en /ʃ/ (sh), un sonido silbante, así que el plural añade la sílaba /ɪz/. Books tiene /s/ y dogs y days tienen /z/, pero ninguna añade sílaba."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Presta atención a las -s finales.",
+      "texto": "The dishes and the glasses are clean.",
+      "pistas": [
+        "Hay dos plurales y los dos tienen una sílaba extra al final.",
+        "Oirás /ˈdɪʃɪz/ y /ˈɡlæsɪz/.",
+        "Regla: tras sh y ss el plural añade -es y suena /ɪz/; sujeto plural → are."
+      ],
+      "solucion": {
+        "respuesta": "The dishes and the glasses are clean.",
+        "explicacion": "«Los platos y los vasos están limpios.» Los dos plurales llevan -es porque terminan en sh y ss; por eso los oyes con una sílaba extra, /ɪz/."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.13",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Una de las palabras cambia la vocal en plural.",
+      "texto": "Three women and two men are in the kitchen.",
+      "pistas": [
+        "Hay dos grupos de personas, con plurales irregulares.",
+        "/ˈwɪmɪn/ se escribe con o; /men/ es el plural de man.",
+        "Regla: woman y man forman el plural cambiando una vocal (en woman la primera sílaba se sigue escribiendo con o); sujeto plural → are."
+      ],
+      "solucion": {
+        "respuesta": "Three women and two men are in the kitchen.",
+        "explicacion": "«Tres mujeres y dos hombres están en la cocina.» Women suena /ˈwɪmɪn/ aunque se escribe con o; men es el plural de man. Ninguno lleva -s."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.14",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Pon la mano en la garganta para sentir la diferencia entre /s/ y /z/.",
+      "texto": "cats, books, dogs, days, buses, watches",
+      "ipa": "/kæts | bʊks | dɔːɡz | deɪz | ˈbʌsɪz | ˈwɑːtʃɪz/",
+      "consejo": "En cats y books la -s es sorda: no vibra. En dogs y days, alarga la /z/ y notarás la vibración. En buses y watches, añade una sílaba corta /ɪz/. No te comas ninguna -s final.",
+      "es": "gatos, libros, perros, días, autobuses, relojes"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "La lista del súper",
+    "contexto": "Estás con tu compañero de departamento, Ben, revisando qué hay en la cocina antes de ir al súper.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "OK. What's on the list?",
+        "es": "Bien. ¿Qué hay en la lista?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Ben",
+        "en": "And for the party? How many people?",
+        "es": "¿Y para la fiesta? ¿Cuántas personas?"
+      }
+    ],
+    "tu_turno": "Di cuatro cosas que hay que comprar en plural (con al menos una en -es y una en -ies) y responde cuántas personas vienen a la fiesta, distinguiendo hombres, mujeres y niños.",
+    "modelo": "Tomatoes, potatoes, two boxes of cereal and strawberries. For the party: eight people. Three men, three women and two children.",
+    "alternativas": [
+      "Oranges, cherries, knives for the kitchen and glasses. Six people: four women and two men.",
+      "Apples, peaches and batteries. Ten people: five adults and five children."
+    ],
+    "claves": [
+      "Plurales en -es: tomatoes, potatoes, boxes, glasses, peaches.",
+      "Consonante + y → -ies: strawberries, cherries, batteries.",
+      "Irregulares: men, women, children, people (people es plural)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Regla general: + s. Tras s, ss, sh, ch, x, z: + es.",
+      "Consonante + y → -ies (cities); vocal + y → -s (days).",
+      "Muchas -f / -fe → -ves (knives, leaves), pero roofs, chefs.",
+      "Irregulares: men, women, children, people, feet, teeth, mice; sheep y fish no cambian.",
+      "people es plural: people are.",
+      "Los adjetivos no tienen plural y a / an no va con plurales.",
+      "La -s suena /s/ (cats), /z/ (dogs) o /ɪz/ (buses)."
+    ],
+    "recuerda": [
+      "En -o: tomatoes, potatoes, heroes, pero photos, pianos, radios.",
+      "women se pronuncia /ˈwɪmɪn/.",
+      "houses: /ˈhaʊzɪz/."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "sustantivos-y-articulos.plurales.r1",
+      "frente": "Plural de city, boy y knife",
+      "reverso": "cities, boys, knives",
+      "nota": "consonante + y → ies; vocal + y → s; f → ves."
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.r2",
+      "frente": "«La gente es amable.»",
+      "reverso": "People are kind.",
+      "nota": "people es plural."
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.r3",
+      "frente": "Plural de child, person, foot y tooth",
+      "reverso": "children, people, feet, teeth",
+      "nota": "Irregulares: sin -s."
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.r4",
+      "frente": "¿Cómo suena la -s en cats, dogs y buses?",
+      "reverso": "/s/, /z/ e /ɪz/",
+      "nota": "Depende del último sonido del singular."
+    },
+    {
+      "id": "sustantivos-y-articulos.plurales.r5",
+      "frente": "Plural de «It's a big box.»",
+      "reverso": "They're big boxes.",
+      "nota": "Sin a y sin plural en el adjetivo."
+    }
+  ]
+}

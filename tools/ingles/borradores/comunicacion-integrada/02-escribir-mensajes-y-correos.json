@@ -1,0 +1,1317 @@
+{
+  "slug": "escribir-mensajes-y-correos",
+  "titulo": "Escribir mensajes y correos",
+  "minutos": 45,
+  "objetivos": [
+    "Organizar un correo en cinco partes: saludo, apertura, cuerpo, cierre y despedida.",
+    "Elegir el registro adecuado: informal (Hi Ana, / Thanks for… / See you soon!) o formal (Dear Mr. Lee, / I am writing to… / Best regards,).",
+    "Usar bien los títulos Mr., Ms., Mrs. y Dr. con el apellido.",
+    "Escribir mensajes cortos para invitar, aceptar, rechazar y pedir algo."
+  ],
+  "situacion": {
+    "titulo": "Dos correos el mismo día",
+    "texto": "Carlos quiere inscribirse en un curso de fotografía. Escribe dos correos: uno a su amiga Ana, que ya tomó el curso, y otro al director de la escuela, el señor Lee, a quien no conoce. Ana le ayuda a revisar el segundo.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Can you check my email to the school? It starts 'Hi Mr. Kevin!'",
+        "es": "¿Puedes revisar mi correo para la escuela? Empieza «Hi Mr. Kevin!»."
+      },
+      {
+        "quien": "Ana",
+        "en": "Hmm, that's too informal. And 'Mr.' goes with his last name. Try 'Dear Mr. Lee,'.",
+        "es": "Mmm, eso es demasiado informal. Y «Mr.» va con el apellido. Prueba con «Dear Mr. Lee,»."
+      },
+      {
+        "quien": "Carlos",
+        "en": "OK. And at the end I wrote 'Kisses, Carlos'.",
+        "es": "Ok. Y al final puse «Kisses, Carlos»."
+      },
+      {
+        "quien": "Ana",
+        "en": "No way! Write 'Best regards, Carlos Ruiz'. Save the kisses for me!",
+        "es": "¡Ni de broma! Escribe «Best regards, Carlos Ruiz». ¡Los besos guárdalos para mí!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "partes-del-correo",
+      "titulo": "Las cinco partes de un correo",
+      "que_es": "Un correo en inglés, formal o informal, tiene una estructura bastante fija: **saludo**, **apertura** (una primera oración que explica por qué escribes o agradece), **cuerpo** (la información o la petición), **cierre** (una oración para terminar) y **despedida** con tu nombre. Si conoces esta estructura, escribir un correo es rellenar cinco huecos.",
+      "para_que": [
+        "Escribir a una escuela, a un hotel o a una empresa para pedir información.",
+        "Contestar a un amigo o a un compañero de trabajo.",
+        "Entender rápido los correos que recibes, porque sabrás dónde está cada cosa."
+      ],
+      "como_funciona": "1) **Saludo** + coma: [[Hi Ana,]] / [[Dear Mr. Lee,]]. En español formal usamos dos puntos («Estimado Sr. Lee:»); en los correos en inglés lo normal es la coma. (En cartas comerciales de EE. UU. a veces se ven dos puntos, pero la coma nunca está mal en un correo.) Después del saludo se deja una línea en blanco y la siguiente oración empieza con **mayúscula**. 2) **Apertura**: [[Thanks for your message.]] / [[I am writing to ask about…]]. 3) **Cuerpo**: una o dos ideas por párrafo, con oraciones completas (sujeto + verbo). Aquí usas todos los tiempos: presente para la situación actual, pasado para lo que ocurrió, can/could para pedir. 4) **Cierre**: [[See you soon!]] / [[I look forward to hearing from you.]] 5) **Despedida** + coma + nombre en la línea siguiente: [[Love,]] / [[Best regards,]] ⏎ [[Carlos]].",
+      "estructuras": [
+        {
+          "etiqueta": "Esqueleto de un correo",
+          "formula": [
+            {
+              "t": "Saludo,",
+              "rol": "otro"
+            },
+            {
+              "t": "Apertura",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Cuerpo",
+              "rol": "complemento"
+            },
+            {
+              "t": "Cierre",
+              "rol": "verbo"
+            },
+            {
+              "t": "Despedida, Nombre",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Hi Tom,",
+              "rol": "otro"
+            },
+            {
+              "t": "Thanks for the photos!",
+              "rol": "sujeto"
+            },
+            {
+              "t": "They're great.",
+              "rol": "complemento"
+            },
+            {
+              "t": "See you soon!",
+              "rol": "verbo"
+            },
+            {
+              "t": "Love, Mei",
+              "rol": "otro"
+            }
+          ],
+          "es": "Hola, Tom: ¡Gracias por las fotos! Están geniales. ¡Nos vemos pronto! Con cariño, Mei."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Dear Ms. García,",
+          "es": "Estimada Sra. García:",
+          "partes": [
+            {
+              "t": "Dear",
+              "rol": "otro"
+            },
+            {
+              "t": "Ms. García,",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dear se usa en todos los correos formales, aunque en español «querida» sonaría demasiado cariñoso. Va seguido de título + apellido y coma."
+        },
+        {
+          "en": "I am writing to ask about your English courses.",
+          "es": "Le escribo para pedir información sobre sus cursos de inglés.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am writing",
+              "rol": "verbo"
+            },
+            {
+              "t": "to ask about your English courses",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Apertura formal clásica. Se usa el presente continuo (am writing) porque la acción ocurre ahora. Para expresar el propósito se usa to + verbo, no «for ask»."
+        },
+        {
+          "en": "I look forward to hearing from you.",
+          "es": "Quedo en espera de su respuesta.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "look forward to",
+              "rol": "verbo"
+            },
+            {
+              "t": "hearing from you",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Cierre formal fijo. Apréndelo entero: después de look forward to va un verbo con -ing (hearing), no «to hear»."
+        },
+        {
+          "en": "Best regards, Carlos Ruiz",
+          "es": "Saludos cordiales, Carlos Ruiz",
+          "partes": [
+            {
+              "t": "Best regards,",
+              "rol": "otro"
+            },
+            {
+              "t": "Carlos Ruiz",
+              "rol": "sujeto"
+            }
+          ],
+          "nota": "La despedida lleva coma y el nombre va en la línea siguiente. En un correo formal se escribe el nombre completo."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Un correo, cinco piezas",
+        "centro": "email",
+        "ramas": [
+          {
+            "texto": "1. Saludo",
+            "detalle": "Hi Ana, / Dear Mr. Lee,"
+          },
+          {
+            "texto": "2. Apertura",
+            "detalle": "Thanks for your message. / I am writing to…"
+          },
+          {
+            "texto": "3. Cuerpo",
+            "detalle": "la información o la petición (Could you…?)"
+          },
+          {
+            "texto": "4. Cierre",
+            "detalle": "See you soon! / I look forward to hearing from you."
+          },
+          {
+            "texto": "5. Despedida",
+            "detalle": "Love, / Best regards, + tu nombre"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "Dear",
+          "ipa": "/dɪr/",
+          "consejo": "Una sola sílaba: una i corta y relajada seguida de la r inglesa, con la lengua curvada hacia atrás sin tocar el paladar. No digas «di-ar» en dos sílabas."
+        },
+        {
+          "texto": "Best regards",
+          "ipa": "/bɛst rɪˈɡɑːrdz/",
+          "consejo": "El acento cae en «gards». La r inicial de regards no vibra como la de «rosa»: la lengua no toca nada. Termina en /dz/, como el zumbido de una abeja después de una d."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Dear Mr. Lee: i am writing…",
+          "bien": "Dear Mr. Lee, ⏎ I am writing…",
+          "porque": "En los correos en inglés el saludo lleva coma, y la siguiente línea empieza con mayúscula. El pronombre I siempre es mayúscula."
+        },
+        {
+          "mal": "I am writing for ask about the course.",
+          "bien": "I am writing to ask about the course.",
+          "porque": "El propósito («para» + verbo) se expresa con to + verbo, no con for."
+        },
+        {
+          "mal": "I look forward to hear from you.",
+          "bien": "I look forward to hearing from you.",
+          "porque": "En esta expresión fija to es una preposición, así que va seguida de -ing."
+        }
+      ]
+    },
+    {
+      "id": "registro-formal-e-informal",
+      "titulo": "Formal o informal: el registro",
+      "que_es": "El **registro** es el tono del mensaje. No escribes igual a tu primo que a la escuela donde quieres estudiar. En inglés el cambio de registro se nota en el saludo, en la despedida, en las contracciones y en la forma de pedir las cosas.",
+      "para_que": [
+        "No sonar grosero ni demasiado cariñoso con alguien que no conoces.",
+        "No sonar frío o distante con un amigo.",
+        "Adaptar un mismo mensaje a destinatarios distintos."
+      ],
+      "como_funciona": "**Informal** (amigos, familia, compañeros de confianza): [[Hi Ana,]] / [[Hey Sam,]]; contracciones ([[I'm]], [[can't]]); peticiones con [[Can you…?]]; cierres como [[See you soon!]], [[Talk soon!]]; despedidas como [[Love,]] (familia y amigos cercanos), [[Take care,]] o [[Cheers,]] (muy británico). **Formal** (una escuela, una empresa, alguien que no conoces): [[Dear Mr. Lee,]] / [[Dear Ms. García,]]; si no sabes el nombre, [[Dear Sir or Madam,]]; formas completas ([[I am]], [[cannot]]); peticiones con [[Could you…?]] o [[Could you please…?]]; cierre [[I look forward to hearing from you.]]; despedida [[Best regards,]] o [[Kind regards,]]. En EE. UU. también se usa [[Sincerely,]]; en el Reino Unido, [[Yours sincerely,]]. **Los títulos**: [[Mr.]] para hombres; [[Ms.]] para mujeres (no indica si está casada, es la opción segura); [[Mrs.]] para una mujer casada que lo prefiere; [[Dr.]] para doctores. En inglés estadounidense llevan punto (Mr., Ms., Dr.); en británico, normalmente no (Mr Lee, Ms García). Y siempre van con el **apellido**: [[Mr. Lee]], nunca «Mr. Kevin». Si en un contexto semiformal ya se tutean, puedes usar [[Dear Kevin,]] o [[Hi Kevin,]], pero sin título.",
+      "estructuras": [
+        {
+          "etiqueta": "Petición informal",
+          "formula": [
+            {
+              "t": "Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "send",
+              "rol": "verbo"
+            },
+            {
+              "t": "me the address?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Me mandas la dirección?"
+        },
+        {
+          "etiqueta": "Petición formal",
+          "formula": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            },
+            {
+              "t": "send",
+              "rol": "verbo"
+            },
+            {
+              "t": "me the prices?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Podría enviarme los precios, por favor?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La misma función en dos registros",
+          "columnas": [
+            "Función",
+            "Informal",
+            "Formal"
+          ],
+          "filas": [
+            [
+              "Saludo",
+              "Hi Ana, / Hey Sam,",
+              "Dear Mr. Lee, / Dear Sir or Madam,"
+            ],
+            [
+              "Agradecer",
+              "Thanks for your message!",
+              "Thank you for your email."
+            ],
+            [
+              "Explicar el motivo",
+              "Just a quick message about Saturday.",
+              "I am writing to ask about the course."
+            ],
+            [
+              "Pedir algo",
+              "Can you send me the address?",
+              "Could you please send me more information?"
+            ],
+            [
+              "Disculparse",
+              "Sorry, I can't come.",
+              "I am sorry, but I cannot attend the meeting."
+            ],
+            [
+              "Cerrar",
+              "See you soon! / Talk soon!",
+              "I look forward to hearing from you."
+            ],
+            [
+              "Despedirse",
+              "Love, / Take care,",
+              "Best regards, / Kind regards, / Sincerely,"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Hi Ana, thanks for your message! I'm free on Saturday.",
+          "es": "¡Hola, Ana! Gracias por tu mensaje. El sábado estoy libre.",
+          "partes": [
+            {
+              "t": "Hi Ana,",
+              "rol": "otro"
+            },
+            {
+              "t": "thanks for your message!",
+              "rol": "complemento"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "free",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Saturday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Registro informal: Hi, thanks y la contracción I'm."
+        },
+        {
+          "en": "Dear Sir or Madam, I am writing to ask about the apartment on Oak Street.",
+          "es": "Estimados señores: Les escribo para pedir información sobre el departamento de la calle Oak.",
+          "partes": [
+            {
+              "t": "Dear Sir or Madam,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am writing",
+              "rol": "verbo"
+            },
+            {
+              "t": "to ask about the apartment on Oak Street",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dear Sir or Madam se usa cuando no sabes el nombre de quien leerá el correo. Formas completas: I am, no I'm."
+        },
+        {
+          "en": "Could you please tell me the price of the course?",
+          "es": "¿Podría decirme, por favor, el precio del curso?",
+          "partes": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            },
+            {
+              "t": "tell",
+              "rol": "verbo"
+            },
+            {
+              "t": "me the price of the course",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Could es más cortés que can. Please puede ir después de you o al final de la oración."
+        },
+        {
+          "en": "Sorry, I can't come on Friday. I'm working late.",
+          "es": "Perdón, no puedo ir el viernes. Voy a trabajar hasta tarde.",
+          "partes": [
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "can't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "come",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Friday",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "working",
+              "rol": "verbo"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Rechazo informal: una disculpa corta y un motivo. I'm working con on Friday es presente continuo para un plan."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Informal (a una amiga)",
+          "items": [
+            "Hi Priya,",
+            "Thanks for the invitation! I can't wait.",
+            "Can you send me the address?",
+            "See you soon! Love, Sam"
+          ]
+        },
+        "b": {
+          "titulo": "Formal (a un hotel)",
+          "items": [
+            "Dear Sir or Madam,",
+            "I am writing to ask about a room for two nights.",
+            "Could you please send me the prices?",
+            "I look forward to hearing from you. Best regards, Samuel Ortiz"
+          ]
+        },
+        "veredicto": "El contenido es parecido; cambian el saludo, las contracciones, la forma de pedir y la despedida. Mezclar registros (Dear Sir… Love, Sam) suena muy raro."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Ms. / Mrs. / Mr.",
+          "ipa": "/mɪz/ · /ˈmɪsɪz/ · /ˈmɪstər/",
+          "consejo": "Ms. suena «miz», con z sonora (zumbido). Mrs. tiene dos sílabas, «mi-siz». Mr. se lee completo, «mister», con la r final inglesa. Las tres empiezan con una i corta y relajada."
+        },
+        {
+          "texto": "Sincerely",
+          "ipa": "/sɪnˈsɪrli/",
+          "consejo": "El acento va en la segunda sílaba: sin-SIR-li. La r va unida a la l sin vocal en medio."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Dear Mr. Kevin,",
+          "bien": "Dear Mr. Lee, (o Dear Kevin,)",
+          "porque": "Los títulos (Mr., Ms., Dr.) van con el apellido, nunca con el nombre de pila."
+        },
+        {
+          "mal": "Esteemed Mr. Lee,",
+          "bien": "Dear Mr. Lee,",
+          "porque": "Calco de «Estimado». En inglés el saludo formal es Dear, aunque parezca cariñoso."
+        },
+        {
+          "mal": "Greetings, Carlos (como despedida)",
+          "bien": "Best regards, Carlos",
+          "porque": "Calco de «Saludos». Greetings se usa, si acaso, para saludar; para despedirte usa Best regards o Kind regards."
+        },
+        {
+          "mal": "Kisses, Carlos (a una escuela)",
+          "bien": "Best regards, Carlos Ruiz",
+          "porque": "Los besos y abrazos (Love, Hugs) son solo para familia y amigos cercanos."
+        }
+      ]
+    },
+    {
+      "id": "mensajes-cortos",
+      "titulo": "Mensajes cortos: invitar, contestar y pedir",
+      "que_es": "Los mensajes de chat y los correos breves entre amigos o compañeros son la forma de escritura más frecuente. Son cortos y directos, pero siguen necesitando oraciones claras. Aquí reúnes frases fijas para las situaciones más comunes: agradecer, invitar, aceptar, rechazar, avisar y pedir.",
+      "para_que": [
+        "Organizar una salida o una reunión por mensaje.",
+        "Agradecer un regalo, una invitación o un favor.",
+        "Avisar de un retraso o de un cambio de planes."
+      ],
+      "como_funciona": "Para **agradecer** usa [[Thanks for]] / [[Thank you for]] + sustantivo ([[Thanks for the photos!]]) o + verbo con -ing ([[Thanks for inviting me!]]). Después de una preposición como for, el verbo va con -ing, nunca en forma base. Para **invitar**: [[Are you free on Saturday?]], [[Do you want to come to my party?]], [[We could go to the movies.]]. Para **aceptar**: [[Sure!]], [[Sounds great!]], [[I'd love to!]] (expresión fija: me encantaría). Para **rechazar**, disculpa + motivo: [[Sorry, I can't. I'm visiting my parents.]]. Para **avisar**: [[I'm on my way.]] (voy en camino), [[I'm running late, sorry!]] (voy tarde). Para pedir que te contesten: [[Let me know.]] (avísame, expresión fija). En chats muy informales los nativos a veces omiten el sujeto ([[Running late!]] = I'm running late) y usan abreviaturas como [[thx]] (thanks) o [[pls]] (please). Entiéndelas, pero en tus propios mensajes usa oraciones completas: así no te equivocas nunca de registro.",
+      "estructuras": [
+        {
+          "etiqueta": "Agradecer",
+          "formula": [
+            {
+              "t": "Thanks for / Thank you for",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo o verbo-ing",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Thanks for",
+              "rol": "otro"
+            },
+            {
+              "t": "helping me with the move",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Gracias por ayudarme con la mudanza."
+        },
+        {
+          "etiqueta": "Rechazar con cortesía",
+          "formula": [
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "I can't.",
+              "rol": "negacion"
+            },
+            {
+              "t": "motivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "I can't.",
+              "rol": "negacion"
+            },
+            {
+              "t": "I have a doctor's appointment",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Perdón, no puedo. Tengo cita con el médico."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Thanks for inviting me! What time does the party start?",
+          "es": "¡Gracias por invitarme! ¿A qué hora empieza la fiesta?",
+          "partes": [
+            {
+              "t": "Thanks for",
+              "rol": "otro"
+            },
+            {
+              "t": "inviting me!",
+              "rol": "complemento"
+            },
+            {
+              "t": "What time",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the party",
+              "rol": "sujeto"
+            },
+            {
+              "t": "start",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Después de for, -ing: inviting. La pregunta usa does porque es un horario fijo (presente simple) con sujeto singular."
+        },
+        {
+          "en": "Are you free on Sunday? We could have lunch together.",
+          "es": "¿Estás libre el domingo? Podríamos comer juntos.",
+          "partes": [
+            {
+              "t": "Are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "free",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Sunday?",
+              "rol": "tiempo"
+            },
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "have lunch",
+              "rol": "verbo"
+            },
+            {
+              "t": "together",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Could para sugerir, como aprendiste en la unidad de could."
+        },
+        {
+          "en": "I'm on my way. The traffic is terrible today!",
+          "es": "Voy en camino. ¡Hoy el tráfico está horrible!",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "on my way",
+              "rol": "complemento"
+            },
+            {
+              "t": "The traffic",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "terrible",
+              "rol": "complemento"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "On my way es una expresión fija con to be: I'm on my way (voy en camino)."
+        },
+        {
+          "en": "Can you bring your laptop tomorrow? Let me know.",
+          "es": "¿Puedes traer tu laptop mañana? Avísame.",
+          "partes": [
+            {
+              "t": "Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "bring",
+              "rol": "verbo"
+            },
+            {
+              "t": "your laptop",
+              "rol": "complemento"
+            },
+            {
+              "t": "tomorrow?",
+              "rol": "tiempo"
+            },
+            {
+              "t": "Let me know",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Let me know es una expresión fija para pedir respuesta. No se traduce palabra por palabra."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Thanks for inviting me!",
+          "ipa": "/θæŋks fər ɪnˈvaɪtɪŋ mi/",
+          "consejo": "Th de thanks: la lengua asoma entre los dientes y soplas (/θ/), no es una t. For suena débil, casi «fr». En inviting el acento va en «vai» y la t entre vocales suena como la r suave del español (la de «cara»): in-VAI-ring."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Thanks for invite me!",
+          "bien": "Thanks for inviting me!",
+          "porque": "Después de la preposición for, el verbo va con -ing."
+        },
+        {
+          "mal": "Thanks you for the gift.",
+          "bien": "Thank you for the gift. / Thanks for the gift.",
+          "porque": "Se dice Thank you (sin -s) o Thanks (sin you). «Thanks you» mezcla las dos."
+        },
+        {
+          "mal": "Sorry, I no can.",
+          "bien": "Sorry, I can't.",
+          "porque": "La negación va pegada al auxiliar: can't."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada frase informal con su equivalente formal.",
+      "pares": [
+        {
+          "a": "Hi Ana,",
+          "b": "Dear Ms. Smith,"
+        },
+        {
+          "a": "Thanks for your message!",
+          "b": "Thank you for your email."
+        },
+        {
+          "a": "Can you send me the price?",
+          "b": "Could you please send me the price?"
+        },
+        {
+          "a": "See you soon!",
+          "b": "I look forward to hearing from you."
+        },
+        {
+          "a": "Love,",
+          "b": "Best regards,"
+        },
+        {
+          "a": "Sorry, I can't come.",
+          "b": "I am sorry, but I cannot attend."
+        }
+      ],
+      "pistas": [
+        "Cada par cumple la misma función: saludar, agradecer, pedir, cerrar, despedirse, disculparse.",
+        "Las formas formales usan Dear, could, formas completas (I am, cannot) y frases más largas.",
+        "Busca la función de cada frase informal y encuentra su versión formal con la misma función."
+      ],
+      "solucion": {
+        "respuesta": "Hi → Dear · Thanks → Thank you · Can you → Could you please · See you soon → I look forward… · Love → Best regards · Sorry, I can't → I am sorry, but I cannot",
+        "explicacion": "Cada frase informal tiene una equivalente formal con la misma función. El registro formal usa Dear + título + apellido, Thank you, Could you please, formas sin contraer y cierres como I look forward to hearing from you y Best regards."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el saludo adecuado.",
+      "pregunta": "Escribes por primera vez a la directora de una escuela, Laura Gómez, para pedir información. ¿Cómo empiezas?",
+      "opciones": [
+        {
+          "texto": "Dear Ms. Gómez,",
+          "correcta": true,
+          "porque": "Correcta: registro formal con Dear + título + apellido y coma. Ms. es la opción segura para una mujer."
+        },
+        {
+          "texto": "Dear Ms. Laura,",
+          "correcta": false,
+          "porque": "Los títulos van con el apellido, no con el nombre de pila."
+        },
+        {
+          "texto": "Hi Laura!",
+          "correcta": false,
+          "porque": "Es demasiado informal para alguien que no conoces y a quien pides un servicio."
+        },
+        {
+          "texto": "Esteemed Ms. Gómez,",
+          "correcta": false,
+          "porque": "Es un calco de «Estimada». En inglés el saludo formal es Dear."
+        }
+      ],
+      "pistas": [
+        "Es un correo formal a alguien que no conoces.",
+        "El saludo formal usa una palabra que en español parece cariñosa, y un título.",
+        "Dear + Ms./Mr. + apellido + coma."
+      ],
+      "solucion": {
+        "respuesta": "Dear Ms. Gómez,",
+        "explicacion": "En un correo formal se saluda con Dear + título + apellido. Ms. sirve para cualquier mujer sin suponer su estado civil. En inglés británico se escribiría Ms Gómez, sin punto."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la despedida adecuada.",
+      "pregunta": "Terminas un correo formal a un hotel para reservar una habitación. ¿Qué escribes antes de tu nombre?",
+      "opciones": [
+        {
+          "texto": "Best regards,",
+          "correcta": true,
+          "porque": "Correcta: es una despedida formal y neutra, adecuada para empresas y desconocidos."
+        },
+        {
+          "texto": "Love,",
+          "correcta": false,
+          "porque": "Love es solo para familia y amigos cercanos."
+        },
+        {
+          "texto": "Greetings,",
+          "correcta": false,
+          "porque": "Calco de «Saludos»: en inglés no funciona como despedida."
+        },
+        {
+          "texto": "See you!",
+          "correcta": false,
+          "porque": "Es informal y además no vas a ver a la persona del hotel."
+        }
+      ],
+      "pistas": [
+        "Es un correo formal.",
+        "Busca la despedida que usarías con una empresa.",
+        "La despedida formal más común combina un adjetivo positivo con regards; Love o See you son informales."
+      ],
+      "solucion": {
+        "respuesta": "Best regards,",
+        "explicacion": "Best regards es la despedida formal más común en correos. Kind regards y Sincerely también serían correctas. Love y See you son informales, y Greetings no se usa para despedirse."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la apertura formal.",
+      "frase": "Dear Mr. Lee, I am ___ to ask about the photography course.",
+      "respuestas": [
+        [
+          "writing"
+        ]
+      ],
+      "traduccion": "Estimado Sr. Lee: Le escribo para pedir información sobre el curso de fotografía.",
+      "errores_tipicos": {
+        "write": "Después de am se necesita la forma -ing: presente continuo, am writing.",
+        "writting": "Write pierde la e y NO duplica la t: writing.",
+        "wrote": "Wrote es pasado; la acción ocurre ahora, mientras escribes: am writing."
+      },
+      "pistas": [
+        "Es la apertura formal más frecuente.",
+        "Ya tienes am: falta la otra mitad de un tiempo verbal.",
+        "am + verbo-ing; si el verbo termina en -e, se quita la e antes de -ing, como make → making."
+      ],
+      "solucion": {
+        "respuesta": "writing",
+        "explicacion": "I am writing to… es la apertura formal típica: presente continuo porque la acción ocurre en este momento. Write pierde la e muda y añade -ing, sin duplicar la t: writing."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa el mensaje con el verbo entre paréntesis en la forma correcta.",
+      "frase": "Hi Priya, thanks for ___ (invite) me to your party!",
+      "respuestas": [
+        [
+          "inviting"
+        ]
+      ],
+      "traduccion": "¡Hola, Priya! ¡Gracias por invitarme a tu fiesta!",
+      "errores_tipicos": {
+        "invite": "Después de la preposición for, el verbo va con -ing.",
+        "to invite": "Thanks for + verbo-ing, no + to.",
+        "invited": "Después de for no va el pasado sino la forma -ing."
+      },
+      "pistas": [
+        "Mira la palabra que va justo antes del hueco.",
+        "For es una preposición.",
+        "Preposición + verbo → verbo con -ing; la e final se quita, como use → using."
+      ],
+      "solucion": {
+        "respuesta": "inviting",
+        "explicacion": "Después de una preposición (for), el verbo va con -ing. Invite pierde la e muda: inviting."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la petición más formal usando Could you please.",
+      "origen": "Can you send me the information?",
+      "instruccion": "Formal con Could you please",
+      "respuestas": [
+        "Could you please send me the information?",
+        "Could you send me the information, please?"
+      ],
+      "errores_tipicos": {
+        "Could you please to send me the information?": "Después de could, el verbo va en forma base, sin to.",
+        "Could you please sent me the information?": "Could no convierte el verbo en pasado: send, en forma base."
+      },
+      "pistas": [
+        "Cambia el auxiliar por uno más cortés.",
+        "Could funciona igual que can: se invierte con el sujeto y va seguido de forma base.",
+        "Could + sujeto + please + forma base + objeto + ?, como en Could you please call me tomorrow?"
+      ],
+      "solucion": {
+        "respuesta": "Could you please send me the information?",
+        "explicacion": "Could es más cortés que can para pedir algo. Please puede ir después de you o al final. El verbo send se mantiene en forma base."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "literal": true,
+      "enunciado": "Reescribe la oración para un correo formal: sin contracciones.",
+      "origen": "I'm sorry, but I can't come to the meeting.",
+      "instruccion": "Formal, sin contracciones",
+      "respuestas": [
+        "I am sorry, but I cannot come to the meeting.",
+        "I am sorry, but I can not come to the meeting."
+      ],
+      "errores_tipicos": {
+        "I am sorry, but I can't come to the meeting.": "Todavía queda una contracción: can't → cannot.",
+        "I'm sorry, but I cannot come to the meeting.": "Todavía queda una contracción: I'm → I am."
+      },
+      "pistas": [
+        "Hay dos contracciones en la oración.",
+        "I'm y can't.",
+        "Deshaz cada contracción: el apóstrofo sustituye letras que hay que recuperar; la negación de can se escribe en una sola palabra."
+      ],
+      "solucion": {
+        "respuesta": "I am sorry, but I cannot come to the meeting.",
+        "explicacion": "En el registro formal se evitan las contracciones: I'm → I am y can't → cannot. Cannot se escribe normalmente junto; can not separado existe pero es poco frecuente."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar el cierre formal.",
+      "fichas": [
+        "forward",
+        "I",
+        "hearing",
+        "look",
+        "you",
+        "to",
+        "from"
+      ],
+      "respuestas": [
+        "I look forward to hearing from you."
+      ],
+      "traduccion": "Quedo en espera de su respuesta.",
+      "pistas": [
+        "Es una expresión fija de cierre formal.",
+        "Empieza con I look forward to…",
+        "I look forward to + verbo en -ing + from + persona, como en We look forward to seeing you."
+      ],
+      "solucion": {
+        "respuesta": "I look forward to hearing from you.",
+        "explicacion": "Look forward to significa «esperar con interés». To es aquí una preposición, por eso le sigue hearing (-ing). Hear from someone = recibir noticias de alguien."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en el correo. Señálalo y corrígelo.",
+      "frase": "Esteemed Mr. Brown, I am writing to ask about the apartment.",
+      "error": "Esteemed",
+      "correcciones": [
+        "Dear"
+      ],
+      "frase_correcta": "Dear Mr. Brown, I am writing to ask about the apartment.",
+      "pistas": [
+        "El error está en el saludo.",
+        "Es un calco de una palabra española.",
+        "El saludo formal en inglés es una palabra de cuatro letras."
+      ],
+      "solucion": {
+        "respuesta": "Esteemed → Dear",
+        "explicacion": "Esteemed es un calco de «Estimado». En inglés todos los correos formales empiezan con Dear, que en este contexto no es cariñoso sino neutro."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "I am writing for ask about the price of the rooms.",
+      "error": "for ask",
+      "correcciones": [
+        "to ask"
+      ],
+      "frase_correcta": "I am writing to ask about the price of the rooms.",
+      "pistas": [
+        "El error está en cómo se expresa el propósito («para preguntar»).",
+        "En español decimos «para + infinitivo».",
+        "Propósito en inglés: to + verbo en forma base."
+      ],
+      "solucion": {
+        "respuesta": "for ask → to ask",
+        "explicacion": "Para expresar el propósito se usa to + verbo: to ask. For + verbo en forma base no existe en inglés; es un calco de «para preguntar»."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.11",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Gracias por tu ayuda.",
+      "respuestas": [
+        "Thanks for your help.",
+        "Thank you for your help.",
+        "Thanks a lot for your help.",
+        "Thank you very much for your help.",
+        "Thanks so much for your help.",
+        "Thank you so much for your help."
+      ],
+      "errores_tipicos": {
+        "Thanks you for your help.": "Se dice Thank you o Thanks, no «Thanks you».",
+        "Thanks by your help.": "Para agradecer algo se usa for: Thanks for.",
+        "Thank for your help.": "Falta you (Thank you) o la -s (Thanks)."
+      },
+      "pistas": [
+        "Hay dos formas de decir «gracias».",
+        "¿Qué preposición va después de thanks?",
+        "Thanks o Thank you + preposición + posesivo + sustantivo, como en Thanks for the flowers."
+      ],
+      "solucion": {
+        "respuesta": "Thanks for your help.",
+        "explicacion": "Thanks (informal) o Thank you (neutro) + for + lo que agradeces. «Por» se traduce aquí como for, no como by."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.12",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta al mensaje.",
+      "contexto": "Tu amigo Ben te escribe por chat. No puedes ir porque vas a visitar a tus abuelos.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Hey! Are you free on Saturday? We're having a barbecue.",
+          "es": "¡Hola! ¿Estás libre el sábado? Vamos a hacer una carne asada."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Thanks for inviting me! Sorry, I can't. I'm visiting my grandparents. Have fun!",
+          "correcta": true,
+          "porque": "Correcta: agradece, se disculpa, da un motivo con presente continuo para un plan y cierra con amabilidad."
+        },
+        {
+          "texto": "No.",
+          "correcta": false,
+          "porque": "Es gramaticalmente posible, pero muy seco: en inglés un rechazo sin disculpa ni motivo suena grosero."
+        },
+        {
+          "texto": "Dear Ben, I am writing to inform you that I cannot attend. Best regards.",
+          "correcta": false,
+          "porque": "El registro es demasiado formal para un chat con un amigo."
+        },
+        {
+          "texto": "Thanks for invite me! Sorry, I no can.",
+          "correcta": false,
+          "porque": "Tiene dos errores: for + inviting (con -ing) y I can't (no «I no can»)."
+        }
+      ],
+      "pistas": [
+        "Es un chat con un amigo: registro informal.",
+        "Un buen rechazo tiene agradecimiento, disculpa y motivo.",
+        "Thanks for + -ing / Sorry, I can't / motivo en presente continuo."
+      ],
+      "solucion": {
+        "respuesta": "Thanks for inviting me! Sorry, I can't. I'm visiting my grandparents. Have fun!",
+        "explicacion": "La respuesta correcta es informal, amable y completa: agradece (Thanks for inviting me), rechaza (Sorry, I can't), explica con un plan en presente continuo (I'm visiting…) y termina con buenos deseos (Have fun!)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite el principio y el final de un correo formal.",
+      "texto": "Dear Ms. Smith, I am writing to ask about the course. Best regards.",
+      "ipa": "/dɪr mɪz smɪθ ‖ aɪ æm ˈraɪtɪŋ tu æsk əˈbaʊt ðə kɔːrs ‖ bɛst rɪˈɡɑːrdz/",
+      "consejo": "Ms. suena «miz» con zumbido. En Smith, la th final es /θ/: lengua entre los dientes y soplo, no una t. En writing la t entre vocales se suaviza como la r de «pero»: RAI-ring. En ask, la /æ/ es una «a» abierta con los labios estirados.",
+      "es": "Estimada Sra. Smith: Le escribo para pedir información sobre el curso. Saludos cordiales.",
+      "pistas": [
+        "Escucha cómo suena Ms.",
+        "Fíjate en la t de writing.",
+        "Ms. = /mɪz/; writing = /ˈraɪtɪŋ/ con t suave."
+      ]
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.14",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha el mensaje y escríbelo.",
+      "texto": "Hi Sam, thanks for the photos! See you on Saturday.",
+      "pistas": [
+        "Es un mensaje informal entre amigos.",
+        "Empieza con un saludo y un agradecimiento; termina con un cierre.",
+        "Hi + nombre, thanks for + sustantivo, See you on + día."
+      ],
+      "solucion": {
+        "respuesta": "Hi Sam, thanks for the photos! See you on Saturday.",
+        "explicacion": "Saludo informal (Hi Sam,), agradecimiento con thanks for + sustantivo y cierre informal (See you on Saturday). Los días de la semana van con mayúscula y con on."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.15",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe un correo formal.",
+      "objetivo": "Escribir un correo formal completo para pedir información.",
+      "instrucciones": "Quieres estudiar inglés en una escuela de Toronto durante un mes. Escribe un correo (60–90 palabras) a la directora, la Sra. Karen Walsh. Incluye las cinco partes. En el cuerpo di quién eres y qué haces (presente simple), qué estudiaste antes o cuándo empezaste con el inglés (pasado simple) y haz dos preguntas o peticiones con Could you…? o Can I…?. Usa formas completas, sin contracciones.",
+      "vocabulario_apoyo": [
+        "Dear Ms. Walsh,",
+        "I am writing to ask about…",
+        "I am a … / I work as …",
+        "I started studying English in …",
+        "Could you please tell me…?",
+        "Could you send me…?",
+        "the price",
+        "accommodation (alojamiento)",
+        "I look forward to hearing from you.",
+        "Best regards,"
+      ],
+      "estructuras": [
+        "Dear Ms. Walsh,",
+        "I am writing to ask about …",
+        "I am … years old and I work as …",
+        "I studied … / I started …",
+        "Could you please …?",
+        "I look forward to hearing from you.",
+        "Best regards, + nombre completo"
+      ],
+      "ejemplo": "Dear Mr. Hill, I am writing to ask about the apartment on your website. I am a nurse and I work at a hospital near the park. Could you tell me the price? Could I visit it on Friday? I look forward to hearing from you. Kind regards, Grace Kim",
+      "min_palabras": 60,
+      "comprobaciones": [
+        {
+          "descripcion": "Empiezas con Dear",
+          "patron": "^\\s*dear\\b"
+        },
+        {
+          "descripcion": "Usas la apertura I am writing to",
+          "patron": "\\bi am writing to\\b"
+        },
+        {
+          "descripcion": "Haces una petición cortés con Could you o Could I",
+          "patron": "\\bcould (you|i)\\b"
+        },
+        {
+          "descripcion": "Usas un cierre o despedida formal (look forward, regards, sincerely)",
+          "patron": "\\b(look forward|regards|sincerely)\\b"
+        },
+        {
+          "descripcion": "Incluyes algún verbo en pasado simple",
+          "patron": "\\b(started|studied|took|was|were|finished|learned|went|had)\\b"
+        }
+      ],
+      "criterios": [
+        "¿El saludo es Dear + título + apellido + coma (no el nombre de pila)?",
+        "¿La apertura explica el motivo con I am writing to + verbo?",
+        "¿Evitaste todas las contracciones (I am, cannot, do not)?",
+        "¿Tus peticiones usan could + sujeto + forma base?",
+        "¿Cerraste con I look forward to hearing from you y una despedida formal + nombre completo?",
+        "¿Cada tiempo verbal corresponde a su momento (presente para lo actual, pasado para lo terminado)?"
+      ],
+      "modelo": "Dear Ms. Walsh,\n\nI am writing to ask about your one-month English course. I am 32 years old and I work as an accountant in Monterrey. I started studying English two years ago, and last year I took an online course.\n\nCould you please tell me the price of the course? Could you also send me information about accommodation with a family?\n\nI look forward to hearing from you.\n\nBest regards,\nMario Hernández",
+      "explicacion": "El modelo sigue las cinco partes. Saludo formal con título y apellido (Dear Ms. Walsh,). Apertura con I am writing to ask about. En el cuerpo, el presente simple describe la situación actual (I work as an accountant), el pasado simple lo terminado (I started… two years ago, I took…) y could introduce dos peticiones corteses. No hay contracciones. Cierre fijo (I look forward to hearing from you) y despedida formal con nombre completo.",
+      "errores_comunes": [
+        "Saludar con el nombre de pila y título: «Dear Ms. Karen» → Dear Ms. Walsh.",
+        "Usar contracciones en un correo formal: I'm → I am.",
+        "«I am writing for ask» → I am writing to ask.",
+        "«I look forward to hear from you» → hearing.",
+        "Despedirse con «Greetings» o «Kisses» → Best regards / Kind regards."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Responder a una invitación",
+    "contexto": "Recibes este correo de tu compañera de clase Mei. Contéstale con un correo informal.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "Hi! I'm having a small party at my place on Friday at 8. There's pizza and music. Can you come? Mei",
+        "es": "¡Hola! Voy a hacer una fiestita en mi casa el viernes a las 8. Hay pizza y música. ¿Puedes venir? Mei"
+      }
+    ],
+    "tu_turno": "Escribe tu respuesta (3–5 oraciones): saludo informal, agradecimiento con Thanks for + -ing, acepta o rechaza con un motivo, haz una pregunta (Can I bring…? / What's your address?) y despídete.",
+    "modelo": "Hi Mei, thanks for inviting me! I'd love to come. Can I bring something? Maybe some drinks or a dessert? Let me know. See you on Friday! Love, Ana",
+    "alternativas": [
+      "Hi Mei, thanks for the invitation! Sorry, I can't come on Friday. I'm working until ten. Could we meet for coffee next week? Take care, Sam",
+      "Hey Mei! Thanks for inviting me. Sure, I can come! What's your address? I don't know your new place. See you soon, Diego"
+    ],
+    "claves": [
+      "Saludo informal: Hi / Hey + nombre + coma.",
+      "Thanks for + -ing (inviting) o + sustantivo (the invitation).",
+      "Aceptar: I'd love to come! / Sure! Rechazar: Sorry, I can't + motivo.",
+      "Despedida informal: See you on Friday! / Love, / Take care,"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Cinco partes: saludo, apertura, cuerpo, cierre y despedida + nombre.",
+      "Informal: Hi Ana, / Thanks for… / Can you…? / See you soon! / Love, / Take care,",
+      "Formal: Dear Mr. Lee, / I am writing to… / Could you please…? / I look forward to hearing from you. / Best regards,",
+      "Títulos + apellido: Mr. (hombre), Ms. (mujer), Mrs. (casada), Dr. En EE. UU. con punto; en el Reino Unido, sin punto.",
+      "Formal = sin contracciones."
+    ],
+    "recuerda": [
+      "Saludo con coma, no con dos puntos, y la línea siguiente con mayúscula.",
+      "Thanks for + -ing: Thanks for inviting me.",
+      "Propósito: to + verbo (I am writing to ask), nunca «for ask».",
+      "Nunca «Esteemed», «Greetings» ni «Dear Mr. + nombre de pila»."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.r1",
+      "frente": "Saludo formal a Kevin Lee, a quien no conoces",
+      "reverso": "Dear Mr. Lee,",
+      "nota": "Título + apellido. En británico: Dear Mr Lee,"
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.r2",
+      "frente": "«Le escribo para preguntar por…» (formal)",
+      "reverso": "I am writing to ask about…",
+      "nota": "To + verbo para el propósito."
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.r3",
+      "frente": "Cierre formal: «Quedo en espera de su respuesta.»",
+      "reverso": "I look forward to hearing from you.",
+      "nota": "Look forward to + -ing."
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.r4",
+      "frente": "«¡Gracias por invitarme!»",
+      "reverso": "Thanks for inviting me!",
+      "nota": "Preposición + verbo-ing."
+    },
+    {
+      "id": "comunicacion-integrada.escribir-mensajes-y-correos.r5",
+      "frente": "Tres despedidas formales",
+      "reverso": "Best regards, / Kind regards, / Sincerely,",
+      "nota": "Informales: Love, / Take care, / See you soon!"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "titulo": "Evaluación: los números",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "numeros.eval.01",
+      "leccion": "numeros-0-100",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la ortografía correcta.",
+      "pregunta": "¿Cómo se escribe 18 con letras?",
+      "opciones": [
+        { "texto": "eighteen", "correcta": true, "porque": "Correcto: eight + een, con una sola t." },
+        { "texto": "eightteen", "correcta": false, "porque": "Sobra una t: la t de eight ya sirve para -teen." },
+        { "texto": "eighty", "correcta": false, "porque": "Eighty es 80, una decena en -ty." },
+        { "texto": "eigthteen", "correcta": false, "porque": "Eight se escribe e-i-g-h-t; aquí están cambiadas la g y la h." }
+      ],
+      "pistas": [
+        "Del 13 al 19 terminan en -teen.",
+        "Fíjate en cuántas t tiene la palabra.",
+        "eight + een: no se duplica la t."
+      ],
+      "solucion": {
+        "respuesta": "eighteen",
+        "explicacion": "La respuesta correcta es eighteen: los números del 13 al 19 llevan -teen y, como eight ya termina en t, solo se añade -een."
+      }
+    },
+    {
+      "id": "numeros.eval.02",
+      "leccion": "numeros-0-100",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. Puedes escribir el número con cifras o con letras.",
+      "texto": "The answer is on page ninety.",
+      "respuestas": ["The answer is on page 90."],
+      "audio": true,
+      "pistas": [
+        "El número es 19 o 90.",
+        "Escucha dónde va el acento y si termina en n.",
+        "Acento al principio y final corto = decena en -ty."
+      ],
+      "solucion": {
+        "respuesta": "The answer is on page ninety.",
+        "explicacion": "Se oye NINE-ty, con acento al principio y sin n al final: es 90. Nineteen (19) sonaría nine-TEEN, con /iːn/ larga."
+      }
+    },
+    {
+      "id": "numeros.eval.03",
+      "leccion": "numeros-0-100",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "There is thirty-one students in my class.",
+      "error": "is",
+      "correcciones": ["are"],
+      "frase_correcta": "There are thirty-one students in my class.",
+      "pistas": [
+        "Revisa la concordancia de there is / there are.",
+        "Mira el sustantivo que se cuenta: ¿es singular o plural?",
+        "Con cualquier número mayor que uno, aunque termine en one, se usa there are."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "El error es is: thirty-one students es plural, así que se dice there are. Que el número termine en one no lo hace singular."
+      }
+    },
+    {
+      "id": "numeros.eval.04",
+      "leccion": "numeros-0-100",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Escribe el número con letras.",
+      "es": "Mi papá tiene cincuenta y tres años.",
+      "respuestas": [
+        "My dad is fifty-three.",
+        "My dad is fifty-three years old.",
+        "My father is fifty-three.",
+        "My father is fifty-three years old."
+      ],
+      "errores_tipicos": {
+        "My dad has fifty-three years": "La edad se dice con be: My dad is fifty-three.",
+        "My dad is fifty and three": "Entre decena y unidad no va and: fifty-three.",
+        "My dad is fivety-three": "La decena del 5 es fifty."
+      },
+      "pistas": [
+        "La edad se expresa con be.",
+        "Revisa el verbo y la forma de unir cincuenta con tres.",
+        "Sujeto + is + decena-unidad con guion (+ years old)."
+      ],
+      "solucion": {
+        "respuesta": "My dad is fifty-three (years old).",
+        "explicacion": "La edad va con be (is), no con have. Cincuenta y tres es fifty-three: raíz fif-, -ty, guion y unidad, sin and."
+      }
+    },
+    {
+      "id": "numeros.eval.05",
+      "leccion": "numeros-0-100",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe con letras el número entre paréntesis.",
+      "frase": "There are ___ (12) months in a year.",
+      "traduccion": "Hay doce meses en un año.",
+      "respuestas": [["twelve"]],
+      "errores_tipicos": {
+        "twelf": "Twelve termina en -ve. La f aparece solo en el ordinal twelfth.",
+        "tweleve": "No hay e entre la w y la l: twelve.",
+        "ten two": "12 es una palabra irregular, no ten + two."
+      },
+      "pistas": [
+        "11 y 12 son irregulares.",
+        "12 no se forma con ten ni con -teen.",
+        "El 11 y el 12 son irregulares: no llevan -teen. El 12 termina en -ve, como five."
+      ],
+      "solucion": {
+        "respuesta": "twelve",
+        "explicacion": "La respuesta correcta es twelve, una de las dos formas irregulares (eleven y twelve) que no siguen el patrón de -teen."
+      }
+    },
+    {
+      "id": "numeros.eval.06",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra. En el estadio hay 5,000 personas.",
+      "frase": "There are five ___ people at the stadium.",
+      "traduccion": "Hay cinco mil personas en el estadio.",
+      "respuestas": [["thousand"]],
+      "errores_tipicos": {
+        "thousands": "Con un número delante, thousand no lleva -s.",
+        "thousands of": "Thousands of se usa sin número exacto. Con five: five thousand people."
+      },
+      "pistas": [
+        "Necesitas la palabra para «mil».",
+        "Delante hay un número exacto.",
+        "Número + thousand en singular, sin of."
+      ],
+      "solucion": {
+        "respuesta": "thousand",
+        "explicacion": "La respuesta correcta es thousand, sin -s y sin of, porque va después de un número exacto (five)."
+      }
+    },
+    {
+      "id": "numeros.eval.07",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta lo que oyes.",
+      "pregunta": "En una cafetería, el cajero dice: That's nine oh five. ¿Cuánto tienes que pagar?",
+      "opciones": [
+        { "texto": "$9.05", "correcta": true, "porque": "Correcto: forma corta del precio. Nine son los dólares y oh five son cinco centavos." },
+        { "texto": "$9.50", "correcta": false, "porque": "$9.50 sería nine fifty." },
+        { "texto": "$905", "correcta": false, "porque": "$905 sería nine hundred and five dollars. En una cafetería el contexto también lo descarta." },
+        { "texto": "$90.05", "correcta": false, "porque": "$90.05 sería ninety oh five." }
+      ],
+      "pistas": [
+        "Es la forma corta de un precio: dólares y luego centavos.",
+        "Oh es el cero, que aparece en los centavos del 01 al 09.",
+        "Primer número = dólares; oh + número = centavos del 01 al 09."
+      ],
+      "solucion": {
+        "respuesta": "$9.05",
+        "explicacion": "Nine oh five es $9.05: en la forma corta se dicen los dólares (nine) y después los centavos; como son cinco, se dicen oh five."
+      }
+    },
+    {
+      "id": "numeros.eval.08",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la lectura correcta.",
+      "pregunta": "¿Cómo se lee 0.75 (un decimal, no un precio)?",
+      "opciones": [
+        { "texto": "zero point seven five", "correcta": true, "porque": "Correcto: point para el separador y los decimales dígito a dígito." },
+        { "texto": "zero point seventy-five", "correcta": false, "porque": "Después de point los dígitos se leen uno a uno: seven five." },
+        { "texto": "zero comma seven five", "correcta": false, "porque": "El separador decimal en inglés es point." },
+        { "texto": "seventy-five cents", "correcta": false, "porque": "Así se leería $0.75, un precio. El enunciado dice que no es dinero." }
+      ],
+      "pistas": [
+        "El separador decimal tiene un nombre propio en inglés.",
+        "Fíjate en cómo se leen los dígitos después del separador.",
+        "point + un dígito, otro dígito."
+      ],
+      "solucion": {
+        "respuesta": "zero point seven five",
+        "explicacion": "0.75 se lee zero point seven five (o point seven five): el punto se lee point y los decimales se dicen dígito a dígito."
+      }
+    },
+    {
+      "id": "numeros.eval.09",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha el número de teléfono y escríbelo con cifras (puedes separar los grupos con guion o espacio).",
+      "texto": "It's two one two, five five five, oh eight double three.",
+      "respuestas": [
+        "It's 212-555-0833.",
+        "It's 2125550833.",
+        "It's (212) 555-0833."
+      ],
+      "audio": true,
+      "pistas": [
+        "Son tres grupos: 3 + 3 + 4 dígitos.",
+        "Oh es un dígito; double también representa dígitos.",
+        "Oh = 0; double + dígito = ese dígito dos veces (double five = 55)."
+      ],
+      "solucion": {
+        "respuesta": "It's 212-555-0833.",
+        "explicacion": "Two one two (212), five five five (555), y oh eight double three: oh es 0 y double three son dos treses, así que el último grupo es 0833."
+      }
+    },
+    {
+      "id": "numeros.eval.10",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Cuánto cuestan estos zapatos?",
+      "respuestas": ["How much are these shoes?", "How much do these shoes cost?"],
+      "errores_tipicos": {
+        "How much is these shoes": "Shoes es plural: are.",
+        "How much cost these shoes": "Es un calco de «cuestan». Con be: How much are these shoes?",
+        "How many are these shoes": "How many pregunta por la cantidad; el precio se pregunta con How much."
+      },
+      "pistas": [
+        "El precio se pregunta con How much + be.",
+        "El sujeto es plural.",
+        "How much + be en plural + sujeto plural + ?, como en How much are the tickets?"
+      ],
+      "solucion": {
+        "respuesta": "How much are these shoes?",
+        "explicacion": "How much para el precio; are porque these shoes es plural; y el verbo be va antes del sujeto, como en toda pregunta con be."
+      }
+    },
+    {
+      "id": "numeros.eval.11",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "There are two millions people in the city.",
+      "error": "millions",
+      "correcciones": ["million"],
+      "frase_correcta": "There are two million people in the city.",
+      "pistas": [
+        "Piensa en hundred, thousand y million después de un número.",
+        "Mira la palabra que va después de two.",
+        "Con un número delante, million se queda en singular."
+      ],
+      "solucion": {
+        "respuesta": "million",
+        "explicacion": "El error es millions: después de un número exacto (two), million no lleva -s. Millions solo se usa sin número y con of (millions of people)."
+      }
+    },
+    {
+      "id": "numeros.eval.12",
+      "leccion": "numeros-grandes-y-precios",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe el precio con letras en la forma corta, como lo diría un cajero.",
+      "origen": "The ticket is $8.25.",
+      "instruccion": "Precio con letras (forma corta)",
+      "respuestas": ["The ticket is eight twenty-five."],
+      "errores_tipicos": {
+        "The ticket is eight point twenty-five": "Con dinero no se dice point.",
+        "The ticket is eight point two five": "Con dinero no se dice point; los centavos se dicen como número: twenty-five."
+      },
+      "pistas": [
+        "La forma corta omite dollars, cents y and.",
+        "Dólares primero; centavos después, como número de dos cifras.",
+        "Con dinero no se lee el punto."
+      ],
+      "solucion": {
+        "respuesta": "The ticket is eight twenty-five.",
+        "explicacion": "La forma corta de $8.25 es eight twenty-five: los dólares, una pausa y los centavos como número completo. Con dinero nunca se dice point."
+      }
+    },
+    {
+      "id": "numeros.eval.13",
+      "leccion": "ordinales",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada abreviatura con su ordinal.",
+      "pares": [
+        { "a": "4th", "b": "fourth" },
+        { "a": "13th", "b": "thirteenth" },
+        { "a": "30th", "b": "thirtieth" },
+        { "a": "31st", "b": "thirty-first" },
+        { "a": "40th", "b": "fortieth" },
+        { "a": "53rd", "b": "fifty-third" }
+      ],
+      "pistas": [
+        "La abreviatura sale de las dos últimas letras del ordinal.",
+        "Distingue -teenth (13) de -tieth (30, 40).",
+        "En los compuestos solo cambia la última palabra (como sixty-second); las decenas cambian -ty → -tieth."
+      ],
+      "solucion": {
+        "respuesta": "4th = fourth · 13th = thirteenth · 30th = thirtieth · 31st = thirty-first · 40th = fortieth · 53rd = fifty-third",
+        "explicacion": "Fourth conserva la u de four, pero fortieth no (como forty). Thirteenth es -teen + th; thirtieth cambia la y por ie. En thirty-first y fifty-third solo la última palabra es ordinal."
+      }
+    },
+    {
+      "id": "numeros.eval.14",
+      "leccion": "ordinales",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe con letras el ordinal entre paréntesis.",
+      "frase": "The bank is on the ___ (8th) floor.",
+      "traduccion": "El banco está en el octavo piso.",
+      "respuestas": [["eighth"]],
+      "errores_tipicos": {
+        "eightth": "Eight ya termina en t: solo se añade h.",
+        "eigth": "Falta la h de eight: e-i-g-h-t-h.",
+        "eight": "Necesitas el ordinal (octavo), no el cardinal."
+      },
+      "pistas": [
+        "Delante de floor se usa ordinal.",
+        "Eight es de los que cambian al añadir -th.",
+        "Eight ya termina en t: solo falta la otra letra de -th; no dupliques la t."
+      ],
+      "solucion": {
+        "respuesta": "eighth",
+        "explicacion": "La respuesta correcta es eighth: como eight ya termina en t, solo se añade h. Se pronuncia /eɪtθ/."
+      }
+    },
+    {
+      "id": "numeros.eval.15",
+      "leccion": "ordinales",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la información.",
+      "pregunta": "Tu amiga Aisha vive en Londres y te dice: My flat is on the first floor. Estás en la calle, frente al edificio. ¿Dónde está su departamento?",
+      "opciones": [
+        { "texto": "Un piso arriba del nivel de la calle.", "correcta": true, "porque": "Correcto: en el Reino Unido el nivel de la calle es el ground floor; el first floor es el de arriba, como el primer piso en México." },
+        { "texto": "Al nivel de la calle.", "correcta": false, "porque": "Así sería en EE. UU. En Londres, el nivel de la calle es el ground floor." },
+        { "texto": "Dos pisos arriba del nivel de la calle.", "correcta": false, "porque": "Ese sería el second floor en el Reino Unido." }
+      ],
+      "pistas": [
+        "El sistema de pisos depende del país.",
+        "Aisha vive en Londres: ¿qué nombre tiene allí el piso al nivel de la calle?",
+        "En el R. U.: ground floor (calle) → first floor (uno arriba)."
+      ],
+      "solucion": {
+        "respuesta": "Un piso arriba del nivel de la calle.",
+        "explicacion": "En el Reino Unido, como en México, se empieza con el ground floor (planta baja); el first floor es el piso de arriba. En EE. UU. sería al revés: first floor = nivel de la calle."
+      }
+    },
+    {
+      "id": "numeros.eval.16",
+      "leccion": "ordinales",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": ["is", "It", "her", "twenty-first", "birthday", "today"],
+      "respuestas": ["It is her twenty-first birthday today.", "Today it is her twenty-first birthday."],
+      "traduccion": "Hoy es su cumpleaños número veintiuno.",
+      "pistas": [
+        "Sujeto + be + complemento.",
+        "El ordinal va entre el posesivo y el sustantivo.",
+        "Sujeto + is + posesivo + ordinal + sustantivo (+ expresión de tiempo), como en This is my second visit this year."
+      ],
+      "solucion": {
+        "respuesta": "It is her twenty-first birthday today.",
+        "explicacion": "It is abre la oración; el ordinal twenty-first funciona como adjetivo y va entre el posesivo her y birthday. Today puede ir al final (lo más natural) o al principio."
+      }
+    },
+    {
+      "id": "numeros.eval.17",
+      "leccion": "ordinales",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la abreviatura correcta.",
+      "pregunta": "¿Cómo se abrevia one hundred and eleventh (111)?",
+      "opciones": [
+        { "texto": "111th", "correcta": true, "porque": "Correcto: termina en eleventh, así que lleva th, aunque la cifra termine en 1." },
+        { "texto": "111st", "correcta": false, "porque": "St es de first. Aquí la última palabra es eleventh, no first." },
+        { "texto": "111nd", "correcta": false, "porque": "Nd es de second." },
+        { "texto": "11th", "correcta": false, "porque": "Faltan las centenas: 11th es el undécimo." }
+      ],
+      "pistas": [
+        "La abreviatura depende de cómo se DICE la última parte.",
+        "Las dos últimas cifras son 11: ¿cómo se dice ese ordinal?",
+        "Los que terminan en 11, 12 y 13 siempre llevan th."
+      ],
+      "solucion": {
+        "respuesta": "111th",
+        "explicacion": "La respuesta correcta es 111th: se dice one hundred and eleventh, y eleventh termina en th. Pasa lo mismo con 112th y 113th."
+      }
+    }
+  ]
+}

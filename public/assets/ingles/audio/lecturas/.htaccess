@@ -1,0 +1,6 @@
+# Pistas completas: mismo nombre al regenerarse → revalidar cada día.
+<IfModule mod_headers.c>
+    <FilesMatch "\.(mp3|json)$">
+        Header set Cache-Control "public, max-age=86400"
+    </FilesMatch>
+</IfModule>

@@ -1,0 +1,1461 @@
+{
+  "slug": "mantener-una-conversacion",
+  "titulo": "Mantener una conversación",
+  "minutos": 45,
+  "objetivos": [
+    "Reaccionar a lo que te cuentan con expresiones (Really? That's great! Oh no!) y con preguntas eco (Did you? Is she?).",
+    "Mantener viva la conversación devolviendo la pregunta (And you? What about you?) y haciendo preguntas de seguimiento.",
+    "Mostrar acuerdo con Me too / Me neither.",
+    "Pedir aclaraciones con cortesía: Sorry? Could you say that again? What do you mean? How do you spell that?"
+  ],
+  "situacion": {
+    "titulo": "En la sala de espera",
+    "texto": "Omar espera su turno en una clínica y empieza a platicar con Grace, otra paciente. Omar no entiende todo, pero no se queda callado: reacciona, pregunta y pide que le repitan. La conversación fluye aunque su inglés no sea perfecto.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Hi! Are you here for the flu vaccine too?",
+        "es": "¡Hola! ¿Usted también viene por la vacuna contra la gripa?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Yes, I am. And you? Are you OK?",
+        "es": "Sí. ¿Y usted? ¿Está bien?"
+      },
+      {
+        "quien": "Grace",
+        "en": "I'm fine. I sprained my ankle last week, so I'm here for a check-up.",
+        "es": "Estoy bien. La semana pasada me torcí el tobillo, así que vengo a revisión."
+      },
+      {
+        "quien": "Omar",
+        "en": "Oh no! Sorry, what does 'sprained' mean?",
+        "es": "¡Ay, no! Perdón, ¿qué significa «sprained»?"
+      },
+      {
+        "quien": "Grace",
+        "en": "It means I twisted it. I fell in the park.",
+        "es": "Que me lo torcí. Me caí en el parque."
+      },
+      {
+        "quien": "Omar",
+        "en": "I'm sorry to hear that. Does it hurt a lot?",
+        "es": "Lo siento mucho. ¿Le duele mucho?"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "reaccionar",
+      "titulo": "Reaccionar: Really? That's great! Oh no!",
+      "que_es": "Cuando alguien te cuenta algo, en inglés se espera que **reacciones**: con una expresión corta o con una **pregunta eco**, que repite el auxiliar de lo que te dijeron ([[I went to Japan.]] → [[Did you?]]). Quedarte en silencio o decir solo «OK» puede parecer desinterés.",
+      "para_que": [
+        "Mostrar interés y empatía.",
+        "Ganar unos segundos para pensar tu siguiente frase.",
+        "Animar a la otra persona a contar más."
+      ],
+      "como_funciona": "Hay dos maneras. 1) **Expresiones fijas** según la noticia. Buena: [[That's great!]], [[How nice!]], [[Cool!]], [[Congratulations!]], [[Lucky you!]] (¡qué suerte!). Mala: [[Oh no!]], [[That's too bad.]], [[I'm sorry to hear that.]] (lo siento mucho; no es una disculpa, es empatía). Sorprendente: [[Really?]], [[Wow!]], [[No way!]] (¡no inventes!, informal). 2) **Preguntas eco**: toma el auxiliar de la oración que oíste —el mismo mapa de auxiliares de la unidad anterior— y ponle el pronombre adecuado. Si la oración es afirmativa, el eco es afirmativo; si es negativa, negativo: [[I'm moving to Canada.]] → [[Are you?]]; [[She works at night.]] → [[Does she?]] (presente simple, does); [[We saw a whale!]] → [[Did you?]]; [[I can't swim.]] → [[Can't you?]]; [[There was a fire.]] → [[Was there?]]. La pregunta eco equivale a «¿Ah, sí?» o «¿En serio?», y casi siempre va seguida de otra reacción o de una pregunta: [[Did you? Where?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta eco",
+          "formula": [
+            {
+              "t": "Auxiliar (+ n't si la oración es negativa)",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Ah, sí? (respuesta a: She works at night.)"
+        },
+        {
+          "etiqueta": "Reacción + pregunta",
+          "formula": [
+            {
+              "t": "Reacción",
+              "rol": "otro"
+            },
+            {
+              "t": "pregunta de seguimiento",
+              "rol": "interrogativo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "That's great!",
+              "rol": "otro"
+            },
+            {
+              "t": "When did you start?",
+              "rol": "interrogativo"
+            }
+          ],
+          "es": "¡Qué bien! ¿Cuándo empezaste?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Qué decir según la noticia",
+          "columnas": [
+            "Te cuentan…",
+            "Reacción",
+            "Significado"
+          ],
+          "filas": [
+            [
+              "I got the job!",
+              "That's great! Congratulations!",
+              "¡Qué bien! ¡Felicidades!"
+            ],
+            [
+              "I'm flying to Cancún tomorrow.",
+              "Lucky you!",
+              "¡Qué suerte!"
+            ],
+            [
+              "My laptop stopped working.",
+              "Oh no! That's too bad.",
+              "¡Ay, no! Qué mala onda."
+            ],
+            [
+              "My dad is in the hospital.",
+              "I'm sorry to hear that.",
+              "Lo siento mucho."
+            ],
+            [
+              "I met a famous chef yesterday.",
+              "Really? Wow!",
+              "¿En serio? ¡Guau!"
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        },
+        {
+          "titulo": "Preguntas eco: el auxiliar de siempre",
+          "columnas": [
+            "Oración",
+            "Eco"
+          ],
+          "filas": [
+            [
+              "I'm tired.",
+              "Are you?"
+            ],
+            [
+              "Tom lives in Denver.",
+              "Does he?"
+            ],
+            [
+              "We didn't go.",
+              "Didn't you?"
+            ],
+            [
+              "She can speak Korean.",
+              "Can she?"
+            ],
+            [
+              "They've got three dogs.",
+              "Have they?"
+            ],
+            [
+              "It was cold.",
+              "Was it?"
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I passed my driving test! That's great!",
+          "es": "¡Pasé mi examen de manejo! ¡Qué bien!",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "passed",
+              "rol": "verbo"
+            },
+            {
+              "t": "my driving test!",
+              "rol": "complemento"
+            },
+            {
+              "t": "That's great!",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Para una buena noticia: That's great! o Congratulations!"
+        },
+        {
+          "en": "My sister had an accident. Oh no! Is she OK?",
+          "es": "Mi hermana tuvo un accidente. ¡Ay, no! ¿Está bien?",
+          "partes": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "had",
+              "rol": "verbo"
+            },
+            {
+              "t": "an accident",
+              "rol": "complemento"
+            },
+            {
+              "t": "Oh no!",
+              "rol": "otro"
+            },
+            {
+              "t": "Is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "OK?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Reacción de preocupación (Oh no!) seguida de una pregunta que muestra interés."
+        },
+        {
+          "en": "I didn't sleep last night. Didn't you? Why not?",
+          "es": "Anoche no dormí. ¿No? ¿Por qué?",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sleep",
+              "rol": "verbo"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            },
+            {
+              "t": "Didn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you?",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Why not?",
+              "rol": "interrogativo"
+            }
+          ],
+          "nota": "La oración es negativa, así que el eco también: Didn't you? Why not? pregunta por la razón de algo negativo."
+        },
+        {
+          "en": "Mei is learning Arabic. Is she? That's cool!",
+          "es": "Mei está aprendiendo árabe. ¿Ah, sí? ¡Qué padre!",
+          "partes": [
+            {
+              "t": "Mei",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "learning",
+              "rol": "verbo"
+            },
+            {
+              "t": "Arabic",
+              "rol": "complemento"
+            },
+            {
+              "t": "Is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she?",
+              "rol": "sujeto"
+            },
+            {
+              "t": "That's cool!",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Presente continuo → el eco usa is. Mei pasa a she."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la oración a la pregunta eco",
+        "pasos": [
+          {
+            "etiqueta": "Lo que oyes",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "works",
+                "rol": "verbo"
+              },
+              {
+                "t": "at night.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Auxiliar escondido",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "work",
+                "rol": "verbo"
+              },
+              {
+                "t": "at night.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Tu eco",
+            "partes": [
+              {
+                "t": "Does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "she?",
+                "rol": "sujeto"
+              }
+            ]
+          }
+        ],
+        "pie": "Solo quedan el auxiliar y el pronombre, invertidos como en cualquier pregunta."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Really?",
+          "ipa": "/ˈriːli/ ↗",
+          "consejo": "Si la voz sube al final, expresas sorpresa e interés. Si baja, puede sonar a ironía o a desinterés. La r inicial no vibra (lengua curvada hacia atrás, sin tocar) y la i es larga, /iː/."
+        },
+        {
+          "texto": "Oh no!",
+          "ipa": "/oʊ ˈnoʊ/ ↘",
+          "consejo": "Las dos palabras terminan en el diptongo /oʊ/: empieza en «o» y cierra los labios hacia «u». La voz baja al final, como un lamento."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My dog died. — Sorry!",
+          "bien": "Oh no! I'm sorry to hear that.",
+          "porque": "Sorry solo suena a disculpa rápida (como si tú tuvieras la culpa). Para mostrar empatía se usa I'm sorry to hear that."
+        },
+        {
+          "mal": "I went to Paris. — Do you?",
+          "bien": "Did you?",
+          "porque": "La pregunta eco usa el mismo tiempo: went es pasado, así que el eco es did."
+        },
+        {
+          "mal": "Tom can't come. — Can he?",
+          "bien": "Can't he?",
+          "porque": "Si la oración es negativa, el eco también lo es."
+        }
+      ]
+    },
+    {
+      "id": "devolver-la-pregunta",
+      "titulo": "Devolver la pregunta y seguir el hilo",
+      "que_es": "Una conversación es un intercambio: si solo contestas, la otra persona tiene que hacer todo el trabajo. Para mantenerla viva, **devuelve la pregunta** ([[And you?]], [[What about you?]]) y haz **preguntas de seguimiento** sobre lo que te contaron.",
+      "para_que": [
+        "Evitar silencios incómodos.",
+        "Conocer mejor a la otra persona.",
+        "Mostrar acuerdo o coincidencia (Me too, Me neither)."
+      ],
+      "como_funciona": "1) **Contesta y devuelve**: responde a la pregunta y termina con [[And you?]], [[What about you?]] o [[How about you?]] (las tres significan «¿Y tú?»). 2) **Pregunta de seguimiento**: toma un dato de lo que te dijeron y pregunta más con la fórmula Palabra interrogativa + Auxiliar + Sujeto + Verbo en el tiempo adecuado. Si hablan del pasado: [[Where did you go?]], [[Who did you go with?]], [[Did you like it?]], y la expresión fija [[What was it like?]] (¿cómo fue?, ¿qué tal estuvo?), donde like no es el verbo gustar sino una preposición: «¿a qué se parecía?». Si hablan del presente: [[What do you do there?]], [[How often do you go?]]. 3) **Coincidir**: para decir «yo también» después de una afirmación: [[Me too.]]; después de una negación: [[Me neither.]] ([[I don't like coffee.]] → [[Me neither.]]). Decir «Me too» a una frase negativa es un error muy común porque en español respondemos «yo tampoco» y lo traducimos mal.",
+      "estructuras": [
+        {
+          "etiqueta": "Contestar y devolver",
+          "formula": [
+            {
+              "t": "respuesta",
+              "rol": "complemento"
+            },
+            {
+              "t": "And you? / What about you?",
+              "rol": "interrogativo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I work in a bank.",
+              "rol": "complemento"
+            },
+            {
+              "t": "What about you?",
+              "rol": "interrogativo"
+            }
+          ],
+          "es": "Trabajo en un banco. ¿Y tú?"
+        },
+        {
+          "etiqueta": "Pregunta de seguimiento",
+          "formula": [
+            {
+              "t": "Palabra interrogativa",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "auxiliar",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo ?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "go with?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Con quién fuiste?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm from Mérida. And you?",
+          "es": "Soy de Mérida. ¿Y tú?",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "from Mérida",
+              "rol": "complemento"
+            },
+            {
+              "t": "And you?",
+              "rol": "interrogativo"
+            }
+          ],
+          "nota": "And you? sube al final y pasa el turno a la otra persona."
+        },
+        {
+          "en": "I went to a cooking class on Saturday. Really? What was it like?",
+          "es": "El sábado fui a una clase de cocina. ¿En serio? ¿Qué tal estuvo?",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "went",
+              "rol": "verbo"
+            },
+            {
+              "t": "to a cooking class",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Saturday",
+              "rol": "tiempo"
+            },
+            {
+              "t": "Really?",
+              "rol": "otro"
+            },
+            {
+              "t": "What was it like?",
+              "rol": "interrogativo"
+            }
+          ],
+          "nota": "What was it like? es la pregunta natural para pedir una descripción de una experiencia. Está en pasado porque la clase ya terminó."
+        },
+        {
+          "en": "I love spicy food. Me too!",
+          "es": "Me encanta la comida picante. ¡A mí también!",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "love",
+              "rol": "verbo"
+            },
+            {
+              "t": "spicy food",
+              "rol": "complemento"
+            },
+            {
+              "t": "Me too!",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Me too responde a una afirmación."
+        },
+        {
+          "en": "I can't cook very well. Me neither.",
+          "es": "No sé cocinar muy bien. Yo tampoco.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "can't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "cook",
+              "rol": "verbo"
+            },
+            {
+              "t": "very well",
+              "rol": "complemento"
+            },
+            {
+              "t": "Me neither",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Me neither responde a una negación. En EE. UU. neither suele sonar /ˈniːðər/; en el Reino Unido, /ˈnaɪðə/. Los dos son correctos."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Conversación que muere",
+          "items": [
+            "Where do you work? — In a hospital.",
+            "Do you like it? — Yes.",
+            "(silencio)"
+          ]
+        },
+        "b": {
+          "titulo": "Conversación que sigue",
+          "items": [
+            "Where do you work? — In a hospital. I'm a nurse. What about you?",
+            "Do you like it? — Yes, I love it! Do you like your job?",
+            "Reacción + dato + pregunta devuelta"
+          ]
+        },
+        "veredicto": "La diferencia no es gramatical sino de actitud: añade un dato y devuelve la pregunta."
+      },
+      "pronunciacion": [
+        {
+          "texto": "What was it like?",
+          "ipa": "/wʌt wəz ɪt laɪk/",
+          "consejo": "Se dice casi como una sola palabra: «wha-wə-zit-laik». Was es débil (/wəz/) y se une a it. El acento fuerte cae en like."
+        },
+        {
+          "texto": "Me neither.",
+          "ipa": "/mi ˈniːðər/",
+          "consejo": "El sonido /ð/ de neither es como la d suave del español entre vocales («nada»), pero con la punta de la lengua asomando un poco entre los dientes y vibrando."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I don't like coffee. — Me too.",
+          "bien": "Me neither.",
+          "porque": "Después de una frase negativa, «yo tampoco» es Me neither."
+        },
+        {
+          "mal": "How was it like?",
+          "bien": "What was it like? / How was it?",
+          "porque": "Se mezclan dos preguntas correctas. Con like se usa what; con how, sin like."
+        },
+        {
+          "mal": "And you? (después de que te preguntan tu nombre, sin decirlo)",
+          "bien": "I'm Diego. And you?",
+          "porque": "Primero contesta; después devuelve la pregunta."
+        }
+      ]
+    },
+    {
+      "id": "pedir-aclaracion",
+      "titulo": "Pedir aclaraciones: Sorry? What do you mean?",
+      "que_es": "No entender algo es normal, incluso entre nativos. Lo importante es **decirlo** con una frase adecuada en lugar de fingir que entendiste. Hay frases para pedir que repitan, que hablen más despacio, que expliquen una palabra o que la deletreen.",
+      "para_que": [
+        "No perder el hilo cuando alguien habla rápido.",
+        "Aprender palabras nuevas en la conversación.",
+        "Anotar bien nombres, direcciones y correos."
+      ],
+      "como_funciona": "Según lo que necesites: **no oíste bien**: [[Sorry?]] o [[Pardon?]] con la voz subiendo, o [[Could you say that again, please?]] / [[Could you repeat that, please?]] (con repeat lo natural es añadir el objeto: that). **Hablan muy rápido**: [[Could you speak more slowly, please?]] **No entiendes una idea**: [[What do you mean?]] (¿qué quieres decir?). **No conoces una palabra**: [[What does 'X' mean?]] (presente simple con does y mean en forma base, porque la palabra es tercera persona). **Necesitas escribirla**: [[How do you spell that?]] **Quieres una palabra en inglés**: [[How do you say 'cuchara' in English?]] Usa [[could]] para sonar cortés, como aprendiste con las peticiones. Y un calco peligroso: el «¿Cómo?» español para pedir que repitan no se traduce como «How?»; di [[Sorry?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Preguntar el significado",
+          "formula": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "'palabra'",
+              "rol": "sujeto"
+            },
+            {
+              "t": "mean?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "'awkward'",
+              "rol": "sujeto"
+            },
+            {
+              "t": "mean?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿Qué significa «awkward»?"
+        },
+        {
+          "etiqueta": "Pedir con cortesía",
+          "formula": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto, please?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "say",
+              "rol": "verbo"
+            },
+            {
+              "t": "that again, please?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Podrías repetirlo, por favor?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "El problema y la frase",
+          "columnas": [
+            "Problema",
+            "Frase"
+          ],
+          "filas": [
+            [
+              "No lo oí bien",
+              "Sorry? / Pardon? / Could you say that again, please?"
+            ],
+            [
+              "Hablan muy rápido",
+              "Could you speak more slowly, please?"
+            ],
+            [
+              "No entiendo la idea",
+              "Sorry, I don't understand. What do you mean?"
+            ],
+            [
+              "No conozco una palabra",
+              "What does 'refund' mean?"
+            ],
+            [
+              "Necesito escribirlo",
+              "How do you spell that?"
+            ],
+            [
+              "No sé cómo se dice",
+              "How do you say 'cuchara' in English?"
+            ]
+          ],
+          "audio": [
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Sorry, could you speak more slowly, please?",
+          "es": "Perdón, ¿podría hablar más despacio, por favor?",
+          "partes": [
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "could",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            },
+            {
+              "t": "more slowly",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Slowly (con -ly) describe cómo habla: más despacio. «More slow» es un error frecuente."
+        },
+        {
+          "en": "What does 'refund' mean?",
+          "es": "¿Qué significa «refund»?",
+          "situacion": "En una tienda, al devolver un producto.",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "'refund'",
+              "rol": "sujeto"
+            },
+            {
+              "t": "mean",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "La palabra es el sujeto (it): does + mean en forma base. Refund = reembolso."
+        },
+        {
+          "en": "My email is ptorres at mail dot com. Sorry, how do you spell 'Torres'?",
+          "es": "Mi correo es ptorres arroba mail punto com. Perdón, ¿cómo se escribe «Torres»?",
+          "partes": [
+            {
+              "t": "My email",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "ptorres at mail dot com",
+              "rol": "complemento"
+            },
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "how",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "spell",
+              "rol": "verbo"
+            },
+            {
+              "t": "'Torres'",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En los correos, @ se dice at y el punto, dot. How do you spell…? usa you con sentido general («¿cómo se escribe?»)."
+        },
+        {
+          "en": "I'm sorry, I don't understand. What do you mean?",
+          "es": "Perdón, no entiendo. ¿Qué quieres decir?",
+          "partes": [
+            {
+              "t": "I'm sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't understand",
+              "rol": "verbo"
+            },
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "mean",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Understand es verbo de estado: I don't understand, no «I'm not understanding». What do you mean? se usa mucho más que la traducción literal «What do you want to say?»."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Sorry?",
+          "ipa": "/ˈsɑːri/ ↗ (británico /ˈsɒri/)",
+          "consejo": "Para pedir que repitan, la voz sube al final, como una pregunta. En EE. UU. la primera vocal es una «a» abierta y larga (/ɑː/), casi «sári»; en el Reino Unido, una «o» corta. Con la voz bajando, Sorry. es una disculpa."
+        },
+        {
+          "texto": "Could you say that again?",
+          "ipa": "/kʊdʒə seɪ ðæt əˈɡɛn/",
+          "consejo": "Could you se funde en /kʊdʒə/: la d y la y se unen en un sonido parecido a la «y» fuerte de «yo» dicha con énfasis, casi «kuya». La l de could no se pronuncia. Again en EE. UU. suele sonar /əˈɡɛn/, «a-GUEN»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "What means 'awkward'?",
+          "bien": "What does 'awkward' mean?",
+          "porque": "Pregunta de objeto en presente simple: necesita does, y mean vuelve a la forma base."
+        },
+        {
+          "mal": "How? (para que te repitan)",
+          "bien": "Sorry? / Pardon?",
+          "porque": "Calco de «¿Cómo?». En inglés How? no se usa para pedir que repitan."
+        },
+        {
+          "mal": "Can you repeat?",
+          "bien": "Could you repeat that, please?",
+          "porque": "Can you repeat? se oye, pero lo natural es añadir el objeto (repeat that), y could y please lo hacen más cortés."
+        },
+        {
+          "mal": "Could you speak more slow?",
+          "bien": "Could you speak more slowly?",
+          "porque": "Para describir cómo se hace una acción se usa slowly, con -ly."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada noticia con la reacción más adecuada.",
+      "pares": [
+        {
+          "a": "I got the job!",
+          "b": "That's great! Congratulations!"
+        },
+        {
+          "a": "My phone broke this morning.",
+          "b": "Oh no! That's too bad."
+        },
+        {
+          "a": "My grandmother is in the hospital.",
+          "b": "I'm sorry to hear that."
+        },
+        {
+          "a": "I'm flying to Cancún tomorrow.",
+          "b": "Lucky you!"
+        },
+        {
+          "a": "I saw a whale yesterday!",
+          "b": "Really? Wow!"
+        }
+      ],
+      "pistas": [
+        "Piensa si cada noticia es buena, mala, triste o sorprendente.",
+        "Una noticia triste sobre la salud de alguien pide empatía, no solo «Oh no».",
+        "Clasifica cada noticia: buena, molesta, triste, envidiable o sorprendente; cada reacción corresponde a un solo tipo."
+      ],
+      "solucion": {
+        "respuesta": "job → That's great! · phone → That's too bad · grandmother → I'm sorry to hear that · Cancún → Lucky you! · whale → Really? Wow!",
+        "explicacion": "Conseguir trabajo es una gran noticia (Congratulations!). Un celular roto es una molestia (That's too bad). Una abuela en el hospital pide empatía (I'm sorry to hear that). Un viaje a la playa provoca envidia sana (Lucky you!). Ver una ballena es sorprendente (Really? Wow!)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "«I don't like horror movies.» — Tú tampoco. ¿Qué dices?",
+      "opciones": [
+        {
+          "texto": "Me neither.",
+          "correcta": true,
+          "porque": "Correcta: Me neither expresa coincidencia con una frase negativa (yo tampoco)."
+        },
+        {
+          "texto": "Me too.",
+          "correcta": false,
+          "porque": "Me too responde a frases afirmativas. Aquí significaría algo confuso."
+        },
+        {
+          "texto": "Me also.",
+          "correcta": false,
+          "porque": "No se usa en inglés; es un calco de «yo también»."
+        }
+      ],
+      "pistas": [
+        "La frase que oyes es negativa (don't).",
+        "Quieres decir «yo tampoco».",
+        "Afirmativa → Me too; negativa → Me neither."
+      ],
+      "solucion": {
+        "respuesta": "Me neither.",
+        "explicacion": "Como la frase es negativa (I don't like…), la coincidencia se expresa con Me neither, equivalente a «yo tampoco»."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las preguntas eco con el auxiliar adecuado.",
+      "frase": "I went to Japan last year. — ___ you? Wow! / My sister is a pilot. — ___ she? That's cool!",
+      "banco": [
+        "Do",
+        "Did",
+        "Is",
+        "Was",
+        "Does"
+      ],
+      "respuestas": [
+        [
+          "Did"
+        ],
+        [
+          "Is"
+        ]
+      ],
+      "errores_tipicos": {
+        "Do | Is": "Went es pasado: el eco usa did.",
+        "Did | Does": "La segunda oración usa is (to be): el eco repite is.",
+        "Did | Was": "Is está en presente: el eco también."
+      },
+      "pistas": [
+        "El eco repite el auxiliar de la oración que oyes.",
+        "La primera oración está en pasado simple (went); la segunda usa to be en presente (is).",
+        "La pregunta eco usa el auxiliar del tiempo de la oración: con pasado simple, el auxiliar del pasado; con be, se repite be."
+      ],
+      "solucion": {
+        "respuesta": "Did · Is",
+        "explicacion": "I went… está en pasado simple con el auxiliar escondido did: el eco es Did you? My sister is… usa to be en presente: el eco es Is she?"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las preguntas eco.",
+      "frase": "Tom works at night. — ___ he? Poor Tom! / I can't swim. — ___ you? I can teach you!",
+      "respuestas": [
+        [
+          "Does"
+        ],
+        [
+          "Can't"
+        ]
+      ],
+      "errores_tipicos": {
+        "Is | Can't": "Works es presente simple (verbo normal): el eco usa does.",
+        "Does | Can": "La oración es negativa (can't): el eco también debe serlo.",
+        "Do | Can't": "Tom es tercera persona del singular: does."
+      },
+      "pistas": [
+        "Busca el auxiliar escondido o visible de cada oración.",
+        "Works lleva -s; la segunda oración es negativa.",
+        "Presente simple con he → auxiliar de presente con -es; si la oración es negativa, el eco conserva la negación."
+      ],
+      "solucion": {
+        "respuesta": "Does · Can't",
+        "explicacion": "Tom works es presente simple con tercera persona: el auxiliar escondido es does, así que el eco es Does he? I can't swim es negativa: el eco conserva la negación, Can't you?"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.05",
+      "tipo": "conversacion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta que mantiene viva la conversación.",
+      "contexto": "Conoces a Ben en una fiesta.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "So, where are you from?",
+          "es": "Y, ¿de dónde eres?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I'm from Puebla. What about you?",
+          "correcta": true,
+          "porque": "Correcta: contesta y devuelve la pregunta, así Ben tiene algo que decir."
+        },
+        {
+          "texto": "Puebla.",
+          "correcta": false,
+          "porque": "Es comprensible, pero muy seca: no añade nada ni devuelve la pregunta, y la conversación se detiene."
+        },
+        {
+          "texto": "I from Puebla. And you?",
+          "correcta": false,
+          "porque": "Falta el verbo to be: I'm from Puebla."
+        },
+        {
+          "texto": "And you?",
+          "correcta": false,
+          "porque": "Devuelve la pregunta sin haberla contestado."
+        }
+      ],
+      "pistas": [
+        "Una buena respuesta tiene dos partes.",
+        "Primero contesta con una oración completa; después pasa el turno.",
+        "Respuesta + And you? / What about you?"
+      ],
+      "solucion": {
+        "respuesta": "I'm from Puebla. What about you?",
+        "explicacion": "Para mantener una conversación, contesta con una oración completa (I'm from Puebla) y devuelve la pregunta (What about you?)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.06",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la frase adecuada.",
+      "pregunta": "Una compañera te dice algo, pero hay mucho ruido y no la oíste. ¿Qué le dices?",
+      "opciones": [
+        {
+          "texto": "Sorry, could you say that again?",
+          "correcta": true,
+          "porque": "Correcta: pide con cortesía que lo repita."
+        },
+        {
+          "texto": "Repeat!",
+          "correcta": false,
+          "porque": "Es una orden seca; suena grosero."
+        },
+        {
+          "texto": "How?",
+          "correcta": false,
+          "porque": "Calco de «¿Cómo?». En inglés How? no sirve para pedir que repitan."
+        },
+        {
+          "texto": "What do you say?",
+          "correcta": false,
+          "porque": "Significa «¿Qué dices (normalmente)?» o se usa para pedir tu opinión; no es la forma de pedir que repitan."
+        }
+      ],
+      "pistas": [
+        "Necesitas que lo repita, con cortesía.",
+        "Recuerda la forma cortés de pedir: could.",
+        "Empieza con una disculpa breve y luego pide que repita con could + you + verbo + that + again."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, could you say that again?",
+        "explicacion": "Could you say that again? es la forma cortés de pedir que repitan. Sorry al principio suaviza la petición. How? es un calco del español que no funciona."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la orden en una petición cortés. Usa Could you, repeat y please.",
+      "origen": "Repeat that.",
+      "instruccion": "Petición cortés",
+      "respuestas": [
+        "Could you repeat that, please?",
+        "Could you please repeat that?"
+      ],
+      "errores_tipicos": {
+        "Could you repeat, please?": "Falta el objeto de la orden original: repeat that. Así suena más natural.",
+        "Could you to repeat that, please?": "Después de could va la forma base, sin to.",
+        "Could you repeated that, please?": "Could no cambia el verbo a pasado: repeat."
+      },
+      "pistas": [
+        "Una petición cortés empieza con un modal.",
+        "Could + you + verbo en forma base + objeto.",
+        "Could + sujeto + forma base + pronombre para lo que se dijo + coma + palabra de cortesía, como en Could you open the door, please?"
+      ],
+      "solucion": {
+        "respuesta": "Could you repeat that, please?",
+        "explicacion": "Could you + forma base es la forma cortés de pedir algo. Conserva el objeto de la orden (repeat that). Please puede ir al final o después de you."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para pedir que te deletreen algo.",
+      "fichas": [
+        "spell",
+        "How",
+        "last",
+        "do",
+        "your",
+        "you",
+        "name",
+        "?"
+      ],
+      "respuestas": [
+        "How do you spell your last name?"
+      ],
+      "traduccion": "¿Cómo se escribe tu apellido?",
+      "pistas": [
+        "Es una pregunta en presente simple con how.",
+        "How + auxiliar + sujeto + verbo + objeto.",
+        "How + auxiliar + sujeto + forma base + objeto, como en How do you pronounce this word?"
+      ],
+      "solucion": {
+        "respuesta": "How do you spell your last name?",
+        "explicacion": "How do you spell…? es la pregunta fija para pedir que deletreen algo. Sigue la fórmula de siempre: How + do + you + spell. Last name = apellido."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "What does awkward means?",
+      "error": "means",
+      "correcciones": [
+        "mean"
+      ],
+      "frase_correcta": "What does awkward mean?",
+      "pistas": [
+        "La pregunta ya tiene does.",
+        "Mira el verbo del final.",
+        "Tras does el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "means → mean",
+        "explicacion": "Does ya lleva la -s de tercera persona, así que mean va en forma base: What does awkward mean? (awkward = incómodo)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.10",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Could you speak more slow, please?",
+      "error": "slow",
+      "correcciones": [
+        "slowly"
+      ],
+      "frase_correcta": "Could you speak more slowly, please?",
+      "pistas": [
+        "El error está en la palabra que describe cómo habla la persona.",
+        "Slow es un adjetivo (a slow car). Para describir una acción se necesita otra forma.",
+        "Adjetivo + -ly = palabra que describe cómo se hace algo."
+      ],
+      "solucion": {
+        "respuesta": "slow → slowly",
+        "explicacion": "Slow describe cosas (a slow bus). Para describir cómo se hace una acción, como hablar, se usa slowly: speak more slowly."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.11",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés la pregunta para pedir una aclaración.",
+      "es": "¿Qué quieres decir?",
+      "respuestas": [
+        "What do you mean?",
+        "What do you mean by that?"
+      ],
+      "errores_tipicos": {
+        "What do you want to say?": "Es un calco. Para pedir una aclaración se usa el verbo mean: What do you mean?",
+        "What you mean?": "Falta el auxiliar do."
+      },
+      "pistas": [
+        "En inglés esta pregunta no usa want ni say.",
+        "El verbo es mean (querer decir, significar).",
+        "What + auxiliar + sujeto + forma base, como en What do you want?"
+      ],
+      "solucion": {
+        "respuesta": "What do you mean?",
+        "explicacion": "«Querer decir» se expresa con el verbo mean. Presente simple con you: What do you mean? La traducción palabra por palabra no se usa para pedir aclaraciones."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa How do you say…?",
+      "es": "¿Cómo se dice «cuchara» en inglés?",
+      "respuestas": [
+        "How do you say cuchara in English?",
+        "How do you say 'cuchara' in English?"
+      ],
+      "errores_tipicos": {
+        "How do you say in English cuchara?": "La palabra que preguntas va justo después de say, y in English al final.",
+        "How you say cuchara in English?": "Falta el auxiliar do.",
+        "How is said cuchara in English?": "Calco de «se dice». En inglés se usa you en sentido general: How do you say…?"
+      },
+      "pistas": [
+        "El «se» impersonal del español se traduce con you.",
+        "La pregunta usa el auxiliar do con you, aunque en español sea impersonal («se dice»).",
+        "How + auxiliar + sujeto + say + palabra + in + idioma, como en How do you say gato in French?"
+      ],
+      "solucion": {
+        "respuesta": "How do you say cuchara in English?",
+        "explicacion": "El «se» impersonal («¿cómo se dice?») se expresa en inglés con you general: How do you say…? La palabra va detrás de say y in English al final. (La respuesta sería spoon.)"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor pregunta de seguimiento.",
+      "contexto": "Tu compañera Priya te cuenta algo del fin de semana.",
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "I went to a cooking class last Saturday.",
+          "es": "El sábado pasado fui a una clase de cocina."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Really? What was it like?",
+          "correcta": true,
+          "porque": "Correcta: reacciona con interés y pide una descripción en pasado, porque la clase ya terminó."
+        },
+        {
+          "texto": "Really? What is it like?",
+          "correcta": false,
+          "porque": "Está en presente; la clase fue el sábado pasado, así que se pregunta en pasado (was)."
+        },
+        {
+          "texto": "Really? Did you liked it?",
+          "correcta": false,
+          "porque": "Después de did el verbo va en forma base: Did you like it?"
+        },
+        {
+          "texto": "Really? Where you went?",
+          "correcta": false,
+          "porque": "Falta el auxiliar did y el orden: Where did you go?"
+        }
+      ],
+      "pistas": [
+        "Priya habla de algo que ya pasó.",
+        "La pregunta de seguimiento debe ir en pasado y estar bien construida.",
+        "Para pedir una descripción de algo pasado: What + pasado de be + it + like; o una pregunta con did + sujeto + forma base."
+      ],
+      "solucion": {
+        "respuesta": "Really? What was it like?",
+        "explicacion": "Really? muestra interés y What was it like? pide una descripción de la experiencia en pasado. Las otras opciones tienen errores de tiempo (is), de forma verbal (liked tras did) o de orden (falta did)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite. Imita la entonación: sube en las preguntas de sorpresa y baja en la reacción.",
+      "texto": "Really? That's great! Did you? Oh no!",
+      "ipa": "/ˈriːli ↗ ‖ ðæts ˈɡreɪt ↘ ‖ ˈdɪdʒu ↗ ‖ oʊ ˈnoʊ ↘/",
+      "consejo": "Really? y Did you? suben al final: expresan sorpresa e invitan a seguir contando. That's great! y Oh no! bajan: son exclamaciones. En great, el diptongo /eɪ/ es como el «ei» de «rey». En that's, la th es /ð/: lengua entre los dientes y vibración.",
+      "es": "¿En serio? ¡Qué bien! ¿Ah, sí? ¡Ay, no!",
+      "pistas": [
+        "Escucha la melodía más que las palabras.",
+        "Las preguntas de sorpresa suben; las exclamaciones bajan.",
+        "Really? ↗ / That's great! ↘ / Did you? ↗ / Oh no! ↘"
+      ]
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.15",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "Sorry, I don't understand. Could you speak more slowly, please?",
+      "pistas": [
+        "Son dos oraciones: una negación y una petición.",
+        "La negación usa un verbo de estado en presente simple; la petición usa un modal cortés.",
+        "Negación en presente simple: auxiliar + n't + understand. Petición: Could + sujeto + forma base + more + adverbio en -ly + coma + please."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, I don't understand. Could you speak more slowly, please?",
+        "explicacion": "I don't understand: presente simple negativo (understand es verbo de estado). Could you speak…: petición cortés con could + forma base. More slowly: slowly describe cómo hablar."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Una conversación completa",
+    "contexto": "Estás en la fila de un café y la persona de al lado, Sam, empieza a platicar contigo. Tienes que reaccionar, devolver preguntas y pedir una aclaración.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Long line today, huh? Do you come here often?",
+        "es": "Hay mucha fila hoy, ¿eh? ¿Vienes seguido?"
+      },
+      {
+        "quien": "Tú",
+        "en": "Yes, every morning. I work near here. What about you?",
+        "es": "Sí, todas las mañanas. Trabajo cerca. ¿Y tú?"
+      },
+      {
+        "quien": "Sam",
+        "en": "It's my first time. I moved here last week. I'm a software developer, and I'm looking for a coworking space.",
+        "es": "Es mi primera vez. Me mudé aquí la semana pasada. Soy desarrollador de software y estoy buscando un espacio de coworking."
+      }
+    ],
+    "tu_turno": "Continúa la conversación con 3 o 4 frases: reacciona a la noticia de la mudanza (pregunta eco o expresión), pide que te aclare una palabra que no entendiste (coworking) y haz una pregunta de seguimiento en pasado.",
+    "modelo": "Oh, did you? Welcome! Sorry, what does 'coworking' mean? And where did you live before?",
+    "alternativas": [
+      "Really? That's great! Sorry, could you say that again? A coworking what? Why did you move here?",
+      "Did you? How nice! What do you mean by 'coworking space'? Do you like the city so far?"
+    ],
+    "claves": [
+      "Reacción: Did you? / Really? / That's great! / How nice!",
+      "Aclaración: What does 'X' mean? / Could you say that again? / What do you mean?",
+      "Seguimiento en el tiempo correcto: Where did you live before? / Why did you move?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Reacciona: That's great! / Oh no! / I'm sorry to hear that. / Really? / Lucky you!",
+      "Pregunta eco = auxiliar + pronombre, en el mismo tiempo y con la misma polaridad: Did you? / Is she? / Can't you?",
+      "Contesta y devuelve: … And you? / What about you?",
+      "Pregunta de seguimiento: What was it like? / Where did you go? / Did you like it?",
+      "Me too (tras afirmación) / Me neither (tras negación).",
+      "Aclaraciones: Sorry? / Could you say that again, please? / What do you mean? / What does 'X' mean? / How do you spell that?"
+    ],
+    "recuerda": [
+      "Nunca «How?» para pedir que repitan: di Sorry? o Pardon?",
+      "What does X mean?, no «What means X?».",
+      "I'm sorry to hear that muestra empatía; Sorry solo suena a disculpa."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.r1",
+      "frente": "Pregunta eco: «She works at night.»",
+      "reverso": "Does she?",
+      "nota": "Mismo auxiliar escondido que en la pregunta: does."
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.r2",
+      "frente": "«I don't like coffee.» — «Yo tampoco.»",
+      "reverso": "Me neither.",
+      "nota": "Me too solo tras frases afirmativas."
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.r3",
+      "frente": "«¿Qué significa refund?»",
+      "reverso": "What does 'refund' mean?",
+      "nota": "Does + mean en forma base."
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.r4",
+      "frente": "Reacción ante una mala noticia sobre la salud de alguien",
+      "reverso": "I'm sorry to hear that.",
+      "nota": "Empatía, no disculpa."
+    },
+    {
+      "id": "comunicacion-integrada.mantener-una-conversacion.r5",
+      "frente": "«¿Qué tal estuvo?» (de una experiencia pasada)",
+      "reverso": "What was it like? / How was it?",
+      "nota": "No mezcles: «How was it like?» es incorrecto."
+    }
+  ]
+}

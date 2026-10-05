@@ -1,0 +1,1032 @@
+{
+  "slug": "respuestas-cortas",
+  "titulo": "Respuestas cortas",
+  "minutos": 30,
+  "objetivos": [
+    "Contestar preguntas de sí o no con respuestas cortas: Yes, I am / No, she isn't.",
+    "Cambiar el sujeto de la pregunta por el pronombre adecuado en la respuesta.",
+    "Entender por qué la respuesta afirmativa corta nunca se contrae (Yes, I am, no «Yes, I'm») y la negativa sí.",
+    "Añadir información después de la respuesta corta para sonar natural."
+  ],
+  "situacion": {
+    "titulo": "Preguntas en la recepción",
+    "texto": "Carlos llega a un hotel pequeño. La recepcionista, Grace, le hace varias preguntas de sí o no. Carlos no contesta solo «Yes» o «No», ni repite toda la oración: usa respuestas cortas, que es lo más natural en inglés.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Good evening. Are you Mr. Ruiz?",
+        "es": "Buenas noches. ¿Es usted el señor Ruiz?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Yes, I am.",
+        "es": "Sí, soy yo."
+      },
+      {
+        "quien": "Grace",
+        "en": "Is your wife with you?",
+        "es": "¿Su esposa viene con usted?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "No, she isn't. She's at home in Monterrey.",
+        "es": "No. Está en casa, en Monterrey."
+      },
+      {
+        "quien": "Grace",
+        "en": "OK. Room 12. Is that OK?",
+        "es": "Muy bien. Habitación 12. ¿Está bien?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Yes, it is. Thank you!",
+        "es": "Sí, perfecto. ¡Gracias!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "forma-de-la-respuesta-corta",
+      "titulo": "Yes + pronombre + be / No + pronombre + be + not",
+      "que_es": "Una respuesta corta repite solo el **sujeto** (como pronombre) y **be** de la pregunta. Es la manera más natural de contestar una pregunta de sí o no en inglés.",
+      "para_que": [
+        "Contestar sin sonar cortante: [[Yes.]] a secas puede sonar seco; [[Yes, I am.]] suena completo y amable.",
+        "Contestar sin repetir toda la oración: no hace falta decir [[Yes, I am from Mexico.]]",
+        "Confirmar o negar con claridad en conversaciones rápidas, por teléfono o en trámites."
+      ],
+      "como_funciona": "Para formar la respuesta mira la pregunta: usa el **mismo be** (ajustado al nuevo sujeto) y convierte el sujeto en **pronombre**.\n\n• [[Are you…?]] se contesta con **I**: Yes, I am. / No, I'm not. (Si «you» se refiere a varias personas, con **we**: Yes, we are.)\n• [[Is Tom…?]] → **he**; [[Is Grace…?]] → **she**; [[Is your phone…?]] → **it**; [[Are Tom and Mei…?]] → **they**.\n• [[Am I…?]] → **you**: Yes, you are.\n\nEn español contestamos con «Sí» o «Sí, soy yo», y es muy común el «Sí» solo. En inglés [[Yes]] o [[No]] a secas también existen, pero la respuesta corta es lo habitual y suena más natural y educada. Lo que casi nunca se hace es repetir el nombre: [[Yes, he is]] es mucho más natural que «Yes, Tom is».",
+      "estructuras": [
+        {
+          "etiqueta": "Respuesta corta afirmativa",
+          "formula": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            }
+          ],
+          "es": "Sí (lo es / lo está)."
+        },
+        {
+          "etiqueta": "Respuesta corta negativa",
+          "formula": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't / aren't / 'm not",
+              "rol": "negacion"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            }
+          ],
+          "es": "No (no lo es / no lo está)."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Preguntas y respuestas cortas",
+          "columnas": [
+            "Pregunta",
+            "Sí",
+            "No"
+          ],
+          "filas": [
+            [
+              "Are you tired?",
+              "Yes, I am.",
+              "No, I'm not."
+            ],
+            [
+              "Am I late?",
+              "Yes, you are.",
+              "No, you aren't."
+            ],
+            [
+              "Is Tom at home?",
+              "Yes, he is.",
+              "No, he isn't."
+            ],
+            [
+              "Is Grace a nurse?",
+              "Yes, she is.",
+              "No, she isn't."
+            ],
+            [
+              "Is your phone new?",
+              "Yes, it is.",
+              "No, it isn't."
+            ],
+            [
+              "Are you and Ana sisters?",
+              "Yes, we are.",
+              "No, we aren't."
+            ],
+            [
+              "Are Tom and Mei friends?",
+              "Yes, they are.",
+              "No, they aren't."
+            ]
+          ],
+          "audio": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Yes, I am.",
+          "es": "Sí (lo soy / lo estoy).",
+          "situacion": "Respuesta a: Are you from Mexico?",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "La pregunta usa you, pero la respuesta habla de ti: I am."
+        },
+        {
+          "en": "No, he isn't.",
+          "es": "No.",
+          "situacion": "Respuesta a: Is Omar at work?",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "he",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            }
+          ],
+          "nota": "Omar se convierte en he. También es correcto No, he's not."
+        },
+        {
+          "en": "Yes, it is.",
+          "es": "Sí.",
+          "situacion": "Respuesta a: Is your phone new?",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Para una cosa, el pronombre es it."
+        },
+        {
+          "en": "Yes, we are.",
+          "es": "Sí.",
+          "situacion": "Respuesta a: Are you and Lucía sisters?",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "La pregunta es sobre ti y otra persona, así que contestas con we."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la pregunta a la respuesta corta",
+        "pasos": [
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Is",
+                "rol": "verbo"
+              },
+              {
+                "t": "Grace",
+                "rol": "sujeto"
+              },
+              {
+                "t": "a nurse",
+                "rol": "complemento"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Sí",
+            "partes": [
+              {
+                "t": "Yes,",
+                "rol": "otro"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "is",
+                "rol": "verbo"
+              }
+            ]
+          },
+          {
+            "etiqueta": "No",
+            "partes": [
+              {
+                "t": "No,",
+                "rol": "otro"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "isn't",
+                "rol": "negacion"
+              }
+            ]
+          }
+        ],
+        "pie": "El nombre se convierte en pronombre y el orden vuelve a ser sujeto + be. El complemento (a nurse) desaparece: ya se entiende."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Yes, she is.",
+          "ipa": "/ˈjɛs ʃi ˈɪz/",
+          "consejo": "La y de yes es como la «y» suave de «yeso», sin llegar a «ll» fuerte. Is, al final, se dice completo y con fuerza, con z sonora (vibra la garganta).",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Are you from Peru? — Yes, you are.",
+          "bien": "Yes, I am.",
+          "porque": "La pregunta te habla a ti (you); tú contestas sobre ti mismo: I am."
+        },
+        {
+          "mal": "Is your phone new? — Yes, he is.",
+          "bien": "Yes, it is.",
+          "porque": "Para una cosa, el pronombre es it. He solo se usa para personas de sexo masculino (y a veces mascotas)."
+        },
+        {
+          "mal": "Are you tired? — Yes, I tired.",
+          "bien": "Yes, I am.",
+          "porque": "La respuesta corta necesita be: el verbo nunca se omite."
+        }
+      ]
+    },
+    {
+      "id": "sin-contraccion-en-si",
+      "titulo": "Yes, I am (nunca «Yes, I'm»); No, I'm not",
+      "que_es": "En la respuesta corta **afirmativa** be se dice completo: [[Yes, I am.]] [[Yes, she is.]] [[Yes, they are.]] En la **negativa** lo normal es contraer: [[No, I'm not.]] [[No, she isn't.]] / [[No, she's not.]]",
+      "para_que": [
+        "Evitar el error más frecuente de los principiantes: «Yes, I'm».",
+        "Entender una regla general del inglés que volverás a ver con otros verbos.",
+        "Elegir con soltura entre las dos negativas (she isn't / she's not)."
+      ],
+      "como_funciona": "Una contracción como I'm, she's o they're no puede ser la **última palabra** de una oración: se apoya en la palabra que viene después, y en la respuesta corta no viene nada. Además, en la respuesta afirmativa be es la palabra que carga la fuerza de la voz (Yes, I AM), y una forma contraída no puede llevar fuerza. Por eso: **Yes, I am.** / **Yes, he is.** / **Yes, we are.**\n\nEn la negativa la última palabra es **not** o **isn't/aren't**, que sí pueden llevar la fuerza. Por eso la negativa se contrae con normalidad, y tiene las mismas dos formas que ya conoces:\n• No, she isn't. = No, she's not.\n• No, they aren't. = No, they're not.\n• No, I'm not. (con I, solo esta).\n\nLa forma completa No, I am not. es correcta, pero suena enfática o molesta («¡Que no!»). Úsala solo si quieres insistir.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmativa: sin contraer",
+          "formula": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "I / he / she / it / we / you / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are (completo)",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            }
+          ],
+          "es": "Sí."
+        },
+        {
+          "etiqueta": "Negativa: contraída (dos formas)",
+          "formula": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre + 's / 're / 'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "they're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            }
+          ],
+          "es": "No."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Yes, they are.",
+          "es": "Sí.",
+          "situacion": "Respuesta a: Are Sam and Ben brothers?",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "«Yes, they're» es incorrecto: sujeto + be contraído (they're) no puede cerrar la oración."
+        },
+        {
+          "en": "No, I'm not.",
+          "es": "No.",
+          "situacion": "Respuesta a: Are you hungry?",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            }
+          ],
+          "nota": "Con I la única negativa contraída es I'm not."
+        },
+        {
+          "en": "No, she's not. She's in Canada.",
+          "es": "No. Está en Canadá.",
+          "situacion": "Respuesta a: Is Grace here?",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "she's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not.",
+              "rol": "negacion"
+            },
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "in Canada",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Lo natural es añadir información después de la respuesta corta. En la segunda oración she's sí puede contraerse porque le sigue in Canada."
+        },
+        {
+          "en": "No, it isn't.",
+          "es": "No.",
+          "situacion": "Respuesta a: Is it cold?",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            }
+          ]
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Afirmativa: Yes, I am.",
+          "items": [
+            "be completo al final",
+            "be lleva la fuerza de la voz",
+            "«Yes, I'm» es incorrecto"
+          ]
+        },
+        "b": {
+          "titulo": "Negativa: No, I'm not.",
+          "items": [
+            "se contrae con normalidad",
+            "la fuerza va en not / isn't",
+            "dos formas: she isn't / she's not; con I solo I'm not"
+          ]
+        },
+        "veredicto": "Regla práctica: si la respuesta termina en be, no contraigas; si termina en not o en isn't/aren't, contrae."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Yes, I am.",
+          "ipa": "/ˈjɛs aɪ ˈæm/",
+          "consejo": "Am, al final, lleva fuerza y su vocal completa /æ/: abre la boca como para la a del español y estira los labios hacia los lados, a medio camino entre a y e. No la reduzcas.",
+          "lento": true
+        },
+        {
+          "texto": "No, I'm not.",
+          "ipa": "/ˈnoʊ aɪm ˈnɑt/",
+          "consejo": "No en inglés es un diptongo, /oʊ/: la o se cierra hacia u al final, no es la o seca del español. La fuerza cae en no y en not."
+        },
+        {
+          "texto": "No, they aren't.",
+          "ipa": "/ˈnoʊ ðeɪ ˈɑrnt/",
+          "consejo": "They empieza con /ð/: la punta de la lengua asoma un poco entre los dientes y vibra, como la d suave de «nada» pero más adelante. Aren't es una sola sílaba."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Yes, I'm.",
+          "bien": "Yes, I am.",
+          "porque": "Sujeto + be contraído (I'm) no puede ser la última palabra: en la respuesta afirmativa be va completo."
+        },
+        {
+          "mal": "Yes, she's.",
+          "bien": "Yes, she is.",
+          "porque": "Mismo motivo: la afirmativa corta no se contrae."
+        },
+        {
+          "mal": "No, I amn't.",
+          "bien": "No, I'm not.",
+          "porque": "Amn't no existe. Con I la negativa es I'm not."
+        },
+        {
+          "mal": "No, I'm.",
+          "bien": "No, I'm not.",
+          "porque": "Sin not no hay negación: la respuesta diría «No, soy»."
+        }
+      ],
+      "nota": {
+        "titulo": "Una regla que vuelve",
+        "texto": "Esta regla (nada de contracción al final de la respuesta afirmativa) se repite con los demás verbos auxiliares que verás en el curso. Si la entiendes aquí, la tendrás resuelta para siempre.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta corta correcta.",
+      "pregunta": "Are you a student? (Sí.)",
+      "opciones": [
+        {
+          "texto": "Yes, I am.",
+          "correcta": true,
+          "porque": "Correcto: la pregunta te habla a ti, contestas con I y be completo (am)."
+        },
+        {
+          "texto": "Yes, I'm.",
+          "correcta": false,
+          "porque": "La respuesta afirmativa corta no se contrae: I'm no puede ser la última palabra."
+        },
+        {
+          "texto": "Yes, you are.",
+          "correcta": false,
+          "porque": "Con you te preguntan a ti: tú contestas sobre ti mismo, con I."
+        },
+        {
+          "texto": "Yes, I student.",
+          "correcta": false,
+          "porque": "Falta be. La respuesta corta es Yes + pronombre + be."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el sujeto (como pronombre) y be.",
+        "¿A quién se refiere you en la pregunta? ¿Con qué pronombre contestas?",
+        "Regla: si te preguntan con you, contestas con I + be completo, sin contraer."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I am.",
+        "explicacion": "La respuesta correcta es Yes, I am. porque a una pregunta con you se contesta con I, y en la respuesta corta afirmativa be se dice completo: la contracción I'm no puede quedarse al final."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta con una palabra.",
+      "frase": "Is Mei from China? Yes, she ___.",
+      "traduccion": "¿Mei es de China? Sí.",
+      "respuestas": [
+        [
+          "is"
+        ]
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "'s": "La afirmativa corta no se contrae: Yes, she is.",
+        "are": "She es tercera persona del singular: va is."
+      },
+      "pistas": [
+        "Es una respuesta afirmativa corta.",
+        "El pronombre ya está (she): falta be.",
+        "Regla: Yes + pronombre + be completo; con she, is."
+      ],
+      "solucion": {
+        "respuesta": "is",
+        "explicacion": "La respuesta correcta es is porque el sujeto she lleva is, y en la respuesta corta afirmativa be va completo al final (nunca «Yes, she's»)."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta negativa (pronombre + be + not, contraído o no).",
+      "frase": "Are you tired? No, ___.",
+      "traduccion": "¿Estás cansado? No.",
+      "respuestas": [
+        [
+          "I'm not",
+          "I am not"
+        ]
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "I amn't": "Amn't no existe: con I la negativa es I'm not.",
+        "I'm": "Sin not no hay negación.",
+        "you aren't": "Te preguntan a ti: contestas con I."
+      },
+      "pistas": [
+        "Te preguntan a ti: ¿qué pronombre usas?",
+        "Necesitas pronombre + be + not.",
+        "Regla: con I la única contracción negativa es I'm not."
+      ],
+      "solucion": {
+        "respuesta": "I'm not",
+        "explicacion": "La respuesta correcta es I'm not porque te preguntan con you y tú respondes con I; la negativa corta con I se contrae siempre como I'm not (la forma completa I am not es correcta pero enfática)."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.04",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada pregunta con su respuesta corta.",
+      "pares": [
+        {
+          "a": "Are you ready?",
+          "b": "Yes, I am."
+        },
+        {
+          "a": "Is it cold?",
+          "b": "No, it isn't."
+        },
+        {
+          "a": "Are they at home?",
+          "b": "Yes, they are."
+        },
+        {
+          "a": "Is Omar your teacher?",
+          "b": "No, he isn't."
+        },
+        {
+          "a": "Are you and Sam friends?",
+          "b": "Yes, we are."
+        },
+        {
+          "a": "Is Lucía a doctor?",
+          "b": "No, she isn't."
+        }
+      ],
+      "pistas": [
+        "El pronombre de la respuesta tiene que corresponder al sujeto de la pregunta.",
+        "Busca el sujeto de cada pregunta y conviértelo en pronombre.",
+        "Regla: you → I; you and Sam → we; nombre de mujer → she; de hombre → he; cosa → it; plural → they."
+      ],
+      "solucion": {
+        "respuesta": "Are you ready? → Yes, I am. · Is it cold? → No, it isn't. · Are they at home? → Yes, they are. · Is Omar your teacher? → No, he isn't. · Are you and Sam friends? → Yes, we are. · Is Lucía a doctor? → No, she isn't.",
+        "explicacion": "Cada respuesta se elige por su pronombre: you → I, it → it, they → they, Omar → he, you and Sam → we, Lucía → she."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la respuesta corta negativa. Usa un pronombre.",
+      "origen": "Is Omar at work?",
+      "instruccion": "Respuesta corta negativa",
+      "respuestas": [
+        "No, he isn't.",
+        "No, he's not."
+      ],
+      "errores_tipicos": {
+        "No, he not": "Falta be: No, he isn't / No, he's not.",
+        "No, he don't": "Don't no se usa con be: No, he isn't.",
+        "No, she isn't": "Omar es nombre de hombre: el pronombre es he."
+      },
+      "pistas": [
+        "Convierte Omar en pronombre.",
+        "La pregunta usa is: la respuesta negativa usa is + not.",
+        "Regla: No + pronombre que sustituye al nombre + be + not contraído (como en No, she isn't)."
+      ],
+      "solucion": {
+        "respuesta": "No, he isn't.",
+        "explicacion": "La respuesta correcta es No, he isn't. (o No, he's not.) porque Omar se sustituye por he, y la negativa corta repite is + not, que en la negativa sí se contrae."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la respuesta corta afirmativa.",
+      "origen": "Are you and Priya sisters?",
+      "instruccion": "Respuesta corta afirmativa",
+      "respuestas": [
+        "Yes, we are."
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Yes, we're": "La afirmativa corta no se contrae: we're no puede quedar al final.",
+        "Yes, you are": "La pregunta es sobre ti y Priya: contestas con we.",
+        "Yes, they are": "Tú estás incluido en la respuesta: we, no they."
+      },
+      "pistas": [
+        "¿Quiénes son you and Priya desde tu punto de vista?",
+        "Tú y otra persona = nosotros.",
+        "Regla: Yes + el pronombre que te incluye a ti y a la otra persona + be completo, sin contraer (como en Yes, they are)."
+      ],
+      "solucion": {
+        "respuesta": "Yes, we are.",
+        "explicacion": "La respuesta correcta es Yes, we are. porque la pregunta habla de ti y de Priya, y tú contestas por los dos con we; en la afirmativa corta are va completo, nunca «we're»."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "La respuesta tiene un error. Señálalo y corrígelo.",
+      "frase": "Is your phone new? Yes, he is.",
+      "error": "he",
+      "correcciones": [
+        "it"
+      ],
+      "frase_correcta": "Is your phone new? Yes, it is.",
+      "errores_tipicos": {
+        "she": "Un celular es una cosa: el pronombre es it, no she."
+      },
+      "pistas": [
+        "El pronombre de la respuesta sustituye al sujeto de la pregunta.",
+        "¿Your phone es una persona o una cosa?",
+        "Regla: para una cosa, el pronombre es it."
+      ],
+      "solucion": {
+        "respuesta": "Is your phone new? Yes, it is.",
+        "explicacion": "El error es he: la pregunta habla de your phone, una cosa, y las cosas se sustituyen por it. Fíjate además en que la respuesta afirmativa mantiene is completo: Yes, it is (nunca «Yes, it's»)."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.08",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Ben conoce a tu familia por fotos y te pregunta por tu hermana, que es enfermera.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "Is your sister a doctor?",
+          "es": "¿Tu hermana es doctora?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, she isn't. She's a nurse.",
+          "correcta": true,
+          "porque": "Correcto: respuesta corta negativa con she + isn't y, después, el dato verdadero en otra oración con sujeto."
+        },
+        {
+          "texto": "No, she's. She's a nurse.",
+          "correcta": false,
+          "porque": "Falta not: «No, she's» no niega nada y además she's no puede cerrar la respuesta."
+        },
+        {
+          "texto": "No, I'm not. I'm a nurse.",
+          "correcta": false,
+          "porque": "Te preguntan por tu hermana, no por ti: el pronombre es she."
+        },
+        {
+          "texto": "No, she isn't. Is a nurse.",
+          "correcta": false,
+          "porque": "La segunda oración no tiene sujeto: She's a nurse."
+        }
+      ],
+      "pistas": [
+        "Primero la respuesta corta, luego la información correcta.",
+        "¿De quién se habla? Revisa el pronombre y que cada oración tenga sujeto.",
+        "Regla: respuesta corta negativa con el pronombre correcto + otra oración completa (sujeto + be + dato correcto)."
+      ],
+      "solucion": {
+        "respuesta": "No, she isn't. She's a nurse.",
+        "explicacion": "La mejor respuesta es No, she isn't. She's a nurse. porque usa el pronombre correcto (she, tu hermana), niega con isn't y luego da el dato verdadero en una oración completa con sujeto."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la pregunta y la respuesta y escríbelas.",
+      "texto": "Are you busy? No, I'm not.",
+      "respuestas": [
+        "Are you busy? No, I am not."
+      ],
+      "audio": true,
+      "pistas": [
+        "Primero se oye una pregunta que empieza por be.",
+        "La respuesta es negativa: ¿qué pronombre y qué contracción oyes?",
+        "Regla: con I, la contracción negativa une el pronombre con be y deja not suelto."
+      ],
+      "solucion": {
+        "respuesta": "Are you busy? No, I'm not.",
+        "explicacion": "Se dice Are you busy? No, I'm not. (¿Estás ocupado? No.) La pregunta usa you; la respuesta usa I con la única negativa contraída posible, I'm not."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.10",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas: respuesta corta negativa + dato correcto.",
+      "fichas": [
+        "from",
+        "No,",
+        "Peru",
+        "isn't.",
+        "he",
+        "He's"
+      ],
+      "respuestas": [
+        "No, he isn't. He's from Peru."
+      ],
+      "traduccion": "No. Es de Perú.",
+      "pistas": [
+        "Empieza con la palabra que responde.",
+        "Primero va la respuesta corta completa; después, la oración con el dato.",
+        "Orden: No, + pronombre + be negativo. + pronombre contraído con be + from + lugar."
+      ],
+      "solucion": {
+        "respuesta": "No, he isn't. He's from Peru.",
+        "explicacion": "Primero la respuesta corta negativa (No, he isn't.) y después la información correcta en una oración con sujeto: He's from Peru."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Te preguntan «Are you a teacher?». Contesta en inglés con una respuesta corta: «Sí, lo soy.»",
+      "es": "Sí, lo soy.",
+      "respuestas": [
+        "Yes, I am."
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Yes, I'm": "La afirmativa corta no se contrae: Yes, I am.",
+        "Yes, I'm it": "El «lo» del español no se traduce: la respuesta corta es solo Yes, I am.",
+        "Yes, I am it": "El «lo» del español no se traduce: la respuesta corta es solo Yes, I am."
+      },
+      "pistas": [
+        "En inglés la respuesta corta no lleva ningún equivalente de «lo».",
+        "Pronombre I + be.",
+        "Regla: Yes + pronombre + be completo; en la respuesta corta afirmativa nunca se contrae."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I am.",
+        "explicacion": "La respuesta correcta es Yes, I am. El «lo» de «lo soy» no se traduce: la respuesta corta es solo pronombre + be, y en afirmativa be va completo."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.12",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con la respuesta corta negativa (pronombre + be + not).",
+      "frase": "Are Grace and Ben at home? No, ___.",
+      "traduccion": "¿Grace y Ben están en casa? No.",
+      "respuestas": [
+        [
+          "they aren't",
+          "they're not",
+          "they are not"
+        ]
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "they isn't": "They es plural: la negativa es aren't.",
+        "we aren't": "Tú no eres Grace ni Ben: el pronombre es they.",
+        "they'ren't": "Solo se contrae una vez: they aren't o they're not."
+      },
+      "pistas": [
+        "¿Qué pronombre sustituye a Grace and Ben?",
+        "La pregunta usa are: la respuesta usa are + not.",
+        "Regla: un sujeto plural se sustituye por su pronombre; en la negativa, be + not puede contraerse de dos maneras."
+      ],
+      "solucion": {
+        "respuesta": "they aren't",
+        "explicacion": "La respuesta correcta es they aren't (o they're not) porque Grace and Ben son dos personas y se sustituyen por they, que va con are; en la negativa corta se contrae con normalidad."
+      }
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Marca la fuerza al final.",
+      "texto": "Yes, I am. No, I'm not.",
+      "ipa": "/ˈjɛs aɪ ˈæm | ˈnoʊ aɪm ˈnɑt/",
+      "consejo": "En Yes, I AM la última palabra suena fuerte y completa; por eso no se puede contraer. En No, I'm NOT la fuerza pasa a not y I'm queda débil y pegado.",
+      "es": "Sí. / No."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Una encuesta rápida",
+    "contexto": "En la calle, una encuestadora, Priya, te hace preguntas de sí o no. Contesta cada una con una respuesta corta y, cuando sea negativa, añade el dato correcto.",
+    "dialogo": [
+      {
+        "quien": "Priya",
+        "en": "Excuse me. Are you from this city?",
+        "es": "Disculpe. ¿Es usted de esta ciudad?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Priya",
+        "en": "Are you a student?",
+        "es": "¿Es estudiante?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Priya",
+        "en": "Is your family here with you?",
+        "es": "¿Su familia está aquí con usted?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Contesta las tres preguntas con respuestas cortas (Yes, I am / No, I'm not / No, they aren't…) y añade información cuando digas que no.",
+    "modelo": "Yes, I am. No, I'm not. I'm a nurse. No, they aren't. They're in Puebla.",
+    "alternativas": [
+      "No, I'm not. I'm from Oaxaca. Yes, I am. Yes, they are.",
+      "Yes, I am. No, I'm not. I'm a doctor. No, they're not. They're at home."
+    ],
+    "claves": [
+      "Afirmativa sin contraer: Yes, I am.",
+      "Your family se contesta con they.",
+      "Después de un no, da el dato verdadero con sujeto + be."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Respuesta corta: Yes/No + pronombre + be (+ not).",
+      "Afirmativa sin contraer: Yes, I am / Yes, she is / Yes, they are.",
+      "Negativa contraída: No, I'm not / No, she isn't = No, she's not.",
+      "Are you…? se contesta con I (o we)."
+    ],
+    "recuerda": [
+      "Una contracción nunca cierra una respuesta afirmativa.",
+      "Nombre → pronombre: Is Tom…? → Yes, he is.",
+      "El «lo» de «lo soy» no se traduce."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.r1",
+      "frente": "¿Por qué no se dice «Yes, I'm»?",
+      "reverso": "Sujeto + be contraído (I'm, she's…) no puede ser la última palabra: Yes, I am.",
+      "nota": "En la afirmativa corta be va completo."
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.r2",
+      "frente": "Contesta que no: Is Grace here?",
+      "reverso": "No, she isn't. / No, she's not."
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.r3",
+      "frente": "Contesta que sí: Are you and Ana friends?",
+      "reverso": "Yes, we are.",
+      "nota": "Tú + otra persona = we."
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.respuestas-cortas.r4",
+      "frente": "Contesta que no: Are you hungry?",
+      "reverso": "No, I'm not.",
+      "nota": "Con I solo existe I'm not."
+    }
+  ]
+}

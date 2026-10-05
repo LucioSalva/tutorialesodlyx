@@ -1,0 +1,423 @@
+{
+  "slug": "preguntas-to-be",
+  "titulo": "Preguntas de sí o no",
+  "minutos": 35,
+  "objetivos": [
+    "Formar preguntas de sí o no con be invirtiendo el orden: Is she…? Are you…?",
+    "Colocar sujetos largos (your brother, Tom and Mei) entre be y el complemento.",
+    "Usar la entonación ascendente de las preguntas de sí o no.",
+    "Reconocer al oído las uniones típicas: Is it…? Are you…? Is he…?"
+  ],
+  "situacion": {
+    "titulo": "Primer día en el curso",
+    "texto": "Grace llega a una clase de fotografía y se sienta junto a Diego. No se conocen, así que hacen preguntas para saber cosas básicas el uno del otro. Todas se contestan con sí o no. Observa que la pregunta empieza por is o are.",
+    "dialogo": [
+      {"quien": "Grace", "en": "Hi! Is this seat free?", "es": "¡Hola! ¿Está libre este asiento?"},
+      {"quien": "Diego", "en": "Yes, it is. Are you new here?", "es": "Sí. ¿Eres nueva aquí?"},
+      {"quien": "Grace", "en": "Yes, I am. Is the teacher nice?", "es": "Sí. ¿El maestro es buena onda?"},
+      {"quien": "Diego", "en": "Yes, he's great. Are you from this city?", "es": "Sí, es excelente. ¿Eres de esta ciudad?"},
+      {"quien": "Grace", "en": "No, I'm not. I'm from Canada.", "es": "No. Soy de Canadá."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "inversion",
+      "titulo": "La inversión: be pasa delante del sujeto",
+      "que_es": "Para preguntar algo que se contesta con sí o no, el inglés cambia el orden: **be se coloca antes del sujeto**. [[She is a nurse.]] → [[Is she a nurse?]]",
+      "para_que": [
+        "Confirmar información: [[Are you from Mexico?]]",
+        "Preguntar por el estado de alguien: [[Is she OK?]] [[Are you tired?]]",
+        "Preguntar por lugares y cosas: [[Is it far?]] [[Are they at home?]]"
+      ],
+      "como_funciona": "En español una pregunta puede tener exactamente las mismas palabras que la afirmación: «Estás cansado» / «¿Estás cansado?»; solo cambian los signos y la entonación. En inglés no basta: el orden cambia. Se toma am, is o are y se pone al principio:\n\n{{sujeto:You}} {{verbo:are}} {{complemento:tired}}. → {{verbo:Are}} {{sujeto:you}} {{complemento:tired}}?\n\nLa forma de be no cambia (sigue siendo am con I, is con he/she/it, are con you/we/they), y el complemento se queda al final. Si el sujeto es largo (your brother, Tom and Mei, my new phone), va **entero** entre be y el complemento: [[Is your brother a doctor?]] [[Are Tom and Mei friends?]]\n\nEn la escritura el inglés solo pone el signo de interrogación al final: no existe «¿».\n\n**Un matiz real:** en conversación informal a veces se oye [[You're tired?]] sin invertir, pero expresa sorpresa o pide confirmar algo que te acaban de decir («¿Ah, estás cansado?»). La pregunta normal, y la única correcta por escrito, es la invertida.\n\nAl principio de la pregunta be no se contrae: se dice [[Is she…?]], nunca «'s she…?».",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de sí o no",
+          "formula": [{"t": "Am / Is / Are", "rol": "verbo"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "complemento", "rol": "complemento"}, {"t": "?", "rol": "otro"}],
+          "ejemplo": [{"t": "Is", "rol": "verbo"}, {"t": "she", "rol": "sujeto"}, {"t": "a nurse", "rol": "complemento"}, {"t": "?", "rol": "otro"}],
+          "es": "¿Es enfermera?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación y pregunta",
+          "columnas": ["Sujeto", "Afirmación", "Pregunta"],
+          "filas": [
+            ["I", "I am late.", "Am I late?"],
+            ["you", "You are tired.", "Are you tired?"],
+            ["he", "He is at work.", "Is he at work?"],
+            ["it", "It is cold.", "Is it cold?"],
+            ["we", "We are in room 5.", "Are we in room 5?"],
+            ["they", "They are friends.", "Are they friends?"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Are you from Mexico?",
+          "es": "¿Eres de México?",
+          "partes": [{"t": "Are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "from Mexico", "rol": "complemento"}],
+          "nota": "En español podrías decir «¿Eres de México?» sin sujeto; en inglés el sujeto you es obligatorio y va DESPUÉS de are."
+        },
+        {
+          "en": "Is your brother a doctor?",
+          "es": "¿Tu hermano es doctor?",
+          "partes": [{"t": "Is", "rol": "verbo"}, {"t": "your brother", "rol": "sujeto"}, {"t": "a doctor", "rol": "complemento"}],
+          "nota": "El sujeto de dos palabras (your brother) va completo entre is y el complemento."
+        },
+        {
+          "en": "Are Tom and Mei friends?",
+          "es": "¿Tom y Mei son amigos?",
+          "partes": [{"t": "Are", "rol": "verbo"}, {"t": "Tom and Mei", "rol": "sujeto"}, {"t": "friends", "rol": "complemento"}],
+          "nota": "Dos personas = sujeto plural = are. No te dejes engañar por Tom, que es singular: el sujeto completo es Tom and Mei."
+        },
+        {
+          "en": "Is it cold today?",
+          "es": "¿Hace frío hoy?",
+          "partes": [{"t": "Is", "rol": "verbo"}, {"t": "it", "rol": "sujeto"}, {"t": "cold", "rol": "complemento"}, {"t": "today", "rol": "tiempo"}],
+          "nota": "Para el tiempo atmosférico también se invierte: It is cold → Is it cold?"
+        },
+        {
+          "en": "Am I late?",
+          "es": "¿Llego tarde?",
+          "partes": [{"t": "Am", "rol": "verbo"}, {"t": "I", "rol": "sujeto"}, {"t": "late", "rol": "complemento"}]
+        }
+      ],
+      "comparacion": {
+        "a": {"titulo": "Español: «¿Estás cansado?»", "items": ["mismo orden que la afirmación", "la pregunta la marcan los signos ¿? y la voz", "el sujeto puede omitirse"]},
+        "b": {"titulo": "Inglés: Are you tired?", "items": ["be pasa delante del sujeto", "solo hay signo al final: ?", "el sujeto es obligatorio"]},
+        "veredicto": "En inglés la pregunta se construye con el ORDEN de las palabras, no solo con la entonación. Si dejas el orden de la afirmación, suena a sorpresa, no a pregunta normal."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Afirmación → negación → pregunta",
+        "pasos": [
+          {"etiqueta": "Afirmación", "partes": [{"t": "She", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "a nurse", "rol": "complemento"}]},
+          {"etiqueta": "Negación", "partes": [{"t": "She", "rol": "sujeto"}, {"t": "is", "rol": "verbo"}, {"t": "not", "rol": "negacion"}, {"t": "a nurse", "rol": "complemento"}]},
+          {"etiqueta": "Pregunta", "partes": [{"t": "Is", "rol": "verbo"}, {"t": "she", "rol": "sujeto"}, {"t": "a nurse", "rol": "complemento"}, {"t": "?", "rol": "otro"}]}
+        ],
+        "pie": "En la negación, not entra detrás de is. En la pregunta, is salta delante del sujeto. El complemento nunca se mueve."
+      },
+      "pronunciacion": [
+        {"texto": "Are you", "ipa": "/ɑr ju/ → rápido /ər jə/", "consejo": "En una pregunta normal are y you se dicen débiles y pegados, casi «er-ye». La fuerza de la voz se la lleva la palabra importante del final (tired, ready, from Mexico).", "lento": true},
+        {"texto": "Is it", "ipa": "/ɪz ɪt/ → /ɪˈzɪt/", "consejo": "La z de is se engancha con la vocal de it y suena como una sola palabra: «i-sit», con z sonora. Si lo oyes al inicio, es una pregunta."}
+      ],
+      "errores": [
+        {"mal": "You are tired?", "bien": "Are you tired?", "porque": "Calco de la pregunta española que solo cambia la entonación. En inglés be va delante del sujeto (la forma sin invertir solo se usa para mostrar sorpresa)."},
+        {"mal": "Is tired she?", "bien": "Is she tired?", "porque": "Solo be se mueve al principio; el sujeto va inmediatamente después de be y el complemento se queda al final."},
+        {"mal": "Is Tom and Mei friends?", "bien": "Are Tom and Mei friends?", "porque": "Tom and Mei son dos personas: sujeto plural, así que la pregunta empieza con are."},
+        {"mal": "¿Are you ready?", "bien": "Are you ready?", "porque": "En inglés no existe el signo de apertura ¿: solo se escribe ? al final."}
+      ]
+    },
+    {
+      "id": "entonacion-ascendente",
+      "titulo": "La voz sube al final",
+      "que_es": "Las preguntas de sí o no se dicen, por lo general, con **entonación ascendente**: la voz sube en la última palabra importante, como en español «¿Estás cansado?».",
+      "para_que": [
+        "Que tu pregunta suene a pregunta y no a orden o afirmación.",
+        "Distinguir al oído una pregunta de sí o no de una afirmación.",
+        "Sonar amable: una subida suave suena más cortés que una frase plana."
+      ],
+      "como_funciona": "La buena noticia: el español hace algo muy parecido en las preguntas de sí o no, así que tu instinto te ayuda. La diferencia está en el ritmo: en inglés las palabras gramaticales del principio (are, is, you, it) se dicen rápidas y débiles, y la subida se concentra en la sílaba fuerte de la última palabra con contenido: Are you ↗READy? Is she a ↗NURSE?\n\nAl escuchar, fíjate en dos señales: la pregunta **empieza** por am/is/are, y la voz **sube** al final. Las preguntas con what, where, who o how (siguiente lección) funcionan distinto: normalmente la voz baja.",
+      "estructuras": [
+        {
+          "etiqueta": "Dónde sube la voz",
+          "formula": [{"t": "Be + sujeto (débil y rápido)", "rol": "verbo"}, {"t": "palabra clave ↗", "rol": "complemento"}],
+          "ejemplo": [{"t": "Are you", "rol": "verbo"}, {"t": "ready ↗", "rol": "complemento"}],
+          "es": "¿Estás listo?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Are you ready?",
+          "es": "¿Estás listo?",
+          "partes": [{"t": "Are", "rol": "verbo"}, {"t": "you", "rol": "sujeto"}, {"t": "ready", "rol": "complemento"}],
+          "nota": "La subida empieza en REA- y sigue en -dy. Are you se dice casi de corrido."
+        },
+        {
+          "en": "Is he at home?",
+          "es": "¿Está en casa?",
+          "partes": [{"t": "Is", "rol": "verbo"}, {"t": "he", "rol": "sujeto"}, {"t": "at home", "rol": "complemento"}],
+          "nota": "En habla rápida la h de he casi desaparece: suena «izi at HOME». La voz sube en home."
+        },
+        {
+          "en": "Is this your phone?",
+          "es": "¿Este es tu celular?",
+          "partes": [{"t": "Is", "rol": "verbo"}, {"t": "this", "rol": "sujeto"}, {"t": "your phone", "rol": "complemento"}],
+          "nota": "Como en What's this?, this es el sujeto; en la pregunta, is va delante."
+        }
+      ],
+      "pronunciacion": [
+        {"texto": "Are you tired?", "ipa": "/ər jə ˈtaɪərd ↗/", "consejo": "Di are you como una sola sílaba débil y sube la voz en TI-red. Si subes en are, suena a sorpresa o reclamo.", "lento": true},
+        {"texto": "Is he at home?", "ipa": "/ˈɪz i ət ˈhoʊm ↗/", "consejo": "La h de he se pierde en habla rápida y se une con is: «izi». La o de home es un diptongo, /oʊ/: empieza en o y se cierra hacia u, no es una o pura del español."}
+      ],
+      "errores": [
+        {"mal": "Are YOU ready? (con la fuerza en you, sin querer contrastar)", "bien": "Are you READY?", "porque": "Si cargas la voz en you, el otro entiende «¿TÚ estás listo (y no otra persona)?». En una pregunta neutra la fuerza va en la palabra de contenido del final."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "«¿Eres de México?»",
+      "opciones": [
+        {"texto": "Are you from Mexico?", "correcta": true, "porque": "Correcto: are va delante del sujeto you y el complemento from Mexico se queda al final."},
+        {"texto": "You are from Mexico?", "correcta": false, "porque": "Tiene el orden de una afirmación. Así solo se usa para mostrar sorpresa; la pregunta normal invierte: Are you…?"},
+        {"texto": "Are from Mexico?", "correcta": false, "porque": "Falta el sujeto you, que en inglés es obligatorio también en preguntas."},
+        {"texto": "Is you from Mexico?", "correcta": false, "porque": "Con you la forma de be es are, nunca is."}
+      ],
+      "pistas": [
+        "Recuerda que en inglés la pregunta cambia el orden de las palabras.",
+        "Mira qué palabra va primero y si el sujeto está presente.",
+        "Regla: Am/Is/Are + sujeto + complemento + ?; con you, are."
+      ],
+      "solucion": {"respuesta": "Are you from Mexico?", "explicacion": "La respuesta correcta es Are you from Mexico? porque las preguntas de sí o no con be ponen be delante del sujeto, y con you la forma es are. Las otras mantienen el orden de afirmación, pierden el sujeto o usan is con you."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con Am, Is o Are.",
+      "frase": "___ your sister a nurse?",
+      "traduccion": "¿Tu hermana es enfermera?",
+      "respuestas": [["Is"]],
+      "banco": ["Am", "Is", "Are"],
+      "errores_tipicos": {
+        "Are": "Your sister es una sola persona (equivale a she): va is."
+      },
+      "pistas": [
+        "El sujeto va después del hueco: ¿quién es?",
+        "Your sister equivale a she.",
+        "Regla: he/she/it o un sustantivo singular → is."
+      ],
+      "solucion": {"respuesta": "Is", "explicacion": "La respuesta correcta es Is porque el sujeto, your sister, es singular y equivale a she; la pregunta empieza con la forma de be que le corresponde."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con Am, Is o Are.",
+      "frase": "___ you and Tom friends?",
+      "traduccion": "¿Tú y Tom son amigos?",
+      "respuestas": [["Are"]],
+      "banco": ["Am", "Is", "Are"],
+      "errores_tipicos": {
+        "Is": "Tom solo sería singular, pero el sujeto completo es you and Tom: dos personas, plural → are."
+      },
+      "pistas": [
+        "Lee el sujeto completo, no solo la primera palabra.",
+        "You and Tom son dos personas.",
+        "Regla: sujeto plural (o you) → are."
+      ],
+      "solucion": {"respuesta": "Are", "explicacion": "La respuesta correcta es Are porque el sujeto completo es you and Tom, dos personas: plural. Con sujetos plurales be es are."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.04",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una pregunta.",
+      "fichas": ["cold", "it", "today", "Is"],
+      "respuestas": ["Is it cold today"],
+      "traduccion": "¿Hace frío hoy?",
+      "pistas": [
+        "Una pregunta de sí o no empieza por be.",
+        "Después de Is va el sujeto; today suele ir al final.",
+        "Orden: be + sujeto + adjetivo + expresión de tiempo + ? (como en Are you busy now?)."
+      ],
+      "solucion": {"respuesta": "Is it cold today?", "explicacion": "El orden correcto es Is it cold today?: be (Is) delante, el sujeto it después, el adjetivo cold y la expresión de tiempo today al final, que es su lugar más natural."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta.",
+      "origen": "He is at the office.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Is he at the office?"],
+      "errores_tipicos": {
+        "He is at the office?": "Ese es el orden de la afirmación. En la pregunta, is va delante de he.",
+        "Is at the office he?": "El sujeto va justo después de is, no al final."
+      },
+      "pistas": [
+        "Solo una palabra cambia de lugar.",
+        "Busca be (is) y el sujeto (he).",
+        "Regla: be pasa delante del sujeto; el resto se queda igual."
+      ],
+      "solucion": {"respuesta": "Is he at the office?", "explicacion": "La respuesta correcta es Is he at the office? porque para preguntar se invierte el orden: is sale delante del sujeto he, y el complemento at the office se queda al final."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta.",
+      "origen": "Your parents are from Chile.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Are your parents from Chile?"],
+      "errores_tipicos": {
+        "Are your parents are from Chile?": "Are solo aparece una vez: se mueve al principio, no se copia.",
+        "Are your from Chile parents?": "Your parents es el sujeto entero y va junto, después de are."
+      },
+      "pistas": [
+        "El sujeto aquí tiene dos palabras.",
+        "Mueve are al principio y deja your parents juntos después.",
+        "Regla: Are + sujeto completo + complemento + ?"
+      ],
+      "solucion": {"respuesta": "Are your parents from Chile?", "explicacion": "La respuesta correcta es Are your parents from Chile? porque are pasa delante del sujeto completo, your parents (que no se separa), y from Chile se queda al final."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y escribe la corrección.",
+      "frase": "Is Grace and Ben at school?",
+      "error": "Is",
+      "correcciones": ["Are"],
+      "frase_correcta": "Are Grace and Ben at school?",
+      "pistas": [
+        "Cuenta cuántas personas forman el sujeto.",
+        "Mira la primera palabra de la pregunta.",
+        "Regla: un sujeto de dos personas unido con and es plural → are."
+      ],
+      "solucion": {"respuesta": "Are Grace and Ben at school?", "explicacion": "El error es Is: el sujeto es Grace and Ben, dos personas, y un sujeto plural lleva are. La pregunta correcta es Are Grace and Ben at school?"}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señala las palabras mal colocadas y escríbelas en el orden correcto.",
+      "frase": "Are tired you?",
+      "error": "tired you",
+      "correcciones": ["you tired"],
+      "frase_correcta": "Are you tired?",
+      "pistas": [
+        "En la pregunta solo se mueve be.",
+        "¿Qué debe ir justo después de Are?",
+        "Regla: Be + sujeto + complemento."
+      ],
+      "solucion": {"respuesta": "Are you tired?", "explicacion": "El sujeto you debe ir inmediatamente después de are, y el adjetivo tired al final: Are you tired? Solo be se adelanta; el sujeto y el complemento conservan su orden."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.09",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su traducción.",
+      "pares": [
+        {"a": "Are you OK?", "b": "¿Estás bien?"},
+        {"a": "Is it far?", "b": "¿Está lejos?"},
+        {"a": "Am I late?", "b": "¿Llego tarde?"},
+        {"a": "Are they your friends?", "b": "¿Son tus amigos?"},
+        {"a": "Is she a teacher?", "b": "¿Es maestra?"},
+        {"a": "Is your phone new?", "b": "¿Tu celular es nuevo?"}
+      ],
+      "pistas": [
+        "Todas son preguntas de sí o no con be.",
+        "Fíjate en el sujeto que va después de be: I, you, she, it, they…",
+        "Regla: be significa ser o estar; en español el sujeto suele quedar implícito."
+      ],
+      "solucion": {"respuesta": "Are you OK? → ¿Estás bien? · Is it far? → ¿Está lejos? · Am I late? → ¿Llego tarde? · Are they your friends? → ¿Son tus amigos? · Is she a teacher? → ¿Es maestra? · Is your phone new? → ¿Tu celular es nuevo?", "explicacion": "Cada pregunta se identifica por su sujeto. Observa que be se traduce unas veces como ser y otras como estar, y que late con be equivale a «llegar tarde»."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Is it your bag?",
+      "audio": true,
+      "pistas": [
+        "Empieza con dos palabras que se oyen unidas: «i-sit».",
+        "Es una pregunta: be va primero y luego el sujeto.",
+        "Regla: be + sujeto + complemento + ?; al hablar, is e it se unen y suenan como una sola palabra."
+      ],
+      "solucion": {"respuesta": "Is it your bag?", "explicacion": "Se dice Is it your bag? (¿Es tu bolsa?). Is e it se enlazan y suenan como una sola palabra; la voz sube en bag porque es una pregunta de sí o no."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Tienes frío?",
+      "respuestas": ["Are you cold?"],
+      "errores_tipicos": {
+        "Do you have cold?": "Calco del español. El frío se expresa con be + cold: Are you cold?",
+        "You are cold?": "Falta invertir: en la pregunta are va delante de you.",
+        "Are you have cold?": "No se mezcla be con have: el frío es un estado, be + cold."
+      },
+      "pistas": [
+        "Frío, hambre, sed y edad no se «tienen» en inglés.",
+        "Usa be + cold, y construye una pregunta de sí o no.",
+        "Regla: be + sujeto + adjetivo + ? (como en Is she tired?)."
+      ],
+      "solucion": {"respuesta": "Are you cold?", "explicacion": "La respuesta correcta es Are you cold? porque en inglés el frío es un estado que se expresa con be + cold; para preguntar, are pasa delante de you."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Mei y Sam están en la oficina?",
+      "respuestas": ["Are Mei and Sam at the office?", "Are Sam and Mei at the office?", "Are Mei and Sam in the office?", "Are Sam and Mei in the office?"],
+      "errores_tipicos": {
+        "Is Mei and Sam at the office?": "Mei and Sam son dos personas: sujeto plural → are.",
+        "Mei and Sam are at the office?": "Hay que invertir: Are va delante del sujeto."
+      },
+      "pistas": [
+        "El sujeto tiene dos nombres.",
+        "Un sujeto de dos personas es plural. Ponlo completo después de be.",
+        "Regla: be + sujeto completo (las dos personas unidas con and) + lugar + ?"
+      ],
+      "solucion": {"respuesta": "Are Mei and Sam at the office?", "explicacion": "La respuesta correcta es Are Mei and Sam at the office? porque el sujeto (Mei and Sam) es plural y lleva are, que pasa al principio. «En la oficina» es at the office (in the office también es correcto)."}
+    },
+    {
+      "id": "to-be-negacion-y-preguntas.preguntas-to-be.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Haz que la voz suba al final.",
+      "texto": "Are you ready? Is it far?",
+      "ipa": "/ər jə ˈrɛdi ↗ | ɪˈzɪt ˈfɑr ↗/",
+      "consejo": "Are you y is it se dicen rápidos y pegados; la voz sube en ready y en far. La r de far en inglés estadounidense no vibra: la lengua se curva hacia atrás sin tocar el paladar.",
+      "es": "¿Estás listo? ¿Está lejos?"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Conoce a tu compañero",
+    "contexto": "Es tu primer día en una clase de cocina. Te sientas junto a Aisha y quieres saber algunas cosas sobre ella, pero solo con preguntas de sí o no.",
+    "dialogo": [
+      {"quien": "Aisha", "en": "Hi! I'm Aisha.", "es": "¡Hola! Soy Aisha."},
+      {"quien": "Tú", "en": "…", "es": "…"},
+      {"quien": "Aisha", "en": "Yes, I am. And you?", "es": "Sí. ¿Y tú?"}
+    ],
+    "tu_turno": "Preséntate y hazle a Aisha tres preguntas de sí o no con be: sobre su origen, su trabajo o estudios, y cómo está.",
+    "modelo": "Hi, Aisha. I'm Diego. Are you new here? Are you from this city? Are you a student?",
+    "alternativas": [
+      "Nice to meet you, Aisha. Are you from Mexico? Are you a teacher? Are you nervous?",
+      "Hi, I'm Lucía. Is this your first class? Are you from here? Are you hungry?"
+    ],
+    "claves": [
+      "Cada pregunta empieza con Are you… o Is…",
+      "Sube la voz en la última palabra importante.",
+      "Solo escribes ? al final, nunca ¿."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pregunta de sí o no: Am/Is/Are + sujeto + complemento?",
+      "El sujeto completo va entre be y el complemento: Is your brother…? Are Tom and Mei…?",
+      "La voz sube al final."
+    ],
+    "recuerda": [
+      "No basta con la entonación: el orden cambia.",
+      "En inglés no existe «¿».",
+      "Al principio de la pregunta be no se contrae."
+    ]
+  },
+  "repaso": [
+    {"id": "to-be-negacion-y-preguntas.preguntas-to-be.r1", "frente": "Convierte en pregunta: She is a nurse.", "reverso": "Is she a nurse?", "nota": "Be pasa delante del sujeto."},
+    {"id": "to-be-negacion-y-preguntas.preguntas-to-be.r2", "frente": "¿Por qué es incorrecto «Is Tom and Mei friends?»", "reverso": "El sujeto es plural: Are Tom and Mei friends?"},
+    {"id": "to-be-negacion-y-preguntas.preguntas-to-be.r3", "frente": "¿Cómo es la entonación de una pregunta de sí o no?", "reverso": "Ascendente: la voz sube en la última palabra importante. Are you READY? ↗"},
+    {"id": "to-be-negacion-y-preguntas.preguntas-to-be.r4", "frente": "Traduce: «¿Tienes hambre?»", "reverso": "Are you hungry?", "nota": "Hambre, frío y sed van con be."}
+  ]
+}

@@ -1,0 +1,1160 @@
+{
+  "slug": "direcciones",
+  "titulo": "Pedir y dar direcciones",
+  "minutos": 40,
+  "objetivos": [
+    "Pedir direcciones con cortesía: Excuse me, how do I get to…? Is there a… near here? Where's the…?",
+    "Dar indicaciones con el imperativo: go straight (ahead), turn left/right, take the second street on the left, cross, go past.",
+    "Decir dónde está un lugar: on your left, on the corner, next to, across from, between.",
+    "Entender una ruta completa y comprobar que la entendiste."
+  ],
+  "situacion": {
+    "titulo": "Perdido en una ciudad nueva",
+    "texto": "Diego acaba de llegar a una ciudad de Estados Unidos y busca la estación de tren. Le pregunta a Grace, que espera en una parada de autobús. Fíjate en cómo pregunta, en los verbos de las indicaciones (todos en imperativo) y en cómo Diego repite la ruta para comprobar que la entendió.",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Excuse me, how do I get to the train station?",
+        "es": "Disculpe, ¿cómo llego a la estación de tren?"
+      },
+      {
+        "quien": "Grace",
+        "en": "It's easy. Go straight down this street for two blocks.",
+        "es": "Es fácil. Siga derecho por esta calle dos cuadras."
+      },
+      {
+        "quien": "Grace",
+        "en": "Then turn left at the traffic light. The station is on your right, across from a big park.",
+        "es": "Luego dé vuelta a la izquierda en el semáforo. La estación está a su derecha, enfrente de un parque grande."
+      },
+      {
+        "quien": "Diego",
+        "en": "So, two blocks, then left at the light, and it's on the right?",
+        "es": "Entonces, dos cuadras, a la izquierda en el semáforo y está a la derecha, ¿no?"
+      },
+      {
+        "quien": "Grace",
+        "en": "Exactly. It's about a ten-minute walk.",
+        "es": "Exacto. Está como a diez minutos caminando."
+      },
+      {
+        "quien": "Diego",
+        "en": "Thank you so much!",
+        "es": "¡Muchísimas gracias!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "pedir-direcciones",
+      "titulo": "Excuse me, how do I get to…?",
+      "que_es": "Para pedir direcciones a un desconocido en inglés se usan unas pocas preguntas fijas. Todas empiezan con [[Excuse me]] para llamar la atención con cortesía, y luego preguntan **cómo llegar** a un lugar concreto, **dónde está**, o si **hay** un tipo de lugar cerca.",
+      "para_que": [
+        "Encontrar un lugar concreto: How do I get to the museum?",
+        "Buscar un servicio cualquiera: Is there a pharmacy near here?",
+        "Saber la distancia: Is it far?"
+      ],
+      "como_funciona": "**Tres preguntas clave:**\n1. **Un lugar concreto (con the):** [[How do I get to the station?]] = «¿Cómo llego a la estación?». Es presente simple con do; get to = llegar a. También: [[Where's the station?]]\n2. **Cualquier lugar de un tipo (con a/an):** [[Is there a bank near here?]] = «¿Hay un banco por aquí?». Usas there is porque no te importa cuál, solo que exista uno cerca.\n3. **Más cortés (ya lo conoces):** [[Could you tell me the way to the station?]] = «¿Me podría decir cómo llegar a la estación?».\n\n**Preguntas de seguimiento:** [[Is it far?]] («¿Está lejos?»), [[Can I walk there?]] («¿Puedo ir caminando?»), [[Sorry, could you say that again?]].\n\n**Respuestas que vas a oír:** [[It's about five minutes from here]], [[It's a ten-minute walk]] (a diez minutos caminando), [[It's not far]], [[Sorry, I'm not from here]] (No soy de aquí).\n\n**Cuidado con el calco:** «¿Dónde queda…?» no se traduce con «stay»: se dice [[Where's…?]] o [[Where is…?]]. Y «llegar a» un lugar es [[get to]], no «arrive to».",
+      "estructuras": [
+        {
+          "etiqueta": "Un lugar concreto",
+          "formula": [
+            {
+              "t": "Excuse me,",
+              "rol": "otro"
+            },
+            {
+              "t": "how",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get to",
+              "rol": "verbo"
+            },
+            {
+              "t": "the + lugar?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Excuse me,",
+              "rol": "otro"
+            },
+            {
+              "t": "how",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get to",
+              "rol": "verbo"
+            },
+            {
+              "t": "the museum?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Disculpe, ¿cómo llego al museo?"
+        },
+        {
+          "etiqueta": "Cualquier lugar de un tipo",
+          "formula": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a / an + lugar",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a pharmacy",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Hay una farmacia por aquí?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Excuse me, where's the bus station?",
+          "es": "Disculpe, ¿dónde está la estación de autobuses?",
+          "partes": [
+            {
+              "t": "Excuse me,",
+              "rol": "otro"
+            },
+            {
+              "t": "where's",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "the bus station",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Where's = where is. The bus station: un lugar concreto, por eso the."
+        },
+        {
+          "en": "Is there an ATM near here?",
+          "es": "¿Hay un cajero automático por aquí?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "an ATM",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here",
+              "rol": "otro"
+            }
+          ],
+          "nota": "An porque ATM empieza con sonido de vocal (/eɪ tiː ɛm/). Near here = cerca de aquí."
+        },
+        {
+          "en": "Is it far? — No, it's about a five-minute walk.",
+          "es": "¿Está lejos? — No, está como a cinco minutos caminando.",
+          "nota": "A five-minute walk: minute va en singular porque funciona como adjetivo (five-minute). About = aproximadamente."
+        },
+        {
+          "en": "Sorry, I don't know. I'm not from here.",
+          "es": "Lo siento, no sé. No soy de aquí.",
+          "nota": "La respuesta típica de un turista. Es útil saber reconocerla para preguntarle a otra persona."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Excuse me",
+          "ipa": "/ɪkˈskjuːz mi/",
+          "consejo": "El acento va en CUSE. La x suena /ks/ y la s de excuse es sonora, como un zumbido de abeja /z/. La primera sílaba es una «i» corta y débil.",
+          "lento": true
+        },
+        {
+          "texto": "How do I get to…?",
+          "ipa": "/ˈhaʊ də aɪ ˈɡɛt tə/",
+          "consejo": "Do y to se reducen a /də/ y /tə/, casi sin vocal. Las palabras fuertes son how y get. La t de get y la de to se unen en una sola t."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Excuse me, where stays the station?",
+          "bien": "Excuse me, where's the station?",
+          "porque": "Calco de «¿dónde queda?». En inglés se usa be: where is / where's."
+        },
+        {
+          "mal": "How I get to the museum?",
+          "bien": "How do I get to the museum?",
+          "porque": "En presente simple la pregunta necesita el auxiliar do."
+        },
+        {
+          "mal": "There is a bank near here?",
+          "bien": "Is there a bank near here?",
+          "porque": "En la pregunta, is va delante de there."
+        }
+      ]
+    },
+    {
+      "id": "dar-direcciones",
+      "titulo": "Go straight, turn left: indicaciones con el imperativo",
+      "que_es": "Las indicaciones para llegar a un lugar se dan con el **imperativo** que acabas de estudiar: el verbo base, sin sujeto. Son muy pocos verbos (go, turn, take, cross, walk) combinados con left, right, straight y los números ordinales.",
+      "para_que": [
+        "Explicar a un turista cómo llegar a un lugar.",
+        "Entender las indicaciones que te dan a ti.",
+        "Escribir cómo llegar a tu casa en un mensaje."
+      ],
+      "como_funciona": "**Seguir recto:** [[Go straight]] / [[Go straight ahead]] («siga derecho»). [[Go down this street]] / [[Go along this street]] («siga por esta calle»). [[Keep going]] («siga adelante»).\n\n**Girar:** [[Turn left]] / [[Turn right]] («dé vuelta a la izquierda / derecha»). Se dice **at** el lugar donde giras: [[Turn left at the corner]], [[Turn right at the traffic light]] (en EE. UU. se dice light en singular; en Reino Unido, traffic lights).\n\n**Tomar una calle:** [[Take the second street on the left]] o, más corto, [[Take the second left]]. Usa los ordinales: first, second, third.\n\n**Otros verbos:** [[Cross the street]] (cruce la calle), [[Go past the church]] (pase la iglesia), [[Walk for two blocks]] (camine dos cuadras). Block = cuadra.\n\n**Ordenar los pasos:** [[First…]], [[Then…]], [[After that…]], y al final dices dónde está: [[It's on your left]], [[You can't miss it]] (expresión fija: «no tiene pérdida»).\n\n**Left/right sin artículo:** [[turn left]], no «turn to the left» (existe, pero es menos común); y [[on your left]] / [[on the left]], nunca «in the left».\n\n**¿Suena brusco?** No: aquí el imperativo es lo normal, porque la otra persona te pidió la información. Nadie dice «Could you turn left?» al dar indicaciones.",
+      "estructuras": [
+        {
+          "etiqueta": "Paso de la ruta",
+          "formula": [
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "left / right / straight",
+              "rol": "complemento"
+            },
+            {
+              "t": "at / on + lugar",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Turn",
+              "rol": "verbo"
+            },
+            {
+              "t": "right",
+              "rol": "complemento"
+            },
+            {
+              "t": "at the bank.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Dé vuelta a la derecha en el banco."
+        },
+        {
+          "etiqueta": "Tomar una calle",
+          "formula": [
+            {
+              "t": "Take",
+              "rol": "verbo"
+            },
+            {
+              "t": "the first / second / third",
+              "rol": "complemento"
+            },
+            {
+              "t": "street on the left / right",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Take",
+              "rol": "verbo"
+            },
+            {
+              "t": "the second",
+              "rol": "complemento"
+            },
+            {
+              "t": "street on the left.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Tome la segunda calle a la izquierda."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Go straight ahead for three blocks.",
+          "es": "Siga derecho tres cuadras.",
+          "partes": [
+            {
+              "t": "Go",
+              "rol": "verbo"
+            },
+            {
+              "t": "straight ahead",
+              "rol": "complemento"
+            },
+            {
+              "t": "for three blocks",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Straight = derecho, en línea recta (no confundir con right, que es derecha)."
+        },
+        {
+          "en": "Turn left at the traffic light.",
+          "es": "Dé vuelta a la izquierda en el semáforo.",
+          "partes": [
+            {
+              "t": "Turn",
+              "rol": "verbo"
+            },
+            {
+              "t": "left",
+              "rol": "complemento"
+            },
+            {
+              "t": "at the traffic light",
+              "rol": "otro"
+            }
+          ],
+          "nota": "At marca el punto exacto donde giras."
+        },
+        {
+          "en": "Take the first street on the right and cross the bridge.",
+          "es": "Tome la primera calle a la derecha y cruce el puente.",
+          "partes": [
+            {
+              "t": "Take",
+              "rol": "verbo"
+            },
+            {
+              "t": "the first street",
+              "rol": "complemento"
+            },
+            {
+              "t": "on the right",
+              "rol": "otro"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "cross",
+              "rol": "verbo"
+            },
+            {
+              "t": "the bridge",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos pasos unidos con and, los dos en imperativo."
+        },
+        {
+          "en": "Go past the school. The library is on your left.",
+          "es": "Pase la escuela. La biblioteca está a su izquierda.",
+          "partes": [
+            {
+              "t": "Go past",
+              "rol": "verbo"
+            },
+            {
+              "t": "the school.",
+              "rol": "complemento"
+            },
+            {
+              "t": "The library",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on your left",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Go past = pasar por delante y seguir. On your left: la preposición es on."
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Una ruta de tres pasos",
+        "objetos": [
+          {
+            "emoji": "🧍",
+            "x": 0.15,
+            "y": 0.85,
+            "etiqueta": "You are here."
+          },
+          {
+            "emoji": "⬆️",
+            "x": 0.15,
+            "y": 0.55,
+            "etiqueta": "1. Go straight for two blocks."
+          },
+          {
+            "emoji": "🚦",
+            "x": 0.15,
+            "y": 0.2,
+            "etiqueta": "2. Turn right at the traffic light."
+          },
+          {
+            "emoji": "➡️",
+            "x": 0.5,
+            "y": 0.2,
+            "etiqueta": "3. Go past the bank."
+          },
+          {
+            "emoji": "🏦",
+            "x": 0.5,
+            "y": 0.05,
+            "etiqueta": "bank"
+          },
+          {
+            "emoji": "🚉",
+            "x": 0.85,
+            "y": 0.35,
+            "etiqueta": "The station is on your right."
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "Turn left",
+          "ipa": "/ˈtɝːn ˈlɛft/",
+          "consejo": "Turn tiene la vocal de bird: una «e» murmurada con la lengua curvada hacia atrás, nunca «turn» con u española. Left termina en /ft/: sopla el aire con los dientes sobre el labio y corta con la t."
+        },
+        {
+          "texto": "straight ahead",
+          "ipa": "/ˈstreɪt əˈhɛd/",
+          "consejo": "Straight empieza con s + t + r pegadas, sin «e» delante (no «estreit»). La t final se une a ahead: «strei-tə-HED»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Turn to left in the corner.",
+          "bien": "Turn left at the corner.",
+          "porque": "Turn left va sin to ni artículo, y el punto donde giras lleva at."
+        },
+        {
+          "mal": "The bank is in your right.",
+          "bien": "The bank is on your right.",
+          "porque": "Con left y right se usa on: on your right, on the left."
+        },
+        {
+          "mal": "Go right for two blocks.",
+          "bien": "Go straight for two blocks.",
+          "porque": "Right es derecha; «derecho» (en línea recta) es straight."
+        }
+      ]
+    },
+    {
+      "id": "ubicar-el-lugar",
+      "titulo": "On the corner, across from, next to",
+      "que_es": "La última parte de una indicación dice **exactamente dónde está** el lugar. Ya conoces las preposiciones de lugar (next to, between, in front of, behind, opposite); aquí se suman las propias de la calle: [[on the corner]], [[across from]], [[at the end of the street]], [[on + nombre de la calle]].",
+      "para_que": [
+        "Terminar una indicación: It's on the corner, next to a café.",
+        "Describir dónde vives o trabajas.",
+        "Quedar con alguien: I'm across from the bank."
+      ],
+      "como_funciona": "**En la esquina:** [[on the corner]] para decir dónde **está** algo ([[The pharmacy is on the corner]]); [[at the corner]] para el punto donde **giras** o **te detienes** ([[Turn left at the corner]]). Con dos calles: [[on the corner of Pine Street and Fifth Avenue]].\n\n**Enfrente (al otro lado de la calle):** [[across from]] (muy frecuente en EE. UU.) o [[opposite]] (más británico, pero se entiende en todas partes). **Cuidado:** el español «enfrente de» casi siempre significa «del otro lado de la calle» → across from. [[In front of]] significa «delante de», pegado al lugar, del mismo lado: [[The car is in front of the house]].\n\n**En una calle:** en EE. UU., [[on Main Street]] (sin número). Con número se usa at: [[at 25 Main Street]].\n\n**Otras:** [[next to]] (junto a), [[between the bank and the café]] (entre), [[near]] (cerca de), [[at the end of the street]] (al final de la calle).\n\n**Después de una preposición, pronombre de objeto:** [[It's next to it]], [[It's across from them]]. Lo aprendiste en la primera lección de esta unidad.",
+      "estructuras": [
+        {
+          "etiqueta": "Ubicar un lugar",
+          "formula": [
+            {
+              "t": "Lugar",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the corner / across from / next to…",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The post office",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "across from the park.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "La oficina de correos está enfrente del parque."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The pharmacy is on the corner of Oak Street and Second Avenue.",
+          "es": "La farmacia está en la esquina de la calle Oak y la Segunda Avenida.",
+          "partes": [
+            {
+              "t": "The pharmacy",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "on the corner",
+              "rol": "complemento"
+            },
+            {
+              "t": "of Oak Street and Second Avenue",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "On the corner (dónde está) + of + las dos calles."
+        },
+        {
+          "en": "The hotel is across from the train station.",
+          "es": "El hotel está enfrente de la estación de tren.",
+          "partes": [
+            {
+              "t": "The hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "across from the train station",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Del otro lado de la calle. En Reino Unido dirían opposite the train station."
+        },
+        {
+          "en": "There's a café next to the bank.",
+          "es": "Hay un café junto al banco.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "verbo"
+            },
+            {
+              "t": "a café",
+              "rol": "sujeto"
+            },
+            {
+              "t": "next to the bank",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "There is presenta un lugar nuevo; next to lo ubica."
+        },
+        {
+          "en": "The museum is at the end of this street, on the left.",
+          "es": "El museo está al final de esta calle, a la izquierda.",
+          "nota": "At the end of = al final de. Se pueden combinar dos datos de ubicación."
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Una esquina de la ciudad",
+        "objetos": [
+          {
+            "emoji": "💊",
+            "x": 0.2,
+            "y": 0.25,
+            "etiqueta": "The pharmacy is on the corner."
+          },
+          {
+            "emoji": "☕",
+            "x": 0.45,
+            "y": 0.25,
+            "etiqueta": "The café is next to the pharmacy."
+          },
+          {
+            "emoji": "🏦",
+            "x": 0.72,
+            "y": 0.25,
+            "etiqueta": "bank"
+          },
+          {
+            "emoji": "🌳",
+            "x": 0.72,
+            "y": 0.8,
+            "etiqueta": "The park is across from the bank."
+          },
+          {
+            "emoji": "🚗",
+            "x": 0.72,
+            "y": 0.45,
+            "etiqueta": "The car is in front of the bank."
+          }
+        ]
+      },
+      "comparacion": {
+        "a": {
+          "titulo": "across from / opposite",
+          "items": [
+            "Al otro lado de la calle.",
+            "Frente a frente, con la calle en medio.",
+            "The park is across from the bank."
+          ]
+        },
+        "b": {
+          "titulo": "in front of",
+          "items": [
+            "Delante de algo, del mismo lado.",
+            "Muy cerca, sin nada en medio.",
+            "The car is in front of the bank."
+          ]
+        },
+        "veredicto": "Cuando en español dices «enfrente de» para dar direcciones, casi siempre quieres decir across from. In front of es «delante de»."
+      },
+      "pronunciacion": [
+        {
+          "texto": "across from",
+          "ipa": "/əˈkrɔs frəm/",
+          "consejo": "Acento en CROSS; la a inicial es una vocal débil /ə/. From se reduce a /frəm/ cuando no está acentuado. En muchas zonas de EE. UU. se dice /əˈkrɑs/."
+        },
+        {
+          "texto": "corner",
+          "ipa": "/ˈkɔrnər/",
+          "consejo": "Las dos r se pronuncian curvando la lengua hacia atrás sin tocar el paladar (en Reino Unido no suenan: /ˈkɔːnə/). No es la r vibrante del español."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The bank is in front of the park. (queriendo decir al otro lado de la calle)",
+          "bien": "The bank is across from the park.",
+          "porque": "In front of significa delante, del mismo lado. Enfrente (al otro lado) = across from / opposite."
+        },
+        {
+          "mal": "It's in the corner.",
+          "bien": "It's on the corner.",
+          "porque": "Un edificio en la esquina de la calle está on the corner. In the corner se usa para el rincón de una habitación."
+        },
+        {
+          "mal": "It's next of the bank.",
+          "bien": "It's next to the bank.",
+          "porque": "La preposición es next to."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada indicación con su significado.",
+      "pares": [
+        {
+          "a": "Go straight ahead.",
+          "b": "Siga derecho."
+        },
+        {
+          "a": "Turn right.",
+          "b": "Dé vuelta a la derecha."
+        },
+        {
+          "a": "Take the second left.",
+          "b": "Tome la segunda calle a la izquierda."
+        },
+        {
+          "a": "Cross the street.",
+          "b": "Cruce la calle."
+        },
+        {
+          "a": "Go past the church.",
+          "b": "Pase la iglesia."
+        },
+        {
+          "a": "It's across from the park.",
+          "b": "Está enfrente del parque."
+        }
+      ],
+      "pistas": [
+        "Todas son indicaciones de calle.",
+        "Cuidado con right (derecha) y straight (derecho).",
+        "Past aquí es «por delante y más allá»; across, «de un lado al otro»."
+      ],
+      "solucion": {
+        "respuesta": "Go straight ahead → Siga derecho; Turn right → Dé vuelta a la derecha; Take the second left → Tome la segunda a la izquierda; Cross the street → Cruce la calle; Go past the church → Pase la iglesia; It's across from the park → Está enfrente del parque.",
+        "explicacion": "Straight = en línea recta y right = derecha, dos palabras que se confunden mucho. Take the second left es la forma corta de take the second street on the left. Across from es «enfrente», al otro lado de la calle."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta adecuada.",
+      "pregunta": "Necesitas cualquier farmacia; no conoces ninguna en esta ciudad. ¿Qué preguntas?",
+      "opciones": [
+        {
+          "texto": "Is there a pharmacy near here?",
+          "correcta": true,
+          "porque": "Correcto: te sirve cualquier farmacia, así que preguntas si existe una cerca con Is there a…?"
+        },
+        {
+          "texto": "Where is pharmacy?",
+          "correcta": false,
+          "porque": "Falta el artículo, y Where is the…? se usa para un lugar concreto que ya sabes que existe."
+        },
+        {
+          "texto": "There is a pharmacy near here?",
+          "correcta": false,
+          "porque": "En la pregunta, is va delante de there: Is there…?"
+        },
+        {
+          "texto": "Where stays a pharmacy?",
+          "correcta": false,
+          "porque": "Stay no significa «quedar» en este sentido; se usa be."
+        }
+      ],
+      "pistas": [
+        "¿Buscas una farmacia concreta o cualquiera?",
+        "Para saber si existe algo se usa there is, en forma de pregunta.",
+        "Para preguntar si existe algo: be + there invertidos + artículo indefinido + lugar, como en Is there a bank near here?"
+      ],
+      "solucion": {
+        "respuesta": "Is there a pharmacy near here?",
+        "explicacion": "Cuando te sirve cualquier lugar de un tipo, preguntas si hay uno cerca: Is there a pharmacy near here? En la pregunta, is va antes de there, y a indica «una cualquiera»."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta.",
+      "frase": "Excuse me, how ___ I get to the museum?",
+      "respuestas": [
+        [
+          "do",
+          "can"
+        ]
+      ],
+      "traduccion": "Disculpe, ¿cómo llego al museo?",
+      "pistas": [
+        "Es una pregunta en presente simple.",
+        "Entre how y el sujeto I falta el auxiliar.",
+        "Las preguntas de presente simple llevan el auxiliar delante del sujeto, como en Where do you live?"
+      ],
+      "solucion": {
+        "respuesta": "do",
+        "explicacion": "La respuesta es do: en presente simple las preguntas con how necesitan el auxiliar do antes del sujeto I. How do I get to…? = ¿Cómo llego a…? También se oye How can I get to…?, que es igual de correcta."
+      },
+      "errores_tipicos": {
+        "does": "Con I se usa do; does es para he/she/it.",
+        "am": "How am I get… no es correcto: la pregunta de presente simple necesita do."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la indicación.",
+      "texto": "Turn left at the traffic light.",
+      "ipa": "/ˈtɝːn ˈlɛft ət ðə ˈtræfɪk ˌlaɪt/",
+      "consejo": "Turn con la vocal de bird (lengua curvada, sin u). Left termina en /ft/. At se reduce a /ət/. Traffic lleva /æ/, la «a» abierta con labios estirados, y el acento en TRA.",
+      "es": "Dé vuelta a la izquierda en el semáforo."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la preposición correcta.",
+      "frase": "Turn right ___ the corner. The bank is ___ your left.",
+      "respuestas": [
+        [
+          "at"
+        ],
+        [
+          "on"
+        ]
+      ],
+      "banco": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "traduccion": "Dé vuelta a la derecha en la esquina. El banco está a su izquierda.",
+      "pistas": [
+        "Una preposición marca el punto donde giras; otra, el lado.",
+        "Mira qué indica cada hueco: el primero, el punto exacto donde giras; el segundo, el lado donde está el banco.",
+        "El punto donde giras lleva la misma preposición que en «Stop at the light»; el lado, la misma que en «on the right»."
+      ],
+      "solucion": {
+        "respuesta": "at | on",
+        "explicacion": "At marca el punto exacto donde giras: turn right at the corner. Para decir de qué lado está algo se usa on: on your left, on the right."
+      },
+      "errores_tipicos": {
+        "in | in": "Calco de «en la esquina» y «a la izquierda». Se gira at the corner y algo está on your left.",
+        "at | in": "El primero está bien; el lado se dice con on: on your left."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la indicación.",
+      "fichas": [
+        "the",
+        "Take",
+        "street",
+        "second",
+        "the",
+        "left",
+        "on"
+      ],
+      "respuestas": [
+        "Take the second street on the left"
+      ],
+      "traduccion": "Tome la segunda calle a la izquierda.",
+      "pistas": [
+        "Empieza con el verbo en imperativo.",
+        "El ordinal va entre the y street.",
+        "Verbo + the + ordinal + sustantivo + preposición de lado + the + lado."
+      ],
+      "solucion": {
+        "respuesta": "Take the second street on the left.",
+        "explicacion": "Take (imperativo) + the second street (el ordinal va delante del sustantivo) + on the left (el lado, con on)."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Tu amigo quiere decir que el hotel está al otro lado de la calle, frente a la estación. Señala el error y corrígelo.",
+      "frase": "The hotel is in front of the station, on the other side of the street.",
+      "error": "in front of",
+      "correcciones": [
+        "across from",
+        "opposite"
+      ],
+      "frase_correcta": "The hotel is across from the station, on the other side of the street.",
+      "pistas": [
+        "El hotel está al otro lado de la calle.",
+        "¿In front of significa «del otro lado» o «delante, del mismo lado»?",
+        "In front of es «delante, del mismo lado». Para «del otro lado de la calle» usa la expresión de dos palabras que estudiaste en «ubicar el lugar» (o su equivalente británico de una palabra)."
+      ],
+      "solucion": {
+        "respuesta": "in front of → across from",
+        "explicacion": "In front of significa «delante de», del mismo lado. Si hay una calle en medio, se dice across from (EE. UU.) u opposite. El español «enfrente de» suele corresponder a across from."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la indicación y escríbela.",
+      "texto": "Go straight for two blocks and cross the bridge.",
+      "pistas": [
+        "Son dos pasos unidos con and.",
+        "Oyes «derecho», un número de cuadras y un verbo para pasar al otro lado.",
+        "Imperativo + «derecho» + for + número + cuadras, and + imperativo de «cruzar» + the + «puente»."
+      ],
+      "solucion": {
+        "respuesta": "Go straight for two blocks and cross the bridge.",
+        "explicacion": "Dos imperativos: go straight (siga derecho) y cross (cruce). For two blocks indica la distancia; block = cuadra."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa how do I…?",
+      "es": "Disculpe, ¿cómo llego a la estación de tren?",
+      "respuestas": [
+        "Excuse me, how do I get to the train station?"
+      ],
+      "pistas": [
+        "Empieza con la fórmula para hablar con un desconocido.",
+        "«Llegar a» un lugar = get to.",
+        "Fórmula de cortesía + how + auxiliar + sujeto + get to + lugar; el sustantivo que describe va delante, como en bus stop."
+      ],
+      "solucion": {
+        "respuesta": "Excuse me, how do I get to the train station?",
+        "explicacion": "Excuse me abre la conversación. How do I get to…? es la pregunta fija para pedir una ruta: presente simple con do, y get to = llegar a. Train station: el sustantivo que describe (train) va delante."
+      },
+      "errores_tipicos": {
+        "Excuse me, how I get to the train station?": "Falta el auxiliar do: How do I get to…?",
+        "Excuse me, how do I arrive to the train station?": "Para pedir una ruta se usa get to; arrive se usa con at/in, y no es lo natural aquí.",
+        "Excuse me, how do I get to the station of train?": "El sustantivo que describe va delante: the train station."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa on the corner.",
+      "es": "La farmacia está en la esquina, junto a un café.",
+      "respuestas": [
+        "The pharmacy is on the corner, next to a café.",
+        "The pharmacy is on the corner, next to a cafe.",
+        "The drugstore is on the corner, next to a café.",
+        "The drugstore is on the corner, next to a cafe.",
+        "The pharmacy is on the corner next to a coffee shop.",
+        "The drugstore is on the corner next to a coffee shop."
+      ],
+      "pistas": [
+        "Hay dos datos de ubicación: la esquina y lo que está al lado.",
+        "Un edificio en la esquina está on the corner; «junto a» = next to.",
+        "Sujeto + is + preposición de esquina + the corner + «junto a» + a + lugar."
+      ],
+      "solucion": {
+        "respuesta": "The pharmacy is on the corner, next to a café.",
+        "explicacion": "On the corner es la preposición para un edificio en la esquina (in the corner es un rincón). Next to = junto a. En EE. UU. también se dice drugstore."
+      },
+      "errores_tipicos": {
+        "The pharmacy is in the corner, next to a café.": "In the corner es un rincón dentro de una habitación. En la calle: on the corner.",
+        "The pharmacy is on the corner, next of a café.": "La preposición es next to."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Lee el diálogo y elige la respuesta que confirma bien la ruta.",
+      "contexto": "Le preguntaste a una señora cómo llegar al museo.",
+      "lineas": [
+        {
+          "quien": "Woman",
+          "en": "Go down this street and take the third street on the right. The museum is at the end of that street.",
+          "es": "Siga por esta calle y tome la tercera calle a la derecha. El museo está al final de esa calle."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "So, the third right, and it's at the end of the street?",
+          "correcta": true,
+          "porque": "Correcto: repites los dos datos clave (la tercera a la derecha y al final de la calle) para comprobar que entendiste."
+        },
+        {
+          "texto": "So, the third left, and it's at the end of the street?",
+          "correcta": false,
+          "porque": "La señora dijo on the right, no left."
+        },
+        {
+          "texto": "So, the second right, and it's on the corner?",
+          "correcta": false,
+          "porque": "Dijo the third street, y el museo está at the end of the street, no on the corner."
+        },
+        {
+          "texto": "So, go straight for three blocks, and it's across from the park?",
+          "correcta": false,
+          "porque": "Ella no mencionó tres cuadras ni un parque: confundes third street con three blocks."
+        }
+      ],
+      "pistas": [
+        "Relee la indicación: ¿qué número de calle y qué lado?",
+        "Fíjate también en dónde está el museo al final.",
+        "Busca la opción que repita el ordinal, el lado y la ubicación final exactamente como los dijo la señora."
+      ],
+      "solucion": {
+        "respuesta": "So, the third right, and it's at the end of the street?",
+        "explicacion": "Repetir la ruta con So… es una buena estrategia para comprobar. La indicación tenía dos datos: la tercera calle a la derecha (the third right) y el museo al final de esa calle (at the end of the street)."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.12",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Convierte la pregunta directa en una pregunta más cortés.",
+      "origen": "Where's the post office?",
+      "instruccion": "Empieza con Could you tell me the way to…?",
+      "respuestas": [
+        "Could you tell me the way to the post office?",
+        "Could you tell me the way to the post office, please?",
+        "Could you please tell me the way to the post office?",
+        "Excuse me, could you tell me the way to the post office?",
+        "Excuse me, could you tell me the way to the post office, please?"
+      ],
+      "pistas": [
+        "Usa la fórmula cortés del enunciado.",
+        "El lugar va después de the way to.",
+        "Mismo patrón que Could you tell me the way to the museum?, con el lugar de la pregunta original."
+      ],
+      "solucion": {
+        "respuesta": "Could you tell me the way to the post office?",
+        "explicacion": "Could you tell me…? es más cortés que una pregunta directa. The way to + lugar = el camino a. Fíjate en tell me: tell lleva la persona sin to."
+      },
+      "errores_tipicos": {
+        "Could you tell to me the way to the post office?": "Tell lleva a la persona sin to: tell me.",
+        "Could you told me the way to the post office?": "Después de could, verbo base: tell."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Explica a un amigo cómo llegar a tu casa.",
+      "objetivo": "Dar una ruta completa con imperativos, conectores y preposiciones de lugar.",
+      "instrucciones": "Un amigo, Sam, viene a visitarte y llega en autobús. Escríbele un mensaje (40–70 palabras) que explique cómo ir de la parada del autobús a tu casa. Usa al menos tres imperativos distintos (go, turn, take, cross, walk…), First / Then / After that, y termina diciendo exactamente dónde está tu casa (on the corner, next to, across from…).",
+      "vocabulario_apoyo": [
+        "bus stop",
+        "block",
+        "traffic light",
+        "go straight",
+        "turn left / right",
+        "take the first / second street",
+        "cross",
+        "go past",
+        "on your left / right",
+        "across from",
+        "next to",
+        "You can't miss it."
+      ],
+      "estructuras": [
+        "First, …",
+        "Then …",
+        "After that, …",
+        "My house is on the …, next to / across from …"
+      ],
+      "ejemplo": "To get to my office from the metro: go up the stairs and turn right. Walk for one block. The office is the tall building next to a bank.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas turn left o turn right",
+          "patron": "\\bturn (left|right)\\b"
+        },
+        {
+          "descripcion": "Usas un conector de secuencia",
+          "patron": "\\b(first|then|after that)\\b"
+        },
+        {
+          "descripcion": "Ubicas tu casa con una preposición de lugar",
+          "patron": "\\b(next to|across from|opposite|on the corner|between|near)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada paso empieza con un verbo en imperativo, sin sujeto?",
+        "¿Usaste at para el punto de giro (at the corner, at the light) y on para el lado (on your left)?",
+        "¿Distinguiste straight (derecho) de right (derecha)?",
+        "¿Tu amigo podría llegar solo con tu mensaje?"
+      ],
+      "modelo": "Hi Sam! When you get off the bus, go straight down Maple Street for two blocks. Then turn left at the traffic light. After that, take the second street on the right and go past a small park. My house is on the left, across from a school. It's blue, next to a bakery. You can't miss it! See you soon.",
+      "explicacion": "El modelo ordena la ruta con Then y After that, y cada paso empieza con un imperativo (go, turn, take, go past). Usa at para el punto de giro (at the traffic light) y on para el lado (on the left, on the right). Al final da dos referencias para reconocer la casa (across from a school, next to a bakery) y cierra con una expresión fija amable.",
+      "errores_comunes": [
+        "Confundir right (derecha) con straight (derecho).",
+        "Decir «in your left» en lugar de on your left.",
+        "Usar in front of para «enfrente, al otro lado de la calle» (es across from)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Un turista te pregunta",
+    "contexto": "Estás en la puerta de tu escuela de inglés. Un turista te pregunta por un cajero. El banco más cercano está a dos cuadras: sigues derecho, das vuelta a la derecha en el semáforo y está a la izquierda, junto a una farmacia.",
+    "dialogo": [
+      {
+        "quien": "Tourist",
+        "en": "Excuse me, is there an ATM near here?",
+        "es": "Disculpe, ¿hay un cajero automático por aquí?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Tourist",
+        "en": "Great, thank you so much!",
+        "es": "¡Perfecto, muchas gracias!"
+      }
+    ],
+    "tu_turno": "Contesta que sí, da la ruta en dos o tres pasos con imperativos y di exactamente dónde está el cajero.",
+    "modelo": "Yes, there's one at the bank on Pine Street. Go straight for two blocks, then turn right at the traffic light. The bank is on your left, next to a pharmacy. It's about a five-minute walk.",
+    "alternativas": [
+      "Sure. Walk down this street for two blocks and turn right at the light. The bank is on the left, next to a pharmacy.",
+      "Yes, there is. Go straight ahead, turn right at the traffic light, and it's on your left, next to the pharmacy."
+    ],
+    "claves": [
+      "Confirma con Yes, there's one… o Yes, there is.",
+      "Pasos en imperativo: go straight, turn right at…",
+      "Ubicación final: on your left, next to…"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pedir: Excuse me, how do I get to the…? / Where's the…? / Is there a… near here?",
+      "Indicaciones en imperativo: go straight (ahead), turn left/right at…, take the second street on the left, cross, go past.",
+      "Ubicar: on your left/right, on the corner, across from, next to, between, at the end of the street.",
+      "Enfrente (al otro lado de la calle) = across from / opposite; in front of = delante de."
+    ],
+    "recuerda": [
+      "Straight = derecho; right = derecha.",
+      "Turn left AT the corner; the bank is ON the corner.",
+      "Block = cuadra. Traffic light = semáforo (UK: traffic lights)."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.r1",
+      "frente": "¿Cómo preguntas cómo llegar al museo?",
+      "reverso": "Excuse me, how do I get to the museum?"
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.r2",
+      "frente": "¿Cómo preguntas si hay un banco cerca?",
+      "reverso": "Is there a bank near here?",
+      "nota": "Is va delante de there en la pregunta."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.r3",
+      "frente": "«Tome la segunda calle a la izquierda»",
+      "reverso": "Take the second street on the left. / Take the second left."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.r4",
+      "frente": "«El hotel está enfrente del parque» (al otro lado de la calle)",
+      "reverso": "The hotel is across from the park.",
+      "nota": "No in front of."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.direcciones.r5",
+      "frente": "¿At o on? Turn left ___ the corner. / It's ___ the corner.",
+      "reverso": "Turn left at the corner. / It's on the corner."
+    }
+  ]
+}

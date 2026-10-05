@@ -1,0 +1,519 @@
+{
+  "slug": "can-negacion-y-preguntas",
+  "titulo": "Can: negación, preguntas y pronunciación",
+  "minutos": 40,
+  "objetivos": [
+    "Negar con can't / cannot + verbo en forma base, sin do ni does.",
+    "Preguntar invirtiendo can y el sujeto (Can you swim?) y contestar con respuestas cortas (Yes, I can / No, I can't).",
+    "Hacer preguntas wh con can: What can you cook? How many languages can you speak?",
+    "Distinguir can de can't al escuchar gracias a la vocal y al acento de la frase."
+  ],
+  "situacion": {
+    "titulo": "¿Can o can't?",
+    "texto": "Sam organiza un número de baile y canto para la fiesta de la escuela y pregunta a Lucía qué sabe hacer. Hay un malentendido: Sam oye can't donde Lucía dijo can. Al final de la lección sabrás por qué pasa y cómo evitarlo.",
+    "dialogo": [
+      { "quien": "Sam", "en": "Can you sing, Lucía?", "es": "¿Sabes cantar, Lucía?" },
+      { "quien": "Lucía", "en": "No, I can't. But I can dance.", "es": "No. Pero sí sé bailar." },
+      { "quien": "Sam", "en": "Oh, you can't dance? That's too bad.", "es": "Ah, ¿no sabes bailar? Qué lástima." },
+      { "quien": "Lucía", "en": "No, no! I CAN dance! I can dance very well!", "es": "¡No, no! ¡SÍ sé bailar! ¡Bailo muy bien!" },
+      { "quien": "Sam", "en": "Sorry! Can and can't sound very similar.", "es": "¡Perdón! Can y can't suenan muy parecido." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "negacion-can",
+      "titulo": "Negar: can't y cannot, sin do ni does",
+      "que_es": "La negación de [[can]] es [[can't]] (contracción) o [[cannot]] (forma completa). Significa «no sé» o «no puedo», según el contexto. Como [[can]] es un auxiliar, él mismo lleva la negación: no hace falta [[don't]] ni [[doesn't]].",
+      "para_que": [
+        "Decir lo que no sabes hacer: «No sé manejar».",
+        "Explicar que algo no es posible: «No puedo ir hoy».",
+        "Hablar de límites de personas, animales o cosas: «Mi hijo tiene cuatro años; todavía no sabe leer»."
+      ],
+      "como_funciona": "**Fórmula:** sujeto + can't / cannot + verbo en forma base + complemento.\n\n1. **Sin do / does.** En presente simple niegas con un auxiliar ([[He doesn't swim]]). Con can el auxiliar ya está: {{sujeto:He}} {{negacion:can't}} {{verbo:swim}}. «He doesn't can swim» es imposible: serían dos auxiliares.\n2. **El verbo sigue en forma base**, igual que en la afirmación: [[She can't drive]], nunca «she can't drives».\n3. **Cannot se escribe junto**, en una sola palabra. Es la forma completa normal por escrito y suena más formal o enfática ([[You cannot park here]]). La forma separada [[can not]] existe, pero es rara y se reserva para casos especiales de énfasis; a este nivel, escribe [[can't]] o [[cannot]].\n4. **Can't es la forma habitual** al hablar y en mensajes.\n\n**Calco que evitar:** en español la negación es solo «no» delante del verbo («no puedo»), y por eso sale «I no can swim». En inglés, [[not]] se une al auxiliar: [[I can't swim]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can't / cannot", "rol": "negacion"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "My sister", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "drive", "rol": "verbo"}, {"t": "a car", "rol": "complemento"} ],
+          "es": "Mi hermana no sabe manejar."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Formas de la negación",
+          "columnas": ["Forma", "Ejemplo", "Cuándo se usa"],
+          "filas": [
+            ["can't", "I can't come today.", "Casi siempre al hablar y en mensajes."],
+            ["cannot", "Visitors cannot park here.", "Por escrito, en avisos o para dar énfasis."],
+            ["can not", "(poco frecuente)", "Solo en usos especiales; no la necesitas a este nivel."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My son is four. He can't read.",
+          "es": "Mi hijo tiene cuatro años. No sabe leer.",
+          "nota": "Habilidad que todavía no tiene: «no sabe». La edad va con be (is four), nunca con have."
+        },
+        {
+          "en": "I can't find my keys.",
+          "es": "No encuentro mis llaves.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "find", "rol": "verbo"}, {"t": "my keys", "rol": "complemento"} ],
+          "nota": "El español dice «no encuentro»; el inglés dice literalmente «no puedo encontrar». Es la forma natural de decirlo."
+        },
+        {
+          "en": "We can't come tonight.",
+          "es": "No podemos venir esta noche.",
+          "partes": [ {"t": "We", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "come", "rol": "verbo"}, {"t": "tonight", "rol": "tiempo"} ],
+          "nota": "Imposibilidad por circunstancias, no falta de habilidad. La forma es la misma."
+        },
+        {
+          "en": "This car cannot go very fast.",
+          "es": "Este carro no puede ir muy rápido.",
+          "partes": [ {"t": "This car", "rol": "sujeto"}, {"t": "cannot", "rol": "negacion"}, {"t": "go", "rol": "verbo"}, {"t": "very fast", "rol": "complemento"} ],
+          "nota": "Cannot, en una sola palabra. Se ve más en textos escritos."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación: not se pega a can",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ {"t": "He", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "drive", "rol": "verbo"} ] },
+          { "etiqueta": "Negación", "partes": [ {"t": "He", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "drive", "rol": "verbo"} ] }
+        ],
+        "pie": "No aparece doesn't y drive no cambia: solo can se convierte en can't (o cannot)."
+      },
+      "pronunciacion": [
+        { "texto": "can't (EE. UU.)", "ipa": "/kænt/", "consejo": "La vocal /æ/ es una «a» muy abierta, con la boca más estirada hacia los lados que en español, casi entre «a» y «e». La t final a menudo apenas se oye: la garganta se cierra un instante y corta el sonido.", "lento": true },
+        { "texto": "can't (Reino Unido)", "ipa": "/kɑːnt/", "consejo": "En el inglés británico la vocal es una «a» larga y profunda, con la lengua baja y hacia atrás, como una «a» española pero sostenida más tiempo." },
+        { "texto": "cannot", "ipa": "/ˈkænɑːt/", "consejo": "El acento suele ir en la primera sílaba: «KÆ-nat». En Reino Unido la segunda sílaba suena /nɒt/, con una «o» corta." }
+      ],
+      "errores": [
+        { "mal": "He doesn't can swim.", "bien": "He can't swim.", "porque": "Can ya es auxiliar: no se combina con don't / doesn't." },
+        { "mal": "I no can swim.", "bien": "I can't swim.", "porque": "Calco del español «no puedo». En inglés not se une al auxiliar: can't / cannot." },
+        { "mal": "She can't drives.", "bien": "She can't drive.", "porque": "Después de can't el verbo va en forma base, sin -s." },
+        { "mal": "I can't to go.", "bien": "I can't go.", "porque": "Tampoco en negativa se pone to después de can't." }
+      ]
+    },
+    {
+      "id": "preguntas-can",
+      "titulo": "Preguntar: can va delante del sujeto",
+      "que_es": "Para preguntar, [[can]] cambia de lugar con el sujeto: [[You can swim]] → [[Can you swim?]]. Se contesta con **respuestas cortas** que repiten el sujeto y [[can]] / [[can't]]: [[Yes, I can.]] / [[No, I can't.]]. Y para pedir información se pone una palabra interrogativa delante: [[What can you cook?]]",
+      "para_que": [
+        "Averiguar qué sabe hacer alguien: «¿Sabes manejar?».",
+        "Preguntar si algo es posible: «¿Puedes venir el sábado?».",
+        "Pedir detalles: «¿Qué sabes cocinar?», «¿Cuántos idiomas hablas?»."
+      ],
+      "como_funciona": "**Pregunta de sí o no:** Can + sujeto + verbo en forma base + complemento? → {{auxiliar:Can}} {{sujeto:your brother}} {{verbo:drive}}? No se usa do / does: «Do you can swim?» no existe.\n\n**Respuesta corta:** Yes, + pronombre + can. / No, + pronombre + can't. El sujeto se convierte en pronombre ([[your brother]] → [[he]]) y no se repite el verbo principal: [[Yes, he can.]] Además, en la respuesta afirmativa [[can]] no se reduce: se pronuncia fuerte, /kæn/. Ojo: no contestes con [[do]] («Yes, I do») a una pregunta con [[can]]: la respuesta usa el mismo auxiliar que la pregunta.\n\n**Preguntas wh:** palabra interrogativa + can + sujeto + verbo? → {{interrogativo:What}} {{auxiliar:can}} {{sujeto:you}} {{verbo:cook}}? Funciona igual con [[how many]], [[which]], [[where]]: [[How many languages can you speak?]]\n\n**Caso especial: who como sujeto.** Si [[who]] es el sujeto (la persona que sabe hacer algo), no hay inversión: [[Who can play the guitar?]] (¿Quién sabe tocar la guitarra?) — Who + can + verbo, como en una afirmación.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de sí o no",
+          "formula": [ {"t": "Can", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Can", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "drive", "rol": "verbo"}, {"t": "a truck?", "rol": "complemento"} ],
+          "es": "¿Tu hermano sabe manejar un camión?"
+        },
+        {
+          "etiqueta": "Respuesta corta",
+          "formula": [ {"t": "Yes, / No,", "rol": "otro"}, {"t": "pronombre", "rol": "sujeto"}, {"t": "can / can't", "rol": "auxiliar"} ],
+          "ejemplo": [ {"t": "Yes,", "rol": "otro"}, {"t": "he", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"} ],
+          "es": "Sí, sí sabe."
+        },
+        {
+          "etiqueta": "Pregunta wh",
+          "formula": [ {"t": "Palabra wh", "rol": "interrogativo"}, {"t": "can", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "verbo base?", "rol": "verbo"} ],
+          "ejemplo": [ {"t": "What", "rol": "interrogativo"}, {"t": "can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "cook?", "rol": "verbo"} ],
+          "es": "¿Qué sabes cocinar?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Respuestas cortas",
+          "columnas": ["Pregunta", "Sí", "No"],
+          "filas": [
+            ["Can you swim?", "Yes, I can.", "No, I can't."],
+            ["Can your mom drive?", "Yes, she can.", "No, she can't."],
+            ["Can your dog swim?", "Yes, it can.", "No, it can't."],
+            ["Can you and Ana come?", "Yes, we can.", "No, we can't."],
+            ["Can your parents dance?", "Yes, they can.", "No, they can't."]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Can you play chess?",
+          "es": "¿Sabes jugar ajedrez?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "play", "rol": "verbo"}, {"t": "chess", "rol": "complemento"} ],
+          "nota": "Respuesta: Yes, I can. / No, I can't. Nunca «Yes, I do»."
+        },
+        {
+          "en": "Can Omar come on Friday?",
+          "es": "¿Omar puede venir el viernes?",
+          "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "Omar", "rol": "sujeto"}, {"t": "come", "rol": "verbo"}, {"t": "on Friday", "rol": "tiempo"} ],
+          "nota": "Respuesta: No, he can't. El nombre Omar pasa a ser he en la respuesta corta."
+        },
+        {
+          "en": "What can you cook?",
+          "es": "¿Qué sabes cocinar?",
+          "partes": [ {"t": "What", "rol": "interrogativo"}, {"t": "can", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "cook", "rol": "verbo"} ],
+          "nota": "Wh + can + sujeto + verbo. Una respuesta posible: I can cook rice and eggs."
+        },
+        {
+          "en": "How many languages can Priya speak?",
+          "es": "¿Cuántos idiomas habla Priya?",
+          "partes": [ {"t": "How many languages", "rol": "interrogativo"}, {"t": "can", "rol": "auxiliar"}, {"t": "Priya", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"} ],
+          "nota": "How many + sustantivo plural va junto, delante de can."
+        },
+        {
+          "en": "Who can play the guitar?",
+          "es": "¿Quién sabe tocar la guitarra?",
+          "partes": [ {"t": "Who", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "play", "rol": "verbo"}, {"t": "the guitar", "rol": "complemento"} ],
+          "nota": "Who es el sujeto, así que no hay inversión: who + can + verbo."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a pregunta",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ {"t": "She", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "speak", "rol": "verbo"}, {"t": "Chinese", "rol": "complemento"} ] },
+          { "etiqueta": "Pregunta sí/no", "partes": [ {"t": "Can", "rol": "auxiliar"}, {"t": "she", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"}, {"t": "Chinese?", "rol": "complemento"} ] },
+          { "etiqueta": "Pregunta wh", "partes": [ {"t": "What languages", "rol": "interrogativo"}, {"t": "can", "rol": "auxiliar"}, {"t": "she", "rol": "sujeto"}, {"t": "speak?", "rol": "verbo"} ] }
+        ],
+        "pie": "Can salta delante del sujeto. El verbo speak no se mueve ni cambia."
+      },
+      "pronunciacion": [
+        { "texto": "Can you swim?", "ipa": "/kən jə ˈswɪm/", "consejo": "En la pregunta, can suele ser débil (/kən/) y you también (/jə/). La voz sube al final, en swim." },
+        { "texto": "Yes, I can.", "ipa": "/ˈjɛs aɪ ˈkæn/", "consejo": "En la respuesta corta can va al final y es la palabra importante: se dice fuerte, con la vocal abierta /æ/. Nunca la reduzcas aquí." }
+      ],
+      "errores": [
+        { "mal": "Do you can swim?", "bien": "Can you swim?", "porque": "Can hace la pregunta solo; no se combina con do." },
+        { "mal": "Can you swim? — Yes, I do.", "bien": "Can you swim? — Yes, I can.", "porque": "La respuesta corta repite el auxiliar de la pregunta: can." },
+        { "mal": "Can she dances?", "bien": "Can she dance?", "porque": "En la pregunta el verbo sigue en forma base." },
+        { "mal": "What you can cook?", "bien": "What can you cook?", "porque": "En las preguntas wh, can va delante del sujeto (salvo cuando who es el sujeto)." }
+      ]
+    },
+    {
+      "id": "can-o-cant-al-oido",
+      "titulo": "¿Can o can't? Cómo distinguirlos al escuchar",
+      "que_es": "En el habla real la t final de [[can't]] casi no se oye, así que [[I can swim]] y [[I can't swim]] pueden sonar muy parecidas. No te fíes de la t: las pistas fiables son la **vocal** y el **acento de la frase**.",
+      "para_que": [
+        "Entender correctamente lo que alguien sabe o no sabe hacer.",
+        "Pronunciar tú de manera que no te malinterpreten (como le pasó a Lucía).",
+        "No confundir un «sí» con un «no» en una conversación rápida."
+      ],
+      "como_funciona": "**Pista 1: la vocal.** En una afirmación normal, [[can]] se reduce a **/kən/**, con la vocal neutra /ə/ (corta, murmurada). [[Can't]] **nunca** se reduce: conserva su vocal plena, /æ/ en EE. UU. (/kænt/) o /ɑː/ en el Reino Unido (/kɑːnt/).\n\n**Pista 2: el acento de la frase (la más importante).** En [[I can SWIM]], la fuerza cae en el verbo y can pasa casi desapercibido. En [[I CAN'T SWIM]], can't va acentuado (y el verbo también): oyes dos golpes de voz seguidos. Si oyes un golpe fuerte sobre can/can't, casi siempre es negativo.\n\n**Pista 3: la t.** A veces la t de can't se oye como un pequeño corte en la garganta antes de la siguiente palabra. Es una ayuda, pero no siempre está.\n\n**Cuándo can es fuerte /kæn/:** en las respuestas cortas ([[Yes, I can]]), al final de la frase y cuando se enfatiza para corregir ([[I CAN dance!]], como hizo Lucía). En esos casos, en EE. UU. can /kæn/ y can't /kænt/ tienen la misma vocal: entonces la diferencia es solo la t y el contexto (yes / no, but…). En el inglés británico la vocal distinta (/kæn/ frente a /kɑːnt/) ayuda más.\n\n**Pista 4: el contexto.** Palabras como [[but]] suelen anunciar un contraste: [[I can cook, but I can't bake]].",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación: la fuerza va en el verbo",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "can /kən/ (débil)", "rol": "auxiliar"}, {"t": "VERBO (fuerte)", "rol": "verbo"} ],
+          "ejemplo": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "swim", "rol": "verbo"} ],
+          "es": "Sé nadar. (Se oye «ai kən SUIM»)."
+        },
+        {
+          "etiqueta": "Negación: can't también es fuerte",
+          "formula": [ {"t": "Sujeto", "rol": "sujeto"}, {"t": "CAN'T /kænt/ (fuerte)", "rol": "negacion"}, {"t": "VERBO (fuerte)", "rol": "verbo"} ],
+          "ejemplo": [ {"t": "I", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "swim", "rol": "verbo"} ],
+          "es": "No sé nadar. (Se oye «ai KÆNT SUIM»)."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las tres pronunciaciones",
+          "columnas": ["Forma", "EE. UU.", "Reino Unido", "Cuándo"],
+          "filas": [
+            ["can (débil)", "/kən/", "/kən/", "Afirmaciones y la mayoría de las preguntas: I can swim."],
+            ["can (fuerte)", "/kæn/", "/kæn/", "Respuestas cortas y énfasis: Yes, I can."],
+            ["can't", "/kænt/", "/kɑːnt/", "Siempre con acento: I can't swim."]
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I can swim.",
+          "es": "Sé nadar.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can", "rol": "auxiliar"}, {"t": "swim", "rol": "verbo"} ],
+          "nota": "/aɪ kən ˈswɪm/: un solo golpe fuerte, en swim."
+        },
+        {
+          "en": "I can't swim.",
+          "es": "No sé nadar.",
+          "partes": [ {"t": "I", "rol": "sujeto"}, {"t": "can't", "rol": "negacion"}, {"t": "swim", "rol": "verbo"} ],
+          "nota": "/aɪ ˈkænt ˈswɪm/: dos golpes fuertes seguidos, en can't y en swim."
+        },
+        {
+          "en": "She can dance, but she can't sing.",
+          "es": "Sabe bailar, pero no sabe cantar.",
+          "nota": "Contraste en una sola oración: la primera can es débil; la segunda, can't, suena plena y acentuada. But anuncia el cambio."
+        },
+        {
+          "en": "Yes, I can.",
+          "es": "Sí, sí sé.",
+          "nota": "Aquí can va al final y se pronuncia fuerte, /kæn/. El yes y el contexto confirman que es afirmativo."
+        }
+      ],
+      "pronunciacion": [
+        { "texto": "I can swim.", "ipa": "/aɪ kən ˈswɪm/", "consejo": "Di can rápido y sin fuerza, casi «kn». Toda la energía va a swim.", "lento": true },
+        { "texto": "I can't swim.", "ipa": "/aɪ ˈkænt ˈswɪm/", "consejo": "Acentúa can't con la «a» abierta /æ/ y corta el sonido en la garganta al final (la t casi no suena). Luego acentúa swim. En Reino Unido: /aɪ ˈkɑːnt ˈswɪm/.", "lento": true },
+        { "texto": "I can dance, but I can't sing.", "ipa": "/aɪ kən ˈdæns bət aɪ ˈkænt ˈsɪŋ/", "consejo": "Practica el contraste: débil–FUERTE en la primera mitad, FUERTE–FUERTE en la segunda. La ng de sing se hace con la parte de atrás de la lengua, sin pronunciar una g al final." }
+      ],
+      "errores": [
+        { "mal": "Decir «I CAN swim» con can fuerte en una afirmación normal.", "bien": "I can SWIM, con can débil /kən/.", "porque": "Un can fuerte y acentuado suena a can't para el oído nativo. Reserva el can fuerte para respuestas cortas y énfasis." },
+        { "mal": "Decir can't sin acento y con la vocal reducida: «I kən swim».", "bien": "I CAN'T swim, con la vocal plena /æ/ o /ɑː/.", "porque": "Si reduces can't, el oyente entiende can: justo lo contrario." }
+      ],
+      "nota": { "titulo": "Truco de supervivencia", "texto": "Si dudas de lo que oíste, pregunta sin miedo: [[Sorry, can or can't?]] Los nativos también lo hacen.", "tono": "info" }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "can.can-negacion-y-preguntas.01",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Transforma la oración.",
+      "origen": "Ben can play the piano.",
+      "instruccion": "Negativa",
+      "respuestas": ["Ben can't play the piano."],
+      "pistas": [
+        "Can es un auxiliar: la negación se le pega a él.",
+        "No necesitas añadir otro auxiliar ni cambiar el verbo play.",
+        "Sujeto + can't (o cannot) + verbo en forma base."
+      ],
+      "solucion": { "respuesta": "Ben can't play the piano.", "explicacion": "Can se convierte en can't (o cannot, en una sola palabra) y play se queda igual, en forma base. No se usa doesn't porque can ya es auxiliar." },
+      "errores_tipicos": {
+        "Ben doesn't can play the piano.": "Can ya es auxiliar: no se combina con doesn't. Basta con can't.",
+        "Ben can't plays the piano.": "Después de can't el verbo va en forma base: play.",
+        "Ben no can play the piano.": "En inglés not se une a can: can't o cannot."
+      }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.02",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Transforma la oración.",
+      "origen": "Your sister can drive.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Can your sister drive?"],
+      "pistas": [
+        "Para preguntar con can no hace falta do ni does.",
+        "Mira dónde está can y dónde está el sujeto your sister.",
+        "Can + sujeto + verbo en forma base?"
+      ],
+      "solucion": { "respuesta": "Can your sister drive?", "explicacion": "Can pasa delante del sujeto your sister y el verbo drive no cambia. No se usa does porque can es un auxiliar que hace la pregunta por sí solo." },
+      "errores_tipicos": {
+        "Does your sister can drive?": "Can no se combina con does: Can your sister drive?",
+        "Can your sister drives?": "El verbo va en forma base: drive.",
+        "Your sister can drive?": "Falta la inversión: can debe ir delante del sujeto."
+      }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta.",
+      "frase": "A: Can your parents dance? B: No, ___ ___.",
+      "respuestas": [["they"], ["can't"]],
+      "traduccion": "A: ¿Tus papás saben bailar? B: No, no saben.",
+      "pistas": [
+        "Una respuesta corta tiene un pronombre y un auxiliar.",
+        "Your parents es plural. ¿Qué auxiliar usó la pregunta?",
+        "Respuesta corta: No + pronombre personal que sustituye al sujeto + el auxiliar de la pregunta en negativo."
+      ],
+      "solucion": { "respuesta": "they can't", "explicacion": "Your parents se convierte en they, y la respuesta corta repite el auxiliar de la pregunta en negativo: can't. No se usa don't porque la pregunta no se hizo con do." },
+      "errores_tipicos": {
+        "they | don't": "La pregunta se hizo con can, así que la respuesta también: No, they can't.",
+        "they | can": "La respuesta empieza con No: el auxiliar debe ser negativo (can't).",
+        "them | can't": "En la respuesta corta va el pronombre sujeto: they."
+      }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.04",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Lee la transcripción y decide qué dijo la persona.",
+      "pregunta": "Oyes /ʃi kən ˈdraɪv/: can sale corto, con una vocal débil, y el único golpe fuerte está en drive. ¿Qué dijo?",
+      "opciones": [
+        { "texto": "She can drive.", "correcta": true, "porque": "Correcto: /kən/ con vocal débil y el acento solo en el verbo es la afirmación." },
+        { "texto": "She can't drive.", "correcta": false, "porque": "Can't nunca se reduce a /kən/: conservaría la vocal plena /æ/ y llevaría acento, con dos golpes fuertes (can't y drive)." }
+      ],
+      "pistas": [
+        "Recuerda las pistas para distinguir can de can't.",
+        "Fíjate en la vocal de can y en cuántos golpes fuertes hay.",
+        "Vocal débil /ə/ + un solo acento en el verbo = afirmación."
+      ],
+      "solucion": { "respuesta": "She can drive.", "explicacion": "La forma débil /kən/ solo existe en la afirmación. Can't siempre conserva su vocal plena y va acentuado, así que habría dos golpes de voz: /ʃi ˈkænt ˈdraɪv/." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.05",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Atención: hay un can y un can't.",
+      "texto": "I can't cook, but I can make coffee.",
+      "pistas": [
+        "Hay dos partes unidas por but, que anuncia un contraste.",
+        "En la primera parte oyes un acento fuerte justo después de I; en la segunda, can suena débil.",
+        "Negativa + but + afirmativa con el mismo sujeto: la negación va acentuada y can suena débil."
+      ],
+      "solucion": { "respuesta": "I can't cook, but I can make coffee.", "explicacion": "En la primera parte can't lleva acento y vocal plena; en la segunda, can es débil (/kən/) y el acento cae en make y coffee. But confirma el contraste: no sabe cocinar, pero sí sabe hacer café." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.06",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Exagera el contraste de acentos.",
+      "texto": "I can sing, but I can't dance.",
+      "ipa": "/aɪ kən ˈsɪŋ bət aɪ ˈkænt ˈdæns/",
+      "consejo": "Primera mitad: can débil /kən/ y fuerza en sing. Segunda mitad: can't fuerte con /æ/ abierta y también dance fuerte. En Reino Unido: /kɑːnt/ y /dɑːns/. Si al escucharte oyes el mismo ritmo en las dos mitades, repite.",
+      "es": "Sé cantar, pero no sé bailar."
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": ["speak", "How", "you", "languages", "can", "many"],
+      "respuestas": ["How many languages can you speak"],
+      "traduccion": "¿Cuántos idiomas hablas?",
+      "pistas": [
+        "Es una pregunta wh: empieza por la palabra interrogativa.",
+        "How many va siempre pegado al sustantivo que cuenta.",
+        "How many + sustantivo + can + sujeto + verbo?"
+      ],
+      "solucion": { "respuesta": "How many languages can you speak?", "explicacion": "How many languages es el bloque interrogativo; después va can, luego el sujeto you y al final el verbo speak en forma base." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la parte incorrecta y corrígela.",
+      "frase": "Do you can play chess?",
+      "error": "Do you can",
+      "correcciones": ["Can you"],
+      "frase_correcta": "Can you play chess?",
+      "pistas": [
+        "Can es un auxiliar.",
+        "Mira el principio de la pregunta: hay dos auxiliares.",
+        "Con can no se usa do: can va delante del sujeto."
+      ],
+      "solucion": { "respuesta": "Do you can → Can you", "explicacion": "Can hace la pregunta solo: se coloca delante del sujeto. Do sobra: Can you play chess? (¿Sabes jugar ajedrez?)." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración es un calco del español. Señala la parte incorrecta y corrígela.",
+      "frase": "My grandmother no can read without her glasses.",
+      "error": "no can",
+      "correcciones": ["can't", "cannot"],
+      "frase_correcta": "My grandmother can't read without her glasses.",
+      "pistas": [
+        "Revisa cómo está hecha la negación.",
+        "En español decimos «no puede»; ¿se niega igual en inglés?",
+        "La negación de can es can't o cannot, en una sola palabra."
+      ],
+      "solucion": { "respuesta": "no can → can't", "explicacion": "En inglés la negación no va delante de can como en español: se une a él. My grandmother can't (o cannot) read without her glasses: Mi abuela no puede leer sin lentes." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa can.",
+      "es": "¿Qué sabes cocinar?",
+      "respuestas": ["What can you cook?"],
+      "pistas": [
+        "Es una pregunta wh con can.",
+        "Después de what va el auxiliar, no el sujeto.",
+        "Palabra interrogativa + can + sujeto + verbo base + ?, como en What can she play?"
+      ],
+      "solucion": { "respuesta": "What can you cook?", "explicacion": "En una pregunta wh el orden es palabra interrogativa (what) + can + sujeto (you) + verbo en forma base (cook). No se usa do." },
+      "errores_tipicos": {
+        "What you can cook?": "Falta la inversión: can va delante del sujeto (What can you cook?).",
+        "What do you can cook?": "Can no se combina con do.",
+        "What can you to cook?": "Después de can no va to."
+      }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Ana busca músicos para una fiesta y te pregunta por ti y por tu hermano, que sí toca.",
+      "lineas": [
+        { "quien": "Ana", "en": "Can you play the guitar?", "es": "¿Sabes tocar la guitarra?" }
+      ],
+      "opciones": [
+        { "texto": "No, I can't, but my brother can.", "correcta": true, "porque": "Correcto: respuesta corta con el mismo auxiliar de la pregunta (can't) y una segunda respuesta corta sin repetir el verbo (my brother can)." },
+        { "texto": "No, I don't, but my brother does.", "correcta": false, "porque": "La pregunta se hizo con can, no con do: la respuesta corta debe usar can / can't." },
+        { "texto": "No, I can't, but my brother cans.", "correcta": false, "porque": "Can nunca lleva -s, aunque el sujeto sea my brother." },
+        { "texto": "Yes, I can't.", "correcta": false, "porque": "Yes con can't es contradictorio: Yes va con can, No con can't." }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "Tú no sabes tocar; tu hermano, sí. Revisa también la forma de can con my brother.",
+        "Respuesta corta negativa para ti y afirmativa para otra persona: sujeto + modal, sin repetir el verbo y sin -s."
+      ],
+      "solucion": { "respuesta": "No, I can't, but my brother can.", "explicacion": "Se responde con el auxiliar de la pregunta: can't para ti y can para tu hermano, sin repetir play the guitar y sin -s en can." }
+    },
+    {
+      "id": "can.can-negacion-y-preguntas.12",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Escribe la pregunta cuya respuesta es «three languages».",
+      "origen": "Tom can speak three languages.",
+      "instruccion": "Pregunta wh con How many",
+      "respuestas": ["How many languages can Tom speak?"],
+      "pistas": [
+        "Empieza con How many y el sustantivo que cuentas.",
+        "Después viene el auxiliar y luego el sujeto.",
+        "How many + sustantivo + can + sujeto + verbo base + ?, como en How many songs can Ana sing?"
+      ],
+      "solucion": { "respuesta": "How many languages can Tom speak?", "explicacion": "How many languages sustituye a three languages y va al principio. Luego se invierte: can + Tom + speak (forma base)." },
+      "errores_tipicos": {
+        "How many languages Tom can speak?": "Falta la inversión: can va delante de Tom.",
+        "How many languages does Tom can speak?": "Can no se combina con does.",
+        "How many languages can Tom speaks?": "Después de can el verbo va en forma base: speak."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Buscando talentos",
+    "contexto": "Estás organizando un concurso de talentos en tu trabajo. Hablas con Aisha, una compañera, para saber qué puede hacer ella en el show.",
+    "dialogo": [
+      { "quien": "Tú", "en": "Hi, Aisha! Can you sing?", "es": "¡Hola, Aisha! ¿Sabes cantar?" },
+      { "quien": "Aisha", "en": "No, I can't. But I can play the piano.", "es": "No. Pero sé tocar el piano." },
+      { "quien": "Tú", "en": "…", "es": "…" },
+      { "quien": "Aisha", "en": "Yes, I can! And my friend Ben can dance.", "es": "¡Sí! Y mi amigo Ben sabe bailar." }
+    ],
+    "tu_turno": "Haz a Aisha otra pregunta con can (por ejemplo, si puede tocar el sábado o qué canciones sabe tocar) y después contesta tú cuando ella te pregunte Can you dance?",
+    "modelo": "Great! Can you play on Saturday? … Me? No, I can't dance at all, but I can help with the music.",
+    "alternativas": [
+      "Cool! What songs can you play? … No, I can't. I can sing a little, but I can't dance.",
+      "Perfect! Can you come to the practice on Friday? … Yes, I can, but not very well."
+    ],
+    "claves": [
+      "Pregunta: Can + sujeto + verbo? / Wh + can + sujeto + verbo?",
+      "Respuesta corta: Yes, I can. / No, I can't.",
+      "Pronuncia can débil en afirmaciones y can't siempre acentuado."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación: sujeto + can't / cannot + verbo base. Sin do ni does.",
+      "Cannot se escribe junto; can't es lo más común al hablar.",
+      "Pregunta: Can + sujeto + verbo base? Respuesta: Yes, I can. / No, I can't.",
+      "Wh + can + sujeto + verbo: What can you cook? (con who sujeto no hay inversión: Who can help?).",
+      "Al escuchar: can débil /kən/ + acento en el verbo = afirmación; can't acentuado con vocal plena = negación."
+    ],
+    "recuerda": [
+      "«I no can» y «Do you can» son calcos que hay que evitar.",
+      "Can fuerte /kæn/ en respuestas cortas: Yes, I can.",
+      "can't: /kænt/ en EE. UU., /kɑːnt/ en Reino Unido."
+    ]
+  },
+  "repaso": [
+    { "id": "can.can-negacion-y-preguntas.r1", "frente": "Niega: She can drive.", "reverso": "She can't drive. / She cannot drive.", "nota": "Nunca «She doesn't can drive»." },
+    { "id": "can.can-negacion-y-preguntas.r2", "frente": "¿Cómo se escribe la forma completa de can't?", "reverso": "cannot (en una sola palabra)." },
+    { "id": "can.can-negacion-y-preguntas.r3", "frente": "Contesta en negativo: Can your dog swim?", "reverso": "No, it can't.", "nota": "Se repite can, no do." },
+    { "id": "can.can-negacion-y-preguntas.r4", "frente": "Ordena: can / what / cook / you", "reverso": "What can you cook?" },
+    { "id": "can.can-negacion-y-preguntas.r5", "frente": "¿Cuál es la pista principal para distinguir can de can't al escuchar?", "reverso": "El acento: I can SWIM (can débil /kən/) frente a I CAN'T SWIM (can't acentuado, vocal plena).", "nota": "La t final de can't muchas veces no se oye." }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "titulo": "Evaluación: comunicación integrada",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "comunicacion-integrada.eval.01",
+      "leccion": "describir-experiencias",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "We walked for six hours. The hike was really ___.",
+      "opciones": [
+        {
+          "texto": "tiring",
+          "correcta": true,
+          "porque": "Correcta: el sujeto es la caminata (una cosa), y el adjetivo en -ing describe lo que provoca: cansancio."
+        },
+        {
+          "texto": "tired",
+          "correcta": false,
+          "porque": "Tired describe cómo se siente una persona (We were tired), no la caminata."
+        }
+      ],
+      "pistas": [
+        "Mira el sujeto de la oración con el hueco.",
+        "The hike es una actividad, no una persona.",
+        "Cosa que provoca un sentimiento → -ing; persona que lo siente → -ed."
+      ],
+      "solucion": {
+        "respuesta": "tiring",
+        "explicacion": "La caminata es la cosa que cansa, así que se usa el adjetivo en -ing: tiring. Para las personas sería We were tired."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.02",
+      "leccion": "describir-experiencias",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con los verbos entre paréntesis en el tiempo correcto.",
+      "frase": "Yesterday I ___ (take) my son to the doctor. He ___ (have) a fever, but now he ___ (feel) better.",
+      "respuestas": [
+        [
+          "took"
+        ],
+        [
+          "had"
+        ],
+        [
+          "feels",
+          "is feeling"
+        ]
+      ],
+      "traduccion": "Ayer llevé a mi hijo al médico. Tenía fiebre, pero ahora se siente mejor.",
+      "errores_tipicos": {
+        "taked | had | feels": "Take es irregular: su pasado es took.",
+        "took | has | feels": "La fiebre era ayer: pasado, had.",
+        "took | had | felt": "Now indica el presente: feels (o is feeling)."
+      },
+      "pistas": [
+        "Las dos primeras acciones ocurrieron yesterday; la tercera tiene la señal now.",
+        "Take y have son irregulares.",
+        "Take cambia su vocal a oo, como shake → shook; have cambia -ve por -d; now con he → presente simple con -s (o continuo)."
+      ],
+      "solucion": {
+        "respuesta": "took · had · feels",
+        "explicacion": "Yesterday pide pasado simple: took (take) y had (have), ambos irregulares. Now pide presente: he feels better, con -s por he. Con feel también es muy natural el continuo para un estado temporal: he's feeling better."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.03",
+      "leccion": "describir-experiencias",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "The hotel was great and the people were very friendlies.",
+      "error": "friendlies",
+      "correcciones": [
+        "friendly"
+      ],
+      "frase_correcta": "The hotel was great and the people were very friendly.",
+      "pistas": [
+        "Fíjate en el adjetivo del final.",
+        "¿Los adjetivos ingleses cambian con el plural?",
+        "Los adjetivos no llevan -s aunque el sustantivo sea plural."
+      ],
+      "solucion": {
+        "respuesta": "friendlies → friendly",
+        "explicacion": "En inglés los adjetivos no tienen plural: the people were very friendly. Es un calco del español, donde el adjetivo concuerda con el sustantivo."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.04",
+      "leccion": "describir-experiencias",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Empieza con I don't think.",
+      "es": "No creo que haya sido caro.",
+      "respuestas": [
+        "I don't think it was expensive.",
+        "I don't think that it was expensive."
+      ],
+      "errores_tipicos": {
+        "I don't think it wasn't expensive.": "Con I don't think, el segundo verbo va en afirmativa.",
+        "I don't think it is expensive.": "«Haya sido» se refiere al pasado: was.",
+        "I don't think was expensive.": "Falta el sujeto it en la segunda oración."
+      },
+      "pistas": [
+        "La negación va en think.",
+        "La segunda oración necesita sujeto y va en pasado.",
+        "I don't think + sujeto + pasado de be + adjetivo, como en I don't think she was angry."
+      ],
+      "solucion": {
+        "respuesta": "I don't think it was expensive.",
+        "explicacion": "En inglés se niega el verbo de opinión (I don't think) y la segunda oración queda en afirmativa. El subjuntivo «haya sido» se traduce con el pasado simple was, y el sujeto it es obligatorio."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.05",
+      "leccion": "describir-experiencias",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para preguntar cómo fue el concierto.",
+      "fichas": [
+        "like",
+        "concert",
+        "What",
+        "the",
+        "was",
+        "?"
+      ],
+      "respuestas": [
+        "What was the concert like?"
+      ],
+      "traduccion": "¿Qué tal estuvo el concierto?",
+      "pistas": [
+        "Es la expresión fija What was it like?, con otro sujeto.",
+        "Like va al final.",
+        "What + pasado de be + sujeto + like + ?, como en What was the hotel like?"
+      ],
+      "solucion": {
+        "respuesta": "What was the concert like?",
+        "explicacion": "What was X like? pide una descripción de una experiencia pasada. El sujeto the concert va entre was y like, igual que it en What was it like?"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.06",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el principio adecuado.",
+      "pregunta": "Escribes a un hotel que no conoces para preguntar si tienen habitaciones libres. ¿Cómo empiezas el correo?",
+      "opciones": [
+        {
+          "texto": "Dear Sir or Madam, I am writing to ask about your rooms.",
+          "correcta": true,
+          "porque": "Correcta: saludo formal para un destinatario desconocido y apertura formal con I am writing to."
+        },
+        {
+          "texto": "Hey! Got any rooms?",
+          "correcta": false,
+          "porque": "Es demasiado informal y omite el sujeto; no es adecuado para un hotel."
+        },
+        {
+          "texto": "Esteemed hotel: I write for ask about your rooms.",
+          "correcta": false,
+          "porque": "Tiene calcos del español (Esteemed, los dos puntos) y errores: I am writing to ask."
+        },
+        {
+          "texto": "Hi Mr. Hotel, I'm writing to ask about your rooms.",
+          "correcta": false,
+          "porque": "Mr. va con el apellido de una persona, no con el nombre de un lugar, y Hi es informal."
+        }
+      ],
+      "pistas": [
+        "Es un correo formal y no sabes el nombre de quien lo leerá.",
+        "Hay un saludo especial para destinatarios desconocidos.",
+        "Para un destinatario desconocido: Dear + las dos formas de trato formal («señor o señora») y, después, la frase de apertura típica de un correo formal."
+      ],
+      "solucion": {
+        "respuesta": "Dear Sir or Madam, I am writing to ask about your rooms.",
+        "explicacion": "Cuando no conoces el nombre del destinatario, el saludo formal es Dear Sir or Madam. La apertura I am writing to + verbo explica el motivo del correo."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.07",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "produccion",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa el correo formal.",
+      "frase": "Dear Ms. Park, I am writing ___ book a room for two nights. ___ you please send me the price? I look forward to ___ from you.",
+      "respuestas": [
+        [
+          "to"
+        ],
+        [
+          "Could",
+          "Can"
+        ],
+        [
+          "hearing"
+        ]
+      ],
+      "errores_tipicos": {
+        "for | Could | hearing": "El propósito se expresa con to + verbo, no con for.",
+        "to | Could | hear": "Look forward to va seguido de -ing: hearing.",
+        "to | Do | hearing": "Para pedir algo con cortesía se usa could (o can), no do."
+      },
+      "pistas": [
+        "Hay un propósito, una petición y un cierre fijo.",
+        "Propósito: «para reservar»; petición cortés con un modal; después de look forward to…",
+        "Propósito → partícula de infinitivo + verbo; petición cortés → pasado de can; tras look forward to → verbo con -ing."
+      ],
+      "solucion": {
+        "respuesta": "to · Could · hearing",
+        "explicacion": "I am writing to book: to + verbo expresa el propósito. Could you please send…? es la petición formal (Can también es correcta, pero could es más cortés). I look forward to hearing: en esta expresión to es preposición y va seguida de -ing."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.08",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en el cierre del correo. Señálalo y corrígelo.",
+      "frase": "I look forward to hear from you.",
+      "error": "hear",
+      "correcciones": [
+        "hearing"
+      ],
+      "frase_correcta": "I look forward to hearing from you.",
+      "pistas": [
+        "Es una expresión fija de cierre formal.",
+        "Mira el verbo que va después de to.",
+        "En look forward to, to es preposición: le sigue -ing."
+      ],
+      "solucion": {
+        "respuesta": "hear → hearing",
+        "explicacion": "En look forward to, to es una preposición (no parte de un infinitivo), así que va seguida de verbo con -ing: hearing."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.09",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada parte de un correo formal con su ejemplo.",
+      "pares": [
+        {
+          "a": "Saludo",
+          "b": "Dear Mr. Hill,"
+        },
+        {
+          "a": "Apertura",
+          "b": "I am writing to ask about the job."
+        },
+        {
+          "a": "Petición",
+          "b": "Could you send me more details?"
+        },
+        {
+          "a": "Cierre",
+          "b": "I look forward to hearing from you."
+        },
+        {
+          "a": "Despedida",
+          "b": "Kind regards,"
+        }
+      ],
+      "pistas": [
+        "Recuerda el orden de las cinco partes de un correo.",
+        "La apertura explica por qué escribes; el cierre es la última oración antes de despedirte.",
+        "Sigue el orden de un correo: primero el saludo, luego por qué escribes, qué pides, la frase final y la despedida."
+      ],
+      "solucion": {
+        "respuesta": "Saludo → Dear Mr. Hill, · Apertura → I am writing to… · Petición → Could you…? · Cierre → I look forward… · Despedida → Kind regards,",
+        "explicacion": "Un correo formal empieza con Dear + título + apellido, explica el motivo con I am writing to…, pide con could, cierra con I look forward to hearing from you y se despide con Kind regards o Best regards."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.10",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee el mensaje y contesta.",
+      "pregunta": "«Hi Diego, Thanks for the photos from your trip! The beach looks amazing. I'm working a lot this week, but I'm free on Sunday. Could we meet for lunch? Let me know. Love, Aisha» ¿Para qué escribe Aisha?",
+      "opciones": [
+        {
+          "texto": "Para agradecer las fotos y proponer comer juntos el domingo.",
+          "correcta": true,
+          "porque": "Correcta: agradece (Thanks for the photos) y sugiere una comida (Could we meet for lunch?) el día que está libre (Sunday)."
+        },
+        {
+          "texto": "Para decir que no puede verlo esta semana ni el domingo.",
+          "correcta": false,
+          "porque": "Dice que trabaja mucho esta semana, pero que el domingo está libre."
+        },
+        {
+          "texto": "Para enviarle fotos de su viaje a la playa.",
+          "correcta": false,
+          "porque": "Las fotos las envió Diego; Aisha le da las gracias por ellas."
+        }
+      ],
+      "pistas": [
+        "Busca la apertura y la petición del mensaje.",
+        "Thanks for… agradece algo; Could we…? sugiere algo.",
+        "Relaciona I'm free on Sunday con Could we meet for lunch? para ver qué propone."
+      ],
+      "solucion": {
+        "respuesta": "Para agradecer las fotos y proponer comer juntos el domingo.",
+        "explicacion": "El mensaje abre con un agradecimiento (Thanks for the photos) y su parte central es una sugerencia con could: Could we meet for lunch?, en el día que está libre. Let me know pide una respuesta."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.11",
+      "leccion": "escribir-mensajes-y-correos",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con What time que corresponde a la hora (at ten).",
+      "origen": "The meeting starts at ten.",
+      "instruccion": "Pregunta con What time",
+      "respuestas": [
+        "What time does the meeting start?",
+        "What time does it start?"
+      ],
+      "errores_tipicos": {
+        "What time does the meeting starts?": "La -s ya está en does: start en forma base.",
+        "What time the meeting starts?": "Falta el auxiliar does.",
+        "What time is the meeting start?": "Start es un verbo normal: se pregunta con does, no con is."
+      },
+      "pistas": [
+        "Starts es presente simple con sujeto singular.",
+        "Necesitas el auxiliar escondido.",
+        "What time + auxiliar de presente (tercera persona) + sujeto + forma base, como en What time does the bus leave?"
+      ],
+      "solucion": {
+        "respuesta": "What time does the meeting start?",
+        "explicacion": "Los horarios se expresan en presente simple. Starts no tiene auxiliar visible y su sujeto es singular: sale does, que se lleva la -s, y start queda en forma base."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.12",
+      "leccion": "mantener-una-conversacion",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la reacción adecuada.",
+      "contexto": "Un compañero llega a la oficina con cara de cansado.",
+      "lineas": [
+        {
+          "quien": "Tom",
+          "en": "I didn't sleep well last night.",
+          "es": "Anoche no dormí bien."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Didn't you? Why not?",
+          "correcta": true,
+          "porque": "Correcta: la pregunta eco conserva el auxiliar (did) y la negación de la oración, y va seguida de una pregunta de interés."
+        },
+        {
+          "texto": "Did you? Why not?",
+          "correcta": false,
+          "porque": "La oración es negativa (didn't): el eco también debe serlo."
+        },
+        {
+          "texto": "Me too.",
+          "correcta": false,
+          "porque": "Tras una frase negativa, la coincidencia es Me neither."
+        },
+        {
+          "texto": "Congratulations!",
+          "correcta": false,
+          "porque": "No es una buena noticia; felicitarlo no tiene sentido."
+        }
+      ],
+      "pistas": [
+        "Tom dice algo negativo en pasado.",
+        "La pregunta eco repite el auxiliar y la polaridad.",
+        "El eco copia el auxiliar negativo y cambia el pronombre (I → you), como en I can't. — Can't you?"
+      ],
+      "solucion": {
+        "respuesta": "Didn't you? Why not?",
+        "explicacion": "Tom usa didn't (pasado negativo), así que el eco es Didn't you? Why not? pide la razón y muestra interés."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.13",
+      "leccion": "mantener-una-conversacion",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta eco.",
+      "frase": "We've got a new puppy! — ___ you? How nice!",
+      "respuestas": [
+        [
+          "Have"
+        ]
+      ],
+      "errores_tipicos": {
+        "Do": "La oración usa have got (We've got): el auxiliar es have, no do.",
+        "Did": "No es pasado: we've got = we have got, presente.",
+        "Are": "We've = we have, no we are."
+      },
+      "pistas": [
+        "Descontrae We've.",
+        "We've got = We have got.",
+        "Con have got, el auxiliar es have; el eco es auxiliar + pronombre, como en She's got a car. — Has she?"
+      ],
+      "solucion": {
+        "respuesta": "Have",
+        "explicacion": "We've got es la contracción de we have got. En have got el auxiliar es have, así que el eco es Have you?"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.14",
+      "leccion": "mantener-una-conversacion",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Qué significa «cheap»?",
+      "respuestas": [
+        "What does cheap mean?",
+        "What does 'cheap' mean?"
+      ],
+      "errores_tipicos": {
+        "What means cheap?": "Pregunta de objeto en presente simple: necesita does y mean en forma base.",
+        "What does cheap means?": "Tras does, el verbo va en forma base: mean.",
+        "What is cheap mean?": "Mean es un verbo normal: se pregunta con does, no con is."
+      },
+      "pistas": [
+        "El verbo «significar» es mean.",
+        "La palabra es el sujeto (tercera persona) en presente simple.",
+        "What + auxiliar de presente (tercera persona) + palabra + forma base, como en What does «expensive» mean?"
+      ],
+      "solucion": {
+        "respuesta": "What does cheap mean?",
+        "explicacion": "Mean es un verbo normal en presente simple; la palabra cheap funciona como sujeto de tercera persona, así que el auxiliar es does y mean va en forma base. (Cheap = barato.)"
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.15",
+      "leccion": "mantener-una-conversacion",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "Really? What was it like? Did you enjoy it?",
+      "pistas": [
+        "Son tres preguntas cortas: una reacción y dos preguntas de seguimiento.",
+        "La segunda es la expresión fija para pedir una descripción; la tercera usa el auxiliar del pasado.",
+        "Primero una expresión de sorpresa; luego la pregunta fija What + pasado de be + it + like; al final, auxiliar del pasado + you + forma base + it."
+      ],
+      "solucion": {
+        "respuesta": "Really? What was it like? Did you enjoy it?",
+        "explicacion": "Really? es una reacción de interés. What was it like? pide una descripción de algo pasado. Did you enjoy it? usa did + forma base, y enjoy lleva objeto (it)."
+      }
+    },
+    {
+      "id": "comunicacion-integrada.eval.16",
+      "leccion": "mantener-una-conversacion",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la mejor respuesta.",
+      "pregunta": "En una llamada, la persona te dice su dirección muy rápido y no entiendes nada. ¿Qué dices?",
+      "opciones": [
+        {
+          "texto": "Sorry, could you speak more slowly, please?",
+          "correcta": true,
+          "porque": "Correcta: explica el problema (habla rápido) y pide con cortesía que hable más despacio."
+        },
+        {
+          "texto": "Speak slow!",
+          "correcta": false,
+          "porque": "Es una orden brusca; además, para describir cómo se habla se usa slowly."
+        },
+        {
+          "texto": "How? How?",
+          "correcta": false,
+          "porque": "Calco de «¿Cómo?»: en inglés no sirve para pedir que repitan."
+        },
+        {
+          "texto": "OK, thanks.",
+          "correcta": false,
+          "porque": "Fingir que entendiste no resuelve nada: te quedas sin la dirección."
+        }
+      ],
+      "pistas": [
+        "El problema es la velocidad.",
+        "Usa una petición cortés con could.",
+        "Petición cortés: Could + you + verbo + more + adverbio con -ly + please."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, could you speak more slowly, please?",
+        "explicacion": "Could you + forma base + please es la forma cortés de pedir. More slowly (con -ly) describe cómo debe hablar la otra persona."
+      }
+    }
+  ]
+}

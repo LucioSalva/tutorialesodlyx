@@ -1,0 +1,387 @@
+{
+  "titulo": "Evaluación: fechas y horas",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "fechas-y-horas.eval.01",
+      "leccion": "dias-meses-estaciones",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada mes con su traducción.",
+      "pares": [
+        { "a": "enero", "b": "January" },
+        { "a": "febrero", "b": "February" },
+        { "a": "abril", "b": "April" },
+        { "a": "junio", "b": "June" },
+        { "a": "julio", "b": "July" },
+        { "a": "agosto", "b": "August" }
+      ],
+      "pistas": [
+        "Los meses se parecen al español porque vienen del latín.",
+        "Los que más se confunden son junio y julio.",
+        "June tiene una sílaba; July tiene dos, con acento al final."
+      ],
+      "solucion": {
+        "respuesta": "enero = January · febrero = February · abril = April · junio = June · julio = July · agosto = August",
+        "explicacion": "June (junio) y July (julio) son los que más se confunden: June es una sola sílaba y July lleva el acento al final, ju-LY. Todos llevan mayúscula."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.02",
+      "leccion": "dias-meses-estaciones",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Revisa las mayúsculas.",
+      "pregunta": "En la oración «My favorite season is Winter and my favorite month is January.», ¿qué palabra debería ir en minúscula?",
+      "opciones": [
+        { "texto": "Winter", "correcta": true, "porque": "Correcto: las estaciones van en minúscula en inglés (winter), salvo al inicio de la oración." },
+        { "texto": "January", "correcta": false, "porque": "Los meses siempre llevan mayúscula en inglés." },
+        { "texto": "My", "correcta": false, "porque": "My abre la oración: la mayúscula es obligatoria." },
+        { "texto": "Ninguna: la oración está bien escrita.", "correcta": false, "porque": "Hay una estación con mayúscula en medio de la oración." }
+      ],
+      "pistas": [
+        "Meses y estaciones no siguen la misma regla.",
+        "Busca la estación.",
+        "Estaciones: minúscula; meses y días: mayúscula."
+      ],
+      "solucion": {
+        "respuesta": "Winter",
+        "explicacion": "Winter debe ir en minúscula: las estaciones son sustantivos comunes. January, en cambio, lleva mayúscula, como todos los meses."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.03",
+      "leccion": "dias-meses-estaciones",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "Thursday is my favorite day.",
+      "respuestas": ["Thursday is my favourite day."],
+      "audio": true,
+      "pistas": [
+        "La oración empieza con un día de la semana.",
+        "El día empieza con el sonido /θ/, la lengua entre los dientes.",
+        "Empieza con th (como three), lleva ur en medio y termina en -day, como todos los días."
+      ],
+      "solucion": {
+        "respuesta": "Thursday is my favorite day.",
+        "explicacion": "El primer sonido es /θ/ (lengua entre los dientes), así que es Thursday (jueves), no Tuesday (martes), que empieza con t."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.04",
+      "leccion": "dias-meses-estaciones",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 1,
+      "enunciado": "Traduce al inglés. Empieza con Tomorrow.",
+      "es": "Mañana es martes.",
+      "respuestas": [
+        "Tomorrow is Tuesday.",
+        "Tomorrow's Tuesday."
+      ],
+      "errores_tipicos": {
+        "Tomorrow is Thursday": "Thursday es jueves. Martes es Tuesday.",
+        "Tomorrow is the Tuesday": "Sin artículo: Tomorrow is Tuesday."
+      },
+      "pistas": [
+        "Tomorrow es el sujeto; necesitas be.",
+        "Cuidado con martes y jueves.",
+        "Martes empieza con t, como two."
+      ],
+      "solucion": {
+        "respuesta": "Tomorrow is Tuesday.",
+        "explicacion": "Tomorrow + is + el día sin artículo y con mayúscula. Martes es Tuesday; Thursday es jueves."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.05",
+      "leccion": "decir-fechas",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "Un formulario de EE. UU. pide: Date of birth (MM/DD/YYYY). Naciste el 9 de febrero de 1994. ¿Qué escribes?",
+      "opciones": [
+        { "texto": "02/09/1994", "correcta": true, "porque": "Correcto: MM/DD/YYYY = mes, día, año. Febrero (02), día 9 (09)." },
+        { "texto": "09/02/1994", "correcta": false, "porque": "Así lo escribirías en México (día/mes). En EE. UU. se leería como 2 de septiembre." },
+        { "texto": "1994/09/02", "correcta": false, "porque": "El formulario pide el año al final, y además el mes y el día están invertidos." }
+      ],
+      "pistas": [
+        "Lee el formato que pide el formulario.",
+        "MM = mes, DD = día, YYYY = año.",
+        "Primero el número del mes."
+      ],
+      "solucion": {
+        "respuesta": "02/09/1994",
+        "explicacion": "El formato MM/DD/YYYY pone primero el mes: febrero = 02, día 9 = 09. Si escribieras 09/02, en EE. UU. entenderían el 2 de septiembre."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.06",
+      "leccion": "decir-fechas",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la fecha al estilo estadounidense hablado.",
+      "origen": "It's the third of August.",
+      "instruccion": "Estilo estadounidense: mes + ordinal",
+      "respuestas": [
+        "It's August third.",
+        "It's August 3rd.",
+        "It's August the third."
+      ],
+      "errores_tipicos": {
+        "It's August three": "El día sigue siendo ordinal: third.",
+        "It's August of third": "En el estilo estadounidense no hay of: August third."
+      },
+      "pistas": [
+        "En EE. UU. el mes va primero.",
+        "Desaparecen the y of; el ordinal se queda.",
+        "mes + ordinal."
+      ],
+      "solucion": {
+        "respuesta": "It's August third.",
+        "explicacion": "En estilo estadounidense se dice el mes y luego el ordinal: August third. Desaparecen the y of, pero el día sigue siendo ordinal."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.07",
+      "leccion": "decir-fechas",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. El año puedes escribirlo con cifras.",
+      "texto": "The school is from nineteen seventy-six.",
+      "respuestas": ["The school is from 1976."],
+      "audio": true,
+      "pistas": [
+        "El año está dicho en dos pares.",
+        "El segundo par es una decena en -ty más una unidad.",
+        "Acento al principio y final corto = decena en -ty; luego viene la unidad."
+      ],
+      "solucion": {
+        "respuesta": "The school is from nineteen seventy-six.",
+        "explicacion": "Nineteen seventy-six = 19 | 76 = 1976. Seventy lleva el acento al principio y no termina en n, así que es 70 y no 17."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.08",
+      "leccion": "decir-fechas",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "Today is the fourteen of February.",
+      "error": "fourteen",
+      "correcciones": ["fourteenth"],
+      "frase_correcta": "Today is the fourteenth of February.",
+      "pistas": [
+        "Revisa el número de la fecha.",
+        "En una fecha dicha, ¿el día es cardinal u ordinal?",
+        "the + ordinal + of + mes."
+      ],
+      "solucion": {
+        "respuesta": "fourteenth",
+        "explicacion": "El error es fourteen: al decir una fecha, el día es ordinal. The fourteenth of February (o February fourteenth)."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.09",
+      "leccion": "la-hora",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra: son las 11:15.",
+      "frase": "It's a quarter ___ eleven.",
+      "traduccion": "Son las once y cuarto.",
+      "respuestas": [["past", "after"]],
+      "errores_tipicos": {
+        "to": "A quarter to eleven son las 10:45. Aquí han pasado 15 minutos de las once.",
+        "and": "Calco de «once y cuarto». En inglés: a quarter past eleven."
+      },
+      "pistas": [
+        "Han pasado 15 minutos de las once.",
+        "Minutos 1–30: la palabra que significa «pasadas».",
+        "Minutos 1–30: minutos + «pasadas» + hora actual, como en ten past four (en EE. UU. también ten after four)."
+      ],
+      "solucion": {
+        "respuesta": "past",
+        "explicacion": "La respuesta es past (o after en EE. UU.): a quarter past eleven = han pasado 15 minutos de las once, 11:15."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.10",
+      "leccion": "la-hora",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta la hora.",
+      "pregunta": "Una amiga de Manchester te dice: The film is at half seven. ¿A qué hora es la película?",
+      "opciones": [
+        { "texto": "A las 7:30.", "correcta": true, "porque": "Correcto: en el inglés británico informal, half seven = half past seven." },
+        { "texto": "A las 6:30.", "correcta": false, "porque": "Half seven no significa «media hora antes de las siete». Es half past seven, 7:30." },
+        { "texto": "A las 7:15.", "correcta": false, "porque": "7:15 sería a quarter past seven." }
+      ],
+      "pistas": [
+        "Es una forma británica informal.",
+        "Se omite una palabra de la forma completa.",
+        "half seven = half (past) seven."
+      ],
+      "solucion": {
+        "respuesta": "A las 7:30.",
+        "explicacion": "Half seven es la forma británica informal de half past seven: las siete y media."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.11",
+      "leccion": "la-hora",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. Puedes escribir la hora con palabras o con cifras (5:35).",
+      "texto": "It's twenty-five to six.",
+      "respuestas": ["It's 5:35."],
+      "audio": true,
+      "pistas": [
+        "Es la forma tradicional.",
+        "Escucha si dice past o to: con to, la hora que se dice es la siguiente.",
+        "Con to se restan los minutos a la hora que se dice, como en ten to three = 2:50."
+      ],
+      "solucion": {
+        "respuesta": "It's twenty-five to six.",
+        "explicacion": "Twenty-five to six = faltan 25 minutos para las seis, es decir, las 5:35. Con to, la hora que se nombra es la siguiente."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.12",
+      "leccion": "la-hora",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés con la forma tradicional (past).",
+      "es": "Son las ocho y cuarto.",
+      "respuestas": [
+        "It's a quarter past eight.",
+        "It's quarter past eight."
+      ],
+      "errores_tipicos": {
+        "It's eight and quarter": "Calco del español. En inglés: a quarter past eight.",
+        "It's eight and a quarter": "Calco del español. En inglés: a quarter past eight.",
+        "It's a quarter to eight": "Eso es 7:45. Las ocho y cuarto son a quarter past eight.",
+        "Are a quarter past eight": "La hora va con It's, no con are."
+      },
+      "pistas": [
+        "La hora siempre empieza con It's.",
+        "Primero los minutos, luego past, luego la hora.",
+        "It's + minutos + past + hora actual; «y cuarto» se dice con quarter (con o sin a), como en It's a quarter past two."
+      ],
+      "solucion": {
+        "respuesta": "It's a quarter past eight.",
+        "explicacion": "It's + a quarter (15 minutos) + past + la hora actual (eight). El orden es al revés que en español: primero los minutos."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.13",
+      "leccion": "in-on-at-tiempo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con in, on o at.",
+      "frase": "Her party is ___ Saturday night.",
+      "traduccion": "Su fiesta es el sábado en la noche.",
+      "respuestas": [["on"]],
+      "banco": ["in", "on", "at"],
+      "errores_tipicos": {
+        "at": "At night, sí; pero cuando aparece el día (Saturday night), manda on.",
+        "in": "Con días (y día + parte del día) se usa on."
+      },
+      "pistas": [
+        "Hay un día y una parte del día juntos.",
+        "¿Qué palabra manda: Saturday o night?",
+        "Cuando un día va unido a una parte del día, manda el día: usa la preposición de los días."
+      ],
+      "solucion": {
+        "respuesta": "on",
+        "explicacion": "La respuesta es on: cuando el día aparece junto a la parte del día (Saturday night, Monday morning), se usa on, aunque solo se diga at night."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.14",
+      "leccion": "in-on-at-tiempo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál de estas oraciones es correcta?",
+      "opciones": [
+        { "texto": "I'm free tomorrow.", "correcta": true, "porque": "Correcto: tomorrow no lleva preposición." },
+        { "texto": "I'm free on tomorrow.", "correcta": false, "porque": "Tomorrow ya indica cuándo; no lleva on." },
+        { "texto": "I'm free in tomorrow.", "correcta": false, "porque": "Tomorrow no lleva ninguna preposición." },
+        { "texto": "I'm free the tomorrow.", "correcta": false, "porque": "Tomorrow no lleva artículo." }
+      ],
+      "pistas": [
+        "Algunas palabras de tiempo nunca llevan preposición.",
+        "Tomorrow está en esa lista.",
+        "today, tomorrow, yesterday, tonight: sin preposición ni artículo."
+      ],
+      "solucion": {
+        "respuesta": "I'm free tomorrow.",
+        "explicacion": "Tomorrow, como today, yesterday y tonight, no lleva preposición ni artículo: I'm free tomorrow."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.15",
+      "leccion": "in-on-at-tiempo",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": ["The", "museum", "is", "closed", "in", "August"],
+      "respuestas": [
+        "The museum is closed in August.",
+        "In August the museum is closed."
+      ],
+      "traduccion": "El museo está cerrado en agosto.",
+      "pistas": [
+        "Sujeto + is + adjetivo + expresión de tiempo.",
+        "Un mes lleva in.",
+        "Sujeto + is closed + preposición + mes (o la expresión de tiempo al principio), como en The school is closed in July."
+      ],
+      "solucion": {
+        "respuesta": "The museum is closed in August.",
+        "explicacion": "The museum (sujeto) + is closed (be + adjetivo) + in August (in con meses). La expresión de tiempo también podría ir al principio."
+      }
+    },
+    {
+      "id": "fechas-y-horas.eval.16",
+      "leccion": "in-on-at-tiempo",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Tienes una invitación que dice: Concert — Saturday, May 10 — 8:00 p.m. Un amigo te pregunta cuándo es.",
+      "lineas": [
+        { "quien": "Sam", "en": "When is the concert?", "es": "¿Cuándo es el concierto?" }
+      ],
+      "opciones": [
+        { "texto": "It's on Saturday, May tenth, at eight p.m.", "correcta": true, "porque": "Correcto: on con el día y la fecha (con ordinal), at con la hora." },
+        { "texto": "It's in Saturday, May tenth, at eight p.m.", "correcta": false, "porque": "Con días y fechas se usa on." },
+        { "texto": "It's on Saturday, May ten, at eight p.m.", "correcta": false, "porque": "Al decir la fecha, el día es ordinal: May tenth, aunque se escriba May 10." },
+        { "texto": "It's on Saturday, May tenth, in eight p.m.", "correcta": false, "porque": "Con horas se usa at: at eight p.m." }
+      ],
+      "pistas": [
+        "Revisa la preposición del día, la forma de la fecha y la preposición de la hora.",
+        "La fecha escrita May 10 se lee con ordinal.",
+        "on + día/fecha (ordinal) · at + hora."
+      ],
+      "solucion": {
+        "respuesta": "It's on Saturday, May tenth, at eight p.m.",
+        "explicacion": "On para el día y la fecha, el día de la fecha en ordinal (tenth) y at para la hora. Las otras opciones fallan en una de esas tres cosas."
+      }
+    }
+  ]
+}

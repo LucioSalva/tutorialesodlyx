@@ -1,0 +1,1171 @@
+{
+  "slug": "have-presente-simple",
+  "titulo": "Have: tener",
+  "minutos": 35,
+  "objetivos": [
+    "Usar have con I, you, we, they y has con he, she, it para hablar de posesiones, familia, rasgos físicos y malestares.",
+    "Negar con don't have / doesn't have y preguntar con Do…have? / Does…have?, con el verbo siempre en forma base.",
+    "Contestar con respuestas cortas: Yes, I do. / No, she doesn't.",
+    "Evitar los calcos del español: la edad no se dice con have y no se niega con I haven't a car en el inglés cotidiano."
+  ],
+  "situacion": {
+    "titulo": "Buscando compañero de departamento",
+    "texto": "Mei busca a alguien para compartir departamento y habla por videollamada con Diego, un posible compañero. Los dos quieren saber qué tiene el otro: mascotas, carro, muebles… Fíjate en que ninguno dice «I have 28 years» y en cómo preguntan con do y does.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "Do you have any pets?",
+        "es": "¿Tienes mascotas?"
+      },
+      {
+        "quien": "Diego",
+        "en": "Yes, I do. I have a cat. She's very quiet.",
+        "es": "Sí. Tengo una gata. Es muy tranquila."
+      },
+      {
+        "quien": "Mei",
+        "en": "That's OK. Do you have a car?",
+        "es": "Está bien. ¿Tienes carro?"
+      },
+      {
+        "quien": "Diego",
+        "en": "No, I don't. I have a bike. And you? Does the apartment have a parking space?",
+        "es": "No. Tengo una bici. ¿Y tú? ¿El departamento tiene lugar de estacionamiento?"
+      },
+      {
+        "quien": "Mei",
+        "en": "No, it doesn't. But it has a big kitchen.",
+        "es": "No. Pero tiene una cocina grande."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "have-y-has",
+      "titulo": "Have y has: las dos formas de tener en afirmación",
+      "que_es": "[[Have]] es el verbo «tener». En presente simple tiene solo dos formas: [[have]] para I, you, we, they y [[has]] para he, she, it (y para cualquier sujeto que equivalga a uno de ellos: my sister, the apartment, Tom). Es la misma regla de la tercera persona que ya conoces (work → works), pero con una forma irregular: nunca se dice «haves».",
+      "para_que": [
+        "Decir lo que posees: I have a bike. The apartment has two bedrooms.",
+        "Hablar de tu familia: She has three brothers.",
+        "Describir rasgos físicos: He has green eyes. My mom has short hair.",
+        "Decir que tienes un malestar: I have a headache. Diego has a cold."
+      ],
+      "como_funciona": "La estructura es la de cualquier verbo en presente simple: {{sujeto:sujeto}} + {{verbo:have / has}} + {{complemento:lo que se tiene}}. Si el sujeto es he, she, it o un sustantivo en singular, el verbo es [[has]]; con todos los demás, [[have]]. Ojo con los sujetos plurales que en español parecen uno solo: [[my parents]] (= they) lleva [[have]]; [[my family]] es un sustantivo singular y lleva [[has]]. Y un aviso importante: en inglés **la edad no se tiene, se es**: «Tengo 28 años» es [[I'm 28]] o [[I'm 28 years old]], con be, nunca con have. Lo mismo pasa con el hambre, la sed, el frío, el calor y el miedo: [[I'm hungry]], [[I'm thirsty]], [[I'm cold]], [[I'm hot]], [[I'm scared]].",
+      "estructuras": [
+        {
+          "etiqueta": "I, you, we, they",
+          "formula": [
+            {
+              "t": "I / you / we / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lo que se tiene",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a small garden",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Tenemos un jardín pequeño."
+        },
+        {
+          "etiqueta": "He, she, it",
+          "formula": [
+            {
+              "t": "he / she / it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "lo que se tiene",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "two children",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi hermana tiene dos hijos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Have en presente simple (afirmación)",
+          "columnas": [
+            "Sujeto",
+            "Forma",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "I",
+              "have",
+              "I have a new phone."
+            ],
+            [
+              "you",
+              "have",
+              "You have a nice smile."
+            ],
+            [
+              "he / she / it",
+              "has",
+              "She has a big family."
+            ],
+            [
+              "we",
+              "have",
+              "We have a class at six."
+            ],
+            [
+              "they",
+              "have",
+              "They have two dogs."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I have a cat.",
+          "es": "Tengo una gata.",
+          "situacion": "Diego le cuenta a Mei qué mascota tiene.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a cat",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con I el verbo es have. El sujeto I es obligatorio: en español «tengo» ya dice quién, pero «Have a cat» no es una oración completa."
+        },
+        {
+          "en": "The apartment has a big kitchen.",
+          "es": "El departamento tiene una cocina grande.",
+          "partes": [
+            {
+              "t": "The apartment",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "a big kitchen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "The apartment equivale a it: tercera persona del singular, por eso has. Fíjate también en el orden big kitchen: el adjetivo va antes del sustantivo."
+        },
+        {
+          "en": "My parents have a small shop.",
+          "es": "Mis papás tienen una tiendita.",
+          "partes": [
+            {
+              "t": "My parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a small shop",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "My parents equivale a they (plural), así que have. Es un error frecuente poner has porque «mis papás» se siente como una unidad."
+        },
+        {
+          "en": "Carlos has brown eyes and short hair.",
+          "es": "Carlos tiene los ojos cafés y el pelo corto.",
+          "situacion": "Alguien describe a Carlos.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "brown eyes and short hair",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para los rasgos físicos el inglés no usa artículo: brown eyes, no the brown eyes. En español decimos «los ojos», en inglés no."
+        },
+        {
+          "en": "I have a headache.",
+          "es": "Me duele la cabeza.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a headache",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Los malestares se «tienen» con artículo a: a headache, a cold, a fever. La traducción natural en español a veces usa otro verbo («me duele»)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español: tener",
+          "items": [
+            "Tengo 30 años.",
+            "Tengo hambre.",
+            "Tengo frío."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: be, no have",
+          "items": [
+            "I'm 30 (years old).",
+            "I'm hungry.",
+            "I'm cold."
+          ]
+        },
+        "veredicto": "Have expresa posesión, familia, rasgos y malestares. La edad y las sensaciones (hambre, sed, frío, calor, miedo) se expresan con be + adjetivo o número. «I have 30 years» es uno de los calcos más reconocibles de los hispanohablantes."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Have o has?",
+        "centro": "tener",
+        "ramas": [
+          {
+            "texto": "have",
+            "detalle": "I, you, we, they, my parents, the kids"
+          },
+          {
+            "texto": "has",
+            "detalle": "he, she, it, my sister, Tom, the apartment"
+          },
+          {
+            "texto": "be (no have)",
+            "detalle": "la edad: I'm 30; hungry, thirsty, cold, hot"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "have",
+          "ipa": "/hæv/",
+          "consejo": "La h se pronuncia: es un soplo suave de aire, como cuando empañas un vidrio, mucho más débil que la j del español. La vocal /æ/ está entre la a y la e: abre la boca como para decir a, pero estira los labios como para e. La v final es con los dientes de arriba sobre el labio de abajo, no con los dos labios.",
+          "lento": true
+        },
+        {
+          "texto": "has",
+          "ipa": "/hæz/",
+          "consejo": "Misma vocal que en have. La s final suena como /z/: una s que zumba, con vibración en la garganta, como el sonido de una abeja. Pon la mano en el cuello: debes sentirla vibrar."
+        },
+        {
+          "texto": "She has a headache.",
+          "ipa": "/ʃi hæz ə ˈhɛdeɪk/",
+          "consejo": "Une has con a: suena casi «haza». En headache la ch se pronuncia /k/, y el acento va en la primera sílaba: HEAD-ache."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I have 25 years.",
+          "bien": "I'm 25. / I'm 25 years old.",
+          "porque": "La edad se expresa con be. Have no funciona aquí aunque en español digamos «tengo»."
+        },
+        {
+          "mal": "She have a car.",
+          "bien": "She has a car.",
+          "porque": "Con he, she, it el verbo cambia a has. Es la -s de la tercera persona, en su forma irregular."
+        },
+        {
+          "mal": "Has a big family.",
+          "bien": "He has a big family.",
+          "porque": "En inglés el sujeto es obligatorio; el verbo solo no dice quién."
+        },
+        {
+          "mal": "She has the eyes green.",
+          "bien": "She has green eyes.",
+          "porque": "El adjetivo va antes del sustantivo y los rasgos físicos no llevan the."
+        }
+      ]
+    },
+    {
+      "id": "have-negacion-preguntas",
+      "titulo": "Don't have, doesn't have, Do you have…?",
+      "que_es": "Have, en este uso, es un verbo normal de presente simple. Por eso se niega y se pregunta exactamente igual que work o live: con el auxiliar do / does. El auxiliar se lleva la marca de la tercera persona y have queda en su forma base, siempre have (nunca has después de does o doesn't).",
+      "para_que": [
+        "Decir lo que no tienes: I don't have a car.",
+        "Preguntar si alguien tiene algo: Do you have a pen? Does the hotel have Wi-Fi?",
+        "Responder rápido y con naturalidad: Yes, I do. / No, it doesn't."
+      ],
+      "como_funciona": "**Negación:** {{sujeto:sujeto}} + {{auxiliar:don't / doesn't}} + {{verbo:have}} + {{complemento:…}}. **Pregunta:** {{auxiliar:Do / Does}} + {{sujeto:sujeto}} + {{verbo:have}} + {{complemento:…}}? **Respuesta corta:** Yes / No + sujeto + do / does / don't / doesn't; no se repite have. Como la -s ya está en does, have no puede llevarla: [[She doesn't have]], [[Does she have…?]]. Una nota sobre una forma que quizá veas: [[I haven't a car]] o [[Have you a pen?]] (have sin do y sin got) existen, pero hoy suenan anticuadas o muy formales y son casi exclusivamente británicas. No son un error absoluto, pero en el inglés cotidiano de hoy, y especialmente en Estados Unidos, se dice [[I don't have a car]] o, en la siguiente lección, [[I haven't got a car]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Diego",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a car",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Diego no tiene carro."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Do / Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a pool?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿El hotel tiene alberca?"
+        },
+        {
+          "etiqueta": "Respuestas cortas",
+          "formula": [
+            {
+              "t": "Yes / No,",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "do / does / don't / doesn't",
+              "rol": "auxiliar"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "auxiliar"
+            }
+          ],
+          "es": "No, no tiene."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación, negación y pregunta",
+          "columnas": [
+            "",
+            "I / you / we / they",
+            "he / she / it"
+          ],
+          "filas": [
+            [
+              "Afirmación",
+              "I have a bike.",
+              "She has a bike."
+            ],
+            [
+              "Negación",
+              "I don't have a bike.",
+              "She doesn't have a bike."
+            ],
+            [
+              "Pregunta",
+              "Do you have a bike?",
+              "Does she have a bike?"
+            ],
+            [
+              "Respuesta corta",
+              "Yes, I do. / No, I don't.",
+              "Yes, she does. / No, she doesn't."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I don't have a car.",
+          "es": "No tengo carro.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La negación la lleva el auxiliar (don't), no have. En inglés decimos «a car» aunque en español digamos «carro» sin artículo."
+        },
+        {
+          "en": "My brother doesn't have a job right now.",
+          "es": "Mi hermano no tiene trabajo por ahora.",
+          "partes": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a job",
+              "rol": "complemento"
+            },
+            {
+              "t": "right now",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Doesn't ya lleva la marca de tercera persona (does = do + -es). Por eso have se queda sin -s: doesn't have, nunca doesn't has."
+        },
+        {
+          "en": "Do you have a pen?",
+          "es": "¿Tienes una pluma?",
+          "situacion": "En clase, pides algo prestado.",
+          "partes": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a pen?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El orden es auxiliar + sujeto + verbo. En español basta con la entonación («¿Tienes…?»); en inglés hace falta Do."
+        },
+        {
+          "en": "Does Priya have any brothers or sisters?",
+          "es": "¿Priya tiene hermanos?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "any brothers or sisters?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Does con Priya (= she). Any es la palabra que se usa en preguntas y negaciones con plurales; la verás a fondo en la unidad de contables e incontables."
+        },
+        {
+          "en": "Yes, she does.",
+          "es": "Sí, sí tiene.",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            }
+          ],
+          "nota": "La respuesta corta repite el auxiliar de la pregunta (does), no el verbo: «Yes, she has» no corresponde a una pregunta con does."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación y pregunta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "has",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "doesn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "have",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "have",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog?",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "La -s de has «salta» al auxiliar: has → does + have. En cuanto aparece does o doesn't, have vuelve a su forma base."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Do you have…?",
+          "ipa": "/də jə ˈhæv/",
+          "consejo": "En el habla normal do y you se reducen y casi se funden: suena «d'ya HAV». El golpe de voz cae en have, que es la palabra con significado.",
+          "lento": true
+        },
+        {
+          "texto": "doesn't have",
+          "ipa": "/ˈdʌzənt hæv/",
+          "consejo": "Doesn't tiene dos sílabas: DUZ-nt. La vocal /ʌ/ es una a corta y relajada, con la boca a medio abrir. La t final casi no se oye antes de have."
+        },
+        {
+          "texto": "Yes, I do.",
+          "ipa": "/jɛs aɪ ˈduː/",
+          "consejo": "En la respuesta corta do es fuerte y larga, con los labios redondeados como para u: aquí no se reduce porque cierra la frase."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She doesn't has a car.",
+          "bien": "She doesn't have a car.",
+          "porque": "Después de does o doesn't el verbo va en forma base. La -s ya está en el auxiliar."
+        },
+        {
+          "mal": "Does he has a sister?",
+          "bien": "Does he have a sister?",
+          "porque": "Mismo motivo: does lleva la tercera persona; have no puede repetirla."
+        },
+        {
+          "mal": "You have a pen?",
+          "bien": "Do you have a pen?",
+          "porque": "La entonación de pregunta no basta en inglés escrito ni en el habla cuidada: hace falta el auxiliar do antes del sujeto."
+        },
+        {
+          "mal": "Do you have a bike? — Yes, I have.",
+          "bien": "Yes, I do.",
+          "porque": "La respuesta corta repite el auxiliar de la pregunta. Si la pregunta usa do, la respuesta usa do."
+        },
+        {
+          "mal": "I haven't a car.",
+          "bien": "I don't have a car.",
+          "porque": "No es un error absoluto: es una forma británica anticuada o muy formal. En el inglés cotidiano se usa don't have (o haven't got, que verás en la próxima lección)."
+        }
+      ],
+      "nota": {
+        "titulo": "Any en preguntas y negaciones",
+        "texto": "En preguntas y negaciones con plurales verás a menudo any: Do you have any pets? I don't have any brothers. Ya lo usaste con there are (Are there any…?). En español no se traduce. Lo estudiarás a fondo en la unidad 20.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "have-y-have-got.have-presente-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "My grandmother ___ a small house near the beach.",
+      "opciones": [
+        {
+          "texto": "has",
+          "correcta": true,
+          "porque": "My grandmother equivale a she, tercera persona del singular: el verbo es has."
+        },
+        {
+          "texto": "have",
+          "correcta": false,
+          "porque": "Have es para I, you, we y they. Una abuela es she."
+        },
+        {
+          "texto": "haves",
+          "correcta": false,
+          "porque": "Esa forma no existe: la tercera persona de have es irregular, has."
+        }
+      ],
+      "pistas": [
+        "Have tiene solo dos formas en presente: have y has.",
+        "Mira el sujeto: my grandmother. ¿Con qué pronombre lo sustituyes?",
+        "Con he, she, it (o un sustantivo singular que equivalga a ellos) se usa la forma irregular de tercera persona."
+      ],
+      "solucion": {
+        "respuesta": "has",
+        "explicacion": "La respuesta correcta es has porque el sujeto, my grandmother, equivale a she, tercera persona del singular. Have no añade -s: su forma de tercera persona es irregular, has."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa cada hueco con have o has.",
+      "frase": "Omar and Aisha ___ three kids. Their daughter ___ curly hair.",
+      "traduccion": "Omar y Aisha tienen tres hijos. Su hija tiene el pelo rizado.",
+      "respuestas": [
+        [
+          "have"
+        ],
+        [
+          "has"
+        ]
+      ],
+      "banco": [
+        "have",
+        "has"
+      ],
+      "errores_tipicos": {
+        "has | has": "El primer sujeto es Omar and Aisha: dos personas, es decir they. Con they el verbo es have.",
+        "have | have": "Their daughter es una sola persona (she): necesita has."
+      },
+      "pistas": [
+        "Recuerda: have con I, you, we, they; has con he, she, it.",
+        "El primer sujeto son dos personas; el segundo, una sola.",
+        "Dos o más personas = they → forma base; una sola persona = he/she → forma irregular de tercera persona."
+      ],
+      "solucion": {
+        "respuesta": "have … has",
+        "explicacion": "Omar and Aisha son dos personas (they), por eso have. Their daughter es una persona (she), por eso has. Fíjate además en que curly hair no lleva artículo: los rasgos físicos van sin the."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada pregunta con su respuesta corta correcta.",
+      "pares": [
+        {
+          "a": "Do you have a pen?",
+          "b": "Yes, I do."
+        },
+        {
+          "a": "Does Tom have a car?",
+          "b": "No, he doesn't."
+        },
+        {
+          "a": "Do your parents have a dog?",
+          "b": "Yes, they do."
+        },
+        {
+          "a": "Does the hotel have a gym?",
+          "b": "No, it doesn't."
+        },
+        {
+          "a": "Does Grace have long hair?",
+          "b": "Yes, she does."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta, no have.",
+        "Fíjate en el sujeto de cada pregunta y en qué pronombre lo sustituye en la respuesta.",
+        "Do you → I do; Does + hombre → he does(n't); Does + mujer → she does(n't); Does + cosa → it does(n't); Do + plural → they do."
+      ],
+      "solucion": {
+        "respuesta": "you → Yes, I do · Tom → No, he doesn't · your parents → Yes, they do · the hotel → No, it doesn't · Grace → Yes, she does",
+        "explicacion": "En cada respuesta el sujeto pasa a pronombre (Tom → he, the hotel → it, your parents → they) y se repite el auxiliar de la pregunta: do o does. Have no aparece en la respuesta corta."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con don't o doesn't y la forma correcta de have.",
+      "frase": "Sam ___ ___ a TV in his room, but his roommates ___ ___ a TV in the living room.",
+      "traduccion": "Sam no tiene tele en su cuarto, pero sus compañeros de cuarto tienen una tele en la sala.",
+      "respuestas": [
+        [
+          "doesn't",
+          "does not"
+        ],
+        [
+          "have"
+        ],
+        [
+          "don't",
+          "do not"
+        ],
+        [
+          "have"
+        ]
+      ],
+      "errores_tipicos": {
+        "doesn't | has | don't | have": "Después de doesn't el verbo va en forma base: doesn't have. La -s ya la lleva el auxiliar.",
+        "don't | have | don't | have": "Sam es una persona (he): la negación es doesn't, no don't."
+      },
+      "pistas": [
+        "La negación de have en presente simple se hace con do / does + not.",
+        "Hay dos sujetos: Sam (una persona) y his roommates (varias). Y ojo: la segunda parte también es negativa.",
+        "Con he/she/it el auxiliar negativo es el de does; con they, el de do. Después del auxiliar, have nunca cambia."
+      ],
+      "solucion": {
+        "respuesta": "doesn't have … don't have",
+        "explicacion": "Sam equivale a he, así que la negación es doesn't + have (forma base). His roommates equivale a they: don't + have. En ninguno de los dos casos have cambia, porque el auxiliar ya marca la persona."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa. Usa do / does.",
+      "origen": "Lucía has a laptop.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Lucía doesn't have a laptop.",
+        "Lucia doesn't have a laptop."
+      ],
+      "errores_tipicos": {
+        "Lucía doesn't has a laptop.": "Con doesn't el verbo vuelve a la forma base: have, no has.",
+        "Lucía don't have a laptop.": "Lucía es she: la negación es doesn't."
+      },
+      "pistas": [
+        "Have se niega como cualquier verbo del presente simple: con un auxiliar.",
+        "El sujeto es Lucía (she). ¿Qué auxiliar negativo le corresponde?",
+        "She → doesn't + forma base del verbo. La -s de has desaparece."
+      ],
+      "solucion": {
+        "respuesta": "Lucía doesn't have a laptop.",
+        "explicacion": "La respuesta es Lucía doesn't have a laptop. Lucía es tercera persona del singular, así que el auxiliar es doesn't; como la marca de persona pasa al auxiliar, has se convierte en have."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no. Usa do / does.",
+      "origen": "Your neighbors have a garden.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Do your neighbors have a garden?",
+        "Do your neighbours have a garden?"
+      ],
+      "errores_tipicos": {
+        "Have your neighbors a garden?": "Esa forma es británica anticuada. En el inglés actual se pregunta con do: Do your neighbors have…?",
+        "Does your neighbors have a garden?": "Your neighbors es plural (they): el auxiliar es do, no does.",
+        "Your neighbors have a garden?": "Falta el auxiliar do al principio: sin él la oración sigue siendo una afirmación."
+      },
+      "pistas": [
+        "Las preguntas de presente simple empiezan con un auxiliar.",
+        "Your neighbors es plural: ¿equivale a he o a they?",
+        "Do / Does + sujeto + have + complemento? Con they, el auxiliar es Do."
+      ],
+      "solucion": {
+        "respuesta": "Do your neighbors have a garden?",
+        "explicacion": "La respuesta es Do your neighbors have a garden? Your neighbors equivale a they, así que el auxiliar es Do, que va antes del sujeto. Have se mantiene en forma base."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": [
+        "have",
+        "Does",
+        "a",
+        "your",
+        "brother",
+        "girlfriend"
+      ],
+      "respuestas": [
+        "Does your brother have a girlfriend"
+      ],
+      "traduccion": "¿Tu hermano tiene novia?",
+      "pistas": [
+        "Una pregunta de presente simple empieza por el auxiliar.",
+        "Después del auxiliar va el sujeto completo (dos palabras) y luego el verbo.",
+        "Auxiliar + sujeto + have + complemento, como en Does Tom have a bike?"
+      ],
+      "solucion": {
+        "respuesta": "Does your brother have a girlfriend?",
+        "explicacion": "La pregunta empieza con Does porque your brother es tercera persona del singular. Después va el sujeto (your brother), el verbo en forma base (have) y el complemento (a girlfriend)."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración tiene un error. Señálalo y corrígelo.",
+      "frase": "My cousin Ben has 19 years and he doesn't have a job.",
+      "error": "has 19 years",
+      "correcciones": [
+        "is 19",
+        "is 19 years old"
+      ],
+      "frase_correcta": "My cousin Ben is 19 and he doesn't have a job.",
+      "pistas": [
+        "Una de las dos ideas no se expresa con have en inglés.",
+        "Mira la parte que habla de la edad de Ben.",
+        "La edad se expresa con be: sujeto + am / is / are + número (years old es opcional)."
+      ],
+      "solucion": {
+        "respuesta": "is 19",
+        "explicacion": "El error es has 19 years: en inglés la edad no se tiene, se es. Lo correcto es My cousin Ben is 19 (o is 19 years old; years sin old no se usa así). La segunda parte, he doesn't have a job, está bien: ahí sí hablamos de algo que se tiene o no se tiene."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa have (sin got).",
+      "es": "Mi mamá no tiene celular.",
+      "respuestas": [
+        "My mom doesn't have a cell phone.",
+        "My mom doesn't have a phone.",
+        "My mom doesn't have a mobile phone.",
+        "My mother doesn't have a cell phone.",
+        "My mother doesn't have a phone.",
+        "My mother doesn't have a mobile phone.",
+        "My mom doesn't have a cellphone.",
+        "My mother doesn't have a cellphone.",
+        "My mum doesn't have a mobile phone.",
+        "My mum doesn't have a phone.",
+        "My mum doesn't have a mobile."
+      ],
+      "errores_tipicos": {
+        "My mom doesn't have cell phone.": "Falta el artículo a: en inglés se dice a cell phone aunque en español digamos «celular» sin artículo.",
+        "My mom doesn't has a cell phone.": "Después de doesn't va la forma base: have.",
+        "My mom don't have a cell phone.": "My mom es she: la negación es doesn't."
+      },
+      "pistas": [
+        "Negación de have en presente simple: auxiliar + not + have.",
+        "El sujeto es my mom (she). Y en inglés un objeto contable en singular necesita artículo.",
+        "She → doesn't have + a + objeto."
+      ],
+      "solucion": {
+        "respuesta": "My mom doesn't have a cell phone.",
+        "explicacion": "My mom es tercera persona del singular, por eso doesn't + have. Además, cell phone es contable y singular, así que necesita a, aunque en español omitamos el artículo. En inglés británico se diría My mum doesn't have a mobile (phone)."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más natural y correcta.",
+      "contexto": "Estás en la recepción de un hotel pequeño.",
+      "lineas": [
+        {
+          "quien": "Tú",
+          "en": "Excuse me, does the hotel have a restaurant?",
+          "es": "Disculpe, ¿el hotel tiene restaurante?"
+        },
+        {
+          "quien": "Recepcionista",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, it doesn't. But there's a good café next door.",
+          "correcta": true,
+          "porque": "La pregunta usa does y el sujeto the hotel equivale a it: No, it doesn't. Luego ofrece una alternativa con there's."
+        },
+        {
+          "texto": "No, it hasn't. But there's a good café next door.",
+          "correcta": false,
+          "porque": "It hasn't respondería a una pregunta con have got (Has the hotel got…?). La pregunta usa does, así que la respuesta usa doesn't."
+        },
+        {
+          "texto": "No, he doesn't. But there's a good café next door.",
+          "correcta": false,
+          "porque": "El hotel es una cosa: el pronombre es it, no he."
+        },
+        {
+          "texto": "No, it don't. But there's a good café next door.",
+          "correcta": false,
+          "porque": "Con it el auxiliar es doesn't. It don't es incorrecto."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "Mira qué auxiliar usa la pregunta y qué pronombre sustituye a the hotel.",
+        "Does + cosa → Yes, it does / No, it doesn't."
+      ],
+      "solucion": {
+        "respuesta": "No, it doesn't. But there's a good café next door.",
+        "explicacion": "La pregunta es Does the hotel have…?, así que la respuesta corta repite does en negativo: doesn't. The hotel se sustituye por it."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta y la respuesta.",
+      "texto": "Does your sister have a cold? Yes, she does.",
+      "pistas": [
+        "Es una pregunta de presente simple con have, seguida de una respuesta corta.",
+        "Empieza con el auxiliar de tercera persona; el malestar es una palabra corta con artículo a.",
+        "Auxiliar de tercera persona + sujeto + have + a + malestar? Respuesta corta: Yes + pronombre + el mismo auxiliar."
+      ],
+      "solucion": {
+        "respuesta": "Does your sister have a cold? Yes, she does.",
+        "explicacion": "Does va con your sister (she). Have va en forma base porque ya hay does. A cold es «un resfriado»: los malestares llevan a. La respuesta corta repite does."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Fíjate en la /æ/ y en la /z/ final de has.",
+      "texto": "She has a cat, but she doesn't have a dog.",
+      "ipa": "/ʃi hæz ə kæt bət ʃi ˈdʌzənt hæv ə dɔɡ/",
+      "consejo": "Tres veces aparece la /æ/ (has, cat, have): boca abierta como para a y labios estirados como para e. Has termina en /z/, que vibra; have termina en /v/, con los dientes sobre el labio inferior. Doesn't lleva el acento: es la palabra que cambia el sentido.",
+      "es": "Ella tiene un gato, pero no tiene perro."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué tienes y qué no tienes?",
+    "contexto": "Estás llenando una solicitud para rentar un cuarto. La dueña, Grace, te hace preguntas por teléfono.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Do you have any pets?",
+        "es": "¿Tienes mascotas?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Grace",
+        "en": "And do you have a car? The house doesn't have a garage.",
+        "es": "¿Y tienes carro? La casa no tiene cochera."
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Responde las dos preguntas con respuestas cortas y añade una oración con have o don't have. Después hazle a Grace una pregunta con Does the house have…?",
+    "modelo": "No, I don't. I don't have any pets. — Yes, I do. I have a small car. Does the house have a washing machine?",
+    "alternativas": [
+      "Yes, I do. I have a dog. He's very friendly.",
+      "No, I don't. I have a bike. Does the room have a desk?"
+    ],
+    "claves": [
+      "Respuesta corta con do / don't, sin repetir have.",
+      "Pregunta sobre la casa con Does (la casa = it).",
+      "Si hablas de tu edad, usa I'm, no I have."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "I / you / we / they have; he / she / it has.",
+      "Negación: don't have / doesn't have. Pregunta: Do…have? / Does…have?",
+      "Después de does o doesn't, siempre have (forma base).",
+      "Respuestas cortas: Yes, I do. / No, she doesn't."
+    ],
+    "recuerda": [
+      "La edad y el hambre, la sed, el frío o el calor van con be: I'm 25, I'm hungry.",
+      "I haven't a car y Have you a pen? son formas británicas anticuadas o formales: en el día a día usa don't have.",
+      "Los rasgos físicos no llevan the: She has green eyes."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "have-y-have-got.have-presente-simple.r1",
+      "frente": "¿Have o has con my parents?",
+      "reverso": "have → My parents have a shop.",
+      "nota": "My parents = they."
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.r2",
+      "frente": "Niega: She has a car.",
+      "reverso": "She doesn't have a car.",
+      "nota": "La -s pasa a doesn't; have queda en forma base."
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.r3",
+      "frente": "Pregunta: Tom has a sister.",
+      "reverso": "Does Tom have a sister?",
+      "nota": "Does + sujeto + have."
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.r4",
+      "frente": "Do you have a pen? → respuesta corta afirmativa",
+      "reverso": "Yes, I do.",
+      "nota": "Se repite el auxiliar, no have."
+    },
+    {
+      "id": "have-y-have-got.have-presente-simple.r5",
+      "frente": "¿Cómo se dice «Tengo 30 años»?",
+      "reverso": "I'm 30. / I'm 30 years old.",
+      "nota": "La edad va con be, nunca con have."
+    }
+  ]
+}

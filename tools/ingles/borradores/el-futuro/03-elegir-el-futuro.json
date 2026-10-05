@@ -1,0 +1,1136 @@
+{
+  "slug": "elegir-el-futuro",
+  "titulo": "¿Going to, will o presente continuo?",
+  "minutos": 45,
+  "objetivos": [
+    "Distinguir un plan decidido antes (going to) de una decisión tomada en el momento (will).",
+    "Usar el presente continuo para citas y planes acordados con otras personas, con fecha u hora (I'm seeing the dentist on Friday).",
+    "Elegir entre will (opinión) y going to (evidencia presente) para predecir.",
+    "Entender que will no es un error en muchos casos, sino un matiz distinto."
+  ],
+  "situacion": {
+    "titulo": "Una semana complicada",
+    "texto": "Ben y su pareja Grace organizan la semana. Fíjate en los tres futuros: el presente continuo para lo que ya está agendado con otras personas, going to para lo que Ben ya había decidido y will para lo que deciden en el momento.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Are you free on Thursday evening?",
+        "es": "¿Estás libre el jueves en la tarde?"
+      },
+      {
+        "quien": "Ben",
+        "en": "No, I'm seeing the doctor at six. It's my check-up.",
+        "es": "No, tengo cita con el doctor a las seis. Es mi chequeo."
+      },
+      {
+        "quien": "Grace",
+        "en": "Oh, right. And what about the weekend?",
+        "es": "Ah, cierto. ¿Y el fin de semana?"
+      },
+      {
+        "quien": "Ben",
+        "en": "I'm going to clean the garage. I decided last week!",
+        "es": "Voy a limpiar la cochera. ¡Lo decidí la semana pasada!"
+      },
+      {
+        "quien": "Grace",
+        "en": "Good luck. Hey, we don't have any coffee.",
+        "es": "Buena suerte. Oye, no tenemos café."
+      },
+      {
+        "quien": "Ben",
+        "en": "Really? I'll buy some on my way home.",
+        "es": "¿En serio? Compro un poco de camino a casa."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "plan-o-decision",
+      "titulo": "¿Lo decidiste antes o ahora? Going to o will",
+      "que_es": "La diferencia más importante entre [[going to]] y [[will]] no es la distancia en el tiempo (las dos sirven para mañana o para dentro de diez años), sino **cuándo tomaste la decisión**. Si ya lo habías decidido antes de hablar → going to. Si decides mientras hablas → will.",
+      "para_que": [
+        "Contar planes que ya tenías: I'm going to paint the kitchen this weekend.",
+        "Reaccionar a algo nuevo: We don't have any milk? — I'll buy some.",
+        "Entender el matiz de lo que dicen otros."
+      ],
+      "como_funciona": "**Misma acción, dos situaciones:**\n- Grace: [[We don't have any milk.]] Ben (no lo sabía): [[Oh, I'll buy some.]] → decisión en el momento.\n- Grace: [[We don't have any milk.]] Ben (ya lo sabía): [[I know. I'm going to buy some after work.]] → decisión anterior.\n\n**Pistas para elegir:**\n- **going to:** «ya lo decidí», «tengo la intención», preguntas como [[What are you going to do…?]], explicaciones del tipo [[I bought paint because I'm going to…]].\n- **will:** reacciones ([[Oh!]], [[Really?]], [[OK, then…]]), ofrecimientos ([[I'll help]]), promesas ([[I'll call you]]), pedidos en el restaurante ([[I'll have…]]).\n\n**Las dos son correctas gramaticalmente** casi siempre. Si dices [[I'll paint the kitchen this weekend]] nadie pensará que es un error: sonará a que lo acabas de decidir o a una promesa. El objetivo es elegir la que expresa exactamente lo que quieres decir.",
+      "estructuras": [
+        {
+          "etiqueta": "Decisión anterior",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "buy",
+              "rol": "verbo"
+            },
+            {
+              "t": "milk after work.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Voy a comprar leche después del trabajo (ya lo tenía pensado)."
+        },
+        {
+          "etiqueta": "Decisión ahora",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will / 'll",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "buy",
+              "rol": "verbo"
+            },
+            {
+              "t": "some milk.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Compro leche (lo decido ahora)."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Why are you wearing old clothes? — I'm going to paint the fence.",
+          "es": "¿Por qué traes ropa vieja? — Voy a pintar la cerca.",
+          "nota": "La ropa vieja demuestra que la decisión era anterior: going to."
+        },
+        {
+          "en": "This box is really heavy. — Wait, I'll help you.",
+          "es": "Esta caja pesa muchísimo. — Espera, te ayudo.",
+          "nota": "Reacción y ofrecimiento en el momento: will."
+        },
+        {
+          "en": "We're going to get married next year.",
+          "es": "Nos vamos a casar el año que viene.",
+          "partes": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "get married",
+              "rol": "verbo"
+            },
+            {
+              "t": "next year",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Una decisión tomada hace tiempo, que ahora anuncias: going to."
+        },
+        {
+          "en": "Which one do you want? — Hmm… I'll take the blue one.",
+          "es": "¿Cuál quieres? — Mmm… Me llevo la azul.",
+          "nota": "Hmm… muestra que estás decidiendo ahora: will."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "going to",
+          "items": [
+            "La decisión es anterior a la conversación.",
+            "Intenciones, planes, propósitos.",
+            "I'm going to buy milk after work (ya lo sabía)."
+          ]
+        },
+        "b": {
+          "titulo": "will",
+          "items": [
+            "La decisión nace al hablar.",
+            "Reacciones, ofrecimientos, promesas.",
+            "Oh! I'll buy some milk (me acabo de enterar)."
+          ]
+        },
+        "veredicto": "No importa si el futuro es cercano o lejano: importa cuándo decidiste. Pregúntate: ¿ya lo tenía pensado antes de que me preguntaran?"
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'll take the blue one.",
+          "ipa": "/aɪl ˈteɪk ðə ˈblu wʌn/",
+          "consejo": "I'll con l oscura, casi pegada a take. El acento fuerte cae en BLUE, porque es la información nueva (el color que eliges)."
+        },
+        {
+          "texto": "I'm going to buy some.",
+          "ipa": "/aɪm ˈɡoʊɪŋ tə ˈbaɪ səm/",
+          "consejo": "Some sin acento se reduce a /səm/. En habla rápida oirás «aim GA-nə BAI səm»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The phone is ringing. — I'm going to answer it.",
+          "bien": "The phone is ringing. — I'll answer it. / I'll get it.",
+          "porque": "No es un error gramatical, pero no es natural: reaccionas a algo que acaba de pasar, así que la decisión es del momento → will."
+        },
+        {
+          "mal": "I'll going to buy some milk.",
+          "bien": "I'll buy some milk. / I'm going to buy some milk.",
+          "porque": "No mezcles las dos estructuras: o will + verbo base, o be going to + verbo base."
+        },
+        {
+          "mal": "I will to buy some bread.",
+          "bien": "I'll buy some bread.",
+          "porque": "Con will nunca va to; to solo aparece en going to."
+        }
+      ]
+    },
+    {
+      "id": "citas-y-planes-acordados",
+      "titulo": "I'm seeing the doctor at six: citas y planes acordados",
+      "que_es": "Ya estudiaste en la unidad «¿Presente simple o continuo?» que el **presente continuo** puede hablar del futuro cuando se trata de **citas y planes acordados** con otras personas, con fecha, hora o lugar: [[I'm meeting Ana on Friday]]. Es la forma que usa un nativo cuando mira su agenda.",
+      "para_que": [
+        "Hablar de citas médicas, reuniones y compromisos: I'm seeing the dentist on Monday.",
+        "Planes con boletos o reservaciones: We're flying to Cancún on Saturday.",
+        "Decir por qué no puedes aceptar una invitación: Sorry, I'm having dinner with my parents."
+      ],
+      "como_funciona": "**Presente continuo + expresión de futuro:** {{sujeto:I}} {{auxiliar:'m}} {{verbo:meeting}} {{complemento:Ana}} {{tiempo:on Friday}}. La expresión de tiempo (o el contexto) deja claro que no hablas de ahora mismo.\n\n**¿Cuándo es mejor que going to?** Cuando el plan ya está **organizado**: hay otra persona involucrada, una hora, una reservación. [[I'm going to see the doctor]] dice «tengo la intención»; [[I'm seeing the doctor at six]] dice «ya tengo la cita». En muchos casos las dos son correctas.\n\n**¿Y will?** Para una cita ya fijada, [[I will go to the doctor tomorrow]] **no es un error gramatical**, pero no es lo que dice un nativo al consultar su agenda: suena a decisión que tomas ahora, a promesa («sí, iré, te lo prometo») o a tono formal. Lo natural es [[I'm going to the doctor tomorrow]] o [[I'm seeing the doctor tomorrow]].\n\n**Horarios oficiales: presente simple.** Para horarios de transporte, clases o espectáculos se usa el presente simple: [[The train leaves at 8:15]], [[The movie starts at nine]]. Lo verás con más detalle en cursos posteriores.",
+      "estructuras": [
+        {
+          "etiqueta": "Cita o plan acordado",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo-ing",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "cuándo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "lunch with Omar",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Sunday.",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Vamos a comer con Omar el domingo (ya quedamos)."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm seeing the dentist on Monday at ten.",
+          "es": "Tengo cita con el dentista el lunes a las diez.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "seeing",
+              "rol": "verbo"
+            },
+            {
+              "t": "the dentist",
+              "rol": "complemento"
+            },
+            {
+              "t": "on Monday at ten",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "See a doctor / dentist = tener consulta. Día y hora fijados: presente continuo."
+        },
+        {
+          "en": "Sorry, I can't. I'm working on Saturday.",
+          "es": "Lo siento, no puedo. Trabajo el sábado.",
+          "partes": [
+            {
+              "t": "Sorry, I can't.",
+              "rol": "otro"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "working",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Saturday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Excusa perfecta para rechazar una invitación: el turno ya está programado."
+        },
+        {
+          "en": "My parents are arriving tomorrow morning.",
+          "es": "Mis papás llegan mañana en la mañana.",
+          "partes": [
+            {
+              "t": "My parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "arriving",
+              "rol": "verbo"
+            },
+            {
+              "t": "tomorrow morning",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "El español usa el presente simple («llegan»); el inglés usa el continuo para un plan organizado."
+        },
+        {
+          "en": "The bus leaves at 7:30, so don't be late.",
+          "es": "El autobús sale a las 7:30, así que no llegues tarde.",
+          "nota": "Horario oficial: presente simple (leaves)."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Qué futuro uso?",
+        "centro": "futuro",
+        "ramas": [
+          {
+            "texto": "Plan decidido antes",
+            "detalle": "going to: I'm going to paint my room."
+          },
+          {
+            "texto": "Decisión ahora / oferta / promesa",
+            "detalle": "will: I'll help you."
+          },
+          {
+            "texto": "Cita acordada (hora, otra persona)",
+            "detalle": "presente continuo: I'm meeting Ana at six."
+          },
+          {
+            "texto": "Predicción con evidencia",
+            "detalle": "going to: Look! It's going to rain."
+          },
+          {
+            "texto": "Predicción de opinión",
+            "detalle": "will: I think it will rain."
+          },
+          {
+            "texto": "Horario oficial",
+            "detalle": "presente simple: The train leaves at 8."
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'm seeing the doctor.",
+          "ipa": "/aɪm ˈsiɪŋ ðə ˈdɑktər/",
+          "consejo": "Seeing son dos sílabas con i larga: «SI-ing». Doctor en EE. UU. tiene la o abierta, casi una «a» /ɑ/, y la r final curvada."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I see the dentist tomorrow at ten.",
+          "bien": "I'm seeing the dentist tomorrow at ten.",
+          "porque": "Calco del presente español («veo al dentista mañana»). Para una cita acordada, el inglés usa el presente continuo."
+        },
+        {
+          "mal": "I will go to the doctor tomorrow. (hablando de una cita que ya tienes)",
+          "bien": "I'm going to the doctor tomorrow. / I'm seeing the doctor tomorrow.",
+          "porque": "No es incorrecto, pero will suena a decisión del momento o a promesa. Para una cita ya fijada, lo natural es el presente continuo (o going to)."
+        },
+        {
+          "mal": "The train is leaving at 8:15 every day.",
+          "bien": "The train leaves at 8:15 every day.",
+          "porque": "Un horario fijo y repetido va en presente simple."
+        }
+      ]
+    },
+    {
+      "id": "predecir-will-o-going-to",
+      "titulo": "Predecir: I think it will… o Look, it's going to…",
+      "que_es": "Para predecir sirven [[will]] y [[going to]]. La pista está en **en qué te basas**: si es tu **opinión**, tu experiencia o algo que sabes, will es lo natural; si es algo que **ves ahora** y que anuncia el resultado, going to.",
+      "para_que": [
+        "Opinar sobre un resultado: I think our team will win.",
+        "Avisar de lo que está a punto de pasar: Look out! That glass is going to fall!",
+        "Hablar del clima según el pronóstico o según el cielo."
+      ],
+      "como_funciona": "**Will + opinión:** [[I think…]], [[I'm sure…]], [[probably]], [[maybe]]: [[I'm sure you'll pass the exam]]. No hay nada que ver ahora: es lo que crees.\n\n**Going to + evidencia:** [[Look…]], [[Be careful…]], una situación visible: [[She's running very fast. She's going to win!]]\n\n**Muchas veces valen las dos.** [[It will rain tomorrow]] y [[It's going to rain tomorrow]] son correctas si lo dice el pronóstico. La diferencia es sutil, y un nativo no va a corregirte por esto. Donde going to es claramente mejor es con una evidencia inmediata y un resultado muy próximo: [[Watch out! You're going to hit the car!]]\n\n**Recuerda los dos calcos del español:** «va a llover» no es «it goes to rain» → [[it's going to rain]]; «creo que no va a venir» → mejor [[I don't think he'll come]].",
+      "estructuras": [
+        {
+          "etiqueta": "Opinión → will",
+          "formula": [
+            {
+              "t": "I think / I'm sure",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I'm sure",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "get",
+              "rol": "verbo"
+            },
+            {
+              "t": "the job.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Estoy seguro de que va a conseguir el trabajo."
+        },
+        {
+          "etiqueta": "Evidencia → going to",
+          "formula": [
+            {
+              "t": "Evidencia",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Look at that car!",
+              "rol": "otro"
+            },
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is going to",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "crash!",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¡Mira ese carro! ¡Va a chocar!"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I think Priya will be a great teacher.",
+          "es": "Creo que Priya va a ser una gran maestra.",
+          "partes": [
+            {
+              "t": "I think",
+              "rol": "otro"
+            },
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "a great teacher",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Opinión personal sobre el futuro: will."
+        },
+        {
+          "en": "The baby is rubbing her eyes. She's going to fall asleep.",
+          "es": "La bebé se está tallando los ojos. Se va a dormir.",
+          "partes": [
+            {
+              "t": "The baby is rubbing her eyes.",
+              "rol": "otro"
+            },
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going to",
+              "rol": "otro"
+            },
+            {
+              "t": "fall asleep",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "La evidencia (se talla los ojos) está a la vista: going to."
+        },
+        {
+          "en": "Don't worry. You'll find a new job soon.",
+          "es": "No te preocupes. Pronto vas a encontrar otro trabajo.",
+          "partes": [
+            {
+              "t": "Don't worry.",
+              "rol": "otro"
+            },
+            {
+              "t": "You'll",
+              "rol": "sujeto"
+            },
+            {
+              "t": "find",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new job",
+              "rol": "complemento"
+            },
+            {
+              "t": "soon",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Predicción para dar ánimo, basada en tu opinión: will."
+        },
+        {
+          "en": "The forecast says it's going to be sunny, but I think it will rain.",
+          "es": "El pronóstico dice que va a hacer sol, pero yo creo que va a llover.",
+          "nota": "Las dos formas en la misma oración: el pronóstico (información actual) con going to, tu opinión con will."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "You'll find a job.",
+          "ipa": "/jʊl ˈfaɪnd ə ˈdʒɑb/",
+          "consejo": "You'll es una sílaba: «yul», con u corta y l oscura. Job empieza con /dʒ/, como la «y» fuerte de «yo» en muchas regiones de México, y lleva una «a» abierta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Look at those clouds! It goes to rain.",
+          "bien": "Look at those clouds! It's going to rain.",
+          "porque": "Calco de «va a llover»: se necesita be + going to."
+        },
+        {
+          "mal": "I think she wills win.",
+          "bien": "I think she will win.",
+          "porque": "Will no lleva -s con ningún sujeto."
+        },
+        {
+          "mal": "Careful! You will fall! (viendo que alguien pierde el equilibrio)",
+          "bien": "Careful! You're going to fall!",
+          "porque": "Con una evidencia inmediata a la vista, going to es la forma natural; will suena extraño aquí."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "el-futuro.elegir-el-futuro.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma más natural.",
+      "pregunta": "A: «There's no sugar.» B (no lo sabía): «Oh! I ___ some.»",
+      "opciones": [
+        {
+          "texto": "'ll buy",
+          "correcta": true,
+          "porque": "Correcto: B se entera ahora y decide en el momento → will."
+        },
+        {
+          "texto": "'m going to buy",
+          "correcta": false,
+          "porque": "Going to indica una decisión anterior, pero B no lo sabía."
+        },
+        {
+          "texto": "buy",
+          "correcta": false,
+          "porque": "El presente simple no expresa una decisión en el momento."
+        },
+        {
+          "texto": "'m buying",
+          "correcta": false,
+          "porque": "El presente continuo se usa para planes ya organizados, no para una reacción espontánea."
+        }
+      ],
+      "pistas": [
+        "¿B ya sabía que no había azúcar?",
+        "Oh! muestra que se entera ahora.",
+        "Decisión en el momento → will."
+      ],
+      "solucion": {
+        "respuesta": "'ll buy",
+        "explicacion": "B reacciona a una información nueva (Oh!) y decide en ese instante: I'll buy some. Going to indicaría que ya lo tenía decidido."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma más natural.",
+      "pregunta": "A: «Why do you have all those boxes?» B: «We ___ to a new apartment next week.»",
+      "opciones": [
+        {
+          "texto": "are moving",
+          "correcta": true,
+          "porque": "Correcto: la mudanza ya está organizada (hay cajas, fecha): presente continuo. Are going to move también sería correcto."
+        },
+        {
+          "texto": "will move",
+          "correcta": false,
+          "porque": "Will suena a decisión del momento; las cajas prueban que el plan ya existía."
+        },
+        {
+          "texto": "move",
+          "correcta": false,
+          "porque": "El presente simple no se usa para un plan personal como este (solo para horarios oficiales)."
+        },
+        {
+          "texto": "are move",
+          "correcta": false,
+          "porque": "Falta -ing: are moving."
+        }
+      ],
+      "pistas": [
+        "Las cajas son una señal: el plan ya está en marcha.",
+        "Hay fecha (next week) y todo está organizado.",
+        "Plan acordado → presente continuo (o going to)."
+      ],
+      "solucion": {
+        "respuesta": "are moving",
+        "explicacion": "La mudanza está organizada y tiene fecha: el presente continuo (We're moving) es lo natural. We're going to move también es correcto; will no, porque sonaría a una decisión tomada ahora."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con el uso del futuro que expresa.",
+      "pares": [
+        {
+          "a": "I'm meeting Tom at the station at five.",
+          "b": "Cita acordada"
+        },
+        {
+          "a": "I'm going to learn French next year.",
+          "b": "Intención decidida antes"
+        },
+        {
+          "a": "Wait, I'll carry that for you.",
+          "b": "Ofrecimiento en el momento"
+        },
+        {
+          "a": "Look out! You're going to hit the wall!",
+          "b": "Predicción con evidencia"
+        },
+        {
+          "a": "I think you'll like this movie.",
+          "b": "Predicción de opinión"
+        },
+        {
+          "a": "The concert starts at eight.",
+          "b": "Horario oficial"
+        }
+      ],
+      "pistas": [
+        "Mira la forma verbal y el contexto de cada oración.",
+        "Hora + otra persona → cita; Look out! → evidencia; I think → opinión.",
+        "Presente simple → horario; going to → intención o evidencia; will → ofrecimiento u opinión."
+      ],
+      "solucion": {
+        "respuesta": "meeting Tom → cita; learn French → intención; carry that → ofrecimiento; hit the wall → evidencia; like this movie → opinión; concert starts → horario.",
+        "explicacion": "Presente continuo con hora y persona = cita. Going to = intención o evidencia visible (Look out!). Will = ofrecimiento espontáneo u opinión (I think). Presente simple = horario oficial."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite el diálogo breve. Marca bien la diferencia entre 'll y going to.",
+      "texto": "I'm going to cook tonight. — Great, I'll buy the wine.",
+      "ipa": "/aɪm ˈɡoʊɪŋ tə ˈkʊk təˈnaɪt · ˈɡreɪt aɪl ˈbaɪ ðə ˈwaɪn/",
+      "consejo": "En la primera parte, going to lleva el peso («GOU-ing tə»). En la segunda, I'll es rápido: una sola sílaba con l oscura, pegada a buy. Wine empieza con los labios redondeados (w).",
+      "es": "Voy a cocinar esta noche. — Perfecto, yo compro el vino."
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con will ('ll) o going to en la forma correcta. En el primer hueco, Diego ya lo había decidido; en el segundo, Ana decide ahora.",
+      "frase": "Diego: I ___ visit my grandma on Sunday. Ana: Oh, that's nice! I ___ come with you!",
+      "respuestas": [
+        [
+          "'m going to",
+          "am going to"
+        ],
+        [
+          "'ll",
+          "will"
+        ]
+      ],
+      "traduccion": "Diego: Voy a visitar a mi abuela el domingo. Ana: ¡Ay, qué lindo! ¡Voy contigo!",
+      "pistas": [
+        "El enunciado te dice cuándo tomó cada uno la decisión.",
+        "Diego ya lo tenía pensado; Ana reacciona («Oh!»).",
+        "Decisión anterior → be going to; decisión ahora → will."
+      ],
+      "solucion": {
+        "respuesta": "'m going to | 'll",
+        "explicacion": "Diego cuenta un plan decidido antes: I'm going to visit. Ana reacciona a la noticia y decide al instante: I'll come with you."
+      },
+      "errores_tipicos": {
+        "'ll | 'm going to": "Está al revés: Diego ya lo había decidido (going to) y Ana decide ahora (will).",
+        "going to | 'll": "Falta be en el primer hueco: I'm going to visit.",
+        "will | will": "El segundo está bien. El primero es un plan anterior: I'm going to visit."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo. Es una cita que ya está programada.",
+      "frase": "I can't come to the meeting. I see the dentist at three.",
+      "error": "see",
+      "correcciones": [
+        "am seeing",
+        "'m seeing"
+      ],
+      "frase_correcta": "I can't come to the meeting. I'm seeing the dentist at three.",
+      "pistas": [
+        "La cita con el dentista ya está acordada.",
+        "El presente simple es un calco del español («veo al dentista»).",
+        "Cita acordada → presente continuo."
+      ],
+      "solucion": {
+        "respuesta": "see → am seeing",
+        "explicacion": "Para una cita acordada, con hora, el inglés usa el presente continuo: I'm seeing the dentist at three. El presente simple (I see) es un calco del español."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.07",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la predicción más natural.",
+      "pregunta": "Ves a un niño que corre con un vaso lleno de jugo y tropieza. Dices: «Careful! ___»",
+      "opciones": [
+        {
+          "texto": "You're going to spill it!",
+          "correcta": true,
+          "porque": "Correcto: ves la evidencia ahora (corre y tropieza), así que going to es lo natural."
+        },
+        {
+          "texto": "I think you'll spill it tomorrow.",
+          "correcta": false,
+          "porque": "Es una opinión sobre mañana; aquí el peligro es inmediato."
+        },
+        {
+          "texto": "You spill it!",
+          "correcta": false,
+          "porque": "El presente simple no predice."
+        },
+        {
+          "texto": "You go to spill it!",
+          "correcta": false,
+          "porque": "Calco de «lo vas a tirar»: falta be + going."
+        }
+      ],
+      "pistas": [
+        "El resultado está a punto de pasar y lo estás viendo.",
+        "¿Es una opinión o una evidencia?",
+        "Evidencia inmediata → be going to."
+      ],
+      "solucion": {
+        "respuesta": "You're going to spill it!",
+        "explicacion": "Con una evidencia visible y un resultado inmediato, se usa going to: You're going to spill it! (spill = derramar)."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Tu amigo dice algo gramaticalmente correcto, pero poco natural para una cita ya fijada. Reescríbelo con el presente continuo.",
+      "origen": "I will meet my boss at nine tomorrow.",
+      "instruccion": "Presente continuo (cita acordada)",
+      "respuestas": [
+        "I'm meeting my boss at nine tomorrow.",
+        "I'm meeting my boss tomorrow at nine."
+      ],
+      "pistas": [
+        "La reunión ya está acordada.",
+        "Cambia will + verbo por be + verbo-ing.",
+        "Sujeto + be contraído + verbo-ing + persona + hora + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "I'm meeting my boss at nine tomorrow.",
+        "explicacion": "Will no es un error, pero suena a decisión del momento o a promesa. Para una reunión ya fijada, el presente continuo es lo natural: I'm meeting my boss at nine tomorrow."
+      },
+      "errores_tipicos": {
+        "I meeting my boss at nine tomorrow.": "Falta be: I'm meeting.",
+        "I meet my boss at nine tomorrow.": "El presente simple es un calco del español; para una cita, presente continuo: I'm meeting."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Sorry, I can't. I'm having dinner with my parents tonight.",
+      "respuestas": [
+        "Sorry, I cannot. I am having dinner with my parents tonight."
+      ],
+      "pistas": [
+        "Alguien rechaza una invitación.",
+        "Da una excusa con un plan ya acordado.",
+        "Disculpa + negativa de can; luego sujeto + be + having + comida + with + posesivo + familiares + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, I can't. I'm having dinner with my parents tonight.",
+        "explicacion": "El presente continuo con tonight habla de un plan acordado, una excusa muy común para rechazar una invitación. Have dinner = cenar."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Estás en una tienda de ropa. No habías decidido nada antes de entrar.",
+      "lineas": [
+        {
+          "quien": "Clerk",
+          "en": "We have this shirt in blue and in white. Which one would you like?",
+          "es": "Tenemos esta camisa en azul y en blanco. ¿Cuál le gustaría?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Hmm… I'll take the white one, please.",
+          "correcta": true,
+          "porque": "Correcto: decides en el momento (Hmm…) → I'll take."
+        },
+        {
+          "texto": "I'm going to take the white one, please.",
+          "correcta": false,
+          "porque": "No es gramaticalmente incorrecto, pero indica que ya lo habías decidido antes; aquí decides en el momento."
+        },
+        {
+          "texto": "I take the white one, please.",
+          "correcta": false,
+          "porque": "Calco de «me llevo la blanca»: en inglés la decisión del momento necesita will."
+        },
+        {
+          "texto": "I'm taking the white one tomorrow.",
+          "correcta": false,
+          "porque": "El presente continuo es para citas acordadas; aquí estás comprando ahora."
+        }
+      ],
+      "pistas": [
+        "No habías decidido nada antes de entrar.",
+        "Hmm… muestra que estás decidiendo al hablar.",
+        "Decisión en el momento → I'll + verbo."
+      ],
+      "solucion": {
+        "respuesta": "Hmm… I'll take the white one, please.",
+        "explicacion": "Es una decisión espontánea: I'll take the white one. El presente simple (I take) es un calco del español, y going to sugiere una decisión anterior."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa el presente continuo para la cita y will para la promesa.",
+      "es": "Mañana voy al doctor a las cuatro. Te llamo después.",
+      "respuestas": [
+        "I'm going to the doctor tomorrow at four. I'll call you after.",
+        "I'm going to the doctor tomorrow at four. I'll call you afterwards.",
+        "I'm going to the doctor tomorrow at four. I'll call you later.",
+        "Tomorrow I'm going to the doctor at four. I'll call you after.",
+        "Tomorrow I'm going to the doctor at four. I'll call you afterwards.",
+        "Tomorrow I'm going to the doctor at four. I'll call you later.",
+        "I'm seeing the doctor tomorrow at four. I'll call you after.",
+        "I'm seeing the doctor tomorrow at four. I'll call you afterwards.",
+        "I'm seeing the doctor tomorrow at four. I'll call you later.",
+        "I'm going to the doctor at four tomorrow. I'll call you after.",
+        "I'm going to the doctor at four tomorrow. I'll call you later.",
+        "I'm seeing the doctor at four tomorrow. I'll call you later.",
+        "I'm seeing the doctor at four tomorrow. I'll call you after.", "I'm going to the doctor tomorrow at four. I'll call you afterward.", "I'm seeing the doctor tomorrow at four. I'll call you afterward.", "Tomorrow I'm going to the doctor at four. I'll call you afterward.", "Tomorrow I'm seeing the doctor at four. I'll call you after.", "Tomorrow I'm seeing the doctor at four. I'll call you later.", "Tomorrow I'm seeing the doctor at four. I'll call you afterward.", "Tomorrow I'm seeing the doctor at four. I'll call you afterwards.", "I'm going to the doctor at four tomorrow. I'll call you afterward.", "I'm going to the doctor at four tomorrow. I'll call you afterwards.", "I'm seeing the doctor at four tomorrow. I'll call you afterward.", "I'm seeing the doctor at four tomorrow. I'll call you afterwards."
+      ],
+      "pistas": [
+        "La primera oración es una cita; la segunda, una promesa.",
+        "La cita va en presente continuo (be + -ing); «te llamo» es una promesa, con will.",
+        "Primera oración: be + verbo-ing + lugar o persona + día + hora; segunda: sujeto + 'll + verbo + persona + adverbio de «después»."
+      ],
+      "solucion": {
+        "respuesta": "I'm going to the doctor tomorrow at four. I'll call you after.",
+        "explicacion": "La cita ya está fijada: presente continuo (I'm going to the doctor / I'm seeing the doctor). «Te llamo después» es una promesa: I'll call you. El español usa presente en las dos, pero el inglés distingue."
+      },
+      "errores_tipicos": {
+        "I go to the doctor tomorrow at four. I call you after.": "Calco del presente español. Cita: I'm going to the doctor. Promesa: I'll call you.",
+        "I'm going to the doctor tomorrow at four. I call you after.": "La cita está bien. «Te llamo» es una promesa: I'll call you."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.12",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa la predicción. En el primer hueco opinas (usa will); en el segundo ves la evidencia (usa going to).",
+      "frase": "I think Mexico ___ (win) the next World Cup. — Hmm, look at the score now. We ___ (lose) this game!",
+      "respuestas": [
+        [
+          "will win",
+          "'ll win"
+        ],
+        [
+          "are going to lose",
+          "'re going to lose"
+        ]
+      ],
+      "traduccion": "Creo que México va a ganar el próximo Mundial. — Mmm, mira el marcador ahora. ¡Vamos a perder este partido!",
+      "pistas": [
+        "El enunciado te dice qué futuro usar en cada hueco.",
+        "I think = opinión; look at the score = evidencia visible. El sujeto del segundo es we.",
+        "Primer hueco: modal + verbo base; segundo: la forma de be para we + going to + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "will win | are going to lose",
+        "explicacion": "I think + will para una opinión: Mexico will win. El marcador se ve ahora, así que la predicción con evidencia usa going to: We're going to lose."
+      },
+      "errores_tipicos": {
+        "will wins | are going to lose": "Después de will el verbo va en forma base: win.",
+        "will win | going to lose": "Falta be: we are going to lose."
+      }
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Responde a una invitación.",
+      "objetivo": "Combinar el presente continuo (citas), going to (planes) y will (decisiones, ofrecimientos, promesas) en un mismo mensaje.",
+      "instrucciones": "Tu amiga Grace te invita a su casa el sábado. Escríbele un mensaje (50–80 palabras): explica que el sábado en la mañana tienes una cita (presente continuo), que en la tarde ya tenías otro plan (going to), pero que puedes ir en la noche; ofrécete a llevar algo y promete llegar a tiempo (will).",
+      "vocabulario_apoyo": [
+        "Thanks for the invitation!",
+        "I'm seeing… / I'm meeting…",
+        "I'm going to…",
+        "but I can come at…",
+        "I'll bring…",
+        "I won't be late",
+        "See you on Saturday!"
+      ],
+      "estructuras": [
+        "On Saturday morning I'm + verbo-ing…",
+        "In the afternoon I'm going to…",
+        "I'll bring… / I won't be late."
+      ],
+      "ejemplo": "Hi Tom! I'd love to go to the game, but I'm working until six on Friday. I'm going to finish early next week, so maybe then? I'll call you on Monday.",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas el presente continuo para una cita",
+          "patron": "\\b(i'm|i am) \\w+ing\\b"
+        },
+        {
+          "descripcion": "Usas going to + verbo",
+          "patron": "\\bgoing to \\w+"
+        },
+        {
+          "descripcion": "Usas will o 'll",
+          "patron": "\\b(i'll|i will|will)\\b"
+        },
+        {
+          "descripcion": "Usas won't o una promesa",
+          "patron": "\\bwon'?t\\b|\\bpromise\\b"
+        }
+      ],
+      "criterios": [
+        "¿La cita usa be + -ing con una hora o un día?",
+        "¿El plan anterior usa be going to + verbo base?",
+        "¿El ofrecimiento y la promesa usan will / won't + verbo base?",
+        "¿El mensaje empieza agradeciendo y termina con una despedida?"
+      ],
+      "modelo": "Hi Grace! Thanks for the invitation. On Saturday morning I'm seeing the dentist at ten, and in the afternoon I'm going to help my brother with his new apartment. But I can come in the evening, at about eight. I'll bring a cake and some drinks. I promise I won't be late this time! See you on Saturday.",
+      "explicacion": "El modelo usa cada futuro con su función: el presente continuo para la cita con hora (I'm seeing the dentist at ten), going to para un plan decidido antes (I'm going to help my brother) y will para lo que decide y ofrece al escribir (I'll bring a cake) y para la promesa (I won't be late). Can come expresa la posibilidad.",
+      "errores_comunes": [
+        "Usar el presente simple para la cita: «I see the dentist at ten».",
+        "Olvidar be en going to: «I going to help».",
+        "Contraer en respuestas cortas: «Yes, I'll»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Tu agenda de la semana",
+    "contexto": "Una compañera de trabajo, Aisha, quiere reunirse contigo esta semana para preparar una presentación.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Can we meet this week to prepare the presentation? Are you free on Wednesday?",
+        "es": "¿Podemos reunirnos esta semana para preparar la presentación? ¿Estás libre el miércoles?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Perfect. I'll book a meeting room.",
+        "es": "Perfecto. Reservo una sala de juntas."
+      }
+    ],
+    "tu_turno": "Explica que el miércoles tienes un compromiso ya acordado (presente continuo), propón otro día, cuenta algo que ya habías decidido hacer (going to) y ofrécete a hacer algo (will).",
+    "modelo": "Sorry, on Wednesday I'm visiting a client all day. What about Thursday at ten? I'm going to finish the sales report on Tuesday, so I'll bring the numbers for the presentation.",
+    "alternativas": [
+      "I'm afraid I'm having lunch with the director on Wednesday. Is Friday OK? I'm going to work from home on Thursday, but I'll send you my ideas by email.",
+      "Wednesday is difficult: I'm flying to Monterrey. Can we meet on Monday? I'll prepare the slides, I promise."
+    ],
+    "claves": [
+      "Compromiso acordado: I'm + verbo-ing + día/hora.",
+      "Plan decidido antes: I'm going to…",
+      "Ofrecimiento o promesa: I'll…"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Decisión anterior / intención → going to. Decisión en el momento, ofrecimiento, promesa → will.",
+      "Cita o plan acordado (hora, lugar, otra persona) → presente continuo: I'm seeing the dentist at ten.",
+      "Predicción de opinión (I think, I'm sure, probably) → will. Evidencia visible ahora → going to.",
+      "Horario oficial → presente simple: The train leaves at 8.",
+      "Usar will para una cita no es un error gramatical: cambia el matiz (decisión del momento, promesa o tono formal)."
+    ],
+    "recuerda": [
+      "«Te llamo después» (promesa) = I'll call you later, no «I call you».",
+      "«Voy al doctor mañana» (cita) = I'm going to the doctor / I'm seeing the doctor tomorrow.",
+      "Pregúntate siempre: ¿cuándo se decidió y en qué me baso?"
+    ]
+  },
+  "repaso": [
+    {
+      "id": "el-futuro.elegir-el-futuro.r1",
+      "frente": "«No hay pan.» — (No lo sabías) «Ah, ¡yo compro!»",
+      "reverso": "Oh, I'll buy some!",
+      "nota": "Decisión en el momento: will."
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.r2",
+      "frente": "Cita con el dentista el viernes a las 10",
+      "reverso": "I'm seeing the dentist on Friday at ten.",
+      "nota": "Presente continuo para citas acordadas."
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.r3",
+      "frente": "¿Will o going to? «Look at that man! He ___ fall.»",
+      "reverso": "He's going to fall.",
+      "nota": "Evidencia visible."
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.r4",
+      "frente": "¿Will o going to? «I think you ___ like it.»",
+      "reverso": "I think you'll like it.",
+      "nota": "Opinión: will."
+    },
+    {
+      "id": "el-futuro.elegir-el-futuro.r5",
+      "frente": "¿Es un error «I will go to the doctor tomorrow» para una cita ya fijada?",
+      "reverso": "No es un error gramatical, pero lo natural es I'm going to the doctor / I'm seeing the doctor tomorrow.",
+      "nota": "Will sonaría a decisión del momento o a promesa."
+    }
+  ]
+}

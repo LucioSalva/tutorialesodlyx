@@ -1,0 +1,298 @@
+{
+  "titulo": "Evaluación: palabras para empezar",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "palabras-para-empezar.eval.01",
+      "leccion": "frases-de-clase",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "Una señora te dice «Pardon?» después de que le hablaste. ¿Qué quiere?",
+      "opciones": [
+        {"texto": "Que repitas lo que dijiste: no te oyó o no te entendió.", "correcta": true, "porque": "Correcto: Pardon? con entonación de pregunta pide repetición, igual que Sorry?"},
+        {"texto": "Que la perdones por algo que hizo.", "correcta": false, "porque": "Pardon? como pregunta no es una disculpa; pide que repitas."},
+        {"texto": "Que te vayas.", "correcta": false, "porque": "No tiene ese significado; es una forma cortés de decir «¿cómo dijo?»."}
+      ],
+      "pistas": [
+        "Fíjate en la entonación de pregunta.",
+        "Es un sinónimo más formal de Sorry?",
+        "Regla: Sorry? / Pardon? = ¿Perdón?, ¿cómo dijo?"
+      ],
+      "solucion": {"respuesta": "Que repitas lo que dijiste: no te oyó o no te entendió.", "explicacion": "Pardon? (o Pardon me? en EE. UU.) es una forma cortés de pedir que repitan. Lo correcto es repetir la frase, quizá más despacio."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.02",
+      "leccion": "frases-de-clase",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa: «No sé».",
+      "frase": "I don't ___.",
+      "respuestas": [["know"]],
+      "errores_tipicos": {
+        "understand": "I don't understand es «No entiendo». «No sé» es I don't know.",
+        "no": "know y no suenan igual, pero «saber» se escribe know, con k muda."
+      },
+      "pistas": [
+        "El verbo significa «saber».",
+        "Empieza con una letra muda.",
+        "Regla: I don't + el verbo «saber» (no confundir con understand, «entender»)."
+      ],
+      "solucion": {"respuesta": "know", "explicacion": "I don't know = No sé. know se escribe con k muda y se pronuncia igual que no: /noʊ/."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.03",
+      "leccion": "frases-de-clase",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Un compañero de intercambio que aprende español te pregunta por una palabra inglesa.",
+      "lineas": [
+        {"quien": "Ben", "en": "What does window mean in Spanish?", "es": "¿Qué significa window en español?"}
+      ],
+      "opciones": [
+        {"texto": "It means ventana.", "correcta": true, "porque": "Correcto: What does… mean? se responde con It means…"},
+        {"texto": "You say window.", "correcta": false, "porque": "Ben ya dijo window; lo que quiere es el significado en español."},
+        {"texto": "W-I-N-D-O-W.", "correcta": false, "porque": "Deletrear no responde a la pregunta por el significado."}
+      ],
+      "pistas": [
+        "Ben pregunta por el significado.",
+        "La pregunta usa mean.",
+        "Regla: What does X mean? → It means Y."
+      ],
+      "solucion": {"respuesta": "It means ventana.", "explicacion": "What does window mean? pide el significado, así que respondes It means ventana. Fíjate en que en la respuesta means sí lleva -s, porque el sujeto es it."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.04",
+      "leccion": "frases-de-clase",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Qué significa busy?",
+      "respuestas": ["What does busy mean?"],
+      "errores_tipicos": {
+        "What means busy?": "Es un calque del español. La pregunta necesita does y mean va al final: What does busy mean?",
+        "What does busy means?": "Después de does el verbo va sin -s: mean.",
+        "What does mean busy?": "La palabra va entre does y mean: What does busy mean?"
+      },
+      "pistas": [
+        "Es la pregunta fija para el significado.",
+        "La palabra busy va en medio.",
+        "Estructura: What + auxiliar + palabra + verbo «significar» sin -s?"
+      ],
+      "solucion": {"respuesta": "What does busy mean?", "explicacion": "What does + busy + mean? La palabra va entre does y mean, y mean no lleva -s. (busy = ocupado.)"}
+    },
+    {
+      "id": "palabras-para-empezar.eval.05",
+      "leccion": "frases-de-clase",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la instrucción y escríbela.",
+      "texto": "Look at the board and repeat, please.",
+      "pistas": [
+        "Es una instrucción con dos verbos.",
+        "El primero va con at; el segundo significa «repetir».",
+        "Estructura: Look at + the board + and + repeat + please."
+      ],
+      "solucion": {"respuesta": "Look at the board and repeat, please.", "explicacion": "«Miren el pizarrón y repitan, por favor». Es una instrucción: empieza con el verbo y no lleva sujeto."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.06",
+      "leccion": "cortesia",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "pregunta": "Tu amiga Lucía te cuenta que su perro está enfermo. ¿Qué dices?",
+      "opciones": [
+        {"texto": "Oh, I'm sorry.", "correcta": true, "porque": "Correcto: I'm sorry también significa «lo siento» ante una mala noticia, no solo «perdón»."},
+        {"texto": "Excuse me.", "correcta": false, "porque": "Excuse me sirve para llamar la atención o pedir paso; no expresa pena."},
+        {"texto": "You're welcome.", "correcta": false, "porque": "You're welcome responde a un agradecimiento."}
+      ],
+      "pistas": [
+        "No te disculpas: expresas que lamentas algo.",
+        "En español dirías «lo siento».",
+        "Regla: I'm sorry sirve para disculparse y para lamentar una mala noticia."
+      ],
+      "solucion": {"respuesta": "Oh, I'm sorry.", "explicacion": "Ante una mala noticia se dice I'm sorry (lo siento). No significa que tengas la culpa: expresa empatía."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.07",
+      "leccion": "cortesia",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta informal a un agradecimiento.",
+      "frase": "— Thanks a lot! — No ___.",
+      "respuestas": [["problem", "worries"]],
+      "errores_tipicos": {
+        "nothing": "«No nothing» no existe. La respuesta informal es No problem.",
+        "problems": "La expresión fija va en singular: No problem."
+      },
+      "pistas": [
+        "Significa «no hay problema».",
+        "Es la respuesta informal a thanks.",
+        "Regla: la respuesta informal significa literalmente «ningún problema», en singular."
+      ],
+      "solucion": {"respuesta": "problem", "explicacion": "No problem es la respuesta informal más común a Thanks. (En algunos países, sobre todo Australia, también se oye No worries, y también es correcta.)"}
+    },
+    {
+      "id": "palabras-para-empezar.eval.08",
+      "leccion": "cortesia",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para pedir permiso a un desconocido.",
+      "fichas": ["Excuse", "me", "can", "I", "sit", "here"],
+      "respuestas": ["Excuse me, can I sit here?"],
+      "traduccion": "Disculpe, ¿me puedo sentar aquí?",
+      "pistas": [
+        "Primero llamas la atención con la expresión de dos palabras.",
+        "Después, la petición con can I.",
+        "Estructura: llamar la atención + can + I + verbo + lugar?"
+      ],
+      "solucion": {"respuesta": "Excuse me, can I sit here?", "explicacion": "Excuse me abre la conversación con un desconocido y can I sit here? pide permiso (¿puedo sentarme aquí?)."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.09",
+      "leccion": "cortesia",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Thank you for the pen! — Of nothing.",
+      "error": "Of nothing",
+      "correcciones": ["You're welcome", "No problem"],
+      "frase_correcta": "Thank you for the pen! — You're welcome.",
+      "pistas": [
+        "El agradecimiento está bien.",
+        "El error es una traducción literal de «de nada».",
+        "Regla: «de nada» = You're welcome / No problem."
+      ],
+      "solucion": {"respuesta": "Thank you for the pen! — You're welcome.", "explicacion": "«Of nothing» no existe en inglés. A un agradecimiento se responde You're welcome (neutro) o No problem (informal)."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.10",
+      "leccion": "cortesia",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "En un restaurante, el mesero, Diego, te trae la comida.",
+      "lineas": [
+        {"quien": "Diego", "en": "Here you go. Enjoy!", "es": "Aquí tiene. ¡Buen provecho!"}
+      ],
+      "opciones": [
+        {"texto": "Thank you!", "correcta": true, "porque": "Correcto: te trae la comida y te desea buen provecho; lo natural es agradecer."},
+        {"texto": "You're welcome!", "correcta": false, "porque": "You're welcome responde a un gracias. Diego no te dio las gracias."},
+        {"texto": "Excuse me!", "correcta": false, "porque": "Excuse me sirve para llamar su atención, no para responder a su servicio."}
+      ],
+      "pistas": [
+        "Diego te está dando algo.",
+        "¿Qué dices en español cuando te sirven la comida?",
+        "Regla: te dan algo → Thank you / Thanks."
+      ],
+      "solucion": {"respuesta": "Thank you!", "explicacion": "Here you go = Aquí tiene; Enjoy! = ¡Buen provecho! La respuesta natural es Thank you o Thanks."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.11",
+      "leccion": "objetos-y-colores",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Lee la transcripción y elige.",
+      "pregunta": "¿Qué objeto se pronuncia /kiː/?",
+      "opciones": [
+        {"texto": "key (llave)", "correcta": true, "porque": "Correcto: key se pronuncia /kiː/; las letras ey forman una i larga."},
+        {"texto": "cup (taza)", "correcta": false, "porque": "cup se pronuncia /kʌp/."},
+        {"texto": "chair (silla)", "correcta": false, "porque": "chair se pronuncia /tʃer/."}
+      ],
+      "pistas": [
+        "Busca una palabra corta con i larga.",
+        "Termina en vocal, sin consonante final.",
+        "Regla: /iː/ puede escribirse ey, como en key."
+      ],
+      "solucion": {"respuesta": "key (llave)", "explicacion": "key /kiː/ suena como una k seguida del nombre de la letra E: «kii». Es un buen ejemplo de que la ortografía (ey) no coincide con el sonido."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.12",
+      "leccion": "objetos-y-colores",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a o an.",
+      "frase": "It's ___ old key and ___ new bottle.",
+      "banco": ["a", "an"],
+      "respuestas": [["an"], ["a"]],
+      "errores_tipicos": {
+        "a | a": "old empieza con sonido vocálico: an old key.",
+        "an | an": "new empieza con sonido consonante /n/: a new bottle."
+      },
+      "pistas": [
+        "El artículo depende de la palabra que va justo después, aunque sea un adjetivo.",
+        "old empieza con /oʊ/; new con /n/.",
+        "Regla: an + sonido vocálico; a + sonido consonante."
+      ],
+      "solucion": {"respuesta": "an old key · a new bottle", "explicacion": "El artículo se elige según el sonido de la palabra siguiente, aunque sea el adjetivo: an old (sonido vocálico) y a new (sonido consonante)."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.13",
+      "leccion": "objetos-y-colores",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa have.",
+      "es": "Tengo un paraguas amarillo.",
+      "respuestas": ["I have a yellow umbrella."],
+      "errores_tipicos": {
+        "I have an yellow umbrella.": "El artículo depende de la palabra siguiente: yellow empieza con el sonido consonante /j/, así que es a yellow.",
+        "I have a umbrella yellow.": "El color va antes del sustantivo: a yellow umbrella.",
+        "Have a yellow umbrella.": "Falta el sujeto I."
+      },
+      "pistas": [
+        "El color va antes del objeto.",
+        "¿a o an? Mira la palabra que va justo después del artículo, no el objeto.",
+        "Regla: el artículo depende del primer sonido de la palabra que va justo después; /j/ es un sonido consonante."
+      ],
+      "solucion": {"respuesta": "I have a yellow umbrella.", "explicacion": "El color yellow va delante de umbrella. Aunque umbrella empiece con vocal, el artículo va pegado a yellow, que empieza con el sonido consonante /j/: a yellow umbrella."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.14",
+      "leccion": "objetos-y-colores",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Nice bag! What color it is?",
+      "error": "it is",
+      "correcciones": ["is it"],
+      "frase_correcta": "Nice bag! What color is it?",
+      "pistas": [
+        "La primera parte está bien.",
+        "Mira el orden al final de la pregunta.",
+        "Regla: en la pregunta, is va antes del sujeto."
+      ],
+      "solucion": {"respuesta": "Nice bag! What color is it?", "explicacion": "En la pregunta is va antes de it: What color is it? El orden it is es el de la respuesta (It is red)."}
+    },
+    {
+      "id": "palabras-para-empezar.eval.15",
+      "leccion": "objetos-y-colores",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "It's a brown chair and a white desk.",
+      "pistas": [
+        "Hay dos objetos, cada uno con su color.",
+        "Los colores van antes de los objetos.",
+        "Estructura: It's a + color + objeto + and a + color + objeto."
+      ],
+      "solucion": {"respuesta": "It's a brown chair and a white desk.", "explicacion": "«Es una silla café y un escritorio blanco». Fíjate en que chair empieza con /tʃ/ y en que la h de white no suena."}
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "slug": "will",
+  "titulo": "Will: decisiones, ofrecimientos y predicciones",
+  "minutos": 40,
+  "objetivos": [
+    "Formar will / 'll + verbo base, la negación won't y las preguntas Will you…? con sus respuestas cortas (Yes, I will / No, I won't).",
+    "Usar will para decisiones tomadas en el momento de hablar, ofrecimientos, promesas y peticiones.",
+    "Hacer predicciones y dar opiniones sobre el futuro con I think… will, I don't think… will y probably.",
+    "Pronunciar 'll con la l oscura y distinguir won't /woʊnt/ de want /wɑnt/."
+  ],
+  "situacion": {
+    "titulo": "En la cafetería",
+    "texto": "Sam y Lucía llegan a una cafetería. Sam no había pensado qué pedir: decide en el momento, y por eso usa will. Después Lucía se ofrece a pagar, Sam promete algo y los dos hacen una predicción sobre el clima.",
+    "dialogo": [
+      {
+        "quien": "Waiter",
+        "en": "Hi! What can I get you?",
+        "es": "¡Hola! ¿Qué les traigo?"
+      },
+      {
+        "quien": "Sam",
+        "en": "Hmm… I'll have a hot chocolate, please.",
+        "es": "Mmm… Voy a querer un chocolate caliente, por favor."
+      },
+      {
+        "quien": "Lucía",
+        "en": "And I'll have a coffee. Sam, don't worry, I'll pay.",
+        "es": "Y para mí, un café. Sam, no te preocupes, yo pago."
+      },
+      {
+        "quien": "Sam",
+        "en": "Thanks! Next time I'll pay, I promise.",
+        "es": "¡Gracias! La próxima vez pago yo, te lo prometo."
+      },
+      {
+        "quien": "Lucía",
+        "en": "Do you think it will rain this afternoon?",
+        "es": "¿Crees que va a llover esta tarde?"
+      },
+      {
+        "quien": "Sam",
+        "en": "I don't think it will. The weather is nice today.",
+        "es": "No creo. Hoy el clima está agradable."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "forma-will",
+      "titulo": "Will / 'll + verbo base; won't",
+      "que_es": "[[Will]] es un **modal**, como can o could: no cambia con el sujeto, va seguido del **verbo en forma base** y forma la negación y la pregunta sin do. En la conversación casi siempre se contrae: [[I'll]], [[you'll]], [[she'll]], [[it'll]], [[we'll]], [[they'll]]. La negación es [[won't]] (will not).",
+      "para_que": [
+        "Decidir en el momento: I'll take the red one.",
+        "Prometer: I won't forget.",
+        "Preguntar por el futuro: Will you be at home tonight?"
+      ],
+      "como_funciona": "**Afirmación:** {{sujeto:sujeto}} + {{auxiliar:will / 'll}} + {{verbo:verbo base}} → [[She'll call you]].\n**Negación:** {{sujeto:sujeto}} + {{negacion:won't}} + {{verbo:verbo base}} → [[They won't come]].\n**Pregunta:** {{auxiliar:Will}} + {{sujeto:sujeto}} + {{verbo:verbo base}}…? → [[Will you help me?]]\n**Respuesta corta:** [[Yes, I will.]] / [[No, I won't.]]\n\n**Como todo modal:**\n- Igual para todos los sujetos: «she wills» no existe.\n- Sin to: «I will to call» ✗.\n- Verbo en forma base: «He will calls» ✗, «I'll calling» ✗.\n\n**La contracción:** en afirmativa lo normal es [[I'll]], [[we'll]]. Pero **en la respuesta corta afirmativa no se contrae**: [[Yes, I will]], nunca «Yes, I'll».\n\n**Won't no es want:** [[won't]] /woʊnt/ (no + will) y [[want]] /wɑnt/ (querer) suenan distinto y significan cosas muy diferentes. [[I won't go]] = «no voy a ir»; [[I want to go]] = «quiero ir».\n\n**El español tiene «iré», el inglés no:** no existe una terminación de futuro. «Viajaré» puede ser [[I'll travel]] o [[I'm going to travel]], según el matiz; lo verás en la próxima lección.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will / 'll",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "send",
+              "rol": "verbo"
+            },
+            {
+              "t": "you the photos.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Te mando las fotos."
+        },
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "late.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No vamos a llegar tarde."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "at home tonight?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Vas a estar en casa esta noche?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Contracciones de will",
+          "columnas": [
+            "Forma completa",
+            "Contracción",
+            "Negación",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "I will",
+              "I'll",
+              "I won't",
+              "I'll call you later."
+            ],
+            [
+              "you will",
+              "you'll",
+              "you won't",
+              "You'll love it."
+            ],
+            [
+              "he / she will",
+              "he'll / she'll",
+              "he / she won't",
+              "She won't mind."
+            ],
+            [
+              "it will",
+              "it'll",
+              "it won't",
+              "It'll be fine."
+            ],
+            [
+              "we / they will",
+              "we'll / they'll",
+              "we / they won't",
+              "They'll be here soon."
+            ]
+          ],
+          "audio": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Don't worry. It'll be fine.",
+          "es": "No te preocupes. Todo va a salir bien.",
+          "partes": [
+            {
+              "t": "Don't worry.",
+              "rol": "otro"
+            },
+            {
+              "t": "It'll",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "fine",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "It'll = it will. Una frase muy común para tranquilizar."
+        },
+        {
+          "en": "Will you be at the party? — Yes, I will.",
+          "es": "¿Vas a estar en la fiesta? — Sí.",
+          "nota": "Respuesta corta afirmativa sin contraer: Yes, I will (no «Yes, I'll»)."
+        },
+        {
+          "en": "She won't be at work tomorrow.",
+          "es": "Ella no va a estar en el trabajo mañana.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "at work",
+              "rol": "complemento"
+            },
+            {
+              "t": "tomorrow",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Won't = will not. El verbo be va en forma base, aunque el sujeto sea she."
+        },
+        {
+          "en": "My car won't start!",
+          "es": "¡Mi carro no quiere arrancar!",
+          "partes": [
+            {
+              "t": "My car",
+              "rol": "sujeto"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "start",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Un uso especial: won't también indica que algo se niega a funcionar ahora mismo."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "I'll",
+          "ipa": "/aɪl/",
+          "consejo": "Una sola sílaba: el diptongo /aɪ/ y enseguida una l oscura, con la parte de atrás de la lengua levantada, como si terminaras en una «o» muy breve. Suena igual que aisle (pasillo). No digas «ai-el».",
+          "lento": true
+        },
+        {
+          "texto": "won't / want",
+          "ipa": "/woʊnt/ · /wɑnt/",
+          "consejo": "Won't lleva el diptongo /oʊ/: labios que empiezan redondos en «o» y se cierran hacia «u». Want lleva una «a» abierta y larga. Si dices won't como want, cambias «no voy a» por «quiero»."
+        },
+        {
+          "texto": "it'll",
+          "ipa": "/ˈɪɾəl/",
+          "consejo": "Dos sílabas: la t entre vocales suena como la «r» suave de «pero» en EE. UU., y termina en una l oscura: «Í-rəl»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She wills call you.",
+          "bien": "She will call you.",
+          "porque": "Will es un modal: no lleva -s, y el verbo va en forma base."
+        },
+        {
+          "mal": "I will to help you.",
+          "bien": "I will help you.",
+          "porque": "Después de will no va to."
+        },
+        {
+          "mal": "Will you come? — Yes, I'll.",
+          "bien": "Will you come? — Yes, I will.",
+          "porque": "En la respuesta corta afirmativa no se usa la contracción."
+        },
+        {
+          "mal": "I don't will go.",
+          "bien": "I won't go.",
+          "porque": "Will se niega solo: will not / won't, sin do."
+        }
+      ]
+    },
+    {
+      "id": "decisiones-ofrecimientos-promesas",
+      "titulo": "I'll have the soup: decidir, ofrecer, prometer y pedir",
+      "que_es": "El uso más característico de [[will]] es para **decisiones que tomas en el momento de hablar**: no lo habías pensado antes, algo pasa y reaccionas. De ahí salen otros usos muy frecuentes: **ofrecerte** a hacer algo, **prometer** y **pedir** a alguien que haga algo.",
+      "para_que": [
+        "Pedir en un restaurante: I'll have the chicken, please.",
+        "Reaccionar: The phone is ringing. — I'll get it!",
+        "Ofrecer ayuda: That bag looks heavy. I'll carry it.",
+        "Prometer: I'll call you when I arrive. I won't tell anyone."
+      ],
+      "como_funciona": "**1. Decisión en el momento.** La idea nace ahora, a veces como reacción: [[It's cold in here. — I'll close the window]]. Si la decisión ya estaba tomada antes, lo natural es going to ([[I'm going to close the window]] porque ya lo pensaste).\n\n**2. Ofrecimientos:** [[I'll help you]], [[I'll carry that for you]]. En pregunta, para ofrecer: [[Shall I open the window?]] es común en inglés británico y suena formal en EE. UU., donde se dice más [[Do you want me to open the window?]] o [[Should I open the window?]]\n\n**3. Promesas y compromisos:** [[I'll call you tonight]], [[I promise I won't be late]], [[I won't tell anyone]].\n\n**4. Peticiones con Will you…?** [[Will you help me with this?]] Es una petición directa, normal con familia y amigos. Con desconocidos o en el trabajo, recuerda que [[Could you…?]] suena más cortés.\n\n**5. Negarse:** [[I won't do it!]] = «¡No lo voy a hacer!» (con fuerza). Y con objetos: [[The door won't open]] (la puerta no abre).\n\n**Nota para la traducción:** el español suele usar el **presente** en estos casos: «Yo pago», «Te ayudo», «Ahorita lo cierro». En inglés no vale el presente simple («I pay», «I help you»): hace falta [[I'll]].",
+      "estructuras": [
+        {
+          "etiqueta": "Decisión / ofrecimiento",
+          "formula": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "'ll",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "carry",
+              "rol": "verbo"
+            },
+            {
+              "t": "your bag.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Yo te llevo la bolsa."
+        },
+        {
+          "etiqueta": "Petición",
+          "formula": [
+            {
+              "t": "Will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "turn off",
+              "rol": "verbo"
+            },
+            {
+              "t": "the TV, please?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Apagas la tele, por favor?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The phone is ringing. — I'll get it!",
+          "es": "Está sonando el teléfono. — ¡Yo contesto!",
+          "nota": "Decisión instantánea: reaccionas a algo que pasa ahora. Get it = contestar (el teléfono o la puerta)."
+        },
+        {
+          "en": "I'll have the chicken soup, please.",
+          "es": "Me da la sopa de pollo, por favor.",
+          "partes": [
+            {
+              "t": "I'll",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "the chicken soup,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please",
+              "rol": "otro"
+            }
+          ],
+          "situacion": "Pides en un restaurante mientras miras el menú.",
+          "nota": "La forma más natural de pedir al decidir en el momento."
+        },
+        {
+          "en": "I promise I won't tell anyone.",
+          "es": "Te prometo que no le voy a decir a nadie.",
+          "partes": [
+            {
+              "t": "I promise",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "tell",
+              "rol": "verbo"
+            },
+            {
+              "t": "anyone",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Promesa negativa con won't. Anyone = nadie en oraciones negativas."
+        },
+        {
+          "en": "You look tired. I'll make dinner tonight.",
+          "es": "Te ves cansada. Yo hago la cena esta noche.",
+          "nota": "Un ofrecimiento. En español usamos el presente («yo hago»), en inglés will."
+        },
+        {
+          "en": "Will you marry me?",
+          "es": "¿Te quieres casar conmigo?",
+          "nota": "La petición más famosa con Will you…? Marry no lleva with."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Will: la decisión nace ahora",
+        "marcas": [
+          {
+            "pos": 0.45,
+            "texto": "Suena el teléfono",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.5,
+            "texto": "Decides: I'll get it!",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.7,
+            "texto": "Contestas",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.5,
+        "pie": "Con will no hay decisión previa: la idea aparece en el momento de hablar, a menudo como reacción. Compárala con la línea de going to, donde la decisión era anterior."
+      },
+      "comparacion": {
+        "a": {
+          "titulo": "Español: presente",
+          "items": [
+            "Yo pago.",
+            "Te ayudo con eso.",
+            "Ahorita te llamo."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: will",
+          "items": [
+            "I'll pay.",
+            "I'll help you with that.",
+            "I'll call you in a minute."
+          ]
+        },
+        "veredicto": "Para ofrecerte o decidir en el momento, el español usa el presente, pero el inglés necesita will. «I pay» o «I help you» suenan a descripción de un hábito, no a un ofrecimiento."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'll get it!",
+          "ipa": "/aɪl ˈɡɛɾ ɪt/",
+          "consejo": "I'll con la l oscura bien marcada. Get it se une: la t entre vocales suena como la «r» suave de «pero»: «GE-rit»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The phone is ringing. — I answer!",
+          "bien": "The phone is ringing. — I'll answer it! / I'll get it!",
+          "porque": "Calco del presente español («yo contesto»). Una decisión en el momento necesita will."
+        },
+        {
+          "mal": "Wait, I help you.",
+          "bien": "Wait, I'll help you.",
+          "porque": "Para ofrecerte a hacer algo ahora se usa will: I'll help you."
+        },
+        {
+          "mal": "Will you to open the door?",
+          "bien": "Will you open the door?",
+          "porque": "Después de will, verbo base sin to."
+        }
+      ]
+    },
+    {
+      "id": "predicciones-y-opiniones",
+      "titulo": "I think it will be sunny: predicciones y opiniones",
+      "que_es": "[[Will]] también sirve para **predecir** el futuro según lo que **crees** o sabes por experiencia, y para hablar de hechos futuros que no dependen de ti ([[I'll be 30 next year]]). Muy a menudo va con [[I think]], [[I'm sure]], [[probably]] o [[maybe]].",
+      "para_que": [
+        "Opinar sobre el futuro: I think Diego will win.",
+        "Hablar del clima o de resultados: It will probably be cold tomorrow.",
+        "Hechos futuros: The store will open at ten. I'll be 30 in June."
+      ],
+      "como_funciona": "**Con verbos de opinión:** [[I think…]], [[I'm sure…]], [[I hope…]] (espero que), [[I believe…]] + will. [[I think it will be sunny]].\n\n**I don't think… will:** para una predicción negativa, el inglés prefiere negar think: [[I don't think it will rain]] suena más natural que [[I think it won't rain]] (que es correcto, pero menos común). En español decimos «no creo que llueva»: la misma idea.\n\n**Probably y definitely:** van **después** de will y **antes** de won't:\n- [[He'll probably be late]] (probablemente llegue tarde).\n- [[He probably won't come]] (probablemente no venga).\n- [[It will definitely rain]] (va a llover seguro).\n**Maybe** va al principio: [[Maybe I'll see you there]].\n\n**Hechos futuros y edad:** [[I'll be 25 next week]] = «cumplo / tendré 25 la próxima semana». El calco «I'll have 25 years» es incorrecto: la edad va con be.\n\n**Will o going to para predecir:** will = opinión o conocimiento; going to = algo que ves ahora ([[Look! It's going to fall]]). Muchas veces ambas son posibles.",
+      "estructuras": [
+        {
+          "etiqueta": "Opinión + will",
+          "formula": [
+            {
+              "t": "I think / I'm sure",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I think",
+              "rol": "otro"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "pass",
+              "rol": "verbo"
+            },
+            {
+              "t": "the exam.",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Creo que vas a aprobar el examen."
+        },
+        {
+          "etiqueta": "Predicción negativa",
+          "formula": [
+            {
+              "t": "I don't think",
+              "rol": "negacion"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I don't think",
+              "rol": "negacion"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "come.",
+              "rol": "verbo"
+            }
+          ],
+          "es": "No creo que vengan."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm sure you'll love Oaxaca.",
+          "es": "Estoy seguro de que te va a encantar Oaxaca.",
+          "partes": [
+            {
+              "t": "I'm sure",
+              "rol": "otro"
+            },
+            {
+              "t": "you'll",
+              "rol": "sujeto"
+            },
+            {
+              "t": "love",
+              "rol": "verbo"
+            },
+            {
+              "t": "Oaxaca",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Una predicción basada en tu opinión, no en algo que ves."
+        },
+        {
+          "en": "It will probably be cold tomorrow.",
+          "es": "Probablemente haga frío mañana.",
+          "partes": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "probably",
+              "rol": "otro"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "cold",
+              "rol": "complemento"
+            },
+            {
+              "t": "tomorrow",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Probably va entre will y el verbo."
+        },
+        {
+          "en": "Tom probably won't finish on time.",
+          "es": "Probablemente Tom no termine a tiempo.",
+          "partes": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "probably",
+              "rol": "otro"
+            },
+            {
+              "t": "won't",
+              "rol": "negacion"
+            },
+            {
+              "t": "finish",
+              "rol": "verbo"
+            },
+            {
+              "t": "on time",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con won't, probably va antes: probably won't."
+        },
+        {
+          "en": "I don't think it will be expensive.",
+          "es": "No creo que sea caro.",
+          "partes": [
+            {
+              "t": "I don't think",
+              "rol": "negacion"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "will",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "expensive",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Se niega think, no will. Igual que «no creo que…» en español."
+        },
+        {
+          "en": "My daughter will be ten in March.",
+          "es": "Mi hija cumple diez años en marzo.",
+          "nota": "Hecho futuro con be: will be ten. Nunca «will have ten years»."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "It'll probably be cold.",
+          "ipa": "/ˈɪɾəl ˈprɑbəbli bi ˈkoʊld/",
+          "consejo": "Probably suele reducirse a tres sílabas en habla rápida: «PRA-bə-bli» o incluso «PRA-bli». Acento en PRO. Cold con /oʊ/ y l oscura."
+        },
+        {
+          "texto": "I don't think so.",
+          "ipa": "/aɪ ˈdoʊnt ˈθɪŋk soʊ/",
+          "consejo": "La th de think es sorda: lengua entre los dientes y sopla, sin voz (no es t ni s). Una respuesta corta muy útil: «No creo»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I'll have 30 years next month.",
+          "bien": "I'll be 30 next month.",
+          "porque": "Calco de «tendré 30 años». La edad se dice con be."
+        },
+        {
+          "mal": "He will probably not to come.",
+          "bien": "He probably won't come.",
+          "porque": "Sin to, y lo natural es probably antes de won't."
+        },
+        {
+          "mal": "I think that it will rain tomorrow, no?",
+          "bien": "I think it will rain tomorrow, don't you?",
+          "porque": "La coletilla «¿no?» del español no funciona en inglés. Se usa una pregunta corta (don't you?) o simplemente nada."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "el-futuro.will.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "It's very hot in here. — OK, I ___ the window.",
+      "opciones": [
+        {
+          "texto": "'ll open",
+          "correcta": true,
+          "porque": "Correcto: decides en el momento, como reacción a lo que te dicen: I'll open."
+        },
+        {
+          "texto": "open",
+          "correcta": false,
+          "porque": "Calco del presente español («yo la abro»). Una decisión en el momento necesita will."
+        },
+        {
+          "texto": "will to open",
+          "correcta": false,
+          "porque": "Después de will no va to."
+        },
+        {
+          "texto": "'ll opening",
+          "correcta": false,
+          "porque": "Después de will el verbo va en forma base: open."
+        }
+      ],
+      "pistas": [
+        "¿La decisión es anterior o nace ahora?",
+        "Reaccionas a lo que acaba de decir la otra persona.",
+        "Decisión en el momento: will / 'll + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "'ll open",
+        "explicacion": "La decisión nace en el momento, como reacción: I'll open the window. El presente simple (I open) no sirve para ofrecerte, y después de will va el verbo base sin to."
+      }
+    },
+    {
+      "id": "el-futuro.will.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la negación de will (forma contraída).",
+      "frase": "Don't worry, I ___ tell anyone. It's a secret.",
+      "respuestas": [
+        [
+          "won't"
+        ]
+      ],
+      "traduccion": "No te preocupes, no le voy a decir a nadie. Es un secreto.",
+      "pistas": [
+        "Es una promesa negativa.",
+        "La negación de will no usa do.",
+        "La contracción de will not es irregular: no es «willn't», cambia la vocal."
+      ],
+      "solucion": {
+        "respuesta": "won't",
+        "explicacion": "Una promesa negativa usa won't (will not) + verbo base: I won't tell anyone."
+      },
+      "errores_tipicos": {
+        "don't": "I don't tell anyone describe un hábito, no una promesa sobre el futuro. Promesa: I won't tell anyone.",
+        "want": "Want es «querer». La negación de will es won't, que suena /woʊnt/.",
+        "willn't": "La contracción de will not es won't."
+      }
+    },
+    {
+      "id": "el-futuro.will.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada situación con la frase adecuada.",
+      "pares": [
+        {
+          "a": "Estás en un restaurante y decides qué comer.",
+          "b": "I'll have the fish, please."
+        },
+        {
+          "a": "Tu amiga lleva muchas bolsas.",
+          "b": "I'll help you with those."
+        },
+        {
+          "a": "Prometes llamar al llegar.",
+          "b": "I'll call you when I arrive."
+        },
+        {
+          "a": "Das tu opinión sobre el partido.",
+          "b": "I think Mexico will win."
+        },
+        {
+          "a": "Pides un favor a tu hermano.",
+          "b": "Will you lend me your bike?"
+        },
+        {
+          "a": "Tu carro no funciona.",
+          "b": "My car won't start."
+        }
+      ],
+      "pistas": [
+        "Todas usan will, pero con funciones distintas.",
+        "Decidir, ofrecer, prometer, opinar, pedir, algo que no funciona.",
+        "Busca la pregunta que pide algo, la opinión con I think y la negación que significa «se niega a funcionar»."
+      ],
+      "solucion": {
+        "respuesta": "restaurante → I'll have the fish; bolsas → I'll help you; llamar → I'll call you; partido → I think Mexico will win; hermano → Will you lend me…?; carro → My car won't start.",
+        "explicacion": "Will tiene varias funciones: decidir en el momento (I'll have), ofrecer (I'll help), prometer (I'll call), predecir con una opinión (I think… will), pedir (Will you…?) y decir que algo se niega a funcionar (won't start)."
+      }
+    },
+    {
+      "id": "el-futuro.will.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Distingue won't y want.",
+      "texto": "I won't go. I want to stay home.",
+      "ipa": "/aɪ ˈwoʊnt ˈɡoʊ · aɪ ˈwɑnt tə ˈsteɪ ˈhoʊm/",
+      "consejo": "Won't: labios redondos que van de «o» a «u» (/oʊ/). Want: boca abierta, «a» larga (/ɑ/). Exagera la diferencia al principio; si las dices igual, cambias «no voy a ir» por «quiero ir».",
+      "es": "No voy a ir. Quiero quedarme en casa."
+    },
+    {
+      "id": "el-futuro.will.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta.",
+      "origen": "You will be at home tonight.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Will you be at home tonight?"
+      ],
+      "pistas": [
+        "Will es un modal: no necesita do.",
+        "Mueve will delante del sujeto.",
+        "Will + sujeto + verbo base + resto, como en Will they come tomorrow?"
+      ],
+      "solucion": {
+        "respuesta": "Will you be at home tonight?",
+        "explicacion": "Para preguntar con will basta con ponerlo delante del sujeto; no se usa do. El verbo be sigue en forma base."
+      },
+      "errores_tipicos": {
+        "Do you will be at home tonight?": "Will no necesita do: Will you be…?",
+        "Will you are at home tonight?": "Después de will, forma base: be."
+      }
+    },
+    {
+      "id": "el-futuro.will.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la oración.",
+      "fichas": [
+        "late",
+        "He'll",
+        "be",
+        "probably"
+      ],
+      "respuestas": [
+        "He'll probably be late"
+      ],
+      "traduccion": "Probablemente llegue tarde.",
+      "pistas": [
+        "Empieza con el sujeto y will contraído.",
+        "Probably va entre will y el verbo.",
+        "Sujeto + 'll + adverbio + verbo base + adjetivo, como en She'll probably call."
+      ],
+      "solucion": {
+        "respuesta": "He'll probably be late.",
+        "explicacion": "En afirmativa, probably va después de will y antes del verbo: He'll probably be late."
+      }
+    },
+    {
+      "id": "el-futuro.will.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Next Friday I will have 18 years.",
+      "error": "have 18 years",
+      "correcciones": [
+        "be 18",
+        "be 18 years old",
+        "be eighteen"
+      ],
+      "frase_correcta": "Next Friday I will be 18.",
+      "pistas": [
+        "Habla de la edad.",
+        "En inglés la edad no se «tiene».",
+        "La edad se dice con el verbo «ser/estar» + número, igual que en I'm 25."
+      ],
+      "solucion": {
+        "respuesta": "have 18 years → be 18",
+        "explicacion": "La edad se expresa con be: I will be 18 (o 18 years old). «Have 18 years» es un calco de «tener 18 años»."
+      }
+    },
+    {
+      "id": "el-futuro.will.08",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "I don't think it'll rain tomorrow.",
+      "respuestas": [
+        "I don't think it will rain tomorrow."
+      ],
+      "pistas": [
+        "Es una predicción negativa.",
+        "Se niega el verbo de opinión, no will. It'll suena «I-rəl».",
+        "Sujeto + don't + verbo de opinión + it + will contraído + verbo del clima + «mañana»."
+      ],
+      "solucion": {
+        "respuesta": "I don't think it'll rain tomorrow.",
+        "explicacion": "Para una predicción negativa se niega think: I don't think it will (it'll) rain. It'll suena /ˈɪɾəl/, con la t suave y la l oscura."
+      }
+    },
+    {
+      "id": "el-futuro.will.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Es un ofrecimiento.",
+      "es": "Te ayudo con tu maleta.",
+      "respuestas": [
+        "I'll help you with your suitcase.",
+        "I'll help you with your bag.",
+        "Let me help you with your suitcase.",
+        "I'll help you with your luggage.",
+        "I'll help you carry your suitcase."
+      ],
+      "pistas": [
+        "El español usa presente, pero es un ofrecimiento en el momento.",
+        "Necesitas will contraído con I.",
+        "Sujeto + 'll + verbo base + persona (sin to) + with + posesivo + objeto."
+      ],
+      "solucion": {
+        "respuesta": "I'll help you with your suitcase.",
+        "explicacion": "Un ofrecimiento espontáneo se expresa con will: I'll help you. El presente simple (I help you) describiría un hábito. Let me help you (déjame ayudarte) también es natural."
+      },
+      "errores_tipicos": {
+        "I help you with your suitcase.": "El presente simple suena a hábito. Para ofrecerte: I'll help you…",
+        "I'll help to you with your suitcase.": "Help lleva a la persona directamente: help you.",
+        "I will to help you with your suitcase.": "Después de will no va to."
+      }
+    },
+    {
+      "id": "el-futuro.will.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Tu mamá te pide un favor.",
+      "lineas": [
+        {
+          "quien": "Mom",
+          "en": "Will you buy some bread on your way home?",
+          "es": "¿Compras pan de camino a casa?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Sure, I will.",
+          "correcta": true,
+          "porque": "Correcto: aceptas con una respuesta corta sin contraer: I will."
+        },
+        {
+          "texto": "Sure, I'll.",
+          "correcta": false,
+          "porque": "En la respuesta corta afirmativa no se contrae: I will."
+        },
+        {
+          "texto": "Yes, I do.",
+          "correcta": false,
+          "porque": "La pregunta usa will, así que la respuesta corta también: Yes, I will."
+        },
+        {
+          "texto": "Yes, I buy.",
+          "correcta": false,
+          "porque": "El presente simple no sirve como promesa; y la respuesta natural es corta: Sure, I will."
+        }
+      ],
+      "pistas": [
+        "La pregunta empieza con will.",
+        "La respuesta corta repite el auxiliar.",
+        "Respuesta corta: sujeto + el mismo auxiliar de la pregunta, sin contraer."
+      ],
+      "solucion": {
+        "respuesta": "Sure, I will.",
+        "explicacion": "Will you…? se contesta con Yes / Sure, I will o No, I won't. En respuestas cortas afirmativas nunca se contrae (no «I'll»)."
+      }
+    },
+    {
+      "id": "el-futuro.will.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa I don't think.",
+      "es": "No creo que Ana venga a la fiesta.",
+      "respuestas": [
+        "I don't think Ana will come to the party."
+      ],
+      "pistas": [
+        "Es una predicción negativa con opinión.",
+        "En inglés se niega think y will queda en afirmativa.",
+        "Sujeto + don't + verbo de opinión + persona + will + verbo base + to the + lugar."
+      ],
+      "solucion": {
+        "respuesta": "I don't think Ana will come to the party.",
+        "explicacion": "Para una predicción negativa el inglés prefiere negar el verbo de opinión: I don't think + Ana will come. Después de will, come en forma base (no «comes» ni «venga»)."
+      },
+      "errores_tipicos": {
+        "I don't think Ana will comes to the party.": "Después de will el verbo va en forma base: come.",
+        "I don't think Ana comes to the party.": "Para predecir el futuro se necesita will: Ana will come.",
+        "I no think Ana will come to the party.": "La negación de think necesita do: I don't think."
+      }
+    },
+    {
+      "id": "el-futuro.will.12",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con will o won't y probably en el orden correcto.",
+      "frase": "The traffic is terrible today. We ___ arrive on time. (probablemente no)",
+      "respuestas": [
+        [
+          "probably won't",
+          "probably will not",
+          "will probably not"
+        ]
+      ],
+      "traduccion": "El tráfico está terrible hoy. Probablemente no lleguemos a tiempo.",
+      "pistas": [
+        "Es una predicción negativa con probably.",
+        "El orden de probably cambia en la negativa.",
+        "En la negativa el adverbio va antes del auxiliar negativo; en la afirmativa, después de will."
+      ],
+      "solucion": {
+        "respuesta": "probably won't",
+        "explicacion": "Con won't, probably va delante: We probably won't arrive on time. En afirmativa iría después: We'll probably arrive late."
+      },
+      "errores_tipicos": {
+        "won't probably": "Con won't, probably va antes: probably won't.",
+        "probably don't": "Es una predicción sobre el futuro: probably won't."
+      }
+    },
+    {
+      "id": "el-futuro.will.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe tus predicciones para dentro de diez años.",
+      "objetivo": "Hacer predicciones y dar opiniones con will, won't, I think, I don't think y probably.",
+      "instrucciones": "Escribe un párrafo (40–70 palabras) con predicciones sobre tu vida o sobre el mundo dentro de diez años. Usa I think… will, I don't think… will, probably y won't al menos una vez cada uno.",
+      "vocabulario_apoyo": [
+        "in ten years",
+        "robots",
+        "electric cars",
+        "live in…",
+        "work from home",
+        "speak English",
+        "have a house / a family",
+        "be + edad",
+        "I'm sure",
+        "maybe"
+      ],
+      "estructuras": [
+        "I think … will …",
+        "I don't think … will …",
+        "… will probably …",
+        "… probably won't …"
+      ],
+      "ejemplo": "In twenty years, my son will be 25. I think he'll live in another city. He probably won't want to live with us!",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas I think… will o 'll",
+          "patron": "\\bi think\\b"
+        },
+        {
+          "descripcion": "Usas I don't think",
+          "patron": "\\bi don'?t think\\b"
+        },
+        {
+          "descripcion": "Usas probably",
+          "patron": "\\bprobably\\b"
+        },
+        {
+          "descripcion": "Usas won't",
+          "patron": "\\bwon'?t\\b|\\bwill not\\b"
+        }
+      ],
+      "criterios": [
+        "¿Después de will / won't el verbo está en forma base?",
+        "¿Pusiste probably después de will y antes de won't?",
+        "¿Negaste think (I don't think… will) en lugar de will?",
+        "¿Usaste be para la edad (I'll be 40)?"
+      ],
+      "modelo": "In ten years I'll be 38. I think I'll live in a small house near the sea, and I'll probably work from home. I'm sure I'll speak English very well! I don't think people will drive gas cars; they'll probably have electric cars. My parents will be older, but I think they'll be happy. I won't stop learning new things.",
+      "explicacion": "El modelo usa will para hechos (I'll be 38), opiniones (I think I'll live…, I'm sure I'll speak…) y predicciones negativas con I don't think… will. Probably va entre will y el verbo (I'll probably work), y won't cierra con una promesa personal.",
+      "errores_comunes": [
+        "«I'll have 38 years»: la edad va con be.",
+        "«I think people won't…»: es posible, pero más natural «I don't think people will…».",
+        "«will probably not» o «won't probably»: el orden natural es probably won't."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Preparando una fiesta",
+    "contexto": "Tu amigo Omar organiza una fiesta sorpresa y necesita ayuda. Tú no habías pensado en nada: decides y te ofreces en el momento.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "The party is tomorrow and I still need a cake, music and drinks!",
+        "es": "¡La fiesta es mañana y todavía necesito un pastel, música y bebidas!"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Omar",
+        "en": "Thank you so much! And please, don't tell Priya!",
+        "es": "¡Muchísimas gracias! ¡Y por favor, no le digas a Priya!"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Ofrécete a hacer dos cosas con I'll…, haz una predicción con I think… will y responde a lo último con una promesa con won't.",
+    "modelo": "Don't worry, I'll make the cake, and I'll bring my speakers for the music. I think Priya will love it! — Of course, I won't say a word. I promise.",
+    "alternativas": [
+      "No problem. I'll buy the drinks and I'll ask Sam to help with the music. I'm sure it'll be a great party. — I won't tell her, don't worry.",
+      "I'll get the cake from the bakery. I think everyone will have fun. — Relax, I won't tell anyone!"
+    ],
+    "claves": [
+      "Ofrecimientos: I'll + verbo base.",
+      "Predicción: I think / I'm sure + will.",
+      "Promesa: I won't + verbo base."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Will / 'll + verbo base para todos los sujetos; negación won't; pregunta Will + sujeto + verbo…?",
+      "Respuestas cortas: Yes, I will. / No, I won't. Nunca «Yes, I'll».",
+      "Usos: decisiones en el momento (I'll have the soup), ofrecimientos (I'll help you), promesas (I won't tell anyone), peticiones (Will you…?).",
+      "Predicciones y opiniones: I think… will, I don't think… will, will probably / probably won't.",
+      "El español usa presente para ofrecer («te ayudo»); el inglés necesita will."
+    ],
+    "recuerda": [
+      "I'll suena /aɪl/ con l oscura; won't /woʊnt/ ≠ want /wɑnt/.",
+      "La edad con be: I'll be 30.",
+      "Will you…? es directo; Could you…? es más cortés."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "el-futuro.will.r1",
+      "frente": "Suena el timbre y decides abrir. ¿Qué dices?",
+      "reverso": "I'll get it! / I'll open the door.",
+      "nota": "Decisión en el momento: will."
+    },
+    {
+      "id": "el-futuro.will.r2",
+      "frente": "Respuesta corta: Will you call me? (sí)",
+      "reverso": "Yes, I will.",
+      "nota": "Sin contraer."
+    },
+    {
+      "id": "el-futuro.will.r3",
+      "frente": "Di en inglés: «No creo que llueva»",
+      "reverso": "I don't think it will rain."
+    },
+    {
+      "id": "el-futuro.will.r4",
+      "frente": "¿Dónde va probably? He ___ will ___ be late. / He ___ won't ___ come.",
+      "reverso": "He will probably be late. / He probably won't come."
+    },
+    {
+      "id": "el-futuro.will.r5",
+      "frente": "Corrige: I will have 30 years in May.",
+      "reverso": "I will be 30 in May."
+    }
+  ]
+}

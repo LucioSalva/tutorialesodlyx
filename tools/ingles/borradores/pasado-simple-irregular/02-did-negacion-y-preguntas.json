@@ -1,0 +1,1261 @@
+{
+  "slug": "did-negacion-y-preguntas",
+  "titulo": "Did: negación y preguntas",
+  "minutos": 50,
+  "objetivos": [
+    "Negar en pasado con didn't + forma base (I didn't go).",
+    "Preguntar con Did + sujeto + forma base (Did you see…?) y contestar con Yes, I did / No, I didn't.",
+    "Saber que be (was / were) y could no usan did, pero have sí."
+  ],
+  "situacion": {
+    "titulo": "El día libre de Omar",
+    "texto": "Omar tuvo el día libre, pero no hizo casi nada de lo que había planeado. Su hermana Aisha le pregunta. Fíjate en que después de did y didn't los verbos vuelven a su forma base: go, see, clean… nunca went, saw ni cleaned.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Did you go to the gym this morning?",
+        "es": "¿Fuiste al gimnasio en la mañana?"
+      },
+      {
+        "quien": "Omar",
+        "en": "No, I didn't. I didn't wake up until eleven!",
+        "es": "No. ¡No me desperté hasta las once!"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Did you clean your room, at least?",
+        "es": "¿Al menos limpiaste tu cuarto?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Well… no. But I had a great lunch.",
+        "es": "Pues… no. Pero comí muy rico."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Were you tired?",
+        "es": "¿Estabas cansado?"
+      },
+      {
+        "quien": "Omar",
+        "en": "Yes, I was. I didn't sleep well last night.",
+        "es": "Sí. Anoche no dormí bien."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "negacion-didnt",
+      "titulo": "Negar en pasado: didn't + forma base",
+      "que_es": "Para negar en pasado cualquier verbo (menos be y could) se usa el auxiliar **did** + **not**, casi siempre contraído: **didn't**. Es el mismo mecanismo que don't / doesn't en presente, pero en pasado. La clave: **did ya lleva la marca de pasado**, así que el verbo principal vuelve a su **forma base**.",
+      "para_que": [
+        "Decir lo que no hiciste: «I didn't call him».",
+        "Corregir información: «She didn't go to Cancún. She went to Tulum».",
+        "Explicar un problema: «The alarm didn't work»."
+      ],
+      "como_funciona": "**Sujeto + didn't + verbo en forma base + resto.** Didn't es igual para todos los sujetos (I didn't, she didn't, they didn't) y sirve igual para regulares e irregulares. Piensa que el pasado solo se marca una vez: si ya está en did, el verbo principal no puede volver a llevarlo. Por eso: She went → She **didn't go** (no «didn't went»); I worked → I **didn't work** (no «didn't worked»). Tampoco hay -s: He didn't go (no «didn't goes»). Y no se usa don't / doesn't, que son del presente. Con el verbo have funciona igual: I had time → I didn't have time.",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't (did not)",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo en forma base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "go",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the party",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ella no fue a la fiesta."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación → negación",
+          "columnas": [
+            "Afirmación",
+            "Negación",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "I worked on Sunday.",
+              "I didn't work on Sunday.",
+              "No trabajé el domingo."
+            ],
+            [
+              "She went to school.",
+              "She didn't go to school.",
+              "No fue a la escuela."
+            ],
+            [
+              "We saw the fireworks.",
+              "We didn't see the fireworks.",
+              "No vimos los fuegos artificiales."
+            ],
+            [
+              "They had time.",
+              "They didn't have time.",
+              "No tuvieron tiempo."
+            ],
+            [
+              "He bought the tickets.",
+              "He didn't buy the tickets.",
+              "No compró los boletos."
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I didn't see your message.",
+          "es": "No vi tu mensaje.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "see",
+              "rol": "verbo"
+            },
+            {
+              "t": "your message",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Afirmativo: I saw. Negativo: didn't + see (base), no «didn't saw»."
+        },
+        {
+          "en": "My son didn't eat his vegetables.",
+          "es": "Mi hijo no se comió sus verduras.",
+          "partes": [
+            {
+              "t": "My son",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            },
+            {
+              "t": "his vegetables",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sujeto he: didn't eat, sin -s y sin ate."
+        },
+        {
+          "en": "We didn't have enough money.",
+          "es": "No teníamos suficiente dinero.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "enough money",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have es un verbo normal en pasado: se niega con didn't have (no «hadn't» en este uso)."
+        },
+        {
+          "en": "The bus didn't stop.",
+          "es": "El camión no se detuvo.",
+          "partes": [
+            {
+              "t": "The bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "stop",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Con regulares igual: la -ed desaparece (stopped → didn't stop)."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Did se lleva el pasado",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "went",
+                "rol": "verbo"
+              },
+              {
+                "t": "to the party",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "didn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "go",
+                "rol": "verbo"
+              },
+              {
+                "t": "to the party",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Went = go + pasado. Al negar, el pasado pasa a did (didn't) y queda go."
+      },
+      "pronunciacion": [
+        {
+          "texto": "didn't",
+          "ipa": "/ˈdɪdənt/",
+          "consejo": "Dos sílabas rápidas: DID-nt. La segunda casi no tiene vocal: la lengua pasa de la d a la n sin separarse del paladar. La t final muchas veces no se suelta, sobre todo antes de consonante: «I didn' go».",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I didn't went to work.",
+          "bien": "I didn't go to work.",
+          "porque": "Didn't ya indica pasado; el verbo va en forma base: go."
+        },
+        {
+          "mal": "She didn't goes.",
+          "bien": "She didn't go.",
+          "porque": "Después de didn't nunca hay -s, sea cual sea el sujeto."
+        },
+        {
+          "mal": "I no saw him.",
+          "bien": "I didn't see him.",
+          "porque": "En inglés el «no» del español no va delante del verbo: se usa didn't + base."
+        },
+        {
+          "mal": "I don't worked yesterday.",
+          "bien": "I didn't work yesterday.",
+          "porque": "Don't es del presente. En pasado es didn't + base."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-did",
+      "titulo": "Preguntar en pasado: Did…?",
+      "que_es": "Para preguntar en pasado (de nuevo, con cualquier verbo menos be y could) se pone **Did** delante del sujeto y el verbo en **forma base**. Se contesta con respuestas cortas: **Yes, I did.** / **No, I didn't.**",
+      "para_que": [
+        "Preguntar por lo que alguien hizo: «Did you call your mom?».",
+        "Confirmar información: «Did the package arrive?».",
+        "Reaccionar a lo que te cuentan: «Did you like it?»."
+      ],
+      "como_funciona": "**Did + sujeto + verbo en forma base + resto?** Did es igual para todos los sujetos. Como en la negación, el pasado está en did, así que el verbo vuelve a la base: Did you see (no «saw»), Did she go (no «went» ni «goes»). **Respuestas cortas:** Yes + pronombre + did / No + pronombre + didn't. No se repite el verbo principal: a «Did you like the movie?» se contesta «Yes, I did», no «Yes, I liked» (aunque puedes añadir una oración completa después: Yes, I did. I liked it a lot). Como en español, en la conversación a veces se pregunta con el orden de la afirmación y entonación de pregunta («You went to the party?»), pero eso expresa sorpresa. La pregunta normal lleva did.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en forma base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "see",
+              "rol": "verbo"
+            },
+            {
+              "t": "the game",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Viste el partido?"
+        },
+        {
+          "etiqueta": "Respuestas cortas",
+          "formula": [
+            {
+              "t": "Yes / No",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "did / didn't",
+              "rol": "auxiliar"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            }
+          ],
+          "es": "Sí."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Did you have a good weekend?",
+          "es": "¿Tuviste un buen fin de semana?",
+          "partes": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a good weekend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have es un verbo normal: pregunta con did. Respuesta: Yes, I did / No, I didn't."
+        },
+        {
+          "en": "Did she call you last night?",
+          "es": "¿Te llamó anoche?",
+          "partes": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Call en forma base, sin -ed y sin -s."
+        },
+        {
+          "en": "Did the kids like the museum?",
+          "es": "¿A los niños les gustó el museo?",
+          "partes": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "like",
+              "rol": "verbo"
+            },
+            {
+              "t": "the museum",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Respuesta con pronombre: Yes, they did."
+        },
+        {
+          "en": "Did you bring your passport? — Yes, I did.",
+          "es": "¿Trajiste tu pasaporte? — Sí.",
+          "nota": "Afirmativo sería I brought; en la pregunta, bring. La respuesta corta no repite brought."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a pregunta y respuesta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "They",
+                "rol": "sujeto"
+              },
+              {
+                "t": "saw",
+                "rol": "verbo"
+              },
+              {
+                "t": "the whales",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Did",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "they",
+                "rol": "sujeto"
+              },
+              {
+                "t": "see",
+                "rol": "verbo"
+              },
+              {
+                "t": "the whales",
+                "rol": "complemento"
+              },
+              {
+                "t": "?",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Respuesta corta",
+            "partes": [
+              {
+                "t": "Yes,",
+                "rol": "otro"
+              },
+              {
+                "t": "they",
+                "rol": "sujeto"
+              },
+              {
+                "t": "did",
+                "rol": "auxiliar"
+              }
+            ]
+          }
+        ],
+        "pie": "Saw = see + pasado. En la pregunta, did toma el pasado y queda see."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Did you…?",
+          "ipa": "/ˈdɪdʒu/ · rápido /ˈdɪdʒə/",
+          "consejo": "En la conversación did y you se funden: la d final y la y de you forman /dʒ/, el sonido de la j inglesa de jeans. Se parece a la «y» fuerte de un «¡yo!» dicho con énfasis, o a una «ch» con vibración en la garganta: «dí-dʒu» / «dí-dʒə». Did you see it? suena «dí-dʒə-sí-it».",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Did you saw the game?",
+          "bien": "Did you see the game?",
+          "porque": "Did ya marca el pasado: el verbo va en base."
+        },
+        {
+          "mal": "Did she went to school?",
+          "bien": "Did she go to school?",
+          "porque": "Mismo principio: did + go."
+        },
+        {
+          "mal": "Did you like it? — Yes, I liked.",
+          "bien": "Did you like it? — Yes, I did.",
+          "porque": "La respuesta corta repite el auxiliar (did), no el verbo principal."
+        },
+        {
+          "mal": "Went you to the party?",
+          "bien": "Did you go to the party?",
+          "porque": "Con los verbos normales no se invierte el verbo: se necesita did."
+        }
+      ]
+    },
+    {
+      "id": "be-y-could-sin-did",
+      "titulo": "Was, were y could no usan did",
+      "que_es": "Hay dos verbos que en pasado **no necesitan did**: **be** (was / were) y **could**. Ya los estudiaste: se niegan añadiendo not (wasn't, weren't, couldn't) y preguntan invirtiendo el orden (Were you…?, Could you…?). Mezclarlos con did es uno de los errores más frecuentes en esta etapa.",
+      "para_que": [
+        "Preguntar por estados y lugares: «Were you at home?» y no «Did you were…?».",
+        "Negar habilidades pasadas: «I couldn't sleep»."
+      ],
+      "como_funciona": "Pregúntate: **¿el verbo es be o could?** Si sí, funcionan solos: I **wasn't** tired / **Were** you tired? / I **couldn't** go / **Could** you go? Si no, necesitas did: I **didn't** go / **Did** you go? Cuidado con **have**: aunque en presente tiene la forma especial have got, en pasado es un verbo normal y usa did: Did you have…? / I didn't have… Y cuidado con mezclar: en una misma conversación puedes necesitar las dos estructuras: «Did you go to the concert? — Yes. — Was it good?».",
+      "estructuras": [
+        {
+          "etiqueta": "Be: sin did",
+          "formula": [
+            {
+              "t": "Was / Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "adjetivo / lugar",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Were",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "tired",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Estabas cansado?"
+        },
+        {
+          "etiqueta": "Otros verbos: con did",
+          "formula": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "sleep",
+              "rol": "verbo"
+            },
+            {
+              "t": "well",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Dormiste bien?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "¿Con did o sin did?",
+          "columnas": [
+            "Verbo",
+            "Negación",
+            "Pregunta"
+          ],
+          "filas": [
+            [
+              "be",
+              "I wasn't / They weren't",
+              "Was she…? / Were you…?"
+            ],
+            [
+              "could",
+              "I couldn't",
+              "Could you…?"
+            ],
+            [
+              "have",
+              "I didn't have",
+              "Did you have…?"
+            ],
+            [
+              "go, see, work…",
+              "I didn't go",
+              "Did you go…?"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The hotel wasn't very clean.",
+          "es": "El hotel no estaba muy limpio.",
+          "partes": [
+            {
+              "t": "The hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "wasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "very clean",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Be: se niega con wasn't, sin did."
+        },
+        {
+          "en": "I couldn't find my keys.",
+          "es": "No pude encontrar mis llaves.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "couldn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "find",
+              "rol": "verbo"
+            },
+            {
+              "t": "my keys",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Could funciona solo; el verbo que le sigue (find) va en base, como siempre tras could."
+        },
+        {
+          "en": "Did you have breakfast?",
+          "es": "¿Desayunaste?",
+          "partes": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "breakfast",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have en pasado es un verbo normal: necesita did."
+        },
+        {
+          "en": "Did you go to the concert? Was it good?",
+          "es": "¿Fuiste al concierto? ¿Estuvo bueno?",
+          "nota": "Dos preguntas seguidas, dos estructuras: go necesita did; be (was) no."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Be: sin did",
+          "items": [
+            "Were you at work?",
+            "I wasn't hungry.",
+            "Was the food good?"
+          ]
+        },
+        "b": {
+          "titulo": "Verbos normales: con did",
+          "items": [
+            "Did you work?",
+            "I didn't eat.",
+            "Did you like the food?"
+          ]
+        },
+        "veredicto": "Estar en el trabajo (be at work) no usa did; trabajar (work) sí. Si el verbo principal es was / were, did sobra."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Were you tired? — Did you sleep?",
+          "ipa": "/wɚ ju ˈtaɪɚd ‖ ˈdɪdʒu slip/",
+          "consejo": "Las dos preguntas empiezan con un sonido débil y rápido: were /wɚ/ y did you /ˈdɪdʒu/. La voz sube al final de cada una (tired, sleep)."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Did you were tired?",
+          "bien": "Were you tired?",
+          "porque": "Be no usa did: se pregunta invirtiendo was / were."
+        },
+        {
+          "mal": "I didn't was at home.",
+          "bien": "I wasn't at home.",
+          "porque": "Be se niega solo: wasn't."
+        },
+        {
+          "mal": "I didn't could sleep.",
+          "bien": "I couldn't sleep.",
+          "porque": "Could se niega solo: couldn't."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "We ___ to the beach because it was cold.",
+      "opciones": [
+        {
+          "texto": "didn't go",
+          "correcta": true,
+          "porque": "Negación en pasado: didn't + forma base (go)."
+        },
+        {
+          "texto": "didn't went",
+          "correcta": false,
+          "porque": "Didn't ya lleva el pasado; went sobra: didn't go."
+        },
+        {
+          "texto": "don't went",
+          "correcta": false,
+          "porque": "Don't es de presente, y además went no puede ir tras un auxiliar."
+        },
+        {
+          "texto": "no went",
+          "correcta": false,
+          "porque": "En inglés no se niega con «no» delante del verbo."
+        }
+      ],
+      "pistas": [
+        "La negación en pasado usa un auxiliar.",
+        "Después del auxiliar, ¿el verbo va en pasado o en base?",
+        "didn't + forma base."
+      ],
+      "solucion": {
+        "respuesta": "didn't go",
+        "explicacion": "En pasado se niega con didn't, y como didn't ya marca el pasado, el verbo va en forma base: go. «Didn't went» marca el pasado dos veces."
+      },
+      "audio": true
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de see.",
+      "frase": "She didn't ___ the message.",
+      "traduccion": "No vio el mensaje.",
+      "respuestas": [
+        [
+          "see"
+        ]
+      ],
+      "errores_tipicos": {
+        "saw": "Después de didn't, el verbo va en forma base: see.",
+        "sees": "Después de didn't nunca hay -s: see."
+      },
+      "pistas": [
+        "Didn't ya está en la oración.",
+        "¿Qué forma del verbo sigue a didn't?",
+        "didn't + forma base, sin -s."
+      ],
+      "solucion": {
+        "respuesta": "see",
+        "explicacion": "Didn't ya indica pasado, así que el verbo va en forma base: see. Ni saw (pasado) ni sees (presente con -s)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.03",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "They bought a new car.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "They didn't buy a new car."
+      ],
+      "errores_tipicos": {
+        "They didn't bought a new car.": "Tras didn't va la forma base: buy.",
+        "They don't buy a new car.": "Eso es presente. En pasado: didn't buy."
+      },
+      "pistas": [
+        "Necesitas didn't.",
+        "Bought es el pasado de buy; ¿qué forma va después de didn't?",
+        "Sujeto + didn't + forma base + resto, como en She didn't sell her old bike."
+      ],
+      "solucion": {
+        "respuesta": "They didn't buy a new car.",
+        "explicacion": "Se añade didn't y el verbo vuelve a la base: bought → buy. El pasado queda marcado solo en did."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "He took the bus.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Did he take the bus?"
+      ],
+      "errores_tipicos": {
+        "Did he took the bus?": "Tras did el verbo va en base: take.",
+        "Took he the bus?": "Con los verbos normales se necesita did: Did he take…?",
+        "Does he take the bus?": "Does es presente; la oración original está en pasado."
+      },
+      "pistas": [
+        "Las preguntas en pasado empiezan con un auxiliar.",
+        "Took es el pasado de take.",
+        "Did + sujeto + forma base + resto + ?, como en Did she catch the train?"
+      ],
+      "solucion": {
+        "respuesta": "Did he take the bus?",
+        "explicacion": "Did va delante del sujeto y el verbo vuelve a la base: took → take. Did es el mismo para todos los sujetos."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las respuestas cortas.",
+      "frase": "Did you enjoy the trip? — Yes, I ___. Did your parents come too? — No, they ___.",
+      "traduccion": "¿Disfrutaste el viaje? — Sí. ¿Tus papás también vinieron? — No.",
+      "respuestas": [
+        [
+          "did"
+        ],
+        [
+          "didn't"
+        ]
+      ],
+      "errores_tipicos": {
+        "enjoyed | didn't": "La respuesta corta usa did, no el verbo principal.",
+        "did | didn't come": "En la respuesta corta basta con didn't; no se repite el verbo.",
+        "did | weren't": "La pregunta usa did (come es verbo normal): No, they didn't."
+      },
+      "pistas": [
+        "Las respuestas cortas repiten el auxiliar de la pregunta.",
+        "¿Qué auxiliar tienen las dos preguntas?",
+        "La respuesta corta es pronombre + el auxiliar de la pregunta (afirmativo, o con n't si es negativa), sin el verbo principal."
+      ],
+      "solucion": {
+        "respuesta": "did · didn't",
+        "explicacion": "Las dos preguntas usan did, así que las respuestas cortas también: Yes, I did y No, they didn't. No se repite el verbo principal (enjoyed, come)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la palabra que empieza la pregunta.",
+      "pregunta": "___ you tired after the trip?",
+      "opciones": [
+        {
+          "texto": "Were",
+          "correcta": true,
+          "porque": "Tired es un adjetivo: la pregunta es con be (were), que no necesita did."
+        },
+        {
+          "texto": "Did",
+          "correcta": false,
+          "porque": "No hay otro verbo: el verbo es be. «Did you tired» no tiene verbo principal."
+        },
+        {
+          "texto": "Was",
+          "correcta": false,
+          "porque": "You siempre lleva were."
+        },
+        {
+          "texto": "Do",
+          "correcta": false,
+          "porque": "Do es presente y además be no usa do."
+        }
+      ],
+      "pistas": [
+        "¿Hay algún verbo en la oración además del hueco?",
+        "Tired es un adjetivo: «estar cansado».",
+        "Estar + adjetivo = be, y be forma sus preguntas sin did; con you se usa la forma plural del pasado de be."
+      ],
+      "solucion": {
+        "respuesta": "Were",
+        "explicacion": "La oración no tiene otro verbo: la idea es «estar cansado» (be tired). Be pregunta invirtiendo was / were, sin did. Con you, were."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Did you saw the game last night?",
+      "error": "saw",
+      "correcciones": [
+        "see"
+      ],
+      "frase_correcta": "Did you see the game last night?",
+      "pistas": [
+        "Did ya indica pasado.",
+        "¿Qué forma debe tener el verbo después de did?",
+        "Did + forma base."
+      ],
+      "solucion": {
+        "respuesta": "saw → see",
+        "explicacion": "Did lleva el pasado; el verbo principal va en forma base: see. Con saw el pasado se marcaría dos veces."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.08",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "I didn't was at home on Saturday.",
+      "error": "didn't was",
+      "correcciones": [
+        "wasn't"
+      ],
+      "frase_correcta": "I wasn't at home on Saturday.",
+      "pistas": [
+        "El verbo de la oración es be.",
+        "¿Be necesita did para negarse?",
+        "Be se niega sin did: not se añade directamente a su forma de pasado, como en They weren't at school."
+      ],
+      "solucion": {
+        "respuesta": "didn't was → wasn't",
+        "explicacion": "Be (was / were) no usa did: se niega añadiendo not. I wasn't at home. Did solo se usa con los verbos normales."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.09",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Tu amiga Priya te pregunta por la boda de tu primo.",
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "Did you have a good time at the wedding?",
+          "es": "¿La pasaste bien en la boda?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, I did. The music was great.",
+          "correcta": true,
+          "porque": "Respuesta corta con did (la pregunta usa did) y un detalle en pasado."
+        },
+        {
+          "texto": "Yes, I had.",
+          "correcta": false,
+          "porque": "La respuesta corta repite el auxiliar did, no el verbo have."
+        },
+        {
+          "texto": "Yes, I was. The music was great.",
+          "correcta": false,
+          "porque": "La pregunta no usa be, sino did: Yes, I did."
+        },
+        {
+          "texto": "Yes, I do. The music was great.",
+          "correcta": false,
+          "porque": "Do es presente; la pregunta es en pasado."
+        }
+      ],
+      "pistas": [
+        "Mira el auxiliar con el que empieza la pregunta.",
+        "La respuesta corta repite ese auxiliar.",
+        "A una pregunta con did se contesta con sujeto + did o didn't, y luego se puede añadir un detalle."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I did. The music was great.",
+        "explicacion": "La pregunta empieza por did, así que la respuesta corta es Yes, I did. Después puedes añadir información con otro verbo (the music was great)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Did you call your mom yesterday?",
+      "pistas": [
+        "Es una pregunta en pasado con did.",
+        "Did you se pronuncian juntos, casi como una sola palabra: «dí-dʒu».",
+        "Did + sujeto + forma base + persona + expresión de tiempo + ?, como en Did she visit her dad last week?"
+      ],
+      "solucion": {
+        "respuesta": "Did you call your mom yesterday?",
+        "explicacion": "Did you suena /ˈdɪdʒu/ porque se funden. Call va en forma base (sin -ed) porque did ya marca el pasado."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.11",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite la pregunta y la respuesta.",
+      "texto": "Did you see it? — No, I didn't.",
+      "ipa": "/ˈdɪdʒə si ɪt ‖ noʊ aɪ ˈdɪdənt/",
+      "consejo": "Did you se funde en «dí-dʒə». See it se enlaza: «sí-it». En la respuesta, didn't va al final y se dice con fuerza, pero la t casi no se suelta.",
+      "es": "¿Lo viste? — No."
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa at the hotel y la forma contraída.",
+      "es": "No comimos en el hotel.",
+      "respuestas": [
+        "We didn't eat at the hotel."
+      ],
+      "errores_tipicos": {
+        "We didn't ate at the hotel.": "Tras didn't va la forma base: eat.",
+        "We no ate at the hotel.": "Para negar un verbo normal en pasado se usa didn't + base.",
+        "We don't eat at the hotel.": "Eso es presente; en pasado es didn't eat."
+      },
+      "pistas": [
+        "Comer es eat, un verbo irregular (ate), pero aquí no hace falta su pasado.",
+        "La negación en pasado lleva auxiliar.",
+        "Sujeto + didn't + forma base + lugar, como en They didn't sleep at the hostel."
+      ],
+      "solucion": {
+        "respuesta": "We didn't eat at the hotel.",
+        "explicacion": "La negación en pasado es didn't + forma base. Aunque eat es irregular (ate), en la negación no se usa su pasado: didn't eat."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa party.",
+      "es": "¿Tu hermana vino a la fiesta?",
+      "respuestas": [
+        "Did your sister come to the party?"
+      ],
+      "errores_tipicos": {
+        "Did your sister came to the party?": "Tras did va la forma base: come.",
+        "Your sister came to the party?": "Ese orden solo expresa sorpresa; la pregunta normal lleva did.",
+        "Came your sister to the party?": "Los verbos normales no se invierten: Did your sister come…?"
+      },
+      "pistas": [
+        "Venir es come (pasado: came).",
+        "Las preguntas en pasado empiezan con did y el sujeto va después.",
+        "Did + sujeto + forma base + to + lugar + ?, como en Did your cousin go to the wedding?"
+      ],
+      "solucion": {
+        "respuesta": "Did your sister come to the party?",
+        "explicacion": "Did va primero, luego el sujeto (your sister) y el verbo en forma base (come, no came). A una fiesta se va o se viene to the party."
+      },
+      "audio": true
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "El interrogatorio de mamá",
+    "contexto": "Volviste de un fin de semana en la playa con amigos. Tu mamá, por teléfono, quiere saberlo todo.",
+    "dialogo": [
+      {
+        "quien": "Mamá",
+        "en": "Did you put on sunscreen?",
+        "es": "¿Te pusiste bloqueador?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Mamá",
+        "en": "Did you eat well? Were the hotel rooms clean?",
+        "es": "¿Comiste bien? ¿Los cuartos del hotel estaban limpios?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Contesta cada pregunta con una respuesta corta (did / didn't o was / were) y añade una oración con información. Usa al menos una negación con didn't y una con wasn't / weren't.",
+    "modelo": "Yes, I did, but I got a little red. — Yes, I did. We ate fish every day. — No, they weren't very clean, but we didn't spend much time in them.",
+    "alternativas": [
+      "No, I didn't. I forgot it! — Yes, I did. — Yes, they were. And the pool was amazing.",
+      "Yes, I did, Mom. — No, I didn't. I didn't have much money. — Yes, they were, but they weren't very big."
+    ],
+    "claves": [
+      "Did…? → Yes, I did / No, I didn't.",
+      "Were…? → Yes, they were / No, they weren't.",
+      "didn't + forma base: didn't spend, didn't have."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación: sujeto + didn't + forma base (I didn't go).",
+      "Pregunta: Did + sujeto + forma base? (Did you see…?)",
+      "Respuestas cortas: Yes, I did / No, I didn't.",
+      "Did es igual para todos los sujetos y lleva la marca de pasado.",
+      "Be (was / were) y could no usan did; have sí."
+    ],
+    "recuerda": [
+      "Nunca «didn't went» ni «Did you saw»: el pasado se marca una sola vez.",
+      "Nunca -s después de did / didn't.",
+      "Nunca «Did you were…?»: Were you…?"
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.r1",
+      "frente": "Niega: She went to work.",
+      "reverso": "She didn't go to work.",
+      "nota": "didn't + base."
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.r2",
+      "frente": "Pregunta: They saw the movie.",
+      "reverso": "Did they see the movie?",
+      "nota": "Did + sujeto + base."
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.r3",
+      "frente": "Did you like it? — Sí (respuesta corta).",
+      "reverso": "Yes, I did.",
+      "nota": "No «Yes, I liked»."
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.r4",
+      "frente": "Corrige: Did you were at home?",
+      "reverso": "Were you at home?",
+      "nota": "Be no usa did."
+    },
+    {
+      "id": "pasado-simple-irregular.did-negacion-y-preguntas.r5",
+      "frente": "¿Cómo se dice «No tuve tiempo»?",
+      "reverso": "I didn't have time.",
+      "nota": "Have en pasado usa did."
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "slug": "negacion-y-preguntas-continuo",
+  "titulo": "Negación y preguntas",
+  "minutos": 40,
+  "objetivos": [
+    "Negar en presente continuo con I'm not, isn't y aren't + verbo -ing.",
+    "Hacer preguntas de sí o no invirtiendo be y el sujeto (Are you listening?).",
+    "Contestar con respuestas cortas (Yes, she is. / No, they aren't.).",
+    "Formar preguntas con palabras interrogativas: What are you doing? Where is he going?"
+  ],
+  "situacion": {
+    "titulo": "¿Dónde estás?",
+    "texto": "Carlos espera a su amiga Lucía en la puerta del cine. La película empieza en diez minutos y Lucía no llega, así que la llama. Observa que en el presente continuo no aparece do ni does: todo el trabajo lo hace be.",
+    "dialogo": [
+      { "quien": "Carlos", "en": "Lucía! Where are you? Are you coming?", "es": "¡Lucía! ¿Dónde estás? ¿Ya vienes?" },
+      { "quien": "Lucía", "en": "Yes, I am! I'm on the bus.", "es": "¡Sí! Voy en el camión." },
+      { "quien": "Carlos", "en": "Is the bus moving?", "es": "¿El camión está avanzando?" },
+      { "quien": "Lucía", "en": "No, it isn't. There's a lot of traffic. What are you doing?", "es": "No. Hay muchísimo tráfico. ¿Tú qué estás haciendo?" },
+      { "quien": "Carlos", "en": "I'm waiting for you! I'm standing at the door of the movie theater.", "es": "¡Te estoy esperando! Estoy parado en la puerta del cine." },
+      { "quien": "Lucía", "en": "OK. Why aren't you answering my messages?", "es": "Bueno. ¿Y por qué no contestas mis mensajes?" },
+      { "quien": "Carlos", "en": "My phone is dying. See you soon!", "es": "Mi celular se está quedando sin pila. ¡Nos vemos pronto!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "negacion-continuo",
+      "titulo": "La negación: am not, isn't, aren't + -ing",
+      "que_es": "Para negar en presente continuo se pone [[not]] **después de be** y el verbo en -ing se queda igual: [[She is not sleeping]] → [[She isn't sleeping]]. Es la misma negación que ya conoces del verbo be; lo único nuevo es el verbo -ing que va detrás.",
+      "para_que": [
+        "Aclarar que algo no está pasando: I'm not sleeping, I'm thinking.",
+        "Corregir una suposición: The printer isn't working.",
+        "Explicar una situación temporal negativa: We aren't using the car this week."
+      ],
+      "como_funciona": "La fórmula es {{sujeto:Sujeto}} + {{auxiliar:am / is / are}} + {{negacion:not}} + {{verbo:verbo -ing}}. **No se usa do / does / don't / doesn't**: esos auxiliares son del presente simple. En el continuo el auxiliar ya existe (be), así que not se le pega a él.\n\nContracciones:\n- **I'm not** (la única forma contraída con I: «I amn't» no existe).\n- **you aren't / you're not**, **we aren't / we're not**, **they aren't / they're not**.\n- **he isn't / he's not**, **she isn't / she's not**, **it isn't / it's not**.\nLas dos contracciones significan lo mismo; [[he's not]] pone un poco más de énfasis en el not.\n\nUn truco muy natural para aclarar es negar y luego afirmar: [[I'm not sleeping. I'm thinking.]] (No estoy dormido, estoy pensando).",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "not", "rol": "negacion" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "The baby", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "not", "rol": "negacion" },
+            { "t": "sleeping", "rol": "verbo" }
+          ],
+          "es": "El bebé no está dormido."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Negación de work en todas las personas",
+          "columnas": ["Sujeto", "Forma completa", "Contracción 1", "Contracción 2"],
+          "filas": [
+            ["I", "I am not working", "I'm not working", "—"],
+            ["you", "you are not working", "you aren't working", "you're not working"],
+            ["he / she / it", "she is not working", "she isn't working", "she's not working"],
+            ["we", "we are not working", "we aren't working", "we're not working"],
+            ["they", "they are not working", "they aren't working", "they're not working"]
+          ],
+          "audio": [1, 2, 3]
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a negación y a pregunta",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              { "t": "She", "rol": "sujeto" },
+              { "t": "is", "rol": "auxiliar" },
+              { "t": "sleeping", "rol": "verbo" }
+            ]
+          },
+          {
+            "etiqueta": "Negación: not detrás de is",
+            "partes": [
+              { "t": "She", "rol": "sujeto" },
+              { "t": "is", "rol": "auxiliar" },
+              { "t": "not", "rol": "negacion" },
+              { "t": "sleeping", "rol": "verbo" }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta: is pasa delante del sujeto",
+            "partes": [
+              { "t": "Is", "rol": "auxiliar" },
+              { "t": "she", "rol": "sujeto" },
+              { "t": "sleeping?", "rol": "verbo" }
+            ]
+          }
+        ],
+        "pie": "El verbo sleeping no cambia en ningún paso. Todo el trabajo lo hace be: recibe el not o se mueve delante del sujeto. No aparece do ni does."
+      },
+      "ejemplos": [
+        {
+          "en": "I'm not sleeping.",
+          "es": "No estoy dormido.",
+          "situacion": "Alguien te ve con los ojos cerrados en el sillón.",
+          "partes": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "not", "rol": "negacion" },
+            { "t": "sleeping", "rol": "verbo" }
+          ],
+          "nota": "Con I la única contracción es I'm not. «I amn't» no existe y «I'm no sleeping» tampoco: la negación de un verbo es not, no no."
+        },
+        {
+          "en": "The elevator isn't working.",
+          "es": "El elevador no funciona.",
+          "partes": [
+            { "t": "The elevator", "rol": "sujeto" },
+            { "t": "isn't", "rol": "negacion" },
+            { "t": "working", "rol": "verbo" }
+          ],
+          "nota": "Para una avería temporal el inglés usa el continuo (isn't working). En español lo normal es el presente: «no funciona»."
+        },
+        {
+          "en": "My parents aren't watching TV.",
+          "es": "Mis papás no están viendo la tele.",
+          "partes": [
+            { "t": "My parents", "rol": "sujeto" },
+            { "t": "aren't", "rol": "negacion" },
+            { "t": "watching", "rol": "verbo" },
+            { "t": "TV", "rol": "complemento" }
+          ],
+          "nota": "Sujeto plural → aren't. También sería correcto, pero menos frecuente con un sustantivo, «My parents are not watching TV»."
+        },
+        {
+          "en": "We're not using the car this week.",
+          "es": "Esta semana no estamos usando el carro.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "not", "rol": "negacion" },
+            { "t": "using", "rol": "verbo" },
+            { "t": "the car", "rol": "complemento" },
+            { "t": "this week", "rol": "tiempo" }
+          ],
+          "nota": "Negación de una situación temporal. we're not y we aren't significan lo mismo. use pierde la e muda: using."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "isn't",
+          "ipa": "/ˈɪzənt/",
+          "consejo": "Dos sílabas cortas: I-zent. La s suena /z/ (con vibración) y la t final es muy suave, a veces casi no se oye. Aun así, la n y la vocal débil te dicen que es negativo.",
+          "lento": true
+        },
+        {
+          "texto": "aren't",
+          "ipa": "/ɑrnt/",
+          "consejo": "Una sola sílaba: una a abierta, una r inglesa (lengua curvada hacia atrás, sin vibrar) y nt. No digas «a-ren-te»."
+        },
+        {
+          "texto": "I'm not",
+          "ipa": "/aɪm ˈnɑt/",
+          "consejo": "El acento cae en not, sobre todo cuando corriges algo. La o de not es una a abierta en inglés estadounidense (/ɑ/), con la boca bien abierta."
+        }
+      ],
+      "errores": [
+        { "mal": "She doesn't sleeping.", "bien": "She isn't sleeping.", "porque": "doesn't es del presente simple. En el continuo se niega be: isn't." },
+        { "mal": "I not working today.", "bien": "I'm not working today.", "porque": "not necesita un auxiliar al que pegarse: I am not (I'm not)." },
+        { "mal": "They aren't play.", "bien": "They aren't playing.", "porque": "El verbo sigue en -ing también en la negación." },
+        { "mal": "I amn't listening.", "bien": "I'm not listening.", "porque": "am not no tiene contracción propia: con I se dice I'm not." }
+      ]
+    },
+    {
+      "id": "preguntas-si-no",
+      "titulo": "Preguntas de sí o no y respuestas cortas",
+      "que_es": "Para preguntar se **invierte** el orden de be y el sujeto: [[You are listening]] → [[Are you listening?]]. Es exactamente lo mismo que haces con be solo ([[Are you tired?]]), con el verbo -ing detrás del sujeto.",
+      "para_que": [
+        "Comprobar qué hace alguien: Are you working?",
+        "Preguntar por una situación temporal: Is your brother living with you this year?",
+        "Contestar rápido y con naturalidad: Yes, I am. / No, she isn't."
+      ],
+      "como_funciona": "La fórmula es {{auxiliar:Am / Is / Are}} + {{sujeto:sujeto}} + {{verbo:verbo -ing}} + complemento + ?. De nuevo, **nada de do / does**: «Do you working?» es un error frecuente porque se mezclan los dos presentes.\n\n**Respuestas cortas.** Se contesta con Yes / No + pronombre + be, sin repetir el verbo -ing:\n- Are you working? → Yes, I am. / No, I'm not.\n- Is she studying? → Yes, she is. / No, she isn't. (o No, she's not.)\n- Are they coming? → Yes, they are. / No, they aren't.\n\nDos reglas importantes:\n1. En las respuestas cortas **afirmativas no se contrae**: [[Yes, I am]], nunca «Yes, I'm»; [[Yes, she is]], nunca «Yes, she's». Una contracción no puede ir al final de la frase.\n2. Se usa el **pronombre**, no el nombre: Is Tom working? → Yes, he is.\n\nEn las preguntas de sí o no la entonación **sube** al final.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de sí o no",
+          "formula": [
+            { "t": "Am / Is / Are", "rol": "auxiliar" },
+            { "t": "sujeto", "rol": "sujeto" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "complemento?", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "Are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "listening", "rol": "verbo" },
+            { "t": "to me?", "rol": "complemento" }
+          ],
+          "es": "¿Me estás escuchando?"
+        },
+        {
+          "etiqueta": "Respuesta corta",
+          "formula": [
+            { "t": "Yes / No,", "rol": "otro" },
+            { "t": "pronombre", "rol": "sujeto" },
+            { "t": "am / is / are (+ not)", "rol": "auxiliar" }
+          ],
+          "ejemplo": [
+            { "t": "No,", "rol": "otro" },
+            { "t": "she", "rol": "sujeto" },
+            { "t": "isn't", "rol": "negacion" }
+          ],
+          "es": "No."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Preguntas y respuestas cortas",
+          "columnas": ["Pregunta", "Sí", "No"],
+          "filas": [
+            ["Am I talking too fast?", "Yes, you are.", "No, you aren't."],
+            ["Are you working?", "Yes, I am.", "No, I'm not."],
+            ["Is he cooking?", "Yes, he is.", "No, he isn't."],
+            ["Is it raining?", "Yes, it is.", "No, it isn't."],
+            ["Are we waiting for Ben?", "Yes, we are.", "No, we aren't."],
+            ["Are they playing?", "Yes, they are.", "No, they aren't."]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Is it raining?",
+          "es": "¿Está lloviendo?",
+          "partes": [
+            { "t": "Is", "rol": "auxiliar" },
+            { "t": "it", "rol": "sujeto" },
+            { "t": "raining", "rol": "verbo" }
+          ],
+          "nota": "El sujeto it se mantiene también en la pregunta. Respuesta: Yes, it is. / No, it isn't."
+        },
+        {
+          "en": "Are the kids doing their homework?",
+          "es": "¿Los niños están haciendo la tarea?",
+          "partes": [
+            { "t": "Are", "rol": "auxiliar" },
+            { "t": "the kids", "rol": "sujeto" },
+            { "t": "doing", "rol": "verbo" },
+            { "t": "their homework", "rol": "complemento" }
+          ],
+          "nota": "Aquí doing es el verbo principal (do + -ing = hacer), no el auxiliar do. Respuesta corta: Yes, they are (pronombre they en lugar de the kids)."
+        },
+        {
+          "en": "Is your brother living with you this year?",
+          "es": "¿Tu hermano está viviendo contigo este año?",
+          "partes": [
+            { "t": "Is", "rol": "auxiliar" },
+            { "t": "your brother", "rol": "sujeto" },
+            { "t": "living", "rol": "verbo" },
+            { "t": "with you", "rol": "complemento" },
+            { "t": "this year", "rol": "tiempo" }
+          ],
+          "nota": "Pregunta sobre una situación temporal. Respuesta: Yes, he is. / No, he isn't."
+        },
+        {
+          "en": "Am I talking too fast?",
+          "es": "¿Estoy hablando demasiado rápido?",
+          "partes": [
+            { "t": "Am", "rol": "auxiliar" },
+            { "t": "I", "rol": "sujeto" },
+            { "t": "talking", "rol": "verbo" },
+            { "t": "too fast", "rol": "complemento" }
+          ],
+          "nota": "Con I la pregunta empieza por Am. Muy útil cuando hablas y quieres comprobar que te entienden."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Are you listening?",
+          "ipa": "/ər jə ˈlɪsənɪŋ/",
+          "consejo": "are y you se dicen débiles y rápidos, casi «er-ya». El acento y la subida de la voz van en LIS-. La t de listen no se pronuncia.",
+          "lento": true
+        },
+        {
+          "texto": "Yes, I am.",
+          "ipa": "/jɛs aɪ ˈæm/",
+          "consejo": "Aquí am va al final y se pronuncia fuerte y completo, con la a abierta de «cat» /æ/ (entre a y e). Por eso no se puede contraer."
+        }
+      ],
+      "errores": [
+        { "mal": "Do you working today?", "bien": "Are you working today?", "porque": "La pregunta del continuo se hace con be, no con do." },
+        { "mal": "You are listening?", "bien": "Are you listening?", "porque": "En inglés escrito y formal hay que invertir: be va delante del sujeto. Subir la entonación sin invertir solo se hace en conversación, para mostrar sorpresa o pedir confirmación; como pregunta normal, invierte." },
+        { "mal": "Yes, I'm.", "bien": "Yes, I am.", "porque": "Las respuestas cortas afirmativas no se contraen." },
+        { "mal": "Is Ana working? — Yes, Ana is working.", "bien": "Is Ana working? — Yes, she is.", "porque": "No es incorrecto repetir, pero suena poco natural. Lo normal es respuesta corta con pronombre." }
+      ]
+    },
+    {
+      "id": "preguntas-wh-continuo",
+      "titulo": "Preguntas con What, Where, Why, Who…",
+      "que_es": "Para pedir información se pone la palabra interrogativa **delante** de la pregunta de sí o no: [[Are you doing?]] → [[What are you doing?]]. Es la pregunta más útil del presente continuo: «¿Qué estás haciendo?».",
+      "para_que": [
+        "Preguntar qué hace alguien: What are you doing?",
+        "Preguntar a dónde va: Where are you going?",
+        "Preguntar la razón de algo que pasa: Why is the baby crying?",
+        "Preguntar con quién habla o a quién espera: Who are you waiting for?"
+      ],
+      "como_funciona": "Fórmula: {{interrogativo:Wh-}} + {{auxiliar:am / is / are}} + {{sujeto:sujeto}} + {{verbo:verbo -ing}} + ?\n- What are you doing? — ¿Qué estás haciendo?\n- Where is she going? — ¿A dónde va?\n- Why are they laughing? — ¿Por qué se están riendo?\n- Who are you talking to? — ¿Con quién estás hablando?\n\nDetalles importantes:\n- **La preposición va al final**: [[Who are you talking to?]], [[What are you looking at?]], [[Who are you waiting for?]]. En español la preposición va delante («¿con quién…?»); en inglés hablado se deja al final.\n- **is se contrae** con what, where, who: [[What's he doing?]], [[Where's she going?]].\n- Cuando **who o what son el sujeto**, no hay inversión: [[Who is singing?]] (¿Quién está cantando?) — who ocupa el lugar del sujeto y el verbo va directo.\n- La entonación de estas preguntas **baja** al final.\n\nOjo con dos preguntas que se parecen: [[What are you doing?]] = ¿qué estás haciendo (ahora)?; [[What do you do?]] = ¿a qué te dedicas? (presente simple, trabajo habitual).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con palabra interrogativa",
+          "formula": [
+            { "t": "What / Where / Why / Who", "rol": "interrogativo" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "sujeto", "rol": "sujeto" },
+            { "t": "verbo + -ing", "rol": "verbo" },
+            { "t": "(preposición)?", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "Who", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "waiting", "rol": "verbo" },
+            { "t": "for?", "rol": "complemento" }
+          ],
+          "es": "¿A quién estás esperando?"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De la pregunta de sí o no a la pregunta con Where",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              { "t": "You", "rol": "sujeto" },
+              { "t": "are", "rol": "auxiliar" },
+              { "t": "going", "rol": "verbo" },
+              { "t": "to the bank", "rol": "complemento" }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta de sí o no",
+            "partes": [
+              { "t": "Are", "rol": "auxiliar" },
+              { "t": "you", "rol": "sujeto" },
+              { "t": "going", "rol": "verbo" },
+              { "t": "to the bank?", "rol": "complemento" }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta con Where (el lugar desaparece)",
+            "partes": [
+              { "t": "Where", "rol": "interrogativo" },
+              { "t": "are", "rol": "auxiliar" },
+              { "t": "you", "rol": "sujeto" },
+              { "t": "going?", "rol": "verbo" }
+            ]
+          }
+        ],
+        "pie": "La palabra interrogativa sustituye a la información que preguntas (to the bank → Where) y se coloca al principio. El resto es la pregunta de sí o no."
+      },
+      "ejemplos": [
+        {
+          "en": "What are you doing?",
+          "es": "¿Qué estás haciendo?",
+          "partes": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "doing", "rol": "verbo" }
+          ],
+          "nota": "El único verbo de acción es doing (hacer). are es el auxiliar. En español basta «¿Qué haces?», pero en inglés «What do you do?» cambia el significado: pregunta por tu profesión."
+        },
+        {
+          "en": "Where is Priya going?",
+          "es": "¿A dónde va Priya?",
+          "partes": [
+            { "t": "Where", "rol": "interrogativo" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "Priya", "rol": "sujeto" },
+            { "t": "going", "rol": "verbo" }
+          ],
+          "nota": "Priya = she → is. En español decimos «¿a dónde va?» en presente simple; en inglés, si ya está yendo, se usa el continuo."
+        },
+        {
+          "en": "Why is the baby crying?",
+          "es": "¿Por qué está llorando el bebé?",
+          "partes": [
+            { "t": "Why", "rol": "interrogativo" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "the baby", "rol": "sujeto" },
+            { "t": "crying", "rol": "verbo" }
+          ],
+          "nota": "El sujeto (the baby) va entre is y crying. «Why the baby is crying?» es un error: falta la inversión."
+        },
+        {
+          "en": "What are you looking at?",
+          "es": "¿Qué estás mirando?",
+          "partes": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "looking at", "rol": "verbo" }
+          ],
+          "nota": "look at = mirar. La preposición at se queda al final de la pregunta."
+        },
+        {
+          "en": "Who is singing?",
+          "es": "¿Quién está cantando?",
+          "partes": [
+            { "t": "Who", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "singing", "rol": "verbo" }
+          ],
+          "nota": "Aquí who es el sujeto (la persona que canta), por eso no hay otro sujeto entre is y singing."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "What are you doing?",
+          "ipa": "/ˈwʌt ər jə ˈduɪŋ/",
+          "consejo": "Al hablar rápido, what are you se une y la t suena como una r suave: «wára-ya DU-ing». El acento principal va en DO y la voz baja al final porque es una pregunta con palabra interrogativa. En conversación muy informal puedes oír «whatcha doing?»; entiéndelo, pero escríbelo completo.",
+          "lento": true
+        },
+        {
+          "texto": "Where's she going?",
+          "ipa": "/ˈwerz ʃi ˈɡoʊɪŋ/",
+          "consejo": "where's es una sola sílaba con /z/ final. going tiene dos sílabas: GO-ing, con el diptongo /oʊ/ (o que se cierra hacia u)."
+        }
+      ],
+      "errores": [
+        { "mal": "What you are doing?", "bien": "What are you doing?", "porque": "Después de la palabra interrogativa va be y luego el sujeto." },
+        { "mal": "What do you doing?", "bien": "What are you doing?", "porque": "En el continuo el auxiliar es be, no do." },
+        { "mal": "With who are you talking?", "bien": "Who are you talking to?", "porque": "En inglés cotidiano la preposición va al final y el verbo es talk to." },
+        { "mal": "Where are you go?", "bien": "Where are you going?", "porque": "Detrás del sujeto el verbo va en -ing." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la negación correcta de la oración.",
+      "pregunta": "He is working today.",
+      "opciones": [
+        { "texto": "He isn't working today.", "correcta": true, "porque": "Correcta: not se pega a is (isn't) y working se queda igual." },
+        { "texto": "He doesn't working today.", "correcta": false, "porque": "doesn't es del presente simple. En el continuo se niega be." },
+        { "texto": "He isn't work today.", "correcta": false, "porque": "El verbo tiene que seguir en -ing: working." },
+        { "texto": "He not working today.", "correcta": false, "porque": "Falta el auxiliar is: not no puede ir solo." }
+      ],
+      "pistas": [
+        "En el presente continuo el auxiliar es be.",
+        "Busca la opción donde not va con is y el verbo mantiene -ing.",
+        "Sujeto + is + not (isn't) + verbo -ing."
+      ],
+      "solucion": { "respuesta": "He isn't working today.", "explicacion": "La respuesta es He isn't working today porque la negación del presente continuo se forma con be + not (is not → isn't) y el verbo principal sigue en -ing. do / does no participan." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la negación de be (sujeto + negación).",
+      "frase": "___ watching TV. I'm reading a book.",
+      "respuestas": [["I'm not"]],
+      "traduccion": "No estoy viendo la tele. Estoy leyendo un libro.",
+      "errores_tipicos": {
+        "I amn't": "«amn't» no existe. Con I se dice I'm not.",
+        "I don't": "don't es del presente simple. Aquí el auxiliar es am: I'm not.",
+        "I not": "Falta am: I am not (I'm not).",
+        "I'm no": "Para negar un verbo se usa not, no no: I'm not."
+      },
+      "pistas": [
+        "El sujeto es I y la frase está en presente continuo.",
+        "Necesitas el sujeto, la forma de be y not.",
+        "Con I solo hay una contracción negativa: se contrae el sujeto con be y not queda aparte (no existe amn't)."
+      ],
+      "solucion": { "respuesta": "I'm not", "explicacion": "La respuesta es I'm not (o I am not): el sujeto es I, su forma de be es am y la negación es not. Con I no existe otra contracción. La segunda oración muestra el truco de negar y luego afirmar lo que sí haces." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta.",
+      "frase": "— Are you listening to me? — Yes, I ___!",
+      "respuestas": [["am"]],
+      "banco": ["am", "'m", "do", "listening"],
+      "traduccion": "—¿Me estás escuchando? —¡Sí!",
+      "errores_tipicos": {
+        "do": "La pregunta usa are, así que la respuesta corta usa be: Yes, I am.",
+        "listening": "La respuesta corta no repite el verbo -ing: Yes, I am."
+      },
+      "pistas": [
+        "Las respuestas cortas repiten el auxiliar de la pregunta.",
+        "La pregunta empieza por Are y el sujeto de la respuesta es I.",
+        "En la respuesta corta afirmativa se repite la forma de be del sujeto de la respuesta, sin contraer, como en Yes, he is."
+      ],
+      "solucion": { "respuesta": "am", "explicacion": "La respuesta es am: Yes, I am. La pregunta se hace con be, así que la respuesta corta también; con I la forma es am. En una respuesta corta afirmativa no se contrae (nunca «Yes, I'm»)." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.04",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada pregunta con la respuesta corta adecuada.",
+      "pares": [
+        { "a": "Are you working?", "b": "Yes, I am." },
+        { "a": "Is Tom sleeping?", "b": "No, he isn't." },
+        { "a": "Are the kids playing outside?", "b": "Yes, they are." },
+        { "a": "Is it raining?", "b": "No, it isn't." },
+        { "a": "Am I talking too fast?", "b": "Yes, you are." },
+        { "a": "Is Grace cooking?", "b": "Yes, she is." }
+      ],
+      "pistas": [
+        "La respuesta corta usa el pronombre que corresponde al sujeto.",
+        "Tom → he, the kids → they, Grace → she, you → I, I → you.",
+        "Pronombre + la misma forma de be de la pregunta (en la persona correcta)."
+      ],
+      "solucion": { "respuesta": "Are you working? – Yes, I am; Is Tom sleeping? – No, he isn't; Are the kids playing outside? – Yes, they are; Is it raining? – No, it isn't; Am I talking too fast? – Yes, you are; Is Grace cooking? – Yes, she is.", "explicacion": "Cada respuesta sustituye el sujeto por su pronombre y repite be en la persona correcta. Fíjate en el cambio de persona: a Are you…? se contesta con I am, y a Am I…? con you are." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": ["crying", "the", "Why", "baby", "is"],
+      "respuestas": ["Why is the baby crying"],
+      "traduccion": "¿Por qué está llorando el bebé?",
+      "errores_tipicos": {
+        "Why the baby is crying": "Falta la inversión: en la pregunta is va delante del sujeto (the baby)."
+      },
+      "pistas": [
+        "Las preguntas con palabra interrogativa empiezan por ella.",
+        "Después va be y luego el sujeto.",
+        "Palabra interrogativa + be + sujeto + verbo -ing + ?, como en What is the dog eating?"
+      ],
+      "solucion": { "respuesta": "Why is the baby crying?", "explicacion": "El orden es Why (interrogativo) + is (auxiliar) + the baby (sujeto) + crying (verbo -ing). En la pregunta, be se coloca delante del sujeto." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "They're playing soccer.",
+      "instruccion": "Negativa",
+      "respuestas": ["They aren't playing soccer"],
+      "errores_tipicos": {
+        "They don't playing soccer": "don't es del presente simple. Aquí se niega be: aren't.",
+        "They aren't play soccer": "El verbo sigue en -ing: playing.",
+        "They not playing soccer": "Falta are delante de not."
+      },
+      "pistas": [
+        "La negación va con be.",
+        "They're = They are.",
+        "Sujeto + be + not (o contracción) + verbo -ing + complemento, como en We aren't watching TV."
+      ],
+      "solucion": { "respuesta": "They aren't playing soccer.", "explicacion": "La respuesta es They aren't playing soccer (también They're not / They are not). not se coloca después de are y playing no cambia. Aquí soccer es fútbol (en inglés británico se dice football)." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "Sam is cooking dinner.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Is Sam cooking dinner"],
+      "errores_tipicos": {
+        "Does Sam cooking dinner": "La pregunta del continuo se hace con be: Is Sam…?",
+        "Sam is cooking dinner?": "Falta invertir: is va delante del sujeto.",
+        "Is Sam cook dinner": "El verbo sigue en -ing: cooking."
+      },
+      "pistas": [
+        "Para preguntar, be cambia de lugar.",
+        "Mueve is delante de Sam.",
+        "Be + sujeto + verbo -ing + complemento + ?, como en Is Tom reading a book?"
+      ],
+      "solucion": { "respuesta": "Is Sam cooking dinner?", "explicacion": "La respuesta es Is Sam cooking dinner?: el auxiliar is pasa delante del sujeto y cooking se queda igual. Respuesta corta posible: Yes, he is / No, he isn't." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y escribe la corrección.",
+      "frase": "Does she working at home today?",
+      "error": "Does",
+      "correcciones": ["Is"],
+      "frase_correcta": "Is she working at home today?",
+      "pistas": [
+        "Piensa en qué auxiliar usa el presente continuo.",
+        "El verbo working en -ing te dice qué tiempo es.",
+        "En el presente continuo el auxiliar de la pregunta es be, no do."
+      ],
+      "solucion": { "respuesta": "Does → Is", "explicacion": "El error es Does: con un verbo en -ing la pregunta se forma con be. Como el sujeto es she, el auxiliar es Is: Is she working at home today?" }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "La respuesta corta tiene un error. Señálalo y escribe la corrección.",
+      "frase": "Are you working? No, I don't.",
+      "error": "I don't",
+      "correcciones": ["I'm not"],
+      "frase_correcta": "Are you working? No, I'm not.",
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "La pregunta usa are, no do.",
+        "La respuesta corta repite be, no do; con I, la negativa contrae el sujeto con be y not queda aparte."
+      ],
+      "solucion": { "respuesta": "I don't → I'm not", "explicacion": "La pregunta Are you working? se contesta con be: No, I'm not. I don't solo contesta preguntas con do (Do you work here? — No, I don't)." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.10",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Haz una pregunta con Who para averiguar con quién habla Ana (la respuesta sería her boss). Deja la preposición al final.",
+      "origen": "Ana is talking to her boss.",
+      "instruccion": "Pregunta con Who (por her boss)",
+      "respuestas": ["Who is Ana talking to"],
+      "errores_tipicos": {
+        "Who Ana is talking to": "Falta la inversión: Who + is + Ana + talking to.",
+        "Who is talking to her boss": "Esa pregunta pide quién habla (Ana), no con quién habla.",
+        "Who is Ana talking": "Falta la preposición to al final: talk to someone."
+      },
+      "pistas": [
+        "Preguntas por la persona con quien habla Ana, no por Ana.",
+        "Quita her boss, pon Who al principio y haz la inversión con is.",
+        "Palabra interrogativa + be + sujeto + verbo -ing + preposición al final, como en Who is Tom waiting for?"
+      ],
+      "solucion": { "respuesta": "Who is Ana talking to?", "explicacion": "Who sustituye a her boss y va al principio. Después viene la pregunta normal (is Ana talking) y la preposición to se queda al final, como es natural en inglés hablado. También es correcto Who's Ana talking to?" }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Tu amigo Ben te llama por teléfono mientras estás en la parada del camión.",
+      "lineas": [
+        { "quien": "Ben", "en": "Hi! What are you doing?", "es": "¡Hola! ¿Qué estás haciendo?" }
+      ],
+      "opciones": [
+        { "texto": "I'm waiting for the bus.", "correcta": true, "porque": "Correcta: contesta a What…? con la información pedida y en presente continuo, porque es lo que haces ahora." },
+        { "texto": "I wait for the bus.", "correcta": false, "porque": "El presente simple describe una costumbre, no lo que estás haciendo en este momento." },
+        { "texto": "Yes, I am.", "correcta": false, "porque": "Una pregunta con What no se contesta con sí o no: pide información." },
+        { "texto": "I'm wait for the bus.", "correcta": false, "porque": "Después de am el verbo lleva -ing: waiting." }
+      ],
+      "pistas": [
+        "La pregunta pide información sobre lo que haces ahora.",
+        "What…? no se contesta con Yes / No.",
+        "Contesta con sujeto + am + verbo -ing."
+      ],
+      "solucion": { "respuesta": "I'm waiting for the bus.", "explicacion": "What are you doing? pregunta por una acción en progreso, así que se contesta con el presente continuo: I'm waiting for the bus. wait for = esperar a algo o alguien." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe las dos oraciones.",
+      "texto": "Why aren't you sleeping? It's very late.",
+      "respuestas": ["Why are you not sleeping? It's very late."],
+      "pistas": [
+        "La primera oración es una pregunta negativa con Why.",
+        "Escucha la contracción después de Why: aren't.",
+        "Palabra interrogativa + be negativo contraído + sujeto + verbo -ing? / It's + adjetivo."
+      ],
+      "solucion": { "respuesta": "Why aren't you sleeping? It's very late.", "explicacion": "La pregunta negativa pone la contracción aren't delante del sujeto: Why aren't you sleeping? (¿Por qué no estás dormido?). La forma sin contraer es Why are you not sleeping?, más formal." }
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Fíjate en la entonación.",
+      "texto": "What are you doing? Are you working?",
+      "ipa": "/ˈwʌt ər jə ˈduɪŋ ‖ ər jə ˈwɝkɪŋ/",
+      "consejo": "Dos melodías distintas. En What are you doing? la voz baja al final (pregunta con palabra interrogativa). En Are you working? la voz sube al final (pregunta de sí o no). En las dos, are you se dice débil y rápido, casi «er-ya».",
+      "es": "¿Qué estás haciendo? ¿Estás trabajando?"
+    },
+    {
+      "id": "presente-continuo.negacion-y-preguntas-continuo.14",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Tu amigo sale de casa con prisa y le preguntas:",
+      "es": "¿A dónde vas?",
+      "respuestas": ["Where are you going"],
+      "errores_tipicos": {
+        "Where do you go": "Tu amigo ya está yendo: es una acción en progreso, así que usa el continuo (are you going).",
+        "Where you are going": "Falta la inversión: Where + are + you + going.",
+        "To where are you going": "En inglés where ya incluye la dirección: no se usa to delante."
+      },
+      "pistas": [
+        "La acción ya está en marcha.",
+        "Pregunta con Where + presente continuo.",
+        "Where + be + sujeto + verbo -ing + ?, como en Where is she sitting?"
+      ],
+      "solucion": { "respuesta": "Where are you going?", "explicacion": "En español decimos «¿A dónde vas?» en presente simple, pero en inglés, si la persona ya se va, se usa el continuo: Where are you going? Where do you go? preguntaría a dónde vas habitualmente, y «to where» no se usa." }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Una llamada en mal momento",
+    "contexto": "Tu compañera de clase Aisha te llama. No puedes hablar mucho porque estás ocupado. Ella te hace preguntas en presente continuo.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Hi! Are you busy? What are you doing?", "es": "¡Hola! ¿Estás ocupado? ¿Qué estás haciendo?" },
+      { "quien": "Tú", "en": "…", "es": "(Contesta con una respuesta corta y di qué haces.)" },
+      { "quien": "Aisha", "en": "Oh! Are you studying for the test?", "es": "¡Ah! ¿Estás estudiando para el examen?" },
+      { "quien": "Tú", "en": "…", "es": "(Contesta con una respuesta corta negativa y aclara qué haces.)" },
+      { "quien": "Aisha", "en": "OK. Where is your brother? Is he working?", "es": "Bueno. ¿Dónde está tu hermano? ¿Está trabajando?" },
+      { "quien": "Tú", "en": "…", "es": "(Responde y hazle tú una pregunta a Aisha.)" }
+    ],
+    "tu_turno": "Responde a las tres intervenciones de Aisha con respuestas cortas, una negación y una pregunta tuya en presente continuo (por ejemplo, What are you doing?).",
+    "modelo": "Yes, I am. I'm cleaning the kitchen. / No, I'm not. I'm not studying today, I'm helping my mom. / He's at the gym. He isn't working today. And you? What are you doing?",
+    "alternativas": [
+      "Yes, I am. I'm cooking. / No, I'm not. I'm making dinner for my family. / No, he isn't. He's playing video games in his room. Are you studying?",
+      "A little. I'm washing the car. / No, I'm not. I'm not studying this week. / Yes, he is. He's working in the store today. Where are you going tonight?"
+    ],
+    "claves": [
+      "Respuestas cortas: Yes, I am. / No, I'm not. / No, he isn't.",
+      "Negación: sujeto + am / is / are + not + -ing.",
+      "Pregunta: (Wh-) + am / is / are + sujeto + -ing?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Negación: sujeto + am / is / are + not + -ing (I'm not working, she isn't working, they aren't working).",
+      "Pregunta de sí o no: Am / Is / Are + sujeto + -ing? (Are you working?).",
+      "Respuestas cortas: Yes, I am. / No, I'm not. / Yes, she is. / No, they aren't.",
+      "Pregunta con palabra interrogativa: Wh- + be + sujeto + -ing? (What are you doing?).",
+      "En el presente continuo nunca se usa do / does."
+    ],
+    "recuerda": [
+      "«I amn't» no existe: I'm not.",
+      "Las respuestas cortas afirmativas no se contraen: Yes, I am.",
+      "La preposición va al final: Who are you talking to?",
+      "What are you doing? (ahora) ≠ What do you do? (profesión)."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-continuo.negacion-y-preguntas-continuo.r1", "frente": "Negación de «She is sleeping»", "reverso": "She isn't sleeping. / She's not sleeping.", "nota": "Nunca «She doesn't sleeping»." },
+    { "id": "presente-continuo.negacion-y-preguntas-continuo.r2", "frente": "Pregunta de «They are coming»", "reverso": "Are they coming? — Yes, they are. / No, they aren't." },
+    { "id": "presente-continuo.negacion-y-preguntas-continuo.r3", "frente": "¿Cómo se dice «¿Qué estás haciendo?»", "reverso": "What are you doing?", "nota": "What do you do? = ¿A qué te dedicas?" },
+    { "id": "presente-continuo.negacion-y-preguntas-continuo.r4", "frente": "¿Por qué no se dice «Yes, I'm»?", "reverso": "Porque las contracciones no pueden ir al final: Yes, I am." },
+    { "id": "presente-continuo.negacion-y-preguntas-continuo.r5", "frente": "¿Con quién estás hablando? (en inglés)", "reverso": "Who are you talking to?", "nota": "La preposición se queda al final." }
+  ]
+}

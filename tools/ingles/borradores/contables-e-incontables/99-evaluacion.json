@@ -1,0 +1,309 @@
+{
+  "titulo": "Evaluación: contables e incontables",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "contables-e-incontables.eval.01",
+      "leccion": "contable-o-incontable",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el sustantivo incontable.",
+      "pregunta": "¿Cuál de estas palabras es incontable en inglés?",
+      "opciones": [
+        { "texto": "money", "correcta": true, "porque": "Money es incontable: no se dice two moneys. Se cuentan los dólares o los billetes." },
+        { "texto": "dollar", "correcta": false, "porque": "Dollar es contable: one dollar, five dollars." },
+        { "texto": "coin", "correcta": false, "porque": "Coin (moneda) es contable: a coin, three coins." },
+        { "texto": "bill", "correcta": false, "porque": "Bill (billete) es contable: a ten-dollar bill, two bills." }
+      ],
+      "pistas": [
+        "Incontable = no se puede poner un número delante directamente.",
+        "Tres de las palabras son unidades de dinero; una es el dinero en general.",
+        "El dinero en general no se cuenta; sus unidades, sí."
+      ],
+      "solucion": { "respuesta": "money", "explicacion": "Money es incontable: some money, a lot of money, How much money…? Dollar, coin y bill son unidades contables." }
+    },
+    {
+      "id": "contables-e-incontables.eval.02",
+      "leccion": "contable-o-incontable",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Excuse me, where is the information desk? I need an information about trains.",
+      "error": "an information",
+      "correcciones": ["some information", "information", "a piece of information"],
+      "frase_correcta": "Excuse me, where is the information desk? I need some information about trains.",
+      "pistas": [
+        "Information desk es correcto: el error está en la segunda oración.",
+        "Revisa el artículo delante del sustantivo incontable.",
+        "Information es incontable: no lleva a / an. Usa una palabra de cantidad para incontables o una unidad."
+      ],
+      "solucion": { "respuesta": "some information", "explicacion": "Information es incontable y no admite an. Se dice some information (o information, sin nada, o a piece of information si es un dato)." }
+    },
+    {
+      "id": "contables-e-incontables.eval.03",
+      "leccion": "contable-o-incontable",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con is o are.",
+      "frase": "Your hair ___ really long! And your new glasses ___ nice.",
+      "traduccion": "¡Tu pelo está larguísimo! Y tus lentes nuevos están bonitos.",
+      "respuestas": [["is"], ["are"]],
+      "banco": ["is", "are"],
+      "errores_tipicos": {
+        "are | are": "Hair (el cabello en conjunto) es incontable: is.",
+        "is | is": "Glasses (lentes) es plural en inglés: are."
+      },
+      "pistas": [
+        "Uno de los sujetos es incontable; el otro es un plural.",
+        "Hair en conjunto no se cuenta. Glasses termina en -s y es plural.",
+        "Incontable → is; plural → are."
+      ],
+      "solucion": { "respuesta": "is … are", "explicacion": "Hair, el pelo de la cabeza en conjunto, es incontable: is. Glasses (lentes) es un plural, como en español: are." }
+    },
+    {
+      "id": "contables-e-incontables.eval.04",
+      "leccion": "contable-o-incontable",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Las noticias de hoy son malas.",
+      "respuestas": ["Today's news is bad.", "The news today is bad.", "The news is bad today."],
+      "errores_tipicos": {
+        "The news today are bad.": "News es singular: is.",
+        "Today's news are bad.": "News es singular aunque termine en -s: is.",
+        "The news of today is bad.": "«De hoy» se dice today's news o the news today, no of today."
+      },
+      "pistas": [
+        "News termina en -s pero no es plural.",
+        "«De hoy» puede ser today's o today.",
+        "Sujeto incontable + verbo en singular + adjetivo: news parece plural, pero no lo es. «De hoy» puede ir antes con 's o después."
+      ],
+      "solucion": { "respuesta": "Today's news is bad.", "explicacion": "News es incontable y singular: is, aunque en español digamos «las noticias son». «De hoy» se expresa con el genitivo today's o con today detrás." }
+    },
+    {
+      "id": "contables-e-incontables.eval.05",
+      "leccion": "contable-o-incontable",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta el significado.",
+      "pregunta": "Un cliente le dice al mesero: «There's a hair in my salad.» ¿Qué quiere decir?",
+      "opciones": [
+        { "texto": "Encontró un pelo en su ensalada.", "correcta": true, "porque": "A hair (contable) es un pelo suelto." },
+        { "texto": "La ensalada tiene demasiado pelo.", "correcta": false, "porque": "Eso se diría con hair incontable y un cuantificador (too much hair). A hair es uno solo." },
+        { "texto": "Quiere ensalada con pelo de ángel (pasta).", "correcta": false, "porque": "No se menciona ninguna pasta; a hair es un pelo." }
+      ],
+      "pistas": [
+        "Hair puede ser contable o incontable.",
+        "Fíjate en el artículo a.",
+        "A hair = un pelo suelto; hair (sin a) = el cabello."
+      ],
+      "solucion": { "respuesta": "Encontró un pelo en su ensalada.", "explicacion": "Con a, hair es contable y significa un solo pelo. Sin a, hair es incontable y significa el cabello en conjunto (She has long hair)." }
+    },
+    {
+      "id": "contables-e-incontables.eval.06",
+      "leccion": "some-y-any",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con some o any.",
+      "frase": "Are there ___ messages for me? — Yes, there are ___ on your desk.",
+      "traduccion": "¿Hay recados para mí? — Sí, hay algunos en tu escritorio.",
+      "respuestas": [["any"], ["some"]],
+      "banco": ["some", "any"],
+      "errores_tipicos": {
+        "some | some": "La primera es una pregunta real: any.",
+        "any | any": "La respuesta es afirmativa: some."
+      },
+      "pistas": [
+        "Pregunta real → una palabra; afirmación → otra.",
+        "Mira el tipo de oración de cada hueco.",
+        "Pregunta → any; afirmación → some."
+      ],
+      "solucion": { "respuesta": "any … some", "explicacion": "Are there…? es una pregunta real (no sabes si hay mensajes): any. La respuesta es afirmativa: some, que aquí va solo porque ya se sabe que habla de messages." }
+    },
+    {
+      "id": "contables-e-incontables.eval.07",
+      "leccion": "some-y-any",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás en un restaurante y quieres más pan.",
+      "lineas": [
+        { "quien": "Mesero", "en": "Is everything OK here?", "es": "¿Todo bien por aquí?" },
+        { "quien": "Tú", "en": "…", "es": "…" }
+      ],
+      "opciones": [
+        { "texto": "Yes, thanks. Can I have some more bread, please?", "correcta": true, "porque": "Petición → some. Some more = un poco más. Can I have… please? es cortés." },
+        { "texto": "Yes, thanks. Can I have any more bread, please?", "correcta": false, "porque": "En una petición se usa some, porque esperas un sí." },
+        { "texto": "Yes, thanks. Can I have a bread, please?", "correcta": false, "porque": "Bread es incontable: no lleva a." },
+        { "texto": "Yes, thanks. Give me more breads.", "correcta": false, "porque": "Bread no tiene plural y Give me suena brusco." }
+      ],
+      "pistas": [
+        "Estás pidiendo algo.",
+        "Recuerda qué palabra se usa en peticiones y que bread es incontable.",
+        "En una petición se usa some aunque sea pregunta; more va después de some para pedir más."
+      ],
+      "solucion": { "respuesta": "Yes, thanks. Can I have some more bread, please?", "explicacion": "En una petición se usa some. Bread es incontable (sin a, sin -s) y Can I have… please? es la forma cortés de pedir." },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.eval.08",
+      "leccion": "some-y-any",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe con any, sin cambiar el significado.",
+      "origen": "There's no coffee in the kitchen.",
+      "instruccion": "Con isn't any",
+      "respuestas": ["There isn't any coffee in the kitchen."],
+      "errores_tipicos": {
+        "There isn't no coffee in the kitchen.": "Doble negación: con isn't se usa any.",
+        "There aren't any coffee in the kitchen.": "Coffee es incontable: there isn't.",
+        "There isn't some coffee in the kitchen.": "En negación, any."
+      },
+      "pistas": [
+        "There's no = There isn't any.",
+        "Coffee es incontable: singular.",
+        "There isn't + any + incontable + lugar, como en There isn't any milk in the fridge."
+      ],
+      "solucion": { "respuesta": "There isn't any coffee in the kitchen.", "explicacion": "No con el verbo afirmativo equivale a not + any: There isn't any coffee. Coffee es incontable, así que isn't (singular)." }
+    },
+    {
+      "id": "contables-e-incontables.eval.09",
+      "leccion": "some-y-any",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa Would you like.",
+      "es": "¿Quieres unas galletas?",
+      "respuestas": ["Would you like some cookies?", "Would you like some biscuits?"],
+      "errores_tipicos": {
+        "Would you like any cookies?": "Es un ofrecimiento: some.",
+        "Would you like some cookie?": "Some va con plural: cookies."
+      },
+      "pistas": [
+        "Estás ofreciendo algo.",
+        "Galletas es contable plural.",
+        "Para ofrecer se usa some aunque sea pregunta: Would you like + some + plural?, como en Would you like some grapes?"
+      ],
+      "solucion": { "respuesta": "Would you like some cookies?", "explicacion": "Would you like es la fórmula para ofrecer, y en los ofrecimientos se usa some. Cookies va en plural. En Reino Unido se dice biscuits." }
+    },
+    {
+      "id": "contables-e-incontables.eval.10",
+      "leccion": "some-y-any",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Do you have any questions? I have some information for you.",
+      "pistas": [
+        "Una pregunta real y una afirmación.",
+        "Questions es plural; information es incontable.",
+        "Do you have any + plural? I have some + incontable…"
+      ],
+      "solucion": { "respuesta": "Do you have any questions? I have some information for you.", "explicacion": "La pregunta usa any con el plural questions. La afirmación usa some con information, que es incontable (sin -s)." },
+      "audio": true
+    },
+    {
+      "id": "contables-e-incontables.eval.11",
+      "leccion": "much-many-a-lot-of",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la opción más natural.",
+      "pregunta": "Our city is great. There are ___ parks and museums.",
+      "opciones": [
+        { "texto": "a lot of", "correcta": true, "porque": "Oración afirmativa con plurales: a lot of es lo más natural." },
+        { "texto": "much", "correcta": false, "porque": "Much es para incontables; parks y museums son contables." },
+        { "texto": "a little", "correcta": false, "porque": "A little es para incontables y significa «un poco»." }
+      ],
+      "pistas": [
+        "Mira si la oración es afirmativa y si los sustantivos son contables.",
+        "Parks and museums son plurales.",
+        "Afirmación + plural → a lot of (o many, menos frecuente aquí)."
+      ],
+      "solucion": { "respuesta": "a lot of", "explicacion": "En una afirmación con contables plurales, lo más natural es a lot of. Much y a little van con incontables." }
+    },
+    {
+      "id": "contables-e-incontables.eval.12",
+      "leccion": "much-many-a-lot-of",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la pregunta.",
+      "fichas": ["people", "How", "there", "many", "are", "the", "at", "party"],
+      "respuestas": ["How many people are there at the party"],
+      "traduccion": "¿Cuántas personas hay en la fiesta?",
+      "pistas": [
+        "Empieza con la palabra interrogativa y el sustantivo.",
+        "People es plural: después va are there.",
+        "How many + plural + are there + lugar?, como en How many students are there in the class?"
+      ],
+      "solucion": { "respuesta": "How many people are there at the party?", "explicacion": "People es plural → How many y are there. El sustantivo va pegado a How many, y el lugar al final." }
+    },
+    {
+      "id": "contables-e-incontables.eval.13",
+      "leccion": "much-many-a-lot-of",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada expresión con su significado.",
+      "pares": [
+        { "a": "a few apples", "b": "unas cuantas manzanas" },
+        { "a": "a little milk", "b": "un poco de leche" },
+        { "a": "not many apples", "b": "pocas manzanas" },
+        { "a": "a lot of milk", "b": "mucha leche" }
+      ],
+      "pistas": [
+        "Fíjate en si el sustantivo es contable (apples) o incontable (milk).",
+        "Separa las cantidades grandes de las pequeñas, y las positivas de las negativas.",
+        "Con a, la cantidad es pequeña pero positiva; not many es negativo; a lot of es una cantidad grande. Few va con plurales y little con incontables."
+      ],
+      "solucion": { "respuesta": "a few → unas cuantas · a little → un poco de · not many → pocas · a lot of → mucha", "explicacion": "A few va con contables y a little con incontables, las dos con sentido positivo. Not many expresa una cantidad pequeña con matiz negativo. A lot of es mucho, con cualquier sustantivo." }
+    },
+    {
+      "id": "contables-e-incontables.eval.14",
+      "leccion": "much-many-a-lot-of",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "How many furniture do you have in your new apartment?",
+      "error": "many",
+      "correcciones": ["much"],
+      "frase_correcta": "How much furniture do you have in your new apartment?",
+      "pistas": [
+        "Furniture es uno de los incontables «trampa».",
+        "Revisa la palabra interrogativa.",
+        "Incontable → How much."
+      ],
+      "solucion": { "respuesta": "much", "explicacion": "Furniture es incontable aunque en español digamos «cuántos muebles». Por eso How much furniture." }
+    },
+    {
+      "id": "contables-e-incontables.eval.15",
+      "leccion": "much-many-a-lot-of",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta el matiz.",
+      "pregunta": "Dos amigos hablan de un compañero nuevo. Uno dice: «He has a few friends here.» El otro: «He has few friends here.» ¿Qué diferencia hay?",
+      "opciones": [
+        { "texto": "El primero es positivo (tiene algunos); el segundo, negativo (casi ninguno).", "correcta": true, "porque": "A few = unos cuantos, suficientes. Few sin a = pocos, casi ninguno." },
+        { "texto": "Significan exactamente lo mismo.", "correcta": false, "porque": "La a cambia el matiz: con a es positivo, sin a es negativo." },
+        { "texto": "El primero es negativo y el segundo positivo.", "correcta": false, "porque": "Es al revés: a few es positivo." }
+      ],
+      "pistas": [
+        "La diferencia está en una sola palabra.",
+        "Compara a few y few.",
+        "Con a: hay algunos. Sin a: casi no hay."
+      ],
+      "solucion": { "respuesta": "El primero es positivo; el segundo, negativo.", "explicacion": "A few friends significa que tiene algunos amigos (visión positiva). Few friends, sin a, significa que tiene pocos, casi ninguno (visión negativa). En conversación, para lo negativo es más común not many." }
+    }
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "slug": "as-as-y-comparar",
+  "titulo": "As… as y comparar en conversación",
+  "minutos": 40,
+  "objetivos": [
+    "Expresar igualdad con as + adjetivo + as (as tall as) y diferencia con not as + adjetivo + as (not as cheap as).",
+    "Matizar el tamaño de una diferencia: much / a lot / far + comparativo (mucho más) y a bit / a little + comparativo (un poco más).",
+    "Usar less + adjetivo largo como alternativa a más + opuesto (less expensive).",
+    "Comparar opciones para tomar una decisión: Which is better, A or B? The red one is cheaper, but…"
+  ],
+  "situacion": {
+    "titulo": "Elegir un carro usado",
+    "texto": "Carlos y su esposa Lucía están en un lote de autos usados. Tienen que elegir entre dos carros. Fíjate en cómo dicen que algo es igual (as… as), que no llega al nivel del otro (not as… as) y en cómo marcan si la diferencia es grande (much) o pequeña (a bit).",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "Which one do you prefer, the gray car or the red one?",
+        "es": "¿Cuál prefieres, el carro gris o el rojo?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "The gray one is much cheaper. It's only $6,000.",
+        "es": "El gris es mucho más barato. Solo cuesta 6,000 dólares."
+      },
+      {
+        "quien": "Lucía",
+        "en": "Yes, but it's not as new as the red one. The red one is only three years old.",
+        "es": "Sí, pero no es tan nuevo como el rojo. El rojo solo tiene tres años."
+      },
+      {
+        "quien": "Carlos",
+        "en": "True. And the red one is a bit bigger. The kids need space.",
+        "es": "Es cierto. Y el rojo es un poco más grande. Los niños necesitan espacio."
+      },
+      {
+        "quien": "Lucía",
+        "en": "Is it as safe as the gray one?",
+        "es": "¿Es tan seguro como el gris?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "It's safer, actually. OK, let's take the red one.",
+        "es": "De hecho, es más seguro. Bueno, llevemos el rojo."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "as-as",
+      "titulo": "As tall as / not as cheap as",
+      "que_es": "[[as + adjetivo + as]] expresa **igualdad**: [[Ana is as tall as her mother]] = «Ana es tan alta como su mamá». En negativa, [[not as + adjetivo + as]] dice que algo **no llega** al nivel del otro: [[The bus isn't as fast as the train]] = «el autobús no es tan rápido como el tren».",
+      "para_que": [
+        "Decir que dos cosas son iguales en algo: My phone is as good as yours.",
+        "Comparar con suavidad: This hotel isn't as nice as the other one.",
+        "Evitar decir algo negativo de forma directa: It's not as big as I wanted."
+      ],
+      "como_funciona": "**Fórmula:** A + be + {{otro:as}} + {{complemento:adjetivo}} + {{otro:as}} + B.\n\n- **El adjetivo no cambia:** ni -er ni more. [[as big as]], [[as expensive as]], [[as good as]].\n- **Las dos palabras son as:** «tan… como» → [[as… as]]. El segundo as NO es «like» ni «than».\n- **Negativa:** [[not as… as]] → [[isn't as fast as]]. En la negativa también se oye [[not so… as]], pero [[not as… as]] es lo más común.\n- **Pronombres:** igual que con than → [[as tall as me]] (conversación) o [[as tall as I am]] (más cuidado).\n\n**Not as… as suena más suave que un comparativo negativo:** [[It's not as big as the other one]] es más amable que [[It's smaller]]. Por eso es muy útil para opinar sin criticar.\n\n**Matices:** [[just as]] (igual de) refuerza la igualdad: [[The small one is just as good]]. [[almost as]] (casi tan): [[He's almost as tall as his dad]].\n\n**Relacionado: the same as / different from.** Para decir que dos cosas son idénticas o distintas en general (no en un adjetivo): [[My bag is the same as yours]], [[This version is different from the old one]].",
+      "estructuras": [
+        {
+          "etiqueta": "Igualdad",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "as + adjetivo + as",
+              "rol": "complemento"
+            },
+            {
+              "t": "B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "as tall as",
+              "rol": "complemento"
+            },
+            {
+              "t": "his father.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Tom es tan alto como su papá."
+        },
+        {
+          "etiqueta": "Diferencia (menos)",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be + not",
+              "rol": "negacion"
+            },
+            {
+              "t": "as + adjetivo + as",
+              "rol": "complemento"
+            },
+            {
+              "t": "B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "as fast as",
+              "rol": "complemento"
+            },
+            {
+              "t": "the train.",
+              "rol": "otro"
+            }
+          ],
+          "es": "El autobús no es tan rápido como el tren."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My daughter is almost as tall as me.",
+          "es": "Mi hija es casi tan alta como yo.",
+          "partes": [
+            {
+              "t": "My daughter",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "almost as tall as",
+              "rol": "complemento"
+            },
+            {
+              "t": "me",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Almost as… as = casi tan… como. Después del segundo as, en conversación, pronombre de objeto: me."
+        },
+        {
+          "en": "The movie isn't as good as the book.",
+          "es": "La película no es tan buena como el libro.",
+          "partes": [
+            {
+              "t": "The movie",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "as good as",
+              "rol": "complemento"
+            },
+            {
+              "t": "the book",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Good no cambia a better dentro de as… as. Equivale a decir que el libro es mejor."
+        },
+        {
+          "en": "This apartment is as expensive as a house!",
+          "es": "¡Este departamento es tan caro como una casa!",
+          "partes": [
+            {
+              "t": "This apartment",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "as expensive as",
+              "rol": "complemento"
+            },
+            {
+              "t": "a house",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Con adjetivos largos tampoco hay more: as expensive as."
+        },
+        {
+          "en": "Is Guadalajara as big as Monterrey?",
+          "es": "¿Guadalajara es tan grande como Monterrey?",
+          "nota": "En la pregunta, be va delante del sujeto; as… as no se mueve."
+        }
+      ],
+      "visual": {
+        "tipo": "escena",
+        "titulo": "Igual o menos",
+        "objetos": [
+          {
+            "emoji": "🧍‍♀️",
+            "x": 0.15,
+            "y": 0.45,
+            "etiqueta": "Ana"
+          },
+          {
+            "emoji": "🧍‍♀️",
+            "x": 0.35,
+            "y": 0.45,
+            "etiqueta": "Ana is as tall as Mei."
+          },
+          {
+            "emoji": "🧍",
+            "x": 0.65,
+            "y": 0.45,
+            "etiqueta": "Ben"
+          },
+          {
+            "emoji": "🧒",
+            "x": 0.85,
+            "y": 0.7,
+            "etiqueta": "Leo isn't as tall as Ben."
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "as tall as",
+          "ipa": "/əz ˈtɔl əz/",
+          "consejo": "Los dos as son débiles: /əz/, con una vocal casi muda y una s que zumba como /z/. Todo el peso va en el adjetivo: «əz-TOL-əz».",
+          "lento": true
+        },
+        {
+          "texto": "isn't as good as",
+          "ipa": "/ˈɪzənt əz ˈɡʊd əz/",
+          "consejo": "Isn't tiene dos sílabas cortas: «I-zənt». Good lleva una «u» corta y relajada, no la u larga de food."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She is as taller as her mother.",
+          "bien": "She is as tall as her mother.",
+          "porque": "Entre as y as el adjetivo va en su forma normal, sin -er."
+        },
+        {
+          "mal": "He is so tall like his father.",
+          "bien": "He is as tall as his father.",
+          "porque": "Calco de «tan alto como»: en inglés es as… as."
+        },
+        {
+          "mal": "My car is as fast than yours.",
+          "bien": "My car is as fast as yours.",
+          "porque": "Than solo va con comparativos (-er / more). Con as… as, el segundo también es as."
+        }
+      ]
+    },
+    {
+      "id": "much-a-bit",
+      "titulo": "Much bigger, a bit older, less expensive",
+      "que_es": "A menudo no basta con decir «más»: hay que decir **cuánto más**. En inglés se pone una palabra delante del comparativo: [[much]], [[a lot]] o [[far]] para una diferencia grande, y [[a bit]], [[a little]] o [[slightly]] para una pequeña. Además, [[less]] + adjetivo dice «menos…».",
+      "para_que": [
+        "Precisar precios: The blue one is a bit more expensive.",
+        "Exagerar o insistir: The new version is much better!",
+        "Decir «menos»: This route is less dangerous."
+      ],
+      "como_funciona": "**Diferencia grande:** {{otro:much / a lot / far}} + comparativo.\n- [[much bigger]], [[a lot cheaper]], [[far more expensive]], [[much better]].\n\n**Diferencia pequeña:** {{otro:a bit / a little / slightly}} + comparativo.\n- [[a bit older]], [[a little faster]], [[slightly more expensive]] (slightly = ligeramente, un poco más formal).\n\n**Very NO funciona con comparativos:** «very bigger», «very more expensive» son errores. Very va con el adjetivo normal ([[very big]]); con el comparativo usa much.\n\n**Orden con more:** el matiz va antes de more: [[much more interesting]], no «more much interesting».\n\n**Less + adjetivo = menos:** [[less expensive]] (menos caro), [[less busy]], [[less dangerous]]. Se usa sobre todo con adjetivos largos; con los cortos es más natural el opuesto o not as… as: [[cheaper]] o [[not as expensive]] mejor que «less cheap». La fórmula completa es [[less + adjetivo + than]]: [[The train is less expensive than the plane]].",
+      "estructuras": [
+        {
+          "etiqueta": "Matizar la diferencia",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "much / a lot / a bit",
+              "rol": "otro"
+            },
+            {
+              "t": "comparativo",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Canada",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "much",
+              "rol": "otro"
+            },
+            {
+              "t": "colder",
+              "rol": "complemento"
+            },
+            {
+              "t": "than Mexico.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Canadá es mucho más frío que México."
+        },
+        {
+          "etiqueta": "Menos",
+          "formula": [
+            {
+              "t": "A",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "less + adjetivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "than B",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The second route",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "less dangerous",
+              "rol": "complemento"
+            },
+            {
+              "t": "than the first one.",
+              "rol": "otro"
+            }
+          ],
+          "es": "La segunda ruta es menos peligrosa que la primera."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My new job is a lot more interesting.",
+          "es": "Mi nuevo trabajo es mucho más interesante.",
+          "partes": [
+            {
+              "t": "My new job",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot",
+              "rol": "otro"
+            },
+            {
+              "t": "more interesting",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "A lot va delante de more. Es un poco más informal que much."
+        },
+        {
+          "en": "Sam is a bit older than me.",
+          "es": "Sam es un poco mayor que yo.",
+          "partes": [
+            {
+              "t": "Sam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a bit",
+              "rol": "otro"
+            },
+            {
+              "t": "older",
+              "rol": "complemento"
+            },
+            {
+              "t": "than me",
+              "rol": "otro"
+            }
+          ],
+          "nota": "A bit = un poco. Diferencia pequeña."
+        },
+        {
+          "en": "I feel much better today, thanks.",
+          "es": "Hoy me siento mucho mejor, gracias.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "feel",
+              "rol": "verbo"
+            },
+            {
+              "t": "much",
+              "rol": "otro"
+            },
+            {
+              "t": "better",
+              "rol": "complemento"
+            },
+            {
+              "t": "today, thanks",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Much better, nunca «very better»."
+        },
+        {
+          "en": "This sofa is slightly more expensive, but it's far more comfortable.",
+          "es": "Este sofá es ligeramente más caro, pero es muchísimo más cómodo.",
+          "nota": "Slightly (pequeña diferencia) y far (gran diferencia) en la misma oración: así decides que vale la pena."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "a bit older",
+          "ipa": "/ə ˈbɪt ˈoʊldər/",
+          "consejo": "En EE. UU. la t de bit, entre dos vocales, suena como la «r» suave de «pero»: «ə-BI-rOUL-dər». Bit lleva una «i» corta y relajada."
+        },
+        {
+          "texto": "much better",
+          "ipa": "/ˈmʌtʃ ˈbɛɾər/",
+          "consejo": "Much: vocal corta entre «a» y «o», y ch como en «chico». Better con la tt suave de EE. UU."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "This phone is very cheaper.",
+          "bien": "This phone is much cheaper.",
+          "porque": "Very no se usa con comparativos: much / a lot / far."
+        },
+        {
+          "mal": "It's more much expensive.",
+          "bien": "It's much more expensive.",
+          "porque": "El matiz (much) va antes de more."
+        },
+        {
+          "mal": "The train is less fast than the plane.",
+          "bien": "The train isn't as fast as the plane. / The train is slower than the plane.",
+          "porque": "Less con un adjetivo corto suena poco natural; mejor not as… as o el opuesto."
+        }
+      ]
+    },
+    {
+      "id": "comparar-para-decidir",
+      "titulo": "Which is better? Comparar para decidir",
+      "que_es": "En la vida real se compara para **decidir**: qué comprar, qué ruta tomar, a qué restaurante ir. En esta parte juntas todo lo anterior con unas pocas herramientas de conversación: [[Which…?]], [[the red one]], [[I prefer…]], [[but]] y [[so]].",
+      "para_que": [
+        "Elegir en una tienda: Which is better, the black one or the white one?",
+        "Planear un viaje: The bus is cheaper, but the plane is much faster.",
+        "Dar tu opinión con razones: I prefer this one because it's lighter."
+      ],
+      "como_funciona": "**Preguntar:** [[Which is better, A or B?]] / [[Which one is cheaper?]] / [[Which do you prefer?]]. Which se usa cuando eliges entre opciones concretas.\n\n**No repetir el sustantivo: one / ones.** [[the red one]] (el rojo), [[this one]] (este), [[the cheaper one]] (el más barato de los dos), [[the new ones]] (los nuevos). Así no repites «car», «shoes»…\n\n**Dar pros y contras:** comparativo + [[but]] + comparativo: [[The gray one is cheaper, but the red one is safer]].\n\n**Concluir:** [[so]] (así que) + decisión: [[It's much faster, so let's take the plane]]. O [[I prefer…]] / [[I think… is better]] + [[because]] + razón.\n\n**Entre dos, comparativo; entre tres o más, superlativo:** [[Which is the cheaper one?]] (de dos) / [[Which is the cheapest?]] (de muchos). En conversación, mucha gente usa el superlativo también con dos opciones ([[Which is the best, A or B?]]), así que lo oirás; la forma que sigue la regla con dos es el comparativo.\n\n**Suavizar una crítica:** [[It's not as comfortable as the other one]] suena más amable que [[It's less comfortable]] o [[It's worse]].",
+      "estructuras": [
+        {
+          "etiqueta": "Preguntar entre opciones",
+          "formula": [
+            {
+              "t": "Which",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "comparativo",
+              "rol": "complemento"
+            },
+            {
+              "t": "A or B?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Which",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "better,",
+              "rol": "complemento"
+            },
+            {
+              "t": "the train or the bus?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Qué es mejor, el tren o el autobús?"
+        },
+        {
+          "etiqueta": "Pro, contra y decisión",
+          "formula": [
+            {
+              "t": "A is + comparativo,",
+              "rol": "otro"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "B is + comparativo,",
+              "rol": "otro"
+            },
+            {
+              "t": "so + decisión",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The bus is cheaper,",
+              "rol": "otro"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "the train is much faster,",
+              "rol": "otro"
+            },
+            {
+              "t": "so let's take the train.",
+              "rol": "otro"
+            }
+          ],
+          "es": "El autobús es más barato, pero el tren es mucho más rápido, así que tomemos el tren."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Which one do you prefer, the blue shirt or the white one?",
+          "es": "¿Cuál prefieres, la camisa azul o la blanca?",
+          "partes": [
+            {
+              "t": "Which one",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "prefer,",
+              "rol": "verbo"
+            },
+            {
+              "t": "the blue shirt or the white one",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "The white one = la blanca. One evita repetir shirt."
+        },
+        {
+          "en": "The small hotel is less expensive, and it's closer to the beach.",
+          "es": "El hotel pequeño es menos caro y está más cerca de la playa.",
+          "partes": [
+            {
+              "t": "The small hotel",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "less expensive,",
+              "rol": "complemento"
+            },
+            {
+              "t": "and it's closer to the beach",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Dos ventajas unidas con and. Close → closer (termina en -e)."
+        },
+        {
+          "en": "These shoes are nice, but the black ones are more comfortable.",
+          "es": "Estos zapatos son bonitos, pero los negros son más cómodos.",
+          "partes": [
+            {
+              "t": "These shoes are nice,",
+              "rol": "otro"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "the black ones",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "more comfortable",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con plural se usa ones: the black ones."
+        },
+        {
+          "en": "The plane is much faster, so I think it's the better option.",
+          "es": "El avión es mucho más rápido, así que creo que es la mejor opción.",
+          "nota": "The better option: con dos opciones, comparativo con the. En español decimos «la mejor»."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Which one is better?",
+          "ipa": "/ˈwɪtʃ wʌn ɪz ˈbɛɾər/",
+          "consejo": "Which empieza con los labios redondeados (w), no con «gu». One suena exactamente como won /wʌn/: labios redondeados y una vocal corta entre «a» y «o»."
+        },
+        {
+          "texto": "the red one",
+          "ipa": "/ðə ˈrɛd wʌn/",
+          "consejo": "La d de red se une a la w de one sin añadir vocal. El acento fuerte va en el color, porque es la información nueva: «the RED one»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I prefer the red.",
+          "bien": "I prefer the red one.",
+          "porque": "En inglés el adjetivo no puede ir solo en lugar del sustantivo: necesita one / ones."
+        },
+        {
+          "mal": "The black ones is more comfortable.",
+          "bien": "The black ones are more comfortable.",
+          "porque": "Ones es plural: are."
+        },
+        {
+          "mal": "I prefer the black ones because is more comfortable.",
+          "bien": "I prefer the black ones because they're more comfortable.",
+          "porque": "El sujeto es obligatorio en inglés, y ones es plural: they're (they are)."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "Quieres decir que Ana y su hermana miden lo mismo.",
+      "opciones": [
+        {
+          "texto": "Ana is as tall as her sister.",
+          "correcta": true,
+          "porque": "Correcto: as + adjetivo sin cambios + as expresa igualdad."
+        },
+        {
+          "texto": "Ana is as taller as her sister.",
+          "correcta": false,
+          "porque": "Entre los dos as el adjetivo no lleva -er."
+        },
+        {
+          "texto": "Ana is so tall like her sister.",
+          "correcta": false,
+          "porque": "Calco de «tan… como»: en inglés se dice as… as."
+        },
+        {
+          "texto": "Ana is as tall than her sister.",
+          "correcta": false,
+          "porque": "Than va con comparativos; con as… as, la segunda palabra también es as."
+        }
+      ],
+      "pistas": [
+        "Es una comparación de igualdad.",
+        "Mira el adjetivo y la palabra antes de her sister.",
+        "as + adjetivo normal + as."
+      ],
+      "solucion": {
+        "respuesta": "Ana is as tall as her sister.",
+        "explicacion": "La igualdad se expresa con as + adjetivo en forma normal + as: as tall as. Ni -er, ni than, ni like."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra que falta.",
+      "frase": "The bus isn't as fast ___ the train.",
+      "respuestas": [
+        [
+          "as"
+        ]
+      ],
+      "traduccion": "El autobús no es tan rápido como el tren.",
+      "pistas": [
+        "Es la estructura not as… as.",
+        "La primera palabra de la estructura ya está; falta la segunda.",
+        "not as + adjetivo + as."
+      ],
+      "solucion": {
+        "respuesta": "as",
+        "explicacion": "La estructura completa es not as + adjetivo + as: isn't as fast as the train. La segunda palabra también es as, no than."
+      },
+      "errores_tipicos": {
+        "than": "Than va con comparativos (faster than). Con as… as, la segunda palabra es as.",
+        "like": "«Como» en esta estructura es as, no like."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración en inglés con su significado.",
+      "pares": [
+        {
+          "a": "It's much bigger.",
+          "b": "Es mucho más grande."
+        },
+        {
+          "a": "It's a bit bigger.",
+          "b": "Es un poco más grande."
+        },
+        {
+          "a": "It's as big as mine.",
+          "b": "Es tan grande como el mío."
+        },
+        {
+          "a": "It isn't as big as mine.",
+          "b": "No es tan grande como el mío."
+        },
+        {
+          "a": "It's less expensive.",
+          "b": "Es menos caro."
+        }
+      ],
+      "pistas": [
+        "Fíjate en la palabra que acompaña a cada adjetivo.",
+        "Separa las que dicen «más» (con diferencia grande o pequeña) de las que hablan de igualdad o de «menos».",
+        "Una palabra marca diferencia grande y otra pequeña; as… as afirmativo es igualdad y con not, no llegar al nivel; less es lo contrario de more."
+      ],
+      "solucion": {
+        "respuesta": "much bigger → mucho más grande; a bit bigger → un poco más grande; as big as → tan grande como; isn't as big as → no es tan grande como; less expensive → menos caro.",
+        "explicacion": "Much y a bit matizan el comparativo; as… as expresa igualdad, y not as… as, que no llega al mismo nivel. Less + adjetivo = menos."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Haz débiles los dos as.",
+      "texto": "The movie isn't as good as the book.",
+      "ipa": "/ðə ˈmuːvi ˈɪzənt əz ˈɡʊd əz ðə ˈbʊk/",
+      "consejo": "Las palabras fuertes son movie, isn't, good y book. Los dos as se reducen a /əz/. Good y book llevan la misma «u» corta y relajada, distinta de la u larga de movie.",
+      "es": "La película no es tan buena como el libro."
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con much o a bit, según la diferencia.",
+      "frase": "A house in the city costs $300,000 and one in my town costs $100,000. City houses are ___ more expensive. My brother is 30 and I'm 29, so he's ___ older than me.",
+      "respuestas": [
+        [
+          "much",
+          "a lot",
+          "far"
+        ],
+        [
+          "a bit",
+          "a little",
+          "slightly"
+        ]
+      ],
+      "traduccion": "Una casa en la ciudad cuesta 300,000 dólares y una en mi pueblo, 100,000. Las casas de la ciudad son mucho más caras. Mi hermano tiene 30 y yo 29, así que él es un poco mayor que yo.",
+      "pistas": [
+        "Compara el tamaño de cada diferencia.",
+        "El triple del precio es una diferencia grande; un año, pequeña.",
+        "Grande: much / a lot / far; pequeña: a bit / a little."
+      ],
+      "solucion": {
+        "respuesta": "much | a bit",
+        "explicacion": "El precio es tres veces mayor: una diferencia grande → much (o a lot, far) more expensive. Un año es poca diferencia → a bit (o a little) older."
+      },
+      "errores_tipicos": {
+        "very | a bit": "Very no se usa con comparativos: much more expensive.",
+        "a bit | much": "Está al revés: el precio cambia muchísimo (much) y la edad muy poco (a bit)."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I'm tired of my old phone. The new model is very faster.",
+      "error": "very",
+      "correcciones": [
+        "much",
+        "a lot",
+        "far"
+      ],
+      "frase_correcta": "I'm tired of my old phone. The new model is much faster.",
+      "pistas": [
+        "Busca la palabra que acompaña al comparativo.",
+        "¿Very puede ir con un comparativo?",
+        "Con comparativos se usa much / a lot / far."
+      ],
+      "solucion": {
+        "respuesta": "very → much",
+        "explicacion": "Very solo va con adjetivos normales (very fast). Con un comparativo se usa much, a lot o far: much faster."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Di lo mismo con not as… as.",
+      "origen": "My car is older than your car.",
+      "instruccion": "Empieza con Your car… y usa old.",
+      "respuestas": [
+        "Your car isn't as old as my car.",
+        "Your car isn't as old as mine."
+      ],
+      "pistas": [
+        "Si mi carro es más viejo, el tuyo no es tan viejo como el mío.",
+        "Empieza con your car y usa isn't as… as.",
+        "Sujeto + isn't + as + adjetivo en forma normal + as + el otro elemento, como en This bag isn't as heavy as yours."
+      ],
+      "solucion": {
+        "respuesta": "Your car isn't as old as my car.",
+        "explicacion": "«Mi carro es más viejo que el tuyo» equivale a «tu carro no es tan viejo como el mío»: Your car isn't as old as my car (o as mine). El adjetivo va en su forma normal."
+      },
+      "errores_tipicos": {
+        "Your car isn't as older as my car.": "Entre los dos as el adjetivo no lleva -er: as old as.",
+        "Your car isn't as old than my car.": "Con as… as la segunda palabra también es as."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "more",
+        "It's",
+        "much",
+        "interesting",
+        "now"
+      ],
+      "respuestas": [
+        "It's much more interesting now",
+        "Now it's much more interesting"
+      ],
+      "traduccion": "Ahora es mucho más interesante.",
+      "pistas": [
+        "El comparativo es largo: more + adjetivo.",
+        "¿Much va antes o después de more?",
+        "El matiz va antes de more, como en a lot more expensive."
+      ],
+      "solucion": {
+        "respuesta": "It's much more interesting now.",
+        "explicacion": "Interesting es largo: more interesting. El matiz much va delante de more: much more interesting. Now puede ir al principio o al final."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "The red one is a bit bigger, but it isn't as safe.",
+      "respuestas": [
+        "The red one is a bit bigger, but it's not as safe."
+      ],
+      "pistas": [
+        "Hablan de un carro rojo sin repetir la palabra car.",
+        "Oyes una diferencia pequeña y después una comparación negativa con as.",
+        "Color + one + is + matiz pequeño + comparativo, but + it + be en negativa + as + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "The red one is a bit bigger, but it isn't as safe.",
+        "explicacion": "The red one evita repetir car. A bit bigger = un poco más grande. Isn't as safe = no es tan seguro (se omite el segundo as + B porque se sobreentiende)."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa less.",
+      "es": "El tren es menos caro que el avión, pero es mucho más lento.",
+      "respuestas": [
+        "The train is less expensive than the plane, but it's much slower.",
+        "The train is less expensive than the plane, but it's a lot slower.",
+        "The train is less expensive than the plane, but it's far slower.",
+        "The train is less expensive than the plane but much slower.", "The train is less expensive than the plane but a lot slower.", "The train is less expensive than the plane but far slower."
+      ],
+      "pistas": [
+        "Hay dos comparaciones unidas con but.",
+        "«Menos caro» = less + adjetivo; «mucho más lento» = much + comparativo de slow.",
+        "less + adjetivo + than + B, but + it's + matiz de diferencia grande + adjetivo corto con -er."
+      ],
+      "solucion": {
+        "respuesta": "The train is less expensive than the plane, but it's much slower.",
+        "explicacion": "Less expensive than = menos caro que. Slow tiene una sílaba: slower; y la diferencia grande se marca con much (o a lot, far). Nunca «very slower»."
+      },
+      "errores_tipicos": {
+        "The train is less expensive than the plane, but it's very slower.": "Very no va con comparativos: much slower.",
+        "The train is less expensive that the plane, but it's much slower.": "Para comparar se usa than, no that.",
+        "The train is less expensive than the plane, but it's much more slow.": "Slow tiene una sílaba: slower."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Estás en una tienda de ropa con tu amiga Aisha.",
+      "lineas": [
+        {
+          "quien": "Aisha",
+          "en": "Which jacket do you like, the green one or the black one?",
+          "es": "¿Qué chamarra te gusta, la verde o la negra?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "The black one. It's a bit more expensive, but it's much warmer.",
+          "correcta": true,
+          "porque": "Correcto: eliges con the black one, das un contra pequeño (a bit more expensive) y una ventaja grande (much warmer)."
+        },
+        {
+          "texto": "The black. It's more warm.",
+          "correcta": false,
+          "porque": "El adjetivo necesita one (the black one), y warm tiene una sílaba: warmer."
+        },
+        {
+          "texto": "The black one. It's very warmer.",
+          "correcta": false,
+          "porque": "Very no va con comparativos: much warmer."
+        },
+        {
+          "texto": "The black one. It's as warmer as the green one.",
+          "correcta": false,
+          "porque": "As… as lleva el adjetivo sin -er; además no explica por qué la prefieres."
+        }
+      ],
+      "pistas": [
+        "Elige una y da una razón con un comparativo.",
+        "Revisa one, la forma de warm y la palabra que matiza.",
+        "Color + one (para no repetir jacket), y matiza cada comparativo con una palabra de diferencia (nunca very)."
+      ],
+      "solucion": {
+        "respuesta": "The black one. It's a bit more expensive, but it's much warmer.",
+        "explicacion": "The black one evita repetir jacket. Warm → warmer (una sílaba), y la diferencia se matiza con a bit (pequeña) y much (grande). Así das pros y contras antes de decidir."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hija es casi tan alta como yo.",
+      "respuestas": [
+        "My daughter is almost as tall as me.",
+        "My daughter is almost as tall as I am.",
+        "My daughter is nearly as tall as me.",
+        "My daughter is nearly as tall as I am."
+      ],
+      "pistas": [
+        "«Tan… como» = as… as; «casi» va delante.",
+        "El adjetivo no cambia; después del segundo as va un pronombre.",
+        "«Casi» + as + adjetivo normal + as + pronombre de objeto (o sujeto + verbo), como en He's almost as old as her."
+      ],
+      "solucion": {
+        "respuesta": "My daughter is almost as tall as me.",
+        "explicacion": "Almost as tall as = casi tan alta como. Después del segundo as, en conversación se usa me; en registro más cuidado, I am."
+      },
+      "errores_tipicos": {
+        "My daughter is almost as taller as me.": "El adjetivo no cambia entre los dos as: as tall as.",
+        "My daughter is almost so tall like me.": "«Tan… como» es as… as."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Ayuda a un amigo a decidir.",
+      "objetivo": "Comparar dos opciones con as… as, not as… as, much / a bit + comparativo y llegar a una decisión.",
+      "instrucciones": "Tu amigo Tom duda entre dos lugares para sus vacaciones (una playa y una ciudad, o dos ciudades). Escríbele un mensaje (50–80 palabras) comparándolos. Usa al menos una vez as… as o not as… as, una vez much o a lot, una vez a bit, y termina con una recomendación con so.",
+      "vocabulario_apoyo": [
+        "cheap / expensive",
+        "hot / cool",
+        "crowded",
+        "quiet",
+        "interesting",
+        "relaxing",
+        "safe",
+        "far / close",
+        "the beach one",
+        "the city one"
+      ],
+      "estructuras": [
+        "A isn't as… as B.",
+        "A is much / a bit + comparativo.",
+        "…, so I think…"
+      ],
+      "ejemplo": "Both gyms are good. The one near your office is a bit more expensive, but it's much bigger. The other one isn't as modern, so I prefer the first one.",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas as… as",
+          "patron": "\\bas \\w+ as\\b"
+        },
+        {
+          "descripcion": "Usas much, a lot o far + comparativo",
+          "patron": "\\b(much|a lot|far) (more \\w+|\\w+er)\\b"
+        },
+        {
+          "descripcion": "Usas a bit o a little",
+          "patron": "\\ba (bit|little)\\b"
+        },
+        {
+          "descripcion": "Concluyes con so",
+          "patron": "\\bso\\b"
+        }
+      ],
+      "criterios": [
+        "¿As… as lleva el adjetivo sin cambios?",
+        "¿Usaste much / a bit (nunca very) con los comparativos?",
+        "¿Evitaste repetir el sustantivo con one / ones?",
+        "¿Tu recomendación está clara al final?"
+      ],
+      "modelo": "Hi Tom! Both places are great. Cancún is much hotter than San Cristóbal, and the beach is more relaxing. But it's more crowded, and hotels there are a lot more expensive. San Cristóbal isn't as famous as Cancún, but it's quieter and a bit cheaper. The food is just as good. You want a quiet vacation, so I think San Cristóbal is the better option for you.",
+      "explicacion": "El modelo alterna ventajas y desventajas con but. Matiza las diferencias grandes (much hotter, a lot more expensive) y las pequeñas (a bit cheaper), usa not as… as para una comparación suave (isn't as famous as) y just as para la igualdad. Termina con so + recomendación, y usa the better option porque compara dos lugares.",
+      "errores_comunes": [
+        "Poner -er dentro de as… as: «as cheaper as».",
+        "Usar very con comparativos: «very hotter».",
+        "Terminar sin decisión: el objetivo es ayudar a decidir."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Dos restaurantes",
+    "contexto": "Es el cumpleaños de tu amiga Priya y ustedes dos eligen restaurante. «Luna» es elegante, caro y está lejos. «El Patio» es sencillo, barato, está cerca y la comida es casi igual de buena.",
+    "dialogo": [
+      {
+        "quien": "Priya",
+        "en": "So, Luna or El Patio? What do you think?",
+        "es": "¿Entonces, Luna o El Patio? ¿Qué opinas?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Priya",
+        "en": "OK, you're right. Let's go there!",
+        "es": "Bueno, tienes razón. ¡Vamos ahí!"
+      }
+    ],
+    "tu_turno": "Compara los dos restaurantes con al menos tres estructuras de la lección (as… as / not as… as, much o a bit + comparativo, less) y propón uno con so + let's.",
+    "modelo": "Luna is nicer, but it's much more expensive and it's far from here. El Patio isn't as elegant, but the food is almost as good, and it's a lot closer. So let's go to El Patio!",
+    "alternativas": [
+      "El Patio is a bit simpler, but it's much cheaper and closer, and the food is just as good. So let's go to El Patio.",
+      "It's your birthday! Luna is more expensive, but it's much more special. El Patio isn't as nice. So let's go to Luna."
+    ],
+    "claves": [
+      "Diferencia grande: much / a lot + comparativo.",
+      "Igualdad o casi: (almost / just) as… as.",
+      "Suavizar: not as… as. Decidir: so let's…"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Igualdad: as + adjetivo + as (as tall as). Negativa: not as… as (isn't as fast as).",
+      "El adjetivo no cambia dentro de as… as, y la segunda palabra es as (no than ni like).",
+      "Diferencia grande: much / a lot / far + comparativo; pequeña: a bit / a little / slightly. Nunca very + comparativo.",
+      "Less + adjetivo largo = menos (less expensive); con cortos, mejor not as… as o el opuesto.",
+      "Para decidir: Which is better, A or B? · the red one / the black ones · but · so."
+    ],
+    "recuerda": [
+      "Much more interesting (much antes de more).",
+      "The same as / different from para identidad general.",
+      "Not as… as suena más amable que un comparativo negativo."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.r1",
+      "frente": "Di en inglés: «Es tan alto como su papá»",
+      "reverso": "He's as tall as his father.",
+      "nota": "Adjetivo sin -er."
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.r2",
+      "frente": "Corrige: It's very cheaper.",
+      "reverso": "It's much cheaper.",
+      "nota": "Very no va con comparativos."
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.r3",
+      "frente": "¿Cómo dices «un poco mayor que yo»?",
+      "reverso": "a bit older than me / a little older than me"
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.r4",
+      "frente": "Suaviza: The hotel is worse than the other one.",
+      "reverso": "The hotel isn't as good as the other one."
+    },
+    {
+      "id": "comparativos-y-superlativos.as-as-y-comparar.r5",
+      "frente": "«Prefiero la roja» (una chamarra)",
+      "reverso": "I prefer the red one.",
+      "nota": "El adjetivo necesita one."
+    }
+  ]
+}

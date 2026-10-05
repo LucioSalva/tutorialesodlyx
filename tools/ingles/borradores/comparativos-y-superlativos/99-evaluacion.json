@@ -1,0 +1,532 @@
+{
+  "titulo": "Evaluación: comparativos y superlativos",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "comparativos-y-superlativos.eval.01",
+      "leccion": "comparativos",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el comparativo del adjetivo entre paréntesis.",
+      "frase": "Your suitcase is ___ than mine. (heavy)",
+      "respuestas": [
+        [
+          "heavier"
+        ]
+      ],
+      "traduccion": "Tu maleta pesa más que la mía.",
+      "pistas": [
+        "Heavy tiene dos sílabas.",
+        "Termina en consonante + y.",
+        "-y → -ier."
+      ],
+      "solucion": {
+        "respuesta": "heavier",
+        "explicacion": "Heavy tiene dos sílabas y termina en consonante + y: la y cambia a i y se añade -er → heavier."
+      },
+      "errores_tipicos": {
+        "more heavy": "Los adjetivos de dos sílabas en -y forman el comparativo con -ier: heavier.",
+        "heavyer": "La y cambia a i: heavier."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.02",
+      "leccion": "comparativos",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "Learning English is ___ than I thought.",
+      "opciones": [
+        {
+          "texto": "more interesting",
+          "correcta": true,
+          "porque": "Correcto: interesting es largo, así que usa more."
+        },
+        {
+          "texto": "interestinger",
+          "correcta": false,
+          "porque": "Los adjetivos largos no admiten -er."
+        },
+        {
+          "texto": "more interestinger",
+          "correcta": false,
+          "porque": "More y -er nunca van juntos."
+        },
+        {
+          "texto": "the most interesting",
+          "correcta": false,
+          "porque": "Es superlativo; con than se necesita un comparativo."
+        }
+      ],
+      "pistas": [
+        "Hay than: se necesita un comparativo.",
+        "Interesting tiene cuatro sílabas.",
+        "Adjetivo largo: more + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "more interesting",
+        "explicacion": "Than pide un comparativo, e interesting es un adjetivo largo: more interesting."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.03",
+      "leccion": "comparativos",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "The weather today is worse that yesterday.",
+      "error": "that",
+      "correcciones": [
+        "than"
+      ],
+      "frase_correcta": "The weather today is worse than yesterday.",
+      "pistas": [
+        "El comparativo worse está bien.",
+        "Busca la palabra que introduce el segundo elemento.",
+        "El segundo elemento de un comparativo no se introduce con that (ese / que relativo), sino con otra palabra parecida."
+      ],
+      "solucion": {
+        "respuesta": "that → than",
+        "explicacion": "Worse es el comparativo correcto de bad. El segundo elemento se introduce con than, no con that."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.04",
+      "leccion": "comparativos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi casa está más lejos que la tuya.",
+      "respuestas": [
+        "My house is farther than yours.",
+        "My house is further than yours.",
+        "My house is farther away than yours.",
+        "My house is further away than yours."
+      ],
+      "pistas": [
+        "Far es irregular.",
+        "«La tuya» es un pronombre posesivo.",
+        "Comparativo irregular de far + than + pronombre posesivo (como mine o hers)."
+      ],
+      "solucion": {
+        "respuesta": "My house is farther than yours.",
+        "explicacion": "Far es irregular: farther (preferido en EE. UU. para distancias) o further. «La tuya» = yours."
+      },
+      "errores_tipicos": {
+        "My house is more far than yours.": "Far es irregular: farther / further.",
+        "My house is farer than yours.": "Far es irregular: farther / further.",
+        "My house is farther than your.": "«La tuya» es yours; your necesita un sustantivo detrás."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.05",
+      "leccion": "comparativos",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adjetivo con su comparativo.",
+      "pares": [
+        {
+          "a": "thin",
+          "b": "thinner"
+        },
+        {
+          "a": "safe",
+          "b": "safer"
+        },
+        {
+          "a": "funny",
+          "b": "funnier"
+        },
+        {
+          "a": "famous",
+          "b": "more famous"
+        },
+        {
+          "a": "slow",
+          "b": "slower"
+        }
+      ],
+      "pistas": [
+        "Aplica las reglas de ortografía.",
+        "Revisa cómo termina cada adjetivo: vocal + consonante, -e, consonante + y o -w.",
+        "Solo uno es de dos sílabas sin -y: ese va con more; los que terminan en -w no doblan."
+      ],
+      "solucion": {
+        "respuesta": "thin → thinner; safe → safer; funny → funnier; famous → more famous; slow → slower.",
+        "explicacion": "Thin dobla la n (vocal + consonante). Safe termina en -e: +r. Funny: -y → -ier. Famous (dos sílabas, sin -y): more. Slow termina en -w: no se dobla."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.06",
+      "leccion": "superlativos",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el superlativo del adjetivo entre paréntesis. Incluye the.",
+      "frase": "January is ___ month of the year in Canada. (cold)",
+      "respuestas": [
+        [
+          "the coldest"
+        ]
+      ],
+      "traduccion": "Enero es el mes más frío del año en Canadá.",
+      "pistas": [
+        "Cold tiene una sílaba.",
+        "El superlativo corto lleva artículo y una terminación.",
+        "the + adjetivo + est."
+      ],
+      "solucion": {
+        "respuesta": "the coldest",
+        "explicacion": "Cold tiene una sílaba: the coldest. Of the year: un periodo de tiempo va con of."
+      },
+      "errores_tipicos": {
+        "the most cold": "Cold tiene una sílaba: the coldest.",
+        "the colder": "Colder es comparativo; para destacar uno entre todos: the coldest.",
+        "coldest": "Falta the: the coldest."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.07",
+      "leccion": "superlativos",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "Ana is the best student ___ her class.",
+      "opciones": [
+        {
+          "texto": "in",
+          "correcta": true,
+          "porque": "Correcto: her class es un grupo nombrado como una unidad: in."
+        },
+        {
+          "texto": "of",
+          "correcta": false,
+          "porque": "Of va con plurales o periodos (of all the students); con class se usa in."
+        },
+        {
+          "texto": "than",
+          "correcta": false,
+          "porque": "Than va con comparativos, no con superlativos."
+        },
+        {
+          "texto": "that",
+          "correcta": false,
+          "porque": "That no introduce el grupo de un superlativo."
+        }
+      ],
+      "pistas": [
+        "Después del superlativo va el grupo.",
+        "Her class es un grupo nombrado como una sola cosa.",
+        "Lugar o grupo → in; plural o periodo → of."
+      ],
+      "solucion": {
+        "respuesta": "in",
+        "explicacion": "Class es un grupo expresado con un sustantivo singular, igual que family o school: the best student in her class."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.08",
+      "leccion": "superlativos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Es el peor restaurante de la ciudad.",
+      "respuestas": [
+        "It's the worst restaurant in the city.",
+        "This is the worst restaurant in the city.",
+        "It's the worst restaurant in town.",
+        "This is the worst restaurant in town."
+      ],
+      "pistas": [
+        "«El peor» es un superlativo irregular.",
+        "La ciudad es un lugar.",
+        "Superlativo irregular de bad + sustantivo + preposición de lugar + la ciudad."
+      ],
+      "solucion": {
+        "respuesta": "It's the worst restaurant in the city.",
+        "explicacion": "Bad → worse → the worst. La ciudad es un lugar: in the city (o in town)."
+      },
+      "errores_tipicos": {
+        "It's the baddest restaurant in the city.": "Bad es irregular: the worst.",
+        "It's the worst restaurant of the city.": "La ciudad es un lugar: in the city.",
+        "It's the most bad restaurant in the city.": "Bad es irregular: the worst."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.09",
+      "leccion": "superlativos",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe con one of the…",
+      "origen": "It's a very popular song this year.",
+      "instruccion": "Empieza con It's one of the… y termina con of the year.",
+      "respuestas": [
+        "It's one of the most popular songs of the year."
+      ],
+      "pistas": [
+        "Popular tiene tres sílabas.",
+        "Después de one of the…, el sustantivo va en plural.",
+        "one of the + palabra del superlativo largo + adjetivo + sustantivo en plural + of + periodo."
+      ],
+      "solucion": {
+        "respuesta": "It's one of the most popular songs of the year.",
+        "explicacion": "Popular es largo: the most popular. Después de one of the + superlativo, el sustantivo va en plural (songs). The year es un periodo: of."
+      },
+      "errores_tipicos": {
+        "It's one of the most popular song of the year.": "Después de one of the… el sustantivo va en plural: songs.",
+        "It's one of the more popular songs of the year.": "Superlativo largo: the most."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.10",
+      "leccion": "superlativos",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y responde.",
+      "pregunta": "«Leo is 1.70 m tall, Sam is 1.85 m and Ben is 1.78 m.» ¿Qué oración es verdadera?",
+      "opciones": [
+        {
+          "texto": "Sam is the tallest of the three.",
+          "correcta": true,
+          "porque": "Correcto: Sam mide 1.85, más que los otros dos."
+        },
+        {
+          "texto": "Ben is the tallest of the three.",
+          "correcta": false,
+          "porque": "Ben mide 1.78; Sam mide más."
+        },
+        {
+          "texto": "Leo is taller than Ben.",
+          "correcta": false,
+          "porque": "Leo mide 1.70 y Ben 1.78: Leo es más bajo."
+        },
+        {
+          "texto": "Ben is as tall as Sam.",
+          "correcta": false,
+          "porque": "No miden lo mismo: Sam es más alto."
+        }
+      ],
+      "pistas": [
+        "Compara las tres estaturas.",
+        "Busca quién mide más de los tres.",
+        "Busca la oración que coincide con las cifras: comprueba quién mide más y si alguno mide lo mismo."
+      ],
+      "solucion": {
+        "respuesta": "Sam is the tallest of the three.",
+        "explicacion": "Sam (1.85) supera a Ben (1.78) y a Leo (1.70), así que es the tallest of the three. Las otras oraciones contradicen los datos."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.11",
+      "leccion": "as-as-y-comparar",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la palabra correcta.",
+      "frase": "My new laptop is ___ faster than my old one. It's amazing!",
+      "respuestas": [
+        [
+          "much",
+          "a lot",
+          "far"
+        ]
+      ],
+      "banco": [
+        "much",
+        "very",
+        "more",
+        "as"
+      ],
+      "traduccion": "Mi laptop nueva es mucho más rápida que la anterior. ¡Es increíble!",
+      "pistas": [
+        "La diferencia es grande (It's amazing!).",
+        "¿Qué palabra puede ir delante de un comparativo?",
+        "Delante de un comparativo, para una diferencia grande, va la misma palabra que significa «mucho» con incontables; nunca very."
+      ],
+      "solucion": {
+        "respuesta": "much",
+        "explicacion": "Para una diferencia grande con un comparativo se usa much (o a lot, far). Very no va con comparativos, more sobra porque faster ya es comparativo, y as no forma esta estructura."
+      },
+      "errores_tipicos": {
+        "very": "Very no se usa con comparativos: much faster.",
+        "more": "Faster ya es comparativo; more sobra. Para marcar la diferencia: much faster."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.12",
+      "leccion": "as-as-y-comparar",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige lo que significa la oración.",
+      "pregunta": "«The new version isn't as good as the old one.»",
+      "opciones": [
+        {
+          "texto": "La versión vieja es mejor.",
+          "correcta": true,
+          "porque": "Correcto: si la nueva no es tan buena como la vieja, la vieja es mejor."
+        },
+        {
+          "texto": "La versión nueva es mejor.",
+          "correcta": false,
+          "porque": "Isn't as good as dice que la nueva no llega al nivel de la vieja."
+        },
+        {
+          "texto": "Las dos versiones son igual de buenas.",
+          "correcta": false,
+          "porque": "Eso sería is as good as (afirmativo)."
+        },
+        {
+          "texto": "Las dos versiones son malas.",
+          "correcta": false,
+          "porque": "La oración compara; no dice que ninguna sea mala."
+        }
+      ],
+      "pistas": [
+        "La estructura es negativa: isn't as… as.",
+        "¿Quién llega al nivel de quién?",
+        "Si A no llega al nivel de B en una cualidad, ¿cuál de las dos tiene más de esa cualidad?"
+      ],
+      "solucion": {
+        "respuesta": "La versión vieja es mejor.",
+        "explicacion": "Not as… as dice que el primer elemento no alcanza el nivel del segundo. Por tanto, la versión vieja es mejor; es una forma suave de decirlo."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.13",
+      "leccion": "as-as-y-comparar",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Tu mochila es tan grande como la mía.",
+      "respuestas": [
+        "Your backpack is as big as mine.",
+        "Your backpack is as large as mine."
+      ],
+      "pistas": [
+        "Es una comparación de igualdad.",
+        "«La mía» = mine.",
+        "as + adjetivo normal + as + pronombre posesivo, como en as old as yours."
+      ],
+      "solucion": {
+        "respuesta": "Your backpack is as big as mine.",
+        "explicacion": "Igualdad: as + adjetivo sin cambios + as. «La mía» es el pronombre posesivo mine."
+      },
+      "errores_tipicos": {
+        "Your backpack is as bigger as mine.": "Entre los dos as el adjetivo no cambia: as big as.",
+        "Your backpack is so big like mine.": "«Tan… como» = as… as.",
+        "Your backpack is as big as my.": "«La mía» es mine; my necesita un sustantivo."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.14",
+      "leccion": "as-as-y-comparar",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "The blue one is a little more expensive, but it's much better.",
+      "respuestas": [
+        "The blue one is a little more expensive but it is much better."
+      ],
+      "pistas": [
+        "Hablan de un producto azul sin repetir el sustantivo.",
+        "Hay una diferencia pequeña y otra grande.",
+        "Color + one + is + matiz pequeño + comparativo largo, but + it's + matiz grande + comparativo irregular de good."
+      ],
+      "solucion": {
+        "respuesta": "The blue one is a little more expensive, but it's much better.",
+        "explicacion": "The blue one evita repetir el sustantivo. A little marca una diferencia pequeña y much una grande. Better es el comparativo irregular de good."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.15",
+      "leccion": "as-as-y-comparar",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más adecuada.",
+      "contexto": "Tu amigo Omar te enseña el departamento nuevo que quiere rentar. A ti no te gusta tanto como el anterior, pero no quieres ofenderlo.",
+      "lineas": [
+        {
+          "quien": "Omar",
+          "en": "So? What do you think? Is it better than my old place?",
+          "es": "¿Y bien? ¿Qué opinas? ¿Es mejor que mi casa anterior?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "It's nice! It isn't as big as your old place, but it's closer to your office.",
+          "correcta": true,
+          "porque": "Correcto: not as… as suaviza la crítica y añades una ventaja real con un comparativo."
+        },
+        {
+          "texto": "No. It's much worse and much smaller.",
+          "correcta": false,
+          "porque": "Es correcto gramaticalmente, pero muy directo: puede ofender a tu amigo."
+        },
+        {
+          "texto": "It's very smaller than your old place.",
+          "correcta": false,
+          "porque": "Very no va con comparativos, y además no suaviza nada."
+        },
+        {
+          "texto": "It's as smaller as your old place.",
+          "correcta": false,
+          "porque": "Entre los dos as el adjetivo no lleva -er, y el sentido no es claro."
+        }
+      ],
+      "pistas": [
+        "Quieres ser honesto pero amable.",
+        "¿Qué estructura suena más suave que un comparativo negativo?",
+        "not as… as + una ventaja con but."
+      ],
+      "solucion": {
+        "respuesta": "It's nice! It isn't as big as your old place, but it's closer to your office.",
+        "explicacion": "Not as big as dice lo mismo que smaller, pero con más tacto. Añadir una ventaja con but (closer to your office) equilibra la opinión."
+      }
+    },
+    {
+      "id": "comparativos-y-superlativos.eval.16",
+      "leccion": "superlativos",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "is",
+        "the",
+        "Sunday",
+        "day",
+        "busiest",
+        "of",
+        "week",
+        "the"
+      ],
+      "respuestas": [
+        "Sunday is the busiest day of the week",
+        "The busiest day of the week is Sunday"
+      ],
+      "traduccion": "El domingo es el día de más movimiento de la semana.",
+      "pistas": [
+        "Empieza con el sujeto.",
+        "El superlativo va delante de day.",
+        "Sujeto + is + the + superlativo de busy (y → i) + sustantivo + of + periodo."
+      ],
+      "solucion": {
+        "respuesta": "Sunday is the busiest day of the week.",
+        "explicacion": "Busy → the busiest (y → i). The week es un periodo de tiempo, por eso of the week."
+      }
+    }
+  ]
+}

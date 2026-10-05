@@ -1,0 +1,1290 @@
+{
+  "slug": "usos-de-to-be",
+  "titulo": "Usos de to be",
+  "minutos": 40,
+  "objetivos": [
+    "Decir la edad y las sensaciones físicas con be, no con have: I'm 30, I'm hungry, I'm cold.",
+    "Hablar de identidad con be: nombre, origen, nacionalidad, profesión, estado civil y carácter.",
+    "Decir dónde está alguien y qué tiempo hace: She's at work. It's sunny.",
+    "Distinguir I'm cold (tengo frío) de It's cold (hace frío)."
+  ],
+  "situacion": {
+    "titulo": "Una tarde de invierno",
+    "texto": "Diego llega a casa de su amiga Grace después de una caminata. En español él diría «tengo frío», «tengo hambre», «hace un frío terrible». Fíjate qué verbo usa en inglés para todo eso.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Hi, Diego! Come in. Are you OK?",
+        "es": "¡Hola, Diego! Pasa. ¿Estás bien?"
+      },
+      {
+        "quien": "Diego",
+        "en": "I'm cold! It's very windy outside.",
+        "es": "¡Tengo frío! Hace mucho viento afuera."
+      },
+      {
+        "quien": "Grace",
+        "en": "Sit down. The kitchen is warm.",
+        "es": "Siéntate. La cocina está calientita."
+      },
+      {
+        "quien": "Diego",
+        "en": "Thanks. I'm hungry too.",
+        "es": "Gracias. También tengo hambre."
+      },
+      {
+        "quien": "Grace",
+        "en": "You're lucky. The soup is ready!",
+        "es": "Tienes suerte. ¡La sopa ya está lista!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "be-donde-el-espanol-usa-tener",
+      "titulo": "Edad y sensaciones: donde el español dice «tener»",
+      "que_es": "En español decimos que **tenemos** años, hambre, frío, sed, miedo, prisa o razón, como si fueran cosas que poseemos. En inglés son **estados de la persona** y se expresan con be: [[I'm 30]] («tengo 30 años»), [[I'm hungry]] («tengo hambre»), [[You're right]] («tienes razón»). Es uno de los calcos más frecuentes de los hispanohablantes: «I have 30 years» o «I have hungry» están mal y suenan muy extraños.",
+      "para_que": [
+        "Decir tu edad y preguntar la de otros (la pregunta la verás en la próxima unidad).",
+        "Explicar cómo te sientes físicamente: hambre, sed, frío, calor, sueño.",
+        "Reaccionar en una conversación: tienes razón, te equivocas, tengo miedo, tengo prisa."
+      ],
+      "como_funciona": "Usa la fórmula sujeto + be + adjetivo. Donde el español pone un **sustantivo** después de tener (hambre, sed, frío), el inglés pone un **adjetivo** después de be: hungry («hambriento»), thirsty («sediento»), cold («frío»). Para la **edad** hay dos formas correctas: el número solo ([[I'm 30]]) o el número + [[years old]] ([[I'm 30 years old]]). Lo que **no** existe es la mitad: «I'm 30 years» (sin old) es incorrecto. Tampoco se usa have en ninguna de estas expresiones.",
+      "estructuras": [
+        {
+          "etiqueta": "Edad",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "número (+ years old)",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My daughter",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "six years old",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi hija tiene seis años."
+        },
+        {
+          "etiqueta": "Sensación o estado",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "thirsty",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Tenemos sed."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Tener (español) → be (inglés)",
+          "columnas": [
+            "Español",
+            "Inglés",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "tener … años",
+              "be + número (years old)",
+              "I'm 30. / I'm 30 years old."
+            ],
+            [
+              "tener hambre",
+              "be hungry",
+              "The kids are hungry."
+            ],
+            [
+              "tener sed",
+              "be thirsty",
+              "I'm thirsty."
+            ],
+            [
+              "tener frío",
+              "be cold",
+              "Are you cold? I'm cold."
+            ],
+            [
+              "tener calor",
+              "be hot",
+              "I'm hot. Open the window, please."
+            ],
+            [
+              "tener sueño",
+              "be sleepy / be tired",
+              "She's sleepy."
+            ],
+            [
+              "tener miedo",
+              "be scared / be afraid",
+              "He's scared of dogs."
+            ],
+            [
+              "tener prisa",
+              "be in a hurry",
+              "Sorry, I'm in a hurry."
+            ],
+            [
+              "tener razón / no tenerla",
+              "be right / be wrong",
+              "You're right. / You're wrong."
+            ],
+            [
+              "tener suerte",
+              "be lucky",
+              "We're lucky."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Lo que en español «se tiene», en inglés «se es»",
+        "centro": "I'm …",
+        "ramas": [
+          {
+            "texto": "30 (years old)",
+            "detalle": "tengo 30 años"
+          },
+          {
+            "texto": "hungry / thirsty",
+            "detalle": "tengo hambre / sed"
+          },
+          {
+            "texto": "cold / hot",
+            "detalle": "tengo frío / calor"
+          },
+          {
+            "texto": "scared",
+            "detalle": "tengo miedo"
+          },
+          {
+            "texto": "in a hurry",
+            "detalle": "tengo prisa"
+          },
+          {
+            "texto": "right / wrong",
+            "detalle": "tengo razón / estoy equivocado"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "I'm 30 years old.",
+          "es": "Tengo 30 años.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "30 years old",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Forma completa de la edad: número + years old. Literalmente «soy de 30 años de edad»."
+        },
+        {
+          "en": "My grandfather is 82.",
+          "es": "Mi abuelo tiene 82 años.",
+          "partes": [
+            {
+              "t": "My grandfather",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "82",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Forma corta: el número solo. Es la más frecuente al hablar. Con un sujeto singular, is."
+        },
+        {
+          "en": "The children are hungry.",
+          "es": "Los niños tienen hambre.",
+          "partes": [
+            {
+              "t": "The children",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "hungry",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[hungry]] es un adjetivo («hambriento»). No se dice «have hunger». Children es plural (de child), por eso are."
+        },
+        {
+          "en": "You're right.",
+          "es": "Tienes razón.",
+          "partes": [
+            {
+              "t": "You're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "right",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Muy frecuente en conversación. Lo contrario es [[You're wrong]] («Te equivocas / No tienes razón»)."
+        },
+        {
+          "en": "I'm scared of spiders.",
+          "es": "Les tengo miedo a las arañas.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "scared of spiders",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para decir de qué tienes miedo, añade [[of]] + la cosa. [[afraid]] significa lo mismo: I'm afraid of spiders."
+        },
+        {
+          "en": "Sorry, I'm in a hurry.",
+          "es": "Perdón, tengo prisa.",
+          "nota": "Aquí no es un adjetivo sino una expresión fija: [[in a hurry]]. Se usa igual con be."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Calco del español (incorrecto)",
+          "items": [
+            "I have 30 years.",
+            "I have hungry. / I have hunger.",
+            "You have reason.",
+            "I'm 30 years. (le falta old)"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés natural",
+          "items": [
+            "I'm 30. / I'm 30 years old.",
+            "I'm hungry.",
+            "You're right.",
+            "I'm 30 years old."
+          ]
+        },
+        "veredicto": "Cuando en español vayas a decir «tengo» + una sensación, la edad o razón, cambia el chip: en inglés es be + adjetivo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "hungry",
+          "ipa": "/ˈhʌŋɡri/",
+          "consejo": "La h es solo aire, como al empañar un vidrio (no la j raspada del español). La u suena como una «a» corta y relajada /ʌ/. En medio, el grupo /ŋɡ/: la n se pronuncia con la parte de atrás de la lengua, como en «tengo», y luego una g suave.",
+          "lento": true
+        },
+        {
+          "texto": "thirsty",
+          "ipa": "/ˈθɜːrsti/",
+          "consejo": "La /θ/ inicial es como la «z» del español de España: punta de la lengua entre los dientes y soplas. Después, una vocal parecida a una «e» con la boca relajada, unida a la r inglesa (lengua curvada hacia atrás). No digas «tirsti»."
+        },
+        {
+          "texto": "years old",
+          "ipa": "/jɪrz oʊld/",
+          "consejo": "[[years]] empieza con /j/, como la «y» suave de «yeso», y termina en /z/ con zumbido. Se encadena con old: «yirz-ould». La l final de old es oscura: sube la parte de atrás de la lengua."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I have 25 years.",
+          "bien": "I'm 25. / I'm 25 years old.",
+          "porque": "La edad se expresa con be. «I have 25 years» se entiende como «poseo 25 años» y suena muy extraño."
+        },
+        {
+          "mal": "I'm 25 years.",
+          "bien": "I'm 25 years old.",
+          "porque": "O dices el número solo o dices la fórmula completa years old. «25 years» sin old queda incompleto."
+        },
+        {
+          "mal": "We have cold.",
+          "bien": "We're cold.",
+          "porque": "Las sensaciones físicas son estados: be + adjetivo."
+        },
+        {
+          "mal": "You have reason.",
+          "bien": "You're right.",
+          "porque": "«Tener razón» es [[be right]]. «Reason» significa «motivo, razón para hacer algo», no «tener la razón»."
+        }
+      ],
+      "nota": {
+        "titulo": "Un matiz de «I'm hot»",
+        "texto": "[[I'm hot]] significa normalmente «tengo calor», y el contexto lo deja claro. Pero en lenguaje coloquial también puede significar «soy atractivo». Si quieres evitar cualquier broma, di [[I'm warm]] (tengo calorcito) o, más adelante, [[I feel hot]].",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "identidad-con-be",
+      "titulo": "Quién eres: nombre, origen, profesión y carácter",
+      "que_es": "La mitad de una primera conversación se construye con be: cómo te llamas, de dónde eres, qué nacionalidad tienes, a qué te dedicas, si estás casado y cómo eres. Todo sigue la misma fórmula, pero cada tipo de dato tiene un detalle propio que el español no tiene.",
+      "para_que": [
+        "Presentarte en una clase, una entrevista o una reunión.",
+        "Describir a otras personas: amigos, compañeros, familia.",
+        "Rellenar la parte oral de un formulario o una solicitud."
+      ],
+      "como_funciona": "**Origen**: be + [[from]] + lugar ([[I'm from Oaxaca]]). **Nacionalidad**: be + adjetivo, siempre con **mayúscula** en inglés ([[She's Mexican]], nunca «mexican»). **Profesión**: be + [[a]] / [[an]] + profesión ([[He's an engineer]]); el español dice «es ingeniero» sin artículo, pero en inglés el artículo es obligatorio en singular. **Estado civil y carácter**: be + adjetivo ([[I'm married]], [[They're friendly]]). Ojo con los adjetivos que terminan en -ed y en -ing: [[I'm bored]] («estoy aburrido») ≠ [[I'm boring]] («soy aburrido»).",
+      "estructuras": [
+        {
+          "etiqueta": "Origen",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "from + lugar",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "from Guadalajara",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Somos de Guadalajara."
+        },
+        {
+          "etiqueta": "Profesión",
+          "formula": [
+            {
+              "t": "Sujeto (una persona)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "a / an + profesión",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "an architect",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Priya es arquitecta."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm from Mexico. I'm Mexican.",
+          "es": "Soy de México. Soy mexicano.",
+          "nota": "País con [[from]]; nacionalidad como adjetivo, sin from y con mayúscula."
+        },
+        {
+          "en": "Carlos is a mechanic.",
+          "es": "Carlos es mecánico.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a mechanic",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El artículo [[a]] es obligatorio con la profesión en singular. En plural no lleva: [[They're mechanics]]."
+        },
+        {
+          "en": "Ben is an actor.",
+          "es": "Ben es actor.",
+          "partes": [
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "an actor",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[an]] en lugar de a porque actor empieza con sonido de vocal. Lo estudiarás a fondo en la unidad de artículos."
+        },
+        {
+          "en": "Mei and Sam are married.",
+          "es": "Mei y Sam están casados.",
+          "partes": [
+            {
+              "t": "Mei and Sam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "married",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Estado civil: be + adjetivo ([[married]], [[single]], [[divorced]])."
+        },
+        {
+          "en": "My neighbor is very friendly.",
+          "es": "Mi vecino es muy amigable.",
+          "partes": [
+            {
+              "t": "My neighbor",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very friendly",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Carácter: be + adjetivo. [[very]] va delante del adjetivo, como «muy»."
+        },
+        {
+          "en": "I'm bored.",
+          "es": "Estoy aburrido.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "bored",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Con -ed describes cómo te sientes. [[I'm boring]] significaría «soy aburrido» (aburro a los demás)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "from",
+          "ipa": "/frʌm/",
+          "consejo": "La f con el labio inferior tocando los dientes de arriba, y la r inglesa inmediatamente después, sin vocal en medio. En una oración suele reducirse a /frəm/: «I'm frəm Mexico»."
+        },
+        {
+          "texto": "Mexican",
+          "ipa": "/ˈmeksɪkən/",
+          "consejo": "El acento cae en la primera sílaba: MEK-si-kən. La x suena /ks/, no como la j de «México». La última vocal es una schwa /ə/, casi muda."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She is doctor.",
+          "bien": "She is a doctor.",
+          "porque": "En inglés la profesión en singular lleva a / an. Sin él, la frase suena incompleta."
+        },
+        {
+          "mal": "I'm from Mexican.",
+          "bien": "I'm from Mexico. / I'm Mexican.",
+          "porque": "[[from]] va con el país (Mexico). La nacionalidad (Mexican) va sin from."
+        },
+        {
+          "mal": "I'm mexican.",
+          "bien": "I'm Mexican.",
+          "porque": "En inglés las nacionalidades y los idiomas se escriben con mayúscula."
+        },
+        {
+          "mal": "I'm agree.",
+          "bien": "I agree.",
+          "porque": "«Estar de acuerdo» es un verbo en inglés ([[agree]]), no be + adjetivo. Se dice [[I agree]] («Estoy de acuerdo»), sin am."
+        }
+      ]
+    },
+    {
+      "id": "lugar-y-clima",
+      "titulo": "Dónde estás y qué tiempo hace",
+      "que_es": "Be también sirve para decir **dónde** está alguien o algo ([[She's at work]]) y para hablar del **tiempo atmosférico** ([[It's sunny]]). Para el clima el español usa «hace» o «está» sin sujeto; el inglés usa siempre [[It's]] + adjetivo.",
+      "para_que": [
+        "Decir dónde estás cuando alguien te llama o te escribe.",
+        "Comentar el tiempo, el tema de conversación más universal.",
+        "Distinguir cuando la sensación es tuya (I'm cold) o del ambiente (It's cold)."
+      ],
+      "como_funciona": "Para el **lugar**: sujeto + be + preposición + lugar. Aprende como bloques fijos [[at home]] («en casa»), [[at work]] («en el trabajo»), [[at school]] («en la escuela»), y [[in]] + ciudad, país o habitación ([[in Tijuana]], [[in the kitchen]]). Para el **tiempo**: [[It's]] + adjetivo ([[It's cold]], [[It's hot]], [[It's sunny]], [[It's windy]], [[It's cloudy]]). El sujeto [[it]] no se refiere a nada concreto, pero es obligatorio. Compara: [[I'm cold]] = «**tengo** frío» (tú lo sientes); [[It's cold]] = «**hace** frío» (el ambiente).",
+      "estructuras": [
+        {
+          "etiqueta": "Lugar",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "at / in + lugar",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Mom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "at work",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mamá está en el trabajo."
+        },
+        {
+          "etiqueta": "Tiempo atmosférico",
+          "formula": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is ('s)",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo del tiempo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "sunny",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Hace sol. / Está soleado."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The kids are at school.",
+          "es": "Los niños están en la escuela.",
+          "partes": [
+            {
+              "t": "The kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "at school",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[at school]] no lleva the cuando hablas de ir a clases. [[kids]] es la forma coloquial de children."
+        },
+        {
+          "en": "Aisha is in Canada.",
+          "es": "Aisha está en Canadá.",
+          "partes": [
+            {
+              "t": "Aisha",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "in Canada",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Para ciudades y países, [[in]]."
+        },
+        {
+          "en": "It's windy today.",
+          "es": "Hoy hace viento.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "windy today",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«Hace» se traduce con [[It's]]. No se usa make ni do para el tiempo."
+        },
+        {
+          "en": "It's cold, and I'm cold too.",
+          "es": "Hace frío, y yo también tengo frío.",
+          "nota": "Las dos ideas en una oración: [[It's cold]] describe el ambiente; [[I'm cold]], lo que sientes tú."
+        },
+        {
+          "en": "It's hot in here.",
+          "es": "Hace calor aquí adentro.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "hot in here",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[in here]] = aquí dentro. Muy útil en oficinas, casas y salones."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Tú lo sientes",
+          "items": [
+            "I'm cold. — Tengo frío.",
+            "I'm hot. — Tengo calor.",
+            "Sujeto: la persona."
+          ]
+        },
+        "b": {
+          "titulo": "Es el ambiente",
+          "items": [
+            "It's cold. — Hace frío.",
+            "It's hot. — Hace calor.",
+            "Sujeto: it."
+          ]
+        },
+        "veredicto": "Mismo adjetivo, distinto sujeto. «Tengo» → I'm; «hace» → It's."
+      },
+      "pronunciacion": [
+        {
+          "texto": "It's sunny.",
+          "ipa": "/ɪts ˈsʌni/",
+          "consejo": "La u de sunny es /ʌ/, una «a» corta y relajada, como en hungry. El acento va en SUN. No la pronuncies «suni» con u española."
+        },
+        {
+          "texto": "cold",
+          "ipa": "/koʊld/",
+          "consejo": "La k inicial va con un pequeño soplo de aire. La vocal es un diptongo: empieza en «o» y cierra hacia «u» (/oʊ/). No es la «o» corta española. Si dices «cold» con o corta puede sonar a [[called]]."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Makes cold.",
+          "bien": "It's cold.",
+          "porque": "«Hace frío» no se traduce con make. El tiempo se describe con It's + adjetivo."
+        },
+        {
+          "mal": "Is sunny.",
+          "bien": "It's sunny.",
+          "porque": "Falta el sujeto. Para el tiempo, el sujeto obligatorio es it."
+        },
+        {
+          "mal": "I'm cold. (para decir «hace frío»)",
+          "bien": "It's cold.",
+          "porque": "I'm cold habla de lo que tú sientes. Si hablas del clima, el sujeto es it."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "verbo-to-be.usos-de-to-be.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "¿Cómo se dice en inglés «Tengo 25 años»?",
+      "pregunta": "Tengo 25 años.",
+      "opciones": [
+        {
+          "texto": "I'm 25.",
+          "correcta": true,
+          "porque": "Correcto: la edad se dice con be + número. También sería correcto I'm 25 years old."
+        },
+        {
+          "texto": "I have 25 years.",
+          "correcta": false,
+          "porque": "Es el calco del español. En inglés la edad no se «tiene»: se dice con be."
+        },
+        {
+          "texto": "I'm 25 years.",
+          "correcta": false,
+          "porque": "Le falta old: o dices solo el número (I'm 25) o la fórmula completa (I'm 25 years old)."
+        },
+        {
+          "texto": "I have 25.",
+          "correcta": false,
+          "porque": "Con have significa «tengo 25 (cosas)»: no se entiende como edad."
+        }
+      ],
+      "pistas": [
+        "En inglés la edad no se expresa con el verbo tener.",
+        "Descarta las opciones con have. Entre las que quedan, fíjate en cómo terminan.",
+        "Edad = be + número, o be + número + years old. Nada intermedio."
+      ],
+      "solucion": {
+        "respuesta": "I'm 25.",
+        "explicacion": "La edad se expresa con be: I'm 25 o I'm 25 years old. «I have 25 years» es un calco del español y «I'm 25 years» está incompleto sin old."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión en español con su equivalente en inglés.",
+      "pares": [
+        {
+          "a": "Tengo hambre.",
+          "b": "I'm hungry."
+        },
+        {
+          "a": "Tengo sed.",
+          "b": "I'm thirsty."
+        },
+        {
+          "a": "Tengo miedo.",
+          "b": "I'm scared."
+        },
+        {
+          "a": "Tengo prisa.",
+          "b": "I'm in a hurry."
+        },
+        {
+          "a": "Tienes razón.",
+          "b": "You're right."
+        },
+        {
+          "a": "Hace frío.",
+          "b": "It's cold."
+        }
+      ],
+      "pistas": [
+        "Todas estas expresiones usan be en inglés, aunque en español usen tener o hacer.",
+        "Fíjate en el sujeto de cada una: yo, tú o el ambiente.",
+        "hambre → hungry, sed → thirsty, miedo → scared, prisa → in a hurry, razón → right; «hace» → It's."
+      ],
+      "solucion": {
+        "respuesta": "Tengo hambre → I'm hungry · Tengo sed → I'm thirsty · Tengo miedo → I'm scared · Tengo prisa → I'm in a hurry · Tienes razón → You're right · Hace frío → It's cold",
+        "explicacion": "Donde el español usa tener + sustantivo (hambre, sed, miedo, prisa, razón), el inglés usa be + adjetivo o expresión. «Hace frío» describe el ambiente, por eso su sujeto es it."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra adecuada del banco.",
+      "frase": "It's midnight and the baby is very ___.",
+      "traduccion": "Es medianoche y el bebé tiene mucho sueño.",
+      "banco": [
+        "hungry",
+        "sleepy",
+        "right",
+        "thirsty"
+      ],
+      "respuestas": [
+        [
+          "sleepy",
+          "tired"
+        ]
+      ],
+      "errores_tipicos": {
+        "right": "[[right]] es «tener razón». Aquí el contexto (medianoche) indica sueño.",
+        "hungry": "[[hungry]] es tener hambre. Posible, pero la traducción dice «tiene sueño»."
+      },
+      "pistas": [
+        "Lee la traducción: ¿qué tiene el bebé?",
+        "«Tener sueño» se dice con be + un adjetivo.",
+        "Regla: «tener sueño» = be + el adjetivo que viene de sleep (dormir)."
+      ],
+      "solucion": {
+        "respuesta": "sleepy",
+        "explicacion": "«Tener sueño» es be sleepy: the baby is very sleepy. En inglés no se «tiene» sueño; se «está» con sueño, igual que hungry o thirsty."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con sujeto + be (forma contraída). Piensa si hablas del ambiente o de la persona.",
+      "frase": "Close the window, please. ___ cold in here, and Omar ___ cold too.",
+      "traduccion": "Cierra la ventana, por favor. Hace frío aquí adentro, y Omar también tiene frío.",
+      "respuestas": [
+        [
+          "It's"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "errores_tipicos": {
+        "is | is": "El primer hueco necesita sujeto: «hace frío» → [[It's]] cold. En inglés no hay oración sin sujeto.",
+        "i'm | is": "El primer hueco habla del ambiente («hace frío»), no de ti: [[It's]].",
+        "it's | has": "Omar no «tiene» frío con have: se dice [[Omar is cold]]."
+      },
+      "pistas": [
+        "Hay dos ideas: el ambiente y lo que siente Omar.",
+        "«Hace frío» necesita un sujeto que en español no aparece. En el segundo hueco el sujeto ya está (Omar).",
+        "Regla: ambiente → it + be (contraído); persona → la persona + be. Nunca have para el frío."
+      ],
+      "solucion": {
+        "respuesta": "It's … is",
+        "explicacion": "«Hace frío» se dice It's cold: el sujeto it es obligatorio. «Omar tiene frío» es Omar is cold: be + adjetivo, no have. La primera parte (Close the window, please) es una petición: por ahora apréndela como expresión."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.05",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Tengo 30 años.",
+      "respuestas": [
+        "I'm 30.",
+        "I'm 30 years old.",
+        "I'm thirty.",
+        "I'm thirty years old."
+      ],
+      "errores_tipicos": {
+        "I have 30 years.": "Calco del español. La edad se dice con be: [[I'm 30]] o [[I'm 30 years old]].",
+        "I'm 30 years.": "Falta old. O el número solo, o number + years old.",
+        "I have 30 years old.": "La edad no va con have. Cambia have por am."
+      },
+      "pistas": [
+        "La edad no se «tiene» en inglés.",
+        "Empieza con I y el verbo be.",
+        "I'm + número, o I'm + número + years old."
+      ],
+      "solucion": {
+        "respuesta": "I'm 30.",
+        "explicacion": "La edad se expresa con be: I'm 30 o I'm 30 years old (las dos son correctas; la primera es más frecuente al hablar). Con have o con «30 years» sin old es incorrecto."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error típico de hispanohablante. Señala la palabra incorrecta y corrígela.",
+      "frase": "My son has eight years old.",
+      "error": "has",
+      "correcciones": [
+        "is"
+      ],
+      "frase_correcta": "My son is eight years old.",
+      "pistas": [
+        "Esta oración habla de la edad.",
+        "El problema está en el verbo.",
+        "La edad se dice con be; my son equivale a he, que va con is."
+      ],
+      "solucion": {
+        "respuesta": "is",
+        "explicacion": "La edad se expresa con be, no con have: My son is eight years old. Se usa is porque my son es una sola persona (he)."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Falta una palabra. Señala la palabra donde está el problema y escríbela con lo que falta.",
+      "frase": "Lucía is dentist.",
+      "error": "dentist",
+      "correcciones": [
+        "a dentist"
+      ],
+      "frase_correcta": "Lucía is a dentist.",
+      "pistas": [
+        "En español decimos «es dentista», pero el inglés necesita algo más.",
+        "Mira la profesión: dentist.",
+        "Una profesión en singular lleva a o an delante."
+      ],
+      "solucion": {
+        "respuesta": "a dentist",
+        "explicacion": "Con be + profesión en singular, el inglés exige el artículo: Lucía is a dentist. Es a (no an) porque dentist empieza con sonido de consonante."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración usando la nacionalidad en lugar del país.",
+      "origen": "Tom is from Canada.",
+      "instruccion": "Usa la nacionalidad (Canadian)",
+      "respuestas": [
+        "Tom is Canadian."
+      ],
+      "errores_tipicos": {
+        "Tom is from Canadian.": "[[from]] va con el país (from Canada). La nacionalidad es un adjetivo y va sin from: Tom is Canadian."
+      },
+      "pistas": [
+        "País y nacionalidad no se construyen igual.",
+        "¿Qué palabra de la oración va solo con el país?",
+        "Con la nacionalidad se quita from: be + adjetivo de nacionalidad."
+      ],
+      "solucion": {
+        "respuesta": "Tom is Canadian.",
+        "explicacion": "from + país (from Canada) indica origen; la nacionalidad es un adjetivo y va directamente después de be, con mayúscula: Tom is Canadian."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para decir «Perdón, tengo prisa».",
+      "fichas": [
+        "hurry",
+        "I'm",
+        "a",
+        "in",
+        "Sorry,"
+      ],
+      "respuestas": [
+        "Sorry, I'm in a hurry"
+      ],
+      "traduccion": "Perdón, tengo prisa.",
+      "pistas": [
+        "La disculpa va al principio.",
+        "Después, sujeto + verbo en una sola ficha.",
+        "«Tener prisa» es la expresión fija be + in a hurry."
+      ],
+      "solucion": {
+        "respuesta": "Sorry, I'm in a hurry.",
+        "explicacion": "Sorry abre la oración; después I'm (sujeto y verbo) y la expresión fija in a hurry. En inglés la prisa no se «tiene»: se «está» con prisa."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Tienes razón, hace mucho frío.",
+      "respuestas": [
+        "You're right, it's very cold.",
+        "You're right. It's very cold."
+      ],
+      "errores_tipicos": {
+        "You have reason, it's very cold.": "«Tener razón» es [[be right]]: You're right.",
+        "You're right, is very cold.": "Falta el sujeto de la segunda parte: «hace frío» → [[it's]] cold.",
+        "You're right, it makes very cold.": "El tiempo no se expresa con make: [[it's very cold]]."
+      },
+      "pistas": [
+        "Las dos partes de la oración usan be en inglés.",
+        "«Tienes razón»: ¿qué adjetivo significa «tener razón»? «Hace frío»: ¿qué sujeto se usa?",
+        "Regla: «tener razón» y «hacer frío» se dicen con be + adjetivo; la segunda parte necesita el sujeto it; «mucho» delante de un adjetivo = very."
+      ],
+      "solucion": {
+        "respuesta": "You're right, it's very cold.",
+        "explicacion": "«Tienes razón» se dice You're right (be + right, no have reason). «Hace mucho frío» es It's very cold: sujeto it obligatorio y very delante del adjetivo."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "I'm hungry and my sister is thirsty.",
+      "pistas": [
+        "Son dos personas y dos sensaciones.",
+        "La primera sensación empieza con /h/ y la segunda con /θ/ (th).",
+        "Regla: cada sensación es be + adjetivo; my sister equivale a she."
+      ],
+      "solucion": {
+        "respuesta": "I'm hungry and my sister is thirsty.",
+        "explicacion": "«Tengo hambre y mi hermana tiene sed.» Las dos sensaciones se dicen con be + adjetivo: I'm hungry, my sister is thirsty."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Conoces a Sam en una fiesta. Sam ya te dijo cómo se llama y ahora te pregunta tu edad y a qué te dedicas.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "How old are you? And what do you do?",
+          "es": "¿Cuántos años tienes? ¿Y a qué te dedicas?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I'm 28 and I'm a nurse.",
+          "correcta": true,
+          "porque": "Correcto: edad con be + número, y profesión con be + a + profesión."
+        },
+        {
+          "texto": "I have 28 years and I'm nurse.",
+          "correcta": false,
+          "porque": "Dos calcos del español: la edad no va con have y la profesión necesita a (a nurse)."
+        },
+        {
+          "texto": "I'm 28 years and I'm a nurse.",
+          "correcta": false,
+          "porque": "La edad queda incompleta: I'm 28 o I'm 28 years old, nunca «28 years» sin old."
+        },
+        {
+          "texto": "Is 28 and is a nurse.",
+          "correcta": false,
+          "porque": "Faltan los sujetos. Además, hablando de ti mismo el verbo es am, no is."
+        }
+      ],
+      "pistas": [
+        "Hay que responder dos cosas: la edad y la profesión.",
+        "Revisa en cada opción el verbo de la edad y si la profesión lleva artículo.",
+        "Edad: I'm + número (years old). Profesión: I'm a/an + profesión."
+      ],
+      "solucion": {
+        "respuesta": "I'm 28 and I'm a nurse.",
+        "explicacion": "La única opción sin errores es I'm 28 and I'm a nurse: la edad va con be (sin have ni «years» suelto) y la profesión lleva el artículo a."
+      }
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe una breve presentación personal.",
+      "objetivo": "Presentarte por escrito usando be para todos los datos básicos.",
+      "instrucciones": "Escribe un texto de 35 a 60 palabras para un grupo de intercambio de idiomas. Incluye: tu nombre, tu edad, de dónde eres, tu profesión (o si eres estudiante), dónde estás ahora, cómo te sientes hoy y qué tiempo hace.",
+      "vocabulario_apoyo": [
+        "student",
+        "engineer",
+        "teacher",
+        "at home",
+        "at work",
+        "happy",
+        "tired",
+        "hungry",
+        "sunny",
+        "cold",
+        "hot",
+        "windy"
+      ],
+      "estructuras": [
+        "My name is … / I'm …",
+        "I'm … (years old).",
+        "I'm from …",
+        "I'm a / an …",
+        "I'm at … / in …",
+        "It's … today."
+      ],
+      "ejemplo": "Hello! This is my friend Ben. He's 34 years old and he's from Canada. He's a musician. Right now he's in Mexico City. He's very happy today because it's sunny and warm.",
+      "min_palabras": 35,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas I'm o I am",
+          "patron": "\\b(i'm|i am)\\b"
+        },
+        {
+          "descripcion": "Dices tu edad con be (I'm + número)",
+          "patron": "\\b(i'm|i am) (\\d{1,3}|[a-z]+(ty|teen)(-[a-z]+)?)\\b"
+        },
+        {
+          "descripcion": "Dices de dónde eres (from)",
+          "patron": "\\bfrom\\b"
+        },
+        {
+          "descripcion": "Mencionas el tiempo con it's / it is",
+          "patron": "\\b(it's|it is)\\b"
+        },
+        {
+          "descripcion": "No usas «have … years»",
+          "patron": "^(?![\\s\\S]*\\bhave \\d+ years)"
+        }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto (I, it, my…)?",
+        "¿Dices la edad con I'm + número (years old), sin have?",
+        "¿La profesión lleva a / an?",
+        "¿La nacionalidad (si la usas) va con mayúscula y sin from?",
+        "¿Distingues I'm cold (tú) de It's cold (el tiempo)?"
+      ],
+      "modelo": "Hi, everyone! My name is Laura. I'm 31 years old and I'm from Puebla, Mexico. I'm a graphic designer. Right now I'm at home in my living room. I'm a little tired today, but I'm happy. It's cold and cloudy here, but my coffee is hot!",
+      "explicacion": "Cada dato usa be: la edad (I'm 31 years old, sin have), el origen (I'm from Puebla), la profesión con artículo (I'm a graphic designer), el lugar (I'm at home), el estado (I'm a little tired, I'm happy) y el tiempo con el sujeto it (It's cold and cloudy). Right now («ahora mismo») y a little («un poco») son expresiones útiles para dar detalle. Todas las oraciones tienen sujeto explícito.",
+      "errores_comunes": [
+        "I have 31 years. → I'm 31.",
+        "I'm graphic designer. → I'm a graphic designer.",
+        "Is cold today. → It's cold today.",
+        "I'm from Mexican. → I'm from Mexico. / I'm Mexican."
+      ]
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.14",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Luego grábate y compara.",
+      "texto": "I'm hungry. I'm thirsty. It's cold.",
+      "ipa": "/aɪm ˈhʌŋɡri | aɪm ˈθɜːrsti | ɪts koʊld/",
+      "consejo": "En hungry, la h es un soplo sin fricción y la u es una «a» corta. En thirsty, empieza con la lengua entre los dientes (/θ/), no con t. En cold, la o es un diptongo que cierra hacia «u». Une cada I'm con la palabra siguiente sin pausa.",
+      "es": "Tengo hambre. Tengo sed. Hace frío."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "La llamada de tu amiga",
+    "contexto": "Tu amiga Priya te llama por teléfono un sábado por la tarde. Quiere saber cómo estás, dónde estás y qué tal el día.",
+    "dialogo": [
+      {
+        "quien": "Priya",
+        "en": "Hi! How are you? Where are you now?",
+        "es": "¡Hola! ¿Cómo estás? ¿Dónde estás ahora?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Priya",
+        "en": "And how is the weather there?",
+        "es": "¿Y qué tal el clima por allá?"
+      }
+    ],
+    "tu_turno": "Responde a las dos preguntas de Priya: di cómo estás (al menos una sensación física como hambre, sueño o frío), dónde estás y con quién, y qué tiempo hace.",
+    "modelo": "Hi, Priya! I'm fine, but I'm very hungry. I'm at home with my brother. It's sunny here, but it's cold.",
+    "alternativas": [
+      "I'm OK, a little tired. I'm at work. It's hot and I'm thirsty!",
+      "I'm great! I'm at the park with Carlos. It's windy, and we're cold."
+    ],
+    "claves": [
+      "Sensaciones: I'm hungry / thirsty / sleepy / cold, nunca I have…",
+      "Lugar: I'm at home / at work / at the park / in + ciudad.",
+      "Tiempo: It's sunny / cold / hot / windy, siempre con it."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Edad: I'm 30 o I'm 30 years old. Nunca have ni «30 years» sin old.",
+      "Sensaciones: be + adjetivo (hungry, thirsty, cold, hot, sleepy, scared, right, wrong, lucky, in a hurry).",
+      "Origen con from + lugar; nacionalidad como adjetivo con mayúscula (Mexican).",
+      "Profesión en singular con a / an: She's a nurse. He's an engineer.",
+      "Lugar: at home, at work, at school; in + ciudad, país o habitación.",
+      "Tiempo: It's + adjetivo. I'm cold (tengo frío) ≠ It's cold (hace frío)."
+    ],
+    "recuerda": [
+      "I'm bored (estoy aburrido) ≠ I'm boring (soy aburrido).",
+      "«Estoy de acuerdo» es I agree, sin am."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "verbo-to-be.usos-de-to-be.r1",
+      "frente": "«Tengo 25 años.»",
+      "reverso": "I'm 25. / I'm 25 years old.",
+      "nota": "Nunca «I have 25 years»."
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.r2",
+      "frente": "«Tengo hambre y sed.»",
+      "reverso": "I'm hungry and thirsty.",
+      "nota": "Sensaciones: be + adjetivo."
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.r3",
+      "frente": "«Tienes razón.»",
+      "reverso": "You're right.",
+      "nota": "Lo contrario: You're wrong."
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.r4",
+      "frente": "«Hace frío» vs «Tengo frío»",
+      "reverso": "It's cold. / I'm cold.",
+      "nota": "El ambiente → it; la persona → I."
+    },
+    {
+      "id": "verbo-to-be.usos-de-to-be.r5",
+      "frente": "«Ella es ingeniera.»",
+      "reverso": "She's an engineer.",
+      "nota": "La profesión en singular lleva a / an."
+    }
+  ]
+}

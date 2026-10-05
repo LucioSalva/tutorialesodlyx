@@ -1,0 +1,568 @@
+{
+  "slug": "la-hora",
+  "titulo": "La hora",
+  "minutos": 45,
+  "objetivos": [
+    "Preguntar la hora con What time is it? / What's the time? y responder siempre con It's.",
+    "Decir la hora de forma tradicional: o'clock, half past, quarter past / to, minutos past / to (y after / till en EE. UU.).",
+    "Decir la hora de forma digital (seven fifteen, eight oh five) y usar a.m., p.m., noon y midnight.",
+    "Convertir una hora de una forma a la otra sin equivocarte de hora en to."
+  ],
+  "situacion": {
+    "titulo": "En la parada del autobús",
+    "texto": "Aisha espera el autobús en una ciudad que no conoce. Su celular se quedó sin batería, así que le pregunta la hora a un señor que también espera.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Excuse me, what time is it?", "es": "Disculpe, ¿qué hora es?" },
+      { "quien": "Tom", "en": "It's a quarter to eight.", "es": "Es un cuarto para las ocho." },
+      { "quien": "Aisha", "en": "Seven forty-five? Thanks! Is the next bus at eight?", "es": "¿Las siete cuarenta y cinco? ¡Gracias! ¿El próximo autobús es a las ocho?" },
+      { "quien": "Tom", "en": "Yes, at eight o'clock.", "es": "Sí, a las ocho en punto." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "preguntar-la-hora",
+      "titulo": "Preguntar y responder: What time is it? — It's…",
+      "que_es": "Para preguntar la hora se usa [[What time is it?]] (la más común) o [[What's the time?]] (más británica, pero también se oye en EE. UU.). La respuesta empieza **siempre** con [[It's…]].",
+      "para_que": [
+        "Preguntar la hora a un desconocido con cortesía.",
+        "Responder cuando alguien te la pregunta.",
+        "Preguntar a qué hora es algo (la clase, el autobús)."
+      ],
+      "como_funciona": "**La pregunta:** [[What time is it?]] tiene la estructura de cualquier pregunta con be: palabra interrogativa (what time) + is + sujeto (it). Con desconocidos, empieza con [[Excuse me]].\n\n**La respuesta:** en español decimos «son las tres» o «es la una», sin sujeto y cambiando el verbo según la hora. En inglés, siempre [[It's]] + la hora, sea la una o las diez: [[It's one o'clock]], [[It's ten o'clock]]. Nunca «Are three» ni «Is three».\n\n**Otra pregunta muy común (expresión fija):** [[Excuse me, do you have the time?]] = Disculpe, ¿tiene hora? Ojo con el the: [[Do you have time?]], sin the, significa «¿tienes tiempo (libre)?». (En el R. U. también: [[Have you got the time?]])\n\n**Aproximar:** [[It's about seven]] (son como las siete), [[It's almost eight]] (ya casi son las ocho).\n\n**Preguntar la hora de algo:** [[What time is the class?]] → [[It's at seven.]] (at con las horas: lo verás en la próxima lección).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta",
+          "formula": [ { "t": "What time", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "it", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "What time", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "it", "rol": "sujeto" } ],
+          "es": "¿Qué hora es?"
+        },
+        {
+          "etiqueta": "Respuesta",
+          "formula": [ { "t": "It", "rol": "sujeto" }, { "t": "is ('s)", "rol": "verbo" }, { "t": "hora", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "It", "rol": "sujeto" }, { "t": "'s", "rol": "verbo" }, { "t": "three o'clock", "rol": "tiempo" } ],
+          "es": "Son las tres en punto."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Excuse me, what time is it?",
+          "es": "Disculpe, ¿qué hora es?",
+          "partes": [ { "t": "Excuse me", "rol": "otro" }, { "t": "what time", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "it", "rol": "sujeto" } ],
+          "nota": "Excuse me para llamar la atención de un desconocido; luego la pregunta con be invertido."
+        },
+        {
+          "en": "It's one o'clock.",
+          "es": "Es la una en punto.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "one o'clock", "rol": "tiempo" } ],
+          "nota": "En español cambiamos «es la una» / «son las dos»; en inglés siempre It's, en singular."
+        },
+        {
+          "en": "What's the time? It's almost nine.",
+          "es": "¿Qué hora es? Ya casi son las nueve.",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "the time", "rol": "sujeto" }, { "t": "It's", "rol": "sujeto" }, { "t": "almost nine", "rol": "tiempo" } ],
+          "nota": "What's the time? es la variante británica. Almost = casi."
+        },
+        {
+          "en": "What time is the meeting? It's at ten.",
+          "es": "¿A qué hora es la reunión? Es a las diez.",
+          "partes": [ { "t": "What time", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "the meeting", "rol": "sujeto" }, { "t": "It's", "rol": "sujeto" }, { "t": "at ten", "rol": "tiempo" } ],
+          "nota": "Para la hora de un evento, la respuesta lleva at: at ten (a las diez)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "What time is it?",
+          "ipa": "/ˌwʌt ˈtaɪm ɪz ɪt/",
+          "consejo": "La t de what casi no se suelta porque va pegada a time: «wha' TIME-i-zit». Is it se liga en una sola palabra: «izit». La entonación baja al final, porque es una pregunta con what.",
+          "lento": true
+        },
+        {
+          "texto": "o'clock",
+          "ipa": "/əˈklɑːk/",
+          "consejo": "La o inicial es una vocal neutra muy breve: «e-KLAK». En el R. U., /əˈklɒk/, con una o corta y redonda.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "Are three o'clock.", "bien": "It's three o'clock.", "porque": "Calco de «son las tres». En inglés la hora siempre va con it's, en singular." },
+        { "mal": "What hour is it?", "bien": "What time is it?", "porque": "Calco de «¿qué hora es?». Para preguntar la hora se usa time." },
+        { "mal": "Do you have time? (para pedir la hora)", "bien": "Do you have the time?", "porque": "Sin the significa «¿tienes tiempo libre?»." }
+      ]
+    },
+    {
+      "id": "hora-tradicional",
+      "titulo": "La forma tradicional: past, to, quarter, half",
+      "que_es": "La forma tradicional dice los minutos en relación con la hora: cuántos minutos **han pasado** ([[past]]) o cuántos **faltan** para la siguiente ([[to]]). Es la forma de los relojes de manecillas.",
+      "para_que": [
+        "Entender a hablantes de todas las edades y regiones.",
+        "Decir horas aproximadas de forma natural (a quarter to eight).",
+        "Leer relojes de manecillas."
+      ],
+      "como_funciona": "**Hora exacta:** [[o'clock]] = en punto: [[It's seven o'clock]]. Solo con horas exactas; nunca «seven thirty o'clock».\n\n**Del minuto 1 al 30: past** (pasadas). Primero los minutos, luego past, luego la hora actual: [[ten past seven]] = 7:10. [[A quarter past seven]] = 7:15. [[Half past seven]] = 7:30.\n\n**Del minuto 31 al 59: to** (para). Se dicen los minutos que faltan y la hora **siguiente**: [[twenty to eight]] = 7:40; [[a quarter to eight]] = 7:45. Buena noticia: es la misma lógica que el mexicano «un cuarto para las ocho» o «veinte para las ocho».\n\n**Detalles importantes:**\n- Con múltiplos de 5 se omite «minutes»: [[ten past six]]. Con los demás se dice: [[three minutes past six]], [[eighteen minutes to five]]. (En esos casos, la mayoría prefiere la forma digital.)\n- [[A quarter]] o [[quarter]], con o sin a: las dos formas son correctas.\n- Half solo va con past; nunca «half to».\n\n**EE. UU. informal:** en lugar de past se oye [[after]] ([[ten after seven]], [[a quarter after seven]]) y en lugar de to, [[till]] ([[ten till eight]]); en algunas regiones también [[of]] ([[a quarter of eight]]). Es bueno que las reconozcas.\n\n**R. U. informal:** [[half seven]] significa 7:30 (half past seven), no 6:30.",
+      "estructuras": [
+        {
+          "etiqueta": "Minutos 1–30",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "minutos / a quarter / half", "rol": "tiempo" }, { "t": "past (after)", "rol": "otro" }, { "t": "hora actual", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "twenty", "rol": "tiempo" }, { "t": "past", "rol": "otro" }, { "t": "four", "rol": "tiempo" } ],
+          "es": "Son las cuatro y veinte."
+        },
+        {
+          "etiqueta": "Minutos 31–59",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "minutos que faltan / a quarter", "rol": "tiempo" }, { "t": "to (till)", "rol": "otro" }, { "t": "hora SIGUIENTE", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "a quarter", "rol": "tiempo" }, { "t": "to", "rol": "otro" }, { "t": "five", "rol": "tiempo" } ],
+          "es": "Es un cuarto para las cinco (4:45)."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Media vuelta con past, media vuelta con to",
+        "centro": "o'clock",
+        "ramas": [
+          { "texto": "five / ten / twenty past", "detalle": "minutos 1–30: han pasado. 7:10 = ten past seven" },
+          { "texto": "a quarter past", "detalle": "7:15" },
+          { "texto": "half past", "detalle": "7:30 (solo con past)" },
+          { "texto": "a quarter to", "detalle": "7:45 = un cuarto para las OCHO" },
+          { "texto": "twenty / ten / five to", "detalle": "minutos 31–59: faltan. 7:50 = ten to eight" }
+        ],
+        "pie": "Con to, la hora que se dice es la SIGUIENTE."
+      },
+      "tablas": [
+        {
+          "titulo": "De 7:00 a 8:00",
+          "columnas": ["Hora", "Forma tradicional", "Variante EE. UU."],
+          "filas": [
+            ["7:00", "seven o'clock", "seven o'clock"],
+            ["7:05", "five past seven", "five after seven"],
+            ["7:15", "a quarter past seven", "a quarter after seven"],
+            ["7:30", "half past seven", "seven thirty"],
+            ["7:40", "twenty to eight", "twenty till eight"],
+            ["7:45", "a quarter to eight", "a quarter till eight"],
+            ["7:55", "five to eight", "five till eight"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "It's ten past six.",
+          "es": "Son las seis y diez.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "ten", "rol": "tiempo" }, { "t": "past", "rol": "otro" }, { "t": "six", "rol": "tiempo" } ],
+          "nota": "El orden es al revés que en español: primero los minutos, luego la hora."
+        },
+        {
+          "en": "It's half past three.",
+          "es": "Son las tres y media.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "half", "rol": "tiempo" }, { "t": "past", "rol": "otro" }, { "t": "three", "rol": "tiempo" } ],
+          "nota": "Half past + la hora actual. En el R. U. informal, half three."
+        },
+        {
+          "en": "It's twenty-five to nine.",
+          "es": "Son veinticinco para las nueve (8:35).",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "twenty-five", "rol": "tiempo" }, { "t": "to", "rol": "otro" }, { "t": "nine", "rol": "tiempo" } ],
+          "nota": "Faltan 25 minutos para las nueve: to + la hora siguiente. Error típico: decir eight."
+        },
+        {
+          "en": "It's a quarter after eleven.",
+          "es": "Son las once y cuarto.",
+          "situacion": "Una conversación informal en EE. UU.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "a quarter", "rol": "tiempo" }, { "t": "after", "rol": "otro" }, { "t": "eleven", "rol": "tiempo" } ],
+          "nota": "After = past en el inglés estadounidense informal."
+        },
+        {
+          "en": "It's seven minutes to two.",
+          "es": "Son siete para las dos (1:53).",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "seven minutes", "rol": "tiempo" }, { "t": "to", "rol": "otro" }, { "t": "two", "rol": "tiempo" } ],
+          "nota": "Como 7 no es múltiplo de 5, se dice minutes. Mucha gente diría simplemente one fifty-three."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "a quarter to eight",
+          "ipa": "/ə ˈkwɔːrtər tə ˈeɪt/",
+          "consejo": "To se reduce a /tə/, muy breve. En EE. UU. la t de quarter suena como una r suave: «KWOR-rer». Se liga todo: «a-KWOR-rer-te-EIT».",
+          "lento": true
+        },
+        {
+          "texto": "half past",
+          "ipa": "/ˌhæf ˈpæst/",
+          "consejo": "En EE. UU., las dos a son muy abiertas (/æ/), entre a y e. En el R. U. suenan largas y hacia atrás: /hɑːf pɑːst/. La l de half no se pronuncia.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "It's a quarter to seven. (para 7:45)", "bien": "It's a quarter to eight.", "porque": "Con to se nombra la hora SIGUIENTE: faltan 15 minutos para las ocho." },
+        { "mal": "It's seven and a half. / It's seven and half.", "bien": "It's half past seven. / It's seven thirty.", "porque": "Calco de «siete y media». En inglés: half past o la forma digital." },
+        { "mal": "It's half to eight.", "bien": "It's half past seven.", "porque": "Half solo se usa con past." },
+        { "mal": "It's seven thirty o'clock.", "bien": "It's seven thirty.", "porque": "O'clock solo va con horas exactas." }
+      ]
+    },
+    {
+      "id": "hora-digital",
+      "titulo": "La forma digital, a.m. / p.m., noon y midnight",
+      "que_es": "La forma digital lee la hora tal como se ve en una pantalla: primero la hora y luego los minutos, como números normales: [[7:15]] = [[seven fifteen]]. Es la forma más usada hoy en EE. UU., sobre todo para horarios.",
+      "para_que": [
+        "Leer horarios de autobuses, vuelos y citas.",
+        "Decir horas exactas como 6:53 sin cálculos.",
+        "Distinguir mañana y tarde con a.m. y p.m."
+      ],
+      "como_funciona": "**Hora + minutos:** [[9:40]] = [[nine forty]]; [[11:25]] = [[eleven twenty-five]].\n- Minutos 01–09: el cero se dice oh: [[8:05]] = [[eight oh five]].\n- Hora exacta: [[7:00]] = [[seven o'clock]] o solo [[seven]]; nunca «seven zero zero».\n\n**a.m. y p.m.:** [[a.m.]] va de la medianoche al mediodía (la mañana y la madrugada) y [[p.m.]] del mediodía a la medianoche. [[7 a.m.]] = 7 de la mañana; [[7 p.m.]] = 7 de la noche. Se escriben también [[AM]] / [[PM]] y no suelen combinarse con o'clock (se dice seven a.m. o seven o'clock in the morning).\n\n**Mediodía y medianoche:** [[noon]] (o [[midday]], más británico) = 12:00 del día; [[midnight]] = 12:00 de la noche. Técnicamente 12 p.m. es mediodía y 12 a.m. es medianoche, pero como mucha gente se confunde, es más claro decir noon y midnight.\n\n**Sin a.m./p.m.:** al hablar también se dice [[in the morning]], [[in the afternoon]], [[in the evening]] y [[at night]]: [[seven in the evening]].\n\n**Reloj de 24 horas:** en México se usa en muchos horarios; en EE. UU. casi solo en contextos militares o médicos (military time). En el R. U. es común en horarios de trenes y se lee como la forma digital: [[18:30]] = [[eighteen thirty]].",
+      "estructuras": [
+        {
+          "etiqueta": "Forma digital",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "hora", "rol": "tiempo" }, { "t": "minutos (oh + dígito si es 01–09)", "rol": "tiempo" }, { "t": "(a.m. / p.m.)", "rol": "otro" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "eight", "rol": "tiempo" }, { "t": "oh five", "rol": "tiempo" }, { "t": "p.m.", "rol": "otro" } ],
+          "es": "Son las 8:05 de la noche."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Tradicional", "items": ["a quarter to eight", "Minutos primero, hora después.", "Hay que calcular con to.", "Muy común en el R. U. y en la conversación."] },
+        "b": { "titulo": "Digital", "items": ["seven forty-five", "Hora primero, minutos después.", "Se lee tal como se ve.", "Muy común en EE. UU. y en horarios."] },
+        "veredicto": "Las dos significan 7:45. Si te cuesta calcular el to, usa la digital: siempre es correcta."
+      },
+      "ejemplos": [
+        {
+          "en": "It's six fifty-three.",
+          "es": "Son las 6:53.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "six", "rol": "tiempo" }, { "t": "fifty-three", "rol": "tiempo" } ],
+          "nota": "Horas no redondas: la forma digital es mucho más práctica que seven minutes to seven."
+        },
+        {
+          "en": "The flight is at eleven oh five p.m.",
+          "es": "El vuelo es a las 11:05 de la noche.",
+          "partes": [ { "t": "The flight", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "at eleven oh five p.m.", "rol": "tiempo" } ],
+          "nota": "05 se lee oh five. P.m. porque es después del mediodía."
+        },
+        {
+          "en": "Lunch is at noon.",
+          "es": "La comida es al mediodía.",
+          "partes": [ { "t": "Lunch", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "at noon", "rol": "tiempo" } ],
+          "nota": "Noon evita la confusión entre 12 a.m. y 12 p.m. Ojo: en EE. UU. lunch suele ser alrededor del mediodía, antes que la comida mexicana."
+        },
+        {
+          "en": "It's ten o'clock at night.",
+          "es": "Son las diez de la noche.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "ten o'clock", "rol": "tiempo" }, { "t": "at night", "rol": "tiempo" } ],
+          "nota": "En vez de p.m. se puede decir at night (noche) o in the evening (tarde-noche)."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "a.m., p.m.",
+          "ipa": "/ˌeɪ ˈem/ · /ˌpiː ˈem/",
+          "consejo": "Se dicen las letras en inglés: «ei-EM», «pii-EM». No digas «a eme» ni «pe eme».",
+          "lento": false
+        },
+        {
+          "texto": "noon, midnight",
+          "ipa": "/nuːn/ · /ˈmɪdnaɪt/",
+          "consejo": "Noon: una u larga entre dos n, «nuun». Midnight: acento en MID; la gh no suena: «MID-nait».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "It's eight zero five.", "bien": "It's eight oh five.", "porque": "En la forma digital, el cero de los minutos 01–09 se dice oh." },
+        { "mal": "It's seven zero zero.", "bien": "It's seven o'clock. / It's seven.", "porque": "Las horas exactas se dicen con o'clock o solo con el número." },
+        { "mal": "It's 7 p.m. in the evening.", "bien": "It's 7 p.m. / It's seven in the evening.", "porque": "P.m. ya significa «de la tarde/noche»; decir las dos cosas es redundante." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fechas-y-horas.la-hora.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada hora con su forma tradicional.",
+      "pares": [
+        { "a": "7:00", "b": "seven o'clock" },
+        { "a": "7:10", "b": "ten past seven" },
+        { "a": "7:15", "b": "a quarter past seven" },
+        { "a": "7:30", "b": "half past seven" },
+        { "a": "7:45", "b": "a quarter to eight" },
+        { "a": "7:50", "b": "ten to eight" }
+      ],
+      "pistas": [
+        "Hasta el minuto 30 se usa past; después, to.",
+        "Con to, la hora que se dice es la siguiente (eight).",
+        "quarter = 15 minutos; half = 30 minutos."
+      ],
+      "solucion": {
+        "respuesta": "7:00 = seven o'clock · 7:10 = ten past seven · 7:15 = a quarter past seven · 7:30 = half past seven · 7:45 = a quarter to eight · 7:50 = ten to eight",
+        "explicacion": "Hasta la media hora se cuentan los minutos que han pasado de las siete (past seven). A partir de ahí, los que faltan para las ocho (to eight): 7:45 es un cuarto para las ocho y 7:50, diez para las ocho."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "¿Cómo se dice 8:45 en la forma tradicional?",
+      "opciones": [
+        { "texto": "It's a quarter to nine.", "correcta": true, "porque": "Correcto: faltan 15 minutos para las nueve." },
+        { "texto": "It's a quarter to eight.", "correcta": false, "porque": "Eso es 7:45. Con to se nombra la hora siguiente: nine." },
+        { "texto": "It's a quarter past nine.", "correcta": false, "porque": "Eso es 9:15: han pasado 15 minutos de las nueve." },
+        { "texto": "It's nine forty-five.", "correcta": false, "porque": "Es forma digital, y además con la hora equivocada: 8:45 sería eight forty-five." }
+      ],
+      "pistas": [
+        "45 minutos está en la segunda mitad de la hora.",
+        "En la segunda mitad se dice cuánto falta y para qué hora.",
+        "a quarter to + la hora SIGUIENTE."
+      ],
+      "solucion": {
+        "respuesta": "It's a quarter to nine.",
+        "explicacion": "8:45 está pasada la media hora, así que se usa to con la hora siguiente: faltan 15 minutos (a quarter) para las nueve → a quarter to nine. En forma digital sería eight forty-five."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa: son las 6:30.",
+      "frase": "It's half ___ six.",
+      "traduccion": "Son las seis y media.",
+      "respuestas": [["past"]],
+      "errores_tipicos": {
+        "to": "Half solo va con past. Half to no existe.",
+        "and": "Calco de «seis y media». En inglés: half past six."
+      },
+      "pistas": [
+        "Media hora ya ha pasado desde las seis.",
+        "La palabra que buscas significa «pasadas».",
+        "Con half se usa la misma palabra que con los minutos del 1 al 30 (como en ten ___ seven = 7:10), y luego la hora actual."
+      ],
+      "solucion": {
+        "respuesta": "past",
+        "explicacion": "La respuesta es past: half past six = las seis y media. Half siempre va con past y con la hora actual."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con una palabra: son las 9:40.",
+      "frase": "It's twenty ___ ten.",
+      "traduccion": "Son veinte para las diez.",
+      "respuestas": [["to", "till", "of"]],
+      "errores_tipicos": {
+        "past": "Twenty past ten sería 10:20. Aquí faltan veinte minutos para las diez.",
+        "for": "Calco de «para las diez». En inglés se usa to."
+      },
+      "pistas": [
+        "Fíjate en la hora que aparece: ten, pero son las nueve y algo.",
+        "Faltan veinte minutos para las diez.",
+        "minutos que faltan + to + hora siguiente."
+      ],
+      "solucion": {
+        "respuesta": "to",
+        "explicacion": "La respuesta es to: 9:40 = twenty to ten, faltan veinte minutos para las diez. En EE. UU. informal también vale till: twenty till ten."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "Excuse me, what time is it?",
+      "ipa": "/ɪkˈskjuːz mi ˌwʌt ˈtaɪm ɪz ɪt/",
+      "consejo": "Excuse me: acento en KYUZ, con la s sonando z. What time: la t de what casi no se suelta. Is it se liga: «izit». Termina con la voz hacia abajo.",
+      "es": "Disculpe, ¿qué hora es?"
+    },
+    {
+      "id": "fechas-y-horas.la-hora.06",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. Puedes escribir la hora con palabras o con cifras (4:15).",
+      "texto": "It's a quarter past four.",
+      "respuestas": [
+        "It's quarter past four.",
+        "It's 4:15."
+      ],
+      "audio": true,
+      "pistas": [
+        "Es la forma tradicional.",
+        "Escucha si dice past o to.",
+        "a quarter past = y cuarto."
+      ],
+      "solucion": {
+        "respuesta": "It's a quarter past four.",
+        "explicacion": "Se oye a quarter past four: han pasado 15 minutos de las cuatro, 4:15."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.07",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Son las tres en punto.",
+      "respuestas": [
+        "It's three o'clock."
+      ],
+      "errores_tipicos": {
+        "Are three o'clock": "Calco de «son». La hora siempre va con It's, en singular.",
+        "Is three o'clock": "Falta el sujeto it: It's three o'clock.",
+        "It's three o'clocks": "O'clock no tiene plural.",
+        "They are three o'clock": "La hora se dice con it, nunca con they."
+      },
+      "pistas": [
+        "La hora siempre empieza con el mismo sujeto y el mismo verbo.",
+        "«En punto» tiene una traducción fija.",
+        "It's + número + la expresión fija de «en punto», como en It's nine o'clock."
+      ],
+      "solucion": {
+        "respuesta": "It's three o'clock.",
+        "explicacion": "La hora se dice con It's (sujeto it + is), aunque en español digamos «son las tres». «En punto» es o'clock, que no tiene plural."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.08",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Cambia la hora a la forma digital (con palabras).",
+      "origen": "It's a quarter to eleven.",
+      "instruccion": "Forma digital",
+      "respuestas": ["It's ten forty-five."],
+      "errores_tipicos": {
+        "It's eleven forty-five": "A quarter to eleven son las 10:45 (faltan 15 para las once), no las 11:45.",
+        "It's eleven fifteen": "Eso sería a quarter past eleven.",
+        "It's ten fifteen": "Eso sería a quarter past ten. Faltan 15 para las once: han pasado 45 minutos de las diez."
+      },
+      "pistas": [
+        "To significa que faltan minutos para la hora que se nombra.",
+        "Si faltan 15 minutos para las once, ¿qué hora es?",
+        "Hora anterior + (60 − 15) minutos dichos como número, como en a quarter to three = two forty-five."
+      ],
+      "solucion": {
+        "respuesta": "It's ten forty-five.",
+        "explicacion": "A quarter to eleven = faltan 15 minutos para las once, es decir, las 10:45. En forma digital: ten forty-five. Es el error más común: con to, la hora que se dice NO es la hora actual."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "Is five o'clock, so the store is closed.",
+      "error": "Is",
+      "correcciones": ["It's", "It is"],
+      "frase_correcta": "It's five o'clock, so the store is closed.",
+      "pistas": [
+        "Revisa si todas las partes de la oración tienen sujeto.",
+        "Mira la primera palabra.",
+        "La hora se dice con it + is."
+      ],
+      "solucion": {
+        "respuesta": "It's",
+        "explicacion": "El error es Is sin sujeto. En español «son las cinco» no tiene sujeto, pero en inglés es obligatorio: It's five o'clock."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.10",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la hora.",
+      "pregunta": "Tu boleto dice: Departure: 7:00 p.m. ¿A qué hora sale el autobús?",
+      "opciones": [
+        { "texto": "A las 19:00, las siete de la noche.", "correcta": true, "porque": "Correcto: p.m. es después del mediodía; 7 p.m. = 19:00." },
+        { "texto": "A las 7:00 de la mañana.", "correcta": false, "porque": "Eso sería 7:00 a.m." },
+        { "texto": "A mediodía.", "correcta": false, "porque": "Mediodía es noon (12:00 p.m.)." }
+      ],
+      "pistas": [
+        "a.m. y p.m. dividen el día en dos mitades.",
+        "p.m. corresponde a la mitad que empieza al mediodía.",
+        "p.m.: de las 12:00 a las 23:59."
+      ],
+      "solucion": {
+        "respuesta": "A las 19:00, las siete de la noche.",
+        "explicacion": "P.m. va del mediodía a la medianoche, así que 7:00 p.m. son las siete de la noche (19:00 en el reloj de 24 horas)."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.11",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Estás en un parque. Un señor te pregunta la hora. Tu reloj marca las 2:30.",
+      "lineas": [
+        { "quien": "Diego", "en": "Excuse me, do you have the time?", "es": "Disculpe, ¿tiene hora?" }
+      ],
+      "opciones": [
+        { "texto": "Yes, it's half past two.", "correcta": true, "porque": "Correcto: It's + half past + la hora actual." },
+        { "texto": "Yes, it's two and half.", "correcta": false, "porque": "Calco de «dos y media». En inglés: half past two o two thirty." },
+        { "texto": "Yes, it's half to three.", "correcta": false, "porque": "Half solo se usa con past." },
+        { "texto": "Sorry, I don't have time.", "correcta": false, "porque": "Do you have the time? pregunta la hora, no si tienes tiempo libre. Además, sí tienes reloj." }
+      ],
+      "pistas": [
+        "Do you have the time? es otra forma de preguntar la hora.",
+        "2:30 es la media hora exacta.",
+        "It's + half past + hora actual."
+      ],
+      "solucion": {
+        "respuesta": "Yes, it's half past two.",
+        "explicacion": "Do you have the time? significa «¿tiene hora?». La respuesta es It's half past two (o two thirty): half siempre va con past y con la hora actual."
+      }
+    },
+    {
+      "id": "fechas-y-horas.la-hora.12",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. Puedes escribir la hora con cifras (6:55 p.m.).",
+      "texto": "It's six fifty-five p.m.",
+      "respuestas": [
+        "It's 6:55 p.m.",
+        "It's 6:55 pm",
+        "It's six fifty-five pm"
+      ],
+      "audio": true,
+      "pistas": [
+        "Es la forma digital: primero la hora, luego los minutos.",
+        "Los minutos son una decena en -ty más una unidad.",
+        "Acento al principio y final corto = decena en -ty; p.m. = de la tarde/noche."
+      ],
+      "solucion": {
+        "respuesta": "It's six fifty-five p.m.",
+        "explicacion": "Forma digital: six (la hora) + fifty-five (los minutos) + p.m. (después del mediodía). Son las 6:55 de la tarde."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿A qué hora sale?",
+    "contexto": "Estás en una estación de tren en Inglaterra. Le preguntas a un empleado, Sam, la hora y a qué hora sale el próximo tren.",
+    "dialogo": [
+      { "quien": "Tú", "en": "Excuse me, what's the time?", "es": "Disculpe, ¿qué hora es?" },
+      { "quien": "Sam", "en": "It's twenty past five.", "es": "Son las cinco y veinte." },
+      { "quien": "Tú", "en": "Thanks. And what time is the next train to Oxford?", "es": "Gracias. ¿Y a qué hora es el próximo tren a Oxford?" },
+      { "quien": "Sam", "en": "It's at five forty-five.", "es": "Es a las cinco cuarenta y cinco." }
+    ],
+    "tu_turno": "Repite la hora del tren para confirmarla, esta vez en la forma tradicional, y di cuántos minutos faltan (son las 5:20).",
+    "modelo": "A quarter to six? Great, that's twenty-five minutes from now.",
+    "alternativas": [
+      "So, a quarter to six. Thank you!",
+      "Five forty-five, a quarter to six. Perfect, thanks!"
+    ],
+    "claves": [
+      "5:45 = five forty-five = a quarter to SIX.",
+      "Con to, la hora siguiente.",
+      "Para preguntar la hora de algo: What time is…?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "What time is it? / What's the time? → It's… (siempre It's, en singular).",
+      "o'clock solo para horas exactas.",
+      "Minutos 1–30: past (after en EE. UU.) + hora actual; 31–59: to (till en EE. UU.) + hora siguiente.",
+      "quarter = 15; half = 30 (solo half past).",
+      "Digital: hora + minutos (seven fifteen; eight oh five).",
+      "a.m. = de medianoche a mediodía; p.m. = de mediodía a medianoche; noon y midnight para las 12."
+    ],
+    "recuerda": [
+      "Do you have the time? = ¿tiene hora? · Do you have time? = ¿tienes tiempo?",
+      "No: seven and a half. Sí: half past seven / seven thirty."
+    ]
+  },
+  "repaso": [
+    { "id": "fechas-y-horas.la-hora.r1", "frente": "Di 7:45 de dos formas.", "reverso": "a quarter to eight · seven forty-five." },
+    { "id": "fechas-y-horas.la-hora.r2", "frente": "Traduce: «Son las tres y media».", "reverso": "It's half past three. / It's three thirty." },
+    { "id": "fechas-y-horas.la-hora.r3", "frente": "¿Cómo se lee 8:05 en forma digital?", "reverso": "eight oh five" },
+    { "id": "fechas-y-horas.la-hora.r4", "frente": "¿Qué es 12 p.m.? ¿Cómo se dice para no confundirse?", "reverso": "El mediodía → noon. (Medianoche → midnight.)" },
+    { "id": "fechas-y-horas.la-hora.r5", "frente": "¿Qué diferencia hay entre Do you have the time? y Do you have time?", "reverso": "Con the: ¿tiene hora? · Sin the: ¿tienes tiempo?" }
+  ]
+}

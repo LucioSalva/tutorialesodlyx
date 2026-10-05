@@ -1,0 +1,1229 @@
+{
+  "slug": "preguntas-en-todos-los-tiempos",
+  "titulo": "Preguntas en todos los tiempos",
+  "minutos": 40,
+  "objetivos": [
+    "Construir preguntas con palabra interrogativa en cualquier tiempo con la fórmula Palabra interrogativa + Auxiliar + Sujeto + Verbo.",
+    "Preguntar la misma información en presente simple, presente continuo, pasado simple, con be y con can.",
+    "Distinguir las preguntas de sujeto (Who called you?) de las de objeto (Who did you call?).",
+    "Contestar en el mismo tiempo en que te preguntan."
+  ],
+  "situacion": {
+    "titulo": "Buscando a la doctora Priya",
+    "texto": "Aisha necesita hablar con su amiga Priya, que es doctora, y le pregunta a un compañero de trabajo de ella. Fíjate en que todas las preguntas tratan del mismo tema (dónde trabaja Priya), pero cada una usa un tiempo distinto porque busca una información distinta.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Where does Priya work? At the city hospital?",
+        "es": "¿Dónde trabaja Priya? ¿En el hospital de la ciudad?"
+      },
+      {
+        "quien": "Colega",
+        "en": "Yes, but she isn't there this week.",
+        "es": "Sí, pero esta semana no está ahí."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Oh! Where is she working this week?",
+        "es": "¡Ah! ¿Y dónde está trabajando esta semana?"
+      },
+      {
+        "quien": "Colega",
+        "en": "At a small clinic in the mountains. She went there on Monday.",
+        "es": "En una clínica pequeña en la sierra. Se fue el lunes."
+      },
+      {
+        "quien": "Aisha",
+        "en": "Can I call her there?",
+        "es": "¿La puedo llamar ahí?"
+      },
+      {
+        "quien": "Colega",
+        "en": "Yes, you can. Here's the number.",
+        "es": "Sí. Aquí está el número."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formula-de-la-pregunta",
+      "titulo": "Una fórmula para todas las preguntas",
+      "que_es": "Una pregunta con palabra interrogativa ([[what]], [[where]], [[when]], [[who]], [[why]], [[how]], [[what time]], [[how often]]…) es una pregunta de sí o no con esa palabra delante. Si ya sabes invertir el auxiliar, ya sabes hacer cualquier pregunta: solo añades la palabra interrogativa al principio.",
+      "para_que": [
+        "Pedir información concreta: lugares, horas, personas, razones.",
+        "Preguntar sobre la rutina, el presente, el pasado y las habilidades de alguien.",
+        "Entrevistar, conocer gente nueva y resolver problemas prácticos."
+      ],
+      "como_funciona": "La fórmula es siempre la misma: {{interrogativo:Palabra interrogativa}} + {{auxiliar:Auxiliar}} + {{sujeto:Sujeto}} + {{verbo:Verbo}} + resto. El auxiliar lo eliges con el mapa que ya conoces: [[do]]/[[does]] para el presente simple, [[am]]/[[is]]/[[are]] para el continuo, [[did]] para el pasado simple, [[can]]/[[could]] para las habilidades y posibilidades. Con to be como verbo principal no hay otro verbo: [[Where is she?]], [[Where were you?]]. Así, una misma idea (dónde trabaja alguien) se puede preguntar de cinco maneras según **qué** quieres saber: [[Where does she work?]] (su trabajo habitual), [[Where is she working this week?]] (algo temporal), [[Where did she work before?]] (el pasado), [[Can she work from home?]] (una posibilidad; esta es de sí o no) y [[Where was she yesterday?]] (dónde estaba). Un detalle que choca al hispanohablante: cuando el verbo lleva preposición, **la preposición se queda al final**: [[Who do you live with?]] (¿Con quién vives?), [[Where are you from?]] (¿De dónde eres?), [[What are you looking at?]] (¿Qué estás mirando?).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con palabra interrogativa",
+          "formula": [
+            {
+              "t": "Palabra interrogativa",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "Auxiliar",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Where",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "before?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Dónde trabajaba antes?"
+        },
+        {
+          "etiqueta": "Pregunta con be como verbo principal",
+          "formula": [
+            {
+              "t": "Palabra interrogativa",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "am / is / are / was / were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Why",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "late?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Por qué llegaste tarde?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La misma información, cinco preguntas",
+          "columnas": [
+            "Tiempo",
+            "Pregunta",
+            "Respuesta posible"
+          ],
+          "filas": [
+            [
+              "presente simple",
+              "Where does she work?",
+              "She works at a hospital."
+            ],
+            [
+              "presente continuo",
+              "Where is she working this week?",
+              "She's working at a clinic in the mountains."
+            ],
+            [
+              "pasado simple",
+              "Where did she work before?",
+              "She worked at a school."
+            ],
+            [
+              "to be (pasado)",
+              "Where was she yesterday?",
+              "She was at home. She was sick."
+            ],
+            [
+              "can",
+              "Can she work from home?",
+              "No, she can't. She needs to see her patients."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What time does the bank open?",
+          "es": "¿A qué hora abre el banco?",
+          "partes": [
+            {
+              "t": "What time",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "the bank",
+              "rol": "sujeto"
+            },
+            {
+              "t": "open",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Presente simple (un horario fijo) con sujeto singular: does + forma base."
+        },
+        {
+          "en": "Why are you laughing?",
+          "es": "¿Por qué te estás riendo?",
+          "partes": [
+            {
+              "t": "Why",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "laughing",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Presente continuo: el auxiliar are pasa delante de you y el verbo conserva -ing."
+        },
+        {
+          "en": "When did your parents get married?",
+          "es": "¿Cuándo se casaron tus papás?",
+          "partes": [
+            {
+              "t": "When",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "get married",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Pasado simple: did + forma base (get, no got)."
+        },
+        {
+          "en": "How many languages can you speak?",
+          "es": "¿Cuántos idiomas hablas?",
+          "partes": [
+            {
+              "t": "How many languages",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "speak",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "La palabra interrogativa puede ser un grupo entero (how many languages): el auxiliar va justo después del grupo."
+        },
+        {
+          "en": "Who do you live with?",
+          "es": "¿Con quién vives?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "live",
+              "rol": "verbo"
+            },
+            {
+              "t": "with",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La preposición with queda al final. «With whom do you live?» existe, pero es muy formal y casi no se usa al hablar."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Una pregunta, varios tiempos",
+        "centro": "she + work",
+        "ramas": [
+          {
+            "texto": "Where does she work?",
+            "detalle": "presente simple: su trabajo de siempre"
+          },
+          {
+            "texto": "Where is she working this week?",
+            "detalle": "presente continuo: algo temporal"
+          },
+          {
+            "texto": "Where did she work before?",
+            "detalle": "pasado simple: un trabajo que terminó"
+          },
+          {
+            "texto": "Where was she yesterday?",
+            "detalle": "to be en pasado: dónde estaba"
+          },
+          {
+            "texto": "Can she work from home?",
+            "detalle": "can: si es posible"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "Where did you go?",
+          "ipa": "/wɛr ˈdɪdʒə ɡoʊ/",
+          "consejo": "En el habla natural did you se funde en «didya» /ˈdɪdʒə/: la d final de did y la y de you se juntan en un sonido parecido a la «ll» de «llave» dicha con fuerza, casi «ch» sonora. Reconocerlo te ayudará mucho a entender preguntas rápidas; al hablar tú, puedes decirlo despacio."
+        },
+        {
+          "texto": "Where does she work?",
+          "ipa": "/wɛr dəz ʃi wɝːk/",
+          "consejo": "La entonación de las preguntas con palabra interrogativa **baja** al final, al contrario que las de sí o no (Does she work here? ↗). Si subes al final, suena a que no oíste bien y pides que te lo repitan."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Where you work?",
+          "bien": "Where do you work?",
+          "porque": "Falta el auxiliar. En español basta con «¿Dónde trabajas?», pero en inglés el presente simple necesita do/does después de la palabra interrogativa."
+        },
+        {
+          "mal": "Where did you went?",
+          "bien": "Where did you go?",
+          "porque": "Después de did el verbo vuelve a la forma base."
+        },
+        {
+          "mal": "Where she is working?",
+          "bien": "Where is she working?",
+          "porque": "El auxiliar va delante del sujeto; el orden «where she is» solo se usa dentro de otra oración (I don't know where she is)."
+        },
+        {
+          "mal": "With who do you live?",
+          "bien": "Who do you live with?",
+          "porque": "En inglés hablado la preposición se queda al final de la pregunta."
+        }
+      ]
+    },
+    {
+      "id": "preguntas-de-sujeto",
+      "titulo": "La excepción: cuando who o what es el sujeto",
+      "que_es": "Hay un tipo de pregunta que **no lleva do, does ni did**: cuando la palabra interrogativa ([[who]], [[what]], [[which]], [[how many people]]…) es el **sujeto** de la oración, es decir, cuando preguntas quién o qué hace la acción. Es la única excepción importante a la fórmula anterior.",
+      "para_que": [
+        "Preguntar quién hizo algo: Who called you?",
+        "Preguntar qué ocurrió: What happened?",
+        "Entender la diferencia entre «¿Quién te llamó?» y «¿A quién llamaste?»."
+      ],
+      "como_funciona": "Compara dos preguntas. En [[Who did you call?]] (¿A quién llamaste?) el sujeto es [[you]] y [[who]] es la persona que recibe la llamada: es una pregunta normal, con did. En [[Who called you?]] (¿Quién te llamó?) [[who]] es el sujeto: la persona que hizo la llamada. Como la palabra interrogativa ya ocupa el lugar del sujeto, no hay nada que invertir y el orden es el de una afirmación: {{interrogativo:Who}} + {{verbo:called}} + you. Por eso el verbo va **conjugado**: en pasado lleva -ed o su forma irregular ([[Who broke the window?]]), y en presente lleva -s porque who se trata como tercera persona del singular ([[Who lives here?]], [[What happens next?]]). Con be y con can no cambia nada visible: [[Who is at the door?]], [[Who can help me?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta de sujeto (sin do/does/did)",
+          "formula": [
+            {
+              "t": "Who / What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "verbo conjugado",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "called",
+              "rol": "verbo"
+            },
+            {
+              "t": "you?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Quién te llamó?"
+        },
+        {
+          "etiqueta": "Pregunta de objeto (con auxiliar)",
+          "formula": [
+            {
+              "t": "Who / What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "do / does / did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base ?",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call?",
+              "rol": "verbo"
+            }
+          ],
+          "es": "¿A quién llamaste?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What happened?",
+          "es": "¿Qué pasó?",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "happened",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "What es el sujeto (lo que pasó). Por eso no se dice «What did happen?» en una pregunta normal."
+        },
+        {
+          "en": "Who lives in that house?",
+          "es": "¿Quién vive en esa casa?",
+          "partes": [
+            {
+              "t": "Who",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "lives",
+              "rol": "verbo"
+            },
+            {
+              "t": "in that house",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Who funciona como he/she: el verbo en presente lleva -s."
+        },
+        {
+          "en": "What did you eat?",
+          "es": "¿Qué comiste?",
+          "partes": [
+            {
+              "t": "What",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "Aquí what no es el sujeto: el sujeto es you (tú comiste algo). Pregunta normal, con did."
+        },
+        {
+          "en": "How many people came to the party?",
+          "es": "¿Cuánta gente vino a la fiesta?",
+          "partes": [
+            {
+              "t": "How many people",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "came",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the party",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "How many people es el sujeto (las personas que vinieron): verbo en pasado directamente, sin did."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Who = sujeto",
+          "items": [
+            "Who called you? (¿Quién te llamó?)",
+            "Who saw Ana? (¿Quién vio a Ana?)",
+            "Sin auxiliar, verbo conjugado"
+          ]
+        },
+        "b": {
+          "titulo": "Who = objeto",
+          "items": [
+            "Who did you call? (¿A quién llamaste?)",
+            "Who did Ana see? (¿A quién vio Ana?)",
+            "Con did y verbo en forma base"
+          ]
+        },
+        "veredicto": "Pregúntate: ¿la palabra interrogativa hace la acción? Si sí, no hay auxiliar. En español la «a» de «¿A quién…?» suele delatar la pregunta de objeto."
+      },
+      "pronunciacion": [
+        {
+          "texto": "What happened?",
+          "ipa": "/wʌt ˈhæpənd/",
+          "consejo": "Happened tiene dos sílabas, HAP-pend: la -ed no forma sílaba propia y suena /d/. La h es un soplo suave de aire, como cuando empañas un vidrio, no la «j» áspera del español. La t de what casi desaparece: «wha' happened»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Who did call you?",
+          "bien": "Who called you?",
+          "porque": "Who es el sujeto (quien llamó): la pregunta no lleva did y el verbo va en pasado."
+        },
+        {
+          "mal": "What did happen?",
+          "bien": "What happened?",
+          "porque": "What es el sujeto: no se usa did en una pregunta normal."
+        },
+        {
+          "mal": "Who live here?",
+          "bien": "Who lives here?",
+          "porque": "Who como sujeto se trata como tercera persona del singular: el verbo lleva -s en presente."
+        }
+      ]
+    },
+    {
+      "id": "responder-en-el-mismo-tiempo",
+      "titulo": "Contestar en el mismo tiempo",
+      "que_es": "La pregunta te regala el tiempo verbal de la respuesta: si te preguntan con [[did]], contestas en pasado; si te preguntan con [[are you …ing]], contestas en continuo. Escuchar el auxiliar es, por tanto, la clave para responder bien.",
+      "para_que": [
+        "Responder con seguridad en una conversación rápida.",
+        "Evitar respuestas que suenan raras («Where did you go? — I go to the beach»).",
+        "Dar una respuesta completa o corta según la situación."
+      ],
+      "como_funciona": "Localiza el auxiliar de la pregunta y conviértelo en el verbo de tu respuesta: [[Where did you go?]] → [[I went to the beach]] (did desaparece y el verbo pasa a pasado). [[What are you doing?]] → [[I'm reading]]. [[What does he do?]] → [[He teaches math]] (does desaparece y vuelve la -s). [[How was your trip?]] → [[It was great]]. En la conversación real, muchas veces basta con la información: [[Where did you go? — To the beach.]] Eso también es correcto. Lo que no se hace es cambiar de tiempo sin motivo.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta en pasado → respuesta en pasado",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "información pedida",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "went",
+              "rol": "verbo"
+            },
+            {
+              "t": "to my aunt's house",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Fui a casa de mi tía."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Del auxiliar de la pregunta al verbo de la respuesta",
+          "columnas": [
+            "Pregunta",
+            "Respuesta completa"
+          ],
+          "filas": [
+            [
+              "What does Grace teach?",
+              "She teaches music."
+            ],
+            [
+              "What is Grace teaching today?",
+              "She's teaching a new song."
+            ],
+            [
+              "What did Grace teach last year?",
+              "She taught piano."
+            ],
+            [
+              "What can Grace play?",
+              "She can play the violin."
+            ],
+            [
+              "How was the class?",
+              "It was really fun."
+            ]
+          ],
+          "audio": [
+            0,
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What did you have for breakfast? I had eggs and coffee.",
+          "es": "¿Qué desayunaste? Desayuné huevos y café.",
+          "partes": [
+            {
+              "t": "What did you have for breakfast?",
+              "rol": "complemento"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "had",
+              "rol": "verbo"
+            },
+            {
+              "t": "eggs and coffee",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Did + have en la pregunta → had en la respuesta."
+        },
+        {
+          "en": "Where is Tom going? He's going to the gym.",
+          "es": "¿A dónde va Tom? Va al gimnasio.",
+          "partes": [
+            {
+              "t": "Where is Tom going?",
+              "rol": "complemento"
+            },
+            {
+              "t": "He's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "going",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the gym",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta en continuo, respuesta en continuo. Tom pasa a he."
+        },
+        {
+          "en": "How often does Mei swim? She swims twice a week.",
+          "es": "¿Cada cuánto nada Mei? Nada dos veces por semana.",
+          "partes": [
+            {
+              "t": "How often does Mei swim?",
+              "rol": "complemento"
+            },
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "swims",
+              "rol": "verbo"
+            },
+            {
+              "t": "twice a week",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "En la pregunta la -s estaba en does; en la respuesta vuelve al verbo: swims."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "taught",
+          "ipa": "/tɔːt/",
+          "consejo": "Las letras augh no suenan: es una «o» abierta y larga entre dos t, «tot». En muchas zonas de EE. UU. se oye /tɑːt/, con una «a» abierta. Nunca pronuncies la g ni la h."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Where did you go? — I go to the beach.",
+          "bien": "I went to the beach.",
+          "porque": "La pregunta está en pasado (did); la respuesta también debe estarlo."
+        },
+        {
+          "mal": "What does he do? — He teach math.",
+          "bien": "He teaches math.",
+          "porque": "En la respuesta afirmativa la -s vuelve al verbo, porque ya no está does."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta lógica.",
+      "pares": [
+        {
+          "a": "Where does Priya work?",
+          "b": "At a hospital, from Monday to Friday."
+        },
+        {
+          "a": "Where is Priya working this week?",
+          "b": "At a small clinic in the mountains."
+        },
+        {
+          "a": "Where did Priya work before?",
+          "b": "At a school, as the school doctor."
+        },
+        {
+          "a": "Where was Priya yesterday?",
+          "b": "At home. She was sick."
+        },
+        {
+          "a": "Can Priya work from home?",
+          "b": "No, she can't."
+        }
+      ],
+      "pistas": [
+        "Todas las preguntas tratan del trabajo de Priya, pero en tiempos distintos.",
+        "Fíjate en el auxiliar: does (siempre), is + -ing (esta semana), did (antes), was (un día concreto), can (posibilidad).",
+        "Cada respuesta tiene una pista que encaja con un tiempo: from Monday to Friday, this week, before, sick, can't."
+      ],
+      "solucion": {
+        "respuesta": "does → hospital · is working → clinic · did → school · was → at home · can → No, she can't",
+        "explicacion": "Where does… pregunta por lo habitual (de lunes a viernes). Where is… working this week pregunta por algo temporal (la clínica). Where did… before pregunta por un trabajo anterior (la escuela). Where was… yesterday pregunta dónde estaba un día concreto. Can… es una pregunta de sí o no, así que su respuesta es corta: No, she can't."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el auxiliar correcto.",
+      "pregunta": "What ___ you do last weekend?",
+      "opciones": [
+        {
+          "texto": "did",
+          "correcta": true,
+          "porque": "Correcta: last weekend indica pasado y do es un verbo normal, así que el auxiliar es did."
+        },
+        {
+          "texto": "do",
+          "correcta": false,
+          "porque": "Do es el auxiliar del presente simple; last weekend pide pasado."
+        },
+        {
+          "texto": "were",
+          "correcta": false,
+          "porque": "Were es to be en pasado; aquí ya hay otro verbo (do), así que se necesita did."
+        }
+      ],
+      "pistas": [
+        "Busca la señal de tiempo.",
+        "Last weekend es pasado. ¿La oración tiene otro verbo además del auxiliar?",
+        "Pasado simple con verbo normal: palabra interrogativa + auxiliar del pasado + sujeto + forma base."
+      ],
+      "solucion": {
+        "respuesta": "did",
+        "explicacion": "Last weekend sitúa la pregunta en el pasado y el verbo principal es do (hacer), un verbo normal. Por eso el auxiliar es did: What did you do last weekend?"
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa las preguntas con el auxiliar correcto.",
+      "frase": "What time ___ Tom usually get up? And what ___ he doing right now?",
+      "banco": [
+        "do",
+        "does",
+        "is",
+        "are",
+        "did"
+      ],
+      "respuestas": [
+        [
+          "does"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "traduccion": "¿A qué hora se levanta Tom normalmente? ¿Y qué está haciendo ahora mismo?",
+      "errores_tipicos": {
+        "is | is": "Usually indica hábito y get up es un verbo normal: presente simple con does.",
+        "does | does": "Doing con right now es presente continuo: el auxiliar es is.",
+        "do | is": "Tom es tercera persona del singular: does, no do."
+      },
+      "pistas": [
+        "Cada pregunta usa un tiempo distinto.",
+        "La primera tiene usually y el verbo get up; la segunda tiene doing y right now.",
+        "Hábito → auxiliar del presente simple (con -es para he/she/it) + forma base; acción en curso → be + -ing."
+      ],
+      "solucion": {
+        "respuesta": "does · is",
+        "explicacion": "What time does Tom usually get up? es presente simple (usually) con sujeto de tercera persona: does. What is he doing right now? es presente continuo (right now, doing): is."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.04",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una pregunta.",
+      "fichas": [
+        "staying",
+        "are",
+        "this",
+        "Where",
+        "you",
+        "week",
+        "?"
+      ],
+      "respuestas": [
+        "Where are you staying this week?"
+      ],
+      "traduccion": "¿Dónde te estás quedando esta semana?",
+      "pistas": [
+        "Es una pregunta en presente continuo.",
+        "Empieza por la palabra interrogativa, luego el auxiliar.",
+        "Where + be + sujeto + verbo-ing + expresión de tiempo, como en Where is she working this month?"
+      ],
+      "solucion": {
+        "respuesta": "Where are you staying this week?",
+        "explicacion": "Sigue la fórmula Palabra interrogativa + Auxiliar + Sujeto + Verbo: Where + are + you + staying. La señal this week va al final."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con Where que tiene como respuesta el lugar (in Chicago).",
+      "origen": "Grace lives in Chicago.",
+      "instruccion": "Pregunta con Where",
+      "respuestas": [
+        "Where does Grace live?",
+        "Where does she live?"
+      ],
+      "errores_tipicos": {
+        "Where does Grace lives?": "La -s ya está en does: live va en forma base.",
+        "Where Grace lives?": "Falta el auxiliar does después de Where.",
+        "Where lives Grace?": "En inglés no basta con invertir el verbo normal: hace falta does."
+      },
+      "pistas": [
+        "Lives es presente simple con sujeto de tercera persona.",
+        "El lugar (in Chicago) desaparece: lo sustituye Where.",
+        "Where + auxiliar de presente (tercera persona) + sujeto + forma base, como en Where does Tom work?"
+      ],
+      "solucion": {
+        "respuesta": "Where does Grace live?",
+        "explicacion": "Lives no tiene auxiliar visible y es tercera persona del presente simple: sale does, que se lleva la -s. El lugar se sustituye por Where al principio."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con What que tiene como respuesta a new phone.",
+      "origen": "Ben bought a new phone yesterday.",
+      "instruccion": "Pregunta con What",
+      "respuestas": [
+        "What did Ben buy yesterday?",
+        "What did he buy yesterday?"
+      ],
+      "errores_tipicos": {
+        "What did Ben bought yesterday?": "Después de did el verbo vuelve a la forma base: buy.",
+        "What Ben bought yesterday?": "Falta el auxiliar did.",
+        "What bought Ben yesterday?": "El verbo normal no se invierte; se necesita did + forma base."
+      },
+      "pistas": [
+        "Bought es el pasado irregular de buy.",
+        "La pregunta es por el objeto (lo que compró), no por quién compró.",
+        "What + auxiliar del pasado + sujeto + forma base + expresión de tiempo, como en What did Ana cook last night?"
+      ],
+      "solucion": {
+        "respuesta": "What did Ben buy yesterday?",
+        "explicacion": "Bought es pasado simple, así que el auxiliar es did. Como What pregunta por el objeto (lo que Ben compró) y no por el sujeto, la pregunta lleva did y buy vuelve a su forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con What que tiene como respuesta a novel.",
+      "origen": "Sam is reading a novel.",
+      "instruccion": "Pregunta con What",
+      "respuestas": [
+        "What is Sam reading?",
+        "What is he reading?"
+      ],
+      "errores_tipicos": {
+        "What does Sam reading?": "Es presente continuo: el auxiliar es is, no does.",
+        "What Sam is reading?": "El auxiliar is va delante del sujeto."
+      },
+      "pistas": [
+        "Busca el auxiliar a la vista.",
+        "Is + -ing: presente continuo.",
+        "What + be + sujeto + verbo-ing + ?, como en What is Tom cooking?"
+      ],
+      "solucion": {
+        "respuesta": "What is Sam reading?",
+        "explicacion": "La oración está en presente continuo y su auxiliar es is. Se coloca What al principio, se invierte is con Sam y reading se queda con su -ing."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con What que tiene como respuesta the guitar.",
+      "origen": "Lucía can play the guitar.",
+      "instruccion": "Pregunta con What",
+      "respuestas": [
+        "What can Lucía play?",
+        "What can she play?",
+        "What can Lucia play?"
+      ],
+      "errores_tipicos": {
+        "What does Lucía can play?": "Can es su propio auxiliar: no se combina con does.",
+        "What can Lucía plays?": "Después de can, el verbo va en forma base."
+      },
+      "pistas": [
+        "El auxiliar es un modal.",
+        "Can se invierte con el sujeto, igual que en las preguntas de sí o no.",
+        "What + modal + sujeto + forma base + ?, como en What can Tom cook?"
+      ],
+      "solucion": {
+        "respuesta": "What can Lucía play?",
+        "explicacion": "Can es el auxiliar: se pone después de What y delante del sujeto. Play sigue en forma base, como siempre tras un modal."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.09",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la pregunta correcta para la situación.",
+      "pregunta": "Tu celular tiene una llamada perdida de anoche y no sabes de quién. Le preguntas a tu hermano, que tenía tu celular: «¿Quién me llamó?»",
+      "opciones": [
+        {
+          "texto": "Who called me?",
+          "correcta": true,
+          "porque": "Correcta: who es el sujeto (la persona que llamó), así que no hay auxiliar y el verbo va en pasado."
+        },
+        {
+          "texto": "Who did call me?",
+          "correcta": false,
+          "porque": "Cuando who es el sujeto, no se usa did en una pregunta normal."
+        },
+        {
+          "texto": "Who did I call?",
+          "correcta": false,
+          "porque": "Significa «¿A quién llamé yo?»: aquí el sujeto es I y who es la persona que recibe la llamada."
+        }
+      ],
+      "pistas": [
+        "Piensa en quién hizo la acción de llamar.",
+        "Quieres saber quién llamó: who es el sujeto del verbo call.",
+        "Si who es el sujeto: Who + verbo conjugado, sin did."
+      ],
+      "solucion": {
+        "respuesta": "Who called me?",
+        "explicacion": "Preguntas por la persona que hizo la llamada, así que who es el sujeto. En las preguntas de sujeto no hay auxiliar: el verbo va directamente en pasado, called."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.10",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Where you work?",
+      "error": "you work",
+      "correcciones": [
+        "do you work"
+      ],
+      "frase_correcta": "Where do you work?",
+      "pistas": [
+        "La palabra interrogativa está bien.",
+        "Busca qué pieza de la fórmula falta.",
+        "Palabra interrogativa + auxiliar + sujeto + verbo; en presente simple el auxiliar es do o does según el sujeto."
+      ],
+      "solucion": {
+        "respuesta": "you work → do you work",
+        "explicacion": "Falta el auxiliar do. En presente simple, una pregunta con where necesita do/does antes del sujeto: Where do you work?"
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.11",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Who did break the window?",
+      "error": "did break",
+      "correcciones": [
+        "broke"
+      ],
+      "frase_correcta": "Who broke the window?",
+      "pistas": [
+        "Piensa en qué papel tiene who en esta oración.",
+        "¿Who es la persona que rompió la ventana (sujeto)?",
+        "Pregunta de sujeto: sin did y con el verbo en pasado."
+      ],
+      "solucion": {
+        "respuesta": "did break → broke",
+        "explicacion": "Who es el sujeto (quien rompió la ventana), así que la pregunta no lleva did: el verbo va conjugado en pasado, broke (pasado irregular de break)."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa el pasado simple y before.",
+      "es": "¿Dónde trabajaba tu mamá antes?",
+      "respuestas": [
+        "Where did your mom work before?",
+        "Where did your mother work before?",
+        "Where did your mum work before?"
+      ],
+      "errores_tipicos": {
+        "Where did your mom worked before?": "Después de did el verbo va en forma base: work.",
+        "Where worked your mom before?": "Hace falta el auxiliar did: Where did your mom work…?",
+        "Where does your mom work before?": "Before indica pasado: el auxiliar es did."
+      },
+      "pistas": [
+        "«Trabajaba antes» habla de algo que terminó: pasado simple.",
+        "El sujeto es your mom; la palabra interrogativa es Where.",
+        "Where + auxiliar del pasado + sujeto + forma base + before, como en Where did your dad live before?"
+      ],
+      "solucion": {
+        "respuesta": "Where did your mom work before?",
+        "explicacion": "El imperfecto español «trabajaba» se traduce aquí con el pasado simple porque habla de una situación terminada. Pregunta con where: did + sujeto + work en forma base. Mom es la forma estadounidense; mum, la británica; mother es neutra."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés, como lo diría alguien en una conversación normal.",
+      "es": "¿Con quién vives?",
+      "respuestas": [
+        "Who do you live with?"
+      ],
+      "errores_tipicos": {
+        "With who do you live?": "En inglés la preposición se queda al final: Who do you live with?",
+        "Who you live with?": "Falta el auxiliar do.",
+        "Who do you live?": "Falta la preposición with, que va al final."
+      },
+      "pistas": [
+        "Es presente simple con you.",
+        "«Con» es with. ¿Dónde se coloca la preposición en una pregunta inglesa?",
+        "Who + auxiliar + sujeto + verbo + preposición al final, como en Who does she work with?"
+      ],
+      "solucion": {
+        "respuesta": "Who do you live with?",
+        "explicacion": "Presente simple con you: Who do you live…? La preposición with no va al principio como en español, sino al final. With whom do you live? es gramaticalmente correcta, pero tan formal que no se usa en una conversación normal."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.14",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite. Fíjate en cómo se unen did y you, y en la entonación que baja al final.",
+      "texto": "What did you do on Saturday?",
+      "ipa": "/wʌt ˈdɪdʒə duː ɑn ˈsætərdeɪ/",
+      "consejo": "Did you suena «didya» /ˈdɪdʒə/: la d y la y se funden. What pierde casi toda la t. La voz baja al final, en Saturday, porque es una pregunta con palabra interrogativa. En Saturday la t entre vocales suena como una r suave del español (la de «pero»): «SA-der-dei».",
+      "es": "¿Qué hiciste el sábado?",
+      "pistas": [
+        "Escucha la unión de did y you.",
+        "Fíjate en si la voz sube o baja al final.",
+        "Wh- questions: la entonación baja al final."
+      ]
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.15",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "How was your weekend? Did you do anything fun?",
+      "pistas": [
+        "Hay dos preguntas: una con to be y otra con un verbo normal.",
+        "La primera usa el pasado de be con your weekend; la segunda empieza con el auxiliar del pasado.",
+        "How + pasado de be + sujeto? / Auxiliar del pasado + sujeto + forma base + anything + adjetivo?"
+      ],
+      "solucion": {
+        "respuesta": "How was your weekend? Did you do anything fun?",
+        "explicacion": "How was…? usa to be en pasado (was, porque your weekend es singular). Did you do…? usa did como auxiliar y do como verbo principal en forma base. Anything se usa en preguntas."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Entrevista a un compañero",
+    "contexto": "Estás en una clase de inglés y tienes que entrevistar a tu compañera Grace sobre su trabajo. Tienes que hacerle al menos cuatro preguntas en tiempos distintos.",
+    "dialogo": [
+      {
+        "quien": "Tú",
+        "en": "What do you do, Grace?",
+        "es": "¿A qué te dedicas, Grace?"
+      },
+      {
+        "quien": "Grace",
+        "en": "I'm a web designer. I work for a small company.",
+        "es": "Soy diseñadora web. Trabajo para una empresa pequeña."
+      },
+      {
+        "quien": "Tú",
+        "en": "Nice! What are you working on this week?",
+        "es": "¡Qué bien! ¿En qué estás trabajando esta semana?"
+      },
+      {
+        "quien": "Grace",
+        "en": "A website for a bakery. It's really fun.",
+        "es": "En una página web para una panadería. Es muy divertido."
+      }
+    ],
+    "tu_turno": "Haz a Grace tres preguntas más: una en pasado simple (sobre su trabajo anterior o sus estudios), una con can y una pregunta de sujeto o con How was…?",
+    "modelo": "Where did you work before? Can you work from home? How was your first day at the company?",
+    "alternativas": [
+      "What did you study at university? Can you speak other languages? Who helps you with the big projects?",
+      "When did you start this job? Can you draw well? What happened on your first day?"
+    ],
+    "claves": [
+      "Pasado: Wh- + did + sujeto + forma base.",
+      "Can + sujeto + forma base.",
+      "Pregunta de sujeto sin auxiliar: Who helps you? / What happened?",
+      "How was + sustantivo singular?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Fórmula: Palabra interrogativa + Auxiliar + Sujeto + Verbo + resto.",
+      "El auxiliar depende del tiempo: do/does, am/is/are, did, can/could; con be no hay otro verbo.",
+      "La misma idea se pregunta en varios tiempos según lo que quieras saber.",
+      "Excepción: si who/what es el sujeto, no hay auxiliar y el verbo va conjugado (Who called you? What happened?).",
+      "Contesta en el mismo tiempo de la pregunta."
+    ],
+    "recuerda": [
+      "La preposición va al final: Who do you live with? Where are you from?",
+      "Las preguntas con palabra interrogativa bajan la voz al final.",
+      "Did you suena «didya» en el habla rápida."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.r1",
+      "frente": "Fórmula de una pregunta con where, what, when…",
+      "reverso": "Palabra interrogativa + Auxiliar + Sujeto + Verbo → Where did she work?",
+      "nota": "La misma en todos los tiempos."
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.r2",
+      "frente": "«¿Quién te llamó?» / «¿A quién llamaste?»",
+      "reverso": "Who called you? / Who did you call?",
+      "nota": "Si who es el sujeto, no hay did."
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.r3",
+      "frente": "«¿Con quién vives?»",
+      "reverso": "Who do you live with?",
+      "nota": "La preposición se queda al final."
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.r4",
+      "frente": "Pregunta por el lugar: «Grace lives in Chicago.»",
+      "reverso": "Where does Grace live?",
+      "nota": "La -s pasa a does."
+    },
+    {
+      "id": "todos-los-tiempos.preguntas-en-todos-los-tiempos.r5",
+      "frente": "Where did you go? — ¿I go o I went to the beach?",
+      "reverso": "I went to the beach.",
+      "nota": "Pregunta en pasado, respuesta en pasado."
+    }
+  ]
+}

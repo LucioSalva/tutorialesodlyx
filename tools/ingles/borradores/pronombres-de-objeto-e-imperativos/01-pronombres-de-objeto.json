@@ -1,0 +1,1276 @@
+{
+  "slug": "pronombres-de-objeto",
+  "titulo": "Me, him, her, us, them",
+  "minutos": 40,
+  "objetivos": [
+    "Distinguir el pronombre de sujeto (quien hace la acción) del pronombre de objeto (quien la recibe): I → me, he → him, she → her, we → us, they → them.",
+    "Colocar el pronombre de objeto después del verbo (I call her) y nunca delante, como en español («la llamo»).",
+    "Usar el pronombre de objeto después de cualquier preposición: with me, for her, about them, to us.",
+    "Ordenar correctamente give, tell, send, show y buy con una persona y una cosa: Give me the book / Give it to me."
+  ],
+  "situacion": {
+    "titulo": "Un regalo para la abuela",
+    "texto": "Mei y su hermano Sam preparan el cumpleaños de su abuela. Fíjate en las palabras que se refieren a personas que NO hacen la acción, sino que la reciben: me, her, us, them. Y fíjate en dónde van: siempre después del verbo o de una preposición.",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "Grandma's birthday is on Sunday. Do you have a present for her?",
+        "es": "El cumpleaños de la abuela es el domingo. ¿Tienes un regalo para ella?"
+      },
+      {
+        "quien": "Sam",
+        "en": "Not yet. Can you help me?",
+        "es": "Todavía no. ¿Me puedes ayudar?"
+      },
+      {
+        "quien": "Mei",
+        "en": "Sure. She loves flowers. Let's buy her some roses.",
+        "es": "Claro. Le encantan las flores. Comprémosle unas rosas."
+      },
+      {
+        "quien": "Sam",
+        "en": "Good idea. And the cousins? Did you call them?",
+        "es": "Buena idea. ¿Y los primos? ¿Les llamaste?"
+      },
+      {
+        "quien": "Mei",
+        "en": "Yes. They're coming with us.",
+        "es": "Sí. Vienen con nosotros."
+      },
+      {
+        "quien": "Sam",
+        "en": "Great. Send me the address, please.",
+        "es": "Perfecto. Mándame la dirección, por favor."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "sujeto-y-objeto",
+      "titulo": "Sujeto o objeto: I / me, she / her, they / them",
+      "que_es": "Un **pronombre de objeto** es la palabra que usas para una persona o cosa que **recibe** la acción del verbo. En [[I love her]], [[I]] hace la acción (amar) y [[her]] la recibe. En español pasa algo parecido con «yo / me», «ella / la, le», pero el inglés tiene una diferencia enorme: el pronombre de objeto va **siempre detrás del verbo**, nunca delante.",
+      "para_que": [
+        "Evitar repetir nombres: «Ana is my friend. I see Ana every day» → I see her every day.",
+        "Hablar de lo que otras personas hacen contigo: She calls me. They invited us.",
+        "Entender preguntas cotidianas: Can you help me? Do you know him?"
+      ],
+      "como_funciona": "**Cada pronombre de sujeto tiene su pareja de objeto.** Cinco cambian y dos no:\n- [[I]] → [[me]]\n- [[he]] → [[him]]\n- [[she]] → [[her]]\n- [[we]] → [[us]]\n- [[they]] → [[them]]\n- [[you]] → [[you]] (no cambia; sirve para tú, usted, ustedes)\n- [[it]] → [[it]] (no cambia)\n\n**Posición:** {{sujeto:Sujeto}} + {{verbo:verbo}} + {{complemento:pronombre de objeto}}. En español decimos «te llamo», «la conozco», «nos ayudan», con el pronombre delante del verbo. En inglés el orden es siempre el mismo que con un nombre: [[I call Ana]] → [[I call her]]. [[They help my family]] → [[They help us]].\n\n**En preguntas y negaciones tampoco se mueve:** [[Do you know him?]] / [[I don't know him]]. El auxiliar va delante del sujeto, pero el objeto sigue al final, detrás del verbo.\n\n**Them sirve para personas y cosas:** [[I like your shoes. Where did you buy them?]] Para una sola cosa o un animal se usa [[it]]: [[I have a new phone. I love it]].\n\n**Un truco:** si en español la palabra es «me, te, lo, la, le, nos, los, las, les», en inglés casi siempre necesitas un pronombre de objeto detrás del verbo.",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "me / you / him / her / it / us / them",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "calls",
+              "rol": "verbo"
+            },
+            {
+              "t": "me",
+              "rol": "complemento"
+            },
+            {
+              "t": "every Sunday.",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Mi hermana me llama todos los domingos."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Do / Does / Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "pronombre de objeto?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "know",
+              "rol": "verbo"
+            },
+            {
+              "t": "him?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Lo conoces?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pronombres de sujeto y de objeto",
+          "columnas": [
+            "Sujeto",
+            "Objeto",
+            "Ejemplo",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "I",
+              "me",
+              "Ana helps me.",
+              "Ana me ayuda."
+            ],
+            [
+              "you",
+              "you",
+              "I understand you.",
+              "Te entiendo. / Lo entiendo a usted."
+            ],
+            [
+              "he",
+              "him",
+              "We see him every day.",
+              "Lo vemos todos los días."
+            ],
+            [
+              "she",
+              "her",
+              "I love her.",
+              "La quiero."
+            ],
+            [
+              "it",
+              "it",
+              "I read it yesterday.",
+              "Lo leí ayer."
+            ],
+            [
+              "we",
+              "us",
+              "They invited us.",
+              "Nos invitaron."
+            ],
+            [
+              "they",
+              "them",
+              "I miss them.",
+              "Los extraño."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos is very nice. I like him.",
+          "es": "Carlos es muy amable. Me cae bien.",
+          "partes": [
+            {
+              "t": "Carlos is very nice.",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "like",
+              "rol": "verbo"
+            },
+            {
+              "t": "him",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Him sustituye a Carlos. Ojo con la traducción: «me cae bien» tiene un «me» en español, pero en inglés el sujeto es I y Carlos (him) es el objeto."
+        },
+        {
+          "en": "Where are my keys? I can't find them.",
+          "es": "¿Dónde están mis llaves? No las encuentro.",
+          "partes": [
+            {
+              "t": "Where are my keys?",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "can't",
+              "rol": "negacion"
+            },
+            {
+              "t": "find",
+              "rol": "verbo"
+            },
+            {
+              "t": "them",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Them también se usa para cosas en plural (las llaves). En la negación el objeto sigue detrás del verbo."
+        },
+        {
+          "en": "Our teacher always helps us.",
+          "es": "Nuestra maestra siempre nos ayuda.",
+          "partes": [
+            {
+              "t": "Our teacher",
+              "rol": "sujeto"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "helps",
+              "rol": "verbo"
+            },
+            {
+              "t": "us",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Our (posesivo, delante de un sustantivo) y us (objeto, después del verbo) son palabras distintas para «nosotros»."
+        },
+        {
+          "en": "Did you call your mom? — Yes, I called her this morning.",
+          "es": "¿Le llamaste a tu mamá? — Sí, la llamé esta mañana.",
+          "nota": "Her sustituye a your mom. En la pregunta, el objeto también queda al final: Did you call her?"
+        },
+        {
+          "en": "This soup is delicious. Try it!",
+          "es": "Esta sopa está deliciosa. ¡Pruébala!",
+          "partes": [
+            {
+              "t": "This soup is delicious.",
+              "rol": "otro"
+            },
+            {
+              "t": "Try",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "It no cambia: sirve igual de sujeto (It is delicious) y de objeto (Try it)."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Cada sujeto con su objeto",
+        "centro": "sujeto → objeto",
+        "ramas": [
+          {
+            "texto": "I → me",
+            "detalle": "Call me."
+          },
+          {
+            "texto": "he → him",
+            "detalle": "I know him."
+          },
+          {
+            "texto": "she → her",
+            "detalle": "I love her."
+          },
+          {
+            "texto": "we → us",
+            "detalle": "Help us!"
+          },
+          {
+            "texto": "they → them",
+            "detalle": "I miss them."
+          },
+          {
+            "texto": "you, it",
+            "detalle": "No cambian: I see you. I like it."
+          }
+        ]
+      },
+      "comparacion": {
+        "a": {
+          "titulo": "Español: pronombre delante",
+          "items": [
+            "Te llamo todos los días.",
+            "La conozco.",
+            "Nos ayudan."
+          ]
+        },
+        "b": {
+          "titulo": "Inglés: pronombre detrás",
+          "items": [
+            "I call you every day.",
+            "I know her.",
+            "They help us."
+          ]
+        },
+        "veredicto": "El orden inglés no cambia nunca: sujeto + verbo + objeto, igual que con un nombre (I know Ana → I know her). Si pones el pronombre antes del verbo, la oración se vuelve incomprensible."
+      },
+      "pronunciacion": [
+        {
+          "texto": "him",
+          "ipa": "/hɪm/",
+          "consejo": "La h inglesa es solo aire suave, como cuando empañas un espejo; no es la jota raspada del español. En habla rápida la h casi desaparece: Tell him suena «TÉ-lim» /ˈtɛl ɪm/.",
+          "lento": true
+        },
+        {
+          "texto": "them",
+          "ipa": "/ðɛm/",
+          "consejo": "La th de them es sonora: pon la punta de la lengua entre los dientes y deja vibrar la garganta, como la «d» suave de «nada». En habla rápida se reduce a /ðəm/."
+        },
+        {
+          "texto": "us",
+          "ipa": "/ʌs/",
+          "consejo": "Una sola vocal corta y relajada, entre «a» y «o», con la boca medio abierta. No es «us» con u española: suena parecido a «as» dicho rápido."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I love she.",
+          "bien": "I love her.",
+          "porque": "She es pronombre de sujeto; después del verbo va el de objeto: her."
+        },
+        {
+          "mal": "She me calls every day.",
+          "bien": "She calls me every day.",
+          "porque": "Calco de «ella me llama». En inglés el pronombre de objeto va detrás del verbo."
+        },
+        {
+          "mal": "Me you call?",
+          "bien": "Can you call me?",
+          "porque": "En la pregunta, el auxiliar va primero, luego el sujeto, el verbo y al final el objeto."
+        },
+        {
+          "mal": "Him is my brother.",
+          "bien": "He is my brother.",
+          "porque": "Cuando la persona hace la acción (es el sujeto), se usa he, no him."
+        }
+      ]
+    },
+    {
+      "id": "despues-de-preposicion",
+      "titulo": "Después de preposiciones: with me, for her, about them",
+      "que_es": "Después de **cualquier preposición** (with, for, to, about, at, from, near, next to, behind…) el inglés usa siempre el pronombre de objeto: [[with me]], [[for her]], [[to them]], [[about us]]. En español cambia poco («para ella», «con ellos») y tenemos formas especiales («conmigo», «contigo»), pero en inglés la regla es fija y no tiene excepciones.",
+      "para_que": [
+        "Decir con quién o para quién haces algo: Come with me. This is for you.",
+        "Hablar de alguien: What do you think about him?",
+        "Responder con una sola palabra: Who wants cake? — Me!"
+      ],
+      "como_funciona": "**Preposición + pronombre de objeto.** Nunca pongas un pronombre de sujeto después de una preposición:\n- [[with me]] (conmigo), [[with you]] (contigo / con usted)\n- [[for her]] (para ella), [[for him]] (para él)\n- [[to us]] (a nosotros), [[about them]] (sobre ellos)\n- [[next to me]], [[behind him]], [[near us]]\n\n**Conmigo y contigo no existen como palabras especiales:** son simplemente [[with me]] y [[with you]].\n\n**Respuestas cortas:** en conversación normal se usa el pronombre de objeto cuando va solo: [[Who's there? — It's me.]] / [[I'm hungry. — Me too.]] / [[Who wants coffee? — Me!]] Una respuesta con sujeto necesita verbo: [[I do]]. «I!» solo no se dice.\n\n**Dos personas unidas con and:** después de una preposición, las dos van en forma de objeto: [[between you and me]], [[for Ana and me]]. Muchas personas dicen «between you and I» por exceso de corrección, pero la forma que sigue la regla es [[between you and me]].",
+      "estructuras": [
+        {
+          "etiqueta": "Preposición + objeto",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            },
+            {
+              "t": "preposición + me / him / her / us / them",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "made",
+              "rol": "verbo"
+            },
+            {
+              "t": "a cake",
+              "rol": "complemento"
+            },
+            {
+              "t": "for us.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Priya nos hizo un pastel. (Priya hizo un pastel para nosotros.)"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Do you want to come with me?",
+          "es": "¿Quieres venir conmigo?",
+          "partes": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "want to come",
+              "rol": "verbo"
+            },
+            {
+              "t": "with me",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "«Conmigo» = with me. No hay una palabra especial como en español."
+        },
+        {
+          "en": "These flowers are for her.",
+          "es": "Estas flores son para ella.",
+          "partes": [
+            {
+              "t": "These flowers",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "for her",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Después de for siempre objeto: for her, nunca «for she»."
+        },
+        {
+          "en": "We talked about them all night.",
+          "es": "Hablamos de ellos toda la noche.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "talked",
+              "rol": "verbo"
+            },
+            {
+              "t": "about them",
+              "rol": "complemento"
+            },
+            {
+              "t": "all night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Talk about + persona = hablar de alguien. Them puede ser personas o cosas."
+        },
+        {
+          "en": "Sit next to me.",
+          "es": "Siéntate junto a mí.",
+          "nota": "Las preposiciones de lugar funcionan igual: next to me, behind her, near them."
+        },
+        {
+          "en": "Who's there? — It's me, Diego.",
+          "es": "¿Quién es? — Soy yo, Diego.",
+          "nota": "En español decimos «soy yo»; en inglés, It's me. «It's I» es tan formal que casi nadie lo usa."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "for her",
+          "ipa": "/fər ər/",
+          "consejo": "En habla rápida for y her se reducen: la h desaparece y las dos vocales se vuelven una «e» murmurada con la lengua curvada hacia atrás. Suena casi como una sola palabra: «fe-rer»."
+        },
+        {
+          "texto": "with me",
+          "ipa": "/wɪð mi/",
+          "consejo": "La th final de with es sonora (lengua entre los dientes, garganta vibrando). No la cambies por una t ni por una d fuerte."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Come with I.",
+          "bien": "Come with me.",
+          "porque": "Después de una preposición va siempre el pronombre de objeto."
+        },
+        {
+          "mal": "This present is for she.",
+          "bien": "This present is for her.",
+          "porque": "For es preposición: necesita her."
+        },
+        {
+          "mal": "Who wants tea? — I!",
+          "bien": "Who wants tea? — Me! / I do!",
+          "porque": "El pronombre de sujeto no puede ir solo; o usas me, o añades el auxiliar: I do."
+        }
+      ]
+    },
+    {
+      "id": "give-me-it-to-me",
+      "titulo": "Give me the book / Give it to me",
+      "que_es": "Algunos verbos tienen **dos** objetos: una persona y una cosa. Son verbos de dar, enviar, contar o mostrar: [[give]], [[send]], [[tell]], [[show]], [[buy]], [[bring]], [[lend]]. El inglés tiene dos órdenes posibles, y el español te empuja a un tercero que es incorrecto: «She gave to me it».",
+      "para_que": [
+        "Pedir cosas: Give me your number. Pass me the salt, please.",
+        "Contar lo que alguien te dio o envió: My dad bought me a bike.",
+        "Pedir información: Tell me your name. Show me the photos."
+      ],
+      "como_funciona": "**Orden 1: persona + cosa (sin preposición).** {{verbo:Give}} {{complemento:me}} {{complemento:the book}}. Es el orden más frecuente cuando la cosa es un sustantivo: [[She sent me a message]], [[Tell us a story]], [[Show him the photos]].\n\n**Orden 2: cosa + to/for + persona.** {{verbo:Give}} {{complemento:the book}} {{otro:to me}}. Es obligatorio, o casi, cuando la cosa es un **pronombre** (it, them): [[Give it to me]], [[Send them to Ana]]. Con [[buy]], [[make]] y [[get]] se usa for: [[He bought it for her]].\n\n**¿Y «Give me it»?** En el inglés estadounidense estándar suena raro; se oye en habla informal, sobre todo británica. La forma segura en cualquier situación es [[Give it to me]].\n\n**El calco que hay que evitar:** el español dice «me lo dio» o «le dio a él el libro», y eso lleva a poner la preposición antes de la persona **y** la cosa al final: «She gave to me the book». En inglés, si pones [[to]], la cosa va antes: [[She gave the book to me]]; si no la pones, la persona va antes: [[She gave me the book]].\n\n**Tell y say no son iguales:** [[tell]] lleva a la persona directamente ([[Tell me]], [[She told us]]); [[say]] necesita [[to]] ([[Say hello to her]]). Por eso «Tell to me» es incorrecto. Tampoco [[explain]] funciona como give: [[Explain it to me]], no «Explain me it».",
+      "estructuras": [
+        {
+          "etiqueta": "Persona + cosa",
+          "formula": [
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "persona",
+              "rol": "complemento"
+            },
+            {
+              "t": "cosa",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Send",
+              "rol": "verbo"
+            },
+            {
+              "t": "me",
+              "rol": "complemento"
+            },
+            {
+              "t": "the address,",
+              "rol": "complemento"
+            },
+            {
+              "t": "please.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Mándame la dirección, por favor."
+        },
+        {
+          "etiqueta": "Cosa + to / for + persona",
+          "formula": [
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "cosa (it / them)",
+              "rol": "complemento"
+            },
+            {
+              "t": "to / for + persona",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Give",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "complemento"
+            },
+            {
+              "t": "to me,",
+              "rol": "otro"
+            },
+            {
+              "t": "please.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Dámelo, por favor."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My grandfather gave me this watch.",
+          "es": "Mi abuelo me regaló este reloj.",
+          "partes": [
+            {
+              "t": "My grandfather",
+              "rol": "sujeto"
+            },
+            {
+              "t": "gave",
+              "rol": "verbo"
+            },
+            {
+              "t": "me",
+              "rol": "complemento"
+            },
+            {
+              "t": "this watch",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Persona (me) + cosa (this watch), sin preposición. Gave es el pasado irregular de give."
+        },
+        {
+          "en": "Do you like this watch? My grandfather gave it to me.",
+          "es": "¿Te gusta este reloj? Me lo regaló mi abuelo.",
+          "partes": [
+            {
+              "t": "Do you like this watch?",
+              "rol": "otro"
+            },
+            {
+              "t": "My grandfather",
+              "rol": "sujeto"
+            },
+            {
+              "t": "gave",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "complemento"
+            },
+            {
+              "t": "to me",
+              "rol": "otro"
+            }
+          ],
+          "nota": "La cosa ya es un pronombre (it), así que va primero y la persona después, con to."
+        },
+        {
+          "en": "Tell us about your trip!",
+          "es": "¡Cuéntanos de tu viaje!",
+          "partes": [
+            {
+              "t": "Tell",
+              "rol": "verbo"
+            },
+            {
+              "t": "us",
+              "rol": "complemento"
+            },
+            {
+              "t": "about your trip",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Tell + persona directamente: tell us. Nunca «tell to us»."
+        },
+        {
+          "en": "Tom bought flowers for her.",
+          "es": "Tom le compró flores.",
+          "partes": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "bought",
+              "rol": "verbo"
+            },
+            {
+              "t": "flowers",
+              "rol": "complemento"
+            },
+            {
+              "t": "for her",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Con buy se usa for, no to. También es correcto: Tom bought her flowers."
+        },
+        {
+          "en": "I don't understand this word. Can you explain it to me?",
+          "es": "No entiendo esta palabra. ¿Me la puedes explicar?",
+          "nota": "Explain solo admite el orden cosa + to + persona: explain it to me, nunca «explain me it»."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Dos órdenes correctos, uno incorrecto",
+        "pasos": [
+          {
+            "etiqueta": "Persona + cosa",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "gave",
+                "rol": "verbo"
+              },
+              {
+                "t": "me",
+                "rol": "complemento"
+              },
+              {
+                "t": "the book.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Cosa + to + persona",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "gave",
+                "rol": "verbo"
+              },
+              {
+                "t": "the book",
+                "rol": "complemento"
+              },
+              {
+                "t": "to me.",
+                "rol": "otro"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Con pronombre: cosa primero",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "gave",
+                "rol": "verbo"
+              },
+              {
+                "t": "it",
+                "rol": "complemento"
+              },
+              {
+                "t": "to me.",
+                "rol": "otro"
+              }
+            ]
+          }
+        ],
+        "pie": "Lo que NO existe es «She gave to me the book» ni «She gave to me it»: si usas to, la cosa va antes de la persona."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Give it to me.",
+          "ipa": "/ˈɡɪv ɪt tə ˈmi/",
+          "consejo": "Give it se une: «GI-vit». To se reduce a /tə/, con una vocal débil casi muda. El acento fuerte cae en give y en me."
+        },
+        {
+          "texto": "Tell me",
+          "ipa": "/ˈtɛl mi/",
+          "consejo": "La l final de tell es «oscura»: la punta de la lengua toca detrás de los dientes y la parte de atrás de la lengua sube, como si dijeras una «o» muy breve. No suena como la l de «tela»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She gave to me the book.",
+          "bien": "She gave me the book. / She gave the book to me.",
+          "porque": "Si usas to, la cosa va antes de la persona; si no, la persona va primero y sin to."
+        },
+        {
+          "mal": "He sent to her it.",
+          "bien": "He sent it to her.",
+          "porque": "Con un pronombre como it, el orden es cosa + to + persona."
+        },
+        {
+          "mal": "Tell to me the truth.",
+          "bien": "Tell me the truth.",
+          "porque": "Tell lleva a la persona directamente, sin to."
+        },
+        {
+          "mal": "Can you explain me the exercise?",
+          "bien": "Can you explain the exercise to me?",
+          "porque": "Explain no admite el orden persona + cosa: explain + cosa + to + persona."
+        }
+      ],
+      "nota": {
+        "titulo": "Una idea clave",
+        "texto": "Cuando dudes, usa el orden cosa + to/for + persona: Give it to me, Send the photos to Ana, Buy a present for him. Casi siempre es correcto (con give, send, show, tell, lend… va to; con buy, make, get va for).",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el pronombre correcto.",
+      "pregunta": "Ana is my best friend. I talk to ___ every day.",
+      "opciones": [
+        {
+          "texto": "her",
+          "correcta": true,
+          "porque": "Correcto: Ana recibe la acción y va después de la preposición to. El objeto de she es her."
+        },
+        {
+          "texto": "she",
+          "correcta": false,
+          "porque": "She es pronombre de sujeto: sirve para quien hace la acción, no después de una preposición."
+        },
+        {
+          "texto": "him",
+          "correcta": false,
+          "porque": "Him es para un hombre; Ana es mujer."
+        },
+        {
+          "texto": "hers",
+          "correcta": false,
+          "porque": "Hers es un posesivo («suyo»), no un pronombre de objeto."
+        }
+      ],
+      "pistas": [
+        "¿Ana hace la acción o la recibe?",
+        "Mira la palabra que va justo antes del hueco: to es una preposición.",
+        "Después de una preposición va siempre el pronombre de objeto: ni el de sujeto ni un posesivo."
+      ],
+      "solucion": {
+        "respuesta": "her",
+        "explicacion": "La respuesta correcta es her: Ana es mujer y en esta oración no hace la acción, sino que va después de la preposición to. Tras una preposición siempre se usa el pronombre de objeto: she → her."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pronombre de sujeto con su pronombre de objeto.",
+      "pares": [
+        {
+          "a": "I",
+          "b": "me"
+        },
+        {
+          "a": "he",
+          "b": "him"
+        },
+        {
+          "a": "she",
+          "b": "her"
+        },
+        {
+          "a": "we",
+          "b": "us"
+        },
+        {
+          "a": "they",
+          "b": "them"
+        },
+        {
+          "a": "it",
+          "b": "it"
+        }
+      ],
+      "pistas": [
+        "Cada sujeto tiene su pareja de objeto; solo dos no cambian.",
+        "Fíjate en las letras: he → h…, they → th…",
+        "he/him comparten la h y they/them la th; she termina en -er; I y we cambian por completo (una m…, una u…); it se queda igual."
+      ],
+      "solucion": {
+        "respuesta": "I → me; he → him; she → her; we → us; they → them; it → it.",
+        "explicacion": "Cinco pronombres cambian al pasar de sujeto a objeto (I/me, he/him, she/her, we/us, they/them). It y you son iguales en las dos funciones."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con un pronombre de objeto que sustituya a las palabras en paréntesis.",
+      "frase": "My neighbors are very friendly. I often help ___ with their garden. (my neighbors)",
+      "respuestas": [
+        [
+          "them"
+        ]
+      ],
+      "traduccion": "Mis vecinos son muy amables. A menudo les ayudo con su jardín.",
+      "pistas": [
+        "My neighbors es plural y recibe la ayuda.",
+        "El hueco va detrás del verbo help: necesitas un objeto.",
+        "Detrás del verbo va el pronombre de objeto que corresponde a they (plural): no el sujeto ni el posesivo."
+      ],
+      "solucion": {
+        "respuesta": "them",
+        "explicacion": "La respuesta es them porque my neighbors equivale a they (plural) y aquí recibe la acción de help. El pronombre de objeto de they es them."
+      },
+      "errores_tipicos": {
+        "they": "They es sujeto. Detrás del verbo help va el objeto: them.",
+        "their": "Their es posesivo y va delante de un sustantivo (their garden). Aquí necesitas el objeto: them."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Fíjate en cómo se une him al verbo.",
+      "texto": "Tell him about it.",
+      "ipa": "/ˈtɛl ɪm əˈbaʊt ɪt/",
+      "consejo": "En habla natural la h de him desaparece y el pronombre se pega a tell: «TÉ-lim». Luego about empieza con una vocal débil /ə/. Acento fuerte en tell y en la segunda sílaba de about.",
+      "es": "Cuéntale de eso. / Cuéntaselo."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "My wife is wonderful. I love she very much.",
+      "error": "she",
+      "correcciones": [
+        "her"
+      ],
+      "frase_correcta": "My wife is wonderful. I love her very much.",
+      "pistas": [
+        "Busca la palabra que se refiere a my wife en la segunda oración.",
+        "Está después del verbo love: ¿hace la acción o la recibe?",
+        "Después del verbo va el pronombre de objeto que corresponde a she, igual que en I know him (he → him)."
+      ],
+      "solucion": {
+        "respuesta": "she → her",
+        "explicacion": "She solo puede ser sujeto. En I love her, la esposa recibe la acción de love, así que se usa el pronombre de objeto her, detrás del verbo."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pronombre de objeto adecuado.",
+      "frase": "I'm going to the market. Do you want to come with ___? And can your brother come with ___ too?",
+      "respuestas": [
+        [
+          "me"
+        ],
+        [
+          "us"
+        ]
+      ],
+      "traduccion": "Voy al mercado. ¿Quieres venir conmigo? ¿Y tu hermano puede venir con nosotros también?",
+      "pistas": [
+        "Los dos huecos van después de la preposición with.",
+        "En el primero voy yo solo; en el segundo ya vamos dos personas (tú y yo).",
+        "Después de with va el pronombre de objeto: en el primer hueco el que corresponde a I, en el segundo el que corresponde a we (como with him, with them)."
+      ],
+      "solucion": {
+        "respuesta": "me | us",
+        "explicacion": "Después de with siempre va un pronombre de objeto. En la primera pregunta la persona que va al mercado es I → with me (conmigo). En la segunda ya son dos (tú y yo = we) → with us."
+      },
+      "errores_tipicos": {
+        "I | we": "I y we son sujetos. Después de la preposición with van los objetos: me y us.",
+        "me | we": "El primero está bien. En el segundo, después de with necesitas el objeto de we: us."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Sustituye los nombres por pronombres.",
+      "origen": "Carlos invited Ana and Sam to his party.",
+      "instruccion": "Cambia Carlos por un pronombre de sujeto y Ana and Sam por un pronombre de objeto.",
+      "respuestas": [
+        "He invited them to his party."
+      ],
+      "pistas": [
+        "Carlos hace la acción; Ana y Sam la reciben.",
+        "Carlos es un hombre (sujeto); Ana and Sam son dos personas (objeto).",
+        "Carlos se sustituye por el pronombre de sujeto masculino; Ana and Sam, por el pronombre de objeto que corresponde a they."
+      ],
+      "solucion": {
+        "respuesta": "He invited them to his party.",
+        "explicacion": "Carlos es el sujeto (hace la acción de invitar) → he. Ana and Sam reciben la invitación, son dos personas → them, detrás del verbo. His party no cambia."
+      },
+      "errores_tipicos": {
+        "He invited they to his party.": "They es sujeto. Detrás de invited va el objeto: them.",
+        "Him invited them to his party.": "Carlos hace la acción: el sujeto es he, no him."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras. Alguien te pide el celular que tienes en la mano.",
+      "fichas": [
+        "it",
+        "Give",
+        "me",
+        "to",
+        "please"
+      ],
+      "respuestas": [
+        "Give it to me please",
+        "Please give it to me"
+      ],
+      "traduccion": "Dámelo, por favor.",
+      "pistas": [
+        "Es una petición: empieza con el verbo (o con please).",
+        "La cosa es un pronombre (it): ¿va antes o después de la persona?",
+        "Si la cosa es un pronombre, el orden es verbo + cosa + to + persona, como en Send them to Ana."
+      ],
+      "solucion": {
+        "respuesta": "Give it to me, please.",
+        "explicacion": "Cuando la cosa es un pronombre (it), el orden natural es verbo + it + to + persona: Give it to me. Please puede ir al principio o al final."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.09",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el verbo call en presente simple.",
+      "es": "Mi mamá me llama todos los domingos.",
+      "respuestas": [
+        "My mom calls me every Sunday.",
+        "My mother calls me every Sunday.",
+        "Every Sunday my mom calls me.",
+        "Every Sunday my mother calls me.",
+        "My mom calls me on Sundays.",
+        "My mother calls me on Sundays.",
+        "My mum calls me every Sunday."
+      ],
+      "pistas": [
+        "El sujeto es my mom (tercera persona).",
+        "«Me» no va delante del verbo como en español.",
+        "Sujeto + verbo con -s + pronombre de objeto de I + expresión de tiempo, como en My dad helps me every day."
+      ],
+      "solucion": {
+        "respuesta": "My mom calls me every Sunday.",
+        "explicacion": "El sujeto es my mom (tercera persona del singular), por eso calls lleva -s. El pronombre me va detrás del verbo, no delante como en «me llama»."
+      },
+      "errores_tipicos": {
+        "My mom me calls every Sunday.": "Calco del español: el pronombre de objeto va detrás del verbo: calls me.",
+        "My mom calls I every Sunday.": "I es sujeto. Detrás del verbo va me.",
+        "My mom call me every Sunday.": "Con my mom (tercera persona) el verbo lleva -s: calls."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "We're waiting for them outside.",
+      "respuestas": [
+        "We are waiting for them outside."
+      ],
+      "pistas": [
+        "Es presente continuo con we.",
+        "Después de waiting for oyes un pronombre de objeto plural.",
+        "Estructura: we're + verbo en -ing + for + pronombre de objeto de they + adverbio de lugar («afuera»)."
+      ],
+      "solucion": {
+        "respuesta": "We're waiting for them outside.",
+        "explicacion": "Wait for = esperar a alguien. Después de la preposición for va el pronombre de objeto them. Recuerda que them suena /ðəm/ en habla rápida."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa el pasado de give.",
+      "es": "Mi hermano me dio este libro.",
+      "respuestas": [
+        "My brother gave me this book.",
+        "My brother gave this book to me."
+      ],
+      "pistas": [
+        "Hay dos objetos: una persona (me) y una cosa (this book).",
+        "Puedes poner primero la persona sin preposición, o primero la cosa con to.",
+        "Dos órdenes válidos: verbo + persona + cosa, o verbo + cosa + to + persona, como en He showed us the photos / He showed the photos to us."
+      ],
+      "solucion": {
+        "respuesta": "My brother gave me this book.",
+        "explicacion": "Give tiene dos objetos. Puedes decir gave me this book (persona + cosa, sin to) o gave this book to me (cosa + to + persona). Lo que no existe es mezclar los dos: «gave to me this book»."
+      },
+      "errores_tipicos": {
+        "My brother gave to me this book.": "Si usas to, la cosa va antes de la persona: gave this book to me. O sin to: gave me this book.",
+        "My brother me gave this book.": "El pronombre va detrás del verbo: gave me.",
+        "My brother give me this book.": "Dio es pasado: give → gave."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Estás en la oficina. Tu compañera Grace trae café.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "I have two coffees here. Who wants one?",
+          "es": "Tengo dos cafés aquí. ¿Quién quiere uno?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Me, please!",
+          "correcta": true,
+          "porque": "Correcto: en una respuesta corta, el pronombre va solo en forma de objeto: Me! (también se podría decir I do!)."
+        },
+        {
+          "texto": "I, please!",
+          "correcta": false,
+          "porque": "El pronombre de sujeto I no puede ir solo en una respuesta: se dice Me! o I do!"
+        },
+        {
+          "texto": "For I, please!",
+          "correcta": false,
+          "porque": "Después de for iría me, y además no hace falta la preposición: basta con Me!"
+        },
+        {
+          "texto": "Myself!",
+          "correcta": false,
+          "porque": "Myself es un pronombre reflexivo («yo mismo») y no se usa como respuesta corta a Who…?"
+        }
+      ],
+      "pistas": [
+        "Es una respuesta de una sola palabra en una conversación informal.",
+        "¿Qué pronombre se usa cuando va solo, sin verbo?",
+        "En respuestas cortas sin verbo se usa el pronombre de objeto, no el de sujeto ni un reflexivo."
+      ],
+      "solucion": {
+        "respuesta": "Me, please!",
+        "explicacion": "Cuando el pronombre va solo, sin verbo, el inglés usa la forma de objeto: Me! / Me too. / It's me. Si quieres usar I, necesitas el auxiliar: I do!"
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa can y el verbo explain.",
+      "es": "¿Me lo puedes explicar?",
+      "respuestas": [
+        "Can you explain it to me?",
+        "Can you explain that to me?"
+      ],
+      "pistas": [
+        "«Lo» es una cosa (it) y «me» es la persona.",
+        "Explain no funciona como give: no admite persona + cosa.",
+        "Con explain: can + sujeto + explain + cosa + to + persona, como en Can you send it to them?"
+      ],
+      "solucion": {
+        "respuesta": "Can you explain it to me?",
+        "explicacion": "Con explain el único orden correcto es cosa + to + persona: explain it to me. La pregunta con can se forma con can + you + verbo base."
+      },
+      "errores_tipicos": {
+        "Can you explain me it?": "Explain no admite el orden persona + cosa: explain it to me.",
+        "Can you explain me?": "Falta la cosa (it) y la persona necesita to: explain it to me.",
+        "Can you me explain it?": "El pronombre no va delante del verbo: explain it to me."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué te regalaron?",
+    "contexto": "Es lunes y tu compañero Omar te pregunta por tu cumpleaños del fin de semana.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "Happy birthday! Did you get any nice presents?",
+        "es": "¡Feliz cumpleaños! ¿Te dieron algún regalo bonito?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Omar",
+        "en": "That's lovely! Did you call them to say thank you?",
+        "es": "¡Qué bonito! ¿Les llamaste para darles las gracias?"
+      }
+    ],
+    "tu_turno": "Cuenta dos regalos: quién te los dio y qué eran. Usa gave me / bought me o gave it to me, y un pronombre después de una preposición (for me, with us…).",
+    "modelo": "Yes! My sister gave me a new backpack, and my parents bought me a guitar. They also made a cake for me.",
+    "alternativas": [
+      "Yes, my friends gave me a book. My brother gave me this watch; he bought it for me last week.",
+      "Yes! My grandmother sent me some money, and my best friend came with me to the movies."
+    ],
+    "claves": [
+      "Persona + cosa sin to: gave me a backpack.",
+      "Con pronombre: bought it for me, gave it to me.",
+      "Después de preposición, objeto: for me, with us."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Objeto = quien recibe la acción: I → me, he → him, she → her, we → us, they → them; you e it no cambian.",
+      "El pronombre de objeto va DETRÁS del verbo: She calls me (no «She me calls»).",
+      "Después de cualquier preposición, siempre objeto: with me, for her, about them.",
+      "Give / send / tell / show + persona + cosa (Give me the book) o cosa + to + persona (Give it to me).",
+      "Con it o them como cosa, usa cosa + to/for + persona: Give it to me, Buy it for her."
+    ],
+    "recuerda": [
+      "Respuestas cortas: Me! / Me too. / It's me.",
+      "Tell me (sin to); say something to me (con to).",
+      "Explain it to me, nunca «explain me it»."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.r1",
+      "frente": "¿Pronombre de objeto de she, we y they?",
+      "reverso": "her · us · them → I love her. Help us. I miss them."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.r2",
+      "frente": "Corrige: She me calls every day.",
+      "reverso": "She calls me every day.",
+      "nota": "El objeto va detrás del verbo."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.r3",
+      "frente": "¿Cómo dices «conmigo» y «para ella»?",
+      "reverso": "with me · for her",
+      "nota": "Después de preposición, siempre pronombre de objeto."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.r4",
+      "frente": "Dos formas correctas de «Ella me dio el libro».",
+      "reverso": "She gave me the book. / She gave the book to me.",
+      "nota": "Nunca «She gave to me the book»."
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.pronombres-de-objeto.r5",
+      "frente": "¿Cómo dices «Dámelo» con naturalidad?",
+      "reverso": "Give it to me.",
+      "nota": "«Give me it» suena informal y poco estándar en EE. UU."
+    }
+  ]
+}

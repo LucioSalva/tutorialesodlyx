@@ -1,0 +1,1556 @@
+{
+  "slug": "adverbios-de-frecuencia",
+  "titulo": "Adverbios de frecuencia",
+  "minutos": 40,
+  "objetivos": [
+    "Reconocer y ordenar always, usually, often, sometimes, rarely y never de más a menos frecuente.",
+    "Colocar el adverbio antes del verbo principal y después de am / is / are.",
+    "Usar el adverbio con don't / doesn't y en preguntas con do / does.",
+    "Usar never y rarely sin doble negación y sin perder la -s de la tercera persona."
+  ],
+  "situacion": {
+    "titulo": "Primer día en el gimnasio",
+    "texto": "Carlos se inscribe en un gimnasio. Priya, la entrenadora, le hace unas preguntas sobre sus hábitos antes de preparar su plan. Fíjate en las palabras que dicen cuántas veces hace cada cosa y en el lugar que ocupan.",
+    "dialogo": [
+      {
+        "quien": "Priya",
+        "en": "So, Carlos, tell me about your routine. Do you usually have breakfast?",
+        "es": "Bueno, Carlos, cuéntame de tu rutina. ¿Normalmente desayunas?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Not really. I'm always in a hurry in the morning.",
+        "es": "La verdad, no. Siempre ando con prisa en la mañana."
+      },
+      {
+        "quien": "Priya",
+        "en": "I see. And do you ever exercise?",
+        "es": "Ya veo. ¿Y alguna vez haces ejercicio?"
+      },
+      {
+        "quien": "Carlos",
+        "en": "Sometimes. I often walk to work, but I never go to the gym.",
+        "es": "A veces. Seguido camino al trabajo, pero nunca voy al gimnasio."
+      },
+      {
+        "quien": "Priya",
+        "en": "Well, that changes today!",
+        "es": "¡Pues eso cambia hoy!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "escala-de-frecuencia",
+      "titulo": "La escala: de always a never",
+      "que_es": "Los **adverbios de frecuencia** son palabras que dicen **cuántas veces** pasa algo: siempre, casi siempre, a menudo, a veces, rara vez, nunca. Como el presente simple sirve para hábitos y rutinas, estos adverbios son sus compañeros naturales.",
+      "para_que": [
+        "Contar tu rutina con precisión: no es lo mismo [[I sometimes cook]] (a veces cocino) que [[I always cook]] (siempre cocino).",
+        "Describir las costumbres de otras personas: [[My dad never cooks.]]",
+        "Responder con honestidad en una consulta médica o en una entrevista: [[I rarely drink soda.]]"
+      ],
+      "como_funciona": "Piensa en una escala del 100 % al 0 %. Arriba está [[always]] (siempre, sin excepción) y abajo [[never]] (nunca, ni una vez). En medio: [[usually]] (normalmente, casi siempre), [[often]] (a menudo, con frecuencia; en México se dice mucho «seguido»), [[sometimes]] (a veces) y [[rarely]] (rara vez, casi nunca). Los porcentajes son orientativos: sirven para ordenar las palabras, no son una medida exacta.\n\nDos cosas importantes desde ya: 1) el adverbio **no cambia el verbo**: si el sujeto es tercera persona del singular, el verbo sigue llevando -s ([[Ben rarely drinks soda]]); 2) [[rarely]] y [[never]] ya tienen significado negativo, aunque la oración esté en afirmativo. Existen también [[hardly ever]] (casi nunca, igual que rarely y muy frecuente en la conversación) y [[seldom]] (rara vez, más formal y escrito).",
+      "estructuras": [
+        {
+          "etiqueta": "Sujeto + adverbio + verbo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "adverbio de frecuencia",
+              "rol": "tiempo"
+            },
+            {
+              "t": "verbo (con -s si es he / she / it)",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Sam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "usually",
+              "rol": "tiempo"
+            },
+            {
+              "t": "walks",
+              "rol": "verbo"
+            },
+            {
+              "t": "to work",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Sam normalmente camina al trabajo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La escala de frecuencia",
+          "columnas": [
+            "Adverbio",
+            "Frecuencia aproximada",
+            "Significado",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "always",
+              "100 %",
+              "siempre",
+              "I always lock the door."
+            ],
+            [
+              "usually",
+              "≈ 90 %",
+              "normalmente, casi siempre",
+              "I usually lock the door."
+            ],
+            [
+              "often",
+              "≈ 70 %",
+              "a menudo, seguido",
+              "I often forget my keys."
+            ],
+            [
+              "sometimes",
+              "≈ 50 %",
+              "a veces",
+              "I sometimes forget my keys."
+            ],
+            [
+              "rarely",
+              "≈ 10 %",
+              "rara vez, casi nunca",
+              "I rarely forget my keys."
+            ],
+            [
+              "never",
+              "0 %",
+              "nunca",
+              "I never forget my keys."
+            ]
+          ],
+          "audio": [
+            0,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I always have coffee in the morning.",
+          "es": "Siempre tomo café en la mañana.",
+          "situacion": "Alguien describe su mañana.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "coffee",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the morning",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "always = 100 %: todas las mañanas, sin excepción. Fíjate en que have coffee es «tomar café» (have se usa para comidas y bebidas)."
+        },
+        {
+          "en": "Lucía usually takes the bus.",
+          "es": "Lucía normalmente toma el autobús.",
+          "partes": [
+            {
+              "t": "Lucía",
+              "rol": "sujeto"
+            },
+            {
+              "t": "usually",
+              "rol": "tiempo"
+            },
+            {
+              "t": "takes",
+              "rol": "verbo"
+            },
+            {
+              "t": "the bus",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "usually = lo normal, pero con alguna excepción. El adverbio queda entre el sujeto y el verbo, y takes conserva su -s porque Lucía es tercera persona del singular: el adverbio no cambia nada del verbo."
+        },
+        {
+          "en": "We often eat with my grandparents.",
+          "es": "Seguido comemos con mis abuelos.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "often",
+              "rol": "tiempo"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            },
+            {
+              "t": "with my grandparents",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "often = a menudo, con frecuencia; en México lo decimos con «seguido». No es «siempre»: es muchas veces."
+        },
+        {
+          "en": "My kids sometimes watch cartoons after school.",
+          "es": "Mis hijos a veces ven caricaturas después de la escuela.",
+          "partes": [
+            {
+              "t": "My kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "sometimes",
+              "rol": "tiempo"
+            },
+            {
+              "t": "watch",
+              "rol": "verbo"
+            },
+            {
+              "t": "cartoons",
+              "rol": "complemento"
+            },
+            {
+              "t": "after school",
+              "rol": "tiempo"
+            }
+          ]
+        },
+        {
+          "en": "Ben rarely drinks soda.",
+          "es": "Ben casi nunca toma refresco.",
+          "partes": [
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "rarely",
+              "rol": "tiempo"
+            },
+            {
+              "t": "drinks",
+              "rol": "verbo"
+            },
+            {
+              "t": "soda",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "rarely significa «casi nunca», pero la oración es gramaticalmente afirmativa: no hay don't ni doesn't, así que drinks mantiene la -s."
+        },
+        {
+          "en": "Aisha never eats meat.",
+          "es": "Aisha nunca come carne.",
+          "partes": [
+            {
+              "t": "Aisha",
+              "rol": "sujeto"
+            },
+            {
+              "t": "never",
+              "rol": "tiempo"
+            },
+            {
+              "t": "eats",
+              "rol": "verbo"
+            },
+            {
+              "t": "meat",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Cuántas veces?",
+        "centro": "How often?",
+        "ramas": [
+          {
+            "texto": "always",
+            "detalle": "100 % · siempre"
+          },
+          {
+            "texto": "usually",
+            "detalle": "≈ 90 % · normalmente"
+          },
+          {
+            "texto": "often",
+            "detalle": "≈ 70 % · seguido"
+          },
+          {
+            "texto": "sometimes",
+            "detalle": "≈ 50 % · a veces"
+          },
+          {
+            "texto": "rarely",
+            "detalle": "≈ 10 % · casi nunca"
+          },
+          {
+            "texto": "never",
+            "detalle": "0 % · nunca"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "always",
+          "ipa": "/ˈɔːlweɪz/",
+          "consejo": "Acento en la primera sílaba. La primera vocal es una o abierta y larga, con la boca más abierta que en la o española; muchos estadounidenses la abren todavía más, casi hacia /ɑː/. La l es oscura (la lengua se retrae hacia atrás) y la s final suena /z/, con vibración en la garganta.",
+          "lento": true
+        },
+        {
+          "texto": "usually",
+          "ipa": "/ˈjuːʒuəli/",
+          "consejo": "Empieza con el sonido de «yu». La s del medio NO es una s: es /ʒ/, un sonido que no existe en español estándar; se parece a la «ll» argentina de «yo» con vibración. En habla rápida se reduce a tres sílabas: /ˈjuːʒəli/.",
+          "lento": true
+        },
+        {
+          "texto": "often",
+          "ipa": "/ˈɔːfən/",
+          "consejo": "Normalmente la t no se pronuncia: dos sílabas, «of» con o abierta + una vocal muy débil /ə/ + n. Algunos hablantes sí dicen /ˈɔːftən/ y también es correcto; lo que no se hace es pronunciar la e final como una e española clara."
+        },
+        {
+          "texto": "sometimes",
+          "ipa": "/ˈsʌmtaɪmz/",
+          "consejo": "La o de some suena /ʌ/, una a corta y relajada, con la boca poco abierta; no es la o española. La segunda parte es times, igual que la palabra suelta, con /z/ final."
+        },
+        {
+          "texto": "rarely",
+          "ipa": "/ˈrerli/",
+          "consejo": "La r inglesa no vibra: la punta de la lengua se curva hacia atrás sin tocar el paladar. Aparece dos veces seguidas (r-e-r) y luego li. En británico: /ˈreəli/."
+        },
+        {
+          "texto": "never",
+          "ipa": "/ˈnevər/",
+          "consejo": "La v es labiodental: los dientes de arriba tocan el labio de abajo y el aire vibra. En español la v suena igual que la b; en inglés no, y never con b suena extraño. Termina en r estadounidense suave (en británico /ˈnevə/, sin r)."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My brother usually work at night.",
+          "bien": "My brother usually works at night.",
+          "porque": "El adverbio no «protege» al verbo de la regla de tercera persona: el sujeto sigue siendo my brother (he), así que el verbo lleva -s."
+        },
+        {
+          "mal": "I ever go to the gym.",
+          "bien": "I sometimes go to the gym.",
+          "porque": "ever no significa «siempre» ni «a veces»: significa «alguna vez» y se usa en preguntas (Do you ever…?). Siempre = always; a veces = sometimes."
+        },
+        {
+          "mal": "I always wake up early, but sometimes no.",
+          "bien": "I usually wake up early, but not always.",
+          "porque": "Si hay excepciones, no es always. Para «casi siempre» usa usually; y la negación corta en inglés es not, no no: but not always."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Y ever?",
+        "texto": "En preguntas se usa mucho [[ever]] («alguna vez»): [[Do you ever cook?]] — ¿Alguna vez cocinas? La respuesta suele ser un adverbio solo: [[Yes, sometimes.]] / [[No, never.]] Con ever preguntas de forma abierta, sin suponer nada.",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "posicion-del-adverbio",
+      "titulo": "Dónde va: antes del verbo principal, después de be",
+      "que_es": "En inglés el adverbio de frecuencia tiene un **lugar fijo en medio de la oración**: entre el sujeto y el verbo principal. La única excepción importante es el verbo [[be]] ([[am]], [[is]], [[are]]): con él, el adverbio va **detrás**.",
+      "para_que": [
+        "Sonar natural: en español decimos «me levanto siempre temprano», pero en inglés el adverbio no puede ir entre el verbo y lo que sigue.",
+        "Combinar el adverbio con lo que ya sabes del presente simple: negaciones con don't / doesn't y preguntas con do / does.",
+        "Hablar de estados habituales con be: [[I'm always tired on Mondays.]]"
+      ],
+      "como_funciona": "Hay tres casos y los tres siguen la misma lógica: el adverbio se pone **justo antes del verbo que expresa la acción**.\n\n1) **Verbo normal** (work, get up, drink…): sujeto + adverbio + verbo. [[I always get up early.]]\n2) **Be** (am, is, are): sujeto + be + adverbio. [[I'm always late.]] Aquí be es el único verbo y el adverbio se coloca a su derecha.\n3) **Con auxiliar** (don't, doesn't, do, does): el adverbio va después del auxiliar y antes del verbo principal. [[She doesn't usually work on Fridays.]] / [[Do you often cook at home?]]\n\nUn detalle real del inglés hablado: con [[usually]], [[often]] y [[sometimes]] también oirás el adverbio ANTES del auxiliar negativo ([[We usually don't work on Sundays]]); es correcto y muy común. Con [[always]] cambia el significado ([[I don't always…]] = no siempre) y [[never]] nunca va con don't. Para empezar, practica la posición de la regla 3.\n\nNunca separes el verbo de su complemento: [[I drink always coffee]] es incorrecto aunque «tomo siempre café» sea natural en español.",
+      "estructuras": [
+        {
+          "etiqueta": "Con un verbo normal",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "adverbio",
+              "rol": "tiempo"
+            },
+            {
+              "t": "verbo",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "get up",
+              "rol": "verbo"
+            },
+            {
+              "t": "early",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Siempre me levanto temprano."
+        },
+        {
+          "etiqueta": "Con be",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "adverbio",
+              "rol": "tiempo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My boss",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "busy",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi jefe siempre está ocupado."
+        },
+        {
+          "etiqueta": "Negación con don't / doesn't",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "adverbio",
+              "rol": "tiempo"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "usually",
+              "rol": "tiempo"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Fridays",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Normalmente no trabaja los viernes."
+        },
+        {
+          "etiqueta": "Pregunta con do / does",
+          "formula": [
+            {
+              "t": "Do / Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "adverbio",
+              "rol": "tiempo"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "often",
+              "rol": "tiempo"
+            },
+            {
+              "t": "cook",
+              "rol": "verbo"
+            },
+            {
+              "t": "at home",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Cocinas seguido en casa?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Tom is always late for class.",
+          "es": "Tom siempre llega tarde a clase.",
+          "situacion": "Una compañera se queja de Tom.",
+          "partes": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            },
+            {
+              "t": "for class",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El verbo es is, así que always va detrás. Ojo: en español decimos «llega tarde», pero en inglés es be late (estar tarde), no «arrives late»."
+        },
+        {
+          "en": "The kids are usually tired after soccer practice.",
+          "es": "Los niños normalmente están cansados después del entrenamiento de futbol.",
+          "partes": [
+            {
+              "t": "The kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "usually",
+              "rol": "tiempo"
+            },
+            {
+              "t": "tired",
+              "rol": "complemento"
+            },
+            {
+              "t": "after soccer practice",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Con plural (are) la regla es la misma: be + adverbio + adjetivo."
+        },
+        {
+          "en": "Priya often walks to the office.",
+          "es": "Priya seguido camina a la oficina.",
+          "partes": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "often",
+              "rol": "tiempo"
+            },
+            {
+              "t": "walks",
+              "rol": "verbo"
+            },
+            {
+              "t": "to the office",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Verbo normal (walks): often va delante. La -s sigue en walks."
+        },
+        {
+          "en": "We don't usually work on Sundays.",
+          "es": "Normalmente no trabajamos los domingos.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't",
+              "rol": "negacion"
+            },
+            {
+              "t": "usually",
+              "rol": "tiempo"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Sundays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Con negación, usually queda entre don't y el verbo principal: el adverbio sigue pegado al verbo que expresa la acción."
+        },
+        {
+          "en": "Does your sister often call you?",
+          "es": "¿Tu hermana te llama seguido?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "often",
+              "rol": "tiempo"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La -s se la lleva does; call va en forma base. often, otra vez, justo antes del verbo principal."
+        },
+        {
+          "en": "Sometimes I cook, and sometimes my husband cooks.",
+          "es": "A veces cocino yo y a veces cocina mi esposo.",
+          "nota": "sometimes es el adverbio más flexible: puede ir al principio (como aquí), en medio (I sometimes cook) o incluso al final (I cook sometimes)."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Verbo normal: el adverbio va ANTES",
+          "items": [
+            "I always walk to work.",
+            "She never drinks coffee.",
+            "They usually eat at home."
+          ]
+        },
+        "b": {
+          "titulo": "Be: el adverbio va DESPUÉS",
+          "items": [
+            "I'm always tired.",
+            "She's never late.",
+            "They're usually at home."
+          ]
+        },
+        "veredicto": "Busca el verbo de la oración. Si es am / is / are, el adverbio va a su derecha. Si es cualquier otro verbo, va a su izquierda. Y si hay auxiliar (don't, does…), va entre el auxiliar y el verbo principal."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "El adverbio siempre se queda junto al verbo principal",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "gets up",
+                "rol": "verbo"
+              },
+              {
+                "t": "early",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Con adverbio",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "always",
+                "rol": "tiempo"
+              },
+              {
+                "t": "gets up",
+                "rol": "verbo"
+              },
+              {
+                "t": "early",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "doesn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "always",
+                "rol": "tiempo"
+              },
+              {
+                "t": "get up",
+                "rol": "verbo"
+              },
+              {
+                "t": "early",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "always",
+                "rol": "tiempo"
+              },
+              {
+                "t": "get up",
+                "rol": "verbo"
+              },
+              {
+                "t": "early?",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Cuando aparece does, se lleva la -s y gets vuelve a get. always no se mueve de su sitio: justo delante del verbo principal."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I'm always late.",
+          "ipa": "/aɪm ˈɔːlweɪz leɪt/",
+          "consejo": "La m de I'm se une directamente a la vocal de always, sin pausa: suena como una sola palabra larga. El acento fuerte cae en al- y en late; I'm va débil y rápido."
+        },
+        {
+          "texto": "She doesn't usually work.",
+          "ipa": "/ʃi ˈdʌzənt ˈjuːʒuəli wɜːrk/",
+          "consejo": "En doesn't la t final casi no se oye antes de otra consonante o vocal; lo que marca la negación es la sílaba /dʌz/ + /ənt/. En work, la vocal /ɜː/ se hace con la lengua en el centro de la boca y la r curvada: no digas «guork»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I get up always early.",
+          "bien": "I always get up early.",
+          "porque": "Con un verbo normal el adverbio va antes del verbo, no después. En español es natural «me levanto siempre temprano», pero en inglés es un calco."
+        },
+        {
+          "mal": "She always is late.",
+          "bien": "She's always late.",
+          "porque": "Con be el adverbio va detrás: is always, are usually, am never."
+        },
+        {
+          "mal": "I drink always coffee.",
+          "bien": "I always drink coffee.",
+          "porque": "En inglés no se mete nada entre el verbo y su complemento directo (drink + coffee)."
+        },
+        {
+          "mal": "Usually do you cook?",
+          "bien": "Do you usually cook?",
+          "porque": "En la pregunta el orden es auxiliar + sujeto + adverbio + verbo. El adverbio no puede ocupar el lugar de do al principio."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Se puede poner al principio?",
+        "texto": "[[Sometimes]] va con naturalidad al principio: [[Sometimes I walk to work.]] [[Usually]] y [[often]] también pueden abrir la oración, pero es menos frecuente y suena a énfasis; en esta etapa, ponlos en medio. [[Always]] y [[never]] NO abren una oración normal: [[Never I watch TV]] es incorrecto. (Sí aparecen al principio en instrucciones: [[Always wear a helmet.]] — Usa siempre casco.)",
+        "tono": "aviso"
+      }
+    },
+    {
+      "id": "never-sin-doble-negacion",
+      "titulo": "Never y rarely: una sola negación",
+      "que_es": "[[Never]] (nunca) y [[rarely]] (casi nunca) ya son negativos por sí mismos. En inglés estándar **una oración lleva una sola negación**, así que no se combinan con don't / doesn't.",
+      "para_que": [
+        "Evitar el calco más frecuente del español: «no como nunca carne» → [[I don't never eat meat]] ✗.",
+        "Decir con claridad lo que no haces jamás: [[I never smoke.]]",
+        "Mantener bien la tercera persona: [[She never eats meat]] (con -s) frente a [[She doesn't eat meat]] (sin -s)."
+      ],
+      "como_funciona": "En español la doble negación es obligatoria en muchos casos: «no voy nunca», «no hago nada». En inglés estándar se considera un error: la negación aparece **una sola vez**.\n\nTienes dos caminos correctos para decir lo mismo:\n• [[I never eat meat.]] — never ocupa el lugar de la negación.\n• [[I don't eat meat.]] — la negación es don't (sin never).\n\nComo [[never]] no es un auxiliar, **no se lleva la -s**: con he / she / it el verbo la conserva. Compara: [[She never eats meat]] / [[She doesn't eat meat]]. Con doesn't la -s pasa al auxiliar; con never se queda en el verbo.\n\nLo mismo vale para [[rarely]] y [[hardly ever]]: [[He rarely calls]] (no «he doesn't rarely call»). Existe también [[don't ever]] ([[I don't ever eat meat]]), que es correcto porque ever no es negativo; lo verás en conversación, pero para empezar usa never.",
+      "estructuras": [
+        {
+          "etiqueta": "Con never: verbo en afirmativo",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "never / rarely",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo (con -s si es he / she / it)",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "never",
+              "rol": "negacion"
+            },
+            {
+              "t": "cooks",
+              "rol": "verbo"
+            },
+            {
+              "t": "on weekdays",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Mi papá nunca cocina entre semana."
+        },
+        {
+          "etiqueta": "Con doesn't: verbo en forma base",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "verbo base",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "cook",
+              "rol": "verbo"
+            },
+            {
+              "t": "on weekdays",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Mi papá no cocina entre semana."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Omar never drinks coffee after six.",
+          "es": "Omar nunca toma café después de las seis.",
+          "partes": [
+            {
+              "t": "Omar",
+              "rol": "sujeto"
+            },
+            {
+              "t": "never",
+              "rol": "negacion"
+            },
+            {
+              "t": "drinks",
+              "rol": "verbo"
+            },
+            {
+              "t": "coffee",
+              "rol": "complemento"
+            },
+            {
+              "t": "after six",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Una sola negación (never) y el verbo con -s, porque Omar es tercera persona y no hay auxiliar que se la lleve."
+        },
+        {
+          "en": "I never work on Sundays.",
+          "es": "Nunca trabajo en domingo.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "never",
+              "rol": "negacion"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "on Sundays",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Con I el verbo no lleva -s, igual que sin adverbio. On Sundays (en plural) indica que es todos los domingos."
+        },
+        {
+          "en": "Grace rarely goes to parties.",
+          "es": "Grace casi nunca va a fiestas.",
+          "partes": [
+            {
+              "t": "Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "rarely",
+              "rol": "negacion"
+            },
+            {
+              "t": "goes",
+              "rol": "verbo"
+            },
+            {
+              "t": "to parties",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "rarely funciona igual que never: sentido negativo, forma afirmativa. goes lleva -es (go termina en -o)."
+        },
+        {
+          "en": "We hardly ever eat out.",
+          "es": "Casi nunca comemos fuera.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "hardly ever",
+              "rol": "negacion"
+            },
+            {
+              "t": "eat out",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "hardly ever = rarely, pero más coloquial. eat out es una expresión fija: comer fuera de casa, en un restaurante o una fonda."
+        },
+        {
+          "en": "Do you ever play video games? No, never.",
+          "es": "¿Alguna vez juegas videojuegos? No, nunca.",
+          "nota": "La pregunta usa ever (alguna vez) y la respuesta corta usa never solo. No hace falta repetir la oración completa."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "doesn't + verbo base",
+          "items": [
+            "She doesn't eat meat.",
+            "He doesn't drive.",
+            "It doesn't rain here."
+          ]
+        },
+        "b": {
+          "titulo": "never + verbo con -s",
+          "items": [
+            "She never eats meat.",
+            "He never drives.",
+            "It never rains here."
+          ]
+        },
+        "veredicto": "Las dos columnas son negativas y correctas. La diferencia está en quién se queda con la -s: doesn't es auxiliar y se la lleva; never es un adverbio, no un auxiliar, y deja la -s en el verbo. Lo que nunca puedes hacer es juntar las dos negaciones."
+      },
+      "pronunciacion": [
+        {
+          "texto": "She never eats meat.",
+          "ipa": "/ʃi ˈnevər iːts miːt/",
+          "consejo": "La r final de never se une a la vocal de eats: «neverits». En eats y meat la vocal es /iː/, una i larga y tensa, con los labios estirados como al sonreír. La -s de eats suena /s/ porque va después de /t/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I don't never eat meat.",
+          "bien": "I never eat meat.",
+          "porque": "Doble negación: en inglés estándar basta con una. O never, o don't (I don't eat meat)."
+        },
+        {
+          "mal": "She never eat meat.",
+          "bien": "She never eats meat.",
+          "porque": "never no es un auxiliar: no se lleva la -s. Con she el verbo la necesita."
+        },
+        {
+          "mal": "He doesn't rarely call me.",
+          "bien": "He rarely calls me.",
+          "porque": "rarely ya es negativo; al quitar doesn't, el verbo recupera la -s (calls)."
+        },
+        {
+          "mal": "Never I watch TV.",
+          "bien": "I never watch TV.",
+          "porque": "never va entre el sujeto y el verbo, no al principio de la oración."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada adverbio con su frecuencia aproximada.",
+      "pares": [
+        {
+          "a": "always",
+          "b": "100 % · siempre"
+        },
+        {
+          "a": "usually",
+          "b": "≈ 90 % · normalmente"
+        },
+        {
+          "a": "often",
+          "b": "≈ 70 % · seguido"
+        },
+        {
+          "a": "sometimes",
+          "b": "≈ 50 % · a veces"
+        },
+        {
+          "a": "rarely",
+          "b": "≈ 10 % · casi nunca"
+        },
+        {
+          "a": "never",
+          "b": "0 % · nunca"
+        }
+      ],
+      "pistas": [
+        "Recuerda la escala: va del adverbio que no admite excepciones al que no admite ni una vez.",
+        "Empieza por los extremos (always y never) y luego coloca los de en medio.",
+        "El orden de mayor a menor es: always, usually, often, sometimes, rarely, never."
+      ],
+      "solucion": {
+        "respuesta": "always 100 %, usually ≈ 90 %, often ≈ 70 %, sometimes ≈ 50 %, rarely ≈ 10 %, never 0 %",
+        "explicacion": "always no admite excepciones (100 %) y never no admite ninguna vez (0 %). usually es «lo normal» (casi siempre), often es «con frecuencia», sometimes es «a veces» y rarely es «casi nunca». Los porcentajes son orientativos: sirven para ordenar la escala."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál dice correctamente «Siempre desayuno en casa»?",
+      "opciones": [
+        {
+          "texto": "I always have breakfast at home.",
+          "correcta": true,
+          "porque": "Correcta: have es un verbo normal, así que always va justo antes de él."
+        },
+        {
+          "texto": "I have always breakfast at home.",
+          "correcta": false,
+          "porque": "always no puede ir entre el verbo (have) y su complemento (breakfast). Es un calco de «desayuno siempre»."
+        },
+        {
+          "texto": "Always I have breakfast at home.",
+          "correcta": false,
+          "porque": "always no abre una oración normal en inglés; va entre el sujeto y el verbo."
+        },
+        {
+          "texto": "I have breakfast always at home.",
+          "correcta": false,
+          "porque": "Tampoco puede ir después del complemento: la posición normal es antes del verbo principal."
+        }
+      ],
+      "pistas": [
+        "Los adverbios de frecuencia tienen un lugar fijo en la oración.",
+        "Mira qué verbo hay: ¿es be (am, is, are) o un verbo normal?",
+        "Con un verbo normal, el adverbio va entre el sujeto y el verbo."
+      ],
+      "solucion": {
+        "respuesta": "I always have breakfast at home.",
+        "explicacion": "La respuesta correcta es I always have breakfast at home porque have es un verbo normal (no es be), y con los verbos normales el adverbio de frecuencia va entre el sujeto y el verbo: I + always + have."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de be y el adverbio entre paréntesis, en el orden correcto.",
+      "frase": "My boss ___ ___ in a good mood on Fridays. (be / usually)",
+      "traduccion": "Mi jefe normalmente está de buen humor los viernes.",
+      "respuestas": [
+        [
+          "is"
+        ],
+        [
+          "usually"
+        ]
+      ],
+      "errores_tipicos": {
+        "usually | is": "Con be el adverbio va DESPUÉS: is usually, no usually is.",
+        "are | usually": "My boss es singular (he): la forma de be es is."
+      },
+      "pistas": [
+        "Recuerda que be tiene una regla de posición distinta a la de los demás verbos.",
+        "Primero decide la forma de be para my boss; luego dónde va usually.",
+        "Con be (am / is / are), el adverbio va inmediatamente después del verbo."
+      ],
+      "solucion": {
+        "respuesta": "is … usually",
+        "explicacion": "La respuesta correcta es is usually. My boss equivale a he, así que be es is; y con el verbo be el adverbio de frecuencia va detrás: is usually. (Con un verbo normal sería al revés: My boss usually smiles.)"
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el adverbio y el verbo en presente simple, en el orden correcto.",
+      "frase": "Mei ___ ___ lunch at her desk. (often / eat)",
+      "traduccion": "Mei seguido come en su escritorio.",
+      "respuestas": [
+        [
+          "often"
+        ],
+        [
+          "eats"
+        ]
+      ],
+      "errores_tipicos": {
+        "often | eat": "Falta la -s: Mei es tercera persona del singular y el adverbio no quita la -s.",
+        "eats | often": "Con un verbo normal el adverbio va antes del verbo: often eats."
+      },
+      "pistas": [
+        "Dos decisiones: el orden y la forma del verbo.",
+        "eat es un verbo normal y el sujeto es Mei (she).",
+        "Adverbio antes del verbo; y con he / she / it el verbo lleva -s aunque haya un adverbio en medio."
+      ],
+      "solucion": {
+        "respuesta": "often … eats",
+        "explicacion": "La respuesta correcta es often eats. eat es un verbo normal, así que often va antes; y como Mei es tercera persona del singular, el verbo lleva -s. El adverbio no cambia la forma del verbo."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "late",
+        "never",
+        "I'm",
+        "work",
+        "for"
+      ],
+      "respuestas": [
+        "I'm never late for work"
+      ],
+      "traduccion": "Nunca llego tarde al trabajo.",
+      "pistas": [
+        "Hay un verbo be escondido en una de las fichas.",
+        "I'm = I am. ¿Dónde va never con be?",
+        "Con be, el adverbio va justo después: I'm + never + late…"
+      ],
+      "solucion": {
+        "respuesta": "I'm never late for work.",
+        "explicacion": "El orden es I'm never late for work porque la oración usa el verbo be (I'm = I am) y con be el adverbio va detrás. Be late for work es «llegar tarde al trabajo»."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "usually",
+        "don't",
+        "on",
+        "we",
+        "Sundays",
+        "work"
+      ],
+      "respuestas": [
+        "we don't usually work on Sundays",
+        "we usually don't work on Sundays",
+        "usually we don't work on Sundays"
+      ],
+      "traduccion": "Normalmente no trabajamos los domingos.",
+      "pistas": [
+        "Es una negación en presente simple con un adverbio.",
+        "Localiza el auxiliar (don't) y el verbo principal (work).",
+        "El adverbio va entre el auxiliar y el verbo principal: sujeto + don't + usually + verbo."
+      ],
+      "solucion": {
+        "respuesta": "We don't usually work on Sundays.",
+        "explicacion": "El orden es We don't usually work on Sundays: el adverbio se queda pegado al verbo principal (work), así que va después del auxiliar don't. On Sundays va al final como expresión de tiempo. También se aceptan We usually don't work on Sundays y Usually we don't work on Sundays, que son correctas y frecuentes en el habla."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de orden. Señálalo y corrígelo.",
+      "frase": "Carlos eats never meat.",
+      "error": "eats never",
+      "correcciones": [
+        "never eats"
+      ],
+      "frase_correcta": "Carlos never eats meat.",
+      "pistas": [
+        "Recuerda dónde va un adverbio de frecuencia con un verbo normal.",
+        "Mira el verbo eats y el adverbio que lo acompaña.",
+        "Con un verbo normal, el adverbio va ANTES del verbo."
+      ],
+      "solucion": {
+        "respuesta": "Carlos never eats meat.",
+        "explicacion": "El error es eats never. eat es un verbo normal, así que never va antes: never eats. La -s se queda en eats porque never no es un auxiliar."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Añade el adverbio en la posición correcta.",
+      "origen": "Ana is tired on Mondays.",
+      "instruccion": "Añade often",
+      "respuestas": [
+        "Ana is often tired on Mondays"
+      ],
+      "errores_tipicos": {
+        "Ana often is tired on Mondays": "Con be el adverbio va después del verbo: is often.",
+        "Ana is tired often on Mondays": "El adverbio no va después del adjetivo: se coloca justo detrás de is."
+      },
+      "pistas": [
+        "El verbo de esta oración es be.",
+        "Busca is: el adverbio va a su lado.",
+        "Con be, el adverbio se coloca justo después: is + often."
+      ],
+      "solucion": {
+        "respuesta": "Ana is often tired on Mondays.",
+        "explicacion": "La respuesta es Ana is often tired on Mondays porque el único verbo es is (be), y con be el adverbio va inmediatamente después."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.09",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Reescribe la oración con never, sin cambiar el significado y sin usar doesn't.",
+      "origen": "She doesn't eat meat.",
+      "instruccion": "Usa never en lugar de doesn't",
+      "respuestas": [
+        "She never eats meat"
+      ],
+      "errores_tipicos": {
+        "She doesn't never eat meat": "Doble negación: never ya es negativo. Quita doesn't.",
+        "She never eat meat": "Al quitar doesn't, la -s vuelve al verbo: she never eats.",
+        "She never doesn't eat meat": "Sobra doesn't: en inglés estándar se usa una sola negación."
+      },
+      "pistas": [
+        "never ya es negativo por sí mismo.",
+        "Si quitas doesn't, ¿quién se queda con la -s de tercera persona?",
+        "never no es un auxiliar: con she, el verbo recupera la -s (eat → eats)."
+      ],
+      "solucion": {
+        "respuesta": "She never eats meat.",
+        "explicacion": "La respuesta es She never eats meat. Como never ya aporta la negación, doesn't desaparece; y como never no es auxiliar, la -s de tercera persona vuelve al verbo principal: eats."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa rarely y la palabra dad.",
+      "es": "Mi papá casi nunca ve la tele.",
+      "respuestas": [
+        "My dad rarely watches TV",
+        "My dad rarely watches television"
+      ],
+      "errores_tipicos": {
+        "My dad rarely watch TV": "Falta la -es: my dad es tercera persona y rarely no es auxiliar. watch termina en -ch → watches.",
+        "My dad doesn't rarely watch TV": "Doble negación: rarely ya es negativo. Quita doesn't.",
+        "My dad watches rarely TV": "El adverbio va antes del verbo, no entre el verbo y su complemento.",
+        "My dad rarely watchs TV": "Tras -ch se añade -es: watches."
+      },
+      "pistas": [
+        "Casi nunca = rarely, un adverbio de frecuencia con sentido negativo.",
+        "Fíjate en el sujeto (my dad) y en cómo termina watch.",
+        "Sujeto + rarely + verbo con -s; los verbos en -ch añaden -es (watches)."
+      ],
+      "solucion": {
+        "respuesta": "My dad rarely watches TV.",
+        "explicacion": "La respuesta es My dad rarely watches TV. rarely va antes del verbo, no lleva doesn't (ya es negativo) y el verbo lleva -es porque my dad es tercera persona del singular y watch termina en -ch. «Ver la tele» es watch TV, sin artículo."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "I usually get up at six, but I'm always tired.",
+      "pistas": [
+        "Hay dos adverbios de frecuencia en la oración.",
+        "La primera parte usa un verbo normal; la segunda usa be (I'm).",
+        "Posición: usually antes de get up; always después de I'm."
+      ],
+      "solucion": {
+        "respuesta": "I usually get up at six, but I'm always tired.",
+        "explicacion": "La oración es I usually get up at six, but I'm always tired. Fíjate en que los dos adverbios ocupan lugares distintos: usually va antes del verbo normal (get up) y always va después de be (I'm)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.12",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Presta atención a usually y never.",
+      "texto": "I usually walk, but I never run.",
+      "ipa": "/aɪ ˈjuːʒuəli wɔːk bət aɪ ˈnevər rʌn/",
+      "consejo": "En usually, el sonido del centro es /ʒ/, no /s/: vibra como la «ll» rioplatense. En walk la l no se pronuncia: /wɔːk/. En never, la v es labiodental (dientes de arriba sobre el labio de abajo), distinta de la b. En run, la r no vibra y la u suena /ʌ/, una a corta y relajada.",
+      "es": "Normalmente camino, pero nunca corro."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.13",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Tu nuevo compañero de departamento quiere saber cuándo estás en casa.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "Are you usually home in the evenings?",
+          "es": "¿Normalmente estás en casa en las noches?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, I'm usually home after seven.",
+          "correcta": true,
+          "porque": "Correcta: responde a la pregunta con be y coloca usually después de I'm."
+        },
+        {
+          "texto": "Yes, I usually am home after seven.",
+          "correcta": false,
+          "porque": "No es la mejor: la posición neutra con be es después del verbo (I'm usually home). usually am solo se oye cuando se enfatiza am en contraste, y aquí no hay nada que contrastar."
+        },
+        {
+          "texto": "Yes, I'm home usually after seven.",
+          "correcta": false,
+          "porque": "usually no va después de home: su sitio es justo detrás de I'm."
+        },
+        {
+          "texto": "No, I don't never stay home.",
+          "correcta": false,
+          "porque": "Doble negación (don't + never). Además, no responde a lo que se pregunta."
+        }
+      ],
+      "pistas": [
+        "La pregunta usa be (Are you…?), así que la respuesta también.",
+        "Mira dónde va usually en cada opción.",
+        "Con be, el adverbio va justo después del verbo: I'm + usually."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I'm usually home after seven.",
+        "explicacion": "La mejor respuesta es Yes, I'm usually home after seven: repite la estructura de la pregunta (be + home) y coloca usually después de I'm, como exige la regla del verbo be."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Encuesta de hábitos",
+    "contexto": "Vas a compartir departamento con Sam. Antes de mudarse, te hace unas preguntas para saber si van a llevarse bien.",
+    "dialogo": [
+      {
+        "quien": "Sam",
+        "en": "Do you usually get up early?",
+        "es": "¿Normalmente te levantas temprano?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Sam",
+        "en": "Are you often at home on weekends?",
+        "es": "¿Seguido estás en casa los fines de semana?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Sam",
+        "en": "And is there anything you never do?",
+        "es": "¿Y hay algo que nunca hagas?"
+      }
+    ],
+    "tu_turno": "Contesta las tres preguntas de Sam con oraciones completas. Usa al menos un adverbio con un verbo normal, uno con be y never una vez.",
+    "modelo": "Yes, I usually get up at six. I'm often at home on weekends, but I sometimes visit my parents. And I never wash the dishes at night!",
+    "alternativas": [
+      "No, I rarely get up before eight. I'm always at home on Sundays. I never cook fish.",
+      "Not really. I usually get up at nine. I'm never at home on Saturdays because I work. I never watch TV in the morning."
+    ],
+    "claves": [
+      "Verbo normal: sujeto + adverbio + verbo (I usually get up…).",
+      "Be: sujeto + am / is / are + adverbio (I'm often at home…).",
+      "never con verbo afirmativo: I never wash…, nunca I don't never…"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Escala: always (100 %) › usually › often › sometimes › rarely › never (0 %).",
+      "Con un verbo normal, el adverbio va antes: I always get up early.",
+      "Con be, el adverbio va después: I'm always late.",
+      "Con don't / doesn't o en preguntas, va entre el auxiliar y el verbo principal: She doesn't usually work… / Do you often cook…?",
+      "never y rarely ya son negativos: una sola negación y el verbo en afirmativo (She never eats meat)."
+    ],
+    "recuerda": [
+      "El adverbio no quita la -s: He usually works.",
+      "Nunca entre el verbo y su complemento: I always drink coffee, no I drink always coffee.",
+      "sometimes puede ir al principio; always y never no abren una oración normal.",
+      "En preguntas se usa ever: Do you ever cook? — No, never."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.r1",
+      "frente": "¿Dónde va always con un verbo normal? (I / get up / early)",
+      "reverso": "Antes del verbo → I always get up early.",
+      "nota": "Nunca «I get up always early»."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.r2",
+      "frente": "¿Dónde va always con be? (I / am / late)",
+      "reverso": "Después de be → I'm always late."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.r3",
+      "frente": "Corrige: I don't never eat meat.",
+      "reverso": "I never eat meat. (o I don't eat meat.)",
+      "nota": "Una sola negación en inglés."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.r4",
+      "frente": "She doesn't eat meat → con never",
+      "reverso": "She never eats meat.",
+      "nota": "never no es auxiliar: la -s vuelve al verbo."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.adverbios-de-frecuencia.r5",
+      "frente": "Ordena de más a menos: sometimes, always, never, often, rarely, usually",
+      "reverso": "always, usually, often, sometimes, rarely, never"
+    }
+  ]
+}

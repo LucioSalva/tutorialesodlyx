@@ -1,0 +1,585 @@
+{
+  "titulo": "Evaluación: irregulares, did y narraciones",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "pasado-simple-irregular.eval.01",
+      "leccion": "verbos-irregulares",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada verbo con su pasado.",
+      "pares": [
+        {
+          "a": "think",
+          "b": "thought"
+        },
+        {
+          "a": "bring",
+          "b": "brought"
+        },
+        {
+          "a": "leave",
+          "b": "left"
+        },
+        {
+          "a": "feel",
+          "b": "felt"
+        },
+        {
+          "a": "find",
+          "b": "found"
+        },
+        {
+          "a": "know",
+          "b": "knew"
+        }
+      ],
+      "pistas": [
+        "Todos son irregulares.",
+        "Think y bring pertenecen al grupo -ought; leave y feel, al grupo -t.",
+        "Think y bring → -ought; leave y feel → -t con vocal corta; find cambia la vocal a ou; know cambia a -ew, como grow → grew."
+      ],
+      "solucion": {
+        "respuesta": "thought · brought · left · felt · found · knew",
+        "explicacion": "Think y bring forman el pasado en -ought; leave y feel acortan la vocal y terminan en -t; find y know son totalmente irregulares (found, knew)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.02",
+      "leccion": "verbos-irregulares",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "I ___ my keys in the car. Luckily, my brother had another set.",
+      "opciones": [
+        {
+          "texto": "left",
+          "correcta": true,
+          "porque": "Leave (dejar) es irregular: left."
+        },
+        {
+          "texto": "leaved",
+          "correcta": false,
+          "porque": "Leave no forma el pasado con -ed."
+        },
+        {
+          "texto": "leave",
+          "correcta": false,
+          "porque": "Es la forma base; la historia está en pasado (had)."
+        },
+        {
+          "texto": "lefted",
+          "correcta": false,
+          "porque": "Left ya es pasado; no lleva -ed."
+        }
+      ],
+      "pistas": [
+        "La segunda oración (had) confirma que es pasado.",
+        "«Dejar» es leave, un verbo irregular.",
+        "Leave pertenece al grupo que termina en -t con vocal corta, como feel → felt."
+      ],
+      "solucion": {
+        "respuesta": "left",
+        "explicacion": "Leave significa aquí «dejar (olvidado)» y su pasado es left. Pertenece al grupo de irregulares que terminan en -t."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.03",
+      "leccion": "verbos-irregulares",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de meet y get.",
+      "frase": "Mei ___ her husband at university, and they ___ married in 2015.",
+      "traduccion": "Mei conoció a su esposo en la universidad y se casaron en 2015.",
+      "respuestas": [
+        [
+          "met"
+        ],
+        [
+          "got"
+        ]
+      ],
+      "errores_tipicos": {
+        "meeted | got": "Meet es irregular: met.",
+        "met | getted": "Get es irregular: got."
+      },
+      "pistas": [
+        "Los dos verbos son irregulares.",
+        "Meet acorta la vocal; get cambia la vocal.",
+        "Meet acorta la vocal, como feed → fed; get cambia la e por o, como forget → forgot."
+      ],
+      "solucion": {
+        "respuesta": "met · got",
+        "explicacion": "Meet (conocer a alguien) → met. Get married (casarse) → got married."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.04",
+      "leccion": "verbos-irregulares",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "My grandmother thought me to make tortillas.",
+      "error": "thought",
+      "correcciones": [
+        "taught"
+      ],
+      "frase_correcta": "My grandmother taught me to make tortillas.",
+      "pistas": [
+        "El verbo que se quiere decir es «enseñar».",
+        "Thought y taught se parecen, pero vienen de verbos distintos.",
+        "teach → taught; think → thought."
+      ],
+      "solucion": {
+        "respuesta": "thought → taught",
+        "explicacion": "«Me enseñó» es taught, pasado de teach. Thought es el pasado de think (pensar)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.05",
+      "leccion": "verbos-irregulares",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee y elige la interpretación correcta.",
+      "pregunta": "Tom dice: «I read the report yesterday.» ¿Qué significa y cómo suena read?",
+      "opciones": [
+        {
+          "texto": "Leyó el informe ayer; read suena /rɛd/.",
+          "correcta": true,
+          "porque": "Yesterday indica pasado, y el pasado de read se escribe igual pero suena /rɛd/."
+        },
+        {
+          "texto": "Lee el informe todos los días; read suena /rid/.",
+          "correcta": false,
+          "porque": "Yesterday indica pasado, no un hábito."
+        },
+        {
+          "texto": "Leyó el informe ayer; read suena /rid/.",
+          "correcta": false,
+          "porque": "/rid/ es la pronunciación del presente; en pasado es /rɛd/."
+        },
+        {
+          "texto": "Va a leer el informe mañana.",
+          "correcta": false,
+          "porque": "Yesterday es «ayer», no «mañana»."
+        }
+      ],
+      "pistas": [
+        "Read se escribe igual en presente y en pasado.",
+        "La palabra yesterday te dice el tiempo.",
+        "Pasado de read: /rɛd/, como el color red."
+      ],
+      "solucion": {
+        "respuesta": "Leyó el informe ayer; read suena /rɛd/.",
+        "explicacion": "Por yesterday sabemos que es pasado. Read no cambia al escribirse, pero en pasado se pronuncia /rɛd/."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.06",
+      "leccion": "did-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "Carlos found his wallet.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Carlos didn't find his wallet."
+      ],
+      "errores_tipicos": {
+        "Carlos didn't found his wallet.": "Tras didn't va la forma base: find.",
+        "Carlos doesn't find his wallet.": "Eso es presente; la oración original es pasado."
+      },
+      "pistas": [
+        "Necesitas didn't.",
+        "Found es el pasado de find.",
+        "Sujeto + didn't + forma base + resto, como en Ana didn't lose her keys."
+      ],
+      "solucion": {
+        "respuesta": "Carlos didn't find his wallet.",
+        "explicacion": "Se añade didn't y el verbo vuelve a la forma base: found → find."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.07",
+      "leccion": "did-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "The kids ate all the cookies.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Did the kids eat all the cookies?"
+      ],
+      "errores_tipicos": {
+        "Did the kids ate all the cookies?": "Tras did va la base: eat.",
+        "The kids ate all the cookies?": "La pregunta normal necesita did."
+      },
+      "pistas": [
+        "Las preguntas en pasado empiezan con un auxiliar.",
+        "Ate es el pasado de eat.",
+        "Did + sujeto + forma base + resto + ?, como en Did the boys drink all the milk?"
+      ],
+      "solucion": {
+        "respuesta": "Did the kids eat all the cookies?",
+        "explicacion": "Did va delante del sujeto y el verbo vuelve a la base: ate → eat."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.08",
+      "leccion": "did-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la palabra que empieza la pregunta.",
+      "pregunta": "___ your parents at the airport? — Yes, they were.",
+      "opciones": [
+        {
+          "texto": "Were",
+          "correcta": true,
+          "porque": "La idea es «estar en el aeropuerto» (be) y la respuesta usa were. Be no usa did."
+        },
+        {
+          "texto": "Did",
+          "correcta": false,
+          "porque": "No hay otro verbo en la pregunta; con be no se usa did."
+        },
+        {
+          "texto": "Was",
+          "correcta": false,
+          "porque": "Your parents es plural: were."
+        },
+        {
+          "texto": "Do",
+          "correcta": false,
+          "porque": "Do es presente y be no lo usa."
+        }
+      ],
+      "pistas": [
+        "Mira la respuesta corta.",
+        "¿Qué verbo hay en la pregunta: be u otro?",
+        "Estar en un lugar = be; be pregunta sin did y, con un sujeto plural, usa su forma plural."
+      ],
+      "solucion": {
+        "respuesta": "Were",
+        "explicacion": "La pregunta es sobre dónde estaban (be at the airport), y be pregunta invirtiendo was / were, sin did. Your parents es plural: were. La respuesta corta lo confirma: Yes, they were."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.09",
+      "leccion": "did-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la respuesta corta (una palabra).",
+      "frase": "Did Ana tell you the news? — No, she ___.",
+      "traduccion": "¿Ana te contó la noticia? — No.",
+      "respuestas": [
+        [
+          "didn't"
+        ]
+      ],
+      "errores_tipicos": {
+        "wasn't": "La pregunta usa did (tell es un verbo normal): No, she didn't.",
+        "doesn't": "Doesn't es presente; la pregunta es en pasado.",
+        "didn't tell": "En la respuesta corta basta con didn't."
+      },
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "La pregunta empieza por did.",
+        "Respuesta corta: pronombre + el auxiliar de la pregunta en negativo, sin el verbo principal."
+      ],
+      "solucion": {
+        "respuesta": "didn't",
+        "explicacion": "La pregunta usa did, así que la respuesta corta negativa es No, she didn't."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.10",
+      "leccion": "did-negacion-y-preguntas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa time y la forma contraída.",
+      "es": "No tuve tiempo para desayunar.",
+      "respuestas": [
+        "I didn't have time for breakfast.",
+        "I didn't have time to have breakfast.",
+        "I didn't have time to eat breakfast."
+      ],
+      "errores_tipicos": {
+        "I didn't had time for breakfast.": "Tras didn't va la base: have.",
+        "I hadn't time for breakfast.": "En inglés actual, have se niega con didn't: I didn't have time.",
+        "I no had time for breakfast.": "La negación en pasado es didn't + base."
+      },
+      "pistas": [
+        "Have es un verbo normal en pasado.",
+        "Se niega con el auxiliar del pasado.",
+        "Sujeto + didn't + forma base + objeto + for + algo, como en They didn't have money for the bus."
+      ],
+      "solucion": {
+        "respuesta": "I didn't have time for breakfast.",
+        "explicacion": "Have en pasado se niega con didn't + have (base). «Para desayunar» puede ser for breakfast o to have / eat breakfast."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.11",
+      "leccion": "preguntas-wh-pasado",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar la pregunta.",
+      "fichas": [
+        "did",
+        "Where",
+        "you",
+        "stay",
+        "in",
+        "Madrid"
+      ],
+      "respuestas": [
+        "Where did you stay in Madrid"
+      ],
+      "traduccion": "¿Dónde te quedaste en Madrid?",
+      "pistas": [
+        "Empieza por la palabra interrogativa.",
+        "Después va el auxiliar y luego el sujeto.",
+        "Where + auxiliar + sujeto + forma base + in + lugar + ?, como en Where did they eat in Paris?"
+      ],
+      "solucion": {
+        "respuesta": "Where did you stay in Madrid?",
+        "explicacion": "Palabra interrogativa (where) + did + sujeto (you) + verbo base (stay) + resto (in Madrid)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.12",
+      "leccion": "preguntas-wh-pasado",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "¿Quién ganó el partido?",
+      "opciones": [
+        {
+          "texto": "Who won the game?",
+          "correcta": true,
+          "porque": "Who es quien gana (el sujeto): sin did y con el verbo en pasado (won)."
+        },
+        {
+          "texto": "Who did win the game?",
+          "correcta": false,
+          "porque": "Con who como sujeto no se usa did (salvo para dar énfasis)."
+        },
+        {
+          "texto": "Who did you win the game?",
+          "correcta": false,
+          "porque": "Mezcla dos estructuras y no tiene sentido."
+        },
+        {
+          "texto": "Who the game won?",
+          "correcta": false,
+          "porque": "El orden es el de la afirmación: who + won + the game."
+        }
+      ],
+      "pistas": [
+        "¿Quién hace la acción de ganar?",
+        "Si who es el sujeto, la pregunta tiene el orden de una afirmación.",
+        "Who + verbo en pasado + resto."
+      ],
+      "solucion": {
+        "respuesta": "Who won the game?",
+        "explicacion": "La persona por la que preguntas es la que gana: who es el sujeto. Por eso la pregunta no lleva did y win va en pasado (won)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.13",
+      "leccion": "preguntas-wh-pasado",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "What time did the movie started?",
+      "error": "started",
+      "correcciones": [
+        "start"
+      ],
+      "frase_correcta": "What time did the movie start?",
+      "pistas": [
+        "La pregunta ya tiene did.",
+        "¿Qué forma lleva el verbo después de did?",
+        "did + forma base."
+      ],
+      "solucion": {
+        "respuesta": "started → start",
+        "explicacion": "Did lleva el pasado; el verbo principal va en base: start."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.14",
+      "leccion": "preguntas-wh-pasado",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "What did you buy for your mom?",
+      "pistas": [
+        "Es una pregunta de información con did.",
+        "El verbo es «comprar» en forma base.",
+        "What + auxiliar + sujeto + forma base + for + persona, como en What did she make for her dad?"
+      ],
+      "solucion": {
+        "respuesta": "What did you buy for your mom?",
+        "explicacion": "What + did + you + buy (base de bought). Did you se pronuncia unido: «dí-dʒə»."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.15",
+      "leccion": "narrar",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción de «después de eso» para empezar una oración.",
+      "pregunta": "We visited the pyramids. ___, we had lunch in the town.",
+      "opciones": [
+        {
+          "texto": "After that",
+          "correcta": true,
+          "porque": "After that = después de eso; funciona solo al principio de la oración."
+        },
+        {
+          "texto": "After",
+          "correcta": false,
+          "porque": "After solo necesita algo detrás (after the visit)."
+        },
+        {
+          "texto": "At the end",
+          "correcta": false,
+          "porque": "At the end necesita of + algo y no significa «después de eso»."
+        },
+        {
+          "texto": "Than",
+          "correcta": false,
+          "porque": "Than se usa en comparaciones; «luego» es then."
+        }
+      ],
+      "pistas": [
+        "Buscas un conector que añade el siguiente paso.",
+        "After solo no puede ir suelto.",
+        "After necesita algo detrás; para «después de eso», añade la palabra inglesa que significa «eso»."
+      ],
+      "solucion": {
+        "respuesta": "After that",
+        "explicacion": "After that (después de eso) añade el siguiente hecho de la secuencia. After necesita algo detrás, y at the end y than tienen otros significados."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.16",
+      "leccion": "narrar",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de be, stay y make.",
+      "frase": "It ___ a rainy day, so we ___ at home and ___ pizza.",
+      "traduccion": "Era un día lluvioso, así que nos quedamos en casa e hicimos pizza.",
+      "respuestas": [
+        [
+          "was"
+        ],
+        [
+          "stayed"
+        ],
+        [
+          "made"
+        ]
+      ],
+      "errores_tipicos": {
+        "was | stayed | did": "Preparar comida es make: made.",
+        "was | staied | made": "Stay termina en vocal + y: stayed.",
+        "were | stayed | made": "It lleva was."
+      },
+      "pistas": [
+        "El primer hueco es ambiente; los otros dos, hechos.",
+        "Uno es be, otro regular y otro irregular.",
+        "Clima con it + pasado de be; stay es vocal + y (solo -ed); make cambia -ke por -de."
+      ],
+      "solucion": {
+        "respuesta": "was · stayed · made",
+        "explicacion": "El ambiente se describe con it was. Stay es regular y conserva la y (stayed). Hacer una pizza es crear algo: make → made."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.17",
+      "leccion": "narrar",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la historia y responde.",
+      "pregunta": "«First, Omar went to the bank. Then he bought a present for his sister. After that, he had lunch with Sam. Finally, he went to the gym.» ¿Qué hizo Omar justo antes de ir al gimnasio?",
+      "opciones": [
+        {
+          "texto": "Comió con Sam.",
+          "correcta": true,
+          "porque": "After that, he had lunch with Sam va justo antes de Finally, he went to the gym."
+        },
+        {
+          "texto": "Fue al banco.",
+          "correcta": false,
+          "porque": "Fue lo primero (first)."
+        },
+        {
+          "texto": "Compró un regalo.",
+          "correcta": false,
+          "porque": "Eso fue el segundo paso (then)."
+        },
+        {
+          "texto": "Comió con su hermana.",
+          "correcta": false,
+          "porque": "Comió con Sam; a su hermana le compró un regalo."
+        }
+      ],
+      "pistas": [
+        "Los conectores te dicen el orden.",
+        "Busca el paso anterior a finally.",
+        "first → then → after that → finally."
+      ],
+      "solucion": {
+        "respuesta": "Comió con Sam.",
+        "explicacion": "El orden es: first (banco), then (regalo), after that (comida con Sam), finally (gimnasio). Lo anterior al gimnasio es la comida con Sam (had lunch)."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.eval.18",
+      "leccion": "narrar",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Después de eso, fuimos a un restaurante.",
+      "respuestas": [
+        "After that, we went to a restaurant.",
+        "Afterwards, we went to a restaurant.",
+        "Then we went to a restaurant."
+      ],
+      "errores_tipicos": {
+        "After, we went to a restaurant.": "After solo necesita algo detrás: after that.",
+        "After that, we go to a restaurant.": "La historia es pasada: went.",
+        "After that, we goed to a restaurant.": "Go es irregular: went."
+      },
+      "pistas": [
+        "«Después de eso» es un conector de dos palabras.",
+        "«Fuimos» es el pasado de go.",
+        "Conector + coma + sujeto + pasado de go + to + a + lugar, como en Then, she drove to a hotel."
+      ],
+      "solucion": {
+        "respuesta": "After that, we went to a restaurant.",
+        "explicacion": "After that traduce «después de eso»; afterwards y then también son correctos. «Fuimos» es went, pasado irregular de go."
+      }
+    }
+  ]
+}

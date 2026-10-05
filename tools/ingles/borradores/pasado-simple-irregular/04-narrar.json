@@ -1,0 +1,1054 @@
+{
+  "slug": "narrar",
+  "titulo": "Narrar una experiencia",
+  "minutos": 50,
+  "objetivos": [
+    "Ordenar los hechos de una historia con first, then, after that, later, next y finally.",
+    "Construir un relato completo: ambiente (was / were, there was), hechos (pasado simple) y cierre (valoración).",
+    "Evitar los calcos «After, we…» y «at the end» en lugar de finally."
+  ],
+  "situacion": {
+    "titulo": "Un sábado accidentado",
+    "texto": "Ben le cuenta a su amiga Mei cómo fue su excursión del sábado. Observa cómo organiza la historia: primero el ambiente (it was, there were), luego los hechos en orden con first, then, after that…, y al final una valoración.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "It was a beautiful morning and there weren't many people on the trail.",
+        "es": "Era una mañana preciosa y no había mucha gente en el sendero."
+      },
+      {
+        "quien": "Ben",
+        "en": "First, we walked for two hours. Then we stopped for lunch next to a river.",
+        "es": "Primero caminamos dos horas. Luego paramos a comer junto a un río."
+      },
+      {
+        "quien": "Ben",
+        "en": "After that, it started to rain, so we ran back to the car.",
+        "es": "Después de eso empezó a llover, así que corrimos de regreso al carro."
+      },
+      {
+        "quien": "Mei",
+        "en": "Oh no! What happened next?",
+        "es": "¡Ay, no! ¿Y luego qué pasó?"
+      },
+      {
+        "quien": "Ben",
+        "en": "Later, we found a little café in the town and had hot chocolate. Finally, we drove home at seven.",
+        "es": "Más tarde encontramos un cafecito en el pueblo y tomamos chocolate caliente. Por último, manejamos de regreso a casa a las siete."
+      },
+      {
+        "quien": "Ben",
+        "en": "We were wet, but it was a great day!",
+        "es": "Estábamos empapados, ¡pero fue un gran día!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "conectores-de-secuencia",
+      "titulo": "First, then, after that, finally",
+      "que_es": "Los **conectores de secuencia** son palabras que indican el orden de los hechos en una historia. Sin ellos, un relato suena a lista; con ellos, quien escucha sigue la historia sin perderse.",
+      "para_que": [
+        "Contar tu fin de semana o un viaje en orden.",
+        "Explicar cómo pasó algo (un accidente, un problema en el trabajo).",
+        "Escribir un correo o un mensaje largo sobre algo que viviste."
+      ],
+      "como_funciona": "**First** (primero) abre la secuencia. **Then** (luego / después) y **next** (a continuación) añaden el siguiente paso. **After that** (después de eso) también añade un paso y ayuda a variar. **Later** (más tarde) indica que pasó un rato. **Finally** (por último / finalmente) cierra la secuencia. **Puntuación:** suelen ir al principio de la oración; después de first, after that, later y finally se pone normalmente coma; después de then la coma es opcional y se suele omitir (Then we had lunch). **Calcos que evitar:** 1) «After, we went…»: el «después» del español no se traduce con after solo. After necesita algo detrás (after lunch, after the movie); para decir «después» a secas usa **after that**, **afterwards** o **then**. 2) «At the end, we went home»: at the end necesita «of» + algo (at the end of the day, at the end of the movie). Para cerrar una lista de hechos, usa **finally**. 3) No confundas **then** (luego) con **than** (que, en comparaciones: bigger than).",
+      "estructuras": [
+        {
+          "etiqueta": "Secuencia",
+          "formula": [
+            {
+              "t": "First, / Then / After that, / Later, / Finally,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "After that,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "took",
+              "rol": "verbo"
+            },
+            {
+              "t": "a taxi to the hotel",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Después de eso, tomamos un taxi al hotel."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Conectores de secuencia",
+          "columnas": [
+            "Conector",
+            "Significado",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "First,",
+              "primero",
+              "First, we checked in at the hotel."
+            ],
+            [
+              "Then",
+              "luego, después",
+              "Then we went to the beach."
+            ],
+            [
+              "Next,",
+              "a continuación",
+              "Next, we visited the market."
+            ],
+            [
+              "After that,",
+              "después de eso",
+              "After that, we had dinner."
+            ],
+            [
+              "Later,",
+              "más tarde",
+              "Later, we met some friends."
+            ],
+            [
+              "Finally,",
+              "por último, finalmente",
+              "Finally, we went back to the hotel."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "First, I made coffee.",
+          "es": "Primero hice café.",
+          "partes": [
+            {
+              "t": "First,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "made",
+              "rol": "verbo"
+            },
+            {
+              "t": "coffee",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "First abre la historia. Made: preparar algo es make."
+        },
+        {
+          "en": "Then I read the news.",
+          "es": "Luego leí las noticias.",
+          "partes": [
+            {
+              "t": "Then",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "read",
+              "rol": "verbo"
+            },
+            {
+              "t": "the news",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Read en pasado suena /rɛd/. Después de then no suele ir coma."
+        },
+        {
+          "en": "After that, we walked along the beach.",
+          "es": "Después de eso caminamos por la playa.",
+          "partes": [
+            {
+              "t": "After that,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "walked",
+              "rol": "verbo"
+            },
+            {
+              "t": "along the beach",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "After that, y no «After,»: after necesita algo detrás."
+        },
+        {
+          "en": "Finally, we got home at midnight.",
+          "es": "Por último, llegamos a casa a medianoche.",
+          "partes": [
+            {
+              "t": "Finally,",
+              "rol": "tiempo"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "home",
+              "rol": "complemento"
+            },
+            {
+              "t": "at midnight",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Get home = llegar a casa (sin to). Finally cierra la secuencia."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Los conectores ordenan los hechos",
+        "marcas": [
+          {
+            "pos": 0.08,
+            "texto": "First",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.25,
+            "texto": "Then",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.42,
+            "texto": "After that",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.6,
+            "texto": "Later",
+            "tipo": "punto"
+          },
+          {
+            "pos": 0.76,
+            "texto": "Finally",
+            "tipo": "punto"
+          }
+        ],
+        "ahora": 0.95,
+        "pie": "Todos los hechos ocurrieron antes de ahora, uno detrás de otro: cada uno va en pasado simple."
+      },
+      "pronunciacion": [
+        {
+          "texto": "first · finally",
+          "ipa": "/fɝst/ · /ˈfaɪnəli/",
+          "consejo": "First: una sola sílaba, con la vocal con r de her; no digas «fers». Termina en /st/, sin «e» final. Finally: tres sílabas y acento en FI-: «FÁI-nə-li»; la sílaba del medio es débil.",
+          "lento": true
+        },
+        {
+          "texto": "after that",
+          "ipa": "/ˈæftɚ ðæt/",
+          "consejo": "La primera vocal es /æ/: boca muy abierta, entre «a» y «e». La th de that es sonora: lengua entre los dientes y garganta vibrando."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "After, we went to a restaurant.",
+          "bien": "After that, we went to a restaurant.",
+          "porque": "After solo necesita algo detrás (after lunch). Para «después» a secas: after that, afterwards o then."
+        },
+        {
+          "mal": "At the end, we went home.",
+          "bien": "Finally, we went home.",
+          "porque": "At the end necesita of + algo (at the end of the day). Para el último paso de una secuencia, finally."
+        },
+        {
+          "mal": "We had lunch. Than we went to the museum.",
+          "bien": "We had lunch. Then we went to the museum.",
+          "porque": "Then = luego. Than se usa en comparaciones (taller than)."
+        }
+      ]
+    },
+    {
+      "id": "estructura-del-relato",
+      "titulo": "Cómo se construye una buena historia",
+      "que_es": "Una historia corta en inglés tiene casi siempre tres partes: **1) el ambiente** (cuándo, dónde, con quién, cómo era todo), **2) los hechos** en orden y **3) el cierre** (cómo terminó y qué te pareció). Cada parte usa las estructuras que ya conoces.",
+      "para_que": [
+        "Contar una anécdota en una conversación sin quedarte en blanco.",
+        "Escribir sobre un viaje o un día especial.",
+        "Entender historias ajenas: saber en qué parte estás."
+      ],
+      "como_funciona": "**1. Ambiente:** usa was / were y there was / there were para describir: Last summer I was in Veracruz with my cousins. It was very hot and there were a lot of tourists. **2. Hechos:** usa el pasado simple (regulares e irregulares) y los conectores: First, we… Then we… After that, … Puedes unir ideas con **and** (y), **but** (pero), **so** (así que) y **because** (porque): It started to rain, so we went back. **3. Cierre:** una valoración con was / were o una emoción: It was an amazing day. / We were tired but happy. **Un aviso sobre el presente:** en español a veces se cuenta en presente («y entonces llego y me dice…»). El inglés también lo hace en anécdotas muy informales, pero es fácil mezclar tiempos sin querer. Mientras aprendes, cuenta todo en pasado: una historia que salta de went a go confunde a quien escucha.",
+      "estructuras": [
+        {
+          "etiqueta": "Ambiente",
+          "formula": [
+            {
+              "t": "It was / There was / There were",
+              "rol": "verbo"
+            },
+            {
+              "t": "descripción",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a cold night",
+              "rol": "complemento"
+            },
+            {
+              "t": "in December",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Era una noche fría de diciembre."
+        },
+        {
+          "etiqueta": "Hecho + consecuencia",
+          "formula": [
+            {
+              "t": "Hecho en pasado",
+              "rol": "verbo"
+            },
+            {
+              "t": ", so",
+              "rol": "otro"
+            },
+            {
+              "t": "consecuencia en pasado",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The museum was closed,",
+              "rol": "complemento"
+            },
+            {
+              "t": "so",
+              "rol": "otro"
+            },
+            {
+              "t": "we went to the park",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El museo estaba cerrado, así que fuimos al parque."
+        },
+        {
+          "etiqueta": "Cierre",
+          "formula": [
+            {
+              "t": "It was / We were",
+              "rol": "verbo"
+            },
+            {
+              "t": "valoración o emoción",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "the best trip of my life",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Fue el mejor viaje de mi vida."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Last year I went to Puebla with my best friend.",
+          "es": "El año pasado fui a Puebla con mi mejor amiga.",
+          "partes": [
+            {
+              "t": "Last year",
+              "rol": "tiempo"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "went",
+              "rol": "verbo"
+            },
+            {
+              "t": "to Puebla",
+              "rol": "complemento"
+            },
+            {
+              "t": "with my best friend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Primera oración: cuándo, dónde y con quién. Ya sitúa toda la historia."
+        },
+        {
+          "en": "There were a lot of people in the main square.",
+          "es": "Había mucha gente en la plaza principal.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "a lot of people",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the main square",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Ambiente con there were (people es plural)."
+        },
+        {
+          "en": "We lost our map, so we asked a police officer.",
+          "es": "Perdimos el mapa, así que le preguntamos a un policía.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "lost",
+              "rol": "verbo"
+            },
+            {
+              "t": "our map,",
+              "rol": "complemento"
+            },
+            {
+              "t": "so",
+              "rol": "otro"
+            },
+            {
+              "t": "we",
+              "rol": "sujeto"
+            },
+            {
+              "t": "asked",
+              "rol": "verbo"
+            },
+            {
+              "t": "a police officer",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "So une un hecho con su consecuencia. Lose → lost (irregular); ask → asked (regular)."
+        },
+        {
+          "en": "We were exhausted, but it was a perfect weekend.",
+          "es": "Estábamos agotados, pero fue un fin de semana perfecto.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "verbo"
+            },
+            {
+              "t": "exhausted,",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "was",
+              "rol": "verbo"
+            },
+            {
+              "t": "a perfect weekend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Cierre con emoción y valoración, las dos con be."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Una lista",
+          "items": [
+            "We went to the beach. We ate. We swam. We went to the hotel."
+          ]
+        },
+        "b": {
+          "titulo": "Una historia",
+          "items": [
+            "It was a sunny day. First, we went to the beach. Then we had fish for lunch. After that, we swam for an hour. Finally, we went back to the hotel. It was a perfect day!"
+          ]
+        },
+        "veredicto": "La historia tiene ambiente (It was a sunny day), orden (first, then, after that, finally) y cierre (It was a perfect day). Los verbos son casi los mismos; lo que cambia es la organización."
+      },
+      "pronunciacion": [
+        {
+          "texto": "It was a great day!",
+          "ipa": "/ɪt wəz ə ɡreɪt deɪ/",
+          "consejo": "Was y a son débiles y se pegan: «i-twə-zə». El énfasis va en GREAT, con la voz alta, y baja en day. Así suena una conclusión entusiasta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "First we went to the market. Then we eat tacos.",
+          "bien": "First we went to the market. Then we ate tacos.",
+          "porque": "No cambies a presente a mitad de la historia: todos los hechos van en pasado."
+        },
+        {
+          "mal": "Was a beautiful day.",
+          "bien": "It was a beautiful day.",
+          "porque": "La descripción también necesita sujeto: it."
+        },
+        {
+          "mal": "Had a lot of people at the concert.",
+          "bien": "There were a lot of people at the concert.",
+          "porque": "«Había» se dice there was / there were."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-irregular.narrar.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada conector con su significado.",
+      "pares": [
+        {
+          "a": "First",
+          "b": "primero"
+        },
+        {
+          "a": "Then",
+          "b": "luego"
+        },
+        {
+          "a": "After that",
+          "b": "después de eso"
+        },
+        {
+          "a": "Later",
+          "b": "más tarde"
+        },
+        {
+          "a": "Finally",
+          "b": "por último"
+        },
+        {
+          "a": "So",
+          "b": "así que"
+        }
+      ],
+      "pistas": [
+        "Todos sirven para organizar una historia.",
+        "Empieza por el primero y el último de una secuencia.",
+        "Un conector abre la secuencia, otro la cierra y so introduce una consecuencia; los demás marcan pasos intermedios."
+      ],
+      "solucion": {
+        "respuesta": "First → primero · Then → luego · After that → después de eso · Later → más tarde · Finally → por último · So → así que",
+        "explicacion": "First abre la secuencia y finally la cierra. Then y after that añaden pasos; later indica que pasó un rato. So no ordena: une un hecho con su consecuencia."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el conector adecuado para la última oración de la historia.",
+      "pregunta": "First, we visited the castle. Then we had lunch. After that, we went shopping. ___, we took the train back home.",
+      "opciones": [
+        {
+          "texto": "Finally",
+          "correcta": true,
+          "porque": "Es el último paso de la secuencia: finally lo cierra."
+        },
+        {
+          "texto": "First",
+          "correcta": false,
+          "porque": "First abre la historia; aquí ya estamos al final."
+        },
+        {
+          "texto": "At the end",
+          "correcta": false,
+          "porque": "At the end necesita of + algo; para el último paso se usa finally."
+        },
+        {
+          "texto": "After",
+          "correcta": false,
+          "porque": "After solo necesita algo detrás (after lunch)."
+        }
+      ],
+      "pistas": [
+        "Es la última acción de la historia.",
+        "Busca el conector que cierra una secuencia.",
+        "El conector del último paso se parece a la palabra española «final» y va seguido de coma."
+      ],
+      "solucion": {
+        "respuesta": "Finally",
+        "explicacion": "Finally marca el último paso de una secuencia. At the end y after solos no funcionan como conectores sueltos en inglés."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la historia con el pasado de go, see y eat (en ese orden).",
+      "frase": "Last Saturday we ___ to Puebla. We ___ the cathedral, and then we ___ mole in a small restaurant.",
+      "traduccion": "El sábado pasado fuimos a Puebla. Vimos la catedral y luego comimos mole en un restaurante pequeño.",
+      "respuestas": [
+        [
+          "went"
+        ],
+        [
+          "saw"
+        ],
+        [
+          "ate"
+        ]
+      ],
+      "errores_tipicos": {
+        "goed | saw | ate": "Go es irregular: went.",
+        "went | seed | ate": "See es irregular: saw.",
+        "went | saw | eated": "Eat es irregular: ate."
+      },
+      "pistas": [
+        "Los tres verbos son irregulares.",
+        "Son de los más frecuentes: los viste en la primera lección.",
+        "Los tres son irregulares: go cambia por completo (empieza con w), see pasa a tres letras con a, y eat reordena sus letras."
+      ],
+      "solucion": {
+        "respuesta": "went · saw · ate",
+        "explicacion": "Los tres hechos son pasados y terminados. Los tres verbos son irregulares: go → went, see → saw, eat → ate."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con conectores de secuencia. Usa cada uno una vez: First, Then, After that, Finally.",
+      "frase": "___, we had breakfast at the hotel. ___, we walked to the market. ___, we took a bus to the beach. ___, we went back to the hotel and slept.",
+      "traduccion": "Primero desayunamos en el hotel. Luego caminamos al mercado. Después de eso tomamos un camión a la playa. Por último, regresamos al hotel y dormimos.",
+      "banco": [
+        "First",
+        "Then",
+        "After that",
+        "Finally"
+      ],
+      "respuestas": [
+        [
+          "First"
+        ],
+        [
+          "Then",
+          "After that"
+        ],
+        [
+          "After that",
+          "Then"
+        ],
+        [
+          "Finally"
+        ]
+      ],
+      "errores_tipicos": {
+        "Finally | Then | After that | First": "First abre la historia y Finally la cierra: están al revés."
+      },
+      "pistas": [
+        "Hay un conector para abrir, dos para el medio y uno para cerrar.",
+        "¿Cuál es la primera acción y cuál la última?",
+        "Primer hueco: «primero»; huecos intermedios: «luego» y «después de eso»; último hueco: «por último»."
+      ],
+      "solucion": {
+        "respuesta": "First · Then · After that · Finally",
+        "explicacion": "First abre la secuencia y Finally la cierra. Then y After that van en el medio y pueden intercambiarse: los dos añaden el siguiente paso."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un calco del español. Señálalo y corrígelo.",
+      "frase": "We visited the museum. After, we went to a restaurant.",
+      "error": "After",
+      "correcciones": [
+        "After that",
+        "Afterwards",
+        "Then"
+      ],
+      "frase_correcta": "We visited the museum. After that, we went to a restaurant.",
+      "pistas": [
+        "El problema está en el conector de la segunda oración.",
+        "After necesita algo detrás (after lunch).",
+        "After necesita un complemento; para «después» a secas, añádele un demostrativo, igual que en before this."
+      ],
+      "solucion": {
+        "respuesta": "After → After that",
+        "explicacion": "After funciona como preposición y necesita algo detrás (after the museum). Para decir «después» sin más, se usa after that, afterwards o then."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un cambio de tiempo que no debería estar. Señálalo y corrígelo.",
+      "frase": "First we visited the old town. Then we go to the park.",
+      "error": "go",
+      "correcciones": [
+        "went"
+      ],
+      "frase_correcta": "First we visited the old town. Then we went to the park.",
+      "pistas": [
+        "Toda la historia está en pasado.",
+        "Busca el verbo que se quedó en presente.",
+        "El pasado de go es irregular: una palabra distinta que empieza con w."
+      ],
+      "solucion": {
+        "respuesta": "go → went",
+        "explicacion": "La historia empieza en pasado (visited) y los hechos siguientes también son pasados: went. Cambiar a presente a mitad del relato confunde."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Esta rutina está en presente. Pásala al pasado para contar lo que hiciste ayer.",
+      "origen": "First I get up, then I have a coffee.",
+      "instruccion": "Pasado",
+      "respuestas": [
+        "First I got up, then I had a coffee."
+      ],
+      "errores_tipicos": {
+        "First I getted up, then I haved a coffee.": "Get y have son irregulares: got, had.",
+        "First I got up, then I have a coffee.": "Los dos verbos van en pasado: had."
+      },
+      "pistas": [
+        "Los conectores no cambian; los verbos sí.",
+        "Get y have son irregulares.",
+        "Get cambia la e por o, como forget → forgot; have cambia -ve por -d, como make → made."
+      ],
+      "solucion": {
+        "respuesta": "First I got up, then I had a coffee.",
+        "explicacion": "Los conectores se mantienen; solo cambian los verbos: get up → got up y have → had, los dos irregulares."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "After",
+        "that,",
+        "we",
+        "took",
+        "a",
+        "boat",
+        "to",
+        "the",
+        "island"
+      ],
+      "respuestas": [
+        "After that, we took a boat to the island",
+        "We took a boat to the island after that"
+      ],
+      "traduccion": "Después de eso, tomamos un barco a la isla.",
+      "pistas": [
+        "La oración empieza con un conector de dos palabras.",
+        "Después va el sujeto y el verbo en pasado.",
+        "Conector + coma + sujeto + verbo en pasado + objeto + to + lugar, como en Then, they caught a bus to the coast."
+      ],
+      "solucion": {
+        "respuesta": "After that, we took a boat to the island.",
+        "explicacion": "El conector after that suele ir al principio, seguido de coma. Después, sujeto (we) + verbo en pasado (took, de take) + complemento. También puede ir al final."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "After that, we took a taxi to the hotel.",
+      "pistas": [
+        "Empieza por un conector de dos palabras.",
+        "El verbo es el pasado de take.",
+        "Conector + coma + sujeto + pasado de take + transporte + to + lugar, como en Later, she caught a bus to the station."
+      ],
+      "solucion": {
+        "respuesta": "After that, we took a taxi to the hotel.",
+        "explicacion": "After that (después de eso) + we took (tomamos). Took suena /tʊk/, con una «u» corta."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.10",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Haz una pequeña pausa después de cada conector.",
+      "texto": "First, we went to the beach. Then we had lunch. Finally, we went home.",
+      "ipa": "/fɝst wi wɛnt tə ðə bitʃ ‖ ðɛn wi hæd lʌntʃ ‖ ˈfaɪnəli wi wɛnt hoʊm/",
+      "consejo": "Los conectores llevan un acento claro y una pausa breve (sobre todo first y finally). To the se reduce a /tə ðə/. Beach tiene una «i» larga y tensa; no la acortes o sonará como otra palabra.",
+      "es": "Primero fuimos a la playa. Luego comimos. Por último, nos fuimos a casa."
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.11",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la continuación adecuada de la historia.",
+      "contexto": "Le cuentas a Diego tu regreso de una fiesta y él quiere saber más.",
+      "lineas": [
+        {
+          "quien": "Tú",
+          "en": "The party ended at midnight, but there weren't any taxis.",
+          "es": "La fiesta terminó a medianoche, pero no había taxis."
+        },
+        {
+          "quien": "Diego",
+          "en": "Oh no! What happened next?",
+          "es": "¡Ay, no! ¿Y luego qué pasó?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "We missed the last bus, so we walked home. It took an hour!",
+          "correcta": true,
+          "porque": "Continúa en pasado (missed, walked, took), usa so para la consecuencia y responde a What happened next?"
+        },
+        {
+          "texto": "We miss the last bus, so we walk home.",
+          "correcta": false,
+          "porque": "Cambia a presente en medio de una historia pasada."
+        },
+        {
+          "texto": "We didn't missed the last bus.",
+          "correcta": false,
+          "porque": "Después de didn't va la base (miss), y además no cuenta qué pasó después."
+        },
+        {
+          "texto": "First, finally we walked home.",
+          "correcta": false,
+          "porque": "First y finally se contradicen: uno abre la secuencia y el otro la cierra."
+        }
+      ],
+      "pistas": [
+        "Diego pregunta qué pasó después: necesitas hechos en pasado.",
+        "Revisa el tiempo de los verbos y los conectores de cada opción.",
+        "Hechos en pasado simple + so para la consecuencia."
+      ],
+      "solucion": {
+        "respuesta": "We missed the last bus, so we walked home. It took an hour!",
+        "explicacion": "La respuesta mantiene el pasado (missed, walked, took), explica la consecuencia con so y añade un detalle. Las otras cambian a presente, cometen el error didn't + pasado o mezclan conectores contradictorios."
+      }
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.12",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Cuenta un viaje o un día especial.",
+      "objetivo": "Narrar una experiencia completa con ambiente, hechos ordenados y cierre.",
+      "instrucciones": "Escribe al menos 70 palabras sobre un viaje, una excursión o un día especial. Organiza tu texto en tres partes: 1) ambiente (cuándo, dónde, con quién, cómo era: was / were, there was / were); 2) al menos cinco hechos en orden con first, then, after that, later y finally (usa verbos irregulares); 3) cierre con una valoración.",
+      "vocabulario_apoyo": [
+        "went",
+        "took",
+        "saw",
+        "ate",
+        "had",
+        "bought",
+        "met",
+        "got",
+        "left",
+        "came back",
+        "so",
+        "because",
+        "but"
+      ],
+      "estructuras": [
+        "Last … I went to … with …",
+        "It was … / There were …",
+        "First, … Then … After that, … Later, … Finally, …",
+        "…, so …",
+        "It was a … day / trip."
+      ],
+      "ejemplo": "Last month my brother and I went to a soccer game in Monterrey. It was very hot and there were thousands of fans. First, we bought T-shirts. Then we found our seats. The game was exciting. Finally, our team won!",
+      "min_palabras": 70,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas first",
+          "patron": "\\bfirst\\b"
+        },
+        {
+          "descripcion": "Usas then o after that",
+          "patron": "\\b(then|after that|afterwards)\\b"
+        },
+        {
+          "descripcion": "Usas finally",
+          "patron": "\\bfinally\\b"
+        },
+        {
+          "descripcion": "Describes el ambiente con was / were",
+          "patron": "\\b(was|were)\\b"
+        },
+        {
+          "descripcion": "Usas algún verbo irregular frecuente",
+          "patron": "\\b(went|took|saw|ate|had|bought|met|got|left|came|made|found|gave|told|said)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Hay ambiente al principio (cuándo, dónde, con quién)?",
+        "¿Todos los hechos están en pasado simple, sin saltos al presente?",
+        "¿Los irregulares están bien (went, took, saw… y no goed, taked)?",
+        "¿Usaste after that o then, y no «After,» solo?",
+        "¿Cierras con una valoración (It was…)?"
+      ],
+      "modelo": "Last December I went to Oaxaca with my parents. It was cold in the mornings, but the city was beautiful and there were a lot of festivals. First, we visited the market and ate tlayudas. Then we took a bus to Monte Albán and saw the ruins. After that, we came back to the city and bought some presents. Later, we met my aunt at a small restaurant and had hot chocolate. Finally, we went back to the hotel very late. We were tired, but it was an unforgettable trip.",
+      "explicacion": "El modelo empieza con el ambiente: cuándo (last December), dónde (Oaxaca), con quién (my parents) y cómo era (it was cold, there were a lot of festivals). Después cuenta siete hechos en orden con first, then, after that, later y finally, casi todos con verbos irregulares (went, ate, took, saw, came, bought, met, had). Cierra con una emoción y una valoración (We were tired, but it was an unforgettable trip).",
+      "errores_comunes": [
+        "Saltar al presente a mitad del relato: «Then we go…».",
+        "Escribir «After, we…» en lugar de After that, we…",
+        "Usar at the end en lugar de finally.",
+        "Olvidar el sujeto en la descripción: «Was very cold» → It was very cold."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Y qué pasó?",
+    "contexto": "Estás en una comida con amigos y Aisha te pide que cuentes la anécdota de tu primer día en tu trabajo actual (o en tu escuela).",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Tell us about your first day at work! What happened?",
+        "es": "¡Cuéntanos de tu primer día en el trabajo! ¿Qué pasó?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "No way! And then?",
+        "es": "¡No manches! ¿Y luego?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Cuenta la anécdota en dos turnos. En el primero: ambiente (It was…, I was…) y dos hechos con first y then. En el segundo: dos hechos más con after that / later y un final con finally y una valoración.",
+    "modelo": "It was a Monday in March and I was very nervous. First, I took the wrong bus. Then I arrived twenty minutes late! — After that, my boss introduced me to the team. Later, I had lunch with two coworkers and they were really nice. Finally, I went home happy. It was a good first day in the end.",
+    "alternativas": [
+      "It was my first day at a new school. There were a lot of students and I didn't know anybody. First, I got lost. Then a girl helped me. — After that, we had lunch together. Finally, we became best friends!",
+      "I was twenty and it was my first job. First, I spilled coffee on my shirt. Then I forgot my password. — After that, I called IT. Later, everything was OK. Finally, I left at six. It was a crazy day!"
+    ],
+    "claves": [
+      "Ambiente: It was… / I was… / There were…",
+      "Hechos en pasado simple con first, then, after that, later, finally.",
+      "Cierre: It was a … day."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Conectores: first, then, next, after that, later, finally.",
+      "Una historia = ambiente (was / were, there was / were) + hechos en orden (pasado simple) + cierre (valoración).",
+      "So une un hecho con su consecuencia; because explica la causa; but, un contraste."
+    ],
+    "recuerda": [
+      "«Después» a secas = after that / afterwards / then, no «After,».",
+      "Para el último paso: finally, no «at the end».",
+      "No cambies a presente a mitad de la historia.",
+      "Then (luego) ≠ than (que, en comparaciones)."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-irregular.narrar.r1",
+      "frente": "Corrige: After, we went home.",
+      "reverso": "After that, we went home.",
+      "nota": "After necesita algo detrás."
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.r2",
+      "frente": "¿Qué conector cierra una secuencia?",
+      "reverso": "Finally",
+      "nota": "No «at the end»."
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.r3",
+      "frente": "Las tres partes de una historia:",
+      "reverso": "Ambiente + hechos en orden + cierre.",
+      "nota": "It was… / First… Then… / It was a great day."
+    },
+    {
+      "id": "pasado-simple-irregular.narrar.r4",
+      "frente": "¿Cómo se dice «así que fuimos a casa»?",
+      "reverso": "so we went home",
+      "nota": "So = consecuencia."
+    }
+  ]
+}

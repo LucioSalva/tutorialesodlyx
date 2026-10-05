@@ -1,0 +1,608 @@
+{
+  "slug": "gustos",
+  "titulo": "Gustos: like, love, hate",
+  "minutos": 45,
+  "objetivos": [
+    "Expresar gustos con like, love, hate y enjoy + sustantivo, entendiendo que la persona es el sujeto.",
+    "Usar like, love, hate y enjoy + verbo en -ing, con la ortografía correcta de -ing.",
+    "Preguntar Do you like…? y responder Yes, I do / No, I don't.",
+    "Hablar de tu tiempo libre combinando gustos y frecuencia."
+  ],
+  "situacion": {
+    "titulo": "Una aplicación para conocer gente",
+    "texto": "Omar y Lucía acaban de conocerse en una aplicación para hacer amigos que hablan inglés. Se escriben para ver qué tienen en común. Fíjate en quién es el sujeto de cada gusto y en la forma de los verbos que siguen a like y love.",
+    "dialogo": [
+      {"quien": "Omar", "en": "So, what do you like doing in your free time?", "es": "Entonces, ¿qué te gusta hacer en tu tiempo libre?"},
+      {"quien": "Lucía", "en": "I love dancing, and I really like cooking. What about you?", "es": "Me encanta bailar y me gusta mucho cocinar. ¿Y a ti?"},
+      {"quien": "Omar", "en": "I enjoy swimming. I go to the pool twice a week.", "es": "Disfruto nadar. Voy a la alberca dos veces a la semana."},
+      {"quien": "Lucía", "en": "Do you like horror movies?", "es": "¿Te gustan las películas de terror?"},
+      {"quien": "Omar", "en": "No, I don't. I hate them! My sister loves them, though.", "es": "No. ¡Las odio! Aunque a mi hermana le encantan."}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "like-love-hate-sustantivo",
+      "titulo": "Me gusta… = I like…: la persona es el sujeto",
+      "que_es": "[[Like]] (gustar), [[love]] (encantar, amar), [[hate]] (odiar) y [[enjoy]] (disfrutar) son verbos para hablar de gustos. Son verbos normales de presente simple: llevan -s con he / she / it y usan do / does para negar y preguntar.",
+      "para_que": [
+        "Presentarte y encontrar temas en común: [[I love music.]]",
+        "Hablar de los gustos de otras personas: [[My dad hates cold weather.]]",
+        "Ofrecer o elegir algo: [[Do you like spicy food?]]"
+      ],
+      "como_funciona": "**La gran diferencia con el español.** En «me gusta el café», el sujeto gramatical es el café (por eso decimos «me gustan los tacos», en plural). En inglés es al revés: **la persona que siente el gusto es el sujeto** y lo que gusta es el complemento: [[I like coffee]]. Literalmente: «yo (le tengo) gusto al café». Por eso:\n• me gusta / me gustan → [[I like]] (siempre igual, sea una cosa o muchas).\n• a mi hermana le gusta → [[my sister likes]] (con -s, porque el sujeto es ella).\n• a mis papás les gusta → [[my parents like]].\n\n**Sin the para gustos generales.** «Me gustan los perros» habla de los perros en general, así que en inglés no lleva artículo: [[I like dogs]] (plural sin the) / [[I like coffee]] (incontable sin the). [[I like the dogs]] significaría unos perros concretos (los de ese parque, por ejemplo).\n\n**La escala:** [[love]] ❤️❤️ › [[like]] ❤️ › [[don't like]] › [[hate]]. Para reforzar: [[I really like…]] (me gusta mucho) o [[I like… a lot]]. Para suavizar la negación: [[I don't like… very much]] (no me gusta mucho), con very much al final.\n\n**No dejes el verbo sin complemento.** like necesita objeto: si ya se sabe de qué hablas, usa [[it]] o [[them]]: [[Do you like tea? — Yes, I like it.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Gusto + sustantivo",
+          "formula": [{"t": "Persona (sujeto)", "rol": "sujeto"}, {"t": "like / love / hate / enjoy", "rol": "verbo"}, {"t": "lo que gusta", "rol": "complemento"}],
+          "ejemplo": [{"t": "My sister", "rol": "sujeto"}, {"t": "loves", "rol": "verbo"}, {"t": "cats", "rol": "complemento"}],
+          "es": "A mi hermana le encantan los gatos."
+        },
+        {
+          "etiqueta": "Negación",
+          "formula": [{"t": "Persona", "rol": "sujeto"}, {"t": "don't / doesn't", "rol": "negacion"}, {"t": "like", "rol": "verbo"}, {"t": "lo que no gusta", "rol": "complemento"}],
+          "ejemplo": [{"t": "Ben", "rol": "sujeto"}, {"t": "doesn't", "rol": "negacion"}, {"t": "like", "rol": "verbo"}, {"t": "spicy food", "rol": "complemento"}],
+          "es": "A Ben no le gusta la comida picante."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I like coffee.",
+          "es": "Me gusta el café.",
+          "partes": [{"t": "I", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "coffee", "rol": "complemento"}],
+          "nota": "El sujeto es I (la persona). El café es el complemento y no lleva the porque hablas del café en general."
+        },
+        {
+          "en": "My sister loves cats.",
+          "es": "A mi hermana le encantan los gatos.",
+          "partes": [{"t": "My sister", "rol": "sujeto"}, {"t": "loves", "rol": "verbo"}, {"t": "cats", "rol": "complemento"}],
+          "nota": "En español el verbo concuerda con «los gatos» (encantan); en inglés concuerda con my sister (loves, con -s)."
+        },
+        {
+          "en": "My parents hate cold weather.",
+          "es": "Mis papás odian el frío.",
+          "partes": [{"t": "My parents", "rol": "sujeto"}, {"t": "hate", "rol": "verbo"}, {"t": "cold weather", "rol": "complemento"}],
+          "nota": "Sujeto plural → hate sin -s. «El frío» como clima se dice cold weather."
+        },
+        {
+          "en": "Ben doesn't like spicy food very much.",
+          "es": "A Ben no le gusta mucho la comida picante.",
+          "partes": [{"t": "Ben", "rol": "sujeto"}, {"t": "doesn't", "rol": "negacion"}, {"t": "like", "rol": "verbo"}, {"t": "spicy food", "rol": "complemento"}, {"t": "very much", "rol": "otro"}],
+          "nota": "doesn't + like (sin -s). very much va al final, después de lo que no le gusta."
+        },
+        {
+          "en": "I really enjoy long weekends.",
+          "es": "Disfruto mucho los fines de semana largos.",
+          "partes": [{"t": "I", "rol": "sujeto"}, {"t": "really", "rol": "otro"}, {"t": "enjoy", "rol": "verbo"}, {"t": "long weekends", "rol": "complemento"}],
+          "nota": "really va antes del verbo y lo intensifica. enjoy se usa sobre todo con actividades y experiencias (enjoy cooking, enjoy the party); para decir que te gusta una persona se usa like, no enjoy."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "De más a menos",
+        "centro": "Gustos",
+        "ramas": [
+          {"texto": "love", "detalle": "me encanta"},
+          {"texto": "really like", "detalle": "me gusta mucho"},
+          {"texto": "like", "detalle": "me gusta"},
+          {"texto": "enjoy", "detalle": "lo disfruto"},
+          {"texto": "don't like", "detalle": "no me gusta"},
+          {"texto": "hate", "detalle": "lo odio"}
+        ]
+      },
+      "pronunciacion": [
+        {"texto": "like / likes", "ipa": "/laɪk/ · /laɪks/", "consejo": "El diptongo es «ai», como en «baile». La k final se corta sin soltar aire fuerte. En likes, la -s suena /s/ sorda porque va después de /k/.", "lento": true},
+        {"texto": "love / loves", "ipa": "/lʌv/ · /lʌvz/", "consejo": "La o de love NO es o: es /ʌ/, una a corta y relajada. La v es labiodental (dientes sobre el labio inferior) y vibra. En loves, la -s suena /z/ porque la v es sonora."},
+        {"texto": "hate / hates", "ipa": "/heɪt/ · /heɪts/", "consejo": "La h se pronuncia: es un soplo suave, como una j española muy débil, sin raspar la garganta. Luego el diptongo «ei». Sin la h, dirías ate (comí), otra palabra."}
+      ],
+      "errores": [
+        {"mal": "Coffee likes me.", "bien": "I like coffee.", "porque": "Calco de «me gusta el café». En inglés la persona que siente el gusto es el sujeto."},
+        {"mal": "I like the dogs.", "bien": "I like dogs.", "porque": "Para gustos generales no se usa the. I like the dogs significa que te gustan unos perros concretos."},
+        {"mal": "My brother like soccer.", "bien": "My brother likes soccer.", "porque": "like es un verbo normal: con he / she / it lleva -s."},
+        {"mal": "I don't like very much horror movies.", "bien": "I don't like horror movies very much.", "porque": "very much va al final, después de lo que no te gusta; no entre el verbo y su complemento."},
+        {"mal": "Do you like tea? — Yes, I like.", "bien": "Yes, I like it. / Yes, I do.", "porque": "like necesita complemento. Si no lo repites, usa it / them o la respuesta corta con do."}
+      ]
+    },
+    {
+      "id": "gustos-con-ing",
+      "titulo": "I like swimming: gustos + verbo en -ing",
+      "que_es": "Para decir que te gusta **hacer** algo, después de like, love, hate o enjoy el verbo va con la terminación **-ing**: [[I like swimming]] (me gusta nadar). En español usamos el infinitivo («nadar»); en inglés, la forma en -ing.",
+      "para_que": [
+        "Hablar de actividades de tiempo libre: [[She loves dancing.]]",
+        "Decir lo que no soportas hacer: [[I hate getting up early.]]",
+        "Contestar a [[What do you like doing?]] (¿Qué te gusta hacer?)."
+      ],
+      "como_funciona": "**Verbo de gusto + verbo-ing.** Aquí la forma en -ing funciona como un sustantivo: nombra la actividad. [[Swimming]] = «la natación / el nadar». Por eso ocupa el mismo lugar que coffee o cats. (Más adelante verás que -ing también sirve para el presente continuo; eso es otro uso y otra unidad.)\n\n**¿Y like to + verbo?** Con [[like]], [[love]] y [[hate]] también es correcto el infinitivo con to: [[I like to swim]], [[She loves to dance]]. Es muy frecuente, sobre todo en EE. UU., y para hablar de gustos significa prácticamente lo mismo. Puedes usar las dos.\n\n**Pero enjoy solo admite -ing**: [[I enjoy cooking]] ✓ / [[I enjoy to cook]] ✗.\n\n**Ortografía de -ing** (lo básico):\n1. Regla general: se añade -ing → read → reading, play → playing, cook → cooking, watch → watching.\n2. Verbo terminado en **e muda** → se quita la e: dance → dancing, ride → riding, write → writing, make → making.\n3. Verbo de **una sílaba que termina en consonante + vocal + consonante** → se duplica la última consonante: swim → swimming, run → running, shop → shopping, get → getting, jog → jogging. No se duplica w, x ni y (play → playing, fix → fixing). En verbos de dos sílabas depende del acento; lo verás más adelante.\n4. Casos raros: -ie → -ying (lie → lying).\n\n**Expresiones fijas con go + -ing** para actividades: [[go swimming]] (ir a nadar), [[go shopping]] (ir de compras), [[go running]] (salir a correr), [[go dancing]] (ir a bailar). Se combinan con gustos y frecuencia: [[I go shopping once a month.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Gusto + actividad",
+          "formula": [{"t": "Persona", "rol": "sujeto"}, {"t": "like / love / hate / enjoy", "rol": "verbo"}, {"t": "verbo-ing", "rol": "complemento"}, {"t": "(complemento)", "rol": "complemento"}],
+          "ejemplo": [{"t": "Lucía", "rol": "sujeto"}, {"t": "loves", "rol": "verbo"}, {"t": "dancing", "rol": "complemento"}, {"t": "salsa", "rol": "complemento"}],
+          "es": "A Lucía le encanta bailar salsa."
+        },
+        {
+          "etiqueta": "Alternativa con to (no con enjoy)",
+          "formula": [{"t": "Persona", "rol": "sujeto"}, {"t": "like / love / hate", "rol": "verbo"}, {"t": "to + verbo base", "rol": "complemento"}],
+          "ejemplo": [{"t": "I", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "to swim", "rol": "complemento"}],
+          "es": "Me gusta nadar."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Ortografía de -ing",
+          "columnas": ["Regla", "Verbo", "Forma -ing"],
+          "filas": [
+            ["+ -ing", "read, cook, play", "reading, cooking, playing"],
+            ["e muda: quita la e", "dance, write, ride", "dancing, writing, riding"],
+            ["consonante + vocal + consonante: duplica", "swim, run, shop", "swimming, running, shopping"],
+            ["no se duplica w, x, y", "fix, snow, play", "fixing, snowing, playing"],
+            ["-ie → -ying", "lie", "lying"]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I like swimming.",
+          "es": "Me gusta nadar.",
+          "partes": [{"t": "I", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "swimming", "rol": "complemento"}],
+          "nota": "swim termina en vocal + consonante (i + m) y tiene una sílaba: se duplica la m → swimming."
+        },
+        {
+          "en": "Lucía loves dancing salsa.",
+          "es": "A Lucía le encanta bailar salsa.",
+          "partes": [{"t": "Lucía", "rol": "sujeto"}, {"t": "loves", "rol": "verbo"}, {"t": "dancing salsa", "rol": "complemento"}],
+          "nota": "dance termina en e muda: se quita la e → dancing. loves con -s porque el sujeto es Lucía."
+        },
+        {
+          "en": "I hate getting up early.",
+          "es": "Odio levantarme temprano.",
+          "partes": [{"t": "I", "rol": "sujeto"}, {"t": "hate", "rol": "verbo"}, {"t": "getting up early", "rol": "complemento"}],
+          "nota": "En los verbos de dos piezas (get up) solo lleva -ing el verbo: getting up. get duplica la t."
+        },
+        {
+          "en": "My grandpa enjoys reading the newspaper.",
+          "es": "Mi abuelo disfruta leer el periódico.",
+          "partes": [{"t": "My grandpa", "rol": "sujeto"}, {"t": "enjoys", "rol": "verbo"}, {"t": "reading the newspaper", "rol": "complemento"}],
+          "nota": "Con enjoy, solo -ing: nunca enjoy to read. Y enjoys con -s: la y va tras vocal, así que solo se añade -s."
+        },
+        {
+          "en": "Sam likes to run in the park.",
+          "es": "A Sam le gusta correr en el parque.",
+          "partes": [{"t": "Sam", "rol": "sujeto"}, {"t": "likes", "rol": "verbo"}, {"t": "to run", "rol": "complemento"}, {"t": "in the park", "rol": "complemento"}],
+          "nota": "like + to + verbo base también es correcto y muy común en EE. UU. Sam likes running in the park dice lo mismo."
+        },
+        {
+          "en": "We go shopping on Saturdays.",
+          "es": "Vamos de compras los sábados.",
+          "partes": [{"t": "We", "rol": "sujeto"}, {"t": "go shopping", "rol": "verbo"}, {"t": "on Saturdays", "rol": "tiempo"}],
+          "nota": "go shopping es una expresión fija: go + actividad en -ing. shop duplica la p."
+        }
+      ],
+      "comparacion": {
+        "a": {"titulo": "like / love / hate", "items": ["I like swimming. ✓", "I like to swim. ✓", "She hates cooking. ✓", "She hates to cook. ✓"]},
+        "b": {"titulo": "enjoy", "items": ["I enjoy swimming. ✓", "I enjoy to swim. ✗", "She enjoys cooking. ✓", "She enjoys to cook. ✗"]},
+        "veredicto": "Con like, love y hate tienes dos opciones correctas y casi sinónimas (-ing o to + verbo). Con enjoy solo hay una: -ing. Si dudas, -ing funciona con los cuatro."
+      },
+      "pronunciacion": [
+        {"texto": "swimming", "ipa": "/ˈswɪmɪŋ/", "consejo": "La terminación -ing es /ɪŋ/: una i corta y relajada + el sonido nasal /ŋ/, el mismo de la n en «tengo» o «banco» (la parte de atrás de la lengua toca el paladar). No se pronuncia una g al final: ni «swiminG» ni «swimin».", "lento": true},
+        {"texto": "dancing", "ipa": "/ˈdænsɪŋ/", "consejo": "La a de dance es /æ/: abre la boca como para decir a, pero estira los labios hacia los lados como para decir e. En británico suele ser /ˈdɑːnsɪŋ/, con a larga."}
+      ],
+      "errores": [
+        {"mal": "I enjoy to cook.", "bien": "I enjoy cooking.", "porque": "enjoy solo admite -ing después."},
+        {"mal": "I like swim.", "bien": "I like swimming. / I like to swim.", "porque": "Después de like no va el verbo en forma base: va con -ing o con to."},
+        {"mal": "She loves danceing.", "bien": "She loves dancing.", "porque": "Los verbos que terminan en e muda la pierden antes de -ing."},
+        {"mal": "We like runing.", "bien": "We like running.", "porque": "run es de una sílaba y termina en vocal + consonante: se duplica la n."}
+      ]
+    },
+    {
+      "id": "preguntar-por-gustos",
+      "titulo": "Do you like…? Yes, I do",
+      "que_es": "Para preguntar por gustos se usa la pregunta normal de presente simple: **Do / Does + sujeto + like…?** Se contesta con respuestas cortas ([[Yes, I do.]] / [[No, I don't.]]) y, si quieres, se añade un comentario.",
+      "para_que": [
+        "Conocer a alguien: [[Do you like animals?]]",
+        "Ofrecer algo con naturalidad: [[Do you like tea? I have some.]]",
+        "Mantener la conversación con preguntas abiertas: [[What kind of music do you like?]]"
+      ],
+      "como_funciona": "**Pregunta sí/no:** Do / Does + sujeto + like / love / hate / enjoy + complemento? → [[Does your son like soccer?]] (la -s pasa a does; like sin -s).\n\n**Respuesta corta:** se repite el auxiliar, no el verbo like. [[Yes, he does.]] / [[No, he doesn't.]] Decir solo «Yes, he likes» es un error, porque like necesita complemento. Si quieres usar like, completa: [[Yes, he likes it a lot.]] También son naturales [[Yes, I love it!]] o [[Not really.]] (la verdad, no; una negativa suave).\n\n**Preguntas abiertas:** [[What do you like doing on weekends?]] (¿Qué te gusta hacer los fines de semana?), [[What kind of music does she like?]] (¿Qué tipo de música le gusta?). Como en cualquier pregunta wh en presente simple: palabra interrogativa + do / does + sujeto + verbo.\n\n**Doble cortesía:** después de responder, devuelve la pregunta con [[What about you?]] o [[How about you?]] (¿Y tú?).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta sí/no",
+          "formula": [{"t": "Do / Does", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "like / love / enjoy", "rol": "verbo"}, {"t": "complemento?", "rol": "complemento"}],
+          "ejemplo": [{"t": "Does", "rol": "auxiliar"}, {"t": "your son", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "soccer", "rol": "complemento"}],
+          "es": "¿A tu hijo le gusta el futbol?"
+        },
+        {
+          "etiqueta": "Respuesta corta",
+          "formula": [{"t": "Yes / No,", "rol": "otro"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "do / does / don't / doesn't", "rol": "auxiliar"}],
+          "ejemplo": [{"t": "Yes,", "rol": "otro"}, {"t": "he", "rol": "sujeto"}, {"t": "does", "rol": "auxiliar"}],
+          "es": "Sí (le gusta)."
+        },
+        {
+          "etiqueta": "Pregunta abierta",
+          "formula": [{"t": "What (kind of…)", "rol": "interrogativo"}, {"t": "do / does", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "(doing)?", "rol": "complemento"}],
+          "ejemplo": [{"t": "What", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "doing", "rol": "complemento"}],
+          "es": "¿Qué te gusta hacer?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Do you like horror movies?",
+          "es": "¿Te gustan las películas de terror?",
+          "partes": [{"t": "Do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}, {"t": "horror movies", "rol": "complemento"}],
+          "nota": "Sin the: preguntas por las películas de terror en general."
+        },
+        {
+          "en": "Does Priya enjoy cooking?",
+          "es": "¿A Priya le gusta cocinar?",
+          "partes": [{"t": "Does", "rol": "auxiliar"}, {"t": "Priya", "rol": "sujeto"}, {"t": "enjoy", "rol": "verbo"}, {"t": "cooking", "rol": "complemento"}],
+          "nota": "Does lleva la -s; enjoy queda en forma base y cooking mantiene su -ing."
+        },
+        {
+          "en": "Yes, she does. She loves it.",
+          "es": "Sí. Le encanta.",
+          "nota": "Respuesta corta con does + un comentario con it, que sustituye a cooking."
+        },
+        {
+          "en": "What kind of music do your kids like?",
+          "es": "¿Qué tipo de música les gusta a tus hijos?",
+          "partes": [{"t": "What kind of music", "rol": "interrogativo"}, {"t": "do", "rol": "auxiliar"}, {"t": "your kids", "rol": "sujeto"}, {"t": "like", "rol": "verbo"}],
+          "nota": "Sujeto plural → do. La pregunta termina en like: lo que gusta es el propio what kind of music."
+        }
+      ],
+      "pronunciacion": [
+        {"texto": "Do you like it?", "ipa": "/də jə ˈlaɪk ɪt/", "consejo": "Solo like lleva acento fuerte. Do you se reduce a /də jə/. La k de like se une a it: «laikit», y la t final casi no se suelta en inglés estadounidense.", "lento": true},
+        {"texto": "Yes, I do. / No, I don't.", "ipa": "/jes aɪ ˈduː/ · /noʊ aɪ ˈdoʊnt/", "consejo": "En la respuesta corta, do y don't SÍ llevan acento, porque son la respuesta. don't tiene el diptongo /oʊ/: empieza en o y cierra los labios hacia u."}
+      ],
+      "errores": [
+        {"mal": "Does she likes pizza?", "bien": "Does she like pizza?", "porque": "does ya se lleva la -s; like va en forma base."},
+        {"mal": "Do you like? — Yes, I like.", "bien": "Do you like it? — Yes, I do.", "porque": "like siempre necesita complemento; la respuesta corta repite do, no like."},
+        {"mal": "You like tacos?", "bien": "Do you like tacos?", "porque": "En la pregunta estándar de presente simple hace falta do. Sin do solo se oye en habla muy informal, con entonación de sorpresa."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con su traducción.",
+      "pares": [
+        {"a": "I love cats.", "b": "Me encantan los gatos."},
+        {"a": "I like cats.", "b": "Me gustan los gatos."},
+        {"a": "I don't like cats.", "b": "No me gustan los gatos."},
+        {"a": "I hate cats.", "b": "Odio los gatos."},
+        {"a": "I enjoy walking.", "b": "Disfruto caminar."}
+      ],
+      "pistas": [
+        "Recuerda la escala de gustos, de más a menos.",
+        "Fíjate en el verbo de cada oración: love, like, don't like, hate, enjoy.",
+        "love = encantar; like = gustar; don't like = no gustar; hate = odiar; enjoy = disfrutar."
+      ],
+      "solucion": {
+        "respuesta": "love = me encantan; like = me gustan; don't like = no me gustan; hate = odio; enjoy = disfruto",
+        "explicacion": "love es el grado más alto (encantar), like es gustar, don't like es su negación, hate es odiar y enjoy es disfrutar una actividad. En todas, el sujeto es I: la persona que siente el gusto."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«A mi hermano le gustan los perros.»",
+      "opciones": [
+        {"texto": "My brother likes dogs.", "correcta": true, "porque": "Correcta: el sujeto es my brother (con -s en likes) y dogs va sin the porque es un gusto general."},
+        {"texto": "Dogs like my brother.", "correcta": false, "porque": "Significa «a los perros les cae bien mi hermano». En inglés quien siente el gusto es el sujeto."},
+        {"texto": "My brother like dogs.", "correcta": false, "porque": "Falta la -s: my brother es tercera persona del singular."},
+        {"texto": "My brother likes the dogs.", "correcta": false, "porque": "Con the hablarías de unos perros concretos, no de los perros en general."}
+      ],
+      "pistas": [
+        "En inglés, ¿quién es el sujeto en una oración de gustos?",
+        "Revisa la -s del verbo y si hay artículo.",
+        "Persona + likes (he) + plural general sin the."
+      ],
+      "solucion": {
+        "respuesta": "My brother likes dogs.",
+        "explicacion": "La respuesta es My brother likes dogs: la persona que siente el gusto es el sujeto, el verbo lleva -s porque my brother es tercera persona del singular, y dogs no lleva the porque se habla de los perros en general."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe la forma -ing de los verbos entre paréntesis.",
+      "frase": "I love ___ (swim), and my dad enjoys ___ (cook). My mom hates ___ (drive).",
+      "traduccion": "Me encanta nadar, y mi papá disfruta cocinar. Mi mamá odia manejar.",
+      "respuestas": [["swimming"], ["cooking"], ["driving"]],
+      "errores_tipicos": {
+        "swiming | cooking | driving": "swim tiene una sílaba y termina en vocal + consonante: se duplica la m (swimming).",
+        "swimming | cooking | driveing": "drive termina en e muda: se quita antes de -ing (driving)."
+      },
+      "pistas": [
+        "Los tres verbos siguen reglas de ortografía distintas.",
+        "Mira cómo termina cada uno: swim, cook, drive.",
+        "Vocal + consonante en una sílaba → duplica; e muda → quítala; en otro caso, solo + -ing."
+      ],
+      "solucion": {
+        "respuesta": "swimming … cooking … driving",
+        "explicacion": "swim duplica la m (una sílaba, vocal + consonante): swimming. cook solo añade -ing: cooking (termina en dos vocales + consonante, así que no se duplica). drive pierde la e muda: driving."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.04",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta del verbo entre paréntesis.",
+      "frase": "Grace ___ (love) old movies, but her husband ___ (hate) them.",
+      "traduccion": "A Grace le encantan las películas viejas, pero su esposo las odia.",
+      "respuestas": [["loves"], ["hates"]],
+      "errores_tipicos": {
+        "love | hate": "Grace y her husband son tercera persona del singular: loves, hates.",
+        "loves | hate": "her husband también es tercera persona del singular: hates."
+      },
+      "pistas": [
+        "like, love y hate son verbos normales de presente simple.",
+        "Mira los dos sujetos: Grace y her husband.",
+        "Con he / she (cualquier sujeto singular) el verbo lleva -s."
+      ],
+      "solucion": {
+        "respuesta": "loves … hates",
+        "explicacion": "Las respuestas son loves y hates porque los dos sujetos, Grace y her husband, son tercera persona del singular. Them sustituye a old movies."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "Priya enjoys ___ novels in bed.",
+      "opciones": [
+        {"texto": "reading", "correcta": true, "porque": "Correcta: después de enjoy el verbo va siempre en -ing."},
+        {"texto": "to read", "correcta": false, "porque": "Con like, love o hate valdría, pero enjoy no admite to + verbo."},
+        {"texto": "read", "correcta": false, "porque": "Después de un verbo de gusto no va la forma base sola."},
+        {"texto": "reads", "correcta": false, "porque": "Solo el primer verbo (enjoys) concuerda con el sujeto; el segundo no lleva -s."}
+      ],
+      "pistas": [
+        "El verbo que decide la forma es enjoy.",
+        "¿Qué formas admite enjoy después? ¿Es igual que like?",
+        "enjoy + verbo-ing, sin alternativa con to."
+      ],
+      "solucion": {
+        "respuesta": "reading",
+        "explicacion": "La respuesta es reading porque enjoy solo admite el verbo en -ing. A diferencia de like, love y hate, que aceptan también to + verbo, enjoy to read es incorrecto."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.06",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la pregunta.",
+      "fichas": ["like", "your", "does", "soccer", "brother"],
+      "respuestas": ["does your brother like soccer"],
+      "traduccion": "¿A tu hermano le gusta el futbol?",
+      "pistas": [
+        "Es una pregunta de sí o no en presente simple.",
+        "¿Con qué auxiliar empieza? Mira el sujeto.",
+        "Auxiliar + sujeto + verbo sin -s + complemento?"
+      ],
+      "solucion": {
+        "respuesta": "Does your brother like soccer?",
+        "explicacion": "La pregunta es Does your brother like soccer?: auxiliar (Does, porque your brother es tercera persona), sujeto, verbo en forma base y complemento sin the (gusto general)."
+      },
+      "audio": true
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.07",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Estás en casa de una amiga y ella te ofrece algo de tomar.",
+      "lineas": [
+        {"quien": "Aisha", "en": "Do you like green tea?", "es": "¿Te gusta el té verde?"}
+      ],
+      "opciones": [
+        {"texto": "Yes, I do. I love it.", "correcta": true, "porque": "Correcta: respuesta corta con do y un comentario con it, que sustituye a green tea."},
+        {"texto": "Yes, I like.", "correcta": false, "porque": "like necesita complemento: I like it. La respuesta corta es Yes, I do."},
+        {"texto": "Yes, I am.", "correcta": false, "porque": "La pregunta usa do, no be: la respuesta corta es Yes, I do."},
+        {"texto": "Yes, it likes me.", "correcta": false, "porque": "Calco del español: la persona que siente el gusto es el sujeto (I like it)."}
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "¿La pregunta empieza con do o con be?",
+        "Do you…? → Yes, I do. Si usas like, añade it."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I do. I love it.",
+        "explicacion": "La pregunta es Do you like…?, así que la respuesta corta es Yes, I do. Después, I love it añade entusiasmo; it sustituye a green tea, porque love, igual que like, necesita complemento."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "Omar enjoys to play chess with his son.",
+      "error": "to play",
+      "correcciones": ["playing"],
+      "frase_correcta": "Omar enjoys playing chess with his son.",
+      "pistas": [
+        "El error está en el verbo que va después de enjoy.",
+        "Recuerda qué formas admite enjoy.",
+        "enjoy solo admite -ing: enjoy + verbo-ing."
+      ],
+      "solucion": {
+        "respuesta": "Omar enjoys playing chess with his son.",
+        "explicacion": "El error es to play. Con like, love o hate se aceptaría to + verbo, pero enjoy solo admite -ing: enjoys playing."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "Mei doesn't likes horror movies.",
+      "error": "likes",
+      "correcciones": ["like"],
+      "frase_correcta": "Mei doesn't like horror movies.",
+      "pistas": [
+        "Recuerda qué pasa con la -s cuando aparece doesn't.",
+        "Mira el verbo que va después de doesn't.",
+        "doesn't se lleva la -s: el verbo principal va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "Mei doesn't like horror movies.",
+        "explicacion": "El error es likes. doesn't ya lleva la marca de tercera persona (does + not), así que like va en forma base, sin -s."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.10",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "Tom likes spicy food.",
+      "instruccion": "Pregunta",
+      "respuestas": ["Does Tom like spicy food"],
+      "errores_tipicos": {
+        "Does Tom likes spicy food": "does ya se lleva la -s: like va en forma base.",
+        "Do Tom like spicy food": "Tom es tercera persona del singular: el auxiliar es does.",
+        "Tom likes spicy food": "Falta el auxiliar Does al principio para que sea una pregunta."
+      },
+      "pistas": [
+        "Las preguntas de presente simple necesitan auxiliar.",
+        "El sujeto es Tom (he): elige do o does.",
+        "Auxiliar de tercera persona + sujeto + verbo sin -s + complemento?"
+      ],
+      "solucion": {
+        "respuesta": "Does Tom like spicy food?",
+        "explicacion": "La pregunta es Does Tom like spicy food? El auxiliar es does porque Tom es tercera persona del singular, y la -s de likes pasa a does: like queda en forma base."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.11",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa mom y el verbo love.",
+      "es": "A mi mamá le encanta cocinar.",
+      "respuestas": ["My mom loves cooking", "My mom loves to cook"],
+      "errores_tipicos": {
+        "My mom love cooking": "My mom es tercera persona del singular: loves.",
+        "My mom loves cook": "Después de love, el verbo va en -ing (cooking) o con to (to cook).",
+        "To my mom loves cooking": "No se traduce «a mi mamá le…»: en inglés la persona es el sujeto (My mom loves…).",
+        "Cooking loves my mom": "Calco del español: quien siente el gusto es el sujeto."
+      },
+      "pistas": [
+        "¿Quién es el sujeto en inglés: la mamá o cocinar?",
+        "Revisa la -s de love y la forma de cook.",
+        "Persona + loves + verbo-ing (o to + verbo)."
+      ],
+      "solucion": {
+        "respuesta": "My mom loves cooking.",
+        "explicacion": "La traducción es My mom loves cooking (o My mom loves to cook, también correcta). El sujeto es my mom, por eso loves lleva -s; y la actividad va con -ing (o con to)."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.12",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "She hates getting up early, but she loves her job.",
+      "pistas": [
+        "Hay dos verbos de gusto con el mismo sujeto.",
+        "Después del primer verbo hay una actividad en -ing con dos piezas.",
+        "hates + getting up early; loves + her job. Ojo: getting con doble t."
+      ],
+      "solucion": {
+        "respuesta": "She hates getting up early, but she loves her job.",
+        "explicacion": "La oración es She hates getting up early, but she loves her job. Los dos verbos llevan -s por she. Getting duplica la t (get: una sílaba, vocal + consonante) y solo el verbo de get up toma -ing."
+      }
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "I like swimming and dancing.",
+      "ipa": "/aɪ ˈlaɪk ˈswɪmɪŋ ən ˈdænsɪŋ/",
+      "consejo": "Termina las dos palabras en /ɪŋ/: la parte de atrás de la lengua sube al paladar como en la n de «tengo», y NO sueltes una g al final. and se reduce a /ən/. En dancing, la a es /æ/: boca abierta y labios estirados.",
+      "es": "Me gusta nadar y bailar."
+    },
+    {
+      "id": "frecuencia-y-tiempo-libre.gustos.14",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre tu tiempo libre.",
+      "objetivo": "Describir tu tiempo libre combinando gustos y frecuencia.",
+      "instrucciones": "Escribe un párrafo de al menos 40 palabras para tu perfil en una aplicación de intercambio de idiomas. Di qué te gusta y qué no te gusta hacer, con qué frecuencia lo haces y algo que no haces nunca. Usa al menos un verbo en -ing después de like, love, hate o enjoy.",
+      "vocabulario_apoyo": ["go swimming", "go running", "watch movies", "read", "cook", "play video games", "go shopping", "listen to music", "on weekends", "twice a week"],
+      "estructuras": ["I love / like / enjoy + verbo-ing…", "I don't like … very much.", "I usually / often / never + verbo…", "… once / twice / three times a week.", "… every Saturday / every day."],
+      "ejemplo": "Mi hermano Sam (tema parecido, no tu respuesta): My brother Sam loves music. He plays the guitar every day and he often sings with his friends. He doesn't like sports very much.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {"descripcion": "Usas like, love, hate o enjoy", "patron": "\\b(like|likes|love|loves|hate|hates|enjoy|enjoys)\\b"},
+        {"descripcion": "Usas un verbo en -ing después de un verbo de gusto", "patron": "\\b(like|likes|love|loves|hate|hates|enjoy|enjoys)\\s+[a-z]+ing\\b"},
+        {"descripcion": "Usas un adverbio de frecuencia", "patron": "\\b(always|usually|often|sometimes|rarely|never)\\b"},
+        {"descripcion": "Usas una expresión de frecuencia (once, twice, times, every)", "patron": "\\b(once|twice|times|every)\\b"}
+      ],
+      "criterios": [
+        "¿La persona que siente el gusto es el sujeto (I like…, no «… likes me»)?",
+        "¿Después de enjoy usaste -ing? ¿Escribiste bien la -ing (swimming, dancing)?",
+        "¿Los adverbios de una palabra van antes del verbo (o después de be) y las expresiones como twice a week van al final?",
+        "¿Usaste never sin don't?",
+        "¿Los gustos generales van sin the (I like dogs)?"
+      ],
+      "modelo": "In my free time I love cooking. I usually cook for my family on Sundays, and I try a new recipe twice a month. I also enjoy running. I go running three times a week, early in the morning. I don't like watching TV very much, and I never play video games.",
+      "explicacion": "El modelo combina las tres lecciones. Gustos: I love cooking, I enjoy running, I don't like watching TV very much (con -ing y very much al final). Adverbios de frecuencia en su sitio: I usually cook, I never play (never sin don't). Expresiones de frecuencia al final: twice a month, three times a week, on Sundays. Early in the morning precisa el momento del día.",
+      "errores_comunes": [
+        "Escribir «I enjoy to run» en lugar de I enjoy running.",
+        "Poner el adverbio después del verbo: «I cook usually».",
+        "Doble negación: «I don't never play».",
+        "Escribir «swiming» o «danceing»."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué tenemos en común?",
+    "contexto": "En una clase de inglés, la profesora te pone en pareja con Ben. Tienen que descubrir tres cosas que les gustan a los dos.",
+    "dialogo": [
+      {"quien": "Ben", "en": "What do you like doing on weekends?", "es": "¿Qué te gusta hacer los fines de semana?"},
+      {"quien": "Tú", "en": "…", "es": "…"},
+      {"quien": "Ben", "en": "Cool! Do you like sports?", "es": "¡Qué padre! ¿Te gustan los deportes?"},
+      {"quien": "Tú", "en": "…", "es": "…"},
+      {"quien": "Ben", "en": "I love soccer. I play every Saturday. What about you?", "es": "Me encanta el futbol. Juego cada sábado. ¿Y tú?"}
+    ],
+    "tu_turno": "Responde a Ben: di qué te gusta hacer los fines de semana (con -ing), contesta con una respuesta corta si te gustan los deportes y cuéntale con qué frecuencia haces alguna actividad. Termina devolviéndole una pregunta.",
+    "modelo": "I love going to the movies, and I enjoy cooking for my friends. Yes, I do! I really like basketball. I play twice a week. Do you like basketball too?",
+    "alternativas": [
+      "I like reading and going for walks. Not really, I don't like sports very much. But I sometimes go swimming. What kind of music do you like?",
+      "I enjoy sleeping late! Yes, I do. I go running every Sunday morning. How about you, do you like running?"
+    ],
+    "claves": [
+      "like / love / enjoy + verbo-ing.",
+      "Respuesta corta: Yes, I do. / No, I don't. (o Not really.)",
+      "Frecuencia: twice a week, every Sunday, sometimes…",
+      "Devuelve la pregunta: What about you? / Do you like…?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "La persona es el sujeto: I like coffee (me gusta el café); my sister likes cats.",
+      "like / love / hate / enjoy + sustantivo o + verbo-ing: I love dancing.",
+      "like / love / hate + to + verbo también es correcto (I like to swim); enjoy solo con -ing.",
+      "Ortografía de -ing: dance → dancing; swim → swimming; play → playing.",
+      "Do you like…? — Yes, I do. / No, I don't."
+    ],
+    "recuerda": [
+      "Gustos generales sin the: I like dogs.",
+      "like necesita complemento: Yes, I like it (no «Yes, I like»).",
+      "very much va al final: I don't like horror movies very much.",
+      "doesn't + like (sin -s): She doesn't like…"
+    ]
+  },
+  "repaso": [
+    {"id": "frecuencia-y-tiempo-libre.gustos.r1", "frente": "Traduce: Me gustan los perros.", "reverso": "I like dogs.", "nota": "La persona es el sujeto; sin the para gustos generales."},
+    {"id": "frecuencia-y-tiempo-libre.gustos.r2", "frente": "¿Qué formas pueden ir después de enjoy?", "reverso": "Solo verbo-ing → I enjoy cooking.", "nota": "like / love / hate admiten también to + verbo."},
+    {"id": "frecuencia-y-tiempo-libre.gustos.r3", "frente": "Forma -ing de swim, dance, play", "reverso": "swimming, dancing, playing"},
+    {"id": "frecuencia-y-tiempo-libre.gustos.r4", "frente": "Do you like jazz? → respuesta corta afirmativa", "reverso": "Yes, I do.", "nota": "No «Yes, I like»."},
+    {"id": "frecuencia-y-tiempo-libre.gustos.r5", "frente": "Corrige: Does she likes pizza?", "reverso": "Does she like pizza?"}
+  ]
+}

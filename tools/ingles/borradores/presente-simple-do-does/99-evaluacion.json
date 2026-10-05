@@ -1,0 +1,354 @@
+{
+  "titulo": "Evaluación: do y does para negar y preguntar",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "presente-simple-do-does.eval.01",
+      "leccion": "negacion-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la opción correcta.",
+      "pregunta": "The kids ___ go to school on Saturdays.",
+      "opciones": [
+        { "texto": "don't", "correcta": true, "porque": "Correcto: the kids es plural (they) y go no es be, así que la negación es don't + go." },
+        { "texto": "doesn't", "correcta": false, "porque": "Doesn't es para sujetos singulares. The kids son varios niños." },
+        { "texto": "aren't", "correcta": false, "porque": "Aren't es la negación de be; go es otro verbo y necesita don't." },
+        { "texto": "no", "correcta": false, "porque": "No no puede ir solo delante de un verbo en inglés: falta el auxiliar." }
+      ],
+      "pistas": [
+        "Go no es be: necesita auxiliar para negar.",
+        "The kids: ¿singular o plural?",
+        "Sujeto plural + don't + verbo base."
+      ],
+      "solucion": { "respuesta": "don't", "explicacion": "La respuesta correcta es don't porque the kids equivale a they (plural) y go es un verbo distinto de be: The kids don't go to school on Saturdays." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.02",
+      "leccion": "negacion-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la negación. En la afirmación el verbo sería has.",
+      "frase": "Mr. Lee ___ ___ breakfast at home. He eats at the office.",
+      "respuestas": [["doesn't", "does not"], ["have"]],
+      "traduccion": "El señor Lee no desayuna en casa. Come en la oficina.",
+      "pistas": [
+        "Necesitas un auxiliar negativo y el verbo principal.",
+        "Mr. Lee es he. ¿Qué forma tiene have después del auxiliar?",
+        "Sujeto singular + auxiliar negativo de tercera persona + verbo en forma base: has vuelve a su forma base."
+      ],
+      "solucion": { "respuesta": "doesn't … have", "explicacion": "Mr. Lee es he, así que la negación usa doesn't. La marca de tercera persona pasa al auxiliar y has vuelve a su forma base, have: He doesn't have breakfast at home." },
+      "errores_tipicos": {
+        "doesn't | has": "Después de doesn't el verbo va en forma base: have, no has.",
+        "don't | have": "Mr. Lee es singular (he): doesn't."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.eval.03",
+      "leccion": "negacion-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa. Usa la forma contraída.",
+      "origen": "My cousin plays the guitar.",
+      "instruccion": "Negativa",
+      "respuestas": ["My cousin doesn't play the guitar.", "My cousin doesn't play guitar."],
+      "pistas": [
+        "Play no es be: usa un auxiliar negativo.",
+        "My cousin es singular. Mira la -s de plays.",
+        "Sujeto singular + doesn't + play."
+      ],
+      "solucion": { "respuesta": "My cousin doesn't play the guitar.", "explicacion": "My cousin equivale a he o she, así que se usa doesn't. La -s de plays pasa al auxiliar y el verbo queda en forma base: play." },
+      "errores_tipicos": {
+        "My cousin doesn't plays the guitar.": "La -s ya está en doesn't: play.",
+        "My cousin don't play the guitar.": "My cousin es singular: doesn't."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.eval.04",
+      "leccion": "negacion-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I no speak French.",
+      "error": "no",
+      "correcciones": ["don't", "do not"],
+      "frase_correcta": "I don't speak French.",
+      "pistas": [
+        "En español dirías «Yo no hablo francés». ¿Funciona igual en inglés?",
+        "Mira la palabra que va justo antes del verbo speak.",
+        "Para negar un verbo que no es be se necesita el auxiliar: I + don't + verbo base."
+      ],
+      "solucion": { "respuesta": "I don't speak French.", "explicacion": "El error es no: es un calco del español. En inglés, para negar un verbo como speak necesitas el auxiliar do + not: I don't speak French." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.05",
+      "leccion": "negacion-presente-simple",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "Our teacher doesn't give homework on Fridays.",
+      "respuestas": ["Our teacher does not give homework on Fridays."],
+      "pistas": [
+        "Es una negación en tercera persona del singular.",
+        "Después de doesn't escucharás un verbo sin -s y un sustantivo sin artículo.",
+        "Our teacher + doesn't + give + homework + on + día."
+      ],
+      "solucion": { "respuesta": "Our teacher doesn't give homework on Fridays.", "explicacion": "Our teacher es singular, por eso doesn't, y give va en forma base. Homework no lleva artículo ni plural: es incontable." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.eval.06",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "Quieres saber si el perro de tu amiga duerme dentro de la casa.",
+      "opciones": [
+        { "texto": "Does your dog sleep inside?", "correcta": true, "porque": "Correcto: your dog = it → Does, y sleep en forma base." },
+        { "texto": "Does your dog sleeps inside?", "correcta": false, "porque": "La -s ya está en Does; sleeps marca la tercera persona dos veces." },
+        { "texto": "Do your dog sleep inside?", "correcta": false, "porque": "Your dog es singular: Does, no Do." },
+        { "texto": "Is your dog sleep inside?", "correcta": false, "porque": "Sleep no es be: la pregunta necesita Does." }
+      ],
+      "pistas": [
+        "El verbo es sleep, que no es be.",
+        "Your dog es singular (it).",
+        "Does + sujeto singular + verbo base."
+      ],
+      "solucion": { "respuesta": "Does your dog sleep inside?", "explicacion": "Con un sujeto singular (your dog = it) y un verbo que no es be, la pregunta empieza con Does y el verbo va en forma base: sleep." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.07",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta y la respuesta corta.",
+      "frase": "___ you and your wife ___ in the same office? — Yes, we ___.",
+      "respuestas": [["Do"], ["work"], ["do"]],
+      "traduccion": "¿Tú y tu esposa trabajan en la misma oficina? — Sí.",
+      "pistas": [
+        "El sujeto tiene dos personas unidas con and.",
+        "You and your wife = we / you (plural). En la respuesta se copia el auxiliar.",
+        "Do + sujeto plural + verbo base…? — Yes, we do."
+      ],
+      "solucion": { "respuesta": "Do … work … do", "explicacion": "You and your wife es plural, así que la pregunta empieza con Do y work va en forma base. En la respuesta corta, el sujeto pasa a we y se copia el auxiliar: Yes, we do." },
+      "errores_tipicos": {
+        "Does | work | do": "El sujeto son dos personas (plural): Do.",
+        "Do | work | are": "La pregunta es con do; la respuesta corta copia do, no be.",
+        "Do | work | work": "La respuesta corta no repite el verbo principal: Yes, we do."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.eval.08",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "The museum opens on Mondays.",
+      "instruccion": "Pregunta",
+      "respuestas": ["Does the museum open on Mondays?"],
+      "pistas": [
+        "Open no es be: pon un auxiliar al principio.",
+        "The museum es singular (it).",
+        "Auxiliar + sujeto + verbo sin -s + resto?"
+      ],
+      "solucion": { "respuesta": "Does the museum open on Mondays?", "explicacion": "The museum equivale a it, así que la pregunta empieza con Does y opens vuelve a open, porque la -s pasa al auxiliar." },
+      "errores_tipicos": {
+        "Does the museum opens on Mondays?": "La -s ya está en Does: open.",
+        "Opens the museum on Mondays?": "El verbo principal no se adelanta: Does the museum open…?",
+        "Do the museum open on Mondays?": "The museum es singular (it): Does."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.eval.09",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Does Aisha has a bike?",
+      "error": "has",
+      "correcciones": ["have"],
+      "frase_correcta": "Does Aisha have a bike?",
+      "pistas": [
+        "El auxiliar y el sujeto están bien.",
+        "¿Dónde está ya la marca de tercera persona?",
+        "Después de Does + sujeto, has vuelve a su forma base."
+      ],
+      "solucion": { "respuesta": "Does Aisha have a bike?", "explicacion": "El error es has: la tercera persona ya está marcada en Does, así que el verbo va en forma base, have." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.10",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Lee el diálogo y elige la oración que es verdadera.",
+      "contexto": "Ben y Lucía hablan de sus compañeros de departamento.",
+      "lineas": [
+        { "quien": "Ben", "en": "Does your roommate cook?", "es": "¿Tu compañera de cuarto cocina?" },
+        { "quien": "Lucía", "en": "No, she doesn't. But she washes the dishes every day.", "es": "No. Pero lava los platos todos los días." },
+        { "quien": "Ben", "en": "Does she work?", "es": "¿Trabaja?" },
+        { "quien": "Lucía", "en": "Yes, she does. She's a nurse.", "es": "Sí. Es enfermera." }
+      ],
+      "opciones": [
+        { "texto": "Lucía's roommate works, but she doesn't cook.", "correcta": true, "porque": "Correcto: No, she doesn't responde a Does your roommate cook? y Yes, she does a Does she work?" },
+        { "texto": "Lucía's roommate cooks every day.", "correcta": false, "porque": "Lucía dice No, she doesn't cuando Ben pregunta si cocina. Lo que hace todos los días es lavar los platos." },
+        { "texto": "Lucía's roommate doesn't work.", "correcta": false, "porque": "A Does she work? Lucía responde Yes, she does: sí trabaja, es enfermera." },
+        { "texto": "Lucía's roommate is a cook.", "correcta": false, "porque": "Es enfermera (She's a nurse); además, no cocina." }
+      ],
+      "pistas": [
+        "Relaciona cada respuesta corta con su pregunta.",
+        "No, she doesn't contesta a cook; Yes, she does contesta a work.",
+        "Una respuesta corta repite el auxiliar de la pregunta y sustituye al verbo que se preguntó."
+      ],
+      "solucion": { "respuesta": "Lucía's roommate works, but she doesn't cook.", "explicacion": "La respuesta corta No, she doesn't equivale a She doesn't cook, y Yes, she does equivale a She works. Por eso la única oración verdadera es la primera." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.11",
+      "leccion": "preguntas-presente-simple",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la pregunta y la respuesta, y escríbelas.",
+      "texto": "Do your parents speak English? Yes, they do.",
+      "pistas": [
+        "Primero hay una pregunta con sujeto plural; luego una respuesta corta.",
+        "La pregunta empieza con el auxiliar de plural; en la respuesta aparece un pronombre.",
+        "Auxiliar + sujeto plural + verbo base…? — Yes, + pronombre + el mismo auxiliar."
+      ],
+      "solucion": { "respuesta": "Do your parents speak English? Yes, they do.", "explicacion": "Your parents es plural: Do en la pregunta y they do en la respuesta corta, sin repetir speak." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.eval.12",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada comienzo de pregunta con su significado.",
+      "pares": [
+        { "a": "What time do you…?", "b": "¿A qué hora…?" },
+        { "a": "Where do you…?", "b": "¿Dónde…?" },
+        { "a": "Who do you live with?", "b": "¿Con quién vives?" },
+        { "a": "What do you do?", "b": "¿A qué te dedicas?" },
+        { "a": "Why do you…?", "b": "¿Por qué…?" },
+        { "a": "How often do you…?", "b": "¿Con qué frecuencia…?" }
+      ],
+      "pistas": [
+        "Recuerda las palabras interrogativas que ya conoces.",
+        "Fíjate en las combinaciones: what + time, who + with, what + do.",
+        "What do you do? no pregunta qué haces ahora, sino tu profesión."
+      ],
+      "solucion": { "respuesta": "What time → ¿A qué hora?; Where → ¿Dónde?; Who … with → ¿Con quién?; What do you do → ¿A qué te dedicas?; Why → ¿Por qué?; How often → ¿Con qué frecuencia?", "explicacion": "What time pregunta la hora; where, el lugar; who … with, la compañía; what do you do, la profesión; why, la causa; how often, la frecuencia." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.13",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": ["up", "you", "What", "get", "do", "time"],
+      "respuestas": ["What time do you get up"],
+      "traduccion": "¿A qué hora te levantas?",
+      "pistas": [
+        "Empieza con las dos palabras que preguntan por la hora.",
+        "Después van el auxiliar y el sujeto.",
+        "What time + auxiliar + sujeto + verbo de dos piezas."
+      ],
+      "solucion": { "respuesta": "What time do you get up?", "explicacion": "What time va al principio, luego el auxiliar do (sujeto you), el sujeto y el verbo get up, que va junto." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.14",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Where do you from?",
+      "error": "do",
+      "correcciones": ["are"],
+      "frase_correcta": "Where are you from?",
+      "pistas": [
+        "¿Hay algún verbo principal en la pregunta?",
+        "Piensa en la respuesta: I'm from Colombia. ¿Qué verbo usa?",
+        "El origen se pregunta con be (I'm from…): usa la forma de be que corresponde a you."
+      ],
+      "solucion": { "respuesta": "Where are you from?", "explicacion": "El error es do: la pregunta no tiene otro verbo (from es una preposición). El origen se expresa con be (I'm from…), así que la pregunta es Where are you from?" }
+    },
+    {
+      "id": "presente-simple-do-does.eval.15",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Dónde estudia tu hijo?",
+      "respuestas": ["Where does your son study?", "Where does your son go to school?"],
+      "pistas": [
+        "Es una pregunta wh con un verbo que no es be.",
+        "Tu hijo es singular: ¿qué auxiliar va después de Where? ¿Qué pasa con studies?",
+        "Where + auxiliar + sujeto + verbo en forma base?"
+      ],
+      "solucion": { "respuesta": "Where does your son study?", "explicacion": "Where va al principio; your son equivale a he, así que el auxiliar es does, y el verbo vuelve a su forma base: study (no studies). Where does your son go to school? también es natural." },
+      "errores_tipicos": {
+        "Where does your son studies?": "La marca de tercera persona ya está en does: study.",
+        "Where your son studies?": "Falta el auxiliar does.",
+        "Where studies your son?": "El verbo principal no se adelanta: Where does your son study?"
+      }
+    },
+    {
+      "id": "presente-simple-do-does.eval.16",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la pregunta que corresponde a la respuesta.",
+      "contexto": "Estás en la recepción de un hotel.",
+      "lineas": [
+        { "quien": "Tú", "en": "Excuse me. ...", "es": "Disculpe. ..." },
+        { "quien": "Recepcionista", "en": "It closes at ten p.m., but the bar is open until midnight.", "es": "Cierra a las diez de la noche, pero el bar está abierto hasta la medianoche." }
+      ],
+      "opciones": [
+        { "texto": "What time does the restaurant close?", "correcta": true, "porque": "Correcto: la respuesta da una hora de cierre, y la pregunta usa does + close (forma base) porque the restaurant es singular." },
+        { "texto": "What time the restaurant closes?", "correcta": false, "porque": "Falta el auxiliar does: no es una pregunta correcta en inglés." },
+        { "texto": "Where is the restaurant?", "correcta": false, "porque": "Es correcta, pero pregunta por un lugar; la recepcionista contesta con una hora." },
+        { "texto": "What time is the restaurant close?", "correcta": false, "porque": "Mezcla be con el verbo close. Con close como verbo se usa does." }
+      ],
+      "pistas": [
+        "¿Qué información da la recepcionista: un lugar o una hora?",
+        "La respuesta usa el verbo closes. ¿Qué necesita una pregunta wh con ese verbo?",
+        "What time + does + sujeto singular + verbo base."
+      ],
+      "solucion": { "respuesta": "What time does the restaurant close?", "explicacion": "La respuesta (It closes at ten) da una hora con el verbo close. Por eso la pregunta es What time + does + the restaurant + close, con el verbo en forma base." }
+    },
+    {
+      "id": "presente-simple-do-does.eval.17",
+      "leccion": "preguntas-wh-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿A qué se dedica tu papá?",
+      "respuestas": ["What does your father do?", "What does your dad do?", "What is your father's job?", "What is your dad's job?"],
+      "pistas": [
+        "Hay una pregunta fija para preguntar por la profesión, con dos veces el verbo do.",
+        "Tu papá es singular: ¿cuál de los dos do lleva la -s?",
+        "What + auxiliar + sujeto + el verbo do en forma base?"
+      ],
+      "solucion": { "respuesta": "What does your father do?", "explicacion": "El primer does es el auxiliar y lleva la marca de tercera persona porque your father es singular; el segundo do es el verbo principal en forma base. What's your father's job? también es correcto." },
+      "errores_tipicos": {
+        "What does your father does?": "La -s va solo en el auxiliar: What does your father do?",
+        "What do your father do?": "Your father es singular: does.",
+        "What your father does?": "Falta el auxiliar: What does your father do?"
+      }
+    }
+  ]
+}

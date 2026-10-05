@@ -1,0 +1,1165 @@
+{
+  "slug": "have-got",
+  "titulo": "Have got",
+  "minutos": 40,
+  "objetivos": [
+    "Usar have got / has got y sus contracciones 've got / 's got para hablar de posesiones, familia, rasgos y malestares.",
+    "Negar con haven't got / hasn't got y preguntar con Have you got…? / Has she got…?",
+    "Contestar con Yes, I have. / No, she hasn't. sin mezclar have got con do / does.",
+    "Distinguir el 's de she's got (= has) del 's de she's tired (= is), y saber cuándo se prefiere have got."
+  ],
+  "situacion": {
+    "titulo": "Una amiga de Londres",
+    "texto": "Ana, de Guadalajara, habla por videollamada con Grace, una amiga británica. Grace usa mucho have got, que es muy frecuente en el inglés británico hablado. Fíjate en que las preguntas empiezan con Have y en que nunca aparece do.",
+    "dialogo": [
+      {
+        "quien": "Grace",
+        "en": "Have you got a new phone? The picture's really clear.",
+        "es": "¿Tienes celular nuevo? La imagen se ve muy nítida."
+      },
+      {
+        "quien": "Ana",
+        "en": "Yes, I have! And look, I've got a new haircut too.",
+        "es": "¡Sí! Y mira, también tengo un corte de pelo nuevo."
+      },
+      {
+        "quien": "Grace",
+        "en": "It's lovely. My sister's got the same style.",
+        "es": "Está precioso. Mi hermana tiene el mismo estilo."
+      },
+      {
+        "quien": "Ana",
+        "en": "Has she got a new job yet?",
+        "es": "¿Ya tiene trabajo nuevo?"
+      },
+      {
+        "quien": "Grace",
+        "en": "No, she hasn't. She's still looking.",
+        "es": "No. Sigue buscando."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "have-got-afirmacion",
+      "titulo": "Have got / has got: otra forma de decir tener",
+      "que_es": "[[Have got]] significa exactamente lo mismo que [[have]] cuando hablamos de posesión, familia, rasgos físicos y malestares: [[I've got a bike]] = [[I have a bike]]. Got aquí no añade significado; es parte de una forma fija. Se forma con [[have]] o [[has]] (según el sujeto) + [[got]], y casi siempre se contrae: [[I've got]], [[she's got]].",
+      "para_que": [
+        "Hablar de lo que tienes de forma natural en conversación: I've got two tickets for the game.",
+        "Describir personas: She's got long hair and blue eyes.",
+        "Hablar de malestares: I've got a headache.",
+        "Entender el inglés británico hablado, donde have got es muy frecuente."
+      ],
+      "como_funciona": "{{sujeto:Sujeto}} + {{auxiliar:have / has}} + {{verbo:got}} + {{complemento:lo que se tiene}}. Aquí [[have]] y [[has]] funcionan como auxiliares: por eso se pueden contraer ([[I've]], [[you've]], [[we've]], [[they've]], [[he's]], [[she's]], [[it's]]) y, como verás en el siguiente concepto, forman solos la negación y la pregunta. Tres límites importantes: 1) **solo existe en presente**; para otros tiempos se usa have. 2) **Solo para tener** (posesión, familia, rasgos, malestares), nunca para acciones: [[I've got breakfast]] es incorrecto; se dice [[I have breakfast]] (lo verás en la próxima lección). 3) **No va en continuo**: [[I'm having got]] no existe. En cuanto al registro: have got es más **informal y más británico**. En Estados Unidos también se oye [[I've got]] en conversación, pero en preguntas y negaciones se prefiere claramente [[Do you have…?]] y [[I don't have]]. En textos formales, en ambos países, se usa have.",
+      "estructuras": [
+        {
+          "etiqueta": "I, you, we, they",
+          "formula": [
+            {
+              "t": "I / you / we / they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have ('ve)",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a new car",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Tienen un carro nuevo. (Contraído: They've got a new car.)"
+        },
+        {
+          "etiqueta": "He, she, it",
+          "formula": [
+            {
+              "t": "he / she / it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has ('s)",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a sore throat",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Le duele la garganta. (Contraído: She's got a sore throat.)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Formas completas y contraídas",
+          "columnas": [
+            "Sujeto",
+            "Forma completa",
+            "Forma contraída"
+          ],
+          "filas": [
+            [
+              "I",
+              "I have got",
+              "I've got"
+            ],
+            [
+              "you",
+              "you have got",
+              "you've got"
+            ],
+            [
+              "he / she / it",
+              "she has got",
+              "she's got"
+            ],
+            [
+              "we",
+              "we have got",
+              "we've got"
+            ],
+            [
+              "they",
+              "they have got",
+              "they've got"
+            ],
+            [
+              "un nombre",
+              "Tom has got",
+              "Tom's got (hablado)"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I've got two tickets for the concert.",
+          "es": "Tengo dos boletos para el concierto.",
+          "partes": [
+            {
+              "t": "I've",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "two tickets",
+              "rol": "complemento"
+            },
+            {
+              "t": "for the concert",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "I've = I have. Significa lo mismo que I have two tickets, pero suena más conversacional."
+        },
+        {
+          "en": "My sister's got the same haircut.",
+          "es": "Mi hermana tiene el mismo corte de pelo.",
+          "partes": [
+            {
+              "t": "My sister's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "the same haircut",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aquí sister's no es posesivo: es my sister has got contraído. Lo sabes porque después viene got. Por escrito es más claro My sister has got."
+        },
+        {
+          "en": "He's got a terrible cold.",
+          "es": "Tiene un resfriado terrible.",
+          "partes": [
+            {
+              "t": "He's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a terrible cold",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "He's = he has, porque va seguido de got. Compara con He's cold (= he is cold, tiene frío): sin got, 's es is."
+        },
+        {
+          "en": "We've got a meeting at ten.",
+          "es": "Tenemos una junta a las diez.",
+          "partes": [
+            {
+              "t": "We've",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a meeting",
+              "rol": "complemento"
+            },
+            {
+              "t": "at ten",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Have got también vale para citas y compromisos que «tienes» en tu agenda."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "She's got… (= has)",
+          "items": [
+            "She's got a new job. → She has got…",
+            "It's got two bedrooms. → It has got…",
+            "He's got a cold. → He has got…"
+          ]
+        },
+        "b": {
+          "titulo": "She's… (= is)",
+          "items": [
+            "She's a teacher. → She is…",
+            "It's very big. → It is…",
+            "He's cold. → He is…"
+          ]
+        },
+        "veredicto": "El truco es mirar la palabra siguiente: si después de 's viene got, 's es has. En cualquier otro caso de esta etapa (un adjetivo, un sustantivo, un verbo en -ing), 's es is."
+      },
+      "pronunciacion": [
+        {
+          "texto": "I've got",
+          "ipa": "/aɪv ˈɡɑːt/ (EE. UU.) · /aɪv ˈɡɒt/ (R. U.)",
+          "consejo": "I've es una sola sílaba: termina con la /v/ suave, dientes superiores sobre el labio inferior, y se une a got sin pausa. En Estados Unidos la o de got es una a abierta y larga, como la a de «papá»; en Reino Unido es una o corta con los labios redondeados.",
+          "lento": true
+        },
+        {
+          "texto": "She's got",
+          "ipa": "/ʃiz ˈɡɑːt/",
+          "consejo": "La 's suena /z/ (vibra) y se pega a she: «shiz». En inglés estadounidense la t final de got muchas veces queda cortada, sin soltar aire."
+        },
+        {
+          "texto": "have got",
+          "ipa": "/hæv ˈɡɑːt/",
+          "consejo": "En la forma completa el acento va en got. Have se dice rápido y suave; lo importante es got."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I got a car.",
+          "bien": "I've got a car. / I have a car.",
+          "porque": "En inglés estadounidense muy informal se oye I got a car, pero en inglés estándar el auxiliar have ('ve) no puede desaparecer. Además, I got sin have puede entenderse como pasado (conseguí)."
+        },
+        {
+          "mal": "She've got a brother.",
+          "bien": "She's got a brother.",
+          "porque": "Con he, she, it el auxiliar es has, que se contrae como 's."
+        },
+        {
+          "mal": "I've got breakfast at seven.",
+          "bien": "I have breakfast at seven.",
+          "porque": "Have got solo significa tener (posesión). Para acciones como desayunar se usa have sin got."
+        },
+        {
+          "mal": "I'm having got a car.",
+          "bien": "I've got a car. / I have a car.",
+          "porque": "Have got no existe en forma continua: es una forma fija de presente simple."
+        }
+      ]
+    },
+    {
+      "id": "have-got-negacion-preguntas",
+      "titulo": "Haven't got, Have you got…? y la regla de no mezclar",
+      "que_es": "Como have / has es el auxiliar en have got, la negación y la pregunta se forman con él, sin do: [[I haven't got]], [[Have you got…?]]. Es un sistema distinto del de la lección anterior. Los dos son correctos, pero cada uno funciona con sus propias piezas y no se pueden combinar.",
+      "para_que": [
+        "Decir lo que no tienes: I haven't got any cash.",
+        "Preguntar al estilo británico o informal: Have you got a minute?",
+        "Contestar con la respuesta corta que corresponde: Yes, I have. / No, he hasn't."
+      ],
+      "como_funciona": "**Negación:** {{sujeto:sujeto}} + {{negacion:haven't / hasn't}} + {{verbo:got}} + {{complemento:…}}. **Pregunta:** {{auxiliar:Have / Has}} + {{sujeto:sujeto}} + {{verbo:got}} + {{complemento:…}}? **Respuesta corta:** Yes / No + sujeto + have / has / haven't / hasn't (got no se repite en la respuesta corta). La regla de oro es **no mezclar**: si la pregunta empieza con Do / Does, el verbo es have y la respuesta usa do ([[Do you have a car? — Yes, I do.]]); si empieza con Have / Has, el verbo es got y la respuesta usa have ([[Have you got a car? — Yes, I have.]]). Combinaciones como [[Do you have got…?]] o [[I don't have got]] son incorrectas porque ponen dos auxiliares para un solo verbo.",
+      "estructuras": [
+        {
+          "etiqueta": "Negación",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "haven't / hasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "hasn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a passport",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No tiene pasaporte."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Have / Has",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a minute?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Tienes un minuto?"
+        },
+        {
+          "etiqueta": "Respuestas cortas",
+          "formula": [
+            {
+              "t": "Yes / No,",
+              "rol": "otro"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have / has / haven't / hasn't",
+              "rol": "auxiliar"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "haven't",
+              "rol": "auxiliar"
+            }
+          ],
+          "es": "No, no tengo."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los dos sistemas, lado a lado (no se mezclan)",
+          "columnas": [
+            "",
+            "Have (con do / does)",
+            "Have got"
+          ],
+          "filas": [
+            [
+              "Afirmación",
+              "She has a bike.",
+              "She's got a bike."
+            ],
+            [
+              "Negación",
+              "She doesn't have a bike.",
+              "She hasn't got a bike."
+            ],
+            [
+              "Pregunta",
+              "Does she have a bike?",
+              "Has she got a bike?"
+            ],
+            [
+              "Sí",
+              "Yes, she does.",
+              "Yes, she has."
+            ],
+            [
+              "No",
+              "No, she doesn't.",
+              "No, she hasn't."
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I haven't got any cash.",
+          "es": "No traigo nada de efectivo.",
+          "situacion": "En un puesto donde solo aceptan efectivo.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "haven't",
+              "rol": "negacion"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "any cash",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Haven't = have not. La negación va en el auxiliar have, sin do. Any acompaña a la negación y no se traduce palabra por palabra."
+        },
+        {
+          "en": "Has your apartment got a balcony?",
+          "es": "¿Tu departamento tiene balcón?",
+          "partes": [
+            {
+              "t": "Has",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your apartment",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a balcony?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Has porque your apartment = it. El auxiliar pasa delante del sujeto y got se queda detrás."
+        },
+        {
+          "en": "Yes, it has.",
+          "es": "Sí, sí tiene.",
+          "partes": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "auxiliar"
+            }
+          ],
+          "nota": "Respuesta corta de una pregunta con has: se repite has sin got. Yes, it has got no se usa como respuesta corta."
+        },
+        {
+          "en": "Have your kids got cell phones?",
+          "es": "¿Tus hijos tienen celular?",
+          "partes": [
+            {
+              "t": "Have",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "cell phones?",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have porque your kids = they. En Estados Unidos lo más habitual sería Do your kids have cell phones?; las dos son correctas."
+        },
+        {
+          "en": "No, they haven't.",
+          "es": "No, no tienen.",
+          "partes": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "haven't",
+              "rol": "auxiliar"
+            }
+          ],
+          "nota": "Con they, la respuesta corta negativa es haven't."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Have got: el auxiliar hace todo el trabajo",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "He",
+                "rol": "sujeto"
+              },
+              {
+                "t": "has",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "got",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "He",
+                "rol": "sujeto"
+              },
+              {
+                "t": "hasn't",
+                "rol": "negacion"
+              },
+              {
+                "t": "got",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog.",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Has",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "he",
+                "rol": "sujeto"
+              },
+              {
+                "t": "got",
+                "rol": "verbo"
+              },
+              {
+                "t": "a dog?",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Respuesta corta",
+            "partes": [
+              {
+                "t": "Yes,",
+                "rol": "otro"
+              },
+              {
+                "t": "he",
+                "rol": "sujeto"
+              },
+              {
+                "t": "has.",
+                "rol": "auxiliar"
+              }
+            ]
+          }
+        ],
+        "pie": "Igual que con be: el auxiliar recibe la negación (hasn't) y se pone delante del sujeto en la pregunta (Has he…?). Do no aparece en ningún momento."
+      },
+      "pronunciacion": [
+        {
+          "texto": "haven't got",
+          "ipa": "/ˈhævənt ˈɡɑːt/",
+          "consejo": "Haven't tiene dos sílabas: HAV-nt, con la /æ/ abierta de have. La segunda sílaba casi no tiene vocal: la lengua pasa de la v a la n directamente.",
+          "lento": true
+        },
+        {
+          "texto": "hasn't got",
+          "ipa": "/ˈhæzənt ˈɡɑːt/",
+          "consejo": "HAZ-nt: la s suena /z/, vibrando. No la pronuncies como la s española sorda."
+        },
+        {
+          "texto": "Have you got…?",
+          "ipa": "/həv jə ˈɡɑːt/",
+          "consejo": "En la pregunta, have y you se debilitan y el peso cae en got y en lo que preguntas. En la respuesta corta, en cambio, have suena completo: Yes, I /hæv/."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Do you have got a pen?",
+          "bien": "Do you have a pen? / Have you got a pen?",
+          "porque": "Son dos sistemas distintos: do va con have; got va con have como auxiliar. Mezclarlos pone dos auxiliares para un solo verbo."
+        },
+        {
+          "mal": "I don't have got a car.",
+          "bien": "I don't have a car. / I haven't got a car.",
+          "porque": "Mismo problema: con don't el verbo es have a secas."
+        },
+        {
+          "mal": "Have you got a car? — Yes, I do.",
+          "bien": "Yes, I have.",
+          "porque": "La respuesta corta repite el auxiliar de la pregunta: si la pregunta empieza con Have, la respuesta usa have."
+        },
+        {
+          "mal": "She hasn't a car.",
+          "bien": "She hasn't got a car. / She doesn't have a car.",
+          "porque": "Sin got, hasn't a car es una forma británica anticuada o muy formal. En uso normal, añade got o usa doesn't have."
+        },
+        {
+          "mal": "Has she got a brother? — Yes, she has got.",
+          "bien": "Yes, she has.",
+          "porque": "En la respuesta corta se repite solo el auxiliar; got no se repite."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "have-y-have-got.have-got.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "¿Qué significa 's en esta oración?",
+      "pregunta": "Aisha's got three brothers.",
+      "opciones": [
+        {
+          "texto": "has",
+          "correcta": true,
+          "porque": "Después de 's viene got: es la contracción de Aisha has got, «Aisha tiene»."
+        },
+        {
+          "texto": "is",
+          "correcta": false,
+          "porque": "Si fuera is, la oración diría «Aisha is got», que no existe. 's es is cuando lo sigue un adjetivo, un sustantivo o un verbo en -ing, no got."
+        },
+        {
+          "texto": "posesivo (de Aisha)",
+          "correcta": false,
+          "porque": "El posesivo va pegado a un sustantivo (Aisha's brothers). Aquí la palabra siguiente es got, un verbo, así que es la contracción de has."
+        }
+      ],
+      "pistas": [
+        "'s puede ser is, has o posesivo.",
+        "Mira la palabra que va justo después de Aisha's.",
+        "Si después de 's viene got, 's es la contracción de has."
+      ],
+      "solucion": {
+        "respuesta": "has",
+        "explicacion": "La respuesta correcta es has: Aisha's got = Aisha has got. La pista es got: la forma fija de tener es have / has + got, así que 's solo puede ser has."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con have o has (forma completa, sin contraer).",
+      "frase": "We ___ got a big family. My uncle ___ got six children!",
+      "traduccion": "Tenemos una familia grande. ¡Mi tío tiene seis hijos!",
+      "respuestas": [
+        [
+          "have"
+        ],
+        [
+          "has"
+        ]
+      ],
+      "banco": [
+        "have",
+        "has"
+      ],
+      "errores_tipicos": {
+        "has | has": "We es primera persona del plural: el auxiliar es have.",
+        "have | have": "My uncle es una persona (he): el auxiliar es has."
+      },
+      "pistas": [
+        "En have got, el auxiliar have cambia a has como en have / has.",
+        "Hay dos sujetos: we y my uncle.",
+        "I, you, we, they → have got; he, she, it → has got."
+      ],
+      "solucion": {
+        "respuesta": "have … has",
+        "explicacion": "We va con have got y my uncle (he) con has got. Got nunca cambia; lo que cambia según el sujeto es el auxiliar."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada pregunta con su respuesta corta. ¡Ojo con el auxiliar!",
+      "pares": [
+        {
+          "a": "Have you got a bike?",
+          "b": "Yes, I have."
+        },
+        {
+          "a": "Do you have a bike?",
+          "b": "Yes, I do."
+        },
+        {
+          "a": "Has Ben got a car?",
+          "b": "No, he hasn't."
+        },
+        {
+          "a": "Does Ben have a car?",
+          "b": "No, he doesn't."
+        },
+        {
+          "a": "Have they got a garden?",
+          "b": "Yes, they have."
+        },
+        {
+          "a": "Has the room got a desk?",
+          "b": "No, it hasn't."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "Separa primero las preguntas que empiezan con Do / Does de las que empiezan con Have / Has.",
+        "Do / Does → do / does / don't / doesn't; Have / Has → have / has / haven't / hasn't. Luego ajusta el pronombre."
+      ],
+      "solucion": {
+        "respuesta": "Have you → Yes, I have · Do you → Yes, I do · Has Ben → No, he hasn't · Does Ben → No, he doesn't · Have they → Yes, they have · Has the room → No, it hasn't",
+        "explicacion": "Cada respuesta repite el auxiliar con el que empieza la pregunta: con Do / Does se responde con do / does; con Have / Has, con have / has. Así no se mezclan los dos sistemas."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la oración con have got. Mantén el significado.",
+      "origen": "My neighbor has a very noisy dog.",
+      "instruccion": "Con have got",
+      "respuestas": [
+        "My neighbor has got a very noisy dog.",
+        "My neighbor's got a very noisy dog.",
+        "My neighbour has got a very noisy dog.",
+        "My neighbour's got a very noisy dog."
+      ],
+      "errores_tipicos": {
+        "My neighbor have got a very noisy dog.": "My neighbor es una persona (he / she): el auxiliar es has, no have.",
+        "My neighbor got a very noisy dog.": "Falta el auxiliar has. Sin él, got se entiende como pasado (consiguió)."
+      },
+      "pistas": [
+        "Have got = have / has + got.",
+        "El sujeto es my neighbor, una sola persona.",
+        "He / she → has got. Solo tienes que añadir got después de has."
+      ],
+      "solucion": {
+        "respuesta": "My neighbor has got a very noisy dog.",
+        "explicacion": "My neighbor es tercera persona del singular, así que el auxiliar es has y detrás va got. En conversación también se dice My neighbor's got…"
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en negativa. Sigue usando have got.",
+      "origen": "They've got a lot of time.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "They haven't got a lot of time.",
+        "They've not got a lot of time."
+      ],
+      "errores_tipicos": {
+        "They don't have got a lot of time.": "No mezcles: con have got la negación va en el auxiliar have (haven't got), sin do.",
+        "They hasn't got a lot of time.": "They va con have: haven't got."
+      },
+      "pistas": [
+        "En have got, ¿quién lleva la negación: do o have?",
+        "They've = they have. Esa have es la que recibe not.",
+        "Sujeto + have + not (contraído) + got + complemento, como en We haven't got any milk."
+      ],
+      "solucion": {
+        "respuesta": "They haven't got a lot of time.",
+        "explicacion": "They've got = they have got. Para negar, el auxiliar have recibe not: haven't got. No se usa do, porque have ya es el auxiliar. They've not got también es correcto, aunque menos frecuente."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en pregunta de sí o no. Sigue usando have got.",
+      "origen": "Your brother has got a girlfriend.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Has your brother got a girlfriend?"
+      ],
+      "errores_tipicos": {
+        "Does your brother have got a girlfriend?": "No mezcles does con got. Con have got, el auxiliar has va delante: Has your brother got…?",
+        "Has got your brother a girlfriend?": "Got no se mueve: solo el auxiliar has pasa delante del sujeto.",
+        "Have your brother got a girlfriend?": "Your brother es he: el auxiliar es has."
+      },
+      "pistas": [
+        "En have got, has es el auxiliar. ¿Qué hace el auxiliar en una pregunta?",
+        "Solo una palabra cambia de lugar; got se queda donde está.",
+        "Has + sujeto + got + complemento?"
+      ],
+      "solucion": {
+        "respuesta": "Has your brother got a girlfriend?",
+        "explicacion": "Como has es el auxiliar, pasa delante del sujeto (your brother) y got queda detrás: Has your brother got a girlfriend? No se usa does."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta pregunta mezcla dos sistemas. Señala la palabra que sobra o que está mal y corrígela.",
+      "frase": "Do you have got a charger for this phone?",
+      "error": "Do",
+      "correcciones": [
+        "Have"
+      ],
+      "frase_correcta": "Have you got a charger for this phone?",
+      "pistas": [
+        "Una pregunta con got necesita un auxiliar concreto.",
+        "Fíjate en la primera palabra y en la tercera: no pueden ir juntas.",
+        "Con got, la pregunta empieza con Have / Has, no con Do. (También valdría Do you have…? quitando got.)"
+      ],
+      "solucion": {
+        "respuesta": "Have",
+        "explicacion": "Do you have got… mezcla el sistema de do con el de have got. Cambiando Do por Have queda Have you got a charger…?, que es correcto. La otra corrección posible sería quitar got: Do you have a charger…?"
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración negativa.",
+      "fichas": [
+        "got",
+        "hasn't",
+        "Carlos",
+        "passport",
+        "a"
+      ],
+      "respuestas": [
+        "Carlos hasn't got a passport"
+      ],
+      "traduccion": "Carlos no tiene pasaporte.",
+      "pistas": [
+        "Una negación con have got empieza por el sujeto.",
+        "Después del sujeto va el auxiliar negativo y luego got.",
+        "Sujeto + hasn't + got + complemento."
+      ],
+      "solucion": {
+        "respuesta": "Carlos hasn't got a passport.",
+        "explicacion": "Carlos (he) va con has; la negación hasn't va justo después del sujeto y got detrás. Passport es contable y singular, por eso a."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés usando have got (con o sin contracción).",
+      "es": "¿Tienes hermanos? — No, no tengo.",
+      "respuestas": [
+        "Have you got any brothers or sisters? No, I haven't.",
+        "Have you got brothers or sisters? No, I haven't.",
+        "Have you got any siblings? No, I haven't.",
+        "Have you got siblings? No, I haven't.",
+        "Have you got any brothers and sisters? No, I haven't.",
+        "Have you got brothers and sisters? No, I haven't.",
+        "Have you got any brothers or sisters? No, I haven't got any.",
+        "Have you got any siblings? No, I haven't got any."
+      ],
+      "errores_tipicos": {
+        "Have you got any brothers or sisters? No, I don't.": "La respuesta corta debe repetir el auxiliar de la pregunta: No, I haven't.",
+        "Do you have got any brothers or sisters? No, I haven't.": "No mezcles do con got: Have you got…?",
+        "Have you got any brothers? No, I haven't.": "Brothers solo son hermanos varones. «Hermanos» en general es brothers or sisters (o siblings)."
+      },
+      "pistas": [
+        "Pregunta con have got y respuesta corta que repita el auxiliar.",
+        "«Hermanos» en español incluye hermanas; en inglés brothers solo son varones.",
+        "Have + sujeto + got + any + sustantivo plural?; la respuesta corta repite have en negativo, sin got, como en No, we haven't."
+      ],
+      "solucion": {
+        "respuesta": "Have you got any brothers or sisters? — No, I haven't.",
+        "explicacion": "La pregunta empieza con el auxiliar Have y lleva got después del sujeto. «Hermanos» en general se dice brothers or sisters (o siblings, más formal); brothers solo incluye varones. La respuesta corta repite have en negativo: No, I haven't."
+      }
+    },
+    {
+      "id": "have-y-have-got.have-got.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Tu compañera de trabajo, Mei, te pregunta algo antes de una reunión.",
+      "lineas": [
+        {
+          "quien": "Mei",
+          "en": "Have you got a minute? I've got a question about the report.",
+          "es": "¿Tienes un minuto? Tengo una pregunta sobre el informe."
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, I have. What's the question?",
+          "correcta": true,
+          "porque": "Have you got…? se responde con have: Yes, I have. Después preguntas cuál es la duda."
+        },
+        {
+          "texto": "Yes, I do. What's the question?",
+          "correcta": false,
+          "porque": "Do respondería a Do you have a minute?, pero Mei preguntó con Have you got…?"
+        },
+        {
+          "texto": "Yes, I have got. What's the question?",
+          "correcta": false,
+          "porque": "En la respuesta corta no se repite got: solo el auxiliar."
+        },
+        {
+          "texto": "Yes, I've. What's the question?",
+          "correcta": false,
+          "porque": "Al final de la oración el auxiliar no se contrae: Yes, I have, nunca Yes, I've."
+        }
+      ],
+      "pistas": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "La pregunta de Mei empieza con Have. Piensa también en si se contrae al final.",
+        "Yes + sujeto + have, completo y sin got."
+      ],
+      "solucion": {
+        "respuesta": "Yes, I have. What's the question?",
+        "explicacion": "Have you got a minute? se contesta con Yes, I have. No se usa do (otro sistema), no se repite got y el auxiliar no se contrae al final de la frase."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.have-got.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Usa las contracciones que oigas (o la forma completa, también vale).",
+      "texto": "She's got a headache, but she's fine.",
+      "respuestas": [
+        "She has got a headache, but she is fine."
+      ],
+      "pistas": [
+        "Hay dos 's que significan cosas distintas.",
+        "En la primera parte, después de 's viene got; en la segunda, un adjetivo.",
+        "Si después de 's viene got, 's = has; si viene un adjetivo, 's = is. El malestar es una palabra compuesta: head + «dolor»."
+      ],
+      "solucion": {
+        "respuesta": "She's got a headache, but she's fine.",
+        "explicacion": "El primer 's es has porque lo sigue got: tiene dolor de cabeza. El segundo 's es is porque lo sigue un adjetivo (fine): está bien. Mismo sonido, dos verbos distintos."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.have-got.12",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Marca bien la diferencia entre la pregunta y la respuesta.",
+      "texto": "Have you got a car? No, I haven't.",
+      "ipa": "/həv jə ˈɡɑːt ə ˈkɑːr ‖ noʊ aɪ ˈhævənt/",
+      "consejo": "En la pregunta, have suena débil (/həv/) y la voz sube al final en car. En la respuesta, haven't se dice completo y fuerte, con la /æ/ abierta, y la voz baja al final. La r de car en inglés estadounidense no vibra: la lengua se curva hacia atrás sin tocar el paladar.",
+      "es": "¿Tienes carro? — No."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Preparando un viaje",
+    "contexto": "Vas a un viaje de campamento con Tom, un amigo británico. Él revisa la lista de lo que llevan.",
+    "dialogo": [
+      {
+        "quien": "Tom",
+        "en": "Right. I've got the tent and the food. Have you got a flashlight?",
+        "es": "Bueno. Yo traigo la tienda y la comida. ¿Tienes una linterna?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Tom",
+        "en": "And has your sister got a sleeping bag for me?",
+        "es": "¿Y tu hermana tiene una bolsa de dormir para mí?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Contesta a Tom con respuestas cortas de have got y añade una oración que diga algo que sí tienes o no tienes. Después pregúntale tú algo con Have you got…?",
+    "modelo": "Yes, I have. I've got two, actually. — No, she hasn't, sorry. She's only got one. Have you got a map?",
+    "alternativas": [
+      "No, I haven't. But I've got a lamp on my phone.",
+      "Yes, she has. It's in my car. Have you got enough water?"
+    ],
+    "claves": [
+      "Pregunta con Have → respuesta con have / haven't; pregunta con Has → has / hasn't.",
+      "No uses do con got.",
+      "She's got = she has got; she's only got one = solo tiene uno."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Have got = have (tener) en posesión, familia, rasgos y malestares, solo en presente.",
+      "Afirmación: I've got / she's got. Negación: haven't got / hasn't got.",
+      "Pregunta: Have you got…? / Has she got…? Respuesta: Yes, I have. / No, she hasn't.",
+      "Nunca mezclar: Do you have got…? ✗ · I don't have got ✗."
+    ],
+    "recuerda": [
+      "'s + got = has; 's + adjetivo, sustantivo o -ing = is.",
+      "Have got es más británico e informal; en EE. UU. se prefiere Do you have…? en preguntas.",
+      "Have got no sirve para acciones (have breakfast) ni va en continuo.",
+      "Con un nombre, Tom's got se usa al hablar; por escrito es más claro Tom has got."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "have-y-have-got.have-got.r1",
+      "frente": "Niega con have got: She's got a car.",
+      "reverso": "She hasn't got a car.",
+      "nota": "La negación va en el auxiliar has, sin do."
+    },
+    {
+      "id": "have-y-have-got.have-got.r2",
+      "frente": "Pregunta con have got: They've got a dog.",
+      "reverso": "Have they got a dog?",
+      "nota": "El auxiliar pasa delante; got se queda."
+    },
+    {
+      "id": "have-y-have-got.have-got.r3",
+      "frente": "Have you got a pen? → respuesta corta negativa",
+      "reverso": "No, I haven't.",
+      "nota": "Se repite have, sin got."
+    },
+    {
+      "id": "have-y-have-got.have-got.r4",
+      "frente": "¿Qué es 's en He's got a cold?",
+      "reverso": "has → He has got a cold.",
+      "nota": "Si después viene got, 's = has."
+    },
+    {
+      "id": "have-y-have-got.have-got.r5",
+      "frente": "¿Qué está mal en Do you have got a car?",
+      "reverso": "Mezcla dos sistemas → Do you have a car? / Have you got a car?",
+      "nota": "Do va con have; got va con have como auxiliar."
+    }
+  ]
+}

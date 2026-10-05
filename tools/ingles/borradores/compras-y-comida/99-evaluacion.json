@@ -1,0 +1,521 @@
+{
+  "titulo": "Evaluación: compras y comida",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "compras-y-comida.eval.01",
+      "leccion": "en-la-tienda",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "Quieres saber el precio de unos shorts. ¿Qué preguntas?",
+      "opciones": [
+        {
+          "texto": "How much are these shorts?",
+          "correcta": true,
+          "porque": "Shorts es siempre plural en inglés: these y are."
+        },
+        {
+          "texto": "How much is this shorts?",
+          "correcta": false,
+          "porque": "Shorts es plural: this e is no concuerdan."
+        },
+        {
+          "texto": "How much costs these shorts?",
+          "correcta": false,
+          "porque": "Calco del español: con cost haría falta do (How much do these shorts cost?)."
+        }
+      ],
+      "pistas": [
+        "Algunas prendas son siempre plurales en inglés.",
+        "Shorts, como jeans y pants, lleva these y are.",
+        "Prendas como shorts son siempre plurales: el verbo y el demostrativo también van en plural."
+      ],
+      "solucion": {
+        "respuesta": "How much are these shorts?",
+        "explicacion": "Shorts es un plural en inglés aunque sea una prenda. Por eso these y are, y la respuesta será They're…"
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.02",
+      "leccion": "en-la-tienda",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe lo que dice el vendedor.",
+      "texto": "It's nineteen ninety-nine, and the socks are five dollars a pair.",
+      "respuestas": [
+        "It's $19.99, and the socks are $5 a pair.",
+        "It's 19.99, and the socks are 5 dollars a pair.",
+        "It's $19.99, and the socks are 5 dollars a pair.",
+        "It's 19.99, and the socks are $5 a pair.",
+        "It's $19.99, and the socks are five dollars a pair.",
+        "It's 19.99, and the socks are five dollars a pair.",
+        "It's nineteen ninety-nine, and the socks are $5 a pair.",
+        "It's nineteen ninety-nine, and the socks are 5 dollars a pair."
+      ],
+      "pistas": [
+        "Dos precios: uno de una cosa y otro de un plural.",
+        "El primero se dice como dos números; el segundo lleva dollars y la expresión «el par».",
+        "Un precio con centavos se escribe como número con punto; un precio redondo, número + dollars (o $); «el par» lleva artículo indefinido."
+      ],
+      "solucion": {
+        "respuesta": "It's nineteen ninety-nine, and the socks are five dollars a pair.",
+        "explicacion": "Nineteen ninety-nine = $19.99. Socks es plural: are. A pair = el par (cada par)."
+      },
+      "audio": true
+    },
+    {
+      "id": "compras-y-comida.eval.03",
+      "leccion": "en-la-tienda",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Entras a una librería solo a curiosear. No quieres ayuda.",
+      "lineas": [
+        {
+          "quien": "Vendedor",
+          "en": "Hi! Are you looking for anything in particular?",
+          "es": "¡Hola! ¿Buscas algo en particular?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, I'm just looking, thanks.",
+          "correcta": true,
+          "porque": "Es la frase fija para decir que solo estás viendo."
+        },
+        {
+          "texto": "No, I'm just seeing, thanks.",
+          "correcta": false,
+          "porque": "See no se usa así; la frase fija es I'm just looking."
+        },
+        {
+          "texto": "Yes, I'll take it.",
+          "correcta": false,
+          "porque": "I'll take it es para decidir una compra; todavía no has elegido nada."
+        },
+        {
+          "texto": "No, I only look.",
+          "correcta": false,
+          "porque": "Presente simple y orden de calco. Para lo que haces ahora: I'm just looking."
+        }
+      ],
+      "pistas": [
+        "Quieres rechazar la ayuda con amabilidad.",
+        "Hay una frase fija en presente continuo.",
+        "La frase fija usa I'm + un adverbio que significa «solo» + look con -ing, y termina agradeciendo."
+      ],
+      "solucion": {
+        "respuesta": "No, I'm just looking, thanks.",
+        "explicacion": "I'm just looking es la fórmula fija: presente continuo (lo que haces ahora), just = solo, y look (mirar)."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.04",
+      "leccion": "en-la-tienda",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Me los llevo. ¿Puedo pagar con tarjeta?",
+      "respuestas": [
+        "I'll take them. Can I pay by card?",
+        "I'll take them. Can I pay with a card?",
+        "I'll take them. Can I pay by credit card?",
+        "I'll take them. Can I pay with a credit card?"
+      ],
+      "errores_tipicos": {
+        "I take them. Can I pay by card?": "Para decidir en el momento: I'll take them.",
+        "I'll take it. Can I pay by card?": "«Los» es plural: them.",
+        "I'll take them. Can I pay with card?": "Con with hace falta artículo: with a card (o by card)."
+      },
+      "pistas": [
+        "Dos fórmulas fijas: decidir la compra y preguntar la forma de pago.",
+        "«Los» es plural. «Con tarjeta» tiene una preposición fija.",
+        "Decisión en el momento: I'll + take + pronombre plural. Luego, pregunta de permiso con Can I pay + preposición fija + card, como en I'll take it. Can I pay in cash?"
+      ],
+      "solucion": {
+        "respuesta": "I'll take them. Can I pay by card?",
+        "explicacion": "I'll take them: fórmula para decidir, con them porque son varios. Can I pay by card? (o with a card) para preguntar la forma de pago."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.05",
+      "leccion": "en-la-tienda",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "These boots are nice. Can I try on them?",
+      "error": "try on them",
+      "correcciones": [
+        "try them on"
+      ],
+      "frase_correcta": "These boots are nice. Can I try them on?",
+      "pistas": [
+        "El error está en el orden de tres palabras.",
+        "Mira dónde va el pronombre them.",
+        "Con pronombre, va entre try y on."
+      ],
+      "solucion": {
+        "respuesta": "try them on",
+        "explicacion": "Con un pronombre (it, them), el orden es try + pronombre + on: Can I try them on? Con un sustantivo se puede decir try on the boots o try the boots on."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.06",
+      "leccion": "envases-y-medidas",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el envase correcto.",
+      "pregunta": "I need a ___ of honey for my tea.",
+      "opciones": [
+        {
+          "texto": "jar",
+          "correcta": true,
+          "porque": "La miel viene en frasco de vidrio: a jar of honey."
+        },
+        {
+          "texto": "loaf",
+          "correcta": false,
+          "porque": "Loaf es solo para pan."
+        },
+        {
+          "texto": "bar",
+          "correcta": false,
+          "porque": "Bar es para chocolate o jabón."
+        },
+        {
+          "texto": "slice",
+          "correcta": false,
+          "porque": "Slice es una rebanada: la miel no se rebana."
+        }
+      ],
+      "pistas": [
+        "Piensa en cómo viene la miel en el súper.",
+        "Es un recipiente de vidrio con tapa.",
+        "Es el mismo recipiente de vidrio en el que se vende la mermelada (jam)."
+      ],
+      "solucion": {
+        "respuesta": "jar",
+        "explicacion": "La miel, la mermelada y la salsa vienen en frascos: a jar of honey."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.07",
+      "leccion": "envases-y-medidas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma correcta de la palabra entre paréntesis.",
+      "frase": "Three ___ (bag) of rice and two ___ (loaf) of bread, please.",
+      "traduccion": "Tres bolsas de arroz y dos panes de caja, por favor.",
+      "respuestas": [
+        [
+          "bags"
+        ],
+        [
+          "loaves"
+        ]
+      ],
+      "errores_tipicos": {
+        "bag | loaf": "Con three y two, los envases van en plural.",
+        "bags | loafs": "Loaf tiene plural irregular: loaves."
+      },
+      "pistas": [
+        "El plural lo llevan los envases.",
+        "Uno es regular; el otro, irregular (f → v).",
+        "Regular → -s; terminado en -f → la f cambia a v + -es, como half → halves."
+      ],
+      "solucion": {
+        "respuesta": "bags … loaves",
+        "explicacion": "Los envases van en plural con three y two: bags (regular) y loaves (irregular). Rice y bread no cambian: son incontables."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.08",
+      "leccion": "envases-y-medidas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Empieza con Can I have.",
+      "es": "¿Me da medio kilo de jamón y una docena de tortillas, por favor?",
+      "respuestas": [
+        "Can I have half a kilo of ham and a dozen tortillas, please?",
+        "Can I have half a kilo of ham and a dozen tortillas?"
+      ],
+      "errores_tipicos": {
+        "Can I have a half kilo of ham and a dozen tortillas, please?": "El orden estándar es half a kilo.",
+        "Can I have half a kilo of ham and a dozen of tortillas, please?": "Dozen no lleva of: a dozen tortillas.",
+        "Can I have half a kilo ham and a dozen tortillas, please?": "Falta of: half a kilo of ham."
+      },
+      "pistas": [
+        "Una medida lleva of y la otra no.",
+        "«Medio kilo» empieza con half. Dozen es la excepción sin of.",
+        "Can I have + half a + medida + of + producto + and + a dozen + producto (sin of), please?, como en Can I have half a pound of cheese and a dozen eggs, please?"
+      ],
+      "solucion": {
+        "respuesta": "Can I have half a kilo of ham and a dozen tortillas, please?",
+        "explicacion": "Half a kilo of ham: half antes de a y of antes del producto. A dozen tortillas: dozen va directamente delante del sustantivo."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.09",
+      "leccion": "envases-y-medidas",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta la diferencia.",
+      "pregunta": "Tu amigo te pide: «Can you buy a water bottle for my trip?» ¿Qué quiere?",
+      "opciones": [
+        {
+          "texto": "Un termo o botella (el recipiente) para llevar agua.",
+          "correcta": true,
+          "porque": "Sustantivo + sustantivo: a water bottle es el recipiente para agua."
+        },
+        {
+          "texto": "Una botella llena de agua para tomar.",
+          "correcta": false,
+          "porque": "Eso sería a bottle of water (envase + of + contenido)."
+        },
+        {
+          "texto": "Agua mineral en garrafón.",
+          "correcta": false,
+          "porque": "Nada indica garrafón; se habla de una botella para agua."
+        }
+      ],
+      "pistas": [
+        "Compara a water bottle con a bottle of water.",
+        "Cuando dos sustantivos van juntos, el primero describe al segundo.",
+        "a water bottle = recipiente; a bottle of water = contenido."
+      ],
+      "solucion": {
+        "respuesta": "Un termo o botella (el recipiente) para llevar agua.",
+        "explicacion": "En a water bottle, water describe el tipo de botella: el recipiente. Para la botella con agua dentro se dice a bottle of water. Can you buy…? es una fórmula fija de petición."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.10",
+      "leccion": "envases-y-medidas",
+      "habilidad": "comprension",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada cantidad en inglés con su equivalente.",
+      "pares": [
+        {
+          "a": "a pound of beef",
+          "b": "unos 450 gramos de carne de res"
+        },
+        {
+          "a": "a gallon of milk",
+          "b": "casi cuatro litros de leche"
+        },
+        {
+          "a": "a dozen eggs",
+          "b": "doce huevos"
+        },
+        {
+          "a": "half a kilo of cheese",
+          "b": "500 gramos de queso"
+        }
+      ],
+      "pistas": [
+        "Son medidas que verás en tiendas de EE. UU. y de otros países.",
+        "Pound es la libra; gallon, el galón; dozen, la docena.",
+        "Compara tamaños: una libra es un poco menos que medio kilo, y un galón es mucho más que un litro."
+      ],
+      "solucion": {
+        "respuesta": "pound → 450 g · gallon → casi 4 L · dozen → 12 · half a kilo → 500 g",
+        "explicacion": "En EE. UU. se usan libras (pound ≈ 450 g) y galones (≈ 3.8 litros). A dozen son doce y half a kilo, medio kilo."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.11",
+      "leccion": "pedir-comida",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la orden con la fórmula para pedir (dos palabras, o una contraída).",
+      "frase": "___ like a hot chocolate, please.",
+      "traduccion": "Quisiera un chocolate caliente, por favor.",
+      "respuestas": [
+        [
+          "I'd",
+          "I would"
+        ]
+      ],
+      "errores_tipicos": {
+        "I": "I like significa «me gusta». Para pedir: I'd like (I would like).",
+        "I'm": "I'm like no existe como petición. Para pedir: I'd like."
+      },
+      "pistas": [
+        "Es la fórmula que significa «quisiera».",
+        "Le falta algo al sujeto I: sin eso, la frase diría «me gusta».",
+        "Para pedir con cortesía se usa el condicional: sujeto + auxiliar del condicional (se puede contraer) + like, como en We'd like a table for two."
+      ],
+      "solucion": {
+        "respuesta": "I'd",
+        "explicacion": "I'd like (I would like) significa «quisiera» y es la forma cortés de pedir. Sin would quedaría I like a hot chocolate, que no sirve para pedir: I like significa «me gusta»."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.12",
+      "leccion": "pedir-comida",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor opción.",
+      "pregunta": "Estás en un restaurante con amigos en Nueva York y quieren pagar. ¿Qué dices al mesero?",
+      "opciones": [
+        {
+          "texto": "Could we have the check, please?",
+          "correcta": true,
+          "porque": "En EE. UU. la cuenta es the check, y la petición con Could we… please? es cortés."
+        },
+        {
+          "texto": "Give us the account.",
+          "correcta": false,
+          "porque": "Account no es la cuenta del restaurante y Give us suena a orden."
+        },
+        {
+          "texto": "Could we have the bill, please?",
+          "correcta": false,
+          "porque": "Se entendería, pero en EE. UU. lo natural es the check; the bill es la palabra británica."
+        },
+        {
+          "texto": "We want to pay the count.",
+          "correcta": false,
+          "porque": "Count no es la cuenta y We want suena brusco."
+        }
+      ],
+      "pistas": [
+        "Estás en EE. UU. y quieres ser cortés.",
+        "Descarta las opciones con palabras que no significan «cuenta» o que suenan bruscas.",
+        "En EE. UU. la cuenta tiene nombre propio (no bill ni account), y la petición cortés empieza con un modal en pasado."
+      ],
+      "solucion": {
+        "respuesta": "Could we have the check, please?",
+        "explicacion": "Es la opción más natural en EE. UU.: la palabra estadounidense (check) y una petición cortés. The bill es correcta en Reino Unido."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.13",
+      "leccion": "pedir-comida",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la petición.",
+      "fichas": [
+        "I",
+        "have",
+        "some",
+        "Can",
+        "more",
+        "water",
+        "please"
+      ],
+      "respuestas": [
+        "Can I have some more water please"
+      ],
+      "traduccion": "¿Me trae más agua, por favor?",
+      "pistas": [
+        "Petición en forma de pregunta.",
+        "Some more = un poco más; va antes del incontable.",
+        "Can I have + cantidad + more + incontable + please?, como en Could we have a little more bread, please?"
+      ],
+      "solucion": {
+        "respuesta": "Can I have some more water, please?",
+        "explicacion": "Can I have abre la petición; some more water (some porque es una petición y water es incontable) y please al final."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.14",
+      "leccion": "pedir-comida",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la orden con I'll have, para decidir en el momento.",
+      "origen": "I want the vegetable soup and a piece of apple pie.",
+      "instruccion": "Con I'll have",
+      "respuestas": [
+        "I'll have the vegetable soup and a piece of apple pie.",
+        "I'll have the vegetable soup and a piece of apple pie, please."
+      ],
+      "errores_tipicos": {
+        "I have the vegetable soup and a piece of apple pie.": "I have describe algo que ya tienes o un hábito. Para ordenar: I'll have.",
+        "I'll have the vegetable soup and a apple pie.": "Mantén la porción: a piece of apple pie (y an antes de vocal)."
+      },
+      "pistas": [
+        "Solo cambia el inicio.",
+        "I'll have sustituye a I want; el resto se queda igual.",
+        "I'll have + los mismos platos, sin cambiar nada más, como en I'll have the fish and a glass of juice."
+      ],
+      "solucion": {
+        "respuesta": "I'll have the vegetable soup and a piece of apple pie.",
+        "explicacion": "I'll have es la fórmula típica para ordenar en el momento y suena mucho más amable que I want. Lo que pides no cambia."
+      }
+    },
+    {
+      "id": "compras-y-comida.eval.15",
+      "leccion": "pedir-comida",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Terminaste de ordenar en una cafetería. No quieres nada más.",
+      "lineas": [
+        {
+          "quien": "Barista",
+          "en": "Anything else?",
+          "es": "¿Algo más?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, that's all, thanks.",
+          "correcta": true,
+          "porque": "Es la respuesta fija y amable para cerrar la orden."
+        },
+        {
+          "texto": "No, nothing more.",
+          "correcta": false,
+          "porque": "Se entiende, pero suena seco. Lo natural es That's all, thanks."
+        },
+        {
+          "texto": "Yes, that's all.",
+          "correcta": false,
+          "porque": "Yes contradice lo que quieres decir: no quieres nada más."
+        },
+        {
+          "texto": "No, I don't want anything more, give me the check.",
+          "correcta": false,
+          "porque": "Suena brusco y además en una cafetería de mostrador normalmente se paga al ordenar."
+        }
+      ],
+      "pistas": [
+        "Quieres cerrar la orden con amabilidad.",
+        "Hay una expresión fija de tres palabras.",
+        "Para cerrar el pedido: No + una expresión que significa «eso es todo» + gracias."
+      ],
+      "solucion": {
+        "respuesta": "No, that's all, thanks.",
+        "explicacion": "That's all (es todo) es la respuesta fija a Anything else? cuando no quieres nada más, y thanks mantiene el tono amable."
+      },
+      "audio": true
+    }
+  ]
+}

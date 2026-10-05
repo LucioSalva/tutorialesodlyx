@@ -1,0 +1,1247 @@
+{
+  "slug": "adjetivos-posesivos",
+  "titulo": "My, your, his, her, its, our, their",
+  "minutos": 35,
+  "objetivos": [
+    "Usar los siete adjetivos posesivos delante de un sustantivo, sin artículo y sin plural.",
+    "Elegir his, her, its o their según quién es el POSEEDOR, no según la cosa poseída.",
+    "Traducir el «su» del español a la forma inglesa correcta según el contexto.",
+    "No confundir its con it's, their con they're ni your con you're."
+  ],
+  "situacion": {
+    "titulo": "Fotos de familia",
+    "texto": "Mei le enseña a Carlos unas fotos de su familia en el celular. Fíjate en cómo cambia la palabra que en español sería siempre «su».",
+    "dialogo": [
+      {
+        "quien": "Mei",
+        "en": "This is my brother, Leo. And this is his wife, Sara.",
+        "es": "Este es mi hermano, Leo. Y esta es su esposa, Sara."
+      },
+      {
+        "quien": "Carlos",
+        "en": "Is that their house?",
+        "es": "¿Esa es su casa (de ellos)?"
+      },
+      {
+        "quien": "Mei",
+        "en": "Yes, it is. And that's their dog. Its name is Max.",
+        "es": "Sí. Y ese es su perro. Se llama Max."
+      },
+      {
+        "quien": "Carlos",
+        "en": "And is this girl your sister?",
+        "es": "¿Y esta muchacha es tu hermana?"
+      },
+      {
+        "quien": "Mei",
+        "en": "No, she's my cousin. Her name is Lin.",
+        "es": "No, es mi prima. Se llama Lin."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "formas-posesivas",
+      "titulo": "Las siete formas y dónde van",
+      "que_es": "Los adjetivos posesivos son las palabras que dicen de quién es algo: [[my]] (mi), [[your]] (tu, su de usted, su de ustedes), [[his]] (su, de él), [[her]] (su, de ella), [[its]] (su, de una cosa o animal), [[our]] (nuestro) y [[their]] (su, de ellos o de ellas). Cada pronombre personal que ya conoces tiene el suyo.",
+      "para_que": [
+        "Presentar a tu familia: [[This is my sister.]]",
+        "Pedir y dar datos personales: [[What's your name?]] [[My name is Diego.]]",
+        "Preguntar por objetos: [[Is this your bag?]]"
+      ],
+      "como_funciona": "El posesivo va SIEMPRE delante de un sustantivo: [[my phone]], [[our teacher]]. Tres reglas que en español funcionan distinto: 1) **no cambia con el plural**: [[my book]], [[my books]] (en español «mi» pasa a «mis», en inglés [[my]] se queda igual); 2) **no lleva artículo**: el posesivo ocupa el lugar de [[the]], así que nunca digas «the my car»; 3) si hay un adjetivo, el orden es posesivo + adjetivo + sustantivo: [[my new phone]]. Tampoco cambia con el género de la cosa: [[our house]] y [[our car]] usan la misma forma.",
+      "estructuras": [
+        {
+          "etiqueta": "Presentar con this is",
+          "formula": [
+            {
+              "t": "This",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "posesivo",
+              "rol": "otro"
+            },
+            {
+              "t": "sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "This",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "our",
+              "rol": "otro"
+            },
+            {
+              "t": "teacher",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Esta es nuestra maestra."
+        },
+        {
+          "etiqueta": "Posesivo dentro del sujeto",
+          "formula": [
+            {
+              "t": "posesivo + sustantivo",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Their house",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "big",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Su casa (de ellos) es grande."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pronombre personal → adjetivo posesivo",
+          "columnas": [
+            "Pronombre",
+            "Posesivo",
+            "Ejemplo",
+            "Traducción"
+          ],
+          "filas": [
+            [
+              "I",
+              "my",
+              "my phone",
+              "mi teléfono"
+            ],
+            [
+              "you",
+              "your",
+              "your keys",
+              "tus llaves / sus llaves (de usted o de ustedes)"
+            ],
+            [
+              "he",
+              "his",
+              "his car",
+              "su carro (de él)"
+            ],
+            [
+              "she",
+              "her",
+              "her car",
+              "su carro (de ella)"
+            ],
+            [
+              "it",
+              "its",
+              "its name",
+              "su nombre (de un animal o una cosa)"
+            ],
+            [
+              "we",
+              "our",
+              "our house",
+              "nuestra casa"
+            ],
+            [
+              "they",
+              "their",
+              "their parents",
+              "sus padres (de ellos o de ellas)"
+            ]
+          ],
+          "audio": [
+            1,
+            2
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Cada persona, su posesivo",
+        "centro": "¿De quién es?",
+        "ramas": [
+          {
+            "texto": "my",
+            "detalle": "I → mi, mis"
+          },
+          {
+            "texto": "your",
+            "detalle": "you → tu, tus / su, sus (usted, ustedes)"
+          },
+          {
+            "texto": "his",
+            "detalle": "he → su, sus (de él)"
+          },
+          {
+            "texto": "her",
+            "detalle": "she → su, sus (de ella)"
+          },
+          {
+            "texto": "its",
+            "detalle": "it → su, sus (de una cosa o animal)"
+          },
+          {
+            "texto": "our",
+            "detalle": "we → nuestro, nuestra, nuestros, nuestras"
+          },
+          {
+            "texto": "their",
+            "detalle": "they → su, sus (de ellos o de ellas)"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "My keys are in my bag.",
+          "es": "Mis llaves están en mi bolsa.",
+          "situacion": "Alguien busca sus llaves antes de salir.",
+          "partes": [
+            {
+              "t": "My keys",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "in my bag",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El español dice «mis llaves» y «mi bolsa»; el inglés dice [[my]] en los dos casos. Lo que se pone en plural es el sustantivo ([[keys]]) y el verbo ([[are]]), nunca el posesivo."
+        },
+        {
+          "en": "Is this your phone?",
+          "es": "¿Este es tu teléfono? / ¿Este es su teléfono?",
+          "situacion": "Encuentras un celular en una mesa de la oficina.",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "this",
+              "rol": "sujeto"
+            },
+            {
+              "t": "your phone",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[your]] sirve para «tu» (confianza), «su» (de usted) y «su» (de ustedes). El inglés no distingue trato formal ni número aquí."
+        },
+        {
+          "en": "Our teacher is from Canada.",
+          "es": "Nuestra maestra es de Canadá.",
+          "partes": [
+            {
+              "t": "Our teacher",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "from Canada",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El posesivo sustituye al artículo: nunca «the our teacher». Y [[our]] vale igual para maestro o maestra."
+        },
+        {
+          "en": "Their new house is very big.",
+          "es": "Su casa nueva (de ellos) es muy grande.",
+          "partes": [
+            {
+              "t": "Their new house",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very big",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Orden fijo: posesivo + adjetivo + sustantivo. En español el adjetivo va después («casa nueva»); en inglés, antes ([[new house]])."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "my",
+          "ipa": "/maɪ/",
+          "consejo": "Una sola sílaba: empieza con la «a» abierta del español y desliza la lengua hacia una «i» breve, como en «hay» con m delante. No la alargues en dos sílabas.",
+          "lento": true
+        },
+        {
+          "texto": "your",
+          "ipa": "/jʊr/ (también /jɔr/; GB /jɔː/)",
+          "consejo": "Empieza con una «y» suave (no la «ll» fuerte de algunas regiones), luego una vocal corta y redondeada, y termina con la r inglesa: la punta de la lengua se curva hacia atrás sin tocar el paladar.",
+          "lento": true
+        },
+        {
+          "texto": "our",
+          "ipa": "/ˈaʊər/ (muchos dicen /ɑr/; GB /ˈaʊə/)",
+          "consejo": "Suena casi como «áuer», con la r final inglesa. En el habla rápida se reduce a una sola sílaba parecida a are /ɑr/: no te sorprenda escuchar las dos.",
+          "lento": true
+        },
+        {
+          "texto": "their",
+          "ipa": "/ðɛr/ (GB /ðeə/)",
+          "consejo": "La th sonora: la punta de la lengua asoma entre los dientes y vibra, como una «d» muy suave. Después, una «e» abierta y la r inglesa. No digas «der» con d española.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The my brother is a doctor.",
+          "bien": "My brother is a doctor.",
+          "porque": "El posesivo ya ocupa el lugar del artículo. En español tampoco dices «el mi hermano»."
+        },
+        {
+          "mal": "Mys books are here.",
+          "bien": "My books are here.",
+          "porque": "El posesivo no tiene plural en inglés: [[my]] vale para mi y para mis."
+        },
+        {
+          "mal": "Is this you phone?",
+          "bien": "Is this your phone?",
+          "porque": "[[you]] es el pronombre sujeto (tú, usted); el posesivo es [[your]]. Suenan distinto: /ju/ frente a /jʊr/."
+        }
+      ]
+    },
+    {
+      "id": "su-segun-el-poseedor",
+      "titulo": "El gran calco: el «su» del español",
+      "que_es": "En español «su» sirve para todo: su carro puede ser de él, de ella, de usted, de ustedes o de ellos. El inglés te obliga a decir QUIÉN es el dueño: [[his]] si es un hombre, [[her]] si es una mujer, [[its]] si es una cosa o un animal, [[their]] si son varios, [[your]] si le hablas a la persona.",
+      "para_que": [
+        "Hablar de la familia de otra persona sin ambigüedad: [[Tom is with his mother.]]",
+        "Hablarle con respeto a alguien: [[Mr. Díaz, is this your umbrella?]]",
+        "Describir cosas y animales: [[The dog is in its bed.]]"
+      ],
+      "como_funciona": "Hazte siempre la pregunta «¿de quién?». La respuesta decide la palabra. Si el dueño es Tom, todo lo suyo es [[his]]: [[his mother]], [[his car]], [[his sisters]]. Si la dueña es Ana, todo lo suyo es [[her]]: [[her father]], [[her brothers]]. El género de la cosa poseída NO cuenta (en inglés los sustantivos no tienen género gramatical): «su madre», hablando de Tom, es [[his mother]], aunque madre sea femenino. Con varios dueños, sean hombres, mujeres o mezcla, usa [[their]]. Con animales y cosas se usa [[its]]; con una mascota querida, muchos hablantes dicen [[his]] o [[her]], y también es correcto.",
+      "estructuras": [
+        {
+          "etiqueta": "Dueño hombre → his",
+          "formula": [
+            {
+              "t": "Poseedor (él)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "… his + sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "with his mother",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Tom está con su mamá."
+        },
+        {
+          "etiqueta": "Dueña mujer → her",
+          "formula": [
+            {
+              "t": "Poseedora (ella)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "… her + sustantivo",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Ana",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "with her brother",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Ana está con su hermano."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Tom (él) → his",
+          "items": [
+            "his mother — su mamá",
+            "his car — su carro",
+            "his sisters — sus hermanas"
+          ]
+        },
+        "b": {
+          "titulo": "Ana (ella) → her",
+          "items": [
+            "her father — su papá",
+            "her car — su carro",
+            "her brothers — sus hermanos"
+          ]
+        },
+        "veredicto": "La palabra cambia con el dueño (Tom o Ana), no con lo que poseen. [[his mother]] y [[her father]] son perfectamente normales, aunque en español parezcan «cruzados»."
+      },
+      "ejemplos": [
+        {
+          "en": "Carlos is in the kitchen with his sister.",
+          "es": "Carlos está en la cocina con su hermana.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the kitchen with his sister",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[his]] porque la hermana es de Carlos, un hombre. Que sister sea femenino no importa."
+        },
+        {
+          "en": "Priya is at home with her son.",
+          "es": "Priya está en casa con su hijo.",
+          "partes": [
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "at home with her son",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[her]] porque la dueña es Priya. El hijo es hombre, pero eso no cambia nada."
+        },
+        {
+          "en": "The dog is in its bed.",
+          "es": "El perro está en su cama.",
+          "partes": [
+            {
+              "t": "The dog",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "in its bed",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[its]] para cosas y animales. Si es tu mascota y sabes si es macho o hembra, también puedes decir [[his bed]] o [[her bed]]."
+        },
+        {
+          "en": "Omar and Grace are in their car.",
+          "es": "Omar y Grace están en su carro.",
+          "partes": [
+            {
+              "t": "Omar and Grace",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "in their car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos dueños (un hombre y una mujer): [[their]]. Nunca uses his o her para un grupo."
+        },
+        {
+          "en": "Mr. Díaz, is this your umbrella?",
+          "es": "Señor Díaz, ¿este es su paraguas?",
+          "partes": [
+            {
+              "t": "Mr. Díaz,",
+              "rol": "otro"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "this",
+              "rol": "sujeto"
+            },
+            {
+              "t": "your umbrella",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Le hablas directamente al señor Díaz, así que es [[your]], no [[his]]. El «su» de usted siempre es [[your]]."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "his",
+          "ipa": "/hɪz/",
+          "consejo": "La h es solo aire, como cuando empañas un vidrio; no es la jota raspada del español. La i es corta y relajada, entre «i» y «e». Termina en z sonora: deja que vibre la garganta.",
+          "lento": true
+        },
+        {
+          "texto": "her",
+          "ipa": "/hɝ/ (GB /hɜː/)",
+          "consejo": "Una vocal que no existe en español: labios neutros y la lengua curvada hacia atrás desde el inicio, como si dijeras una r larga. No digas «jer» con e española.",
+          "lento": true
+        },
+        {
+          "texto": "its",
+          "ipa": "/ɪts/",
+          "consejo": "i corta y relajada, y termina en «ts» como en «tsunami». Suena exactamente igual que [[it's]]: solo la escritura las distingue."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Ana is with his brother.",
+          "bien": "Ana is with her brother.",
+          "porque": "La dueña es Ana, una mujer: [[her]]. El calco sale de pensar «hermano → masculino → his»."
+        },
+        {
+          "mal": "Tom is with her mother.",
+          "bien": "Tom is with his mother.",
+          "porque": "La madre es de Tom: [[his]]. El género de mother no decide el posesivo."
+        },
+        {
+          "mal": "Omar and Grace are with his parents.",
+          "bien": "Omar and Grace are with their parents.",
+          "porque": "Son dos poseedores: [[their]]."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Y si el «su» es ambiguo?",
+        "texto": "En español «Ana y Tom están en su casa» puede ser la casa de los dos, la de él o la de ella. En inglés tienes que decidir: [[their house]], [[his house]] o [[her house]]. Esa obligación hace que el inglés sea más preciso aquí.",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "its-y-homofonos",
+      "titulo": "its / it's, their / they're, your / you're",
+      "que_es": "Varias palabras suenan igual pero se escriben distinto: [[its]] (su, de una cosa) y [[it's]] (it is); [[their]] (su, de ellos), [[they're]] (they are) y [[there]] (allí); [[your]] (tu) y [[you're]] (you are). Al hablar no hay problema; al escribir, son errores muy visibles incluso para nativos.",
+      "para_que": [
+        "Escribir mensajes y correos sin errores de ortografía.",
+        "Entender que el apóstrofo en estas palabras significa que falta una letra, no posesión."
+      ],
+      "como_funciona": "La prueba de sustitución: lee la frase cambiando la palabra por su forma larga. Si [[it is]] tiene sentido, escribe [[it's]]; si no, escribe [[its]]. Si [[they are]] tiene sentido, [[they're]]; si hablas de algo que es de ellos, [[their]]. Lo mismo con [[you are]] / [[your]]. Los posesivos de los pronombres NUNCA llevan apóstrofo: [[its]], [[your]], [[their]], [[our]].",
+      "estructuras": [
+        {
+          "etiqueta": "it's = it is",
+          "formula": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "(= it is)",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a small dog",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Es un perro pequeño."
+        },
+        {
+          "etiqueta": "its + sustantivo",
+          "formula": [
+            {
+              "t": "Its + sustantivo",
+              "rol": "sujeto"
+            },
+            {
+              "t": "be",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Its name",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "Rex",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Se llama Rex. (Su nombre es Rex.)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Suenan igual, significan distinto",
+          "columnas": [
+            "Forma",
+            "Qué es",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "its",
+              "posesivo (de una cosa o animal)",
+              "The cat is in its box."
+            ],
+            [
+              "it's",
+              "it is",
+              "It's a nice cat."
+            ],
+            [
+              "their",
+              "posesivo (de ellos)",
+              "Their car is red."
+            ],
+            [
+              "they're",
+              "they are",
+              "They're from Peru."
+            ],
+            [
+              "there",
+              "allí / allá",
+              "My bag is there."
+            ],
+            [
+              "your",
+              "posesivo (tu, su)",
+              "Your coffee is ready."
+            ],
+            [
+              "you're",
+              "you are",
+              "You're very kind."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "It's my cat. Its name is Luna.",
+          "es": "Es mi gata. Se llama Luna.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "my cat.",
+              "rol": "complemento"
+            },
+            {
+              "t": "Its name",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "Luna",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Primera: [[It's]] = [[It is]] my cat (funciona la prueba). Segunda: «It is name is Luna» no tiene sentido, así que es [[Its]], el posesivo."
+        },
+        {
+          "en": "They're my neighbors, and that's their house.",
+          "es": "Son mis vecinos, y esa es su casa.",
+          "partes": [
+            {
+              "t": "They're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "my neighbors,",
+              "rol": "complemento"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "that's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "their house",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[They're]] = [[They are]]; [[their]] indica de quién es la casa. Se pronuncian igual: /ðɛr/."
+        },
+        {
+          "en": "You're right. Your keys are here.",
+          "es": "Tienes razón. Tus llaves están aquí.",
+          "partes": [
+            {
+              "t": "You're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "right.",
+              "rol": "complemento"
+            },
+            {
+              "t": "Your keys",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "here",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "[[You're right]] = [[You are right]] (en inglés «tener razón» se dice con be). [[Your keys]] = tus llaves."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "their / they're / there",
+          "ipa": "/ðɛr/",
+          "consejo": "Las tres suenan igual en el habla normal: th sonora (lengua entre los dientes, vibrando), «e» abierta y r inglesa. Solo el contexto te dice cuál es."
+        },
+        {
+          "texto": "your / you're",
+          "ipa": "/jʊr/",
+          "consejo": "También suenan igual en el habla rápida. [[you're]] puede sonar un poco más largo, pero no cuentes con esa diferencia."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "The dog is hungry. It's bowl is empty.",
+          "bien": "The dog is hungry. Its bowl is empty.",
+          "porque": "«It is bowl» no tiene sentido: aquí hace falta el posesivo [[its]], sin apóstrofo."
+        },
+        {
+          "mal": "Their from Mexico.",
+          "bien": "They're from Mexico.",
+          "porque": "Quieres decir [[They are]] from Mexico: la forma contraída es [[They're]]."
+        },
+        {
+          "mal": "Your welcome!",
+          "bien": "You're welcome!",
+          "porque": "Es [[You are]] welcome («de nada»): con apóstrofo, porque es la contracción de you are."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "posesivos.adjetivos-posesivos.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el posesivo correcto.",
+      "pregunta": "Priya está con su hermano. → Priya is with ___ brother.",
+      "opciones": [
+        {
+          "texto": "her",
+          "correcta": true,
+          "porque": "Correcto: la dueña es Priya, una mujer, así que el posesivo es her, aunque el hermano sea hombre."
+        },
+        {
+          "texto": "his",
+          "correcta": false,
+          "porque": "his sería si el dueño fuera un hombre. Aquí el hermano es de Priya: el género de brother no decide."
+        },
+        {
+          "texto": "she",
+          "correcta": false,
+          "porque": "she es el pronombre sujeto (ella). Delante de un sustantivo necesitas el posesivo."
+        },
+        {
+          "texto": "their",
+          "correcta": false,
+          "porque": "their es para varios dueños. Priya es una sola persona."
+        }
+      ],
+      "pistas": [
+        "Recuerda: el posesivo depende de quién es el dueño.",
+        "Pregúntate: ¿de quién es el hermano?",
+        "Si la dueña es una mujer, el posesivo es el de she, sea lo que sea lo que posee."
+      ],
+      "solucion": {
+        "respuesta": "her",
+        "explicacion": "La respuesta correcta es her porque el hermano es de Priya, una mujer. En inglés el posesivo concuerda con el poseedor, no con la cosa poseída: her brother, her sister, her car."
+      },
+      "audio": true
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el posesivo adecuado.",
+      "frase": "We are students. ___ school is very small.",
+      "traduccion": "Somos estudiantes. Nuestra escuela es muy pequeña.",
+      "banco": [
+        "Our",
+        "We",
+        "Us",
+        "Their"
+      ],
+      "respuestas": [
+        [
+          "Our"
+        ]
+      ],
+      "errores_tipicos": {
+        "We": "We es el pronombre sujeto (nosotros). Delante de un sustantivo necesitas el posesivo.",
+        "Their": "Their es de ellos. Aquí la escuela es de nosotros (we)."
+      },
+      "pistas": [
+        "Cada pronombre sujeto tiene su posesivo.",
+        "El sujeto de la primera oración es we.",
+        "El posesivo de we es la palabra que significa «nuestro/nuestra»."
+      ],
+      "solucion": {
+        "respuesta": "Our",
+        "explicacion": "La respuesta correcta es Our porque la escuela es de nosotros (we), y el posesivo de we es our. Fíjate en que no lleva artículo: nunca «the our school»."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pronombre sujeto con su adjetivo posesivo.",
+      "pares": [
+        {
+          "a": "I",
+          "b": "my"
+        },
+        {
+          "a": "you",
+          "b": "your"
+        },
+        {
+          "a": "he",
+          "b": "his"
+        },
+        {
+          "a": "she",
+          "b": "her"
+        },
+        {
+          "a": "it",
+          "b": "its"
+        },
+        {
+          "a": "we",
+          "b": "our"
+        },
+        {
+          "a": "they",
+          "b": "their"
+        }
+      ],
+      "pistas": [
+        "Cada pronombre tiene un solo posesivo.",
+        "Fíjate en las letras compartidas: you → your, it → its.",
+        "Regla: el posesivo de she se escribe igual que su forma de objeto; el de they empieza igual que they; el de he empieza con h."
+      ],
+      "solucion": {
+        "respuesta": "I-my, you-your, he-his, she-her, it-its, we-our, they-their",
+        "explicacion": "Estas son las siete parejas. Apréndelas como bloque: el pronombre es quien hace algo (She is here) y el posesivo dice de quién es algo (Her bag is here)."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa los dos huecos. Hablamos de Tom.",
+      "frase": "Tom is at home with ___ mother and ___ sisters.",
+      "traduccion": "Tom está en casa con su mamá y sus hermanas.",
+      "respuestas": [
+        [
+          "his"
+        ],
+        [
+          "his"
+        ]
+      ],
+      "errores_tipicos": {
+        "her | her": "Pensaste en mother y sisters (femeninas). Pero el dueño es Tom, un hombre: his en los dos huecos.",
+        "his | her": "El segundo hueco también es de Tom: son las hermanas de Tom, así que his.",
+        "his | hers": "El posesivo no se pone en plural ni cambia con sisters: his sirve para su y sus."
+      },
+      "pistas": [
+        "El posesivo depende del dueño, no de la cosa.",
+        "¿De quién son la mamá y las hermanas?",
+        "Dueño hombre → his, tanto para singular como para plural."
+      ],
+      "solucion": {
+        "respuesta": "his / his",
+        "explicacion": "La respuesta correcta es his en los dos huecos porque la mamá y las hermanas son de Tom, un hombre. El género de mother y sisters no importa, y el posesivo tampoco se pone en plural: his mother, his sisters."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con its o it's.",
+      "frase": "The cat is hungry. ___ bowl is empty.",
+      "traduccion": "El gato tiene hambre. Su plato está vacío.",
+      "respuestas": [
+        [
+          "Its"
+        ]
+      ],
+      "errores_tipicos": {
+        "It's": "Haz la prueba: «It is bowl is empty» no tiene sentido. Aquí hace falta el posesivo, que nunca lleva apóstrofo.",
+        "His": "His es para un dueño hombre. Para un animal del que no sabemos si es macho o hembra, el posesivo es its."
+      },
+      "pistas": [
+        "its y it's suenan igual, pero una es posesivo y la otra es it is.",
+        "Prueba a leer la frase con it is en el hueco.",
+        "Si it is no tiene sentido, escribe el posesivo, sin apóstrofo."
+      ],
+      "solucion": {
+        "respuesta": "Its",
+        "explicacion": "La respuesta correcta es Its porque el plato es del gato: necesitamos un posesivo. It's significa it is, y «It is bowl is empty» no tiene sentido. Los posesivos de los pronombres no llevan apóstrofo."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "Sam y Lucía están con sus hijos. → Sam and Lucía are with ___ children.",
+      "opciones": [
+        {
+          "texto": "their",
+          "correcta": true,
+          "porque": "Correcto: hay dos dueños (Sam y Lucía), así que el posesivo es their."
+        },
+        {
+          "texto": "they're",
+          "correcta": false,
+          "porque": "they're es they are. «with they are children» no tiene sentido."
+        },
+        {
+          "texto": "there",
+          "correcta": false,
+          "porque": "there significa allí. Suena igual que their, pero no indica posesión."
+        },
+        {
+          "texto": "his",
+          "correcta": false,
+          "porque": "his es para un solo dueño hombre. Los hijos son de los dos."
+        }
+      ],
+      "pistas": [
+        "Cuenta cuántos dueños hay.",
+        "Tres palabras suenan igual: their, they're y there. Solo una es posesivo.",
+        "Varios dueños → el posesivo de they, sin apóstrofo."
+      ],
+      "solucion": {
+        "respuesta": "their",
+        "explicacion": "La respuesta correcta es their porque los hijos son de Sam y Lucía, dos personas: el posesivo de they es their. They're (they are) y there (allí) suenan igual, pero no expresan posesión."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y corrígela.",
+      "frase": "Ana is in the car with his husband.",
+      "error": "his",
+      "correcciones": [
+        "her"
+      ],
+      "frase_correcta": "Ana is in the car with her husband.",
+      "pistas": [
+        "Mira los posesivos de la oración.",
+        "¿De quién es el esposo?",
+        "El posesivo se elige por el dueño: si es una mujer, se usa el posesivo de she."
+      ],
+      "solucion": {
+        "respuesta": "his → her",
+        "explicacion": "El error está en his. El esposo es de Ana, una mujer, así que el posesivo es her: her husband. Es el calco típico de pensar «esposo es masculino → his»."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce. Le hablas al señor Pérez. Usa suitcase para «maleta».",
+      "es": "Señor Pérez, ¿esta es su maleta?",
+      "respuestas": [
+        "Mr. Pérez, is this your suitcase?",
+        "Mr. Perez, is this your suitcase?",
+        "Is this your suitcase, Mr. Pérez?",
+        "Is this your suitcase, Mr. Perez?"
+      ],
+      "errores_tipicos": {
+        "Mr. Pérez, is this his suitcase?": "Le hablas directamente al señor Pérez (usted): el «su» de usted es your, no his."
+      },
+      "pistas": [
+        "El «su» de usted se traduce igual que el de tú.",
+        "Es una pregunta con be: ¿qué va primero, is o this?",
+        "Estructura: be + demostrativo + posesivo + sustantivo + ? (como en Is that her car?)."
+      ],
+      "solucion": {
+        "respuesta": "Mr. Pérez, is this your suitcase?",
+        "explicacion": "Como le hablas al señor Pérez, el «su» es de usted y se traduce your. La pregunta con be invierte el orden: Is this your suitcase? (no «This is…?»)."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "Their daughter is in our class.",
+      "pistas": [
+        "Son dos posesivos que suenan parecido a otras palabras.",
+        "La primera palabra suena como they're y there: piensa cuál indica posesión.",
+        "Posesivo de they + daughter; y el posesivo de we delante de class."
+      ],
+      "solucion": {
+        "respuesta": "Their daughter is in our class.",
+        "explicacion": "Their (de ellos) suena igual que they're y there; aquí es el posesivo porque va delante de daughter. Our (de nosotros) suele sonar casi como are, pero delante de class tiene que ser el posesivo."
+      },
+      "audio": true
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.10",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Cambia el sujeto y ajusta el posesivo.",
+      "origen": "Tom is in his room with his friends.",
+      "instruccion": "Cambia Tom por Ana.",
+      "respuestas": [
+        "Ana is in her room with her friends."
+      ],
+      "errores_tipicos": {
+        "Ana is in his room with his friends.": "Si la dueña ahora es Ana, los dos posesivos cambian a her.",
+        "Ana is in her room with his friends.": "Los amigos también son de Ana: her friends."
+      },
+      "pistas": [
+        "Si cambia el dueño, cambian los posesivos.",
+        "Hay dos posesivos en la oración.",
+        "Regla: el posesivo cambia según el nuevo dueño, en todos los lugares donde aparece."
+      ],
+      "solucion": {
+        "respuesta": "Ana is in her room with her friends.",
+        "explicacion": "Al cambiar el sujeto a Ana, el cuarto y los amigos pasan a ser de una mujer: his → her en los dos lugares. El verbo is no cambia porque Ana también es tercera persona del singular."
+      }
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.11",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Cuida la h aspirada y la th.",
+      "texto": "Her brother and his sister are in their car.",
+      "ipa": "/hɝ ˈbrʌðər ən hɪz ˈsɪstər ɑr ɪn ðɛr kɑr/",
+      "consejo": "her y his empiezan con aire, no con jota. En her la lengua ya está curvada para la r. En their la lengua asoma entre los dientes. and se reduce a /ən/ en el habla normal.",
+      "es": "Su hermano (de ella) y su hermana (de él) están en su carro (de ellos)."
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la pregunta que hace Diego.",
+      "contexto": "Grace le enseña a Diego una foto. Diego quiere saber cómo se llama la esposa de Omar.",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "This is my friend Omar. And this woman is his wife.",
+          "es": "Este es mi amigo Omar. Y esta mujer es su esposa."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Oh, nice! What's her name?",
+          "correcta": true,
+          "porque": "Correcto: preguntas por el nombre de la esposa, una mujer, así que es her name."
+        },
+        {
+          "texto": "Oh, nice! What's his name?",
+          "correcta": false,
+          "porque": "his name sería el nombre de un hombre (Omar), y ese ya lo sabes."
+        },
+        {
+          "texto": "Oh, nice! What's she name?",
+          "correcta": false,
+          "porque": "she es pronombre sujeto; delante de name hace falta el posesivo her."
+        },
+        {
+          "texto": "Oh, nice! What's your name?",
+          "correcta": false,
+          "porque": "your name es el nombre de Grace, la persona con la que hablas."
+        }
+      ],
+      "pistas": [
+        "Piensa de quién es el nombre que quieres saber.",
+        "El nombre es de la esposa, no de Omar ni de Grace.",
+        "Dueña mujer (y no le hablas a ella) → el posesivo de she."
+      ],
+      "solucion": {
+        "respuesta": "Oh, nice! What's her name?",
+        "explicacion": "Diego pregunta por el nombre de la esposa de Omar, una mujer de la que habla con Grace: her name. his sería de un hombre, she es un pronombre sujeto y your sería el nombre de Grace."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Presenta a tu familia con una foto",
+    "contexto": "Un compañero de trabajo, Ben, ve una foto de tu familia en tu celular y te pregunta quién es cada persona.",
+    "dialogo": [
+      {
+        "quien": "Ben",
+        "en": "Is this a photo of your family?",
+        "es": "¿Esta es una foto de tu familia?"
+      },
+      {
+        "quien": "Tú",
+        "en": "Yes, it is. This is my sister…",
+        "es": "Sí. Esta es mi hermana…"
+      },
+      {
+        "quien": "Ben",
+        "en": "And who is this man?",
+        "es": "¿Y quién es este señor?"
+      }
+    ],
+    "tu_turno": "Presenta al menos a tres personas de tu familia: di quiénes son y cómo se llaman, usando his, her o their según corresponda.",
+    "modelo": "This is my sister. Her name is Laura. This is my dad. His name is Jorge. And these are my cousins. Their names are Ana and Luis.",
+    "alternativas": [
+      "This man is my uncle. His name is Pedro, and this is his wife, Rosa.",
+      "These are my grandparents. Their house is in Puebla."
+    ],
+    "claves": [
+      "This is my… / These are my… para presentar.",
+      "His name is… para un hombre; Her name is… para una mujer; Their names are… para varios.",
+      "El posesivo no se pone en plural: my cousins, their names."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "my, your, his, her, its, our, their van delante del sustantivo, sin artículo y sin plural: my books.",
+      "El posesivo depende del DUEÑO: Tom → his mother; Ana → her brother.",
+      "El «su» de usted y de ustedes es your; el de ellos, their; el de una cosa o animal, its."
+    ],
+    "recuerda": [
+      "its (posesivo) ≠ it's (it is). Los posesivos de pronombres nunca llevan apóstrofo.",
+      "their, they're y there suenan igual; your y you're también."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "posesivos.adjetivos-posesivos.r1",
+      "frente": "¿Cómo se dice «su hermana» hablando de Carlos?",
+      "reverso": "his sister → Carlos is with his sister.",
+      "nota": "El posesivo depende del dueño (Carlos), no de sister."
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.r2",
+      "frente": "¿Cuál es el posesivo de they?",
+      "reverso": "their → Their house is big.",
+      "nota": "No confundir con they're (they are) ni con there (allí)."
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.r3",
+      "frente": "¿its o it's? «The dog is in ___ bed.»",
+      "reverso": "its → The dog is in its bed.",
+      "nota": "it's = it is. El posesivo no lleva apóstrofo."
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.r4",
+      "frente": "¿Cómo se dice «mis libros»?",
+      "reverso": "my books",
+      "nota": "El posesivo nunca se pone en plural."
+    },
+    {
+      "id": "posesivos.adjetivos-posesivos.r5",
+      "frente": "«Señora López, ¿esta es su bolsa?»",
+      "reverso": "Mrs. López, is this your bag?",
+      "nota": "El «su» de usted es your."
+    }
+  ]
+}

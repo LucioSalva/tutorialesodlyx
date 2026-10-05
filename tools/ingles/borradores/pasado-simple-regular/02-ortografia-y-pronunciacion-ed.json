@@ -1,0 +1,933 @@
+{
+  "slug": "ortografia-y-pronunciacion-ed",
+  "titulo": "Ortografía y pronunciación de -ed",
+  "minutos": 50,
+  "objetivos": [
+    "Escribir correctamente el pasado de los verbos regulares: liked, stopped, studied, played, traveled.",
+    "Pronunciar -ed como /t/, /d/ o /ɪd/ según el sonido final del verbo.",
+    "Evitar el error de pronunciar siempre «-ed» como una sílaba extra."
+  ],
+  "situacion": {
+    "titulo": "El mensaje de voz",
+    "texto": "Diego le deja un mensaje de voz a su amiga Priya. Si lo escucharas, notarías que ninguno de los verbos termina en «ed» tal como se escribe: worked suena «workt», played suena «pleid» y solo wanted tiene una sílaba más. Y en el texto escrito, fíjate en stopped (con dos p) y en studied (con i).",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Hi, Priya! Sorry, I worked late and I only stopped at eight.",
+        "es": "¡Hola, Priya! Perdón, trabajé hasta tarde y solo paré a las ocho."
+      },
+      {
+        "quien": "Diego",
+        "en": "Then I studied for my exam and played a little guitar.",
+        "es": "Luego estudié para mi examen y toqué un poco la guitarra."
+      },
+      {
+        "quien": "Diego",
+        "en": "I wanted to call you, but it was very late. Talk tomorrow!",
+        "es": "Quería llamarte, pero ya era muy tarde. ¡Hablamos mañana!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "ortografia-ed",
+      "titulo": "Cómo se escribe: las reglas de -ed",
+      "que_es": "Casi siempre basta con añadir -ed, pero en algunos casos la palabra cambia un poco al escribirla. Son reglas de ortografía: no cambian el significado ni (salvo -ied) el sonido, pero un «studyed» o un «stoped» se nota mucho por escrito.",
+      "para_que": [
+        "Escribir mensajes, correos y textos sin errores de ortografía.",
+        "Reconocer el pasado de un verbo aunque se escriba distinto de su base."
+      ],
+      "como_funciona": "**1. Regla general: + -ed.** work → worked, open → opened, visit → visited. **2. Termina en -e: solo + -d.** like → liked, dance → danced, arrive → arrived. **3. Consonante + y: la y cambia a i + -ed.** study → studied, try → tried, carry → carried. **4. Vocal + y: + -ed sin cambios.** play → played, stay → stayed, enjoy → enjoyed. (Dos verbos muy comunes terminan en vocal + y y son irregulares: pay → paid, say → said. Los verás en la unidad siguiente.) **5. Consonante–vocal–consonante con la última sílaba acentuada: se duplica la última consonante.** stop → stopped, plan → planned, chat → chatted, prefer → preferred. Si la última sílaba NO lleva el acento, no se duplica: VIS-it → visited, O-pen → opened, LIS-ten → listened, HAP-pen → happened. Y nunca se duplican w, x ni y: show → showed, fix → fixed, relax → relaxed. **6. Un caso con dos ortografías: la -l final.** En EE. UU. no se duplica si la sílaba no está acentuada: travel → traveled, cancel → canceled. En Reino Unido sí: travelled, cancelled. Las dos son correctas; solo sé coherente.",
+      "estructuras": [
+        {
+          "etiqueta": "Consonante + y",
+          "formula": [
+            {
+              "t": "stud",
+              "rol": "verbo"
+            },
+            {
+              "t": "y → i",
+              "rol": "otro"
+            },
+            {
+              "t": "+ ed",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "studied",
+              "rol": "verbo"
+            },
+            {
+              "t": "all night",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Estudié toda la noche."
+        },
+        {
+          "etiqueta": "CVC acentuada: duplicar",
+          "formula": [
+            {
+              "t": "stop",
+              "rol": "verbo"
+            },
+            {
+              "t": "+ p",
+              "rol": "otro"
+            },
+            {
+              "t": "+ ed",
+              "rol": "verbo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "The bus",
+              "rol": "sujeto"
+            },
+            {
+              "t": "stopped",
+              "rol": "verbo"
+            },
+            {
+              "t": "suddenly",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El camión se detuvo de repente."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Las reglas de ortografía",
+          "columnas": [
+            "Caso",
+            "Regla",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "La mayoría",
+              "+ ed",
+              "worked, opened, visited"
+            ],
+            [
+              "Termina en -e",
+              "+ d",
+              "liked, danced, arrived"
+            ],
+            [
+              "Consonante + y",
+              "y → ied",
+              "studied, tried, carried"
+            ],
+            [
+              "Vocal + y",
+              "+ ed",
+              "played, stayed, enjoyed"
+            ],
+            [
+              "CVC con acento final",
+              "duplica + ed",
+              "stopped, planned, preferred"
+            ],
+            [
+              "CVC sin acento final",
+              "+ ed",
+              "visited, opened, listened"
+            ],
+            [
+              "Termina en w, x",
+              "+ ed (sin duplicar)",
+              "showed, fixed, relaxed"
+            ],
+            [
+              "-l sin acento",
+              "EE. UU.: + ed · R. U.: ll + ed",
+              "traveled / travelled"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "We tried the new restaurant.",
+          "es": "Probamos el restaurante nuevo.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "tried",
+              "rol": "verbo"
+            },
+            {
+              "t": "the new restaurant",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Try termina en consonante (r) + y: la y cambia a i → tried."
+        },
+        {
+          "en": "The kids played in the park.",
+          "es": "Los niños jugaron en el parque.",
+          "partes": [
+            {
+              "t": "The kids",
+              "rol": "sujeto"
+            },
+            {
+              "t": "played",
+              "rol": "verbo"
+            },
+            {
+              "t": "in the park",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Play termina en vocal (a) + y: se añade -ed sin cambiar nada. «plaied» es un error."
+        },
+        {
+          "en": "We planned the trip in January.",
+          "es": "Planeamos el viaje en enero.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "planned",
+              "rol": "verbo"
+            },
+            {
+              "t": "the trip",
+              "rol": "complemento"
+            },
+            {
+              "t": "in January",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Plan: consonante–vocal–consonante (termina en l-a-n) en una sílaba acentuada → se duplica la n."
+        },
+        {
+          "en": "She visited her aunt.",
+          "es": "Visitó a su tía.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "visited",
+              "rol": "verbo"
+            },
+            {
+              "t": "her aunt",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Visit termina en vocal + consonante, pero el acento va en VIS-, no en -it: no se duplica. «visitted» es un error."
+        },
+        {
+          "en": "My dad fixed the car.",
+          "es": "Mi papá arregló el carro.",
+          "partes": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "fixed",
+              "rol": "verbo"
+            },
+            {
+              "t": "the car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La x nunca se duplica: fixed."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Cinco caminos para escribir -ed",
+        "centro": "verbo + -ed",
+        "ramas": [
+          {
+            "texto": "worked",
+            "detalle": "regla general: + ed"
+          },
+          {
+            "texto": "liked",
+            "detalle": "termina en -e: + d"
+          },
+          {
+            "texto": "studied",
+            "detalle": "consonante + y → ied"
+          },
+          {
+            "texto": "played",
+            "detalle": "vocal + y → + ed"
+          },
+          {
+            "texto": "stopped",
+            "detalle": "CVC acentuada: duplica"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "studied",
+          "ipa": "/ˈstʌdid/",
+          "consejo": "Dos sílabas: STUD-id. La i de -ied suena como una «i» española corta y la d final es suave. La primera vocal /ʌ/ es una «a» relajada, con la boca poco abierta. No añadas una «e» delante: es «stádid», no «estádid».",
+          "lento": true
+        },
+        {
+          "texto": "stopped",
+          "ipa": "/stɑpt/ (GB /stɒpt/)",
+          "consejo": "Duplicar la p es solo ortografía: suena igual que con una p. Una sílaba: «stapt». Empieza directamente con la s, sin «e» de apoyo, y cierra los labios para la p antes de la t final."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I studyed English.",
+          "bien": "I studied English.",
+          "porque": "Study termina en consonante (d) + y: la y cambia a i y se añade -ed."
+        },
+        {
+          "mal": "We plaied cards.",
+          "bien": "We played cards.",
+          "porque": "Play termina en vocal (a) + y: la y se queda y solo se añade -ed."
+        },
+        {
+          "mal": "The bus stoped.",
+          "bien": "The bus stopped.",
+          "porque": "Stop es consonante–vocal–consonante en una sílaba acentuada: se duplica la p."
+        },
+        {
+          "mal": "They visitted the museum.",
+          "bien": "They visited the museum.",
+          "porque": "El acento de visit está en la primera sílaba (VIS-it), así que la t no se duplica."
+        }
+      ]
+    },
+    {
+      "id": "pronunciacion-ed",
+      "titulo": "Cómo se pronuncia: /t/, /d/ o /ɪd/",
+      "que_es": "La terminación -ed se escribe siempre igual, pero se pronuncia de **tres maneras**: /t/, /d/ o /ɪd/. Lo que decide cuál usar es el **último sonido** del verbo (no la última letra). Y lo más importante: **solo en un caso** (/ɪd/) la terminación añade una sílaba. En todos los demás, worked, played o liked siguen teniendo una sola sílaba.",
+      "para_que": [
+        "Que te entiendan cuando hablas del pasado.",
+        "Reconocer el pasado al escuchar, aunque la -ed casi no se oiga.",
+        "Evitar el acento típico de pronunciar «work-ed», «play-ed»."
+      ],
+      "como_funciona": "Primero, aprende a distinguir sonidos **sordos** y **sonoros**. Pon los dedos en tu garganta y di «sssss»: no vibra, es sordo. Ahora di «zzzzz»: vibra, es sonoro. **1. /ɪd/ (sílaba extra):** solo si el verbo termina en sonido /t/ o /d/: want → wanted /ˈwɑntɪd/, need → needed /ˈnidɪd/, visit → visited, start → started, decide → decided. Tiene lógica: una /t/ o /d/ justo después de otra /t/ o /d/ no se oiría, así que se mete una vocal. **2. /t/:** si el verbo termina en un sonido sordo (/p/, /k/, /f/, /s/, /ʃ/ de sh, /tʃ/ de ch): stopped /stɑpt/, worked /wɝkt/, laughed /læft/, danced /dænst/, washed /wɑʃt/, watched /wɑtʃt/. La garganta no vibra en el último sonido del verbo, así que la -ed tampoco vibra. **3. /d/:** si el verbo termina en un sonido sonoro (todas las vocales y /b/, /g/, /v/, /z/, /m/, /n/, /l/, /r/, /dʒ/): played /pleɪd/, called /kɔld/, lived /lɪvd/, cleaned /klind/, used /juzd/. **Manda el sonido, no la letra:** liked termina en letra e, pero el último sonido de like es /k/ → /laɪkt/; danced termina en e, pero su último sonido es /s/ → /dænst/; fixed termina en x, que suena /ks/ → /fɪkst/. En la conversación rápida, la /t/ o /d/ final casi desaparece delante de otra consonante (I watched TV); por eso las expresiones de tiempo (yesterday, last night) ayudan tanto a entender.",
+      "estructuras": [
+        {
+          "etiqueta": "Sílaba extra solo tras /t/ o /d/",
+          "formula": [
+            {
+              "t": "verbo terminado en /t/ o /d/",
+              "rol": "verbo"
+            },
+            {
+              "t": "+ /ɪd/",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "waited",
+              "rol": "verbo"
+            },
+            {
+              "t": "for an hour",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Esperamos una hora."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los tres sonidos de -ed",
+          "columnas": [
+            "Sonido",
+            "Cuándo",
+            "Ejemplos"
+          ],
+          "filas": [
+            [
+              "/t/",
+              "tras sonido sordo: /p k f s ʃ tʃ/",
+              "stopped, worked, laughed, danced, washed, watched, liked, fixed"
+            ],
+            [
+              "/d/",
+              "tras vocal o sonido sonoro: /b g v z m n l r dʒ/",
+              "played, called, lived, cleaned, stayed, used, changed"
+            ],
+            [
+              "/ɪd/",
+              "tras /t/ o /d/ (sílaba extra)",
+              "wanted, needed, visited, started, decided, waited"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I washed my car.",
+          "es": "Lavé mi carro.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "washed",
+              "rol": "verbo"
+            },
+            {
+              "t": "my car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Washed /wɑʃt/: una sílaba. Sh es sordo, así que -ed suena /t/."
+        },
+        {
+          "en": "She called her boss.",
+          "es": "Llamó a su jefe.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "called",
+              "rol": "verbo"
+            },
+            {
+              "t": "her boss",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Called /kɔld/: la l es sonora, así que -ed suena /d/. Una sílaba."
+        },
+        {
+          "en": "They needed more time.",
+          "es": "Necesitaban más tiempo.",
+          "partes": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "needed",
+              "rol": "verbo"
+            },
+            {
+              "t": "more time",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Needed /ˈnidɪd/: need termina en /d/, así que -ed añade la sílaba /ɪd/: NEED-id."
+        },
+        {
+          "en": "He liked the movie.",
+          "es": "Le gustó la película.",
+          "partes": [
+            {
+              "t": "He",
+              "rol": "sujeto"
+            },
+            {
+              "t": "liked",
+              "rol": "verbo"
+            },
+            {
+              "t": "the movie",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Liked /laɪkt/: se escribe con e, pero el último sonido de like es /k/ (sordo) → /t/. Una sílaba: «laikt»."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Una sílaba (la mayoría)",
+          "items": [
+            "worked /wɝkt/",
+            "played /pleɪd/",
+            "liked /laɪkt/",
+            "cleaned /klind/"
+          ]
+        },
+        "b": {
+          "titulo": "Una sílaba más (solo tras /t/ o /d/)",
+          "items": [
+            "wanted /ˈwɑntɪd/",
+            "needed /ˈnidɪd/",
+            "visited /ˈvɪzɪtɪd/",
+            "started /ˈstɑrtɪd/"
+          ]
+        },
+        "veredicto": "Si el verbo no termina en /t/ ni en /d/, el pasado tiene exactamente las mismas sílabas que la forma base (work y worked: una; clean y cleaned: una). Si termina en /t/ o /d/, gana una: want tiene una sílaba y wanted, dos; visit tiene dos y visited, tres."
+      },
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Cómo suena -ed?",
+        "centro": "-ed",
+        "ramas": [
+          {
+            "texto": "/t/",
+            "detalle": "tras sonido sordo: worked, washed, liked"
+          },
+          {
+            "texto": "/d/",
+            "detalle": "tras sonido sonoro: played, called, lived"
+          },
+          {
+            "texto": "/ɪd/",
+            "detalle": "tras /t/ o /d/: wanted, needed"
+          }
+        ]
+      },
+      "pronunciacion": [
+        {
+          "texto": "worked · played · wanted",
+          "ipa": "/wɝkt/ · /pleɪd/ · /ˈwɑntɪd/",
+          "consejo": "Cuenta las sílabas con los dedos: worked, una; played, una; wanted, dos. En worked la garganta no vibra al final (/kt/); en played sí vibra (/d/); en wanted hay una «id» corta y relajada al final.",
+          "lento": true
+        },
+        {
+          "texto": "watched",
+          "ipa": "/wɑtʃt/",
+          "consejo": "Una sola sílaba que termina en «ch» + t: «wacht». No digas «wá-ched». La t es tan corta que casi solo se nota como un corte del aire."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "worked pronunciado «wor-ked» (dos sílabas)",
+          "bien": "worked /wɝkt/ (una sílaba)",
+          "porque": "La sílaba extra /ɪd/ solo aparece tras /t/ o /d/. Work termina en /k/, así que -ed es solo una /t/."
+        },
+        {
+          "mal": "liked pronunciado «lai-ked»",
+          "bien": "liked /laɪkt/",
+          "porque": "La e de like no suena; el último sonido es /k/, sordo, así que -ed es /t/."
+        },
+        {
+          "mal": "wanted pronunciado «want» (sin sílaba final)",
+          "bien": "wanted /ˈwɑntɪd/",
+          "porque": "Tras /t/ la terminación sí añade una sílaba. Si la quitas, suena a presente (want)."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el pasado bien escrito de study.",
+      "pregunta": "Last night I ___ for three hours.",
+      "opciones": [
+        {
+          "texto": "studied",
+          "correcta": true,
+          "porque": "Study termina en consonante (d) + y: y → i + ed."
+        },
+        {
+          "texto": "studyed",
+          "correcta": false,
+          "porque": "Cuando hay consonante antes de la y, la y cambia a i."
+        },
+        {
+          "texto": "studed",
+          "correcta": false,
+          "porque": "No se elimina la y: se convierte en i."
+        },
+        {
+          "texto": "studyied",
+          "correcta": false,
+          "porque": "La y no se conserva: se sustituye por i."
+        }
+      ],
+      "pistas": [
+        "Mira las dos últimas letras de study.",
+        "¿La letra antes de la y es vocal o consonante?",
+        "Consonante + y → la y cambia a i y se añade -ed."
+      ],
+      "solucion": {
+        "respuesta": "studied",
+        "explicacion": "La respuesta es studied: antes de la y hay una consonante (d), así que la y se convierte en i y se añade -ed. Compara con play → played, donde antes de la y hay una vocal."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada verbo con su pasado bien escrito.",
+      "pares": [
+        {
+          "a": "try",
+          "b": "tried"
+        },
+        {
+          "a": "stay",
+          "b": "stayed"
+        },
+        {
+          "a": "plan",
+          "b": "planned"
+        },
+        {
+          "a": "open",
+          "b": "opened"
+        },
+        {
+          "a": "fix",
+          "b": "fixed"
+        },
+        {
+          "a": "like",
+          "b": "liked"
+        }
+      ],
+      "pistas": [
+        "Cada verbo sigue una regla de ortografía distinta.",
+        "Fíjate en la última letra y en la sílaba acentuada.",
+        "Consonante + y → ied; vocal + y → ed; CVC con la última sílaba acentuada → duplica; sílaba final sin acento, o x / w al final → no duplica; -e final → solo -d."
+      ],
+      "solucion": {
+        "respuesta": "tried · stayed · planned · opened · fixed · liked",
+        "explicacion": "Try cambia la y por i (consonante + y). Stay conserva la y (vocal + y). Plan duplica la n (CVC en sílaba acentuada). Open no duplica porque el acento está en O-pen. Fix no duplica porque la x nunca se duplica. Like solo añade -d porque ya termina en -e."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de stop, play y dance (en ese orden).",
+      "frase": "The music ___ at ten, but the kids ___ and ___ in the yard until midnight.",
+      "traduccion": "La música paró a las diez, pero los niños jugaron y bailaron en el patio hasta la medianoche.",
+      "respuestas": [
+        [
+          "stopped"
+        ],
+        [
+          "played"
+        ],
+        [
+          "danced"
+        ]
+      ],
+      "errores_tipicos": {
+        "stoped | played | danced": "Stop duplica la p: stopped (consonante–vocal–consonante acentuada).",
+        "stopped | plaied | danced": "Play termina en vocal + y: played, sin cambiar la y.",
+        "stopped | played | danceed": "Dance ya termina en -e: solo se añade -d → danced."
+      },
+      "pistas": [
+        "Cada verbo tiene una regla de ortografía distinta.",
+        "stop: ¿CVC acentuada? play: ¿vocal + y? dance: ¿termina en -e?",
+        "CVC con la última sílaba acentuada → duplica la consonante; vocal + y → solo -ed; termina en -e → solo -d."
+      ],
+      "solucion": {
+        "respuesta": "stopped · played · danced",
+        "explicacion": "Stop es consonante–vocal–consonante en una sílaba acentuada: duplica la p (stopped). Play termina en vocal + y: solo -ed (played). Dance termina en -e: solo -d (danced)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de travel. Vale la ortografía de EE. UU. o la británica.",
+      "frase": "My sister ___ to Canada last summer.",
+      "traduccion": "Mi hermana viajó a Canadá el verano pasado.",
+      "respuestas": [
+        [
+          "traveled",
+          "travelled"
+        ]
+      ],
+      "errores_tipicos": {
+        "travelld": "Falta la e: travel + ed → traveled (o travelled)."
+      },
+      "pistas": [
+        "Travel termina en -l y su acento está en la primera sílaba (TRAV-el).",
+        "Aquí el inglés estadounidense y el británico escriben distinto.",
+        "En EE. UU. la l final solo se duplica si la última sílaba lleva el acento (TRAV-el no lo lleva); en R. U. se duplica tras vocal corta, como cancel → cancelled."
+      ],
+      "solucion": {
+        "respuesta": "traveled (EE. UU.) / travelled (R. U.)",
+        "explicacion": "Travel tiene el acento en la primera sílaba. En EE. UU. no se duplica la l: traveled. En Reino Unido, la l final tras una sola vocal se duplica: travelled. Las dos son correctas; se pronuncian igual."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.05",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de ortografía. Señálalo y corrígelo.",
+      "frase": "We visitted the museum on Sunday.",
+      "error": "visitted",
+      "correcciones": [
+        "visited"
+      ],
+      "frase_correcta": "We visited the museum on Sunday.",
+      "pistas": [
+        "No todos los verbos que terminan en vocal + consonante duplican la consonante.",
+        "¿En qué sílaba va el acento de visit?",
+        "Solo se duplica si la última sílaba está acentuada; VIS-it no lo está."
+      ],
+      "solucion": {
+        "respuesta": "visitted → visited",
+        "explicacion": "Visit se pronuncia VIS-it: el acento no está en la última sílaba, así que la t no se duplica. Compara con stop (una sola sílaba, acentuada) → stopped."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Pronunciación.",
+      "pregunta": "¿En cuál de estos verbos la terminación -ed añade una sílaba?",
+      "opciones": [
+        {
+          "texto": "wanted",
+          "correcta": true,
+          "porque": "Want termina en /t/, así que -ed suena /ɪd/ y añade una sílaba: WANT-id."
+        },
+        {
+          "texto": "worked",
+          "correcta": false,
+          "porque": "Work termina en /k/: -ed suena /t/ y worked sigue teniendo una sílaba."
+        },
+        {
+          "texto": "played",
+          "correcta": false,
+          "porque": "Play termina en vocal: -ed suena /d/, una sola sílaba."
+        },
+        {
+          "texto": "liked",
+          "correcta": false,
+          "porque": "Like termina en sonido /k/ (la e no suena): -ed suena /t/, una sílaba."
+        }
+      ],
+      "pistas": [
+        "Solo un sonido final provoca la sílaba extra.",
+        "Mira el último SONIDO de cada verbo base.",
+        "La sílaba extra /ɪd/ solo aparece tras /t/ o /d/."
+      ],
+      "solucion": {
+        "respuesta": "wanted",
+        "explicacion": "Solo wanted gana una sílaba, porque want termina en /t/. En worked (/k/), played (vocal) y liked (/k/) la -ed es solo una consonante: /t/ o /d/."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.07",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Pronunciación.",
+      "pregunta": "¿En qué grupo los tres verbos terminan con el sonido /t/?",
+      "opciones": [
+        {
+          "texto": "liked, danced, washed",
+          "correcta": true,
+          "porque": "Like termina en /k/, dance en /s/ y wash en /ʃ/: tres sonidos sordos → -ed suena /t/."
+        },
+        {
+          "texto": "played, lived, called",
+          "correcta": false,
+          "porque": "Una vocal, /v/ y /l/ son sonoros: -ed suena /d/."
+        },
+        {
+          "texto": "wanted, needed, visited",
+          "correcta": false,
+          "porque": "Terminan en /t/ o /d/: -ed suena /ɪd/, con una sílaba extra."
+        },
+        {
+          "texto": "cooked, cleaned, painted",
+          "correcta": false,
+          "porque": "Solo cooked suena /t/; cleaned es /d/ y painted es /ɪd/."
+        }
+      ],
+      "pistas": [
+        "El sonido de -ed depende del último sonido del verbo base.",
+        "Ignora la e final muda: like termina en /k/ y dance en /s/.",
+        "Sonido final sordo (/p k f s ʃ tʃ/) → /t/."
+      ],
+      "solucion": {
+        "respuesta": "liked, danced, washed",
+        "explicacion": "Los tres verbos base terminan en un sonido sordo: /k/ (like), /s/ (dance) y /ʃ/ (wash). Tras un sonido sordo, -ed se pronuncia /t/: /laɪkt/, /dænst/, /wɑʃt/. La e escrita de like y dance no cuenta: no suena."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.08",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Cuenta las sílabas de cada verbo: 1, 1, 2.",
+      "texto": "worked, played, wanted",
+      "ipa": "/wɝkt/ · /pleɪd/ · /ˈwɑntɪd/",
+      "consejo": "Worked termina en /kt/ sin vibración en la garganta. Played termina en /d/ con vibración. Solo wanted tiene una sílaba extra, corta y débil: /ɪd/. Si dices «wor-ked» o «play-ed», estás añadiendo una sílaba que no existe.",
+      "es": "trabajé / jugué / quise"
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.09",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite la oración completa. Grábate y compara.",
+      "texto": "I watched a movie and cooked dinner.",
+      "ipa": "/aɪ wɑtʃt ə ˈmuvi ən kʊkt ˈdɪnɚ/",
+      "consejo": "Watched a se enlaza: la /t/ pasa a la vocal siguiente y suena «wách-tə». Cooked y dinner se juntan: la /t/ de cooked casi desaparece antes de la /d/. And se reduce a /ən/.",
+      "es": "Vi una película e hice la cena."
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Atención a la ortografía.",
+      "texto": "My brother tried the soup and loved it.",
+      "pistas": [
+        "Hay dos verbos en pasado.",
+        "El primero viene de try; el segundo, de love.",
+        "Consonante + y → la y cambia a i y se añade -ed; si el verbo termina en -e, solo se añade -d."
+      ],
+      "solucion": {
+        "respuesta": "My brother tried the soup and loved it.",
+        "explicacion": "Tried viene de try (consonante + y → ied) y suena /traɪd/. Loved viene de love, que ya termina en -e: solo se añade -d; suena /lʌvd/ y se enlaza con it: «lʌv-dit»."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.11",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Las terminaciones -ed son difíciles de oír: usa el contexto.",
+      "texto": "She needed help, so I carried her bags.",
+      "pistas": [
+        "Toda la oración está en pasado.",
+        "El primer verbo tiene una sílaba extra; el segundo cambia la y.",
+        "Tras /t/ o /d/, -ed suena /ɪd/ (como wanted); consonante + y → ied (como cried)."
+      ],
+      "solucion": {
+        "respuesta": "She needed help, so I carried her bags.",
+        "explicacion": "Needed tiene dos sílabas porque need termina en /d/. Carried viene de carry (consonante + y → ied) y termina en /d/ suave. So = así que."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.12",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Pasa la oración al pasado. Cuida la ortografía de los dos verbos.",
+      "origen": "I study English and I play the guitar.",
+      "instruccion": "Pasado",
+      "respuestas": [
+        "I studied English and I played the guitar."
+      ],
+      "errores_tipicos": {
+        "I studyed English and I played the guitar.": "Study: consonante + y → studied.",
+        "I studied English and I plaied the guitar.": "Play: vocal + y → played, sin cambiar la y.",
+        "I studied English and I play the guitar.": "Los dos verbos deben ir en pasado."
+      },
+      "pistas": [
+        "Los dos verbos terminan en y, pero no siguen la misma regla.",
+        "Mira la letra que va antes de la y en study y en play.",
+        "Consonante + y → ied; vocal + y → ed."
+      ],
+      "solucion": {
+        "respuesta": "I studied English and I played the guitar.",
+        "explicacion": "En study antes de la y hay una consonante (d): studied. En play antes de la y hay una vocal (a): played. Es el mismo final escrito (-y) con dos reglas distintas."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Tu mensaje de voz",
+    "contexto": "Tienes que dejarle un mensaje de voz a una amiga, Lucía, para explicarle por qué ayer no contestaste sus mensajes.",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "Hey! I texted you yesterday. Everything OK?",
+        "es": "¡Oye! Ayer te mandé mensajes. ¿Todo bien?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Graba (o di en voz alta) tres o cuatro oraciones con verbos regulares en pasado, al menos uno de cada sonido: /t/ (worked, watched, walked), /d/ (played, cleaned, stayed) e /ɪd/ (wanted, needed, visited). Escúchate y comprueba el número de sílabas.",
+    "modelo": "Hi, Lucía! Sorry! I worked all day and then I visited my grandma. I stayed at her house until ten. I wanted to answer, but my phone was dead.",
+    "alternativas": [
+      "Sorry, Lucía! I studied for my exam all afternoon and then I cleaned my room. I needed a break from my phone.",
+      "Hi! Everything's OK. I helped my brother with his new apartment. We painted the kitchen and carried a lot of boxes."
+    ],
+    "claves": [
+      "worked, helped → /t/, una sílaba.",
+      "stayed, cleaned, carried → /d/, sin sílaba extra.",
+      "visited, wanted, needed, painted → /ɪd/, una sílaba más."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Ortografía: + ed; -e → + d; consonante + y → ied; vocal + y → + ed; CVC acentuada → duplica.",
+      "No se duplica si la última sílaba no es acentuada (visited, opened) ni con w, x (showed, fixed).",
+      "travel → traveled (EE. UU.) / travelled (R. U.).",
+      "Pronunciación: /t/ tras sonido sordo, /d/ tras sonoro, /ɪd/ tras /t/ o /d/.",
+      "Solo /ɪd/ añade una sílaba."
+    ],
+    "recuerda": [
+      "Manda el SONIDO final, no la letra: liked /laɪkt/, fixed /fɪkst/.",
+      "Nunca «work-ed»: worked es una sílaba.",
+      "Pay y say terminan en vocal + y pero son irregulares (paid, said)."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.r1",
+      "frente": "Pasado de study y de play:",
+      "reverso": "studied · played",
+      "nota": "Consonante + y → ied; vocal + y → ed."
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.r2",
+      "frente": "¿Stop → stoped o stopped?",
+      "reverso": "stopped",
+      "nota": "CVC acentuada: duplica la consonante."
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.r3",
+      "frente": "¿Cuántas sílabas tiene worked?",
+      "reverso": "Una: /wɝkt/.",
+      "nota": "-ed suena /t/ tras /k/."
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.r4",
+      "frente": "¿Cuándo suena -ed como /ɪd/?",
+      "reverso": "Solo tras /t/ o /d/: wanted, needed.",
+      "nota": "Es el único caso con sílaba extra."
+    },
+    {
+      "id": "pasado-simple-regular.ortografia-y-pronunciacion-ed.r5",
+      "frente": "¿Visited o visitted?",
+      "reverso": "visited",
+      "nota": "El acento está en VIS-: no se duplica."
+    }
+  ]
+}

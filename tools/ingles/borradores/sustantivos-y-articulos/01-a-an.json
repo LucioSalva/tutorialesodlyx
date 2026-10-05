@@ -1,0 +1,971 @@
+{
+  "slug": "a-an",
+  "titulo": "A y an",
+  "minutos": 35,
+  "objetivos": [
+    "Entender qué significa el artículo indeterminado a / an y cuándo es obligatorio.",
+    "Elegir a o an según el primer SONIDO de la palabra siguiente, no según la letra.",
+    "Usar a / an con profesiones y con adjetivo + sustantivo, donde el español lo omite o lo cambia."
+  ],
+  "situacion": {
+    "titulo": "Una mochila misteriosa",
+    "texto": "Sam vacía su mochila sobre la mesa y su compañera Aisha va nombrando lo que ve. Fíjate en que a veces dice a y a veces an, y en que no depende de la letra con la que se escribe la palabra.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "What's this? A calculator?",
+        "es": "¿Qué es esto? ¿Una calculadora?"
+      },
+      {
+        "quien": "Sam",
+        "en": "Yes, it's a calculator. And that's an umbrella.",
+        "es": "Sí, es una calculadora. Y eso es un paraguas."
+      },
+      {
+        "quien": "Aisha",
+        "en": "And this? It's a uniform!",
+        "es": "¿Y esto? ¡Es un uniforme!"
+      },
+      {
+        "quien": "Sam",
+        "en": "Yes, for my job. I'm a waiter. My shift is in an hour!",
+        "es": "Sí, para mi trabajo. Soy mesero. ¡Mi turno empieza en una hora!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "que-es-a-an",
+      "titulo": "Qué es a / an y cuándo se usa",
+      "que_es": "[[a]] y [[an]] son el **artículo indeterminado**: equivalen a «un» y «una». Presentan **una** persona o cosa cualquiera, o una que se menciona por primera vez. No tienen género: [[a book]] es «un libro» y [[a table]] es «una mesa». Y no tienen plural: solo acompañan a sustantivos en **singular**.",
+      "para_que": [
+        "Nombrar un objeto: It's a pen.",
+        "Decir la profesión o el tipo de persona que es alguien: She's a doctor. He's a good student.",
+        "Mencionar algo por primera vez: I'm in a meeting."
+      ],
+      "como_funciona": "Con un sustantivo contable en singular, el inglés **casi nunca** lo deja sin determinante: necesita [[a]]/[[an]], [[the]], [[my]], [[this]]… Por eso [[a]] aparece en lugares donde el español no pone nada: «es mesero» → [[He's a waiter]]; «soy estudiante» → [[I'm a student]]. En plural, en cambio, [[a]] desaparece: [[They're waiters]] (nunca «a waiters»). El artículo va delante de todo el grupo del sustantivo, también del adjetivo: [[a big house]].",
+      "estructuras": [
+        {
+          "etiqueta": "Artículo + sustantivo",
+          "formula": [
+            {
+              "t": "a / an",
+              "rol": "otro"
+            },
+            {
+              "t": "(adjetivo)",
+              "rol": "complemento"
+            },
+            {
+              "t": "sustantivo singular",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "small",
+              "rol": "complemento"
+            },
+            {
+              "t": "car",
+              "rol": "complemento"
+            }
+          ],
+          "es": "un carro pequeño"
+        },
+        {
+          "etiqueta": "Profesión",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "a / an + profesión",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Diego",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a waiter",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Diego es mesero."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "It's a pencil.",
+          "es": "Es un lápiz.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a pencil",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Nombrar un objeto: [[a]] = «un»."
+        },
+        {
+          "en": "It's a chair.",
+          "es": "Es una silla.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a chair",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El mismo [[a]] para «una»: el inglés no tiene género en los artículos."
+        },
+        {
+          "en": "My mother is a pharmacist.",
+          "es": "Mi mamá es farmacéutica.",
+          "partes": [
+            {
+              "t": "My mother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a pharmacist",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El español no pone artículo con la profesión; el inglés sí, siempre que sea singular."
+        },
+        {
+          "en": "My parents are pharmacists.",
+          "es": "Mis papás son farmacéuticos.",
+          "partes": [
+            {
+              "t": "My parents",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "pharmacists",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En plural, sin artículo. [[a]] significa «uno», así que no puede ir con varios."
+        },
+        {
+          "en": "Carlos is a very good friend.",
+          "es": "Carlos es un muy buen amigo.",
+          "partes": [
+            {
+              "t": "Carlos",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a very good friend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El artículo abre el grupo: a + very + good + friend. El adjetivo va antes del sustantivo."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Español",
+          "items": [
+            "Es maestra. (sin artículo)",
+            "un libro / una mesa (dos formas)",
+            "unos libros (hay plural)"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés",
+          "items": [
+            "She's a teacher. (artículo obligatorio)",
+            "a book / a table (una sola forma)",
+            "books (sin artículo en plural)"
+          ]
+        },
+        "veredicto": "En inglés, un sustantivo singular contable casi nunca va solo: si no hay otro determinante, pon a / an."
+      },
+      "pronunciacion": [
+        {
+          "texto": "a",
+          "ipa": "/ə/",
+          "consejo": "En una oración, [[a]] casi nunca se pronuncia como la letra «ei»: es una schwa /ə/, una vocal débil y corta con la boca relajada, como una «a» murmurada. Se pega a la palabra siguiente: «a book» suena /əˈbʊk/. La forma fuerte /eɪ/ solo se usa para enfatizar."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "He is engineer.",
+          "bien": "He is an engineer.",
+          "porque": "La profesión en singular lleva artículo en inglés."
+        },
+        {
+          "mal": "They are a students.",
+          "bien": "They are students.",
+          "porque": "[[a]] solo va con singular. En plural se quita."
+        },
+        {
+          "mal": "It's a car red.",
+          "bien": "It's a red car.",
+          "porque": "El adjetivo va entre el artículo y el sustantivo, nunca detrás."
+        }
+      ]
+    },
+    {
+      "id": "sonido-no-letra",
+      "titulo": "A o an: manda el sonido, no la letra",
+      "que_es": "[[a]] y [[an]] significan lo mismo. Se usa [[an]] cuando la palabra siguiente **empieza con sonido de vocal**, y [[a]] cuando empieza con **sonido de consonante**. La clave está en la palabra «sonido»: lo que cuenta es cómo se pronuncia, no cómo se escribe.",
+      "para_que": [
+        "Hablar con fluidez: [[an]] existe para que no choquen dos vocales (a apple sonaría entrecortado).",
+        "No equivocarte con palabras engañosas como hour, university, European u one."
+      ],
+      "como_funciona": "La mayoría de las veces letra y sonido coinciden: [[a book]], [[an apple]], [[an egg]], [[an orange]]. Pero hay tres trampas. 1) **H muda**: en [[hour]], [[honest]] y [[honor]] la h no se pronuncia, la palabra empieza con sonido de vocal → [[an hour]], [[an honest man]]. En la mayoría de palabras la h sí suena ([[a house]], [[a hotel]]). 2) **U y eu que suenan «yu»**: [[university]] /ˌjuːnɪˈvɜːrsəti/ empieza con el sonido /j/, que es consonante → [[a university]], [[a uniform]], [[a European city]]. Pero [[umbrella]] /ʌmˈbrelə/ empieza con vocal → [[an umbrella]]. 3) **Siglas que se deletrean**: importa cómo suena la primera letra. M se dice «em», que empieza con vocal → [[an MBA]]; X se dice «eks» → [[an X-ray]]; S se dice «es» → [[an SUV]]; pero U se dice «yu» → [[a UFO]]. Además, [[one]] se pronuncia /wʌn/, con sonido de consonante → [[a one-way ticket]]. Por último: el artículo mira a la palabra **inmediatamente siguiente**, que puede ser un adjetivo: [[an apple]], pero [[a red apple]]; [[a car]], pero [[an old car]].",
+      "estructuras": [
+        {
+          "etiqueta": "Sonido de vocal",
+          "formula": [
+            {
+              "t": "an",
+              "rol": "otro"
+            },
+            {
+              "t": "palabra con sonido de vocal",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "an",
+              "rol": "otro"
+            },
+            {
+              "t": "hour",
+              "rol": "complemento"
+            }
+          ],
+          "es": "una hora (la h no suena: /aʊr/)"
+        },
+        {
+          "etiqueta": "Sonido de consonante",
+          "formula": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "palabra con sonido de consonante",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "a",
+              "rol": "otro"
+            },
+            {
+              "t": "university",
+              "rol": "complemento"
+            }
+          ],
+          "es": "una universidad (empieza con /j/: «yu»)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Casos que engañan a la vista",
+          "columnas": [
+            "Palabra",
+            "Primer sonido",
+            "Artículo",
+            "Por qué"
+          ],
+          "filas": [
+            [
+              "hour",
+              "/aʊ/",
+              "an hour",
+              "la h es muda"
+            ],
+            [
+              "honest",
+              "/ɑː/",
+              "an honest person",
+              "la h es muda"
+            ],
+            [
+              "house",
+              "/h/",
+              "a house",
+              "la h suena"
+            ],
+            [
+              "university",
+              "/j/",
+              "a university",
+              "suena «yu»: consonante"
+            ],
+            [
+              "uniform",
+              "/j/",
+              "a uniform",
+              "suena «yu»: consonante"
+            ],
+            [
+              "umbrella",
+              "/ʌ/",
+              "an umbrella",
+              "vocal"
+            ],
+            [
+              "European",
+              "/j/",
+              "a European country",
+              "eu suena «yu»"
+            ],
+            [
+              "one",
+              "/w/",
+              "a one-dollar coin",
+              "one suena «wan»"
+            ],
+            [
+              "MBA",
+              "/e/ (em)",
+              "an MBA",
+              "la M se dice «em»"
+            ],
+            [
+              "UFO",
+              "/j/ (yu)",
+              "a UFO",
+              "la U se dice «yu»"
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Escucha la primera letra que SUENA",
+        "centro": "¿a o an?",
+        "ramas": [
+          {
+            "texto": "an + sonido de vocal",
+            "detalle": "an apple, an egg, an hour, an MBA"
+          },
+          {
+            "texto": "a + sonido de consonante",
+            "detalle": "a book, a house, a university, a one-way street"
+          },
+          {
+            "texto": "mira la palabra de al lado",
+            "detalle": "an apple → a green apple; a car → an old car"
+          }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "The class is an hour long.",
+          "es": "La clase dura una hora.",
+          "nota": "[[hour]] se escribe con h, pero empieza con el sonido /aʊ/. Por eso [[an]]."
+        },
+        {
+          "en": "Sam is a university student.",
+          "es": "Sam es estudiante universitario.",
+          "nota": "[[university]] se escribe con u, pero suena /juː/, como «yu». La /j/ es consonante, por eso [[a]].",
+          "partes": [
+            {
+              "t": "Sam",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a university student",
+              "rol": "complemento"
+            }
+          ]
+        },
+        {
+          "en": "She's an honest person.",
+          "es": "Es una persona honesta.",
+          "partes": [
+            {
+              "t": "She's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "an honest person",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El artículo va con la palabra siguiente, que aquí es el adjetivo [[honest]] (h muda)."
+        },
+        {
+          "en": "It's an old car.",
+          "es": "Es un carro viejo.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "an old car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Solo se dice [[a car]], pero el adjetivo [[old]] empieza con vocal y se pone delante, así que cambia a [[an]]."
+        },
+        {
+          "en": "It's a green apple.",
+          "es": "Es una manzana verde.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a green apple",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Al revés: [[an apple]], pero [[a green apple]], porque green empieza con consonante."
+        },
+        {
+          "en": "Ben is an MBA student.",
+          "es": "Ben estudia una maestría en administración (MBA).",
+          "nota": "Se deletrea «em-bi-ei». La M suena /em/, con vocal al principio: [[an MBA]].",
+          "partes": [
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "an MBA student",
+              "rol": "complemento"
+            }
+          ]
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "an apple",
+          "ipa": "/ən ˈæpəl/",
+          "consejo": "La n de an se engancha a la vocal siguiente: suena como una sola palabra, «a-næpəl». Esa unión es justamente la razón de existir de an. No hagas pausa entre las dos palabras.",
+          "lento": true
+        },
+        {
+          "texto": "an hour",
+          "ipa": "/ən ˈaʊər/",
+          "consejo": "No pronuncies la h: la palabra empieza directamente con el diptongo /aʊ/ («au», como en «auto»). Suena igual que [[our]]. Con el enlace: «a-nauər»."
+        },
+        {
+          "texto": "a university",
+          "ipa": "/ə ˌjuːnɪˈvɜːrsəti/",
+          "consejo": "La u inicial se pronuncia «yu», con la lengua levantada como para la «y» de «yeso». Como ya hay una consonante (/j/), la a queda débil /ə/ y no hace falta la n."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "a hour",
+          "bien": "an hour",
+          "porque": "La h de hour es muda: el primer sonido es la vocal /aʊ/."
+        },
+        {
+          "mal": "an university",
+          "bien": "a university",
+          "porque": "Aunque empieza con la letra u, suena /juː/: el primer sonido es la consonante /j/."
+        },
+        {
+          "mal": "an green apple",
+          "bien": "a green apple",
+          "porque": "El artículo depende de la palabra que va justo después (green), no del sustantivo."
+        }
+      ],
+      "nota": {
+        "titulo": "¿Y las palabras con h como hotel o historic?",
+        "texto": "En inglés estadounidense la h de [[hotel]] y [[historic]] se pronuncia, así que se dice [[a hotel]] y [[a historic building]]. Quizá veas «an historic» en textos británicos antiguos, pero hoy lo normal es [[a]]. La lista de h mudas frecuentes es corta: hour, honest, honor (británico honour) y heir.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sustantivos-y-articulos.a-an.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el artículo correcto.",
+      "pregunta": "It's ___ egg.",
+      "opciones": [
+        {
+          "texto": "an",
+          "correcta": true,
+          "porque": "Correcto: egg empieza con sonido de vocal /e/."
+        },
+        {
+          "texto": "a",
+          "correcta": false,
+          "porque": "a va delante de sonido de consonante. Egg empieza con vocal."
+        }
+      ],
+      "pistas": [
+        "a y an significan lo mismo; cambia la palabra siguiente.",
+        "¿Con qué sonido empieza egg?",
+        "Sonido de vocal → an; sonido de consonante → a."
+      ],
+      "solucion": {
+        "respuesta": "an",
+        "explicacion": "Egg empieza con el sonido de vocal /e/, así que lleva an: an egg (un huevo)."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con a o an.",
+      "frase": "In my bag: ___ book, ___ orange and ___ umbrella.",
+      "traduccion": "En mi bolsa: un libro, una naranja y un paraguas.",
+      "respuestas": [
+        [
+          "a"
+        ],
+        [
+          "an"
+        ],
+        [
+          "an"
+        ]
+      ],
+      "errores_tipicos": {
+        "a | a | a": "orange y umbrella empiezan con sonido de vocal: [[an orange]], [[an umbrella]]."
+      },
+      "pistas": [
+        "Pronuncia en voz alta el primer sonido de cada palabra.",
+        "book empieza con /b/; orange con /ɔː/; umbrella con /ʌ/.",
+        "Consonante → a; vocal → an."
+      ],
+      "solucion": {
+        "respuesta": "a … an … an",
+        "explicacion": "a book, porque /b/ es consonante; an orange y an umbrella, porque las dos empiezan con sonido de vocal."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión en español con su traducción.",
+      "pares": [
+        {
+          "a": "una hora",
+          "b": "an hour"
+        },
+        {
+          "a": "una casa",
+          "b": "a house"
+        },
+        {
+          "a": "una universidad",
+          "b": "a university"
+        },
+        {
+          "a": "un paraguas",
+          "b": "an umbrella"
+        },
+        {
+          "a": "un uniforme",
+          "b": "a uniform"
+        },
+        {
+          "a": "una persona honesta",
+          "b": "an honest person"
+        }
+      ],
+      "pistas": [
+        "Todas llevan a o an, según el primer sonido.",
+        "Fíjate en las palabras con h y con u: no todas suenan igual.",
+        "Regla: h muda (no se pronuncia) → an; h que suena → a; u que suena «yu» → a; u que suena /ʌ/ → an."
+      ],
+      "solucion": {
+        "respuesta": "una hora → an hour · una casa → a house · una universidad → a university · un paraguas → an umbrella · un uniforme → a uniform · una persona honesta → an honest person",
+        "explicacion": "El artículo depende del sonido: hour y honest empiezan con vocal porque la h no se pronuncia; university y uniform empiezan con /j/, consonante; umbrella empieza con vocal; house con /h/."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.04",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Una sola de estas expresiones es correcta. ¿Cuál?",
+      "pregunta": "Elige la expresión correcta.",
+      "opciones": [
+        {
+          "texto": "a university",
+          "correcta": true,
+          "porque": "Correcto: university suena /juː/ («yu»), que empieza con consonante."
+        },
+        {
+          "texto": "an university",
+          "correcta": false,
+          "porque": "Se escribe con u, pero suena «yu»: la /j/ es consonante, así que an no corresponde."
+        },
+        {
+          "texto": "a hour",
+          "correcta": false,
+          "porque": "La h de hour es muda; empieza con vocal: an hour."
+        },
+        {
+          "texto": "a apple",
+          "correcta": false,
+          "porque": "apple empieza con vocal: an apple."
+        }
+      ],
+      "pistas": [
+        "No mires la letra; di la palabra en voz alta.",
+        "Dos de las palabras empiezan con vocal escrita, pero una de ellas suena «yu».",
+        "an + sonido de vocal; a + sonido de consonante (incluido el sonido «yu»)."
+      ],
+      "solucion": {
+        "respuesta": "a university",
+        "explicacion": "University empieza con el sonido /j/ (consonante), así que va con a. Hour (h muda) y apple empiezan con vocal y necesitan an."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Añade el adjetivo red delante del sustantivo y ajusta el artículo si hace falta.",
+      "origen": "It's an apple.",
+      "instruccion": "Añade red",
+      "respuestas": [
+        "It's a red apple."
+      ],
+      "errores_tipicos": {
+        "It's an red apple.": "El artículo depende de la palabra de al lado, que ahora es red (consonante): [[a red apple]].",
+        "It's a apple red.": "El adjetivo va antes del sustantivo: [[a red apple]]."
+      },
+      "pistas": [
+        "El adjetivo va entre el artículo y el sustantivo.",
+        "¿Qué palabra queda ahora justo después del artículo?",
+        "Regla: el artículo depende de la palabra que va justo después, aunque sea un adjetivo: sonido de consonante → a."
+      ],
+      "solucion": {
+        "respuesta": "It's a red apple.",
+        "explicacion": "Red se coloca entre el artículo y apple. Como ahora la palabra que sigue al artículo es red, que empieza con consonante, an cambia a a."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la oración. Señala la palabra incorrecta y corrígela.",
+      "frase": "My brother is a engineer.",
+      "error": "a",
+      "correcciones": [
+        "an"
+      ],
+      "frase_correcta": "My brother is an engineer.",
+      "pistas": [
+        "El error está en una palabra muy corta.",
+        "¿Con qué sonido empieza engineer?",
+        "Regla: delante de un sonido de vocal se usa an, no a (como en an actor)."
+      ],
+      "solucion": {
+        "respuesta": "an",
+        "explicacion": "Engineer /ˌendʒɪˈnɪr/ empieza con sonido de vocal, así que el artículo es an: My brother is an engineer."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Falta una palabra. Señala la palabra donde está el problema y escríbela con lo que falta.",
+      "frase": "Tom is waiter at a café.",
+      "error": "waiter",
+      "correcciones": [
+        "a waiter"
+      ],
+      "frase_correcta": "Tom is a waiter at a café.",
+      "pistas": [
+        "En español diríamos «Tom es mesero», sin artículo.",
+        "Mira la profesión.",
+        "Una profesión en singular necesita a / an delante."
+      ],
+      "solucion": {
+        "respuesta": "a waiter",
+        "explicacion": "Con be + profesión en singular el inglés exige el artículo: Tom is a waiter. Es a porque waiter empieza con la consonante /w/."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hermana es arquitecta.",
+      "respuestas": [
+        "My sister is an architect.",
+        "My sister's an architect."
+      ],
+      "errores_tipicos": {
+        "My sister is architect.": "Falta el artículo: con una profesión en singular es obligatorio. [[an architect]].",
+        "My sister is a architect.": "architect empieza con vocal: [[an architect]]."
+      },
+      "pistas": [
+        "El español no usa artículo con la profesión; el inglés sí.",
+        "¿Con qué sonido empieza architect?",
+        "Profesión en singular = a / an + profesión; vocal → an."
+      ],
+      "solucion": {
+        "respuesta": "My sister is an architect.",
+        "explicacion": "La profesión en singular lleva artículo en inglés, y como architect /ˈɑːrkɪtekt/ empieza con vocal, es an."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.09",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "old",
+        "It's",
+        "an",
+        "house"
+      ],
+      "respuestas": [
+        "It's an old house"
+      ],
+      "traduccion": "Es una casa vieja.",
+      "pistas": [
+        "Empieza por sujeto + verbo.",
+        "Después: artículo, adjetivo, sustantivo.",
+        "Orden: sujeto + be + artículo + adjetivo + sustantivo (como en She's a good teacher)."
+      ],
+      "solucion": {
+        "respuesta": "It's an old house.",
+        "explicacion": "It's + an old house. El artículo es an porque la palabra siguiente es old (vocal), aunque house sola llevaría a. El adjetivo va antes del sustantivo."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe. Atención a la palabra que empieza con una letra que no suena.",
+      "texto": "The meeting is in an hour.",
+      "pistas": [
+        "Son seis palabras. La reunión es dentro de…",
+        "Oirás /ə naʊər/: la n se une a la palabra siguiente.",
+        "Regla: si la h no se pronuncia (h muda), el artículo es an, como en an honest man."
+      ],
+      "solucion": {
+        "respuesta": "The meeting is in an hour.",
+        "explicacion": "«La reunión es en una hora.» Al oír an hour, la n se pega a la vocal y suena «a-nauər». Hour se escribe con h, aunque no se pronuncia."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.11",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con a o an. Piensa en cómo se PRONUNCIA cada palabra.",
+      "frase": "Omar is ___ MBA student at ___ European university. The school is on ___ one-way street.",
+      "traduccion": "Omar es estudiante de MBA en una universidad europea. La escuela está en una calle de un solo sentido.",
+      "respuestas": [
+        [
+          "an"
+        ],
+        [
+          "a"
+        ],
+        [
+          "a"
+        ]
+      ],
+      "errores_tipicos": {
+        "a | a | a": "MBA se deletrea: la M se dice «em», con vocal al principio → [[an MBA]].",
+        "an | an | an": "European empieza con el sonido /j/ («yu») y one con /w/ («wan»): las dos llevan [[a]].",
+        "an | an | a": "European suena /ˌjʊrəˈpiːən/: empieza con «yu», consonante → [[a European university]]."
+      },
+      "pistas": [
+        "Las tres palabras engañan a la vista.",
+        "Pronuncia en voz alta: «em-bi-ei», «yu-ro-pí-an», «wan».",
+        "Regla: manda el primer sonido, no la letra: sonido de vocal → an; los sonidos «yu» (/j/) y «wa» (/w/) cuentan como consonantes → a."
+      ],
+      "solucion": {
+        "respuesta": "an … a … a",
+        "explicacion": "An MBA porque la M suena «em» (vocal). A European university porque European empieza con /j/ («yu»). A one-way street porque one empieza con /w/ («wan»). En los tres casos la letra escrita engaña: manda el sonido."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.12",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "En una fiesta, alguien te pregunta a qué te dedicas. Eres ingeniero(a).",
+      "lineas": [
+        {
+          "quien": "Grace",
+          "en": "So, what do you do?",
+          "es": "Y, ¿a qué te dedicas?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "I'm an engineer.",
+          "correcta": true,
+          "porque": "Correcto: profesión en singular con artículo, y an porque engineer empieza con vocal."
+        },
+        {
+          "texto": "I'm engineer.",
+          "correcta": false,
+          "porque": "Falta el artículo, obligatorio con la profesión en inglés."
+        },
+        {
+          "texto": "I'm a engineer.",
+          "correcta": false,
+          "porque": "engineer empieza con sonido de vocal: an, no a."
+        },
+        {
+          "texto": "I'm an engineers.",
+          "correcta": false,
+          "porque": "an solo va con singular; eres una persona: engineer, sin -s."
+        }
+      ],
+      "pistas": [
+        "Contestas con tu profesión.",
+        "Revisa el artículo y el número (singular o plural).",
+        "I'm + a/an + profesión en singular; vocal → an."
+      ],
+      "solucion": {
+        "respuesta": "I'm an engineer.",
+        "explicacion": "Con be + profesión en singular el artículo es obligatorio, y engineer empieza con vocal: I'm an engineer."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.13",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Une el artículo con la palabra siguiente, sin pausa.",
+      "texto": "an apple, an hour, a house, a university, an umbrella",
+      "ipa": "/ən ˈæpəl | ən ˈaʊər | ə haʊs | ə ˌjuːnɪˈvɜːrsəti | ən ʌmˈbrelə/",
+      "consejo": "a y an son débiles: /ə/ y /ən/, nunca «ei» ni «an» fuerte. En an apple y an umbrella la n se pasa a la palabra siguiente. En an hour no pronuncies la h. En a house, la h es solo un soplo. En a university, empieza la palabra con «yu».",
+      "es": "una manzana, una hora, una casa, una universidad, un paraguas"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Qué hay en tu mochila?",
+    "contexto": "En la clase de inglés, el maestro pide que cada quien diga tres cosas que lleva en la mochila o bolsa y a qué se dedica (o qué estudia).",
+    "dialogo": [
+      {
+        "quien": "Teacher",
+        "en": "OK, Lucía. What's in your bag?",
+        "es": "Bien, Lucía. ¿Qué hay en tu bolsa?"
+      },
+      {
+        "quien": "Lucía",
+        "en": "A notebook, an apple and a phone charger. I'm a nurse.",
+        "es": "Un cuaderno, una manzana y un cargador de celular. Soy enfermera."
+      },
+      {
+        "quien": "Teacher",
+        "en": "Great! And you?",
+        "es": "¡Muy bien! ¿Y tú?"
+      }
+    ],
+    "tu_turno": "Nombra al menos tres objetos (uno debe empezar con vocal) y di tu profesión o lo que estudias con a / an.",
+    "modelo": "An umbrella, a water bottle and an orange. I'm an accountant.",
+    "alternativas": [
+      "A book, a pen and an eraser. I'm a student.",
+      "A laptop, an old notebook and a sandwich. I'm a web designer."
+    ],
+    "claves": [
+      "an delante de sonido de vocal (an umbrella, an orange, an eraser).",
+      "a delante de sonido de consonante, incluida la «yu» (a uniform).",
+      "Profesión con artículo: I'm a / an …"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "a / an = un / una, sin género, solo con singular.",
+      "La profesión en singular lleva artículo: She's a doctor. He's an actor.",
+      "an + sonido de vocal; a + sonido de consonante. Manda el SONIDO, no la letra.",
+      "H muda → an (an hour, an honest man); u / eu con sonido «yu» → a (a university, a European city).",
+      "El artículo mira a la palabra de al lado: an apple / a red apple."
+    ],
+    "recuerda": [
+      "Siglas: según cómo suena la primera letra (an MBA, a UFO).",
+      "one suena /wʌn/: a one-way street.",
+      "a y an se pronuncian débiles: /ə/, /ən/."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "sustantivos-y-articulos.a-an.r1",
+      "frente": "¿a hour o an hour?",
+      "reverso": "an hour — la h es muda.",
+      "nota": "También an honest person."
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.r2",
+      "frente": "¿a university o an university?",
+      "reverso": "a university — suena «yu» (/j/).",
+      "nota": "También a uniform, a European country."
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.r3",
+      "frente": "«Es mesero.»",
+      "reverso": "He's a waiter.",
+      "nota": "La profesión en singular lleva artículo."
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.r4",
+      "frente": "an apple + green = ?",
+      "reverso": "a green apple",
+      "nota": "El artículo depende de la palabra siguiente."
+    },
+    {
+      "id": "sustantivos-y-articulos.a-an.r5",
+      "frente": "«Son estudiantes.»",
+      "reverso": "They're students.",
+      "nota": "Sin a en plural."
+    }
+  ]
+}

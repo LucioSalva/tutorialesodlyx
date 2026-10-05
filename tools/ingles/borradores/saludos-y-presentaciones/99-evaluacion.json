@@ -1,0 +1,319 @@
+{
+  "titulo": "Evaluación: saludos y presentaciones",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "saludos-y-presentaciones.eval.01",
+      "leccion": "saludar-y-despedirse",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el saludo adecuado.",
+      "pregunta": "Son las 3 de la tarde y entras a una junta con tu directora. ¿Qué dices?",
+      "opciones": [
+        {"texto": "Good afternoon.", "correcta": true, "porque": "Correcto: es después del mediodía y la situación es formal."},
+        {"texto": "Good morning.", "correcta": false, "porque": "Good morning se usa hasta el mediodía."},
+        {"texto": "What's up?", "correcta": false, "porque": "Es muy informal, propio de amigos; no es adecuado con tu directora."}
+      ],
+      "pistas": [
+        "Fíjate en la hora y en la formalidad.",
+        "Las 3 p. m. es después del mediodía.",
+        "Regla: good afternoon desde el mediodía hasta la tarde; what's up solo con amigos."
+      ],
+      "solucion": {"respuesta": "Good afternoon.", "explicacion": "A las 3 p. m. corresponde good afternoon, que además es cortés. Good morning ya no vale a esa hora y What's up? es demasiado informal."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.02",
+      "leccion": "saludar-y-despedirse",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Tu amigo Sam te ve en la cafetería de la escuela.",
+      "lineas": [
+        {"quien": "Sam", "en": "Hey! What's up?", "es": "¡Hey! ¿Qué onda?"}
+      ],
+      "opciones": [
+        {"texto": "Not much. And you?", "correcta": true, "porque": "Correcto: What's up? pregunta qué hay de nuevo; la respuesta típica es Not much."},
+        {"texto": "Good evening, Sam.", "correcta": false, "porque": "Es un saludo formal que no responde a la pregunta y no encaja con el tono informal."},
+        {"texto": "Yes, I am.", "correcta": false, "porque": "What's up? no se responde con sí; no es una pregunta de sí o no."}
+      ],
+      "pistas": [
+        "What's up? no significa exactamente «¿cómo estás?».",
+        "Pregunta qué hay de nuevo o qué estás haciendo.",
+        "Regla: What's up? → Not much. / Nothing much."
+      ],
+      "solucion": {"respuesta": "Not much. And you?", "explicacion": "What's up? es un saludo informal que significa «¿qué hay?». Lo natural es responder Not much (no mucho) y devolver la pregunta."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.03",
+      "leccion": "saludar-y-despedirse",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Son las 11 de la noche y Ana se va a dormir. Completa lo que dice a su familia.",
+      "frase": "Good ___, everyone!",
+      "respuestas": [["night"]],
+      "errores_tipicos": {
+        "evening": "good evening es un saludo al llegar. Para despedirte o irte a dormir se dice good night.",
+        "nights": "Los saludos y despedidas van en singular: good night."
+      },
+      "pistas": [
+        "Ana no llega: se despide.",
+        "En español dirías «buenas noches», pero hay dos opciones en inglés.",
+        "Regla: al irte o al ir a dormir → good night."
+      ],
+      "solucion": {"respuesta": "night", "explicacion": "Ana se despide para ir a dormir, así que dice good night. Good evening solo sirve para saludar al llegar."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.04",
+      "leccion": "saludar-y-despedirse",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la despedida y escríbela.",
+      "texto": "Bye, Lucía! See you later.",
+      "respuestas": ["Bye, Lucia! See you later."],
+      "pistas": [
+        "Empieza con una despedida informal y un nombre.",
+        "La segunda parte significa «nos vemos luego».",
+        "Regla: See you + later."
+      ],
+      "solucion": {"respuesta": "Bye, Lucía! See you later.", "explicacion": "«¡Adiós, Lucía! Nos vemos luego». Fíjate en que you se reduce y se une a see: «SII-yə LEI-ter»."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.05",
+      "leccion": "pronombres-personales",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe el pronombre que sustituye a cada sujeto.",
+      "frase": "the books → ___ · my mom → ___ · Tom and I → ___",
+      "respuestas": [["they"], ["she"], ["we"]],
+      "errores_tipicos": {
+        "it | she | we": "the books es plural (varios libros): they, no it.",
+        "they | she | they": "Tom and I te incluye a ti: we."
+      },
+      "pistas": [
+        "Fíjate en si es singular o plural, persona o cosa, y si incluye a quien habla.",
+        "the books son varias cosas; Tom and I = Tom y yo.",
+        "Regla: cosas en plural → they; mujer → she; grupo con I → we."
+      ],
+      "solucion": {"respuesta": "they · she · we", "explicacion": "the books son varias cosas: they (sirve para personas y cosas en plural). my mom es una mujer: she. Tom and I incluye al hablante: we."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.06",
+      "leccion": "pronombres-personales",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el verbo live.",
+      "es": "Vivimos en Mérida.",
+      "respuestas": ["We live in Mérida.", "We live in Merida."],
+      "errores_tipicos": {
+        "Live in Mérida.": "Falta el sujeto: sin we parece una orden. We live in Mérida.",
+        "Live in Merida.": "Falta el sujeto: sin we parece una orden. We live in Merida.",
+        "We live on Mérida.": "Con ciudades se usa in: live in + ciudad."
+      },
+      "pistas": [
+        "«Vivimos» esconde el sujeto en -mos.",
+        "En inglés el sujeto va al principio y es obligatorio.",
+        "Estructura: We + live + in + ciudad."
+      ],
+      "solucion": {"respuesta": "We live in Mérida.", "explicacion": "El español no necesita «nosotros» porque -mos lo indica; en inglés live no cambia, así que we es obligatorio. Con ciudades se usa in."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.07",
+      "leccion": "pronombres-personales",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "My bag? She's new.",
+      "error": "She's",
+      "correcciones": ["It's", "It is"],
+      "frase_correcta": "My bag? It's new.",
+      "pistas": [
+        "¿Una bolsa es una persona?",
+        "El error está en el pronombre.",
+        "Regla: las cosas en singular son it."
+      ],
+      "solucion": {"respuesta": "My bag? It's new.", "explicacion": "bag es una cosa, así que se usa it. «La bolsa» es femenina en español, pero ese género no existe en inglés."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.08",
+      "leccion": "pronombres-personales",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cómo se dice «Es tarde»?",
+      "opciones": [
+        {"texto": "It's late.", "correcta": true, "porque": "Correcto: para la hora y el tiempo el inglés usa el sujeto it."},
+        {"texto": "Is late.", "correcta": false, "porque": "Falta el sujeto. En inglés toda oración (salvo las órdenes) necesita uno."},
+        {"texto": "He's late.", "correcta": false, "porque": "Significa «Él llega tarde». No es lo mismo que «Es tarde»."}
+      ],
+      "pistas": [
+        "En español esta oración no tiene sujeto.",
+        "El inglés usa un sujeto de relleno para la hora.",
+        "Regla: tiempo y hora → It's…"
+      ],
+      "solucion": {"respuesta": "It's late.", "explicacion": "El inglés necesita sujeto incluso cuando no hay nadie que haga la acción: usa it. He's late cambia el significado a «él llega tarde»."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.09",
+      "leccion": "presentarse",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 1,
+      "enunciado": "Ordena las palabras para preguntar el nombre.",
+      "fichas": ["your", "What's", "name"],
+      "respuestas": ["What's your name?"],
+      "traduccion": "¿Cómo te llamas?",
+      "pistas": [
+        "Es una pregunta: empieza con la palabra interrogativa.",
+        "What's = What is.",
+        "Estructura: palabra interrogativa contraída con is + your + sustantivo."
+      ],
+      "solucion": {"respuesta": "What's your name?", "explicacion": "What's (qué es / cuál es) abre la pregunta y your name (tu nombre) va después. Literalmente: «¿Cuál es tu nombre?»."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.10",
+      "leccion": "presentarse",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "En una fiesta te encuentras con Priya. La conociste hace un mes.",
+      "lineas": [
+        {"quien": "Priya", "en": "Oh, hi! How are you?", "es": "¡Ah, hola! ¿Cómo estás?"}
+      ],
+      "opciones": [
+        {"texto": "Hi, Priya! I'm good, thanks. Nice to see you again!", "correcta": true, "porque": "Correcto: ya la conoces, así que usas see, no meet."},
+        {"texto": "Hi, Priya! Nice to meet you.", "correcta": false, "porque": "meet es para la primera vez. Ya se conocen: Nice to see you."},
+        {"texto": "Hi! What's your name?", "correcta": false, "porque": "Ya la conoces y sabes cómo se llama; además, no respondes a su pregunta."}
+      ],
+      "pistas": [
+        "¿Es la primera vez que la ves?",
+        "Hay dos verbos: meet (conocer) y see (ver).",
+        "Regla: primera vez → meet; ya se conocen → see."
+      ],
+      "solucion": {"respuesta": "Hi, Priya! I'm good, thanks. Nice to see you again!", "explicacion": "Respondes a How are you? y, como ya la conocías, dices Nice to see you again. Nice to meet you solo se dice al conocer a alguien."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.11",
+      "leccion": "presentarse",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa la forma contraída de «yo soy».",
+      "es": "Soy de Oaxaca.",
+      "respuestas": ["I'm from Oaxaca."],
+      "errores_tipicos": {
+        "I'm of Oaxaca.": "Para el origen se usa from, no of.",
+        "Am from Oaxaca.": "Falta el sujeto I: I'm from Oaxaca.",
+        "I from Oaxaca.": "Falta 'm (am): I'm from Oaxaca."
+      },
+      "pistas": [
+        "Es la frase fija para decir tu origen.",
+        "«de» en este sentido es from.",
+        "Estructura: I'm + from + lugar."
+      ],
+      "solucion": {"respuesta": "I'm from Oaxaca.", "explicacion": "I'm (yo soy) + from (de, origen) + Oaxaca. No se usa of y no se puede omitir el sujeto."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.12",
+      "leccion": "presentarse",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "Nice to meet you, Tom. Where you are from?",
+      "error": "you are",
+      "correcciones": ["are you"],
+      "frase_correcta": "Nice to meet you, Tom. Where are you from?",
+      "pistas": [
+        "La primera oración está bien.",
+        "Mira el orden de las palabras en la pregunta.",
+        "Regla: en la pregunta, are va antes del sujeto y from al final."
+      ],
+      "solucion": {"respuesta": "Nice to meet you, Tom. Where are you from?", "explicacion": "En esta pregunta are va antes de you: Where are you from? El orden you are es el de la afirmación. Verás por qué en la unidad 5."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.13",
+      "leccion": "orden-de-la-oracion",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["new", "We", "a", "need", "computer"],
+      "respuestas": ["We need a new computer."],
+      "traduccion": "Necesitamos una computadora nueva.",
+      "pistas": [
+        "Empieza por el sujeto y el verbo.",
+        "new describe a computer.",
+        "Estructura: sujeto + verbo + a + adjetivo + sustantivo."
+      ],
+      "solucion": {"respuesta": "We need a new computer.", "explicacion": "Sujeto (We) + verbo (need) + complemento (a new computer), con el adjetivo new antes del sustantivo."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.14",
+      "leccion": "orden-de-la-oracion",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "We have a garden small.",
+      "error": "garden small",
+      "correcciones": ["small garden"],
+      "frase_correcta": "We have a small garden.",
+      "pistas": [
+        "El sujeto y el verbo están bien.",
+        "Mira el orden dentro del complemento.",
+        "Regla: el adjetivo va antes del sustantivo."
+      ],
+      "solucion": {"respuesta": "We have a small garden.", "explicacion": "small (pequeño) es un adjetivo y va antes de garden (jardín): a small garden. El orden «jardín pequeño» es el del español."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.15",
+      "leccion": "orden-de-la-oracion",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa have.",
+      "es": "Tengo dos gatos negros.",
+      "respuestas": ["I have two black cats."],
+      "errores_tipicos": {
+        "I have two blacks cats.": "El adjetivo no lleva -s: black. Solo el sustantivo va en plural: cats.",
+        "I have two cats black.": "El adjetivo va antes del sustantivo: two black cats.",
+        "I have two black cat.": "Son dos gatos: el sustantivo va en plural, cats."
+      },
+      "pistas": [
+        "Recuerda el sujeto y el orden SVO.",
+        "Dentro del complemento: número + adjetivo + sustantivo.",
+        "Regla: el adjetivo va delante y no cambia; el sustantivo lleva -s."
+      ],
+      "solucion": {"respuesta": "I have two black cats.", "explicacion": "I + have + two black cats. El adjetivo black va delante y no cambia; solo cat pasa a plural (cats)."}
+    },
+    {
+      "id": "saludos-y-presentaciones.eval.16",
+      "leccion": "orden-de-la-oracion",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "¿Qué significa «Cats like dogs»?",
+      "opciones": [
+        {"texto": "A los gatos les gustan los perros.", "correcta": true, "porque": "Correcto: cats es el sujeto (quién siente el gusto) y dogs el complemento (lo que gusta)."},
+        {"texto": "A los perros les gustan los gatos.", "correcta": false, "porque": "Eso sería Dogs like cats. En inglés el orden decide quién hace qué."},
+        {"texto": "Los gatos y los perros se gustan.", "correcta": false, "porque": "La oración no dice que el gusto sea mutuo; solo habla de lo que les gusta a los gatos."}
+      ],
+      "pistas": [
+        "El orden de las palabras indica quién hace la acción.",
+        "La primera palabra es el sujeto.",
+        "Regla: Sujeto + like + lo que gusta. En español: A + sujeto + le(s) gusta + lo que gusta."
+      ],
+      "solucion": {"respuesta": "A los gatos les gustan los perros.", "explicacion": "En Cats like dogs, cats es el sujeto (va antes del verbo) y dogs el complemento. Si inviertes el orden, inviertes el significado: el inglés no puede mover las piezas como el español."}
+    }
+  ]
+}

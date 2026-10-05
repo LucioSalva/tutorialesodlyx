@@ -1,0 +1,374 @@
+{
+  "titulo": "Evaluación: familia, profesiones y preguntas",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "familia-profesiones-y-preguntas.eval.01",
+      "leccion": "la-familia",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "La hija de mi hermano es mi…",
+      "opciones": [
+        { "texto": "niece", "correcta": true, "porque": "Correcto: niece = sobrina." },
+        { "texto": "nephew", "correcta": false, "porque": "Nephew es sobrino (hombre)." },
+        { "texto": "cousin", "correcta": false, "porque": "Cousin es primo o prima: la hija de tu tío, no de tu hermano." },
+        { "texto": "granddaughter", "correcta": false, "porque": "Granddaughter es nieta: la hija de tu hijo o de tu hija." }
+      ],
+      "pistas": [
+        "La hija de tu hermano pertenece a la generación siguiente a la tuya.",
+        "Es mujer.",
+        "Sobrino = nephew; sobrina = …"
+      ],
+      "solucion": { "respuesta": "niece", "explicacion": "La hija de tu hermano o hermana es tu sobrina: niece. Su pareja masculina es nephew." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.02",
+      "leccion": "la-familia",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con his o her.",
+      "frase": "Ana and ___ brother are teachers.",
+      "traduccion": "Ana y su hermano son maestros.",
+      "respuestas": [["her"]],
+      "banco": ["his", "her"],
+      "errores_tipicos": { "his": "El posesivo concuerda con el poseedor (Ana, mujer), no con brother." },
+      "pistas": [
+        "His y her dependen del poseedor.",
+        "¿De quién es el hermano?",
+        "Mira si quien posee es hombre o mujer; que el hermano sea hombre no importa."
+      ],
+      "solucion": { "respuesta": "her", "explicacion": "El hermano es de Ana, una mujer, así que el posesivo es her. No importa que brother sea hombre: en inglés el posesivo mira al poseedor." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.03",
+      "leccion": "la-familia",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés usando el genitivo (abuelo y abuela).",
+      "es": "La casa de mis abuelos está en Veracruz.",
+      "respuestas": ["My grandparents' house is in Veracruz."],
+      "errores_tipicos": {
+        "My grandparents house is in Veracruz": "Falta el apóstrofo después de grandparents.",
+        "My grandparents's house is in Veracruz": "Con un plural terminado en -s solo se añade el apóstrofo: grandparents'.",
+        "The house of my grandparents is in Veracruz": "Se entiende, pero el enunciado pide el genitivo, que es lo natural: my grandparents' house."
+      },
+      "pistas": [
+        "Abuelo y abuela juntos = grandparents.",
+        "El poseedor va delante; grandparents ya termina en -s.",
+        "Poseedor plural terminado en -s + solo apóstrofo + cosa poseída + is + in + ciudad."
+      ],
+      "solucion": { "respuesta": "My grandparents' house is in Veracruz.", "explicacion": "Abuelos (mixto) = grandparents. Como es un plural terminado en -s, el genitivo solo añade el apóstrofo: my grandparents' house. Para ubicar una casa en una ciudad, in." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.04",
+      "leccion": "la-familia",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y escribe la corrección.",
+      "frase": "My sister is married with a Canadian engineer.",
+      "error": "with",
+      "correcciones": ["to"],
+      "frase_correcta": "My sister is married to a Canadian engineer.",
+      "pistas": [
+        "Revisa las preposiciones.",
+        "Mira la palabra que va después de married.",
+        "«Casado con» en inglés no usa with."
+      ],
+      "solucion": { "respuesta": "with → to", "explicacion": "Married se construye con to: married to someone. «Married with» es un calco del español «casada con»." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.05",
+      "leccion": "la-familia",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Interpreta la oración.",
+      "pregunta": "Ben dice: «Lucy is my stepsister.» ¿Qué relación tienen?",
+      "opciones": [
+        { "texto": "Lucy es hija de la pareja del papá o de la mamá de Ben; no comparten padres.", "correcta": true, "porque": "Correcto: step- indica un parentesco por el matrimonio de uno de los padres, sin lazo de sangre." },
+        { "texto": "Lucy y Ben comparten solo el papá o solo la mamá.", "correcta": false, "porque": "Eso sería half-sister (media hermana)." },
+        { "texto": "Lucy es la esposa del hermano de Ben.", "correcta": false, "porque": "Eso sería sister-in-law (cuñada)." },
+        { "texto": "Lucy es la hija del tío de Ben.", "correcta": false, "porque": "Eso sería cousin (prima)." }
+      ],
+      "pistas": [
+        "Step- no indica lazo de sangre.",
+        "Piensa en stepmother: la esposa de tu papá que no es tu mamá.",
+        "Stepsister = la hija de tu stepmother o de tu stepfather."
+      ],
+      "solucion": { "respuesta": "Lucy es hija de la pareja del papá o de la mamá de Ben; no comparten padres.", "explicacion": "Step- indica un parentesco creado por un nuevo matrimonio, sin padres en común. Si compartieran uno de los padres, sería half-sister." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.06",
+      "leccion": "la-familia",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada palabra con su significado.",
+      "pares": [
+        { "a": "mother-in-law", "b": "suegra" },
+        { "a": "brother-in-law", "b": "cuñado" },
+        { "a": "son-in-law", "b": "yerno" },
+        { "a": "daughter-in-law", "b": "nuera" },
+        { "a": "parents", "b": "papá y mamá" },
+        { "a": "relatives", "b": "parientes" }
+      ],
+      "pistas": [
+        "-in-law indica la familia de tu pareja (o la pareja de tus hijos).",
+        "El hijo político (el esposo de tu hija) y la hija política (la esposa de tu hijo).",
+        "Parents no significa parientes."
+      ],
+      "solucion": { "respuesta": "mother-in-law–suegra, brother-in-law–cuñado, son-in-law–yerno, daughter-in-law–nuera, parents–papá y mamá, relatives–parientes", "explicacion": "Las palabras con -in-law nombran la familia política. Parents es un falso amigo: significa papá y mamá; los parientes en general son relatives." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.07",
+      "leccion": "profesiones",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa cada hueco con a o an.",
+      "frase": "He's ___ electrician and she's ___ lawyer.",
+      "traduccion": "Él es electricista y ella es abogada.",
+      "respuestas": [["an"], ["a"]],
+      "errores_tipicos": {
+        "a | a": "Electrician empieza con sonido vocal: an electrician.",
+        "an | an": "Lawyer empieza con sonido consonante /l/: a lawyer."
+      },
+      "pistas": [
+        "Las dos profesiones están en singular: ambas necesitan artículo.",
+        "Pronuncia el primer sonido de electrician y de lawyer.",
+        "an + sonido vocal; a + sonido consonante."
+      ],
+      "solucion": { "respuesta": "an · a", "explicacion": "Electrician empieza con sonido vocal (/ɪ/), por eso an; lawyer empieza con /l/, por eso a. El español no pone artículo, pero en inglés es obligatorio con profesiones en singular." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.08",
+      "leccion": "profesiones",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señala el grupo de palabras incorrecto y escribe la corrección.",
+      "frase": "My cousins are a nurses.",
+      "error": "a nurses",
+      "correcciones": ["nurses"],
+      "frase_correcta": "My cousins are nurses.",
+      "pistas": [
+        "El sujeto es plural.",
+        "Mira el artículo delante de la profesión.",
+        "A significa «uno»: no se usa con plurales."
+      ],
+      "solucion": { "respuesta": "a nurses → nurses", "explicacion": "Con un sujeto plural la profesión va en plural y sin artículo: My cousins are nurses. A / an solo acompaña a sustantivos en singular." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.09",
+      "leccion": "profesiones",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el significado.",
+      "pregunta": "Un compañero de viaje te pregunta: «What do you do?». ¿Qué quiere saber?",
+      "opciones": [
+        { "texto": "A qué te dedicas.", "correcta": true, "porque": "Correcto: What do you do? pregunta por tu profesión u ocupación." },
+        { "texto": "Qué estás haciendo en este momento.", "correcta": false, "porque": "Eso sería What are you doing?" },
+        { "texto": "Qué vas a hacer mañana.", "correcta": false, "porque": "La pregunta no habla del futuro." },
+        { "texto": "Cómo estás.", "correcta": false, "porque": "Eso sería How are you?" }
+      ],
+      "pistas": [
+        "Es una expresión fija de la lección de profesiones.",
+        "No habla de lo que haces ahora.",
+        "Se responde con I'm a / an + profesión."
+      ],
+      "solucion": { "respuesta": "A qué te dedicas.", "explicacion": "What do you do? es la forma habitual de preguntar por la profesión. Para lo que haces en este momento se dice What are you doing?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.10",
+      "leccion": "profesiones",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hermano es mesero en un restaurante.",
+      "respuestas": [
+        "My brother is a waiter in a restaurant.",
+        "My brother is a waiter at a restaurant.",
+        "My brother is a server in a restaurant.",
+        "My brother is a server at a restaurant."
+      ],
+      "errores_tipicos": {
+        "My brother is waiter in a restaurant": "Falta a delante de la profesión.",
+        "My brother is a waiter in the restaurant": "Es «un» restaurante cualquiera, no uno concreto: a restaurant."
+      },
+      "pistas": [
+        "La profesión en singular necesita artículo.",
+        "Mesero = waiter (o server). El lugar lleva in o at.",
+        "Sujeto + is + a + profesión + in / at + a + lugar."
+      ],
+      "solucion": { "respuesta": "My brother is a waiter in a restaurant.", "explicacion": "Profesión en singular con a (a waiter o a server). Para el lugar valen in y at con un edificio como restaurant; y es a restaurant porque no es uno concreto." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.11",
+      "leccion": "profesiones",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe la oración en negativa.",
+      "origen": "Priya is a dentist.",
+      "instruccion": "Negativa",
+      "respuestas": ["Priya isn't a dentist.", "Priya's not a dentist."],
+      "errores_tipicos": {
+        "Priya isn't dentist": "El artículo se mantiene en la negativa: a dentist.",
+        "Priya doesn't a dentist": "Con be la negación es is not (isn't), sin do."
+      },
+      "pistas": [
+        "La negación de be se forma con not.",
+        "Not va después de is; lo demás no cambia.",
+        "Sujeto + isn't (is not) + el mismo resto, con su artículo."
+      ],
+      "solucion": { "respuesta": "Priya isn't a dentist.", "explicacion": "La negación de be se forma añadiendo not después de is (isn't). El artículo a se mantiene: a dentist." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.12",
+      "leccion": "profesiones",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My aunt is an engineer at a car factory.",
+      "pistas": [
+        "Hay una profesión y un lugar de trabajo.",
+        "La profesión empieza con sonido vocal.",
+        "an engineer · at a car factory."
+      ],
+      "solucion": { "respuesta": "My aunt is an engineer at a car factory.", "explicacion": "An engineer porque engineer empieza con sonido vocal. At a car factory indica el lugar de trabajo; car funciona como adjetivo delante de factory (fábrica de carros)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.13",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra interrogativa. Fíjate en la respuesta.",
+      "frase": "___ is your mother? — She's fine, thanks.",
+      "traduccion": "¿Cómo está tu mamá? — Bien, gracias.",
+      "respuestas": [["How"]],
+      "errores_tipicos": {
+        "Who": "Who pregunta quién es una persona. La respuesta (She's fine) habla de su estado.",
+        "Where": "Where pregunta por un lugar. La respuesta habla de su estado."
+      },
+      "pistas": [
+        "La respuesta describe cómo se siente la persona.",
+        "Se pregunta por el estado.",
+        "¿Cómo? = …"
+      ],
+      "solucion": { "respuesta": "How", "explicacion": "La respuesta (She's fine) describe el estado de la persona, así que la pregunta es How is your mother?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.14",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra interrogativa.",
+      "pregunta": "«___ is the concert?» — «On Saturday.»",
+      "opciones": [
+        { "texto": "When", "correcta": true, "porque": "Correcto: la respuesta es un momento (un día)." },
+        { "texto": "Where", "correcta": false, "porque": "Where pide un lugar; On Saturday es un momento." },
+        { "texto": "Why", "correcta": false, "porque": "Why pide una razón y se responde con because." },
+        { "texto": "Who", "correcta": false, "porque": "Who pide una persona." }
+      ],
+      "pistas": [
+        "Mira el tipo de información de la respuesta.",
+        "Saturday es un día de la semana.",
+        "Para preguntar por un momento se usa when."
+      ],
+      "solucion": { "respuesta": "When", "explicacion": "On Saturday indica un momento, así que la pregunta usa when: When is the concert?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.15",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para preguntar «¿Para quién es este café?».",
+      "fichas": ["Who", "is", "this", "coffee", "for"],
+      "respuestas": ["Who is this coffee for?"],
+      "traduccion": "¿Para quién es este café?",
+      "errores_tipicos": {
+        "For who is this coffee": "En el inglés cotidiano la preposición se queda al final: Who is this coffee for?"
+      },
+      "pistas": [
+        "Empieza con la palabra interrogativa, no con la preposición.",
+        "Después, be y el sujeto (this coffee).",
+        "Palabra interrogativa + be + sujeto + preposición al final."
+      ],
+      "solucion": { "respuesta": "Who is this coffee for?", "explicacion": "Who abre la pregunta, luego is y el sujeto this coffee, y la preposición for queda al final, como en Where are you from?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.16",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y escribe la corrección.",
+      "frase": "Who's car is that?",
+      "error": "Who's",
+      "correcciones": ["Whose"],
+      "frase_correcta": "Whose car is that?",
+      "pistas": [
+        "Dos palabras suenan igual y se escriben distinto.",
+        "La pregunta es por el dueño del carro.",
+        "Who's = who is; para el dueño se usa whose."
+      ],
+      "solucion": { "respuesta": "Who's → Whose", "explicacion": "Who's es la contracción de who is: «Who is car is that?» no tiene sentido. Para preguntar por el dueño se usa whose + sustantivo: Whose car is that?" }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.17",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Al salir de una reunión hay dos chamarras en una silla. Mei te pregunta cuál es la tuya. La tuya es la verde.",
+      "lineas": [
+        { "quien": "Mei", "en": "Which jacket is yours, the black jacket or the green jacket?", "es": "¿Cuál chamarra es la tuya, la negra o la verde?" }
+      ],
+      "opciones": [
+        { "texto": "The green jacket.", "correcta": true, "porque": "Correcto: which pide elegir una de las opciones mencionadas." },
+        { "texto": "Yes, it is.", "correcta": false, "porque": "Es una respuesta de sí o no, y la pregunta con which pide una opción." },
+        { "texto": "Because it's cold.", "correcta": false, "porque": "Because responde a why, no a which." },
+        { "texto": "It's on the chair.", "correcta": false, "porque": "Eso respondería a Where is your jacket? (un lugar)." }
+      ],
+      "pistas": [
+        "La pregunta ofrece dos opciones.",
+        "Which se responde eligiendo, no con sí o no.",
+        "Tu chamarra es la verde."
+      ],
+      "solucion": { "respuesta": "The green jacket.", "explicacion": "Which pide elegir entre opciones concretas, así que se responde con la opción: The green jacket (o The green one)." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.eval.18",
+      "leccion": "palabras-interrogativas",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Por qué está cerrado el banco?",
+      "respuestas": ["Why is the bank closed?"],
+      "errores_tipicos": {
+        "Why the bank is closed": "Falta la inversión: is va antes de the bank.",
+        "Because is the bank closed": "Because responde; para preguntar se usa why.",
+        "Why is closed the bank": "Es el orden del español. En inglés: Why + is + sujeto + adjetivo."
+      },
+      "pistas": [
+        "¿Por qué? = why.",
+        "Pregunta con be: is antes del sujeto; el adjetivo al final.",
+        "Why + be + sujeto + adjetivo al final."
+      ],
+      "solucion": { "respuesta": "Why is the bank closed?", "explicacion": "Why abre la pregunta, is va antes del sujeto the bank y el adjetivo closed queda al final. En español el sujeto puede ir al final («está cerrado el banco»), pero en inglés no." }
+    }
+  ]
+}

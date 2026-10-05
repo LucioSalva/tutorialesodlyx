@@ -1,0 +1,325 @@
+{
+  "titulo": "Evaluación: can",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "can.eval.01",
+      "leccion": "can-habilidad",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál dice «Lucía sabe bailar salsa»?",
+      "opciones": [
+        { "texto": "Lucía can dance salsa.", "correcta": true, "porque": "Correcto: can invariable + verbo en forma base." },
+        { "texto": "Lucía cans dance salsa.", "correcta": false, "porque": "Can nunca lleva -s." },
+        { "texto": "Lucía can dances salsa.", "correcta": false, "porque": "Después de can el verbo va en forma base, sin -s." },
+        { "texto": "Lucía can to dance salsa.", "correcta": false, "porque": "Después de can no va to." }
+      ],
+      "pistas": [
+        "Can es un modal con reglas fijas.",
+        "Revisa si can o dance llevan algo de más.",
+        "Sujeto + can + verbo base, sin -s y sin to."
+      ],
+      "solucion": { "respuesta": "Lucía can dance salsa.", "explicacion": "Can no cambia con la tercera persona y el verbo que lo sigue va en forma base: can dance. Las otras opciones añaden una -s o un to que no corresponden." }
+    },
+    {
+      "id": "can.eval.02",
+      "leccion": "can-habilidad",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con una palabra.",
+      "frase": "Omar is a great cook. He can cook very ___.",
+      "respuestas": [["well"]],
+      "traduccion": "Omar es un gran cocinero. Cocina muy bien.",
+      "pistas": [
+        "Falta la palabra que dice cómo cocina.",
+        "Describe una acción (cook), no a una persona.",
+        "Para decir «bien» con un verbo se usa el adverbio, no el adjetivo good."
+      ],
+      "solucion": { "respuesta": "well", "explicacion": "La respuesta correcta es well, el adverbio que describe cómo se hace algo. Good es adjetivo: se usa en a great cook / a good cook, no detrás de un verbo." },
+      "errores_tipicos": { "good": "Good es adjetivo (a good cook). Para decir cómo cocina se usa el adverbio well." }
+    },
+    {
+      "id": "can.eval.03",
+      "leccion": "can-habilidad",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa can y children.",
+      "es": "Mis hijos saben nadar.",
+      "respuestas": ["My children can swim."],
+      "pistas": [
+        "«Saber + verbo» es una habilidad.",
+        "El sujeto es plural, pero can no cambia.",
+        "Sujeto plural + can (sin cambios) + verbo base, como en The dogs can run."
+      ],
+      "solucion": { "respuesta": "My children can swim.", "explicacion": "«Saben nadar» es una habilidad, así que se usa can + swim (forma base). Can es igual con un sujeto plural." },
+      "errores_tipicos": {
+        "My children know swim.": "«Saber nadar» es una habilidad: can swim, no know swim.",
+        "My children can to swim.": "Después de can no va to."
+      }
+    },
+    {
+      "id": "can.eval.04",
+      "leccion": "can-habilidad",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "I know play the piano a little.",
+      "error": "know",
+      "correcciones": ["can"],
+      "frase_correcta": "I can play the piano a little.",
+      "pistas": [
+        "La oración quiere decir «Sé tocar un poco el piano».",
+        "Detrás de «saber» hay un verbo (tocar).",
+        "Saber hacer algo = can + verbo en forma base."
+      ],
+      "solucion": { "respuesta": "know → can", "explicacion": "Para una habilidad se usa can + verbo: I can play the piano a little. Know se usa con datos o personas (I know the answer)." }
+    },
+    {
+      "id": "can.eval.05",
+      "leccion": "can-habilidad",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["all", "Ben", "skate", "at", "can't"],
+      "respuestas": ["Ben can't skate at all"],
+      "traduccion": "Ben no sabe patinar nada.",
+      "pistas": [
+        "Empieza con el sujeto.",
+        "At all refuerza la negación y va en un lugar fijo.",
+        "Sujeto + can't + verbo + at all (al final)."
+      ],
+      "solucion": { "respuesta": "Ben can't skate at all.", "explicacion": "Sujeto (Ben) + can't + verbo en forma base (skate) + at all al final para reforzar la negación." }
+    },
+    {
+      "id": "can.eval.06",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Transforma la oración.",
+      "origen": "The baby can walk.",
+      "instruccion": "Negativa",
+      "respuestas": ["The baby can't walk."],
+      "pistas": [
+        "Can lleva la negación él mismo.",
+        "No añadas doesn't y no cambies walk.",
+        "Sujeto + can't / cannot + verbo base."
+      ],
+      "solucion": { "respuesta": "The baby can't walk.", "explicacion": "Can pasa a can't (o cannot) y walk queda en forma base. No se usa doesn't porque can ya es auxiliar." },
+      "errores_tipicos": {
+        "The baby doesn't can walk.": "Can no se combina con doesn't.",
+        "The baby can't walks.": "Después de can't el verbo va en forma base: walk."
+      }
+    },
+    {
+      "id": "can.eval.07",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Transforma la oración.",
+      "origen": "Priya can speak Hindi.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Can Priya speak Hindi?"],
+      "pistas": [
+        "No necesitas does.",
+        "Mueve can respecto al sujeto.",
+        "Can + sujeto + verbo base?"
+      ],
+      "solucion": { "respuesta": "Can Priya speak Hindi?", "explicacion": "Can va delante del sujeto Priya y speak se queda en forma base." },
+      "errores_tipicos": {
+        "Does Priya can speak Hindi?": "Can no se combina con does.",
+        "Can Priya speaks Hindi?": "El verbo va en forma base: speak."
+      }
+    },
+    {
+      "id": "can.eval.08",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "She can play tennis, but she can't swim.",
+      "pistas": [
+        "Hay una afirmación y una negación unidas por but.",
+        "En la primera parte can suena débil; en la segunda, can't va acentuado.",
+        "Afirmativa + but + negativa con el mismo sujeto: can suena débil y la negación va acentuada."
+      ],
+      "solucion": { "respuesta": "She can play tennis, but she can't swim.", "explicacion": "Can débil /kən/ con el acento en play; can't con vocal plena y acentuado antes de swim. But anuncia el contraste." }
+    },
+    {
+      "id": "can.eval.09",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la transcripción y decide qué significa.",
+      "pregunta": "Oyes /hi ˈkænt ˈkʊk/: dos golpes de voz seguidos y una «a» abierta y acentuada. ¿Qué significa?",
+      "opciones": [
+        { "texto": "Él no sabe cocinar.", "correcta": true, "porque": "Correcto: la vocal plena /æ/ y el acento sobre can't más el acento en cook indican la negación." },
+        { "texto": "Él sabe cocinar.", "correcta": false, "porque": "En la afirmación can se reduce a /kən/ y solo cook lleva acento." }
+      ],
+      "pistas": [
+        "Recuerda cómo suenan can y can't en una oración.",
+        "Fíjate en la vocal y en cuántas palabras llevan acento.",
+        "Vocal plena + acento en can't = negación."
+      ],
+      "solucion": { "respuesta": "Él no sabe cocinar.", "explicacion": "Can't nunca se reduce: conserva /æ/ (EE. UU.) y lleva acento, así que se oyen dos golpes de voz. La afirmación sería /hi kən ˈkʊk/." }
+    },
+    {
+      "id": "can.eval.10",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Una amiga te pregunta por tus papás. Tu mamá habla inglés; tu papá, no.",
+      "lineas": [
+        { "quien": "Mei", "en": "Can your parents speak English?", "es": "¿Tus papás hablan inglés?" }
+      ],
+      "opciones": [
+        { "texto": "My mom can, but my dad can't.", "correcta": true, "porque": "Correcto: respuestas cortas con can / can't, sin repetir el verbo." },
+        { "texto": "My mom does, but my dad doesn't.", "correcta": false, "porque": "La pregunta se hizo con can: la respuesta usa can / can't." },
+        { "texto": "Yes, they can't.", "correcta": false, "porque": "Yes con can't es contradictorio, y además solo uno de los dos habla inglés." },
+        { "texto": "My mom can, but my dad cans not.", "correcta": false, "porque": "«Cans not» no existe: la negación es can't." }
+      ],
+      "pistas": [
+        "La respuesta usa el mismo auxiliar que la pregunta.",
+        "Cada padre tiene una respuesta distinta.",
+        "Sujeto + can / sujeto + can't, sin repetir speak English."
+      ],
+      "solucion": { "respuesta": "My mom can, but my dad can't.", "explicacion": "Se repite el auxiliar de la pregunta en forma corta: my mom can (sí) y my dad can't (no)." }
+    },
+    {
+      "id": "can.eval.11",
+      "leccion": "can-negacion-y-preguntas",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa la pregunta con dos palabras: el auxiliar y el verbo play.",
+      "frase": "How many instruments ___ Tom ___?",
+      "respuestas": [["can"], ["play"]],
+      "traduccion": "¿Cuántos instrumentos sabe tocar Tom?",
+      "pistas": [
+        "Es una pregunta wh con can.",
+        "El auxiliar va antes del sujeto Tom y el verbo después.",
+        "How many + sustantivo + can + sujeto + verbo base?"
+      ],
+      "solucion": { "respuesta": "can … play", "explicacion": "En la pregunta wh, can va delante del sujeto (Tom) y el verbo play va después, en forma base, sin -s." },
+      "errores_tipicos": {
+        "does | play": "La pregunta es sobre habilidad con can, no sobre un hábito: How many instruments can Tom play?",
+        "can | plays": "Después de can el verbo va en forma base: play."
+      }
+    },
+    {
+      "id": "can.eval.12",
+      "leccion": "can-permiso-y-peticiones",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás en una cafetería y hay una silla libre en tu mesa.",
+      "lineas": [
+        { "quien": "Diego", "en": "Excuse me, can I sit here?", "es": "Disculpa, ¿me puedo sentar aquí?" }
+      ],
+      "opciones": [
+        { "texto": "Sure, go ahead.", "correcta": true, "porque": "Correcto: das permiso de forma natural." },
+        { "texto": "Yes, I can.", "correcta": false, "porque": "Diego pidió permiso para él; I can habla de ti." },
+        { "texto": "No, you don't.", "correcta": false, "porque": "La pregunta se hizo con can: no se responde con don't." },
+        { "texto": "Sure, you do.", "correcta": false, "porque": "Do no corresponde a una pregunta con can." }
+      ],
+      "pistas": [
+        "Diego pide permiso para hacer algo él.",
+        "Buscas una forma de decir que sí.",
+        "Para dar permiso: una palabra de acuerdo + una expresión que significa «adelante»."
+      ],
+      "solucion": { "respuesta": "Sure, go ahead.", "explicacion": "Ante Can I…? se concede el permiso con Sure, Of course o Go ahead (o Yes, you can). Las respuestas con I o con do no encajan." }
+    },
+    {
+      "id": "can.eval.13",
+      "leccion": "can-permiso-y-peticiones",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa Can you…? y please.",
+      "es": "¿Puedes cerrar la puerta, por favor?",
+      "respuestas": ["Can you close the door, please?", "Can you please close the door?", "Can you shut the door, please?", "Can you please shut the door?"],
+      "pistas": [
+        "Es una petición: quien actúa es la otra persona.",
+        "Can + you + verbo en forma base.",
+        "Can you + verbo base + objeto + please (al final o después de you), como en Can you open the window, please?"
+      ],
+      "solucion": { "respuesta": "Can you close the door, please?", "explicacion": "Petición con Can you + close (forma base) + the door. Please va al final o justo después de you. Shut también significa cerrar." },
+      "errores_tipicos": {
+        "Can you to close the door, please?": "Después de can no va to.",
+        "You can close the door, please?": "Falta la inversión: Can you…?"
+      }
+    },
+    {
+      "id": "can.eval.14",
+      "leccion": "can-permiso-y-peticiones",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la frase adecuada.",
+      "pregunta": "Llegas a la oficina de una directora que no conoces. La puerta está abierta. ¿Cómo pides permiso para entrar de manera formal?",
+      "opciones": [
+        { "texto": "May I come in?", "correcta": true, "porque": "Correcto: May I…? es la forma formal de pedir permiso." },
+        { "texto": "Can you come in?", "correcta": false, "porque": "Así preguntas si la directora puede entrar: el sujeto está al revés." },
+        { "texto": "May you come in?", "correcta": false, "porque": "May para pedir permiso va con I o we, nunca con you." },
+        { "texto": "I come in?", "correcta": false, "porque": "Falta el modal y la inversión." }
+      ],
+      "pistas": [
+        "Pides permiso para ti, en una situación formal.",
+        "¿Qué modal es más formal que can para pedir permiso?",
+        "Permiso formal: el modal más formal + I + verbo base?"
+      ],
+      "solucion": { "respuesta": "May I come in?", "explicacion": "May I…? pide permiso para una acción propia con un tono formal. Can I come in? también sería correcta, pero menos formal; May you no existe en este uso." }
+    },
+    {
+      "id": "can.eval.15",
+      "leccion": "can-permiso-y-peticiones",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la parte incorrecta y corrígela.",
+      "frase": "Can you to help me with this box?",
+      "error": "to help",
+      "correcciones": ["help"],
+      "frase_correcta": "Can you help me with this box?",
+      "pistas": [
+        "Revisa lo que va después de you.",
+        "¿Qué forma tiene el verbo después de can?",
+        "Can + sujeto + verbo en forma base, sin to."
+      ],
+      "solucion": { "respuesta": "to help → help", "explicacion": "Después de can el verbo va en forma base sin to: Can you help me with this box?" }
+    },
+    {
+      "id": "can.eval.16",
+      "leccion": "can-permiso-y-peticiones",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada respuesta con su traducción.",
+      "pares": [
+        { "a": "Sure, go ahead.", "b": "Claro, adelante." },
+        { "a": "I'm afraid not.", "b": "Me temo que no." },
+        { "a": "No problem.", "b": "No hay problema." },
+        { "a": "Sorry, I can't.", "b": "Lo siento, no puedo." },
+        { "a": "Of course.", "b": "Por supuesto." }
+      ],
+      "pistas": [
+        "Son respuestas a permisos y peticiones.",
+        "Dos son negativas; tres, afirmativas.",
+        "Afraid = temer; go ahead = adelante; can't = no poder."
+      ],
+      "solucion": { "respuesta": "Sure, go ahead = Claro, adelante; I'm afraid not = Me temo que no; No problem = No hay problema; Sorry, I can't = Lo siento, no puedo; Of course = Por supuesto.", "explicacion": "I'm afraid not y Sorry, I can't son negativas amables (la primera sirve para negar permiso; la segunda, para rechazar un favor). Sure, No problem y Of course aceptan." }
+    }
+  ]
+}

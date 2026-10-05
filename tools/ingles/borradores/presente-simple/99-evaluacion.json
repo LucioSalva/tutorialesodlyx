@@ -1,0 +1,507 @@
+{
+  "titulo": "Evaluación: el presente simple",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "presente-simple.eval.01",
+      "leccion": "que-es-el-presente-simple",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración que expresa una verdad general.",
+      "pregunta": "¿Cuál de estas oraciones es una verdad general, válida para todos y siempre?",
+      "opciones": [
+        {
+          "texto": "Plants need water.",
+          "correcta": true,
+          "porque": "Correcta: es un hecho de la naturaleza que vale siempre, un uso típico del presente simple."
+        },
+        {
+          "texto": "I have lunch at two.",
+          "correcta": false,
+          "porque": "Es una rutina personal, no una verdad general: solo habla de tu costumbre."
+        },
+        {
+          "texto": "The bus leaves at 8:10.",
+          "correcta": false,
+          "porque": "Es un horario fijo de un servicio, no una verdad sobre el mundo."
+        },
+        {
+          "texto": "My aunt lives in Chiapas.",
+          "correcta": false,
+          "porque": "Es un hecho estable de una persona concreta, no una verdad general."
+        }
+      ],
+      "pistas": [
+        "Recuerda los cinco usos: hábitos, rutinas, hechos permanentes, verdades generales y horarios.",
+        "Una verdad general no depende de una persona ni de un horario concreto.",
+        "Busca la oración que sería verdad en cualquier lugar del mundo."
+      ],
+      "solucion": {
+        "respuesta": "Plants need water.",
+        "explicacion": "Plants need water (Las plantas necesitan agua) es verdad siempre y para todos: una verdad general. Las demás también usan presente simple, pero por otros motivos: rutina, horario y hecho permanente."
+      }
+    },
+    {
+      "id": "presente-simple.eval.02",
+      "leccion": "que-es-el-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el verbo entre paréntesis en la forma correcta.",
+      "frase": "Most people ___ (sleep) seven or eight hours a night.",
+      "traduccion": "La mayoría de la gente duerme siete u ocho horas por noche.",
+      "respuestas": [
+        [
+          "sleep"
+        ]
+      ],
+      "errores_tipicos": {
+        "sleeps": "People es plural en inglés (= they), aunque «la gente» sea singular en español: forma base, sleep.",
+        "are sleep": "No se usa are delante de otro verbo en presente simple: basta con sleep."
+      },
+      "pistas": [
+        "Decide si el sujeto es singular o plural en inglés.",
+        "El sujeto es most people. ¿A qué pronombre equivale?",
+        "People = they: el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "sleep",
+        "explicacion": "La respuesta es sleep. Most people (la mayoría de la gente) es plural en inglés y equivale a they, así que el verbo va en forma base, sin -s."
+      }
+    },
+    {
+      "id": "presente-simple.eval.03",
+      "leccion": "que-es-el-presente-simple",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Vivimos cerca del hospital.",
+      "respuestas": [
+        "We live near the hospital",
+        "We live close to the hospital"
+      ],
+      "errores_tipicos": {
+        "Live near the hospital": "Falta el sujeto: en inglés hace falta We.",
+        "We are live near the hospital": "Sobra are: el verbo de la oración es live.",
+        "We live near of the hospital": "Near va directamente con el sustantivo, sin of."
+      },
+      "pistas": [
+        "«Vivimos» esconde el sujeto en la terminación.",
+        "Necesitas sujeto + verbo en forma base + lugar.",
+        "Sujeto + verbo en forma base + near + lugar (near sin of)."
+      ],
+      "solucion": {
+        "respuesta": "We live near the hospital.",
+        "explicacion": "La traducción es We live near the hospital: sujeto obligatorio (we), verbo en forma base porque we es plural, y near sin of."
+      }
+    },
+    {
+      "id": "presente-simple.eval.04",
+      "leccion": "que-es-el-presente-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "I am speak Spanish and English.",
+      "error": "am speak",
+      "correcciones": [
+        "speak"
+      ],
+      "frase_correcta": "I speak Spanish and English.",
+      "pistas": [
+        "Revisa si hay dos verbos juntos que no deberían estarlo.",
+        "Mira lo que hay entre I y Spanish.",
+        "En presente simple afirmativo no se pone am/is/are delante de otro verbo."
+      ],
+      "solucion": {
+        "respuesta": "speak",
+        "explicacion": "El error es am speak. Speak ya es el verbo de la oración; am (de to be) sobra. Lo correcto es I speak Spanish and English."
+      }
+    },
+    {
+      "id": "presente-simple.eval.05",
+      "leccion": "tercera-persona",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma bien escrita.",
+      "pregunta": "¿Cuál de estas formas de tercera persona está bien escrita?",
+      "opciones": [
+        {
+          "texto": "tries",
+          "correcta": true,
+          "porque": "Correcta: try termina en consonante (r) + y, así que la y cambia a i y se añade -es."
+        },
+        {
+          "texto": "plaies",
+          "correcta": false,
+          "porque": "Play termina en vocal + y: solo se añade -s → plays."
+        },
+        {
+          "texto": "washs",
+          "correcta": false,
+          "porque": "Wash termina en -sh: se añade -es → washes."
+        },
+        {
+          "texto": "gos",
+          "correcta": false,
+          "porque": "Go termina en -o: se añade -es → goes."
+        }
+      ],
+      "pistas": [
+        "Cada terminación tiene su regla.",
+        "Fíjate en las últimas letras de cada verbo base: try, play, wash, go.",
+        "Consonante + y → ies; vocal + y → s; -sh y -o → es."
+      ],
+      "solucion": {
+        "respuesta": "tries",
+        "explicacion": "Tries está bien escrita porque try termina en consonante + y. Las demás deberían ser plays (vocal + y), washes (-sh) y goes (-o)."
+      }
+    },
+    {
+      "id": "presente-simple.eval.06",
+      "leccion": "tercera-persona",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Escribe los verbos entre paréntesis en la forma correcta.",
+      "frase": "The bank ___ (close) at five, but the café ___ (stay) open until ten.",
+      "traduccion": "El banco cierra a las cinco, pero el café se queda abierto hasta las diez.",
+      "respuestas": [
+        [
+          "closes"
+        ],
+        [
+          "stays"
+        ]
+      ],
+      "errores_tipicos": {
+        "close | stay": "The bank y the café son sujetos singulares (= it): los dos verbos llevan -s.",
+        "closes | staies": "Stay termina en vocal + y: solo + s → stays.",
+        "closes | stay": "The café también es singular (= it): stays."
+      },
+      "pistas": [
+        "Los sujetos son lugares. ¿Singular o plural?",
+        "The bank = it y the café = it. Después mira cómo termina stay.",
+        "It → -s. Vocal + y → solo -s."
+      ],
+      "solucion": {
+        "respuesta": "closes … stays",
+        "explicacion": "The bank y the café equivalen a it, así que ambos verbos llevan -s: closes y stays. Stay conserva la y porque antes hay una vocal (a)."
+      }
+    },
+    {
+      "id": "presente-simple.eval.07",
+      "leccion": "tercera-persona",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia el sujeto y ajusta el verbo.",
+      "origen": "My parents have a dog and two cats.",
+      "instruccion": "Sujeto nuevo: My uncle",
+      "respuestas": [
+        "My uncle has a dog and two cats"
+      ],
+      "errores_tipicos": {
+        "My uncle haves a dog and two cats": "Have es irregular: con he/she/it es has.",
+        "My uncle have a dog and two cats": "My uncle = he: el verbo cambia a has."
+      },
+      "pistas": [
+        "El nuevo sujeto es una sola persona.",
+        "My uncle = he. El verbo es have.",
+        "Have con he/she/it → has."
+      ],
+      "solucion": {
+        "respuesta": "My uncle has a dog and two cats.",
+        "explicacion": "My uncle es tercera persona del singular (= he). Have es irregular y con ese sujeto se convierte en has."
+      }
+    },
+    {
+      "id": "presente-simple.eval.08",
+      "leccion": "tercera-persona",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "Ana teaches math and her husband fixes computers.",
+      "pistas": [
+        "Hay dos sujetos en tercera persona del singular.",
+        "Los dos verbos terminan con una sílaba extra /ɪz/.",
+        "teach + es, fix + es."
+      ],
+      "solucion": {
+        "respuesta": "Ana teaches math and her husband fixes computers.",
+        "explicacion": "Ana teaches math and her husband fixes computers (Ana da clases de matemáticas y su esposo arregla computadoras). Teaches y fixes llevan -es porque terminan en -ch y -x, y por eso se oye una sílaba extra /ɪz/."
+      }
+    },
+    {
+      "id": "presente-simple.eval.09",
+      "leccion": "tercera-persona",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Piensa en el sonido.",
+      "pregunta": "¿En cuál de estos verbos la -s final suena /z/ (con vibración, sin sílaba extra)?",
+      "opciones": [
+        {
+          "texto": "lives",
+          "correcta": true,
+          "porque": "Correcta: live termina en /v/, un sonido sonoro, así que la -s también vibra: /lɪvz/."
+        },
+        {
+          "texto": "stops",
+          "correcta": false,
+          "porque": "Stop termina en /p/, sordo: la -s suena /s/."
+        },
+        {
+          "texto": "washes",
+          "correcta": false,
+          "porque": "Wash termina en /ʃ/, silbante: la -s añade una sílaba /ɪz/."
+        },
+        {
+          "texto": "laughs",
+          "correcta": false,
+          "porque": "Laugh se escribe con gh, pero suena /f/, sordo: la -s suena /s/ (/læfs/)."
+        }
+      ],
+      "pistas": [
+        "El sonido de la -s copia el último sonido del verbo.",
+        "Di cada verbo sin -s y pon los dedos en la garganta: ¿vibra el último sonido?",
+        "Sonoro (vibra) → /z/; sordo → /s/; silbante → /ɪz/."
+      ],
+      "solucion": {
+        "respuesta": "lives",
+        "explicacion": "Lives termina en /v/, que es sonoro, y la -s copia esa vibración: /z/. Stops y laughs terminan en sonidos sordos (/p/ y /f/) → /s/; washes termina en silbante → /ɪz/."
+      }
+    },
+    {
+      "id": "presente-simple.eval.10",
+      "leccion": "tercera-persona",
+      "habilidad": "interpretacion",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada sujeto con el final de oración que le corresponde.",
+      "pares": [
+        {
+          "a": "My aunt",
+          "b": "teaches history."
+        },
+        {
+          "a": "My cousins",
+          "b": "live in Canada."
+        },
+        {
+          "a": "The office",
+          "b": "opens at eight."
+        },
+        {
+          "a": "My sister and I",
+          "b": "share a room."
+        }
+      ],
+      "pistas": [
+        "El verbo tiene que concordar con el sujeto.",
+        "Clasifica los sujetos: ¿cuáles equivalen a he/she/it y cuáles a we/they?",
+        "Sujetos singulares con verbo en -s; sujetos plurales (incluido my sister and I) con forma base."
+      ],
+      "solucion": {
+        "respuesta": "My aunt → teaches · My cousins → live · The office → opens · My sister and I → share",
+        "explicacion": "My aunt (she) y the office (it) necesitan verbos con -s: teaches, opens. My cousins (they) y my sister and I (we) van con forma base: live, share."
+      }
+    },
+    {
+      "id": "presente-simple.eval.11",
+      "leccion": "rutina-diaria",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "breakfast",
+        "reads",
+        "the",
+        "she",
+        "before",
+        "news"
+      ],
+      "respuestas": [
+        "She reads the news before breakfast",
+        "Before breakfast she reads the news"
+      ],
+      "traduccion": "Lee las noticias antes de desayunar.",
+      "pistas": [
+        "Empieza por sujeto + verbo.",
+        "Before va seguido directamente de un sustantivo.",
+        "Sujeto + verbo con -s + objeto + before + comida."
+      ],
+      "solucion": {
+        "respuesta": "She reads the news before breakfast.",
+        "explicacion": "Sujeto (she) + verbo con -s (reads) + objeto (the news) + before + sustantivo (breakfast). Poner Before breakfast al principio también es correcto."
+      }
+    },
+    {
+      "id": "presente-simple.eval.12",
+      "leccion": "rutina-diaria",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la palabra adecuada.",
+      "frase": "I ___ home at six thirty.",
+      "traduccion": "Llego a casa a las seis y media.",
+      "banco": [
+        "get",
+        "gets",
+        "go to"
+      ],
+      "respuestas": [
+        [
+          "get",
+          "arrive"
+        ]
+      ],
+      "errores_tipicos": {
+        "gets": "Con I el verbo va en forma base: get.",
+        "go to": "Home no lleva to: go home, get home.",
+        "go": "Go home significa «irse a casa»; «llegar a casa» es get home (o arrive home)."
+      },
+      "pistas": [
+        "«Llegar a casa» es una expresión fija de rutina.",
+        "El sujeto es I y home no lleva preposición.",
+        "Es el mismo verbo de get up y get dressed, en forma base porque el sujeto es I."
+      ],
+      "solucion": {
+        "respuesta": "get",
+        "explicacion": "La respuesta más natural es get: get home significa «llegar a casa», y con I el verbo va en forma base. Home no lleva to en esta expresión. También es correcta arrive home. Go home no sirve aquí: significa «irse a casa», no «llegar»."
+      }
+    },
+    {
+      "id": "presente-simple.eval.13",
+      "leccion": "rutina-diaria",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "We finish work at two. After, we have lunch together.",
+      "error": "After",
+      "correcciones": [
+        "After that",
+        "Then"
+      ],
+      "frase_correcta": "We finish work at two. After that, we have lunch together.",
+      "pistas": [
+        "Revisa los conectores de secuencia.",
+        "El problema está al principio de la segunda oración.",
+        "After necesita algo detrás (after that, after work); solo no equivale a «después»."
+      ],
+      "solucion": {
+        "respuesta": "After that",
+        "explicacion": "El error es After usado solo como «después». En inglés hay que decir After that (o Then): After that, we have lunch together."
+      }
+    },
+    {
+      "id": "presente-simple.eval.14",
+      "leccion": "rutina-diaria",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi papá se acuesta a las diez.",
+      "respuestas": [
+        "My dad goes to bed at ten",
+        "My father goes to bed at ten",
+        "My dad goes to bed at 10",
+        "My father goes to bed at 10"
+      ],
+      "errores_tipicos": {
+        "My dad goes to the bed at ten": "Go to bed va sin artículo.",
+        "My dad go to bed at ten": "My dad = he: goes, con -es porque go termina en -o.",
+        "My dad gos to bed at ten": "Go termina en -o: goes."
+      },
+      "pistas": [
+        "«Acostarse» es una expresión fija de tres palabras.",
+        "El sujeto es tercera persona del singular; mira cómo termina go.",
+        "Sujeto + go con -es + la expresión de acostarse (sin the) + at + hora."
+      ],
+      "solucion": {
+        "respuesta": "My dad goes to bed at ten.",
+        "explicacion": "«Acostarse» es go to bed, sin artículo. My dad (= he) pide tercera persona, y go termina en -o → goes. La hora va con at."
+      }
+    },
+    {
+      "id": "presente-simple.eval.15",
+      "leccion": "rutina-diaria",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta y natural.",
+      "contexto": "Una amiga te cuenta su horario.",
+      "lineas": [
+        {
+          "quien": "Lucía",
+          "en": "I start work at seven, so I get up at five thirty.",
+          "es": "Empiezo a trabajar a las siete, así que me levanto a las cinco y media."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Wow, that's early! My sister gets up at five too.",
+          "correcta": true,
+          "porque": "Correcta: reacciona con be (that's early) y compara con otra persona usando tercera persona: my sister gets up."
+        },
+        {
+          "texto": "Wow, that's early! My sister get up at five too.",
+          "correcta": false,
+          "porque": "My sister = she: el verbo necesita -s → gets up."
+        },
+        {
+          "texto": "Wow, that's early! My sister is get up at five too.",
+          "correcta": false,
+          "porque": "Sobra is: no se combina to be con otro verbo en presente simple."
+        },
+        {
+          "texto": "Wow, that's early! My sister get ups at five too.",
+          "correcta": false,
+          "porque": "La -s va en el verbo, no en la partícula: gets up."
+        }
+      ],
+      "pistas": [
+        "Todas las opciones empiezan igual: fíjate en la segunda oración.",
+        "El sujeto es my sister, y la expresión es get up.",
+        "Tercera persona: la -s va en get → gets up, sin is."
+      ],
+      "solucion": {
+        "respuesta": "Wow, that's early! My sister gets up at five too.",
+        "explicacion": "My sister equivale a she, así que get lleva -s. La -s va en el verbo (gets up), no en up, y no se añade is delante."
+      }
+    },
+    {
+      "id": "presente-simple.eval.16",
+      "leccion": "rutina-diaria",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Cuenta la rutina de Lucía. No repitas el sujeto.",
+      "origen": "I get up, I have breakfast and I go to work.",
+      "instruccion": "Sujeto nuevo: Lucía (una sola vez, al principio)",
+      "respuestas": [
+        "Lucía gets up has breakfast and goes to work",
+        "Lucia gets up has breakfast and goes to work"
+      ],
+      "errores_tipicos": {
+        "Lucía gets up have breakfast and go to work": "Lucía es el sujeto de los tres verbos, aunque solo aparezca una vez: gets up, has breakfast, goes to work.",
+        "Lucía get ups has breakfast and goes to work": "La -s va en el verbo: gets up."
+      },
+      "pistas": [
+        "Los tres verbos comparten sujeto.",
+        "Lucía = she: get, have y go cambian.",
+        "gets up, has (have es irregular), goes (-o + es)."
+      ],
+      "solucion": {
+        "respuesta": "Lucía gets up, has breakfast and goes to work.",
+        "explicacion": "Lucía (= she) es el sujeto de los tres verbos, así que todos llevan marca de tercera persona: gets up (la -s en get), has breakfast (have es irregular) y goes to work (go + es)."
+      }
+    }
+  ]
+}

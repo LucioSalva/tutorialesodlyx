@@ -1,0 +1,505 @@
+{
+  "titulo": "Evaluación: sustantivos, artículos y demostrativos",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "sustantivos-y-articulos.eval.01",
+      "leccion": "a-an",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el artículo correcto.",
+      "pregunta": "It's ___ interesting book.",
+      "opciones": [
+        {
+          "texto": "an",
+          "correcta": true,
+          "porque": "Correcto: la palabra siguiente es interesting, que empieza con sonido de vocal."
+        },
+        {
+          "texto": "a",
+          "correcta": false,
+          "porque": "a va delante de sonido de consonante. La palabra de al lado es interesting (vocal)."
+        }
+      ],
+      "pistas": [
+        "El artículo depende de la palabra que va justo después.",
+        "Esa palabra no es book, sino el adjetivo.",
+        "Regla: el artículo depende del sonido inicial de la palabra que le sigue, aunque sea un adjetivo; sonido de vocal → an."
+      ],
+      "solucion": {
+        "respuesta": "an",
+        "explicacion": "El artículo mira a la palabra inmediatamente siguiente, interesting, que empieza con sonido de vocal: an interesting book."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.02",
+      "leccion": "a-an",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a o an según el SONIDO.",
+      "frase": "The trip is ___ hour long. The bus is ___ unusual yellow color, and the driver wears ___ uniform.",
+      "traduccion": "El viaje dura una hora. El autobús es de un color amarillo poco común, y el conductor usa uniforme.",
+      "respuestas": [
+        [
+          "an"
+        ],
+        [
+          "an"
+        ],
+        [
+          "a"
+        ]
+      ],
+      "errores_tipicos": {
+        "a | an | a": "hour tiene la h muda: empieza con vocal → [[an hour]].",
+        "an | an | an": "uniform suena «yu-ni-form»: empieza con /j/, consonante → [[a uniform]].",
+        "an | a | a": "unusual empieza con el sonido /ʌ/ («an-yú-zhual»): vocal → [[an unusual]]."
+      },
+      "pistas": [
+        "Dos palabras empiezan con u y una con h: ninguna se decide por la letra.",
+        "Pronuncia: «auər», «an-yú-zhual», «yú-ni-form».",
+        "Vocal → an; «yu» (/j/) → a; h muda → an."
+      ],
+      "solucion": {
+        "respuesta": "an … an … a",
+        "explicacion": "An hour (h muda). An unusual, porque unusual empieza con el sonido de vocal /ʌ/. A uniform, porque uniform empieza con /j/. (Wears = usa, lleva puesto: expresión por ahora.)"
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.03",
+      "leccion": "a-an",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Omar es actor y Grace es enfermera.",
+      "respuestas": [
+        "Omar is an actor and Grace is a nurse."
+      ],
+      "errores_tipicos": {
+        "Omar is actor and Grace is nurse.": "Las profesiones en singular llevan artículo: [[an actor]], [[a nurse]].",
+        "Omar is a actor and Grace is a nurse.": "actor empieza con vocal: [[an actor]]."
+      },
+      "pistas": [
+        "El español no pone artículo con la profesión.",
+        "Cada profesión necesita su artículo; mira el primer sonido de cada una.",
+        "Regla: cada profesión en singular lleva a/an según su primer sonido: vocal → an; consonante → a."
+      ],
+      "solucion": {
+        "respuesta": "Omar is an actor and Grace is a nurse.",
+        "explicacion": "Con be + profesión en singular el artículo es obligatorio: an actor (vocal) y a nurse (consonante)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.04",
+      "leccion": "the-y-sin-articulo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la oración correcta para hablar EN GENERAL.",
+      "pregunta": "«Las verduras son saludables.»",
+      "opciones": [
+        {
+          "texto": "Vegetables are healthy.",
+          "correcta": true,
+          "porque": "Correcto: generalización = plural sin artículo."
+        },
+        {
+          "texto": "The vegetables are healthy.",
+          "correcta": false,
+          "porque": "Con the hablarías de unas verduras concretas (las de tu plato)."
+        },
+        {
+          "texto": "A vegetables are healthy.",
+          "correcta": false,
+          "porque": "a no puede ir con plural."
+        }
+      ],
+      "pistas": [
+        "¿Hablas de todas las verduras o de unas concretas?",
+        "El español pone «las», pero ¿lo traduce el inglés en una generalización?",
+        "General → plural sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "Vegetables are healthy.",
+        "explicacion": "Las generalizaciones con sustantivos contables van en plural y sin artículo: Vegetables are healthy."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.05",
+      "leccion": "the-y-sin-articulo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con a, an o the.",
+      "frase": "Tom is in ___ kitchen with ___ friend. ___ friend is from Brazil.",
+      "traduccion": "Tom está en la cocina con un amigo. El amigo es de Brasil.",
+      "respuestas": [
+        [
+          "the"
+        ],
+        [
+          "a"
+        ],
+        [
+          "The"
+        ]
+      ],
+      "errores_tipicos": {
+        "a | a | the": "La cocina de la casa es identificable por el contexto (solo hay una): [[the kitchen]].",
+        "the | the | the": "El amigo aparece por primera vez: quien escucha no sabe cuál es → [[a friend]]."
+      },
+      "pistas": [
+        "Una cosa es identificable por el contexto, otra es nueva y otra ya se mencionó.",
+        "¿Cuántas cocinas hay en una casa? ¿El amigo es conocido la primera vez?",
+        "Único en el contexto → the; primera mención → a; segunda mención → the."
+      ],
+      "solucion": {
+        "respuesta": "the … a … The",
+        "explicacion": "The kitchen porque es la cocina de la casa (se identifica). A friend porque se presenta por primera vez. The friend porque ya se mencionó."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.06",
+      "leccion": "the-y-sin-articulo",
+      "habilidad": "interpretacion",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala las palabras incorrectas y corrígelas.",
+      "frase": "Aisha is from United Kingdom.",
+      "error": "United Kingdom",
+      "correcciones": [
+        "the United Kingdom"
+      ],
+      "frase_correcta": "Aisha is from the United Kingdom.",
+      "pistas": [
+        "La mayoría de los países van sin artículo, pero no todos.",
+        "Mira la palabra Kingdom en el nombre.",
+        "Países con States, Kingdom o Republic → the."
+      ],
+      "solucion": {
+        "respuesta": "the United Kingdom",
+        "explicacion": "Los nombres de país que contienen Kingdom, States o Republic llevan the: the United Kingdom."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.07",
+      "leccion": "the-y-sin-articulo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa water para «agua».",
+      "es": "El agua es importante, pero el agua de aquí está sucia.",
+      "respuestas": [
+        "Water is important, but the water here is dirty.",
+        "Water is important but the water here is dirty."
+      ],
+      "errores_tipicos": {
+        "The water is important, but the water here is dirty.": "La primera parte es una generalización (el agua en general): sin artículo. [[Water is important]].",
+        "Water is important, but water here is dirty.": "La segunda parte habla de un agua concreta (la de aquí): [[the water here]]."
+      },
+      "pistas": [
+        "Agua aparece dos veces con dos sentidos distintos.",
+        "¿Cuál es general y cuál es concreta?",
+        "General → sin artículo; concreta (here) → the."
+      ],
+      "solucion": {
+        "respuesta": "Water is important, but the water here is dirty.",
+        "explicacion": "El agua en general va sin artículo (Water is important). El agua de este lugar es concreta: the water here."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.08",
+      "leccion": "plurales",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada singular con su plural.",
+      "pares": [
+        {
+          "a": "wife",
+          "b": "wives"
+        },
+        {
+          "a": "baby",
+          "b": "babies"
+        },
+        {
+          "a": "church",
+          "b": "churches"
+        },
+        {
+          "a": "tooth",
+          "b": "teeth"
+        },
+        {
+          "a": "key",
+          "b": "keys"
+        },
+        {
+          "a": "woman",
+          "b": "women"
+        }
+      ],
+      "pistas": [
+        "Hay plurales regulares con cambios de ortografía y plurales irregulares.",
+        "Fíjate en la terminación de cada singular: -fe, consonante + y, -ch, vocal + y.",
+        "-fe → -ves; consonante + y → -ies; -ch → -es; vocal + y → -s; tooth y woman cambian la vocal."
+      ],
+      "solucion": {
+        "respuesta": "wife → wives · baby → babies · church → churches · tooth → teeth · key → keys · woman → women",
+        "explicacion": "Wife cambia -fe por -ves. Baby (consonante + y) → babies. Church termina en -ch → churches. Key (vocal + y) solo añade -s. Tooth y woman son irregulares: cambian la vocal."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.09",
+      "leccion": "plurales",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "The people in this office is very kind.",
+      "error": "is",
+      "correcciones": [
+        "are"
+      ],
+      "frase_correcta": "The people in this office are very kind.",
+      "pistas": [
+        "Revisa la concordancia entre sujeto y verbo.",
+        "¿people es singular o plural en inglés?",
+        "people es el plural de person → are."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "People es plural (el plural de person), así que va con are: The people in this office are very kind. El español «la gente es» es singular, pero en inglés no."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.10",
+      "leccion": "plurales",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al plural.",
+      "origen": "The knife is sharp.",
+      "instruccion": "Plural",
+      "respuestas": [
+        "The knives are sharp."
+      ],
+      "errores_tipicos": {
+        "The knifes are sharp.": "Las palabras en -fe como knife cambian a -ves: [[knives]].",
+        "The knives is sharp.": "Sujeto plural → [[are]]."
+      },
+      "pistas": [
+        "Cambian dos palabras: el sustantivo y el verbo.",
+        "knife termina en -fe.",
+        "-fe → -ves; plural → are."
+      ],
+      "solucion": {
+        "respuesta": "The knives are sharp.",
+        "explicacion": "Knife forma el plural cambiando -fe por -ves (knives), y el verbo pasa a are porque el sujeto ahora es plural. Sharp no cambia: los adjetivos no tienen plural."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.11",
+      "leccion": "plurales",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Presta atención a los finales de los sustantivos.",
+      "texto": "The glasses are in the boxes.",
+      "pistas": [
+        "Hay dos sustantivos en plural que terminan con una sílaba extra.",
+        "Oirás /ɪz/ al final de los dos.",
+        "Tras ss y x, el plural es -es y suena /ɪz/."
+      ],
+      "solucion": {
+        "respuesta": "The glasses are in the boxes.",
+        "explicacion": "«Los vasos están en las cajas.» Glass y box terminan en sonidos sibilantes, así que su plural añade -es y una sílaba: /ˈɡlæsɪz/, /ˈbɑːksɪz/."
+      },
+      "audio": true
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.12",
+      "leccion": "plurales",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Piensa en cómo se pronuncia la -s final.",
+      "pregunta": "¿En qué palabra la terminación del plural añade una sílaba (/ɪz/)?",
+      "opciones": [
+        {
+          "texto": "watches",
+          "correcta": true,
+          "porque": "Correcto: watch termina en /tʃ/, un sonido sibilante, así que el plural añade /ɪz/: WATCH-iz."
+        },
+        {
+          "texto": "books",
+          "correcta": false,
+          "porque": "book termina en /k/ (sorda): la -s suena /s/, sin sílaba nueva."
+        },
+        {
+          "texto": "pens",
+          "correcta": false,
+          "porque": "pen termina en /n/ (sonora): la -s suena /z/, sin sílaba nueva."
+        },
+        {
+          "texto": "days",
+          "correcta": false,
+          "porque": "day termina en vocal: la -s suena /z/, sin sílaba nueva."
+        }
+      ],
+      "pistas": [
+        "Hay tres pronunciaciones de la -s: /s/, /z/ y /ɪz/.",
+        "Solo una se oye como una sílaba más.",
+        "/ɪz/ aparece tras s, z, sh, ch, x, ge."
+      ],
+      "solucion": {
+        "respuesta": "watches",
+        "explicacion": "Solo watches añade una sílaba (/ˈwɑːtʃɪz/), porque watch termina en el sonido sibilante /tʃ/. Books suena /s/; pens y days, /z/."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.13",
+      "leccion": "demostrativos",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Tienes unos zapatos en la mano. Elige la palabra correcta.",
+      "pregunta": "___ shoes are very comfortable.",
+      "opciones": [
+        {
+          "texto": "These",
+          "correcta": true,
+          "porque": "Correcto: cerca (en tu mano) y plural (shoes)."
+        },
+        {
+          "texto": "This",
+          "correcta": false,
+          "porque": "this es singular; shoes es plural."
+        },
+        {
+          "texto": "Those",
+          "correcta": false,
+          "porque": "those es para cosas lejanas; los zapatos están en tu mano."
+        },
+        {
+          "texto": "That",
+          "correcta": false,
+          "porque": "that es singular y lejano."
+        }
+      ],
+      "pistas": [
+        "Hay dos preguntas: ¿cerca o lejos? ¿singular o plural?",
+        "Los zapatos están en tu mano, y shoes termina en -s.",
+        "Cerca + plural → these."
+      ],
+      "solucion": {
+        "respuesta": "These",
+        "explicacion": "Los zapatos están cerca (en tu mano) y son plural: these shoes. This sería singular; those y that, lejanos."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.14",
+      "leccion": "demostrativos",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Estás en el mercado con Carlos. Él señala unas frutas que están en un puesto al otro lado del pasillo.",
+      "lineas": [
+        {
+          "quien": "Carlos",
+          "en": "What are those?",
+          "es": "¿Qué son esas?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "They're mangoes.",
+          "correcta": true,
+          "porque": "Correcto: a What are those? se responde con they're + plural."
+        },
+        {
+          "texto": "It's mangoes.",
+          "correcta": false,
+          "porque": "it's es singular; mangoes es plural. Se responde con they're."
+        },
+        {
+          "texto": "They're a mangoes.",
+          "correcta": false,
+          "porque": "a no va con plural."
+        },
+        {
+          "texto": "This is mangoes.",
+          "correcta": false,
+          "porque": "this es singular y cercano; las frutas son varias y están lejos."
+        }
+      ],
+      "pistas": [
+        "La pregunta es plural (are, those).",
+        "En la respuesta no se repite el demostrativo: se usa un pronombre.",
+        "What are these/those? → They're + plural."
+      ],
+      "solucion": {
+        "respuesta": "They're mangoes.",
+        "explicacion": "A What are those? se responde con They're + sustantivo en plural, sin artículo: They're mangoes (mango → mangoes)."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.15",
+      "leccion": "demostrativos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Las llaves están en tu mano.",
+      "es": "Estas llaves son nuevas.",
+      "respuestas": [
+        "These keys are new."
+      ],
+      "errores_tipicos": {
+        "This keys are new.": "keys es plural: el demostrativo también debe ser plural → [[These]] keys.",
+        "These keys is new.": "Sujeto plural → [[are]].",
+        "These keys are news.": "Los adjetivos no tienen plural: [[new]], sin -s."
+      },
+      "pistas": [
+        "«Estas» es cercano y plural.",
+        "El demostrativo concuerda en número con el sustantivo.",
+        "Cerca + plural → these; plural → are; el adjetivo no cambia."
+      ],
+      "solucion": {
+        "respuesta": "These keys are new.",
+        "explicacion": "Las llaves están cerca y son varias: these keys. El verbo es are porque el sujeto es plural, y new no lleva -s porque los adjetivos no tienen plural en inglés."
+      }
+    },
+    {
+      "id": "sustantivos-y-articulos.eval.16",
+      "leccion": "demostrativos",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para preguntar por un edificio que ves a lo lejos.",
+      "fichas": [
+        "building",
+        "is",
+        "What",
+        "that"
+      ],
+      "respuestas": [
+        "What is that building"
+      ],
+      "traduccion": "¿Qué es ese edificio?",
+      "pistas": [
+        "Es una pregunta con what.",
+        "Después de what va el verbo; luego el sujeto.",
+        "Orden: What + be + demostrativo + sustantivo + ? (lejos y singular → that)."
+      ],
+      "solucion": {
+        "respuesta": "What is that building?",
+        "explicacion": "En las preguntas con what y be, el verbo va antes del sujeto: What is + that building. That porque el edificio está lejos y es uno solo."
+      }
+    }
+  ]
+}

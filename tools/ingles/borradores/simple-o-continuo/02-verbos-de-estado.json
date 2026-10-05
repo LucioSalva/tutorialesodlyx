@@ -1,0 +1,610 @@
+{
+  "slug": "verbos-de-estado",
+  "titulo": "Verbos de estado",
+  "minutos": 40,
+  "objetivos": [
+    "Distinguir los verbos de acción de los verbos de estado.",
+    "Usar en presente simple, incluso para el «ahora», los verbos de estado más frecuentes: know, like, love, hate, want, need, understand, believe, remember, belong, prefer, mean.",
+    "Diferenciar los dos significados de have, think, see y hear.",
+    "Entender por qué «I'm loving it» es un uso informal y marcado."
+  ],
+  "situacion": {
+    "titulo": "En la cafetería",
+    "texto": "Mei y Diego están en una cafetería decidiendo qué pedir. Fíjate: aunque todo pasa en este momento, muchos verbos van en presente simple (I want, I don't know, I need). Son verbos de estado.",
+    "dialogo": [
+      { "quien": "Diego", "en": "What are you thinking about? You're very quiet.", "es": "¿En qué estás pensando? Estás muy callada." },
+      { "quien": "Mei", "en": "About the menu! I want something sweet, but I don't know what.", "es": "¡En el menú! Quiero algo dulce, pero no sé qué." },
+      { "quien": "Diego", "en": "I think the chocolate cake is great here.", "es": "Creo que el pastel de chocolate aquí es buenísimo." },
+      { "quien": "Mei", "en": "Hmm, I prefer fruit. And I need a coffee.", "es": "Mmm, prefiero la fruta. Y necesito un café." },
+      { "quien": "Diego", "en": "Look, the waiter is coming. We're having a nice time, right?", "es": "Mira, ya viene el mesero. La estamos pasando bien, ¿no?" },
+      { "quien": "Mei", "en": "Yes! I love this place.", "es": "¡Sí! Me encanta este lugar." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "accion-y-estado",
+      "titulo": "Acciones y estados",
+      "que_es": "Los **verbos de acción** describen algo que se hace y que puede empezar, avanzar y terminar: [[run]], [[eat]], [[work]], [[read]]. Los **verbos de estado** describen algo que simplemente **es así**: lo que sabes, piensas, sientes, quieres o posees. Un estado no «avanza» ni está «a medias», por eso estos verbos **no suelen usarse en presente continuo**, ni siquiera cuando hablas del momento actual: [[I know]], no «I'm knowing».",
+      "para_que": [
+        "Decir lo que sabes o entiendes ahora: I don't understand this word.",
+        "Expresar lo que quieres o necesitas en una tienda o restaurante: I want a coffee. I need help.",
+        "Dar gustos y preferencias: I prefer tea. She hates the cold.",
+        "Decir de quién es algo: This bag belongs to Ana."
+      ],
+      "como_funciona": "Aprende los verbos de estado por familias:\n- **Mente**: [[know]] (saber, conocer), [[understand]] (entender), [[believe]] (creer), [[remember]] (recordar), [[mean]] (significar, querer decir).\n- **Gustos y deseos**: [[like]], [[love]], [[hate]], [[prefer]], [[want]], [[need]].\n- **Posesión y pertenencia**: [[belong]] (pertenecer), [[have]] cuando significa poseer.\n- **Percepción involuntaria**: [[see]], [[hear]].\n\nCon ellos usas el **presente simple** aunque la frase hable de ahora mismo: [[I need a taxi now]], [[Do you understand me?]], [[What does this word mean?]].\n\n**Diferencia con el español.** En español de México es muy común decir «no te estoy entendiendo», «¿me estás entendiendo?» o incluso «estoy necesitando ayuda». En inglés esas formas suenan mal: [[I don't understand you]], [[Do you understand me?]], [[I need help]].\n\n**¿Y «I'm loving it»?** Algunas veces oirás verbos de estado en continuo en inglés informal, sobre todo en publicidad o para expresar entusiasmo por una experiencia que está ocurriendo: [[I'm loving this weather!]]. Es un uso **marcado**: expresivo, coloquial y fuera de la norma general. Entiéndelo cuando lo oigas, pero en tu inglés usa el presente simple ([[I love this weather]]) y nunca extiendas ese uso a know, understand, belong o need.",
+      "estructuras": [
+        {
+          "etiqueta": "Verbo de estado ahora (presente simple)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "verbo de estado (+ -s)", "rol": "verbo" },
+            { "t": "complemento", "rol": "complemento" },
+            { "t": "(now)", "rol": "tiempo" }
+          ],
+          "ejemplo": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "need", "rol": "verbo" },
+            { "t": "a taxi", "rol": "complemento" },
+            { "t": "now", "rol": "tiempo" }
+          ],
+          "es": "Necesito un taxi ahora."
+        },
+        {
+          "etiqueta": "Negación y pregunta (con do / does, como siempre en presente simple)",
+          "formula": [
+            { "t": "Do / Does", "rol": "auxiliar" },
+            { "t": "sujeto", "rol": "sujeto" },
+            { "t": "verbo de estado", "rol": "verbo" },
+            { "t": "complemento?", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "Do", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "understand", "rol": "verbo" },
+            { "t": "me?", "rol": "complemento" }
+          ],
+          "es": "¿Me entiendes? / ¿Me estás entendiendo?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Verbos de estado frecuentes",
+          "columnas": ["Verbo", "Significado", "Ejemplo"],
+          "filas": [
+            ["know", "saber, conocer", "I know the answer."],
+            ["understand", "entender", "She doesn't understand the question."],
+            ["believe", "creer (que algo es verdad)", "I believe you."],
+            ["remember", "recordar", "Do you remember my name?"],
+            ["mean", "significar, querer decir", "What does this word mean?"],
+            ["like / love / hate", "gustar / encantar / odiar", "He hates the cold."],
+            ["prefer", "preferir", "I prefer tea."],
+            ["want", "querer", "We want a bigger table."],
+            ["need", "necesitar", "I need your help."],
+            ["belong (to)", "pertenecer, ser de", "This phone belongs to Ben."]
+          ],
+          "audio": [0, 2]
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "Familias de verbos de estado",
+        "centro": "verbos de estado",
+        "ramas": [
+          { "texto": "mente", "detalle": "know, understand, believe, remember, mean" },
+          { "texto": "gustos", "detalle": "like, love, hate, prefer" },
+          { "texto": "deseos", "detalle": "want, need" },
+          { "texto": "posesión", "detalle": "belong, have (= poseer)" },
+          { "texto": "percepción", "detalle": "see, hear" }
+        ]
+      },
+      "ejemplos": [
+        {
+          "en": "I don't understand this word.",
+          "es": "No entiendo esta palabra.",
+          "situacion": "Estás leyendo en clase y encuentras una palabra nueva.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "don't", "rol": "negacion" },
+            { "t": "understand", "rol": "verbo" },
+            { "t": "this word", "rol": "complemento" }
+          ],
+          "nota": "Aunque hablas de este momento, understand va en presente simple. Por eso la negación usa don't, no «I'm not understanding»."
+        },
+        {
+          "en": "What does this word mean?",
+          "es": "¿Qué significa esta palabra?",
+          "partes": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "does", "rol": "auxiliar" },
+            { "t": "this word", "rol": "sujeto" },
+            { "t": "mean", "rol": "verbo" }
+          ],
+          "nota": "Pregunta de presente simple: does (para this word = it) y mean en forma base, sin -s."
+        },
+        {
+          "en": "This bag belongs to Ana.",
+          "es": "Esta bolsa es de Ana.",
+          "partes": [
+            { "t": "This bag", "rol": "sujeto" },
+            { "t": "belongs", "rol": "verbo" },
+            { "t": "to Ana", "rol": "complemento" }
+          ],
+          "nota": "belong siempre lleva to delante del dueño. Es un estado: nunca «is belonging». En el día a día también se dice This is Ana's bag."
+        },
+        {
+          "en": "Do you remember my sister?",
+          "es": "¿Te acuerdas de mi hermana?",
+          "partes": [
+            { "t": "Do", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "remember", "rol": "verbo" },
+            { "t": "my sister", "rol": "complemento" }
+          ],
+          "nota": "remember no lleva preposición: remember my sister, no «remember of my sister» (calco de «acordarse de»)."
+        },
+        {
+          "en": "We want a table for four, please.",
+          "es": "Queremos una mesa para cuatro, por favor.",
+          "partes": [
+            { "t": "We", "rol": "sujeto" },
+            { "t": "want", "rol": "verbo" },
+            { "t": "a table for four,", "rol": "complemento" },
+            { "t": "please", "rol": "otro" }
+          ],
+          "nota": "want expresa un deseo (estado): presente simple aunque lo pidas ahora. Para ser más amable se usa would like, que verás más adelante; por ahora, please lo suaviza."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "understand",
+          "ipa": "/ˌʌndərˈstænd/",
+          "consejo": "Tres sílabas con el acento fuerte al final: un-der-STAND. La a de stand es /æ/, entre a y e, con la boca abierta y los labios estirados.",
+          "lento": true
+        },
+        {
+          "texto": "believe",
+          "ipa": "/bɪˈliv/",
+          "consejo": "Acento en la segunda sílaba: bi-LIV, con i larga. La v final se hace apoyando los dientes de arriba en el labio de abajo y vibrando: no es una b."
+        },
+        {
+          "texto": "belongs",
+          "ipa": "/bɪˈlɔŋz/",
+          "consejo": "Acento en LONGS. ng es un solo sonido nasal /ŋ/ (como en «tengo», sin g fuerte) seguido de /z/ sonora."
+        }
+      ],
+      "errores": [
+        { "mal": "I'm knowing the answer.", "bien": "I know the answer.", "porque": "know es un verbo de estado: presente simple aunque hables de ahora." },
+        { "mal": "I'm not understanding you.", "bien": "I don't understand you.", "porque": "Calco del español «no te estoy entendiendo». understand no va en continuo." },
+        { "mal": "She's needing a new laptop.", "bien": "She needs a new laptop.", "porque": "need es un estado. En presente simple, con she, lleva -s." },
+        { "mal": "This car is belonging to my uncle.", "bien": "This car belongs to my uncle.", "porque": "belong expresa posesión, un estado: nunca va en continuo." },
+        { "mal": "Are you wanting a coffee?", "bien": "Do you want a coffee?", "porque": "want va en presente simple y su pregunta se hace con do." }
+      ]
+    },
+    {
+      "id": "dos-significados",
+      "titulo": "Verbos con dos caras: have, think, see, hear",
+      "que_es": "Algunos verbos son de estado con un significado y de acción con otro. Con el significado de estado van en presente simple; con el de acción pueden ir en continuo. Lo que decide no es el verbo, sino **qué significa en esa frase**.",
+      "para_que": [
+        "Decir lo que tienes (I have two brothers) y lo que estás haciendo (I'm having lunch).",
+        "Dar tu opinión (I think it's expensive) y contar en qué piensas (I'm thinking about my trip).",
+        "Distinguir percibir (I hear a noise) de prestar atención (I'm listening to music)."
+      ],
+      "como_funciona": "**have**\n- Estado = poseer, tener (familia, cosas, características): [[I have a car]], [[She has long hair]]. → presente simple.\n- Acción = expresiones como have breakfast / lunch / dinner (desayunar, comer, cenar), have a shower (bañarse), have a party (hacer una fiesta), have a good time (pasarla bien). → pueden ir en continuo: [[We're having lunch]].\n\n**think**\n- Estado = opinar, creer: [[I think it's a good idea]]. → presente simple.\n- Acción = pensar en algo, darle vueltas: think about / think of: [[I'm thinking about my vacation]], [[What are you thinking about?]]. → continuo.\n\n**see**\n- Estado = ver (percibir con los ojos, sin intención): [[I see a bird on the roof]]. También «entender»: [[I see]] (Ya veo, entiendo).\n- Para la acción de mirar se usan otros verbos: look at (mirar), watch (ver algo que se mueve: tele, un partido), que sí van en continuo: [[I'm looking at the photos]], [[They're watching a movie]].\n- see también significa «verse con alguien, visitar» y con ese sentido sí admite continuo: [[I'm seeing my doctor this afternoon]] (lo verás en la próxima lección).\n\n**hear**\n- Estado = oír (percibir sonidos): [[I hear music]]. → presente simple.\n- La acción de prestar atención es listen (to), que sí va en continuo: [[I'm listening to music]].\n\n**Truco:** si puedes decidir hacerlo y hacerlo durante un rato (mirar, escuchar, pensar en, desayunar), es acción y admite continuo. Si simplemente te pasa o es así (ver, oír, opinar, poseer), es estado.",
+      "estructuras": [
+        {
+          "etiqueta": "have = poseer (estado)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "have / has", "rol": "verbo" },
+            { "t": "cosa o persona", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "Tom", "rol": "sujeto" },
+            { "t": "has", "rol": "verbo" },
+            { "t": "two sisters", "rol": "complemento" }
+          ],
+          "es": "Tom tiene dos hermanas."
+        },
+        {
+          "etiqueta": "have + comida / actividad (acción)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "having", "rol": "verbo" },
+            { "t": "breakfast / lunch / a shower…", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "Tom", "rol": "sujeto" },
+            { "t": "is", "rol": "auxiliar" },
+            { "t": "having", "rol": "verbo" },
+            { "t": "breakfast", "rol": "complemento" }
+          ],
+          "es": "Tom está desayunando."
+        },
+        {
+          "etiqueta": "think about (acción)",
+          "formula": [
+            { "t": "Sujeto", "rol": "sujeto" },
+            { "t": "am / is / are", "rol": "auxiliar" },
+            { "t": "thinking about", "rol": "verbo" },
+            { "t": "algo", "rol": "complemento" }
+          ],
+          "ejemplo": [
+            { "t": "I'm", "rol": "sujeto" },
+            { "t": "thinking about", "rol": "verbo" },
+            { "t": "my vacation", "rol": "complemento" }
+          ],
+          "es": "Estoy pensando en mis vacaciones."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Estado frente a acción",
+          "columnas": ["Verbo", "Estado (presente simple)", "Acción (puede ir en continuo)"],
+          "filas": [
+            ["have", "I have a dog.", "I'm having a shower."],
+            ["think", "I think it's expensive.", "I'm thinking about the price."],
+            ["see / look / watch", "I see a bird.", "I'm looking at a bird. / I'm watching a game."],
+            ["hear / listen", "I hear a noise.", "I'm listening to the radio."]
+          ],
+          "audio": [1, 2]
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "I think it's a good idea.",
+          "items": ["think = opinar.", "Estado: presente simple.", "Traducción: «Creo que es buena idea»."]
+        },
+        "b": {
+          "titulo": "I'm thinking about the idea.",
+          "items": ["think about = pensar en, considerar.", "Acción en progreso: continuo.", "Traducción: «Estoy pensando en la idea»."]
+        },
+        "veredicto": "Si puedes sustituir think por «opinar» o «creer», usa el presente simple. Si es «darle vueltas a algo», puedes usar el continuo."
+      },
+      "ejemplos": [
+        {
+          "en": "We're having dinner at the moment.",
+          "es": "En este momento estamos cenando.",
+          "partes": [
+            { "t": "We're", "rol": "sujeto" },
+            { "t": "having", "rol": "verbo" },
+            { "t": "dinner", "rol": "complemento" },
+            { "t": "at the moment", "rol": "tiempo" }
+          ],
+          "nota": "have dinner es una acción (cenar), así que admite continuo. Compara: We have a big kitchen (poseer → simple)."
+        },
+        {
+          "en": "I think this jacket is too expensive.",
+          "es": "Creo que esta chamarra está demasiado cara.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "think", "rol": "verbo" },
+            { "t": "this jacket is too expensive", "rol": "complemento" }
+          ],
+          "nota": "think = opinar → presente simple. «I'm thinking this jacket is too expensive» no es natural."
+        },
+        {
+          "en": "What are you thinking about?",
+          "es": "¿En qué estás pensando?",
+          "partes": [
+            { "t": "What", "rol": "interrogativo" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "you", "rol": "sujeto" },
+            { "t": "thinking about", "rol": "verbo" }
+          ],
+          "nota": "think about = darle vueltas a algo → acción, admite continuo. Compara con What do you think? = ¿Qué opinas?"
+        },
+        {
+          "en": "I hear a strange noise.",
+          "es": "Oigo un ruido raro.",
+          "partes": [
+            { "t": "I", "rol": "sujeto" },
+            { "t": "hear", "rol": "verbo" },
+            { "t": "a strange noise", "rol": "complemento" }
+          ],
+          "nota": "hear = percibir sin intención → presente simple. Lo más natural para el momento presente es I can hear…, estructura que estudiarás en la unidad de can."
+        },
+        {
+          "en": "The kids are watching a movie in the living room.",
+          "es": "Los niños están viendo una película en la sala.",
+          "partes": [
+            { "t": "The kids", "rol": "sujeto" },
+            { "t": "are", "rol": "auxiliar" },
+            { "t": "watching", "rol": "verbo" },
+            { "t": "a movie", "rol": "complemento" },
+            { "t": "in the living room", "rol": "complemento" }
+          ],
+          "nota": "Para «ver una película o la tele» se usa watch, un verbo de acción, no see. Por eso puede ir en continuo."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "think",
+          "ipa": "/θɪŋk/",
+          "consejo": "La th inicial /θ/ se hace con la punta de la lengua entre los dientes, soplando sin vibración (como la z de España en «zapato»). No la cambies por t («tink») ni por s («sink», que significa fregadero).",
+          "lento": true
+        },
+        {
+          "texto": "hear",
+          "ipa": "/hɪr/",
+          "consejo": "La h inglesa es solo aire suave, como si empañaras un vidrio; no es la j española, que raspa. Suena igual que here."
+        }
+      ],
+      "errores": [
+        { "mal": "I'm having two brothers.", "bien": "I have two brothers.", "porque": "have = tener (familia, posesión) es un estado: presente simple." },
+        { "mal": "I'm thinking it's a great movie.", "bien": "I think it's a great movie.", "porque": "think = opinar es un estado: presente simple." },
+        { "mal": "I'm hearing music from the street.", "bien": "I hear music from the street.", "porque": "hear (percibir) no va en continuo. Si prestas atención a propósito: I'm listening to music." },
+        { "mal": "We're seeing a movie on TV.", "bien": "We're watching a movie on TV.", "porque": "Para la tele o algo en movimiento que miras con atención se usa watch." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "simple-o-continuo.verbos-de-estado.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Ask Carlos. He ___ the answer.",
+      "opciones": [
+        { "texto": "knows", "correcta": true, "porque": "Correcta: know es un verbo de estado y va en presente simple, con -s para he." },
+        { "texto": "is knowing", "correcta": false, "porque": "know no se usa en continuo: saber algo es un estado, no una acción en progreso." },
+        { "texto": "know", "correcta": false, "porque": "Con he, el presente simple lleva -s: knows." }
+      ],
+      "pistas": [
+        "¿know es una acción o un estado?",
+        "Los estados van en presente simple aunque hables de ahora.",
+        "Presente simple + tercera persona → -s."
+      ],
+      "solucion": { "respuesta": "knows", "explicacion": "La respuesta es knows: know es un verbo de estado (saber), así que va en presente simple, y lleva -s porque el sujeto es he." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de want.",
+      "frase": "Priya ___ a new phone.",
+      "respuestas": [["wants"]],
+      "traduccion": "Priya quiere un celular nuevo.",
+      "errores_tipicos": {
+        "is wanting": "want es un verbo de estado: presente simple (wants).",
+        "want": "Con Priya (she), el presente simple lleva -s: wants."
+      },
+      "pistas": [
+        "want expresa un deseo.",
+        "Los deseos son estados: presente simple.",
+        "Presente simple con he/she/it: el verbo lleva -s."
+      ],
+      "solucion": { "respuesta": "wants", "explicacion": "want es un verbo de estado, así que va en presente simple; con Priya (she) lleva -s: wants." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada oración con su traducción.",
+      "pares": [
+        { "a": "I think it's expensive.", "b": "Creo que es caro." },
+        { "a": "I'm thinking about you.", "b": "Estoy pensando en ti." },
+        { "a": "She has a big house.", "b": "Tiene una casa grande." },
+        { "a": "She's having a shower.", "b": "Se está bañando." },
+        { "a": "I hear a noise.", "b": "Oigo un ruido." },
+        { "a": "I'm listening to the radio.", "b": "Estoy escuchando la radio." }
+      ],
+      "pistas": [
+        "Cada verbo aparece con su significado de estado y con uno de acción.",
+        "El presente simple corresponde al estado; el continuo, a la acción.",
+        "think = creer / think about = pensar en; have = tener / have a shower = bañarse; hear = oír / listen = escuchar."
+      ],
+      "solucion": { "respuesta": "think–Creo; thinking about–Estoy pensando en ti; has–Tiene; having a shower–Se está bañando; hear–Oigo; listening–Estoy escuchando", "explicacion": "Los verbos de estado (think = opinar, have = poseer, hear = percibir) van en presente simple. Las acciones (think about, have a shower, listen to) pueden ir en continuo." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el presente simple de belong y need.",
+      "frase": "This laptop ___ to Ben, and he ___ it for work today.",
+      "respuestas": [["belongs"], ["needs"]],
+      "traduccion": "Esta laptop es de Ben, y hoy la necesita para trabajar.",
+      "errores_tipicos": {
+        "is belonging | is needing": "belong y need son verbos de estado: presente simple, aunque la frase hable de hoy.",
+        "belongs | is needing": "need es un estado: needs, aunque aparezca today.",
+        "belong | need": "Los sujetos son this laptop (it) y he: los verbos llevan -s."
+      },
+      "pistas": [
+        "Los dos verbos son de estado.",
+        "today no obliga a usar continuo con un verbo de estado.",
+        "Presente simple con -s de tercera persona, aunque la oración diga today."
+      ],
+      "solucion": { "respuesta": "belongs / needs", "explicacion": "belong (pertenecer) y need (necesitar) son estados, así que van en presente simple aunque hablemos de hoy. Los sujetos son de tercera persona (it, he), por eso llevan -s." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Sorry, I can't talk now. We ___ lunch.",
+      "opciones": [
+        { "texto": "'re having", "correcta": true, "porque": "Correcta: have lunch es una acción (comer), y está en progreso: we're having." },
+        { "texto": "have", "correcta": false, "porque": "We have lunch describe una costumbre; aquí explicas lo que haces ahora." },
+        { "texto": "'re haveing", "correcta": false, "porque": "have pierde la e muda: having." }
+      ],
+      "pistas": [
+        "¿Aquí have significa poseer o comer?",
+        "have lunch = comer, una acción que puede estar en progreso.",
+        "Acción ahora → be + having (sin la e)."
+      ],
+      "solucion": { "respuesta": "We're having lunch.", "explicacion": "have lunch es una acción (comer), no una posesión, así que puede ir en continuo. Como la acción ocurre ahora, se dice We're having lunch. Nota: I can't talk (no puedo hablar) es una expresión con can que verás más adelante." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y escribe la corrección.",
+      "frase": "I am not understanding this exercise.",
+      "error": "am not understanding",
+      "correcciones": ["don't understand"],
+      "frase_correcta": "I don't understand this exercise.",
+      "pistas": [
+        "understand es un verbo especial.",
+        "Es un verbo de estado: no suele ir en continuo.",
+        "Presente simple negativo: auxiliar negativo + verbo en forma base, como en I don't like it."
+      ],
+      "solucion": { "respuesta": "am not understanding → don't understand", "explicacion": "understand es un verbo de estado, así que va en presente simple: I don't understand. «No estoy entendiendo» es natural en español, pero en inglés se dice I don't understand." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y escribe la corrección.",
+      "frase": "Are you remembering my name?",
+      "error": "Are you remembering",
+      "correcciones": ["Do you remember"],
+      "frase_correcta": "Do you remember my name?",
+      "pistas": [
+        "remember expresa algo que está en tu mente.",
+        "Es un verbo de estado: la pregunta va en presente simple.",
+        "Pregunta en presente simple: Do + sujeto + verbo base…?, como en Do you know her?"
+      ],
+      "solucion": { "respuesta": "Are you remembering → Do you remember", "explicacion": "remember es un verbo de estado; la pregunta se forma en presente simple con do: Do you remember my name?" }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "No te estoy entendiendo.",
+      "respuestas": ["I don't understand you"],
+      "errores_tipicos": {
+        "I'm not understanding you": "Calco del español: understand no va en continuo. Di I don't understand you.",
+        "I don't understanding you": "Con don't, el verbo va en forma base: understand."
+      },
+      "pistas": [
+        "Aunque en español uses «estar + gerundio», piensa en el tipo de verbo.",
+        "understand es un verbo de estado.",
+        "Presente simple negativo: sujeto + don't + verbo base + objeto, como en I don't know him."
+      ],
+      "solucion": { "respuesta": "I don't understand you.", "explicacion": "understand es un verbo de estado y va en presente simple aunque hables de este momento. La negación de presente simple es don't + forma base." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿En qué estás pensando?",
+      "respuestas": ["What are you thinking about", "What are you thinking of"],
+      "errores_tipicos": {
+        "What do you think about": "What do you think about…? significa «¿Qué opinas de…?». Para «¿en qué estás pensando?» usa el continuo.",
+        "What are you thinking": "Falta about: think about = pensar en.",
+        "In what are you thinking": "En inglés la preposición va al final y es about, no in."
+      },
+      "pistas": [
+        "Aquí think no significa opinar: significa darle vueltas a algo.",
+        "Es una acción en progreso: continuo, con about.",
+        "Palabra interrogativa + be + sujeto + verbo -ing + preposición, como en What are you looking at?"
+      ],
+      "solucion": { "respuesta": "What are you thinking about?", "explicacion": "think about (pensar en) es una acción y puede ir en continuo: What are you thinking about? La preposición about va al final. What do you think? pregunta tu opinión." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.10",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta el registro.",
+      "pregunta": "En un anuncio de un hotel ves: «We're loving this weather!». ¿Qué opinas de esa frase?",
+      "opciones": [
+        { "texto": "Es un error grave: love nunca puede ir en continuo.", "correcta": false, "porque": "No es un error en inglés informal: se usa para expresar entusiasmo por algo que se vive en ese momento." },
+        { "texto": "Es un uso informal y expresivo, típico de la publicidad; en un texto neutro dirías We love this weather.", "correcta": true, "porque": "Correcta: los verbos de estado a veces aparecen en continuo con valor enfático, pero es un uso marcado." },
+        { "texto": "Es la forma normal: love siempre va en continuo cuando hablas de hoy.", "correcta": false, "porque": "No: la forma neutra y habitual es el presente simple (I love, we love)." }
+      ],
+      "pistas": [
+        "love es un verbo de estado.",
+        "Piensa en el contexto: publicidad, redes sociales, conversación entusiasta.",
+        "El continuo con verbos de estado existe como recurso expresivo, pero no es la forma neutra."
+      ],
+      "solucion": { "respuesta": "Es un uso informal y expresivo, típico de la publicidad; en un texto neutro dirías We love this weather.", "explicacion": "love es un verbo de estado y lo normal es el presente simple. El continuo (We're loving…) es un uso marcado para expresar entusiasmo en ese momento. Entiéndelo, pero no lo uses como forma general ni lo extiendas a know, need o understand." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.11",
+      "tipo": "completar",
+      "dificultad": 3,
+      "enunciado": "Completa con el presente simple o el continuo de los verbos entre paréntesis.",
+      "frase": "Right now we ___ a great time in Mérida. We ___ this city! (have / love)",
+      "respuestas": [["are having"], ["love"]],
+      "traduccion": "Ahorita la estamos pasando muy bien en Mérida. ¡Nos encanta esta ciudad!",
+      "errores_tipicos": {
+        "have | love": "have a great time es una acción en progreso (pasarla bien ahora): are having.",
+        "are having | loves": "El sujeto es we: love, sin -s.",
+        "are haveing | love": "have pierde la e muda: having."
+      },
+      "pistas": [
+        "Uno de los verbos es de acción en esta frase y el otro de estado.",
+        "have a great time = pasarla bien (acción); love = estado.",
+        "Acción ahora → be + verbo -ing; estado → presente simple."
+      ],
+      "solucion": { "respuesta": "are having / love", "explicacion": "have a great time es una acción que ocurre ahora (right now), así que va en continuo: are having. love es un verbo de estado y la forma neutra es el presente simple: we love." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.12",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "I don't know the answer, but I think it's in the book.",
+      "pistas": [
+        "Hay dos verbos de estado.",
+        "Uno está en negativa y el otro expresa una opinión.",
+        "Negativa del presente simple: don't + verbo base; opinión: think en presente simple + it's."
+      ],
+      "solucion": { "respuesta": "I don't know the answer, but I think it's in the book.", "explicacion": "know (saber) y think (opinar, creer) son verbos de estado, por eso van en presente simple aunque hablemos de ahora." }
+    },
+    {
+      "id": "simple-o-continuo.verbos-de-estado.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Cuida la th de think.",
+      "texto": "I think it's a good idea, but I'm thinking about the price.",
+      "ipa": "/aɪ ˈθɪŋk ɪts ə ɡʊd aɪˈdiə bət aɪm ˈθɪŋkɪŋ əˈbaʊt ðə ˈpraɪs/",
+      "consejo": "Las dos th de think y thinking son /θ/: lengua entre los dientes y aire, sin vibración. La de the es /ð/: misma posición, pero con vibración. idea tiene el acento en la segunda sílaba: ai-DI-a.",
+      "es": "Creo que es buena idea, pero estoy pensando en el precio."
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "En la tienda de ropa",
+    "contexto": "Estás en una tienda con tu amiga Lucía. Ella te pregunta qué te parece la ropa y tú le dices qué quieres, qué prefieres y qué necesitas.",
+    "dialogo": [
+      { "quien": "Lucía", "en": "What do you think of this jacket?", "es": "¿Qué te parece esta chamarra?" },
+      { "quien": "Tú", "en": "…", "es": "(Da tu opinión con I think…)" },
+      { "quien": "Lucía", "en": "And what are you looking for?", "es": "¿Y tú qué estás buscando?" },
+      { "quien": "Tú", "en": "…", "es": "(Di qué quieres o necesitas y qué prefieres.)" }
+    ],
+    "tu_turno": "Responde con 3 o 4 oraciones: una opinión con I think, lo que quieres o necesitas (want / need), una preferencia (prefer) y una acción que estás haciendo ahora (por ejemplo, I'm looking at…).",
+    "modelo": "I think it's nice, but it's too expensive. I need a pair of black shoes for work, and I want a warm sweater. I prefer dark colors. Look, I'm looking at these shoes now. What do you think?",
+    "alternativas": [
+      "I think the color is great. I don't need a jacket, but I want a new T-shirt. I prefer cotton. Right now I'm trying on this blue one.",
+      "Hmm, I don't like it. I need jeans. I prefer the store next door. I'm thinking about the price."
+    ],
+    "claves": [
+      "Opinión: I think + oración (presente simple).",
+      "Deseos y necesidades: I want / I need (nunca I'm wanting / I'm needing).",
+      "Acción en progreso: I'm looking at… / I'm thinking about…"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Los verbos de estado describen algo que es así, no una acción en progreso: no suelen ir en continuo.",
+      "Los más frecuentes: know, understand, believe, remember, mean, like, love, hate, prefer, want, need, belong.",
+      "have = poseer (simple) / have breakfast, a shower, a good time (puede ir en continuo).",
+      "think = opinar (simple) / think about = pensar en (puede ir en continuo).",
+      "see, hear = percibir (simple) / look at, watch, listen to = acción (continuo)."
+    ],
+    "recuerda": [
+      "«No te estoy entendiendo» = I don't understand you.",
+      "I'm loving it / We're loving this… es informal y enfático; tu forma neutra es I love.",
+      "What do you think? = ¿Qué opinas? / What are you thinking about? = ¿En qué estás pensando?"
+    ]
+  },
+  "repaso": [
+    { "id": "simple-o-continuo.verbos-de-estado.r1", "frente": "¿Por qué no se dice «I'm knowing»?", "reverso": "Porque know es un verbo de estado: I know.", "nota": "Lo mismo con understand, want, need, belong…" },
+    { "id": "simple-o-continuo.verbos-de-estado.r2", "frente": "I have a car / I'm having lunch", "reverso": "have = poseer (simple) / have lunch = comer (acción, puede ir en continuo)." },
+    { "id": "simple-o-continuo.verbos-de-estado.r3", "frente": "«Creo que es buena idea» en inglés", "reverso": "I think it's a good idea.", "nota": "No «I'm thinking it's…»" },
+    { "id": "simple-o-continuo.verbos-de-estado.r4", "frente": "hear o listen: «Estoy escuchando música»", "reverso": "I'm listening to music. (listen = acción; hear = percibir)" },
+    { "id": "simple-o-continuo.verbos-de-estado.r5", "frente": "«¿Me entiendes?» en inglés", "reverso": "Do you understand me?", "nota": "Nunca «Are you understanding me?»" }
+  ]
+}

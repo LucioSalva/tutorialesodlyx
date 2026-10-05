@@ -1,0 +1,502 @@
+{
+  "titulo": "Evaluación: todos los tiempos juntos",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "todos-los-tiempos.eval.01",
+      "leccion": "mapa-de-auxiliares",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la pregunta correcta.",
+      "pregunta": "Your cousins had a good time. → ¿Cómo se pregunta?",
+      "opciones": [
+        {
+          "texto": "Did your cousins have a good time?",
+          "correcta": true,
+          "porque": "Correcta: had es pasado simple de have (verbo normal en have a good time); el auxiliar es did y have vuelve a la forma base."
+        },
+        {
+          "texto": "Had your cousins a good time?",
+          "correcta": false,
+          "porque": "Have a good time es una expresión de acción, no have got: no se invierte have, se usa did."
+        },
+        {
+          "texto": "Did your cousins had a good time?",
+          "correcta": false,
+          "porque": "Después de did el verbo va en forma base: have, no had."
+        },
+        {
+          "texto": "Were your cousins have a good time?",
+          "correcta": false,
+          "porque": "Mezcla to be con un verbo normal; were no es el auxiliar de have."
+        }
+      ],
+      "pistas": [
+        "¿La oración tiene un auxiliar a la vista?",
+        "Had es el pasado de have, que aquí es un verbo normal (have a good time = pasarla bien).",
+        "Pasado simple: Did + sujeto + forma base."
+      ],
+      "solucion": {
+        "respuesta": "Did your cousins have a good time?",
+        "explicacion": "Had es pasado simple de have, usado como verbo normal en la expresión have a good time. Por eso la pregunta necesita did, y have vuelve a la forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.02",
+      "leccion": "mapa-de-auxiliares",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa.",
+      "origen": "The children could see the stage.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "The children couldn't see the stage."
+      ],
+      "errores_tipicos": {
+        "The children didn't could see the stage.": "Could es su propio auxiliar: no se combina con did.",
+        "The children couldn't saw the stage.": "Después de could el verbo va en forma base: see."
+      },
+      "pistas": [
+        "Busca el auxiliar a la vista.",
+        "Could es un modal.",
+        "Modal + not + forma base, como en He couldn't find his keys."
+      ],
+      "solucion": {
+        "respuesta": "The children couldn't see the stage.",
+        "explicacion": "Could es su propio auxiliar: se niega añadiendo not (could not → couldn't). See se queda en forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.03",
+      "leccion": "mapa-de-auxiliares",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "There are two bathrooms in the apartment.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Are there two bathrooms in the apartment?"
+      ],
+      "errores_tipicos": {
+        "Do there are two bathrooms in the apartment?": "There are ya tiene auxiliar (are): se invierte, sin do.",
+        "Is there two bathrooms in the apartment?": "Two bathrooms es plural: are there."
+      },
+      "pistas": [
+        "There are es una forma de to be.",
+        "El auxiliar es are y there ocupa el lugar del sujeto.",
+        "Auxiliar + there + resto + ?, como en Is there a garden in the house?"
+      ],
+      "solucion": {
+        "respuesta": "Are there two bathrooms in the apartment?",
+        "explicacion": "En there are el auxiliar es are: para preguntar se invierte con there. Se mantiene are porque two bathrooms es plural."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.04",
+      "leccion": "mapa-de-auxiliares",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las respuestas cortas.",
+      "frase": "Does your sister like tacos? — Yes, she ___. Were the kids asleep? — No, they ___.",
+      "respuestas": [
+        [
+          "does"
+        ],
+        [
+          "weren't",
+          "were not"
+        ]
+      ],
+      "errores_tipicos": {
+        "likes | weren't": "La respuesta corta repite el auxiliar (does), no el verbo principal.",
+        "does | wasn't": "The kids es plural: were → weren't.",
+        "does | didn't": "La pregunta empieza con Were: la respuesta repite were."
+      },
+      "pistas": [
+        "Repite el auxiliar de cada pregunta.",
+        "La primera empieza con Does; la segunda, con Were.",
+        "Yes, + pronombre + auxiliar / No, + pronombre + auxiliar + n't."
+      ],
+      "solucion": {
+        "respuesta": "does · weren't",
+        "explicacion": "Does your sister…? → Yes, she does. Were the kids…? → No, they weren't. La respuesta corta es un eco del auxiliar de la pregunta."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.05",
+      "leccion": "mapa-de-auxiliares",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Is she speak English?",
+      "error": "Is",
+      "correcciones": [
+        "Does"
+      ],
+      "frase_correcta": "Does she speak English?",
+      "pistas": [
+        "El verbo principal es speak.",
+        "Speak es un verbo normal, no to be ni continuo.",
+        "Verbo normal en presente simple con he/she/it: auxiliar de presente con -es + forma base. Is solo sirve con to be o con -ing."
+      ],
+      "solucion": {
+        "respuesta": "Is → Does",
+        "explicacion": "Speak es un verbo normal en presente simple (no hay -ing), así que el auxiliar no es is sino does, con she."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.06",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con los verbos entre paréntesis en el tiempo correcto.",
+      "frase": "Aisha ___ (want) to be a doctor. At the moment she ___ (prepare) for an important exam.",
+      "respuestas": [
+        [
+          "wants"
+        ],
+        [
+          "is preparing"
+        ]
+      ],
+      "traduccion": "Aisha quiere ser doctora. En este momento se está preparando para un examen importante.",
+      "errores_tipicos": {
+        "is wanting | is preparing": "Want es un verbo de estado: presente simple, wants.",
+        "wants | prepares": "At the moment señala algo en curso: is preparing.",
+        "want | is preparing": "Aisha es tercera persona: wants."
+      },
+      "pistas": [
+        "El primer verbo expresa un deseo; el segundo tiene la señal at the moment.",
+        "Want es un verbo de estado.",
+        "Estado → presente simple con -s; at the moment → is + -ing."
+      ],
+      "solucion": {
+        "respuesta": "wants · is preparing",
+        "explicacion": "Want es un verbo de estado: presente simple, con -s para Aisha (wants). At the moment indica una acción en curso: presente continuo, is preparing (prepare pierde la e)."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.07",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "I ___ my wallet two days ago, and I still can't find it.",
+      "opciones": [
+        {
+          "texto": "lost",
+          "correcta": true,
+          "porque": "Correcta: two days ago marca un momento terminado del pasado; lost es el pasado irregular de lose."
+        },
+        {
+          "texto": "lose",
+          "correcta": false,
+          "porque": "Es presente simple; two days ago pide pasado."
+        },
+        {
+          "texto": "am losing",
+          "correcta": false,
+          "porque": "El presente continuo no encaja con ago, que marca el pasado."
+        }
+      ],
+      "pistas": [
+        "Busca la señal de tiempo.",
+        "Two days ago = hace dos días.",
+        "…ago → pasado simple. Lose es irregular."
+      ],
+      "solucion": {
+        "respuesta": "lost",
+        "explicacion": "Ago siempre indica un momento terminado del pasado: pasado simple. Lose es irregular y su pasado es lost. La segunda parte (can't find) está en presente porque habla de ahora."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.08",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con there + be en el tiempo correcto.",
+      "frase": "When I was ten, there ___ a big tree in front of our house, but now there ___ a parking lot.",
+      "respuestas": [
+        [
+          "was"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "traduccion": "Cuando tenía diez años, había un árbol grande enfrente de nuestra casa, pero ahora hay un estacionamiento.",
+      "errores_tipicos": {
+        "is | is": "When I was ten sitúa la primera parte en el pasado: there was.",
+        "was | was": "Now indica el presente: there is.",
+        "were | is": "A big tree es singular: there was."
+      },
+      "pistas": [
+        "Cada parte tiene su señal: when I was ten y now.",
+        "Los dos sustantivos (a big tree, a parking lot) son singulares.",
+        "Pasado singular → there was; presente singular → there is."
+      ],
+      "solucion": {
+        "respuesta": "was · is",
+        "explicacion": "When I was ten habla del pasado y a big tree es singular: there was. Now habla del presente y a parking lot es singular: there is."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.09",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "En una fiesta, alguien te pregunta por tu hermano.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "What does your brother do?",
+          "es": "¿A qué se dedica tu hermano?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "He's an engineer. He works for a car company.",
+          "correcta": true,
+          "porque": "Correcta: What does he do? pregunta por la profesión, y la respuesta la da en presente simple."
+        },
+        {
+          "texto": "He's watching TV at home.",
+          "correcta": false,
+          "porque": "Respondería a What is he doing? (qué hace ahora), no a la profesión."
+        },
+        {
+          "texto": "He did his homework.",
+          "correcta": false,
+          "porque": "Habla de una acción pasada; no dice a qué se dedica."
+        },
+        {
+          "texto": "Yes, he does.",
+          "correcta": false,
+          "porque": "What does…? no es una pregunta de sí o no; pide información."
+        }
+      ],
+      "pistas": [
+        "Fíjate en el tiempo de la pregunta.",
+        "What does he do? usa el presente simple: algo permanente.",
+        "Es la pregunta típica sobre el trabajo de alguien."
+      ],
+      "solucion": {
+        "respuesta": "He's an engineer. He works for a car company.",
+        "explicacion": "What does your brother do? pregunta por su profesión. La respuesta natural es la profesión con a/an y, si quieres, un dato más en presente simple."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.10",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada señal con el tiempo que suele acompañar.",
+      "pares": [
+        {
+          "a": "at the moment",
+          "b": "presente continuo (ahora)"
+        },
+        {
+          "a": "three weeks ago",
+          "b": "pasado simple"
+        },
+        {
+          "a": "once a month",
+          "b": "presente simple"
+        },
+        {
+          "a": "next Saturday (ya lo organizamos)",
+          "b": "presente continuo (plan)"
+        }
+      ],
+      "pistas": [
+        "Piensa si cada señal habla de ahora, de algo repetido, de algo terminado o de un plan.",
+        "Ago = pasado; once a month = frecuencia; at the moment = ahora.",
+        "Plan ya acordado → presente continuo con sentido de futuro."
+      ],
+      "solucion": {
+        "respuesta": "at the moment → continuo · three weeks ago → pasado · once a month → simple · next Saturday → continuo (plan)",
+        "explicacion": "At the moment señala una acción en curso; three weeks ago, un momento terminado; once a month, una frecuencia (hábito); next Saturday con algo ya organizado, un plan expresado con presente continuo."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.11",
+      "leccion": "preguntas-en-todos-los-tiempos",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Haz la pregunta con Who cuya respuesta es la persona que Carlos visita (his grandmother).",
+      "origen": "Carlos visits his grandmother on Sundays.",
+      "instruccion": "Pregunta con Who",
+      "respuestas": [
+        "Who does Carlos visit on Sundays?",
+        "Who does he visit on Sundays?"
+      ],
+      "errores_tipicos": {
+        "Who visits Carlos on Sundays?": "Así preguntas quién visita a Carlos (who = sujeto). Aquí Carlos es el sujeto y preguntas a quién visita él.",
+        "Who does Carlos visits on Sundays?": "La -s ya está en does: visit en forma base."
+      },
+      "pistas": [
+        "Carlos es el sujeto; preguntas por la persona que recibe la visita.",
+        "Who aquí no es el sujeto: necesitas auxiliar.",
+        "Who + auxiliar de presente (tercera persona) + sujeto + forma base + resto, como en Who does Ana call on Fridays?"
+      ],
+      "solucion": {
+        "respuesta": "Who does Carlos visit on Sundays?",
+        "explicacion": "Preguntas por el objeto (a quién visita), no por el sujeto, así que la pregunta lleva auxiliar: does, porque es presente simple con Carlos. Visit vuelve a la forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.12",
+      "leccion": "preguntas-en-todos-los-tiempos",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Haz la pregunta con Who cuya respuesta es la persona que dejó la bolsa (someone).",
+      "origen": "Someone left a bag in the classroom.",
+      "instruccion": "Pregunta de sujeto con Who",
+      "respuestas": [
+        "Who left a bag in the classroom?",
+        "Who left the bag in the classroom?"
+      ],
+      "errores_tipicos": {
+        "Who did leave a bag in the classroom?": "Who es el sujeto: la pregunta no lleva did.",
+        "Who did left a bag in the classroom?": "Who es el sujeto: sin did y con el verbo en pasado (left)."
+      },
+      "pistas": [
+        "Preguntas por la persona que hizo la acción.",
+        "Who sustituye a someone, que es el sujeto.",
+        "Pregunta de sujeto: Who + verbo conjugado en pasado + resto, sin auxiliar."
+      ],
+      "solucion": {
+        "respuesta": "Who left a bag in the classroom?",
+        "explicacion": "Someone es el sujeto de la oración; al preguntar por él, who ocupa su lugar y el orden no cambia. En las preguntas de sujeto no se usa did: el verbo sigue en pasado, left."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.13",
+      "leccion": "preguntas-en-todos-los-tiempos",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una pregunta.",
+      "fichas": [
+        "often",
+        "go",
+        "How",
+        "you",
+        "the",
+        "do",
+        "gym",
+        "to",
+        "?"
+      ],
+      "respuestas": [
+        "How often do you go to the gym?"
+      ],
+      "traduccion": "¿Cada cuánto vas al gimnasio?",
+      "pistas": [
+        "La palabra interrogativa está formada por dos fichas.",
+        "How often pregunta por la frecuencia: presente simple.",
+        "How often + auxiliar + sujeto + forma base + resto, como en How often does she go to the pool?"
+      ],
+      "solucion": {
+        "respuesta": "How often do you go to the gym?",
+        "explicacion": "How often es la palabra interrogativa de la frecuencia y pide presente simple: do + you + go en forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.14",
+      "leccion": "preguntas-en-todos-los-tiempos",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Por qué llegaste tarde ayer?",
+      "respuestas": [
+        "Why were you late yesterday?",
+        "Why did you arrive late yesterday?",
+        "Why did you come late yesterday?",
+        "Why did you get here late yesterday?"
+      ],
+      "errores_tipicos": {
+        "Why you were late yesterday?": "En la pregunta, were va delante del sujeto: Why were you…?",
+        "Why did you were late yesterday?": "To be no se combina con did.",
+        "Why did you arrived late yesterday?": "Después de did, forma base: arrive."
+      },
+      "pistas": [
+        "En inglés «llegar tarde» se dice normalmente be late.",
+        "Yesterday pide pasado; con be, el pasado para you es were.",
+        "Why + pasado de be + sujeto + adjetivo + expresión de tiempo, como en Why was he tired last night?"
+      ],
+      "solucion": {
+        "respuesta": "Why were you late yesterday?",
+        "explicacion": "Lo más natural es be late: Why were you late yesterday? (were, pasado de be con you, invertido con el sujeto). También es correcto con un verbo normal y did: Why did you arrive late yesterday?"
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.15",
+      "leccion": "preguntas-en-todos-los-tiempos",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "Where were you born, and where do you live now?",
+      "pistas": [
+        "Son dos preguntas con where unidas por and.",
+        "La primera usa to be en pasado; la segunda, el presente simple.",
+        "Where + pasado de be + sujeto + born / where + auxiliar de presente + sujeto + forma base + now, como en Where was she born, and where does she work now?"
+      ],
+      "solucion": {
+        "respuesta": "Where were you born, and where do you live now?",
+        "explicacion": "Born se usa con to be en pasado: were you born. Live es un verbo normal en presente: do you live."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.eval.16",
+      "leccion": "elegir-el-tiempo",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee el texto y contesta.",
+      "pregunta": "«Mei is from Shanghai, but she lives in Vancouver. She moved there in 2020. This month she's working in Mexico City.» Where does Mei live?",
+      "opciones": [
+        {
+          "texto": "In Vancouver.",
+          "correcta": true,
+          "porque": "Correcta: she lives in Vancouver (presente simple) indica dónde vive de forma permanente."
+        },
+        {
+          "texto": "In Mexico City.",
+          "correcta": false,
+          "porque": "She's working in Mexico City this month es algo temporal (presente continuo), no donde vive."
+        },
+        {
+          "texto": "In Shanghai.",
+          "correcta": false,
+          "porque": "Is from Shanghai dice de dónde es, no dónde vive."
+        }
+      ],
+      "pistas": [
+        "La pregunta usa el presente simple (does… live).",
+        "Busca en el texto el verbo live en el mismo tiempo.",
+        "El presente simple indica lo permanente; el continuo con this month, lo temporal."
+      ],
+      "solucion": {
+        "respuesta": "In Vancouver.",
+        "explicacion": "Where does Mei live? pregunta por su lugar de residencia habitual. El texto lo dice en presente simple: she lives in Vancouver. Mexico City es temporal (this month, presente continuo) y Shanghai es su origen."
+      }
+    }
+  ]
+}

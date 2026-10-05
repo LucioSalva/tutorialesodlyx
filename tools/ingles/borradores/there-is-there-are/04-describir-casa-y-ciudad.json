@@ -1,0 +1,1165 @@
+{
+  "slug": "describir-casa-y-ciudad",
+  "titulo": "Describir una casa y una ciudad",
+  "minutos": 45,
+  "objetivos": [
+    "Nombrar las partes de una casa y los lugares más comunes de una ciudad.",
+    "Combinar there is / there are con adjetivos y preposiciones en una misma oración.",
+    "Organizar una descripción: qué es y dónde está, qué hay, cómo es y qué falta.",
+    "Evitar falsos amigos como library (biblioteca, no librería)."
+  ],
+  "situacion": {
+    "titulo": "Mi nuevo barrio",
+    "texto": "Omar se acaba de mudar y le manda un mensaje de voz a su amiga Grace. Fíjate en cómo pasa de lo general a los detalles.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "Hi, Grace! My new apartment is great. It's small, but it's very bright.",
+        "es": "¡Hola, Grace! Mi nuevo departamento está genial. Es chico, pero tiene mucha luz."
+      },
+      {
+        "quien": "Omar",
+        "en": "There's one bedroom, a nice kitchen and a tiny balcony.",
+        "es": "Hay una recámara, una cocina bonita y un balcón pequeñito."
+      },
+      {
+        "quien": "Omar",
+        "en": "The neighborhood is quiet. There's a park opposite my building and there are two cafés on the corner.",
+        "es": "El barrio es tranquilo. Hay un parque enfrente de mi edificio y hay dos cafeterías en la esquina."
+      },
+      {
+        "quien": "Omar",
+        "en": "There isn't a supermarket near here, but there's a big market next to the station.",
+        "es": "No hay supermercado cerca, pero hay un mercado grande junto a la estación."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "la-casa",
+      "titulo": "La casa: partes, muebles y cómo son",
+      "que_es": "Para describir una casa juntas tres cosas que ya conoces: [[there is / there are]] (qué hay), adjetivos antes del sustantivo (cómo es) y preposiciones (dónde está). El resultado son oraciones como [[There's a big table in the kitchen.]]",
+      "para_que": [
+        "Describir tu casa a alguien que no la conoce.",
+        "Entender o escribir un anuncio de renta.",
+        "Contar qué hay en tu cuarto o en tu lugar de trabajo."
+      ],
+      "como_funciona": "El orden de la oración completa es {{sujeto:There}} {{verbo:is / are}} {{complemento:a / some / número + adjetivo + sustantivo}} {{otro:+ preposición + lugar}}. El adjetivo va **antes** del sustantivo y nunca lleva -s: [[two big bedrooms]], no [[two bedrooms bigs]]. Si quieres graduarlo, [[very]] va delante del adjetivo: [[a very modern kitchen]]. Otra opción es presentar primero y describir después: [[There's a kitchen. It's very modern.]] Recuerda que en inglés estadounidense se dice [[apartment]] (en británico, [[flat]]) y que [[house]] es una casa independiente; [[home]] es «hogar», el lugar donde vives, sea casa o departamento.",
+      "estructuras": [
+        {
+          "etiqueta": "Oración descriptiva completa",
+          "formula": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is / are",
+              "rol": "verbo"
+            },
+            {
+              "t": "a + adjetivo + sustantivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "preposición + lugar",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a comfortable sofa",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the living room",
+              "rol": "otro"
+            }
+          ],
+          "es": "Hay un sofá cómodo en la sala."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Partes de la casa",
+          "columnas": [
+            "Inglés",
+            "Español",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "living room",
+              "sala",
+              "There's a big TV in the living room."
+            ],
+            [
+              "kitchen",
+              "cocina",
+              "The kitchen is next to the dining room."
+            ],
+            [
+              "dining room",
+              "comedor",
+              "There are six chairs in the dining room."
+            ],
+            [
+              "bedroom",
+              "recámara, dormitorio",
+              "There are two bedrooms upstairs."
+            ],
+            [
+              "bathroom",
+              "baño",
+              "The bathroom is small but clean."
+            ],
+            [
+              "yard (EE. UU.) / garden (RU)",
+              "patio, jardín",
+              "There's a small yard behind the house."
+            ],
+            [
+              "stairs",
+              "escaleras",
+              "The stairs are next to the front door."
+            ],
+            [
+              "closet",
+              "clóset",
+              "There's a closet in every bedroom."
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There are two small bedrooms upstairs.",
+          "es": "Hay dos recámaras chicas arriba.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "two small bedrooms",
+              "rol": "complemento"
+            },
+            {
+              "t": "upstairs",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Número + adjetivo + sustantivo: two small bedrooms. Small no lleva -s."
+        },
+        {
+          "en": "There's a very modern kitchen with a big window.",
+          "es": "Hay una cocina muy moderna con una ventana grande.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a very modern kitchen",
+              "rol": "complemento"
+            },
+            {
+              "t": "with a big window",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Very va delante del adjetivo, y los dos delante del sustantivo. With añade un detalle sin necesidad de otro verbo."
+        },
+        {
+          "en": "The living room is bright. There are three windows.",
+          "es": "La sala tiene mucha luz. Tiene tres ventanas.",
+          "partes": [
+            {
+              "t": "The living room",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "bright.",
+              "rol": "complemento"
+            },
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "three windows",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Donde el español dice «tiene tres ventanas», el inglés suele decir there are three windows (hay tres ventanas)."
+        },
+        {
+          "en": "There isn't a dining room, but there's a table in the kitchen.",
+          "es": "No hay comedor, pero hay una mesa en la cocina.",
+          "partes": [
+            {
+              "t": "There",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "a dining room,",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "there's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a table",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the kitchen",
+              "rol": "otro"
+            }
+          ],
+          "nota": "But une lo que falta con una alternativa: una descripción honesta incluye lo que no hay."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "kitchen",
+          "ipa": "/ˈkɪtʃən/",
+          "consejo": "Dos sílabas: KI-chen. La /tʃ/ es la «ch» del español y la segunda vocal es una schwa débil, casi no se oye: «kíchn».",
+          "lento": true
+        },
+        {
+          "texto": "bathroom",
+          "ipa": "/ˈbæθrum/",
+          "consejo": "La a /æ/ se hace con la boca muy abierta y estirada hacia los lados, entre «a» y «e». La th es sorda: lengua entre los dientes y soplas, como la «z» de España."
+        },
+        {
+          "texto": "apartment",
+          "ipa": "/əˈpɑrtmənt/",
+          "consejo": "El acento va en la segunda sílaba: a-PART-ment. La primera a es débil (schwa) y la t de -ment casi no se suelta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There are two bedrooms bigs.",
+          "bien": "There are two big bedrooms.",
+          "porque": "El adjetivo va antes del sustantivo y no tiene plural."
+        },
+        {
+          "mal": "There's a kitchen very modern.",
+          "bien": "There's a very modern kitchen.",
+          "porque": "Very + adjetivo van juntos delante del sustantivo."
+        },
+        {
+          "mal": "There's a kitchen big and two bathrooms smalls.",
+          "bien": "There's a big kitchen and two small bathrooms.",
+          "porque": "Cada adjetivo va delante de su sustantivo y ninguno lleva -s, aunque el sustantivo sea plural."
+        }
+      ]
+    },
+    {
+      "id": "la-ciudad",
+      "titulo": "La ciudad y el barrio",
+      "que_es": "El vocabulario de los lugares de una ciudad y los adjetivos para describir un barrio. Con ellos puedes decir qué servicios hay cerca y cómo es la zona.",
+      "para_que": [
+        "Recomendar tu barrio o advertir de sus problemas.",
+        "Entender indicaciones y preguntar por servicios.",
+        "Comparar dos zonas antes de mudarte."
+      ],
+      "como_funciona": "Los lugares son sustantivos contables: [[a bank]], [[two banks]], [[a post office]]. Para situarlos usas las preposiciones que ya conoces y dos nuevas: [[near]] (cerca de, sin of) y [[far from]] (lejos de, con from): [[The school is near my house.]] · [[The airport is far from the center.]] Para el barrio en general se usa [[neighborhood]] (británico [[neighbourhood]]). Los adjetivos típicos: [[quiet]] (tranquilo) / [[noisy]] (ruidoso), [[safe]] (seguro) / [[dangerous]] (peligroso), [[clean]] / [[dirty]], [[busy]] (con mucho movimiento) y [[friendly]] (amable, acogedor). Cuidado con los falsos amigos: [[library]] es biblioteca (la librería es [[bookstore]]), y [[market]] es un mercado; el supermercado es [[supermarket]]. «En la esquina» se dice [[on the corner]].",
+      "estructuras": [
+        {
+          "etiqueta": "Describir el barrio",
+          "formula": [
+            {
+              "t": "My neighborhood",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo.",
+              "rol": "complemento"
+            },
+            {
+              "t": "There is / are …",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My neighborhood",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very safe.",
+              "rol": "complemento"
+            },
+            {
+              "t": "There's a police station near here.",
+              "rol": "otro"
+            }
+          ],
+          "es": "Mi barrio es muy seguro. Hay una estación de policía cerca."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Lugares de la ciudad",
+          "columnas": [
+            "Inglés",
+            "Español",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "pharmacy / drugstore",
+              "farmacia",
+              "There's a pharmacy on the corner."
+            ],
+            [
+              "post office",
+              "oficina de correos",
+              "The post office is next to the bank."
+            ],
+            [
+              "library",
+              "biblioteca",
+              "There's a public library near the school."
+            ],
+            [
+              "bookstore",
+              "librería",
+              "There isn't a bookstore in this area."
+            ],
+            [
+              "square",
+              "plaza",
+              "There's a church in the main square."
+            ],
+            [
+              "bus stop",
+              "parada de autobús",
+              "The bus stop is opposite the hospital."
+            ],
+            [
+              "train station",
+              "estación de tren",
+              "Is there a train station in the town?"
+            ],
+            [
+              "movie theater (EE. UU.) / cinema (RU)",
+              "cine",
+              "There are two movie theaters downtown."
+            ]
+          ],
+          "audio": [
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "There's a library in the main square.",
+          "es": "Hay una biblioteca en la plaza principal.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a library",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the main square",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Library = biblioteca. Si quieres decir «librería», es bookstore."
+        },
+        {
+          "en": "My street is noisy, but it's safe.",
+          "es": "Mi calle es ruidosa, pero es segura.",
+          "partes": [
+            {
+              "t": "My street",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "noisy,",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "it's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "safe",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Después de but se repite el sujeto (it): en inglés no se omite."
+        },
+        {
+          "en": "The hospital is far from my house.",
+          "es": "El hospital está lejos de mi casa.",
+          "partes": [
+            {
+              "t": "The hospital",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "far from",
+              "rol": "complemento"
+            },
+            {
+              "t": "my house",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Far from lleva from; near no lleva nada: near my house."
+        },
+        {
+          "en": "Are there any good restaurants near here?",
+          "es": "¿Hay buenos restaurantes por aquí?",
+          "partes": [
+            {
+              "t": "Are",
+              "rol": "verbo"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "any good restaurants",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Near here = por aquí, cerca de aquí. Muy útil para preguntar a desconocidos."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "library",
+          "ipa": "/ˈlaɪbrɛri/ (británico /ˈlaɪbrəri/)",
+          "consejo": "Empieza con «lai», como en «laico». La r va dos veces: no te comas la primera. En británico la palabra se acorta y suena casi «láibri».",
+          "lento": true
+        },
+        {
+          "texto": "neighborhood",
+          "ipa": "/ˈneɪbərhʊd/",
+          "consejo": "La gh no suena: «néibor-jud» con h suave. La u de -hood es corta, con los labios poco redondeados."
+        },
+        {
+          "texto": "pharmacy",
+          "ipa": "/ˈfɑrməsi/",
+          "consejo": "Ph suena /f/. Acento en la primera sílaba: FAR-ma-si; la segunda a es débil."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There's a good library on my street: the books there are very cheap.",
+          "bien": "There's a good bookstore on my street: the books there are very cheap.",
+          "porque": "Si los libros tienen precio, es una tienda: bookstore. Library es biblioteca, donde los libros se piden prestados."
+        },
+        {
+          "mal": "The school is near of my house.",
+          "bien": "The school is near my house.",
+          "porque": "Near no lleva of."
+        },
+        {
+          "mal": "The airport is far of the city.",
+          "bien": "The airport is far from the city.",
+          "porque": "Lejos de = far from."
+        }
+      ]
+    },
+    {
+      "id": "organizar-descripcion",
+      "titulo": "Cómo organizar una descripción",
+      "que_es": "Una buena descripción no es una lista de cosas sueltas: va de lo general a lo particular. Así quien te escucha puede imaginar el lugar.",
+      "para_que": [
+        "Escribir un párrafo claro sobre tu casa o tu barrio.",
+        "Hablar un minuto seguido sin perder el hilo."
+      ],
+      "como_funciona": "Sigue cuatro pasos: 1) **qué es y dónde está**, con be: [[My home is a small apartment in the city center.]] 2) **qué hay**, con there is / there are: [[There are two bedrooms and a kitchen.]] 3) **cómo es**, con it / they + be + adjetivo, o con adjetivos delante del sustantivo: [[The kitchen is old, but it's clean.]] 4) **qué no hay y tu opinión**: [[There isn't a garden, but there's a park opposite. It's a great place!]] Para unir ideas usa [[and]] (y), [[but]] (pero) y [[also]] (también), que va antes del verbo principal o después de be: [[There's also a gym.]] · [[It's also cheap.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Los cuatro pasos",
+          "formula": [
+            {
+              "t": "1. My home is …",
+              "rol": "sujeto"
+            },
+            {
+              "t": "2. There is / are …",
+              "rol": "verbo"
+            },
+            {
+              "t": "3. It's + adjetivo",
+              "rol": "complemento"
+            },
+            {
+              "t": "4. There isn't … but …",
+              "rol": "negacion"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My home is a house.",
+              "rol": "sujeto"
+            },
+            {
+              "t": "There are three bedrooms.",
+              "rol": "verbo"
+            },
+            {
+              "t": "It's quite old.",
+              "rol": "complemento"
+            },
+            {
+              "t": "There isn't a garage, but there's a yard.",
+              "rol": "negacion"
+            }
+          ],
+          "es": "Mi hogar es una casa. Tiene tres recámaras. Es bastante vieja. No tiene cochera, pero tiene patio."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My home is a big house near the beach.",
+          "es": "Mi hogar es una casa grande cerca de la playa.",
+          "partes": [
+            {
+              "t": "My home",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "a big house",
+              "rol": "complemento"
+            },
+            {
+              "t": "near the beach",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Paso 1: qué es y dónde está, con be."
+        },
+        {
+          "en": "There's also a small gym in the building.",
+          "es": "También hay un gimnasio pequeño en el edificio.",
+          "partes": [
+            {
+              "t": "There's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "also",
+              "rol": "otro"
+            },
+            {
+              "t": "a small gym",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the building",
+              "rol": "otro"
+            }
+          ],
+          "nota": "Also va después de be (there's also), no al final como «también» en español."
+        },
+        {
+          "en": "It's not a big city, but it's very friendly.",
+          "es": "No es una ciudad grande, pero es muy acogedora.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "a big city,",
+              "rol": "complemento"
+            },
+            {
+              "t": "but",
+              "rol": "otro"
+            },
+            {
+              "t": "it's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "very friendly",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Paso 4: una opinión final redondea la descripción."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "also",
+          "ipa": "/ˈɔlsoʊ/",
+          "consejo": "La primera sílaba es una «o» abierta y la l se hace con la lengua atrás. Termina en un diptongo «ou»: «ÓL-sou»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "There is a gym also.",
+          "bien": "There's also a gym.",
+          "porque": "Also va detrás de be, antes de lo que añades. Al final de la oración se usa too: There's a gym too."
+        },
+        {
+          "mal": "Is a quiet street, but is very dark.",
+          "bien": "It's a quiet street, but it's very dark.",
+          "porque": "Cada oración necesita su sujeto, incluso después de but."
+        }
+      ],
+      "nota": {
+        "titulo": "Too al final",
+        "texto": "Si prefieres poner «también» al final, usa too: There's a gym too. Es igual de correcto y muy frecuente al hablar.",
+        "tono": "info"
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada lugar con su traducción.",
+      "pares": [
+        {
+          "a": "library",
+          "b": "biblioteca"
+        },
+        {
+          "a": "bookstore",
+          "b": "librería"
+        },
+        {
+          "a": "post office",
+          "b": "oficina de correos"
+        },
+        {
+          "a": "square",
+          "b": "plaza"
+        },
+        {
+          "a": "neighborhood",
+          "b": "barrio, colonia"
+        },
+        {
+          "a": "bedroom",
+          "b": "recámara"
+        },
+        {
+          "a": "living room",
+          "b": "sala"
+        }
+      ],
+      "pistas": [
+        "Hay un falso amigo entre las palabras.",
+        "Library se parece a «librería», pero no significa eso.",
+        "Regla: library es un falso amigo: no es una tienda; la tienda de libros lleva «store» en su nombre."
+      ],
+      "solucion": {
+        "respuesta": "library-biblioteca · bookstore-librería · post office-oficina de correos · square-plaza · neighborhood-barrio · bedroom-recámara · living room-sala",
+        "explicacion": "La trampa es library, que significa biblioteca, no librería (bookstore). Square, aunque signifique «cuadrado», es también la plaza de una ciudad."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la oración correcta.",
+      "pregunta": "¿Cuál describe bien la cocina?",
+      "opciones": [
+        {
+          "texto": "There's a very modern kitchen.",
+          "correcta": true,
+          "porque": "Correcto: very + adjetivo van delante del sustantivo."
+        },
+        {
+          "texto": "There's a kitchen very modern.",
+          "correcta": false,
+          "porque": "Calco del español «una cocina muy moderna»: en inglés el adjetivo va antes."
+        },
+        {
+          "texto": "There's a modern very kitchen.",
+          "correcta": false,
+          "porque": "Very gradúa al adjetivo y va justo delante de él: very modern."
+        },
+        {
+          "texto": "There are a very modern kitchen.",
+          "correcta": false,
+          "porque": "A kitchen es singular: there's, no there are."
+        }
+      ],
+      "pistas": [
+        "Recuerda la posición del adjetivo en inglés.",
+        "Very y modern forman un bloque. ¿Dónde va ese bloque?",
+        "a + very + adjetivo + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "There's a very modern kitchen.",
+        "explicacion": "El orden es a + very + modern + kitchen: el adjetivo (con su very) va antes del sustantivo. Además el verbo es is porque se trata de una sola cocina."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la descripción con is, are, isn't o aren't.",
+      "frase": "My neighborhood ___ quiet. There ___ two parks, but there ___ any stores. There ___ a school on my street.",
+      "respuestas": [
+        [
+          "is"
+        ],
+        [
+          "are"
+        ],
+        [
+          "aren't",
+          "are not"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "banco": [
+        "is",
+        "are",
+        "isn't",
+        "aren't"
+      ],
+      "traduccion": "Mi barrio es tranquilo. Hay dos parques, pero no hay tiendas. Hay una escuela en mi calle.",
+      "errores_tipicos": {
+        "is | are | isn't | is": "Stores es plural: there aren't any stores.",
+        "is | is | aren't | is": "Two parks es plural: there are."
+      },
+      "pistas": [
+        "Primero decide si cada hueco es afirmativo o negativo, y luego singular o plural.",
+        "La palabra any te indica una negación.",
+        "Regla: sujeto singular → is; there + plural → are; negación con any + plural → aren't; a + singular → is."
+      ],
+      "solucion": {
+        "respuesta": "is · are · aren't · is",
+        "explicacion": "My neighborhood is quiet: be con adjetivo, sujeto singular. There are two parks: plural. There aren't any stores: any indica negación y stores es plural. There's a school: singular."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.04",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "There are three bedrooms bigs in the house.",
+      "error": "bedrooms bigs",
+      "correcciones": [
+        "big bedrooms"
+      ],
+      "frase_correcta": "There are three big bedrooms in the house.",
+      "pistas": [
+        "Revisa el adjetivo.",
+        "Dos problemas en el mismo grupo: la posición y la -s.",
+        "El adjetivo va antes del sustantivo y nunca es plural."
+      ],
+      "solucion": {
+        "respuesta": "bedrooms bigs → big bedrooms",
+        "explicacion": "La corrección es big bedrooms. En inglés el adjetivo va delante del sustantivo y no concuerda en número: three big bedrooms, nunca «bedrooms bigs»."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "park",
+        "There's",
+        "house",
+        "big",
+        "a",
+        "my",
+        "near",
+        "very"
+      ],
+      "respuestas": [
+        "There's a very big park near my house"
+      ],
+      "traduccion": "Hay un parque muy grande cerca de mi casa.",
+      "pistas": [
+        "Empieza por lo que hay.",
+        "El artículo, very, el adjetivo y el sustantivo forman un bloque.",
+        "Orden: There's + bloque del sustantivo + lugar (como en There's a very old church in the city)."
+      ],
+      "solucion": {
+        "respuesta": "There's a very big park near my house.",
+        "explicacion": "There's presenta el parque; el grupo nominal es a very big park (artículo, intensificador, adjetivo, sustantivo); y el lugar va al final: near my house, sin of."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con near, far o from.",
+      "frase": "The airport is ___ ___ the city, but the train station is ___ my house.",
+      "respuestas": [
+        [
+          "far"
+        ],
+        [
+          "from"
+        ],
+        [
+          "near"
+        ]
+      ],
+      "banco": [
+        "near",
+        "far",
+        "from"
+      ],
+      "traduccion": "El aeropuerto está lejos de la ciudad, pero la estación de tren está cerca de mi casa.",
+      "errores_tipicos": {
+        "near | from | far": "Near no lleva from, y el sentido es al revés: el aeropuerto está lejos (far from).",
+        "far | of | near": "Lejos de = far from, no far of."
+      },
+      "pistas": [
+        "«Lejos de» son dos palabras; «cerca de», una.",
+        "El aeropuerto está lejos; la estación, cerca.",
+        "Regla: «lejos de» son dos palabras (adjetivo + preposición de origen); «cerca de» es una sola palabra, sin of."
+      ],
+      "solucion": {
+        "respuesta": "far · from · near",
+        "explicacion": "Far from = lejos de (lleva from); near = cerca de, sin ninguna preposición añadida. Por eso: far from the city y near my house."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la oración a negativa usando any.",
+      "origen": "There are some good restaurants in my neighborhood.",
+      "instruccion": "Negativa con any",
+      "respuestas": [
+        "There aren't any good restaurants in my neighborhood.",
+        "There aren't any good restaurants in my neighbourhood."
+      ],
+      "errores_tipicos": {
+        "There aren't some good restaurants in my neighborhood": "En la negativa some cambia a any.",
+        "There isn't any good restaurants in my neighborhood": "Restaurants es plural: aren't.",
+        "There aren't any goods restaurants in my neighborhood": "El adjetivo good no lleva -s."
+      },
+      "pistas": [
+        "Niega el verbo y cambia una palabra.",
+        "Pon el verbo en negativa. ¿Qué le pasa a some?",
+        "Regla: en negativa, be + not, y some cambia por any; lo demás no cambia."
+      ],
+      "solucion": {
+        "respuesta": "There aren't any good restaurants in my neighborhood.",
+        "explicacion": "Se niega are (aren't) porque restaurants es plural, y some pasa a any, como en toda negación con plural. El adjetivo good se queda igual, sin -s."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.08",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa there's.",
+      "es": "Hay una biblioteca pequeña enfrente de la escuela.",
+      "respuestas": [
+        "There's a small library opposite the school.",
+        "There's a small library across from the school.",
+        "There's a little library opposite the school.",
+        "There's a little library across from the school."
+      ],
+      "errores_tipicos": {
+        "There's a small bookstore opposite the school": "Bookstore es librería. Biblioteca = library.",
+        "There's a library small opposite the school": "El adjetivo va antes del sustantivo: a small library.",
+        "There's a small library in front of the school": "«Enfrente de» (al otro lado) es opposite o across from; in front of es «delante de»."
+      },
+      "pistas": [
+        "Tres decisiones: la palabra para «biblioteca», la posición del adjetivo y la preposición.",
+        "Biblioteca es un falso amigo; «enfrente de» no es in front of.",
+        "Estructura: There's + a + adjetivo + sustantivo + preposición de «enfrente de» + lugar."
+      ],
+      "solucion": {
+        "respuesta": "There's a small library opposite the school.",
+        "explicacion": "Library es biblioteca; el adjetivo small va antes del sustantivo; y «enfrente de» (al otro lado) es opposite o, en EE. UU., across from. In front of significaría «delante de», pegada a la escuela."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.09",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Tu compañero de trabajo, Ben, piensa mudarse a tu colonia y te pregunta por ella.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "What's your neighborhood like? Is it nice?",
+          "es": "¿Cómo es tu colonia? ¿Está bonita?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "Yes, it's quiet and safe. There are two parks and there's a market on Sundays.",
+          "correcta": true,
+          "porque": "Correcto: responde con it's + adjetivos para decir cómo es, y con there are / there's para decir qué hay."
+        },
+        {
+          "texto": "Yes, there's quiet and safe.",
+          "correcta": false,
+          "porque": "There's presenta cosas (sustantivos); para describir con adjetivos se usa it's."
+        },
+        {
+          "texto": "Yes, is quiet and safe.",
+          "correcta": false,
+          "porque": "Falta el sujeto it."
+        },
+        {
+          "texto": "Yes, it's quiet. Have two parks.",
+          "correcta": false,
+          "porque": "Have no significa «hay» y además no tiene sujeto: There are two parks."
+        }
+      ],
+      "pistas": [
+        "Para decir cómo es algo: it's + adjetivo. Para decir qué hay: there is / are.",
+        "Revisa que cada oración tenga sujeto.",
+        "Regla: para describir cómo es algo usa it + be; para decir qué hay usa there + be."
+      ],
+      "solucion": {
+        "respuesta": "Yes, it's quiet and safe. There are two parks and there's a market on Sundays.",
+        "explicacion": "La respuesta correcta combina las dos estructuras: it's + adjetivo para decir cómo es la colonia y there are / there's para enumerar lo que hay. Las otras opciones mezclan there con adjetivos, omiten el sujeto o usan have en lugar de there are."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.10",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "There's a pharmacy on the corner, next to the bank.",
+      "pistas": [
+        "Escucharás un lugar de la ciudad y dos expresiones de lugar.",
+        "La primera expresión significa «en la esquina».",
+        "Estructura: There's + a + sustantivo + expresión de «en la esquina» + preposición de «junto a» + lugar."
+      ],
+      "solucion": {
+        "respuesta": "There's a pharmacy on the corner, next to the bank.",
+        "explicacion": "Pharmacy se escribe con ph aunque suene /f/. «En la esquina» es on the corner, y next to lleva to. La t de next casi no se oye porque se junta con la de to."
+      }
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.11",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "My neighborhood is quiet. There's a library and a small park.",
+      "ipa": "/maɪ ˈneɪbərhʊd ɪz ˈkwaɪət ðɛrz ə ˈlaɪbrɛri ən ə smɔl pɑrk/",
+      "consejo": "Neighborhood: la gh no suena. Quiet tiene dos sílabas, KUÁI-et; no la confundas con quite (una sílaba). Library: di las dos r. And se reduce a /ən/.",
+      "es": "Mi barrio es tranquilo. Hay una biblioteca y un parque pequeño."
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.12",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe tu casa o tu barrio.",
+      "objetivo": "Escribir una descripción organizada de un lugar real con there is / there are, adjetivos y preposiciones.",
+      "instrucciones": "Escribe un párrafo de al menos 50 palabras sobre tu casa o tu barrio. Sigue los cuatro pasos: qué es y dónde está; qué hay (con there is y there are); cómo es (adjetivos); y qué no hay, con tu opinión final. Usa al menos dos preposiciones de lugar.",
+      "vocabulario_apoyo": [
+        "bedroom",
+        "kitchen",
+        "living room",
+        "park",
+        "pharmacy",
+        "library",
+        "quiet",
+        "noisy",
+        "safe",
+        "bright",
+        "next to",
+        "opposite",
+        "near",
+        "on the corner"
+      ],
+      "estructuras": [
+        "My home is a … in …",
+        "There's a … next to …",
+        "There are two …",
+        "It's … but it's …",
+        "There isn't a …, but there's …",
+        "There's also a …"
+      ],
+      "ejemplo": "My school is a big old building in the town center. There are ten classrooms and there's a library on the first floor. The classrooms are small, but they're bright. There isn't a gym, but there's a park opposite the school. It's a friendly place.",
+      "min_palabras": 50,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas there is / there's",
+          "patron": "\\bthere( i|')s\\b"
+        },
+        {
+          "descripcion": "Usas there are",
+          "patron": "\\bthere are\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con there",
+          "patron": "\\bthere (isn't|aren't|is not|are not|is no|are no|'s no)\\b"
+        },
+        {
+          "descripcion": "Usas al menos una preposición de lugar",
+          "patron": "\\b(next to|between|behind|in front of|opposite|across from|near|under|on the corner)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Cada oración tiene sujeto (there, it, they, my home…)?",
+        "¿Usas is con singular e incontable y are con plural?",
+        "¿Los adjetivos van antes del sustantivo y sin -s?",
+        "¿Usas it / they para describir lo que ya presentaste con there?",
+        "¿Las preposiciones son las correctas (next to, in front of, near sin of)?"
+      ],
+      "modelo": "My home is a small apartment in the city center. There are two bedrooms, a living room and a very small kitchen. The living room is bright because there are three big windows. My neighborhood is noisy, but it's safe. There's a pharmacy on the corner and there's a library opposite my building. There isn't a supermarket near here, but there's a market next to the station. It's a great place.",
+      "explicacion": "El modelo sigue los cuatro pasos. Empieza con be (My home is…) para decir qué es y dónde está. Luego usa there are con la lista que empieza en plural (two bedrooms) y there's con singulares. Describe con adjetivos delante del sustantivo (three big windows) y con be + adjetivo (it's safe). Sitúa los lugares con on the corner, opposite y next to. Termina con lo que no hay (there isn't… but there's…) y una opinión.",
+      "errores_comunes": [
+        "Poner el adjetivo después: a kitchen small → a small kitchen.",
+        "Usar have para «hay»: Have a park → There's a park.",
+        "Olvidar el sujeto después de but: but is safe → but it's safe.",
+        "Escribir in front of cuando quieres decir «al otro lado de la calle» (opposite)."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Vender tu barrio",
+    "contexto": "Aisha, una compañera que viene de otro país, busca dónde vivir y te pregunta por tu barrio.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Is your neighborhood a good place to live?",
+        "es": "¿Tu barrio es un buen lugar para vivir?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "Sounds great! Is there a gym?",
+        "es": "¡Suena genial! ¿Hay gimnasio?"
+      }
+    ],
+    "tu_turno": "Describe tu barrio en tres o cuatro oraciones: cómo es (it's + adjetivos), qué hay y dónde (there is / there are + preposiciones). Luego contesta la pregunta sobre el gimnasio con una respuesta corta y un dato más.",
+    "modelo": "Yes, it's quiet and very safe. There's a big park opposite my building and there are two supermarkets near here. There's also a library next to the school. — No, there isn't, but there's a gym in the next neighborhood.",
+    "alternativas": [
+      "It's OK. It's a bit noisy, but there are some nice cafés and there's a metro station on the corner. — Yes, there is. It's behind the market.",
+      "Yes! It's friendly and clean. There's a market on Saturdays and there are some nice restaurants. — Yes, there are two gyms."
+    ],
+    "claves": [
+      "It's + adjetivo para describir; there is / are para lo que hay.",
+      "Preposiciones: next to, opposite, near, on the corner.",
+      "Respuesta corta: Yes, there is / No, there isn't (sin contraer la afirmativa)."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "There is / are + a / número + adjetivo + sustantivo + preposición + lugar.",
+      "El adjetivo va antes del sustantivo y sin -s: two big bedrooms.",
+      "near (sin of) · far from · on the corner · opposite / across from.",
+      "Organiza: qué es y dónde → qué hay → cómo es → qué no hay y tu opinión."
+    ],
+    "recuerda": [
+      "library = biblioteca; bookstore = librería.",
+      "Also va después de be: There's also a gym. Al final, too.",
+      "«Tiene tres ventanas» se dice muchas veces There are three windows."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.r1",
+      "frente": "¿Cómo se dice «biblioteca»? ¿Y «librería»?",
+      "reverso": "library · bookstore",
+      "nota": "Falso amigo."
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.r2",
+      "frente": "Ordena: kitchen / a / modern / very / There's",
+      "reverso": "There's a very modern kitchen.",
+      "nota": "very + adjetivo delante del sustantivo."
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.r3",
+      "frente": "«Lejos de» y «cerca de» en inglés",
+      "reverso": "far from · near",
+      "nota": "near sin of."
+    },
+    {
+      "id": "there-is-there-are.describir-casa-y-ciudad.r4",
+      "frente": "Los cuatro pasos de una descripción",
+      "reverso": "Qué es y dónde → qué hay → cómo es → qué falta y opinión.",
+      "nota": "De lo general a lo particular."
+    }
+  ]
+}

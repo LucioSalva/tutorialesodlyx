@@ -1,0 +1,1547 @@
+{
+  "slug": "mapa-de-auxiliares",
+  "titulo": "El mapa de los auxiliares",
+  "minutos": 40,
+  "objetivos": [
+    "Identificar el auxiliar de cualquier oración que conoces: am/is/are, was/were, do/does, did, can/could, have/has (got).",
+    "Negar cualquier oración añadiendo not al auxiliar.",
+    "Preguntar invirtiendo el auxiliar y el sujeto, y devolver el verbo a su forma base después de do, does y did.",
+    "Contestar con respuestas cortas que repiten el auxiliar de la pregunta."
+  ],
+  "situacion": {
+    "titulo": "Una entrevista para el periódico de la escuela",
+    "texto": "Carlos prepara preguntas para entrevistar a Grace, la nueva maestra de música. Quiere preguntarle por su vida actual, por su pasado y por lo que sabe hacer. Su amiga Mei revisa las preguntas antes de la entrevista y encuentra el mismo tipo de error en varias.",
+    "dialogo": [
+      {
+        "quien": "Carlos",
+        "en": "Look at my questions. 'You teach piano?' 'Where you lived before?' 'You can sing?'",
+        "es": "Mira mis preguntas: «¿Enseñas piano?», «¿Dónde vivías antes?», «¿Sabes cantar?»."
+      },
+      {
+        "quien": "Mei",
+        "en": "They're good ideas, but every question needs a helper verb at the start.",
+        "es": "Son buenas ideas, pero cada pregunta necesita un verbo ayudante al principio."
+      },
+      {
+        "quien": "Carlos",
+        "en": "A helper verb? Which one?",
+        "es": "¿Un verbo ayudante? ¿Cuál?"
+      },
+      {
+        "quien": "Mei",
+        "en": "It depends on the tense: 'Do you teach piano?', 'Where did you live before?', 'Can you sing?'",
+        "es": "Depende del tiempo: «Do you teach piano?», «Where did you live before?», «Can you sing?»."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "una-regla-para-todo",
+      "titulo": "Una sola regla: busca el auxiliar",
+      "que_es": "Un **auxiliar** es un verbo «ayudante» que sirve para construir la negación y la pregunta. En español no lo necesitamos: para preguntar basta con cambiar la entonación («¿Vives aquí?») y para negar basta con poner «no» delante del verbo. En inglés, en cambio, toda negación y toda pregunta se construyen alrededor de un auxiliar. La buena noticia es que la regla es la misma en todos los tiempos que ya conoces.",
+      "para_que": [
+        "Negar cualquier oración sin memorizar una regla distinta para cada tiempo.",
+        "Hacer preguntas de sí o no en presente, en pasado, con can o con have got.",
+        "Reconocer al instante qué tiempo usa una pregunta que te hacen, porque el auxiliar te lo dice."
+      ],
+      "como_funciona": "Primero localiza el auxiliar de la oración afirmativa. Algunas oraciones lo tienen a la vista: [[am]], [[is]], [[are]], [[was]], [[were]] (el verbo to be, también dentro del presente continuo), [[can]], [[could]] y el [[have]]/[[has]] de [[have got]]. Con ellos: **para negar** se añade [[not]] justo después del auxiliar ({{sujeto:She}} {{auxiliar:is}} {{negacion:not}} tired); **para preguntar** se invierte el orden y el auxiliar pasa delante del sujeto ({{auxiliar:Is}} {{sujeto:she}} tired?). Nada más cambia: el resto de la oración se queda igual. Lo mismo vale para [[there is]] / [[there was]]: el auxiliar es is o was, así que se dice [[There isn't…]] y [[Is there…?]]. Las oraciones en presente simple y pasado simple **no tienen auxiliar visible** ([[She works]], [[We saw it]]); para ellas existe [[do]]/[[does]]/[[did]], que verás en el siguiente concepto. Recuerda las contracciones: [[is not]] → [[isn't]], [[were not]] → [[weren't]], [[can not]] → [[can't]] (se escribe [[cannot]] junto cuando no se contrae), [[could not]] → [[couldn't]], [[has not]] → [[hasn't]]. La excepción es [[am not]]: no existe «amn't»; se contrae el sujeto: [[I'm not]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negación (auxiliar visible)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Auxiliar",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "late",
+              "rol": "complemento"
+            }
+          ],
+          "es": "No llegaron tarde."
+        },
+        {
+          "etiqueta": "Pregunta de sí o no (auxiliar visible)",
+          "formula": [
+            {
+              "t": "Auxiliar",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Can",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "drive",
+              "rol": "verbo"
+            },
+            {
+              "t": "?",
+              "rol": "otro"
+            }
+          ],
+          "es": "¿Tu hermano sabe manejar?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "El mapa completo: un auxiliar para cada tiempo",
+          "columnas": [
+            "Tiempo",
+            "Auxiliar",
+            "Afirmación",
+            "Negación",
+            "Pregunta"
+          ],
+          "filas": [
+            [
+              "to be (presente)",
+              "am / is / are",
+              "She is tired.",
+              "She isn't tired.",
+              "Is she tired?"
+            ],
+            [
+              "to be (pasado)",
+              "was / were",
+              "They were late.",
+              "They weren't late.",
+              "Were they late?"
+            ],
+            [
+              "presente continuo",
+              "am / is / are",
+              "He is cooking.",
+              "He isn't cooking.",
+              "Is he cooking?"
+            ],
+            [
+              "presente simple (I, you, we, they)",
+              "do",
+              "You live here.",
+              "You don't live here.",
+              "Do you live here?"
+            ],
+            [
+              "presente simple (he, she, it)",
+              "does",
+              "Sam lives here.",
+              "Sam doesn't live here.",
+              "Does Sam live here?"
+            ],
+            [
+              "pasado simple",
+              "did",
+              "We saw the movie.",
+              "We didn't see the movie.",
+              "Did we see the movie?"
+            ],
+            [
+              "can",
+              "can",
+              "You can swim.",
+              "You can't swim.",
+              "Can you swim?"
+            ],
+            [
+              "could",
+              "could",
+              "Ana could read at four.",
+              "Ana couldn't read at four.",
+              "Could Ana read at four?"
+            ],
+            [
+              "have got",
+              "have / has",
+              "He has got a car.",
+              "He hasn't got a car.",
+              "Has he got a car?"
+            ],
+            [
+              "there is / there was",
+              "is / was",
+              "There was a problem.",
+              "There wasn't a problem.",
+              "Was there a problem?"
+            ]
+          ],
+          "audio": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I'm not ready.",
+          "es": "No estoy listo.",
+          "situacion": "Alguien te apura para salir.",
+          "partes": [
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "not",
+              "rol": "negacion"
+            },
+            {
+              "t": "ready",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El auxiliar am va contraído dentro de I'm; not va después. Nunca «I amn't» ni «I no am»."
+        },
+        {
+          "en": "Were you at home last night?",
+          "es": "¿Estabas en casa anoche?",
+          "partes": [
+            {
+              "t": "Were",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "at home",
+              "rol": "complemento"
+            },
+            {
+              "t": "last night",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Were es to be en pasado: él mismo se pone delante del sujeto. No hace falta did."
+        },
+        {
+          "en": "Is it raining?",
+          "es": "¿Está lloviendo?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "raining",
+              "rol": "verbo"
+            }
+          ],
+          "nota": "En el presente continuo el auxiliar es is; raining no se mueve. El sujeto it es obligatorio aunque en español digamos solo «¿Está lloviendo?»."
+        },
+        {
+          "en": "She couldn't find her keys.",
+          "es": "No pudo encontrar sus llaves.",
+          "partes": [
+            {
+              "t": "She",
+              "rol": "sujeto"
+            },
+            {
+              "t": "couldn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "find",
+              "rol": "verbo"
+            },
+            {
+              "t": "her keys",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "could es su propio auxiliar: couldn't = could + not. Nunca «didn't could»."
+        },
+        {
+          "en": "Has your sister got a car?",
+          "es": "¿Tu hermana tiene carro?",
+          "partes": [
+            {
+              "t": "Has",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "got",
+              "rol": "verbo"
+            },
+            {
+              "t": "a car",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En have got el auxiliar es has; got se queda detrás del sujeto."
+        },
+        {
+          "en": "Is there a pharmacy near here?",
+          "es": "¿Hay una farmacia cerca de aquí?",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "there",
+              "rol": "sujeto"
+            },
+            {
+              "t": "a pharmacy",
+              "rol": "complemento"
+            },
+            {
+              "t": "near here",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "En there is el auxiliar es is, así que la pregunta es Is there…? (y en pasado, Was there…?)."
+        }
+      ],
+      "visual": {
+        "tipo": "mapa",
+        "titulo": "¿Dónde está el auxiliar?",
+        "centro": "auxiliar",
+        "ramas": [
+          {
+            "texto": "am / is / are",
+            "detalle": "to be en presente y presente continuo: se niega e invierte solo"
+          },
+          {
+            "texto": "was / were",
+            "detalle": "to be en pasado (también there was / were): se niega e invierte solo"
+          },
+          {
+            "texto": "do / does",
+            "detalle": "presente simple: aparece solo para negar y preguntar"
+          },
+          {
+            "texto": "did",
+            "detalle": "pasado simple: aparece solo para negar y preguntar"
+          },
+          {
+            "texto": "can / could",
+            "detalle": "el propio modal: can't, couldn't, Can you…?, Could she…?"
+          },
+          {
+            "texto": "have / has",
+            "detalle": "solo en have got: haven't got, Has he got…?"
+          }
+        ]
+      },
+      "comparacion": {
+        "a": {
+          "titulo": "Español",
+          "items": [
+            "¿Estás cansado? (solo cambia la entonación)",
+            "No puedo ir. (no delante del verbo)",
+            "¿Tu hermano maneja?"
+          ]
+        },
+        "b": {
+          "titulo": "Inglés",
+          "items": [
+            "Are you tired? (el auxiliar se mueve)",
+            "I can't go. (not va pegado al auxiliar)",
+            "Does your brother drive? (aparece does)"
+          ]
+        },
+        "veredicto": "El español pregunta con la voz; el inglés pregunta con el orden de las palabras. Por eso «You are tired?» suena a sorpresa o a duda, no a pregunta normal: en una pregunta neutra el auxiliar va primero."
+      },
+      "pronunciacion": [
+        {
+          "texto": "can / can't",
+          "ipa": "/kən/ · /kænt/ (británico /kɑːnt/)",
+          "consejo": "En la afirmación can suele sonar débil, casi «kn», con la vocal neutra /ə/: I can swim. En can't la vocal es la /æ/ abierta de cat: abre bien la boca, como si fueras a decir «a» con los labios estirados hacia los lados. La t final se oye muy poco, así que la diferencia la marca sobre todo esa vocal larga y fuerte. En el Reino Unido can't se pronuncia con /ɑː/, una «a» larga y profunda.",
+          "lento": true
+        },
+        {
+          "texto": "Was she late?",
+          "ipa": "/wəz ʃi leɪt/",
+          "consejo": "Al inicio de una pregunta was se dice débil, /wəz/, con la vocal neutra (como una «e» relajada, sin abrir la boca). Suena fuerte, /wʌz/, cuando va al final, como en las respuestas cortas: Yes, she was.",
+          "lento": true
+        },
+        {
+          "texto": "didn't",
+          "ipa": "/ˈdɪdənt/",
+          "consejo": "Dos sílabas: la primera, «did», con una i corta y relajada (más abierta que la i española); la segunda casi no tiene vocal: la lengua se queda pegada detrás de los dientes de arriba para la d y el aire sale por la nariz para la n."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "You are tired?",
+          "bien": "Are you tired?",
+          "porque": "En una pregunta normal el auxiliar va delante del sujeto. Con la entonación sola, como en español, suena a sorpresa (¿¡Estás cansado!?)."
+        },
+        {
+          "mal": "I no can go.",
+          "bien": "I can't go. / I cannot go.",
+          "porque": "La negación va pegada al auxiliar (can + not), no delante del verbo como el «no» del español."
+        },
+        {
+          "mal": "Did you were at home?",
+          "bien": "Were you at home?",
+          "porque": "To be es su propio auxiliar: nunca se combina con do, does ni did."
+        },
+        {
+          "mal": "Does she can swim?",
+          "bien": "Can she swim?",
+          "porque": "Can y could tampoco necesitan do/does/did: ellos mismos se invierten."
+        }
+      ],
+      "nota": {
+        "titulo": "La prueba del auxiliar",
+        "texto": "Si la oración afirmativa tiene am, is, are, was, were, can, could o have/has got, ya tienes el auxiliar: úsalo. Si solo tiene un verbo normal (works, lives, went, played), el auxiliar está «escondido» y tienes que sacarlo con do, does o did.",
+        "tono": "info"
+      }
+    },
+    {
+      "id": "do-does-did",
+      "titulo": "Cuando el auxiliar está escondido: do, does, did",
+      "que_es": "El presente simple y el pasado simple afirmativos no muestran auxiliar: [[She works]], [[They went]]. Pero lo llevan escondido dentro del verbo. Para negar y preguntar, ese auxiliar sale a la luz como [[do]], [[does]] o [[did]], y se lleva consigo la marca del tiempo: la -s de tercera persona o el pasado.",
+      "para_que": [
+        "Negar y preguntar sobre hábitos y rutinas (presente simple).",
+        "Negar y preguntar sobre hechos terminados (pasado simple).",
+        "Evitar el error más común de todo el curso: «Did you went?», «She doesn't works»."
+      ],
+      "como_funciona": "Piensa que [[works]] es en realidad [[does]] + [[work]], y que [[went]] es [[did]] + [[go]]. En la afirmación ambas piezas van fundidas; en la negación y en la pregunta se separan. La regla tiene tres pasos: 1) elige el auxiliar: [[do]] con I, you, we, they (presente); [[does]] con he, she, it o un sujeto singular (presente); [[did]] con **todos** los sujetos (pasado). 2) Para negar pon [[don't]] / [[doesn't]] / [[didn't]] antes del verbo; para preguntar pon [[Do]] / [[Does]] / [[Did]] antes del sujeto. 3) **El verbo vuelve a la forma base**: sin -s, sin -ed, sin forma irregular. La marca de tiempo ya la lleva el auxiliar y no se repite: {{auxiliar:does}} + {{verbo:work}}, nunca «does works»; {{auxiliar:did}} + {{verbo:go}}, nunca «did went». Ojo: el verbo [[have]] cuando significa «tener» sin got es un verbo normal y funciona igual: [[I don't have time]], [[Does she have a car?]], [[Did you have lunch?]].",
+      "estructuras": [
+        {
+          "etiqueta": "Negación en presente y pasado simple",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "don't / doesn't / didn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "verbo en forma base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "eat",
+              "rol": "verbo"
+            },
+            {
+              "t": "meat",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mi hermano no come carne."
+        },
+        {
+          "etiqueta": "Pregunta en presente y pasado simple",
+          "formula": [
+            {
+              "t": "Do / Does / Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "verbo en forma base",
+              "rol": "verbo"
+            },
+            {
+              "t": "resto ?",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "see",
+              "rol": "verbo"
+            },
+            {
+              "t": "my message?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Viste mi mensaje?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La marca del tiempo pasa al auxiliar",
+          "columnas": [
+            "Afirmación",
+            "Auxiliar escondido",
+            "Negación",
+            "Pregunta"
+          ],
+          "filas": [
+            [
+              "They play tennis.",
+              "do + play",
+              "They don't play tennis.",
+              "Do they play tennis?"
+            ],
+            [
+              "Tom plays tennis.",
+              "does + play",
+              "Tom doesn't play tennis.",
+              "Does Tom play tennis?"
+            ],
+            [
+              "Tom played tennis.",
+              "did + play",
+              "Tom didn't play tennis.",
+              "Did Tom play tennis?"
+            ],
+            [
+              "She has a dog.",
+              "does + have",
+              "She doesn't have a dog.",
+              "Does she have a dog?"
+            ],
+            [
+              "We went home.",
+              "did + go",
+              "We didn't go home.",
+              "Did we go home?"
+            ]
+          ],
+          "audio": [
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My brother works at a hospital.",
+          "es": "Mi hermano trabaja en un hospital.",
+          "partes": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "works",
+              "rol": "verbo"
+            },
+            {
+              "t": "at a hospital",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Afirmación: works lleva -s porque el sujeto es tercera persona del singular. No hay auxiliar a la vista."
+        },
+        {
+          "en": "Does your brother work at a hospital?",
+          "es": "¿Tu hermano trabaja en un hospital?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "your brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "work",
+              "rol": "verbo"
+            },
+            {
+              "t": "at a hospital",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "La -s de works se va a does (do + -es). Por eso work queda en forma base."
+        },
+        {
+          "en": "We didn't buy anything.",
+          "es": "No compramos nada.",
+          "situacion": "Vuelves de un mercado sin bolsas.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "didn't",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "buy",
+              "rol": "verbo"
+            },
+            {
+              "t": "anything",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El pasado lo lleva didn't, así que se dice buy, no bought. Con didn't se usa anything, no «nothing»: el inglés no admite dos negaciones."
+        },
+        {
+          "en": "Did Priya call you yesterday?",
+          "es": "¿Te llamó Priya ayer?",
+          "partes": [
+            {
+              "t": "Did",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Priya",
+              "rol": "sujeto"
+            },
+            {
+              "t": "call",
+              "rol": "verbo"
+            },
+            {
+              "t": "you",
+              "rol": "complemento"
+            },
+            {
+              "t": "yesterday",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Did sirve igual para verbos regulares (call → called) e irregulares (go → went): tras did, siempre forma base."
+        },
+        {
+          "en": "Do you have a pen?",
+          "es": "¿Tienes una pluma?",
+          "partes": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a pen",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have sin got se comporta como cualquier verbo normal: necesita do. Con got sería Have you got a pen?"
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "La -s viaja al auxiliar",
+        "pasos": [
+          {
+            "etiqueta": "Afirmación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "works",
+                "rol": "verbo"
+              },
+              {
+                "t": "here",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Negación",
+            "partes": [
+              {
+                "t": "She",
+                "rol": "sujeto"
+              },
+              {
+                "t": "doesn't",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "work",
+                "rol": "verbo"
+              },
+              {
+                "t": "here",
+                "rol": "complemento"
+              }
+            ]
+          },
+          {
+            "etiqueta": "Pregunta",
+            "partes": [
+              {
+                "t": "Does",
+                "rol": "auxiliar"
+              },
+              {
+                "t": "she",
+                "rol": "sujeto"
+              },
+              {
+                "t": "work",
+                "rol": "verbo"
+              },
+              {
+                "t": "here?",
+                "rol": "complemento"
+              }
+            ]
+          }
+        ],
+        "pie": "Lo mismo ocurre en pasado: She worked here → She didn't work here → Did she work here? La marca -s o -ed solo aparece una vez."
+      },
+      "comparacion": {
+        "a": {
+          "titulo": "Presente simple",
+          "items": [
+            "do (I, you, we, they) / does (he, she, it)",
+            "I don't know. / She doesn't know.",
+            "Do you know? / Does she know?"
+          ]
+        },
+        "b": {
+          "titulo": "Pasado simple",
+          "items": [
+            "did para todos los sujetos",
+            "I didn't know. / She didn't know.",
+            "Did you know? / Did she know?"
+          ]
+        },
+        "veredicto": "El pasado es más fácil que el presente: did no cambia nunca. En los dos casos, el verbo principal vuelve a la forma base."
+      },
+      "pronunciacion": [
+        {
+          "texto": "Does she work here?",
+          "ipa": "/dəz ʃi wɝːk hɪr/",
+          "consejo": "Does al inicio de la pregunta suena débil, /dəz/, como «dz» con una vocal muy corta. La s final suena como zumbido de abeja (/z/), no como la s española. En work la vocal /ɝ/ se hace con la lengua recogida hacia atrás, como una r larga, sin decir «o»."
+        },
+        {
+          "texto": "doesn't",
+          "ipa": "/ˈdʌzənt/",
+          "consejo": "La primera vocal es /ʌ/, una «a» corta y relajada que se hace con la boca medio abierta (no es la «o» de «dos»). Luego zumbido /z/ y una n casi sin vocal."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "She doesn't works on Sundays.",
+          "bien": "She doesn't work on Sundays.",
+          "porque": "La -s ya está en doesn't; el verbo vuelve a la forma base."
+        },
+        {
+          "mal": "Did you went to the party?",
+          "bien": "Did you go to the party?",
+          "porque": "Did ya indica pasado: después va la forma base (go), no la forma pasada (went)."
+        },
+        {
+          "mal": "You like spicy food?",
+          "bien": "Do you like spicy food?",
+          "porque": "Calco del español: en inglés una pregunta neutra en presente simple necesita do/does delante del sujeto."
+        },
+        {
+          "mal": "He don't have a car.",
+          "bien": "He doesn't have a car.",
+          "porque": "Con he, she, it el auxiliar del presente es does/doesn't, no do/don't."
+        }
+      ]
+    },
+    {
+      "id": "respuestas-cortas",
+      "titulo": "Respuestas cortas: el auxiliar vuelve a aparecer",
+      "que_es": "En inglés es raro contestar solo «Yes» o «No» a una pregunta: suena seco. Lo natural es añadir el sujeto y **el mismo auxiliar de la pregunta**. Es como si la respuesta hiciera eco de la pregunta.",
+      "para_que": [
+        "Contestar con naturalidad y cortesía.",
+        "Confirmar que entendiste en qué tiempo te preguntaron.",
+        "Reaccionar en una conversación sin repetir toda la oración."
+      ],
+      "como_funciona": "Mira el auxiliar con el que empieza la pregunta y úsalo en la respuesta: [[Yes]], + sujeto + auxiliar / [[No]], + sujeto + auxiliar + [[n't]]. El sujeto se cambia a pronombre ([[your mom]] → [[she]]) y se ajusta la persona ([[you]] → [[I]]). No se repite el verbo principal. Dos reglas finas: 1) en las respuestas afirmativas **no se contrae**: [[Yes, I am]], [[Yes, she is]], [[Yes, they have]] (nunca «Yes, I'm»); en las negativas sí: [[No, I'm not]], [[No, she isn't]]. 2) La trampa de have: si preguntan con [[Do you have…?]], contestas con do ([[Yes, I do]]); si preguntan con [[Have you got…?]], contestas con have ([[Yes, I have]]).",
+      "estructuras": [
+        {
+          "etiqueta": "Respuesta corta afirmativa",
+          "formula": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "auxiliar",
+              "rol": "auxiliar"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Yes,",
+              "rol": "otro"
+            },
+            {
+              "t": "she",
+              "rol": "sujeto"
+            },
+            {
+              "t": "does",
+              "rol": "auxiliar"
+            }
+          ],
+          "es": "Sí (trabaja)."
+        },
+        {
+          "etiqueta": "Respuesta corta negativa",
+          "formula": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "pronombre",
+              "rol": "sujeto"
+            },
+            {
+              "t": "auxiliar + n't",
+              "rol": "negacion"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "No,",
+              "rol": "otro"
+            },
+            {
+              "t": "they",
+              "rol": "sujeto"
+            },
+            {
+              "t": "weren't",
+              "rol": "negacion"
+            }
+          ],
+          "es": "No (no estaban)."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La pregunta decide la respuesta",
+          "columnas": [
+            "Pregunta",
+            "Sí",
+            "No"
+          ],
+          "filas": [
+            [
+              "Are you busy?",
+              "Yes, I am.",
+              "No, I'm not."
+            ],
+            [
+              "Is your mom working today?",
+              "Yes, she is.",
+              "No, she isn't."
+            ],
+            [
+              "Does Omar speak Arabic?",
+              "Yes, he does.",
+              "No, he doesn't."
+            ],
+            [
+              "Did you like the movie?",
+              "Yes, I did.",
+              "No, I didn't."
+            ],
+            [
+              "Can you come tomorrow?",
+              "Yes, I can.",
+              "No, I can't."
+            ],
+            [
+              "Have you got a bike?",
+              "Yes, I have.",
+              "No, I haven't."
+            ],
+            [
+              "Was there a lot of traffic?",
+              "Yes, there was.",
+              "No, there wasn't."
+            ]
+          ],
+          "audio": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Did you finish your homework? Yes, I did.",
+          "es": "¿Terminaste tu tarea? —Sí.",
+          "partes": [
+            {
+              "t": "Did you finish your homework",
+              "rol": "complemento"
+            },
+            {
+              "t": "Yes",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "did",
+              "rol": "auxiliar"
+            }
+          ],
+          "nota": "La pregunta usa did, la respuesta repite did. No se dice «Yes, I finished» como respuesta corta."
+        },
+        {
+          "en": "Is Ben at work? No, he isn't.",
+          "es": "¿Ben está en el trabajo? —No.",
+          "partes": [
+            {
+              "t": "Is Ben at work",
+              "rol": "complemento"
+            },
+            {
+              "t": "No",
+              "rol": "otro"
+            },
+            {
+              "t": "he",
+              "rol": "sujeto"
+            },
+            {
+              "t": "isn't",
+              "rol": "negacion"
+            }
+          ],
+          "nota": "Ben pasa a he en la respuesta. En negativa se puede contraer: isn't o he's not."
+        },
+        {
+          "en": "Do you have a car? Yes, I do.",
+          "es": "¿Tienes carro? —Sí.",
+          "partes": [
+            {
+              "t": "Do you have a car",
+              "rol": "complemento"
+            },
+            {
+              "t": "Yes",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "do",
+              "rol": "auxiliar"
+            }
+          ],
+          "nota": "La pregunta usó do, así que la respuesta es I do, no «I have»."
+        },
+        {
+          "en": "Could you swim when you were five? No, I couldn't.",
+          "es": "¿Sabías nadar a los cinco años? —No.",
+          "partes": [
+            {
+              "t": "Could you swim when you were five",
+              "rol": "complemento"
+            },
+            {
+              "t": "No",
+              "rol": "otro"
+            },
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "couldn't",
+              "rol": "negacion"
+            }
+          ]
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Yes, I can.",
+          "ipa": "/jɛs aɪ kæn/",
+          "consejo": "Al final de una respuesta corta el auxiliar se pronuncia en su forma fuerte: can con /æ/ abierta, no el /kən/ débil de I can swim. La y de yes se parece a la «ll» suave de «yo» en México, sin llegar a sonar «ye» fuerte."
+        },
+        {
+          "texto": "No, she doesn't.",
+          "ipa": "/noʊ ʃi ˈdʌzənt/",
+          "consejo": "No es un diptongo: empieza en «o» y cierra los labios hacia «u» (/oʊ/). Nunca una «o» española pura y corta."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Yes, I'm.",
+          "bien": "Yes, I am.",
+          "porque": "En las respuestas cortas afirmativas el auxiliar va al final y no se contrae."
+        },
+        {
+          "mal": "Do you like tea? — Yes, I like.",
+          "bien": "Yes, I do.",
+          "porque": "La respuesta corta repite el auxiliar de la pregunta (do), no el verbo principal."
+        },
+        {
+          "mal": "Have you got a pen? — Yes, I do.",
+          "bien": "Yes, I have.",
+          "porque": "Con Have you got…? el auxiliar es have, así que se contesta con have."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada oración con el auxiliar que usarías para negarla o convertirla en pregunta.",
+      "pares": [
+        {
+          "a": "She is working today.",
+          "b": "is"
+        },
+        {
+          "a": "They play soccer on Sundays.",
+          "b": "do"
+        },
+        {
+          "a": "Omar plays the guitar.",
+          "b": "does"
+        },
+        {
+          "a": "We visited my aunt.",
+          "b": "did"
+        },
+        {
+          "a": "I can speak French.",
+          "b": "can"
+        },
+        {
+          "a": "He has got two sisters.",
+          "b": "has"
+        },
+        {
+          "a": "There were ten people.",
+          "b": "were"
+        }
+      ],
+      "pistas": [
+        "El auxiliar puede estar a la vista (is, can, has…) o escondido dentro del verbo.",
+        "Si no ves am, is, are, was, were, can, could o has/have got, fíjate en si el verbo está en presente o en pasado y en quién es el sujeto.",
+        "Presente simple con I/you/we/they → do; con he/she/it → does; cualquier pasado simple → did; los demás usan su propio auxiliar."
+      ],
+      "solucion": {
+        "respuesta": "is · do · does · did · can · has · were",
+        "explicacion": "She is working y There were ten people ya tienen el auxiliar a la vista (is, were). I can speak usa can, y He has got usa has. They play es presente simple con they → do; Omar plays es presente simple con tercera persona (la -s lo delata) → does; We visited es pasado simple (-ed) → did."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la negación correcta.",
+      "pregunta": "My sister lives in Monterrey. → ¿Cómo se niega?",
+      "opciones": [
+        {
+          "texto": "My sister doesn't live in Monterrey.",
+          "correcta": true,
+          "porque": "Correcta: lives es presente simple con sujeto de tercera persona, así que el auxiliar es does; con doesn't el verbo vuelve a live."
+        },
+        {
+          "texto": "My sister doesn't lives in Monterrey.",
+          "correcta": false,
+          "porque": "Repite la -s: ya la lleva doesn't, así que el verbo debe quedar en forma base (live)."
+        },
+        {
+          "texto": "My sister don't live in Monterrey.",
+          "correcta": false,
+          "porque": "Con un sujeto singular (my sister = she) el auxiliar es does/doesn't, no do/don't."
+        },
+        {
+          "texto": "My sister isn't live in Monterrey.",
+          "correcta": false,
+          "porque": "Mezcla to be con un verbo normal. Lives no tiene auxiliar visible; hay que sacar does, no is."
+        }
+      ],
+      "pistas": [
+        "Primero decide si la oración tiene un auxiliar a la vista.",
+        "Mira el verbo lives: ¿qué tiempo es y qué te dice su -s sobre el sujeto?",
+        "Presente simple con he/she/it: doesn't + verbo en forma base."
+      ],
+      "solucion": {
+        "respuesta": "My sister doesn't live in Monterrey.",
+        "explicacion": "La respuesta correcta es doesn't live porque la oración está en presente simple y el sujeto (my sister) es tercera persona del singular. El auxiliar escondido es does; al sacarlo para negar, se lleva la -s y el verbo queda como live."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa cada pregunta con el auxiliar correcto.",
+      "frase": "___ your parents speak English? ___ you at home last night?",
+      "banco": [
+        "Do",
+        "Does",
+        "Are",
+        "Were",
+        "Did"
+      ],
+      "respuestas": [
+        [
+          "Do"
+        ],
+        [
+          "Were"
+        ]
+      ],
+      "traduccion": "¿Tus papás hablan inglés? ¿Estabas en casa anoche?",
+      "errores_tipicos": {
+        "Does | Were": "Your parents es plural (they): en presente simple el auxiliar es do, no does.",
+        "Do | Did": "La segunda pregunta no tiene otro verbo: at home necesita to be. El pasado de be con you es were, y be nunca va con did.",
+        "Are | Were": "Speak es un verbo normal: en presente simple se pregunta con do, no con are."
+      },
+      "pistas": [
+        "Cada pregunta necesita un auxiliar distinto según su tiempo y su verbo.",
+        "En la primera, el verbo es speak y el sujeto es plural. En la segunda no hay otro verbo: solo at home y last night.",
+        "Verbo normal en presente simple con sujeto plural → auxiliar de presente sin -es; estar en un lugar en pasado → pasado de be, y you usa siempre la forma plural."
+      ],
+      "solucion": {
+        "respuesta": "Do · Were",
+        "explicacion": "Do your parents speak English? usa do porque es presente simple y el sujeto (your parents = they) es plural. Were you at home last night? usa were porque el verbo es to be (estar) en pasado: to be es su propio auxiliar y con you la forma es were."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa.",
+      "origen": "Carlos is watching TV.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Carlos isn't watching TV."
+      ],
+      "errores_tipicos": {
+        "Carlos doesn't watching TV.": "Es presente continuo: el auxiliar ya está a la vista (is). Solo hay que añadirle not.",
+        "Carlos isn't watch TV.": "En el presente continuo el verbo sigue con -ing: isn't watching."
+      },
+      "pistas": [
+        "Busca un auxiliar a la vista.",
+        "La oración tiene is + verbo con -ing: es presente continuo.",
+        "Con un auxiliar visible, se añade not justo después de él y lo demás no cambia."
+      ],
+      "solucion": {
+        "respuesta": "Carlos isn't watching TV.",
+        "explicacion": "La respuesta es Carlos isn't (is not) watching TV porque en el presente continuo el auxiliar es is: se niega añadiéndole not. Watching conserva su -ing; no hace falta does."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa.",
+      "origen": "Mei went to the party last night.",
+      "instruccion": "Negativa",
+      "respuestas": [
+        "Mei didn't go to the party last night."
+      ],
+      "errores_tipicos": {
+        "Mei didn't went to the party last night.": "Didn't ya lleva el pasado: el verbo vuelve a la forma base, go.",
+        "Mei wasn't go to the party last night.": "Went es un verbo normal en pasado simple: se niega con didn't, no con wasn't.",
+        "Mei doesn't go to the party last night.": "Last night indica pasado: el auxiliar es did, no does."
+      },
+      "pistas": [
+        "No hay auxiliar a la vista: el verbo went lo lleva escondido.",
+        "Went es el pasado irregular de go. ¿Qué auxiliar corresponde al pasado simple?",
+        "Pasado simple: didn't + verbo en forma base (la forma que encuentras en el diccionario)."
+      ],
+      "solucion": {
+        "respuesta": "Mei didn't go to the party last night.",
+        "explicacion": "La respuesta es didn't go porque went es pasado simple: el auxiliar escondido es did. Al sacarlo para negar, did se queda con el pasado y went vuelve a su forma base, go."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "Aisha works on Saturdays.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Does Aisha work on Saturdays?"
+      ],
+      "errores_tipicos": {
+        "Does Aisha works on Saturdays?": "La -s ya pasó a does: el verbo queda en forma base, work.",
+        "Aisha works on Saturdays?": "Con la entonación sola suena a sorpresa. Una pregunta normal necesita el auxiliar does delante del sujeto.",
+        "Do Aisha work on Saturdays?": "Aisha es tercera persona del singular: el auxiliar es does."
+      },
+      "pistas": [
+        "Works no tiene auxiliar a la vista: está escondido.",
+        "La -s de works te dice que es presente simple con tercera persona.",
+        "Auxiliar de presente para he/she/it + sujeto + forma base + resto, como en Does Tom play tennis?"
+      ],
+      "solucion": {
+        "respuesta": "Does Aisha work on Saturdays?",
+        "explicacion": "La respuesta es Does Aisha work…? porque works es presente simple con sujeto de tercera persona. El auxiliar does pasa delante del sujeto, se lleva la -s y work queda en forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "Your brother can drive.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Can your brother drive?"
+      ],
+      "errores_tipicos": {
+        "Does your brother can drive?": "Can es su propio auxiliar: nunca se combina con do/does. Basta con invertirlo.",
+        "Can your brother drives?": "Después de can el verbo va siempre en forma base, sin -s.",
+        "Your brother can drive?": "Falta invertir: en una pregunta neutra can va delante del sujeto."
+      },
+      "pistas": [
+        "¿Hay un auxiliar a la vista?",
+        "Can es un modal: hace de auxiliar él solo.",
+        "Pregunta con modal: modal + sujeto + forma base, como en Should we go?"
+      ],
+      "solucion": {
+        "respuesta": "Can your brother drive?",
+        "explicacion": "La respuesta es Can your brother drive? porque can es su propio auxiliar: para preguntar solo se invierte con el sujeto. No hace falta does, y drive sigue en forma base."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.08",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una pregunta.",
+      "fichas": [
+        "friends",
+        "Were",
+        "the",
+        "your",
+        "concert",
+        "at",
+        "?"
+      ],
+      "respuestas": [
+        "Were your friends at the concert?"
+      ],
+      "traduccion": "¿Tus amigos estuvieron en el concierto?",
+      "pistas": [
+        "Es una pregunta con to be en pasado.",
+        "El auxiliar were va primero; después, el sujeto completo (dos palabras).",
+        "Auxiliar + sujeto + lugar + ?, como en Was your brother at the game?"
+      ],
+      "solucion": {
+        "respuesta": "Were your friends at the concert?",
+        "explicacion": "To be en pasado (were) es su propio auxiliar, así que va delante del sujeto your friends. El lugar, at the concert, va al final."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la oración en negativa. Mantén have got.",
+      "origen": "Omar has got a bike.",
+      "instruccion": "Negativa (con have got)",
+      "respuestas": [
+        "Omar hasn't got a bike."
+      ],
+      "errores_tipicos": {
+        "Omar doesn't have got a bike.": "Con have got el auxiliar es has; no se mezcla con does.",
+        "Omar hasn't a bike.": "Falta got. Así se decía antiguamente en el Reino Unido, pero hoy suena anticuado: di hasn't got o doesn't have."
+      },
+      "pistas": [
+        "En have got el auxiliar está a la vista.",
+        "El auxiliar es has (Omar = he).",
+        "Auxiliar + n't + got, como en They haven't got a dog."
+      ],
+      "solucion": {
+        "respuesta": "Omar hasn't got a bike.",
+        "explicacion": "En have got el auxiliar es have/has. Con Omar (he) es has, y para negar se le añade not: hasn't got. La alternativa sin got sería Omar doesn't have a bike, pero aquí se pide conservar have got."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.10",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa las respuestas cortas con el auxiliar adecuado (en afirmativa o negativa).",
+      "frase": "Did you call Ana? — Yes, I ___. Is Ben at work? — No, he ___.",
+      "respuestas": [
+        [
+          "did"
+        ],
+        [
+          "isn't",
+          "is not"
+        ]
+      ],
+      "errores_tipicos": {
+        "called | isn't": "La respuesta corta no repite el verbo principal, sino el auxiliar de la pregunta: did.",
+        "do | isn't": "La pregunta está en pasado (Did…?), así que la respuesta repite did.",
+        "did | doesn't": "La pregunta empieza con Is: la respuesta repite is (No, he isn't)."
+      },
+      "pistas": [
+        "La respuesta corta es un eco del auxiliar con el que empieza la pregunta.",
+        "Mira la primera palabra de cada pregunta: Did… e Is….",
+        "Yes, + pronombre + auxiliar / No, + pronombre + auxiliar + n't."
+      ],
+      "solucion": {
+        "respuesta": "did · isn't",
+        "explicacion": "La primera pregunta empieza con Did, así que la respuesta afirmativa es Yes, I did. La segunda empieza con Is, así que la negativa es No, he isn't (también vale he's not, que el evaluador reconoce)."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.11",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Convierte la oración en pregunta de sí o no.",
+      "origen": "There was a problem with the car.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Was there a problem with the car?"
+      ],
+      "errores_tipicos": {
+        "Did there was a problem with the car?": "There was ya tiene auxiliar (was): se invierte, no se añade did.",
+        "Did there be a problem with the car?": "Con there + be no se usa did: basta con invertir was y there.",
+        "There was a problem with the car?": "Falta invertir: en la pregunta was va delante de there."
+      },
+      "pistas": [
+        "There was es una forma de to be.",
+        "El auxiliar es was, y there ocupa el lugar del sujeto.",
+        "Se invierten el auxiliar y there, como en Were there any problems?"
+      ],
+      "solucion": {
+        "respuesta": "Was there a problem with the car?",
+        "explicacion": "En there was el auxiliar es was (to be en pasado). Para preguntar se invierte con there, igual que Is there…? en presente. To be nunca necesita did."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.12",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "Hay un error en la oración. Señálalo y corrígelo.",
+      "frase": "Did you saw my message?",
+      "error": "saw",
+      "correcciones": [
+        "see"
+      ],
+      "frase_correcta": "Did you see my message?",
+      "pistas": [
+        "La oración tiene did al principio.",
+        "Mira el verbo que va después del sujeto.",
+        "Tras do, does o did el verbo vuelve a la forma base."
+      ],
+      "solucion": {
+        "respuesta": "saw → see",
+        "explicacion": "Did ya lleva el pasado, así que el verbo principal va en forma base: see. Saw sería marcar el pasado dos veces."
+      }
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.13",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha y repite. Fíjate en cómo suenan does y can dentro de la pregunta y en la respuesta.",
+      "texto": "Does she work here? Yes, she does. Can you help me? Yes, I can.",
+      "ipa": "/dəz ʃi wɝːk hɪr ‖ jɛs ʃi dʌz ‖ kən ju hɛlp mi ‖ jɛs aɪ kæn/",
+      "consejo": "Dentro de la pregunta los auxiliares son débiles y rápidos: /dəz/, /kən/, con la vocal neutra /ə/ (boca relajada, casi cerrada). Al final de la respuesta corta suenan fuertes: /dʌz/ con una «a» corta y relajada, y /kæn/ con la boca bien abierta y estirada. Esa diferencia es natural: no digas los dos igual.",
+      "es": "¿Ella trabaja aquí? Sí. ¿Me puedes ayudar? Sí.",
+      "pistas": [
+        "Escucha primero la pregunta y luego la respuesta.",
+        "Compara el does y el can de la pregunta con los de la respuesta.",
+        "Auxiliar al inicio = débil (/ə/); auxiliar al final = fuerte."
+      ]
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.14",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe exactamente lo que oyes.",
+      "texto": "She didn't come to class, but she can send the homework today.",
+      "pistas": [
+        "Hay dos partes unidas por but: una en pasado y otra con un modal.",
+        "La primera parte es negativa y usa el auxiliar del pasado; fíjate en la forma del verbo que va después.",
+        "Después de didn't y de can, el verbo va en forma base."
+      ],
+      "solucion": {
+        "respuesta": "She didn't come to class, but she can send the homework today.",
+        "explicacion": "Didn't come: pasado negativo con did + forma base (no «came»). Can send: can es su propio auxiliar y va seguido de forma base."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Conoce a tu nuevo compañero",
+    "contexto": "Es el primer día de un curso. Tu compañero Diego te hace preguntas en varios tiempos. Contesta con respuestas cortas y añade un dato más.",
+    "dialogo": [
+      {
+        "quien": "Diego",
+        "en": "Do you live near here?",
+        "es": "¿Vives cerca de aquí?"
+      },
+      {
+        "quien": "Tú",
+        "en": "Yes, I do. I live on Juárez Street.",
+        "es": "Sí. Vivo en la calle Juárez."
+      },
+      {
+        "quien": "Diego",
+        "en": "Were you in this class last year?",
+        "es": "¿Estuviste en esta clase el año pasado?"
+      },
+      {
+        "quien": "Tú",
+        "en": "No, I wasn't. I was in a different school.",
+        "es": "No. Estaba en otra escuela."
+      },
+      {
+        "quien": "Diego",
+        "en": "Can you speak any other languages?",
+        "es": "¿Hablas algún otro idioma?"
+      }
+    ],
+    "tu_turno": "Contesta la última pregunta de Diego con una respuesta corta y un dato más. Después hazle a él dos preguntas: una en presente simple y otra en pasado simple.",
+    "modelo": "Yes, I can. I can speak a little French. And you? Do you work? Did you study English at school?",
+    "alternativas": [
+      "No, I can't. I only speak Spanish and some English. Do you have any brothers or sisters? Did you have a good weekend?",
+      "Yes, I can. I speak Portuguese. What about you? Does your family live here? Did you see the new library?"
+    ],
+    "claves": [
+      "Respuesta corta con el mismo auxiliar de la pregunta: Yes, I can / No, I can't.",
+      "Presente simple: Do/Does + sujeto + forma base.",
+      "Pasado simple: Did + sujeto + forma base."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Para negar: auxiliar + not. Para preguntar: auxiliar delante del sujeto.",
+      "Auxiliares a la vista: am/is/are, was/were, can/could, have/has (got). Se usan tal cual.",
+      "Auxiliares escondidos: do/does (presente simple) y did (pasado simple). Aparecen solo para negar y preguntar.",
+      "Después de do, does y did, el verbo vuelve a la forma base.",
+      "Las respuestas cortas repiten el auxiliar de la pregunta: Yes, she does / No, I didn't."
+    ],
+    "recuerda": [
+      "To be, can y could nunca van con do/does/did.",
+      "Have sin got es un verbo normal: Do you have…? Have got usa have como auxiliar: Have you got…?",
+      "No existe «amn't»: I'm not."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.r1",
+      "frente": "¿Cuál es la regla única para negar en inglés?",
+      "reverso": "Auxiliar + not → She isn't here. / They didn't go. / I can't swim.",
+      "nota": "Si no hay auxiliar a la vista, usa do/does/did."
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.r2",
+      "frente": "Pregunta: «Tom plays tennis.»",
+      "reverso": "Does Tom play tennis?",
+      "nota": "La -s pasa a does; play queda en forma base."
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.r3",
+      "frente": "Negativa: «We saw the movie.»",
+      "reverso": "We didn't see the movie.",
+      "nota": "Did lleva el pasado: see, no saw."
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.r4",
+      "frente": "Pregunta: «There was a problem.»",
+      "reverso": "Was there a problem?",
+      "nota": "There + be se invierte solo; nunca con did."
+    },
+    {
+      "id": "todos-los-tiempos.mapa-de-auxiliares.r5",
+      "frente": "Respuesta corta: «Have you got a car?» (sí)",
+      "reverso": "Yes, I have.",
+      "nota": "Si la pregunta fuera Do you have…?, sería Yes, I do."
+    }
+  ]
+}

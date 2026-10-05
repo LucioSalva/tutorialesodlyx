@@ -1,0 +1,546 @@
+{
+  "slug": "posicion-del-adjetivo",
+  "titulo": "La posición del adjetivo",
+  "minutos": 35,
+  "objetivos": [
+    "Colocar el adjetivo antes del sustantivo: a red car, an old house.",
+    "Elegir a o an según el sonido del adjetivo que va detrás del artículo.",
+    "Mantener el adjetivo sin plural y sin género: two red cars, a tall woman.",
+    "Usar el adjetivo solo, después de be: The car is red. Is it new?"
+  ],
+  "situacion": {
+    "titulo": "En la oficina de objetos perdidos",
+    "texto": "Mei olvidó su mochila en la biblioteca de la escuela de idiomas. El encargado le pregunta cómo es. Fíjate en dónde pone Mei las palabras que describen la mochila.",
+    "dialogo": [
+      { "quien": "Encargado", "en": "Hi. Can I help you?", "es": "Hola. ¿En qué te puedo ayudar?" },
+      { "quien": "Mei", "en": "Yes, my bag is lost. It's a black bag.", "es": "Sí, perdí mi mochila. Es una mochila negra." },
+      { "quien": "Encargado", "en": "Is it big or small?", "es": "¿Es grande o chica?" },
+      { "quien": "Mei", "en": "It's big, and it's new.", "es": "Es grande, y es nueva." },
+      { "quien": "Encargado", "en": "OK. We have two black bags here. Is this your bag?", "es": "Bueno. Aquí tenemos dos mochilas negras. ¿Es esta tu mochila?" },
+      { "quien": "Mei", "en": "No, that bag is old. My bag is the big new bag!", "es": "No, esa mochila es vieja. ¡Mi mochila es la mochila grande y nueva!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "antes-del-sustantivo",
+      "titulo": "El adjetivo va antes del sustantivo",
+      "que_es": "Un adjetivo es la palabra que dice cómo es algo o alguien: su color (red), su tamaño (big), su edad (old), una cualidad (good). Cuando el adjetivo va pegado al sustantivo, en inglés siempre se coloca **antes**: [[a red car]], nunca «a car red».",
+      "para_que": [
+        "Describir un objeto que buscas o que quieres comprar: a black bag, a cheap phone.",
+        "Dar una opinión rápida: a good idea, a bad day.",
+        "Distinguir entre varias cosas iguales: the new car, not the old car."
+      ],
+      "como_funciona": "En español el adjetivo casi siempre va después del sustantivo («un carro rojo»). En inglés el orden se invierte: primero el {{complemento:adjetivo}}, después el sustantivo. El artículo va delante de todo el grupo: [[a]] + [[red]] + [[car]]. Consecuencia importante: la elección entre a y an depende ahora del sonido con el que empieza el ADJETIVO, porque es la palabra que va justo detrás del artículo: [[an umbrella]], pero [[a black umbrella]]; [[a house]], pero [[an old house]]. Y el adjetivo no cambia por género: [[a tall man]] y [[a tall woman]] llevan exactamente la misma palabra.",
+      "estructuras": [
+        {
+          "etiqueta": "Artículo + adjetivo + sustantivo",
+          "formula": [ { "t": "a / an / the", "rol": "otro" }, { "t": "adjetivo", "rol": "complemento" }, { "t": "sustantivo", "rol": "otro" } ],
+          "ejemplo": [ { "t": "a", "rol": "otro" }, { "t": "red", "rol": "complemento" }, { "t": "car", "rol": "otro" } ],
+          "es": "un carro rojo"
+        },
+        {
+          "etiqueta": "An porque el adjetivo empieza con sonido vocal",
+          "formula": [ { "t": "an", "rol": "otro" }, { "t": "adjetivo con sonido vocal", "rol": "complemento" }, { "t": "sustantivo", "rol": "otro" } ],
+          "ejemplo": [ { "t": "an", "rol": "otro" }, { "t": "old", "rol": "complemento" }, { "t": "house", "rol": "otro" } ],
+          "es": "una casa vieja"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Mismo significado, orden contrario",
+          "columnas": [ "Español", "Inglés", "Qué observar" ],
+          "filas": [
+            [ "un carro rojo", "a red car", "El color va antes." ],
+            [ "una casa vieja", "an old house", "An porque old empieza con sonido vocal." ],
+            [ "un paraguas negro", "a black umbrella", "A porque black empieza con consonante, aunque umbrella lleve an." ],
+            [ "un hombre alto / una mujer alta", "a tall man / a tall woman", "El adjetivo no tiene masculino ni femenino." ]
+          ],
+          "audio": [ 1 ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "This is a new phone.",
+          "es": "Este es un celular nuevo.",
+          "situacion": "Carlos le enseña su celular a un amigo.",
+          "partes": [ { "t": "This", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a new phone", "rol": "complemento" } ],
+          "nota": "El grupo «a new phone» funciona como un bloque: artículo, adjetivo y sustantivo, en ese orden."
+        },
+        {
+          "en": "That is an old house.",
+          "es": "Esa es una casa vieja.",
+          "partes": [ { "t": "That", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "an old house", "rol": "complemento" } ],
+          "nota": "House lleva a (a house), pero aquí el artículo toca a old, que empieza con sonido vocal: por eso an."
+        },
+        {
+          "en": "Priya is a good teacher.",
+          "es": "Priya es una buena maestra.",
+          "situacion": "Un estudiante habla de su maestra de matemáticas.",
+          "partes": [ { "t": "Priya", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a good teacher", "rol": "complemento" } ],
+          "nota": "Good va antes de teacher. En español puedes decir «buena maestra» o «maestra buena»; en inglés solo hay un orden posible."
+        },
+        {
+          "en": "It's a big black umbrella.",
+          "es": "Es un paraguas negro grande.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "a big black umbrella", "rol": "complemento" } ],
+          "nota": "Con dos adjetivos, los dos van antes del sustantivo y sin «and». Normalmente el tamaño va antes que el color: big black, no black big."
+        },
+        {
+          "en": "Omar is a tall man and Grace is a tall woman.",
+          "es": "Omar es un hombre alto y Grace es una mujer alta.",
+          "partes": [ { "t": "Omar", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a tall man and", "rol": "complemento" }, { "t": "Grace", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a tall woman", "rol": "complemento" } ],
+          "nota": "Alto y alta son la misma palabra: tall. Los adjetivos ingleses no concuerdan en género."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "an old house",
+          "ipa": "/ən oʊld haʊs/",
+          "consejo": "La n de an se pega a la vocal de old, como si fuera una sola palabra: «a-nold». La o de old no es una o española pura: empieza en o y los labios se cierran hacia u (/oʊ/). La h de house es un soplo suave, sin la fricción de la j española.",
+          "lento": true
+        },
+        {
+          "texto": "a red car",
+          "ipa": "/ə rɛd kɑr/",
+          "consejo": "La r inglesa no vibra: la punta de la lengua se curva hacia atrás sin tocar el paladar. El artículo a se reduce a una vocal débil y corta (/ə/), no suena como la «a» española acentuada.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "It's a car red.", "bien": "It's a red car.", "porque": "Calco del español «un carro rojo». En inglés el adjetivo va antes del sustantivo." },
+        { "mal": "It's a old house.", "bien": "It's an old house.", "porque": "El artículo depende del sonido de la palabra que tiene justo detrás, y aquí es old (sonido vocal)." },
+        { "mal": "She is a woman tall.", "bien": "She is a tall woman.", "porque": "El adjetivo no va detrás ni cambia de forma por ser femenino." }
+      ],
+      "nota": { "titulo": "Una pista para recordar", "texto": "Piensa en el inglés como en una foto que se enfoca: primero ves la cualidad (red) y luego la cosa (car). Lo que describe va delante de lo descrito.", "tono": "info" }
+    },
+    {
+      "id": "sin-plural",
+      "titulo": "El adjetivo no tiene plural",
+      "que_es": "En español el adjetivo cambia con el sustantivo: «carro rojo», «carros rojos». En inglés el adjetivo es **invariable**: no añade -s, no cambia por género. Solo el sustantivo se pone en plural: [[two red cars]].",
+      "para_que": [
+        "Hablar de varias cosas con la misma característica: three small dogs.",
+        "Describir grupos de personas: They are good students.",
+        "Evitar uno de los errores más visibles de un hispanohablante al escribir."
+      ],
+      "como_funciona": "La marca de plural (-s, -es, -ies o la forma irregular que viste en la unidad 6) aparece **una sola vez**, en el sustantivo. El adjetivo se queda exactamente igual, esté donde esté: antes del sustantivo ([[new shoes]]) o después de be ([[The shoes are new.]]). Por eso «reds», «bigs» o «news» (como plural de new) no existen como adjetivos. Ojo: [[news]] sí existe, pero es un sustantivo que significa «noticias».",
+      "estructuras": [
+        {
+          "etiqueta": "Plural: solo el sustantivo cambia",
+          "formula": [ { "t": "número / these / those", "rol": "otro" }, { "t": "adjetivo (sin -s)", "rol": "complemento" }, { "t": "sustantivo + -s", "rol": "otro" } ],
+          "ejemplo": [ { "t": "two", "rol": "otro" }, { "t": "red", "rol": "complemento" }, { "t": "cars", "rol": "otro" } ],
+          "es": "dos carros rojos"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "These are new shoes.",
+          "es": "Estos son zapatos nuevos.",
+          "partes": [ { "t": "These", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "new shoes", "rol": "complemento" } ],
+          "nota": "Shoes lleva -s porque es plural; new se queda igual. En plural no se usa a/an."
+        },
+        {
+          "en": "Ben and Sam are good friends.",
+          "es": "Ben y Sam son buenos amigos.",
+          "partes": [ { "t": "Ben and Sam", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "good friends", "rol": "complemento" } ],
+          "nota": "«Buenos» en español es plural; good en inglés no cambia nunca."
+        },
+        {
+          "en": "Those are three small children.",
+          "es": "Esos son tres niños pequeños.",
+          "partes": [ { "t": "Those", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "three small children", "rol": "complemento" } ],
+          "nota": "Children es el plural irregular de child. El plural ya está en el sustantivo; small no se toca."
+        },
+        {
+          "en": "The white cups are clean.",
+          "es": "Las tazas blancas están limpias.",
+          "partes": [ { "t": "The white cups", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "clean", "rol": "complemento" } ],
+          "nota": "Dos adjetivos, ninguno con -s: white antes de cups, clean después de are."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De uno a varios: ¿qué palabra cambia?",
+        "pasos": [
+          { "etiqueta": "Singular", "partes": [ { "t": "a", "rol": "otro" }, { "t": "red", "rol": "complemento" }, { "t": "car", "rol": "otro" } ] },
+          { "etiqueta": "Plural", "partes": [ { "t": "two", "rol": "otro" }, { "t": "red", "rol": "complemento" }, { "t": "cars", "rol": "otro" } ] },
+          { "etiqueta": "Después de be", "partes": [ { "t": "The cars", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "red", "rol": "complemento" } ] }
+        ],
+        "pie": "El adjetivo red es idéntico en los tres pasos. Cambian el artículo (a → two), el sustantivo (car → cars) y el verbo (is → are), nunca el adjetivo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "two red cars",
+          "ipa": "/tu rɛd kɑrz/",
+          "consejo": "La -s de cars suena /z/, como un zumbido de abeja con vibración en la garganta (pon los dedos en el cuello y siéntela). La t de two sale con un pequeño soplo de aire, más fuerte que la t española."
+        },
+        {
+          "texto": "good friends",
+          "ipa": "/ɡʊd frɛndz/",
+          "consejo": "El final -nds se pronuncia completo: la lengua toca detrás de los dientes para la n y la d, y termina en el zumbido /z/. No lo reduzcas a «fren»."
+        }
+      ],
+      "errores": [
+        { "mal": "They are reds cars.", "bien": "They are red cars.", "porque": "El adjetivo no lleva plural. Solo cars lleva -s." },
+        { "mal": "The shoes are news.", "bien": "The shoes are new.", "porque": "New es un adjetivo y no cambia. News es otra palabra: «noticias»." },
+        { "mal": "We are goods students.", "bien": "We are good students.", "porque": "Calco de «buenos estudiantes». Good nunca añade -s." }
+      ]
+    },
+    {
+      "id": "despues-de-be",
+      "titulo": "El adjetivo solo, después de be",
+      "que_es": "El adjetivo también puede ir solo, sin sustantivo detrás, después de am, is o are: [[The car is red.]] [[I'm tired.]] Es la forma más común de describir en una oración completa.",
+      "para_que": [
+        "Decir cómo es o cómo está algo: The coffee is hot.",
+        "Preguntar por una característica: Is it expensive?",
+        "Negar una característica: The room isn't big."
+      ],
+      "como_funciona": "Aquí funciona todo lo que aprendiste del verbo to be en las unidades 4 y 5. Afirmación: sujeto + be + adjetivo. Negación: sujeto + be + not + adjetivo. Pregunta: be + sujeto + adjetivo. Dos detalles: 1) el sujeto es obligatorio: «Es grande» es [[It's big]], no «Is big»; 2) sin sustantivo detrás NO se pone artículo: [[It's red]], no «It's a red». Si quieres usar a/an, necesitas un sustantivo: [[It's a red car]].",
+      "estructuras": [
+        {
+          "etiqueta": "Afirmación",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "adjetivo", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "The car", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "red", "rol": "complemento" } ],
+          "es": "El carro es rojo."
+        },
+        {
+          "etiqueta": "Negación",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "not", "rol": "negacion" }, { "t": "adjetivo", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "The room", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "not", "rol": "negacion" }, { "t": "big", "rol": "complemento" } ],
+          "es": "El cuarto no es grande."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [ { "t": "Am / Is / Are", "rol": "verbo" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "adjetivo", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Is", "rol": "verbo" }, { "t": "it", "rol": "sujeto" }, { "t": "expensive", "rol": "complemento" } ],
+          "es": "¿Es caro?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The coffee is hot.",
+          "es": "El café está caliente.",
+          "partes": [ { "t": "The coffee", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "hot", "rol": "complemento" } ],
+          "nota": "Be traduce aquí «estar». Con adjetivos, be cubre ser y estar."
+        },
+        {
+          "en": "The new chairs aren't comfortable.",
+          "es": "Las sillas nuevas no son cómodas.",
+          "partes": [ { "t": "The new chairs", "rol": "sujeto" }, { "t": "aren't", "rol": "negacion" }, { "t": "comfortable", "rol": "complemento" } ],
+          "nota": "Un adjetivo antes del sustantivo (new) y otro después de be (comfortable). Ninguno cambia por el plural."
+        },
+        {
+          "en": "Is the museum big?",
+          "es": "¿El museo es grande?",
+          "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "the museum", "rol": "sujeto" }, { "t": "big", "rol": "complemento" } ],
+          "nota": "En la pregunta, is pasa delante del sujeto; el adjetivo se queda al final."
+        },
+        {
+          "en": "It's small and light.",
+          "es": "Es chico y ligero.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "small and light", "rol": "complemento" } ],
+          "nota": "Después de be, dos adjetivos se unen con and. Antes del sustantivo, en cambio, normalmente van sin and: a small light bag."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Con sustantivo: lleva artículo", "items": [ "It's a red car.", "It's an old house.", "They're new shoes." ] },
+        "b": { "titulo": "Sin sustantivo: sin artículo", "items": [ "It's red.", "It's old.", "They're new." ] },
+        "veredicto": "El artículo acompaña al sustantivo, no al adjetivo. Si quitas car, house o shoes, el artículo desaparece también."
+      },
+      "pronunciacion": [
+        {
+          "texto": "It's big.",
+          "ipa": "/ɪts bɪɡ/",
+          "consejo": "La i de it's y la de big son cortas y relajadas (/ɪ/): la boca está un poco más abierta que en la «i» española, casi hacia una «e». La g final se oye: la parte de atrás de la lengua toca el paladar."
+        },
+        {
+          "texto": "Is it expensive?",
+          "ipa": "/ɪz ɪt ɪkˈspɛnsɪv/",
+          "consejo": "Is it se une: «i-zit». El acento de expensive cae en la segunda sílaba (-PEN-). La v final se hace con los dientes de arriba sobre el labio de abajo, no con los dos labios como la b."
+        }
+      ],
+      "errores": [
+        { "mal": "Is big.", "bien": "It's big.", "porque": "En inglés el sujeto es obligatorio. «Es grande» necesita it." },
+        { "mal": "The car is a red.", "bien": "The car is red.", "porque": "Sin sustantivo detrás no hay artículo. A red solo existe si sigue un sustantivo: a red car." },
+        { "mal": "The houses are olds.", "bien": "The houses are old.", "porque": "Tampoco después de be lleva plural el adjetivo." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "¿Cómo se dice «un carro rojo»?",
+      "opciones": [
+        { "texto": "a red car", "correcta": true, "porque": "Correcto: artículo + adjetivo + sustantivo." },
+        { "texto": "a car red", "correcta": false, "porque": "Es el orden del español. En inglés el adjetivo va antes del sustantivo." },
+        { "texto": "a reds car", "correcta": false, "porque": "Reds no existe como adjetivo, y además aquí el carro es uno solo." },
+        { "texto": "red a car", "correcta": false, "porque": "El artículo va al principio de todo el grupo, delante del adjetivo." }
+      ],
+      "pistas": [
+        "Recuerda: en inglés la palabra que describe va antes de la cosa descrita.",
+        "Mira dónde está red respecto a car en cada opción.",
+        "Orden fijo: a/an + adjetivo + sustantivo, y el adjetivo sin -s."
+      ],
+      "solucion": { "respuesta": "a red car", "explicacion": "La respuesta correcta es a red car porque en inglés el adjetivo (red) se coloca antes del sustantivo (car) y el artículo va delante de ambos. El orden «carro rojo» del español no funciona en inglés." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con UNA palabra del banco. Solo una encaja con el artículo.",
+      "frase": "That is an ___ house.",
+      "banco": [ "big", "old", "small", "new" ],
+      "respuestas": [ [ "old" ] ],
+      "traduccion": "Esa es una casa vieja.",
+      "errores_tipicos": {
+        "big": "Big empieza con consonante: sería a big house, no an big house.",
+        "new": "New empieza con sonido consonante /n/: sería a new house.",
+        "small": "Small empieza con consonante: sería a small house."
+      },
+      "pistas": [
+        "Recuerda que an se usa delante de un sonido vocal.",
+        "Mira la palabra que va justo después de an: ¿es house o el adjetivo?",
+        "El artículo depende de la palabra que tiene inmediatamente detrás; necesitas un adjetivo que empiece con sonido vocal."
+      ],
+      "solucion": { "respuesta": "old", "explicacion": "La respuesta correcta es old porque es la única palabra del banco que empieza con sonido vocal, y el artículo an exige un sonido vocal justo detrás. Aunque house lleve a (a house), aquí la palabra pegada al artículo es el adjetivo." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada expresión en español con su equivalente en inglés.",
+      "pares": [
+        { "a": "un hombre alto", "b": "a tall man" },
+        { "a": "una mujer alta", "b": "a tall woman" },
+        { "a": "dos carros rojos", "b": "two red cars" },
+        { "a": "una casa vieja", "b": "an old house" },
+        { "a": "una buena idea", "b": "a good idea" },
+        { "a": "zapatos nuevos", "b": "new shoes" }
+      ],
+      "pistas": [
+        "Recuerda que el adjetivo inglés no cambia por género ni por número.",
+        "Fíjate en el sustantivo de cada frase inglesa: ¿man o woman?, ¿car o cars?",
+        "Busca primero el sustantivo equivalente; el adjetivo siempre va delante y siempre igual."
+      ],
+      "solucion": { "respuesta": "un hombre alto = a tall man; una mujer alta = a tall woman; dos carros rojos = two red cars; una casa vieja = an old house; una buena idea = a good idea; zapatos nuevos = new shoes", "explicacion": "Alto y alta se traducen igual (tall): lo que cambia es el sustantivo (man / woman). En dos carros rojos solo car lleva plural. En zapatos nuevos no hay artículo porque es plural, y new no añade -s." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con las palabras black y cat en la forma correcta.",
+      "frase": "These are three ___ ___.",
+      "respuestas": [ [ "black" ], [ "cats" ] ],
+      "traduccion": "Estos son tres gatos negros.",
+      "errores_tipicos": {
+        "blacks | cats": "El adjetivo nunca lleva -s: black se queda igual aunque haya tres gatos.",
+        "black | cat": "Con three el sustantivo va en plural: cats.",
+        "cats | black": "Ese es el orden del español. El adjetivo va antes del sustantivo."
+      },
+      "pistas": [
+        "Recuerda qué palabra va primero: la que describe o la cosa.",
+        "Hay tres gatos: decide cuál de las dos palabras lleva la marca de plural.",
+        "Adjetivo antes del sustantivo; el plural -s solo lo lleva el sustantivo."
+      ],
+      "solucion": { "respuesta": "black cats", "explicacion": "La respuesta correcta es black cats: black va primero porque es el adjetivo, y cats lleva -s porque son tres. El adjetivo no cambia en plural, así que «blacks» sería incorrecto." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.05",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar una afirmación.",
+      "fichas": [ "is", "This", "an", "old", "umbrella" ],
+      "respuestas": [ "This is an old umbrella" ],
+      "traduccion": "Este es un paraguas viejo.",
+      "pistas": [
+        "Una afirmación con be empieza por el sujeto.",
+        "Localiza el grupo artículo + adjetivo + sustantivo.",
+        "Sujeto + is + an + adjetivo + sustantivo."
+      ],
+      "solucion": { "respuesta": "This is an old umbrella.", "explicacion": "El sujeto es This y el verbo is. Después va el grupo an old umbrella, con el adjetivo old antes del sustantivo umbrella. An se debe a old, que empieza con sonido vocal." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay una palabra incorrecta. Señálala y corrígela.",
+      "frase": "These are my new greens shoes.",
+      "error": "greens",
+      "correcciones": [ "green" ],
+      "frase_correcta": "These are my new green shoes.",
+      "pistas": [
+        "Recuerda qué palabras pueden llevar -s de plural en inglés.",
+        "Revisa los dos adjetivos que van antes de shoes.",
+        "Solo el sustantivo lleva plural; los adjetivos son invariables."
+      ],
+      "solucion": { "respuesta": "greens → green", "explicacion": "El error es greens: green es un adjetivo y los adjetivos no tienen plural en inglés. La -s de plural ya está en shoes. Fíjate en que new, el otro adjetivo, está bien escrito sin -s." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.07",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Reescribe la información en una sola oración que empiece por It's y ponga el adjetivo antes del sustantivo.",
+      "origen": "It's a house. The house is old.",
+      "instruccion": "Una oración: It's + a/an + adjetivo + sustantivo",
+      "respuestas": [ "It's an old house." ],
+      "errores_tipicos": {
+        "It's a old house.": "Cuidado con el artículo: va delante de old, que empieza con sonido vocal, así que es an.",
+        "It's a house old.": "El adjetivo no va detrás del sustantivo: an old house."
+      },
+      "pistas": [
+        "Recuerda que el adjetivo puede ir antes del sustantivo para unir dos ideas en una.",
+        "Mueve old delante de house y revisa el artículo.",
+        "Regla: artículo + adjetivo + sustantivo; el artículo se elige por el sonido de la palabra que va justo después (como a car → an expensive car)."
+      ],
+      "solucion": { "respuesta": "It's an old house.", "explicacion": "La respuesta es It's an old house. El adjetivo old pasa delante de house, y como ahora el artículo va seguido de old (sonido vocal), a se convierte en an." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.08",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Cuida la diferencia entre la i corta y la a abierta.",
+      "texto": "a big black bag",
+      "ipa": "/ə bɪɡ blæk bæɡ/",
+      "consejo": "Big tiene la i corta y relajada (/ɪ/). Black y bag tienen /æ/, un sonido que no existe en español: abre la boca como para decir «a» pero estira los labios hacia los lados como si fueras a decir «e». Si dices «bag» con una a española, suena más a bug o bog.",
+      "es": "una bolsa negra grande"
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración completa.",
+      "texto": "These are two old black cats.",
+      "audio": true,
+      "pistas": [
+        "Recuerda que los adjetivos van juntos antes del sustantivo.",
+        "Escucha cuántos gatos hay y si oyes una -s al final.",
+        "Hay dos adjetivos (edad y color) antes de un sustantivo en plural; ninguno de los adjetivos lleva -s."
+      ],
+      "solucion": { "respuesta": "These are two old black cats.", "explicacion": "La oración es These are two old black cats. Solo cats lleva -s; old y black son adjetivos y no cambian. La edad (old) va antes que el color (black)." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.10",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Los carros rojos son nuevos.",
+      "respuestas": [ "The red cars are new." ],
+      "errores_tipicos": {
+        "The red cars are news.": "New es adjetivo y no lleva -s. News significa «noticias».",
+        "The cars red are new.": "El adjetivo red va antes del sustantivo: the red cars.",
+        "The reds cars are new.": "Red no tiene plural: solo cars lleva -s.",
+        "Red cars are new.": "Aquí se habla de unos carros concretos (los carros rojos), así que necesitas the."
+      },
+      "pistas": [
+        "Recuerda que hay dos adjetivos: uno va con el sustantivo y otro después de be.",
+        "Revisa qué palabras llevan plural: el sustantivo, el verbo… ¿y los adjetivos?",
+        "The + adjetivo + sustantivo plural + are + adjetivo; ningún adjetivo lleva -s."
+      ],
+      "solucion": { "respuesta": "The red cars are new.", "explicacion": "La respuesta es The red cars are new. Red va antes de cars; cars y are marcan el plural; new va después de be y no cambia. Se usa the porque hablamos de unos carros concretos." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.11",
+      "tipo": "corregir",
+      "dificultad": 3,
+      "enunciado": "El orden de dos palabras es incorrecto. Señala el grupo y escríbelo bien.",
+      "frase": "Ana is a teacher good.",
+      "error": "teacher good",
+      "correcciones": [ "good teacher" ],
+      "frase_correcta": "Ana is a good teacher.",
+      "pistas": [
+        "Recuerda el orden adjetivo–sustantivo del inglés.",
+        "Mira el final de la oración: ¿cuál de las dos últimas palabras describe a la otra?",
+        "Regla: en inglés el adjetivo va delante del sustantivo que describe (como en a nice house)."
+      ],
+      "solucion": { "respuesta": "teacher good → good teacher", "explicacion": "El error es teacher good, un calco de «maestra buena». En inglés el adjetivo siempre va antes del sustantivo cuando van juntos: a good teacher." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.12",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la mejor respuesta de Tom.",
+      "contexto": "Tom perdió su paraguas en un café y habla con la mesera.",
+      "lineas": [
+        { "quien": "Mesera", "en": "Is your umbrella big or small?", "es": "¿Tu paraguas es grande o chico?" }
+      ],
+      "opciones": [
+        { "texto": "It's small. It's a blue umbrella.", "correcta": true, "porque": "Correcto: it como sujeto, small solo después de be y blue antes de umbrella." },
+        { "texto": "Is small. It's an umbrella blue.", "correcta": false, "porque": "Falta el sujeto en la primera oración y en la segunda el adjetivo va detrás del sustantivo." },
+        { "texto": "It's a small. It's blue umbrella.", "correcta": false, "porque": "A small sin sustantivo no es correcto, y a blue umbrella necesita el artículo a." },
+        { "texto": "It's smalls. It's a blue umbrella.", "correcta": false, "porque": "Small es adjetivo y no lleva -s nunca; además el paraguas es uno solo." }
+      ],
+      "pistas": [
+        "Recuerda: sujeto obligatorio, y artículo solo cuando hay sustantivo.",
+        "Revisa en cada opción si hay it, si el adjetivo va antes del sustantivo y si hay alguna -s de más.",
+        "Regla: adjetivo solo, después de be y sin artículo (como It's big); con sustantivo, a + adjetivo + sustantivo (como a green bag)."
+      ],
+      "solucion": { "respuesta": "It's small. It's a blue umbrella.", "explicacion": "La respuesta correcta es It's small. It's a blue umbrella. En la primera oración small va solo después de be, sin artículo. En la segunda, el adjetivo blue va antes del sustantivo umbrella y el grupo lleva a porque blue empieza con consonante." }
+    },
+    {
+      "id": "adjetivos-y-descripciones.posicion-del-adjetivo.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Describe cuatro objetos de tu mochila o de tu escritorio.",
+      "objetivo": "Usar adjetivos antes del sustantivo y después de be, sin plural.",
+      "instrucciones": "Escribe entre 5 y 8 oraciones sobre objetos que tengas cerca. Usa this / these, al menos dos grupos «a/an + adjetivo + sustantivo», al menos un plural con adjetivo y al menos una oración con be + adjetivo.",
+      "vocabulario_apoyo": [ "new", "old", "big", "small", "black", "white", "blue", "red", "green", "cheap", "good", "pen", "notebook", "phone", "keys", "bottle", "book" ],
+      "estructuras": [ "This is a/an + adjetivo + sustantivo.", "These are + adjetivo + sustantivo plural.", "It's + adjetivo.", "They're + adjetivo." ],
+      "ejemplo": "This is a small kitchen. The table is old. These are white chairs. They're new.",
+      "min_palabras": 25,
+      "comprobaciones": [
+        { "descripcion": "Usas this is o these are", "patron": "\\b(this is|these are)\\b" },
+        { "descripcion": "Usas a o an delante de un adjetivo y un sustantivo", "patron": "\\b(a|an) [a-z]+ [a-z]+" },
+        { "descripcion": "Usas it's, it is, they're o they are para describir", "patron": "\\b(it's|it is|they're|they are)\\b" }
+      ],
+      "criterios": [
+        "¿Cada adjetivo va antes de su sustantivo?",
+        "¿Ningún adjetivo lleva -s, ni siquiera con plurales?",
+        "¿Usaste an delante de adjetivos con sonido vocal (an old…, an orange…)?",
+        "¿Las oraciones con be + adjetivo van sin artículo (It's new, no It's a new)?"
+      ],
+      "modelo": "This is a black phone. It's new and very fast. These are two blue pens. They're cheap. This is an old notebook. It's small and green. And these are my keys. They're big and heavy.",
+      "explicacion": "Cada objeto se presenta con this is / these are y un grupo con el adjetivo delante (a black phone, two blue pens, an old notebook). Luego se añade información con be + adjetivo (It's new, They're cheap), sin artículo porque no hay sustantivo. Ningún adjetivo lleva -s, ni siquiera en They're big and heavy. (Very aparece aquí como adelanto: lo verás en la siguiente lección.)",
+      "errores_comunes": [
+        "Poner el adjetivo detrás: a phone black.",
+        "Añadir -s al adjetivo: two blues pens.",
+        "Usar artículo sin sustantivo: It's a new."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Cuál es tu maleta?",
+    "contexto": "Estás en el aeropuerto y tu maleta no apareció. Hablas con una empleada en el mostrador de equipaje.",
+    "dialogo": [
+      { "quien": "Empleada", "en": "Hello. Is your suitcase big or small?", "es": "Hola. ¿Su maleta es grande o chica?" },
+      { "quien": "Tú", "en": "It's big.", "es": "Es grande." },
+      { "quien": "Empleada", "en": "What color is it?", "es": "¿De qué color es?" },
+      { "quien": "Tú", "en": "…", "es": "…" }
+    ],
+    "tu_turno": "Describe tu maleta con dos o tres oraciones: color, si es nueva o vieja, y algún detalle más con adjetivo + sustantivo.",
+    "modelo": "It's a red suitcase. It's old, and it's very heavy.",
+    "alternativas": [ "It's black. It's a new suitcase with a green label.", "It's a dark blue suitcase. It isn't new." ],
+    "claves": [ "It's + adjetivo, sin artículo.", "a/an + adjetivo + suitcase.", "Ningún adjetivo con -s." ]
+  },
+  "resumen": {
+    "esencial": [
+      "Junto al sustantivo, el adjetivo va antes: a red car.",
+      "El artículo se elige por el sonido del adjetivo: an old house, a new house.",
+      "El adjetivo nunca cambia: sin plural (two red cars) y sin género (a tall man / woman).",
+      "Después de be, el adjetivo va solo y sin artículo: The car is red. It's big."
+    ],
+    "recuerda": [
+      "«Es grande» = It's big: el sujeto no se omite.",
+      "News no es el plural de new: es «noticias».",
+      "Con dos adjetivos delante del sustantivo no se usa and: a big black bag. Después de be, sí: It's big and black."
+    ]
+  },
+  "repaso": [
+    { "id": "adjetivos-y-descripciones.posicion-del-adjetivo.r1", "frente": "¿Cómo se dice «un carro rojo»?", "reverso": "a red car → el adjetivo va antes del sustantivo." },
+    { "id": "adjetivos-y-descripciones.posicion-del-adjetivo.r2", "frente": "¿«dos carros rojos»?", "reverso": "two red cars → solo el sustantivo lleva -s.", "nota": "Nunca «reds»." },
+    { "id": "adjetivos-y-descripciones.posicion-del-adjetivo.r3", "frente": "¿a u an? «___ old house»", "reverso": "an old house → el artículo depende del sonido de old." },
+    { "id": "adjetivos-y-descripciones.posicion-del-adjetivo.r4", "frente": "¿Qué falla en «The car is a red»?", "reverso": "Sin sustantivo no hay artículo: The car is red." },
+    { "id": "adjetivos-y-descripciones.posicion-del-adjetivo.r5", "frente": "¿«alto» y «alta» en inglés?", "reverso": "tall en los dos casos: a tall man, a tall woman." }
+  ]
+}

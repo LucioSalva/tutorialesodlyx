@@ -1,0 +1,505 @@
+{
+  "titulo": "Evaluación: pronombres de objeto, imperativo y direcciones",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.01",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige el pronombre correcto.",
+      "pregunta": "My grandparents live in Oaxaca. I visit ___ every summer.",
+      "opciones": [
+        {
+          "texto": "them",
+          "correcta": true,
+          "porque": "Correcto: my grandparents es plural y recibe la acción de visit; el objeto de they es them."
+        },
+        {
+          "texto": "they",
+          "correcta": false,
+          "porque": "They es sujeto; detrás del verbo va el objeto them."
+        },
+        {
+          "texto": "their",
+          "correcta": false,
+          "porque": "Their es posesivo y necesita un sustantivo detrás (their house)."
+        },
+        {
+          "texto": "us",
+          "correcta": false,
+          "porque": "Us se refiere a nosotros, no a los abuelos."
+        }
+      ],
+      "pistas": [
+        "¿Quién recibe la visita?",
+        "My grandparents = they. El hueco va detrás del verbo.",
+        "Detrás del verbo va el pronombre de objeto que corresponde a they: no el sujeto ni el posesivo."
+      ],
+      "solucion": {
+        "respuesta": "them",
+        "explicacion": "Los abuelos reciben la acción de visitar y son plural, así que se usa them, el pronombre de objeto de they, detrás del verbo."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.02",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con pronombres de objeto.",
+      "frase": "Mr. Ruiz is our teacher. We like ___ a lot, and he always helps ___.",
+      "respuestas": [
+        [
+          "him"
+        ],
+        [
+          "us"
+        ]
+      ],
+      "traduccion": "El señor Ruiz es nuestro maestro. Nos cae muy bien y siempre nos ayuda.",
+      "pistas": [
+        "Los dos huecos van detrás de un verbo.",
+        "El primero se refiere al señor Ruiz; el segundo, a nosotros.",
+        "Detrás de un verbo va el pronombre de objeto: busca el que corresponde a he y el que corresponde a we."
+      ],
+      "solucion": {
+        "respuesta": "him | us",
+        "explicacion": "Después de like, el señor Ruiz recibe la acción: him. Después de helps, quienes reciben la ayuda somos nosotros: us."
+      },
+      "errores_tipicos": {
+        "he | we": "He y we son sujetos. Detrás del verbo van los objetos: him y us.",
+        "him | our": "Our es posesivo y va delante de un sustantivo. Detrás de helps va us."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.03",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa el presente simple.",
+      "es": "Te extraño mucho.",
+      "respuestas": [
+        "I miss you a lot.",
+        "I miss you so much.",
+        "I miss you very much.",
+        "I really miss you."
+      ],
+      "pistas": [
+        "El sujeto (yo) no se puede omitir.",
+        "«Te» va detrás del verbo.",
+        "Sujeto + verbo + pronombre de objeto + a lot, como en I love her a lot."
+      ],
+      "solucion": {
+        "respuesta": "I miss you a lot.",
+        "explicacion": "En inglés el sujeto I es obligatorio y el pronombre de objeto you va detrás del verbo miss (extrañar). A lot, so much o very much van al final."
+      },
+      "errores_tipicos": {
+        "I you miss a lot.": "El pronombre de objeto va detrás del verbo: I miss you."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.04",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y corrígelo.",
+      "frase": "I have Ana's keys. Can you give to her them?",
+      "error": "to her them",
+      "correcciones": [
+        "them to her"
+      ],
+      "frase_correcta": "I have Ana's keys. Can you give them to her?",
+      "pistas": [
+        "Hay dos objetos: la persona (her) y las cosas (them).",
+        "Cuando la cosa es un pronombre, ¿qué va primero?",
+        "Verbo + cosa (pronombre) + to + persona."
+      ],
+      "solucion": {
+        "respuesta": "to her them → them to her",
+        "explicacion": "Cuando la cosa es un pronombre (them = las llaves), va primero y la persona después con to: give them to her. «Give to her them» es un calco del orden español."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.05",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la interpretación correcta.",
+      "pregunta": "«Sam called her, and then she called him.» ¿Qué pasó?",
+      "opciones": [
+        {
+          "texto": "Sam llamó a una mujer y después ella lo llamó a él.",
+          "correcta": true,
+          "porque": "Correcto: her es la mujer que recibe la primera llamada; she la hace después y him (Sam) la recibe."
+        },
+        {
+          "texto": "Una mujer llamó a Sam dos veces.",
+          "correcta": false,
+          "porque": "En la primera parte Sam es el sujeto: él hace la llamada."
+        },
+        {
+          "texto": "Sam y una mujer llamaron a otra persona.",
+          "correcta": false,
+          "porque": "Her y him son objetos que se refieren a los dos protagonistas, no a una tercera persona."
+        },
+        {
+          "texto": "Sam se llamó a sí mismo.",
+          "correcta": false,
+          "porque": "Para eso haría falta himself; her es una mujer."
+        }
+      ],
+      "pistas": [
+        "Separa las dos partes de la oración.",
+        "En cada parte, ¿quién es el sujeto y quién el objeto?",
+        "her = objeto femenino; she = sujeto femenino; him = objeto masculino."
+      ],
+      "solucion": {
+        "respuesta": "Sam llamó a una mujer y después ella lo llamó a él.",
+        "explicacion": "Sam called her: Sam es el sujeto y her (una mujer) el objeto. She called him: ahora ella es el sujeto y him (Sam) el objeto. El cambio sujeto/objeto indica quién hace y quién recibe."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.06",
+      "leccion": "imperativo",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta del imperativo negativo.",
+      "frase": "___ run in the hallway, kids!",
+      "respuestas": [
+        [
+          "Don't"
+        ]
+      ],
+      "traduccion": "¡No corran en el pasillo, niños!",
+      "pistas": [
+        "Es una prohibición.",
+        "El imperativo negativo necesita un auxiliar con negación.",
+        "Forma contraída negativa del auxiliar do + verbo base."
+      ],
+      "solucion": {
+        "respuesta": "Don't",
+        "explicacion": "El imperativo negativo se forma con Don't + verbo base. Es igual para uno o para varios niños."
+      },
+      "errores_tipicos": {
+        "No": "Calco de «no corran». En inglés se necesita Don't.",
+        "Not": "Not solo no forma el imperativo negativo: Don't run."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.07",
+      "leccion": "imperativo",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural.",
+      "contexto": "Tu amiga Aisha llega a tu casa por primera vez.",
+      "lineas": [
+        {
+          "quien": "Aisha",
+          "en": "Hi! Sorry, am I early?",
+          "es": "¡Hola! Perdón, ¿llegué temprano?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, not at all! Come in and have a seat.",
+          "correcta": true,
+          "porque": "Correcto: la invitación en imperativo es amable porque beneficia a la visita."
+        },
+        {
+          "texto": "No! You come in and you sit.",
+          "correcta": false,
+          "porque": "Con el sujeto you el imperativo suena a orden o reproche."
+        },
+        {
+          "texto": "No! To come in, please.",
+          "correcta": false,
+          "porque": "Calco del infinitivo español: el imperativo no lleva to."
+        },
+        {
+          "texto": "No! Let's come in.",
+          "correcta": false,
+          "porque": "Let's incluye a quien habla; tú ya estás dentro de tu casa."
+        }
+      ],
+      "pistas": [
+        "Recibes a una visita: es una invitación.",
+        "Revisa si cada opción tiene sujeto, to o let's.",
+        "Invitación amable: verbo base sin sujeto, sin to y sin let's."
+      ],
+      "solucion": {
+        "respuesta": "No, not at all! Come in and have a seat.",
+        "explicacion": "Las invitaciones usan el imperativo sin sujeto: Come in, Have a seat. No suenan bruscas porque ofrecen algo bueno a la otra persona."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.08",
+      "leccion": "imperativo",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "No seas impaciente. Espera cinco minutos.",
+      "respuestas": [
+        "Don't be impatient. Wait five minutes.",
+        "Don't be impatient. Wait for five minutes."
+      ],
+      "pistas": [
+        "Impatient es un adjetivo.",
+        "El negativo con un adjetivo necesita be; la segunda parte es un imperativo afirmativo.",
+        "Negativo con adjetivo: don't + forma base de «ser» + adjetivo; después, imperativo afirmativo + tiempo."
+      ],
+      "solucion": {
+        "respuesta": "Don't be impatient. Wait five minutes.",
+        "explicacion": "Impatient es adjetivo, así que se usa Don't be + adjetivo. Wait es el imperativo afirmativo: verbo base sin sujeto."
+      },
+      "errores_tipicos": {
+        "No be impatient. Wait five minutes.": "El imperativo negativo necesita don't: Don't be…",
+        "Don't impatient. Wait five minutes.": "Impatient es adjetivo y necesita be: Don't be impatient."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.09",
+      "leccion": "imperativo",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Transforma la propuesta.",
+      "origen": "Let's eat at home tonight.",
+      "instruccion": "Negativa (propuesta de NO hacerlo)",
+      "respuestas": [
+        "Let's not eat at home tonight."
+      ],
+      "pistas": [
+        "Let's tiene su propio negativo.",
+        "No uses don't.",
+        "La negación va entre let's y el verbo base, sin to ni don't."
+      ],
+      "solucion": {
+        "respuesta": "Let's not eat at home tonight.",
+        "explicacion": "El negativo de Let's es Let's not + verbo base. Not va entre let's y el verbo."
+      },
+      "errores_tipicos": {
+        "Let's not to eat at home tonight.": "Después de let's not va el verbo base, sin to.",
+        "Let's no eat at home tonight.": "La negación de let's es not, no no: Let's not eat…"
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.10",
+      "leccion": "imperativo",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada instrucción con su traducción.",
+      "pares": [
+        {
+          "a": "Watch out!",
+          "b": "¡Cuidado!"
+        },
+        {
+          "a": "Help yourself.",
+          "b": "Sírvete tú mismo."
+        },
+        {
+          "a": "Take a break.",
+          "b": "Toma un descanso."
+        },
+        {
+          "a": "Don't forget.",
+          "b": "No se te olvide."
+        },
+        {
+          "a": "Be quiet.",
+          "b": "Guarda silencio."
+        }
+      ],
+      "pistas": [
+        "Son imperativos muy frecuentes.",
+        "Be quiet usa un adjetivo; Help yourself se dice al ofrecer comida.",
+        "Uno es un aviso de peligro, otro un recordatorio y otro un ofrecimiento de comida."
+      ],
+      "solucion": {
+        "respuesta": "Watch out → ¡Cuidado!; Help yourself → Sírvete; Take a break → Toma un descanso; Don't forget → No se te olvide; Be quiet → Guarda silencio.",
+        "explicacion": "Son imperativos fijos de uso diario: un aviso (Watch out), una invitación (Help yourself), un consejo (Take a break), un recordatorio (Don't forget) y una petición con be + adjetivo (Be quiet)."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.11",
+      "leccion": "direcciones",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha la pregunta del turista y escríbela.",
+      "texto": "Excuse me, is there a bank near here?",
+      "pistas": [
+        "Empieza con la fórmula para llamar la atención.",
+        "Pregunta si existe un lugar cerca: is va delante de there.",
+        "Fórmula de cortesía + be + there invertidos + artículo + lugar + «por aquí»."
+      ],
+      "solucion": {
+        "respuesta": "Excuse me, is there a bank near here?",
+        "explicacion": "Excuse me abre la conversación. Is there a…near here? pregunta si hay un lugar de ese tipo cerca. Near here = por aquí."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.12",
+      "leccion": "direcciones",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Lee la indicación y elige dónde está el lugar.",
+      "pregunta": "«Go straight for one block and turn left. Take the first street on the right. The library is at the end of the street, across from a church.» ¿Qué es verdad?",
+      "opciones": [
+        {
+          "texto": "La biblioteca está al final de la calle, del otro lado de una iglesia.",
+          "correcta": true,
+          "porque": "Correcto: at the end of the street = al final de la calle; across from = enfrente, al otro lado."
+        },
+        {
+          "texto": "La biblioteca está junto a una iglesia, en la esquina.",
+          "correcta": false,
+          "porque": "No dice next to ni on the corner, sino at the end of the street, across from a church."
+        },
+        {
+          "texto": "Hay que dar vuelta dos veces a la izquierda.",
+          "correcta": false,
+          "porque": "Primero a la izquierda (turn left) y luego la primera a la derecha (first street on the right)."
+        },
+        {
+          "texto": "Hay que caminar derecho tres cuadras.",
+          "correcta": false,
+          "porque": "Solo una cuadra: for one block."
+        }
+      ],
+      "pistas": [
+        "Separa la ruta en pasos y fíjate en la última oración.",
+        "Across from y at the end of son las claves de la ubicación.",
+        "Traduce con cuidado las dos expresiones de lugar de la última oración y descarta las opciones que cambian las cuadras o los giros."
+      ],
+      "solucion": {
+        "respuesta": "La biblioteca está al final de la calle, del otro lado de una iglesia.",
+        "explicacion": "La ruta es: una cuadra derecho, a la izquierda, primera a la derecha. La ubicación final es at the end of the street (al final de la calle) y across from a church (enfrente de una iglesia, al otro lado)."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.13",
+      "leccion": "direcciones",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la indicación.",
+      "frase": "Go ___ for two blocks and turn left ___ the traffic light.",
+      "respuestas": [
+        [
+          "straight"
+        ],
+        [
+          "at"
+        ]
+      ],
+      "traduccion": "Siga derecho dos cuadras y dé vuelta a la izquierda en el semáforo.",
+      "pistas": [
+        "El primer hueco significa «derecho, en línea recta».",
+        "El segundo marca el punto exacto donde giras.",
+        "«Derecho» no es right; el punto donde giras lleva la misma preposición que en «Stop at the corner»."
+      ],
+      "solucion": {
+        "respuesta": "straight | at",
+        "explicacion": "Go straight = siga derecho (right sería derecha). At marca el punto exacto donde giras: at the traffic light."
+      },
+      "errores_tipicos": {
+        "right | at": "Right es derecha. «Derecho, en línea recta» es straight.",
+        "straight | in": "El punto donde giras lleva at: turn left at the traffic light."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.14",
+      "leccion": "direcciones",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena la indicación.",
+      "fichas": [
+        "is",
+        "The",
+        "on",
+        "right",
+        "your",
+        "hotel"
+      ],
+      "respuestas": [
+        "The hotel is on your right"
+      ],
+      "traduccion": "El hotel está a su derecha.",
+      "pistas": [
+        "Empieza con el lugar (el sujeto).",
+        "Después, be y la preposición del lado.",
+        "Sujeto + be + preposición de lado + posesivo + lado."
+      ],
+      "solucion": {
+        "respuesta": "The hotel is on your right.",
+        "explicacion": "Sujeto (The hotel) + is + on your right. Con left y right la preposición es on."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.15",
+      "leccion": "direcciones",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa across from.",
+      "es": "El restaurante está en Pine Street, enfrente del cine.",
+      "respuestas": [
+        "The restaurant is on Pine Street, across from the movie theater.",
+        "The restaurant is on Pine Street, across from the cinema.",
+        "The restaurant is on Pine Street, across from the movie theatre."
+      ],
+      "pistas": [
+        "Hay dos datos: la calle y lo que está al otro lado.",
+        "En EE. UU. se está on + nombre de la calle.",
+        "Sujeto + is + on + nombre de la calle, + «enfrente de» (EE. UU.) + the + lugar."
+      ],
+      "solucion": {
+        "respuesta": "The restaurant is on Pine Street, across from the movie theater.",
+        "explicacion": "En inglés estadounidense un lugar está on + nombre de la calle. «Enfrente de» (al otro lado) = across from. Cine = movie theater (EE. UU.) o cinema (Reino Unido)."
+      },
+      "errores_tipicos": {
+        "The restaurant is in Pine Street, across from the movie theater.": "En EE. UU. se dice on Pine Street (in es más británico).",
+        "The restaurant is on Pine Street, in front of the movie theater.": "In front of es «delante de», del mismo lado. Enfrente, al otro lado = across from."
+      }
+    },
+    {
+      "id": "pronombres-de-objeto-e-imperativos.eval.16",
+      "leccion": "pronombres-de-objeto",
+      "habilidad": "produccion",
+      "tipo": "transformar",
+      "dificultad": 3,
+      "enunciado": "Sustituye the photos por un pronombre y reescribe la oración.",
+      "origen": "Please send me the photos.",
+      "instruccion": "Usa them y el orden correcto con to.",
+      "respuestas": [
+        "Please send them to me.",
+        "Send them to me, please."
+      ],
+      "pistas": [
+        "The photos → them.",
+        "Cuando la cosa es un pronombre, ¿va antes o después de la persona?",
+        "Verbo + cosa (pronombre) + to + persona, como en Give it to her."
+      ],
+      "solucion": {
+        "respuesta": "Please send them to me.",
+        "explicacion": "Al cambiar the photos por them, el orden natural pasa a ser cosa + to + persona: send them to me. «Send me them» suena poco natural en inglés estadounidense estándar."
+      },
+      "errores_tipicos": {
+        "Please send to me them.": "Si usas to, la cosa va antes: send them to me.",
+        "Please send them me.": "Falta to: con la cosa primero, la persona va con to: send them to me."
+      }
+    }
+  ]
+}

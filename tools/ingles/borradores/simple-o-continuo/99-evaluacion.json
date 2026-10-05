@@ -1,0 +1,332 @@
+{
+  "titulo": "Evaluación: ¿presente simple o continuo?",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "simple-o-continuo.eval.01",
+      "leccion": "habito-o-ahora",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Shh! Dad ___ on the phone.",
+      "opciones": [
+        { "texto": "is talking", "correcta": true, "porque": "Correcta: pides silencio porque la acción está ocurriendo ahora; Dad = he → is talking." },
+        { "texto": "talks", "correcta": false, "porque": "El presente simple describe un hábito; aquí hablas de lo que pasa en este momento." },
+        { "texto": "are talking", "correcta": false, "porque": "Dad es singular (he): is, no are." }
+      ],
+      "pistas": [
+        "¿Por qué pides silencio?",
+        "La acción ocurre en este momento.",
+        "Acción en progreso + he → is + -ing."
+      ],
+      "solucion": { "respuesta": "is talking", "explicacion": "Shh! indica que algo está pasando ahora: presente continuo. Dad es tercera persona del singular, así que el auxiliar es is." }
+    },
+    {
+      "id": "simple-o-continuo.eval.02",
+      "leccion": "habito-o-ahora",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el presente simple o el continuo de drink.",
+      "frase": "I usually ___ coffee in the morning, but this week I ___ tea.",
+      "respuestas": [["drink"], ["am drinking"]],
+      "traduccion": "Normalmente tomo café en la mañana, pero esta semana estoy tomando té.",
+      "errores_tipicos": {
+        "drink | drink": "this week presenta una excepción temporal: am drinking.",
+        "am drinking | am drinking": "usually indica hábito: presente simple (drink).",
+        "drinks | am drinking": "Con I el presente simple no lleva -s: drink."
+      },
+      "pistas": [
+        "Una parte es la costumbre; la otra, la excepción de esta semana.",
+        "usually → hábito; but this week → temporal.",
+        "Hábito con I: presente simple (sin -s); temporal: am + verbo -ing."
+      ],
+      "solucion": { "respuesta": "drink / am drinking", "explicacion": "usually + presente simple para la costumbre (I drink). this week + presente continuo para la situación temporal (I am drinking)." }
+    },
+    {
+      "id": "simple-o-continuo.eval.03",
+      "leccion": "habito-o-ahora",
+      "habilidad": "comprension",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Relaciona cada pregunta con su respuesta.",
+      "pares": [
+        { "a": "What do you do?", "b": "I'm an engineer." },
+        { "a": "What are you doing?", "b": "I'm washing the dishes." },
+        { "a": "How often do you swim?", "b": "Twice a week." },
+        { "a": "Where are you going?", "b": "To the supermarket." },
+        { "a": "Where do you live?", "b": "In Toluca." },
+        { "a": "Are you working today?", "b": "No, I'm not." }
+      ],
+      "pistas": [
+        "Fíjate en si la pregunta está en simple o en continuo.",
+        "What do you do? pregunta por la profesión; What are you doing?, por lo de ahora.",
+        "Are you…? se contesta con I am / I'm not."
+      ],
+      "solucion": { "respuesta": "do/engineer; doing/washing; How often/Twice a week; going/supermarket; live/Toluca; Are you working/No, I'm not", "explicacion": "Las preguntas en presente simple piden información general (profesión, frecuencia, residencia); las de continuo, lo que pasa ahora o hoy. La respuesta corta a Are you…? repite be." }
+    },
+    {
+      "id": "simple-o-continuo.eval.04",
+      "leccion": "habito-o-ahora",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta el matiz.",
+      "pregunta": "Ben dice: «My brother is always borrowing my clothes!» ¿Qué expresa?",
+      "opciones": [
+        { "texto": "Que su hermano lleva puesta su ropa en este momento.", "correcta": false, "porque": "always + continuo no describe el momento actual, sino algo que se repite." },
+        { "texto": "Que le molesta que su hermano le pida la ropa tan a menudo.", "correcta": true, "porque": "Correcta: always + presente continuo expresa queja o fastidio ante algo repetido." },
+        { "texto": "Que es un simple hábito, sin ninguna emoción.", "correcta": false, "porque": "Para un hábito neutro se usaría el presente simple: My brother always borrows my clothes." }
+      ],
+      "pistas": [
+        "always suele ir con presente simple.",
+        "Aquí va con presente continuo y con signo de exclamación.",
+        "always + continuo = queja."
+      ],
+      "solucion": { "respuesta": "Que le molesta que su hermano le pida la ropa tan a menudo.", "explicacion": "La combinación always + presente continuo añade un matiz de fastidio. borrow = pedir prestado." }
+    },
+    {
+      "id": "simple-o-continuo.eval.05",
+      "leccion": "habito-o-ahora",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "He usually walks to school, but today he's taking a taxi.",
+      "pistas": [
+        "Dos partes unidas por but.",
+        "La primera es un hábito; la segunda, lo que pasa hoy.",
+        "Hábito: usually + verbo con -s; lo de hoy: he's + verbo -ing (take pierde la e)."
+      ],
+      "solucion": { "respuesta": "He usually walks to school, but today he's taking a taxi.", "explicacion": "usually walks (hábito, presente simple con -s) frente a today he's taking (excepción de hoy, continuo)." }
+    },
+    {
+      "id": "simple-o-continuo.eval.06",
+      "leccion": "verbos-de-estado",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "Do you ___ what I mean?",
+      "opciones": [
+        { "texto": "understand", "correcta": true, "porque": "Correcta: understand es un verbo de estado; con do va en forma base." },
+        { "texto": "understanding", "correcta": false, "porque": "Después de do el verbo va en forma base, y understand no se usa en continuo." },
+        { "texto": "understands", "correcta": false, "porque": "Con el auxiliar do, el verbo principal no lleva -s." }
+      ],
+      "pistas": [
+        "La pregunta empieza por Do.",
+        "Do + sujeto + verbo en forma base.",
+        "understand es un estado: presente simple."
+      ],
+      "solucion": { "respuesta": "understand", "explicacion": "Do you understand what I mean? = ¿Entiendes lo que quiero decir? understand es un verbo de estado y la pregunta se forma en presente simple." }
+    },
+    {
+      "id": "simple-o-continuo.eval.07",
+      "leccion": "verbos-de-estado",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con la forma correcta de belong.",
+      "frase": "This umbrella ___ to my grandma.",
+      "respuestas": [["belongs"]],
+      "traduccion": "Este paraguas es de mi abuela.",
+      "errores_tipicos": {
+        "is belonging": "belong es un verbo de estado: nunca va en continuo.",
+        "belong": "this umbrella = it: belongs, con -s."
+      },
+      "pistas": [
+        "belong expresa posesión.",
+        "La posesión es un estado.",
+        "Presente simple + -s para it."
+      ],
+      "solucion": { "respuesta": "belongs", "explicacion": "belong (pertenecer) es un estado: presente simple, con -s porque this umbrella equivale a it." }
+    },
+    {
+      "id": "simple-o-continuo.eval.08",
+      "leccion": "verbos-de-estado",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala el error y escribe la corrección.",
+      "frase": "Sorry, I'm not knowing his phone number.",
+      "error": "I'm not knowing",
+      "correcciones": ["I don't know"],
+      "frase_correcta": "Sorry, I don't know his phone number.",
+      "pistas": [
+        "know es un verbo de estado.",
+        "Los verbos de estado van en presente simple.",
+        "Negación del presente simple: don't + verbo base."
+      ],
+      "solucion": { "respuesta": "I'm not knowing → I don't know", "explicacion": "know no se usa en continuo. La negación correcta es de presente simple: I don't know." }
+    },
+    {
+      "id": "simple-o-continuo.eval.09",
+      "leccion": "verbos-de-estado",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa has y having a shower, y pon right now al final.",
+      "es": "Tom tiene dos perros y en este momento se está bañando.",
+      "respuestas": [
+        "Tom has two dogs and he's having a shower right now",
+        "Tom has two dogs and is having a shower right now"
+      ],
+      "errores_tipicos": {
+        "Tom is having two dogs and he's having a shower right now": "have = poseer es un estado: Tom has two dogs.",
+        "Tom has two dogs and he has a shower right now": "have a shower es una acción en progreso: he's having a shower."
+      },
+      "pistas": [
+        "have aparece con dos significados.",
+        "Poseer → presente simple; bañarse ahora → continuo.",
+        "Posesión: presente simple con -s; bañarse ahora: be + having a shower; une las dos partes con and."
+      ],
+      "solucion": { "respuesta": "Tom has two dogs and he's having a shower right now.", "explicacion": "has two dogs: have = poseer, estado, presente simple. he's having a shower: have a shower es una acción que ocurre ahora, presente continuo." }
+    },
+    {
+      "id": "simple-o-continuo.eval.10",
+      "leccion": "verbos-de-estado",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Estás en tu cuarto y de repente oyes un ruido en la cocina. ¿Qué dices?",
+      "pregunta": "Elige la oración correcta.",
+      "opciones": [
+        { "texto": "I hear a noise in the kitchen.", "correcta": true, "porque": "Correcta: hear = percibir un sonido sin intención, un estado en presente simple." },
+        { "texto": "I'm hearing a noise in the kitchen.", "correcta": false, "porque": "hear (oír, percibir) no se usa normalmente en continuo." },
+        { "texto": "I'm listening a noise in the kitchen.", "correcta": false, "porque": "listen es escuchar con atención y además necesita to; no describe un ruido que te llega sin querer." },
+        { "texto": "I listen a noise in the kitchen.", "correcta": false, "porque": "listen necesita to y no significa oír sin intención." }
+      ],
+      "pistas": [
+        "¿Estás prestando atención a propósito o el sonido te llega solo?",
+        "Percibir sin intención = hear.",
+        "hear es un estado: presente simple."
+      ],
+      "solucion": { "respuesta": "I hear a noise in the kitchen.", "explicacion": "El ruido te llega sin buscarlo: hear, verbo de estado, en presente simple. listen (to) es la acción de escuchar con atención." }
+    },
+    {
+      "id": "simple-o-continuo.eval.11",
+      "leccion": "continuo-para-planes",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta sobre el horario del cine (una palabra por hueco).",
+      "frase": "What time ___ the last show ___ on weekdays?",
+      "respuestas": [["does"], ["start", "begin"]],
+      "traduccion": "¿A qué hora empieza la última función entre semana?",
+      "errores_tipicos": {
+        "does | starts": "Con does el verbo va en forma base: start.",
+        "is | starting": "Es un horario fijo que se repite (on weekdays): presente simple con does."
+      },
+      "pistas": [
+        "Es un horario oficial que se repite.",
+        "Horario → presente simple: pregunta con do / does.",
+        "What time + does + sujeto + verbo base?, como en What time does the bank open?"
+      ],
+      "solucion": { "respuesta": "does / start", "explicacion": "Los horarios van en presente simple; la pregunta se forma con does (the last show = it) y el verbo en forma base: start o begin." }
+    },
+    {
+      "id": "simple-o-continuo.eval.12",
+      "leccion": "continuo-para-planes",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Escribe el plan en negativa.",
+      "origen": "I'm playing tennis with Sam on Sunday.",
+      "instruccion": "Negativa",
+      "respuestas": ["I'm not playing tennis with Sam on Sunday"],
+      "errores_tipicos": {
+        "I don't play tennis with Sam on Sunday": "El plan está en presente continuo: la negación es I'm not playing.",
+        "I'm not play tennis with Sam on Sunday": "El verbo sigue en -ing: playing."
+      },
+      "pistas": [
+        "La oración está en presente continuo.",
+        "not va después de am.",
+        "Sujeto + be + not + verbo -ing + resto, como en I'm not working on Monday."
+      ],
+      "solucion": { "respuesta": "I'm not playing tennis with Sam on Sunday.", "explicacion": "La negación de un plan en presente continuo se forma como siempre: I am not (I'm not) + playing." }
+    },
+    {
+      "id": "simple-o-continuo.eval.13",
+      "leccion": "continuo-para-planes",
+      "habilidad": "comprension",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Un amigo te invita al cine, pero ya tienes otro plan.",
+      "lineas": [
+        { "quien": "Diego", "en": "Do you want to go to the movies tonight?", "es": "¿Quieres ir al cine esta noche?" }
+      ],
+      "opciones": [
+        { "texto": "Sorry, I'm having dinner with my parents tonight.", "correcta": true, "porque": "Correcta: explicas tu plan acordado con presente continuo y una expresión de tiempo." },
+        { "texto": "Sorry, I'm have dinner with my parents tonight.", "correcta": false, "porque": "Después de am el verbo lleva -ing: having." },
+        { "texto": "Sorry, I'm wanting to stay at home.", "correcta": false, "porque": "want es un verbo de estado: I want to stay at home." },
+        { "texto": "Yes, I am having.", "correcta": false, "porque": "No tiene sentido: la pregunta es con do (Yes, I do) y having necesita complemento." }
+      ],
+      "pistas": [
+        "Rechazas la invitación explicando tu plan.",
+        "Plan acordado → presente continuo + tonight.",
+        "Plan acordado: I'm + verbo -ing + expresión futura."
+      ],
+      "solucion": { "respuesta": "Sorry, I'm having dinner with my parents tonight.", "explicacion": "Para rechazar una invitación se suele explicar el plan que ya tienes, en presente continuo: I'm having dinner with my parents tonight." }
+    },
+    {
+      "id": "simple-o-continuo.eval.14",
+      "leccion": "continuo-para-planes",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Empieza con What time.",
+      "es": "¿A qué hora sale tu camión?",
+      "respuestas": ["What time does your bus leave"],
+      "errores_tipicos": {
+        "What time your bus leaves": "Falta el auxiliar does: What time does your bus leave?",
+        "What time does your bus leaves": "Con does el verbo va en forma base: leave.",
+        "What time does your bus go out": "Para transporte, «salir» es leave, no go out."
+      },
+      "pistas": [
+        "Es un horario: presente simple.",
+        "Pregunta con does, porque your bus = it.",
+        "What time + does + sujeto + verbo base?, como en What time does the store close?"
+      ],
+      "solucion": { "respuesta": "What time does your bus leave?", "explicacion": "La salida de un camión depende de un horario: presente simple. La pregunta lleva does y el verbo leave en forma base." }
+    },
+    {
+      "id": "simple-o-continuo.eval.15",
+      "leccion": "continuo-para-planes",
+      "habilidad": "produccion",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para preguntar por los planes de alguien.",
+      "fichas": ["are", "What", "doing", "you", "tomorrow", "evening"],
+      "respuestas": ["What are you doing tomorrow evening"],
+      "traduccion": "¿Qué vas a hacer mañana en la tarde?",
+      "pistas": [
+        "Pregunta con palabra interrogativa en presente continuo.",
+        "What + be + sujeto + -ing.",
+        "La expresión de tiempo va al final."
+      ],
+      "solucion": { "respuesta": "What are you doing tomorrow evening?", "explicacion": "What + are + you + doing + tomorrow evening. La expresión de tiempo futuro convierte la pregunta en una pregunta sobre planes." }
+    },
+    {
+      "id": "simple-o-continuo.eval.16",
+      "leccion": "continuo-para-planes",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Interpreta la oración.",
+      "pregunta": "Sam le dice a su hermana: «I'm seeing Grace tonight.» ¿Qué significa?",
+      "opciones": [
+        { "texto": "Que en este momento está viendo a Grace.", "correcta": false, "porque": "tonight sitúa la acción en el futuro: es un plan." },
+        { "texto": "Que ya quedó en verse con Grace esta noche.", "correcta": true, "porque": "Correcta: presente continuo + tonight = plan acordado; see aquí significa verse con alguien." },
+        { "texto": "Que ve a Grace todas las noches.", "correcta": false, "porque": "Una costumbre se diría con presente simple: I see Grace every night." }
+      ],
+      "pistas": [
+        "Mira la expresión de tiempo.",
+        "tonight es futuro.",
+        "Continuo + tiempo futuro = plan ya acordado."
+      ],
+      "solucion": { "respuesta": "Que ya quedó en verse con Grace esta noche.", "explicacion": "El presente continuo con tonight expresa un plan acordado. see con el sentido de «verse con alguien» es una acción, por eso admite continuo." }
+    }
+  ]
+}

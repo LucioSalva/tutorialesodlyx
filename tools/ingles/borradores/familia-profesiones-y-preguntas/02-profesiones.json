@@ -1,0 +1,541 @@
+{
+  "slug": "profesiones",
+  "titulo": "Profesiones",
+  "minutos": 40,
+  "objetivos": [
+    "Decir tu profesión y la de otros con a / an obligatorio (I'm a nurse, She's an engineer) y sin artículo en plural (They're doctors).",
+    "Elegir a o an según el SONIDO de la palabra que sigue, incluido cuando hay un adjetivo (an excellent teacher, a good engineer).",
+    "Decir dónde trabaja cada uno: a nurse at a hospital, a waiter in a restaurant, on a farm, from home.",
+    "Preguntar y responder a qué se dedica alguien con What do you do? / What's your job?"
+  ],
+  "situacion": {
+    "titulo": "Una fiesta de vecinos",
+    "texto": "En la fiesta de su edificio, Grace conoce a Omar. En inglés, después del nombre y el origen, la siguiente pregunta casi siempre es a qué te dedicas. Fíjate en el artículo que aparece antes de cada profesión.",
+    "dialogo": [
+      { "quien": "Grace", "en": "So, what do you do, Omar?", "es": "Y, ¿a qué te dedicas, Omar?" },
+      { "quien": "Omar", "en": "I'm an engineer at a construction company. And you?", "es": "Soy ingeniero en una constructora. ¿Y tú?" },
+      { "quien": "Grace", "en": "I'm a nurse. I work in a hospital near here.", "es": "Soy enfermera. Trabajo en un hospital aquí cerca." },
+      { "quien": "Omar", "en": "Oh, my wife is a nurse too! And what does your husband do?", "es": "¡Ah, mi esposa también es enfermera! ¿Y a qué se dedica tu esposo?" },
+      { "quien": "Grace", "en": "He's a chef. His restaurant is on the corner.", "es": "Es chef. Su restaurante está en la esquina." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "a-an-con-profesiones",
+      "titulo": "I'm a nurse: el artículo que el español omite",
+      "que_es": "En español decimos «soy enfermera», sin artículo. En inglés, cuando una persona tiene UNA profesión, el artículo [[a]] / [[an]] es obligatorio: [[I'm a nurse.]] Omitirlo («I'm nurse») es uno de los errores más reconocibles de los hispanohablantes.",
+      "para_que": [
+        "Presentarte en una entrevista de trabajo, una reunión o un evento de networking.",
+        "Hablar de la profesión de tu familia y tus amigos.",
+        "Llenar la casilla Occupation de un formulario (ahí se escribe solo la palabra: Occupation: nurse)."
+      ],
+      "como_funciona": "**Singular: a / an obligatorio.** Sujeto + be + a / an + profesión.\n• [[I'm a teacher.]] · [[She's a doctor.]] · [[Tom is a mechanic.]]\n\n**A o an: depende del SONIDO**, como ya estudiaste, no de la letra:\n• [[an]] ante sonido vocal: [[an engineer]], [[an architect]], [[an accountant]], [[an electrician]], [[an office worker]]\n• [[a]] ante sonido consonante: [[a nurse]], [[a lawyer]], [[a university professor]] (university empieza con el sonido /j/, «yu»)\n• Si hay un adjetivo, manda la palabra que va JUSTO después del artículo: [[an engineer]] pero [[a good engineer]]; [[a teacher]] pero [[an excellent teacher]].\n\n**Plural: sin artículo.** A / an significa «uno», así que no puede ir con plurales:\n• [[They're doctors.]] (no «They're a doctors»)\n• [[My parents are teachers.]] — la profesión va en plural porque el sujeto es plural.\n\n**Negación y pregunta** con las reglas de be que ya dominas; el artículo se queda:\n• [[She isn't an engineer. She's an architect.]]\n• [[Is your brother a lawyer?]] — [[Yes, he is.]] / [[No, he isn't.]]\n\n**El género.** La mayoría de las profesiones sirven para hombre y mujer: [[teacher]] (maestro/maestra), [[doctor]], [[nurse]] (enfermero/enfermera), [[engineer]], [[lawyer]], [[chef]]. Algunas tenían forma femenina, pero hoy se prefieren formas neutras: [[police officer]] (en vez de policeman/policewoman), [[firefighter]] (en vez de fireman), [[server]] (además de waiter/waitress), [[flight attendant]] (en vez de stewardess). [[Actor]] / [[actress]] siguen usándose, aunque muchas actrices prefieren actor.",
+      "estructuras": [
+        {
+          "etiqueta": "Singular",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "am / is / are", "rol": "verbo" }, { "t": "a / an", "rol": "otro" }, { "t": "profesión", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "She", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "an", "rol": "otro" }, { "t": "engineer", "rol": "complemento" } ],
+          "es": "Ella es ingeniera."
+        },
+        {
+          "etiqueta": "Plural (sin artículo)",
+          "formula": [ { "t": "Sujeto plural", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "profesión + -s", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "They", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "doctors", "rol": "complemento" } ],
+          "es": "Son médicos."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Profesiones frecuentes con su artículo",
+          "columnas": ["Con artículo", "Español", "Por qué a / an"],
+          "filas": [
+            ["a teacher", "maestro/a, profesor/a", "sonido /t/"],
+            ["a nurse", "enfermero/a", "sonido /n/"],
+            ["a doctor", "médico/a, doctor/a", "sonido /d/"],
+            ["a lawyer", "abogado/a", "sonido /l/"],
+            ["a cashier", "cajero/a", "sonido /k/"],
+            ["a university professor", "profesor/a universitario/a", "university suena /j/ («yu»)"],
+            ["an engineer", "ingeniero/a", "sonido vocal /ɛ/"],
+            ["an architect", "arquitecto/a", "sonido vocal /ɑ/"],
+            ["an accountant", "contador/a", "sonido vocal /ə/"],
+            ["an electrician", "electricista", "sonido vocal /ɪ/"]
+          ],
+          "audio": [0]
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "El artículo se queda en la negación y en la pregunta",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ { "t": "She", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "an engineer", "rol": "complemento" } ] },
+          { "etiqueta": "Negación", "partes": [ { "t": "She", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "not", "rol": "negacion" }, { "t": "an engineer", "rol": "complemento" } ] },
+          { "etiqueta": "Pregunta", "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "she", "rol": "sujeto" }, { "t": "an engineer", "rol": "complemento" }, { "t": "?", "rol": "otro" } ] }
+        ],
+        "pie": "Lo único que se mueve es be (y not se añade detrás). «an engineer» viaja siempre como un bloque."
+      },
+      "ejemplos": [
+        {
+          "en": "I'm a nurse.",
+          "es": "Soy enfermera.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "a", "rol": "otro" }, { "t": "nurse", "rol": "complemento" } ],
+          "nota": "El español no pone artículo; el inglés lo exige con una profesión en singular."
+        },
+        {
+          "en": "Omar is an engineer.",
+          "es": "Omar es ingeniero.",
+          "partes": [ { "t": "Omar", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "an", "rol": "otro" }, { "t": "engineer", "rol": "complemento" } ],
+          "nota": "An porque engineer empieza con sonido vocal /ɛ/."
+        },
+        {
+          "en": "My parents are doctors.",
+          "es": "Mis papás son médicos.",
+          "partes": [ { "t": "My parents", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "doctors", "rol": "complemento" } ],
+          "nota": "Plural: sin artículo y con -s en la profesión."
+        },
+        {
+          "en": "Ana is an excellent teacher.",
+          "es": "Ana es una maestra excelente.",
+          "nota": "An por excellent (la palabra que sigue al artículo), no por teacher. Y el adjetivo va antes del sustantivo."
+        },
+        {
+          "en": "Is your brother a lawyer? No, he isn't. He's a police officer.",
+          "es": "¿Tu hermano es abogado? No. Es policía.",
+          "nota": "En la pregunta el artículo se mantiene (a lawyer). Police officer es la forma neutra y habitual."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Español", "items": ["Soy enfermera.", "Son médicos.", "Es una buena ingeniera."] },
+        "b": { "titulo": "Inglés", "items": ["I'm a nurse.", "They're doctors.", "She's a good engineer."] },
+        "veredicto": "En singular el inglés SIEMPRE pone a / an con la profesión; en plural, ninguno de los dos idiomas usa artículo."
+      },
+      "pronunciacion": [
+        {
+          "texto": "She's an engineer.",
+          "ipa": "/ʃiːz ən ˌɛndʒɪˈnɪr/",
+          "consejo": "An se une a la palabra siguiente, como si fuera una sola: «a-nen-yi-NIR». La g de engineer suena /dʒ/ (como la «y» fuerte de «yo») y el acento va al FINAL: engi-NEER.",
+          "lento": true
+        },
+        {
+          "texto": "a nurse",
+          "ipa": "/ə ˈnɜːrs/",
+          "consejo": "La a del artículo es una schwa /ə/, muy breve. Nurse tiene el sonido /ɜːr/: no es «nurs» con u española; la boca está relajada, a medio abrir, y la lengua se curva hacia atrás para la r."
+        },
+        {
+          "texto": "architect · accountant",
+          "ipa": "/ˈɑːrkɪtɛkt/ · /əˈkaʊntənt/",
+          "consejo": "Architect: la ch suena /k/, ARK-i-tect. Accountant: acento en la segunda sílaba, a-COUN-tant, con ou = «au»."
+        }
+      ],
+      "errores": [
+        { "mal": "I'm nurse.", "bien": "I'm a nurse.", "porque": "Con una profesión en singular, a / an es obligatorio en inglés." },
+        { "mal": "She's a engineer.", "bien": "She's an engineer.", "porque": "Engineer empieza con sonido vocal: an." },
+        { "mal": "They're a doctors.", "bien": "They're doctors.", "porque": "A / an significa «uno»: no se usa con plurales." },
+        { "mal": "He's an good teacher.", "bien": "He's a good teacher.", "porque": "Manda la palabra que sigue al artículo (good, sonido consonante), no la profesión." }
+      ]
+    },
+    {
+      "id": "lugares-de-trabajo",
+      "titulo": "Dónde trabaja cada uno: in a hospital, at a school, on a farm",
+      "que_es": "Además de la profesión, solemos decir DÓNDE se trabaja. Con lo que ya sabes puedes hacerlo con be: [[She's a nurse at a hospital.]] Y con una expresión fija nueva, [[I work in / at…]], que por ahora aprendes como bloque (el verbo [[work]] lo estudiarás a fondo en la unidad del presente simple).",
+      "para_que": [
+        "Dar más información sobre tu trabajo: I'm a teacher at a high school.",
+        "Entender a otras personas cuando describen su trabajo.",
+        "Elegir la preposición de lugar correcta con cada sitio."
+      ],
+      "como_funciona": "**Con be (gramática que ya conoces):** profesión + preposición + lugar.\n• [[She's a nurse at a hospital.]] · [[He's a waiter in a restaurant.]] · [[My uncle is a farmer.]]\n\n**Expresión fija:** [[I work in a hospital.]] (Trabajo en un hospital.) / [[Where do you work?]] (¿Dónde trabajas?). Tómala como bloque; más adelante verás por qué con he / she se dice [[works]].\n\n**¿In, at u on?** No hay una regla única, pero sí tendencias claras:\n• **in** = dentro de un edificio o espacio cerrado: [[in an office]], [[in a store]], [[in a factory]], [[in a bank]], [[in a kitchen]]\n• **at** = el lugar visto como institución o punto de actividad: [[at a school]], [[at a university]], [[at the airport]], [[at a hotel]]\n• Con muchos edificios valen las dos: [[in a hospital]] y [[at a hospital]] son correctas.\n• **on** con granjas y plataformas: [[on a farm]]\n• Sin artículo: [[at home]] (en casa), [[from home]] en [[I work from home.]] (trabajo desde casa)\n\n**Nombre de la empresa:** [[She's a lawyer at a big company.]] — con una empresa se usa at (y la expresión fija I work for… también es habitual).\n\n**Vocabulario de lugares:** hospital, school, high school (preparatoria), university, office, store (Reino Unido: shop), bank, factory (fábrica), farm (granja, rancho), restaurant, hotel, airport, garage (taller mecánico).",
+      "estructuras": [
+        {
+          "etiqueta": "Con be",
+          "formula": [ { "t": "Sujeto", "rol": "sujeto" }, { "t": "be", "rol": "verbo" }, { "t": "a / an + profesión", "rol": "complemento" }, { "t": "in / at / on + lugar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "Mei", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a teacher", "rol": "complemento" }, { "t": "at a high school", "rol": "complemento" } ],
+          "es": "Mei es maestra en una preparatoria."
+        },
+        {
+          "etiqueta": "Expresión fija",
+          "formula": [ { "t": "I", "rol": "sujeto" }, { "t": "work", "rol": "verbo" }, { "t": "in / at / on + lugar", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "I", "rol": "sujeto" }, { "t": "work", "rol": "verbo" }, { "t": "in an office", "rol": "complemento" } ],
+          "es": "Trabajo en una oficina."
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Carlos is a cook in a small restaurant.",
+          "es": "Carlos es cocinero en un restaurante pequeño.",
+          "partes": [ { "t": "Carlos", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "a cook", "rol": "complemento" }, { "t": "in a small restaurant", "rol": "complemento" } ],
+          "nota": "Cook = cocinero (cualquier persona que cocina profesionalmente); chef suele ser el jefe de cocina."
+        },
+        {
+          "en": "My aunt is a teacher at a university.",
+          "es": "Mi tía es maestra en una universidad.",
+          "nota": "At con instituciones educativas. A university: university empieza con sonido /j/."
+        },
+        {
+          "en": "Priya's father is a farmer. His farm is in Texas.",
+          "es": "El papá de Priya es agricultor. Su granja está en Texas.",
+          "nota": "Farmer = agricultor o granjero. Trabajar en una granja: on a farm."
+        },
+        {
+          "en": "I'm a web designer. I work from home.",
+          "es": "Soy diseñador web. Trabajo desde casa.",
+          "partes": [ { "t": "I'm", "rol": "sujeto" }, { "t": "a web designer", "rol": "complemento" }, { "t": "I", "rol": "sujeto" }, { "t": "work", "rol": "verbo" }, { "t": "from home", "rol": "complemento" } ],
+          "nota": "Home va sin artículo en at home y from home."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "I work in a hospital.",
+          "ipa": "/aɪ ˈwɜːrk ɪn ə ˈhɑːspɪtəl/",
+          "consejo": "Work tiene /ɜːr/, el mismo sonido que nurse, no una «o». In a se une: «i-na». En hospital la h se pronuncia con aire (nunca muda como en español) y la t, en inglés estadounidense, suena suave, casi como una r de «pero»: HOS-pi-rl.",
+          "lento": true
+        },
+        {
+          "texto": "office · factory",
+          "ipa": "/ˈɔːfɪs/ (EE. UU. también /ˈɑːfɪs/) · /ˈfæktəri/",
+          "consejo": "Office: dos sílabas con acento en la primera, O-fis. Factory: acento en FAC, con /æ/; la o casi desaparece: FAC-tri."
+        }
+      ],
+      "errores": [
+        { "mal": "She's a nurse in the hospital. (hablando de un hospital cualquiera)", "bien": "She's a nurse at a hospital. / … in a hospital.", "porque": "Si no se trata de un hospital concreto ya conocido, el artículo es a, no the." },
+        { "mal": "My uncle is a farmer in a farm.", "bien": "My uncle is a farmer on a farm.", "porque": "Con farm la preposición es on." },
+        { "mal": "I work in home.", "bien": "I work from home. / I work at home.", "porque": "Home va con at o from y sin artículo." }
+      ]
+    },
+    {
+      "id": "what-do-you-do",
+      "titulo": "What do you do? Preguntar por el trabajo",
+      "que_es": "La pregunta más habitual para saber la profesión de alguien es [[What do you do?]], que significa «¿A qué te dedicas?», NO «¿Qué haces (ahora)?». Como usa el presente simple (que estudiarás en la siguiente unidad), apréndela como expresión fija. La alternativa con be, [[What's your job?]], ya la puedes analizar.",
+      "para_que": [
+        "Empezar una conversación en una fiesta, un viaje o un evento profesional.",
+        "Preguntar por la profesión de otras personas.",
+        "Responder también si estudias, estás jubilado o buscas trabajo."
+      ],
+      "como_funciona": "**Las preguntas:**\n• [[What do you do?]] — ¿A qué te dedicas? (la más natural; expresión fija)\n• [[What does he / she do?]] — ¿A qué se dedica él / ella? (expresión fija)\n• [[What's your job?]] — ¿Cuál es tu trabajo? (con be: What + is + your job; algo más directa)\n• [[Where do you work?]] — ¿Dónde trabajas? (expresión fija)\n\n**Las respuestas** se construyen con be, que ya dominas:\n• [[I'm a mechanic.]] / [[She's an accountant.]]\n• [[I'm a student.]] (estudiante) · [[I'm retired.]] (jubilado/a; sin artículo, es un adjetivo)\n• [[I'm unemployed.]] (desempleado/a) o, más suave, [[I'm between jobs.]] (estoy entre un trabajo y otro)\n• [[I'm a stay-at-home mom / dad.]] (me dedico al hogar)\n\n**No confundas:** [[What are you doing?]] significa «¿Qué estás haciendo (en este momento)?». Si te preguntan What do you do? y respondes «I'm doing my homework», hablas de la actividad de ahora y no de tu profesión.\n\n**Job y work.** [[Job]] es contable: [[a job]], [[two jobs]], [[my job]]. [[Work]] como sustantivo es incontable: no se dice «a work». [[I have a new job.]] ✔ · «I have a new work» ✘.",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con be",
+          "formula": [ { "t": "What", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "posesivo + job", "rol": "sujeto" } ],
+          "ejemplo": [ { "t": "What", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "your sister's job", "rol": "sujeto" } ],
+          "es": "¿Cuál es el trabajo de tu hermana?"
+        },
+        {
+          "etiqueta": "Expresión fija",
+          "formula": [ { "t": "What", "rol": "interrogativo" }, { "t": "do / does", "rol": "auxiliar" }, { "t": "sujeto", "rol": "sujeto" }, { "t": "do", "rol": "verbo" } ],
+          "ejemplo": [ { "t": "What", "rol": "interrogativo" }, { "t": "do", "rol": "auxiliar" }, { "t": "you", "rol": "sujeto" }, { "t": "do", "rol": "verbo" } ],
+          "es": "¿A qué te dedicas?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "What do you do? I'm an architect.",
+          "es": "¿A qué te dedicas? Soy arquitecta.",
+          "nota": "La respuesta natural usa be + a / an + profesión."
+        },
+        {
+          "en": "What's your job?",
+          "es": "¿Cuál es tu trabajo?",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "your job", "rol": "sujeto" } ],
+          "nota": "What's = What is. Es correcta, pero en la conversación se oye más What do you do?"
+        },
+        {
+          "en": "What does your wife do? She's a pilot.",
+          "es": "¿A qué se dedica tu esposa? Es piloto.",
+          "nota": "Con he / she la expresión fija cambia a does. Lo entenderás en la unidad del presente simple."
+        },
+        {
+          "en": "My grandparents are retired.",
+          "es": "Mis abuelos están jubilados.",
+          "partes": [ { "t": "My grandparents", "rol": "sujeto" }, { "t": "are", "rol": "verbo" }, { "t": "retired", "rol": "complemento" } ],
+          "nota": "Retired es un adjetivo: sin artículo y sin -s aunque el sujeto sea plural."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "What do you do?",
+          "ipa": "/wʌt də jə ˈduː/",
+          "consejo": "En el habla rápida se oye casi «wa-da-ya-DU»: do y you se reducen y solo el último do suena fuerte y largo /uː/. La entonación baja al final.",
+          "lento": true
+        },
+        {
+          "texto": "job",
+          "ipa": "/dʒɑːb/ (británico /dʒɒb/)",
+          "consejo": "La j es /dʒ/ (como la «y» fuerte de «yo»), nunca la j española. La o estadounidense es una «a» abierta: casi «yab»."
+        }
+      ],
+      "errores": [
+        { "mal": "What do you do? — I'm doing the dishes.", "bien": "What do you do? — I'm a teacher.", "porque": "What do you do? pregunta por tu profesión, no por lo que haces en ese momento." },
+        { "mal": "I have a new work.", "bien": "I have a new job.", "porque": "Work (sustantivo) es incontable; job es contable y admite a." },
+        { "mal": "I'm a retired.", "bien": "I'm retired.", "porque": "Retired es un adjetivo, no una profesión: no lleva artículo." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción correcta.",
+      "pregunta": "«Soy enfermera.»",
+      "opciones": [
+        { "texto": "I'm a nurse.", "correcta": true, "porque": "Correcto: be + a + profesión en singular." },
+        { "texto": "I'm nurse.", "correcta": false, "porque": "Es el calco del español. En inglés una profesión en singular necesita a / an." },
+        { "texto": "I'm an nurse.", "correcta": false, "porque": "Nurse empieza con sonido consonante /n/: a, no an." },
+        { "texto": "I'm a nurses.", "correcta": false, "porque": "Eres una persona: nurse en singular. A no puede ir con un plural." }
+      ],
+      "pistas": [
+        "El inglés pone un artículo que el español omite.",
+        "Mira el sonido con que empieza nurse y si la palabra está en singular.",
+        "Singular + sonido consonante → a + nurse."
+      ],
+      "solucion": { "respuesta": "I'm a nurse.", "explicacion": "Con una profesión en singular el inglés exige a / an. Nurse empieza con sonido consonante, así que es a: I'm a nurse." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.02",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con a o an.",
+      "frase": "My sister is ___ architect.",
+      "traduccion": "Mi hermana es arquitecta.",
+      "respuestas": [["an"]],
+      "banco": ["a", "an"],
+      "errores_tipicos": { "a": "Architect empieza con sonido vocal /ɑː/: an." },
+      "pistas": [
+        "A o an depende del sonido, no del significado.",
+        "Pronuncia en voz alta la palabra que va después del hueco.",
+        "Ante sonido vocal se usa an."
+      ],
+      "solucion": { "respuesta": "an", "explicacion": "La respuesta es an porque architect empieza con sonido vocal (/ˈɑːrkɪtɛkt/). An facilita la unión: an architect se pronuncia «a-NAR-ki-tect»." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.03",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada profesión con su lugar de trabajo más típico.",
+      "pares": [
+        { "a": "a nurse", "b": "a hospital" },
+        { "a": "a teacher", "b": "a school" },
+        { "a": "a farmer", "b": "a farm" },
+        { "a": "a pilot", "b": "a plane" },
+        { "a": "a mechanic", "b": "a garage" },
+        { "a": "a cashier", "b": "a supermarket" }
+      ],
+      "pistas": [
+        "Piensa en dónde pasa la mayor parte de su jornada cada persona.",
+        "Garage aquí es taller; cashier es la persona que cobra en la caja.",
+        "farmer–farm, pilot–plane, mechanic–garage, cashier–supermarket."
+      ],
+      "solucion": { "respuesta": "nurse–hospital, teacher–school, farmer–farm, pilot–plane, mechanic–garage, cashier–supermarket", "explicacion": "Cada profesión se une con su lugar típico. Fíjate en que farmer se forma a partir de farm (granja) + -er, igual que teacher sale de teach (enseñar) + -er: -er suele indicar la persona que hace algo." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.04",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha y repite. Une an con la palabra siguiente.",
+      "texto": "She's an engineer, and he's an accountant.",
+      "ipa": "/ʃiːz ən ˌɛndʒɪˈnɪr ənd hiːz ən əˈkaʊntənt/",
+      "consejo": "An se pega a la palabra que sigue: «a-nengi-NEER», «a-na-COUN-tant». Engineer lleva el acento al final; accountant, en la segunda sílaba. No hagas pausa entre an y la profesión.",
+      "es": "Ella es ingeniera y él es contador."
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al plural.",
+      "origen": "He's a doctor.",
+      "instruccion": "Sujeto: They",
+      "respuestas": ["They're doctors."],
+      "errores_tipicos": {
+        "They're a doctors": "A significa «uno»: no se usa con plurales.",
+        "They're doctor": "Con un sujeto plural, la profesión también va en plural: doctors.",
+        "They're a doctor": "Son varias personas: quita a y añade -s."
+      },
+      "pistas": [
+        "Cambia el sujeto, el verbo y la profesión.",
+        "¿Qué pasa con a cuando el sustantivo es plural?",
+        "They're + profesión con -s, sin artículo."
+      ],
+      "solucion": { "respuesta": "They're doctors.", "explicacion": "Con they el verbo es are (they're). Como a significa «uno», desaparece en plural, y la profesión toma -s: doctors." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.06",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa cada hueco con a o an.",
+      "frase": "Mei is ___ good architect, and her brother is ___ excellent chef.",
+      "traduccion": "Mei es una buena arquitecta y su hermano es un chef excelente.",
+      "respuestas": [["a"], ["an"]],
+      "errores_tipicos": {
+        "an | an": "El primer hueco va antes de good (sonido consonante), no antes de architect: a good architect.",
+        "a | a": "El segundo hueco va antes de excellent, que empieza con sonido vocal: an excellent chef."
+      },
+      "pistas": [
+        "El artículo depende de la palabra que va JUSTO después.",
+        "En los dos huecos la palabra siguiente es un adjetivo, no la profesión.",
+        "Good empieza con sonido consonante; excellent, con sonido vocal."
+      ],
+      "solucion": { "respuesta": "a · an", "explicacion": "Primer hueco: a, porque lo sigue good (sonido /g/), aunque architect empiece con vocal. Segundo hueco: an, porque lo sigue excellent (sonido vocal), aunque chef empiece con consonante. Manda siempre la palabra inmediatamente siguiente." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Falta una palabra. Señala la palabra junto a la que falta y escribe la corrección.",
+      "frase": "My brother is lawyer in Monterrey.",
+      "error": "lawyer",
+      "correcciones": ["a lawyer"],
+      "frase_correcta": "My brother is a lawyer in Monterrey.",
+      "pistas": [
+        "Piensa en la diferencia entre «es abogado» y su versión inglesa.",
+        "Mira lo que hay entre is y la profesión.",
+        "Una profesión en singular lleva a / an; lawyer empieza con sonido consonante."
+      ],
+      "solucion": { "respuesta": "lawyer → a lawyer", "explicacion": "Falta el artículo: en inglés una profesión en singular necesita a / an. Lawyer empieza con /l/, así que es a lawyer." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.08",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "En un evento de networking alguien te hace la pregunta típica. Eres contador.",
+      "lineas": [
+        { "quien": "Ben", "en": "Nice to meet you. So, what do you do?", "es": "Mucho gusto. Y, ¿a qué te dedicas?" }
+      ],
+      "opciones": [
+        { "texto": "I'm an accountant.", "correcta": true, "porque": "Correcto: responde a la pregunta por la profesión con be + an + profesión." },
+        { "texto": "I'm drinking a coffee.", "correcta": false, "porque": "Contesta lo que haces en este momento. What do you do? pregunta por tu profesión." },
+        { "texto": "I'm accountant.", "correcta": false, "porque": "Falta el artículo: an accountant." },
+        { "texto": "I do an accountant.", "correcta": false, "porque": "La respuesta no repite do: la profesión se dice con be (I'm an accountant)." }
+      ],
+      "pistas": [
+        "Primero entiende qué pregunta What do you do?",
+        "Pregunta por tu profesión, no por lo que haces ahora.",
+        "Respuesta: I'm + a / an + profesión."
+      ],
+      "solucion": { "respuesta": "I'm an accountant.", "explicacion": "What do you do? significa «¿a qué te dedicas?». Se responde con be + a / an + profesión; accountant empieza con sonido vocal, por eso an." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.09",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en una pregunta de sí o no.",
+      "origen": "Diego is a mechanic.",
+      "instruccion": "Pregunta de sí o no",
+      "respuestas": ["Is Diego a mechanic?"],
+      "errores_tipicos": {
+        "Is Diego mechanic": "El artículo no desaparece en la pregunta: a mechanic.",
+        "Diego is a mechanic": "Para preguntar, is va antes del sujeto."
+      },
+      "pistas": [
+        "Pregunta con be: se invierte el orden.",
+        "Is pasa delante de Diego; el resto se queda igual.",
+        "Be + sujeto + el resto sin cambios (el artículo se queda)."
+      ],
+      "solucion": { "respuesta": "Is Diego a mechanic?", "explicacion": "En las preguntas con be, el verbo pasa delante del sujeto. A mechanic no cambia: el artículo se mantiene también en la pregunta." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.10",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras.",
+      "fichas": ["She's", "a", "nurse", "at", "a", "big", "hospital"],
+      "respuestas": ["She's a nurse at a big hospital."],
+      "traduccion": "Es enfermera en un hospital grande.",
+      "pistas": [
+        "Primero la persona y su profesión, después el lugar.",
+        "Hay dos a: una para la profesión y otra para el lugar.",
+        "Sujeto + profesión con su artículo + at + lugar con su artículo; el adjetivo va antes del sustantivo."
+      ],
+      "solucion": { "respuesta": "She's a nurse at a big hospital.", "explicacion": "She's a nurse dice la profesión (con a obligatorio). At a big hospital dice el lugar: el adjetivo big va antes de hospital, y el artículo a va antes del adjetivo." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "My brother is an electrician, and his wife is a police officer.",
+      "pistas": [
+        "Hay dos profesiones, cada una con su artículo.",
+        "La primera empieza con sonido vocal; la segunda son dos palabras.",
+        "an electrician · a police officer."
+      ],
+      "solucion": { "respuesta": "My brother is an electrician, and his wife is a police officer.", "explicacion": "Electrician empieza con sonido vocal (an); police officer, con /p/ (a). His wife usa his porque el poseedor es my brother." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.12",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés (papá y mamá).",
+      "es": "Mis papás son médicos.",
+      "respuestas": ["My parents are doctors."],
+      "errores_tipicos": {
+        "My parents are a doctors": "A no se usa con plurales.",
+        "My fathers are doctors": "Papá y mamá = parents.",
+        "My parents are doctor": "El sujeto es plural: la profesión también va en plural (doctors)."
+      },
+      "pistas": [
+        "Recuerda la palabra para papá + mamá.",
+        "Sujeto plural → la profesión en plural y sin artículo.",
+        "My parents + are + profesión con -s."
+      ],
+      "solucion": { "respuesta": "My parents are doctors.", "explicacion": "Papá y mamá son parents. Como el sujeto es plural, el verbo es are y la profesión va en plural sin artículo: doctors." }
+    },
+    {
+      "id": "familia-profesiones-y-preguntas.profesiones.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés con una de las preguntas de la lección.",
+      "es": "¿A qué se dedica tu hermana?",
+      "respuestas": ["What does your sister do?", "What's your sister's job?", "What does your sister do for a living?"],
+      "errores_tipicos": {
+        "What is doing your sister": "Es un calco del español y además significaría «¿qué está haciendo?». Usa la expresión fija What does… do?",
+        "What does your sister does": "En la expresión fija el segundo verbo va sin -s: What does your sister do?",
+        "What is your sister job": "Falta 's: el trabajo de tu hermana = your sister's job."
+      },
+      "pistas": [
+        "Es la expresión fija What do you do?, pero con she.",
+        "Con he / she, do cambia a does al principio.",
+        "What + does + sujeto + do? (o la versión con be y genitivo: What's + … 's + job?)"
+      ],
+      "solucion": { "respuesta": "What does your sister do?", "explicacion": "La expresión fija What do you do? cambia a What does… do? con un sujeto como your sister. También es correcta la versión con be y genitivo: What's your sister's job?" }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "La pregunta del networking",
+    "contexto": "Estás en una feria de empleo en Monterrey. Aisha, reclutadora de una empresa internacional, conversa contigo.",
+    "dialogo": [
+      { "quien": "Aisha", "en": "Hi! I'm Aisha. I'm a recruiter at an engineering company.", "es": "¡Hola! Soy Aisha. Soy reclutadora en una empresa de ingeniería." },
+      { "quien": "Aisha", "en": "What do you do?", "es": "¿A qué te dedicas?" },
+      { "quien": "Aisha", "en": "And where do you work?", "es": "¿Y dónde trabajas?" }
+    ],
+    "tu_turno": "Di tu profesión (con a / an), dónde trabajas y pregúntale algo a Aisha sobre su trabajo o su empresa.",
+    "modelo": "Nice to meet you, Aisha! I'm an electrician. I work at a car factory in Apodaca. Is your company Mexican?",
+    "alternativas": [
+      "I'm a student. I'm an engineering student at a university here. Is your office in Monterrey?",
+      "I'm an accountant, but I'm between jobs at the moment. What's your job like?"
+    ],
+    "claves": [
+      "I'm a / an + profesión (an ante sonido vocal).",
+      "I work in / at + lugar como expresión fija.",
+      "Estudiante, jubilado, sin empleo: I'm a student / I'm retired / I'm between jobs."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Profesión en singular = a / an obligatorio: I'm a nurse. She's an engineer.",
+      "A / an según el sonido de la palabra siguiente: an excellent teacher, a good engineer, a university professor.",
+      "Plural sin artículo: They're doctors. My parents are teachers.",
+      "Lugar: a nurse at / in a hospital, in an office, at a school, on a farm, from home.",
+      "What do you do? = ¿A qué te dedicas? (expresión fija). También: What's your job?"
+    ],
+    "recuerda": [
+      "Retired, unemployed: adjetivos, sin artículo.",
+      "Job es contable (a job); work como sustantivo no lleva a.",
+      "What are you doing? = ¿qué estás haciendo ahora?"
+    ]
+  },
+  "repaso": [
+    { "id": "familia-profesiones-y-preguntas.profesiones.r1", "frente": "«Soy ingeniera» y «Son médicos».", "reverso": "I'm an engineer. / They're doctors.", "nota": "Singular con a / an; plural sin artículo." },
+    { "id": "familia-profesiones-y-preguntas.profesiones.r2", "frente": "¿a o an? … good architect / … excellent chef", "reverso": "a good architect / an excellent chef", "nota": "Manda la palabra que va justo después del artículo." },
+    { "id": "familia-profesiones-y-preguntas.profesiones.r3", "frente": "¿Qué significa What do you do?", "reverso": "¿A qué te dedicas?", "nota": "No es «¿qué haces ahora?» (What are you doing?)." },
+    { "id": "familia-profesiones-y-preguntas.profesiones.r4", "frente": "Preposición: … a farm / … home / … a school", "reverso": "on a farm / at home o from home / at a school", "nota": "Con muchos edificios valen in y at." }
+  ]
+}

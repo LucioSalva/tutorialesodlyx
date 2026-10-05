@@ -1,0 +1,514 @@
+{
+  "slug": "preguntas-presente-simple",
+  "titulo": "Preguntas y respuestas cortas",
+  "minutos": 40,
+  "objetivos": [
+    "Preguntar con Do / Does + sujeto + verbo en forma base.",
+    "Explicar por qué Does your brother work…? no lleva -s en work.",
+    "Contestar con respuestas cortas: Yes, he does / No, he doesn't.",
+    "Distinguir las preguntas y respuestas de be (Are you…? Yes, I am) de las de do (Do you…? Yes, I do)."
+  ],
+  "situacion": {
+    "titulo": "Buscando trabajo para un amigo",
+    "texto": "Grace necesita un enfermero para la clínica donde trabaja. Diego le cuenta que su hermano trabaja en un hospital, y Grace quiere saber más antes de llamarlo.",
+    "dialogo": [
+      { "quien": "Grace", "en": "Does your brother work at a hospital?", "es": "¿Tu hermano trabaja en un hospital?" },
+      { "quien": "Diego", "en": "Yes, he does. He works at the General Hospital.", "es": "Sí. Trabaja en el Hospital General." },
+      { "quien": "Grace", "en": "Is he a nurse?", "es": "¿Es enfermero?" },
+      { "quien": "Diego", "en": "Yes, he is.", "es": "Sí, lo es." },
+      { "quien": "Grace", "en": "Great! Does he speak English?", "es": "¡Genial! ¿Habla inglés?" },
+      { "quien": "Diego", "en": "No, he doesn't. But he speaks French!", "es": "No. ¡Pero habla francés!" }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "do-does-preguntas",
+      "titulo": "Preguntar con Do y Does",
+      "que_es": "En español una pregunta puede tener exactamente las mismas palabras que la afirmación: «Tu hermano trabaja en un hospital» → «¿Tu hermano trabaja en un hospital?». Solo cambian la entonación y los signos. En inglés eso no basta: las preguntas de sí o no con verbos que no son be se forman poniendo el auxiliar [[Do]] o [[Does]] **al principio**, antes del sujeto.",
+      "para_que": [
+        "Confirmar información sobre alguien: «¿Tu hermano trabaja en un hospital?».",
+        "Preguntar por gustos y hábitos: «¿Te gusta el café?», «¿Hablas inglés?».",
+        "Pedir información práctica: «¿Este camión para en el centro?»."
+      ],
+      "como_funciona": "La fórmula es: **Do / Does + sujeto + verbo en forma base + complemento + ?**\n\n1. [[Do]] con [[I]], [[you]], [[we]], [[they]] y sujetos plurales: [[Do your parents live here?]]\n2. [[Does]] con [[he]], [[she]], [[it]] y cualquier sujeto singular: [[Does Ana have a car?]]\n3. El verbo principal va en **forma base**, igual que en la negación.\n\n**¿Por qué desaparece la -s de works?** Es la misma regla de la negación: la marca de tercera persona se pone una sola vez. En la afirmación la lleva el verbo ({{sujeto:My brother}} {{verbo:works}}); en la pregunta aparece el auxiliar al principio y la marca se muda a él: {{auxiliar:Does}} {{sujeto:your brother}} {{verbo:work}}…? Si escribes [[Does he works?]] estás marcando la tercera persona dos veces.\n\n**El orden importa.** El sujeto va entre el auxiliar y el verbo. En español puedes decir «¿Trabaja tu hermano en un hospital?», con el verbo antes del sujeto, pero en inglés [[Works your brother…?]] es incorrecto: el que se adelanta es el auxiliar, nunca el verbo principal.\n\n**Entonación:** las preguntas de sí o no suelen **subir** al final ([[…at a hospital?]] ↗).",
+      "estructuras": [
+        {
+          "etiqueta": "Pregunta con I / you / we / they",
+          "formula": [ {"t": "Do", "rol": "auxiliar"}, {"t": "sujeto", "rol": "sujeto"}, {"t": "verbo base", "rol": "verbo"}, {"t": "complemento ?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital?", "rol": "complemento"} ],
+          "es": "¿Trabajas en un hospital?"
+        },
+        {
+          "etiqueta": "Pregunta con he / she / it y sujetos singulares",
+          "formula": [ {"t": "Does", "rol": "auxiliar"}, {"t": "sujeto singular", "rol": "sujeto"}, {"t": "verbo base (sin -s)", "rol": "verbo"}, {"t": "complemento ?", "rol": "complemento"} ],
+          "ejemplo": [ {"t": "Does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital?", "rol": "complemento"} ],
+          "es": "¿Tu hermano trabaja en un hospital?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Afirmación, negación y pregunta",
+          "columnas": ["Sujeto", "Afirmación", "Negación", "Pregunta"],
+          "filas": [
+            ["I", "I work.", "I don't work.", "Do I work?"],
+            ["You", "You work.", "You don't work.", "Do you work?"],
+            ["He / She / It", "He works.", "He doesn't work.", "Does he work?"],
+            ["We", "We work.", "We don't work.", "Do we work?"],
+            ["They", "They work.", "They don't work.", "Do they work?"],
+            ["Ana", "Ana has a car.", "Ana doesn't have a car.", "Does Ana have a car?"]
+          ],
+          "audio": [1, 2, 3]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Does your brother work at a hospital?",
+          "es": "¿Tu hermano trabaja en un hospital?",
+          "situacion": "Grace quiere confirmar un dato antes de ofrecer un trabajo.",
+          "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ],
+          "nota": "Afirmación: My brother works. En la pregunta, la -s se va a Does y work queda en forma base."
+        },
+        {
+          "en": "Do you speak English?",
+          "es": "¿Hablas inglés?",
+          "partes": [ {"t": "Do", "rol": "auxiliar"}, {"t": "you", "rol": "sujeto"}, {"t": "speak", "rol": "verbo"}, {"t": "English", "rol": "complemento"} ],
+          "nota": "Con you se usa Do. Los idiomas en inglés van con mayúscula: English, Spanish."
+        },
+        {
+          "en": "Does Ana have a car?",
+          "es": "¿Ana tiene carro?",
+          "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "Ana", "rol": "sujeto"}, {"t": "have", "rol": "verbo"}, {"t": "a car", "rol": "complemento"} ],
+          "nota": "Afirmación: Ana has a car. En la pregunta, has vuelve a have porque la tercera persona ya está en Does."
+        },
+        {
+          "en": "Do your kids go to school near here?",
+          "es": "¿Tus hijos van a una escuela de por aquí?",
+          "partes": [ {"t": "Do", "rol": "auxiliar"}, {"t": "your kids", "rol": "sujeto"}, {"t": "go", "rol": "verbo"}, {"t": "to school near here", "rol": "complemento"} ],
+          "nota": "Your kids = they: Do. Go to school, sin the, significa asistir a la escuela como estudiante."
+        },
+        {
+          "en": "Does this bus stop downtown?",
+          "es": "¿Este camión para en el centro?",
+          "situacion": "Le preguntas al chofer antes de subir.",
+          "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "this bus", "rol": "sujeto"}, {"t": "stop", "rol": "verbo"}, {"t": "downtown", "rol": "complemento"} ],
+          "nota": "This bus = it, sujeto singular. Downtown (el centro de la ciudad) va sin preposición."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Do you work at a hospital?", "items": ["Sujeto you.", "Auxiliar Do.", "Verbo en forma base: work."] },
+        "b": { "titulo": "Does your brother work at a hospital?", "items": ["Sujeto singular your brother (= he).", "Auxiliar Does: aquí está la -s.", "Verbo en forma base: work."] },
+        "veredicto": "El verbo principal es el mismo en las dos preguntas. Solo cambia el auxiliar, porque es el auxiliar el que lleva la marca de tercera persona."
+      },
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "De afirmación a pregunta",
+        "pasos": [
+          { "etiqueta": "Afirmación", "partes": [ {"t": "Your brother", "rol": "sujeto"}, {"t": "works", "rol": "verbo"}, {"t": "at a hospital", "rol": "complemento"} ] },
+          { "etiqueta": "Does va al principio", "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work(s)", "rol": "verbo"}, {"t": "at a hospital?", "rol": "complemento"} ] },
+          { "etiqueta": "Pregunta", "partes": [ {"t": "Does", "rol": "auxiliar"}, {"t": "your brother", "rol": "sujeto"}, {"t": "work", "rol": "verbo"}, {"t": "at a hospital?", "rol": "complemento"} ] }
+        ],
+        "pie": "El auxiliar se adelanta al sujeto y se lleva la -s. El verbo principal no se mueve y queda en forma base."
+      },
+      "pronunciacion": [
+        { "texto": "Do you…?", "ipa": "/də jə/", "consejo": "En una pregunta normal, do y you pierden fuerza y se reducen a vocales neutras (/ə/, como una «e» relajada y breve). Casi suena «d'ya». La fuerza va al verbo principal: Do you SPEAK English?", "lento": true },
+        { "texto": "Does he…?", "ipa": "/ˈdʌz i/", "consejo": "En el habla rápida la h de he casi desaparece y does se une a la vocal: «DA-zi». La z es sonora, vibra; no la cambies por una s española." },
+        { "texto": "Does your brother work at a hospital?", "ipa": "/dəz jər ˈbrʌðər wɜrk ət ə ˈhɑspɪtəl/", "consejo": "Does your se dice débil y rápido («dəz-yər»). El acento de hospital va en la primera sílaba, HOS-pital, y desde ahí la voz sube hasta el final (↗), como en una pregunta de sí o no en español. En brother, la th /ð/ es sonora: la punta de la lengua asoma entre los dientes y vibra; no es una d española." }
+      ],
+      "errores": [
+        { "mal": "Does your brother works at a hospital?", "bien": "Does your brother work at a hospital?", "porque": "La -s ya está en Does. Con el auxiliar, el verbo principal va en forma base." },
+        { "mal": "Works your brother at a hospital?", "bien": "Does your brother work at a hospital?", "porque": "Calco del español «¿Trabaja tu hermano…?». En inglés el verbo principal nunca se adelanta al sujeto: se adelanta el auxiliar Does." },
+        { "mal": "Your brother works at a hospital?", "bien": "Does your brother work at a hospital?", "porque": "Solo con la entonación es la forma del español. En inglés hablado a veces se oye para mostrar sorpresa o confirmar algo que acabas de oír, pero la pregunta normal necesita Do / Does." },
+        { "mal": "Do she work here?", "bien": "Does she work here?", "porque": "Con he / she / it y sujetos singulares el auxiliar es Does." },
+        { "mal": "Do you are a student?", "bien": "Are you a student?", "porque": "Be no usa do para preguntar: se adelanta el propio be (Are you…?). Do solo se usa con los demás verbos (Do you study?)." }
+      ]
+    },
+    {
+      "id": "respuestas-cortas",
+      "titulo": "Respuestas cortas: Yes, I do / No, she doesn't",
+      "que_es": "En español es normal contestar solo «Sí» o «No», o repetir el verbo: «¿Hablas inglés? — Sí, hablo». En inglés un simple [[Yes]] o [[No]] puede sonar seco, y lo natural es una **respuesta corta**: [[Yes]] / [[No]] + pronombre + el **mismo auxiliar** de la pregunta ([[do]], [[does]], [[don't]], [[doesn't]]). El verbo principal no se repite.",
+      "para_que": [
+        "Contestar de forma natural y educada sin repetir toda la frase.",
+        "Confirmar o negar un dato rápidamente en una conversación o por teléfono."
+      ],
+      "como_funciona": "La respuesta corta **copia el auxiliar de la pregunta** y usa un **pronombre**:\n\n- [[Do you…?]] → [[Yes, I do.]] / [[No, I don't.]]\n- [[Does your brother…?]] → [[Yes, he does.]] / [[No, he doesn't.]] (your brother → he)\n- [[Do your parents…?]] → [[Yes, they do.]] / [[No, they don't.]]\n- [[Does the shop…?]] → [[Yes, it does.]] / [[No, it doesn't.]]\n\nTres reglas finas:\n1. **Nunca repitas el verbo principal en la respuesta corta**: [[Yes, I do]], no [[Yes, I work]]. (Una respuesta larga completa como [[Yes, I work there]] sí es correcta; lo que no funciona es cortarla a medias.)\n2. **En la respuesta afirmativa no se contrae**: [[Yes, I do]], nunca algo como [[Yes, I'm]] en las preguntas de be. En la negativa, en cambio, lo normal es contraer: [[No, she doesn't]].\n3. **Si la pregunta es con be, la respuesta es con be**: [[Are you a nurse?]] → [[Yes, I am.]] Si es con do, la respuesta es con do: [[Do you work at night?]] → [[Yes, I do.]]\n\nDespués de la respuesta corta es muy natural añadir información: [[No, he doesn't. He speaks French.]]",
+      "estructuras": [
+        {
+          "etiqueta": "Respuesta corta afirmativa",
+          "formula": [ {"t": "Yes,", "rol": "otro"}, {"t": "pronombre", "rol": "sujeto"}, {"t": "do / does", "rol": "auxiliar"} ],
+          "ejemplo": [ {"t": "Yes,", "rol": "otro"}, {"t": "he", "rol": "sujeto"}, {"t": "does", "rol": "auxiliar"} ],
+          "es": "Sí (trabaja ahí)."
+        },
+        {
+          "etiqueta": "Respuesta corta negativa",
+          "formula": [ {"t": "No,", "rol": "otro"}, {"t": "pronombre", "rol": "sujeto"}, {"t": "don't / doesn't", "rol": "auxiliar"} ],
+          "ejemplo": [ {"t": "No,", "rol": "otro"}, {"t": "they", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"} ],
+          "es": "No (no viven aquí)."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pregunta → respuestas cortas",
+          "columnas": ["Pregunta", "Sí", "No"],
+          "filas": [
+            ["Do you like tea?", "Yes, I do.", "No, I don't."],
+            ["Does your sister cook?", "Yes, she does.", "No, she doesn't."],
+            ["Does the store open at 8?", "Yes, it does.", "No, it doesn't."],
+            ["Do your friends live here?", "Yes, they do.", "No, they don't."],
+            ["Are you tired?", "Yes, I am.", "No, I'm not."]
+          ],
+          "audio": [0, 1, 2]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Yes, he does.",
+          "es": "Sí.",
+          "situacion": "Respuesta a Does your brother work at a hospital?",
+          "partes": [ {"t": "Yes", "rol": "otro"}, {"t": "he", "rol": "sujeto"}, {"t": "does", "rol": "auxiliar"} ],
+          "nota": "Your brother se convierte en he, y does sustituye a todo lo demás (work at a hospital)."
+        },
+        {
+          "en": "No, I don't.",
+          "es": "No.",
+          "situacion": "Respuesta a Do you drink coffee?",
+          "partes": [ {"t": "No", "rol": "otro"}, {"t": "I", "rol": "sujeto"}, {"t": "don't", "rol": "auxiliar"} ],
+          "nota": "Pregunta con you → respuesta con I. No se repite drink."
+        },
+        {
+          "en": "No, it doesn't. It opens at ten.",
+          "es": "No. Abre a las diez.",
+          "situacion": "Respuesta a Does the bank open at nine?",
+          "partes": [ {"t": "No", "rol": "otro"}, {"t": "it", "rol": "sujeto"}, {"t": "doesn't", "rol": "auxiliar"}, {"t": "It", "rol": "sujeto"}, {"t": "opens", "rol": "verbo"}, {"t": "at ten", "rol": "tiempo"} ],
+          "nota": "The bank = it. Tras la respuesta corta, la información nueva vuelve a la afirmación con -s: opens."
+        },
+        {
+          "en": "Yes, I am.",
+          "es": "Sí.",
+          "situacion": "Respuesta a Are you a student?",
+          "nota": "La pregunta es con be, así que la respuesta es con be (am), no con do."
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "Preguntas con be", "items": ["Are you a nurse? — Yes, I am.", "Is she from Peru? — No, she isn't.", "Are they at home? — Yes, they are."] },
+        "b": { "titulo": "Preguntas con do / does", "items": ["Do you work at night? — Yes, I do.", "Does she speak Spanish? — No, she doesn't.", "Do they live here? — Yes, they do."] },
+        "veredicto": "La respuesta corta repite el mismo verbo con el que empieza la pregunta: si empieza con be, contestas con be; si empieza con do / does, contestas con do / does."
+      },
+      "pronunciacion": [
+        { "texto": "Yes, I do.", "ipa": "/jɛs aɪ ˈduː/", "consejo": "En la respuesta corta do SÍ se pronuncia completo y con fuerza (/duː/, una «u» larga con los labios redondeados), porque es la palabra que lleva la información. Compáralo con el do débil de la pregunta (/də/).", "lento": true },
+        { "texto": "No, she doesn't.", "ipa": "/noʊ ʃi ˈdʌzənt/", "consejo": "No se pronuncia /noʊ/: una «o» que se cierra hacia «u», no una «o» española seca. El acento fuerte cae en doesn't." }
+      ],
+      "errores": [
+        { "mal": "Does she cook? — Yes, she do.", "bien": "Does she cook? — Yes, she does.", "porque": "La respuesta copia el auxiliar de la pregunta. Con she, does." },
+        { "mal": "Do you like pizza? — Yes, I like.", "bien": "Do you like pizza? — Yes, I do.", "porque": "Like necesita un complemento (like it), así que Yes, I like queda incompleto. La respuesta corta natural es Yes, I do (o la larga: Yes, I like it)." },
+        { "mal": "Do you work here? — Yes, I am.", "bien": "Do you work here? — Yes, I do.", "porque": "La pregunta empieza con Do, no con be. Contesta con el mismo auxiliar." },
+        { "mal": "Does he speak English? — Yes, does.", "bien": "Does he speak English? — Yes, he does.", "porque": "Calco del español «Sí, habla». En inglés la respuesta corta necesita el pronombre sujeto." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la palabra que empieza la pregunta.",
+      "pregunta": "___ your parents live in Puebla?",
+      "opciones": [
+        { "texto": "Do", "correcta": true, "porque": "Correcto: your parents es plural (they) y live no es be, así que la pregunta empieza con Do." },
+        { "texto": "Does", "correcta": false, "porque": "Does es para sujetos singulares (he, she, it, Ana…). Your parents son dos personas." },
+        { "texto": "Are", "correcta": false, "porque": "Are es be. Live es otro verbo: Are your parents live…? mezcla los dos sistemas." },
+        { "texto": "Is", "correcta": false, "porque": "Is es be y además es singular. No sirve con live ni con un sujeto plural." }
+      ],
+      "pistas": [
+        "El verbo principal es live, que no es be.",
+        "Mira el sujeto: your parents. ¿Singular o plural?",
+        "Sujeto plural + verbo que no es be → Do al principio."
+      ],
+      "solucion": { "respuesta": "Do", "explicacion": "La respuesta correcta es Do porque el sujeto your parents equivale a they (plural) y el verbo live necesita el auxiliar do para preguntar: Do your parents live in Puebla?" },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.02",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate. Haz débil el do y fuerte el verbo.",
+      "texto": "Do you live near here?",
+      "ipa": "/də jə ˈlɪv nɪr ˈhɪr/",
+      "consejo": "Do you se reduce a algo como «d'ya», rápido y sin fuerza. La fuerza cae en LIVE y en HERE. La i de live es corta y relajada (/ɪ/), casi entre «i» y «e»; no la alargues o sonará leave (irse). Sube la voz al final.",
+      "es": "¿Vives cerca de aquí?"
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa la pregunta y la respuesta corta.",
+      "frase": "___ Carlos speak English? — Yes, he ___.",
+      "respuestas": [["Does"], ["does"]],
+      "traduccion": "¿Carlos habla inglés? — Sí.",
+      "pistas": [
+        "La pregunta y la respuesta corta usan el mismo auxiliar.",
+        "Carlos es una sola persona: he.",
+        "Sujeto singular: el mismo auxiliar de tercera persona en la pregunta y en la respuesta corta."
+      ],
+      "solucion": { "respuesta": "Does … does", "explicacion": "Carlos equivale a he, así que la pregunta empieza con Does (y speak queda en forma base). La respuesta corta copia el auxiliar: Yes, he does." },
+      "errores_tipicos": {
+        "Do | do": "Do es para I / you / we / they. Carlos es he: Does… does.",
+        "Does | speaks": "La respuesta corta no repite el verbo principal: Yes, he does.",
+        "Is | is": "Speak no es be: la pregunta necesita Does."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.04",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada pregunta con su respuesta corta.",
+      "pares": [
+        { "a": "Do you work on Sundays?", "b": "Yes, I do." },
+        { "a": "Does Mei cook?", "b": "No, she doesn't." },
+        { "a": "Are you tired?", "b": "Yes, I am." },
+        { "a": "Is Tom a nurse?", "b": "No, he isn't." },
+        { "a": "Do your kids play soccer?", "b": "Yes, they do." },
+        { "a": "Does this train stop here?", "b": "No, it doesn't." }
+      ],
+      "pistas": [
+        "La respuesta corta repite el verbo con el que empieza la pregunta.",
+        "Fíjate en dos cosas: si la pregunta es con be o con do / does, y qué pronombre corresponde al sujeto.",
+        "Do you → I do; Does Mei → she; Are you → I am; Is Tom → he; your kids → they; this train → it."
+      ],
+      "solucion": { "respuesta": "Do you → Yes, I do; Does Mei → No, she doesn't; Are you → Yes, I am; Is Tom → No, he isn't; Do your kids → Yes, they do; Does this train → No, it doesn't", "explicacion": "Cada respuesta usa el mismo verbo inicial de la pregunta (do, does, am/are o is) y el pronombre que corresponde al sujeto: you → I, Mei → she, Tom → he, your kids → they, this train → it." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.05",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "Priya teaches math.",
+      "instruccion": "Pregunta",
+      "respuestas": ["Does Priya teach math?"],
+      "pistas": [
+        "Teach no es be: la pregunta necesita un auxiliar al principio.",
+        "Priya es un sujeto singular. Mira la terminación de teaches.",
+        "Does + sujeto + verbo base: teaches vuelve a teach."
+      ],
+      "solucion": { "respuesta": "Does Priya teach math?", "explicacion": "Priya equivale a she, así que la pregunta empieza con Does. La marca de tercera persona (-es) pasa al auxiliar y el verbo vuelve a su forma base: teach." },
+      "errores_tipicos": {
+        "Does Priya teaches math?": "La -es ya está en Does. El verbo va en forma base: teach.",
+        "Do Priya teach math?": "Priya es she: el auxiliar es Does.",
+        "Teaches Priya math?": "El verbo principal no se adelanta al sujeto. Pon Does al principio."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.06",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte la afirmación en pregunta de sí o no.",
+      "origen": "Your cousins have a dog.",
+      "instruccion": "Pregunta",
+      "respuestas": ["Do your cousins have a dog?"],
+      "pistas": [
+        "Have como verbo principal forma la pregunta con do / does, como cualquier otro verbo.",
+        "Your cousins es plural.",
+        "Do + sujeto plural + have + complemento."
+      ],
+      "solucion": { "respuesta": "Do your cousins have a dog?", "explicacion": "Your cousins equivale a they, así que la pregunta empieza con Do y have queda igual. En inglés americano las preguntas con have se hacen siempre con do." },
+      "errores_tipicos": {
+        "Does your cousins have a dog?": "Cousins es plural: Do, no Does.",
+        "Have your cousins a dog?": "Esa forma es muy antigua o muy británica; hoy lo normal es Do your cousins have a dog?",
+        "Are your cousins have a dog?": "Have no es be: no se pregunta con are."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.07",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la pregunta y la respuesta corta negativa.",
+      "frase": "___ Omar ___ in Guadalajara? — No, he ___. He lives in León.",
+      "respuestas": [["Does"], ["live"], ["doesn't", "does not"]],
+      "traduccion": "¿Omar vive en Guadalajara? — No. Vive en León.",
+      "pistas": [
+        "Necesitas el auxiliar, el verbo principal y la respuesta corta negativa.",
+        "Omar es singular. ¿El verbo de la pregunta lleva -s?",
+        "Does + sujeto + verbo base…? — No, he + doesn't."
+      ],
+      "solucion": { "respuesta": "Does … live … doesn't", "explicacion": "Omar es he, así que la pregunta es Does Omar live…? con live en forma base porque la -s está en Does. La respuesta corta negativa copia el auxiliar: No, he doesn't. En la oración siguiente, afirmativa, vuelve la -s: He lives." },
+      "errores_tipicos": {
+        "Does | lives | doesn't": "Con Does el verbo va en forma base: live.",
+        "Do | live | don't": "Omar es he: Does… doesn't.",
+        "Does | live | isn't": "La respuesta corta copia el auxiliar de la pregunta (does), no be."
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señálalo y corrígelo.",
+      "frase": "Does your sister works on Saturdays?",
+      "error": "works",
+      "correcciones": ["work"],
+      "frase_correcta": "Does your sister work on Saturdays?",
+      "pistas": [
+        "El auxiliar y el sujeto están bien.",
+        "¿Dónde está ya la marca de tercera persona?",
+        "Después de Does + sujeto, el verbo va en forma base."
+      ],
+      "solucion": { "respuesta": "Does your sister work on Saturdays?", "explicacion": "El error es works: la tercera persona ya está marcada en Does, así que el verbo principal va en forma base, work." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.09",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error en la pregunta. Señala el grupo de palabras incorrecto y corrígelo.",
+      "frase": "Do you are a student?",
+      "error": "Do you are",
+      "correcciones": ["Are you"],
+      "frase_correcta": "Are you a student?",
+      "pistas": [
+        "Mira qué verbo tiene esta oración: ¿es be u otro verbo?",
+        "Hay dos verbos al principio que no pueden ir juntos.",
+        "Con be no se usa do: be pasa delante del sujeto."
+      ],
+      "solucion": { "respuesta": "Are you a student?", "explicacion": "La oración usa be (you are a student). Be forma la pregunta invirtiendo el orden: Are you…? El auxiliar do solo se usa con los demás verbos (Do you study?), nunca junto con be." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.10",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta más natural y correcta.",
+      "contexto": "En la oficina, una compañera nueva te hace preguntas.",
+      "lineas": [
+        { "quien": "Aisha", "en": "Do you have a car?", "es": "¿Tienes carro?" }
+      ],
+      "opciones": [
+        { "texto": "No, I don't. I take the bus.", "correcta": true, "porque": "Correcto: la pregunta empieza con Do y la respuesta corta copia el auxiliar (I don't). Después añades información útil en afirmación." },
+        { "texto": "No, I haven't. I take the bus.", "correcta": false, "porque": "La pregunta usa do, así que la respuesta usa do. No, I haven't responde a otra estructura (have got), que verás más adelante." },
+        { "texto": "No, I'm not. I take the bus.", "correcta": false, "porque": "I'm not es la respuesta a una pregunta con be (Are you…?). Aquí la pregunta empieza con Do." },
+        { "texto": "No, I don't have. I take the bus.", "correcta": false, "porque": "Have necesita complemento (a car / one). En la respuesta corta no se repite el verbo: No, I don't." }
+      ],
+      "pistas": [
+        "Fíjate en la primera palabra de la pregunta.",
+        "La respuesta corta repite ese mismo auxiliar con el pronombre.",
+        "Do you…? → No, I don't."
+      ],
+      "solucion": { "respuesta": "No, I don't. I take the bus.", "explicacion": "Do you have…? se contesta con do: No, I don't. No se repite have, y no se usa be porque la pregunta no es con be." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la pregunta.",
+      "texto": "Does your brother work at night?",
+      "pistas": [
+        "Es una pregunta de sí o no en tercera persona.",
+        "Empieza con el auxiliar; después vienen el sujeto (dos palabras) y un verbo sin -s.",
+        "Auxiliar + sujeto + verbo en forma base + expresión de tiempo."
+      ],
+      "solucion": { "respuesta": "Does your brother work at night?", "explicacion": "La pregunta empieza con Does porque your brother es singular, y work va sin -s porque la marca ya está en Does. At night significa «de noche»." },
+      "audio": true
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.12",
+      "tipo": "ordenar",
+      "dificultad": 3,
+      "enunciado": "Ordena las palabras para formar una pregunta.",
+      "fichas": ["English", "your", "speak", "Does", "father"],
+      "respuestas": ["Does your father speak English"],
+      "traduccion": "¿Tu papá habla inglés?",
+      "pistas": [
+        "Las preguntas de sí o no empiezan con el auxiliar.",
+        "Después del auxiliar va el sujeto completo (posesivo + sustantivo).",
+        "Auxiliar + sujeto + verbo en forma base + idioma."
+      ],
+      "solucion": { "respuesta": "Does your father speak English?", "explicacion": "Primero el auxiliar Does (your father es singular), luego el sujeto your father, el verbo en forma base speak y el complemento English." }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.13",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "¿Tu hermana trabaja en un banco?",
+      "respuestas": [
+        "Does your sister work at a bank?",
+        "Does your sister work in a bank?"
+      ],
+      "pistas": [
+        "En español la pregunta tiene las mismas palabras que la afirmación; en inglés no.",
+        "Tu hermana es singular: ¿qué auxiliar va al principio? ¿Qué le pasa a works?",
+        "Auxiliar de tercera persona + sujeto + verbo en forma base + lugar?"
+      ],
+      "solucion": { "respuesta": "Does your sister work at a bank?", "explicacion": "La pregunta empieza con Does porque your sister equivale a she. Work va en forma base porque la -s pasa al auxiliar. At a bank e in a bank son correctos." },
+      "errores_tipicos": {
+        "Does your sister works at a bank?": "La -s ya está en Does: work, sin -s.",
+        "Your sister works at a bank?": "Solo la entonación no forma una pregunta normal en inglés. Empieza con Does.",
+        "Works your sister at a bank?": "El verbo principal no se adelanta al sujeto: Does your sister work…?"
+      }
+    },
+    {
+      "id": "presente-simple-do-does.preguntas-presente-simple.14",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce la pregunta y la respuesta. Usa una respuesta corta.",
+      "es": "¿Tus hijos hablan inglés? — No.",
+      "respuestas": [
+        "Do your children speak English? No, they don't.",
+        "Do your kids speak English? No, they don't.",
+        "Do your sons speak English? No, they don't."
+      ],
+      "pistas": [
+        "Necesitas una pregunta con auxiliar y una respuesta corta con pronombre.",
+        "Tus hijos es plural: ¿Do o Does? ¿Qué pronombre los sustituye en la respuesta?",
+        "Do + your children + speak…? — No, they + don't."
+      ],
+      "solucion": { "respuesta": "Do your children speak English? No, they don't.", "explicacion": "Your children es plural, así que la pregunta empieza con Do y speak va en forma base. En la respuesta corta, your children se convierte en they y se copia el auxiliar en negativo: No, they don't. Children, kids y sons son válidos." },
+      "errores_tipicos": {
+        "Does your children speak English? No, they doesn't.": "Children es plural: Do… don't.",
+        "Do your children speak English? No, they aren't.": "La pregunta es con do, así que la respuesta corta es con do: No, they don't.",
+        "Do your children speak English? No, they don't speak.": "La respuesta corta no repite el verbo principal: No, they don't."
+      }
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Entrevista para compartir departamento",
+    "contexto": "Buscas a alguien con quien compartir departamento. Ben te llama para conocerte y te hace preguntas de sí o no. Contesta con respuestas cortas y añade un dato.",
+    "dialogo": [
+      { "quien": "Ben", "en": "Do you smoke?", "es": "¿Fumas?" },
+      { "quien": "Tú", "en": "No, I don't.", "es": "No." },
+      { "quien": "Ben", "en": "Do you work from home?", "es": "¿Trabajas desde casa?" },
+      { "quien": "Tú", "en": "No, I don't. I work at an office downtown.", "es": "No. Trabajo en una oficina en el centro." },
+      { "quien": "Ben", "en": "Are you a student?", "es": "¿Eres estudiante?" },
+      { "quien": "Tú", "en": "Yes, I am. I study English at night.", "es": "Sí. Estudio inglés en las noches." },
+      { "quien": "Ben", "en": "OK. And does your cat live with you?", "es": "Bien. ¿Y tu gato vive contigo?" }
+    ],
+    "tu_turno": "Contesta la última pregunta de Ben con una respuesta corta y añade un dato sobre el gato (o di que no tienes gato). Después hazle tú una pregunta con Do you…? o Does…?",
+    "modelo": "Yes, it does. It's very quiet. Do you have pets?",
+    "alternativas": [
+      "No, it doesn't. It lives with my parents. Do you like cats?",
+      "No, I don't have a cat! Do you have a cat?",
+      "Yes, it does. It sleeps all day. Does the apartment have a balcony?"
+    ],
+    "claves": [
+      "Your cat = it → Yes, it does / No, it doesn't.",
+      "Are you…? se contesta con be (Yes, I am); Do you…? con do (Yes, I do).",
+      "Tu pregunta: Do + you…? o Does + sujeto singular…? con el verbo en forma base."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Pregunta de sí o no: Do / Does + sujeto + verbo en forma base…?",
+      "Does con he / she / it y sujetos singulares; Do con I / you / we / they y plurales.",
+      "La -s se muda al auxiliar: Does your brother work…? (nunca works).",
+      "Respuesta corta: Yes / No + pronombre + do / does / don't / doesn't, sin repetir el verbo principal.",
+      "Be pregunta y contesta con be (Are you…? Yes, I am); los demás verbos con do."
+    ],
+    "recuerda": [
+      "No adelantes el verbo principal (Works your brother…?): se adelanta el auxiliar.",
+      "No mezcles be y do: Do you are…? es incorrecto.",
+      "Do you se pronuncia débil (/də jə/); el do de la respuesta corta, fuerte (/duː/)."
+    ]
+  },
+  "repaso": [
+    { "id": "presente-simple-do-does.preguntas-presente-simple.r1", "frente": "Convierte en pregunta: My brother works at a hospital.", "reverso": "Does your brother work at a hospital?", "nota": "Does al principio; work sin -s." },
+    { "id": "presente-simple-do-does.preguntas-presente-simple.r2", "frente": "Respuesta corta afirmativa a Does Ana have a car?", "reverso": "Yes, she does.", "nota": "Ana → she; se copia does; no se repite have." },
+    { "id": "presente-simple-do-does.preguntas-presente-simple.r3", "frente": "¿Qué está mal en «Do you are a student?»?", "reverso": "Are you a student?", "nota": "Be no usa do para preguntar." },
+    { "id": "presente-simple-do-does.preguntas-presente-simple.r4", "frente": "Respuesta corta negativa a Do your parents live here?", "reverso": "No, they don't.", "nota": "Your parents → they." },
+    { "id": "presente-simple-do-does.preguntas-presente-simple.r5", "frente": "¿Cómo contestas Do you work here? afirmativamente?", "reverso": "Yes, I do.", "nota": "No Yes, I am: la pregunta es con do." }
+  ]
+}

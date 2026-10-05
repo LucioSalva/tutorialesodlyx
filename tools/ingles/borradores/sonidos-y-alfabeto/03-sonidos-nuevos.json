@@ -1,0 +1,428 @@
+{
+  "slug": "sonidos-nuevos",
+  "titulo": "Sonidos que no existen en español",
+  "minutos": 40,
+  "objetivos": [
+    "Producir las dos th: la sorda /θ/ de think y la sonora /ð/ de this.",
+    "Pronunciar la h inglesa como un soplo suave y distinguir v de b.",
+    "Distinguir /ʃ/ (she) de /tʃ/ (cheese), /z/ (zoo) de /s/ (Sue) y pronunciar la r inglesa sin vibrar.",
+    "Decir palabras que empiezan con s + consonante sin añadir una e, y no comerte las consonantes finales."
+  ],
+  "situacion": {
+    "titulo": "Tres o árbol",
+    "texto": "Omar pide en una cafetería de Chicago three cookies (tres galletas), pero pone la lengua como en español y dice «tri». La cajera, Grace, duda: ¿tree? ¿three? Al final lo entiende por el contexto, pero Omar se da cuenta de que en inglés la posición de la lengua cambia palabras enteras.",
+    "dialogo": [
+      {"quien": "Omar", "en": "Tree cookies, please.", "es": "(quiere decir) Tres galletas, por favor."},
+      {"quien": "Grace", "en": "Sorry? Three?", "es": "¿Perdón? ¿Tres?"},
+      {"quien": "Omar", "en": "Yes, three. Thank you!", "es": "Sí, tres. ¡Gracias!"}
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "las-dos-th",
+      "titulo": "Las dos th: /θ/ y /ð/",
+      "que_es": "Las letras th representan dos sonidos que el español de México no tiene: /θ/, **sorda** (sin vibración de la garganta), como en [[think]], y /ð/, **sonora** (con vibración), como en [[this]]. Los dos se hacen con la punta de la lengua entre los dientes o tocando el borde de los dientes de arriba.",
+      "para_que": [
+        "Para decir palabras básicas que usarás todo el día: the, this, that, thank you, three, think.",
+        "Para no confundir three con tree, think con sink o they con day."
+      ],
+      "como_funciona": "Coloca la punta de la lengua entre los dientes (se ve un poquito) y sopla aire por encima. Si solo sale aire, es /θ/: [[think]] /θɪŋk/, [[three]] /θriː/, [[thank you]] /ˈθæŋk juː/, [[bath]] /bæθ/. Si además haces vibrar la garganta (pon la mano en el cuello y nota el zumbido), es /ð/: [[this]] /ðɪs/, [[the]] /ðə/, [[they]] /ðeɪ/, [[mother]] /ˈmʌðər/. La /θ/ se parece a la z o la c del español de España («zapato», «cena»); la /ð/ se parece a la d suave de «cada» o «nada», pero con la lengua más adelantada. Errores típicos de un mexicano: cambiar /θ/ por t o s (tree, sink) y /ð/ por d (day, dis). Pista para saber cuál es cuál: las palabras gramaticales pequeñas (the, this, that, they, them, there) llevan /ð/; muchas palabras de contenido (think, three, thank, bath) llevan /θ/. No es una regla absoluta, así que comprueba el AFI.",
+      "estructuras": [
+        {
+          "etiqueta": "th sorda",
+          "formula": [{"t": "lengua entre los dientes", "rol": "otro"}, {"t": "solo aire", "rol": "complemento"}],
+          "ejemplo": [{"t": "three", "rol": "otro"}, {"t": "/θriː/", "rol": "complemento"}],
+          "es": "tres"
+        },
+        {
+          "etiqueta": "th sonora",
+          "formula": [{"t": "lengua entre los dientes", "rol": "otro"}, {"t": "aire + vibración", "rol": "complemento"}],
+          "ejemplo": [{"t": "this", "rol": "otro"}, {"t": "/ðɪs/", "rol": "complemento"}],
+          "es": "este, esta, esto"
+        }
+      ],
+      "ejemplos": [
+        {"en": "three / tree", "es": "tres / árbol", "nota": "/θriː/ frente a /triː/. En tree la lengua toca detrás de los dientes (como la t); en three sale entre ellos."},
+        {"en": "think / sink", "es": "pensar / lavabo, hundirse", "nota": "/θɪŋk/ frente a /sɪŋk/. Si no sacas la lengua, dices sink."},
+        {"en": "they / day", "es": "ellos, ellas / día", "nota": "/ðeɪ/ frente a /deɪ/. La /ð/ vibra pero deja pasar el aire; la d lo corta de golpe."},
+        {"en": "thank you", "es": "gracias", "nota": "/ˈθæŋk juː/: th sorda. Muchos hispanohablantes dicen «tenkiu»; acércate a /θ/ sacando la lengua."},
+        {"en": "mother", "es": "madre", "nota": "/ˈmʌðər/: th sonora en medio de la palabra, entre vocales."}
+      ],
+      "comparacion": {
+        "a": {"titulo": "/θ/ sorda", "items": ["Solo aire, sin vibración", "think, three, thank, bath, mouth", "Parecida a la z del español de España"]},
+        "b": {"titulo": "/ð/ sonora", "items": ["Aire + vibración en la garganta", "the, this, that, they, mother", "Parecida a la d suave de «nada», más adelante"]},
+        "veredicto": "La lengua está en el mismo lugar; lo único que cambia es si la garganta vibra o no."
+      },
+      "pronunciacion": [
+        {"texto": "think", "ipa": "/θɪŋk/", "consejo": "Saca un poco la punta de la lengua entre los dientes y sopla, sin voz. Luego retírala rápido para la i corta. Termina con /ŋk/: la n se hace atrás, como en «banco».", "lento": true},
+        {"texto": "this", "ipa": "/ðɪs/", "consejo": "Misma posición que en think, pero con la garganta vibrando desde el principio (pon la mano en el cuello). No golpees como una d.", "lento": true},
+        {"texto": "three", "ipa": "/θriː/", "consejo": "Lengua entre los dientes para /θ/ y, sin pausa, retrásala para la r inglesa. Si notas que la lengua toca detrás de los dientes al empezar, estás diciendo tree.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «tri» por three.", "bien": "/θriː/", "porque": "«tri» suena como tree (árbol). La /θ/ necesita la lengua entre los dientes."},
+        {"mal": "Decir «dis» por this.", "bien": "/ðɪs/", "porque": "La d española corta el aire; la /ð/ lo deja pasar entre la lengua y los dientes mientras vibra."},
+        {"mal": "Decir «sank you».", "bien": "/ˈθæŋk juː/", "porque": "Con s, la lengua no sale. La /θ/ se hace con la lengua visible entre los dientes."}
+      ]
+    },
+    {
+      "id": "h-y-v",
+      "titulo": "La h aspirada y la v",
+      "que_es": "En español la h es muda y la b y la v suenan igual. En inglés la h **se pronuncia** (casi siempre) como un soplo suave, y la v es un sonido distinto de la b que se hace con los dientes de arriba sobre el labio de abajo.",
+      "para_que": [
+        "Para decir bien palabras muy frecuentes: hello, hi, house, happy, he, her.",
+        "Para no confundir very con berry, vote con boat o van con ban."
+      ],
+      "como_funciona": "**La h** /h/ es solo aire que sale de la garganta, como cuando empañas un espejo con el aliento («jah» muy suave). No es la j española /x/, que roza en la parte de atrás de la boca y suena áspera: si dices «jelou» con j fuerte, suena exagerado. Tampoco la omitas: sin h, [[hi]] suena como [[I]]. Hay unas pocas palabras con h muda que se aprenden de memoria: [[hour]] /aʊər/, [[honest]] /ˈɑːnɪst/, [[honor]]. **La v** /v/: apoya los dientes de arriba sobre el labio de abajo y deja salir el aire haciendo vibrar la voz; notarás un cosquilleo en el labio. **La b** /b/: junta los dos labios y sepáralos de golpe, como en español.",
+      "estructuras": [
+        {
+          "etiqueta": "h aspirada",
+          "formula": [{"t": "soplo suave", "rol": "otro"}, {"t": "vocal", "rol": "complemento"}],
+          "ejemplo": [{"t": "h", "rol": "otro"}, {"t": "ello", "rol": "complemento"}],
+          "es": "hello /həˈloʊ/: hola. La h se oye como un soplo."
+        },
+        {
+          "etiqueta": "v con dientes y labio",
+          "formula": [{"t": "dientes sobre el labio + voz", "rol": "otro"}, {"t": "resto de la palabra", "rol": "complemento"}],
+          "ejemplo": [{"t": "v", "rol": "otro"}, {"t": "ery", "rol": "complemento"}],
+          "es": "very /ˈveri/: muy."
+        }
+      ],
+      "ejemplos": [
+        {"en": "hello", "es": "hola", "nota": "/həˈloʊ/: la h es un soplo suave. La primera sílaba es débil (schwa) y la fuerza va en LO."},
+        {"en": "hi / I", "es": "hola / yo", "nota": "/haɪ/ frente a /aɪ/. Sin la h, dices otra palabra."},
+        {"en": "hour", "es": "hora", "nota": "/aʊər/: una de las pocas palabras con h muda. Suena igual que our (nuestro)."},
+        {"en": "very / berry", "es": "muy / baya", "nota": "/ˈveri/ frente a /ˈberi/. Dientes sobre el labio para very; los dos labios para berry."},
+        {"en": "vote / boat", "es": "votar / barco", "nota": "/voʊt/ frente a /boʊt/. La v tiene ese cosquilleo en el labio; la b es una pequeña explosión."}
+      ],
+      "pronunciacion": [
+        {"texto": "house", "ipa": "/haʊs/", "consejo": "Sopla como para empañar un espejo y di «aus». Nada de j áspera: el aire sale libre desde la garganta.", "lento": true},
+        {"texto": "very", "ipa": "/ˈveri/", "consejo": "Muerde suavemente el labio de abajo con los dientes de arriba y haz sonar la voz antes de soltar. Luego la r inglesa, sin vibrar la punta de la lengua.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «ello» por hello.", "bien": "/həˈloʊ/", "porque": "En inglés la h de hello se pronuncia. Omitirla es un rasgo muy marcado de acento hispano."},
+        {"mal": "Decir «jelou» con j fuerte.", "bien": "/həˈloʊ/ con un soplo suave", "porque": "La j española /x/ roza en el fondo de la boca. La h inglesa es solo aire, sin fricción áspera."},
+        {"mal": "Pronunciar very como «beri».", "bien": "/ˈveri/", "porque": "La v inglesa se hace con los dientes sobre el labio. Con los dos labios dices berry."}
+      ]
+    },
+    {
+      "id": "sh-z-r",
+      "titulo": "sh /ʃ/, z /z/ y la r inglesa",
+      "que_es": "Tres sonidos más que conviene dominar desde el principio: /ʃ/, el sonido de sh en [[she]]; /z/, una s con zumbido, como en [[zoo]] y también en [[is]]; y la r inglesa /r/, que no vibra como la r ni la rr del español.",
+      "para_que": [
+        "Para distinguir she (ella) de sea/see, ship de chip y wash de watch.",
+        "Para decir bien is, his, easy, zero y los plurales como dogs.",
+        "Para que tu r suene inglesa en palabras como red, right, three y car."
+      ],
+      "como_funciona": "**/ʃ/**: es el sonido que haces para pedir silencio, «shhh». Redondea un poco los labios y deja salir el aire de forma continua: [[she]] /ʃiː/, [[shoe]] /ʃuː/, [[shop]] /ʃɑːp/. No es la ch /tʃ/ de «chile», que empieza con un pequeño golpe: [[ship]] /ʃɪp/ frente a [[chip]] /tʃɪp/. **/z/**: en el español de México la letra z suena /s/ («zapato»). En inglés la z es una s con vibración, como el zumbido de una abeja «zzz»: [[zoo]] /zuː/, [[zero]] /ˈzɪroʊ/. Ojo: muchas veces se escribe s pero suena /z/: [[is]] /ɪz/, [[his]] /hɪz/, [[easy]] /ˈiːzi/, [[rose]] /roʊz/. **La r**: la punta de la lengua se curva ligeramente hacia atrás **sin tocar** el paladar, y los labios se redondean un poco: [[red]] /red/, [[right]] /raɪt/. Nunca vibra, ni al principio de palabra: no hay «rr». En inglés estadounidense la r después de vocal también se pronuncia ([[car]] /kɑːr/); en el británico estándar esa r final no suena (/kɑː/).",
+      "estructuras": [
+        {
+          "etiqueta": "s que suena /z/",
+          "formula": [{"t": "letra s", "rol": "otro"}, {"t": "sonido /z/", "rol": "complemento"}],
+          "ejemplo": [{"t": "is", "rol": "otro"}, {"t": "/ɪz/", "rol": "complemento"}],
+          "es": "is (es, está): la s suena con zumbido."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Pares que conviene distinguir",
+          "columnas": ["Palabra", "AFI", "Significado", "Frente a", "AFI del par", "Significado del par"],
+          "filas": [
+            ["ship", "/ʃɪp/", "barco", "chip", "/tʃɪp/", "papa frita de bolsa, chip"],
+            ["wash", "/wɑːʃ/", "lavar", "watch", "/wɑːtʃ/", "reloj de pulsera, mirar"],
+            ["she", "/ʃiː/", "ella", "see", "/siː/", "ver"],
+            ["zoo", "/zuː/", "zoológico", "Sue", "/suː/", "Sue (nombre)"],
+            ["right", "/raɪt/", "correcto, derecha", "light", "/laɪt/", "luz"]
+          ],
+          "audio": [0, 3]
+        }
+      ],
+      "ejemplos": [
+        {"en": "she", "es": "ella", "nota": "/ʃiː/: labios algo redondeados y aire continuo. Si dices «si», el oyente entiende see o sea."},
+        {"en": "cheese", "es": "queso", "nota": "/tʃiːz/: empieza con /tʃ/ (la ch española) y termina con /z/, con zumbido, aunque se escribe s-e."},
+        {"en": "zero", "es": "cero", "nota": "/ˈzɪroʊ/: z con zumbido. No la digas como la s de «cero»."},
+        {"en": "his", "es": "su (de él)", "nota": "/hɪz/: h aspirada, i corta y s que suena /z/."},
+        {"en": "red", "es": "rojo", "nota": "/red/: la r no vibra; la lengua se curva sin tocar nada. Y la d final se pronuncia."}
+      ],
+      "pronunciacion": [
+        {"texto": "she", "ipa": "/ʃiː/", "consejo": "Haz «shhh» como para pedir silencio y, sin cortar el aire, pasa a una i larga con los labios estirados.", "lento": true},
+        {"texto": "zoo", "ipa": "/zuː/", "consejo": "Di «sss» y activa la voz: tiene que zumbar como una abeja. Si pones la mano en la garganta, notas la vibración. Luego una u larga y redondeada.", "lento": true},
+        {"texto": "red", "ipa": "/red/", "consejo": "Antes de hablar, curva la punta de la lengua un poco hacia atrás, sin tocar el paladar, y redondea los labios. La lengua no debe vibrar.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «chi» por she.", "bien": "/ʃiː/", "porque": "La ch española /tʃ/ empieza con un golpe; /ʃ/ es aire continuo. Con /tʃ/ la palabra deja de ser she."},
+        {"mal": "Pronunciar is como «is» con s.", "bien": "/ɪz/", "porque": "La s de is suena /z/, con vibración. No es grave para entenderte, pero sí suena extranjero."},
+        {"mal": "Vibrar la r de red como «rrred».", "bien": "/red/", "porque": "La r inglesa nunca vibra: la lengua no toca el paladar."}
+      ]
+    },
+    {
+      "id": "grupos-y-finales",
+      "titulo": "S + consonante y consonantes finales",
+      "que_es": "En español ninguna palabra empieza por s + consonante: por eso decimos «escuela», «España», «estudiante». En inglés sí existen: [[school]], [[Spain]], [[student]], [[speak]]. Además, el inglés termina muchas palabras en consonantes o grupos de consonantes (desk, friend, first) que el español no tiene, y esas consonantes finales distinguen palabras.",
+      "para_que": [
+        "Para no decir «espeak» o «estudent», que es lo primero que delata un acento hispano.",
+        "Para que te entiendan bed (cama) y no bet (apuesta), cab (taxi) y no cap (gorra).",
+        "Para decir palabras frecuentes como desk, friend, first, and, want."
+      ],
+      "como_funciona": "**S inicial**: empieza directamente con una s sostenida («sssspeak»), sin apoyarte en una vocal previa. Truco: alarga la s del principio y luego pega la consonante: sss-kool, sss-pain. Si la palabra anterior termina en vocal, únela: «my school» → «mai-skul». **Consonantes finales**: pronúncialas siempre, aunque sea suavemente. En español es normal relajar o perder la d final («verdá»), pero en inglés la última consonante puede ser la única diferencia entre dos palabras: [[bed]] /bed/ ≠ [[bet]] /bet/, [[cab]] /kæb/ ≠ [[cap]] /kæp/. Y no añadas una e al final: [[desk]] es /desk/, no «deske». En los grupos finales, di todas las consonantes: [[friend]] /frend/, [[first]] /fɜːrst/.",
+      "estructuras": [
+        {
+          "etiqueta": "s + consonante al inicio",
+          "formula": [{"t": "s sostenida", "rol": "otro"}, {"t": "consonante + resto", "rol": "complemento"}],
+          "ejemplo": [{"t": "s", "rol": "otro"}, {"t": "chool", "rol": "complemento"}],
+          "es": "school /skuːl/: escuela. Sin e al principio."
+        },
+        {
+          "etiqueta": "Consonante final que distingue",
+          "formula": [{"t": "misma palabra", "rol": "otro"}, {"t": "consonante final distinta", "rol": "complemento"}],
+          "ejemplo": [{"t": "be", "rol": "otro"}, {"t": "d / t", "rol": "complemento"}],
+          "es": "bed (cama) / bet (apuesta)."
+        }
+      ],
+      "ejemplos": [
+        {"en": "school", "es": "escuela", "nota": "/skuːl/: una sola sílaba. «es-kul» añade una sílaba que no existe."},
+        {"en": "Spain", "es": "España", "nota": "/speɪn/: el nombre del país en inglés empieza por s + p. Nada de «Espain»."},
+        {"en": "student", "es": "estudiante", "nota": "/ˈstuːdənt/: s + t al principio y n + t al final. Pronuncia la t final, aunque sea suave."},
+        {"en": "bed / bet", "es": "cama / apuesta", "nota": "/bed/ frente a /bet/. Además, la vocal ante una consonante sonora como d se alarga un poco: otra pista para el oyente."},
+        {"en": "friend", "es": "amigo, amiga", "nota": "/frend/: di la n y la d finales. «fren» es difícil de entender."}
+      ],
+      "pronunciacion": [
+        {"texto": "speak", "ipa": "/spiːk/", "consejo": "Empieza con «sss» sostenida y, sin soltar el aire, junta los labios para la p. Una sola sílaba. Termina con una k clara.", "lento": true},
+        {"texto": "desk", "ipa": "/desk/", "consejo": "Una sola sílaba: e corta, s y k. No añadas una e después de la k.", "lento": true}
+      ],
+      "errores": [
+        {"mal": "Decir «espeak».", "bien": "/spiːk/", "porque": "En inglés las palabras pueden empezar con s + consonante. Añadir una e crea una sílaba extra."},
+        {"mal": "Decir «fren» por friend.", "bien": "/frend/", "porque": "Las consonantes finales se pronuncian; sin la d, la palabra es difícil de reconocer."},
+        {"mal": "Escribir Espain o estudent.", "bien": "Spain, student", "porque": "La e que añades al hablar a veces se cuela también en la escritura. En inglés estas palabras empiezan por s."}
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.01",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Dónde pones la punta de la lengua para decir la th de think /θɪŋk/?",
+      "opciones": [
+        {"texto": "Entre los dientes (o tocando el borde de los de arriba), dejando salir aire.", "correcta": true, "porque": "Correcto: /θ/ se hace con la lengua entre los dientes y solo aire, sin vibración."},
+        {"texto": "Detrás de los dientes de arriba, como para la t española.", "correcta": false, "porque": "No: en esa posición dices t. think se convertiría en «tink»."},
+        {"texto": "En la parte de atrás de la boca, como la j española.", "correcta": false, "porque": "No: esa es la zona de la j /x/ y de la k. La th es un sonido de la parte delantera, con la lengua visible."}
+      ],
+      "pistas": [
+        "Recuerda cómo se hacen las dos th.",
+        "Es el único sonido de esta lección en el que la lengua se ve un poco.",
+        "Regla: para /θ/ y /ð/ la punta de la lengua va entre los dientes; /θ/ sin voz, /ð/ con voz."
+      ],
+      "solucion": {"respuesta": "Entre los dientes (o tocando el borde de los de arriba), dejando salir aire.", "explicacion": "La th sorda /θ/ se produce soplando aire entre la lengua y los dientes de arriba. Si la lengua toca detrás de los dientes, sale t o s y dices tink o sink."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.02",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada palabra con su transcripción.",
+      "pares": [
+        {"a": "think", "b": "/θɪŋk/"},
+        {"a": "this", "b": "/ðɪs/"},
+        {"a": "she", "b": "/ʃiː/"},
+        {"a": "zoo", "b": "/zuː/"},
+        {"a": "very", "b": "/ˈveri/"},
+        {"a": "hello", "b": "/həˈloʊ/"}
+      ],
+      "pistas": [
+        "Busca en cada transcripción el símbolo del sonido nuevo.",
+        "/θ/ y /ð/ son las dos th; /ʃ/ es sh; /z/ es la z con zumbido.",
+        "Regla: θ = th sorda (think), ð = th sonora (this), ʃ = sh (she)."
+      ],
+      "solucion": {"respuesta": "think /θɪŋk/ · this /ðɪs/ · she /ʃiː/ · zoo /zuː/ · very /ˈveri/ · hello /həˈloʊ/", "explicacion": "Cada transcripción tiene un símbolo clave: /θ/ en think (sin voz), /ð/ en this (con voz), /ʃ/ en she, /z/ en zoo, /v/ en very y /h/ en hello."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.03",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa cada palabra con th o t.",
+      "frase": "___ree (tres) · ___ree (árbol)",
+      "banco": ["th", "t"],
+      "respuestas": [["th"], ["t"]],
+      "errores_tipicos": {
+        "t | th": "Están al revés: three (tres) lleva th /θ/; tree (árbol) lleva t."
+      },
+      "pistas": [
+        "Las dos palabras suenan parecido, pero solo una lleva la lengua entre los dientes.",
+        "Piensa en el número: ¿se escribe con th?",
+        "Regla: /θ/ (lengua entre los dientes) se escribe th; /t/ (lengua detrás de los dientes) se escribe t."
+      ],
+      "solucion": {"respuesta": "three · tree", "explicacion": "three (tres) se escribe con th y empieza con /θ/, con la lengua entre los dientes. tree (árbol) lleva t, con la lengua detrás de los dientes. Si pronuncias three con t, dices árbol."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.04",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con v o b.",
+      "frase": "___ery good (muy bien) · a ___ig house (una casa grande)",
+      "banco": ["v", "b"],
+      "respuestas": [["v"], ["b"]],
+      "errores_tipicos": {
+        "b | v": "Están al revés: very (muy) va con v; big (grande) con b.",
+        "b | b": "very se escribe con v, y en inglés la v suena distinta: dientes sobre el labio."
+      },
+      "pistas": [
+        "En inglés v y b son sonidos distintos, así que cada palabra tiene la suya.",
+        "very se dice con los dientes sobre el labio; big con los dos labios.",
+        "Regla: /v/ (dientes sobre el labio) se escribe v; /b/ (dos labios) se escribe b."
+      ],
+      "solucion": {"respuesta": "very · big", "explicacion": "very (muy) se escribe con v y se pronuncia con los dientes de arriba sobre el labio de abajo. big (grande) lleva b, con los dos labios. En inglés confundirlas puede cambiar la palabra (very / berry)."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.05",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿En cuál de estas palabras la h NO se pronuncia?",
+      "opciones": [
+        {"texto": "hour", "correcta": true, "porque": "Correcto: hour /aʊər/ tiene h muda y suena igual que our. Es una de las pocas excepciones."},
+        {"texto": "house", "correcta": false, "porque": "No: house /haʊs/ empieza con el soplo de /h/."},
+        {"texto": "hello", "correcta": false, "porque": "No: hello /həˈloʊ/ lleva la h aspirada. Omitirla es un error típico."}
+      ],
+      "pistas": [
+        "Recuerda que en inglés casi todas las h se pronuncian.",
+        "Busca la excepción que se mencionó junto a honest.",
+        "Regla: la h inglesa es un soplo, salvo en unas pocas palabras que se aprenden de memoria, como honest y honor."
+      ],
+      "solucion": {"respuesta": "hour", "explicacion": "En inglés la h normalmente se pronuncia como un soplo suave (house, hello, happy). hour es una excepción: /aʊər/, sin h. Por eso se dice an hour, como verás más adelante."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿Cómo suena la s final de is /ɪz/?",
+      "opciones": [
+        {"texto": "Como /z/: una s con zumbido, con vibración de la garganta.", "correcta": true, "porque": "Correcto: la transcripción dice /z/. Muchas s inglesas suenan así: is, his, easy, rose."},
+        {"texto": "Como la s española de «sí».", "correcta": false, "porque": "No: esa sería /s/, sin vibración. La transcripción de is lleva /z/."},
+        {"texto": "No suena: es muda.", "correcta": false, "porque": "No: la s de is se pronuncia; lo que cambia es que tiene voz."}
+      ],
+      "pistas": [
+        "No te fíes de la letra: mira la transcripción.",
+        "¿Qué símbolo aparece al final de /ɪz/?",
+        "Regla: /z/ es una s sonora, con vibración; se escribe muchas veces con la letra s."
+      ],
+      "solucion": {"respuesta": "Como /z/: una s con zumbido, con vibración de la garganta.", "explicacion": "La transcripción /ɪz/ termina en /z/. Aunque se escriba con s, suena con voz, como el zumbido de una abeja. Lo mismo pasa en his /hɪz/ y easy /ˈiːzi/."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.07",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Estas palabras solo se diferencian en un sonido. Une cada una con su significado.",
+      "pares": [
+        {"a": "three", "b": "tres"},
+        {"a": "tree", "b": "árbol"},
+        {"a": "vote", "b": "votar"},
+        {"a": "boat", "b": "barco"},
+        {"a": "wash", "b": "lavar"},
+        {"a": "watch", "b": "reloj de pulsera"}
+      ],
+      "pistas": [
+        "Son tres parejas: th/t, v/b y sh/ch.",
+        "En cada pareja, la ortografía te indica el sonido: th, v, sh frente a t, b, ch.",
+        "Regla: three /θ/ tres, tree /t/ árbol; vote /v/ votar, boat /b/ barco; wash /ʃ/ lavar, watch /tʃ/ reloj."
+      ],
+      "solucion": {"respuesta": "three–tres · tree–árbol · vote–votar · boat–barco · wash–lavar · watch–reloj de pulsera", "explicacion": "Son pares mínimos: cambiar un solo sonido cambia la palabra. Por eso importa sacar la lengua en three, poner los dientes sobre el labio en vote y hacer /ʃ/ continua en wash."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.08",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Omar escribió esta frase tal como la pronuncia. Señala la palabra mal escrita y corrígela.",
+      "frase": "I'm a student from Espain.",
+      "error": "Espain",
+      "correcciones": ["Spain"],
+      "frase_correcta": "I'm a student from Spain.",
+      "pistas": [
+        "Recuerda qué hace un hispanohablante con las palabras que empiezan por s + consonante.",
+        "Busca una palabra que en español empieza por es-.",
+        "Regla: en inglés las palabras pueden empezar con s + consonante sin e delante."
+      ],
+      "solucion": {"respuesta": "I'm a student from Spain.", "explicacion": "En inglés el país se escribe Spain y se pronuncia /speɪn/, sin e. La e que añadimos al hablar («Espain») se coló en la escritura. Fíjate en que student también empieza por s + t y está bien escrita."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.09",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe las cuatro palabras en orden, separadas por comas.",
+      "texto": "three, tree, think, sink",
+      "pistas": [
+        "Son dos pares: en cada uno, una palabra lleva th y la otra no.",
+        "Fíjate en si oyes el soplo con la lengua entre los dientes (th) o una t / s clara.",
+        "Regla: /θ/ se escribe th; /t/ se escribe t; /s/ se escribe s."
+      ],
+      "solucion": {"respuesta": "three, tree, think, sink", "explicacion": "Oíste /θriː/ (tres), /triː/ (árbol), /θɪŋk/ (pensar) y /sɪŋk/ (lavabo). En cada par, la primera lleva /θ/ y la segunda la sustituye por t o s: exactamente los cambios que hace un hispanohablante sin práctica."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.10",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha la frase y escríbela.",
+      "texto": "Hello, this is my school.",
+      "pistas": [
+        "Son cinco palabras. Empieza con un saludo.",
+        "Escucha la th sonora de la segunda palabra y la s + consonante de la última.",
+        "Regla: this se escribe con th; school empieza por sch- y suena /skuːl/."
+      ],
+      "solucion": {"respuesta": "Hello, this is my school.", "explicacion": "Significa «Hola, esta es mi escuela». Contiene la h aspirada de hello, la /ð/ de this, la /z/ de is y el grupo inicial /sk/ de school, que se escribe sch."}
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.11",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate. Pon la mano en la garganta: en la primera palabra no debe vibrar; en la segunda, sí.",
+      "texto": "three, this",
+      "ipa": "/θriː/, /ðɪs/",
+      "consejo": "En las dos, la punta de la lengua sale entre los dientes. three: solo aire, y enseguida la r inglesa sin vibrar. this: la misma posición, pero con voz desde el inicio; que no suene como «dis».",
+      "es": "tres, esto"
+    },
+    {
+      "id": "sonidos-y-alfabeto.sonidos-nuevos.12",
+      "tipo": "pronunciacion",
+      "dificultad": 3,
+      "enunciado": "Escucha, repite y grábate. Ninguna de estas palabras empieza con e.",
+      "texto": "school, Spain, student, speak",
+      "ipa": "/skuːl/, /speɪn/, /ˈstuːdənt/, /spiːk/",
+      "consejo": "Empieza cada palabra con una s larga («sss») y pega la consonante siguiente sin vocal en medio. Pronuncia las consonantes finales: la l de school, la n de Spain, la t de student, la k de speak.",
+      "es": "escuela, España, estudiante, hablar"
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Trabalenguas de calentamiento",
+    "contexto": "Antes de clase, tu compañero Tom propone un reto: decir frases llenas de los sonidos nuevos sin cambiarlos por sonidos del español.",
+    "dialogo": [
+      {"quien": "Tom", "en": "Say this: three trees.", "es": "Di esto: tres árboles."},
+      {"quien": "Mei", "en": "Three trees. Easy!", "es": "Tres árboles. ¡Fácil!"},
+      {"quien": "Tom", "en": "Now you: she sells shoes.", "es": "Ahora tú: ella vende zapatos."}
+    ],
+    "tu_turno": "Di en voz alta la frase de Tom y después estas dos: «three trees» y «very happy». Grábate y escúchate.",
+    "modelo": "She sells shoes. Three trees. Very happy.",
+    "alternativas": ["She sells shoes… three trees… very happy!"],
+    "claves": ["she y shoes con /ʃ/ continua; sells con /s/.", "three con la lengua entre los dientes; trees con t.", "very con los dientes sobre el labio; happy con h aspirada."]
+  },
+  "resumen": {
+    "esencial": [
+      "/θ/ (think, three) y /ð/ (this, the): lengua entre los dientes; /θ/ sin voz, /ð/ con voz.",
+      "La h inglesa es un soplo suave (hello, house); es muda en hour, honest y pocas más.",
+      "v con los dientes sobre el labio; b con los dos labios: very ≠ berry.",
+      "/ʃ/ = shhh (she); /z/ = s con zumbido (zoo, is); la r inglesa no vibra.",
+      "Sin e delante de s + consonante (school, Spain) y con las consonantes finales pronunciadas (friend, desk)."
+    ],
+    "recuerda": [
+      "Un solo sonido puede cambiar la palabra: three/tree, vote/boat, wash/watch, bed/bet.",
+      "La letra s suena /z/ en muchas palabras: is, his, easy, rose.",
+      "En inglés británico la r después de vocal no suena (car /kɑː/)."
+    ]
+  },
+  "repaso": [
+    {"id": "sonidos-y-alfabeto.sonidos-nuevos.r1", "frente": "¿Qué diferencia hay entre /θ/ y /ð/?", "reverso": "Misma posición (lengua entre los dientes); /θ/ sin voz (think), /ð/ con voz (this)."},
+    {"id": "sonidos-y-alfabeto.sonidos-nuevos.r2", "frente": "¿Cómo es la h inglesa?", "reverso": "Un soplo suave, como al empañar un espejo. No es la j española.", "nota": "Muda en hour, honest, honor."},
+    {"id": "sonidos-y-alfabeto.sonidos-nuevos.r3", "frente": "¿Cómo se hace la v inglesa?", "reverso": "Dientes de arriba sobre el labio de abajo, con voz: very /ˈveri/."},
+    {"id": "sonidos-y-alfabeto.sonidos-nuevos.r4", "frente": "¿Cómo se pronuncia school?", "reverso": "/skuːl/, una sílaba, sin e delante."},
+    {"id": "sonidos-y-alfabeto.sonidos-nuevos.r5", "frente": "she frente a see", "reverso": "she /ʃiː/ (ella) · see /siː/ (ver)."}
+  ]
+}

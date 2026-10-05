@@ -1,0 +1,1146 @@
+{
+  "slug": "expresiones-con-have",
+  "titulo": "Expresiones con have",
+  "minutos": 35,
+  "objetivos": [
+    "Usar have en expresiones de acción: have breakfast / lunch / dinner, have a coffee, have a shower, have a break, have a party, have a good time.",
+    "Saber que en estas expresiones have nunca lleva got y se niega y se pregunta con do / does.",
+    "Usar el presente continuo con estas expresiones (I'm having lunch) y saber por qué no se usa con have de posesión (I'm having a car ✗)."
+  ],
+  "situacion": {
+    "titulo": "Una llamada en mal momento",
+    "texto": "Omar llama a su amiga Lucía un sábado al mediodía. Lucía está ocupada y se lo explica con expresiones de have que no significan poseer nada: significan comer, tomar, bañarse, pasarla bien.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "Hi, Lucía! Are you busy?",
+        "es": "¡Hola, Lucía! ¿Estás ocupada?"
+      },
+      {
+        "quien": "Lucía",
+        "en": "A little. I'm having lunch with my parents.",
+        "es": "Un poco. Estoy comiendo con mis papás."
+      },
+      {
+        "quien": "Omar",
+        "en": "Oh, sorry! We're having a party tonight. Do you want to come?",
+        "es": "¡Ay, perdón! Vamos a hacer una fiesta hoy en la noche. ¿Quieres venir?"
+      },
+      {
+        "quien": "Lucía",
+        "en": "Sure! I usually have a nap after lunch, but eight o'clock is fine.",
+        "es": "¡Claro! Normalmente me echo una siesta después de comer, pero a las ocho está bien."
+      },
+      {
+        "quien": "Omar",
+        "en": "Great. Have a good lunch!",
+        "es": "Perfecto. ¡Buen provecho!"
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "have-de-accion",
+      "titulo": "Have para acciones: comer, tomar, bañarse, pasarla bien",
+      "que_es": "Además de «tener», have forma muchas expresiones que describen **acciones o experiencias**: comer ([[have lunch]]), tomar algo ([[have a coffee]]), bañarse ([[have a shower]]), descansar ([[have a break]]), hacer una fiesta ([[have a party]]), pasarla bien ([[have a good time]]). En ellas have no significa poseer: es un verbo de acción, y se traduce por el verbo que corresponda en español.",
+      "para_que": [
+        "Hablar de las comidas del día: I have breakfast at seven.",
+        "Hablar de higiene y descanso: She has a shower every morning. We have a break at eleven.",
+        "Hablar de eventos y experiencias: They have a party every December. We always have a good time.",
+        "Desear algo a alguien: Have a good day! Have a nice weekend! Have fun!"
+      ],
+      "como_funciona": "Estas expresiones se comportan como cualquier verbo de presente simple: have / has en afirmación, **don't / doesn't have** en negación y **Do / Does…have?** en preguntas. **Nunca llevan got**: [[I've got breakfast]] o [[Have you got lunch at home?]] no significan lo que quieres decir (got convierte have en «tener, poseer»). Fíjate en los artículos: las comidas van **sin artículo** ([[have breakfast]], [[have dinner]]), pero las demás acciones llevan **a** ([[have a shower]], [[have a break]], [[have a party]], [[have a good time]]). Excepción: [[have fun]] va sin a, porque fun es incontable ([[have a fun]] es incorrecto). Un apunte de variedades: para bañarse, en Estados Unidos es más común [[take a shower]]; en Reino Unido, [[have a shower]]. Las dos son correctas en todas partes.",
+      "estructuras": [
+        {
+          "etiqueta": "Comidas (sin artículo)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have / has",
+              "rol": "verbo"
+            },
+            {
+              "t": "breakfast / lunch / dinner",
+              "rol": "complemento"
+            },
+            {
+              "t": "cuándo",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "dinner",
+              "rol": "complemento"
+            },
+            {
+              "t": "at nine",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Cenamos a las nueve."
+        },
+        {
+          "etiqueta": "Otras acciones (con a)",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have / has",
+              "rol": "verbo"
+            },
+            {
+              "t": "a shower / a break / a party…",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "My dad",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "a coffee",
+              "rol": "complemento"
+            },
+            {
+              "t": "every afternoon",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "Mi papá se toma un café todas las tardes."
+        },
+        {
+          "etiqueta": "Negación y pregunta (con do, sin got)",
+          "formula": [
+            {
+              "t": "Do / Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "expresión",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Do",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lunch",
+              "rol": "complemento"
+            },
+            {
+              "t": "at home?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿Comes en casa?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Expresiones frecuentes con have",
+          "columnas": [
+            "Expresión",
+            "Significado",
+            "Ejemplo"
+          ],
+          "filas": [
+            [
+              "have breakfast",
+              "desayunar",
+              "I have breakfast at seven."
+            ],
+            [
+              "have lunch",
+              "comer (a mediodía)",
+              "She has lunch at work."
+            ],
+            [
+              "have dinner",
+              "cenar",
+              "We have dinner late."
+            ],
+            [
+              "have a coffee / a tea",
+              "tomarse un café / un té",
+              "Let's have a coffee."
+            ],
+            [
+              "have a shower / a bath",
+              "bañarse (regadera / tina)",
+              "He has a shower after the gym."
+            ],
+            [
+              "have a break",
+              "tomarse un descanso",
+              "They have a break at eleven."
+            ],
+            [
+              "have a nap",
+              "echarse una siesta",
+              "My grandpa has a nap every day."
+            ],
+            [
+              "have a party",
+              "hacer una fiesta",
+              "We have a party every year."
+            ],
+            [
+              "have a good time / fun",
+              "pasarla bien / divertirse",
+              "Have fun!"
+            ]
+          ],
+          "audio": [
+            0,
+            2
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "I have breakfast at seven.",
+          "es": "Desayuno a las siete.",
+          "partes": [
+            {
+              "t": "I",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "breakfast",
+              "rol": "complemento"
+            },
+            {
+              "t": "at seven",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Sin artículo: have breakfast, no have the breakfast ni have a breakfast. Tampoco take breakfast, que es un calco de «tomar el desayuno»."
+        },
+        {
+          "en": "My sister doesn't have lunch at home.",
+          "es": "Mi hermana no come en casa.",
+          "partes": [
+            {
+              "t": "My sister",
+              "rol": "sujeto"
+            },
+            {
+              "t": "doesn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "lunch",
+              "rol": "complemento"
+            },
+            {
+              "t": "at home",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Negación con doesn't, como cualquier verbo. Con have got no se podría: She hasn't got lunch significaría «no tiene (no trae) comida»."
+        },
+        {
+          "en": "Does Tom have a shower in the morning?",
+          "es": "¿Tom se baña en la mañana?",
+          "partes": [
+            {
+              "t": "Does",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "Tom",
+              "rol": "sujeto"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a shower",
+              "rol": "complemento"
+            },
+            {
+              "t": "in the morning?",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Pregunta con Does, nunca Has Tom got a shower? (eso preguntaría si Tom tiene una regadera)."
+        },
+        {
+          "en": "We always have a good time at Grace's parties.",
+          "es": "Siempre la pasamos bien en las fiestas de Grace.",
+          "partes": [
+            {
+              "t": "We",
+              "rol": "sujeto"
+            },
+            {
+              "t": "always",
+              "rol": "tiempo"
+            },
+            {
+              "t": "have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a good time",
+              "rol": "complemento"
+            },
+            {
+              "t": "at Grace's parties",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Always va antes del verbo, como con cualquier verbo de acción. Aquí Grace's sí es posesivo: las fiestas de Grace."
+        },
+        {
+          "en": "Have a nice weekend!",
+          "es": "¡Que tengas buen fin de semana!",
+          "partes": [
+            {
+              "t": "Have",
+              "rol": "verbo"
+            },
+            {
+              "t": "a nice weekend!",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Have al inicio y sin sujeto sirve para desear algo: Have a good day! Have fun! Have a good trip! En español solemos usar «que tengas…» o «¡buen…!»."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Have = poseer (admite got)",
+          "items": [
+            "I have a car. = I've got a car.",
+            "She has a cold. = She's got a cold.",
+            "Do you have a pen? = Have you got a pen?"
+          ]
+        },
+        "b": {
+          "titulo": "Have = acción (nunca got)",
+          "items": [
+            "I have breakfast at seven.",
+            "She has a shower at night.",
+            "Do you have lunch at home?"
+          ]
+        },
+        "veredicto": "Si puedes sustituir have por «poseer» o «tener» (algo, una enfermedad, un familiar), got es posible. Si have es comer, tomar, bañarse, descansar o pasarla, got queda prohibido y la negación y la pregunta se hacen con do / does."
+      },
+      "pronunciacion": [
+        {
+          "texto": "breakfast",
+          "ipa": "/ˈbrɛkfəst/",
+          "consejo": "Aunque se escribe break + fast, no se pronuncia «breik»: la primera sílaba es /brɛk/, con una e corta como la de «perro». Son dos sílabas y el acento va en la primera: BREK-fust.",
+          "lento": true
+        },
+        {
+          "texto": "have lunch",
+          "ipa": "/hæv ˈlʌntʃ/",
+          "consejo": "La u de lunch es /ʌ/: una a corta y relajada, con la boca a medio abrir, no una u española. Termina en /ntʃ/: la n y la ch del español «ancho» juntas."
+        },
+        {
+          "texto": "a shower",
+          "ipa": "/ə ˈʃaʊər/",
+          "consejo": "La sh es como el sonido para pedir silencio («shhh»), con los labios un poco hacia afuera; no es ch. Shower suena «SHA-uer», con el acento en la primera parte."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I take breakfast at seven.",
+          "bien": "I have breakfast at seven.",
+          "porque": "Calco de «tomar el desayuno». Para las comidas se usa have (o eat). Take a shower sí es correcto, pero take breakfast no."
+        },
+        {
+          "mal": "I've got lunch at one.",
+          "bien": "I have lunch at one.",
+          "porque": "Have got significa poseer. Para la acción de comer se usa have sin got."
+        },
+        {
+          "mal": "We have the dinner at nine.",
+          "bien": "We have dinner at nine.",
+          "porque": "Las comidas del día en general van sin artículo."
+        },
+        {
+          "mal": "Have a fun!",
+          "bien": "Have fun!",
+          "porque": "Fun es incontable: no lleva a. En cambio, se dice Have a good time!"
+        }
+      ]
+    },
+    {
+      "id": "having-continuo",
+      "titulo": "I'm having lunch: have en presente continuo",
+      "que_es": "Como estas expresiones son acciones, pueden ir en **presente continuo** para decir que están ocurriendo ahora: [[I'm having lunch]] (estoy comiendo). Pero el have de **posesión** es un verbo de estado, como know o like, y no va en continuo: [[I'm having a car]] es incorrecto; se dice [[I have a car]] o [[I've got a car]].",
+      "para_que": [
+        "Explicar qué estás haciendo en este momento: Sorry, I'm having a shower!",
+        "Hablar de un periodo actual: We're having a great time here.",
+        "Planes ya organizados (ya lo viste con el continuo): We're having a party on Saturday."
+      ],
+      "como_funciona": "La regla es la de la unidad anterior: presente simple para hábitos y rutinas, presente continuo para lo que pasa ahora. Con have de acción: {{sujeto:Sujeto}} + {{auxiliar:am / is / are}} + {{verbo:having}} + {{complemento:expresión}}. Ortografía: have pierde la e antes de -ing, como make → making: **having**, nunca haveing. Con have de posesión, en cambio, el continuo no se usa: aunque en español digas «estoy teniendo problemas», para una posesión (un carro, un hermano, el pelo largo) usa el presente simple. Hay casos intermedios, como [[I'm having problems with my computer]], que sí se dicen porque describen una experiencia en curso; no te preocupes por ellos ahora: la regla segura es posesión → simple; acción → simple o continuo según el momento.",
+      "estructuras": [
+        {
+          "etiqueta": "Acción en curso",
+          "formula": [
+            {
+              "t": "Sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "am / is / are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "expresión",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "They",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "a break",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Están tomando un descanso."
+        },
+        {
+          "etiqueta": "Pregunta",
+          "formula": [
+            {
+              "t": "Am / Is / Are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "sujeto",
+              "rol": "sujeto"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "expresión",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Are",
+              "rol": "auxiliar"
+            },
+            {
+              "t": "you",
+              "rol": "sujeto"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "a good time?",
+              "rol": "complemento"
+            }
+          ],
+          "es": "¿La estás pasando bien?"
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Sorry, I'm having a shower.",
+          "es": "Perdón, me estoy bañando.",
+          "partes": [
+            {
+              "t": "Sorry,",
+              "rol": "otro"
+            },
+            {
+              "t": "I'm",
+              "rol": "sujeto"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "a shower",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Acción en este momento → continuo. Con I have a shower dirías que es tu costumbre, no lo que haces ahora."
+        },
+        {
+          "en": "Ben is having dinner with his boss tonight.",
+          "es": "Ben va a cenar con su jefe hoy en la noche.",
+          "partes": [
+            {
+              "t": "Ben",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is having",
+              "rol": "verbo"
+            },
+            {
+              "t": "dinner",
+              "rol": "complemento"
+            },
+            {
+              "t": "with his boss",
+              "rol": "complemento"
+            },
+            {
+              "t": "tonight",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "Plan ya organizado para el futuro cercano: presente continuo, como viste en la unidad anterior."
+        },
+        {
+          "en": "We're having a great time in Oaxaca.",
+          "es": "La estamos pasando súper bien en Oaxaca.",
+          "situacion": "Un mensaje desde las vacaciones.",
+          "partes": [
+            {
+              "t": "We're",
+              "rol": "sujeto"
+            },
+            {
+              "t": "having",
+              "rol": "verbo"
+            },
+            {
+              "t": "a great time",
+              "rol": "complemento"
+            },
+            {
+              "t": "in Oaxaca",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Experiencia de este periodo: continuo. Compara con We always have a good time there (hábito: simple)."
+        },
+        {
+          "en": "My brother has a motorcycle.",
+          "es": "Mi hermano tiene una moto.",
+          "partes": [
+            {
+              "t": "My brother",
+              "rol": "sujeto"
+            },
+            {
+              "t": "has",
+              "rol": "verbo"
+            },
+            {
+              "t": "a motorcycle",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Posesión: presente simple (o has got). My brother is having a motorcycle es incorrecto aunque hables de ahora mismo."
+        }
+      ],
+      "visual": {
+        "tipo": "linea_tiempo",
+        "titulo": "Have lunch: hábito y ahora",
+        "marcas": [
+          {
+            "pos": 0.15,
+            "texto": "have lunch",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.35,
+            "texto": "have lunch",
+            "tipo": "repeticion"
+          },
+          {
+            "pos": 0.45,
+            "texto": "I'm having lunch",
+            "tipo": "tramo",
+            "hasta": 0.55
+          },
+          {
+            "pos": 0.75,
+            "texto": "have lunch",
+            "tipo": "repeticion"
+          }
+        ],
+        "ahora": 0.5,
+        "pie": "I have lunch at two (todos los días, las marcas repetidas) · I'm having lunch (el tramo que contiene el ahora). Con have de posesión (I have a car) solo existe el simple."
+      },
+      "pronunciacion": [
+        {
+          "texto": "having",
+          "ipa": "/ˈhævɪŋ/",
+          "consejo": "La terminación -ing es una i corta seguida de /ŋ/, el sonido de la n de «tengo»: la parte de atrás de la lengua toca el paladar y la g no se suelta como una g aparte.",
+          "lento": true
+        },
+        {
+          "texto": "I'm having lunch.",
+          "ipa": "/aɪm ˈhævɪŋ ˈlʌntʃ/",
+          "consejo": "I'm es una sola sílaba (/aɪm/). El ritmo marca dos golpes: HAV-ing LUNCH."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "I'm having a car.",
+          "bien": "I have a car. / I've got a car.",
+          "porque": "Have de posesión es un verbo de estado: no va en continuo."
+        },
+        {
+          "mal": "She's haveing a bath.",
+          "bien": "She's having a bath.",
+          "porque": "Have termina en e muda: se quita antes de -ing, como make → making."
+        },
+        {
+          "mal": "I have lunch now, sorry.",
+          "bien": "I'm having lunch now, sorry.",
+          "porque": "Para una acción que ocurre en este momento se usa el continuo; I have lunch describe un hábito."
+        },
+        {
+          "mal": "We're having got a party.",
+          "bien": "We're having a party.",
+          "porque": "Got nunca aparece con have de acción ni en continuo."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "have-y-have-got.expresiones-con-have.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Relaciona cada expresión con su significado.",
+      "pares": [
+        {
+          "a": "have breakfast",
+          "b": "desayunar"
+        },
+        {
+          "a": "have a shower",
+          "b": "bañarse"
+        },
+        {
+          "a": "have a break",
+          "b": "tomarse un descanso"
+        },
+        {
+          "a": "have a nap",
+          "b": "echarse una siesta"
+        },
+        {
+          "a": "have a good time",
+          "b": "pasarla bien"
+        },
+        {
+          "a": "have a party",
+          "b": "hacer una fiesta"
+        }
+      ],
+      "pistas": [
+        "En todas ellas have es una acción, no posesión.",
+        "Fíjate en el sustantivo: breakfast, shower, break, nap, time, party.",
+        "Empieza por las que se parecen al español; good time no se traduce palabra por palabra, y party con have significa organizarla."
+      ],
+      "solucion": {
+        "respuesta": "breakfast → desayunar · shower → bañarse · break → descanso · nap → siesta · good time → pasarla bien · party → hacer una fiesta",
+        "explicacion": "En estas expresiones el significado lo aporta el sustantivo y have funciona como verbo de acción. Por eso se traducen con verbos distintos en español."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "¿En qué oración got es posible?",
+      "pregunta": "Elige la oración en la que podrías añadir got (have → have got) sin cambiar el significado.",
+      "opciones": [
+        {
+          "texto": "I have a sore throat.",
+          "correcta": true,
+          "porque": "Aquí have significa tener (un malestar): I've got a sore throat significa lo mismo."
+        },
+        {
+          "texto": "I have breakfast at eight.",
+          "correcta": false,
+          "porque": "Have breakfast es una acción (desayunar). Con got diría que posees un desayuno, no que desayunas."
+        },
+        {
+          "texto": "I have a shower every night.",
+          "correcta": false,
+          "porque": "Have a shower es la acción de bañarse. I've got a shower significaría «tengo una regadera»."
+        },
+        {
+          "texto": "I have a good time with my friends.",
+          "correcta": false,
+          "porque": "Have a good time es una experiencia (pasarla bien), no una posesión: no admite got."
+        }
+      ],
+      "pistas": [
+        "Got solo es posible cuando have significa poseer o tener.",
+        "Pregúntate en cada oración: ¿esto se «tiene» o se «hace»?",
+        "Posesión, familia, rasgos y malestares admiten got; comidas, baños, descansos y experiencias, no."
+      ],
+      "solucion": {
+        "respuesta": "I have a sore throat.",
+        "explicacion": "Un dolor de garganta es un malestar que se tiene, así que admite have got. Las otras tres son acciones o experiencias con have, que nunca llevan got."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con have o has y, si hace falta, con a. Si no hace falta artículo, escribe solo el verbo.",
+      "frase": "Priya ___ lunch at one, and then she ___ break.",
+      "traduccion": "Priya come a la una y luego se toma un descanso.",
+      "respuestas": [
+        [
+          "has"
+        ],
+        [
+          "has a"
+        ]
+      ],
+      "errores_tipicos": {
+        "has a | has a": "Las comidas del día van sin artículo: has lunch, no has a lunch.",
+        "has | has": "Break sí necesita a: has a break.",
+        "have | have a": "Priya es she: el verbo es has."
+      },
+      "pistas": [
+        "Priya es tercera persona del singular. Y recuerda: las comidas van sin artículo.",
+        "Mira la palabra después de cada hueco: lunch es una comida; break es otra acción.",
+        "Comida → have / has + comida (sin a); otras acciones → have / has + a + sustantivo."
+      ],
+      "solucion": {
+        "respuesta": "has … has a",
+        "explicacion": "Priya es she, por eso has en los dos casos. Lunch es una comida y no lleva artículo; break sí lleva a: has a break."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.04",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Convierte en pregunta de sí o no.",
+      "origen": "Your kids have breakfast at school.",
+      "instruccion": "Pregunta",
+      "respuestas": [
+        "Do your kids have breakfast at school?"
+      ],
+      "errores_tipicos": {
+        "Have your kids got breakfast at school?": "Con have de acción no se usa got: la pregunta se hace con do.",
+        "Have your kids breakfast at school?": "Have de acción es un verbo normal: necesita el auxiliar do para preguntar.",
+        "Does your kids have breakfast at school?": "Your kids es plural (they): el auxiliar es do."
+      },
+      "pistas": [
+        "Have breakfast es una acción: se pregunta como cualquier verbo del presente simple.",
+        "El sujeto es your kids (plural).",
+        "Do + sujeto plural + have + comida + lugar?, como en Do your friends have lunch at home?"
+      ],
+      "solucion": {
+        "respuesta": "Do your kids have breakfast at school?",
+        "explicacion": "Have breakfast es un verbo de acción, así que se pregunta con el auxiliar do (your kids = they). Nada de got y nada de invertir have."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.05",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la forma correcta de have: presente simple (have / has) o presente continuo (am / is / are having). Usa contracción si quieres.",
+      "frase": "Mei usually ___ dinner at eight, but tonight she ___ dinner with her friends at a restaurant.",
+      "traduccion": "Mei normalmente cena a las ocho, pero hoy en la noche va a cenar con sus amigos en un restaurante.",
+      "respuestas": [
+        [
+          "has"
+        ],
+        [
+          "is having",
+          "'s having"
+        ]
+      ],
+      "errores_tipicos": {
+        "has | has": "Tonight con un plan ya organizado (con amigos, en un restaurante) pide presente continuo: is having.",
+        "is having | is having": "Usually indica un hábito: presente simple, has.",
+        "has | is haveing": "Ortografía: have pierde la e: having."
+      },
+      "pistas": [
+        "Hay un hábito y un plan organizado para hoy.",
+        "Mira las palabras usually y tonight.",
+        "Hábito → presente simple con -s de tercera persona; plan concreto de hoy → be + verbo -ing."
+      ],
+      "solucion": {
+        "respuesta": "has … is having",
+        "explicacion": "Usually marca un hábito: has dinner. Tonight, con un plan concreto con amigos, va en presente continuo: is having dinner. Have de acción admite el continuo; have de posesión no."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.06",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Esta oración tiene un error. Señálalo y corrígelo.",
+      "frase": "Sorry, Tom is busy right now. He's got a shower.",
+      "error": "got",
+      "correcciones": [
+        "having"
+      ],
+      "frase_correcta": "Sorry, Tom is busy right now. He's having a shower.",
+      "pistas": [
+        "Tom está haciendo algo en este momento.",
+        "Mira la segunda oración: ¿tener una regadera o bañarse?",
+        "Have a shower es una acción; para algo que pasa ahora se usa be + having."
+      ],
+      "solucion": {
+        "respuesta": "having",
+        "explicacion": "He's got a shower significa «tiene una regadera». Lo que se quiere decir es que se está bañando en este momento (right now): He's having a shower, donde He's = he is."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.07",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración negativa.",
+      "fichas": [
+        "have",
+        "don't",
+        "breakfast",
+        "on",
+        "we",
+        "weekdays"
+      ],
+      "respuestas": [
+        "we don't have breakfast on weekdays",
+        "On weekdays we don't have breakfast"
+      ],
+      "traduccion": "Entre semana no desayunamos.",
+      "pistas": [
+        "Negación de presente simple con un verbo de acción.",
+        "Sujeto + auxiliar negativo + verbo + comida + expresión de tiempo.",
+        "Sujeto + don't + have + comida (sin artículo) + expresión de tiempo, como en They don't have lunch on Sundays."
+      ],
+      "solucion": {
+        "respuesta": "We don't have breakfast on weekdays.",
+        "explicacion": "Have breakfast se niega con don't (we). Breakfast va sin artículo y la expresión de tiempo on weekdays va al final."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa have.",
+      "es": "Mis abuelos se echan una siesta todas las tardes.",
+      "respuestas": [
+        "My grandparents have a nap every afternoon.",
+        "Every afternoon my grandparents have a nap.",
+        "Every afternoon, my grandparents have a nap."
+      ],
+      "errores_tipicos": {
+        "My grandparents has a nap every afternoon.": "My grandparents es plural (they): el verbo es have.",
+        "My grandparents have nap every afternoon.": "Nap necesita el artículo a: have a nap.",
+        "My grandparents are having a nap every afternoon.": "Every afternoon marca un hábito: presente simple, no continuo."
+      },
+      "pistas": [
+        "Es un hábito: presente simple con have de acción.",
+        "El sujeto es plural y la siesta es «a nap».",
+        "Sujeto plural + have + a + sustantivo + expresión de frecuencia, como en My parents have a coffee every morning."
+      ],
+      "solucion": {
+        "respuesta": "My grandparents have a nap every afternoon.",
+        "explicacion": "Every afternoon indica un hábito, así que presente simple. My grandparents = they → have. Nap es contable y lleva a: have a nap."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.09",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés. Usa have en presente continuo.",
+      "es": "¿La están pasando bien?",
+      "respuestas": [
+        "Are you having a good time?",
+        "Are you guys having a good time?",
+        "Are you all having a good time?",
+        "Are you having fun?",
+        "Are you guys having fun?",
+        "Are you all having fun?",
+        "Are you having a great time?",
+        "Are you having a nice time?"
+      ],
+      "errores_tipicos": {
+        "Do you have a good time?": "Esa pregunta es de hábito (¿sueles pasarla bien?). Para ahora mismo se usa el continuo: Are you having…?",
+        "Are you having a fun?": "Fun es incontable: have fun, sin a.",
+        "Have you got a good time?": "Have a good time es una experiencia, no una posesión: no lleva got."
+      },
+      "pistas": [
+        "Es una pregunta sobre lo que pasa ahora: presente continuo.",
+        "Pasarla bien = have a good time (o have fun). Empieza con el auxiliar de be.",
+        "Be + sujeto + having + expresión, como en Is she having a good day?"
+      ],
+      "solucion": {
+        "respuesta": "Are you having a good time?",
+        "explicacion": "La pregunta se refiere al momento actual, por eso va en continuo: Are you having…? Pasarla bien es have a good time (o have fun, sin a). En inglés you sirve para una o varias personas."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.10",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Un compañero de trabajo te manda un mensaje a la una y media.",
+      "lineas": [
+        {
+          "quien": "Sam",
+          "en": "Hey, are you at your desk? The printer isn't working.",
+          "es": "Oye, ¿estás en tu escritorio? La impresora no funciona."
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "No, sorry. I'm having lunch in the park.",
+          "correcta": true,
+          "porque": "Explicas lo que estás haciendo ahora con have de acción en continuo. Es natural y correcto."
+        },
+        {
+          "texto": "No, sorry. I'm having got lunch in the park.",
+          "correcta": false,
+          "porque": "Got no se usa con have de acción ni en continuo."
+        },
+        {
+          "texto": "No, sorry. I have lunch in the park now.",
+          "correcta": false,
+          "porque": "Para lo que pasa en este momento se usa el continuo; I have lunch describe un hábito."
+        },
+        {
+          "texto": "No, sorry. I'm having the lunch in the park.",
+          "correcta": false,
+          "porque": "Las comidas van sin artículo: having lunch."
+        }
+      ],
+      "pistas": [
+        "Estás haciendo algo justo ahora.",
+        "Revisa el tiempo verbal, la presencia de got y el artículo de cada opción.",
+        "Acción en este momento → am having + comida sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "No, sorry. I'm having lunch in the park.",
+        "explicacion": "Estás comiendo en este momento, así que presente continuo: I'm having lunch. Lunch no lleva artículo y got no aparece nunca con have de acción."
+      }
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.11",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe lo que dice Grace antes de colgar.",
+      "texto": "Have a good weekend and have fun at the party!",
+      "pistas": [
+        "Son dos deseos que empiezan igual.",
+        "El primero lleva artículo; el segundo, no.",
+        "Have a good + periodo de tiempo… and have + palabra incontable (sin a) + at the party."
+      ],
+      "solucion": {
+        "respuesta": "Have a good weekend and have fun at the party!",
+        "explicacion": "Have al inicio sin sujeto expresa un deseo. Have a good weekend lleva a; have fun no, porque fun es incontable."
+      },
+      "audio": true
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.12",
+      "tipo": "escritura",
+      "dificultad": 2,
+      "enunciado": "Describe tu día con expresiones de have.",
+      "objetivo": "Usar have de acción en presente simple (rutina) y en presente continuo (ahora).",
+      "instrucciones": "Escribe entre 40 y 70 palabras sobre un día normal: a qué hora desayunas, comes y cenas, cuándo te bañas y si tomas descansos. Termina con una oración sobre lo que estás haciendo ahora mismo usando I'm having… Incluye al menos una negación con don't have.",
+      "vocabulario_apoyo": [
+        "have breakfast / lunch / dinner",
+        "have a shower",
+        "have a coffee",
+        "have a break",
+        "have a nap",
+        "usually, always, never",
+        "at + hora"
+      ],
+      "estructuras": [
+        "I have breakfast at…",
+        "I don't have… on weekdays.",
+        "I usually have a coffee at…",
+        "Right now I'm having…"
+      ],
+      "ejemplo": "My friend Diego works at night. He has breakfast at two in the afternoon! He doesn't have lunch. He has a coffee at six and a break at midnight. Right now he's having a shower.",
+      "min_palabras": 40,
+      "comprobaciones": [
+        {
+          "descripcion": "Usas al menos una comida con have (have breakfast / lunch / dinner)",
+          "patron": "\\bhave (breakfast|lunch|dinner)\\b"
+        },
+        {
+          "descripcion": "Incluyes una negación con don't have",
+          "patron": "\\b(don't|do not) have\\b"
+        },
+        {
+          "descripcion": "Usas el presente continuo I'm having",
+          "patron": "\\b(i'm|i am) having\\b"
+        }
+      ],
+      "criterios": [
+        "¿Las comidas van sin artículo (have lunch, no have the lunch)?",
+        "¿Las otras acciones llevan a (a shower, a break)?",
+        "¿Usaste presente simple para la rutina y continuo solo para lo que pasa ahora?",
+        "¿Evitaste got en todas las expresiones de acción?"
+      ],
+      "modelo": "I get up at six thirty and I have a shower. I have breakfast at seven: usually eggs and coffee. I have lunch at work at two, and I always have a short break at five. I don't have dinner late; I have dinner at eight. On Sundays I have a nap. Right now I'm having a cup of tea.",
+      "explicacion": "El modelo usa presente simple con have para toda la rutina (have a shower, have breakfast, have lunch) y acompaña los hábitos con usually y always. La negación I don't have dinner late usa do, no got. Las comidas van sin artículo; a shower, a break y a nap llevan a. Solo la última oración, que describe el momento actual, va en continuo: I'm having a cup of tea.",
+      "errores_comunes": [
+        "Escribir I take breakfast (calco de «tomar el desayuno»).",
+        "Añadir got: I've got lunch at two.",
+        "Poner artículo a las comidas: I have the dinner.",
+        "Usar el continuo para la rutina: I'm having breakfast every day at seven."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "¿Te llamo después?",
+    "contexto": "Tu amiga Aisha te llama por teléfono en un momento en que estás ocupado. Luego te invita a algo.",
+    "dialogo": [
+      {
+        "quien": "Aisha",
+        "en": "Hi! Is this a good time?",
+        "es": "¡Hola! ¿Es buen momento?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      },
+      {
+        "quien": "Aisha",
+        "en": "No problem. We're having a barbecue on Sunday. Do you want to come?",
+        "es": "No hay problema. Vamos a hacer una carne asada el domingo. ¿Quieres venir?"
+      },
+      {
+        "quien": "Tú",
+        "en": "…",
+        "es": "…"
+      }
+    ],
+    "tu_turno": "Explica qué estás haciendo ahora con I'm having… Luego acepta la invitación y despídete deseándole algo con Have a…!",
+    "modelo": "Not really, sorry. I'm having dinner with my family. — Sure, I'd love to! See you on Sunday. Have a nice evening!",
+    "alternativas": [
+      "Sorry, I'm having a shower. Please call me in ten minutes. — Great! I'm free on Sunday. Have a good night!",
+      "Not right now. We're having a meeting. — Yes, thanks! Have a good day!"
+    ],
+    "claves": [
+      "Acción de este momento → I'm having + expresión.",
+      "Nada de got con have de acción.",
+      "Para despedirte: Have a good / nice + día, noche, fin de semana. I'd love to es una fórmula fija: «me encantaría»."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Have también significa comer, tomar, bañarse, descansar, pasarla: have breakfast, have a shower, have a good time.",
+      "Con estas expresiones: don't / doesn't have y Do / Does…have?, nunca got.",
+      "Comidas sin artículo (have lunch); las demás con a (have a break). Excepción: have fun.",
+      "Pueden ir en continuo: I'm having lunch. El have de posesión, no: I'm having a car ✗."
+    ],
+    "recuerda": [
+      "No digas take breakfast: se dice have breakfast.",
+      "Take a shower (más estadounidense) y have a shower (más británico) son correctos los dos.",
+      "Have a good day! / Have fun! sirven para desear algo al despedirte.",
+      "having se escribe sin e."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "have-y-have-got.expresiones-con-have.r1",
+      "frente": "¿Cómo se dice «desayuno a las siete»?",
+      "reverso": "I have breakfast at seven.",
+      "nota": "Sin artículo y sin take."
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.r2",
+      "frente": "¿Se puede decir I've got lunch at one?",
+      "reverso": "No → I have lunch at one.",
+      "nota": "Have got solo es poseer; have lunch es una acción."
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.r3",
+      "frente": "«Me estoy bañando» con have",
+      "reverso": "I'm having a shower.",
+      "nota": "Acción en curso → continuo."
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.r4",
+      "frente": "¿Qué está mal en I'm having a car?",
+      "reverso": "Have de posesión no va en continuo → I have a car / I've got a car.",
+      "nota": "Posesión = verbo de estado."
+    },
+    {
+      "id": "have-y-have-got.expresiones-con-have.r5",
+      "frente": "¿Have fun o have a fun?",
+      "reverso": "Have fun!",
+      "nota": "Fun es incontable. Pero: have a good time."
+    }
+  ]
+}

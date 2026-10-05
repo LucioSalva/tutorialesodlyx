@@ -1,0 +1,1224 @@
+{
+  "slug": "dias-meses-estaciones",
+  "titulo": "Días, meses y estaciones",
+  "minutos": 40,
+  "objetivos": [
+    "Decir y escribir los días de la semana y los meses con mayúscula inicial.",
+    "Pronunciar bien los nombres difíciles: Wednesday, Thursday, February, July.",
+    "Nombrar las estaciones en minúscula y conocer fall (EE. UU.) y autumn (R. U.).",
+    "Preguntar y decir qué día es con be: What day is it today? It's Friday."
+  ],
+  "situacion": {
+    "titulo": "¿Qué día es hoy?",
+    "texto": "Mei y Omar trabajan en la misma oficina. Omar acaba de volver de vacaciones y ha perdido la noción del tiempo.",
+    "dialogo": [
+      {
+        "quien": "Omar",
+        "en": "What day is it today?",
+        "es": "¿Qué día es hoy?"
+      },
+      {
+        "quien": "Mei",
+        "en": "It's Thursday.",
+        "es": "Es jueves."
+      },
+      {
+        "quien": "Omar",
+        "en": "Thursday? Great, tomorrow is Friday!",
+        "es": "¿Jueves? ¡Qué bien, mañana es viernes!"
+      },
+      {
+        "quien": "Mei",
+        "en": "Yes, and next month is December. It's almost winter.",
+        "es": "Sí, y el mes que viene es diciembre. Ya casi es invierno."
+      }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "dias-de-la-semana",
+      "titulo": "Los días de la semana",
+      "que_es": "Los siete días de la semana en inglés terminan todos en [[-day]] y, a diferencia del español, **siempre se escriben con mayúscula inicial**, estén donde estén en la oración: [[Monday]], [[Tuesday]], [[Wednesday]], [[Thursday]], [[Friday]], [[Saturday]], [[Sunday]].",
+      "para_que": [
+        "Decir qué día es hoy o mañana.",
+        "Organizar citas, clases y reuniones.",
+        "Leer horarios, calendarios y avisos."
+      ],
+      "como_funciona": "**Mayúscula siempre.** En inglés los días son nombres propios: [[Today is Monday]], nunca «monday». Es uno de los errores de escritura más comunes de los hispanohablantes, porque en español van en minúscula.\n\n**Sin artículo con be.** Para decir qué día es, el inglés no usa artículo: [[Today is Friday]] / [[It's Friday]] (hoy es viernes). En la pregunta se usa el sujeto it: [[What day is it today?]] (también se oye [[What day is today?]]). Para responder, [[It's…]]: el it es obligatorio, porque en inglés una oración necesita sujeto.\n\n**Fin de semana.** [[weekday]] es un día entre semana (lunes a viernes) y [[the weekend]], el fin de semana (sábado y domingo).\n\n**Abreviaturas:** Mon, Tue (Tues), Wed, Thu (Thurs), Fri, Sat, Sun. También con mayúscula.\n\n**Dato cultural:** en los calendarios de Estados Unidos la semana suele empezar en domingo; en México y en el Reino Unido, en lunes.",
+      "estructuras": [
+        {
+          "etiqueta": "Decir qué día es",
+          "formula": [
+            {
+              "t": "Today / Tomorrow / It",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "día (con mayúscula)",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Tomorrow",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "Saturday",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Mañana es sábado."
+        },
+        {
+          "etiqueta": "Preguntar qué día es",
+          "formula": [
+            {
+              "t": "What day",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "What day",
+              "rol": "interrogativo"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            }
+          ],
+          "es": "¿Qué día es hoy?"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los días de la semana",
+          "columnas": [
+            "Español",
+            "Inglés",
+            "Abreviatura",
+            "AFI"
+          ],
+          "filas": [
+            [
+              "lunes",
+              "Monday",
+              "Mon",
+              "/ˈmʌndeɪ/"
+            ],
+            [
+              "martes",
+              "Tuesday",
+              "Tue",
+              "/ˈtuːzdeɪ/"
+            ],
+            [
+              "miércoles",
+              "Wednesday",
+              "Wed",
+              "/ˈwenzdeɪ/"
+            ],
+            [
+              "jueves",
+              "Thursday",
+              "Thu",
+              "/ˈθɝːzdeɪ/"
+            ],
+            [
+              "viernes",
+              "Friday",
+              "Fri",
+              "/ˈfraɪdeɪ/"
+            ],
+            [
+              "sábado",
+              "Saturday",
+              "Sat",
+              "/ˈsætərdeɪ/"
+            ],
+            [
+              "domingo",
+              "Sunday",
+              "Sun",
+              "/ˈsʌndeɪ/"
+            ]
+          ],
+          "audio": [
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "Today is Wednesday.",
+          "es": "Hoy es miércoles.",
+          "partes": [
+            {
+              "t": "Today",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "Wednesday",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Sin artículo (no «the Wednesday») y con mayúscula. Today funciona como sujeto."
+        },
+        {
+          "en": "It's Sunday, so the bank is closed.",
+          "es": "Es domingo, así que el banco está cerrado.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Sunday",
+              "rol": "complemento"
+            },
+            {
+              "t": "so",
+              "rol": "otro"
+            },
+            {
+              "t": "the bank",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "closed",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "It's = it is. En español «es domingo» no tiene sujeto; en inglés necesitas it."
+        },
+        {
+          "en": "Saturday and Sunday are the weekend.",
+          "es": "El sábado y el domingo son el fin de semana.",
+          "partes": [
+            {
+              "t": "Saturday and Sunday",
+              "rol": "sujeto"
+            },
+            {
+              "t": "are",
+              "rol": "verbo"
+            },
+            {
+              "t": "the weekend",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Dos días juntos forman un sujeto plural: are. En español ponemos artículo (el sábado y el domingo); en inglés, no."
+        },
+        {
+          "en": "Is it Tuesday today? No, it isn't. It's Monday.",
+          "es": "¿Hoy es martes? No. Es lunes.",
+          "partes": [
+            {
+              "t": "Is",
+              "rol": "verbo"
+            },
+            {
+              "t": "it",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Tuesday",
+              "rol": "complemento"
+            },
+            {
+              "t": "today",
+              "rol": "tiempo"
+            },
+            {
+              "t": "No, it isn't",
+              "rol": "negacion"
+            },
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "Monday",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Pregunta de sí o no con be y respuesta corta: lo que ya aprendiste, ahora con días."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "Wednesday",
+          "ipa": "/ˈwenzdeɪ/",
+          "consejo": "¡Solo dos sílabas! La primera d y la segunda e no se pronuncian: «WENZ-dei». La w es como una u rápida con los labios redondeados.",
+          "lento": true
+        },
+        {
+          "texto": "Thursday",
+          "ipa": "/ˈθɝːzdeɪ/",
+          "consejo": "Empieza con la lengua entre los dientes (/θ/), no con t. La vocal /ɝː/ se hace con la lengua recogida hacia atrás, como una r inglesa larga. La s suena z: «THERZ-dei».",
+          "lento": true
+        },
+        {
+          "texto": "Tuesday",
+          "ipa": "/ˈtuːzdeɪ/",
+          "consejo": "En EE. UU., «TUUZ-dei», con u larga. En el Reino Unido suele sonar /ˈtjuːzdeɪ/, con una y breve después de la t («TIUZ-dei»). La s también suena z.",
+          "lento": false
+        },
+        {
+          "texto": "Monday, Sunday",
+          "ipa": "/ˈmʌndeɪ/ · /ˈsʌndeɪ/",
+          "consejo": "La o de Monday y la u de Sunday suenan igual: una a corta y relajada (/ʌ/), no una o ni una u españolas. «MAN-dei», «SAN-dei». La terminación -day también se oye relajada, cercana a «di»."
+        }
+      ],
+      "errores": [
+        {
+          "mal": "Today is monday.",
+          "bien": "Today is Monday.",
+          "porque": "Los días de la semana siempre llevan mayúscula en inglés."
+        },
+        {
+          "mal": "Is Friday.",
+          "bien": "It's Friday.",
+          "porque": "En inglés la oración necesita sujeto; para días, fechas y horas se usa it."
+        },
+        {
+          "mal": "Today is the Friday.",
+          "bien": "Today is Friday.",
+          "porque": "Para decir qué día es no se usa artículo."
+        },
+        {
+          "mal": "Wensday / Wendsday",
+          "bien": "Wednesday",
+          "porque": "Se escribe Wed-nes-day aunque se pronuncie «wenzdei»."
+        }
+      ]
+    },
+    {
+      "id": "meses",
+      "titulo": "Los meses del año",
+      "que_es": "Los doce meses se parecen mucho al español porque vienen del latín, pero se pronuncian de forma muy distinta y también **llevan siempre mayúscula**: [[January]], [[February]], [[March]], [[April]], [[May]], [[June]], [[July]], [[August]], [[September]], [[October]], [[November]], [[December]].",
+      "para_que": [
+        "Decir en qué mes es tu cumpleaños o tus vacaciones.",
+        "Leer y escribir fechas (la siguiente lección).",
+        "Entender calendarios, contratos y fechas de vencimiento."
+      ],
+      "como_funciona": "**Mayúscula siempre**, igual que los días: [[My favorite month is October]].\n\n**Pronunciación: las trampas.**\n- El acento no siempre cae donde en español: [[JANuary]], [[FEBruary]], [[APril]], [[AUgust]], pero [[JuLY]] lleva el acento al final, y [[sepTEMber]], [[ocTOber]], [[noVEMber]], [[deCEMber]] en la segunda sílaba.\n- [[June]] y [[July]] se confunden al oído: June es una sola sílaba (/dʒuːn/); July tiene dos y el acento al final (/dʒuˈlaɪ/).\n- La j inglesa no es la j del español: suena como la «y» fuerte de algunas regiones o como «ch» con vibración (/dʒ/).\n\n**Abreviaturas:** Jan, Feb, Mar, Apr, Aug, Sept (o Sep), Oct, Nov, Dec. May, June y July suelen escribirse completos. En EE. UU. se añade punto (Jan.); en el Reino Unido, a menudo no.\n\n**Hablar de meses con be:** [[It's March]] (es marzo), [[Next month is July]] (el mes que viene es julio), [[There are thirty days in April]].",
+      "estructuras": [
+        {
+          "etiqueta": "Describir un mes",
+          "formula": [
+            {
+              "t": "Mes (con mayúscula)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "December",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "my favorite month",
+              "rol": "complemento"
+            }
+          ],
+          "es": "Diciembre es mi mes favorito."
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Los meses",
+          "columnas": [
+            "Español",
+            "Inglés",
+            "Acento",
+            "AFI"
+          ],
+          "filas": [
+            [
+              "enero",
+              "January",
+              "JAN-u-ar-y",
+              "/ˈdʒænjueri/"
+            ],
+            [
+              "febrero",
+              "February",
+              "FEB-ru-ar-y",
+              "/ˈfebrueri/"
+            ],
+            [
+              "marzo",
+              "March",
+              "MARCH",
+              "/mɑːrtʃ/"
+            ],
+            [
+              "abril",
+              "April",
+              "A-pril",
+              "/ˈeɪprəl/"
+            ],
+            [
+              "mayo",
+              "May",
+              "MAY",
+              "/meɪ/"
+            ],
+            [
+              "junio",
+              "June",
+              "JUNE",
+              "/dʒuːn/"
+            ],
+            [
+              "julio",
+              "July",
+              "ju-LY",
+              "/dʒuˈlaɪ/"
+            ],
+            [
+              "agosto",
+              "August",
+              "AU-gust",
+              "/ˈɔːɡəst/"
+            ],
+            [
+              "septiembre",
+              "September",
+              "sep-TEM-ber",
+              "/sepˈtembər/"
+            ],
+            [
+              "octubre",
+              "October",
+              "oc-TO-ber",
+              "/ɑːkˈtoʊbər/"
+            ],
+            [
+              "noviembre",
+              "November",
+              "no-VEM-ber",
+              "/noʊˈvembər/"
+            ],
+            [
+              "diciembre",
+              "December",
+              "de-CEM-ber",
+              "/dɪˈsembər/"
+            ]
+          ],
+          "audio": [
+            1
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "My favorite month is October.",
+          "es": "Mi mes favorito es octubre.",
+          "partes": [
+            {
+              "t": "My favorite month",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "October",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Favorite es la ortografía de EE. UU.; en el Reino Unido se escribe favourite. October va con mayúscula aunque esté al final."
+        },
+        {
+          "en": "There are twenty-eight days in February.",
+          "es": "Febrero tiene veintiocho días.",
+          "partes": [
+            {
+              "t": "There are",
+              "rol": "verbo"
+            },
+            {
+              "t": "twenty-eight days",
+              "rol": "complemento"
+            },
+            {
+              "t": "in February",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "En español decimos «febrero tiene»; en inglés es muy natural decirlo con there are. (En los años bisiestos, twenty-nine.)"
+        },
+        {
+          "en": "It's July, and it's very hot.",
+          "es": "Es julio y hace mucho calor.",
+          "partes": [
+            {
+              "t": "It's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "July",
+              "rol": "complemento"
+            },
+            {
+              "t": "and",
+              "rol": "otro"
+            },
+            {
+              "t": "it's",
+              "rol": "sujeto"
+            },
+            {
+              "t": "very hot",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "El mismo it sirve para el mes (It's July) y para el clima (it's very hot)."
+        },
+        {
+          "en": "Next month is August.",
+          "es": "El mes que viene es agosto.",
+          "partes": [
+            {
+              "t": "Next month",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "August",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Next month = el próximo mes. Sin artículo: no «the next month» en este sentido."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "February",
+          "ipa": "/ˈfebrueri/",
+          "consejo": "Acento en FEB. Muchos nativos dicen /ˈfebjueri/, sin la primera r («FEB-yu-e-ri»); las dos formas son correctas.",
+          "lento": true
+        },
+        {
+          "texto": "June, July",
+          "ipa": "/dʒuːn/ · /dʒuˈlaɪ/",
+          "consejo": "June: una sola sílaba larga, «dyuun». July: dos sílabas y golpe al final, «dyu-LAI». La j inglesa es como «dy» o «ch» con vibración, nunca como la j de «jamón».",
+          "lento": true
+        },
+        {
+          "texto": "August",
+          "ipa": "/ˈɔːɡəst/",
+          "consejo": "Acento en AU, con una o abierta y larga; la segunda sílaba es débil, casi «gst». No suena como «a-GOST».",
+          "lento": false
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My birthday month is june.",
+          "bien": "My birthday month is June.",
+          "porque": "Los meses siempre van con mayúscula."
+        },
+        {
+          "mal": "ju-lai con acento en JU",
+          "bien": "ju-LY /dʒuˈlaɪ/",
+          "porque": "July es el único mes de dos o más sílabas con el acento en la última (los de -ber lo llevan en la segunda: sep-TEM-ber)."
+        },
+        {
+          "mal": "Febuary",
+          "bien": "February",
+          "porque": "Aunque muchos nativos no pronuncien la primera r, se escribe con ella."
+        }
+      ]
+    },
+    {
+      "id": "estaciones",
+      "titulo": "Las estaciones: spring, summer, fall / autumn, winter",
+      "que_es": "Las cuatro estaciones son [[spring]] (primavera), [[summer]] (verano), [[fall]] o [[autumn]] (otoño) y [[winter]] (invierno). A diferencia de los días y los meses, **se escriben con minúscula**.",
+      "para_que": [
+        "Hablar del clima y de tus épocas favoritas del año.",
+        "Entender a hablantes de EE. UU. (fall) y del Reino Unido (autumn).",
+        "Describir cómo es el tiempo en tu ciudad según la época."
+      ],
+      "como_funciona": "**Minúscula.** Las estaciones son sustantivos comunes: [[My favorite season is spring]]. Solo llevan mayúscula al empezar una oración o en un título.\n\n**Fall o autumn.** En EE. UU. lo más común es [[fall]]; en el Reino Unido, [[autumn]]. Los estadounidenses también conocen y usan autumn (algo más formal), así que las dos son correctas; elige una y sé coherente.\n\n**Con o sin the.** Para hablar de la estación en general se puede decir [[Summer is hot]] o [[The summer is hot here]]; las dos formas existen. Lo verás con in en la última lección ([[in summer]] / [[in the summer]]).\n\n**Dato útil:** en gran parte de México se habla más de temporada de lluvias y temporada seca que de cuatro estaciones. En inglés: [[the rainy season]] y [[the dry season]].",
+      "estructuras": [
+        {
+          "etiqueta": "Describir una estación",
+          "formula": [
+            {
+              "t": "Estación (minúscula si no inicia)",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "adjetivo / complemento",
+              "rol": "complemento"
+            }
+          ],
+          "ejemplo": [
+            {
+              "t": "Winter",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "cold in Chihuahua",
+              "rol": "complemento"
+            }
+          ],
+          "es": "El invierno es frío en Chihuahua."
+        }
+      ],
+      "comparacion": {
+        "a": {
+          "titulo": "Con mayúscula",
+          "items": [
+            "Días: Monday, Friday.",
+            "Meses: January, July.",
+            "Nombres de personas, ciudades, países, idiomas."
+          ]
+        },
+        "b": {
+          "titulo": "Con minúscula",
+          "items": [
+            "Estaciones: spring, summer, fall, winter.",
+            "Partes del día: morning, night.",
+            "Palabras como today, week, month."
+          ]
+        },
+        "veredicto": "Días y meses: mayúscula. Estaciones: minúscula (salvo al inicio de la oración)."
+      },
+      "ejemplos": [
+        {
+          "en": "My favorite season is fall.",
+          "es": "Mi estación favorita es el otoño.",
+          "partes": [
+            {
+              "t": "My favorite season",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "fall",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Fall en minúscula. En el Reino Unido diríamos My favourite season is autumn."
+        },
+        {
+          "en": "Summer is very hot in Mexicali.",
+          "es": "El verano es muy caluroso en Mexicali.",
+          "partes": [
+            {
+              "t": "Summer",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "very hot",
+              "rol": "complemento"
+            },
+            {
+              "t": "in Mexicali",
+              "rol": "complemento"
+            }
+          ],
+          "nota": "Aquí Summer lleva mayúscula solo porque empieza la oración. En español decimos «el verano»; en inglés, para hablar en general, no hace falta the."
+        },
+        {
+          "en": "The rainy season is from June to October.",
+          "es": "La temporada de lluvias va de junio a octubre.",
+          "partes": [
+            {
+              "t": "The rainy season",
+              "rol": "sujeto"
+            },
+            {
+              "t": "is",
+              "rol": "verbo"
+            },
+            {
+              "t": "from June to October",
+              "rol": "tiempo"
+            }
+          ],
+          "nota": "from… to… = de… a…. Fíjate en el contraste: season y rainy en minúscula; June y October con mayúscula."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "autumn",
+          "ipa": "/ˈɔːtəm/",
+          "consejo": "La n final no se pronuncia: «O-tem». La primera vocal es una o abierta y larga.",
+          "lento": false
+        },
+        {
+          "texto": "spring",
+          "ipa": "/sprɪŋ/",
+          "consejo": "No pongas una e delante (no «esprin»): empieza directamente con la s. Al final, /ŋ/: la parte de atrás de la lengua toca el paladar, como en la n de «tengo», y la g no suena aparte.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        {
+          "mal": "My favorite season is Summer.",
+          "bien": "My favorite season is summer.",
+          "porque": "Las estaciones van en minúscula en inglés."
+        },
+        {
+          "mal": "In summer is very hot.",
+          "bien": "In summer it's very hot. / Summer is very hot.",
+          "porque": "Calco de «en verano hace mucho calor»: falta el sujeto. Usa it o convierte la estación en el sujeto."
+        },
+        {
+          "mal": "esprin",
+          "bien": "spring /sprɪŋ/",
+          "porque": "En inglés las palabras pueden empezar con s + consonante; no añadas una e al principio."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.01",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada día con su traducción.",
+      "pares": [
+        {
+          "a": "lunes",
+          "b": "Monday"
+        },
+        {
+          "a": "martes",
+          "b": "Tuesday"
+        },
+        {
+          "a": "miércoles",
+          "b": "Wednesday"
+        },
+        {
+          "a": "jueves",
+          "b": "Thursday"
+        },
+        {
+          "a": "viernes",
+          "b": "Friday"
+        },
+        {
+          "a": "sábado",
+          "b": "Saturday"
+        },
+        {
+          "a": "domingo",
+          "b": "Sunday"
+        }
+      ],
+      "pistas": [
+        "Todos terminan en -day.",
+        "Los que más se confunden son martes y jueves: los dos empiezan con T en inglés.",
+        "Thursday empieza con th (como three); Tuesday, con t (como two)."
+      ],
+      "solucion": {
+        "respuesta": "lunes = Monday · martes = Tuesday · miércoles = Wednesday · jueves = Thursday · viernes = Friday · sábado = Saturday · domingo = Sunday",
+        "explicacion": "Tuesday (martes) y Thursday (jueves) son los que más se confunden: Thursday empieza con th, el mismo sonido de three. Todos llevan mayúscula en inglés."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Revisa las mayúsculas.",
+      "pregunta": "En la oración «Today is monday and it's spring.», ¿qué palabra debería escribirse con mayúscula?",
+      "opciones": [
+        {
+          "texto": "monday",
+          "correcta": true,
+          "porque": "Correcto: los días de la semana siempre llevan mayúscula en inglés: Monday."
+        },
+        {
+          "texto": "spring",
+          "correcta": false,
+          "porque": "Las estaciones van en minúscula, salvo al principio de la oración. Spring está bien escrita."
+        },
+        {
+          "texto": "and",
+          "correcta": false,
+          "porque": "And es una conjunción; nunca lleva mayúscula en medio de la oración."
+        },
+        {
+          "texto": "Ninguna: la oración está bien escrita.",
+          "correcta": false,
+          "porque": "Hay un día de la semana en minúscula, y en inglés los días son nombres propios."
+        }
+      ],
+      "pistas": [
+        "Días, meses y estaciones no siguen la misma regla de mayúsculas.",
+        "Busca el día de la semana y la estación.",
+        "Días y meses: mayúscula siempre; estaciones: minúscula."
+      ],
+      "solucion": {
+        "respuesta": "monday",
+        "explicacion": "La palabra que debe ir con mayúscula es monday → Monday: en inglés los días de la semana son nombres propios. Spring, en cambio, está bien en minúscula porque es una estación."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.03",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con el mes que corresponde. Cuida la mayúscula.",
+      "mayusculas": true,
+      "frase": "The month after March is ___.",
+      "traduccion": "El mes después de marzo es abril.",
+      "respuestas": [
+        [
+          "April"
+        ]
+      ],
+      "errores_tipicos": {
+        "abril": "Esa es la palabra en español. En inglés es April.",
+        "april": "Casi: en inglés los meses siempre llevan mayúscula: April.",
+        "May": "May es el mes después de April. Después de March viene April.",
+        "may": "May es el mes después de April, y además los meses llevan mayúscula. Después de March viene April."
+      },
+      "pistas": [
+        "Piensa en el orden de los meses: enero, febrero, marzo…",
+        "El mes que buscas es el cuarto del año.",
+        "Se parece mucho al español, pero los meses siempre llevan mayúscula y este cambia la b por otra consonante."
+      ],
+      "solucion": {
+        "respuesta": "April",
+        "explicacion": "Después de marzo (March) viene abril: April. Se escribe con mayúscula y se pronuncia /ˈeɪprəl/, con «ei» al principio."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.04",
+      "tipo": "dictado",
+      "dificultad": 1,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "Today is Wednesday.",
+      "audio": true,
+      "pistas": [
+        "Es un día de la semana que se pronuncia con menos letras de las que se escriben.",
+        "Suena «wenzdei».",
+        "Tiene letras que no se pronuncian: una d antes de la n y una e después de ella. Empieza con mayúscula, como todos los días."
+      ],
+      "solucion": {
+        "respuesta": "Today is Wednesday.",
+        "explicacion": "Se oye «wenzdei», pero se escribe Wednesday: la primera d y la segunda e son mudas."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.05",
+      "tipo": "pronunciacion",
+      "dificultad": 1,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "Wednesday, Thursday, Saturday",
+      "ipa": "/ˈwenzdeɪ · ˈθɝːzdeɪ · ˈsætərdeɪ/",
+      "consejo": "Wednesday tiene solo dos sílabas (WENZ-dei). Thursday empieza con la lengua entre los dientes. Saturday lleva el acento en SAT, con una a muy abierta (/æ/), casi entre a y e; en EE. UU., la t suena como una r suave: «SA-rer-dei».",
+      "es": "miércoles, jueves, sábado"
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.06",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "pregunta": "¿En qué sílaba va el acento de July?",
+      "opciones": [
+        {
+          "texto": "En la última: ju-LY.",
+          "correcta": true,
+          "porque": "Correcto: /dʒuˈlaɪ/, con el golpe de voz al final."
+        },
+        {
+          "texto": "En la primera: JU-ly.",
+          "correcta": false,
+          "porque": "Así se pronuncia muchas veces por influencia del español «julio», pero en inglés el acento va al final."
+        },
+        {
+          "texto": "Tiene una sola sílaba.",
+          "correcta": false,
+          "porque": "La que tiene una sola sílaba es June. July tiene dos."
+        }
+      ],
+      "pistas": [
+        "June y July se distinguen por el número de sílabas y por el acento.",
+        "July tiene dos sílabas.",
+        "Pronúnciala en voz alta: la sílaba que suena «lai» es larga y clara; la otra es corta y débil."
+      ],
+      "solucion": {
+        "respuesta": "En la última: ju-LY.",
+        "explicacion": "July se pronuncia /dʒuˈlaɪ/, con el acento en la última sílaba. June, en cambio, tiene una sola sílaba: /dʒuːn/."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra la palabra mal escrita y corrígela.",
+      "frase": "My English class is every Wensday.",
+      "error": "Wensday",
+      "correcciones": [
+        "Wednesday"
+      ],
+      "frase_correcta": "My English class is every Wednesday.",
+      "pistas": [
+        "Hay un día escrito como suena, no como se escribe.",
+        "Mira el día de la semana.",
+        "Ese día tiene letras que no se pronuncian: una d antes de la n y una e después de ella."
+      ],
+      "solucion": {
+        "respuesta": "Wednesday",
+        "explicacion": "El error es Wensday: se pronuncia así, pero se escribe Wednesday, con una d muda antes de la n y una e muda después."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.08",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Cuida las mayúsculas.",
+      "mayusculas": true,
+      "es": "Hoy es jueves.",
+      "respuestas": [
+        "Today is Thursday.",
+        "Today's Thursday.",
+        "It's Thursday.",
+        "It's Thursday today."
+      ],
+      "errores_tipicos": {
+        "Is Thursday": "Falta el sujeto: It's Thursday o Today is Thursday.",
+        "Today is the Thursday": "Para decir qué día es no se usa artículo.",
+        "Today is Tuesday": "Tuesday es martes. Jueves es Thursday.",
+        "Today is thursday": "Los días de la semana siempre llevan mayúscula en inglés: Thursday.",
+        "It's thursday": "Los días de la semana siempre llevan mayúscula en inglés: Thursday."
+      },
+      "pistas": [
+        "Una oración con be; no olvides el sujeto.",
+        "El sujeto puede ser today o it. Cuidado con el día: no es martes.",
+        "Sujeto (today o it) + is + día con mayúscula y sin artículo, como en It's Sunday."
+      ],
+      "solucion": {
+        "respuesta": "Today is Thursday.",
+        "explicacion": "Today is Thursday (o It's Thursday): be con un sujeto explícito, el día sin artículo y con mayúscula. Thursday (jueves) empieza con th; Tuesday es martes."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.09",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la palabra que usan en EE. UU. para «otoño».",
+      "frase": "In the United States, autumn is also called ___.",
+      "traduccion": "En Estados Unidos, al otoño (autumn) también se le llama ___.",
+      "respuestas": [
+        [
+          "fall"
+        ]
+      ],
+      "errores_tipicos": {
+        "autumn": "Autumn ya está en la oración. La otra palabra, la más común en EE. UU., es fall.",
+        "winter": "Winter es invierno."
+      },
+      "pistas": [
+        "Es una palabra de una sola sílaba.",
+        "También significa «caer», como las hojas de los árboles.",
+        "En EE. UU. la estación toma su nombre del verbo que describe lo que hacen las hojas en esa época."
+      ],
+      "solucion": {
+        "respuesta": "fall",
+        "explicacion": "La respuesta es fall, la forma más común en EE. UU. (autumn es la británica, aunque también se entiende en EE. UU.). Se escribe en minúscula, como todas las estaciones."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.10",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Hoy es domingo. Di qué día es mañana, empezando con Tomorrow.",
+      "origen": "Today is Sunday.",
+      "instruccion": "Tomorrow is…",
+      "respuestas": [
+        "Tomorrow is Monday."
+      ],
+      "errores_tipicos": {
+        "Tomorrow is Saturday": "Saturday es el día anterior al domingo. El siguiente es Monday.",
+        "Tomorrow is the Monday": "Sin artículo: Tomorrow is Monday."
+      },
+      "pistas": [
+        "Cambia el sujeto y el día; el verbo is se queda igual.",
+        "¿Qué día viene después del domingo?",
+        "Tomorrow is + el primer día de la semana laboral."
+      ],
+      "solucion": {
+        "respuesta": "Tomorrow is Monday.",
+        "explicacion": "Después de Sunday viene Monday. La estructura es la misma: sujeto (Tomorrow) + is + día sin artículo."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.11",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta correcta.",
+      "contexto": "Un compañero de trabajo te pregunta qué día es. Es viernes.",
+      "lineas": [
+        {
+          "quien": "Ben",
+          "en": "What day is it today?",
+          "es": "¿Qué día es hoy?"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "It's Friday.",
+          "correcta": true,
+          "porque": "Correcto: sujeto it + is + el día con mayúscula y sin artículo."
+        },
+        {
+          "texto": "Is Friday.",
+          "correcta": false,
+          "porque": "Falta el sujeto it. En inglés la oración no puede empezar con el verbo si no es una pregunta."
+        },
+        {
+          "texto": "It's the Friday.",
+          "correcta": false,
+          "porque": "Sobra el artículo: para decir qué día es, sin the."
+        },
+        {
+          "texto": "Today Friday.",
+          "correcta": false,
+          "porque": "Falta el verbo is: Today is Friday."
+        }
+      ],
+      "pistas": [
+        "La respuesta necesita sujeto y verbo.",
+        "El sujeto de la pregunta es it; úsalo también en la respuesta.",
+        "It's + día, sin artículo."
+      ],
+      "solucion": {
+        "respuesta": "It's Friday.",
+        "explicacion": "It's Friday: it es el sujeto (como en la pregunta), 's es is, y el día va sin artículo y con mayúscula."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.12",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las fichas para formar la oración.",
+      "fichas": [
+        "favorite",
+        "My",
+        "is",
+        "season",
+        "winter"
+      ],
+      "respuestas": [
+        "My favorite season is winter."
+      ],
+      "traduccion": "Mi estación favorita es el invierno.",
+      "pistas": [
+        "Empieza por el sujeto, que tiene tres palabras.",
+        "El adjetivo va antes del sustantivo.",
+        "Posesivo + adjetivo + sustantivo + is + estación en minúscula, como en My favorite color is blue."
+      ],
+      "solucion": {
+        "respuesta": "My favorite season is winter.",
+        "explicacion": "El sujeto es my favorite season (posesivo + adjetivo + sustantivo); después va is y la estación, en minúscula y sin artículo."
+      }
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe sobre tus días, meses y estaciones favoritos.",
+      "objetivo": "Usar días, meses y estaciones con la ortografía y las mayúsculas correctas en oraciones con be.",
+      "instrucciones": "Escribe 5 o 6 oraciones: qué día es hoy, cuál es tu día favorito de la semana, tu mes favorito, tu estación favorita y cómo es el clima en tu ciudad en esa estación. Cuida las mayúsculas: días y meses sí, estaciones no.",
+      "vocabulario_apoyo": [
+        "favorite",
+        "hot",
+        "cold",
+        "rainy",
+        "sunny",
+        "the weekend",
+        "because"
+      ],
+      "estructuras": [
+        "Today is …",
+        "My favorite day is …",
+        "My favorite month is …",
+        "My favorite season is …",
+        "… is hot / cold / rainy in …"
+      ],
+      "ejemplo": "Today is Tuesday. Tom's favorite day is Saturday because it's the weekend. His favorite month is December, and his favorite season is winter.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        {
+          "descripcion": "Nombras un día de la semana",
+          "patron": "\\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\\b"
+        },
+        {
+          "descripcion": "Nombras un mes",
+          "patron": "\\b(january|february|march|april|may|june|july|august|september|october|november|december)\\b"
+        },
+        {
+          "descripcion": "Nombras una estación",
+          "patron": "\\b(spring|summer|fall|autumn|winter)\\b"
+        },
+        {
+          "descripcion": "Usas is",
+          "patron": "\\b(is|it's)\\b"
+        }
+      ],
+      "criterios": [
+        "¿Los días y los meses empiezan con mayúscula?",
+        "¿Las estaciones van en minúscula (salvo al inicio de la oración)?",
+        "¿Todas las oraciones tienen sujeto (It's…, Today is…)?",
+        "¿Evitas el artículo delante del día (Today is Friday, no the Friday)?"
+      ],
+      "modelo": "Today is Thursday. My favorite day is Friday because it's almost the weekend. My favorite month is April. My favorite season is spring, because it's warm and sunny in my city. Summer is very hot and rainy here.",
+      "explicacion": "El modelo escribe Thursday, Friday y April con mayúscula y spring con minúscula; Summer solo lleva mayúscula porque abre la oración. Cada oración tiene sujeto (Today, My favorite day, it, Summer) y el día va sin artículo.",
+      "errores_comunes": [
+        "my favorite day is friday → My favorite day is Friday.",
+        "My favorite season is Spring → spring.",
+        "Is very hot in summer → It's very hot in summer."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Planear la semana",
+    "contexto": "Estás hablando con tu amiga Lucía, que es de Canadá, sobre qué día es y qué estación viene.",
+    "dialogo": [
+      {
+        "quien": "Lucía",
+        "en": "What day is it today? I'm so tired!",
+        "es": "¿Qué día es hoy? ¡Estoy muy cansada!"
+      },
+      {
+        "quien": "Tú",
+        "en": "It's Wednesday.",
+        "es": "Es miércoles."
+      },
+      {
+        "quien": "Lucía",
+        "en": "Only Wednesday? And what's your favorite month?",
+        "es": "¿Apenas miércoles? ¿Y cuál es tu mes favorito?"
+      }
+    ],
+    "tu_turno": "Responde cuál es tu mes favorito y cuál es tu estación favorita, y di cómo es el clima en tu ciudad en esa estación.",
+    "modelo": "My favorite month is November. My favorite season is fall, because it's cool and sunny in my city.",
+    "alternativas": [
+      "November is my favorite month, and my favorite season is autumn.",
+      "My favorite month is May. It's very hot, but I love summer."
+    ],
+    "claves": [
+      "Mes con mayúscula; estación con minúscula.",
+      "Fall (EE. UU.) o autumn (R. U.).",
+      "No olvides el sujeto: it's cool, it's hot."
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Días y meses llevan SIEMPRE mayúscula: Monday, January.",
+      "Estaciones en minúscula: spring, summer, fall / autumn, winter.",
+      "What day is it today? → It's Friday. (Sujeto it, sin artículo.)",
+      "Wednesday = «wenzdei»; Thursday empieza con /θ/; July lleva el acento al final.",
+      "Fall es la palabra de EE. UU.; autumn, la del R. U. (y también se entiende en EE. UU.)."
+    ],
+    "recuerda": [
+      "No: Today is the Monday. Sí: Today is Monday.",
+      "No: Is Friday. Sí: It's Friday."
+    ]
+  },
+  "repaso": [
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.r1",
+      "frente": "¿Mayúscula o minúscula? monday, june, summer",
+      "reverso": "Monday, June (mayúscula) · summer (minúscula)."
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.r2",
+      "frente": "¿Cómo se pronuncia Wednesday?",
+      "reverso": "/ˈwenzdeɪ/ → dos sílabas, «WENZ-dei»."
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.r3",
+      "frente": "¿Tuesday o Thursday? (jueves)",
+      "reverso": "Thursday (jueves), con th como en three. Tuesday es martes."
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.r4",
+      "frente": "Otoño en EE. UU. y en el R. U.",
+      "reverso": "fall (EE. UU.) · autumn (R. U.)"
+    },
+    {
+      "id": "fechas-y-horas.dias-meses-estaciones.r5",
+      "frente": "Responde: What day is it today? (sábado)",
+      "reverso": "It's Saturday."
+    }
+  ]
+}

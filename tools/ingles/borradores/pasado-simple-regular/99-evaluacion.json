@@ -1,0 +1,574 @@
+{
+  "titulo": "Evaluación: pasado simple de los verbos regulares",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "pasado-simple-regular.eval.01",
+      "leccion": "que-es-el-pasado-simple",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "My neighbors ___ loud music until 2 a.m. last Saturday.",
+      "opciones": [
+        {
+          "texto": "played",
+          "correcta": true,
+          "porque": "Last Saturday indica una acción terminada: play + -ed."
+        },
+        {
+          "texto": "plays",
+          "correcta": false,
+          "porque": "Plays es presente y además el sujeto es plural."
+        },
+        {
+          "texto": "was play",
+          "correcta": false,
+          "porque": "El pasado simple no lleva was delante del verbo."
+        },
+        {
+          "texto": "playeds",
+          "correcta": false,
+          "porque": "En pasado nunca se añade -s."
+        }
+      ],
+      "pistas": [
+        "Busca la expresión de tiempo.",
+        "Last Saturday es un momento terminado.",
+        "Pasado simple regular: verbo + -ed, igual para todos."
+      ],
+      "solucion": {
+        "respuesta": "played",
+        "explicacion": "Last Saturday sitúa la acción en el pasado, y play es regular: played. No lleva -s ni was."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.02",
+      "leccion": "que-es-el-pasado-simple",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de live y work.",
+      "frase": "When she was a student, Aisha ___ with her aunt and ___ in a bakery.",
+      "traduccion": "Cuando era estudiante, Aisha vivía con su tía y trabajaba en una panadería.",
+      "respuestas": [
+        [
+          "lived"
+        ],
+        [
+          "worked"
+        ]
+      ],
+      "errores_tipicos": {
+        "lives | works": "La etapa (when she was a student) ya terminó: pasado simple.",
+        "liveed | worked": "Live ya termina en -e: solo se añade -d → lived."
+      },
+      "pistas": [
+        "En español se usa el imperfecto (vivía, trabajaba). ¿Y en inglés?",
+        "When she was a student marca una etapa terminada.",
+        "Etapa terminada → pasado simple: si el verbo termina en -e, solo -d; si no, -ed."
+      ],
+      "solucion": {
+        "respuesta": "lived · worked",
+        "explicacion": "Aunque en español son imperfectos (vivía, trabajaba), describen una etapa terminada, así que en inglés van en pasado simple. Live solo añade -d porque ya termina en -e."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.03",
+      "leccion": "que-es-el-pasado-simple",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la oración y elige la interpretación correcta.",
+      "pregunta": "Omar dice: «I worked in Canada for three years.» ¿Qué entiendes?",
+      "opciones": [
+        {
+          "texto": "Trabajó tres años en Canadá y esa etapa ya terminó.",
+          "correcta": true,
+          "porque": "El pasado simple indica una etapa cerrada: ya no trabaja ahí."
+        },
+        {
+          "texto": "Todavía trabaja en Canadá.",
+          "correcta": false,
+          "porque": "Si siguiera ahí, no usaría el pasado simple."
+        },
+        {
+          "texto": "Va a trabajar en Canadá tres años.",
+          "correcta": false,
+          "porque": "Worked es pasado, no futuro."
+        },
+        {
+          "texto": "Trabaja en Canadá cada tres años.",
+          "correcta": false,
+          "porque": "Eso sería un hábito en presente; worked habla de algo terminado."
+        }
+      ],
+      "pistas": [
+        "Fíjate en el tiempo del verbo.",
+        "¿Worked habla del presente o de algo cerrado?",
+        "Pasado simple = acción o periodo terminado."
+      ],
+      "solucion": {
+        "respuesta": "Trabajó tres años en Canadá y esa etapa ya terminó.",
+        "explicacion": "Worked es pasado simple: el periodo de tres años está cerrado. Por eso entendemos que Omar ya no trabaja en Canadá."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.04",
+      "leccion": "que-es-el-pasado-simple",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Ayer mis amigos me ayudaron.",
+      "respuestas": [
+        "My friends helped me yesterday.",
+        "Yesterday my friends helped me."
+      ],
+      "errores_tipicos": {
+        "Yesterday my friends me helped.": "El objeto (me) va después del verbo: helped me.",
+        "Yesterday my friends help me.": "Yesterday pide pasado: helped.",
+        "Yesterday my friends were helped me.": "El pasado simple no lleva were delante: helped."
+      },
+      "pistas": [
+        "Help es un verbo regular.",
+        "En inglés «me» va después del verbo, no antes.",
+        "Sujeto + verbo-ed + pronombre objeto + expresión de tiempo, como en Her parents called her yesterday."
+      ],
+      "solucion": {
+        "respuesta": "My friends helped me yesterday.",
+        "explicacion": "Help + -ed = helped. A diferencia del español, el pronombre objeto va detrás del verbo: helped me. Yesterday puede ir al final o al principio."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.05",
+      "leccion": "que-es-el-pasado-simple",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error. Señálalo y corrígelo.",
+      "frase": "Last month my dad works in Monterrey.",
+      "error": "works",
+      "correcciones": [
+        "worked"
+      ],
+      "frase_correcta": "Last month my dad worked in Monterrey.",
+      "pistas": [
+        "Mira la expresión de tiempo del principio.",
+        "¿Concuerda el tiempo del verbo con last month?",
+        "Last month → pasado simple: forma base + -ed."
+      ],
+      "solucion": {
+        "respuesta": "works → worked",
+        "explicacion": "Last month es pasado, así que el verbo debe ir en pasado simple: worked. La -s de works es propia del presente."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.06",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada verbo con su pasado.",
+      "pares": [
+        {
+          "a": "carry",
+          "b": "carried"
+        },
+        {
+          "a": "enjoy",
+          "b": "enjoyed"
+        },
+        {
+          "a": "drop",
+          "b": "dropped"
+        },
+        {
+          "a": "listen",
+          "b": "listened"
+        },
+        {
+          "a": "relax",
+          "b": "relaxed"
+        },
+        {
+          "a": "arrive",
+          "b": "arrived"
+        }
+      ],
+      "pistas": [
+        "Cada verbo sigue una regla de ortografía.",
+        "Fíjate en la última letra y en la sílaba acentuada.",
+        "Consonante + y → ied; vocal + y → ed; CVC con la última sílaba acentuada → duplica; sílaba final sin acento, o x al final → no duplica; -e final → solo -d."
+      ],
+      "solucion": {
+        "respuesta": "carried · enjoyed · dropped · listened · relaxed · arrived",
+        "explicacion": "Carry → carried (consonante + y). Enjoy → enjoyed (vocal + y). Drop → dropped (CVC acentuada). Listen → listened (acento en LIS-, no se duplica). Relax → relaxed (la x no se duplica). Arrive → arrived (solo -d)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.07",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 3,
+      "enunciado": "Ortografía.",
+      "pregunta": "Prefer se pronuncia pre-FER, con el acento al final. ¿Cuál es su pasado?",
+      "opciones": [
+        {
+          "texto": "preferred",
+          "correcta": true,
+          "porque": "Termina en consonante–vocal–consonante y la última sílaba está acentuada: se duplica la r."
+        },
+        {
+          "texto": "prefered",
+          "correcta": false,
+          "porque": "Como la sílaba final (-FER) es la acentuada, la r se duplica."
+        },
+        {
+          "texto": "preferd",
+          "correcta": false,
+          "porque": "Falta la e de -ed; prefer no termina en -e."
+        },
+        {
+          "texto": "preferried",
+          "correcta": false,
+          "porque": "No hay ninguna y que cambie a i."
+        }
+      ],
+      "pistas": [
+        "La duplicación depende del acento.",
+        "¿En qué sílaba está el acento de prefer?",
+        "CVC con la última sílaba acentuada → duplica la consonante final."
+      ],
+      "solucion": {
+        "respuesta": "preferred",
+        "explicacion": "Prefer termina en e-r (vocal + consonante) y el acento cae en la última sílaba, así que se duplica la r: preferred. Compara con visit (VIS-it), que no duplica."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.08",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "comprension",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Pronunciación.",
+      "pregunta": "¿En qué verbo -ed se pronuncia /ɪd/, con una sílaba extra?",
+      "opciones": [
+        {
+          "texto": "decided",
+          "correcta": true,
+          "porque": "Decide termina en /d/: -ed suena /ɪd/ (de-CI-did)."
+        },
+        {
+          "texto": "cleaned",
+          "correcta": false,
+          "porque": "Clean termina en /n/, sonora: -ed suena /d/, sin sílaba extra."
+        },
+        {
+          "texto": "helped",
+          "correcta": false,
+          "porque": "Help termina en /p/, sorda: -ed suena /t/."
+        },
+        {
+          "texto": "stayed",
+          "correcta": false,
+          "porque": "Stay termina en vocal: -ed suena /d/."
+        }
+      ],
+      "pistas": [
+        "Solo dos sonidos finales provocan la sílaba extra.",
+        "Mira el último sonido de cada verbo base.",
+        "/ɪd/ solo tras /t/ o /d/."
+      ],
+      "solucion": {
+        "respuesta": "decided",
+        "explicacion": "Decide termina en sonido /d/, así que -ed se pronuncia /ɪd/ y añade una sílaba. Cleaned (/d/), helped (/t/) y stayed (/d/) mantienen el mismo número de sílabas que su base."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.09",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración.",
+      "texto": "We waited for the bus and talked about the trip.",
+      "pistas": [
+        "Hay dos verbos regulares en pasado.",
+        "Uno tiene una sílaba extra; en el otro, la -ed casi no se oye.",
+        "Tras /t/ o /d/, -ed suena /ɪd/ y añade sílaba; tras un sonido sordo como /k/, suena /t/ y casi no se oye."
+      ],
+      "solucion": {
+        "respuesta": "We waited for the bus and talked about the trip.",
+        "explicacion": "Waited suena /ˈweɪtɪd/, con sílaba extra porque wait termina en /t/. Talked suena /tɔkt/ (la l no se pronuncia), y su /t/ final se funde con about."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.10",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Hay un error de ortografía. Señálalo y corrígelo.",
+      "frase": "They plaied volleyball on the beach.",
+      "error": "plaied",
+      "correcciones": [
+        "played"
+      ],
+      "frase_correcta": "They played volleyball on the beach.",
+      "pistas": [
+        "No todos los verbos que terminan en y cambian la y.",
+        "¿Qué letra va antes de la y en play?",
+        "Vocal + y → solo -ed."
+      ],
+      "solucion": {
+        "respuesta": "plaied → played",
+        "explicacion": "En play, antes de la y hay una vocal (a), así que la y se mantiene: played. Solo cambia a i cuando antes hay una consonante (study → studied)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.11",
+      "leccion": "ortografia-y-pronunciacion-ed",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con el pasado de cry.",
+      "frase": "The baby ___ all night.",
+      "traduccion": "El bebé lloró toda la noche.",
+      "respuestas": [
+        [
+          "cried"
+        ]
+      ],
+      "errores_tipicos": {
+        "cryed": "Cry termina en consonante (r) + y: la y cambia a i → cried."
+      },
+      "pistas": [
+        "Cry termina en y.",
+        "¿Antes de la y hay vocal o consonante?",
+        "Consonante + y → ied."
+      ],
+      "solucion": {
+        "respuesta": "cried",
+        "explicacion": "Antes de la y de cry hay una consonante (r), así que la y cambia a i y se añade -ed: cried. Se pronuncia /kraɪd/, una sílaba."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.12",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "vocabulario",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la traducción de «antier».",
+      "pregunta": "I called the dentist ___.",
+      "opciones": [
+        {
+          "texto": "the day before yesterday",
+          "correcta": true,
+          "porque": "Es la expresión fija para «anteayer / antier»."
+        },
+        {
+          "texto": "before yesterday",
+          "correcta": false,
+          "porque": "Sin the day no es la expresión fija: before yesterday significa «en cualquier momento anterior a ayer», no un día concreto."
+        },
+        {
+          "texto": "yesterday before",
+          "correcta": false,
+          "porque": "No es una expresión inglesa."
+        },
+        {
+          "texto": "last yesterday",
+          "correcta": false,
+          "porque": "Last no se combina con yesterday."
+        }
+      ],
+      "pistas": [
+        "Es una expresión de cuatro palabras.",
+        "Literalmente: «el día antes de ayer».",
+        "Es la traducción palabra por palabra de «el día antes de ayer»: con artículo, sin last y sin preposición extra."
+      ],
+      "solucion": {
+        "respuesta": "the day before yesterday",
+        "explicacion": "«Antier» es the day before yesterday, literalmente «el día antes de ayer». Es una expresión fija y sí lleva the."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.13",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con in, on o at.",
+      "frase": "I finished school ___ 2010, and I started this job ___ May 3rd ___ nine in the morning.",
+      "traduccion": "Terminé la escuela en 2010 y empecé este trabajo el 3 de mayo a las nueve de la mañana.",
+      "banco": [
+        "in",
+        "on",
+        "at"
+      ],
+      "respuestas": [
+        [
+          "in"
+        ],
+        [
+          "on"
+        ],
+        [
+          "at"
+        ]
+      ],
+      "errores_tipicos": {
+        "in | in | at": "Con una fecha (May 3rd) se usa on.",
+        "on | on | at": "Con un año se usa in."
+      },
+      "pistas": [
+        "Cada hueco lleva una preposición distinta.",
+        "Mira qué viene después: un año, una fecha, una hora.",
+        "Año → in; fecha → on; hora → at."
+      ],
+      "solucion": {
+        "respuesta": "in · on · at",
+        "explicacion": "In con años (in 2010), on con fechas (on May 3rd) y at con horas (at nine)."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.14",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Pasa la oración al pasado y cambia every Sunday por two days ago.",
+      "origen": "I call my grandma every Sunday.",
+      "instruccion": "Pasado + two days ago",
+      "respuestas": [
+        "I called my grandma two days ago.",
+        "Two days ago I called my grandma."
+      ],
+      "errores_tipicos": {
+        "I called my grandma ago two days.": "Ago va después de la cantidad: two days ago.",
+        "I call my grandma two days ago.": "Two days ago exige pasado: called."
+      },
+      "pistas": [
+        "Every Sunday es un hábito; two days ago, un momento pasado.",
+        "Cambia el verbo y la expresión de tiempo.",
+        "Verbo + -ed; cantidad de tiempo + ago al final, como en three weeks ago."
+      ],
+      "solucion": {
+        "respuesta": "I called my grandma two days ago.",
+        "explicacion": "Two days ago señala un momento terminado, así que el verbo pasa a pasado: called. Ago va detrás de two days."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.15",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras para formar una oración.",
+      "fichas": [
+        "They",
+        "moved",
+        "here",
+        "a",
+        "long",
+        "time",
+        "ago"
+      ],
+      "respuestas": [
+        "They moved here a long time ago",
+        "A long time ago they moved here"
+      ],
+      "traduccion": "Se mudaron aquí hace mucho tiempo.",
+      "pistas": [
+        "Sujeto + verbo + lugar + tiempo.",
+        "«Hace mucho tiempo» es una expresión de cuatro palabras que termina en ago.",
+        "Sujeto + verbo-ed + here + expresión con ago al final, como en We arrived here a few years ago."
+      ],
+      "solucion": {
+        "respuesta": "They moved here a long time ago.",
+        "explicacion": "Sujeto (they) + verbo en pasado (moved) + lugar (here) + tiempo (a long time ago). La expresión de tiempo también puede ir al principio."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.16",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "La semana pasada visité a mis abuelos.",
+      "respuestas": [
+        "I visited my grandparents last week.",
+        "Last week I visited my grandparents."
+      ],
+      "errores_tipicos": {
+        "I visited my grandparents the last week.": "Last week no lleva the.",
+        "I visitted my grandparents last week.": "Visit no duplica la t: visited.",
+        "The last week I visited my grandparents.": "«La semana pasada» es last week, sin the."
+      },
+      "pistas": [
+        "Visit es regular; cuidado con su ortografía.",
+        "«La semana pasada» no lleva artículo en inglés.",
+        "Sujeto + verbo-ed + a quién + last + unidad de tiempo, como en She called her aunt last month."
+      ],
+      "solucion": {
+        "respuesta": "I visited my grandparents last week.",
+        "explicacion": "Visit + -ed = visited (sin duplicar la t, porque el acento está en VIS-). «La semana pasada» es last week, sin the. En inglés visit no lleva preposición delante de la persona."
+      }
+    },
+    {
+      "id": "pasado-simple-regular.eval.17",
+      "leccion": "expresiones-de-pasado",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Tu jefa, Priya, vuelve de una junta y te pregunta por una llamada.",
+      "lineas": [
+        {
+          "quien": "Priya",
+          "en": "When did the client call?",
+          "es": "¿Cuándo llamó el cliente?"
+        },
+        {
+          "quien": "Tú",
+          "en": "…",
+          "es": "…"
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "About twenty minutes ago.",
+          "correcta": true,
+          "porque": "Cantidad de tiempo + ago: «hace unos veinte minutos»."
+        },
+        {
+          "texto": "Before twenty minutes.",
+          "correcta": false,
+          "porque": "Before + tiempo no significa «hace»."
+        },
+        {
+          "texto": "Twenty minutes before.",
+          "correcta": false,
+          "porque": "Significa «veinte minutos antes» de otro momento, no «hace veinte minutos»."
+        },
+        {
+          "texto": "Ago twenty minutes.",
+          "correcta": false,
+          "porque": "Ago va detrás de la cantidad."
+        }
+      ],
+      "pistas": [
+        "Te preguntan cuándo, contando desde ahora.",
+        "«Hace veinte minutos» tiene una estructura fija.",
+        "Cantidad + ago."
+      ],
+      "solucion": {
+        "respuesta": "About twenty minutes ago.",
+        "explicacion": "Para contar hacia atrás desde ahora se usa cantidad + ago. About = aproximadamente. Twenty minutes before existe, pero significa «veinte minutos antes» de otro momento pasado."
+      }
+    }
+  ]
+}

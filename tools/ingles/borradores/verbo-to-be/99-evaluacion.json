@@ -1,0 +1,483 @@
+{
+  "titulo": "Evaluación: el verbo to be",
+  "aprobado": 70,
+  "preguntas": [
+    {
+      "id": "verbo-to-be.eval.01",
+      "leccion": "am-is-are",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Elige la forma correcta.",
+      "pregunta": "The window ___ open.",
+      "opciones": [
+        {
+          "texto": "is",
+          "correcta": true,
+          "porque": "Correcto: the window es una sola cosa (= it), y it va con is."
+        },
+        {
+          "texto": "are",
+          "correcta": false,
+          "porque": "are es para you y para sujetos plurales. Una ventana es singular."
+        },
+        {
+          "texto": "am",
+          "correcta": false,
+          "porque": "am solo va con I."
+        }
+      ],
+      "pistas": [
+        "La forma de be depende del sujeto.",
+        "¿Cuántas ventanas hay? ¿Qué pronombre la sustituye?",
+        "Una cosa = it = is."
+      ],
+      "solucion": {
+        "respuesta": "is",
+        "explicacion": "The window es singular y equivale a it; it va con is. «La ventana está abierta.»"
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.02",
+      "leccion": "am-is-are",
+      "habilidad": "gramatica",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Completa con am, is o are.",
+      "frase": "You ___ a great cook, Mom!",
+      "traduccion": "¡Eres una gran cocinera, mamá!",
+      "respuestas": [
+        [
+          "are"
+        ]
+      ],
+      "errores_tipicos": {
+        "is": "Aunque hablas con una sola persona, [[you]] va siempre con [[are]]."
+      },
+      "pistas": [
+        "Mira el sujeto.",
+        "Hablas con una sola persona, pero el sujeto es you.",
+        "you siempre va con are, en singular y en plural."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "El sujeto es you, que siempre lleva are, aunque te dirijas a una sola persona (tu mamá)."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.03",
+      "leccion": "am-is-are",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés. Usa big para «grande».",
+      "es": "La casa es grande, pero es vieja.",
+      "respuestas": [
+        "The house is big, but it's old.",
+        "The house is big but it is old.",
+        "The house is big but old."
+      ],
+      "errores_tipicos": {
+        "The house is big, but is old.": "Se entiende, pero lo natural es repetir el sujeto con un pronombre: but [[it]] is old (o, más corto, but old).",
+        "The house big, but it's old.": "Falta el verbo en la primera parte: The house [[is]] big."
+      },
+      "pistas": [
+        "Hay dos oraciones unidas por «pero» (but).",
+        "La segunda oración, en español, no tiene sujeto. ¿Qué pronombre necesita en inglés?",
+        "Regla: para una cosa, el pronombre sujeto es it; repítelo después de but."
+      ],
+      "solucion": {
+        "respuesta": "The house is big, but it's old.",
+        "explicacion": "Cada oración necesita sujeto y verbo: The house is big / it is old. En español «es vieja» no repite el sujeto; en inglés se usa it."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.04",
+      "leccion": "am-is-are",
+      "habilidad": "gramatica",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Señala la palabra incorrecta y corrígela.",
+      "frase": "Grace and her husband is in Chicago.",
+      "error": "is",
+      "correcciones": [
+        "are"
+      ],
+      "frase_correcta": "Grace and her husband are in Chicago.",
+      "pistas": [
+        "Revisa la concordancia entre sujeto y verbo.",
+        "¿Cuántas personas forman el sujeto?",
+        "Dos personas unidas con and = plural = are."
+      ],
+      "solucion": {
+        "respuesta": "are",
+        "explicacion": "Grace and her husband son dos personas (= they), así que el verbo es are, no is."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.05",
+      "leccion": "am-is-are",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe.",
+      "texto": "My parents are in the garden.",
+      "pistas": [
+        "Son seis palabras.",
+        "El sujeto es plural: mis padres.",
+        "My parents + are + in the garden (en el jardín)."
+      ],
+      "solucion": {
+        "respuesta": "My parents are in the garden.",
+        "explicacion": "«Mis papás están en el jardín.» My parents es plural, por eso are."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.eval.06",
+      "leccion": "contracciones-to-be",
+      "habilidad": "gramatica",
+      "tipo": "transformar",
+      "dificultad": 1,
+      "enunciado": "Escribe la oración con la forma contraída.",
+      "origen": "You are very kind.",
+      "instruccion": "Forma contraída",
+      "respuestas": [
+        "You're very kind."
+      ],
+      "literal": true,
+      "errores_tipicos": {
+        "Your very kind.": "Sin apóstrofo es el posesivo your (tu). La contracción de you are es [[you're]]."
+      },
+      "pistas": [
+        "Une el sujeto y el verbo en una palabra.",
+        "¿Qué letra de are desaparece?",
+        "Regla: el apóstrofo sustituye a la a de are y todo va junto."
+      ],
+      "solucion": {
+        "respuesta": "You're very kind.",
+        "explicacion": "You are se contrae como You're: la a de are se sustituye por el apóstrofo. Your (sin apóstrofo) es otra palabra."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.07",
+      "leccion": "contracciones-to-be",
+      "habilidad": "gramatica",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Elige la palabra correcta.",
+      "pregunta": "Look at the sky! ___ very cloudy.",
+      "opciones": [
+        {
+          "texto": "It's",
+          "correcta": true,
+          "porque": "Correcto: equivale a It is very cloudy. La prueba de la expansión funciona."
+        },
+        {
+          "texto": "Its",
+          "correcta": false,
+          "porque": "its sin apóstrofo es posesivo («su») y no contiene el verbo."
+        },
+        {
+          "texto": "Is",
+          "correcta": false,
+          "porque": "Falta el sujeto. Para el tiempo, el sujeto obligatorio es it."
+        }
+      ],
+      "pistas": [
+        "Hablas del tiempo.",
+        "La oración necesita sujeto y verbo. ¿Qué opción contiene los dos?",
+        "It is → It's, con apóstrofo."
+      ],
+      "solucion": {
+        "respuesta": "It's",
+        "explicacion": "It's = it is: sujeto (it) y verbo (is). Its es un posesivo y Is solo deja la oración sin sujeto."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.08",
+      "leccion": "contracciones-to-be",
+      "habilidad": "comprension",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe. Escribe las contracciones tal como las oyes.",
+      "texto": "We're late and they're angry.",
+      "literal": true,
+      "pistas": [
+        "Hay dos sujetos plurales, cada uno con su contracción de are.",
+        "El segundo sujeto suena /ðer/: hay tres palabras que suenan así; solo una contiene el verbo.",
+        "we are → we're; they are → they're."
+      ],
+      "solucion": {
+        "respuesta": "We're late and they're angry.",
+        "explicacion": "«Llegamos tarde y están enojados.» Las dos contracciones son de are: we're y they're (no there ni their, porque la oración necesita el verbo)."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.eval.09",
+      "leccion": "contracciones-to-be",
+      "habilidad": "vocabulario",
+      "tipo": "relacionar",
+      "dificultad": 1,
+      "enunciado": "Une cada contracción con su forma completa.",
+      "pares": [
+        {
+          "a": "she's",
+          "b": "she is"
+        },
+        {
+          "a": "I'm",
+          "b": "I am"
+        },
+        {
+          "a": "they're",
+          "b": "they are"
+        },
+        {
+          "a": "you're",
+          "b": "you are"
+        }
+      ],
+      "pistas": [
+        "El apóstrofo sustituye una letra del verbo.",
+        "Fíjate en el sujeto de cada contracción.",
+        "'m = am, 's = is, 're = are."
+      ],
+      "solucion": {
+        "respuesta": "she's → she is · I'm → I am · they're → they are · you're → you are",
+        "explicacion": "Cada contracción conserva el sujeto y reduce el verbo: 'm es am, 's es is y 're es are."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.10",
+      "leccion": "contracciones-to-be",
+      "habilidad": "interpretacion",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Este mensaje tiene una palabra mal escrita. Señálala y corrígela.",
+      "frase": "Thanks, your the best!",
+      "error": "your",
+      "correcciones": [
+        "you're",
+        "you are"
+      ],
+      "frase_correcta": "Thanks, you're the best!",
+      "pistas": [
+        "Dos palabras suenan igual pero se escriben distinto.",
+        "¿Dónde está el verbo de la oración?",
+        "Si equivale a you are, se escribe you're."
+      ],
+      "solucion": {
+        "respuesta": "you're",
+        "explicacion": "El mensaje quiere decir «Thanks, you are the best!» (¡Gracias, eres el mejor!). Your es posesivo; la contracción del verbo es you're."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.11",
+      "leccion": "usos-de-to-be",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés.",
+      "es": "Mi hija tiene doce años.",
+      "respuestas": [
+        "My daughter is twelve.",
+        "My daughter is twelve years old.",
+        "My daughter is 12.",
+        "My daughter is 12 years old."
+      ],
+      "errores_tipicos": {
+        "My daughter has twelve years.": "La edad se dice con be: My daughter [[is]] twelve.",
+        "My daughter is twelve years.": "Falta old: twelve o twelve years old."
+      },
+      "pistas": [
+        "¿Con qué verbo se dice la edad en inglés?",
+        "El sujeto es my daughter: ¿qué forma de be lleva?",
+        "Sujeto + is + número (+ years old)."
+      ],
+      "solucion": {
+        "respuesta": "My daughter is twelve.",
+        "explicacion": "La edad se expresa con be: my daughter (= she) + is + twelve (years old). Nunca con have."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.12",
+      "leccion": "usos-de-to-be",
+      "habilidad": "vocabulario",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa con la palabra adecuada del banco.",
+      "frase": "Can I have some water? I'm very ___.",
+      "traduccion": "¿Me das un poco de agua? Tengo mucha sed.",
+      "banco": [
+        "hungry",
+        "thirsty",
+        "scared",
+        "lucky"
+      ],
+      "respuestas": [
+        [
+          "thirsty"
+        ]
+      ],
+      "errores_tipicos": {
+        "hungry": "hungry es tener hambre. Si pides agua, lo lógico es thirsty (sed)."
+      },
+      "pistas": [
+        "Piensa para qué se pide agua.",
+        "Es una sensación que en español se «tiene».",
+        "Regla: la sensación que se calma con agua se dice con be + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "thirsty",
+        "explicacion": "Pides agua porque tienes sed: I'm very thirsty. Tener sed se dice con be + thirsty."
+      },
+      "audio": true
+    },
+    {
+      "id": "verbo-to-be.eval.13",
+      "leccion": "usos-de-to-be",
+      "habilidad": "gramatica",
+      "tipo": "ordenar",
+      "dificultad": 2,
+      "enunciado": "Ordena las palabras.",
+      "fichas": [
+        "engineer",
+        "is",
+        "an",
+        "brother",
+        "My"
+      ],
+      "respuestas": [
+        "My brother is an engineer"
+      ],
+      "traduccion": "Mi hermano es ingeniero.",
+      "pistas": [
+        "Empieza por el sujeto (dos palabras).",
+        "Después, el verbo y la profesión.",
+        "Sujeto + is + an + profesión."
+      ],
+      "solucion": {
+        "respuesta": "My brother is an engineer.",
+        "explicacion": "Sujeto (My brother) + is + an engineer. La profesión en singular lleva artículo, y es an porque engineer empieza con sonido de vocal."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.14",
+      "leccion": "usos-de-to-be",
+      "habilidad": "interpretacion",
+      "tipo": "opcion",
+      "dificultad": 2,
+      "enunciado": "Lee la situación y elige lo que dirías.",
+      "pregunta": "Estás en una oficina con el aire acondicionado muy fuerte. Tú estás bien, pero quieres comentar que el lugar está frío.",
+      "opciones": [
+        {
+          "texto": "It's cold in here.",
+          "correcta": true,
+          "porque": "Correcto: hablas del ambiente (hace frío), así que el sujeto es it."
+        },
+        {
+          "texto": "I'm cold.",
+          "correcta": false,
+          "porque": "I'm cold dice que TÚ tienes frío, pero la situación dice que tú estás bien."
+        },
+        {
+          "texto": "Is cold in here.",
+          "correcta": false,
+          "porque": "Falta el sujeto it."
+        },
+        {
+          "texto": "It makes cold in here.",
+          "correcta": false,
+          "porque": "Calco de «hace frío». En inglés el tiempo y la temperatura no se expresan con make."
+        }
+      ],
+      "pistas": [
+        "¿Hablas de lo que sientes tú o del lugar?",
+        "Si hablas del lugar, ¿cuál es el sujeto?",
+        "Ambiente → It's + adjetivo."
+      ],
+      "solucion": {
+        "respuesta": "It's cold in here.",
+        "explicacion": "Comentas el ambiente, no tu sensación: It's cold in here (Hace frío aquí adentro). I'm cold significaría que tú tienes frío."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.15",
+      "leccion": "usos-de-to-be",
+      "habilidad": "interpretacion",
+      "tipo": "conversacion",
+      "dificultad": 3,
+      "enunciado": "Elige la respuesta adecuada.",
+      "contexto": "Estás en la calle con Ana en pleno invierno. Tú también estás temblando y quieres darle la razón.",
+      "lineas": [
+        {
+          "quien": "Ana",
+          "en": "Brr! It's very cold today.",
+          "es": "¡Brr! Hoy hace mucho frío."
+        }
+      ],
+      "opciones": [
+        {
+          "texto": "You're right!",
+          "correcta": true,
+          "porque": "Correcto: «¡Tienes razón!». Tener razón = be right."
+        },
+        {
+          "texto": "You have reason!",
+          "correcta": false,
+          "porque": "Calco de «tienes razón». En inglés se dice con be: You're right."
+        },
+        {
+          "texto": "You're wrong!",
+          "correcta": false,
+          "porque": "wrong significa «estás equivocada»: dirías lo contrario de lo que piensas."
+        },
+        {
+          "texto": "Your right!",
+          "correcta": false,
+          "porque": "Sin apóstrofo, your es el posesivo «tu»; la oración se queda sin verbo. Es you're (you are)."
+        }
+      ],
+      "pistas": [
+        "Quieres darle la razón a Ana.",
+        "¿Qué adjetivo significa «tener razón»? Revisa también cómo se escribe el sujeto con el verbo.",
+        "Tener razón = be right; you are → you're."
+      ],
+      "solucion": {
+        "respuesta": "You're right!",
+        "explicacion": "Para dar la razón se dice You're right: be + right, no have reason. Se escribe you're porque es you are; your es un posesivo."
+      }
+    },
+    {
+      "id": "verbo-to-be.eval.16",
+      "leccion": "usos-de-to-be",
+      "habilidad": "produccion",
+      "tipo": "traducir",
+      "dificultad": 3,
+      "enunciado": "Traduce al inglés.",
+      "es": "Somos de Perú y somos maestros.",
+      "respuestas": [
+        "We're from Peru and we're teachers.",
+        "We're from Peru and are teachers.",
+        "We're teachers from Peru."
+      ],
+      "errores_tipicos": {
+        "We're from Peru and we're teacher.": "Si el sujeto es plural (we), la profesión también va en plural: teachers.",
+        "We're from Peru and we're a teachers.": "a / an solo va con un sustantivo singular. En plural, sin artículo: teachers.",
+        "Are from Peru and are teachers.": "Faltan los sujetos: [[We're]] from Peru and [[we're]] teachers."
+      },
+      "pistas": [
+        "«Somos» aparece dos veces: ¿cuál es el sujeto?",
+        "El origen lleva from; la profesión, con un sujeto plural, va en plural.",
+        "We're from + país; we're + profesión en plural (sin a)."
+      ],
+      "solucion": {
+        "respuesta": "We're from Peru and we're teachers.",
+        "explicacion": "We es plural, así que va con are (we're). El origen se dice con from + país. La profesión va en plural (teachers) y, por ser plural, sin a."
+      },
+      "audio": true
+    }
+  ]
+}

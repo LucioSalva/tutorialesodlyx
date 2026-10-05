@@ -1,0 +1,1338 @@
+{
+  "curso": {
+    "nombre": "Academia de Inglés",
+    "version": "1.6.0",
+    "referencia_nivel": "Orientado a los niveles A1 y A2 del Marco Común Europeo de Referencia (MCER). No es una certificación oficial.",
+    "resumen": "Curso original de inglés desde cero: gramática, vocabulario, pronunciación, escucha, lectura, escritura y conversación, con ejercicios corregidos y razonados, juegos, evaluaciones y repaso espaciado."
+  },
+  "bloques": [
+    {
+      "slug": "primer-contacto",
+      "numero": 1,
+      "titulo": "Primer contacto con el inglés",
+      "resumen": "Cómo suena el inglés, el alfabeto, los pronombres y las primeras frases para saludar, presentarte y sobrevivir en clase.",
+      "nivel": "A1",
+      "unidades": [
+        "sonidos-y-alfabeto",
+        "saludos-y-presentaciones",
+        "palabras-para-empezar"
+      ],
+      "examen": "examen-primer-contacto"
+    },
+    {
+      "slug": "construir-oraciones",
+      "numero": 2,
+      "titulo": "Construir oraciones",
+      "resumen": "El verbo to be completo (afirmar, negar, preguntar y responder), contracciones, artículos, plurales y demostrativos.",
+      "nivel": "A1",
+      "unidades": [
+        "verbo-to-be",
+        "to-be-negacion-y-preguntas",
+        "sustantivos-y-articulos"
+      ],
+      "examen": "examen-construir-oraciones"
+    },
+    {
+      "slug": "describir-el-mundo",
+      "numero": 3,
+      "titulo": "Describir el mundo",
+      "resumen": "Adjetivos, posesivos, there is / there are y preposiciones de lugar para describir personas, objetos, casas y ciudades.",
+      "nivel": "A1",
+      "unidades": [
+        "adjetivos-y-descripciones",
+        "posesivos",
+        "there-is-there-are"
+      ],
+      "examen": "examen-describir-el-mundo"
+    },
+    {
+      "slug": "comunicacion-cotidiana",
+      "numero": 4,
+      "titulo": "Comunicación cotidiana",
+      "resumen": "Números, precios, fechas, horas, países, nacionalidades, familia, profesiones y las preguntas que se hacen todos los días.",
+      "nivel": "A1",
+      "unidades": [
+        "numeros",
+        "fechas-y-horas",
+        "paises-y-nacionalidades",
+        "familia-profesiones-y-preguntas"
+      ],
+      "examen": "examen-comunicacion-cotidiana"
+    },
+    {
+      "slug": "rutinas-y-habitos",
+      "numero": 5,
+      "titulo": "Rutinas y hábitos",
+      "resumen": "El presente simple: afirmación, tercera persona, do / does, negaciones, preguntas y adverbios de frecuencia.",
+      "nivel": "A1",
+      "unidades": [
+        "presente-simple",
+        "presente-simple-do-does",
+        "frecuencia-y-tiempo-libre"
+      ],
+      "examen": "examen-rutinas-y-habitos"
+    },
+    {
+      "slug": "acciones-actuales",
+      "numero": 6,
+      "titulo": "Acciones y situaciones actuales",
+      "resumen": "El presente continuo, la ortografía de -ing y la diferencia entre lo que haces siempre y lo que estás haciendo ahora.",
+      "nivel": "A1-A2",
+      "unidades": [
+        "presente-continuo",
+        "simple-o-continuo"
+      ],
+      "examen": "examen-acciones-actuales"
+    },
+    {
+      "slug": "posesion-y-cantidades",
+      "numero": 7,
+      "titulo": "Expresar posesión y cantidades",
+      "resumen": "Have y have got, sustantivos contables e incontables, some / any, much / many y cómo comprar y pedir comida.",
+      "nivel": "A1-A2",
+      "unidades": [
+        "have-y-have-got",
+        "contables-e-incontables",
+        "compras-y-comida"
+      ],
+      "examen": "examen-posesion-y-cantidades"
+    },
+    {
+      "slug": "habilidades-y-posibilidades",
+      "numero": 8,
+      "titulo": "Habilidades y posibilidades",
+      "resumen": "Can y could para hablar de habilidades, pedir permiso, hacer peticiones, sugerir y expresar posibilidad.",
+      "nivel": "A1-A2",
+      "unidades": [
+        "can",
+        "could"
+      ],
+      "examen": "examen-habilidades-y-posibilidades"
+    },
+    {
+      "slug": "hablar-del-pasado",
+      "numero": 9,
+      "titulo": "Hablar del pasado",
+      "resumen": "Was / were, el pasado simple con verbos regulares e irregulares, expresiones temporales, preguntas, negaciones y narraciones.",
+      "nivel": "A2",
+      "unidades": [
+        "was-were",
+        "pasado-simple-regular",
+        "pasado-simple-irregular"
+      ],
+      "examen": "examen-hablar-del-pasado"
+    },
+    {
+      "slug": "integracion",
+      "numero": 10,
+      "titulo": "Integración del inglés básico",
+      "resumen": "Todos los tiempos juntos: preguntar en cualquier tiempo, narrar experiencias, escribir correos y mantener conversaciones completas.",
+      "nivel": "A2",
+      "unidades": [
+        "todos-los-tiempos",
+        "comunicacion-integrada"
+      ],
+      "examen": "examen-integral"
+    },
+    {
+      "slug": "ampliacion",
+      "numero": 11,
+      "titulo": "Ampliación: más herramientas para comunicarte",
+      "resumen": "Pronombres de objeto, instrucciones con el imperativo, comparar personas y cosas, y hablar del futuro con going to y will.",
+      "nivel": "A2",
+      "unidades": [
+        "pronombres-de-objeto-e-imperativos",
+        "comparativos-y-superlativos",
+        "el-futuro"
+      ],
+      "examen": "examen-ampliacion"
+    }
+  ],
+  "unidades": [
+    {
+      "slug": "sonidos-y-alfabeto",
+      "numero": 1,
+      "bloque": "primer-contacto",
+      "titulo": "Sonidos y alfabeto",
+      "resumen": "Por qué el inglés no se lee como se escribe, cómo se nombran las letras y qué sonidos no existen en español.",
+      "nivel": "A1",
+      "prerrequisitos": [],
+      "objetivos": [
+        "Entender por qué en inglés una misma letra puede sonar de varias formas.",
+        "Nombrar las 26 letras y deletrear tu nombre.",
+        "Reconocer y producir los sonidos que más cuestan a un hispanohablante.",
+        "Leer símbolos básicos del Alfabeto Fonético Internacional (AFI)."
+      ],
+      "temas_vocabulario": [
+        "saludos"
+      ],
+      "lecciones": [
+        {
+          "slug": "como-suena-el-ingles",
+          "titulo": "Cómo suena el inglés",
+          "resumen": "Letras y sonidos no coinciden: vocales cortas y largas, la schwa y cómo leer el AFI."
+        },
+        {
+          "slug": "el-alfabeto",
+          "titulo": "El alfabeto y cómo deletrear",
+          "resumen": "El nombre de cada letra, las letras que se confunden y cómo deletrear en una conversación."
+        },
+        {
+          "slug": "sonidos-nuevos",
+          "titulo": "Sonidos que no existen en español",
+          "resumen": "th, h aspirada, v, sh, z y consonantes finales: dónde poner la lengua y los labios."
+        }
+      ]
+    },
+    {
+      "slug": "saludos-y-presentaciones",
+      "numero": 2,
+      "bloque": "primer-contacto",
+      "titulo": "Saludos y presentaciones",
+      "resumen": "Saludar, despedirte, los pronombres personales, presentarte y la estructura básica de una oración.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "sonidos-y-alfabeto"
+      ],
+      "objetivos": [
+        "Saludar y despedirte en situaciones formales e informales.",
+        "Usar los pronombres personales de sujeto sin omitirlos.",
+        "Presentarte y presentar a otra persona.",
+        "Ordenar una oración sencilla: sujeto, verbo y complemento."
+      ],
+      "temas_vocabulario": [
+        "saludos"
+      ],
+      "lecciones": [
+        {
+          "slug": "saludar-y-despedirse",
+          "titulo": "Saludar y despedirse",
+          "resumen": "Hello, hi, good morning, goodbye, see you: qué decir según la hora y la confianza."
+        },
+        {
+          "slug": "pronombres-personales",
+          "titulo": "Los pronombres personales",
+          "resumen": "I, you, he, she, it, we, they: por qué en inglés el sujeto nunca se omite."
+        },
+        {
+          "slug": "presentarse",
+          "titulo": "Presentarte y presentar a alguien",
+          "resumen": "My name is, I'm, this is, nice to meet you: la primera conversación completa."
+        },
+        {
+          "slug": "orden-de-la-oracion",
+          "titulo": "El orden de la oración",
+          "resumen": "Sujeto + verbo + complemento, y el adjetivo antes del sustantivo."
+        }
+      ]
+    },
+    {
+      "slug": "palabras-para-empezar",
+      "numero": 3,
+      "bloque": "primer-contacto",
+      "titulo": "Palabras para empezar",
+      "resumen": "Frases de clase y de cortesía, objetos cotidianos y colores para empezar a comunicarte desde el primer día.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "saludos-y-presentaciones"
+      ],
+      "objetivos": [
+        "Pedir que te repitan, que hablen más despacio o que te expliquen una palabra.",
+        "Usar please, thank you, sorry y excuse me en el momento adecuado.",
+        "Nombrar objetos cotidianos y colores."
+      ],
+      "temas_vocabulario": [
+        "clase-y-objetos",
+        "colores"
+      ],
+      "lecciones": [
+        {
+          "slug": "frases-de-clase",
+          "titulo": "Frases para sobrevivir en clase",
+          "resumen": "Can you repeat that?, How do you say…?, What does … mean?, I don't understand."
+        },
+        {
+          "slug": "cortesia",
+          "titulo": "Please, thank you, sorry, excuse me",
+          "resumen": "Las palabras de cortesía y sus respuestas, con sus diferencias de uso."
+        },
+        {
+          "slug": "objetos-y-colores",
+          "titulo": "Objetos cotidianos y colores",
+          "resumen": "What's this? It's a pen. What color is it? It's blue."
+        }
+      ]
+    },
+    {
+      "slug": "verbo-to-be",
+      "numero": 4,
+      "bloque": "construir-oraciones",
+      "titulo": "El verbo to be",
+      "resumen": "Am, is y are: el verbo que significa ser y estar, sus contracciones y sus usos, incluidos los que en español se dicen con tener.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "saludos-y-presentaciones"
+      ],
+      "objetivos": [
+        "Elegir am, is o are según el sujeto.",
+        "Usar y reconocer las contracciones I'm, you're, he's, it's…",
+        "Expresar edad, estado, origen, profesión y ubicación con to be.",
+        "Evitar el calco del español «tengo 20 años»."
+      ],
+      "temas_vocabulario": [
+        "sentimientos-y-estados"
+      ],
+      "lecciones": [
+        {
+          "slug": "am-is-are",
+          "titulo": "Am, is, are: ser y estar",
+          "resumen": "Qué significa to be, cómo cambia según el sujeto y por qué une una sola palabra ser y estar."
+        },
+        {
+          "slug": "contracciones-to-be",
+          "titulo": "Contracciones de to be",
+          "resumen": "I'm, you're, she's, it's, we're, they're: cómo se escriben, cuándo se usan y cómo se oyen."
+        },
+        {
+          "slug": "usos-de-to-be",
+          "titulo": "Usos de to be",
+          "resumen": "Edad, estados, origen, profesión, ubicación, tiempo atmosférico: donde el español usa tener, el inglés usa be."
+        }
+      ]
+    },
+    {
+      "slug": "to-be-negacion-y-preguntas",
+      "numero": 5,
+      "bloque": "construir-oraciones",
+      "titulo": "To be: negación, preguntas y respuestas",
+      "resumen": "Negar con not, preguntar invirtiendo el orden, responder con respuestas cortas y hacer preguntas con what, where y how.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "verbo-to-be"
+      ],
+      "objetivos": [
+        "Formar negaciones completas y contraídas (isn't, aren't, I'm not).",
+        "Formar preguntas de sí o no invirtiendo sujeto y verbo.",
+        "Contestar con respuestas cortas correctas (Yes, I am / No, she isn't).",
+        "Preguntar el nombre, el origen, la edad y el estado de alguien."
+      ],
+      "temas_vocabulario": [
+        "sentimientos-y-estados"
+      ],
+      "lecciones": [
+        {
+          "slug": "negacion-to-be",
+          "titulo": "La negación con to be",
+          "resumen": "Sujeto + be + not, las dos formas de contraer y el caso especial de I'm not."
+        },
+        {
+          "slug": "preguntas-to-be",
+          "titulo": "Preguntas de sí o no",
+          "resumen": "Is she…? Are you…? La inversión y la entonación ascendente."
+        },
+        {
+          "slug": "respuestas-cortas",
+          "titulo": "Respuestas cortas",
+          "resumen": "Yes, I am / No, I'm not: por qué no se contrae en la respuesta afirmativa."
+        },
+        {
+          "slug": "preguntas-wh-con-be",
+          "titulo": "Preguntas con what, where, who, how",
+          "resumen": "What's your name? Where are you from? How old are you? How are you?"
+        }
+      ]
+    },
+    {
+      "slug": "sustantivos-y-articulos",
+      "numero": 6,
+      "bloque": "construir-oraciones",
+      "titulo": "Sustantivos, artículos y demostrativos",
+      "resumen": "A / an según el sonido, the, cuándo no se pone artículo, plurales regulares e irregulares y this, that, these, those.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "verbo-to-be",
+        "to-be-negacion-y-preguntas"
+      ],
+      "objetivos": [
+        "Elegir a o an según el primer sonido de la palabra.",
+        "Usar the y reconocer cuándo el inglés no lleva artículo.",
+        "Formar plurales regulares e irregulares y pronunciar la -s final.",
+        "Señalar objetos cercanos y lejanos con this, that, these y those."
+      ],
+      "temas_vocabulario": [
+        "clase-y-objetos",
+        "hogar"
+      ],
+      "lecciones": [
+        {
+          "slug": "a-an",
+          "titulo": "A y an",
+          "resumen": "El artículo indeterminado depende del SONIDO, no de la letra: an hour, a university."
+        },
+        {
+          "slug": "the-y-sin-articulo",
+          "titulo": "The y la ausencia de artículo",
+          "resumen": "The para lo conocido y lo único; sin artículo para hablar en general."
+        },
+        {
+          "slug": "plurales",
+          "titulo": "Plurales",
+          "resumen": "-s, -es, -ies, plurales irregulares y las tres pronunciaciones de la -s."
+        },
+        {
+          "slug": "demostrativos",
+          "titulo": "This, that, these, those",
+          "resumen": "Cerca o lejos, singular o plural, y cómo preguntar What's this?"
+        }
+      ]
+    },
+    {
+      "slug": "adjetivos-y-descripciones",
+      "numero": 7,
+      "bloque": "describir-el-mundo",
+      "titulo": "Adjetivos y descripciones",
+      "resumen": "Dónde va el adjetivo, por qué no tiene plural, opuestos frecuentes y cómo describir a personas y cosas.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "to-be-negacion-y-preguntas",
+        "sustantivos-y-articulos"
+      ],
+      "objetivos": [
+        "Colocar el adjetivo antes del sustantivo y sin plural.",
+        "Usar pares de opuestos frecuentes (big / small, old / new…).",
+        "Graduar con very, quite y too.",
+        "Describir el aspecto y la personalidad de una persona."
+      ],
+      "temas_vocabulario": [
+        "adjetivos-frecuentes",
+        "cuerpo-y-aspecto"
+      ],
+      "lecciones": [
+        {
+          "slug": "posicion-del-adjetivo",
+          "titulo": "La posición del adjetivo",
+          "resumen": "a red car, two red cars: antes del sustantivo y siempre igual."
+        },
+        {
+          "slug": "opuestos-y-grados",
+          "titulo": "Opuestos y grados",
+          "resumen": "big / small, cheap / expensive… y very, quite, too."
+        },
+        {
+          "slug": "describir-personas",
+          "titulo": "Describir personas y cosas",
+          "resumen": "What's she like? What does he look like? Aspecto, carácter y objetos."
+        }
+      ]
+    },
+    {
+      "slug": "posesivos",
+      "numero": 8,
+      "bloque": "describir-el-mundo",
+      "titulo": "Posesivos",
+      "resumen": "My, your, his, her…; el genitivo 's; los pronombres mine, yours…; y la pregunta whose.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "saludos-y-presentaciones",
+        "verbo-to-be"
+      ],
+      "objetivos": [
+        "Elegir his o her según el POSEEDOR, no según la cosa poseída.",
+        "Expresar posesión con 's y s'.",
+        "Usar mine, yours, his, hers, ours, theirs sin repetir el sustantivo.",
+        "Preguntar de quién es algo con whose."
+      ],
+      "temas_vocabulario": [
+        "familia"
+      ],
+      "lecciones": [
+        {
+          "slug": "adjetivos-posesivos",
+          "titulo": "My, your, his, her, its, our, their",
+          "resumen": "Los adjetivos posesivos y la diferencia clave con el español «su»."
+        },
+        {
+          "slug": "genitivo-sajon",
+          "titulo": "El genitivo 's",
+          "resumen": "Anna's phone, my parents' house: cómo y dónde se pone el apóstrofo."
+        },
+        {
+          "slug": "pronombres-posesivos-y-whose",
+          "titulo": "Mine, yours… y whose",
+          "resumen": "It's mine. Whose bag is this? It's hers."
+        }
+      ]
+    },
+    {
+      "slug": "there-is-there-are",
+      "numero": 9,
+      "bloque": "describir-el-mundo",
+      "titulo": "There is / there are y lugares",
+      "resumen": "Decir lo que hay, negarlo y preguntarlo, las preposiciones de lugar y la descripción de casas y ciudades.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "sustantivos-y-articulos"
+      ],
+      "objetivos": [
+        "Usar there is con singular e incontable y there are con plural.",
+        "Negar y preguntar: There isn't… Are there any…? How many… are there?",
+        "Situar objetos con in, on, under, next to, between, behind, in front of.",
+        "Describir una habitación y un barrio."
+      ],
+      "temas_vocabulario": [
+        "hogar",
+        "ciudad"
+      ],
+      "lecciones": [
+        {
+          "slug": "there-is-there-are-afirmativo",
+          "titulo": "There is y there are",
+          "resumen": "El «hay» del inglés tiene singular y plural."
+        },
+        {
+          "slug": "there-negacion-y-preguntas",
+          "titulo": "Negación y preguntas con there",
+          "resumen": "There isn't / aren't any, Is there…?, Are there any…?, How many…?"
+        },
+        {
+          "slug": "preposiciones-de-lugar",
+          "titulo": "Preposiciones de lugar",
+          "resumen": "in, on, under, next to, between, behind, in front of, opposite."
+        },
+        {
+          "slug": "describir-casa-y-ciudad",
+          "titulo": "Describir una casa y una ciudad",
+          "resumen": "Juntar there is, adjetivos y preposiciones para describir un lugar real."
+        }
+      ]
+    },
+    {
+      "slug": "numeros",
+      "numero": 10,
+      "bloque": "comunicacion-cotidiana",
+      "titulo": "Números",
+      "resumen": "Del cero al millón, la trampa de thirteen / thirty, precios, teléfonos y números ordinales.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "verbo-to-be"
+      ],
+      "objetivos": [
+        "Decir y entender números del 0 al 100 distinguiendo -teen y -ty.",
+        "Leer cantidades grandes, precios y números de teléfono.",
+        "Formar y usar los ordinales."
+      ],
+      "temas_vocabulario": [
+        "numeros"
+      ],
+      "lecciones": [
+        {
+          "slug": "numeros-0-100",
+          "titulo": "Del 0 al 100",
+          "resumen": "Las formas irregulares, los guiones y el acento que distingue 13 de 30."
+        },
+        {
+          "slug": "numeros-grandes-y-precios",
+          "titulo": "Números grandes, precios y teléfonos",
+          "resumen": "hundred, thousand, million, and; dólares y centavos; oh y double."
+        },
+        {
+          "slug": "ordinales",
+          "titulo": "Números ordinales",
+          "resumen": "first, second, third… y cómo se abrevian: 1st, 2nd, 3rd, 4th."
+        }
+      ]
+    },
+    {
+      "slug": "fechas-y-horas",
+      "numero": 11,
+      "bloque": "comunicacion-cotidiana",
+      "titulo": "Fechas y horas",
+      "resumen": "Días, meses y estaciones; cómo decir y escribir fechas; la hora; y las preposiciones in, on y at.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "numeros"
+      ],
+      "objetivos": [
+        "Nombrar días, meses y estaciones con mayúscula cuando corresponde.",
+        "Decir y escribir fechas en formato estadounidense y británico.",
+        "Preguntar y decir la hora de dos maneras.",
+        "Elegir in, on o at con expresiones de tiempo."
+      ],
+      "temas_vocabulario": [
+        "tiempo-y-calendario"
+      ],
+      "lecciones": [
+        {
+          "slug": "dias-meses-estaciones",
+          "titulo": "Días, meses y estaciones",
+          "resumen": "Monday, January, summer: pronunciación y mayúsculas."
+        },
+        {
+          "slug": "decir-fechas",
+          "titulo": "Decir y escribir fechas",
+          "resumen": "the fifth of May, May fifth, 05/06: por qué una fecha puede significar dos días distintos."
+        },
+        {
+          "slug": "la-hora",
+          "titulo": "La hora",
+          "resumen": "What time is it? o'clock, half past, quarter to y la forma digital."
+        },
+        {
+          "slug": "in-on-at-tiempo",
+          "titulo": "In, on, at con el tiempo",
+          "resumen": "in May, on Monday, at 7:30 y las expresiones sin preposición."
+        }
+      ]
+    },
+    {
+      "slug": "paises-y-nacionalidades",
+      "numero": 12,
+      "bloque": "comunicacion-cotidiana",
+      "titulo": "Países, nacionalidades e idiomas",
+      "resumen": "Decir de dónde eres, la diferencia entre país, nacionalidad e idioma y por qué todas llevan mayúscula.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "to-be-negacion-y-preguntas"
+      ],
+      "objetivos": [
+        "Distinguir país (Mexico), nacionalidad (Mexican) e idioma (Spanish).",
+        "Escribir nacionalidades e idiomas con mayúscula.",
+        "Preguntar y responder Where are you from? y What languages do you speak?"
+      ],
+      "temas_vocabulario": [
+        "paises"
+      ],
+      "lecciones": [
+        {
+          "slug": "paises-y-nacionalidades",
+          "titulo": "Países y nacionalidades",
+          "resumen": "Las terminaciones -an, -ish, -ese, -i y las irregulares."
+        },
+        {
+          "slug": "de-donde-eres",
+          "titulo": "¿De dónde eres? Idiomas",
+          "resumen": "Where are you from? I'm from…, I'm…, I speak…"
+        }
+      ]
+    },
+    {
+      "slug": "familia-profesiones-y-preguntas",
+      "numero": 13,
+      "bloque": "comunicacion-cotidiana",
+      "titulo": "Familia, profesiones y preguntas frecuentes",
+      "resumen": "Los miembros de la familia, las profesiones con a / an y el mapa completo de las palabras interrogativas.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "posesivos",
+        "to-be-negacion-y-preguntas"
+      ],
+      "objetivos": [
+        "Hablar de tu familia con posesivos.",
+        "Decir tu profesión con a / an (I'm a nurse).",
+        "Elegir la palabra interrogativa correcta: who, what, where, when, why, how, which, how many…"
+      ],
+      "temas_vocabulario": [
+        "familia",
+        "trabajo-y-profesiones"
+      ],
+      "lecciones": [
+        {
+          "slug": "la-familia",
+          "titulo": "La familia",
+          "resumen": "parents, siblings, cousins… y cómo presentar a tu familia."
+        },
+        {
+          "slug": "profesiones",
+          "titulo": "Profesiones",
+          "resumen": "I'm a teacher: el artículo que el español omite y dónde trabaja cada uno."
+        },
+        {
+          "slug": "palabras-interrogativas",
+          "titulo": "Las palabras interrogativas",
+          "resumen": "who, what, where, when, why, how, which, whose, how many, how much."
+        }
+      ]
+    },
+    {
+      "slug": "presente-simple",
+      "numero": 14,
+      "bloque": "rutinas-y-habitos",
+      "titulo": "El presente simple",
+      "resumen": "Para hábitos, rutinas y verdades generales. La -s de la tercera persona, su ortografía y su pronunciación.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "verbo-to-be",
+        "familia-profesiones-y-preguntas"
+      ],
+      "objetivos": [
+        "Usar el presente simple para rutinas, hábitos y hechos.",
+        "Añadir -s, -es o -ies a la tercera persona del singular.",
+        "Pronunciar la -s final como /s/, /z/ o /ɪz/.",
+        "Describir tu rutina diaria."
+      ],
+      "temas_vocabulario": [
+        "actividades-diarias"
+      ],
+      "lecciones": [
+        {
+          "slug": "que-es-el-presente-simple",
+          "titulo": "Qué es el presente simple",
+          "resumen": "Hábitos, rutinas y verdades generales: I work, you work… y la forma base del verbo."
+        },
+        {
+          "slug": "tercera-persona",
+          "titulo": "La tercera persona: he works",
+          "resumen": "Por qué aparece la -s, sus reglas de ortografía, has, does, goes y su pronunciación."
+        },
+        {
+          "slug": "rutina-diaria",
+          "titulo": "La rutina diaria",
+          "resumen": "get up, have breakfast, go to work: verbos frecuentes y conectores de secuencia."
+        }
+      ]
+    },
+    {
+      "slug": "presente-simple-do-does",
+      "numero": 15,
+      "bloque": "rutinas-y-habitos",
+      "titulo": "Do y does: negar y preguntar",
+      "resumen": "El auxiliar do / does, por qué desaparece la -s del verbo principal y cómo hacer preguntas con palabras interrogativas.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "presente-simple"
+      ],
+      "objetivos": [
+        "Negar con don't / doesn't + verbo en forma base.",
+        "Preguntar con Do / Does + sujeto + verbo en forma base.",
+        "Contestar con respuestas cortas (Yes, she does).",
+        "Formar preguntas con where, what time, how often… en presente simple."
+      ],
+      "temas_vocabulario": [
+        "actividades-diarias",
+        "trabajo-y-profesiones"
+      ],
+      "lecciones": [
+        {
+          "slug": "negacion-presente-simple",
+          "titulo": "La negación: don't y doesn't",
+          "resumen": "El auxiliar se lleva la -s: she doesn't work, nunca she doesn't works."
+        },
+        {
+          "slug": "preguntas-presente-simple",
+          "titulo": "Preguntas y respuestas cortas",
+          "resumen": "Do you…? Does he…? Yes, he does / No, he doesn't."
+        },
+        {
+          "slug": "preguntas-wh-presente-simple",
+          "titulo": "Preguntas con palabras interrogativas",
+          "resumen": "Where do you live? What time does the shop open? y la diferencia con las preguntas de be."
+        }
+      ]
+    },
+    {
+      "slug": "frecuencia-y-tiempo-libre",
+      "numero": 16,
+      "bloque": "rutinas-y-habitos",
+      "titulo": "Frecuencia y tiempo libre",
+      "resumen": "always, usually, never…: dónde se colocan, how often y hablar de gustos con like, love y hate.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "presente-simple-do-does"
+      ],
+      "objetivos": [
+        "Colocar los adverbios de frecuencia antes del verbo principal y después de be.",
+        "Preguntar y responder How often…? (once a week, every day…).",
+        "Hablar de gustos con like / love / hate + sustantivo o verbo en -ing."
+      ],
+      "temas_vocabulario": [
+        "tiempo-libre"
+      ],
+      "lecciones": [
+        {
+          "slug": "adverbios-de-frecuencia",
+          "titulo": "Adverbios de frecuencia",
+          "resumen": "always, usually, often, sometimes, rarely, never y su posición exacta."
+        },
+        {
+          "slug": "how-often",
+          "titulo": "How often? Expresiones de frecuencia",
+          "resumen": "once a week, twice a month, every day: al final de la frase."
+        },
+        {
+          "slug": "gustos",
+          "titulo": "Gustos: like, love, hate",
+          "resumen": "I like music. She loves cooking. Do you like…?"
+        }
+      ]
+    },
+    {
+      "slug": "presente-continuo",
+      "numero": 17,
+      "bloque": "acciones-actuales",
+      "titulo": "El presente continuo",
+      "resumen": "Para lo que está pasando ahora: am / is / are + -ing, su ortografía, su negación y sus preguntas.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "verbo-to-be",
+        "presente-simple"
+      ],
+      "objetivos": [
+        "Formar el presente continuo con be + verbo en -ing.",
+        "Aplicar las reglas de ortografía de -ing (making, running, lying).",
+        "Negar y preguntar en presente continuo y responder con respuestas cortas."
+      ],
+      "temas_vocabulario": [
+        "actividades-diarias"
+      ],
+      "lecciones": [
+        {
+          "slug": "que-es-el-presente-continuo",
+          "titulo": "Qué es el presente continuo",
+          "resumen": "I'm working: acciones en progreso ahora mismo o en este periodo."
+        },
+        {
+          "slug": "ortografia-ing",
+          "titulo": "La ortografía de -ing",
+          "resumen": "make → making, run → running, lie → lying: tres reglas y sus excepciones."
+        },
+        {
+          "slug": "negacion-y-preguntas-continuo",
+          "titulo": "Negación y preguntas",
+          "resumen": "She isn't sleeping. Are you listening? What are you doing?"
+        }
+      ]
+    },
+    {
+      "slug": "simple-o-continuo",
+      "numero": 18,
+      "bloque": "acciones-actuales",
+      "titulo": "¿Presente simple o continuo?",
+      "resumen": "Hábito frente a ahora, las expresiones de tiempo que ayudan a decidir, los verbos de estado y el continuo para planes futuros.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "presente-continuo",
+        "frecuencia-y-tiempo-libre"
+      ],
+      "objetivos": [
+        "Elegir entre presente simple y continuo según el significado.",
+        "Reconocer los verbos de estado que no suelen ir en continuo.",
+        "Hablar de planes ya acordados con el presente continuo."
+      ],
+      "temas_vocabulario": [
+        "tiempo-libre",
+        "tecnologia"
+      ],
+      "lecciones": [
+        {
+          "slug": "habito-o-ahora",
+          "titulo": "Hábito o ahora",
+          "resumen": "I work / I'm working: la línea del tiempo y las expresiones que lo señalan."
+        },
+        {
+          "slug": "verbos-de-estado",
+          "titulo": "Verbos de estado",
+          "resumen": "know, like, want, need, understand: por qué no se dice I'm knowing."
+        },
+        {
+          "slug": "continuo-para-planes",
+          "titulo": "El continuo para planes",
+          "resumen": "I'm meeting Ana on Friday: agenda y planes ya organizados."
+        }
+      ]
+    },
+    {
+      "slug": "have-y-have-got",
+      "numero": 19,
+      "bloque": "posesion-y-cantidades",
+      "titulo": "Have y have got",
+      "resumen": "Dos maneras de decir tener, cómo se niegan y preguntan, y los usos de have que no significan poseer.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "presente-simple-do-does"
+      ],
+      "objetivos": [
+        "Usar have / has con do / does en negaciones y preguntas.",
+        "Usar have got / has got y sus formas negativas e interrogativas.",
+        "Usar have en expresiones como have breakfast o have a shower (sin got)."
+      ],
+      "temas_vocabulario": [
+        "familia",
+        "salud"
+      ],
+      "lecciones": [
+        {
+          "slug": "have-presente-simple",
+          "titulo": "Have: tener",
+          "resumen": "I have, she has; I don't have; Do you have…?"
+        },
+        {
+          "slug": "have-got",
+          "titulo": "Have got",
+          "resumen": "I've got, she's got; I haven't got; Have you got…? y cuándo se prefiere."
+        },
+        {
+          "slug": "expresiones-con-have",
+          "titulo": "Expresiones con have",
+          "resumen": "have breakfast, have a shower, have a good time: acciones, no posesión."
+        }
+      ]
+    },
+    {
+      "slug": "contables-e-incontables",
+      "numero": 20,
+      "bloque": "posesion-y-cantidades",
+      "titulo": "Contables e incontables",
+      "resumen": "Qué sustantivos se cuentan, some y any, much, many y a lot of, y cómo preguntar cantidades.",
+      "nivel": "A1-A2",
+      "prerrequisitos": [
+        "there-is-there-are",
+        "have-y-have-got"
+      ],
+      "objetivos": [
+        "Distinguir sustantivos contables e incontables (incluidos los que en español sí se cuentan).",
+        "Usar some y any en afirmaciones, negaciones y preguntas.",
+        "Elegir much, many, a lot of, a few y a little; preguntar How much / How many."
+      ],
+      "temas_vocabulario": [
+        "comida"
+      ],
+      "lecciones": [
+        {
+          "slug": "contable-o-incontable",
+          "titulo": "¿Contable o incontable?",
+          "resumen": "an apple / some water; information, advice, furniture y otras trampas."
+        },
+        {
+          "slug": "some-y-any",
+          "titulo": "Some y any",
+          "resumen": "some en afirmaciones y ofrecimientos, any en negaciones y preguntas."
+        },
+        {
+          "slug": "much-many-a-lot-of",
+          "titulo": "Much, many, a lot of",
+          "resumen": "How much…? How many…? a few, a little."
+        }
+      ]
+    },
+    {
+      "slug": "compras-y-comida",
+      "numero": 21,
+      "bloque": "posesion-y-cantidades",
+      "titulo": "Compras y comida",
+      "resumen": "Pedir, preguntar precios, envases y medidas, y pedir en un restaurante o una cafetería.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "contables-e-incontables",
+        "numeros"
+      ],
+      "objetivos": [
+        "Preguntar precios y pagar (How much is it? / How much are they?).",
+        "Usar envases y medidas: a bottle of, a kilo of, a piece of.",
+        "Pedir con I'd like… y Can I have…?"
+      ],
+      "temas_vocabulario": [
+        "comida",
+        "compras"
+      ],
+      "lecciones": [
+        {
+          "slug": "en-la-tienda",
+          "titulo": "En la tienda",
+          "resumen": "How much is this? Can I pay by card? I'm just looking."
+        },
+        {
+          "slug": "envases-y-medidas",
+          "titulo": "Envases y medidas",
+          "resumen": "a bottle of water, a slice of bread: cómo contar lo incontable."
+        },
+        {
+          "slug": "pedir-comida",
+          "titulo": "Pedir en una cafetería o restaurante",
+          "resumen": "I'd like…, Can I have…?, Could we have the bill, please?"
+        }
+      ]
+    },
+    {
+      "slug": "can",
+      "numero": 22,
+      "bloque": "habilidades-y-posibilidades",
+      "titulo": "Can",
+      "resumen": "Hablar de habilidades, pedir permiso y hacer peticiones con can, y distinguir can de can't al escuchar.",
+      "nivel": "A1",
+      "prerrequisitos": [
+        "presente-simple-do-does"
+      ],
+      "objetivos": [
+        "Usar can + verbo en forma base, sin to y sin -s.",
+        "Negar y preguntar con can / can't y responder con respuestas cortas.",
+        "Pedir permiso (Can I…?) y hacer peticiones (Can you…?) y responder adecuadamente.",
+        "Distinguir /kən/ y /kɑːnt/ o /kænt/ al escuchar."
+      ],
+      "temas_vocabulario": [
+        "tiempo-libre"
+      ],
+      "lecciones": [
+        {
+          "slug": "can-habilidad",
+          "titulo": "Can para habilidades",
+          "resumen": "I can swim. She can't drive. Un verbo que nunca cambia."
+        },
+        {
+          "slug": "can-negacion-y-preguntas",
+          "titulo": "Can: negación, preguntas y pronunciación",
+          "resumen": "Can you…? Yes, I can. Y cómo se oye la diferencia entre can y can't."
+        },
+        {
+          "slug": "can-permiso-y-peticiones",
+          "titulo": "Permisos y peticiones",
+          "resumen": "Can I open the window? Can you help me? Sure! / Sorry, I can't."
+        }
+      ]
+    },
+    {
+      "slug": "could",
+      "numero": 23,
+      "bloque": "habilidades-y-posibilidades",
+      "titulo": "Could",
+      "resumen": "Habilidad en el pasado, peticiones más educadas, sugerencias y posibilidades.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "can"
+      ],
+      "objetivos": [
+        "Usar could / couldn't para habilidades en el pasado.",
+        "Hacer peticiones corteses con Could you…? y Could I…?",
+        "Sugerir (We could…) y expresar posibilidad (It could rain)."
+      ],
+      "temas_vocabulario": [
+        "viajes"
+      ],
+      "lecciones": [
+        {
+          "slug": "could-pasado",
+          "titulo": "Could para el pasado",
+          "resumen": "When I was five, I could swim. I couldn't sleep last night."
+        },
+        {
+          "slug": "could-peticiones",
+          "titulo": "Could para pedir con cortesía",
+          "resumen": "Could you…? Could I…? y la diferencia de tono con can."
+        },
+        {
+          "slug": "could-sugerencias-y-posibilidad",
+          "titulo": "Sugerencias y posibilidades",
+          "resumen": "We could go to the beach. It could be true."
+        }
+      ]
+    },
+    {
+      "slug": "was-were",
+      "numero": 24,
+      "bloque": "hablar-del-pasado",
+      "titulo": "Was y were",
+      "resumen": "El pasado de to be: afirmación, negación, preguntas, there was / there were y dónde naciste.",
+      "nivel": "A1-A2",
+      "prerrequisitos": [
+        "to-be-negacion-y-preguntas"
+      ],
+      "objetivos": [
+        "Elegir was o were según el sujeto.",
+        "Negar y preguntar con wasn't / weren't y respuestas cortas.",
+        "Usar there was / there were y I was born in…"
+      ],
+      "temas_vocabulario": [
+        "tiempo-y-calendario"
+      ],
+      "lecciones": [
+        {
+          "slug": "was-were-afirmativo",
+          "titulo": "Was y were",
+          "resumen": "I was, you were: el pasado de ser y estar."
+        },
+        {
+          "slug": "was-were-negacion-y-preguntas",
+          "titulo": "Negación y preguntas",
+          "resumen": "It wasn't cold. Were you at home? Yes, I was."
+        },
+        {
+          "slug": "there-was-y-born",
+          "titulo": "There was / there were y I was born",
+          "resumen": "Lo que había antes, y por qué «nací» se dice con was."
+        }
+      ]
+    },
+    {
+      "slug": "pasado-simple-regular",
+      "numero": 25,
+      "bloque": "hablar-del-pasado",
+      "titulo": "Pasado simple: verbos regulares",
+      "resumen": "Acciones terminadas en el pasado con -ed: ortografía, las tres pronunciaciones y las expresiones de tiempo.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "was-were",
+        "presente-simple"
+      ],
+      "objetivos": [
+        "Usar el pasado simple para acciones terminadas en un momento pasado.",
+        "Aplicar la ortografía de -ed (stopped, studied, liked).",
+        "Pronunciar -ed como /t/, /d/ o /ɪd/.",
+        "Situar acciones con yesterday, last…, … ago, in 2019."
+      ],
+      "temas_vocabulario": [
+        "actividades-diarias"
+      ],
+      "lecciones": [
+        {
+          "slug": "que-es-el-pasado-simple",
+          "titulo": "Qué es el pasado simple",
+          "resumen": "Acciones terminadas: I worked yesterday. Una sola forma para todos los sujetos."
+        },
+        {
+          "slug": "ortografia-y-pronunciacion-ed",
+          "titulo": "Ortografía y pronunciación de -ed",
+          "resumen": "stopped, studied, played; /t/, /d/, /ɪd/."
+        },
+        {
+          "slug": "expresiones-de-pasado",
+          "titulo": "Expresiones de pasado",
+          "resumen": "yesterday, last week, two days ago, in 2019, when I was a child."
+        }
+      ]
+    },
+    {
+      "slug": "pasado-simple-irregular",
+      "numero": 26,
+      "bloque": "hablar-del-pasado",
+      "titulo": "Pasado simple: irregulares, preguntas y negaciones",
+      "resumen": "Los verbos irregulares más frecuentes, did / didn't, las preguntas con palabras interrogativas y cómo narrar una historia.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "pasado-simple-regular"
+      ],
+      "objetivos": [
+        "Reconocer y usar los pasados irregulares más frecuentes.",
+        "Negar con didn't + forma base y preguntar con Did…?",
+        "Hacer preguntas en pasado con where, when, what, who…",
+        "Narrar una experiencia con conectores de secuencia."
+      ],
+      "temas_vocabulario": [
+        "viajes"
+      ],
+      "lecciones": [
+        {
+          "slug": "verbos-irregulares",
+          "titulo": "Verbos irregulares frecuentes",
+          "resumen": "go → went, have → had, see → saw… agrupados para memorizarlos mejor."
+        },
+        {
+          "slug": "did-negacion-y-preguntas",
+          "titulo": "Did: negación y preguntas",
+          "resumen": "I didn't go. Did you see it? El auxiliar se lleva el pasado."
+        },
+        {
+          "slug": "preguntas-wh-pasado",
+          "titulo": "Preguntas con palabras interrogativas",
+          "resumen": "Where did you go? What did she say? Who called you?"
+        },
+        {
+          "slug": "narrar",
+          "titulo": "Narrar una experiencia",
+          "resumen": "first, then, after that, finally: contar una historia en orden."
+        }
+      ]
+    },
+    {
+      "slug": "todos-los-tiempos",
+      "numero": 27,
+      "bloque": "integracion",
+      "titulo": "Todos los tiempos juntos",
+      "resumen": "Un mapa de los auxiliares para preguntar y negar en cualquier tiempo y elegir el tiempo correcto en contexto.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "simple-o-continuo",
+        "pasado-simple-irregular",
+        "can"
+      ],
+      "objetivos": [
+        "Identificar el auxiliar de cada tiempo (be, do, does, did, can).",
+        "Transformar una oración a negativa o interrogativa en cualquier tiempo estudiado.",
+        "Elegir el tiempo verbal adecuado según las pistas del contexto."
+      ],
+      "temas_vocabulario": [],
+      "lecciones": [
+        {
+          "slug": "mapa-de-auxiliares",
+          "titulo": "El mapa de los auxiliares",
+          "resumen": "Una sola regla para negar y preguntar: busca el auxiliar."
+        },
+        {
+          "slug": "elegir-el-tiempo",
+          "titulo": "Elegir el tiempo correcto",
+          "resumen": "Las señales del contexto que indican cada tiempo."
+        },
+        {
+          "slug": "preguntas-en-todos-los-tiempos",
+          "titulo": "Preguntas en todos los tiempos",
+          "resumen": "La misma información preguntada en presente, continuo, pasado y con can."
+        }
+      ]
+    },
+    {
+      "slug": "comunicacion-integrada",
+      "numero": 28,
+      "bloque": "integracion",
+      "titulo": "Comunicación integrada",
+      "resumen": "Describir experiencias, escribir mensajes y correos sencillos y sostener una conversación completa.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "todos-los-tiempos"
+      ],
+      "objetivos": [
+        "Describir una experiencia combinando pasado, presente y opiniones.",
+        "Escribir un correo o mensaje sencillo con saludo, cuerpo y despedida.",
+        "Mantener una conversación: preguntar, reaccionar y pedir aclaraciones."
+      ],
+      "temas_vocabulario": [
+        "viajes",
+        "salud",
+        "tecnologia"
+      ],
+      "lecciones": [
+        {
+          "slug": "describir-experiencias",
+          "titulo": "Describir experiencias",
+          "resumen": "Qué pasó, cómo fue y qué opinas: pasado + adjetivos + opinión."
+        },
+        {
+          "slug": "escribir-mensajes-y-correos",
+          "titulo": "Escribir mensajes y correos",
+          "resumen": "Hi Ana, / Dear Mr Smith, … Best wishes: la estructura y el registro."
+        },
+        {
+          "slug": "mantener-una-conversacion",
+          "titulo": "Mantener una conversación",
+          "resumen": "Reaccionar (Really? That's great!), devolver la pregunta (And you?) y pedir aclaraciones."
+        }
+      ]
+    },
+    {
+      "slug": "pronombres-de-objeto-e-imperativos",
+      "numero": 29,
+      "bloque": "ampliacion",
+      "titulo": "Pronombres de objeto e imperativos",
+      "resumen": "Me, him, her, us, them; dar instrucciones y consejos con el imperativo, y pedir y dar direcciones en la ciudad.",
+      "nivel": "A1-A2",
+      "prerrequisitos": [
+        "posesivos",
+        "there-is-there-are",
+        "presente-simple-do-does"
+      ],
+      "objetivos": [
+        "Usar me, you, him, her, it, us, them después del verbo y de las preposiciones.",
+        "Dar instrucciones, avisos y consejos con el imperativo afirmativo y negativo (Don't…).",
+        "Proponer con Let's…",
+        "Pedir y dar direcciones sencillas en una ciudad."
+      ],
+      "temas_vocabulario": [
+        "ciudad",
+        "clase-y-objetos"
+      ],
+      "lecciones": [
+        {
+          "slug": "pronombres-de-objeto",
+          "titulo": "Me, him, her, us, them",
+          "resumen": "El pronombre que recibe la acción: I love her, not «I love she»; y después de preposiciones: with me, for them."
+        },
+        {
+          "slug": "imperativo",
+          "titulo": "El imperativo",
+          "resumen": "Open the door. Don't touch it. Let's go: instrucciones, avisos, invitaciones y cómo suavizarlas con please."
+        },
+        {
+          "slug": "direcciones",
+          "titulo": "Pedir y dar direcciones",
+          "resumen": "Excuse me, where's the station? Go straight, turn left, it's on your right."
+        }
+      ]
+    },
+    {
+      "slug": "comparativos-y-superlativos",
+      "numero": 30,
+      "bloque": "ampliacion",
+      "titulo": "Comparativos y superlativos",
+      "resumen": "Comparar con -er, more y than; destacar con the -est y the most; igualdad con as… as; y los irregulares good, bad, far.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "adjetivos-y-descripciones",
+        "to-be-negacion-y-preguntas"
+      ],
+      "objetivos": [
+        "Formar comparativos de adjetivos cortos y largos y usar than.",
+        "Formar superlativos con the -est y the most.",
+        "Usar los irregulares good/better/best, bad/worse/worst, far/farther/farthest.",
+        "Expresar igualdad y diferencia con as… as y not as… as."
+      ],
+      "temas_vocabulario": [
+        "adjetivos-frecuentes",
+        "viajes"
+      ],
+      "lecciones": [
+        {
+          "slug": "comparativos",
+          "titulo": "Comparativos: bigger than, more expensive than",
+          "resumen": "Una sílaba: -er; dos o más: more; las reglas de ortografía y than."
+        },
+        {
+          "slug": "superlativos",
+          "titulo": "Superlativos: the biggest, the most expensive",
+          "resumen": "The + -est o the most, in / of después, y los irregulares."
+        },
+        {
+          "slug": "as-as-y-comparar",
+          "titulo": "As… as y comparar en conversación",
+          "resumen": "as tall as, not as cheap as, much bigger, a bit older, y cómo comparar opciones al decidir."
+        }
+      ]
+    },
+    {
+      "slug": "el-futuro",
+      "numero": 31,
+      "bloque": "ampliacion",
+      "titulo": "El futuro: going to y will",
+      "resumen": "Planes e intenciones con going to, decisiones, ofrecimientos y predicciones con will, y cuándo usar cada uno junto al presente continuo.",
+      "nivel": "A2",
+      "prerrequisitos": [
+        "presente-continuo",
+        "simple-o-continuo",
+        "todos-los-tiempos"
+      ],
+      "objetivos": [
+        "Hablar de planes e intenciones con be going to.",
+        "Tomar decisiones en el momento, ofrecer y prometer con will.",
+        "Hacer predicciones con will y con going to (con evidencia).",
+        "Elegir entre going to, will y el presente continuo."
+      ],
+      "temas_vocabulario": [
+        "viajes",
+        "tiempo-y-calendario"
+      ],
+      "lecciones": [
+        {
+          "slug": "going-to",
+          "titulo": "Going to: planes y predicciones con evidencia",
+          "resumen": "I'm going to study medicine. Look at the clouds: it's going to rain."
+        },
+        {
+          "slug": "will",
+          "titulo": "Will: decisiones, ofrecimientos y predicciones",
+          "resumen": "I'll help you. I think it will be sunny. I won't tell anyone."
+        },
+        {
+          "slug": "elegir-el-futuro",
+          "titulo": "¿Going to, will o presente continuo?",
+          "resumen": "Plan, decisión en el momento, cita acordada o predicción: la señal que decide."
+        }
+      ]
+    }
+  ]
+}

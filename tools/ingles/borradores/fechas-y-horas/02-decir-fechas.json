@@ -1,0 +1,598 @@
+{
+  "slug": "decir-fechas",
+  "titulo": "Decir y escribir fechas",
+  "minutos": 45,
+  "objetivos": [
+    "Decir fechas con ordinales en el estilo estadounidense (May fifth) y en el británico (the fifth of May).",
+    "Escribir fechas en los dos formatos y entender por qué 5/6 es el 6 de mayo en EE. UU. y el 5 de junio en el R. U. (y en México).",
+    "Leer años como un nativo: nineteen ninety-nine, two thousand five, twenty twenty-four.",
+    "Preguntar y responder What's the date today? y When is your birthday?"
+  ],
+  "situacion": {
+    "titulo": "¿Cuándo es la reunión?",
+    "texto": "Carlos trabaja en Guadalajara y recibe un correo de un cliente de Estados Unidos: «The meeting is on 3/4». Carlos anota en su agenda el 3 de abril. Por suerte, llama para confirmar.",
+    "dialogo": [
+      { "quien": "Carlos", "en": "Hi, Grace. Just to confirm: is the meeting on April third?", "es": "Hola, Grace. Solo para confirmar: ¿la reunión es el 3 de abril?" },
+      { "quien": "Grace", "en": "No, it's on March fourth. Three slash four.", "es": "No, es el 4 de marzo. Tres diagonal cuatro." },
+      { "quien": "Carlos", "en": "Oh! In Mexico, 3/4 is the third of April.", "es": "¡Ah! En México, 3/4 es el 3 de abril." },
+      { "quien": "Grace", "en": "Really? OK, so it's March fourth. That's next Tuesday.", "es": "¿En serio? Bueno, entonces es el 4 de marzo. Es el próximo martes." }
+    ]
+  },
+  "conceptos": [
+    {
+      "id": "decir-la-fecha",
+      "titulo": "Decir la fecha: siempre con ordinal",
+      "que_es": "Al decir una fecha en inglés, el día se dice con un número **ordinal** ([[fifth]], [[twenty-first]]), aunque en español usemos el número normal («el cinco de mayo»). Hay dos órdenes: el estadounidense, [[May fifth]], y el británico, [[the fifth of May]].",
+      "para_que": [
+        "Decir cuándo es tu cumpleaños o una cita.",
+        "Confirmar fechas por teléfono sin malentendidos.",
+        "Entender a hablantes de EE. UU. y del Reino Unido."
+      ],
+      "como_funciona": "**EE. UU.:** mes + ordinal: [[May fifth]]. También se oye [[May the fifth]].\n**Reino Unido:** the + ordinal + of + mes: [[the fifth of May]]. En EE. UU. también se entiende y se usa a veces, sobre todo en ocasiones formales.\n\nLas dos formas son correctas; lo importante es **el ordinal**. El calco del español «el cinco de mayo» → «the five of May» es el error más frecuente. Y aunque en EE. UU. se escriba [[May 5]] sin letras, se lee [[May fifth]].\n\n**Preguntar la fecha:** [[What's the date today?]] o [[What's today's date?]] → [[It's March third.]] / [[It's the third of March.]]\n**Preguntar un cumpleaños:** [[When is your birthday?]] → [[It's May fifth.]] (con on también es correcto: [[It's on May fifth]]; verás on con fechas en la última lección).\n\n**Recuerda:** el mes siempre lleva mayúscula.",
+      "estructuras": [
+        {
+          "etiqueta": "Estilo estadounidense",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "mes", "rol": "complemento" }, { "t": "ordinal", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "May", "rol": "complemento" }, { "t": "fifth", "rol": "complemento" } ],
+          "es": "Es el cinco de mayo."
+        },
+        {
+          "etiqueta": "Estilo británico",
+          "formula": [ { "t": "It's", "rol": "sujeto" }, { "t": "the + ordinal", "rol": "complemento" }, { "t": "of + mes", "rol": "complemento" } ],
+          "ejemplo": [ { "t": "It's", "rol": "sujeto" }, { "t": "the fifth", "rol": "complemento" }, { "t": "of May", "rol": "complemento" } ],
+          "es": "Es el cinco de mayo."
+        }
+      ],
+      "visual": {
+        "tipo": "transformacion",
+        "titulo": "Del español al inglés: el número se vuelve ordinal",
+        "pasos": [
+          { "etiqueta": "Español", "partes": [ { "t": "el cinco", "rol": "complemento" }, { "t": "de mayo", "rol": "complemento" } ] },
+          { "etiqueta": "Calco incorrecto", "partes": [ { "t": "the five", "rol": "negacion" }, { "t": "of May", "rol": "complemento" } ] },
+          { "etiqueta": "Británico", "partes": [ { "t": "the fifth", "rol": "complemento" }, { "t": "of May", "rol": "complemento" } ] },
+          { "etiqueta": "Estadounidense", "partes": [ { "t": "May", "rol": "complemento" }, { "t": "fifth", "rol": "complemento" } ] }
+        ],
+        "pie": "En los dos estilos el día es un ordinal: fifth, no five."
+      },
+      "ejemplos": [
+        {
+          "en": "What's the date today? It's June tenth.",
+          "es": "¿Qué fecha es hoy? Es el diez de junio.",
+          "partes": [ { "t": "What's", "rol": "interrogativo" }, { "t": "the date", "rol": "sujeto" }, { "t": "today", "rol": "tiempo" }, { "t": "It's", "rol": "sujeto" }, { "t": "June tenth", "rol": "complemento" } ],
+          "nota": "Estilo estadounidense: mes + ordinal. It es el sujeto de la respuesta, como con los días y la hora."
+        },
+        {
+          "en": "My birthday is the twenty-second of November.",
+          "es": "Mi cumpleaños es el veintidós de noviembre.",
+          "partes": [ { "t": "My birthday", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "the twenty-second of November", "rol": "complemento" } ],
+          "nota": "Estilo británico: the + ordinal + of + mes. Solo cambia la última palabra del número: twenty-second."
+        },
+        {
+          "en": "Is the party on July first?",
+          "es": "¿La fiesta es el primero de julio?",
+          "partes": [ { "t": "Is", "rol": "verbo" }, { "t": "the party", "rol": "sujeto" }, { "t": "on July first", "rol": "complemento" } ],
+          "nota": "En español decimos «el primero» o «el uno»; en inglés siempre first, nunca «July one»."
+        },
+        {
+          "en": "When is your birthday? It's May thirty-first.",
+          "es": "¿Cuándo es tu cumpleaños? Es el treinta y uno de mayo.",
+          "partes": [ { "t": "When", "rol": "interrogativo" }, { "t": "is", "rol": "verbo" }, { "t": "your birthday", "rol": "sujeto" }, { "t": "It's", "rol": "sujeto" }, { "t": "May thirty-first", "rol": "complemento" } ],
+          "nota": "When + is + sujeto: la pregunta con be que ya conoces. Thirty-first: la decena no cambia."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "the fifth of May",
+          "ipa": "/ðə ˈfɪfθ əv ˈmeɪ/",
+          "consejo": "Of se reduce a /əv/, casi solo una v: «the-FIFTH-uv-MAY». No pronuncies of como «of» con o española.",
+          "lento": true
+        },
+        {
+          "texto": "May fifth",
+          "ipa": "/ˌmeɪ ˈfɪfθ/",
+          "consejo": "El golpe fuerte cae en el ordinal. El final /fθ/ es difícil: labio en los dientes y luego lengua entre los dientes. Si te cuesta, alarga un poco la f antes de sacar la lengua.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "It's the five of May.", "bien": "It's the fifth of May. / It's May fifth.", "porque": "En inglés el día se dice con ordinal, aunque en español usemos el número normal." },
+        { "mal": "It's May five.", "bien": "It's May fifth.", "porque": "Aunque se escriba May 5, se lee con ordinal. May five no es la forma estándar al hablar." },
+        { "mal": "Is June tenth.", "bien": "It's June tenth.", "porque": "La respuesta necesita el sujeto it." },
+        { "mal": "the fifth of may", "bien": "the fifth of May", "porque": "El mes lleva mayúscula." }
+      ]
+    },
+    {
+      "id": "escribir-fechas",
+      "titulo": "Escribir fechas: 5/6 no significa lo mismo en todas partes",
+      "que_es": "En EE. UU. las fechas numéricas se escriben **mes/día/año**; en el Reino Unido (y en México) **día/mes/año**. Por eso [[5/6]] es el 6 de mayo para un estadounidense y el 5 de junio para un británico o un mexicano.",
+      "para_que": [
+        "No llegar un mes antes (o después) a una cita.",
+        "Llenar formularios y documentos de viaje sin errores.",
+        "Leer fechas de caducidad y de vencimiento."
+      ],
+      "como_funciona": "**EE. UU.:** mes, día, año.\n- Con palabras: [[May 5, 2025]] (coma antes del año). Con día de la semana: [[Monday, May 5, 2025]].\n- Con cifras: [[5/6/2025]] = 6 de mayo. También [[05/06/2025]] o [[5-6-2025]].\n\n**Reino Unido:** día, mes, año.\n- Con palabras: [[5 May 2025]] (normalmente sin coma) o [[5th May 2025]].\n- Con cifras: [[5/6/2025]] = 5 de junio.\n\n**México** usa el mismo orden que el Reino Unido (día/mes/año), así que el peligro está en los documentos de EE. UU. Pistas para descubrir el formato: si uno de los dos primeros números es mayor que 12, ese es el día ([[12/25]] solo puede ser el 25 de diciembre). Si los dos son 12 o menos, no hay forma de saberlo sin contexto.\n\n**Consejo profesional:** en correos internacionales escribe el mes con letras ([[June 5]] o [[5 June]]) o usa el formato internacional año-mes-día ([[2025-06-05]]). Así nadie se equivoca.\n\n**Al leer en voz alta** las fechas escritas, siempre se usa ordinal: [[May 5, 2025]] se lee [[May fifth, twenty twenty-five]].",
+      "estructuras": [
+        {
+          "etiqueta": "Fecha escrita en EE. UU.",
+          "formula": [ { "t": "Mes", "rol": "complemento" }, { "t": "día", "rol": "otro" }, { "t": ", año", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "May", "rol": "complemento" }, { "t": "5", "rol": "otro" }, { "t": ", 2025", "rol": "tiempo" } ],
+          "es": "5 de mayo de 2025"
+        },
+        {
+          "etiqueta": "Fecha escrita en el R. U.",
+          "formula": [ { "t": "día", "rol": "otro" }, { "t": "Mes", "rol": "complemento" }, { "t": "año", "rol": "tiempo" } ],
+          "ejemplo": [ { "t": "5", "rol": "otro" }, { "t": "May", "rol": "complemento" }, { "t": "2025", "rol": "tiempo" } ],
+          "es": "5 de mayo de 2025"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "La misma fecha numérica, dos días distintos",
+          "columnas": ["Escrito", "En EE. UU. significa", "En R. U. / México significa"],
+          "filas": [
+            ["5/6/2025", "6 de mayo (May 6)", "5 de junio (5 June)"],
+            ["3/4/2025", "4 de marzo (March 4)", "3 de abril (3 April)"],
+            ["12/10/2025", "10 de diciembre (December 10)", "12 de octubre (12 October)"],
+            ["12/25/2025", "25 de diciembre (December 25)", "Imposible: no hay mes 25"],
+            ["25/12/2025", "Imposible: no hay mes 25", "25 de diciembre (25 December)"]
+          ]
+        }
+      ],
+      "comparacion": {
+        "a": { "titulo": "EE. UU.: mes/día/año", "items": ["May 5, 2025", "5/6 = 6 de mayo", "Se dice: May fifth"] },
+        "b": { "titulo": "R. U. y México: día/mes/año", "items": ["5 May 2025", "5/6 = 5 de junio", "Se dice: the fifth of May"] },
+        "veredicto": "Ante una fecha solo con números de EE. UU., el primer número es el MES. Si dudas, escribe el mes con letras."
+      },
+      "ejemplos": [
+        {
+          "en": "The date on the ticket is 7/4/2026.",
+          "es": "La fecha del boleto es el 4 de julio de 2026.",
+          "situacion": "Un boleto de avión comprado en una aerolínea de EE. UU.",
+          "partes": [ { "t": "The date on the ticket", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "7/4/2026", "rol": "complemento" } ],
+          "nota": "Formato estadounidense: el 7 es el mes. Para un mexicano, 7/4 sería el 7 de abril: tres meses de diferencia."
+        },
+        {
+          "en": "The exam is on 14 March.",
+          "es": "El examen es el 14 de marzo.",
+          "situacion": "Un aviso en una escuela de Londres.",
+          "partes": [ { "t": "The exam", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "on 14 March", "rol": "complemento" } ],
+          "nota": "Formato británico escrito: día + mes. Se lee on the fourteenth of March."
+        },
+        {
+          "en": "Today is Monday, October 6, 2025.",
+          "es": "Hoy es lunes 6 de octubre de 2025.",
+          "partes": [ { "t": "Today", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "Monday, October 6, 2025", "rol": "complemento" } ],
+          "nota": "Formato estadounidense completo: día de la semana, mes, día y año, con comas. Se lee Monday, October sixth, twenty twenty-five."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "three slash four",
+          "ipa": "/ˈθriː slæʃ ˈfɔːr/",
+          "consejo": "Slash es la diagonal (/). La a de slash es muy abierta, entre a y e. Así se dictan fechas numéricas, aunque es más claro decir el mes: March fourth.",
+          "lento": false
+        }
+      ],
+      "errores": [
+        { "mal": "Leer 3/4 en un correo de EE. UU. como «3 de abril»", "bien": "March fourth (4 de marzo)", "porque": "En EE. UU. el primer número es el mes." },
+        { "mal": "May 5 2025 (en EE. UU.)", "bien": "May 5, 2025", "porque": "En el formato estadounidense va una coma antes del año." },
+        { "mal": "5 of May 2025 (escrito)", "bien": "5 May 2025", "porque": "Por escrito, el formato británico no lleva of; el of solo aparece al hablar (the fifth of May)." }
+      ]
+    },
+    {
+      "id": "anios",
+      "titulo": "Los años: nineteen ninety-nine, twenty twenty-four",
+      "que_es": "Los años en inglés normalmente no se leen como una cantidad («mil novecientos noventa y nueve»), sino **partidos en dos pares**: [[1999]] = [[nineteen ninety-nine]]. Desde el 2000 conviven dos formas.",
+      "para_que": [
+        "Decir el año en que estamos o el de un evento.",
+        "Entender fechas completas, noticias e historia.",
+        "Leer años en documentos y formularios."
+      ],
+      "como_funciona": "**Hasta 1999: en pares.** [[1985]] = [[nineteen eighty-five]]; [[1750]] = [[seventeen fifty]].\n- Si el segundo par es 01–09, el cero se dice oh: [[1905]] = [[nineteen oh five]].\n- Si termina en 00: [[1900]] = [[nineteen hundred]]; [[1800]] = [[eighteen hundred]].\n\n**Del 2000 al 2009: como cantidad.** [[2000]] = [[two thousand]]; [[2005]] = [[two thousand five]] o [[two thousand and five]] (el and es más británico). También se oye [[twenty oh five]], aunque es menos común.\n\n**Del 2010 en adelante: las dos formas.** [[2024]] = [[twenty twenty-four]] o [[two thousand (and) twenty-four]]. La forma en pares es la más frecuente en la conversación.\n\n**Lo que no se hace:** leer el año como cantidad completa hasta el 1999 ([[one thousand nine hundred ninety-nine]]) no es incorrecto matemáticamente, pero ningún nativo lo dice así para un año.\n\n**Décadas:** [[the 1990s]] se lee [[the nineteen nineties]] o [[the nineties]] (los noventa).",
+      "estructuras": [
+        {
+          "etiqueta": "Año hasta 1999",
+          "formula": [ { "t": "dos primeras cifras", "rol": "otro" }, { "t": "dos últimas cifras", "rol": "otro" } ],
+          "ejemplo": [ { "t": "nineteen", "rol": "otro" }, { "t": "ninety-nine", "rol": "otro" } ],
+          "es": "1999"
+        },
+        {
+          "etiqueta": "Año desde 2010",
+          "formula": [ { "t": "twenty", "rol": "otro" }, { "t": "dos últimas cifras", "rol": "otro" } ],
+          "ejemplo": [ { "t": "twenty", "rol": "otro" }, { "t": "twenty-four", "rol": "otro" } ],
+          "es": "2024 (también two thousand twenty-four)"
+        }
+      ],
+      "tablas": [
+        {
+          "titulo": "Cómo se leen los años",
+          "columnas": ["Año", "Se lee", "Nota"],
+          "filas": [
+            ["1999", "nineteen ninety-nine", "En pares."],
+            ["1905", "nineteen oh five", "El cero se dice oh."],
+            ["1900", "nineteen hundred", "Termina en 00."],
+            ["2000", "two thousand", "Como cantidad."],
+            ["2008", "two thousand (and) eight", "Twenty oh eight también existe."],
+            ["2015", "twenty fifteen / two thousand (and) fifteen", "Las dos son correctas."],
+            ["2024", "twenty twenty-four / two thousand (and) twenty-four", "Pares: lo más común al hablar."]
+          ],
+          "audio": [1]
+        }
+      ],
+      "ejemplos": [
+        {
+          "en": "The photo is from nineteen eighty-seven.",
+          "es": "La foto es de 1987.",
+          "partes": [ { "t": "The photo", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "from nineteen eighty-seven", "rol": "complemento" } ],
+          "nota": "En pares: 19 | 87. Be + from para decir de cuándo es algo."
+        },
+        {
+          "en": "My car is from two thousand nine.",
+          "es": "Mi carro es de 2009.",
+          "partes": [ { "t": "My car", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "from two thousand nine", "rol": "complemento" } ],
+          "nota": "Entre 2000 y 2009 lo normal es leerlo como cantidad. En el R. U. es más común two thousand and nine."
+        },
+        {
+          "en": "It's twenty twenty-six.",
+          "es": "Estamos en 2026.",
+          "partes": [ { "t": "It's", "rol": "sujeto" }, { "t": "twenty twenty-six", "rol": "complemento" } ],
+          "nota": "Para decir el año actual se usa It's. En español decimos «estamos en»; en inglés, It's o The year is."
+        },
+        {
+          "en": "The building is from nineteen oh two.",
+          "es": "El edificio es de 1902.",
+          "partes": [ { "t": "The building", "rol": "sujeto" }, { "t": "is", "rol": "verbo" }, { "t": "from nineteen oh two", "rol": "complemento" } ],
+          "nota": "Cuando el segundo par empieza con 0, ese cero se dice oh, igual que en los teléfonos."
+        }
+      ],
+      "pronunciacion": [
+        {
+          "texto": "twenty twenty-four",
+          "ipa": "/ˈtwenti ˌtwentiˈfɔːr/",
+          "consejo": "Una pequeña pausa entre los dos pares. En el habla rápida de EE. UU. la t de twenty casi desaparece: «TWEN-i TWEN-i-FOR».",
+          "lento": true
+        },
+        {
+          "texto": "nineteen ninety-nine",
+          "ipa": "/ˌnaɪnˈtiːn ˌnaɪntiˈnaɪn/",
+          "consejo": "Aquí se ve bien la diferencia teen / ty: nine-TEEN (larga, con n) y NINE-ty (corta). Cuando nineteen va delante de otro número, el acento puede adelantarse, pero la n final se sigue oyendo.",
+          "lento": true
+        }
+      ],
+      "errores": [
+        { "mal": "one thousand nine hundred ninety-nine (para el año 1999)", "bien": "nineteen ninety-nine", "porque": "Los años hasta 1999 se leen en pares; la cantidad completa suena muy extraña para un año." },
+        { "mal": "nineteen zero five", "bien": "nineteen oh five", "porque": "En los años, el cero del segundo par se dice oh." },
+        { "mal": "It's nineteen ninety-nine year.", "bien": "It's nineteen ninety-nine. / It's the year nineteen ninety-nine.", "porque": "Calco de «el año 1999». La palabra year no va detrás del número; si la quieres usar, va delante: the year 1999." }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fechas-y-horas.decir-fechas.01",
+      "tipo": "completar",
+      "dificultad": 1,
+      "enunciado": "Escribe el día con letras, como se dice (5 de mayo, estilo estadounidense).",
+      "frase": "Today is May ___.",
+      "traduccion": "Hoy es cinco de mayo.",
+      "respuestas": [["fifth"]],
+      "errores_tipicos": {
+        "five": "Al decir la fecha se usa el ordinal: May fifth, no May five.",
+        "fiveth": "El ordinal de five es fifth (ve → f)."
+      },
+      "pistas": [
+        "Las fechas se dicen con números ordinales.",
+        "Necesitas el ordinal de five.",
+        "Los números que terminan en -ve cambian ve → f antes de añadir th."
+      ],
+      "solucion": {
+        "respuesta": "fifth",
+        "explicacion": "La respuesta es fifth: al decir una fecha, el día es un ordinal, aunque se escriba May 5. El ordinal de five cambia ve por f: fifth."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.02",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Interpreta la fecha.",
+      "pregunta": "Un colega de Estados Unidos te escribe: Our meeting is on 5/6. ¿Qué día es la reunión?",
+      "opciones": [
+        { "texto": "El 6 de mayo.", "correcta": true, "porque": "Correcto: en EE. UU. el orden es mes/día, así que 5 es mayo y 6 es el día." },
+        { "texto": "El 5 de junio.", "correcta": false, "porque": "Así lo leerías en México o en el R. U. (día/mes). El colega es de EE. UU.: mes/día." },
+        { "texto": "No se puede saber.", "correcta": false, "porque": "Sabiendo que quien escribe usa el formato de EE. UU., sí se puede: el primer número es el mes." }
+      ],
+      "pistas": [
+        "El orden de la fecha numérica depende del país.",
+        "¿De dónde es quien escribe la fecha?",
+        "EE. UU.: mes/día/año."
+      ],
+      "solucion": {
+        "respuesta": "El 6 de mayo.",
+        "explicacion": "En EE. UU. las fechas numéricas van mes/día: 5/6 es May 6 (May sixth), el 6 de mayo. En México sería el 5 de junio."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.03",
+      "tipo": "opcion",
+      "dificultad": 1,
+      "enunciado": "Interpreta la fecha.",
+      "pregunta": "En una carta de un hotel de Londres dice: Check-in: 5/6/2026. ¿Qué día llegas?",
+      "opciones": [
+        { "texto": "El 5 de junio de 2026.", "correcta": true, "porque": "Correcto: en el Reino Unido el orden es día/mes/año, igual que en México." },
+        { "texto": "El 6 de mayo de 2026.", "correcta": false, "porque": "Así se leería en EE. UU. Un hotel de Londres usa día/mes." },
+        { "texto": "El 5 de junio o el 6 de mayo, da igual.", "correcta": false, "porque": "No da igual: hay un mes de diferencia. El formato británico es día/mes." }
+      ],
+      "pistas": [
+        "Mira de qué país es el documento.",
+        "Londres está en el Reino Unido.",
+        "R. U. (y México): día/mes/año."
+      ],
+      "solucion": {
+        "respuesta": "El 5 de junio de 2026.",
+        "explicacion": "En el Reino Unido, como en México, el orden es día/mes/año: 5/6/2026 es el 5 de junio (5 June 2026, the fifth of June). La misma cifra en EE. UU. sería el 6 de mayo."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.04",
+      "tipo": "relacionar",
+      "dificultad": 2,
+      "enunciado": "Une cada año con su lectura.",
+      "pares": [
+        { "a": "1999", "b": "nineteen ninety-nine" },
+        { "a": "1905", "b": "nineteen oh five" },
+        { "a": "1800", "b": "eighteen hundred" },
+        { "a": "2000", "b": "two thousand" },
+        { "a": "2008", "b": "two thousand and eight" },
+        { "a": "2024", "b": "twenty twenty-four" }
+      ],
+      "pistas": [
+        "Hasta 1999 los años se leen en pares.",
+        "Fíjate en los ceros: oh en el segundo par; hundred si terminan en 00.",
+        "2000–2009 se leen como cantidad; desde 2010, en pares o como cantidad."
+      ],
+      "solucion": {
+        "respuesta": "1999 = nineteen ninety-nine · 1905 = nineteen oh five · 1800 = eighteen hundred · 2000 = two thousand · 2008 = two thousand and eight · 2024 = twenty twenty-four",
+        "explicacion": "1999 y 2024 se leen en pares. 1905 lleva oh por el cero del segundo par, y 1800 termina en hundred. 2000 y 2008 se leen como cantidad (el and de two thousand and eight es opcional, más británico)."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.05",
+      "tipo": "dictado",
+      "dificultad": 2,
+      "enunciado": "Escucha y escribe la oración. La fecha puedes escribirla con letras o con cifras (March 3rd).",
+      "texto": "My birthday is March third.",
+      "respuestas": [
+        "My birthday is March 3rd.",
+        "My birthday is March 3."
+      ],
+      "audio": true,
+      "pistas": [
+        "Es una fecha en estilo estadounidense: mes + ordinal.",
+        "El ordinal es irregular y empieza con th.",
+        "Puedes escribir el día con cifras + las dos últimas letras del ordinal (como 22nd) o con letras."
+      ],
+      "solucion": {
+        "respuesta": "My birthday is March third.",
+        "explicacion": "Se oye March third: mes + ordinal, el estilo estadounidense. Third es el ordinal irregular de three, y se abrevia 3rd."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.06",
+      "tipo": "traducir",
+      "dificultad": 2,
+      "enunciado": "Traduce al inglés con el estilo estadounidense y empieza con Today is.",
+      "es": "Hoy es 12 de octubre.",
+      "respuestas": [
+        "Today is October twelfth.",
+        "Today is October 12th.",
+        "Today is October 12.",
+        "Today is October the twelfth.",
+        "Today's October twelfth."
+      ],
+      "errores_tipicos": {
+        "Today is October twelve": "Al decir la fecha se usa el ordinal: twelfth.",
+        "Today is twelve of October": "Calco del español. En EE. UU.: October twelfth; en el R. U.: the twelfth of October.",
+        "Today is October twelveth": "El ordinal de twelve es twelfth: ve → f."
+      },
+      "pistas": [
+        "Estilo estadounidense: primero el mes.",
+        "El día va con ordinal, no con el número normal.",
+        "Today is + mes con mayúscula + ordinal del día; los números que terminan en -ve cambian ve → f antes de th."
+      ],
+      "solucion": {
+        "respuesta": "Today is October twelfth.",
+        "explicacion": "En estilo estadounidense va el mes y luego el ordinal: October twelfth. El ordinal de twelve cambia ve por f: twelfth. Por escrito también es correcto October 12."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.07",
+      "tipo": "corregir",
+      "dificultad": 2,
+      "enunciado": "Encuentra el error y corrígelo.",
+      "frase": "My birthday is the five of June.",
+      "error": "five",
+      "correcciones": ["fifth"],
+      "frase_correcta": "My birthday is the fifth of June.",
+      "pistas": [
+        "Revisa cómo se dice el día en una fecha.",
+        "Mira el número que va después de the.",
+        "En las fechas el día es un ordinal."
+      ],
+      "solucion": {
+        "respuesta": "fifth",
+        "explicacion": "El error es five: en inglés las fechas se dicen con ordinales. The fifth of June (británico) o June fifth (estadounidense). The five of June es un calco de «el cinco de junio»."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.08",
+      "tipo": "transformar",
+      "dificultad": 2,
+      "enunciado": "Cambia la fecha al estilo británico hablado.",
+      "origen": "Today is June twenty-first.",
+      "instruccion": "Estilo británico: the … of …",
+      "respuestas": [
+        "Today is the twenty-first of June.",
+        "Today is the 21st of June."
+      ],
+      "errores_tipicos": {
+        "Today is the twenty-one of June": "El día sigue siendo un ordinal: twenty-first.",
+        "Today is twenty-first of June": "Falta the: the twenty-first of June.",
+        "Today is the twenty-first June": "Falta of: the twenty-first of June."
+      },
+      "pistas": [
+        "El estilo británico pone primero el día.",
+        "Necesitas dos palabras pequeñas: una antes del ordinal y otra antes del mes.",
+        "the + ordinal + of + mes."
+      ],
+      "solucion": {
+        "respuesta": "Today is the twenty-first of June.",
+        "explicacion": "En estilo británico se dice the + ordinal + of + mes: the twenty-first of June. El ordinal no cambia; solo cambia el orden y se añaden the y of."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.09",
+      "tipo": "completar",
+      "dificultad": 2,
+      "enunciado": "Completa la lectura del año 2015 en pares.",
+      "frase": "My car is from twenty ___.",
+      "traduccion": "Mi carro es de 2015.",
+      "respuestas": [["fifteen"]],
+      "errores_tipicos": {
+        "fifty": "Fifty es 50. El año es 2015: el segundo par es 15, fifteen.",
+        "one five": "Los pares se leen como números de dos cifras, no dígito a dígito: fifteen."
+      },
+      "pistas": [
+        "El año se divide en 20 | 15.",
+        "Lee el segundo par como un número de dos cifras.",
+        "El segundo par es un número del 13 al 19; en ese grupo la raíz de five cambia."
+      ],
+      "solucion": {
+        "respuesta": "fifteen",
+        "explicacion": "2015 en pares es twenty fifteen: el segundo par (15) se lee como número normal, fifteen. La otra forma correcta sería two thousand (and) fifteen."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.10",
+      "tipo": "pronunciacion",
+      "dificultad": 2,
+      "enunciado": "Escucha, repite y grábate.",
+      "texto": "It's the twenty-second of November, twenty twenty-five.",
+      "ipa": "/ɪts ðə ˌtwentiˈsekənd əv noʊˈvembər ˌtwenti ˌtwentiˈfaɪv/",
+      "consejo": "Of se reduce a /əv/. En November el acento va en VEM. Haz una pausa breve antes del año y divide el año en dos pares: twenty | twenty-five.",
+      "es": "Es el veintidós de noviembre de 2025."
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.11",
+      "tipo": "dictado",
+      "dificultad": 3,
+      "enunciado": "Escucha y escribe la oración. El año puedes escribirlo con cifras.",
+      "texto": "The house is from nineteen oh eight.",
+      "respuestas": ["The house is from 1908."],
+      "audio": true,
+      "pistas": [
+        "El año está dicho en dos pares.",
+        "En el segundo par hay una palabra que representa un cero.",
+        "Cada par es un número de dos cifras; oh representa un 0."
+      ],
+      "solucion": {
+        "respuesta": "The house is from nineteen oh eight.",
+        "explicacion": "Nineteen oh eight es 1908: el año se lee en pares y el cero del segundo par se dice oh."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.12",
+      "tipo": "conversacion",
+      "dificultad": 2,
+      "enunciado": "Elige la mejor respuesta.",
+      "contexto": "Una compañera nueva te pregunta cuándo es tu cumpleaños. Es el 10 de abril.",
+      "lineas": [
+        { "quien": "Priya", "en": "When is your birthday?", "es": "¿Cuándo es tu cumpleaños?" }
+      ],
+      "opciones": [
+        { "texto": "It's April tenth.", "correcta": true, "porque": "Correcto: sujeto it + is + mes + ordinal (estilo estadounidense)." },
+        { "texto": "It's April ten.", "correcta": false, "porque": "Al decir la fecha se usa el ordinal: tenth." },
+        { "texto": "Is April tenth.", "correcta": false, "porque": "Falta el sujeto it." },
+        { "texto": "It's the ten of April.", "correcta": false, "porque": "El estilo británico es correcto, pero con ordinal: the tenth of April." }
+      ],
+      "pistas": [
+        "La respuesta necesita sujeto, verbo y una fecha bien dicha.",
+        "Revisa si el día es ordinal y si hay sujeto.",
+        "It's + mes + ordinal, o It's the + ordinal + of + mes."
+      ],
+      "solucion": {
+        "respuesta": "It's April tenth.",
+        "explicacion": "It's April tenth tiene sujeto (it), verbo (is) y el día en ordinal (tenth). It's the tenth of April también sería correcto, pero no aparece entre las opciones."
+      }
+    },
+    {
+      "id": "fechas-y-horas.decir-fechas.13",
+      "tipo": "escritura",
+      "dificultad": 3,
+      "enunciado": "Escribe las fechas importantes de tu familia.",
+      "objetivo": "Decir y escribir fechas con ordinales en los dos estilos y leer años correctamente.",
+      "instrucciones": "Escribe 4 o 5 oraciones sobre los cumpleaños de tu familia y otra fecha importante (un aniversario, un día especial). Usa al menos una fecha en estilo estadounidense (May fifth) y otra en estilo británico (the fifth of May), todas con ordinales en letras. Incluye al menos un año escrito con letras.",
+      "vocabulario_apoyo": ["birthday", "anniversary", "wedding", "my mom's birthday", "my son's birthday", "from"],
+      "estructuras": ["My birthday is May fifth.", "My sister's birthday is the tenth of June.", "The photo is from nineteen ninety-eight."],
+      "ejemplo": "Ben's birthday is January ninth. His wife's birthday is the thirtieth of August. Their wedding photo is from twenty twelve.",
+      "min_palabras": 30,
+      "comprobaciones": [
+        { "descripcion": "Usas un ordinal en letras", "patron": "\\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|[a-z]+teenth|twentieth|thirtieth|twenty-[a-z]+|thirty-first)\\b" },
+        { "descripcion": "Usas el estilo británico (the … of …)", "patron": "\\bthe [a-z-]+ of (january|february|march|april|may|june|july|august|september|october|november|december)\\b" },
+        { "descripcion": "Usas el estilo estadounidense (mes + ordinal)", "patron": "\\b(january|february|march|april|may|june|july|august|september|october|november|december) (first|second|third|[a-z-]*(th|first|second|third))\\b" },
+        { "descripcion": "Nombras un cumpleaños", "patron": "\\bbirthday\\b" }
+      ],
+      "criterios": [
+        "¿Todos los días de las fechas están en ordinal (fifth, no five)?",
+        "¿Los meses llevan mayúscula?",
+        "¿El estilo británico tiene the y of?",
+        "¿Los años están divididos en pares (nineteen ninety-eight) o bien leídos como cantidad (two thousand five)?"
+      ],
+      "modelo": "My birthday is July twenty-second. My mom's birthday is the third of February, and my dad's birthday is November eleventh. My parents' anniversary is the fourteenth of September. Their wedding photo is from nineteen ninety-one.",
+      "explicacion": "El modelo alterna los dos estilos: July twenty-second y November eleventh (EE. UU.), the third of February y the fourteenth of September (R. U.). Todos los días son ordinales, los meses llevan mayúscula y el año 1991 se lee en pares: nineteen ninety-one. Fíjate también en parents' anniversary: genitivo plural con el apóstrofo después de la s.",
+      "errores_comunes": [
+        "My birthday is July twenty-two → July twenty-second.",
+        "the third of february → the third of February.",
+        "the fourteenth September → the fourteenth of September.",
+        "one thousand nine hundred ninety-one → nineteen ninety-one."
+      ]
+    }
+  ],
+  "practica_comunicativa": {
+    "titulo": "Confirmar una fecha",
+    "contexto": "Recibes un correo de una empresa de EE. UU. con la fecha de una entrevista: 9/10. Llamas para confirmar el día.",
+    "dialogo": [
+      { "quien": "Sam", "en": "Hello, this is Sam from the office. How can I help you?", "es": "Hola, habla Sam, de la oficina. ¿En qué le puedo ayudar?" },
+      { "quien": "Tú", "en": "Hi! It's about the date of my interview.", "es": "¡Hola! Es sobre la fecha de mi entrevista." },
+      { "quien": "Sam", "en": "Sure. What's your question?", "es": "Claro. ¿Cuál es su pregunta?" }
+    ],
+    "tu_turno": "Confirma la fecha diciendo el mes y el día con ordinal, al estilo estadounidense (9/10 en EE. UU. es el 10 de septiembre), y pregunta si es correcto.",
+    "modelo": "Is the interview on September tenth?",
+    "alternativas": [
+      "Just to confirm: is it September tenth?",
+      "Is my interview on the tenth of September?"
+    ],
+    "claves": [
+      "En EE. UU., 9/10 = mes 9, día 10.",
+      "Ordinal: tenth, no ten.",
+      "Pregunta con be: Is the interview…?"
+    ]
+  },
+  "resumen": {
+    "esencial": [
+      "Al hablar, el día siempre es ordinal: May fifth / the fifth of May.",
+      "EE. UU.: mes + día (May 5, 2025; 5/6 = 6 de mayo). R. U. y México: día + mes (5 May 2025; 5/6 = 5 de junio).",
+      "Años hasta 1999 en pares (nineteen ninety-nine); 1905 = nineteen oh five; 2000–2009 como cantidad (two thousand five); desde 2010, twenty twenty-four o two thousand (and) twenty-four.",
+      "What's the date today? → It's June tenth. When is your birthday? → It's May fifth."
+    ],
+    "recuerda": [
+      "Calco a evitar: the five of May.",
+      "En correos internacionales, escribe el mes con letras."
+    ]
+  },
+  "repaso": [
+    { "id": "fechas-y-horas.decir-fechas.r1", "frente": "Di «5 de mayo» en los dos estilos.", "reverso": "May fifth (EE. UU.) · the fifth of May (R. U.)" },
+    { "id": "fechas-y-horas.decir-fechas.r2", "frente": "¿Qué día es 5/6 en EE. UU.? ¿Y en México?", "reverso": "EE. UU.: 6 de mayo (mes/día). México y R. U.: 5 de junio (día/mes)." },
+    { "id": "fechas-y-horas.decir-fechas.r3", "frente": "¿Cómo se lee 1905? ¿Y 2024?", "reverso": "nineteen oh five · twenty twenty-four (o two thousand and twenty-four)." },
+    { "id": "fechas-y-horas.decir-fechas.r4", "frente": "Corrige: It's the five of June.", "reverso": "It's the fifth of June. (ordinal)" },
+    { "id": "fechas-y-horas.decir-fechas.r5", "frente": "¿Cómo se escribe «5 de mayo de 2025» en EE. UU.?", "reverso": "May 5, 2025 (coma antes del año)." }
+  ]
+}
