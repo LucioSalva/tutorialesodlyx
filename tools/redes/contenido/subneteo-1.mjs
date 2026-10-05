@@ -54,11 +54,49 @@ Con los ocho bits en 0 el octeto vale 0. Con los ocho en 1 vale 128 + 64 + 32 + 
       nota('truco', `Escribe siempre los **ocho** bits, con los ceros de la izquierda incluidos. El 10 es \`00001010\`, no \`1010\`. Si omites ceros, al juntar los cuatro octetos los bits quedan desplazados y todo el cálculo sale mal.`),
 
       h('Cuántas direcciones existen'),
-      p(`Cada bit duplica las combinaciones posibles: con 1 bit hay 2, con 2 bits hay 4, con 3 bits hay 8. Con n bits hay 2^n combinaciones. Esta idea es **la fórmula central de todo el subneteo** y volverá en cada lección.`),
-      formula('combinaciones = 2^n', [['n', 'cantidad de bits disponibles']], 'Con 8 bits: 2^8 = 256 valores (del 0 al 255). Con 32 bits: 2^32 = 4,294,967,296 direcciones IPv4.'),
-      tabla(['Bits', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], [
-        ['2^n', '2', '4', '8', '16', '32', '64', '128', '256', '512', '1,024'],
-      ], 'Las potencias de 2 hasta 2^10 conviene saberlas de memoria. Cada una es el doble de la anterior.'),
+      p(`Esta parte responde a una sola pregunta: **si tengo cierta cantidad de bits, ¿cuántos números distintos puedo escribir con ellos?** Vamos a verlo contando, empezando por lo más pequeño.`),
+
+      h3('Con 1 bit'),
+      p(`Un bit es como un interruptor de luz: solo tiene dos posiciones, apagado (\`0\`) o encendido (\`1\`). Con un solo bit puedes escribir **2** cosas distintas, y ninguna más.`),
+
+      h3('Con 2 bits'),
+      p(`Ahora tienes dos interruptores. El primero puede estar apagado o encendido, y por cada una de esas dos posiciones el segundo también puede estar apagado o encendido. Si las escribes todas, salen **4**:`),
+      tabla(['Primer bit', 'Segundo bit', 'Combinación'], [
+        ['0', '0', '`00`'], ['0', '1', '`01`'], ['1', '0', '`10`'], ['1', '1', '`11`'],
+      ], 'No existe una quinta combinación: ya están todas.'),
+
+      h3('Con 3 bits'),
+      p(`Añade un tercer interruptor. Toma las 4 combinaciones de antes y escríbelas **dos veces**: una vez con un \`0\` delante y otra vez con un \`1\` delante. Salen 4 + 4 = **8**:`),
+      tabla(['Con un 0 delante', 'Con un 1 delante'], [
+        ['`0`00', '`1`00'], ['`0`01', '`1`01'], ['`0`10', '`1`10'], ['`0`11', '`1`11'],
+      ], 'Las cuatro de la izquierda y las cuatro de la derecha son las mismas de antes; solo cambia el bit nuevo.'),
+
+      h3('La regla: cada bit duplica'),
+      p(`Ese es todo el secreto. **Cada vez que agregas un bit, la cantidad de combinaciones se multiplica por 2**, porque todas las que ya tenías se pueden repetir con el bit nuevo en 0 y con el bit nuevo en 1.`),
+      tabla(['Bits', 'Cómo se calcula', 'Combinaciones'], [
+        ['1', '2', '2'],
+        ['2', '2 × 2', '4'],
+        ['3', '2 × 2 × 2', '8'],
+        ['4', '2 × 2 × 2 × 2', '16'],
+        ['5', '2 × 2 × 2 × 2 × 2', '32'],
+        ['6', '2 × 2 × 2 × 2 × 2 × 2', '64'],
+        ['7', '2 × 2 × 2 × 2 × 2 × 2 × 2', '128'],
+        ['8', '2 × 2 × 2 × 2 × 2 × 2 × 2 × 2', '256'],
+      ], 'Cada fila es el doble de la anterior: 2, 4, 8, 16, 32, 64, 128, 256.'),
+
+      h3('Cómo se escribe: 2^n'),
+      p(`Escribir «2 × 2 × 2 × 2 × 2 × 2 × 2 × 2» es muy largo. En matemáticas se abrevia con una **potencia**: \`2^8\`, que se lee «dos elevado a la ocho» y significa «multiplica el 2 por sí mismo 8 veces». El número pequeño (el exponente) es simplemente **cuántos bits tienes**.`),
+      formula('combinaciones = 2^n', [['2', 'porque cada bit solo tiene dos valores: 0 y 1'], ['n', 'la cantidad de bits que tienes']],
+        'Ejemplos: 2^3 = 2 × 2 × 2 = 8.   2^5 = 2 × 2 × 2 × 2 × 2 = 32.   2^8 = 256.'),
+      nota('truco', `No hace falta multiplicar cada vez. Apréndete la lista **2, 4, 8, 16, 32, 64, 128, 256, 512, 1,024** (son 2^1 hasta 2^10). Si se te olvida un valor, duplica el anterior: después de 64 viene 128, después de 128 viene 256.`),
+
+      h3('Aplicado a un octeto'),
+      p(`Un octeto tiene 8 bits, así que puede tomar 2^8 = **256** valores distintos. Como se empieza a contar desde el 0, esos 256 valores son del **0 al 255**. Por eso el número más grande que verás en una dirección IP es 255, y no 256: el 0 también cuenta como uno de los valores.`),
+
+      h3('Aplicado a la dirección completa'),
+      p(`Una dirección IPv4 tiene 32 bits. Aplicando la misma regla, existen 2^32 direcciones posibles:`),
+      formula('2^32 = 4,294,967,296 direcciones', [], 'Otra forma de verlo: son 4 octetos y cada uno tiene 256 valores, así que 256 × 256 × 256 × 256 = 4,294,967,296. Un poco más de cuatro mil millones.'),
+      nota('clave', `¿Por qué importa esto? Porque es **la cuenta que harás en todo el subneteo**. Siempre será la misma pregunta: «tengo tantos bits, ¿cuántas cosas distintas puedo numerar con ellos?». Si una red deja 8 bits para los equipos, caben 2^8 = 256 direcciones; si deja 6 bits, caben 2^6 = 64; si deja 4, caben 2^4 = 16. Menos bits, menos direcciones.`),
 
       ejercicios('Practica las conversiones', 'Escribe los ocho bits completos. Puedes separar el octeto en dos mitades con un espacio si te ayuda.', [
         { tipo: 'bin-dec', n: 5 }, { tipo: 'bin-dec', n: 128 }, { tipo: 'bin-dec', n: 240 }, { tipo: 'bin-dec', n: 99 }, { tipo: 'bin-dec', n: 201 }, { tipo: 'bin-dec', n: 254 },
@@ -66,6 +104,9 @@ Con los ocho bits en 0 el octeto vale 0. Con los ocho en 1 vale 128 + 64 + 32 + 
         op('¿Cuántos bits tiene una dirección IPv4 completa?', ['8', '16', '32', '64'], 2, 'Son cuatro octetos de 8 bits cada uno: 4 × 8 = 32 bits.'),
         op('¿Por qué `192.168.1.256` no es una dirección IPv4 válida?', ['Porque termina en un número par', 'Porque un octeto solo tiene 8 bits y su valor máximo es 255', 'Porque las direcciones que empiezan por 192 no pueden usar el cuarto octeto', 'Porque 256 está reservado para el broadcast'], 1, 'Con 8 bits el mayor valor es 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255. El 256 necesitaría un noveno bit.'),
         op('¿Cuántos valores distintos se pueden formar con 5 bits?', ['10', '25', '32', '64'], 2, 'Con n bits hay 2^n combinaciones: 2^5 = 32.'),
+        op('¿Cuántas combinaciones distintas hay con 4 bits?', ['4', '8', '16', '32'], 2, '2^4 = 2 × 2 × 2 × 2 = 16. Van de `0000` a `1111`.'),
+        op('Con 6 bits hay 64 combinaciones. ¿Cuántas habrá si agregas un bit más?', ['65', '70', '128', '256'], 2, 'Cada bit que se agrega duplica las combinaciones: 64 × 2 = 128, que es 2^7.'),
+        op('Un octeto puede tomar 256 valores. ¿Por qué el mayor es 255 y no 256?', ['Porque el 256 está reservado', 'Porque se cuenta desde el 0: del 0 al 255 hay 256 valores', 'Porque un octeto solo tiene 7 bits útiles', 'Porque 255 es un número impar'], 1, 'Los 256 valores empiezan en 0. Contando el 0, el último es el 255.'),
       ]),
     ],
   },
