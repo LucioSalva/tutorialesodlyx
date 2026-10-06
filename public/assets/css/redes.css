@@ -187,7 +187,10 @@
 .page-redes .rd-tabla :is(th, td) { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--dv-border-subtle); vertical-align: top; }
 .page-redes .rd-tabla thead th { background: var(--dv-bg-surface); font-size: 12.5px; letter-spacing: .03em; color: var(--dv-text-secondary); white-space: nowrap; }
 .page-redes .rd-tabla tbody th { font-weight: 600; color: var(--dv-text-primary); overflow-wrap: normal; }
-.page-redes .rd-tabla tbody td { font-family: var(--rd-mono); font-size: 13.5px; color: var(--dv-text-secondary); }
+.page-redes .rd-tabla tbody td { font-size: 14.5px; line-height: 1.5; color: var(--dv-text-secondary); font-variant-numeric: tabular-nums; }
+/* Las tablas de cálculo (soluciones, ejercicios, herramientas) van en monoespaciado para alinear direcciones. */
+.page-redes :is(.rd-pasos, .rd-ej, .rd-tabla--num, [data-divisor-salida], [data-vlsm-salida]) .rd-tabla tbody td,
+.page-redes .rd-tabla--num tbody td { font-family: var(--rd-mono); font-size: 13.5px; }
 .page-redes .rd-tabla tbody tr:last-child :is(th, td) { border-bottom: 0; }
 .page-redes .rd-tabla--num :is(th, td) { white-space: nowrap; }
 .page-redes .rd-tabla__marca :is(th, td) { background: var(--rd-red-suave); }

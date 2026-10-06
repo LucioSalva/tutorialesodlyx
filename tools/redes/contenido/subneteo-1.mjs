@@ -123,28 +123,89 @@ Con los ocho bits en 0 el octeto vale 0. Con los ocho en 1 vale 128 + 64 + 32 + 
       'Distinguir direcciones privadas, públicas, de loopback y de enlace local.',
     ],
     bloques: [
-      h('Dos partes: red y host'),
-      p(`Una dirección IP no es un número de serie cualquiera. Tiene dos partes, igual que un teléfono tiene clave de ciudad y número local:
+      h('Primero: toda dirección tiene dos partes'),
+      p(`Piensa en un número de teléfono: \`55 1234 5678\`. Los primeros dígitos (\`55\`) son la clave de la ciudad, y el resto es el número de una casa dentro de esa ciudad. Todos los vecinos comparten la misma clave y cada uno tiene un número distinto.
 
-La **parte de red** (Net ID) dice a qué red pertenece el equipo. Todos los equipos de una misma red la tienen idéntica. La **parte de host** (Host ID) distingue a cada equipo dentro de esa red, y no puede repetirse.`),
-      p(`Los routers solo miran la parte de red para decidir por dónde enviar un paquete, igual que el correo mira primero la ciudad y deja la calle para el final. La pregunta es: de los 32 bits, **¿cuántos son de red y cuántos de host?**
-
-La primera respuesta que dio Internet, en 1981, fue repartir las direcciones en **clases**. Cada clase fija por adelantado dónde termina la red.`),
-
-      h('Las cinco clases'),
-      tabla(['Clase', 'Primer octeto', 'Primeros bits', 'Parte de red', 'Parte de host', 'Máscara por defecto', 'Uso'], [
-        ['A', '0 – 127', '`0`', '1 octeto (8 bits)', '3 octetos (24 bits)', '`255.0.0.0` (/8)', 'Redes enormes'],
-        ['B', '128 – 191', '`10`', '2 octetos (16 bits)', '2 octetos (16 bits)', '`255.255.0.0` (/16)', 'Redes medianas y grandes'],
-        ['C', '192 – 223', '`110`', '3 octetos (24 bits)', '1 octeto (8 bits)', '`255.255.255.0` (/24)', 'Redes pequeñas'],
-        ['D', '224 – 239', '`1110`', '—', '—', 'no tiene', 'Multidifusión (multicast)'],
-        ['E', '240 – 255', '`1111`', '—', '—', 'no tiene', 'Reservada, experimental'],
+Una dirección IP funciona igual. Tiene dos partes pegadas una a la otra:`),
+      tabla(['Parte', 'Qué dice', 'En el teléfono sería…'], [
+        ['**Parte de red** (la de la izquierda)', 'A qué red pertenece el equipo. Es **igual** en todos los equipos de esa red.', 'la clave de la ciudad'],
+        ['**Parte de host** (la de la derecha)', 'Cuál equipo es dentro de esa red. Es **distinta** en cada equipo. «Host» significa equipo.', 'el número de la casa'],
       ]),
-      p(`Solo las clases **A, B y C** se asignan a equipos. La D se usa para enviar un mismo flujo a un grupo de equipos a la vez (por ejemplo, protocolos de enrutamiento o vídeo) y la E quedó reservada.`),
-      bits([['Clase A', '10.20.30.40', 8], ['Clase B', '172.16.30.40', 16], ['Clase C', '192.168.30.40', 24]],
-        'La misma idea en las tres clases: lo azul es red, lo verde es host. Lo único que cambia es dónde cae el corte.'),
+      p(`Mira tres computadoras de una misma oficina:`),
+      tabla(['Equipo', 'Dirección', 'Parte de red', 'Parte de host'], [
+        ['Computadora de Ana', '192.168.1.10', '192.168.1', '10'],
+        ['Computadora de Luis', '192.168.1.11', '192.168.1', '11'],
+        ['Impresora', '192.168.1.12', '192.168.1', '12'],
+      ], 'Las tres empiezan igual (`192.168.1`): están en la misma red. Solo cambia el final, que identifica a cada equipo.'),
 
-      h('Por qué los rangos son esos'),
-      p(`Los límites 127, 191 y 223 no son arbitrarios: salen de los **primeros bits** del primer octeto. Un equipo antiguo miraba esos bits y con eso sabía la clase.`),
+      h('La pregunta que responden las clases'),
+      p(`Aquí está el problema: al ver una dirección como \`172.16.30.40\`, **¿dónde termina la parte de red y dónde empieza la de host?** ¿Después del primer número? ¿Del segundo? ¿Del tercero? La dirección sola no lo dice.
+
+La primera solución que se inventó, en 1981, fue una regla muy simple: **mira el primer número de la dirección, y según su valor ya sabes dónde va el corte**. A cada grupo de valores se le llamó una **clase**.`),
+      nota('clave', `Una clase es solo eso: una regla que dice «si la dirección empieza con un número de este rango, la parte de red ocupa tantos octetos». Nada más.`),
+
+      h('Las tres clases que se usan: A, B y C'),
+      h3('Clase A: el corte va después del primer número'),
+      p(`Si el primer número está entre **0 y 127**, la dirección es de clase A. La parte de red es **solo el primer octeto**; los otros tres son de host.
+
+Ejemplo: en \`10.20.30.40\`, la red es \`10\` y el equipo es el \`20.30.40\`. Como quedan tres octetos enteros para numerar equipos, una red de clase A es enorme: caben más de 16 millones.`),
+      h3('Clase B: el corte va después del segundo número'),
+      p(`Si el primer número está entre **128 y 191**, es de clase B. La parte de red son **los dos primeros octetos**; los otros dos son de host.
+
+Ejemplo: en \`172.16.30.40\`, la red es \`172.16\` y el equipo es el \`30.40\`. Caben 65,534 equipos.`),
+      h3('Clase C: el corte va después del tercer número'),
+      p(`Si el primer número está entre **192 y 223**, es de clase C. La parte de red son **los tres primeros octetos**; solo el último es de host.
+
+Ejemplo: en \`192.168.30.40\`, la red es \`192.168.30\` y el equipo es el \`40\`. Caben 254 equipos. Es la red típica de una casa o una oficina pequeña.`),
+      bits([['Clase A', '10.20.30.40', 8], ['Clase B', '172.16.30.40', 16], ['Clase C', '192.168.30.40', 24]],
+        'Las tres clases, vistas en bits. Lo azul es la parte de red y lo verde la parte de host. La raya blanca es el corte: en la A está después del primer octeto, en la B después del segundo y en la C después del tercero.'),
+      tabla(['Clase', 'Si empieza con…', 'Parte de red', 'Parte de host', 'Ejemplo', 'Equipos que caben'], [
+        ['A', '0 a 127', '1.er octeto', 'los 3 últimos', '`10`.20.30.40', '16,777,214'],
+        ['B', '128 a 191', 'los 2 primeros', 'los 2 últimos', '`172.16`.30.40', '65,534'],
+        ['C', '192 a 223', 'los 3 primeros', 'el último', '`192.168.30`.40', '254'],
+      ], 'En la columna Ejemplo, lo resaltado es la parte de red.'),
+
+      h('Qué significa el /8, el /16 y el /24'),
+      p(`Verás muchas direcciones escritas con una barra y un número al final, como \`192.168.10.200/24\`. Ese número **no es parte de la dirección**: es una nota que dice **cuántos bits, contando desde la izquierda, son de red**. Se llama **prefijo**, y se lee «barra veinticuatro».
+
+Recuerda de la lección anterior que cada octeto tiene 8 bits. Entonces:`),
+      tabla(['Se escribe', 'Significa', 'Porque…', 'Es el corte de la clase'], [
+        ['**/8**', 'los primeros 8 bits son de red: **el primer octeto**', '1 octeto × 8 bits = 8', 'A'],
+        ['**/16**', 'los primeros 16 bits son de red: **los dos primeros octetos**', '2 octetos × 8 bits = 16', 'B'],
+        ['**/24**', 'los primeros 24 bits son de red: **los tres primeros octetos**', '3 octetos × 8 bits = 24', 'C'],
+      ]),
+      p(`El mismo número de dirección se reparte de forma distinta según el prefijo que lleve. Mira \`192.168.10.200\` con dos prefijos diferentes:`),
+      bits([['Con /24', '192.168.10.200', 24], ['Con /8', '192.168.10.200', 8]],
+        'Con `/24`, la red es `192.168.10` y el equipo es el `200`. Con `/8`, la red es solo `192` y el equipo es el `168.10.200`. Los números son los mismos; lo que cambia es dónde está el corte.'),
+      tabla(['Dirección', 'Parte de red', 'Parte de host', 'Equipos que caben en esa red'], [
+        ['`192.168.10.200/24`', '192.168.10', '200', '254'],
+        ['`192.168.10.200/16`', '192.168', '10.200', '65,534'],
+        ['`192.168.10.200/8`', '192', '168.10.200', '16,777,214'],
+      ]),
+      nota('clave', `**Por qué hace falta escribir el prefijo.** Con las clases, el corte se deducía del primer número. Hoy ya no se deduce: cada red puede tener el corte donde le convenga, así que **siempre se escribe** junto a la dirección. Por eso casi nunca verás una dirección sola: la verás como \`192.168.10.200/24\`, o acompañada de su máscara.`),
+      nota('truco', `**Dónde lo verás explicado a fondo.** El prefijo y la máscara son la misma información escrita de dos formas (\`/24\` es lo mismo que \`255.255.255.0\`). La lección siguiente, **La máscara de red y la notación CIDR**, lo explica paso a paso. Además, el prefijo no tiene que ser 8, 16 o 24: puede ser cualquier número, como /26 o /19, y entonces el corte cae **en medio** de un octeto. Eso es precisamente subnetear, y es de lo que trata el resto del módulo.`, 'Qué sigue'),
+
+      h('Las clases D y E'),
+      p(`Hay dos clases más, pero **no se asignan a equipos**, así que no tienen parte de red ni de host:`),
+      tabla(['Clase', 'Si empieza con…', 'Para qué se usa'], [
+        ['D', '224 a 239', 'Multidifusión (multicast): enviar lo mismo a un grupo de equipos a la vez, por ejemplo vídeo o avisos entre routers.'],
+        ['E', '240 a 255', 'Reservada para pruebas. No la verás en una red normal.'],
+      ]),
+
+      h('Resumen de las cinco clases'),
+      tabla(['Clase', 'Primer octeto', 'Parte de red', 'Prefijo', 'Máscara por defecto', 'Uso'], [
+        ['A', '0 – 127', '1 octeto', '/8', '`255.0.0.0`', 'Redes enormes'],
+        ['B', '128 – 191', '2 octetos', '/16', '`255.255.0.0`', 'Redes medianas y grandes'],
+        ['C', '192 – 223', '3 octetos', '/24', '`255.255.255.0`', 'Redes pequeñas'],
+        ['D', '224 – 239', '—', '—', 'no tiene', 'Multidifusión'],
+        ['E', '240 – 255', '—', '—', 'no tiene', 'Reservada'],
+      ], 'La «máscara por defecto» es otra forma de escribir el mismo corte: un 255 en cada octeto de red y un 0 en cada octeto de host. Se explica en la lección siguiente.'),
+      nota('truco', `Para saber la clase solo hay que mirar **el primer número** y recordar tres fronteras: hasta **127** es A, hasta **191** es B, hasta **223** es C.`),
+
+      h('De dónde salen 127, 191 y 223'),
+      p(`Esta parte es para quien quiera el porqué; si solo necesitas reconocer la clase, basta con las tres fronteras de arriba.
+
+Los límites no son arbitrarios: salen de los **primeros bits** del primer octeto. La clase A es toda dirección cuyo primer bit es 0; la B, las que empiezan por 10; la C, las que empiezan por 110. Al convertir esos patrones a decimal aparecen los rangos.`),
       tabla(['Clase', 'Primer octeto en binario', 'Valor mínimo', 'Valor máximo'], [
         ['A', '`0`xxxxxxx', '`00000000` = 0', '`01111111` = 127'],
         ['B', '`10`xxxxxx', '`10000000` = 128', '`10111111` = 191'],
@@ -201,6 +262,10 @@ La primera respuesta que dio Internet, en 1981, fue repartir las direcciones en 
         op('¿Cuál es la máscara por defecto de una dirección de clase B?', ['`255.0.0.0`', '`255.255.0.0`', '`255.255.255.0`', '`255.255.255.255`'], 1, 'En la clase B los dos primeros octetos son de red: 16 bits en 1, es decir `255.255.0.0` o /16.'),
         op('Una red de clase C sin subnetear, ¿cuántos equipos admite?', ['256', '255', '254', '128'], 2, 'Tiene 8 bits de host: 2^8 = 256 direcciones, menos la de red y la de broadcast: 254.'),
         op('Un equipo muestra la dirección `169.254.7.33`. ¿Qué indica?', ['Que está conectado a Internet con una IP pública', 'Que no obtuvo dirección de un servidor DHCP y se asignó una él mismo', 'Que es un servidor', 'Que usa una red de clase A'], 1, 'El bloque `169.254.0.0/16` es de autoconfiguración: el equipo se lo asigna cuando el DHCP no responde.'),
+        op('¿Qué indica el `/16` en `172.16.30.40/16`?', ['Que la red tiene 16 equipos', 'Que los primeros 16 bits (los dos primeros octetos) son la parte de red', 'Que la dirección es la número 16 de la red', 'Que el último octeto vale 16'], 1, 'El número tras la barra es el prefijo: cuántos bits, desde la izquierda, son de red. 16 bits son dos octetos: la red es `172.16`.'),
+        op('En `192.168.10.200/24`, ¿cuál es la parte de host?', ['192', '168.10.200', '10.200', '200'], 3, '/24 significa que los tres primeros octetos (24 bits) son de red: `192.168.10`. Lo que queda, el `200`, identifica al equipo.'),
+        op('En `10.20.30.40/8`, ¿cuál es la parte de red?', ['10', '10.20', '10.20.30', '40'], 0, '/8 significa que solo el primer octeto (8 bits) es de red. El resto, `20.30.40`, es el equipo.'),
+        op('Dos equipos tienen `192.168.5.10/24` y `192.168.5.77/24`. ¿Están en la misma red?', ['Sí: los dos tienen la misma parte de red, `192.168.5`', 'No: el último número es distinto', 'No: una es par y la otra impar', 'Solo si tienen la misma clase'], 0, 'Con /24 la parte de red son los tres primeros octetos, y en los dos es `192.168.5`. El último número distinto solo indica que son equipos diferentes.'),
         op('¿Por qué `11.0.0.1` es pública y `10.0.0.1` es privada si las dos son de clase A?', ['Porque la clase A entera es privada y 11 es una excepción', 'Porque solo el bloque `10.0.0.0/8` fue reservado para uso privado', 'Porque las direcciones impares son públicas', 'Porque 11 pertenece a la clase B'], 1, 'Ser de clase A no hace privada a una dirección. De toda la clase A, solo la red 10 está reservada para uso privado.'),
       ]),
     ],
