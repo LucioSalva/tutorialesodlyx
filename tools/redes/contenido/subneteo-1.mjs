@@ -1,5 +1,31 @@
 // Subneteo · lecciones 1 a 6: binario, clases, máscara, fórmulas, bits prestados y número mágico.
-import { h, h3, p, lista, orden, tabla, nota, formula, bits, ejemplo, ejercicios, op, an, td } from './_ayuda.mjs';
+import { h, h3, p, lista, orden, tabla, nota, formula, bits, codigo, ejemplo, ejercicios, op, vs, rel, an, td } from './_ayuda.mjs';
+
+// Salidas de una calculadora de subredes (formato de la utilidad ipcalc), para aprender a leerlas.
+const CALC_77 = `Address:   192.168.10.77
+Netmask:   255.255.255.192 = 26
+Wildcard:  0.0.0.63
+Network:   192.168.10.64/26
+HostMin:   192.168.10.65
+HostMax:   192.168.10.126
+Broadcast: 192.168.10.127
+Hosts/Net: 62`;
+const CALC_200 = `Address:   172.16.5.200
+Netmask:   255.255.255.240 = 28
+Wildcard:  0.0.0.15
+Network:   172.16.5.192/28
+HostMin:   172.16.5.193
+HostMax:   172.16.5.206
+Broadcast: 172.16.5.207
+Hosts/Net: 14`;
+const CALC_30 = `Address:   10.0.0.9
+Netmask:   255.255.255.252 = 30
+Wildcard:  0.0.0.3
+Network:   10.0.0.8/30
+HostMin:   10.0.0.9
+HostMax:   10.0.0.10
+Broadcast: 10.0.0.11
+Hosts/Net: 2`;
 
 export default [
   /* ------------------------------------------------------------------ 1 */
@@ -584,6 +610,41 @@ La dirección pasa de tener dos partes a tener tres:`),
       ejemplo('dificil', 'Un número cualquiera que resulta ser una red', td('192.168.1.100', 30)),
       nota('error', `Con máscaras como /26 o /27, una dirección que no termina en 0 ni en 255 puede ser de red o de broadcast: \`192.168.1.64/26\` es una red y \`192.168.1.127/26\` es un broadcast. Si se la asignas a un equipo, no funcionará. Comprueba siempre con el número mágico.`),
 
+      h('La calculadora de subredes'),
+      p(`Una **calculadora de subredes** es un programa o una página web que hace por ti estas mismas cuentas: le das una dirección y un prefijo (o una máscara) y te devuelve la red, el broadcast, el rango asignable y el número de hosts. Los técnicos la usan a diario para **comprobar** un diseño o para no equivocarse con prisas, igual que un contador usa una calculadora aunque sepa sumar.`),
+      p(`El temario del examen la nombra de forma expresa: tienes que saber **qué datos pide** y **cómo leer lo que responde**. Todas las calculadoras muestran lo mismo, aunque cambien los nombres de los campos:`),
+      tabla(['Campo (nombres habituales)', 'Qué es', 'Cómo lo sacarías a mano'], [
+        ['Address / IP address', 'La dirección que escribiste.', 'Es el dato de partida.'],
+        ['Netmask / Subnet mask / CIDR', 'La máscara, en decimal y como prefijo.', 'Convertir el prefijo en máscara.'],
+        ['Wildcard', 'La máscara invertida (se usa en listas de acceso).', '255 menos cada octeto de la máscara.'],
+        ['Network / Network address / Subnet ID', 'La dirección de red de esa subred.', 'El múltiplo del número mágico igual o inferior.'],
+        ['HostMin / First host / Usable range (inicio)', 'La primera dirección asignable.', 'Red + 1.'],
+        ['HostMax / Last host / Usable range (fin)', 'La última dirección asignable.', 'Broadcast − 1.'],
+        ['Broadcast', 'La dirección de broadcast.', 'Red + número mágico − 1.'],
+        ['Hosts/Net / Usable hosts', 'Cuántos equipos caben.', '2^h − 2.'],
+      ]),
+      codigo('Resultado de una calculadora para 192.168.10.77/26', CALC_77),
+      p(`Léelo de arriba abajo: la dirección \`192.168.10.77\` con máscara \`255.255.255.192\` (/26) pertenece a la red \`192.168.10.64\`; sus equipos pueden usar de la \`.65\` a la \`.126\`; el broadcast es la \`.127\`, y caben 62 equipos. Es exactamente lo que obtienes con el número mágico: 256 − 192 = 64, y el 77 cae en el bloque que empieza en 64.`),
+      nota('truco', `Esta academia trae su propia calculadora: en la pestaña **Herramientas** de este módulo. Escribe una dirección, mueve el prefijo y verás la red, el broadcast y los hosts, además de los 32 bits coloreados. Úsala para **comprobar** tus ejercicios después de resolverlos a mano, no antes.`),
+      nota('aviso', `No cuentes con tener una calculadora durante el examen. Lo que te van a pedir es **interpretar** un resultado como el de arriba o decir **qué dato falta**, y las preguntas de subredes pequeñas se resuelven más rápido con el número mágico que escribiendo en una herramienta.`),
+      h3('Para qué sirve en el trabajo de soporte'),
+      lista(
+        '**Verificar la configuración de un equipo.** Metes su IP y su máscara y compruebas que la puerta de enlace caiga dentro del rango asignable.',
+        '**Saber si dos equipos están en la misma subred.** Calculas las dos direcciones: si el campo de red coincide, están juntas.',
+        '**Detectar una dirección mal asignada.** Si la IP que quieren dar a una impresora coincide con el campo de red o con el de broadcast, no se puede usar.',
+        '**Repartir una red.** Las calculadoras suelen listar todas las subredes de un tamaño dado, como el divisor de la pestaña Herramientas.',
+      ),
+      ejemplo('facil', 'Leer el resultado de una calculadora', op('Un compañero te pasa esta salida de una calculadora de subredes y te pregunta qué direcciones puede asignar a las computadoras de esa subred. ¿Qué le respondes?', ['De la 172.16.5.193 a la 172.16.5.206', 'De la 172.16.5.192 a la 172.16.5.207', 'De la 172.16.5.200 a la 172.16.5.207', 'De la 172.16.5.1 a la 172.16.5.254'], 0, [
+        'El rango asignable está en las líneas **HostMin** y **HostMax**: de `172.16.5.193` a `172.16.5.206`.',
+        'La línea **Network** (`.192`) es la dirección de red y la línea **Broadcast** (`.207`) es el broadcast: ninguna de las dos se asigna a un equipo.',
+        'Comprobación a mano: /28 da un número mágico de 16; el 200 cae en el bloque que empieza en 192 y termina en 207. Coincide.',
+      ], { codigo: CALC_200 })),
+      ejemplo('medio', 'Usar la calculadora para revisar una configuración', op('Una impresora tiene la IP 192.168.10.77 con máscara 255.255.255.192 y la puerta de enlace 192.168.10.1. Imprime desde las computadoras de su oficina, pero no desde otras sedes. Según la calculadora, ¿cuál es el problema?', ['La puerta de enlace está fuera del rango asignable de su subred', 'La IP de la impresora es la dirección de broadcast', 'La máscara no es válida', 'La subred no tiene direcciones libres'], 0, [
+        'La calculadora dice que la subred de la impresora es `192.168.10.64/26`, con rango asignable de `.65` a `.126`.',
+        'La puerta de enlace configurada es `.1`, que **no está** entre `.65` y `.126`: pertenece a otra subred.',
+        'Por eso funciona lo local (misma subred) y falla todo lo que debe salir por la puerta de enlace. Hay que ponerle una puerta de enlace de su propio rango, normalmente la `.65`.',
+      ], { codigo: CALC_77 })),
+
       ejercicios('Practica', 'Seis datos por dirección. Empieza siempre por el número mágico.', [
         an('192.168.1.10', 25), an('192.168.1.200', 25), an('192.168.10.70', 26), an('192.168.10.190', 26), an('192.168.3.33', 27), an('192.168.3.130', 27),
         an('10.0.0.50', 28), an('10.1.1.241', 28), an('172.16.0.21', 29), an('172.16.4.99', 29), an('192.168.100.6', 30), an('10.20.30.253', 30),
@@ -591,6 +652,18 @@ La dirección pasa de tener dos partes a tener tres:`),
         op('¿Cuál es el número mágico de la máscara `255.255.255.224`?', ['8', '16', '32', '64'], 2, '256 − 224 = 32. Las subredes /27 van de 32 en 32.'),
         op('Con máscara /28, ¿cuál de estas es una dirección de red?', ['`192.168.1.24`', '`192.168.1.40`', '`192.168.1.48`', '`192.168.1.100`'], 2, 'El número mágico de /28 es 16. De las cuatro, solo 48 es múltiplo de 16 (16 × 3).'),
         op('La red `10.5.5.160/27`, ¿qué broadcast tiene?', ['`10.5.5.175`', '`10.5.5.191`', '`10.5.5.192`', '`10.5.5.255`'], 1, 'Número mágico 32: la red siguiente empieza en 160 + 32 = 192, así que el broadcast es 191.'),
+      ]),
+      ejercicios('Practica: leer una calculadora de subredes', 'Busca la línea que responde a cada pregunta antes de hacer ninguna cuenta.', [
+        op('Según la calculadora, ¿cuál es la dirección de red de esta subred?', ['192.168.10.64', '192.168.10.65', '192.168.10.77', '192.168.10.127'], 0, 'La línea **Network** da la dirección de red: 192.168.10.64. La .65 es el primer host, la .77 es la dirección consultada y la .127 el broadcast.', { codigo: CALC_77 }),
+        op('Según la calculadora, ¿cuántos equipos se pueden direccionar en esta subred?', ['62', '64', '126', '192'], 0, 'La línea **Hosts/Net** indica 62: son las 64 direcciones de un /26 menos la de red y la de broadcast.', { codigo: CALC_77 }),
+        op('Quieren asignar la dirección 172.16.5.207 a un servidor de esta subred. ¿Es posible?', ['No: es la dirección de broadcast', 'Sí: está dentro del rango asignable', 'No: pertenece a otra subred', 'Sí, pero solo como puerta de enlace'], 0, 'La línea **Broadcast** es 172.16.5.207. El broadcast nunca se asigna a un equipo; el último host válido es HostMax, la .206.', { codigo: CALC_200 }),
+        op('¿Qué prefijo tiene la subred que muestra la calculadora?', ['/28', '/24', '/26', '/30'], 0, 'En la línea **Netmask** aparece 255.255.255.240 = 28: la máscara y su prefijo equivalente.', { codigo: CALC_200 }),
+        op('Esta salida corresponde al enlace entre dos routers. ¿Qué direcciones usarán los dos routers?', ['10.0.0.9 y 10.0.0.10', '10.0.0.8 y 10.0.0.11', '10.0.0.8 y 10.0.0.9', '10.0.0.10 y 10.0.0.11'], 0, 'Un /30 solo tiene dos direcciones asignables, las que marcan HostMin y HostMax: .9 y .10. La .8 es la red y la .11 el broadcast.', { codigo: CALC_30 }),
+        op('¿Qué significa la línea «Wildcard: 0.0.0.3» de la calculadora?', ['Es la máscara invertida: 255 menos cada octeto de la máscara', 'Es el número de subredes disponibles', 'Es la dirección de la puerta de enlace', 'Es el número de bits de red'], 0, 'La wildcard es la inversa de la máscara: 255.255.255.252 se convierte en 0.0.0.3. Se usa en listas de acceso y en algunos protocolos de enrutamiento.', { codigo: CALC_30 }),
+        op('¿Qué dos datos hay que darle como mínimo a una calculadora de subredes?', ['Una dirección IP y su máscara o prefijo', 'La dirección MAC y el nombre del equipo', 'La puerta de enlace y el servidor DNS', 'El número de VLAN y el puerto del switch'], 0, 'Con la dirección y la máscara (o el prefijo) se puede calcular todo lo demás: red, broadcast, rango y hosts.'),
+        op('Dos equipos tienen 192.168.10.70/26 y 192.168.10.130/26. Calculas los dos en la calculadora y el campo «Network» da 192.168.10.64 para el primero y 192.168.10.128 para el segundo. ¿Qué concluyes?', ['Están en subredes distintas y necesitan un router para comunicarse', 'Están en la misma subred', 'El segundo tiene una dirección de broadcast', 'El primero tiene una máscara inválida'], 0, 'Si el campo de red no coincide, los equipos pertenecen a subredes distintas, aunque compartan los tres primeros octetos.'),
+        vs('¿Cuáles **dos** direcciones de esta salida NO se pueden asignar a un equipo?', ['172.16.5.192', '172.16.5.207', '172.16.5.193', '172.16.5.200', '172.16.5.206'], [0, 1], 'La dirección de red (línea Network, .192) y la de broadcast (.207) están reservadas. Todo lo que queda entre HostMin y HostMax es asignable.', { codigo: CALC_200 }),
+        rel('Relaciona cada campo de una calculadora de subredes con lo que significa.', [['Network', 'Dirección de red de la subred'], ['HostMin', 'Primera dirección asignable'], ['HostMax', 'Última dirección asignable'], ['Broadcast', 'Dirección para enviar a todos los equipos de la subred'], ['Hosts/Net', 'Cantidad de equipos que caben']], 'Son los cinco datos que también calculas a mano con el número mágico y la fórmula 2^h − 2.'),
       ]),
     ],
   },

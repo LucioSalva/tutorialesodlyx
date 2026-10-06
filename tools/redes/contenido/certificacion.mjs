@@ -1,5 +1,5 @@
 // Guía de la certificación Cisco CCST Networking (100-150): ficha del examen, ruta de estudio,
-// objetivos oficiales enlazados a las lecciones que los cubren y simulacros cronometrados.
+// objetivos oficiales (documento «Objective Domains: CCST Networking» de Certiport, 09/24) enlazados a las lecciones que los cubren y simulacros cronometrados.
 // construir.mjs comprueba que cada lección y cada nivel citados existan.
 import { p, lista, orden, tabla, nota } from './_ayuda.mjs';
 
@@ -34,6 +34,7 @@ export default {
     ['Preguntas', 'Alrededor de 40 a 50'],
     ['Idiomas', 'Español, inglés, portugués, francés, árabe, chino y japonés'],
     ['Requisitos previos', 'Ninguno: es la certificación de entrada de Cisco'],
+    ['Preparación esperada', 'Al menos 150 horas de estudio y práctica, según el temario oficial'],
     ['Nota para aprobar', 'Cisco no la publica y puede variar. Apunta a 80 o más en los simulacros'],
     ['Siguiente paso', 'CCNA (200-301)'],
   ],
@@ -65,7 +66,7 @@ export default {
         lecciones: [['fundamentos', 'que-es-una-red'], ['fundamentos', 'modelos-osi-y-tcp-ip'], ['fundamentos', 'encapsulacion-tramas-y-paquetes']] },
       { id: '1.2', texto: 'Diferenciar entre ancho de banda y rendimiento real (throughput).', detalle: 'Latencia, retardo, prueba de velocidad frente a iPerf.',
         lecciones: [['fundamentos', 'ancho-de-banda-y-rendimiento']] },
-      { id: '1.3', texto: 'Diferenciar entre LAN, WAN, MAN, CAN, PAN y WLAN.', detalle: 'Identificar cada tipo de red por su alcance y su uso.',
+      { id: '1.3', texto: 'Diferenciar entre LAN, WAN, MAN, CAN, PAN y WLAN.', detalle: 'Identificar e ilustrar las topologías de red físicas y lógicas más comunes.',
         lecciones: [['fundamentos', 'que-es-una-red']] },
       { id: '1.4', texto: 'Comparar aplicaciones y servicios en la nube y locales.', detalle: 'Nube pública, privada e híbrida; SaaS, PaaS, IaaS; trabajo remoto e híbrido.',
         lecciones: [['fundamentos', 'nube-y-servicios-locales']] },
@@ -75,7 +76,7 @@ export default {
     { n: 2, nombre: 'Direccionamiento y formatos de subred', resumen: 'Leer, clasificar y calcular direcciones IPv4 e IPv6.', objetivos: [
       { id: '2.1', texto: 'Comparar direcciones privadas y públicas.', detalle: 'Clases de direcciones, conceptos de NAT.',
         lecciones: [['subneteo', 'clases-de-direcciones'], ['direccionamiento', 'direcciones-publicas-y-privadas'], ['direccionamiento', 'nat-y-pat']] },
-      { id: '2.2', texto: 'Identificar direcciones IPv4 y formatos de subred.', detalle: 'Conceptos de subred, calculadora de subredes, notación con barra y máscara, dominio de broadcast.',
+      { id: '2.2', texto: 'Identificar direcciones IPv4 y formatos de subred.', detalle: 'Conceptos de subred, calculadora de subredes, CIDR (notación con barra), máscara de subred, dominio de broadcast.',
         lecciones: [['subneteo', 'direccion-ip-y-binario'], ['subneteo', 'la-mascara-de-red'], ['subneteo', 'red-broadcast-y-hosts'], ['subneteo', 'que-es-subnetear'], ['subneteo', 'el-numero-magico'], ['subneteo', 'misma-subred-y-diagnostico'], ['direccionamiento', 'como-obtiene-un-equipo-su-direccion']] },
       { id: '2.3', texto: 'Identificar direcciones IPv6 y formatos de prefijo.', detalle: 'Tipos de direcciones, conceptos de prefijo.',
         lecciones: [['direccionamiento', 'introduccion-a-ipv6'], ['direccionamiento', 'escribir-direcciones-ipv6'], ['direccionamiento', 'tipos-de-direcciones-ipv6'], ['direccionamiento', 'prefijos-y-subredes-ipv6']] },
@@ -105,7 +106,7 @@ export default {
     { n: 5, nombre: 'Diagnóstico de problemas', resumen: 'Encontrar la causa de una avería con método y con las herramientas correctas.', objetivos: [
       { id: '5.1', texto: 'Aplicar metodologías de diagnóstico y buenas prácticas de mesa de ayuda.', detalle: 'Tickets, documentación, recopilación de información, políticas y procedimientos, priorización.',
         lecciones: [['diagnostico', 'metodologia-de-diagnostico'], ['diagnostico', 'mesa-de-ayuda-y-documentacion']] },
-      { id: '5.2', texto: 'Capturar paquetes con Wireshark y guardarlos en un archivo.', detalle: 'Para qué sirve un analizador de paquetes; guardar y abrir un archivo .pcap.',
+      { id: '5.2', texto: 'Capturar paquetes con Wireshark y guardarlos en un archivo.', detalle: 'Para qué sirve un analizador de paquetes, filtrar una captura, guardar y abrir un archivo .pcap.',
         lecciones: [['diagnostico', 'wireshark-y-captura-de-paquetes']] },
       { id: '5.3', texto: 'Ejecutar comandos básicos de diagnóstico e interpretar los resultados.', detalle: 'ping, ipconfig/ifconfig/ip, tracert/traceroute, nslookup; cómo influyen los firewalls en el resultado.',
         lecciones: [['diagnostico', 'ping-y-traceroute'], ['diagnostico', 'ipconfig-ifconfig-ip-y-nslookup'], ['diagnostico', 'diagnostico-paso-a-paso']] },

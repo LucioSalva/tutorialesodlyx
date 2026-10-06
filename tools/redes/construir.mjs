@@ -37,6 +37,25 @@ function validar(spec) {
   return e;
 }
 
+/**
+ * Las preguntas de lección no se barajan al mostrarse, así que aquí se reparte la posición de la
+ * respuesta correcta: una permutación fija por enunciado (la misma en cada construcción).
+ * Se respetan las listas ordenadas de números (/24, /25, /26…) y las marcadas con `fijas`.
+ */
+function repartir(spec) {
+  if ((spec.tipo !== 'opcion' && spec.tipo !== 'varias') || spec.fijas) return spec;
+  const num = spec.opciones.map((o) => Number(String(o).replace(/[^0-9.]/g, '')));
+  const numerica = spec.opciones.every((o) => /^[^a-záéíóúñ]*$/i.test(String(o).replace(/\b(mbps|gbps|mb|gb|ms|bits?|w|m|s|ghz|mhz|hosts?)\b/gi, '')));
+  if (numerica && (num.every((x, i) => i === 0 || x > num[i - 1]) || num.every((x, i) => i === 0 || x < num[i - 1]))) return spec;
+  let h = [...spec.pregunta, ...spec.opciones.join('|')].reduce((a, c) => (Math.imul(a, 31) + c.codePointAt(0)) >>> 0, 7);
+  const rng = () => { h = (Math.imul(h ^ (h >>> 15), 2246822507) + 0x9E3779B9) >>> 0; return h / 4294967296; };
+  const orden = spec.opciones.map((_, i) => i);
+  for (let i = orden.length - 1; i > 0; i--) { const j = Math.floor(rng() * (i + 1)); [orden[i], orden[j]] = [orden[j], orden[i]]; }
+  const opciones = orden.map((i) => spec.opciones[i]);
+  return spec.tipo === 'opcion' ? { ...spec, opciones, correcta: orden.indexOf(spec.correcta) }
+    : { ...spec, opciones, correctas: spec.correctas.map((c) => orden.indexOf(c)).sort((x, y) => x - y) };
+}
+
 for (const nombre of MODULOS) {
   if (!existsSync(`${ORIGEN}${nombre}.mjs`)) { console.log(`${nombre}: sin contenido todavía`); continue; }
   const { default: m } = await import(`./contenido/${nombre}.mjs`);
@@ -58,11 +77,12 @@ for (const nombre of MODULOS) {
         ejemplos++;
         try {
           const e = validar(b.spec);
-          return { t: 'ejemplo', nivel: b.nivel, titulo: b.titulo, enunciado: e.enunciado, ...(e.codigo ? { codigo: e.codigo } : {}), ...(e.tabla ? { tabla: e.tabla } : {}), pasos: e.pasos,
+          return { t: 'ejemplo', nivel: b.nivel, titulo: b.titulo, enunciado: e.enunciado, ...(e.figura ? { figura: e.figura } : {}), ...(e.codigo ? { codigo: e.codigo } : {}), ...(e.tabla ? { tabla: e.tabla } : {}), pasos: e.pasos,
             respuesta: e.campos.map((c) => [c.etiqueta, respuestaDe(c)]), ...(b.cierre ? { cierre: b.cierre } : {}) };
         } catch (e) { errores.push(`${donde}: ejemplo «${b.titulo}»: ${e.message}`); return b; }
       }
       if (b.t === 'ejercicios') {
+        b = { ...b, items: b.items.map(repartir) };
         b.items.forEach((spec, i) => {
           practicos++;
           try {

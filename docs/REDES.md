@@ -12,15 +12,15 @@ Ocho módulos, en el orden en que se estudian:
 
 | Módulo | Dominio CCST | Lecciones | Ejemplos | Ejercicios | Banco |
 |--------|--------------|-----------|----------|------------|-------|
-| Fundamentos de redes (`/redes/fundamentos`) | 1 | 7 | 53 | 164 | 177 |
+| Fundamentos de redes (`/redes/fundamentos`) | 1 | 7 | 56 | 174 | 184 |
 | Medios y dispositivos finales (`/redes/medios`) | 3 | 7 | 54 | 159 | 147 |
-| Subneteo IPv4 (`/redes/subneteo`) | 2 | 13 | 93 | 245 | 42 |
+| Subneteo IPv4 (`/redes/subneteo`) | 2 | 13 | 95 | 255 | 46 |
 | NAT, DHCP e IPv6 (`/redes/direccionamiento`) | 2 | 7 | 68 | 172 | 121 |
 | Infraestructura (`/redes/infraestructura`) | 4 | 7 | 69 | 167 | 145 |
 | VLAN (`/redes/vlans`) | 4 | 7 | 47 | 124 | 42 |
 | Diagnóstico y soporte (`/redes/diagnostico`) | 5 | 8 | 64 | 204 | 144 |
-| Seguridad de redes (`/redes/seguridad`) | 6 | 7 | 66 | 175 | 158 |
-| **Total** | | **63** | **514** | **1,410** | **976** |
+| Seguridad de redes (`/redes/seguridad`) | 6 | 7 | 71 | 189 | 168 |
+| **Total** | | **63** | **524** | **1,444** | **997** |
 
 Cada módulo tiene **lecciones** (explicación, ejemplos resueltos y ejercicios
 guiados), **práctica por niveles** (6 niveles; ejercicios generados con semilla,
@@ -107,7 +107,7 @@ en JS generan el mismo HTML.
 ## 4. Añadir o cambiar contenido
 
 1. Edita `tools/redes/contenido/<modulo>*.mjs` (bloques: `h`, `h3`, `p`, `lista`,
-   `tabla`, `nota`, `formula`, `bits`, `codigo`, `ejemplo`, `ejercicios`) o
+   `tabla`, `nota`, `formula`, `bits`, `codigo`, `figura`, `figuras`, `ejemplo`, `ejercicios`) o
    `banco-<modulo>.mjs` (`{ nivel: [preguntas] }`).
 2. `node tools/redes/construir.mjs` — resuelve cada ejemplo, cada ejercicio y cada
    pregunta de banco; si algo no es válido (un VLSM que no cabe, una opción
@@ -122,7 +122,9 @@ devuelve enunciado, campos, 3 pistas y pasos.
 
 **Preguntas escritas a mano** (ayudantes en `_ayuda.mjs`): `op` (opción única),
 `vs` (varias respuestas), `rel` (relacionar) y `ord` (ordenar). La explicación es
-un párrafo o un arreglo de pasos; admiten `codigo` (salida de consola) y `tabla`.
+un párrafo o un arreglo de pasos; admiten `codigo` (salida de consola), `tabla` y
+`figura` (un diagrama de topología generado con `topo()`, que PHP y JS pintan como SVG).
+Al construir se reparte la posición de la respuesta correcta de las preguntas de lección.
 En un nivel, `['banco', peso]` saca preguntas del banco y baraja sus opciones.
 
 **Tipos de campo** que entiende el corrector: `ip`, `red`, `prefijo`, `numero`
@@ -163,8 +165,8 @@ En un nivel, `['banco', peso]` saca preguntas del banco y baraja sus opciones.
 
 ## 7. Fuentes
 
-El contenido es original. El temario sigue los objetivos públicos del examen
-Cisco CCST Networking 100-150 (seis dominios); la academia es material de
+El contenido es original. El temario se cotejó punto por punto con el documento
+oficial «Objective Domains: CCST Networking» de Certiport (09/24, seis dominios); la academia es material de
 estudio independiente, sin afiliación con Cisco. Como referencia temática se
 consultó el artículo de IONOS «Subnetting: ¿cómo funcionan las subredes?» (solo
 su índice de temas) y los documentos RFC 950, 1518/1519, 1878, 1918, 3021,

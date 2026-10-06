@@ -823,9 +823,9 @@ definir('resumen', 'Ruta resumen', {
 /* ============================================================ conceptual */
 // Preguntas escritas a mano (lecciones y banco de examen). La explicación va en
 // `porque` (un párrafo) o en `pasos` (razonamiento por pasos: textos o { t, tabla }).
-// Admiten `tabla` y `codigo` (una salida de consola que acompaña al enunciado).
+// Admiten `tabla`, `codigo` (una salida de consola) y `figura` (un diagrama) junto al enunciado.
 const razonamiento = (q) => [...(q.pasos ?? []).map((x) => (typeof x === 'string' ? { t: x } : x)), ...(q.porque ? [{ t: q.porque }] : [])];
-const base = (q) => ({ enunciado: q.pregunta, ...(q.tabla ? { tabla: q.tabla } : {}), ...(q.codigo ? { codigo: q.codigo } : {}), pistas: q.pistas ?? [], pasos: razonamiento(q) });
+const base = (q) => ({ enunciado: q.pregunta, ...(q.tabla ? { tabla: q.tabla } : {}), ...(q.codigo ? { codigo: q.codigo } : {}), ...(q.figura ? { figura: q.figura } : {}), pistas: q.pistas ?? [], pasos: razonamiento(q) });
 const alfabetico = (lista) => [...new Set(lista)].sort((a, b) => a.localeCompare(b, 'es', { numeric: true }));
 
 definir('opcion', 'Pregunta de concepto', {

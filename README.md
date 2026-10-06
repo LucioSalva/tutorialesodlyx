@@ -439,7 +439,7 @@ Módulo independiente en `/redes`, documentado en [`docs/REDES.md`](docs/REDES.m
 Ruta de preparación para **Cisco CCST Networking (100-150)** en ocho módulos:
 Fundamentos de redes, Medios y dispositivos finales, Subneteo IPv4, NAT/DHCP/IPv6,
 Infraestructura, VLAN, Diagnóstico y soporte y Seguridad. En total **63 lecciones,
-514 ejemplos resueltos, 1,410 ejercicios guiados y 976 preguntas tipo examen**, con
+524 ejemplos resueltos, 1,444 ejercicios guiados y 997 preguntas tipo examen**, con
 práctica ilimitada por niveles, examen por módulo, guía del temario
 (`/redes/certificacion`) y simulacros cronometrados (`/redes/certificacion/simulador`).
 

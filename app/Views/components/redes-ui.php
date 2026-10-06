@@ -135,6 +135,36 @@ if (!function_exists('rd_md')) {
         return $html;
     }
 
+    /**
+     * Diagrama de red: líneas y nodos ya calculados al construir el contenido.
+     * $f = ['ancho','alto','lineas' => [[x1,y1,x2,y2]], 'nodos' => [['x','y','k','et']], 'alt', 'pie'?]
+     */
+    function rd_figura(array $f): string
+    {
+        $n = static fn ($v): string => (string) round((float) $v, 1);
+        $html = '<figure class="rd-figura"><svg viewBox="0 0 ' . $n($f['ancho'] ?? 320) . ' ' . $n($f['alto'] ?? 200) . '" role="img" aria-label="'
+            . e($f['alt'] ?? 'Diagrama de red') . '"><g class="rd-figura__lineas">';
+        foreach ($f['lineas'] ?? [] as $l) {
+            $html .= '<line x1="' . $n($l[0]) . '" y1="' . $n($l[1]) . '" x2="' . $n($l[2]) . '" y2="' . $n($l[3]) . '"/>';
+        }
+        $html .= '</g>';
+        foreach ($f['nodos'] ?? [] as $nodo) {
+            $x = (float) $nodo['x'];
+            $y = (float) $nodo['y'];
+            $k = \in_array($nodo['k'] ?? '', ['rt', 'sw'], true) ? $nodo['k'] : 'pc';
+            $forma = $k === 'rt' ? '<circle cx="' . $n($x) . '" cy="' . $n($y) . '" r="15"/>'
+                : ($k === 'sw' ? '<rect x="' . $n($x - 22) . '" y="' . $n($y - 12) . '" width="44" height="24" rx="5"/>'
+                    : '<rect x="' . $n($x - 17) . '" y="' . $n($y - 12) . '" width="34" height="24" rx="3"/>');
+            $html .= '<g class="rd-figura__nodo rd-figura__nodo--' . $k . '">' . $forma . '<text x="' . $n($x) . '" y="' . $n($y + 4)
+                . '" text-anchor="middle">' . e($nodo['et'] ?? '') . '</text></g>';
+        }
+        $html .= '</svg>';
+        if (!empty($f['pie'])) {
+            $html .= '<figcaption>' . rd_md((string) $f['pie']) . '</figcaption>';
+        }
+        return $html . '</figure>';
+    }
+
     /** Pasos numerados de una solución. */
     function rd_pasos(array $pasos): string
     {
@@ -208,6 +238,10 @@ if (!function_exists('rd_md')) {
             case 'codigo':
                 return '<figure class="rd-codigo">' . (!empty($b['titulo']) ? '<figcaption>' . e($b['titulo']) . '</figcaption>' : '')
                     . '<pre tabindex="0"><code>' . e($b['texto']) . '</code></pre></figure>';
+            case 'figura':
+                return rd_figura($b);
+            case 'figuras':
+                return '<div class="rd-figuras">' . implode('', array_map('rd_figura', $b['items'])) . '</div>';
             case 'bits':
                 return rd_bits($b['filas'], (string) ($b['pie'] ?? ''));
             case 'nota':
@@ -233,6 +267,9 @@ if (!function_exists('rd_md')) {
                     . '<span class="rd-ejemplo__et">Ejemplo resuelto</span><span class="rd-nivel rd-nivel--' . $nivel . '">' . RD_NIVELES[$nivel] . '</span>'
                     . '<h3 class="rd-ejemplo__titulo">' . rd_md($b['titulo']) . '</h3></header>'
                     . '<div class="rd-ejemplo__enunciado">' . rd_parrafos($b['enunciado']) . '</div>';
+                if (!empty($b['figura'])) {
+                    $html .= rd_figura($b['figura']);
+                }
                 if (!empty($b['codigo'])) {
                     $html .= '<figure class="rd-codigo"><pre tabindex="0"><code>' . e($b['codigo']) . '</code></pre></figure>';
                 }

@@ -60,6 +60,21 @@ export function htmlPasos(pasos) {
 const MARCADOR = { ip: '0.0.0.0', red: '0.0.0.0/0', prefijo: '/0', numero: '0', binario: '00000000', comando: 'escribe el comando', texto: 'escribe la respuesta', ipv6: '2001:db8::1', red6: '2001:db8::/64', mac: '00:1a:2b:3c:4d:5e', hex: 'ff' };
 const ANCHOS = new Set(['opcion', 'multi', 'comando', 'texto', 'ipv6', 'red6']);
 
+/**
+ * Diagrama de red: f = { ancho, alto, lineas: [[x1, y1, x2, y2]], nodos: [{ x, y, k, et }], alt, pie? }.
+ * k: 'pc' (cuadro), 'sw' (rectángulo) o 'rt' (círculo). Mismo SVG que rd_figura() en PHP.
+ */
+export function htmlFigura(f) {
+  const lineas = f.lineas.map(([a, b, c, d]) => `<line x1="${+a}" y1="${+b}" x2="${+c}" y2="${+d}"/>`).join('');
+  const nodos = f.nodos.map((n) => {
+    const x = +n.x, y = +n.y;
+    const forma = n.k === 'rt' ? `<circle cx="${x}" cy="${y}" r="15"/>` : n.k === 'sw' ? `<rect x="${x - 22}" y="${y - 12}" width="44" height="24" rx="5"/>` : `<rect x="${x - 17}" y="${y - 12}" width="34" height="24" rx="3"/>`;
+    return `<g class="rd-figura__nodo rd-figura__nodo--${n.k === 'rt' || n.k === 'sw' ? n.k : 'pc'}">${forma}<text x="${x}" y="${y + 4}" text-anchor="middle">${esc(n.et)}</text></g>`;
+  }).join('');
+  return `<figure class="rd-figura"><svg viewBox="0 0 ${+f.ancho} ${+f.alto}" role="img" aria-label="${esc(f.alt || 'Diagrama de red')}"><g class="rd-figura__lineas">${lineas}</g>${nodos}</svg>`
+    + (f.pie ? `<figcaption>${fmt(f.pie)}</figcaption>` : '') + '</figure>';
+}
+
 /** Salida de consola que acompaña a un enunciado. */
 export const htmlCodigo = (texto) => `<figure class="rd-codigo"><pre tabindex="0"><code>${esc(texto)}</code></pre></figure>`;
 let serie = 0;
@@ -88,7 +103,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
       <span class="rd-ej__tipo">${esc(ej.nombre)}</span>
       <span class="rd-ej__marca" data-marca>${op.hecho ? 'Resuelto' : ''}</span>
     </header>
-    <div class="rd-ej__enunciado"><p>${fmt(ej.enunciado)}</p>${ej.codigo ? htmlCodigo(ej.codigo) : ''}${ej.tabla ? htmlTabla(ej.tabla) : ''}</div>
+    <div class="rd-ej__enunciado"><p>${fmt(ej.enunciado)}</p>${ej.figura ? htmlFigura(ej.figura) : ''}${ej.codigo ? htmlCodigo(ej.codigo) : ''}${ej.tabla ? htmlTabla(ej.tabla) : ''}</div>
     <form class="rd-ej__campos" novalidate>
       ${ej.campos.map((c, i) => htmlCampo(c, `${id}-${i}`)).join('')}
       <div class="rd-ej__acciones">

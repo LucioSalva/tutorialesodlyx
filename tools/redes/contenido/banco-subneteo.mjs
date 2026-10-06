@@ -2,6 +2,15 @@
 // Complementa a los ejercicios generados: aquí se pregunta el concepto y el escenario de soporte.
 import { op, vs, rel, ord } from './_ayuda.mjs';
 
+const CALC = `Address:   192.168.20.150
+Netmask:   255.255.255.224 = 27
+Wildcard:  0.0.0.31
+Network:   192.168.20.128/27
+HostMin:   192.168.20.129
+HostMax:   192.168.20.158
+Broadcast: 192.168.20.159
+Hosts/Net: 30`;
+
 export default {
   1: [
     op('¿Cuántos bits tiene una dirección IPv4?', ['8', '32', '48', '128'], 1, 'Una dirección IPv4 son 4 octetos de 8 bits: 32 bits. 48 bits tiene una dirección MAC y 128 una dirección IPv6.'),
@@ -20,6 +29,10 @@ export default {
     op('¿Qué operación hace un equipo con su IP y su máscara para saber a qué red pertenece?', ['Una suma', 'Un AND bit a bit', 'Un OR bit a bit', 'Una resta'], 1, 'El AND conserva los bits de la IP donde la máscara tiene 1 y pone 0 donde tiene 0: el resultado es la dirección de red.'),
   ],
   2: [
+    op('Un ingeniero te envía esta salida de una calculadora de subredes. ¿Cuál es la última dirección que puedes asignar a un equipo?', ['192.168.20.158', '192.168.20.159', '192.168.20.150', '192.168.20.160'], 0, 'La línea HostMax indica la última asignable: .158. La .159 es el broadcast y la .160 ya es la subred siguiente.', { codigo: CALC }),
+    op('Según la salida de la calculadora, ¿a qué subred pertenece la dirección consultada?', ['192.168.20.128/27', '192.168.20.0/24', '192.168.20.150/27', '192.168.20.159/27'], 0, 'La línea Network muestra la subred: 192.168.20.128/27. La .150 es un host dentro de ella y la .159 su broadcast.', { codigo: CALC }),
+    op('Te piden poner como puerta de enlace de esta subred la dirección 192.168.20.1. Según la calculadora, ¿es correcto?', ['No: está fuera del rango asignable de la subred', 'Sí: toda puerta de enlace termina en .1', 'Sí: está en el mismo /24', 'No: es la dirección de broadcast'], 0, 'El rango asignable va de .129 a .158. La .1 pertenece a otra subred y los equipos no podrían alcanzarla directamente.', { codigo: CALC }),
+    op('¿Para qué usa un técnico una calculadora de subredes?', ['Para obtener o comprobar la red, el broadcast, el rango y los hosts de una dirección con su máscara', 'Para medir la velocidad de la conexión', 'Para capturar el tráfico de la red', 'Para asignar direcciones automáticamente a los equipos'], 0, 'La calculadora hace las cuentas de direccionamiento. Medir velocidad es cosa de una prueba de velocidad, capturar es Wireshark y repartir direcciones es DHCP.'),
     op('¿Cuántos equipos se pueden direccionar en una red **/26**?', ['30', '62', '64', '126'], 1, 'Quedan 32 − 26 = 6 bits de host: 2^6 = 64 direcciones, menos la de red y la de broadcast, 62.'),
     op('Un técnico configura una impresora con la IP `192.168.10.63/26` y nadie puede imprimir. ¿Por qué?', ['Porque es la dirección de red', 'Porque es la dirección de broadcast de la subred', 'Porque la máscara /26 no existe', 'Porque es una dirección pública'], 1, 'En /26 los bloques son de 64: la subred 192.168.10.0 va de .0 a .63. La .63 es el broadcast y no se puede asignar a un equipo.'),
     op('¿Cuál es la dirección de red de `192.168.1.130/25`?', ['192.168.1.0', '192.168.1.128', '192.168.1.129', '192.168.1.255'], 1, '/25 parte el último octeto en dos bloques de 128: 0–127 y 128–255. El 130 cae en el segundo, que empieza en 128.'),

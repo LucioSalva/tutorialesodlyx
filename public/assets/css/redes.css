@@ -312,6 +312,17 @@
 .page-redes .rd-nota-final__cifra { margin: 0 0 6px; font: 700 clamp(32px, 6vw, 48px)/1 var(--rd-mono); color: var(--dv-text-primary); }
 .page-redes .rd-nota-final p { margin: 0; color: var(--dv-text-secondary); }
 
+/* ------------------------------ 9a. Diagramas de red ---------------- */
+.page-redes .rd-figura { margin: 0; display: grid; gap: 8px; justify-items: center; padding: 14px; border: 1px solid var(--dv-border-subtle); border-radius: var(--rd-radio); background: var(--dv-bg-primary); min-width: 0; }
+.page-redes .rd-figura svg { width: 100%; max-width: 400px; height: auto; display: block; }
+.page-redes .rd-figura__lineas line { stroke: var(--dv-text-muted); stroke-width: 1.6; stroke-linecap: round; }
+.page-redes .rd-figura__nodo :is(rect, circle) { fill: var(--dv-surface-card); stroke: var(--rd-host); stroke-width: 1.6; }
+.page-redes .rd-figura__nodo--sw rect { stroke: var(--rd-red); }
+.page-redes .rd-figura__nodo--rt circle { stroke: var(--rd-sub); }
+.page-redes .rd-figura__nodo text { font: 600 10px var(--rd-mono); fill: var(--dv-text-primary); }
+.page-redes .rd-figura figcaption { font-size: 14px; color: var(--dv-text-secondary); text-align: center; }
+.page-redes .rd-figuras { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+
 /* ------------------------------ 9b. Campos nuevos y certificación --- */
 .page-redes .rd-campo--ancho { grid-column: 1 / -1; }
 .page-redes .rd-campo--elegir { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 6px 14px; padding: 8px 0; border-bottom: 1px solid var(--dv-border-subtle); }

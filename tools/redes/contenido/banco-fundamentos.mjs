@@ -1,9 +1,18 @@
 // Banco de preguntas tipo examen de «Fundamentos de redes» (CCST Networking, dominio 1). Clave = nivel de práctica.
-import { op, vs, rel, ord } from './_ayuda.mjs';
+import { op, vs, rel, ord, topo } from './_ayuda.mjs';
+
+const TOPOS = ['Estrella', 'Malla completa', 'Malla parcial', 'Bus', 'Anillo', 'Punto a punto'];
 
 export default {
   /* ============================================ 1 · Qué es una red */
   1: [
+    op('Un ingeniero te envía este diagrama. ¿Qué topología física representa?', TOPOS, 0, 'Todas las líneas terminan en un equipo central y ninguna computadora se une con otra: es una estrella.', { figura: topo('estrella', 6) }),
+    op('Observa el diagrama de la red troncal de una empresa. ¿Qué topología representa?', TOPOS, 1, 'Cada router está unido directamente con todos los demás: malla completa. En una malla parcial faltarían algunos de esos enlaces.', { figura: topo('malla', 5) }),
+    op('Observa el diagrama. ¿Qué topología forman estos routers?', TOPOS, 2, 'Hay caminos alternativos, pero varios routers solo tienen dos enlaces y no todos se unen entre sí: malla parcial. En una malla completa de 5 habría 10 enlaces.', { figura: topo('malla-parcial', 5) }),
+    op('El diagrama muestra una red antigua de un taller. ¿Qué topología es?', TOPOS, 3, 'Todos los equipos se conectan a un único cable con terminadores en los extremos: bus. Un corte en ese cable deja a todos sin red.', { figura: topo('bus', 4) }),
+    op('Observa el diagrama. ¿Qué topología muestra?', TOPOS, 4, 'Cada equipo tiene exactamente dos enlaces, con sus dos vecinos, y el círculo se cierra: anillo.', { figura: topo('anillo', 6) }),
+    op('En la red del diagrama se corta el cable común por la mitad. ¿Qué ocurre?', ['Toda la red deja de funcionar', 'Solo falla la computadora más cercana al corte', 'No pasa nada: hay caminos alternativos', 'La red se convierte en una estrella'], 0, 'Es un bus: todos dependen del mismo cable. Al cortarlo se pierden además los terminadores de cada tramo, y la red entera deja de funcionar.', { figura: topo('bus', 5) }),
+    op('En la red del diagrama, ¿cuál es el punto único de fallo?', ['El switch central', 'El cable de PC1', 'Cualquiera de las computadoras', 'No tiene ninguno'], 0, 'En una estrella todo pasa por el equipo central: si falla, nadie se comunica. El fallo de un cable o de una computadora solo afecta a ese equipo.', { figura: topo('estrella', 5) }),
     op('Un técnico instala en una oficina un equipo al que se conectan por cable 24 computadoras de la misma red, y que entrega cada trama solo al equipo de destino. ¿Qué equipo instaló?', ['Un switch', 'Un router', 'Un módem', 'Un servidor'], 0, 'Conectar por cable a los equipos de una misma red y entregar cada trama a su destinatario es la función del switch. El router une redes distintas; el módem adapta la señal del proveedor; el servidor es un dispositivo final.'),
     op('¿Qué dispositivo necesita una oficina para que sus computadoras puedan comunicarse con redes distintas a la suya, por ejemplo Internet?', ['Un router', 'Un hub', 'Un punto de acceso', 'Un repetidor'], 0, 'Solo el router conecta redes diferentes y decide el camino entre ellas. El hub, el repetidor y el punto de acceso trabajan dentro de una misma red.'),
     op('En el inventario de una empresa aparecen: 40 laptops, 3 impresoras de red, 2 switches, 1 router y 6 cámaras IP. ¿Cuántos son dispositivos finales?', ['49', '40', '43', '52'], 0, 'Son finales los equipos donde empiezan o terminan los datos: 40 laptops + 3 impresoras + 6 cámaras = 49. Los 2 switches y el router son dispositivos intermedios.'),

@@ -1,5 +1,7 @@
 // Fundamentos de redes · lecciones 1 a 4: qué es una red, modelos de capas, encapsulación y rendimiento.
-import { h, h3, p, lista, orden, tabla, nota, formula, codigo, ejemplo, ejercicios, op, vs, rel, ord } from './_ayuda.mjs';
+import { h, h3, p, lista, orden, tabla, nota, formula, codigo, ejemplo, ejercicios, op, vs, rel, ord, topo, figura, figuras } from './_ayuda.mjs';
+
+const TOPOS = ['Estrella', 'Malla completa', 'Malla parcial', 'Bus', 'Anillo', 'Punto a punto'];
 
 export const alc = (caso) => ({ tipo: 'fx-alcance', caso });
 export const capa = (que) => ({ tipo: 'fx-capa', que });
@@ -103,6 +105,57 @@ Piensa en un sistema de carreteras. Hay **lugares** de donde sale y a donde lleg
         ['**Anillo**', 'Cada equipo se conecta con sus dos vecinos formando un círculo.', 'El tráfico es ordenado.', 'Antigua en LAN. Un fallo puede romper el anillo.'],
         ['**Punto a punto**', 'Un enlace directo entre dos equipos.', 'Sencilla.', 'Solo une dos puntos.'],
       ]),
+      h3('Cómo se ve cada una dibujada'),
+      p(`En el examen las topologías aparecen **dibujadas**, y hay que reconocerlas de un vistazo. En estos diagramas un cuadro es una computadora (PC), un rectángulo azul es un switch (SW) y un círculo es un router (R).`),
+      figuras(
+        [topo('estrella'), '**Estrella.** Todos los cables llegan a un equipo central. Es la forma de casi todas las LAN.'],
+        [topo('estrella-extendida'), '**Estrella extendida.** Varias estrellas unidas por un switch central.'],
+        [topo('malla', 4), '**Malla completa.** Todos con todos: con 4 equipos ya son 6 enlaces.'],
+        [topo('malla-parcial'), '**Malla parcial.** Hay caminos alternativos, pero no todos se unen directamente.'],
+        [topo('bus'), '**Bus.** Un único cable compartido, con un terminador en cada extremo.'],
+        [topo('anillo'), '**Anillo.** Cada equipo solo toca a sus dos vecinos y el círculo se cierra.'],
+        [topo('punto-a-punto'), '**Punto a punto.** Un enlace directo entre dos equipos, típico entre dos sedes.'],
+      ),
+      h3('Tres preguntas para reconocer cualquier dibujo'),
+      p(`No hace falta memorizar las imágenes. Basta contar líneas:`),
+      orden(
+        '**¿Hay un equipo en el centro al que llegan todas las líneas?** Entonces es una **estrella**. Si hay varios centros unidos entre sí, es una estrella extendida.',
+        '**¿Cuántas líneas salen de cada equipo?** Si de cada uno salen exactamente **dos** y el dibujo se cierra, es un **anillo**. Si salen hacia **todos los demás**, es una **malla completa**. Si salen varias pero no hacia todos, es una **malla parcial**.',
+        '**¿Todos cuelgan de una sola línea larga?** Entonces es un **bus**. Y si solo hay dos equipos y una línea, es **punto a punto**.',
+      ),
+      tabla(['Topología', 'Enlaces de cada equipo', 'Si se corta un enlace…'], [
+        ['Estrella', '1 (hacia el centro)', 'se queda sin red solo ese equipo.'],
+        ['Malla completa', 'n − 1 (uno hacia cada uno de los demás)', 'no pasa nada: hay otros caminos.'],
+        ['Malla parcial', '2 o más, pero menos de n − 1', 'casi siempre hay un camino alternativo.'],
+        ['Bus', '1 (hacia el cable común)', 'si se corta el cable común, cae toda la red.'],
+        ['Anillo', '2 (sus dos vecinos)', 'el anillo se abre; en los anillos simples cae la comunicación.'],
+        ['Punto a punto', '1', 'los dos equipos quedan incomunicados.'],
+      ]),
+      ejemplo('facil', 'Reconocer una topología dibujada', op(
+        'Un ingeniero te envía este diagrama de una oficina pequeña. ¿Qué topología física muestra?', TOPOS, 0, [
+          'Primera pregunta: ¿hay un equipo central? Sí: el switch **SW** está en medio y todas las líneas terminan en él.',
+          'Ninguna computadora está unida directamente con otra: cada una tiene **un solo enlace**, hacia el centro.',
+          'Un centro con un cable propio para cada equipo es una **estrella**. Si se rompe el cable de PC3, solo PC3 pierde la red.',
+        ], { figura: topo('estrella') })),
+      ejemplo('medio', '¿Malla completa o malla parcial?', op(
+        'Este diagrama muestra los routers de cinco sedes de una empresa. ¿Qué topología es?', TOPOS, 2, [
+          'No hay un equipo central, así que no es una estrella. Y hay más de dos equipos: tampoco es punto a punto.',
+          'Cuenta los enlaces de cada router. En una malla **completa** de 5 routers cada uno tendría 4 enlaces (uno hacia cada uno de los otros), y en total habría 5 × 4 ÷ 2 = 10 líneas.',
+          'Aquí hay 6 líneas y varios routers solo tienen 2 enlaces. Existen caminos alternativos, pero no todos están unidos entre sí: es una **malla parcial**.',
+        ], { figura: topo('malla-parcial') })),
+      ejemplo('medio', 'Contar los enlaces de una malla completa', op(
+        'El diagrama muestra cuatro routers. Si la empresa añade un quinto router y quiere mantener la misma topología, ¿cuántos enlaces habrá en total?', ['5', '8', '10', '20'], 2, [
+          'En el dibujo cada router está unido con los otros tres: es una **malla completa** de 4 equipos, con 4 × 3 ÷ 2 = 6 enlaces.',
+          'Para mantenerla, el quinto router necesita un enlace con cada uno de los 4 que ya existen: 6 + 4 = 10.',
+          'Con la fórmula: n × (n − 1) ÷ 2 = 5 × 4 ÷ 2 = **10** enlaces. Por eso la malla completa se encarece tan rápido.',
+        ], { figura: topo('malla', 4) })),
+      h3('Física y lógica pueden no coincidir'),
+      p(`El dibujo de los cables (topología **física**) no siempre coincide con la forma en que viajan los datos (topología **lógica**). El caso clásico: varias computadoras conectadas a un **hub**. Los cables forman una estrella, porque cada equipo tiene el suyo hasta el hub. Pero el hub repite cada señal por todos sus puertos, así que los datos se comportan como si todos compartieran un solo cable: lógicamente es un **bus**.`),
+      tabla(['Red', 'Topología física', 'Topología lógica'], [
+        ['Computadoras conectadas a un hub', 'Estrella', 'Bus: todos reciben todo.'],
+        ['Computadoras conectadas a un switch', 'Estrella', 'Estrella: cada trama va solo a su destino.'],
+        ['Un switch con dos VLAN', 'Estrella (un solo equipo central)', 'Dos redes separadas que no se ven entre sí.'],
+      ]),
       nota('clave', `La topología que vas a ver en prácticamente todas las redes locales actuales es la **estrella** (o estrella extendida): cada computadora con su propio cable hasta un switch. Bus y anillo aparecen en el examen sobre todo como opciones para descartar.`),
       formula('Enlaces de una malla completa = n × (n − 1) ÷ 2', [['n', 'el número de equipos']], 'Con 4 equipos son 6 enlaces; con 10 equipos ya son 45. Por eso la malla completa casi no se usa.'),
       ejemplo('medio', 'Elegir topología en un caso real', op(
@@ -133,6 +186,18 @@ Piensa en un sistema de carreteras. Hay **lugares** de donde sale y a donde lleg
         'La **topología física** dice dónde están los cables; la **lógica**, cómo fluyen los datos. La más usada en LAN es la **estrella**.',
       ),
 
+      ejercicios('Practica: reconocer topologías', 'Cuenta las líneas que salen de cada equipo antes de responder.', [
+        op('¿Qué topología física muestra el diagrama?', TOPOS, 3, 'Todas las computadoras cuelgan de una única línea larga con un terminador en cada extremo: es un **bus**.', { figura: topo('bus') }),
+        op('¿Qué topología física muestra el diagrama?', TOPOS, 4, 'De cada equipo salen exactamente dos enlaces, hacia sus dos vecinos, y el círculo se cierra: es un **anillo**.', { figura: topo('anillo') }),
+        op('¿Qué topología muestra el diagrama?', TOPOS, 1, 'Cada router tiene un enlace directo con todos los demás (4 routers, 6 enlaces): es una **malla completa**.', { figura: topo('malla', 4) }),
+        op('¿Qué topología muestra el diagrama?', TOPOS, 5, 'Solo hay dos equipos y un enlace directo entre ellos: **punto a punto**.', { figura: topo('punto-a-punto') }),
+        op('¿Qué topología física muestra el diagrama?', ['Estrella', 'Estrella extendida', 'Malla completa', 'Bus'], 1, 'Hay un switch central (SW0) del que cuelgan otros switches, y de cada uno de ellos sus computadoras: varias estrellas unidas, es decir, una **estrella extendida**.', { figura: topo('estrella-extendida') }),
+        op('En la red del diagrama se rompe el cable entre PC2 y el switch. ¿Qué equipos se quedan sin red?', ['Solo PC2', 'PC2 y sus dos vecinos', 'Todos los equipos', 'Ninguno: hay un camino alternativo'], 0, 'Es una estrella: cada computadora tiene su propio cable hasta el switch. El fallo de un cable solo afecta al equipo de ese cable.', { figura: topo('estrella') }),
+        op('En la red del diagrama falla el switch central. ¿Qué ocurre?', ['Solo se pierde un equipo', 'Las computadoras siguen comunicándose entre ellas', 'Ninguna computadora puede comunicarse con otra', 'La red cambia sola a una malla'], 2, 'En una estrella todo el tráfico pasa por el equipo central. Si falla, no queda ningún camino entre las computadoras: es su punto único de fallo.', { figura: topo('estrella') }),
+        op('En la red del diagrama se corta el enlace entre R1 y R2. ¿Puede R1 seguir enviando paquetes a R2?', ['Sí, por un camino alternativo a través de otros routers', 'No, quedan incomunicados', 'Solo si se reinician los routers', 'Solo los paquetes de broadcast'], 0, 'En una malla completa cada router tiene enlaces con todos los demás. R1 puede llegar a R2 pasando por R3 o por R4: esa redundancia es la gran ventaja de la malla.', { figura: topo('malla', 4) }),
+        op('Seis sucursales se van a unir en malla completa. ¿Cuántos enlaces hacen falta?', ['6', '12', '15', '30'], 2, 'n × (n − 1) ÷ 2 = 6 × 5 ÷ 2 = 15 enlaces.'),
+        op('Cinco computadoras están conectadas por cable a un hub. ¿Cuál es su topología física y cuál la lógica?', ['Física en estrella, lógica en bus', 'Física en bus, lógica en estrella', 'Física y lógica en anillo', 'Física en malla, lógica en estrella'], 0, 'Los cables llegan todos al hub: físicamente es una estrella. Pero el hub repite cada señal por todos los puertos, como si compartieran un solo cable: lógicamente es un bus.'),
+      ]),
       ejercicios('Practica', 'Empieza por clasificar redes y termina con casos de soporte.', [
         alc('reloj'), alc('casa'), alc('cafe'), alc('hospital'), alc('cable'), alc('internet'), alc('teclado'), alc('laboratorio'), alc('tabletas'), alc('paises'),
         op('¿Cuál de estos equipos es un dispositivo **intermedio**?', ['Un servidor de archivos', 'Una impresora de red', 'Un switch', 'Un teléfono IP'], 2, 'El switch solo reenvía lo que pasa por él. El servidor, la impresora y el teléfono IP son origen o destino de los datos: son dispositivos finales.'),
