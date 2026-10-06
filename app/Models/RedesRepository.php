@@ -10,7 +10,8 @@ use App\Core\Config;
  *
  * Todo el contenido vive en JSON bajo public/assets/redes/data/:
  *
- *   · curso.json        módulos y la lista de lecciones de cada uno
+ *   · curso.json        módulos, la lista de lecciones de cada uno y la guía de certificación
+ *   · banco-<modulo>.json  preguntas tipo examen (las lee solo el navegador)
  *   · <modulo>.json     las lecciones completas de ese módulo
  *
  * Los dos archivos los GENERA tools/redes/construir.mjs a partir de
@@ -53,6 +54,13 @@ final class RedesRepository
     public static function modulos(): array
     {
         return array_values(self::leer('curso')['modulos'] ?? []);
+    }
+
+    /** Guía de la certificación (objetivos, ruta de estudio y simulacros) o null. */
+    public static function certificacion(): ?array
+    {
+        $c = self::leer('curso')['certificacion'] ?? null;
+        return \is_array($c) ? $c : null;
     }
 
     /** Módulo publicado (estado «disponible») o null. */

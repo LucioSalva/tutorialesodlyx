@@ -152,6 +152,34 @@ if (!function_exists('rd_md')) {
         return $html . '</ol>';
     }
 
+    /** URL de los bancos de preguntas de los módulos indicados (solo los que tienen banco). */
+    function rd_bancos(array $modulos): array
+    {
+        $urls = [];
+        foreach ($modulos as $m) {
+            if (!empty($m['banco'])) {
+                $urls[$m['slug']] = asset('assets/redes/data/banco-' . $m['slug'] . '.json');
+            }
+        }
+        return $urls;
+    }
+
+    /** Selector de examen y zona donde se monta. $examenes = [['id','nombre','resumen'], …] */
+    function rd_examen_zona(array $examenes, string $titulo = 'Elige un examen'): string
+    {
+        $html = '<section class="rd-examenes" data-inicio><h2 class="rd-h2">' . e($titulo) . '</h2><div class="rd-examenes__lista">';
+        foreach ($examenes as $x) {
+            $html .= '<button type="button" class="rd-examen-btn" data-examen="' . e($x['id']) . '"><b>' . e($x['nombre']) . '</b><span>' . e($x['resumen'])
+                . '</span><span class="rd-examen-btn__mejor" data-mejor="' . e($x['id']) . '"></span></button>';
+        }
+        return $html . '</div><noscript><p class="rd-aviso">El examen necesita JavaScript: las preguntas se generan y se corrigen en tu navegador.</p></noscript></section>'
+            . '<section data-examen-zona hidden><div class="rd-examen-cab"><h2 class="rd-h2" data-examen-titulo></h2>'
+            . '<p class="rd-examen-reloj" aria-label="Tiempo transcurrido"><span data-reloj>00:00</span></p></div>'
+            . '<div data-preguntas></div><div class="rd-acciones"><button type="button" class="rd-btn rd-btn--primario" data-entregar>Entregar examen</button>'
+            . '<button type="button" class="rd-btn" data-otro hidden>Hacer otro examen</button></div>'
+            . '<section class="rd-nota-final" data-nota-final hidden aria-live="polite"></section></section>';
+    }
+
     define('RD_NIVELES', ['facil' => 'Fácil', 'medio' => 'Medio', 'dificil' => 'Difícil', 'experto' => 'Experto']);
     define('RD_NOTAS', ['clave' => 'Idea clave', 'aviso' => 'Cuidado', 'truco' => 'Atajo', 'error' => 'Error frecuente']);
 
@@ -205,6 +233,9 @@ if (!function_exists('rd_md')) {
                     . '<span class="rd-ejemplo__et">Ejemplo resuelto</span><span class="rd-nivel rd-nivel--' . $nivel . '">' . RD_NIVELES[$nivel] . '</span>'
                     . '<h3 class="rd-ejemplo__titulo">' . rd_md($b['titulo']) . '</h3></header>'
                     . '<div class="rd-ejemplo__enunciado">' . rd_parrafos($b['enunciado']) . '</div>';
+                if (!empty($b['codigo'])) {
+                    $html .= '<figure class="rd-codigo"><pre tabindex="0"><code>' . e($b['codigo']) . '</code></pre></figure>';
+                }
                 if (!empty($b['tabla'])) {
                     $html .= rd_tabla($b['tabla']);
                 }

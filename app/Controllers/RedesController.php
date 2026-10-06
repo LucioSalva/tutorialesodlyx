@@ -21,6 +21,8 @@ use App\Models\TutorialRepository;
  *   /{modulo}/practica            ejercicios generados por nivel
  *   /{modulo}/examen              examen
  *   /{modulo}/herramientas        calculadoras del módulo (si las tiene)
+ *   /certificacion                guía del examen CCST Networking y ruta de estudio
+ *   /certificacion/simulador      simulacros cronometrados que mezclan todos los módulos
  */
 final class RedesController
 {
@@ -36,6 +38,9 @@ final class RedesController
         $n = \count($s);
         if ($n === 0) {
             return $this->index();
+        }
+        if ($s[0] === 'certificacion') {
+            return $this->certificacion($s);
         }
         $modulo = Redes::modulo($s[0]);
         if ($modulo === null) {
@@ -67,8 +72,25 @@ final class RedesController
     public function index(): string
     {
         return $this->render('index', 'Academia de Redes',
-            'Aprende redes paso a paso: subneteo IPv4 y VLAN explicados bit a bit, con ejemplos resueltos de fácil a experto y ejercicios ilimitados que se corrigen solos.',
-            ['modulos' => Redes::modulos()]);
+            'Aprende redes desde cero y prepárate para la certificación Cisco CCST Networking: lecciones claras, ejemplos resueltos, ejercicios que se corrigen solos y simulacros de examen.',
+            ['modulos' => Redes::modulos(), 'cert' => Redes::certificacion()]);
+    }
+
+    private function certificacion(array $s): ?string
+    {
+        $c = Redes::certificacion();
+        if ($c === null) {
+            return null;
+        }
+        $datos = ['cert' => $c, 'modulos' => Redes::modulos()];
+        if (\count($s) === 1) {
+            return $this->render('certificacion', (string) $c['titulo'], (string) $c['resumen'], $datos);
+        }
+        if (\count($s) === 2 && $s[1] === 'simulador') {
+            return $this->render('simulador', 'Simulador ' . $c['corto'],
+                'Simulacros cronometrados del examen ' . $c['corto'] . ' con preguntas de todos los dominios y nota desglosada.', $datos);
+        }
+        return null;
     }
 
     private function modulo(array $m): string

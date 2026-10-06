@@ -10,8 +10,10 @@ misiones, videojuegos y repaso espaciado. Desde la **v1.6.0** incluye también l
 **[Academia de Inglés](docs/INGLES.md)**: un curso original de inglés desde cero
 (orientado a A1–A2) con lecciones completas, ejercicios corregidos y razonados,
 audio, pronunciación, vocabulario, repaso espaciado, juegos y evaluaciones. Desde la
-**v1.8.0** incluye la **[Academia de Redes](docs/REDES.md)**: subneteo IPv4 y VLAN
-explicados bit a bit, con ejemplos resueltos y ejercicios ilimitados que se corrigen solos.
+**v1.8.0** incluye la **[Academia de Redes](docs/REDES.md)**, que desde la **v1.9.0** es una
+ruta completa para la certificación **Cisco CCST Networking (100-150)**: ocho módulos que
+cubren los seis dominios del temario, con ejemplos resueltos, ejercicios que se corrigen
+solos, práctica ilimitada, bancos de preguntas tipo examen y simulacros cronometrados.
 
 > **Antes de escribir un tutorial nuevo, lee [`docs/TUTORIAL_STANDARD.md`](docs/TUTORIAL_STANDARD.md).**
 > Es la norma pedagógica del proyecto, obligatoria desde la v1.3.0: todo
@@ -434,13 +436,18 @@ escucha, conversaciones, escritura, 10 juegos, evaluaciones y exámenes.
 ## Academia de Redes
 
 Módulo independiente en `/redes`, documentado en [`docs/REDES.md`](docs/REDES.md).
-Dos módulos: **Subneteo IPv4** (13 lecciones) y **VLAN** (7 lecciones), con 140
-ejemplos resueltos, 362 ejercicios guiados, práctica ilimitada en 6 niveles por
-módulo, exámenes y herramientas (calculadora visual, divisor de redes, VLSM).
+Ruta de preparación para **Cisco CCST Networking (100-150)** en ocho módulos:
+Fundamentos de redes, Medios y dispositivos finales, Subneteo IPv4, NAT/DHCP/IPv6,
+Infraestructura, VLAN, Diagnóstico y soporte y Seguridad. En total **63 lecciones,
+514 ejemplos resueltos, 1,410 ejercicios guiados y 976 preguntas tipo examen**, con
+práctica ilimitada por niveles, examen por módulo, guía del temario
+(`/redes/certificacion`) y simulacros cronometrados (`/redes/certificacion/simulador`).
 
 - **Nada se calcula a mano**: cada ejercicio es `{ tipo, parámetros }` y un único
   motor (`js/redes/ip.js` + `motor.js`) calcula la respuesta, las pistas y la
   solución paso a paso, tanto en el navegador como al construir las lecciones.
+- **Preguntas de certificación**: opción única, varias respuestas, relacionar y ordenar,
+  con salidas de consola como exhibición; los bancos viven en `data/banco-<modulo>.json`.
 - **Contenido como datos** en `tools/redes/contenido/`; `node tools/redes/construir.mjs`
   genera `public/assets/redes/data/`. `tools/` no se despliega.
 - **Sin MySQL y sin endpoints**: el progreso vive en `localStorage`.

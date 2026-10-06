@@ -19,6 +19,14 @@ import {
 export const TIPOS = {};
 export const definir = (id, nombre, o) => { TIPOS[id] = { id, nombre, ...o }; };
 
+/**
+ * Niveles de práctica por módulo. Cada archivo tipos-<modulo>.js registra los suyos.
+ * Cada entrada de `tipos` es [tipo, peso]: el peso es cuántas papeletas tiene ese tipo
+ * en el sorteo del nivel. El tipo especial 'banco' saca una pregunta del banco del módulo.
+ */
+export const NIVELES = {};
+export const niveles = (modulo, lista) => { NIVELES[modulo] = lista; };
+
 /* ------------------------------------------------------------ utilidades */
 export const ent = (rng, a, b) => a + Math.floor(rng() * (b - a + 1));
 export const elegir = (rng, lista) => lista[Math.floor(rng() * lista.length)];
@@ -813,13 +821,41 @@ definir('resumen', 'Ruta resumen', {
 });
 
 /* ============================================================ conceptual */
+// Preguntas escritas a mano (lecciones y banco de examen). La explicación va en
+// `porque` (un párrafo) o en `pasos` (razonamiento por pasos: textos o { t, tabla }).
+// Admiten `tabla` y `codigo` (una salida de consola que acompaña al enunciado).
+const razonamiento = (q) => [...(q.pasos ?? []).map((x) => (typeof x === 'string' ? { t: x } : x)), ...(q.porque ? [{ t: q.porque }] : [])];
+const base = (q) => ({ enunciado: q.pregunta, ...(q.tabla ? { tabla: q.tabla } : {}), ...(q.codigo ? { codigo: q.codigo } : {}), pistas: q.pistas ?? [], pasos: razonamiento(q) });
+const alfabetico = (lista) => [...new Set(lista)].sort((a, b) => a.localeCompare(b, 'es', { numeric: true }));
+
 definir('opcion', 'Pregunta de concepto', {
+  resolver: (q) => ({ ...base(q), campos: [campo('r', 'Respuesta', 'opcion', q.correcta, { opciones: q.opciones, lista: true })] }),
+});
+
+/** Varias respuestas correctas («elige dos»). correctas = índices. */
+definir('varias', 'Varias respuestas', {
   resolver(q) {
-    return {
-      enunciado: q.pregunta,
-      campos: [campo('r', 'Respuesta', 'opcion', q.correcta, { opciones: q.opciones, lista: true })],
-      pistas: q.pistas ?? [],
-      pasos: [{ t: q.porque }],
-    };
+    const correctas = [...q.correctas].sort((a, b) => a - b);
+    const n = ['', 'una', 'dos', 'tres', 'cuatro', 'cinco'][correctas.length] ?? correctas.length;
+    return { ...base(q), campos: [campo('r', `Elige ${n}`, 'multi', correctas, { opciones: q.opciones })] };
   },
 });
+
+/** Relacionar: pares = [[concepto, respuesta], …]; extra = respuestas que sobran (distractores). */
+definir('relacionar', 'Relacionar', {
+  resolver(q) {
+    const opciones = alfabetico([...q.pares.map(([, d]) => d), ...(q.extra ?? [])]);
+    return { ...base(q), campos: q.pares.map(([izq, der], i) => campo('r' + i, izq, 'opcion', opciones.indexOf(der), { opciones, desplegable: true })) };
+  },
+});
+
+/** Ordenar: orden = los elementos en el orden correcto. */
+definir('ordenar', 'Ordenar', {
+  resolver(q) {
+    const opciones = alfabetico(q.orden);
+    return { ...base(q), campos: q.orden.map((x, i) => campo('r' + i, `${i + 1}.º`, 'opcion', opciones.indexOf(x), { opciones, desplegable: true })) };
+  },
+});
+
+/** Marcador de nivel: «una pregunta del banco del módulo» (la elige motor.js). */
+definir('banco', 'Preguntas tipo examen', {});

@@ -3,11 +3,11 @@
  * guarda nivel y semilla (?nivel=3&s=12345), así un ejercicio concreto se
  * puede recargar o compartir.
  */
-import { NIVELES, TIPOS, azar, generar } from '../motor.js';
+import { NIVELES, TIPOS, azar, generar, crear, cargarBancos } from '../motor.js';
 import { montarEjercicio } from '../ui.js';
 import { nivel as marcadorDe, registrarPractica } from '../progreso.js';
 
-export function iniciar(config) {
+export async function iniciar(config) {
   const niveles = NIVELES[config.modulo] ?? [];
   const zona = document.querySelector('[data-zona]');
   const selector = document.querySelector('[data-tipo]');
@@ -16,7 +16,10 @@ export function iniciar(config) {
   let semilla = /^\d{1,10}$/.test(url.searchParams.get('s') ?? '') ? Number(url.searchParams.get('s')) : null;
   let cuenta = 0;
   if (!n) return;
+  try { await cargarBancos(config.bancos); } catch (e) { zona.textContent = 'No se pudieron cargar las preguntas. Recarga la página.'; throw e; }
+  const vistas = [];   // enunciados recientes, para no repetir preguntas del banco seguidas
 
+  const clave = (spec) => spec.pregunta ?? JSON.stringify(spec);
   const nuevaSemilla = () => Math.floor(Math.random() * 4294967295);
 
   function marcador() {
@@ -39,12 +42,18 @@ export function iniciar(config) {
     semilla = fija ?? nuevaSemilla();
     const rng = azar(semilla);
     const tipo = selector.value;
-    const spec = tipo && TIPOS[tipo] ? { tipo, ...TIPOS[tipo].crear(rng, n) } : generar(config.modulo, n, rng);
+    const nuevo = () => (tipo && TIPOS[tipo] ? crear(config.modulo, tipo, n, rng) : generar(config.modulo, n, rng));
+    let spec = nuevo();
+    // Con semilla fija (enlace compartido) se respeta el primer resultado; si no, se evita repetir.
+    for (let i = 0; fija === null && i < 12 && vistas.includes(clave(spec)); i++) spec = nuevo();
+    vistas.push(clave(spec));
+    if (vistas.length > 40) vistas.shift();
     url.searchParams.set('nivel', String(n));
     url.searchParams.set('s', String(semilla));
     history.replaceState(null, '', url);
 
     const nodo = document.createElement('article');
+    nodo.__spec = spec;
     zona.replaceChildren(nodo);
     montarEjercicio(nodo, spec, {
       numero: ++cuenta,

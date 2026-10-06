@@ -57,7 +57,11 @@ export function htmlPasos(pasos) {
   return '<ol class="rd-pasos">' + pasos.map((p) => `<li><p>${fmt(p.t)}</p>${p.bits ? htmlBits(p.bits) : ''}${p.tabla ? htmlTabla(p.tabla) : ''}</li>`).join('') + '</ol>';
 }
 
-const MARCADOR = { ip: '0.0.0.0', red: '0.0.0.0/0', prefijo: '/0', numero: '0', binario: '00000000', comando: 'escribe el comando' };
+const MARCADOR = { ip: '0.0.0.0', red: '0.0.0.0/0', prefijo: '/0', numero: '0', binario: '00000000', comando: 'escribe el comando', texto: 'escribe la respuesta', ipv6: '2001:db8::1', red6: '2001:db8::/64', mac: '00:1a:2b:3c:4d:5e', hex: 'ff' };
+const ANCHOS = new Set(['opcion', 'multi', 'comando', 'texto', 'ipv6', 'red6']);
+
+/** Salida de consola que acompaña a un enunciado. */
+export const htmlCodigo = (texto) => `<figure class="rd-codigo"><pre tabindex="0"><code>${esc(texto)}</code></pre></figure>`;
 let serie = 0;
 
 /**
@@ -84,7 +88,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
       <span class="rd-ej__tipo">${esc(ej.nombre)}</span>
       <span class="rd-ej__marca" data-marca>${op.hecho ? 'Resuelto' : ''}</span>
     </header>
-    <div class="rd-ej__enunciado"><p>${fmt(ej.enunciado)}</p>${ej.tabla ? htmlTabla(ej.tabla) : ''}</div>
+    <div class="rd-ej__enunciado"><p>${fmt(ej.enunciado)}</p>${ej.codigo ? htmlCodigo(ej.codigo) : ''}${ej.tabla ? htmlTabla(ej.tabla) : ''}</div>
     <form class="rd-ej__campos" novalidate>
       ${ej.campos.map((c, i) => htmlCampo(c, `${id}-${i}`)).join('')}
       <div class="rd-ej__acciones">
@@ -103,7 +107,8 @@ export function montarEjercicio(nodo, spec, op = {}) {
 
   const valor = (i) => {
     const c = ej.campos[i];
-    if (c.tipo === 'opcion') return form.querySelector(`input[name="${id}-${i}"]:checked`)?.value ?? '';
+    if (c.tipo === 'multi') return [...cajas[i].querySelectorAll('input:checked')].map((x) => x.value).join(',');
+    if (c.tipo === 'opcion') return c.desplegable ? cajas[i].querySelector('select').value : form.querySelector(`input[name="${id}-${i}"]:checked`)?.value ?? '';
     return cajas[i].querySelector('input').value;
   };
 
@@ -116,7 +121,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
       cajas[i].classList.toggle('es-ok', ok);
       cajas[i].classList.toggle('es-mal', !ok);
       cajas[i].querySelector('[data-veredicto]').textContent = ok ? 'Correcto' : String(v).trim() === '' ? 'Sin responder' : 'Incorrecto';
-      cajas[i].querySelectorAll('input').forEach((x) => x.setAttribute('aria-invalid', ok ? 'false' : 'true'));
+      cajas[i].querySelectorAll('input, select').forEach((x) => x.setAttribute('aria-invalid', ok ? 'false' : 'true'));
     });
     return { bien, total: ej.campos.length };
   }
@@ -138,7 +143,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
   function cerrar(correcto, revelado) {
     if (terminado) return;
     terminado = true;
-    form.querySelectorAll('input, button[type="submit"], [data-pista], [data-revelar]').forEach((x) => { x.disabled = true; });
+    form.querySelectorAll('input, select, button[type="submit"], [data-pista], [data-revelar]').forEach((x) => { x.disabled = true; });
     nodo.dataset.estado = correcto ? 'hecho' : 'revelado';
     if (correcto) nodo.querySelector('[data-marca]').textContent = 'Resuelto';
     mostrarSolucion(!correcto);
@@ -158,7 +163,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
       } else {
         resultado.className = 'rd-ej__resultado es-mal';
         resultado.textContent = total === 1 ? 'Todavía no. Revísalo o pide una pista.' : `${bien} de ${total} campos correctos. Corrige los marcados en rojo.`;
-        form.querySelector('.es-mal input')?.focus();
+        form.querySelector('.es-mal :is(input, select)')?.focus();
       }
     });
     nodo.querySelector('[data-pista]')?.addEventListener('click', (ev) => {
@@ -187,7 +192,7 @@ export function montarEjercicio(nodo, spec, op = {}) {
     calificar() {
       const { bien, total } = corregir();
       terminado = true;
-      form.querySelectorAll('input').forEach((x) => { x.disabled = true; });
+      form.querySelectorAll('input, select').forEach((x) => { x.disabled = true; });
       nodo.dataset.estado = bien === total ? 'hecho' : 'revelado';
       resultado.className = 'rd-ej__resultado ' + (bien === total ? 'es-ok' : 'es-mal');
       resultado.textContent = bien === total ? 'Correcta.' : `${bien} de ${total} campos correctos.`;
@@ -199,15 +204,23 @@ export function montarEjercicio(nodo, spec, op = {}) {
 
 function htmlCampo(c, nombre) {
   const pie = '<span class="rd-campo__veredicto" data-veredicto></span><span class="rd-campo__correcta" data-correcta hidden></span>';
-  if (c.tipo === 'opcion') {
-    return `<fieldset class="rd-campo rd-campo--opcion${c.lista ? ' rd-campo--lista' : ''}" data-campo>
+  if (c.tipo === 'opcion' && c.desplegable) {
+    return `<div class="rd-campo rd-campo--elegir" data-campo>
+      <label for="${nombre}">${fmt(c.etiqueta)}</label>
+      <select id="${nombre}"><option value="">Elige…</option>${c.opciones.map((o, i) => `<option value="${i}">${esc(String(o).replace(/\*\*|\`/g, ''))}</option>`).join('')}</select>
+      ${pie}</div>`;
+  }
+  if (c.tipo === 'opcion' || c.tipo === 'multi') {
+    const multi = c.tipo === 'multi';
+    return `<fieldset class="rd-campo rd-campo--opcion${multi || c.lista ? ' rd-campo--lista' : ''}" data-campo>
       <legend>${esc(c.etiqueta)}</legend>
-      <div class="rd-opciones">${c.opciones.map((o, i) => `<label class="rd-opcion"><input type="radio" name="${nombre}" value="${i}"><span>${fmt(o)}</span></label>`).join('')}</div>
+      <div class="rd-opciones">${c.opciones.map((o, i) => `<label class="rd-opcion"><input type="${multi ? 'checkbox' : 'radio'}" name="${nombre}" value="${i}"><span>${fmt(o)}</span></label>`).join('')}</div>
       ${pie}</fieldset>`;
   }
   const numerico = c.tipo === 'numero' || c.tipo === 'binario';
-  return `<div class="rd-campo rd-campo--${c.tipo}" data-campo>
+  const texto = ANCHOS.has(c.tipo) || c.tipo === 'mac' || c.tipo === 'hex';
+  return `<div class="rd-campo rd-campo--${c.tipo}${ANCHOS.has(c.tipo) ? ' rd-campo--ancho' : ''}" data-campo>
     <label for="${nombre}">${esc(c.etiqueta)}</label>
-    <input id="${nombre}" type="text" inputmode="${numerico ? 'numeric' : c.tipo === 'comando' ? 'text' : 'decimal'}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${MARCADOR[c.tipo] ?? ''}">
+    <input id="${nombre}" type="text" inputmode="${numerico ? 'numeric' : texto ? 'text' : 'decimal'}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${MARCADOR[c.tipo] ?? ''}">
     ${pie}</div>`;
 }

@@ -17,22 +17,26 @@ const comprobar = (cond, msg) => { if (cond) ok++; else { mal++; console.error('
   const foto = async (nombre) => { if (CAPTURAS) await pag.screenshot({ path: `${CAPTURAS}/${nombre}.png`, fullPage: false }); };
   const sinDesborde = async (donde) => comprobar(await pag.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'desborde horizontal en ' + donde);
 
-  // Responde un ejercicio con las respuestas correctas, calculadas por el motor dentro de la página.
-  const responder = (selector, acertar = true) => pag.evaluate(async (sel, bien) => {
-    const { resolver, respuestaDe } = await import('/assets/js/redes/motor.js');
+  // Responde un ejercicio (bien o mal) con las respuestas que calcula el motor dentro de la página.
+  const responder = (selector, acertar = true, enviar = true) => pag.evaluate(async (sel, bien, clic) => {
+    const { resolver, valorCorrecto } = await import('/assets/js/redes/motor.js');
     const cfg = JSON.parse(document.querySelector('[data-redes-config]').textContent);
     const nodo = document.querySelector(sel);
     const spec = nodo.__spec || cfg.ejercicios?.[Number(nodo.dataset.ej)];
     if (!spec) return 'sin spec';
     const ej = resolver(spec);
     const cajas = [...nodo.querySelectorAll('[data-campo]')];
+    if (cajas.length !== ej.campos.length) return 'campos distintos';
     ej.campos.forEach((c, i) => {
-      if (c.tipo === 'opcion') { const r = cajas[i].querySelectorAll('input[type=radio]'); r[bien ? c.valor : (c.valor + 1) % r.length].checked = true; }
-      else cajas[i].querySelector('input').value = bien ? respuestaDe(c) : '1';
+      const v = valorCorrecto(c);
+      if (c.tipo === 'multi') { const marcar = bien ? v.split(',') : [String((c.valor[0] + 1) % c.opciones.length)]; cajas[i].querySelectorAll('input').forEach((x) => { x.checked = marcar.includes(x.value); }); }
+      else if (c.tipo === 'opcion' && c.desplegable) cajas[i].querySelector('select').value = bien ? v : String((c.valor + 1) % c.opciones.length);
+      else if (c.tipo === 'opcion') { const r = cajas[i].querySelectorAll('input[type=radio]'); r[bien ? c.valor : (c.valor + 1) % r.length].checked = true; }
+      else cajas[i].querySelector('input').value = bien ? v : '1';
     });
-    nodo.querySelector('button[type=submit]')?.click();
+    if (clic) nodo.querySelector('button[type=submit]')?.click();
     return nodo.dataset.estado + '|' + nodo.querySelector('[data-resultado]').textContent;
-  }, selector, acertar);
+  }, selector, acertar, enviar);
 
   // --- Portada
   await ir('/redes');
@@ -52,9 +56,18 @@ const comprobar = (cond, msg) => { if (cond) ok++; else { mal++; console.error('
 
   // --- Módulos
   const lecciones = [];
-  for (const [mod, total] of [['subneteo', 13], ['vlans', 7]]) {
+  await ir('/redes');
+  const modulos = await pag.$$eval('.rd-modulo[data-modulo]', (ns) => ns.map((n) => n.dataset.modulo));
+  comprobar(modulos.join() === 'fundamentos,medios,subneteo,direccionamiento,infraestructura,vlans,diagnostico,seguridad', 'la portada lista los 8 módulos en orden: ' + modulos.join());
+  comprobar(!!(await pag.$('.rd-cert-banda a[href$="/redes/certificacion"]')), 'la portada enlaza la guía de certificación');
+  const MINIMO = { subneteo: 13, vlans: 7 };
+  const nivelesDe = {};
+  for (const mod of modulos) {
     await ir('/redes/' + mod);
-    comprobar((await pag.$$('.rd-leccion')).length === total, `${mod} lista ${total} lecciones`);
+    const total = (await pag.$$('.rd-leccion')).length;
+    comprobar(MINIMO[mod] ? total === MINIMO[mod] : total >= 7, `${mod} lista ${total} lecciones`);
+    nivelesDe[mod] = (await pag.$$('.rd-niveles li')).length;
+    comprobar(nivelesDe[mod] >= 5, `${mod} tiene ${nivelesDe[mod]} niveles de práctica`);
     lecciones.push(...await pag.$$eval('.rd-leccion a', (as) => as.map((a) => new URL(a.href).pathname)));
     await sinDesborde('módulo ' + mod);
   }
@@ -92,23 +105,13 @@ const comprobar = (cond, msg) => { if (cond) ok++; else { mal++; console.error('
   comprobar((await pag.$eval('[data-leccion="el-numero-magico"] [data-avance]', (e) => e.textContent)).includes('1 de'), 'el índice muestra el avance de la lección');
 
   // --- Práctica: los 6 niveles generan, se corrigen y cambian
-  for (const mod of ['subneteo', 'vlans']) for (let n = 1; n <= 6; n++) {
+  for (const mod of modulos) for (let n = 1; n <= nivelesDe[mod]; n++) {
     await ir(`/redes/${mod}/practica?nivel=${n}&s=${1234 + n}`);
     const e1 = await pag.$eval('[data-zona] .rd-ej__enunciado', (e) => e.textContent);
     await pag.reload({ waitUntil: 'networkidle0' });
     comprobar(e1 === await pag.$eval('[data-zona] .rd-ej__enunciado', (e) => e.textContent), `${mod} nivel ${n}: la misma semilla da el mismo ejercicio`);
     for (let i = 0; i < 6; i++) {
-      const r = await pag.evaluate(async (modulo) => {
-        const { resolver, respuestaDe, generar, azar } = await import('/assets/js/redes/motor.js');
-        const u = new URL(location.href);
-        const ej = resolver(generar(modulo, Number(u.searchParams.get('nivel')), azar(Number(u.searchParams.get('s')))));
-        const nodo = document.querySelector('[data-zona] article');
-        const cajas = [...nodo.querySelectorAll('[data-campo]')];
-        if (cajas.length !== ej.campos.length) return 'campos distintos';
-        ej.campos.forEach((c, k) => { if (c.tipo === 'opcion') cajas[k].querySelectorAll('input')[c.valor].checked = true; else cajas[k].querySelector('input').value = respuestaDe(c); });
-        nodo.querySelector('button[type=submit]').click();
-        return nodo.dataset.estado;
-      }, mod);
+      const r = (await responder('[data-zona] article', true)).split('|')[0];
       comprobar(r === 'hecho', `${mod} nivel ${n}, ejercicio ${i + 1}: ${r}`);
       await pag.click('[data-siguiente]');
     }
@@ -133,6 +136,54 @@ const comprobar = (cond, msg) => { if (cond) ok++; else { mal++; console.error('
   await ir('/redes/vlans/examen'); await pag.click('[data-examen="completo"]');
   comprobar((await pag.$$('[data-preguntas] article')).length === 12, 'el examen completo de VLAN tiene 12 preguntas');
 
+  // --- Preguntas de varias respuestas, relacionar y ordenar (banco de VLAN, nivel 1)
+  await ir('/redes/vlans/practica?nivel=1');
+  await pag.select('[data-tipo]', 'banco');
+  const formas = new Set();
+  for (let i = 0; i < 60 && formas.size < 3; i++) {
+    const forma = await pag.evaluate(() => (document.querySelector('[data-zona] select') ? 'desplegable' : document.querySelector('[data-zona] input[type=checkbox]') ? 'multi' : 'opcion'));
+    if (!formas.has(forma)) {
+      formas.add(forma);
+      const mal = await responder('[data-zona] article', false);
+      comprobar(mal.startsWith('pendiente'), `pregunta ${forma}: una respuesta incorrecta no se acepta (${mal})`);
+      const bien = await responder('[data-zona] article', true);
+      comprobar(bien.startsWith('hecho'), `pregunta ${forma}: la respuesta correcta se acepta (${bien})`);
+    }
+    await pag.click('[data-siguiente]');
+  }
+  comprobar(formas.size === 3, 'el banco ofrece opción única, varias respuestas y listas desplegables: ' + [...formas].join());
+
+  // --- Certificación: guía y simulador
+  await ir('/redes/certificacion');
+  comprobar((await pag.$$('.rd-dominio')).length === 6, 'la guía muestra los 6 dominios del examen');
+  comprobar((await pag.$$('.rd-ruta__paso')).length === 8, 'la ruta de estudio tiene 8 módulos');
+  const enlaces = await pag.$$eval('.rd-objetivo__lecciones a', (as) => [...new Set(as.map((a) => new URL(a.href).pathname))]);
+  comprobar(enlaces.length >= 40, `la guía enlaza ${enlaces.length} lecciones`);
+  await foto('14-certificacion'); await sinDesborde('certificación');
+  await ir('/redes/certificacion', 375); await sinDesborde('certificación móvil');
+  await ir('/redes/certificacion/simulador');
+  comprobar((await pag.$$('[data-examen]')).length === 9, 'el simulador ofrece 9 simulacros');
+  await pag.click('[data-examen="completo"]');
+  comprobar((await pag.$$('[data-preguntas] article')).length === 45, 'el simulacro completo tiene 45 preguntas');
+  comprobar(/^(49|50):\d\d$/.test(await pag.$eval('[data-reloj]', (e) => e.textContent)), 'el simulacro corre con cuenta atrás de 50 minutos');
+  const enunciados = await pag.$$eval('[data-preguntas] .rd-ej__enunciado', (ns) => ns.map((n) => n.textContent));
+  comprobar(new Set(enunciados).size === enunciados.length, 'el simulacro no repite preguntas');
+  const total = (await pag.$$('[data-preguntas] article')).length;
+  for (let i = 1; i <= total; i++) await responder(`[data-preguntas] article:nth-child(${i})`, i % 5 !== 0, false);
+  await foto('15-simulador');
+  await pag.click('[data-entregar]');
+  const nota = await pag.$eval('[data-nota-final]', (e) => e.textContent);
+  comprobar(/^80 \/ 100/.test(nota) || /^(7\d|8\d) \/ 100/.test(nota), 'simulacro con 36 de 45 correctas: ' + nota.slice(0, 40));
+  comprobar((await pag.$$('.rd-desglose tbody tr')).length === 6, 'el resultado se desglosa en los 6 dominios');
+  await pag.evaluate(() => document.querySelector('[data-nota-final]').scrollIntoView()); await foto('16-simulador-resultado'); await sinDesborde('simulador');
+  await ir('/redes/certificacion/simulador', 375); await pag.click('[data-examen="rapido"]'); await sinDesborde('simulador móvil');
+  comprobar((await pag.$$('[data-preguntas] article')).length === 20, 'el simulacro rápido tiene 20 preguntas');
+  for (const mod of modulos) {
+    await ir(`/redes/${mod}/examen`);
+    await pag.click('[data-examen="completo"]');
+    comprobar((await pag.$$('[data-preguntas] article')).length >= 12, `el examen completo de ${mod} se genera`);
+  }
+
   // --- Examen
   await ir('/redes/subneteo/examen');
   await pag.click('[data-examen="basico"]');
@@ -154,7 +205,7 @@ const comprobar = (cond, msg) => { if (cond) ok++; else { mal++; console.error('
   await ir('/redes/subneteo/herramientas', 375); await sinDesborde('herramientas móvil');
 
   // --- 404 y resto del sitio
-  for (const [ruta, codigo] of [['/redes/vlans/herramientas', 404], ['/redes/subneteo/leccion/no-existe', 404], ['/', 200], ['/ingles', 200], ['/academia', 200], ['/tutoriales/nmap', 200]]) {
+  for (const [ruta, codigo] of [['/redes/vlans/herramientas', 404], ['/redes/certificacion/otra', 404], ['/redes/ccst', 404], ['/redes/subneteo/leccion/no-existe', 404], ['/', 200], ['/ingles', 200], ['/academia', 200], ['/tutoriales/nmap', 200]]) {
     const r = await pag.goto(BASE + ruta, { waitUntil: 'domcontentloaded' });
     comprobar(r.status() === codigo, `${ruta} responde ${r.status()} (esperado ${codigo})`);
   }

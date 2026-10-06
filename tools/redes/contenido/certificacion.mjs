@@ -1,0 +1,163 @@
+// Guía de la certificación Cisco CCST Networking (100-150): ficha del examen, ruta de estudio,
+// objetivos oficiales enlazados a las lecciones que los cubren y simulacros cronometrados.
+// construir.mjs comprueba que cada lección y cada nivel citados existan.
+import { p, lista, orden, tabla, nota } from './_ayuda.mjs';
+
+const D = ['Estándares y conceptos', 'Direccionamiento y subredes', 'Medios y dispositivos finales', 'Infraestructura', 'Diagnóstico de problemas', 'Seguridad'];
+const N6 = [1, 2, 3, 4, 5, 6];
+const N3 = [1, 2, 3];
+/** Partes de un simulacro: preguntas por dominio = [d1, d2 (NAT/IPv6), d2 (subneteo), d3, d4 (infraestructura), d4 (VLAN), d5, d6]. */
+const partes = ([a, b, b2, c, d, d2, e, f]) => [
+  { nombre: D[0], modulo: 'fundamentos', niveles: N6, preguntas: a },
+  { nombre: D[1], modulo: 'direccionamiento', niveles: N6, preguntas: b },
+  { nombre: D[1], modulo: 'subneteo', niveles: N3, preguntas: b2 },
+  { nombre: D[2], modulo: 'medios', niveles: N6, preguntas: c },
+  { nombre: D[3], modulo: 'infraestructura', niveles: N6, preguntas: d },
+  { nombre: D[3], modulo: 'vlans', niveles: N3, preguntas: d2 },
+  { nombre: D[4], modulo: 'diagnostico', niveles: N6, preguntas: e },
+  { nombre: D[5], modulo: 'seguridad', niveles: N6, preguntas: f },
+].filter((x) => x.preguntas > 0);
+const dominio = (i, id, modulos) => ({
+  id, nombre: `Dominio ${i + 1}`, resumen: `15 preguntas de «${D[i]}» en 17 minutos.`, minutos: 17, aprobado: 80,
+  partes: modulos.map(([modulo, niveles, preguntas]) => ({ nombre: D[i], modulo, niveles, preguntas })),
+});
+
+export default {
+  titulo: 'Certificación Cisco CCST Networking',
+  corto: 'CCST Networking',
+  bajada: 'Qué se pregunta en el examen 100-150, en qué orden estudiarlo aquí y simulacros cronometrados para medir si ya estás listo.',
+  resumen: 'Ruta completa para el examen Cisco CCST Networking (100-150): los seis dominios del temario oficial explicados desde cero, con práctica ilimitada y simulacros cronometrados.',
+  ficha: [
+    ['Certificación', 'Cisco Certified Support Technician (CCST) Networking'],
+    ['Código del examen', '100-150'],
+    ['Duración', '50 minutos'],
+    ['Preguntas', 'Alrededor de 40 a 50'],
+    ['Idiomas', 'Español, inglés, portugués, francés, árabe, chino y japonés'],
+    ['Requisitos previos', 'Ninguno: es la certificación de entrada de Cisco'],
+    ['Nota para aprobar', 'Cisco no la publica y puede variar. Apunta a 80 o más en los simulacros'],
+    ['Siguiente paso', 'CCNA (200-301)'],
+  ],
+  bloques: [
+    p(`La **CCST Networking** acredita que puedes trabajar como técnico de soporte de redes de nivel inicial: entender cómo funciona una red, conectar y configurar equipos, seguir las instrucciones de un ingeniero y diagnosticar los problemas más comunes. No pide experiencia previa.`),
+    p(`El examen **no es de memoria pura**. Muchas preguntas describen una situación de trabajo («un usuario no puede abrir una página, pero sí hace ping a 8.8.8.8») y piden decidir qué está pasando o qué harías después. Por eso aquí cada tema se practica con escenarios, no solo con definiciones.`),
+    tabla(['Tipo de pregunta', 'Cómo es', 'Cómo se practica aquí'], [
+      ['Opción múltiple', 'Una sola respuesta correcta entre cuatro.', 'Preguntas de concepto y de escenario.'],
+      ['Respuesta múltiple', '«Elige dos» o «elige tres». Hay que acertarlas todas.', 'Preguntas de varias respuestas.'],
+      ['Relacionar', 'Emparejar conceptos con su definición, su capa o su puerto.', 'Ejercicios de relacionar con listas desplegables.'],
+      ['Ordenar', 'Poner en orden los pasos de un proceso.', 'Ejercicios de ordenar.'],
+      ['Con exhibición', 'Se muestra la salida de un comando o una tabla y se pregunta sobre ella.', 'Preguntas con salidas de consola y ejercicios generados.'],
+    ]),
+    nota('aviso', `El precio, los idiomas, el número de preguntas y la vigencia del certificado los decide Cisco y cambian con el tiempo. Antes de inscribirte, confirma los datos en la página oficial del examen 100-150 en cisco.com. Esta academia es material de estudio independiente: no está afiliada a Cisco.`),
+  ],
+  ruta: [
+    { modulo: 'fundamentos', dominios: 'Dominio 1', texto: 'El vocabulario de todo lo demás: qué es una red, los modelos OSI y TCP/IP, TCP y UDP, los protocolos más usados y la nube.' },
+    { modulo: 'medios', dominios: 'Dominio 3', texto: 'Por dónde viajan los datos (cobre, fibra, Wi-Fi, celular), qué equipos se conectan y cómo se configura la red en cada sistema operativo.' },
+    { modulo: 'subneteo', dominios: 'Dominio 2', texto: 'Direcciones IPv4, clases, máscaras y subredes. Para el CCST bastan las lecciones 1 a 6 y la 10; el resto ya es nivel CCNA.' },
+    { modulo: 'direccionamiento', dominios: 'Dominio 2', texto: 'Lo que completa el direccionamiento: direcciones públicas y privadas, NAT, DHCP e IPv6.' },
+    { modulo: 'infraestructura', dominios: 'Dominio 4', texto: 'Cómo trabajan un switch y un router por dentro, los puertos y las luces de un equipo Cisco, y los primeros comandos de IOS.' },
+    { modulo: 'vlans', dominios: 'Dominio 4', texto: 'Separar un switch en varias redes. Para el CCST bastan las lecciones 1 a 3; las demás son nivel CCNA.' },
+    { modulo: 'diagnostico', dominios: 'Dominio 5', texto: 'El dominio más práctico: método de diagnóstico, mesa de ayuda, ping, traceroute, ipconfig, nslookup, Wireshark y los comandos show.' },
+    { modulo: 'seguridad', dominios: 'Dominio 6', texto: 'La tríada CIA, amenazas, autenticación, cifrado, firewalls y cómo asegurar una red inalámbrica.' },
+  ],
+  dominios: [
+    { n: 1, nombre: 'Estándares y conceptos', resumen: 'Los cimientos: de qué se compone una red y qué reglas sigue.', objetivos: [
+      { id: '1.1', texto: 'Identificar los bloques conceptuales fundamentales de las redes.', detalle: 'Modelo TCP/IP, modelo OSI, tramas y paquetes, direccionamiento.',
+        lecciones: [['fundamentos', 'que-es-una-red'], ['fundamentos', 'modelos-osi-y-tcp-ip'], ['fundamentos', 'encapsulacion-tramas-y-paquetes']] },
+      { id: '1.2', texto: 'Diferenciar entre ancho de banda y rendimiento real (throughput).', detalle: 'Latencia, retardo, prueba de velocidad frente a iPerf.',
+        lecciones: [['fundamentos', 'ancho-de-banda-y-rendimiento']] },
+      { id: '1.3', texto: 'Diferenciar entre LAN, WAN, MAN, CAN, PAN y WLAN.', detalle: 'Identificar cada tipo de red por su alcance y su uso.',
+        lecciones: [['fundamentos', 'que-es-una-red']] },
+      { id: '1.4', texto: 'Comparar aplicaciones y servicios en la nube y locales.', detalle: 'Nube pública, privada e híbrida; SaaS, PaaS, IaaS; trabajo remoto e híbrido.',
+        lecciones: [['fundamentos', 'nube-y-servicios-locales']] },
+      { id: '1.5', texto: 'Describir las aplicaciones y los protocolos de red más comunes.', detalle: 'TCP frente a UDP, FTP, SFTP, TFTP, HTTP, HTTPS, DHCP, DNS, ICMP, NTP.',
+        lecciones: [['fundamentos', 'tcp-y-udp'], ['fundamentos', 'protocolos-de-aplicacion']] },
+    ] },
+    { n: 2, nombre: 'Direccionamiento y formatos de subred', resumen: 'Leer, clasificar y calcular direcciones IPv4 e IPv6.', objetivos: [
+      { id: '2.1', texto: 'Comparar direcciones privadas y públicas.', detalle: 'Clases de direcciones, conceptos de NAT.',
+        lecciones: [['subneteo', 'clases-de-direcciones'], ['direccionamiento', 'direcciones-publicas-y-privadas'], ['direccionamiento', 'nat-y-pat']] },
+      { id: '2.2', texto: 'Identificar direcciones IPv4 y formatos de subred.', detalle: 'Conceptos de subred, calculadora de subredes, notación con barra y máscara, dominio de broadcast.',
+        lecciones: [['subneteo', 'direccion-ip-y-binario'], ['subneteo', 'la-mascara-de-red'], ['subneteo', 'red-broadcast-y-hosts'], ['subneteo', 'que-es-subnetear'], ['subneteo', 'el-numero-magico'], ['subneteo', 'misma-subred-y-diagnostico'], ['direccionamiento', 'como-obtiene-un-equipo-su-direccion']] },
+      { id: '2.3', texto: 'Identificar direcciones IPv6 y formatos de prefijo.', detalle: 'Tipos de direcciones, conceptos de prefijo.',
+        lecciones: [['direccionamiento', 'introduccion-a-ipv6'], ['direccionamiento', 'escribir-direcciones-ipv6'], ['direccionamiento', 'tipos-de-direcciones-ipv6'], ['direccionamiento', 'prefijos-y-subredes-ipv6']] },
+    ] },
+    { n: 3, nombre: 'Dispositivos finales y tipos de medios', resumen: 'Los cables, las ondas y los equipos que se conectan a la red.', objetivos: [
+      { id: '3.1', texto: 'Identificar los cables y conectores habituales en redes locales.', detalle: 'Fibra, cobre, par trenzado; conectores coaxial, RJ-45, RJ-11 y de fibra.',
+        lecciones: [['medios', 'cables-de-cobre'], ['medios', 'fibra-optica']] },
+      { id: '3.2', texto: 'Diferenciar entre tecnologías Wi-Fi, celulares y cableadas.', detalle: 'Cobre y fibra; 802.11 en 2.4, 5 y 6 GHz (sin licencia); celular (con licencia); fuentes de interferencia.',
+        lecciones: [['medios', 'redes-inalambricas-wifi'], ['medios', 'redes-celulares-y-comparacion']] },
+      { id: '3.3', texto: 'Describir los dispositivos finales.', detalle: 'Dispositivos IoT, computadoras, móviles, teléfono IP, impresora, servidor.',
+        lecciones: [['medios', 'dispositivos-finales']] },
+      { id: '3.4', texto: 'Configurar y comprobar la conectividad en Windows, Linux, macOS, Android e iOS.', detalle: 'Utilidades de red de cada sistema, comandos de diagnóstico, ajustes del cliente inalámbrico (SSID, autenticación, modo WPA).',
+        lecciones: [['medios', 'configurar-la-red-en-windows-linux-y-macos'], ['medios', 'configurar-la-red-en-android-y-ios']] },
+    ] },
+    { n: 4, nombre: 'Infraestructura', resumen: 'Los equipos que forman la red y cómo mueven las tramas y los paquetes.', objetivos: [
+      { id: '4.1', texto: 'Identificar las luces de estado de un equipo Cisco siguiendo las instrucciones de un ingeniero.', detalle: 'Color de la luz de enlace y estado (fija o parpadeante).',
+        lecciones: [['infraestructura', 'puertos-y-luces-de-estado']] },
+      { id: '4.2', texto: 'Usar un diagrama de red para conectar los cables adecuados.', detalle: 'Cables de parcheo, switches y routers, topologías pequeñas, energía, distribución del rack.',
+        lecciones: [['infraestructura', 'diagramas-cableado-y-rack'], ['infraestructura', 'dispositivos-de-red']] },
+      { id: '4.3', texto: 'Identificar los puertos de los dispositivos de red.', detalle: 'Consola, serie, fibra, Ethernet, SFP, USB, PoE.',
+        lecciones: [['infraestructura', 'puertos-y-luces-de-estado']] },
+      { id: '4.4', texto: 'Explicar los conceptos básicos de enrutamiento.', detalle: 'Puerta de enlace, switch de capa 2 frente a capa 3, red local frente a red remota.',
+        lecciones: [['infraestructura', 'arp-y-la-puerta-de-enlace'], ['infraestructura', 'como-funciona-un-router'], ['infraestructura', 'dispositivos-de-red']] },
+      { id: '4.5', texto: 'Explicar los conceptos básicos de conmutación.', detalle: 'Tablas de direcciones MAC, filtrado por MAC, VLAN.',
+        lecciones: [['infraestructura', 'como-funciona-un-switch'], ['vlans', 'que-es-una-vlan'], ['vlans', 'crear-vlan-y-puertos-de-acceso'], ['vlans', 'enlaces-troncales-802-1q']] },
+    ] },
+    { n: 5, nombre: 'Diagnóstico de problemas', resumen: 'Encontrar la causa de una avería con método y con las herramientas correctas.', objetivos: [
+      { id: '5.1', texto: 'Aplicar metodologías de diagnóstico y buenas prácticas de mesa de ayuda.', detalle: 'Tickets, documentación, recopilación de información, políticas y procedimientos, priorización.',
+        lecciones: [['diagnostico', 'metodologia-de-diagnostico'], ['diagnostico', 'mesa-de-ayuda-y-documentacion']] },
+      { id: '5.2', texto: 'Capturar paquetes con Wireshark y guardarlos en un archivo.', detalle: 'Para qué sirve un analizador de paquetes; guardar y abrir un archivo .pcap.',
+        lecciones: [['diagnostico', 'wireshark-y-captura-de-paquetes']] },
+      { id: '5.3', texto: 'Ejecutar comandos básicos de diagnóstico e interpretar los resultados.', detalle: 'ping, ipconfig/ifconfig/ip, tracert/traceroute, nslookup; cómo influyen los firewalls en el resultado.',
+        lecciones: [['diagnostico', 'ping-y-traceroute'], ['diagnostico', 'ipconfig-ifconfig-ip-y-nslookup'], ['diagnostico', 'diagnostico-paso-a-paso']] },
+      { id: '5.4', texto: 'Diferenciar las formas de acceder a los dispositivos de red y recoger datos de ellos.', detalle: 'Acceso remoto (RDP, SSH, Telnet), VPN, emuladores de terminal, consola, sistemas de gestión, redes gestionadas en la nube (Meraki), scripts.',
+        lecciones: [['diagnostico', 'acceso-a-los-dispositivos']] },
+      { id: '5.5', texto: 'Ejecutar comandos show básicos en un dispositivo Cisco.', detalle: 'show run, show cdp neighbors, show ip interface brief, show ip route, show version, show inventory, show switch, show mac address-table, show interface, show interface status; niveles de privilegio; ayuda y autocompletado.',
+        lecciones: [['diagnostico', 'comandos-show-de-cisco'], ['infraestructura', 'primeros-pasos-en-cisco-ios']] },
+    ] },
+    { n: 6, nombre: 'Seguridad', resumen: 'Proteger la red, los datos y a los usuarios.', objetivos: [
+      { id: '6.1', texto: 'Describir cómo filtran el tráfico los firewalls.', detalle: 'Puertos y protocolos bloqueados; reglas que permiten o deniegan el acceso.',
+        lecciones: [['seguridad', 'firewalls-y-filtrado']] },
+      { id: '6.2', texto: 'Describir los conceptos fundamentales de seguridad.', detalle: 'Confidencialidad, integridad y disponibilidad (CIA); autenticación, autorización y contabilidad (AAA); MFA; cifrado, certificados y complejidad de contraseñas; almacenes de identidad (Active Directory); amenazas y vulnerabilidades; spam, phishing, malware y denegación de servicio.',
+        lecciones: [['seguridad', 'fundamentos-de-seguridad-cia'], ['seguridad', 'amenazas-y-ataques'], ['seguridad', 'autenticacion-aaa-y-mfa'], ['seguridad', 'cifrado-y-certificados'], ['seguridad', 'proteger-los-dispositivos-de-red']] },
+      { id: '6.3', texto: 'Configurar la seguridad inalámbrica básica en un router doméstico.', detalle: 'WPA, WPA2, WPA3; elegir entre Personal y Enterprise; conceptos de seguridad inalámbrica.',
+        lecciones: [['seguridad', 'seguridad-inalambrica']] },
+    ] },
+  ],
+  plan: [
+    orden(
+      '**Estudia los módulos en el orden de la ruta.** En cada lección lee la explicación, sigue los ejemplos resueltos y resuelve todos los ejercicios antes de pasar a la siguiente.',
+      '**Al acabar un módulo, haz su práctica por niveles** hasta sostener una racha de 10 en cada nivel, y después su examen completo.',
+      '**Haz el simulacro por dominio** de lo que acabas de estudiar. Si no llegas a 80, vuelve a las lecciones de las preguntas falladas.',
+      '**Cuando hayas terminado los ocho módulos, haz el simulacro completo** con el reloj, sin apuntes y sin interrupciones.',
+      '**Repite el simulacro completo en días distintos.** Las preguntas cambian cada vez. Estás listo cuando sacas 85 o más tres veces seguidas.',
+    ),
+    tabla(['Semana', 'Qué estudiar', 'Meta'], [
+      ['1', 'Fundamentos de redes', 'Explicar con tus palabras las capas OSI y qué protocolo usa cada servicio.'],
+      ['2', 'Medios y dispositivos finales', 'Elegir el cable o la tecnología para un caso y ver la configuración IP en cualquier sistema.'],
+      ['3', 'Subneteo IPv4 (lecciones 1 a 6 y 10)', 'Sacar red, broadcast y rango de una dirección /24 a /30 en menos de un minuto.'],
+      ['4', 'NAT, DHCP e IPv6', 'Abreviar, expandir y clasificar direcciones IPv6 sin dudar.'],
+      ['5', 'Infraestructura y VLAN (lecciones 1 a 3)', 'Predecir qué hace un switch con una trama y qué ruta elige un router.'],
+      ['6', 'Diagnóstico y soporte', 'Leer la salida de ping, tracert, ipconfig, nslookup y los comandos show.'],
+      ['7', 'Seguridad', 'Reconocer cada ataque y elegir el control que lo frena.'],
+      ['8', 'Repaso y simulacros completos', 'Tres simulacros seguidos con 85 o más.'],
+    ], 'Es una guía para estudiar una hora al día. Ajústala a tu ritmo: lo importante es no saltarse los ejercicios.'),
+    lista(
+      '**Administra el tiempo.** Con 50 minutos y unas 45 preguntas tienes cerca de un minuto por pregunta. Si una se atora, marca tu mejor opción y sigue.',
+      '**Lee la pregunta completa.** Palabras como «primero», «mejor», «no» o «elige dos» cambian la respuesta.',
+      '**Descarta antes de elegir.** Casi siempre hay dos opciones claramente falsas; decide entre las dos que quedan.',
+      '**En las preguntas de escenario, ubica la capa.** ¿Es el cable, la dirección IP, el DNS o la aplicación? Eso suele bastar para acertar.',
+      '**No dejes ninguna en blanco.** Una respuesta sin marcar vale lo mismo que una equivocada.',
+    ),
+  ],
+  examenes: [
+    { id: 'completo', nombre: 'Simulacro completo', resumen: '45 preguntas de los seis dominios en 50 minutos, como el examen real.', minutos: 50, aprobado: 80, partes: partes([8, 5, 4, 7, 6, 2, 8, 5]) },
+    { id: 'rapido', nombre: 'Simulacro rápido', resumen: '20 preguntas en 22 minutos para medirte cuando tienes poco tiempo.', minutos: 22, aprobado: 80, partes: partes([4, 2, 2, 3, 3, 1, 3, 2]) },
+    { id: 'maraton', nombre: 'Maratón', resumen: '90 preguntas en 100 minutos: dos exámenes seguidos para ganar resistencia.', minutos: 100, aprobado: 80, partes: partes([16, 10, 8, 14, 12, 4, 16, 10]) },
+    dominio(0, 'd1', [['fundamentos', N6, 15]]),
+    dominio(1, 'd2', [['direccionamiento', N6, 9], ['subneteo', N3, 6]]),
+    dominio(2, 'd3', [['medios', N6, 15]]),
+    dominio(3, 'd4', [['infraestructura', N6, 11], ['vlans', N3, 4]]),
+    dominio(4, 'd5', [['diagnostico', N6, 15]]),
+    dominio(5, 'd6', [['seguridad', N6, 15]]),
+  ],
+};

@@ -32,7 +32,8 @@
 .tl-nav__dot--redes { background: var(--tl-l3, #38BDF8) !important; }
 .page-redes [hidden] { display: none !important; }
 .page-redes :is(p, li, dd, td, th, figcaption, legend) { overflow-wrap: anywhere; }
-.page-redes .rd-c { font-family: var(--rd-mono); font-size: .92em; padding: 1px 5px; border-radius: 4px; background: var(--dv-bg-surface); color: var(--dv-text-primary); white-space: nowrap; }
+.page-redes .rd-c { font-family: var(--rd-mono); font-size: .92em; padding: 1px 5px; border-radius: 4px; background: var(--dv-bg-surface); color: var(--dv-text-primary); overflow-wrap: anywhere; }
+.page-redes .rd-tabla .rd-c { white-space: nowrap; }
 
 .page-redes .rd-contenido { padding-block: 30px 80px; display: grid; gap: 44px; grid-template-columns: minmax(0, 1fr); }
 .page-redes .rd-h2 { font-family: var(--rd-titulo); font-size: clamp(21px, 2.6vw, 26px); letter-spacing: -0.01em; margin: 0 0 10px; scroll-margin-top: calc(var(--tl-nav-h) + 60px); }
@@ -248,11 +249,12 @@
 .page-redes .rd-ej__num { font-family: var(--rd-mono); font-weight: 700; color: var(--rd-acento); }
 .page-redes .rd-ej__tipo { color: var(--dv-text-muted); }
 .page-redes .rd-ej__marca { margin-left: auto; color: var(--rd-ok); font-weight: 700; }
-.page-redes .rd-ej__enunciado { display: grid; gap: 10px; }
+.page-redes .rd-ej__enunciado { display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); }
+.page-redes :is(.rd-ej__enunciado, .rd-ejemplo__enunciado, .rd-prosa, .rd-lista, .rd-pasos, .rd-nota, .rd-opcion, .rd-ej__pistas, .rd-campo__correcta) { overflow-wrap: anywhere; }
 .page-redes .rd-ej__enunciado p { margin: 0; font-size: 16.5px; line-height: 1.55; color: var(--dv-text-primary); }
 .page-redes .rd-ej__campos { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px 14px; align-items: start; }
 .page-redes .rd-campo { display: grid; gap: 5px; min-width: 0; border: 0; padding: 0; margin: 0; }
-.page-redes .rd-campo :is(label, legend) { font-size: 13px; font-weight: 600; color: var(--dv-text-secondary); padding: 0; }
+.page-redes .rd-campo > :is(label, legend) { font-size: 13px; font-weight: 600; color: var(--dv-text-secondary); padding: 0; }
 .page-redes .rd-campo--opcion, .page-redes .rd-campo--comando { grid-column: 1 / -1; }
 .page-redes .rd-opciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 5px; }
 .page-redes .rd-campo--lista .rd-opciones { display: grid; }
@@ -310,6 +312,47 @@
 .page-redes .rd-nota-final__cifra { margin: 0 0 6px; font: 700 clamp(32px, 6vw, 48px)/1 var(--rd-mono); color: var(--dv-text-primary); }
 .page-redes .rd-nota-final p { margin: 0; color: var(--dv-text-secondary); }
 
+/* ------------------------------ 9b. Campos nuevos y certificación --- */
+.page-redes .rd-campo--ancho { grid-column: 1 / -1; }
+.page-redes .rd-campo--elegir { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 6px 14px; padding: 8px 0; border-bottom: 1px solid var(--dv-border-subtle); }
+.page-redes .rd-campo--elegir label { font-size: 15px; font-weight: 500; color: var(--dv-text-primary); }
+.page-redes .rd-campo--elegir :is(.rd-campo__veredicto, .rd-campo__correcta) { grid-column: 2; }
+.page-redes .rd-campo.es-ok select { border-color: var(--rd-ok); }
+.page-redes .rd-campo.es-mal select { border-color: var(--rd-mal); }
+.page-redes .rd-ej__enunciado .rd-codigo pre { font-size: 13px; }
+.page-redes .rd-ejemplo .rd-codigo { margin: 12px 0; }
+.page-redes .rd-examen-reloj.es-poco { color: var(--rd-mal); }
+.page-redes .rd-desglose { margin-top: 16px; }
+.page-redes .rd-desglose td.es-ok { color: var(--rd-ok); font-weight: 700; }
+.page-redes .rd-desglose td.es-mal { color: var(--rd-mal); font-weight: 700; }
+.page-redes .rd-cert { display: grid; gap: 44px; grid-template-columns: minmax(0, 1fr); }
+.page-redes .rd-cert > section { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+.page-redes .rd-ficha { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1px; margin: 0; border: 1px solid var(--dv-border-subtle); border-radius: var(--rd-radio); overflow: hidden; background: var(--dv-border-subtle); }
+.page-redes .rd-ficha > div { padding: 14px 16px; background: var(--dv-surface-card); }
+.page-redes .rd-ficha dt { font-size: 12.5px; font-weight: 600; color: var(--dv-text-muted); margin-bottom: 4px; }
+.page-redes .rd-ficha dd { margin: 0; font-size: 15.5px; color: var(--dv-text-primary); }
+.page-redes .rd-ruta { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.page-redes .rd-ruta__paso { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; padding: 16px; border: 1px solid var(--dv-border-subtle); border-radius: var(--rd-radio); background: var(--dv-surface-card); }
+.page-redes .rd-ruta__paso:hover { border-color: var(--dv-border-strong); }
+.page-redes .rd-ruta__paso h3 { margin: 0 0 4px; font-family: var(--rd-titulo); font-size: 19px; }
+.page-redes .rd-ruta__paso h3 a { color: inherit; text-decoration: none; }
+.page-redes .rd-ruta__paso h3 a::after { content: ""; position: absolute; inset: 0; }
+.page-redes .rd-ruta__paso p { margin: 0 0 6px; color: var(--dv-text-secondary); }
+.page-redes .rd-ruta__paso .rd-modulo__avance { margin: 0; }
+.page-redes .rd-dominio { display: grid; gap: 8px; padding-top: 18px; border-top: 1px solid var(--dv-border-subtle); }
+.page-redes .rd-dominio__n { font-family: var(--rd-mono); color: var(--rd-acento); }
+.page-redes .rd-objetivos-lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.page-redes .rd-objetivo__texto { margin: 0; font-size: 16px; color: var(--dv-text-primary); }
+.page-redes .rd-objetivo__texto b { font-family: var(--rd-mono); color: var(--rd-acento); margin-right: 4px; }
+.page-redes .rd-objetivo__detalle { margin: 3px 0 0; font-size: 14.5px; color: var(--dv-text-muted); }
+.page-redes .rd-objetivo__lecciones { list-style: none; margin: 7px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.page-redes .rd-objetivo__lecciones a { display: inline-block; padding: 5px 11px; border: 1px solid var(--dv-border-strong); border-radius: 999px; font-size: 13.5px; color: var(--dv-text-primary); text-decoration: none; }
+.page-redes .rd-objetivo__lecciones a:hover { border-color: var(--rd-acento); }
+.page-redes .rd-cert-banda { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 28px; align-items: center; padding: 22px; border: 1px solid var(--dv-border-strong); border-left: 4px solid var(--rd-acento); border-radius: var(--rd-radio); background: var(--dv-surface-card); }
+.page-redes .rd-cert-banda h2 { margin: 0 0 6px; font-family: var(--rd-titulo); font-size: 22px; }
+.page-redes .rd-cert-banda p { margin: 0; color: var(--dv-text-secondary); }
+.page-redes .rd-cert-banda .rd-acciones { margin: 0; }
+
 /* ------------------------------ 10. Responsive y accesibilidad ------ */
 @media (max-width: 991px) {
   .page-redes .rd-dos, .page-redes .rd-leccion-pag { grid-template-columns: minmax(0, 1fr); gap: 28px; }
@@ -320,6 +363,9 @@
   .page-redes .rd-indice:not(:has(.rd-indice__avance)) { display: none; }
 }
 @media (max-width: 640px) {
+  .page-redes .rd-campo--elegir { grid-template-columns: minmax(0, 1fr); }
+  .page-redes .rd-campo--elegir :is(.rd-campo__veredicto, .rd-campo__correcta) { grid-column: 1; }
+  .page-redes .rd-cert-banda { grid-template-columns: minmax(0, 1fr); }
   .page-redes .rd-bits { padding: 12px 10px 10px; }
   .page-redes .rd-bits__fila { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   .page-redes .rd-bits__et { padding-top: 0; }

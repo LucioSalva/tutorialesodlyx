@@ -41,4 +41,4 @@ $base = 'redes/' . $modulo['slug'];
     <a class="rd-btn" href="<?= e(url($base)) ?>">Volver a las lecciones</a>
   </div>
 </div>
-<?= rd_config(['vista' => 'practica', 'modulo' => $modulo['slug']]) ?>
+<?= rd_config(['vista' => 'practica', 'modulo' => $modulo['slug'], 'bancos' => rd_bancos([$modulo])]) ?>

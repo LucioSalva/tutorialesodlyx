@@ -14,8 +14,19 @@ export const bits = (filas, pie = '') => ({ t: 'bits', filas: filas.map(([et, ip
 /** Ejemplo resuelto: los pasos los calcula el motor a partir de spec. */
 export const ejemplo = (nivel, titulo, spec, cierre = '') => ({ t: 'ejemplo', nivel, titulo, spec, cierre });
 export const ejercicios = (titulo, texto, items) => ({ t: 'ejercicios', titulo, texto, items });
-/** Pregunta de concepto de opción múltiple (correcta = índice). */
-export const op = (pregunta, opciones, correcta, porque) => ({ tipo: 'opcion', pregunta, opciones, correcta, porque });
+/**
+ * Preguntas escritas a mano. `porque` es un párrafo, o un arreglo de pasos (razonamiento por pasos:
+ * así se escriben los «ejemplos resueltos» de los temas de concepto). `extra` admite { codigo, tabla, pistas }.
+ */
+const expl = (porque) => (Array.isArray(porque) ? { pasos: porque } : { porque });
+/** Opción múltiple (correcta = índice). */
+export const op = (pregunta, opciones, correcta, porque, extra = {}) => ({ tipo: 'opcion', pregunta, opciones, correcta, ...expl(porque), ...extra });
+/** Varias respuestas («elige dos»): correctas = índices. */
+export const vs = (pregunta, opciones, correctas, porque, extra = {}) => ({ tipo: 'varias', pregunta, opciones, correctas, ...expl(porque), ...extra });
+/** Relacionar: pares = [[concepto, respuesta], …]; sobran = respuestas distractoras. */
+export const rel = (pregunta, pares, porque, sobran = [], extra = {}) => ({ tipo: 'relacionar', pregunta, pares, ...(sobran.length ? { extra: sobran } : {}), ...expl(porque), ...extra });
+/** Ordenar: orden = elementos en el orden correcto. */
+export const ord = (pregunta, orden, porque, extra = {}) => ({ tipo: 'ordenar', pregunta, orden, ...expl(porque), ...extra });
 /** Atajos de los tipos más usados. */
 export const an = (ip, pr) => ({ tipo: 'analizar', ip, p: pr });
 export const td = (ip, pr) => ({ tipo: 'tipo-direccion', ip, p: pr });

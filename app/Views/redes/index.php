@@ -1,7 +1,7 @@
 <?php
 /**
  * Academia de Redes · portada.
- * @var array $modulos
+ * @var array $modulos @var array|null $cert
  */
 require_once \App\Core\Config::basePath('app/Views/components/redes-ui.php');
 ?>
@@ -33,6 +33,19 @@ require_once \App\Core\Config::basePath('app/Views/components/redes-ui.php');
 </header>
 
 <div class="container rd-contenido">
+
+  <?php if (!empty($cert)): ?>
+  <section class="rd-cert-banda" aria-labelledby="t-cert">
+    <div>
+      <h2 id="t-cert">Prepárate para la certificación <?= e($cert['corto']) ?></h2>
+      <p><?= e($cert['resumen']) ?></p>
+    </div>
+    <div class="rd-acciones">
+      <a class="rd-btn rd-btn--primario" href="<?= e(url('redes/certificacion')) ?>">Ver la guía del examen</a>
+      <a class="rd-btn" href="<?= e(url('redes/certificacion/simulador')) ?>">Hacer un simulacro</a>
+    </div>
+  </section>
+  <?php endif; ?>
 
   <section aria-labelledby="t-modulos">
     <h2 class="rd-h2" id="t-modulos">Módulos</h2>
